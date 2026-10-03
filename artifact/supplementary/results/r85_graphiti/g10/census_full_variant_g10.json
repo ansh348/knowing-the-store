@@ -1,0 +1,121 @@
+{
+ "source": "census_forbidding_g10.json",
+ "registered_104_rows": {
+  "obligations": 104,
+  "join_split": {
+   "superseded_or_expired": 74,
+   "unflagged": 22,
+   "retracted": 8
+  },
+  "superseded_or_expired": 74,
+  "RECOVERED": 30,
+  "STALE_ACTIVE": 21,
+  "EXTRACTION_MISS": 23,
+  "recall": 0.4054,
+  "by_attack_vector": {
+   "AV1_superseded_preference": {
+    "n": 38,
+    "RECOVERED": 18,
+    "STALE_ACTIVE": 11,
+    "EXTRACTION_MISS": 9,
+    "recall": 0.4737
+   },
+   "AV2_expired_logistics": {
+    "n": 11,
+    "RECOVERED": 1,
+    "STALE_ACTIVE": 5,
+    "EXTRACTION_MISS": 5,
+    "recall": 0.0909
+   },
+   "AV4_multi_version_fact": {
+    "n": 25,
+    "RECOVERED": 11,
+    "STALE_ACTIVE": 5,
+    "EXTRACTION_MISS": 9,
+    "recall": 0.44
+   }
+  }
+ },
+ "full_variant_47": {
+  "obligations": 47,
+  "join_split": {
+   "superseded_or_expired": 34,
+   "unflagged": 9,
+   "retracted": 4
+  },
+  "superseded_or_expired": 34,
+  "RECOVERED": 13,
+  "STALE_ACTIVE": 10,
+  "EXTRACTION_MISS": 11,
+  "recall": 0.3824,
+  "by_attack_vector": {
+   "AV1_superseded_preference": {
+    "n": 16,
+    "RECOVERED": 7,
+    "STALE_ACTIVE": 5,
+    "EXTRACTION_MISS": 4,
+    "recall": 0.4375
+   },
+   "AV2_expired_logistics": {
+    "n": 7,
+    "RECOVERED": 1,
+    "STALE_ACTIVE": 3,
+    "EXTRACTION_MISS": 3,
+    "recall": 0.1429
+   },
+   "AV4_multi_version_fact": {
+    "n": 11,
+    "RECOVERED": 5,
+    "STALE_ACTIVE": 2,
+    "EXTRACTION_MISS": 4,
+    "recall": 0.4545
+   }
+  }
+ },
+ "distinct_member_sets": {
+  "obligations": 56,
+  "join_split": {
+   "superseded_or_expired": 39,
+   "unflagged": 13,
+   "retracted": 4
+  },
+  "superseded_or_expired": 39,
+  "RECOVERED": 16,
+  "STALE_ACTIVE": 11,
+  "EXTRACTION_MISS": 12,
+  "recall": 0.4103,
+  "by_attack_vector": {
+   "AV1_superseded_preference": {
+    "n": 21,
+    "RECOVERED": 10,
+    "STALE_ACTIVE": 6,
+    "EXTRACTION_MISS": 5,
+    "recall": 0.4762
+   },
+   "AV2_expired_logistics": {
+    "n": 7,
+    "RECOVERED": 1,
+    "STALE_ACTIVE": 3,
+    "EXTRACTION_MISS": 3,
+    "recall": 0.1429
+   },
+   "AV4_multi_version_fact": {
+    "n": 11,
+    "RECOVERED": 5,
+    "STALE_ACTIVE": 2,
+    "EXTRACTION_MISS": 4,
+    "recall": 0.4545
+   }
+  }
+ },
+ "non_full_rows": 57,
+ "non_full_rows_repeating_the_full_siblings_members": 48,
+ "member_set_bucket_disagreements": 0,
+ "precision": {
+  "numerator": 54,
+  "denominator": 807,
+  "value": 0.0669,
+  "note": "over edges; unchanged by the re-aggregation"
+ },
+ "note": "D-R85-16: the graph is the FULL store for every item; the FULL-variant reading is the one the main text prints, the registered 104-row reading and its P1 verdict print beside it"
+}

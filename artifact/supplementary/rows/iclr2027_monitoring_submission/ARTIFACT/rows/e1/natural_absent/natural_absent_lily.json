@@ -1,0 +1,340 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 22,
+    "in": 22705,
+    "out": 8206,
+    "usd": 0.022211599999999998
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 4,
+  "persona": "lily",
+  "probes": [
+    {
+      "domain": "personal reading habits",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [],
+      "max_cosine": 0.2447,
+      "note": "",
+      "question": "What was the title and author of the last novel you read purely for pleasure?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2447,
+          "entry_id": "lb_00207",
+          "text": "User has a literature review described as 'promising' by their supervisor"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2239,
+          "entry_id": "lb_00210",
+          "text": "User has a literature review described as 'promising' but needing improvement"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.198,
+          "entry_id": "lb_00280",
+          "text": "User enjoys finding unique vintage items that evoke a strong personal or cinematic feeling"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1896,
+          "entry_id": "lb_00255",
+          "text": "User enjoys attending panel discussions solo and appreciates nuanced conversations about queer representation."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1868,
+          "entry_id": "lb_00130",
+          "text": "User studies environmental degradation and spends their days reading papers about it"
+        }
+      ],
+      "why_absent": "The memory store does not include any information about Lily's leisure reading or novels she has read."
+    },
+    {
+      "domain": "personal living environment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can"
+      ],
+      "max_cosine": 0.3027,
+      "note": "",
+      "question": "Can you describe the layout and decor style of your childhood bedroom?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3027,
+          "entry_id": "lb_00280",
+          "text": "User enjoys finding unique vintage items that evoke a strong personal or cinematic feeling"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2928,
+          "entry_id": "lb_00275",
+          "text": "User enjoys styling clothes with black, cream, denim, and earth tones."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2606,
+          "entry_id": "lb_00019",
+          "text": "User has experience working the floor at their parents' Chinese restaurant since childhood."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2568,
+          "entry_id": "lb_00044",
+          "text": "User's grandmother has a few really old faded photos from Guangzhou, mostly of her as a teenager, kept in a tin box in her room."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.251,
+          "entry_id": "lb_00282",
+          "text": "User has a strong interest in vintage clothing, especially items with character and history."
+        }
+      ],
+      "why_absent": "No details about Lily's childhood home or bedroom environment are present in the memory store."
+    },
+    {
+      "domain": "personal history with pets",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "name"
+      ],
+      "max_cosine": 0.2859,
+      "note": "",
+      "question": "What kind of pet did you have growing up, and what was its name?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2859,
+          "entry_id": "lb_00182",
+          "text": "User grew up eating really good dumplings"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2539,
+          "entry_id": "lb_00393",
+          "text": "User grew up hearing Cantonese at home and at a restaurant."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2415,
+          "entry_id": "lb_00019",
+          "text": "User has experience working the floor at their parents' Chinese restaurant since childhood."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2356,
+          "entry_id": "lb_00088",
+          "text": "User's partner Soph grew up in a very small nuclear family with about four people."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2255,
+          "entry_id": "lb_00033",
+          "text": "User is very close to their nai nai, who practically raised them because their parents were always working."
+        }
+      ],
+      "why_absent": "There is no information about any pets Lily may have had in the past."
+    },
+    {
+      "domain": "childhood recreation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "friends"
+      ],
+      "max_cosine": 0.2241,
+      "note": "",
+      "question": "What was your favorite childhood game or activity to play with friends?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2241,
+          "entry_id": "lb_00260",
+          "text": "User prefers attending queer community events with friends, specifically picnics and art exhibitions"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2214,
+          "entry_id": "lb_00159",
+          "text": "User has friends named Jess and Tom who are part of the camping group."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2181,
+          "entry_id": "lb_00081",
+          "text": "User's favorite family event is Lunar New Year."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2027,
+          "entry_id": "lb_00182",
+          "text": "User grew up eating really good dumplings"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1919,
+          "entry_id": "lb_00254",
+          "text": "User prefers attending queer art exhibitions and community picnics with friends."
+        }
+      ],
+      "why_absent": "The memory store lacks details about Lily's childhood hobbies or games."
+    },
+    {
+      "domain": "sports equipment preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "brand"
+      ],
+      "max_cosine": 0.2386,
+      "note": "",
+      "question": "What is your preferred brand and model of running shoes for exercise?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2386,
+          "entry_id": "lb_00347",
+          "text": "User currently uses Bonsoy oat milk as their preferred brand for steaming and latte art."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2253,
+          "entry_id": "lb_00279",
+          "text": "User values sustainable and affordable fashion choices"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1872,
+          "entry_id": "lb_00352",
+          "text": "User prefers Bonsoy oat milk for steaming and latte art due to its smoothness, predictability, and foam quality."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1815,
+          "entry_id": "lb_00275",
+          "text": "User enjoys styling clothes with black, cream, denim, and earth tones."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1792,
+          "entry_id": "lb_00345",
+          "text": "User prefers Bonsoy oat milk for its steaming and foaming qualities."
+        }
+      ],
+      "why_absent": "No data about Lily's sports gear or exercise equipment preferences is stored."
+    },
+    {
+      "domain": "past entertainment experiences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "event",
+        "music",
+        "university"
+      ],
+      "max_cosine": 0.465,
+      "note": "",
+      "question": "Can you tell me about a memorable concert or live music event you attended before university?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.465,
+          "entry_id": "lb_00180",
+          "text": "User enjoys live music gigs in Melbourne, especially energetic and chaotic shows."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4633,
+          "entry_id": "lb_00437",
+          "text": "User is attending a festival with a few mates from university."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.4444,
+          "entry_id": "lb_00178",
+          "text": "User appreciates live music experiences in Melbourne and values the unique atmosphere of Melbourne gigs."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.4391,
+          "entry_id": "lb_00177",
+          "text": "User attended a gig by the band Glass Lung at The Tote in Collingwood."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3948,
+          "entry_id": "lb_00174",
+          "text": "User went to a gig at the Tote in Collingwood."
+        }
+      ],
+      "why_absent": "The memory store does not cover Lily's attendance at concerts or live events prior to university."
+    },
+    {
+      "domain": "cooking experiences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "most",
+        "new"
+      ],
+      "max_cosine": 0.406,
+      "note": "",
+      "question": "What was the most recent recipe you tried cooking that was new to you?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.406,
+          "entry_id": "lb_00113",
+          "text": "User has a cooking rotation figured out for themselves."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3007,
+          "entry_id": "lb_00356",
+          "text": "User's nai nai made char siu bao from scratch at a restaurant."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.298,
+          "entry_id": "lb_00104",
+          "text": "User prefers batch cooking on Sundays due to a busy schedule with university and work."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2919,
+          "entry_id": "lb_00114",
+          "text": "User finds social situations involving food challenging due to their vegan diet."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2895,
+          "entry_id": "lb_00357",
+          "text": "User's nai nai makes char siu bao from scratch with a secret recipe."
+        }
+      ],
+      "why_absent": "There is no record of specific recipes Lily has recently attempted to cook."
+    }
+  ],
+  "threshold": 0.295
+}

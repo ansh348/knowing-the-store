@@ -1,0 +1,844 @@
+{
+  "EXPLORATORY": true,
+  "Q1": {
+    "analogue_note": "E3's (a)/(b) pair both retrieve on 100% of cells, so the unselected S2-S1 is the correct analogue; (vi)-(v) additionally carries E2's 68% gating decision and is not the same quantity",
+    "e2_mix": {
+      "PN": 0.15500945179584122,
+      "PRESENT": 0.2627599243856333,
+      "ablation/unwritten-absent": 0.3534971644612476,
+      "natural-absent": 0.22873345935727787
+    },
+    "e2_per_stratum": {
+      "PN": {
+        "adjusted": false,
+        "est": -0.10975609756097561,
+        "hi": -0.03368934436350168,
+        "interpret": true,
+        "lo": -0.21688056574122577,
+        "n": 82,
+        "unadj": -0.10975609756097561
+      },
+      "PRESENT": {
+        "adjusted": false,
+        "est": -0.04316546762589928,
+        "hi": 0.0,
+        "interpret": true,
+        "lo": -0.0902935606060606,
+        "n": 139,
+        "unadj": -0.04316546762589928
+      },
+      "ablation/unwritten-absent": {
+        "adjusted": false,
+        "est": -0.10160427807486631,
+        "hi": -0.04838709677419355,
+        "interpret": true,
+        "lo": -0.16202787950068162,
+        "n": 187,
+        "unadj": -0.10160427807486631
+      },
+      "natural-absent": {
+        "adjusted": false,
+        "est": -0.008264462809917356,
+        "hi": 0.017097701149425285,
+        "interpret": true,
+        "lo": -0.03638738127544097,
+        "n": 121,
+        "unadj": -0.008264462809917356
+      }
+    },
+    "e2_pooled": {
+      "adjusted": true,
+      "est": -0.07107677028149752,
+      "hi": -0.0435942370999589,
+      "interpret": true,
+      "lo": -0.102166487618044,
+      "n": 529,
+      "unadj": -0.0661625708884688
+    },
+    "e2_published_hc2_per_stratum": {
+      "PN": {
+        "adjusted": false,
+        "est": -0.0975609756097561,
+        "hi": -0.021505376344086023,
+        "interpret": true,
+        "lo": -0.2054794520547945,
+        "n": 82,
+        "unadj": -0.0975609756097561
+      },
+      "PRESENT": {
+        "adjusted": false,
+        "est": -0.03597122302158273,
+        "hi": 0.007814037893700786,
+        "interpret": true,
+        "lo": -0.08277298850574713,
+        "n": 139,
+        "unadj": -0.03597122302158273
+      },
+      "ablation/unwritten-absent": {
+        "adjusted": false,
+        "est": -0.0855614973262032,
+        "hi": -0.0325999298737728,
+        "interpret": true,
+        "lo": -0.14139865370231863,
+        "n": 187,
+        "unadj": -0.0855614973262032
+      },
+      "natural-absent": {
+        "adjusted": false,
+        "est": 0.0,
+        "hi": 0.023626734158230217,
+        "interpret": true,
+        "lo": -0.02459016393442623,
+        "n": 121,
+        "unadj": 0.0
+      }
+    },
+    "e2_published_hc2_pooled": {
+      "adjusted": true,
+      "est": -0.05786489082911299,
+      "hi": -0.030677404202487366,
+      "interpret": true,
+      "lo": -0.0874480504247344,
+      "n": 529,
+      "unadj": -0.054820415879017016
+    },
+    "e3_mix": {
+      "PN": 0.11870503597122302,
+      "PRESENT": 0.2997601918465228,
+      "ablation/unwritten-absent": 0.001199040767386091,
+      "natural-absent": 0.580335731414868
+    },
+    "mutual_containment": {
+      "a": false,
+      "a''": true
+    },
+    "observed_a_vs_b": {
+      "adjusted": true,
+      "est": -0.00908643492584911,
+      "hi": 0.014263524776464488,
+      "interpret": true,
+      "lo": -0.02992132701704402,
+      "n": 834,
+      "unadj": -0.011990407673860911
+    },
+    "observed_ac_vs_b": {
+      "adjusted": true,
+      "est": -0.023113863935777055,
+      "hi": 0.0008195034891982278,
+      "interpret": true,
+      "lo": -0.04590805097876315,
+      "n": 834,
+      "unadj": -0.02038369304556355
+    },
+    "predicted_at_e3_mix": {
+      "est": -0.030885881106818072,
+      "hi": -0.007941843550154808,
+      "lo": -0.055575449971590606
+    },
+    "residual_vs_a": 0.021799446180968962,
+    "residual_vs_ac": 0.007772017171041017
+  },
+  "Q2": {
+    "(a)_minus_(a'')|confab": {
+      "label:PN": {
+        "adjusted": false,
+        "est": 0.04040404040404041,
+        "hi": 0.08247659131750686,
+        "interpret": true,
+        "lo": 0.0,
+        "n": 99,
+        "unadj": 0.04040404040404041
+      },
+      "label:PRESENT": {
+        "adjusted": false,
+        "est": 0.012,
+        "hi": 0.04925657436433297,
+        "interpret": true,
+        "lo": -0.030571037309430782,
+        "n": 250,
+        "unadj": 0.012
+      },
+      "label:ablation/unwritten-absent": {
+        "adjusted": false,
+        "est": 0.0,
+        "hi": 0.0,
+        "interpret": false,
+        "lo": 0.0,
+        "n": 1,
+        "unadj": 0.0
+      },
+      "label:natural-absent": {
+        "adjusted": false,
+        "est": 0.0,
+        "hi": 0.01891978774268327,
+        "interpret": true,
+        "lo": -0.016003225806451613,
+        "n": 484,
+        "unadj": 0.0
+      },
+      "rung:14": {
+        "adjusted": true,
+        "est": -0.004391435057872069,
+        "hi": 0.012883266921964402,
+        "interpret": true,
+        "lo": -0.02185747914185746,
+        "n": 180,
+        "unadj": -0.005555555555555556
+      },
+      "rung:20": {
+        "adjusted": true,
+        "est": 0.020743780456387494,
+        "hi": 0.05362819474362921,
+        "interpret": true,
+        "lo": -0.013842104976483749,
+        "n": 200,
+        "unadj": 0.005
+      },
+      "rung:24": {
+        "adjusted": true,
+        "est": 0.015896572863626154,
+        "hi": 0.042329244372064576,
+        "interpret": true,
+        "lo": -0.012081598409016462,
+        "n": 214,
+        "unadj": 0.014018691588785047
+      },
+      "rung:32": {
+        "adjusted": true,
+        "est": 0.019629784875304583,
+        "hi": 0.05466514477934274,
+        "interpret": true,
+        "lo": -0.014970464787352126,
+        "n": 240,
+        "unadj": 0.016666666666666666
+      }
+    },
+    "(a)_minus_(a'')|credit": {
+      "label:PN": {
+        "adjusted": false,
+        "est": -0.06565656565656566,
+        "hi": -0.008126829268292687,
+        "interpret": true,
+        "lo": -0.1369162087912088,
+        "n": 99,
+        "unadj": -0.06565656565656566
+      },
+      "label:PRESENT": {
+        "adjusted": false,
+        "est": 0.05,
+        "hi": 0.10774325376232484,
+        "interpret": true,
+        "lo": -4.9407114624503116e-05,
+        "n": 250,
+        "unadj": 0.05
+      },
+      "label:ablation/unwritten-absent": {
+        "adjusted": false,
+        "est": 0.0,
+        "hi": 0.0,
+        "interpret": false,
+        "lo": 0.0,
+        "n": 1,
+        "unadj": 0.0
+      },
+      "label:natural-absent": {
+        "adjusted": false,
+        "est": 0.0,
+        "hi": 0.013464147286821705,
+        "interpret": true,
+        "lo": -0.01744441044471644,
+        "n": 484,
+        "unadj": 0.0
+      },
+      "rung:14": {
+        "adjusted": true,
+        "est": 0.052508707590006885,
+        "hi": 0.18827957139375331,
+        "interpret": true,
+        "lo": -0.012100843072749674,
+        "n": 180,
+        "unadj": 0.022222222222222223
+      },
+      "rung:20": {
+        "adjusted": true,
+        "est": 0.05559475816461642,
+        "hi": 0.08912849958792797,
+        "interpret": true,
+        "lo": 0.026939207268020786,
+        "n": 200,
+        "unadj": 0.04
+      },
+      "rung:24": {
+        "adjusted": true,
+        "est": -0.024844887419934587,
+        "hi": 0.019513292875868813,
+        "interpret": true,
+        "lo": -0.06930214259178188,
+        "n": 214,
+        "unadj": -0.007009345794392523
+      },
+      "rung:32": {
+        "adjusted": true,
+        "est": -0.029392608013929133,
+        "hi": 0.0003362858529542946,
+        "interpret": true,
+        "lo": -0.06000471677578086,
+        "n": 240,
+        "unadj": -0.01875
+      }
+    },
+    "(a)_minus_(b)|confab": {
+      "label:PN": {
+        "adjusted": false,
+        "est": -0.010101010101010102,
+        "hi": 0.03031076066790352,
+        "interpret": true,
+        "lo": -0.05884866767219708,
+        "n": 99,
+        "unadj": -0.010101010101010102
+      },
+      "label:PRESENT": {
+        "adjusted": false,
+        "est": -0.016,
+        "hi": 0.026833019037356312,
+        "interpret": true,
+        "lo": -0.06610195392365575,
+        "n": 250,
+        "unadj": -0.016
+      },
+      "label:ablation/unwritten-absent": {
+        "adjusted": false,
+        "est": 0.0,
+        "hi": 0.0,
+        "interpret": false,
+        "lo": 0.0,
+        "n": 1,
+        "unadj": 0.0
+      },
+      "label:natural-absent": {
+        "adjusted": false,
+        "est": -0.010330578512396695,
+        "hi": 0.010871948893974063,
+        "interpret": true,
+        "lo": -0.03233906868287168,
+        "n": 484,
+        "unadj": -0.010330578512396695
+      },
+      "rung:14": {
+        "adjusted": true,
+        "est": -0.008561727970684623,
+        "hi": 0.01754385964912283,
+        "interpret": true,
+        "lo": -0.034321390811690895,
+        "n": 180,
+        "unadj": -0.011111111111111112
+      },
+      "rung:20": {
+        "adjusted": true,
+        "est": -0.00281057265178699,
+        "hi": 0.04269626101007421,
+        "interpret": true,
+        "lo": -0.0464712301749197,
+        "n": 200,
+        "unadj": -0.01
+      },
+      "rung:24": {
+        "adjusted": true,
+        "est": 0.0012211478815840463,
+        "hi": 0.050642422803732594,
+        "interpret": true,
+        "lo": -0.04666039349208536,
+        "n": 214,
+        "unadj": 0.0
+      },
+      "rung:32": {
+        "adjusted": true,
+        "est": -0.020908333511615872,
+        "hi": 0.0039360635704208495,
+        "interpret": true,
+        "lo": -0.04667206770029659,
+        "n": 240,
+        "unadj": -0.025
+      }
+    },
+    "(a)_minus_(b)|credit": {
+      "label:PN": {
+        "adjusted": false,
+        "est": 0.025252525252525252,
+        "hi": 0.07017543859649122,
+        "interpret": true,
+        "lo": -0.030007575757575757,
+        "n": 99,
+        "unadj": 0.025252525252525252
+      },
+      "label:PRESENT": {
+        "adjusted": false,
+        "est": 0.01,
+        "hi": 0.07371943385876782,
+        "interpret": true,
+        "lo": -0.04285993303571429,
+        "n": 250,
+        "unadj": 0.01
+      },
+      "label:ablation/unwritten-absent": {
+        "adjusted": false,
+        "est": 0.0,
+        "hi": 0.0,
+        "interpret": false,
+        "lo": 0.0,
+        "n": 1,
+        "unadj": 0.0
+      },
+      "label:natural-absent": {
+        "adjusted": false,
+        "est": 0.010330578512396695,
+        "hi": 0.03361344537815126,
+        "interpret": true,
+        "lo": -0.010688405797101449,
+        "n": 484,
+        "unadj": 0.010330578512396695
+      },
+      "rung:14": {
+        "adjusted": true,
+        "est": 0.056445607563022505,
+        "hi": 0.18109962237677146,
+        "interpret": true,
+        "lo": 0.00025925525080878505,
+        "n": 180,
+        "unadj": 0.011111111111111112
+      },
+      "rung:20": {
+        "adjusted": true,
+        "est": 0.045215494845729315,
+        "hi": 0.07918755611857999,
+        "interpret": true,
+        "lo": 0.01215130716931085,
+        "n": 200,
+        "unadj": 0.035
+      },
+      "rung:24": {
+        "adjusted": true,
+        "est": -0.011451645839385845,
+        "hi": 0.020726137467392613,
+        "interpret": true,
+        "lo": -0.0468960191200674,
+        "n": 214,
+        "unadj": -0.002336448598130841
+      },
+      "rung:32": {
+        "adjusted": true,
+        "est": 0.005697847777784868,
+        "hi": 0.04358575975604975,
+        "interpret": true,
+        "lo": -0.03537830376678811,
+        "n": 240,
+        "unadj": 0.00625
+      }
+    }
+  },
+  "Q3": {
+    "a_minus_ac": {
+      "adjusted": true,
+      "est": -0.040257648953301375,
+      "hi": 0.11764705882352941,
+      "interpret": false,
+      "lo": -0.16666666666666666,
+      "n": 18,
+      "unadj": 0.0
+    },
+    "a_minus_b": {
+      "adjusted": true,
+      "est": -0.08051529790660164,
+      "hi": 0.0,
+      "interpret": false,
+      "lo": -0.27285353535353535,
+      "n": 18,
+      "unadj": -0.1111111111111111
+    },
+    "by_label": {
+      "PRESENT": 3,
+      "PRESENT-NEGATIVE": 15
+    },
+    "by_rung": {
+      "20": 3,
+      "24": 7,
+      "32": 8
+    },
+    "cells": [
+      "elena:elena_q01:R32",
+      "ingrid:ingrid_q08:R20",
+      "ingrid:ingrid_q08:R24",
+      "ingrid:ingrid_q08:R32",
+      "kenji:kenji_q03:R32",
+      "kofi:kofi_q01:R20",
+      "kofi:kofi_q02:R24",
+      "kofi:kofi_q02:R32",
+      "mehmet:mehmet_q02:R24",
+      "mehmet:mehmet_q02:R32",
+      "pan:pan_q01:R20",
+      "pan:pan_q01:R24",
+      "pan:pan_q01:R32",
+      "raj:raj_q02:R24",
+      "raj:raj_q02:R32",
+      "saga:saga_q02:R24",
+      "zara:zara_q02:R24",
+      "zara:zara_q02:R32"
+    ],
+    "habitat_n": 18,
+    "per_arm": {
+      "(a'')": {
+        "confab": 0.3333333333333333,
+        "credit": 0.5
+      },
+      "(a')": {
+        "confab": 0.5,
+        "credit": 0.4722222222222222
+      },
+      "(a)": {
+        "confab": 0.3333333333333333,
+        "credit": 0.3611111111111111
+      },
+      "(b)": {
+        "confab": 0.4444444444444444,
+        "credit": 0.3888888888888889
+      },
+      "(c)": {
+        "confab": 0.0,
+        "credit": 0.0
+      }
+    }
+  },
+  "Q4": {
+    "ALL": {
+      "credit_ac": 0.7559952038369304,
+      "credit_b": 0.7511990407673861,
+      "delta": {
+        "adjusted": true,
+        "est": 0.016508744246850986,
+        "hi": 0.039993779942266355,
+        "interpret": true,
+        "lo": -0.0077591404762040435,
+        "n": 834,
+        "unadj": 0.004796163069544364
+      }
+    },
+    "PN": {
+      "credit_ac": 0.5151515151515151,
+      "credit_b": 0.42424242424242425,
+      "delta": {
+        "adjusted": false,
+        "est": 0.09090909090909091,
+        "hi": 0.15844480724668208,
+        "interpret": true,
+        "lo": 0.03920751633986928,
+        "n": 99,
+        "unadj": 0.09090909090909091
+      }
+    },
+    "PRESENT": {
+      "credit_ac": 0.478,
+      "credit_b": 0.518,
+      "delta": {
+        "adjusted": false,
+        "est": -0.04,
+        "hi": 0.005210553633217974,
+        "interpret": true,
+        "lo": -0.08776710684273709,
+        "n": 250,
+        "unadj": -0.04
+      }
+    },
+    "ablation/unwritten-absent": {
+      "credit_ac": 0.0,
+      "credit_b": 0.0,
+      "delta": {
+        "adjusted": false,
+        "est": 0.0,
+        "hi": 0.0,
+        "interpret": false,
+        "lo": 0.0,
+        "n": 1,
+        "unadj": 0.0
+      }
+    },
+    "natural-absent": {
+      "credit_ac": 0.9504132231404959,
+      "credit_b": 0.9400826446280992,
+      "delta": {
+        "adjusted": false,
+        "est": 0.010330578512396695,
+        "hi": 0.02539145259533898,
+        "interpret": true,
+        "lo": 0.0,
+        "n": 484,
+        "unadj": 0.010330578512396695
+      }
+    }
+  },
+  "Q5": {
+    "WARNING": "FITTED ON EVAL DATA; HYPOTHESIS-GENERATING ONLY; NO CLAIM",
+    "dominating_thresholds": [],
+    "reference": {
+      "(a'')": {
+        "confab": 0.07673860911270983,
+        "credit": 0.7559952038369304
+      },
+      "(a)": {
+        "confab": 0.08513189448441247,
+        "credit": 0.763189448441247
+      },
+      "(b)": {
+        "confab": 0.09712230215827339,
+        "credit": 0.7511990407673861
+      }
+    },
+    "sweep": [
+      {
+        "confab": 0.07673860911270983,
+        "credit": 0.7559952038369304,
+        "fires": 834,
+        "rate": 1.0,
+        "t": 0.0
+      },
+      {
+        "confab": 0.07913669064748201,
+        "credit": 0.7529976019184652,
+        "fires": 362,
+        "rate": 0.434052757793765,
+        "t": 0.05
+      },
+      {
+        "confab": 0.07913669064748201,
+        "credit": 0.7529976019184652,
+        "fires": 346,
+        "rate": 0.4148681055155875,
+        "t": 0.1
+      },
+      {
+        "confab": 0.08992805755395683,
+        "credit": 0.7440047961630696,
+        "fires": 133,
+        "rate": 0.15947242206235013,
+        "t": 0.15
+      },
+      {
+        "confab": 0.08992805755395683,
+        "credit": 0.7440047961630696,
+        "fires": 133,
+        "rate": 0.15947242206235013,
+        "t": 0.2
+      },
+      {
+        "confab": 0.09712230215827339,
+        "credit": 0.75,
+        "fires": 13,
+        "rate": 0.015587529976019185,
+        "t": 0.25
+      },
+      {
+        "confab": 0.09712230215827339,
+        "credit": 0.75,
+        "fires": 13,
+        "rate": 0.015587529976019185,
+        "t": 0.3
+      },
+      {
+        "confab": 0.09952038369304557,
+        "credit": 0.750599520383693,
+        "fires": 4,
+        "rate": 0.004796163069544364,
+        "t": 0.35
+      },
+      {
+        "confab": 0.09952038369304557,
+        "credit": 0.750599520383693,
+        "fires": 4,
+        "rate": 0.004796163069544364,
+        "t": 0.4
+      },
+      {
+        "confab": 0.09712230215827339,
+        "credit": 0.7511990407673861,
+        "fires": 0,
+        "rate": 0.0,
+        "t": 0.45
+      },
+      {
+        "confab": 0.09712230215827339,
+        "credit": 0.7511990407673861,
+        "fires": 0,
+        "rate": 0.0,
+        "t": 0.5
+      },
+      {
+        "confab": 0.09712230215827339,
+        "credit": 0.7511990407673861,
+        "fires": 0,
+        "rate": 0.0,
+        "t": 0.55
+      },
+      {
+        "confab": 0.09712230215827339,
+        "credit": 0.7511990407673861,
+        "fires": 0,
+        "rate": 0.0,
+        "t": 0.6
+      },
+      {
+        "confab": 0.09712230215827339,
+        "credit": 0.7511990407673861,
+        "fires": 0,
+        "rate": 0.0,
+        "t": 0.65
+      },
+      {
+        "confab": 0.09712230215827339,
+        "credit": 0.7511990407673861,
+        "fires": 0,
+        "rate": 0.0,
+        "t": 0.7
+      },
+      {
+        "confab": 0.09712230215827339,
+        "credit": 0.7511990407673861,
+        "fires": 0,
+        "rate": 0.0,
+        "t": 0.75
+      },
+      {
+        "confab": 0.09712230215827339,
+        "credit": 0.7511990407673861,
+        "fires": 0,
+        "rate": 0.0,
+        "t": 0.8
+      },
+      {
+        "confab": 0.09712230215827339,
+        "credit": 0.7511990407673861,
+        "fires": 0,
+        "rate": 0.0,
+        "t": 0.85
+      },
+      {
+        "confab": 0.09712230215827339,
+        "credit": 0.7511990407673861,
+        "fires": 0,
+        "rate": 0.0,
+        "t": 0.9
+      },
+      {
+        "confab": 0.09712230215827339,
+        "credit": 0.7511990407673861,
+        "fires": 0,
+        "rate": 0.0,
+        "t": 0.95
+      },
+      {
+        "confab": 0.09712230215827339,
+        "credit": 0.7511990407673861,
+        "fires": 0,
+        "rate": 0.0,
+        "t": 1.0
+      }
+    ]
+  },
+  "Q6": {
+    "mix_standardised": [
+      {
+        "raw": 0.05555555555555555,
+        "rung": 14,
+        "standardised": 0.06997582833641261,
+        "within_label": {
+          "ABSENT": 0.04132231404958678,
+          "PRESENT": 0.07407407407407407,
+          "PRESENT-NEGATIVE": 0.2
+        }
+      },
+      {
+        "raw": 0.075,
+        "rung": 20,
+        "standardised": 0.07620625459070313,
+        "within_label": {
+          "ABSENT": 0.04918032786885246,
+          "PRESENT": 0.07272727272727272,
+          "PRESENT-NEGATIVE": 0.21739130434782608
+        }
+      },
+      {
+        "raw": 0.08878504672897196,
+        "rung": 24,
+        "standardised": 0.08507454231237754,
+        "within_label": {
+          "ABSENT": 0.05785123966942149,
+          "PRESENT": 0.1016949152542373,
+          "PRESENT-NEGATIVE": 0.17647058823529413
+        }
+      },
+      {
+        "raw": 0.15416666666666667,
+        "rung": 32,
+        "standardised": 0.1438864010367783,
+        "within_label": {
+          "ABSENT": 0.09090909090909091,
+          "PRESENT": 0.2073170731707317,
+          "PRESENT-NEGATIVE": 0.24324324324324326
+        }
+      }
+    ],
+    "raw_ratio_32_over_14": 2.7750000000000004,
+    "rows": [
+      {
+        "cells": 180,
+        "cells_with_any_stale": 0.0,
+        "confab_a": 0.044444444444444446,
+        "confab_b": 0.05555555555555555,
+        "contamination": 0.0,
+        "facts": 1546,
+        "non_absent_share": 0.3277777777777778,
+        "rung": 14,
+        "stale_facts": 0,
+        "store_size": 195.32222222222222
+      },
+      {
+        "cells": 200,
+        "cells_with_any_stale": 0.015,
+        "confab_a": 0.065,
+        "confab_b": 0.075,
+        "contamination": 0.0018214936247723133,
+        "facts": 1647,
+        "non_absent_share": 0.39,
+        "rung": 20,
+        "stale_facts": 3,
+        "store_size": 269.125
+      },
+      {
+        "cells": 214,
+        "cells_with_any_stale": 0.037383177570093455,
+        "confab_a": 0.08878504672897196,
+        "confab_b": 0.08878504672897196,
+        "contamination": 0.006837606837606838,
+        "facts": 1755,
+        "non_absent_share": 0.43457943925233644,
+        "rung": 24,
+        "stale_facts": 12,
+        "store_size": 325.1775700934579
+      },
+      {
+        "cells": 240,
+        "cells_with_any_stale": 0.0375,
+        "confab_a": 0.12916666666666668,
+        "confab_b": 0.15416666666666667,
+        "contamination": 0.006406833956219968,
+        "facts": 1873,
+        "non_absent_share": 0.49583333333333335,
+        "rung": 32,
+        "stale_facts": 12,
+        "store_size": 433.2916666666667
+      }
+    ],
+    "standardised_ratio_32_over_14": 2.0562300505402606
+  },
+  "no_gate_re_evaluated": true,
+  "questions": "FORENSIC_E3.md Q1-Q6",
+  "results_e3_immutable": true
+}

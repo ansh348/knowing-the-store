@@ -1,0 +1,346 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 13,
+    "in": 13854,
+    "out": 4854,
+    "usd": 0.013308
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 3,
+  "persona": "elena",
+  "probes": [
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "want",
+        "work",
+        "you"
+      ],
+      "max_cosine": 0.3274,
+      "note": "",
+      "question": "What kind of music do you usually listen to when you want to relax after work?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.3274,
+          "entry_id": "lb_00294",
+          "text": "User experiences difficulty falling asleep despite feeling exhausted after work shifts."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.3015,
+          "entry_id": "lb_00072",
+          "text": "User uses a scrubs-off ritual as a mental transition from work to home."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2955,
+          "entry_id": "lb_00543",
+          "text": "User uses a specific stoplight on their drive home as a mental checkpoint to leave work behind and transition into home mode."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2895,
+          "entry_id": "lb_00069",
+          "text": "User has difficulty transitioning mentally from work to home, lacking an effective off switch."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2772,
+          "entry_id": "lb_00572",
+          "text": "User recently changed jobs and feels much more settled and happy in the new work environment."
+        }
+      ],
+      "why_absent": "No information about music preferences or listening habits is stored."
+    },
+    {
+      "domain": "Intellectual Interests",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "thought",
+        "you"
+      ],
+      "max_cosine": 0.2482,
+      "note": "",
+      "question": "Can you tell me about a recent book you read and what you thought of it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2482,
+          "entry_id": "lb_00225",
+          "text": "User has watched The Bear and really enjoyed it."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2381,
+          "entry_id": "lb_00570",
+          "text": "User experienced a significant positive change in their life over the past year, including a job change that improved their work environment and personal well-being."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2284,
+          "entry_id": "lb_00229",
+          "text": "User has watched The Bear and Abbott Elementary and enjoyed them."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2056,
+          "entry_id": "lb_00572",
+          "text": "User recently changed jobs and feels much more settled and happy in the new work environment."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2006,
+          "entry_id": "lb_00564",
+          "text": "User changed jobs within the past year and feels much more settled and positive about work now."
+        }
+      ],
+      "why_absent": "No data about books read or reading habits is present."
+    },
+    {
+      "domain": "Transportation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "type",
+        "you"
+      ],
+      "max_cosine": 0.2631,
+      "note": "",
+      "question": "What type of car do you drive or prefer to drive?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2631,
+          "entry_id": "lb_00543",
+          "text": "User uses a specific stoplight on their drive home as a mental checkpoint to leave work behind and transition into home mode."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2186,
+          "entry_id": "lb_00409",
+          "text": "User currently lives in Logan Square and loves their apartment and neighborhood."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2162,
+          "entry_id": "lb_00410",
+          "text": "User is considering moving to Cicero to be closer to family but is conflicted due to attachment to their current neighborhood and lifestyle."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2141,
+          "entry_id": "lb_00470",
+          "text": "User prefers an indoor wedding venue with an outdoor option for cocktail hour"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2041,
+          "entry_id": "lb_00453",
+          "text": "User prefers elegant and non-flashy jewelry"
+        }
+      ],
+      "why_absent": "No details about vehicle ownership or preferences are stored."
+    },
+    {
+      "domain": "Personal Life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.2809,
+      "note": "",
+      "question": "Do you have any pets, and if so, what are their names and breeds?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2809,
+          "entry_id": "lb_00333",
+          "text": "User has two tias named Rosa and Lupe."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2392,
+          "entry_id": "lb_00039",
+          "text": "User has a sister named Sofia who has Down syndrome and is cared for by their parents."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2368,
+          "entry_id": "lb_00101",
+          "text": "User's family includes parents, a sister, and a tia named Rosa"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.225,
+          "entry_id": "lb_00328",
+          "text": "User has a tia named Rosa"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2179,
+          "entry_id": "lb_00429",
+          "text": "User has a daughter named Sofia who has a small, close-knit friend group."
+        }
+      ],
+      "why_absent": "No information about pets or animals is included."
+    },
+    {
+      "domain": "Food and Dining",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "chicago",
+        "eat",
+        "out"
+      ],
+      "max_cosine": 0.4188,
+      "note": "",
+      "question": "What is your favorite restaurant or cuisine to eat out in Chicago?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4188,
+          "entry_id": "lb_00261",
+          "text": "User lives in Chicago"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4162,
+          "entry_id": "lb_00270",
+          "text": "User lives in Chicago."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3734,
+          "entry_id": "lb_00450",
+          "text": "User was wearing jeans and a sweater for a casual dinner at an Italian restaurant in Pilsen"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3669,
+          "entry_id": "lb_00269",
+          "text": "User lives in Chicago in a building built in 1920"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3574,
+          "entry_id": "lb_00189",
+          "text": "User lives in Logan Square neighborhood"
+        }
+      ],
+      "why_absent": "No data about favorite restaurants or dining preferences beyond cooking and dietary preferences."
+    },
+    {
+      "domain": "Travel",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.2996,
+      "note": "",
+      "question": "Have you traveled anywhere interesting for vacation recently? Where did you go?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2996,
+          "entry_id": "lb_00478",
+          "text": "User and Marco want a honeymoon with beautiful beaches and cultural activities like food and walking around towns"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2963,
+          "entry_id": "lb_00487",
+          "text": "User is planning a honeymoon."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2718,
+          "entry_id": "lb_00570",
+          "text": "User experienced a significant positive change in their life over the past year, including a job change that improved their work environment and personal well-being."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2691,
+          "entry_id": "lb_00030",
+          "text": "User has not visited sister Sofia in about 3 weeks due to work."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2646,
+          "entry_id": "lb_00483",
+          "text": "User and Marco are planning a honeymoon trip"
+        }
+      ],
+      "why_absent": "No travel history or recent trips are recorded."
+    },
+    {
+      "domain": "Technology",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.3203,
+      "note": "",
+      "question": "What kind of smartphone or tech gadgets do you use daily?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.3203,
+          "entry_id": "lb_00013",
+          "text": "User uses phone scrolling to decompress after night shifts but recognizes it is not ideal."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3099,
+          "entry_id": "lb_00139",
+          "text": "User is in a relationship that is currently maintained mostly through text messages"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2869,
+          "entry_id": "lb_00242",
+          "text": "User experiences hand fatigue from being on their feet all day and typing notes at night."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2749,
+          "entry_id": "lb_00145",
+          "text": "User's boyfriend Marco works a standard 9-5 schedule in project management with a hybrid work arrangement of 3 days in office and 2 days working from home"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2561,
+          "entry_id": "lb_00244",
+          "text": "User's hands are often tired or sore due to being on their feet all day and typing notes at night."
+        }
+      ],
+      "why_absent": "No information about personal technology devices or usage is stored."
+    }
+  ],
+  "threshold": 0.295
+}

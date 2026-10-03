@@ -1,0 +1,82 @@
+{
+ "claude-haiku-4-5-20251001": {
+  "blind_in": 525,
+  "identifier_ok": true,
+  "indexed_in": 1523,
+  "lane": "claude-haiku-4-5-20251001",
+  "out": [
+   39,
+   200
+  ],
+  "parsed": [
+   "OK",
+   "OK"
+  ],
+  "sample": "```json\n{\"fok\": 42, \"nok_candidates_found\": true, \"nok\": 65, \"would_search\": true}\n```\n\n**Reasoning:**\n\n**FOK (42):** The store contains 8 FINANCIAL_MATERIAL entries, 14 INTELLECTUAL_INTERESTS entries",
+  "served": "claude-haiku-4-5-20251001"
+ },
+ "claude-opus-5": {
+  "blind_in": 691,
+  "identifier_ok": true,
+  "indexed_in": 2114,
+  "lane": "claude-opus-5",
+  "out": [
+   125,
+   134
+  ],
+  "parsed": [
+   "OK",
+   "OK"
+  ],
+  "sample": "{\"fok\": 86, \"nok_candidates_found\": true, \"nok\": 66, \"would_search\": true}",
+  "served": "claude-opus-5"
+ },
+ "gpt-5.6-luna": {
+  "blind_in": 479,
+  "identifier_ok": true,
+  "indexed_in": 1441,
+  "lane": "gpt-5.6-luna",
+  "out": [
+   179,
+   262
+  ],
+  "parsed": [
+   "OK",
+   "OK"
+  ],
+  "sample": "{\"fok\":75,\"nok_candidates_found\":true,\"nok\":65,\"would_search\":true}",
+  "served": "gpt-5.6-luna"
+ },
+ "gpt-5.6-sol": {
+  "blind_in": 479,
+  "identifier_ok": true,
+  "indexed_in": 1441,
+  "lane": "gpt-5.6-sol",
+  "out": [
+   89,
+   197
+  ],
+  "parsed": [
+   "OK",
+   "OK"
+  ],
+  "sample": "{\"fok\":72,\"nok_candidates_found\":true,\"nok\":55,\"would_search\":true}",
+  "served": "gpt-5.6-sol"
+ },
+ "kimi-k3": {
+  "blind_in": 575,
+  "identifier_ok": true,
+  "indexed_in": 1538,
+  "lane": "kimi-k3",
+  "out": [
+   372,
+   695
+  ],
+  "parsed": [
+   "OK",
+   "OK"
+  ],
+  "sample": "{\"fok\": 65, \"nok_candidates_found\": true, \"nok\": 55, \"would_search\": true}",
+  "served": "kimi-k3"
+ }
+}

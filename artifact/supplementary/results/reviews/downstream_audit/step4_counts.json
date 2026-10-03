@@ -1,0 +1,157 @@
+{
+ "cross": {
+  "stale_mini_vs_h45_same_keys": {
+   "mini=gives_stale_value|h45=gives_stale_value": 8,
+   "mini=gives_stale_value|h45=not_flagged": 1,
+   "mini=gives_stale_value|h45=other": 2,
+   "mini=mentions_but_superseded|h45=not_flagged": 3,
+   "mini=not_flagged|h45=mentions_but_superseded": 8,
+   "mini=not_flagged|h45=other": 1,
+   "mini=not_flagged|h45=unscorable": 8,
+   "mini=partial_overlap_artifact|h45=not_flagged": 2,
+   "mini=unscorable|h45=not_flagged": 1
+  }
+ },
+ "present": {
+  "h45-A3": {
+   "labels": {
+    "abstained": 24
+   },
+   "n": 24
+  },
+  "h45-D4": {
+   "labels": {
+    "abstained": 26,
+    "wrong_value": 1
+   },
+   "n": 27
+  },
+  "mini-A3": {
+   "labels": {
+    "abstained": 15,
+    "correct_different_format": 4,
+    "wrong_value": 7
+   },
+   "n": 26
+  },
+  "mini-D4": {
+   "labels": {
+    "abstained": 15,
+    "correct_different_format": 6,
+    "other": 2,
+    "wrong_value": 5
+   },
+   "n": 28
+  }
+ },
+ "source": "manual (auditor's read; step4_labels.json sha256 7a06114c65521617659bfd2bd41cf39a2587d7f5e174fffa857e17f1d38b56b7)",
+ "stale": {
+  "h45-A3": {
+   "by_state": {
+    "gives_stale_value|ret": 6,
+    "mentions_but_superseded|ret": 2,
+    "mentions_but_superseded|sup": 10
+   },
+   "by_successor_in_view": {
+    "gives_stale_value|successor_in_view=False": 6,
+    "mentions_but_superseded|successor_in_view=False": 12
+   },
+   "by_tagged": {
+    "gives_stale_value|tagged=False": 4,
+    "gives_stale_value|tagged=True": 2,
+    "mentions_but_superseded|tagged=False": 2,
+    "mentions_but_superseded|tagged=True": 10
+   },
+   "labels": {
+    "gives_stale_value": 6,
+    "mentions_but_superseded": 12
+   },
+   "n_classified": 18,
+   "n_flagged": 24,
+   "n_unscorable_expiry": 6
+  },
+  "h45-D4": {
+   "by_state": {
+    "gives_stale_value|ret": 7,
+    "gives_stale_value|sup": 1,
+    "mentions_but_superseded|ret": 2,
+    "mentions_but_superseded|sup": 6,
+    "other|sup": 3
+   },
+   "by_successor_in_view": {
+    "gives_stale_value|successor_in_view=False": 8,
+    "mentions_but_superseded|successor_in_view=False": 7,
+    "mentions_but_superseded|successor_in_view=True": 1,
+    "other|successor_in_view=False": 3
+   },
+   "by_tagged": {
+    "gives_stale_value|tagged=False": 5,
+    "gives_stale_value|tagged=True": 3,
+    "mentions_but_superseded|tagged=False": 2,
+    "mentions_but_superseded|tagged=True": 6,
+    "other|tagged=True": 3
+   },
+   "labels": {
+    "gives_stale_value": 8,
+    "mentions_but_superseded": 8,
+    "other": 3
+   },
+   "n_classified": 19,
+   "n_flagged": 27,
+   "n_unscorable_expiry": 8
+  },
+  "mini-A3": {
+   "by_state": {
+    "gives_stale_value|ret": 7,
+    "gives_stale_value|sup": 4,
+    "mentions_but_superseded|ret": 3,
+    "mentions_but_superseded|sup": 3
+   },
+   "by_successor_in_view": {
+    "gives_stale_value|successor_in_view=False": 11,
+    "mentions_but_superseded|successor_in_view=False": 6
+   },
+   "by_tagged": {
+    "gives_stale_value|tagged=False": 5,
+    "gives_stale_value|tagged=True": 6,
+    "mentions_but_superseded|tagged=False": 2,
+    "mentions_but_superseded|tagged=True": 4
+   },
+   "labels": {
+    "gives_stale_value": 11,
+    "mentions_but_superseded": 6
+   },
+   "n_classified": 17,
+   "n_flagged": 18,
+   "n_unscorable_expiry": 1
+  },
+  "mini-D4": {
+   "by_state": {
+    "gives_stale_value|ret": 7,
+    "gives_stale_value|sup": 4,
+    "mentions_but_superseded|ret": 3,
+    "partial_overlap_artifact|sup": 2
+   },
+   "by_successor_in_view": {
+    "gives_stale_value|successor_in_view=False": 11,
+    "mentions_but_superseded|successor_in_view=False": 3,
+    "partial_overlap_artifact|successor_in_view=False": 2
+   },
+   "by_tagged": {
+    "gives_stale_value|tagged=False": 5,
+    "gives_stale_value|tagged=True": 6,
+    "mentions_but_superseded|tagged=False": 1,
+    "mentions_but_superseded|tagged=True": 2,
+    "partial_overlap_artifact|tagged=True": 2
+   },
+   "labels": {
+    "gives_stale_value": 11,
+    "mentions_but_superseded": 3,
+    "partial_overlap_artifact": 2
+   },
+   "n_classified": 16,
+   "n_flagged": 17,
+   "n_unscorable_expiry": 1
+  }
+ }
+}

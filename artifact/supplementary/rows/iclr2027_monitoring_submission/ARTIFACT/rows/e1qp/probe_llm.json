@@ -1,0 +1,130 @@
+{
+  "model": "gpt-4.1-mini",
+  "prompt_system": "You are shown a single question that a user asked their assistant. You are shown nothing else -- no memory store, no index, no context.\n\nJudge only this: how likely is it that, if an assistant had a memory store for this user, that store would contain content on this topic that is now STALE -- superseded by a later value, retracted, or past its date -- so that surfacing it would mislead?\n\nRespond with a single JSON object and nothing else:\n{\"pn_likelihood\": <0-100>}",
+  "prompt_user": "Question: {question}",
+  "n_called": 362,
+  "usd_this_run": 0.0237,
+  "n_unparsed": 0,
+  "probes": {
+    "P1:full:y_nok": {
+      "n": 84,
+      "n_pos": 40,
+      "auroc": 0.4803977272727273,
+      "ci": [
+        0.358678090801538,
+        0.593481869073387
+      ],
+      "includes_0.50": true
+    },
+    "P1:full:y_fok": {
+      "n": 84,
+      "n_pos": 54,
+      "auroc": 0.5459876543209876,
+      "ci": [
+        0.4037203389830509,
+        0.6735863701325149
+      ],
+      "includes_0.50": true
+    },
+    "P1:matched:y_nok": {
+      "n": 49,
+      "n_pos": 40,
+      "auroc": 0.2513888888888889,
+      "ci": [
+        0.10204081632653061,
+        0.4268529810298103
+      ],
+      "includes_0.50": false
+    },
+    "P1:matched:y_fok": {
+      "n": 49,
+      "n_pos": 40,
+      "auroc": 0.2513888888888889,
+      "ci": [
+        0.10204081632653061,
+        0.4268529810298103
+      ],
+      "includes_0.50": false
+    },
+    "P1:strict-slotablated:y_nok": {
+      "n": 21,
+      "n_pos": 12,
+      "auroc": 0.16666666666666666,
+      "ci": [
+        0.03180397727272727,
+        0.35096153846153844
+      ],
+      "includes_0.50": false
+    },
+    "P1:strict-slotablated:y_fok": {
+      "n": 21,
+      "n_pos": 12,
+      "auroc": 0.16666666666666666,
+      "ci": [
+        0.03180397727272727,
+        0.35096153846153844
+      ],
+      "includes_0.50": false
+    },
+    "P2:full:y_nok": {
+      "n": 307,
+      "n_pos": 35,
+      "auroc": 0.6283088235294118,
+      "ci": [
+        0.5583308232854972,
+        0.694192321449367
+      ],
+      "includes_0.50": false
+    },
+    "P2:full:y_fok": {
+      "n": 307,
+      "n_pos": 35,
+      "auroc": 0.6283088235294118,
+      "ci": [
+        0.5583308232854972,
+        0.694192321449367
+      ],
+      "includes_0.50": false
+    },
+    "P2:matched:y_nok": {
+      "n": 162,
+      "n_pos": 35,
+      "auroc": 0.3749156355455568,
+      "ci": [
+        0.281442292436936,
+        0.46510549748354624
+      ],
+      "includes_0.50": false
+    },
+    "P2:matched:y_fok": {
+      "n": 162,
+      "n_pos": 35,
+      "auroc": 0.3749156355455568,
+      "ci": [
+        0.281442292436936,
+        0.46510549748354624
+      ],
+      "includes_0.50": false
+    },
+    "P2:strict-slotablated:y_nok": {
+      "n": 162,
+      "n_pos": 35,
+      "auroc": 0.3749156355455568,
+      "ci": [
+        0.281442292436936,
+        0.46510549748354624
+      ],
+      "includes_0.50": false
+    },
+    "P2:strict-slotablated:y_fok": {
+      "n": 162,
+      "n_pos": 35,
+      "auroc": 0.3749156355455568,
+      "ci": [
+        0.281442292436936,
+        0.46510549748354624
+      ],
+      "includes_0.50": false
+    }
+  }
+}

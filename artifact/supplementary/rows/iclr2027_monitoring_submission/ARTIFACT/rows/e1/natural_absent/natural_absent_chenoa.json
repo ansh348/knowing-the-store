@@ -1,0 +1,350 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 8,
+    "in": 7914,
+    "out": 3070,
+    "usd": 0.008077599999999999
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 3,
+  "persona": "chenoa",
+  "probes": [
+    {
+      "domain": "Leisure and Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last",
+        "you"
+      ],
+      "max_cosine": 0.23,
+      "note": "",
+      "question": "What was the title of the last book you read purely for pleasure?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.23,
+          "entry_id": "lb_00369",
+          "text": "User spins and cards wool from their sheep in the evenings after work as a calming routine"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2001,
+          "entry_id": "lb_00324",
+          "text": "User spent a Saturday at the loom with their granddaughter"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1805,
+          "entry_id": "lb_00406",
+          "text": "User spends Saturday mornings out with sheep"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1755,
+          "entry_id": "lb_00411",
+          "text": "User has sheep and spends Saturday mornings with them"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1698,
+          "entry_id": "lb_00109",
+          "text": "User finds weaving meditative and a way to quiet their mind after long clinic work"
+        }
+      ],
+      "why_absent": "The memory store does not include any information about books read or leisure reading habits."
+    },
+    {
+      "domain": "Personal History and Environment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.3354,
+      "note": "",
+      "question": "Can you describe the layout and decoration style of your childhood home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3354,
+          "entry_id": "lb_00236",
+          "text": "User lives in a house that can be loud during visits"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2939,
+          "entry_id": "lb_00384",
+          "text": "User's grandmother had her home, sheep, and loom all in one place and did not have to choose between her home and doing her work properly."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2867,
+          "entry_id": "lb_00377",
+          "text": "User's home and workshop with 30 years of tools and materials are located in their current community."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2599,
+          "entry_id": "lb_00427",
+          "text": "User plants a small plot behind their house using traditional 'three sisters' planting method with corn, squash, and beans"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2579,
+          "entry_id": "lb_00095",
+          "text": "User has been weaving Navajo rugs since childhood, inspired by watching their grandmother."
+        }
+      ],
+      "why_absent": "No details about childhood home or early living environments are stored."
+    },
+    {
+      "domain": "Music Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "type",
+        "you"
+      ],
+      "max_cosine": 0.172,
+      "note": "",
+      "question": "What is your favorite type of music or musical artist you listen to regularly?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.172,
+          "entry_id": "lb_00047",
+          "text": "User has type 2 diabetes and manages it with metformin 1000 mg twice daily and daily three-mile walks"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.17,
+          "entry_id": "lb_00053",
+          "text": "User incorporates daily morning walks as a spiritual practice and form of prayer."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1681,
+          "entry_id": "lb_00459",
+          "text": "User takes metformin, lisinopril, and two inhalers regularly."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.152,
+          "entry_id": "lb_00397",
+          "text": "User usually spends Saturday mornings out with the sheep."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.144,
+          "entry_id": "lb_00236",
+          "text": "User lives in a house that can be loud during visits"
+        }
+      ],
+      "why_absent": "There is no information about music tastes or listening habits."
+    },
+    {
+      "domain": "Travel History",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "outside",
+        "you"
+      ],
+      "max_cosine": 0.1987,
+      "note": "",
+      "question": "Have you ever traveled outside the United States? If so, where did you go and what did you enjoy most about the trip?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1987,
+          "entry_id": "lb_00069",
+          "text": "User earned an MSN from University of New Mexico while working and commuting for two years"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.177,
+          "entry_id": "lb_00154",
+          "text": "User has been at Chinle for 6 years."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1755,
+          "entry_id": "lb_00403",
+          "text": "User spends time with sheep on weekends"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1722,
+          "entry_id": "lb_00086",
+          "text": "User lives near Chinle and frequently drives to Window Rock and sometimes Tsaile for meetings."
+        },
+        {
+          "category": "FINANCIAL_MATERIAL",
+          "cosine": 0.1673,
+          "entry_id": "lb_00299",
+          "text": "User's old truck was a Ford F-150 with 168,000 miles driven mostly on reservation roads."
+        }
+      ],
+      "why_absent": "The memory store does not contain any travel history beyond local or regional travel plans."
+    },
+    {
+      "domain": "Stress Management Techniques",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "day",
+        "stress",
+        "work"
+      ],
+      "max_cosine": 0.4563,
+      "note": "",
+      "question": "What is your preferred method for managing stress after a particularly difficult day at work?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.4563,
+          "entry_id": "lb_00113",
+          "text": "User finds weaving to be a meditative and healing practice that quiets their mind and helps them cope with stress from working at a clinic."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.4507,
+          "entry_id": "lb_00105",
+          "text": "User finds weaving to be a meditative and calming activity that helps quiet their mind from stressors like clinic work and paperwork."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.4459,
+          "entry_id": "lb_00109",
+          "text": "User finds weaving meditative and a way to quiet their mind after long clinic work"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3873,
+          "entry_id": "lb_00369",
+          "text": "User spins and cards wool from their sheep in the evenings after work as a calming routine"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3235,
+          "entry_id": "lb_00457",
+          "text": "User works at a clinic and has an office where they can weave during lunch"
+        }
+      ],
+      "why_absent": "While coping mechanisms are noted, specific stress management methods or preferences are not detailed."
+    },
+    {
+      "domain": "Cultural Practices",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "ceremonies",
+        "events",
+        "navajo",
+        "traditional",
+        "you"
+      ],
+      "max_cosine": 0.526,
+      "note": "",
+      "question": "Do you have any favorite traditional Navajo ceremonies or cultural events you attend regularly?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.526,
+          "entry_id": "lb_00231",
+          "text": "User is Navajo and incorporates traditional healing practices into patient care."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.4916,
+          "entry_id": "lb_00234",
+          "text": "User is Navajo"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.4695,
+          "entry_id": "lb_00093",
+          "text": "User weaves Navajo rugs."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.468,
+          "entry_id": "lb_00150",
+          "text": "User is involved in healthcare and is considering integrating traditional Navajo healing practices with Western medicine in their clinic."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.464,
+          "entry_id": "lb_00098",
+          "text": "User weaves Navajo rugs using natural dyes."
+        }
+      ],
+      "why_absent": "Cultural knowledge is present but no specific personal participation in ceremonies or events is recorded."
+    },
+    {
+      "domain": "Gardening and Plants",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "kind",
+        "one",
+        "you"
+      ],
+      "max_cosine": 0.3252,
+      "note": "",
+      "question": "What kind of plants or flowers do you enjoy growing in your garden, if you have one?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3252,
+          "entry_id": "lb_00427",
+          "text": "User plants a small plot behind their house using traditional 'three sisters' planting method with corn, squash, and beans"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2957,
+          "entry_id": "lb_00435",
+          "text": "User plants corn, squash, and beans together using the three sisters method on a small plot behind their house."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2707,
+          "entry_id": "lb_00421",
+          "text": "User's aunt has been saving seeds from her corn plants for many years."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2696,
+          "entry_id": "lb_00431",
+          "text": "User has been saving their own corn seeds for a few years, learning seed selection from their aunt who has 40 years of experience."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2475,
+          "entry_id": "lb_00184",
+          "text": "User likes the sweet smell of desert sage and the scent it leaves on their hands."
+        }
+      ],
+      "why_absent": "No information about gardening activities or plant preferences is stored."
+    }
+  ],
+  "threshold": 0.295
+}

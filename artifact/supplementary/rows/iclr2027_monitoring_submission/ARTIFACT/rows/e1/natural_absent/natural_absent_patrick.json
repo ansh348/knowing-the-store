@@ -1,0 +1,350 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 30,
+    "in": 30596,
+    "out": 11205,
+    "usd": 0.030166400000000003
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 4,
+  "persona": "patrick",
+  "probes": [
+    {
+      "domain": "Leisure Reading",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.1682,
+      "note": "",
+      "question": "What was the title and author of the last novel you read for pleasure?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1682,
+          "entry_id": "lb_00217",
+          "text": "User's wife likes old Victorian houses and walking around looking at buildings"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1646,
+          "entry_id": "lb_00185",
+          "text": "Mr. Callahan, a neighbor, passed away about ten years ago"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.164,
+          "entry_id": "lb_00366",
+          "text": "User values relaxation and solitude while boating, appreciating time without calls, radio, or problems."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1609,
+          "entry_id": "lb_00070",
+          "text": "User had an annual review with the deputy chief last week."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1598,
+          "entry_id": "lb_00215",
+          "text": "User's wife rarely treats herself to spa or relaxation experiences"
+        }
+      ],
+      "why_absent": "No attributes related to reading habits, book preferences, or recent reading material are present in the memory store."
+    },
+    {
+      "domain": "Cooking Details",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "home",
+        "recipe",
+        "you"
+      ],
+      "max_cosine": 0.4137,
+      "note": "",
+      "question": "Can you describe the last meal you cooked at home and the recipe you followed?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.4137,
+          "entry_id": "lb_00386",
+          "text": "User prefers simple and well-executed cooking using good ingredients without overcomplicating."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3903,
+          "entry_id": "lb_00210",
+          "text": "User's wife cooks"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3513,
+          "entry_id": "lb_00380",
+          "text": "User makes a decent chili at the firehouse."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3479,
+          "entry_id": "lb_00151",
+          "text": "User cooks chili at work between calls."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3475,
+          "entry_id": "lb_00152",
+          "text": "User cooks chili with ground beef, kidney beans, diced tomatoes, tomato paste, onion, garlic, chili powder, cumin, salt, and pepper."
+        }
+      ],
+      "why_absent": "While cooking preferences and skills are noted, there is no information about specific meals cooked or recipes used."
+    },
+    {
+      "domain": "Music Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "listen",
+        "usually",
+        "work",
+        "you"
+      ],
+      "max_cosine": 0.3166,
+      "note": "",
+      "question": "What kind of music do you usually listen to when relaxing after work?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.3166,
+          "entry_id": "lb_00392",
+          "text": "User currently feels physically tired after long shifts and prefers resting on the couch instead of going to the gym."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3059,
+          "entry_id": "lb_00366",
+          "text": "User values relaxation and solitude while boating, appreciating time without calls, radio, or problems."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.272,
+          "entry_id": "lb_00310",
+          "text": "User is tired from their work but not burned out."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2607,
+          "entry_id": "lb_00215",
+          "text": "User's wife rarely treats herself to spa or relaxation experiences"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2264,
+          "entry_id": "lb_00069",
+          "text": "User is usually off on weekends unless they pick up overtime work."
+        }
+      ],
+      "why_absent": "No attributes cover music tastes, listening habits, or favorite artists."
+    },
+    {
+      "domain": "Education / Language Learning",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "long",
+        "one",
+        "you"
+      ],
+      "max_cosine": 0.2893,
+      "note": "",
+      "question": "Have you ever taken any language classes or learned a foreign language? If so, which one and how long did you study it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2893,
+          "entry_id": "lb_00376",
+          "text": "User is enrolled in a six-week Italian cooking class on Saturday mornings."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2714,
+          "entry_id": "lb_00390",
+          "text": "User is taking a six-week Italian cooking class with Marie."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2472,
+          "entry_id": "lb_00382",
+          "text": "User is enrolled in a six-week hands-on Italian cooking class on Saturday mornings in Center City."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2472,
+          "entry_id": "lb_00377",
+          "text": "User is enrolled in a six-week hands-on Italian cooking class on Saturday mornings in Center City."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2079,
+          "entry_id": "lb_00384",
+          "text": "User is signed up for a six-week hands-on Italian cooking class on Saturday mornings in Center City."
+        }
+      ],
+      "why_absent": "No attributes mention education beyond occupation or hobbies, nor any language learning experience."
+    },
+    {
+      "domain": "Travel Experiences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "there",
+        "you"
+      ],
+      "max_cosine": 0.322,
+      "note": "",
+      "question": "What was your favorite vacation destination and what activities did you enjoy there?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.322,
+          "entry_id": "lb_00216",
+          "text": "User and wife have not gone on trips recently and she has expressed a desire to go somewhere close like the Poconos or the shore"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2679,
+          "entry_id": "lb_00366",
+          "text": "User values relaxation and solitude while boating, appreciating time without calls, radio, or problems."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2387,
+          "entry_id": "lb_00218",
+          "text": "User plans to celebrate Marie's birthday with a one-night trip to Cape May including a good dinner"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2136,
+          "entry_id": "lb_00367",
+          "text": "User plans to go fishing next trip and try the back channels near Marcus Hook."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2097,
+          "entry_id": "lb_00095",
+          "text": "User plans to visit the shore house with Kevin on Memorial Day weekend to stain the deck."
+        }
+      ],
+      "why_absent": "Although travel arrival dates and bookings are noted, there is no information about favorite destinations or travel activities."
+    },
+    {
+      "domain": "Pets and Animals",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.2083,
+      "note": "",
+      "question": "Do you have any pets? If so, what kind and what are their names?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2083,
+          "entry_id": "lb_00199",
+          "text": "User's spouse is named Marie."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2018,
+          "entry_id": "lb_00314",
+          "text": "User's partner is named Marie and is supportive regarding retirement thoughts."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1993,
+          "entry_id": "lb_00011",
+          "text": "User's partner's name is Marie."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1921,
+          "entry_id": "lb_00294",
+          "text": "User and Marie have one child."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1893,
+          "entry_id": "lb_00304",
+          "text": "User lives in Fishtown, Philadelphia"
+        }
+      ],
+      "why_absent": "No attributes mention pets or animal companions."
+    },
+    {
+      "domain": "Community Involvement",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "recently",
+        "work",
+        "you"
+      ],
+      "max_cosine": 0.2559,
+      "note": "",
+      "question": "What kind of volunteer work or community service have you participated in recently?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2559,
+          "entry_id": "lb_00353",
+          "text": "User values networking at conferences to connect with peers from other departments and learn about effective practices in other cities."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2472,
+          "entry_id": "lb_00232",
+          "text": "User coached youth baseball for 12 years in CYO league."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.247,
+          "entry_id": "lb_00175",
+          "text": "User is involved in firefighting and union activities related to the fire department."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.244,
+          "entry_id": "lb_00351",
+          "text": "User attends a conference that involves administrative work, policy updates, vendor presentations, and sessions on incident command and large-scale response."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2433,
+          "entry_id": "lb_00394",
+          "text": "User has experienced changes in their job including more medical calls, paperwork, and politics."
+        }
+      ],
+      "why_absent": "No attributes cover volunteer activities or community service engagements."
+    }
+  ],
+  "threshold": 0.295
+}

@@ -1,0 +1,76 @@
+{
+ "SW1_wrong_person": true,
+ "SW2_shuffled": false,
+ "SW3_adverse_cells": [
+  "SHUFFLED/fok",
+  "SHUFFLED/nok"
+ ],
+ "cells": {
+  "SHUFFLED": {
+   "fok": {
+    "ci": [
+     -0.05455533191695555,
+     0.049866582038556345
+    ],
+    "delta_intact_minus_manipulated": -0.0030729692463164486,
+    "excludes_zero_positive": false,
+    "intact_auroc": 0.7003151260504201,
+    "manipulated_auroc": 0.7052521008403362,
+    "n": 307,
+    "pos": 35
+   },
+   "nok": {
+    "ci": [
+     -0.017767766934461665,
+     0.06107574334236678
+    ],
+    "delta_intact_minus_manipulated": 0.021692505347212322,
+    "excludes_zero_positive": false,
+    "intact_auroc": 0.7339024306035078,
+    "manipulated_auroc": 0.7116247755834829,
+    "n": 661,
+    "pos": 104
+   }
+  },
+  "WRONG-PERSON": {
+   "fok": {
+    "ci": [
+     0.2169184364973445,
+     0.45062487951996283
+    ],
+    "delta_intact_minus_manipulated": 0.3383073496276771,
+    "excludes_zero_positive": true,
+    "intact_auroc": 0.7003151260504201,
+    "manipulated_auroc": 0.36307773109243696,
+    "n": 307,
+    "pos": 35
+   },
+   "nok": {
+    "ci": [
+     0.200969788004724,
+     0.3297513480743926
+    ],
+    "delta_intact_minus_manipulated": 0.2668242410647059,
+    "excludes_zero_positive": true,
+    "intact_auroc": 0.7339024306035078,
+    "manipulated_auroc": 0.46589732081204255,
+    "n": 661,
+    "pos": 104
+   }
+  }
+ },
+ "intact_source": "e1_metamemory\\elicitation_main.json (INDEXED-TRUE, keyed by tag; same loader as x4_score.load_mini)",
+ "lane": "gpt-4.1-mini",
+ "parse_failures": {
+  "SHUFFLED": {
+   "failed": 0,
+   "of": 661
+  },
+  "WRONG-PERSON": {
+   "failed": 0,
+   "of": 661
+  }
+ },
+ "registration": "ADDENDUM_R77 \u00a7S @ 41e31e7",
+ "spend_usd": 0.9069
+}

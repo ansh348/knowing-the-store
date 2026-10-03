@@ -1,0 +1,688 @@
+{
+ "branch": {
+  "fires": "B1",
+  "item_ci": [
+   0.029811342148854163,
+   0.12225862480959547
+  ],
+  "opus_draw1_minus_lookup_444": 0.0736,
+  "persona_ci": [
+   0.03880406911096604,
+   0.11286535936622678
+  ],
+  "wording": "Section 4 states the resolution confound and dismisses it with this number; the abstract keeps 'the largest model reads slightly more'."
+ },
+ "cf444": {
+  "claude-haiku-4-5-20251001": {
+   "draw1": {
+    "auroc": 0.7555,
+    "covered": 444,
+    "distinct_values": 17,
+    "lookup_auroc": 0.7663,
+    "vs_lookup": {
+     "agree": true,
+     "both_exclude_zero": false,
+     "delta": -0.0108,
+     "item_ci": {
+      "ci_hi": 0.037272388498774296,
+      "ci_lo": -0.06248039545119119,
+      "excludes_zero": false,
+      "mean": -0.010403924218792118,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.029997984687860666,
+      "ci_lo": -0.048181547163936723,
+      "excludes_zero": false,
+      "mean": -0.00967036131689996,
+      "n_draws": 1000
+     }
+    }
+   },
+   "draws_present": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "gap_model_minus_lookup": {
+    "draw1": -0.0108,
+    "mean": -0.0098
+   },
+   "mean": {
+    "auroc": 0.7566,
+    "covered": 444,
+    "distinct_values": 58,
+    "lookup_auroc": 0.7663,
+    "vs_lookup": {
+     "agree": true,
+     "both_exclude_zero": false,
+     "delta": -0.0098,
+     "item_ci": {
+      "ci_hi": 0.03978354410784693,
+      "ci_lo": -0.06400391277103304,
+      "excludes_zero": false,
+      "mean": -0.009424220777853643,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.03356831885646813,
+      "ci_lo": -0.049379915769531324,
+      "excludes_zero": false,
+      "mean": -0.008620896146047748,
+      "n_draws": 1000
+     }
+    }
+   },
+   "per_draw": {
+    "1": {
+     "auroc": 0.7555,
+     "covered": 444,
+     "distinct_values": 17
+    },
+    "2": {
+     "auroc": 0.7589,
+     "covered": 444,
+     "distinct_values": 16
+    },
+    "3": {
+     "auroc": 0.7566,
+     "covered": 444,
+     "distinct_values": 18
+    },
+    "4": {
+     "auroc": 0.7516,
+     "covered": 444,
+     "distinct_values": 16
+    },
+    "5": {
+     "auroc": 0.7594,
+     "covered": 444,
+     "distinct_values": 18
+    }
+   },
+   "range_across_draws": {
+    "max": 0.7594,
+    "min": 0.7516,
+    "spread": 0.0078
+   },
+   "units": 444
+  },
+  "claude-opus-5": {
+   "draw1": {
+    "auroc": 0.84,
+    "covered": 444,
+    "distinct_values": 53,
+    "lookup_auroc": 0.7663,
+    "vs_lookup": {
+     "agree": true,
+     "both_exclude_zero": true,
+     "delta": 0.0736,
+     "item_ci": {
+      "ci_hi": 0.12225862480959547,
+      "ci_lo": 0.029811342148854163,
+      "excludes_zero": true,
+      "mean": 0.07410324929684574,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.11286535936622678,
+      "ci_lo": 0.03880406911096604,
+      "excludes_zero": true,
+      "mean": 0.075067341089068,
+      "n_draws": 1000
+     }
+    }
+   },
+   "draws_present": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "gap_model_minus_lookup": {
+    "draw1": 0.0736,
+    "mean": 0.0742
+   },
+   "mean": {
+    "auroc": 0.8405,
+    "covered": 444,
+    "distinct_values": 264,
+    "lookup_auroc": 0.7663,
+    "vs_lookup": {
+     "agree": true,
+     "both_exclude_zero": true,
+     "delta": 0.0742,
+     "item_ci": {
+      "ci_hi": 0.12028522164752599,
+      "ci_lo": 0.03151785744479089,
+      "excludes_zero": true,
+      "mean": 0.07464551976829732,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.1126257149255226,
+      "ci_lo": 0.041397592827759566,
+      "excludes_zero": true,
+      "mean": 0.07549856423071499,
+      "n_draws": 1000
+     }
+    }
+   },
+   "per_draw": {
+    "1": {
+     "auroc": 0.84,
+     "covered": 444,
+     "distinct_values": 53
+    },
+    "2": {
+     "auroc": 0.8358,
+     "covered": 444,
+     "distinct_values": 50
+    },
+    "3": {
+     "auroc": 0.8411,
+     "covered": 444,
+     "distinct_values": 52
+    },
+    "4": {
+     "auroc": 0.8352,
+     "covered": 444,
+     "distinct_values": 51
+    },
+    "5": {
+     "auroc": 0.8383,
+     "covered": 444,
+     "distinct_values": 52
+    }
+   },
+   "range_across_draws": {
+    "max": 0.8411,
+    "min": 0.8352,
+    "spread": 0.0059
+   },
+   "units": 444
+  },
+  "gpt-4.1-mini": {
+   "draw1": {
+    "auroc": 0.7167,
+    "covered": 444,
+    "distinct_values": 12,
+    "lookup_auroc": 0.7663,
+    "vs_lookup": {
+     "agree": false,
+     "both_exclude_zero": false,
+     "delta": -0.0496,
+     "item_ci": {
+      "ci_hi": 0.0013100326658551469,
+      "ci_lo": -0.10120771246642984,
+      "excludes_zero": false,
+      "mean": -0.04950956455550944,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": -0.005354900533389312,
+      "ci_lo": -0.09332277706564117,
+      "excludes_zero": true,
+      "mean": -0.04890235397049116,
+      "n_draws": 1000
+     }
+    }
+   },
+   "draws_present": [
+    1
+   ],
+   "gap_model_minus_lookup": {
+    "draw1": -0.0496,
+    "mean": -0.0496
+   },
+   "mean": {
+    "auroc": 0.7167,
+    "covered": 444,
+    "distinct_values": 12,
+    "lookup_auroc": 0.7663,
+    "vs_lookup": {
+     "agree": false,
+     "both_exclude_zero": false,
+     "delta": -0.0496,
+     "item_ci": {
+      "ci_hi": 0.0013100326658551469,
+      "ci_lo": -0.10120771246642984,
+      "excludes_zero": false,
+      "mean": -0.04950956455550944,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": -0.005354900533389312,
+      "ci_lo": -0.09332277706564117,
+      "excludes_zero": true,
+      "mean": -0.04890235397049116,
+      "n_draws": 1000
+     }
+    }
+   },
+   "per_draw": {
+    "1": {
+     "auroc": 0.7167,
+     "covered": 444,
+     "distinct_values": 12
+    }
+   },
+   "range_across_draws": {
+    "max": 0.7167,
+    "min": 0.7167,
+    "spread": 0.0
+   },
+   "units": 444
+  }
+ },
+ "gates": {
+  "lookup_444": 0.7663,
+  "lookup_661": 0.7484
+ },
+ "meta": {
+  "collapse": "mean over at least three draws (X4); k=1 lanes are their single draw",
+  "model_calls": 0,
+  "n_boot": 1000,
+  "paired_sign": "model minus lookup",
+  "script": "reviews/v18/tools/a3_single_draw.py",
+  "seed": 42
+ },
+ "mini_redraw": {
+  "k3_blind_50": {
+   "identical_across_3": 46,
+   "max_spread": 0.2,
+   "mean_spread": 0.012,
+   "n_questions": 50
+  },
+  "sources": [
+   "e1_metamemory/results/scores_e1.json k3_noise (NUMBERS.md AUX 46 of 50)",
+   "resp_review/run/scores_resp.json L1.redraw (AUX-RESP-L1-REDRAW)"
+  ],
+  "true_redraw_102": {
+   "D": 0.017857142857142794,
+   "arm": 0.790057915057915,
+   "base": 0.7722007722007722,
+   "cluster": {
+    "ci_hi": 0.05453447693765474,
+    "ci_lo": -0.016832956827309287,
+    "excludes_zero": false,
+    "mean": 0.01675015288667742,
+    "n_draws": 1000
+   },
+   "item": {
+    "ci_hi": 0.05228802447552444,
+    "ci_lo": -0.011678453466948263,
+    "excludes_zero": false,
+    "mean": 0.017373408636345792,
+    "n_draws": 1000
+   },
+   "n": 102,
+   "n_pos": 74
+  }
+ },
+ "obl661": {
+  "claude-haiku-4-5-20251001": {
+   "draw1": {
+    "auroc": 0.8156,
+    "covered": 661,
+    "distinct_values": 16,
+    "lookup_auroc": 0.7484,
+    "vs_lookup": {
+     "agree": true,
+     "both_exclude_zero": false,
+     "delta": 0.0671,
+     "item_ci": {
+      "ci_hi": 0.13241864019724048,
+      "ci_lo": -0.0006886833357420984,
+      "excludes_zero": false,
+      "mean": 0.06551397838925198,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.15669951683202715,
+      "ci_lo": -0.020193493040551423,
+      "excludes_zero": false,
+      "mean": 0.06564243637744854,
+      "n_draws": 1000
+     }
+    }
+   },
+   "draws_present": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "gap_model_minus_lookup": {
+    "draw1": 0.0671,
+    "mean": 0.0726
+   },
+   "mean": {
+    "auroc": 0.821,
+    "covered": 661,
+    "distinct_values": 63,
+    "lookup_auroc": 0.7484,
+    "vs_lookup": {
+     "agree": false,
+     "both_exclude_zero": false,
+     "delta": 0.0726,
+     "item_ci": {
+      "ci_hi": 0.1392623039637559,
+      "ci_lo": 0.005185901747050929,
+      "excludes_zero": true,
+      "mean": 0.0711490138078823,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.16339582513670534,
+      "ci_lo": -0.014267714796138167,
+      "excludes_zero": false,
+      "mean": 0.07115316285082131,
+      "n_draws": 1000
+     }
+    }
+   },
+   "per_draw": {
+    "1": {
+     "auroc": 0.8156,
+     "covered": 661,
+     "distinct_values": 16
+    },
+    "2": {
+     "auroc": 0.8161,
+     "covered": 661,
+     "distinct_values": 16
+    },
+    "3": {
+     "auroc": 0.8176,
+     "covered": 661,
+     "distinct_values": 17
+    },
+    "4": {
+     "auroc": 0.8228,
+     "covered": 661,
+     "distinct_values": 16
+    },
+    "5": {
+     "auroc": 0.8145,
+     "covered": 661,
+     "distinct_values": 16
+    }
+   },
+   "range_across_draws": {
+    "max": 0.8228,
+    "min": 0.8145,
+    "spread": 0.0083
+   },
+   "units": 661
+  },
+  "claude-opus-5": {
+   "draw1": {
+    "auroc": 0.8335,
+    "covered": 661,
+    "distinct_values": 52,
+    "lookup_auroc": 0.7484,
+    "vs_lookup": {
+     "agree": false,
+     "both_exclude_zero": false,
+     "delta": 0.0851,
+     "item_ci": {
+      "ci_hi": 0.14779197792979762,
+      "ci_lo": 0.019589449386842702,
+      "excludes_zero": true,
+      "mean": 0.08438160129341707,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.17688694556403547,
+      "ci_lo": -0.012025625403846187,
+      "excludes_zero": false,
+      "mean": 0.08393949958664378,
+      "n_draws": 1000
+     }
+    }
+   },
+   "draws_present": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "gap_model_minus_lookup": {
+    "draw1": 0.0851,
+    "mean": 0.0843
+   },
+   "mean": {
+    "auroc": 0.8327,
+    "covered": 661,
+    "distinct_values": 242,
+    "lookup_auroc": 0.7484,
+    "vs_lookup": {
+     "agree": false,
+     "both_exclude_zero": false,
+     "delta": 0.0843,
+     "item_ci": {
+      "ci_hi": 0.14480286126825007,
+      "ci_lo": 0.01819148011821329,
+      "excludes_zero": true,
+      "mean": 0.08357053504725738,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.17585514412447867,
+      "ci_lo": -0.009078886258504943,
+      "excludes_zero": false,
+      "mean": 0.08345226555371084,
+      "n_draws": 1000
+     }
+    }
+   },
+   "per_draw": {
+    "1": {
+     "auroc": 0.8335,
+     "covered": 661,
+     "distinct_values": 52
+    },
+    "2": {
+     "auroc": 0.825,
+     "covered": 661,
+     "distinct_values": 51
+    },
+    "3": {
+     "auroc": 0.8232,
+     "covered": 661,
+     "distinct_values": 50
+    },
+    "4": {
+     "auroc": 0.8272,
+     "covered": 661,
+     "distinct_values": 49
+    },
+    "5": {
+     "auroc": 0.8381,
+     "covered": 661,
+     "distinct_values": 48
+    }
+   },
+   "range_across_draws": {
+    "max": 0.8381,
+    "min": 0.8232,
+    "spread": 0.0149
+   },
+   "units": 661
+  },
+  "gpt-4.1-mini": {
+   "draw1": {
+    "auroc": 0.7339,
+    "covered": 661,
+    "distinct_values": 9,
+    "lookup_auroc": 0.7484,
+    "vs_lookup": {
+     "agree": true,
+     "both_exclude_zero": false,
+     "delta": -0.0145,
+     "item_ci": {
+      "ci_hi": 0.054860428855932446,
+      "ci_lo": -0.07691395294712239,
+      "excludes_zero": false,
+      "mean": -0.015593811634109845,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.07653015045162688,
+      "ci_lo": -0.10804837969043067,
+      "excludes_zero": false,
+      "mean": -0.015190359044392171,
+      "n_draws": 1000
+     }
+    }
+   },
+   "draws_present": [
+    1
+   ],
+   "gap_model_minus_lookup": {
+    "draw1": -0.0145,
+    "mean": -0.0145
+   },
+   "mean": {
+    "auroc": 0.7339,
+    "covered": 661,
+    "distinct_values": 9,
+    "lookup_auroc": 0.7484,
+    "vs_lookup": {
+     "agree": true,
+     "both_exclude_zero": false,
+     "delta": -0.0145,
+     "item_ci": {
+      "ci_hi": 0.054860428855932446,
+      "ci_lo": -0.07691395294712239,
+      "excludes_zero": false,
+      "mean": -0.015593811634109845,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.07653015045162688,
+      "ci_lo": -0.10804837969043067,
+      "excludes_zero": false,
+      "mean": -0.015190359044392171,
+      "n_draws": 1000
+     }
+    }
+   },
+   "per_draw": {
+    "1": {
+     "auroc": 0.7339,
+     "covered": 661,
+     "distinct_values": 9
+    }
+   },
+   "range_across_draws": {
+    "max": 0.7339,
+    "min": 0.7339,
+    "spread": 0.0
+   },
+   "units": 661
+  },
+  "gpt-5.6-luna": {
+   "draw1": {
+    "auroc": 0.8141,
+    "covered": 661,
+    "distinct_values": 55,
+    "lookup_auroc": 0.7484,
+    "vs_lookup": {
+     "agree": false,
+     "both_exclude_zero": false,
+     "delta": 0.0657,
+     "item_ci": {
+      "ci_hi": 0.12434346386776053,
+      "ci_lo": 0.005958542805011795,
+      "excludes_zero": true,
+      "mean": 0.0643458852476735,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.15020485050764812,
+      "ci_lo": -0.0240396585538591,
+      "excludes_zero": false,
+      "mean": 0.06447973458561217,
+      "n_draws": 1000
+     }
+    }
+   },
+   "draws_present": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "gap_model_minus_lookup": {
+    "draw1": 0.0657,
+    "mean": 0.0698
+   },
+   "mean": {
+    "auroc": 0.8182,
+    "covered": 661,
+    "distinct_values": 228,
+    "lookup_auroc": 0.7484,
+    "vs_lookup": {
+     "agree": false,
+     "both_exclude_zero": false,
+     "delta": 0.0698,
+     "item_ci": {
+      "ci_hi": 0.12637877121421873,
+      "ci_lo": 0.012314684641706262,
+      "excludes_zero": true,
+      "mean": 0.068875805074857,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.15202610118769289,
+      "ci_lo": -0.018026433752797347,
+      "excludes_zero": false,
+      "mean": 0.06856898158994955,
+      "n_draws": 1000
+     }
+    }
+   },
+   "per_draw": {
+    "1": {
+     "auroc": 0.8141,
+     "covered": 661,
+     "distinct_values": 55
+    },
+    "2": {
+     "auroc": 0.8106,
+     "covered": 661,
+     "distinct_values": 51
+    },
+    "3": {
+     "auroc": 0.8349,
+     "covered": 661,
+     "distinct_values": 49
+    },
+    "4": {
+     "auroc": 0.8008,
+     "covered": 661,
+     "distinct_values": 51
+    },
+    "5": {
+     "auroc": 0.8072,
+     "covered": 661,
+     "distinct_values": 49
+    }
+   },
+   "range_across_draws": {
+    "max": 0.8349,
+    "min": 0.8008,
+    "spread": 0.0341
+   },
+   "units": 661
+  }
+ }
+}

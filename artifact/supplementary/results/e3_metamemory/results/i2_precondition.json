@@ -1,0 +1,198 @@
+{
+  "derivation": {
+    "B": -0.034482758620689655,
+    "B_ci": {
+      "est": -0.034482758620689655,
+      "hi": -0.004761904761904761,
+      "lo": -0.0707070707070707,
+      "n": 29
+    },
+    "C": -0.021097046413502112,
+    "C_ci": {
+      "est": 0.021097046413502112,
+      "hi": 0.049943935576854635,
+      "lo": -0.016830938292377678,
+      "n": 158
+    },
+    "max_calibration_pn_precision": 0.26595744680851063,
+    "q_star": 0.3795811518324607,
+    "sweep": [
+      {
+        "fired": 187,
+        "precision": 0.15508021390374332,
+        "t": 0.0
+      },
+      {
+        "fired": 96,
+        "precision": 0.2604166666666667,
+        "t": 0.05
+      },
+      {
+        "fired": 94,
+        "precision": 0.26595744680851063,
+        "t": 0.1
+      },
+      {
+        "fired": 36,
+        "precision": 0.19444444444444445,
+        "t": 0.15
+      },
+      {
+        "fired": 36,
+        "precision": 0.19444444444444445,
+        "t": 0.2
+      },
+      {
+        "fired": 2,
+        "precision": 0.0,
+        "t": 0.25
+      },
+      {
+        "fired": 2,
+        "precision": 0.0,
+        "t": 0.3
+      },
+      {
+        "fired": 0,
+        "precision": null,
+        "t": 0.35
+      },
+      {
+        "fired": 0,
+        "precision": null,
+        "t": 0.4
+      },
+      {
+        "fired": 0,
+        "precision": null,
+        "t": 0.45
+      },
+      {
+        "fired": 0,
+        "precision": null,
+        "t": 0.5
+      },
+      {
+        "fired": 0,
+        "precision": null,
+        "t": 0.55
+      },
+      {
+        "fired": 0,
+        "precision": null,
+        "t": 0.6
+      },
+      {
+        "fired": 0,
+        "precision": null,
+        "t": 0.65
+      },
+      {
+        "fired": 0,
+        "precision": null,
+        "t": 0.7
+      },
+      {
+        "fired": 0,
+        "precision": null,
+        "t": 0.75
+      },
+      {
+        "fired": 0,
+        "precision": null,
+        "t": 0.8
+      },
+      {
+        "fired": 0,
+        "precision": null,
+        "t": 0.85
+      },
+      {
+        "fired": 0,
+        "precision": null,
+        "t": 0.9
+      },
+      {
+        "fired": 0,
+        "precision": null,
+        "t": 0.95
+      },
+      {
+        "fired": 0,
+        "precision": null,
+        "t": 1.0
+      }
+    ],
+    "t": null
+  },
+  "label": "pre-registered synthesis over pre-existing outputs",
+  "no_new_model_calls": true,
+  "nok_by_label": {
+    "ABSENT": {
+      "mean": 0.008144329896907217,
+      "median": 0.0,
+      "n": 485,
+      "share_ge_005": 0.09690721649484536
+    },
+    "PRESENT": {
+      "mean": 0.1358,
+      "median": 0.1,
+      "n": 250,
+      "share_ge_005": 0.892
+    },
+    "PRESENT-NEGATIVE": {
+      "mean": 0.12626262626262627,
+      "median": 0.1,
+      "n": 99,
+      "share_ge_005": 0.9292929292929293
+    }
+  },
+  "nok_distribution": {
+    "0.0": 1.0,
+    "0.05": 0.434052757793765,
+    "0.1": 0.4148681055155875,
+    "0.15": 0.15947242206235013,
+    "0.2": 0.15947242206235013,
+    "0.25": 0.015587529976019185,
+    "0.3": 0.015587529976019185,
+    "0.35": 0.004796163069544364
+  },
+  "not_a_gate": true,
+  "not_a_rescue_of_H_E3a": true,
+  "not_in_the_sequence": true,
+  "outcome": "SYNTHESIZED -- the derived policy is the NULL policy (never apply caution), which is arm (b), at fire rate 0",
+  "precondition": {
+    "auroc": 0.7775166632309489,
+    "bar": 0.65,
+    "n": 834,
+    "n_pn": 99,
+    "passed": true,
+    "pn_prevalence": 0.11870503597122302
+  },
+  "predictions": {
+    "1_precondition_fails": {
+      "frozen": true,
+      "observed": false,
+      "verdict": "WRONG"
+    },
+    "2_t_at_or_below_0.05": {
+      "frozen": true,
+      "observed": "no t exists",
+      "verdict": "FALSIFIED -- no threshold clears q*"
+    },
+    "3_within_0.5pp_of_a2": {
+      "frozen": true,
+      "observed": "the derived policy is (b), 2.04pp from (a'') on confabulation",
+      "verdict": "FALSIFIED"
+    }
+  },
+  "prereg": "PREREG_I2.md",
+  "synthesis": {
+    "derived_policy_is": "(b) always-retrieve, no caution",
+    "fire_rate": 0.0,
+    "label": "pre-registered synthesis over pre-existing outputs",
+    "reason": "calibration PN precision never reaches q*; the calibration-measured benefit B has the opposite sign to the eval-measured one",
+    "t": null
+  },
+  "usd": 0.0
+}

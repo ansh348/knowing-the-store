@@ -1,0 +1,229 @@
+{
+ "meta": {
+  "n": 444,
+  "pairs": 148,
+  "flag_source": "r82_counterfactual/cf2/question_read_flags.json (author, 2026-09-12; key pair_id)",
+  "flagged_pairs": 89,
+  "unflagged_pairs": 59,
+  "positives_by_state_and_flag": {
+   "SUPERSESSION|YES": 45,
+   "SUPERSESSION|NO": 43,
+   "RETRACTION|YES": 22,
+   "RETRACTION|NO": 8,
+   "EXPIRY|YES": 22,
+   "EXPIRY|NO": 8
+  },
+  "post_hoc": true,
+  "estimator": "Mann-Whitney AUROC, ties 0.5 (common_e1r.auroc); no interval, deterministic on recorded rows"
+ },
+ "rows": [
+  {
+   "reader": "Superseded-names lookup (sup.\\ only summary)",
+   "YES": {
+    "n": 267,
+    "pos": 89,
+    "whole": 0.7142,
+    "per_state": {
+     "SUPERSESSION": 0.9047,
+     "RETRACTION": 0.5,
+     "EXPIRY": 0.5
+    }
+   },
+   "NO": {
+    "n": 177,
+    "pos": 59,
+    "whole": 0.8668,
+    "per_state": {
+     "SUPERSESSION": 0.9789,
+     "RETRACTION": 0.5,
+     "EXPIRY": 0.5
+    }
+   },
+   "ALL": {
+    "whole": 0.7663
+   }
+  },
+  {
+   "reader": "All-states lookup (all-three summary)",
+   "YES": {
+    "n": 267,
+    "pos": 89,
+    "whole": 0.8232,
+    "per_state": {
+     "SUPERSESSION": 0.8675,
+     "RETRACTION": 0.7583,
+     "EXPIRY": 0.845
+    }
+   },
+   "NO": {
+    "n": 177,
+    "pos": 59,
+    "whole": 0.9718,
+    "per_state": {
+     "SUPERSESSION": 0.9751,
+     "RETRACTION": 0.9102,
+     "EXPIRY": 1.0
+    }
+   },
+   "ALL": {
+    "whole": 0.8756
+   }
+  },
+  {
+   "reader": "GPT-4.1 mini, sup.\\ only",
+   "YES": {
+    "n": 267,
+    "pos": 89,
+    "whole": 0.6539,
+    "per_state": {
+     "SUPERSESSION": 0.764,
+     "RETRACTION": 0.5,
+     "EXPIRY": 0.5455
+    }
+   },
+   "NO": {
+    "n": 177,
+    "pos": 59,
+    "whole": 0.8355,
+    "per_state": {
+     "SUPERSESSION": 0.9244,
+     "RETRACTION": 0.5859,
+     "EXPIRY": 0.5625
+    }
+   },
+   "ALL": {
+    "whole": 0.7167
+   }
+  },
+  {
+   "reader": "GPT-4.1 mini, all three",
+   "YES": {
+    "n": 267,
+    "pos": 89,
+    "whole": 0.7315,
+    "per_state": {
+     "SUPERSESSION": 0.7859,
+     "RETRACTION": 0.8605,
+     "EXPIRY": 0.515
+    }
+   },
+   "NO": {
+    "n": 177,
+    "pos": 59,
+    "whole": 0.9125,
+    "per_state": {
+     "SUPERSESSION": 0.9145,
+     "RETRACTION": 0.9492,
+     "EXPIRY": 0.8594
+    }
+   },
+   "ALL": {
+    "whole": 0.7967
+   }
+  },
+  {
+   "reader": "Haiku 4.5, sup.\\ only",
+   "YES": {
+    "n": 267,
+    "pos": 89,
+    "whole": 0.6887,
+    "per_state": {
+     "SUPERSESSION": 0.8288,
+     "RETRACTION": 0.5527,
+     "EXPIRY": 0.5713
+    }
+   },
+   "NO": {
+    "n": 177,
+    "pos": 59,
+    "whole": 0.8532,
+    "per_state": {
+     "SUPERSESSION": 0.9417,
+     "RETRACTION": 0.5273,
+     "EXPIRY": 0.6094
+    }
+   },
+   "ALL": {
+    "whole": 0.7566
+   }
+  },
+  {
+   "reader": "Haiku 4.5, all three",
+   "YES": {
+    "n": 267,
+    "pos": 89,
+    "whole": 0.8091,
+    "per_state": {
+     "SUPERSESSION": 0.8037,
+     "RETRACTION": 0.8673,
+     "EXPIRY": 0.7608
+    }
+   },
+   "NO": {
+    "n": 177,
+    "pos": 59,
+    "whole": 0.9631,
+    "per_state": {
+     "SUPERSESSION": 0.9571,
+     "RETRACTION": 0.9922,
+     "EXPIRY": 0.9922
+    }
+   },
+   "ALL": {
+    "whole": 0.8773
+   }
+  },
+  {
+   "reader": "Opus 5, sup.\\ only",
+   "YES": {
+    "n": 267,
+    "pos": 89,
+    "whole": 0.7997,
+    "per_state": {
+     "SUPERSESSION": 0.9217,
+     "RETRACTION": 0.5863,
+     "EXPIRY": 0.6245
+    }
+   },
+   "NO": {
+    "n": 177,
+    "pos": 59,
+    "whole": 0.906,
+    "per_state": {
+     "SUPERSESSION": 0.9593,
+     "RETRACTION": 0.5781,
+     "EXPIRY": 0.6055
+    }
+   },
+   "ALL": {
+    "whole": 0.8405
+   }
+  },
+  {
+   "reader": "Opus 5, all three",
+   "YES": {
+    "n": 267,
+    "pos": 89,
+    "whole": 0.869,
+    "per_state": {
+     "SUPERSESSION": 0.9216,
+     "RETRACTION": 0.7686,
+     "EXPIRY": 0.8926
+    }
+   },
+   "NO": {
+    "n": 177,
+    "pos": 59,
+    "whole": 0.9619,
+    "per_state": {
+     "SUPERSESSION": 0.958,
+     "RETRACTION": 0.9688,
+     "EXPIRY": 1.0
+    }
+   },
+   "ALL": {
+    "whole": 0.9079
+   }
+  }
+ ]
+}

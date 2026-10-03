@@ -1,0 +1,18 @@
+# The release asset and local unpacks of it. artifact/ is the committed, byte-identical copy.
+*.zip
+/supplementary/
+
+# Environments and the reproduction's working tree
+kts_env/
+kts_work/
+.venv/
+venv/
+
+# Caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

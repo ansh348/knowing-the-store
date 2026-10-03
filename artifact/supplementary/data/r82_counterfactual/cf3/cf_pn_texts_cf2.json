@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "note": "expiry pairs carry no authored record: the anchor moves and the status record is appended (ADDENDUM_CF2 section 2)"
+  },
+  "records": [
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf3:patrick:event:battalion_chiefs_conference_2026",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf3:patrick:hotel_for_conference_2026",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf3:patrick:travel:flight_inbound",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf3:patrick:travel_arrival_date:battalion_chiefs_conference",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf3:priya:project_deadline:NeurIPS_paper",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf3:raj:course:regulatory_update",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf3:raj:training_course:boiler_refresher",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf3:raj:upcoming_job",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf3:rosa:family_event_date",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf3:thanh:event_guest_count:duc_wedding",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf3:thanh:wedding_menu",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf3:valentina:trip_destination",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf3:valentina:trip_plan_rioclaro",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf3:yoli:event:Afrofest_attendance",
+      "state": "EXPIRY"
+    }
+  ]
+}

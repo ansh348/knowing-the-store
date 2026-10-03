@@ -1,0 +1,5877 @@
+{
+ "rule": "equivalent within 0.05: both 90% intervals inside [-0.05, +0.05] (two one-sided tests at 5%); reliable: both 95% intervals exclude zero; neither: 'neither shown nor excluded'",
+ "draws": 1000,
+ "seed": 42,
+ "tol": 0.05,
+ "n_rows": 108,
+ "checks": {
+  "n": 105,
+  "ok": 105
+ },
+ "rows": [
+  {
+   "condition": "default summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "GPT-4.1 mini, one draw",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": -0.0372,
+   "ci95_a": [
+    -0.08108108108108109,
+    0.006756756756756757
+   ],
+   "ci95_persona": [
+    -0.08767203708241444,
+    0.014618192026951133
+   ],
+   "ci90_a": [
+    -0.07432432432432433,
+    -0.0033783783783783786
+   ],
+   "ci90_persona": [
+    -0.08,
+    0.007005675483936342
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "GPT-4.1 mini, one draw",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.0852,
+   "ci95_a": [
+    -0.13068181818181818,
+    -0.03977272727272727
+   ],
+   "ci95_persona": [
+    -0.14204545454545456,
+    -0.029411764705882353
+   ],
+   "ci90_a": [
+    -0.125,
+    -0.05085227272727299
+   ],
+   "ci90_persona": [
+    -0.13299645390070922,
+    -0.03723404255319149
+   ],
+   "a_kind": "triple",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "GPT-4.1 mini, five draws",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": -0.0507,
+   "ci95_a": [
+    -0.11148648648648649,
+    0.010135135135135136
+   ],
+   "ci95_persona": [
+    -0.10687088707554619,
+    0.0
+   ],
+   "ci90_a": [
+    -0.10135135135135136,
+    -0.0033783783783783786
+   ],
+   "ci90_persona": [
+    -0.09923804445442298,
+    -0.0062873427672956
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "GPT-4.1 mini, five draws",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.0739,
+   "ci95_a": [
+    -0.13068181818181818,
+    -0.022727272727272728
+   ],
+   "ci95_persona": [
+    -0.1392655912318617,
+    -0.02142477203647417
+   ],
+   "ci90_a": [
+    -0.11931818181818182,
+    -0.028409090909090908
+   ],
+   "ci90_persona": [
+    -0.13044713438735178,
+    -0.029411764705882353
+   ],
+   "a_kind": "triple",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "Haiku 4.5",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": 0.0,
+   "ci95_a": [
+    -0.04391891891891892,
+    0.037162162162162164
+   ],
+   "ci95_persona": [
+    -0.0528169014084507,
+    0.04829445571331979
+   ],
+   "ci90_a": [
+    -0.037162162162162164,
+    0.033783783783783786
+   ],
+   "ci90_persona": [
+    -0.04365383737387572,
+    0.04197052947052946
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": true,
+   "reading": "equivalent within 0.05",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "Haiku 4.5",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.0511,
+   "ci95_a": [
+    -0.11363636363636363,
+    0.0
+   ],
+   "ci95_persona": [
+    -0.10844028287061289,
+    0.0
+   ],
+   "ci90_a": [
+    -0.09659090909090909,
+    -0.011363636363636364
+   ],
+   "ci90_persona": [
+    -0.0987722154388821,
+    -0.00664978902953588
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "GPT-5.6 Luna",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": 0.1014,
+   "ci95_a": [
+    0.0472972972972973,
+    0.1554054054054054
+   ],
+   "ci95_persona": [
+    0.044191381588606665,
+    0.15334615384615383
+   ],
+   "ci90_a": [
+    0.057432432432432436,
+    0.14527027027027026
+   ],
+   "ci90_persona": [
+    0.052980132450331126,
+    0.14493424584004294
+   ],
+   "a_kind": "triple",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "GPT-5.6 Luna",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.0057,
+   "ci95_a": [
+    -0.03409090909090909,
+    0.022727272727272728
+   ],
+   "ci95_persona": [
+    -0.03205645161290322,
+    0.017446990424076603
+   ],
+   "ci90_a": [
+    -0.028409090909090908,
+    0.022727272727272728
+   ],
+   "ci90_persona": [
+    -0.029086867305061558,
+    0.015
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": true,
+   "reading": "equivalent within 0.05",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "GPT-5.6 Sol",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": 0.0811,
+   "ci95_a": [
+    0.02702702702702703,
+    0.13513513513513514
+   ],
+   "ci95_persona": [
+    0.028288784067085956,
+    0.13194772012578615
+   ],
+   "ci90_a": [
+    0.037162162162162164,
+    0.12837837837837837
+   ],
+   "ci90_persona": [
+    0.0362188510061516,
+    0.1218074904098526
+   ],
+   "a_kind": "triple",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "GPT-5.6 Sol",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.0057,
+   "ci95_a": [
+    -0.05113636363636364,
+    0.03409090909090909
+   ],
+   "ci95_persona": [
+    -0.041696428571428565,
+    0.028735632183908046
+   ],
+   "ci90_a": [
+    -0.045454545454545456,
+    0.028409090909090908
+   ],
+   "ci90_persona": [
+    -0.03723404255319149,
+    0.022988505747126436
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": true,
+   "reading": "equivalent within 0.05",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "Opus 5",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": 0.098,
+   "ci95_a": [
+    0.04721283783783785,
+    0.14535472972972965
+   ],
+   "ci95_persona": [
+    0.043465523097826086,
+    0.15031746210754238
+   ],
+   "ci90_a": [
+    0.05405405405405406,
+    0.13868243243243228
+   ],
+   "ci90_persona": [
+    0.052564102564102565,
+    0.1443661971830986
+   ],
+   "a_kind": "triple",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "Opus 5",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": 0.0114,
+   "ci95_a": [
+    -0.022727272727272728,
+    0.045454545454545456
+   ],
+   "ci95_persona": [
+    -0.028425607822410145,
+    0.05790085679314565
+   ],
+   "ci90_a": [
+    -0.017045454545454544,
+    0.03977272727272727
+   ],
+   "ci90_persona": [
+    -0.022234706616729088,
+    0.04945054945054945
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": true,
+   "reading": "equivalent within 0.05",
+   "note": ""
+  },
+  {
+   "condition": "all-states summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "GPT-4.1 mini, five draws",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": -0.0135,
+   "ci95_a": [
+    -0.06418918918918919,
+    0.033783783783783786
+   ],
+   "ci95_persona": [
+    -0.06977150756220524,
+    0.0375018063583815
+   ],
+   "ci90_a": [
+    -0.05405405405405406,
+    0.02702702702702703
+   ],
+   "ci90_persona": [
+    -0.0577186512118019,
+    0.028855459057071955
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "all-states summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "GPT-4.1 mini, five draws",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.0227,
+   "ci95_a": [
+    -0.07954545454545454,
+    0.034232954545454414
+   ],
+   "ci95_persona": [
+    -0.08860759493670886,
+    0.03372301167658073
+   ],
+   "ci90_a": [
+    -0.06846590909090906,
+    0.028409090909090908
+   ],
+   "ci90_persona": [
+    -0.0778045515394913,
+    0.026595744680851064
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "all-states summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "Haiku 4.5",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": -0.0034,
+   "ci95_a": [
+    -0.04391891891891892,
+    0.037162162162162164
+   ],
+   "ci95_persona": [
+    -0.047619047619047616,
+    0.03333333333333333
+   ],
+   "ci90_a": [
+    -0.037162162162162164,
+    0.030405405405405407
+   ],
+   "ci90_persona": [
+    -0.04015210895017881,
+    0.028310843085741572
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": true,
+   "reading": "equivalent within 0.05",
+   "note": ""
+  },
+  {
+   "condition": "all-states summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "Haiku 4.5",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.0511,
+   "ci95_a": [
+    -0.10795454545454546,
+    0.0
+   ],
+   "ci95_persona": [
+    -0.11225127551020408,
+    0.005377805049088358
+   ],
+   "ci90_a": [
+    -0.09659090909090909,
+    -0.005681818181818182
+   ],
+   "ci90_persona": [
+    -0.1000531914893617,
+    -0.005740668991347029
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "all-states summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "Opus 5",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": 0.0304,
+   "ci95_a": [
+    -0.006841216216216211,
+    0.06427364864864857
+   ],
+   "ci95_persona": [
+    -0.003849206349206349,
+    0.06481782106782107
+   ],
+   "ci90_a": [
+    0.0,
+    0.060810810810810814
+   ],
+   "ci90_persona": [
+    0.0,
+    0.059886331411286485
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "all-states summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "Opus 5",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": 0.0227,
+   "ci95_a": [
+    -0.011363636363636364,
+    0.056818181818181816
+   ],
+   "ci95_persona": [
+    -0.010529115341545353,
+    0.0550454545454545
+   ],
+   "ci90_a": [
+    -0.005681818181818182,
+    0.05113636363636364
+   ],
+   "ci90_persona": [
+    -0.0056179775280898875,
+    0.05
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "all-states summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "Opus 5, draw 1",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": 0.0372,
+   "ci95_a": [
+    0.003293918918918924,
+    0.07094594594594594
+   ],
+   "ci95_persona": [
+    0.007629315255782158,
+    0.06622516556291391
+   ],
+   "ci90_a": [
+    0.006756756756756757,
+    0.06418918918918919
+   ],
+   "ci90_persona": [
+    0.013333333333333334,
+    0.062112720055863865
+   ],
+   "a_kind": "triple",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "all-states summary",
+   "table": "tab:cf-matched-vs",
+   "reader": "Opus 5, draw 1",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": 0.0398,
+   "ci95_a": [
+    0.017045454545454544,
+    0.06818181818181818
+   ],
+   "ci95_persona": [
+    0.011761285909712722,
+    0.07142857142857142
+   ],
+   "ci90_a": [
+    0.017045454545454544,
+    0.0625
+   ],
+   "ci90_persona": [
+    0.016666666666666666,
+    0.0650238095238095
+   ],
+   "a_kind": "triple",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "B6: lookup with one count feature",
+   "table": "tab:cf-hybrid (new row)",
+   "reader": "count-feature lookup minus GPT-5.6 Luna",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": 0.0068,
+   "ci95_a": [
+    -0.05067567567567568,
+    0.06418918918918919
+   ],
+   "ci95_persona": [
+    -0.05359577922077922,
+    0.0658708624417831
+   ],
+   "ci90_a": [
+    -0.04054054054054054,
+    0.05405405405405406
+   ],
+   "ci90_persona": [
+    -0.04305453356225983,
+    0.056818181818181816
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "B6: lookup with one count feature",
+   "table": "tab:cf-hybrid (new row)",
+   "reader": "count-feature lookup minus GPT-5.6 Sol",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": 0.027,
+   "ci95_a": [
+    -0.02027027027027027,
+    0.08116554054054047
+   ],
+   "ci95_persona": [
+    -0.01754540400296516,
+    0.0737331081081081
+   ],
+   "ci90_a": [
+    -0.016891891891891893,
+    0.07094594594594594
+   ],
+   "ci90_persona": [
+    -0.010355755220981058,
+    0.06581125827814567
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "B6: lookup with one count feature",
+   "table": "tab:cf-hybrid (new row)",
+   "reader": "count-feature lookup minus Opus 5",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": 0.0101,
+   "ci95_a": [
+    -0.04391891891891892,
+    0.06756756756756757
+   ],
+   "ci95_persona": [
+    -0.05634801718110079,
+    0.07333566433566434
+   ],
+   "ci90_a": [
+    -0.033783783783783786,
+    0.060810810810810814
+   ],
+   "ci90_persona": [
+    -0.043798821872198745,
+    0.06421502384737676
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:sup-margins",
+   "reader": "GPT-4.1 mini, one draw",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": -0.0915,
+   "ci95_a": [
+    -0.13994135134870617,
+    -0.04782348066948962
+   ],
+   "ci95_persona": [
+    -0.14360832184232034,
+    -0.04253603160946863
+   ],
+   "ci90_a": [
+    -0.13100785770278853,
+    -0.05502556875852163
+   ],
+   "ci90_persona": [
+    -0.1381341404835219,
+    -0.04873031431136363
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "all-states summary",
+   "table": "Table 1 (tab:cf-main)",
+   "reader": "Opus 5",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.0323,
+   "ci95_a": [
+    0.005986047439452161,
+    0.061737941439887783
+   ],
+   "ci95_persona": [
+    0.007723586530470894,
+    0.06084634886188275
+   ],
+   "ci90_a": [
+    0.008651138084077798,
+    0.05692762910513328
+   ],
+   "ci90_persona": [
+    0.011810905352332757,
+    0.05537288057854452
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "stored = Table 1's printed row (AUX-R103-MARGIN), compared at the printed four decimals"
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-minus-lookup (padded panel)",
+   "reader": "GPT-4.1 mini, five draws",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": -0.05245996900826444,
+   "ci95_a": [
+    -0.10652819137915574,
+    0.004135913501683817
+   ],
+   "ci95_persona": [
+    -0.10917466018953378,
+    0.0058298086791441495
+   ],
+   "ci90_a": [
+    -0.0980665600614818,
+    -0.003118446375655992
+   ],
+   "ci90_persona": [
+    -0.09996048872101983,
+    -0.006414495474727375
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-minus-lookup (padded panel)",
+   "reader": "GPT-4.1 mini, five draws",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.045454545454545456,
+   "ci95_a": [
+    -0.13068181818181818,
+    0.045454545454545456
+   ],
+   "ci95_persona": [
+    -0.14610891215526045,
+    0.04495658835546475
+   ],
+   "ci90_a": [
+    -0.11931818181818182,
+    0.028409090909090908
+   ],
+   "ci90_persona": [
+    -0.1329147589550229,
+    0.034482758620689655
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-whole (padded panel)",
+   "reader": "GPT-4.1 mini, five draws",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": -0.016538075237399585,
+   "ci95_a": [
+    -0.06988937509633168,
+    0.03594432198944014
+   ],
+   "ci95_persona": [
+    -0.05410154305624687,
+    0.020654323203735694
+   ],
+   "ci90_a": [
+    -0.06151542471884731,
+    0.02951721989461432
+   ],
+   "ci90_persona": [
+    -0.04864636596055522,
+    0.013581403604847601
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-whole (padded panel)",
+   "reader": "GPT-4.1 mini, five draws",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": 0.016891891891891893,
+   "ci95_a": [
+    -0.05405405405405406,
+    0.08783783783783784
+   ],
+   "ci95_persona": [
+    -0.05782312925170068,
+    0.0743295702534833
+   ],
+   "ci90_a": [
+    -0.04391891891891892,
+    0.07449324324324309
+   ],
+   "ci90_persona": [
+    -0.045454545454545456,
+    0.06835067660157589
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cfpad-minus-lookup (unpadded panel)",
+   "reader": "GPT-4.1 mini, five draws",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": -0.0429364669421487,
+   "ci95_a": [
+    -0.08975359824780967,
+    0.0005686791849112493
+   ],
+   "ci95_persona": [
+    -0.10009528149634145,
+    0.0035457797249334884
+   ],
+   "ci90_a": [
+    -0.08181795755375774,
+    -0.007423941798941789
+   ],
+   "ci90_persona": [
+    -0.08962586753947019,
+    -0.003775355617560493
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cfpad-whole (unpadded panel)",
+   "reader": "GPT-4.1 mini, five draws",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": -0.00156364134404674,
+   "ci95_a": [
+    -0.04263416263341101,
+    0.03933920850136897
+   ],
+   "ci95_persona": [
+    -0.04145370949551975,
+    0.03275609447337959
+   ],
+   "ci90_a": [
+    -0.03710677848132723,
+    0.0316093192019955
+   ],
+   "ci90_persona": [
+    -0.03426313101665284,
+    0.027810596351830474
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": true,
+   "reading": "equivalent within 0.05",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-minus-lookup (padded panel)",
+   "reader": "Haiku 4.5",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": -0.0062306301652892415,
+   "ci95_a": [
+    -0.06524436904028803,
+    0.05149857313910327
+   ],
+   "ci95_persona": [
+    -0.05583107491176278,
+    0.046431057855929
+   ],
+   "ci90_a": [
+    -0.055004527566797794,
+    0.043725058333425444
+   ],
+   "ci90_persona": [
+    -0.049716338491036384,
+    0.03781982012743157
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-minus-lookup (padded panel)",
+   "reader": "Haiku 4.5",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.028409090909090908,
+   "ci95_a": [
+    -0.08522727272727272,
+    0.03409090909090909
+   ],
+   "ci95_persona": [
+    -0.08047530288909599,
+    0.029420518207282906
+   ],
+   "ci90_a": [
+    -0.07954545454545454,
+    0.022727272727272728
+   ],
+   "ci90_persona": [
+    -0.07222556894243641,
+    0.019493335611756653
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-whole (padded panel)",
+   "reader": "Haiku 4.5",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.005524105186267336,
+   "ci95_a": [
+    -0.04618850293040349,
+    0.053765864918647856
+   ],
+   "ci95_persona": [
+    -0.027773731004665216,
+    0.04466459796253902
+   ],
+   "ci90_a": [
+    -0.03953309740348474,
+    0.045328146007900215
+   ],
+   "ci90_persona": [
+    -0.023152587032569484,
+    0.03900709128313148
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": true,
+   "reading": "equivalent within 0.05",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-whole (padded panel)",
+   "reader": "Haiku 4.5",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": -0.04391891891891892,
+   "ci95_a": [
+    -0.09805743243243242,
+    0.006756756756756757
+   ],
+   "ci95_persona": [
+    -0.08955481214616572,
+    0.0030893874643874615
+   ],
+   "ci90_a": [
+    -0.08800675675675675,
+    0.0
+   ],
+   "ci90_persona": [
+    -0.08203683035714286,
+    -0.006789382419634532
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cfpad-minus-lookup (unpadded panel)",
+   "reader": "Haiku 4.5",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": -0.03470428719008256,
+   "ci95_a": [
+    -0.08131013510698383,
+    0.00860502805167763
+   ],
+   "ci95_persona": [
+    -0.08085728054805665,
+    0.006631149789009195
+   ],
+   "ci90_a": [
+    -0.07266507700407707,
+    0.0013877468550143452
+   ],
+   "ci90_persona": [
+    -0.07055761104977072,
+    -0.0017001533662670812
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cfpad-whole (unpadded panel)",
+   "reader": "Haiku 4.5",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": -0.009781318480642787,
+   "ci95_a": [
+    -0.06400391277103304,
+    0.03978354410784693
+   ],
+   "ci95_persona": [
+    -0.049379915769531324,
+    0.03356831885646813
+   ],
+   "ci90_a": [
+    -0.05268111303488472,
+    0.03196064640849274
+   ],
+   "ci90_persona": [
+    -0.0448453315469574,
+    0.02616269062497588
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-minus-lookup (padded panel)",
+   "reader": "GPT-5.6 Luna",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": 0.13746126033057848,
+   "ci95_a": [
+    0.08828012114835815,
+    0.19336576198057648
+   ],
+   "ci95_persona": [
+    0.09712838394285092,
+    0.1776653744354834
+   ],
+   "ci90_a": [
+    0.09797548936123338,
+    0.18380812989091191
+   ],
+   "ci90_persona": [
+    0.10162646734969609,
+    0.1722334165879528
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-minus-lookup (padded panel)",
+   "reader": "GPT-5.6 Luna",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": 0.10227272727272728,
+   "ci95_a": [
+    0.03977272727272727,
+    0.16477272727272727
+   ],
+   "ci95_persona": [
+    0.04819277108433735,
+    0.15517241379310345
+   ],
+   "ci90_a": [
+    0.05113636363636364,
+    0.1534090909090909
+   ],
+   "ci90_persona": [
+    0.05614856429463171,
+    0.14675511508951405
+   ],
+   "a_kind": "triple",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-whole (padded panel)",
+   "reader": "GPT-5.6 Luna",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.09207222425127837,
+   "ci95_a": [
+    0.0449568133298082,
+    0.14375029675582746
+   ],
+   "ci95_persona": [
+    0.05718308714876736,
+    0.12774113105650575
+   ],
+   "ci90_a": [
+    0.05104862852636029,
+    0.1348265918966169
+   ],
+   "ci90_persona": [
+    0.06396680466967923,
+    0.12373837290018043
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-whole (padded panel)",
+   "reader": "GPT-5.6 Luna",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": 0.16891891891891891,
+   "ci95_a": [
+    0.11148648648648649,
+    0.22972972972972974
+   ],
+   "ci95_persona": [
+    0.11016525423728814,
+    0.224491323475498
+   ],
+   "ci90_a": [
+    0.11824324324324324,
+    0.2195945945945946
+   ],
+   "ci90_persona": [
+    0.11721264367816092,
+    0.21768707482993196
+   ],
+   "a_kind": "triple",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cfpad-minus-lookup (unpadded panel)",
+   "reader": "GPT-5.6 Luna",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": 0.020370609504132275,
+   "ci95_a": [
+    -0.00534325396825395,
+    0.04727154190404544
+   ],
+   "ci95_persona": [
+    -0.005625322830578549,
+    0.04506272771948944
+   ],
+   "ci90_a": [
+    -0.00034282509806185453,
+    0.04289914397935202
+   ],
+   "ci90_persona": [
+    -0.0021071483005638872,
+    0.04029227483124794
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": true,
+   "reading": "equivalent within 0.05",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cfpad-whole (unpadded panel)",
+   "reader": "GPT-5.6 Luna",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.07539718772826887,
+   "ci95_a": [
+    0.033919176793615446,
+    0.12160288453853699
+   ],
+   "ci95_persona": [
+    0.04499579159481239,
+    0.10903936038249686
+   ],
+   "ci90_a": [
+    0.040724421862715764,
+    0.11269872313186446
+   ],
+   "ci90_persona": [
+    0.05052788137417637,
+    0.10379432348545979
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-minus-lookup (padded panel)",
+   "reader": "GPT-5.6 Sol",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": 0.12738894628099173,
+   "ci95_a": [
+    0.07259173499577212,
+    0.18368311428294634
+   ],
+   "ci95_persona": [
+    0.0802285004353877,
+    0.1726393381384254
+   ],
+   "ci90_a": [
+    0.08214989417456157,
+    0.17632681564245808
+   ],
+   "ci90_persona": [
+    0.08827178000990843,
+    0.16533947798369464
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-minus-lookup (padded panel)",
+   "reader": "GPT-5.6 Sol",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": 0.09090909090909091,
+   "ci95_a": [
+    0.022727272727272728,
+    0.14772727272727273
+   ],
+   "ci95_persona": [
+    0.03408133299284984,
+    0.1519122414325409
+   ],
+   "ci90_a": [
+    0.03977272727272727,
+    0.14204545454545456
+   ],
+   "ci90_persona": [
+    0.04263211382113822,
+    0.14534883720930233
+   ],
+   "a_kind": "triple",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-whole (padded panel)",
+   "reader": "GPT-5.6 Sol",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.10072361212563918,
+   "ci95_a": [
+    0.05160638785223891,
+    0.15312452714634858
+   ],
+   "ci95_persona": [
+    0.06285204361804543,
+    0.141315385763116
+   ],
+   "ci90_a": [
+    0.058280611202699784,
+    0.144283450549536
+   ],
+   "ci90_persona": [
+    0.06964360574779975,
+    0.13383392545682757
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-whole (padded panel)",
+   "reader": "GPT-5.6 Sol",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": 0.06756756756756757,
+   "ci95_a": [
+    0.0,
+    0.13175675675675674
+   ],
+   "ci95_persona": [
+    0.009610849056603775,
+    0.12414182739138904
+   ],
+   "ci90_a": [
+    0.013513513513513514,
+    0.11841216216216201
+   ],
+   "ci90_persona": [
+    0.01698979591836735,
+    0.11512174875484227
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cfpad-minus-lookup (unpadded panel)",
+   "reader": "GPT-5.6 Sol",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": 0.01607696280991744,
+   "ci95_a": [
+    -0.012989429085500225,
+    0.0472641481785443
+   ],
+   "ci95_persona": [
+    -0.02017392431979146,
+    0.0478168685416402
+   ],
+   "ci90_a": [
+    -0.008233452680234916,
+    0.042402718044368196
+   ],
+   "ci90_persona": [
+    -0.010930962049062569,
+    0.041133799977772535
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": true,
+   "reading": "equivalent within 0.05",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cfpad-whole (unpadded panel)",
+   "reader": "GPT-5.6 Sol",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.08362627830533242,
+   "ci95_a": [
+    0.040101296031412395,
+    0.13152770507508307
+   ],
+   "ci95_persona": [
+    0.054443719650261416,
+    0.11625600061258504
+   ],
+   "ci90_a": [
+    0.048728003809921545,
+    0.12426338326569829
+   ],
+   "ci90_persona": [
+    0.05781066883449755,
+    0.11096217908560631
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-minus-lookup (padded panel)",
+   "reader": "Opus 5",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": -0.03357438016528924,
+   "ci95_a": [
+    -0.10697441178728416,
+    0.04480810683826095
+   ],
+   "ci95_persona": [
+    -0.15970829914213885,
+    0.07479538310001346
+   ],
+   "ci90_a": [
+    -0.09296501766316038,
+    0.03149663523447043
+   ],
+   "ci90_persona": [
+    -0.14439555669952253,
+    0.06136701037618125
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-minus-lookup (padded panel)",
+   "reader": "Opus 5",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.045454545454545456,
+   "ci95_a": [
+    -0.14204545454545456,
+    0.03977272727272727
+   ],
+   "ci95_persona": [
+    -0.18454034391534394,
+    0.0755813953488372
+   ],
+   "ci90_a": [
+    -0.1252840909090909,
+    0.022727272727272728
+   ],
+   "ci90_persona": [
+    -0.15962043603887577,
+    0.05851063829787234
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-whole (padded panel)",
+   "reader": "Opus 5",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.005706720233747298,
+   "ci95_a": [
+    -0.05378628136019967,
+    0.07112304602692136
+   ],
+   "ci95_persona": [
+    -0.0779907768458137,
+    0.08472053690859407
+   ],
+   "ci90_a": [
+    -0.04549958119254207,
+    0.05818512839386026
+   ],
+   "ci90_persona": [
+    -0.06244262318698323,
+    0.07174040639252297
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "padded set",
+   "table": "tab:cfpad-whole (padded panel)",
+   "reader": "Opus 5",
+   "scope": "whole",
+   "metric": "matched",
+   "delta": 0.013513513513513514,
+   "ci95_a": [
+    -0.057432432432432436,
+    0.08445945945945946
+   ],
+   "ci95_persona": [
+    -0.0868337189257848,
+    0.10840290661719232
+   ],
+   "ci90_a": [
+    -0.04391891891891892,
+    0.07432432432432433
+   ],
+   "ci90_persona": [
+    -0.06839191297564358,
+    0.09462676962676961
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cfpad-minus-lookup (unpadded panel)",
+   "reader": "Opus 5",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": 0.010233729338843034,
+   "ci95_a": [
+    -0.018276577904993214,
+    0.03921229338513641
+   ],
+   "ci95_persona": [
+    -0.025925252678865453,
+    0.04320996197940482
+   ],
+   "ci90_a": [
+    -0.014258311264703293,
+    0.035217716084158766
+   ],
+   "ci90_persona": [
+    -0.019004532648322497,
+    0.038190018461764424
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": true,
+   "reading": "equivalent within 0.05",
+   "note": ""
+  },
+  {
+   "condition": "default summary",
+   "table": "tab:cfpad-whole (unpadded panel)",
+   "reader": "Opus 5",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.07418736303871443,
+   "ci95_a": [
+    0.03151785744479089,
+    0.12028522164752599
+   ],
+   "ci95_persona": [
+    0.041397592827759566,
+    0.1126257149255226
+   ],
+   "ci90_a": [
+    0.037820563374252554,
+    0.11388453577089673
+   ],
+   "ci90_persona": [
+    0.04610651901054593,
+    0.10634697873503271
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": ""
+  },
+  {
+   "condition": "sibling-name control",
+   "table": "tab:cf-sibling",
+   "reader": "GPT-4.1 mini (five draws)",
+   "scope": "supersession (PN vs sibling)",
+   "metric": "matched",
+   "delta": -0.0455,
+   "ci95_a": [
+    -0.11363636363636363,
+    0.017045454545454544
+   ],
+   "ci95_persona": [
+    -0.11117424242424241,
+    0.01149759422614274
+   ],
+   "ci90_a": [
+    -0.10227272727272728,
+    0.005681818181818182
+   ],
+   "ci90_persona": [
+    -0.1000531914893617,
+    0.00505571175674268
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "sibling-name control",
+   "table": "tab:cf-sibling",
+   "reader": "Haiku 4.5 (five draws)",
+   "scope": "supersession (PN vs sibling)",
+   "metric": "matched",
+   "delta": -0.0682,
+   "ci95_a": [
+    -0.13636363636363635,
+    0.0
+   ],
+   "ci95_persona": [
+    -0.12660921088068947,
+    0.0
+   ],
+   "ci90_a": [
+    -0.125,
+    -0.011363636363636364
+   ],
+   "ci90_persona": [
+    -0.11764705882352941,
+    -0.011764705882352941
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "sibling-name control",
+   "table": "tab:cf-sibling",
+   "reader": "GPT-5.6 Luna (five draws)",
+   "scope": "supersession (PN vs sibling)",
+   "metric": "matched",
+   "delta": -0.0341,
+   "ci95_a": [
+    -0.08536931818181817,
+    0.022727272727272728
+   ],
+   "ci95_persona": [
+    -0.10752688172043011,
+    0.029420518207282906
+   ],
+   "ci90_a": [
+    -0.07954545454545454,
+    0.011363636363636364
+   ],
+   "ci90_persona": [
+    -0.09575542660649043,
+    0.021517064048620842
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "sibling-name control",
+   "table": "tab:cf-sibling",
+   "reader": "GPT-5.6 Sol (draw 1)",
+   "scope": "supersession (PN vs sibling)",
+   "metric": "matched",
+   "delta": -0.0341,
+   "ci95_a": [
+    -0.09659090909090909,
+    0.028551136363636234
+   ],
+   "ci95_persona": [
+    -0.09045147898287494,
+    0.025332894953148104
+   ],
+   "ci90_a": [
+    -0.09090909090909091,
+    0.017045454545454544
+   ],
+   "ci90_persona": [
+    -0.08246336996336996,
+    0.016322463768115924
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "sibling-name control",
+   "table": "tab:cf-sibling",
+   "reader": "Opus 5 (draw 1)",
+   "scope": "supersession (PN vs sibling)",
+   "metric": "matched",
+   "delta": 0.0227,
+   "ci95_a": [
+    -0.017045454545454544,
+    0.06818181818181818
+   ],
+   "ci95_persona": [
+    -0.011363636363636364,
+    0.06321839080459771
+   ],
+   "ci90_a": [
+    -0.011363636363636364,
+    0.0625
+   ],
+   "ci90_persona": [
+    -0.0058823529411764705,
+    0.05684185606060604
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": ""
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "GPT-4.1 mini, paraphrases",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": -0.09037807183364832,
+   "ci95_a": [
+    -0.14532808533872363,
+    -0.03522840382596484
+   ],
+   "ci95_persona": [
+    -0.15173962750906103,
+    -0.033735448010973945
+   ],
+   "ci90_a": [
+    -0.13867483314980533,
+    -0.04378249766896758
+   ],
+   "ci90_persona": [
+    -0.1405074557853025,
+    -0.04236151178416003
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "registered row"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "GPT-4.1 mini, originals",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": -0.07941398865784499,
+   "ci95_a": [
+    -0.13029744407845156,
+    -0.028988367479556753
+   ],
+   "ci95_persona": [
+    -0.12361683067764648,
+    -0.034807666314982756
+   ],
+   "ci90_a": [
+    -0.12376150758933449,
+    -0.03747427796960999
+   ],
+   "ci90_persona": [
+    -0.1179217786019104,
+    -0.040445888216447116
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-4.1 mini, paraphrases",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": -0.11954639889196672,
+   "ci95_a": [
+    -0.18422450119344747,
+    -0.05721281678437896
+   ],
+   "ci95_persona": [
+    -0.19586864864864872,
+    -0.051154931028503124
+   ],
+   "ci90_a": [
+    -0.16868446927511918,
+    -0.06655063634140565
+   ],
+   "ci90_persona": [
+    -0.18327516360817522,
+    -0.059846051723179784
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-4.1 mini, originals",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": -0.10435422437673136,
+   "ci95_a": [
+    -0.1593381614656219,
+    -0.053164907965378386
+   ],
+   "ci95_persona": [
+    -0.16654282526974296,
+    -0.04561694608810001
+   ],
+   "ci90_a": [
+    -0.14752696862220674,
+    -0.05943312608497319
+   ],
+   "ci90_persona": [
+    -0.15576213140693745,
+    -0.05501376882402022
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-4.1 mini, paraphrases",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.1513157894736842,
+   "ci95_a": [
+    -0.21710526315789475,
+    -0.07894736842105263
+   ],
+   "ci95_persona": [
+    -0.2500811688311688,
+    -0.05475444476828916
+   ],
+   "ci90_a": [
+    -0.21052631578947367,
+    -0.08552631578947369
+   ],
+   "ci90_persona": [
+    -0.2343846450617284,
+    -0.07300044352454171
+   ],
+   "a_kind": "triple",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-4.1 mini, originals",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.10526315789473684,
+   "ci95_a": [
+    -0.15805921052631577,
+    -0.05263157894736842
+   ],
+   "ci95_persona": [
+    -0.1667207792207792,
+    -0.041666666666666664
+   ],
+   "ci90_a": [
+    -0.1513157894736842,
+    -0.05921052631578947
+   ],
+   "ci90_persona": [
+    -0.15942028985507245,
+    -0.0533137254901961
+   ],
+   "a_kind": "triple",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "GPT-4.1 mini, all states, paraphrases",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": -0.10404536862003788,
+   "ci95_a": [
+    -0.17750117017982137,
+    -0.03510278881519474
+   ],
+   "ci95_persona": [
+    -0.1649493369308857,
+    -0.05115562550556276
+   ],
+   "ci90_a": [
+    -0.16454949494949497,
+    -0.04990842210531058
+   ],
+   "ci90_persona": [
+    -0.155727414505627,
+    -0.06118322411830347
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "registered row"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "GPT-4.1 mini, all states, originals",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": -0.08279773156899806,
+   "ci95_a": [
+    -0.1323190369207851,
+    -0.035682230280692756
+   ],
+   "ci95_persona": [
+    -0.13190605036410757,
+    -0.035576704920311016
+   ],
+   "ci90_a": [
+    -0.12547402239238187,
+    -0.04156654752778726
+   ],
+   "ci90_persona": [
+    -0.12351208502645795,
+    -0.04378764860341647
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-4.1 mini, all states, paraphrases",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": -0.08682479224376727,
+   "ci95_a": [
+    -0.15832575394190926,
+    -0.011507838295104189
+   ],
+   "ci95_persona": [
+    -0.15720874178432234,
+    -0.01433441566911653
+   ],
+   "ci90_a": [
+    -0.1470908797636324,
+    -0.02294744899629972
+   ],
+   "ci90_persona": [
+    -0.14479309068298374,
+    -0.030811904876503114
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-4.1 mini, all states, originals",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": -0.0702908587257618,
+   "ci95_a": [
+    -0.11767632126548613,
+    -0.01966172170532262
+   ],
+   "ci95_persona": [
+    -0.1320227228159754,
+    -0.009897083940997082
+   ],
+   "ci90_a": [
+    -0.112246857717446,
+    -0.027069936607246214
+   ],
+   "ci90_persona": [
+    -0.1186570896903818,
+    -0.01955649447278911
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-4.1 mini, all states, paraphrases",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.1118421052631579,
+   "ci95_a": [
+    -0.19078947368421054,
+    -0.039473684210526314
+   ],
+   "ci95_persona": [
+    -0.1875202922077922,
+    -0.038446969696969716
+   ],
+   "ci90_a": [
+    -0.17763157894736842,
+    -0.046052631578947366
+   ],
+   "ci90_persona": [
+    -0.17567567567567569,
+    -0.04934413580246917
+   ],
+   "a_kind": "triple",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-4.1 mini, all states, originals",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.07236842105263158,
+   "ci95_a": [
+    -0.13157894736842105,
+    -0.013157894736842105
+   ],
+   "ci95_persona": [
+    -0.158257659145111,
+    0.0
+   ],
+   "ci90_a": [
+    -0.125,
+    -0.019736842105263157
+   ],
+   "ci90_persona": [
+    -0.14388067772170152,
+    -0.01282051282051282
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "Haiku 4.5, paraphrases",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": -0.056767485822306174,
+   "ci95_a": [
+    -0.11698324458479435,
+    0.004034727996140807
+   ],
+   "ci95_persona": [
+    -0.10655954239619346,
+    -0.0073854029036857895
+   ],
+   "ci90_a": [
+    -0.10303868613505382,
+    -0.008013443083726018
+   ],
+   "ci90_persona": [
+    -0.09601275492433983,
+    -0.01583715203628136
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "registered row"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "Haiku 4.5, originals",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": -0.014234404536862089,
+   "ci95_a": [
+    -0.06746038359788357,
+    0.03646686263032173
+   ],
+   "ci95_persona": [
+    -0.05570366061367463,
+    0.03461742465521563
+   ],
+   "ci90_a": [
+    -0.05930180859363287,
+    0.030663056978846456
+   ],
+   "ci90_persona": [
+    -0.050371204103829934,
+    0.02532842713048894
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Haiku 4.5, paraphrases",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": -0.07427285318559551,
+   "ci95_a": [
+    -0.13712993260441833,
+    -0.02019556179795598
+   ],
+   "ci95_persona": [
+    -0.13545953135464964,
+    -0.011586567081799483
+   ],
+   "ci90_a": [
+    -0.12562866489550834,
+    -0.02743241603684638
+   ],
+   "ci90_persona": [
+    -0.12846195772713848,
+    -0.02062172335600906
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Haiku 4.5, originals",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": -0.030427631578947456,
+   "ci95_a": [
+    -0.0746035203316595,
+    0.015228469003890186
+   ],
+   "ci95_persona": [
+    -0.08333646087446042,
+    0.0222391372719795
+   ],
+   "ci90_a": [
+    -0.06602909094275587,
+    0.00655291577910627
+   ],
+   "ci90_persona": [
+    -0.07295058109714139,
+    0.01187963419533932
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Haiku 4.5, paraphrases",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.05263157894736842,
+   "ci95_a": [
+    -0.125,
+    0.019736842105263157
+   ],
+   "ci95_persona": [
+    -0.12048712089738263,
+    0.023574087862993257
+   ],
+   "ci90_a": [
+    -0.1118421052631579,
+    0.006578947368421052
+   ],
+   "ci90_persona": [
+    -0.1111111111111111,
+    0.006964869281045733
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Haiku 4.5, originals",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.05921052631578947,
+   "ci95_a": [
+    -0.125,
+    0.0
+   ],
+   "ci95_persona": [
+    -0.11808035714285714,
+    -0.006754504504504507
+   ],
+   "ci90_a": [
+    -0.1118421052631579,
+    -0.013157894736842105
+   ],
+   "ci90_persona": [
+    -0.10526315789473684,
+    -0.012987012987012988
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "Haiku 4.5, all states, paraphrases",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": -0.07043478260869562,
+   "ci95_a": [
+    -0.12997664861366576,
+    -0.012953652154109749
+   ],
+   "ci95_persona": [
+    -0.12295994921514312,
+    -0.014862902317956788
+   ],
+   "ci90_a": [
+    -0.12036138834680395,
+    -0.021682087834228505
+   ],
+   "ci90_persona": [
+    -0.11503000014002696,
+    -0.02409814937714143
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "registered row"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "Haiku 4.5, all states, originals",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": -0.0006427221172022879,
+   "ci95_a": [
+    -0.03631620160004809,
+    0.03777759828406819
+   ],
+   "ci95_persona": [
+    -0.04260889269322417,
+    0.03849790019101267
+   ],
+   "ci90_a": [
+    -0.03165185045718168,
+    0.03199754308451476
+   ],
+   "ci90_persona": [
+    -0.03420829059212852,
+    0.031030728374401875
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": true,
+   "reading": "equivalent within 0.05",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Haiku 4.5, all states, paraphrases",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": -0.08790685595567871,
+   "ci95_a": [
+    -0.1576565749786032,
+    -0.014828233349884899
+   ],
+   "ci95_persona": [
+    -0.14877854611495975,
+    -0.024080006055452494
+   ],
+   "ci90_a": [
+    -0.14489793824009417,
+    -0.028410697192310798
+   ],
+   "ci90_persona": [
+    -0.1390018304599364,
+    -0.0337929152319932
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Haiku 4.5, all states, originals",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": -0.018698060941828354,
+   "ci95_a": [
+    -0.05716737027092249,
+    0.029044667616979516
+   ],
+   "ci95_persona": [
+    -0.06779078402727055,
+    0.026460913390851912
+   ],
+   "ci90_a": [
+    -0.050843356158126025,
+    0.02052808022247352
+   ],
+   "ci90_persona": [
+    -0.05929194427913341,
+    0.018532871517035747
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Haiku 4.5, all states, paraphrases",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.09210526315789473,
+   "ci95_a": [
+    -0.16447368421052633,
+    -0.013157894736842105
+   ],
+   "ci95_persona": [
+    -0.16026234567901235,
+    -0.02408921399885256
+   ],
+   "ci90_a": [
+    -0.1513157894736842,
+    -0.019736842105263157
+   ],
+   "ci90_persona": [
+    -0.15003424657534245,
+    -0.03368913857677904
+   ],
+   "a_kind": "triple",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Haiku 4.5, all states, originals",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.039473684210526314,
+   "ci95_a": [
+    -0.10526315789473684,
+    0.02631578947368421
+   ],
+   "ci95_persona": [
+    -0.10813978040540541,
+    0.025974025974025976
+   ],
+   "ci90_a": [
+    -0.09210526315789473,
+    0.019736842105263157
+   ],
+   "ci90_persona": [
+    -0.09868421052631579,
+    0.014296066252587981
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "Opus 5, draw 1, paraphrases",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.06300567107750477,
+   "ci95_a": [
+    0.007789309853281074,
+    0.11343622088346983
+   ],
+   "ci95_persona": [
+    0.010129311661040197,
+    0.11394463769885334
+   ],
+   "ci90_a": [
+    0.016174481354389515,
+    0.10518548023271111
+   ],
+   "ci90_persona": [
+    0.018847750256712443,
+    0.10664876707818932
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "registered row"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "Opus 5, draw 1, originals",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.07448015122873342,
+   "ci95_a": [
+    0.023033605811907058,
+    0.12522288583662233
+   ],
+   "ci95_persona": [
+    0.035712075977198825,
+    0.11470761237366246
+   ],
+   "ci90_a": [
+    0.028799143560001184,
+    0.11602280705986956
+   ],
+   "ci90_persona": [
+    0.041365323760927206,
+    0.10751448377288643
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Opus 5, draw 1, paraphrases",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": 0.022550207756232732,
+   "ci95_a": [
+    -0.02406422774812162,
+    0.06977277318847087
+   ],
+   "ci95_persona": [
+    -0.03574882744917822,
+    0.08064751039304609
+   ],
+   "ci90_a": [
+    -0.016419985841991128,
+    0.06030749128138161
+   ],
+   "ci90_persona": [
+    -0.02390181587259375,
+    0.07215808844686308
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Opus 5, draw 1, originals",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": 0.013634002770083087,
+   "ci95_a": [
+    -0.021802368946274176,
+    0.04643125583566754
+   ],
+   "ci95_persona": [
+    -0.024903161347418094,
+    0.05130168547453701
+   ],
+   "ci90_a": [
+    -0.014837789121586713,
+    0.04109896266022261
+   ],
+   "ci90_persona": [
+    -0.019047480016609532,
+    0.043805218674099755
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": true,
+   "reading": "equivalent within 0.05",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Opus 5, draw 1, paraphrases",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": 0.02631578947368421,
+   "ci95_a": [
+    -0.03289473684210526,
+    0.08552631578947369
+   ],
+   "ci95_persona": [
+    -0.0375,
+    0.1
+   ],
+   "ci90_a": [
+    -0.02631578947368421,
+    0.07894736842105263
+   ],
+   "ci90_persona": [
+    -0.028596345514950165,
+    0.08333333333333333
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Opus 5, draw 1, originals",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": 0.013157894736842105,
+   "ci95_a": [
+    -0.006578947368421052,
+    0.039473684210526314
+   ],
+   "ci95_persona": [
+    -0.01408953722334004,
+    0.04348505434782608
+   ],
+   "ci90_a": [
+    -0.006578947368421052,
+    0.03289473684210526
+   ],
+   "ci90_persona": [
+    -0.008149438637243503,
+    0.0397840909090909
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": true,
+   "reading": "equivalent within 0.05",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "Opus 5, draw 1, all states, paraphrases",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.05436672967863887,
+   "ci95_a": [
+    0.0013082496957897097,
+    0.09825363117926009
+   ],
+   "ci95_persona": [
+    0.005950888279792959,
+    0.10028688774071588
+   ],
+   "ci90_a": [
+    0.01292436797225225,
+    0.09192930865817202
+   ],
+   "ci90_persona": [
+    0.014811369691966116,
+    0.0921289718876068
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "registered row"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "Opus 5, draw 1, all states, originals",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.03871455576559546,
+   "ci95_a": [
+    0.005308382840404946,
+    0.07178031701682233
+   ],
+   "ci95_persona": [
+    0.007096531406620614,
+    0.07054006870362818
+   ],
+   "ci90_a": [
+    0.010351261915924337,
+    0.06653053513848962
+   ],
+   "ci90_persona": [
+    0.012345478315918774,
+    0.06612900253273035
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Opus 5, draw 1, all states, paraphrases",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": 0.060682132963988944,
+   "ci95_a": [
+    0.011375653402476765,
+    0.11556786268279945
+   ],
+   "ci95_persona": [
+    0.0008527857529460688,
+    0.12556178457496714
+   ],
+   "ci90_a": [
+    0.019197035827470628,
+    0.10492065005508944
+   ],
+   "ci90_persona": [
+    0.010237780150171624,
+    0.11590971778366198
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Opus 5, draw 1, all states, originals",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": 0.030860457063711877,
+   "ci95_a": [
+    -0.0027193599849849952,
+    0.06616698205475338
+   ],
+   "ci95_persona": [
+    -0.008996607224508532,
+    0.07229831673743665
+   ],
+   "ci90_a": [
+    0.002228799081497318,
+    0.06056170808966865
+   ],
+   "ci90_persona": [
+    -0.0023256029684600717,
+    0.06406624599650264
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Opus 5, draw 1, all states, paraphrases",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": 0.05263157894736842,
+   "ci95_a": [
+    0.0,
+    0.1118421052631579
+   ],
+   "ci95_persona": [
+    -0.00684931506849315,
+    0.10714285714285714
+   ],
+   "ci90_a": [
+    0.006578947368421052,
+    0.09868421052631579
+   ],
+   "ci90_persona": [
+    0.0,
+    0.09642737617135204
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "Opus 5, draw 1, all states, originals",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": 0.046052631578947366,
+   "ci95_a": [
+    0.0,
+    0.09868421052631579
+   ],
+   "ci95_persona": [
+    0.006097560975609756,
+    0.08904109589041095
+   ],
+   "ci90_a": [
+    0.013157894736842105,
+    0.09210526315789473
+   ],
+   "ci90_persona": [
+    0.007137826961770624,
+    0.08333333333333333
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "post hoc"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "GPT-5.6 Luna, paraphrases",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.09449905482041587,
+   "ci95_a": [
+    0.04853439326330376,
+    0.1401101643109765
+   ],
+   "ci95_persona": [
+    0.04654861230677998,
+    0.14308661902709954
+   ],
+   "ci90_a": [
+    0.05555304039805548,
+    0.13298779404563493
+   ],
+   "ci90_persona": [
+    0.05438771004801104,
+    0.13361674634181855
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "added after the registration, not registered"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "GPT-5.6 Luna, originals",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.07625708884688087,
+   "ci95_a": [
+    0.030498674915310227,
+    0.11922833968246066
+   ],
+   "ci95_persona": [
+    0.03996149787037553,
+    0.11227367840294376
+   ],
+   "ci90_a": [
+    0.038117533281511,
+    0.11406496415119034
+   ],
+   "ci90_persona": [
+    0.046673821695382825,
+    0.10723428024830484
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "added after the registration, not registered"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-5.6 Luna, paraphrases",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": 0.044537742382271484,
+   "ci95_a": [
+    0.009321571213273608,
+    0.08449851792568876
+   ],
+   "ci95_persona": [
+    0.004246809908050246,
+    0.08948706271147046
+   ],
+   "ci90_a": [
+    0.015187146128601798,
+    0.07851181530104388
+   ],
+   "ci90_persona": [
+    0.009637519389998373,
+    0.08038283311759836
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "added after the registration, not registered"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-5.6 Luna, originals",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": 0.025450138504155118,
+   "ci95_a": [
+    -0.00025532826128888683,
+    0.05195872911889945
+   ],
+   "ci95_persona": [
+    -0.003982880778319614,
+    0.05142267489711937
+   ],
+   "ci90_a": [
+    0.00435551551533473,
+    0.04832488649896127
+   ],
+   "ci90_persona": [
+    0.00035069188223993414,
+    0.046569830256085236
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": true,
+   "reading": "equivalent within 0.05",
+   "note": "added after the registration, not registered"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-5.6 Luna, paraphrases",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": 0.039473684210526314,
+   "ci95_a": [
+    -0.006578947368421052,
+    0.09210526315789473
+   ],
+   "ci95_persona": [
+    -0.007142857142857143,
+    0.10527242401779094
+   ],
+   "ci90_a": [
+    0.0,
+    0.07894736842105263
+   ],
+   "ci90_persona": [
+    -0.0061051829268292685,
+    0.09030934343434341
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "added after the registration, not registered"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-5.6 Luna, originals",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.019736842105263157,
+   "ci95_a": [
+    -0.06578947368421052,
+    0.013157894736842105
+   ],
+   "ci95_persona": [
+    -0.05557511737089201,
+    0.0071568948575170925
+   ],
+   "ci90_a": [
+    -0.05263157894736842,
+    0.006578947368421052
+   ],
+   "ci90_persona": [
+    -0.050724637681159424,
+    0.006253955696202528
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "added after the registration, not registered"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "GPT-5.6 Sol, paraphrases",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.08913043478260874,
+   "ci95_a": [
+    0.0369832624417554,
+    0.13843371163949778
+   ],
+   "ci95_persona": [
+    0.03741187254966079,
+    0.13799476973837002
+   ],
+   "ci90_a": [
+    0.04580118501258556,
+    0.13121051488946545
+   ],
+   "ci90_persona": [
+    0.045792963079528425,
+    0.12895393075811584
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "added after the registration, not registered"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-minus-lookup",
+   "reader": "GPT-5.6 Sol, originals",
+   "scope": "whole",
+   "metric": "pooled",
+   "delta": 0.08238185255198482,
+   "ci95_a": [
+    0.03791489630530731,
+    0.13000828291027156
+   ],
+   "ci95_persona": [
+    0.04425314594473378,
+    0.12343818307291668
+   ],
+   "ci90_a": [
+    0.04416117300819501,
+    0.12185573897175202
+   ],
+   "ci90_persona": [
+    0.04932936356475244,
+    0.11467145038291986
+   ],
+   "a_kind": "item",
+   "reliable": true,
+   "equivalent": false,
+   "reading": "reliable",
+   "note": "added after the registration, not registered"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-5.6 Sol, paraphrases",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": 0.039646814404432185,
+   "ci95_a": [
+    -0.006256455028702528,
+    0.08446905001465806
+   ],
+   "ci95_persona": [
+    -0.017629135955776365,
+    0.09286333333333327
+   ],
+   "ci90_a": [
+    0.00019513317782607917,
+    0.0773615569374088
+   ],
+   "ci90_persona": [
+    -0.007460010602677591,
+    0.08497040694068707
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "added after the registration, not registered"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-5.6 Sol, originals",
+   "scope": "supersession",
+   "metric": "pooled",
+   "delta": 0.01718317174515227,
+   "ci95_a": [
+    -0.016875481554971393,
+    0.05009016541803067
+   ],
+   "ci95_persona": [
+    -0.022789814158560198,
+    0.05172996264734121
+   ],
+   "ci90_a": [
+    -0.010260886260886207,
+    0.04568810810174022
+   ],
+   "ci90_persona": [
+    -0.016026645025553864,
+    0.047008853340022125
+   ],
+   "a_kind": "item",
+   "reliable": false,
+   "equivalent": true,
+   "reading": "equivalent within 0.05",
+   "note": "added after the registration, not registered"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-5.6 Sol, paraphrases",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": 0.02631578947368421,
+   "ci95_a": [
+    -0.039473684210526314,
+    0.08552631578947369
+   ],
+   "ci95_persona": [
+    -0.03898701298701299,
+    0.09743232119992681
+   ],
+   "ci90_a": [
+    -0.02631578947368421,
+    0.07894736842105263
+   ],
+   "ci90_persona": [
+    -0.03079326923076923,
+    0.08333333333333333
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "added after the registration, not registered"
+  },
+  {
+   "condition": "paraphrase set",
+   "table": "tab:para-sup",
+   "reader": "GPT-5.6 Sol, originals",
+   "scope": "supersession",
+   "metric": "matched",
+   "delta": -0.019736842105263157,
+   "ci95_a": [
+    -0.06578947368421052,
+    0.019736842105263157
+   ],
+   "ci95_persona": [
+    -0.0595508658008658,
+    0.012987012987012988
+   ],
+   "ci90_a": [
+    -0.05921052631578947,
+    0.013157894736842105
+   ],
+   "ci90_persona": [
+    -0.05296078431372549,
+    0.007352941176470588
+   ],
+   "a_kind": "triple",
+   "reliable": false,
+   "equivalent": false,
+   "reading": "neither shown nor excluded",
+   "note": "added after the registration, not registered"
+  }
+ ],
+ "check_rows": [
+  {
+   "row": "default summary | GPT-4.1 mini, one draw | whole | matched",
+   "ok": true,
+   "stored": [
+    -0.0372,
+    [
+     -0.08108108108108109,
+     0.006756756756756757
+    ],
+    [
+     -0.08767203708241444,
+     0.014618192026951133
+    ]
+   ],
+   "computed": [
+    -0.0372,
+    [
+     -0.08108108108108109,
+     0.006756756756756757
+    ],
+    [
+     -0.08767203708241444,
+     0.014618192026951133
+    ]
+   ]
+  },
+  {
+   "row": "default summary | GPT-4.1 mini, one draw | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.0852,
+    [
+     -0.13068181818181818,
+     -0.03977272727272727
+    ],
+    [
+     -0.14204545454545456,
+     -0.029411764705882353
+    ]
+   ],
+   "computed": [
+    -0.0852,
+    [
+     -0.13068181818181818,
+     -0.03977272727272727
+    ],
+    [
+     -0.14204545454545456,
+     -0.029411764705882353
+    ]
+   ]
+  },
+  {
+   "row": "default summary | GPT-4.1 mini, five draws | whole | matched",
+   "ok": true,
+   "stored": [
+    -0.0507,
+    [
+     -0.11148648648648649,
+     0.010135135135135136
+    ],
+    [
+     -0.10687088707554619,
+     0.0
+    ]
+   ],
+   "computed": [
+    -0.0507,
+    [
+     -0.11148648648648649,
+     0.010135135135135136
+    ],
+    [
+     -0.10687088707554619,
+     0.0
+    ]
+   ]
+  },
+  {
+   "row": "default summary | GPT-4.1 mini, five draws | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.0739,
+    [
+     -0.13068181818181818,
+     -0.022727272727272728
+    ],
+    [
+     -0.1392655912318617,
+     -0.02142477203647417
+    ]
+   ],
+   "computed": [
+    -0.0739,
+    [
+     -0.13068181818181818,
+     -0.022727272727272728
+    ],
+    [
+     -0.1392655912318617,
+     -0.02142477203647417
+    ]
+   ]
+  },
+  {
+   "row": "default summary | Haiku 4.5 | whole | matched",
+   "ok": true,
+   "stored": [
+    0.0,
+    [
+     -0.04391891891891892,
+     0.037162162162162164
+    ],
+    [
+     -0.0528169014084507,
+     0.04829445571331979
+    ]
+   ],
+   "computed": [
+    0.0,
+    [
+     -0.04391891891891892,
+     0.037162162162162164
+    ],
+    [
+     -0.0528169014084507,
+     0.04829445571331979
+    ]
+   ]
+  },
+  {
+   "row": "default summary | Haiku 4.5 | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.0511,
+    [
+     -0.11363636363636363,
+     0.0
+    ],
+    [
+     -0.10844028287061289,
+     0.0
+    ]
+   ],
+   "computed": [
+    -0.0511,
+    [
+     -0.11363636363636363,
+     0.0
+    ],
+    [
+     -0.10844028287061289,
+     0.0
+    ]
+   ]
+  },
+  {
+   "row": "default summary | GPT-5.6 Luna | whole | matched",
+   "ok": true,
+   "stored": [
+    0.1014,
+    [
+     0.0472972972972973,
+     0.1554054054054054
+    ],
+    [
+     0.044191381588606665,
+     0.15334615384615383
+    ]
+   ],
+   "computed": [
+    0.1014,
+    [
+     0.0472972972972973,
+     0.1554054054054054
+    ],
+    [
+     0.044191381588606665,
+     0.15334615384615383
+    ]
+   ]
+  },
+  {
+   "row": "default summary | GPT-5.6 Luna | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.0057,
+    [
+     -0.03409090909090909,
+     0.022727272727272728
+    ],
+    [
+     -0.03205645161290322,
+     0.017446990424076603
+    ]
+   ],
+   "computed": [
+    -0.0057,
+    [
+     -0.03409090909090909,
+     0.022727272727272728
+    ],
+    [
+     -0.03205645161290322,
+     0.017446990424076603
+    ]
+   ]
+  },
+  {
+   "row": "default summary | GPT-5.6 Sol | whole | matched",
+   "ok": true,
+   "stored": [
+    0.0811,
+    [
+     0.02702702702702703,
+     0.13513513513513514
+    ],
+    [
+     0.028288784067085956,
+     0.13194772012578615
+    ]
+   ],
+   "computed": [
+    0.0811,
+    [
+     0.02702702702702703,
+     0.13513513513513514
+    ],
+    [
+     0.028288784067085956,
+     0.13194772012578615
+    ]
+   ]
+  },
+  {
+   "row": "default summary | GPT-5.6 Sol | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.0057,
+    [
+     -0.05113636363636364,
+     0.03409090909090909
+    ],
+    [
+     -0.041696428571428565,
+     0.028735632183908046
+    ]
+   ],
+   "computed": [
+    -0.0057,
+    [
+     -0.05113636363636364,
+     0.03409090909090909
+    ],
+    [
+     -0.041696428571428565,
+     0.028735632183908046
+    ]
+   ]
+  },
+  {
+   "row": "default summary | Opus 5 | whole | matched",
+   "ok": true,
+   "stored": [
+    0.098,
+    [
+     0.04721283783783785,
+     0.14535472972972965
+    ],
+    [
+     0.043465523097826086,
+     0.15031746210754238
+    ]
+   ],
+   "computed": [
+    0.098,
+    [
+     0.04721283783783785,
+     0.14535472972972965
+    ],
+    [
+     0.043465523097826086,
+     0.15031746210754238
+    ]
+   ]
+  },
+  {
+   "row": "default summary | Opus 5 | supersession | matched",
+   "ok": true,
+   "stored": [
+    0.0114,
+    [
+     -0.022727272727272728,
+     0.045454545454545456
+    ],
+    [
+     -0.028425607822410145,
+     0.05790085679314565
+    ]
+   ],
+   "computed": [
+    0.0114,
+    [
+     -0.022727272727272728,
+     0.045454545454545456
+    ],
+    [
+     -0.028425607822410145,
+     0.05790085679314565
+    ]
+   ]
+  },
+  {
+   "row": "all-states summary | GPT-4.1 mini, five draws | whole | matched",
+   "ok": true,
+   "stored": [
+    -0.0135,
+    [
+     -0.06418918918918919,
+     0.033783783783783786
+    ],
+    [
+     -0.06977150756220524,
+     0.0375018063583815
+    ]
+   ],
+   "computed": [
+    -0.0135,
+    [
+     -0.06418918918918919,
+     0.033783783783783786
+    ],
+    [
+     -0.06977150756220524,
+     0.0375018063583815
+    ]
+   ]
+  },
+  {
+   "row": "all-states summary | GPT-4.1 mini, five draws | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.0227,
+    [
+     -0.07954545454545454,
+     0.034232954545454414
+    ],
+    [
+     -0.08860759493670886,
+     0.03372301167658073
+    ]
+   ],
+   "computed": [
+    -0.0227,
+    [
+     -0.07954545454545454,
+     0.034232954545454414
+    ],
+    [
+     -0.08860759493670886,
+     0.03372301167658073
+    ]
+   ]
+  },
+  {
+   "row": "all-states summary | Haiku 4.5 | whole | matched",
+   "ok": true,
+   "stored": [
+    -0.0034,
+    [
+     -0.04391891891891892,
+     0.037162162162162164
+    ],
+    [
+     -0.047619047619047616,
+     0.03333333333333333
+    ]
+   ],
+   "computed": [
+    -0.0034,
+    [
+     -0.04391891891891892,
+     0.037162162162162164
+    ],
+    [
+     -0.047619047619047616,
+     0.03333333333333333
+    ]
+   ]
+  },
+  {
+   "row": "all-states summary | Haiku 4.5 | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.0511,
+    [
+     -0.10795454545454546,
+     0.0
+    ],
+    [
+     -0.11225127551020408,
+     0.005377805049088358
+    ]
+   ],
+   "computed": [
+    -0.0511,
+    [
+     -0.10795454545454546,
+     0.0
+    ],
+    [
+     -0.11225127551020408,
+     0.005377805049088358
+    ]
+   ]
+  },
+  {
+   "row": "all-states summary | Opus 5 | whole | matched",
+   "ok": true,
+   "stored": [
+    0.0304,
+    [
+     -0.006841216216216211,
+     0.06427364864864857
+    ],
+    [
+     -0.003849206349206349,
+     0.06481782106782107
+    ]
+   ],
+   "computed": [
+    0.0304,
+    [
+     -0.006841216216216211,
+     0.06427364864864857
+    ],
+    [
+     -0.003849206349206349,
+     0.06481782106782107
+    ]
+   ]
+  },
+  {
+   "row": "all-states summary | Opus 5 | supersession | matched",
+   "ok": true,
+   "stored": [
+    0.0227,
+    [
+     -0.011363636363636364,
+     0.056818181818181816
+    ],
+    [
+     -0.010529115341545353,
+     0.0550454545454545
+    ]
+   ],
+   "computed": [
+    0.0227,
+    [
+     -0.011363636363636364,
+     0.056818181818181816
+    ],
+    [
+     -0.010529115341545353,
+     0.0550454545454545
+    ]
+   ]
+  },
+  {
+   "row": "all-states summary | Opus 5, draw 1 | whole | matched",
+   "ok": true,
+   "stored": [
+    0.0372,
+    [
+     0.003293918918918924,
+     0.07094594594594594
+    ],
+    [
+     0.007629315255782158,
+     0.06622516556291391
+    ]
+   ],
+   "computed": [
+    0.0372,
+    [
+     0.003293918918918924,
+     0.07094594594594594
+    ],
+    [
+     0.007629315255782158,
+     0.06622516556291391
+    ]
+   ]
+  },
+  {
+   "row": "all-states summary | Opus 5, draw 1 | supersession | matched",
+   "ok": true,
+   "stored": [
+    0.0398,
+    [
+     0.017045454545454544,
+     0.06818181818181818
+    ],
+    [
+     0.011761285909712722,
+     0.07142857142857142
+    ]
+   ],
+   "computed": [
+    0.0398,
+    [
+     0.017045454545454544,
+     0.06818181818181818
+    ],
+    [
+     0.011761285909712722,
+     0.07142857142857142
+    ]
+   ]
+  },
+  {
+   "row": "default summary | GPT-4.1 mini, one draw | supersession | pooled",
+   "ok": true,
+   "stored": [
+    -0.0915,
+    [
+     -0.13994135134870617,
+     -0.04782348066948962
+    ],
+    [
+     -0.14360832184232034,
+     -0.04253603160946863
+    ]
+   ],
+   "computed": [
+    -0.0915,
+    [
+     -0.13994135134870617,
+     -0.04782348066948962
+    ],
+    [
+     -0.14360832184232034,
+     -0.04253603160946863
+    ]
+   ]
+  },
+  {
+   "row": "all-states summary | Opus 5 | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.0323,
+    [
+     0.006,
+     0.0617
+    ],
+    [
+     0.0077,
+     0.0608
+    ]
+   ],
+   "computed": [
+    0.0323,
+    [
+     0.005986047439452161,
+     0.061737941439887783
+    ],
+    [
+     0.007723586530470894,
+     0.06084634886188275
+    ]
+   ]
+  },
+  {
+   "row": "padded set | GPT-4.1 mini, five draws | supersession | pooled",
+   "ok": true,
+   "stored": [
+    -0.05245996900826444,
+    [
+     -0.10652819137915574,
+     0.004135913501683817
+    ],
+    [
+     -0.10917466018953378,
+     0.0058298086791441495
+    ]
+   ],
+   "computed": [
+    -0.05245996900826444,
+    [
+     -0.10652819137915574,
+     0.004135913501683817
+    ],
+    [
+     -0.10917466018953378,
+     0.0058298086791441495
+    ]
+   ]
+  },
+  {
+   "row": "padded set | GPT-4.1 mini, five draws | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.045454545454545456,
+    [
+     -0.13068181818181818,
+     0.045454545454545456
+    ],
+    [
+     -0.14610891215526045,
+     0.04495658835546475
+    ]
+   ],
+   "computed": [
+    -0.045454545454545456,
+    [
+     -0.13068181818181818,
+     0.045454545454545456
+    ],
+    [
+     -0.14610891215526045,
+     0.04495658835546475
+    ]
+   ]
+  },
+  {
+   "row": "padded set | GPT-4.1 mini, five draws | whole | pooled",
+   "ok": true,
+   "stored": [
+    -0.016538075237399585,
+    [
+     -0.06988937509633168,
+     0.03594432198944014
+    ],
+    [
+     -0.05410154305624687,
+     0.020654323203735694
+    ]
+   ],
+   "computed": [
+    -0.016538075237399585,
+    [
+     -0.06988937509633168,
+     0.03594432198944014
+    ],
+    [
+     -0.05410154305624687,
+     0.020654323203735694
+    ]
+   ]
+  },
+  {
+   "row": "padded set | GPT-4.1 mini, five draws | whole | matched",
+   "ok": true,
+   "stored": [
+    0.016891891891891893,
+    [
+     -0.05405405405405406,
+     0.08783783783783784
+    ],
+    [
+     -0.05782312925170068,
+     0.0743295702534833
+    ]
+   ],
+   "computed": [
+    0.016891891891891893,
+    [
+     -0.05405405405405406,
+     0.08783783783783784
+    ],
+    [
+     -0.05782312925170068,
+     0.0743295702534833
+    ]
+   ]
+  },
+  {
+   "row": "default summary | GPT-4.1 mini, five draws | supersession | pooled",
+   "ok": true,
+   "stored": [
+    -0.0429364669421487,
+    [
+     -0.08975359824780967,
+     0.0005686791849112493
+    ],
+    [
+     -0.10009528149634145,
+     0.0035457797249334884
+    ]
+   ],
+   "computed": [
+    -0.0429364669421487,
+    [
+     -0.08975359824780967,
+     0.0005686791849112493
+    ],
+    [
+     -0.10009528149634145,
+     0.0035457797249334884
+    ]
+   ]
+  },
+  {
+   "row": "default summary | GPT-4.1 mini, five draws | whole | pooled",
+   "ok": true,
+   "stored": [
+    -0.00156364134404674,
+    [
+     -0.04263416263341101,
+     0.03933920850136897
+    ],
+    [
+     -0.04145370949551975,
+     0.03275609447337959
+    ]
+   ],
+   "computed": [
+    -0.00156364134404674,
+    [
+     -0.04263416263341101,
+     0.03933920850136897
+    ],
+    [
+     -0.04145370949551975,
+     0.03275609447337959
+    ]
+   ]
+  },
+  {
+   "row": "padded set | Haiku 4.5 | supersession | pooled",
+   "ok": true,
+   "stored": [
+    -0.0062306301652892415,
+    [
+     -0.06524436904028803,
+     0.05149857313910327
+    ],
+    [
+     -0.05583107491176278,
+     0.046431057855929
+    ]
+   ],
+   "computed": [
+    -0.0062306301652892415,
+    [
+     -0.06524436904028803,
+     0.05149857313910327
+    ],
+    [
+     -0.05583107491176278,
+     0.046431057855929
+    ]
+   ]
+  },
+  {
+   "row": "padded set | Haiku 4.5 | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.028409090909090908,
+    [
+     -0.08522727272727272,
+     0.03409090909090909
+    ],
+    [
+     -0.08047530288909599,
+     0.029420518207282906
+    ]
+   ],
+   "computed": [
+    -0.028409090909090908,
+    [
+     -0.08522727272727272,
+     0.03409090909090909
+    ],
+    [
+     -0.08047530288909599,
+     0.029420518207282906
+    ]
+   ]
+  },
+  {
+   "row": "padded set | Haiku 4.5 | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.005524105186267336,
+    [
+     -0.04618850293040349,
+     0.053765864918647856
+    ],
+    [
+     -0.027773731004665216,
+     0.04466459796253902
+    ]
+   ],
+   "computed": [
+    0.005524105186267336,
+    [
+     -0.04618850293040349,
+     0.053765864918647856
+    ],
+    [
+     -0.027773731004665216,
+     0.04466459796253902
+    ]
+   ]
+  },
+  {
+   "row": "padded set | Haiku 4.5 | whole | matched",
+   "ok": true,
+   "stored": [
+    -0.04391891891891892,
+    [
+     -0.09805743243243242,
+     0.006756756756756757
+    ],
+    [
+     -0.08955481214616572,
+     0.0030893874643874615
+    ]
+   ],
+   "computed": [
+    -0.04391891891891892,
+    [
+     -0.09805743243243242,
+     0.006756756756756757
+    ],
+    [
+     -0.08955481214616572,
+     0.0030893874643874615
+    ]
+   ]
+  },
+  {
+   "row": "default summary | Haiku 4.5 | supersession | pooled",
+   "ok": true,
+   "stored": [
+    -0.03470428719008256,
+    [
+     -0.08131013510698383,
+     0.00860502805167763
+    ],
+    [
+     -0.08085728054805665,
+     0.006631149789009195
+    ]
+   ],
+   "computed": [
+    -0.03470428719008256,
+    [
+     -0.08131013510698383,
+     0.00860502805167763
+    ],
+    [
+     -0.08085728054805665,
+     0.006631149789009195
+    ]
+   ]
+  },
+  {
+   "row": "default summary | Haiku 4.5 | whole | pooled",
+   "ok": true,
+   "stored": [
+    -0.009781318480642787,
+    [
+     -0.06400391277103304,
+     0.03978354410784693
+    ],
+    [
+     -0.049379915769531324,
+     0.03356831885646813
+    ]
+   ],
+   "computed": [
+    -0.009781318480642787,
+    [
+     -0.06400391277103304,
+     0.03978354410784693
+    ],
+    [
+     -0.049379915769531324,
+     0.03356831885646813
+    ]
+   ]
+  },
+  {
+   "row": "padded set | GPT-5.6 Luna | supersession | pooled",
+   "ok": true,
+   "stored": [
+    0.13746126033057848,
+    [
+     0.08828012114835815,
+     0.19336576198057648
+    ],
+    [
+     0.09712838394285092,
+     0.1776653744354834
+    ]
+   ],
+   "computed": [
+    0.13746126033057848,
+    [
+     0.08828012114835815,
+     0.19336576198057648
+    ],
+    [
+     0.09712838394285092,
+     0.1776653744354834
+    ]
+   ]
+  },
+  {
+   "row": "padded set | GPT-5.6 Luna | supersession | matched",
+   "ok": true,
+   "stored": [
+    0.10227272727272728,
+    [
+     0.03977272727272727,
+     0.16477272727272727
+    ],
+    [
+     0.04819277108433735,
+     0.15517241379310345
+    ]
+   ],
+   "computed": [
+    0.10227272727272728,
+    [
+     0.03977272727272727,
+     0.16477272727272727
+    ],
+    [
+     0.04819277108433735,
+     0.15517241379310345
+    ]
+   ]
+  },
+  {
+   "row": "padded set | GPT-5.6 Luna | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.09207222425127837,
+    [
+     0.0449568133298082,
+     0.14375029675582746
+    ],
+    [
+     0.05718308714876736,
+     0.12774113105650575
+    ]
+   ],
+   "computed": [
+    0.09207222425127837,
+    [
+     0.0449568133298082,
+     0.14375029675582746
+    ],
+    [
+     0.05718308714876736,
+     0.12774113105650575
+    ]
+   ]
+  },
+  {
+   "row": "padded set | GPT-5.6 Luna | whole | matched",
+   "ok": true,
+   "stored": [
+    0.16891891891891891,
+    [
+     0.11148648648648649,
+     0.22972972972972974
+    ],
+    [
+     0.11016525423728814,
+     0.224491323475498
+    ]
+   ],
+   "computed": [
+    0.16891891891891891,
+    [
+     0.11148648648648649,
+     0.22972972972972974
+    ],
+    [
+     0.11016525423728814,
+     0.224491323475498
+    ]
+   ]
+  },
+  {
+   "row": "default summary | GPT-5.6 Luna | supersession | pooled",
+   "ok": true,
+   "stored": [
+    0.020370609504132275,
+    [
+     -0.00534325396825395,
+     0.04727154190404544
+    ],
+    [
+     -0.005625322830578549,
+     0.04506272771948944
+    ]
+   ],
+   "computed": [
+    0.020370609504132275,
+    [
+     -0.00534325396825395,
+     0.04727154190404544
+    ],
+    [
+     -0.005625322830578549,
+     0.04506272771948944
+    ]
+   ]
+  },
+  {
+   "row": "default summary | GPT-5.6 Luna | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.07539718772826887,
+    [
+     0.033919176793615446,
+     0.12160288453853699
+    ],
+    [
+     0.04499579159481239,
+     0.10903936038249686
+    ]
+   ],
+   "computed": [
+    0.07539718772826887,
+    [
+     0.033919176793615446,
+     0.12160288453853699
+    ],
+    [
+     0.04499579159481239,
+     0.10903936038249686
+    ]
+   ]
+  },
+  {
+   "row": "padded set | GPT-5.6 Sol | supersession | pooled",
+   "ok": true,
+   "stored": [
+    0.12738894628099173,
+    [
+     0.07259173499577212,
+     0.18368311428294634
+    ],
+    [
+     0.0802285004353877,
+     0.1726393381384254
+    ]
+   ],
+   "computed": [
+    0.12738894628099173,
+    [
+     0.07259173499577212,
+     0.18368311428294634
+    ],
+    [
+     0.0802285004353877,
+     0.1726393381384254
+    ]
+   ]
+  },
+  {
+   "row": "padded set | GPT-5.6 Sol | supersession | matched",
+   "ok": true,
+   "stored": [
+    0.09090909090909091,
+    [
+     0.022727272727272728,
+     0.14772727272727273
+    ],
+    [
+     0.03408133299284984,
+     0.1519122414325409
+    ]
+   ],
+   "computed": [
+    0.09090909090909091,
+    [
+     0.022727272727272728,
+     0.14772727272727273
+    ],
+    [
+     0.03408133299284984,
+     0.1519122414325409
+    ]
+   ]
+  },
+  {
+   "row": "padded set | GPT-5.6 Sol | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.10072361212563918,
+    [
+     0.05160638785223891,
+     0.15312452714634858
+    ],
+    [
+     0.06285204361804543,
+     0.141315385763116
+    ]
+   ],
+   "computed": [
+    0.10072361212563918,
+    [
+     0.05160638785223891,
+     0.15312452714634858
+    ],
+    [
+     0.06285204361804543,
+     0.141315385763116
+    ]
+   ]
+  },
+  {
+   "row": "padded set | GPT-5.6 Sol | whole | matched",
+   "ok": true,
+   "stored": [
+    0.06756756756756757,
+    [
+     0.0,
+     0.13175675675675674
+    ],
+    [
+     0.009610849056603775,
+     0.12414182739138904
+    ]
+   ],
+   "computed": [
+    0.06756756756756757,
+    [
+     0.0,
+     0.13175675675675674
+    ],
+    [
+     0.009610849056603775,
+     0.12414182739138904
+    ]
+   ]
+  },
+  {
+   "row": "default summary | GPT-5.6 Sol | supersession | pooled",
+   "ok": true,
+   "stored": [
+    0.01607696280991744,
+    [
+     -0.012989429085500225,
+     0.0472641481785443
+    ],
+    [
+     -0.02017392431979146,
+     0.0478168685416402
+    ]
+   ],
+   "computed": [
+    0.01607696280991744,
+    [
+     -0.012989429085500225,
+     0.0472641481785443
+    ],
+    [
+     -0.02017392431979146,
+     0.0478168685416402
+    ]
+   ]
+  },
+  {
+   "row": "default summary | GPT-5.6 Sol | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.08362627830533242,
+    [
+     0.040101296031412395,
+     0.13152770507508307
+    ],
+    [
+     0.054443719650261416,
+     0.11625600061258504
+    ]
+   ],
+   "computed": [
+    0.08362627830533242,
+    [
+     0.040101296031412395,
+     0.13152770507508307
+    ],
+    [
+     0.054443719650261416,
+     0.11625600061258504
+    ]
+   ]
+  },
+  {
+   "row": "padded set | Opus 5 | supersession | pooled",
+   "ok": true,
+   "stored": [
+    -0.03357438016528924,
+    [
+     -0.10697441178728416,
+     0.04480810683826095
+    ],
+    [
+     -0.15970829914213885,
+     0.07479538310001346
+    ]
+   ],
+   "computed": [
+    -0.03357438016528924,
+    [
+     -0.10697441178728416,
+     0.04480810683826095
+    ],
+    [
+     -0.15970829914213885,
+     0.07479538310001346
+    ]
+   ]
+  },
+  {
+   "row": "padded set | Opus 5 | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.045454545454545456,
+    [
+     -0.14204545454545456,
+     0.03977272727272727
+    ],
+    [
+     -0.18454034391534394,
+     0.0755813953488372
+    ]
+   ],
+   "computed": [
+    -0.045454545454545456,
+    [
+     -0.14204545454545456,
+     0.03977272727272727
+    ],
+    [
+     -0.18454034391534394,
+     0.0755813953488372
+    ]
+   ]
+  },
+  {
+   "row": "padded set | Opus 5 | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.005706720233747298,
+    [
+     -0.05378628136019967,
+     0.07112304602692136
+    ],
+    [
+     -0.0779907768458137,
+     0.08472053690859407
+    ]
+   ],
+   "computed": [
+    0.005706720233747298,
+    [
+     -0.05378628136019967,
+     0.07112304602692136
+    ],
+    [
+     -0.0779907768458137,
+     0.08472053690859407
+    ]
+   ]
+  },
+  {
+   "row": "padded set | Opus 5 | whole | matched",
+   "ok": true,
+   "stored": [
+    0.013513513513513514,
+    [
+     -0.057432432432432436,
+     0.08445945945945946
+    ],
+    [
+     -0.0868337189257848,
+     0.10840290661719232
+    ]
+   ],
+   "computed": [
+    0.013513513513513514,
+    [
+     -0.057432432432432436,
+     0.08445945945945946
+    ],
+    [
+     -0.0868337189257848,
+     0.10840290661719232
+    ]
+   ]
+  },
+  {
+   "row": "default summary | Opus 5 | supersession | pooled",
+   "ok": true,
+   "stored": [
+    0.010233729338843034,
+    [
+     -0.018276577904993214,
+     0.03921229338513641
+    ],
+    [
+     -0.025925252678865453,
+     0.04320996197940482
+    ]
+   ],
+   "computed": [
+    0.010233729338843034,
+    [
+     -0.018276577904993214,
+     0.03921229338513641
+    ],
+    [
+     -0.025925252678865453,
+     0.04320996197940482
+    ]
+   ]
+  },
+  {
+   "row": "default summary | Opus 5 | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.07418736303871443,
+    [
+     0.03151785744479089,
+     0.12028522164752599
+    ],
+    [
+     0.041397592827759566,
+     0.1126257149255226
+    ]
+   ],
+   "computed": [
+    0.07418736303871443,
+    [
+     0.03151785744479089,
+     0.12028522164752599
+    ],
+    [
+     0.041397592827759566,
+     0.1126257149255226
+    ]
+   ]
+  },
+  {
+   "row": "sibling-name control | GPT-4.1 mini (five draws) | supersession (PN vs sibling) | matched",
+   "ok": true,
+   "stored": [
+    -0.0455,
+    [
+     -0.11363636363636363,
+     0.017045454545454544
+    ],
+    [
+     -0.11117424242424241,
+     0.01149759422614274
+    ]
+   ],
+   "computed": [
+    -0.0455,
+    [
+     -0.11363636363636363,
+     0.017045454545454544
+    ],
+    [
+     -0.11117424242424241,
+     0.01149759422614274
+    ]
+   ]
+  },
+  {
+   "row": "sibling-name control | Haiku 4.5 (five draws) | supersession (PN vs sibling) | matched",
+   "ok": true,
+   "stored": [
+    -0.0682,
+    [
+     -0.13636363636363635,
+     0.0
+    ],
+    [
+     -0.12660921088068947,
+     0.0
+    ]
+   ],
+   "computed": [
+    -0.0682,
+    [
+     -0.13636363636363635,
+     0.0
+    ],
+    [
+     -0.12660921088068947,
+     0.0
+    ]
+   ]
+  },
+  {
+   "row": "sibling-name control | GPT-5.6 Luna (five draws) | supersession (PN vs sibling) | matched",
+   "ok": true,
+   "stored": [
+    -0.0341,
+    [
+     -0.08536931818181817,
+     0.022727272727272728
+    ],
+    [
+     -0.10752688172043011,
+     0.029420518207282906
+    ]
+   ],
+   "computed": [
+    -0.0341,
+    [
+     -0.08536931818181817,
+     0.022727272727272728
+    ],
+    [
+     -0.10752688172043011,
+     0.029420518207282906
+    ]
+   ]
+  },
+  {
+   "row": "sibling-name control | GPT-5.6 Sol (draw 1) | supersession (PN vs sibling) | matched",
+   "ok": true,
+   "stored": [
+    -0.0341,
+    [
+     -0.09659090909090909,
+     0.028551136363636234
+    ],
+    [
+     -0.09045147898287494,
+     0.025332894953148104
+    ]
+   ],
+   "computed": [
+    -0.0341,
+    [
+     -0.09659090909090909,
+     0.028551136363636234
+    ],
+    [
+     -0.09045147898287494,
+     0.025332894953148104
+    ]
+   ]
+  },
+  {
+   "row": "sibling-name control | Opus 5 (draw 1) | supersession (PN vs sibling) | matched",
+   "ok": true,
+   "stored": [
+    0.0227,
+    [
+     -0.017045454545454544,
+     0.06818181818181818
+    ],
+    [
+     -0.011363636363636364,
+     0.06321839080459771
+    ]
+   ],
+   "computed": [
+    0.0227,
+    [
+     -0.017045454545454544,
+     0.06818181818181818
+    ],
+    [
+     -0.011363636363636364,
+     0.06321839080459771
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-4.1 mini, paraphrases | whole | pooled",
+   "ok": true,
+   "stored": [
+    -0.09037807183364832,
+    [
+     -0.14532808533872363,
+     -0.03522840382596484
+    ],
+    [
+     -0.15173962750906103,
+     -0.033735448010973945
+    ]
+   ],
+   "computed": [
+    -0.09037807183364832,
+    [
+     -0.14532808533872363,
+     -0.03522840382596484
+    ],
+    [
+     -0.15173962750906103,
+     -0.033735448010973945
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-4.1 mini, originals | whole | pooled",
+   "ok": true,
+   "stored": [
+    -0.07941398865784499,
+    [
+     -0.13029744407845156,
+     -0.028988367479556753
+    ],
+    [
+     -0.12361683067764648,
+     -0.034807666314982756
+    ]
+   ],
+   "computed": [
+    -0.07941398865784499,
+    [
+     -0.13029744407845156,
+     -0.028988367479556753
+    ],
+    [
+     -0.12361683067764648,
+     -0.034807666314982756
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-4.1 mini, paraphrases | supersession | pooled",
+   "ok": true,
+   "stored": [
+    -0.11954639889196672,
+    [
+     -0.18422450119344747,
+     -0.05721281678437896
+    ],
+    [
+     -0.19586864864864872,
+     -0.051154931028503124
+    ]
+   ],
+   "computed": [
+    -0.11954639889196672,
+    [
+     -0.18422450119344747,
+     -0.05721281678437896
+    ],
+    [
+     -0.19586864864864872,
+     -0.051154931028503124
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-4.1 mini, originals | supersession | pooled",
+   "ok": true,
+   "stored": [
+    -0.10435422437673136,
+    [
+     -0.1593381614656219,
+     -0.053164907965378386
+    ],
+    [
+     -0.16654282526974296,
+     -0.04561694608810001
+    ]
+   ],
+   "computed": [
+    -0.10435422437673136,
+    [
+     -0.1593381614656219,
+     -0.053164907965378386
+    ],
+    [
+     -0.16654282526974296,
+     -0.04561694608810001
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-4.1 mini, paraphrases | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.1513157894736842,
+    [
+     -0.21710526315789475,
+     -0.07894736842105263
+    ],
+    [
+     -0.2500811688311688,
+     -0.05475444476828916
+    ]
+   ],
+   "computed": [
+    -0.1513157894736842,
+    [
+     -0.21710526315789475,
+     -0.07894736842105263
+    ],
+    [
+     -0.2500811688311688,
+     -0.05475444476828916
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-4.1 mini, originals | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.10526315789473684,
+    [
+     -0.15805921052631577,
+     -0.05263157894736842
+    ],
+    [
+     -0.1667207792207792,
+     -0.041666666666666664
+    ]
+   ],
+   "computed": [
+    -0.10526315789473684,
+    [
+     -0.15805921052631577,
+     -0.05263157894736842
+    ],
+    [
+     -0.1667207792207792,
+     -0.041666666666666664
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-4.1 mini, all states, paraphrases | whole | pooled",
+   "ok": true,
+   "stored": [
+    -0.10404536862003788,
+    [
+     -0.17750117017982137,
+     -0.03510278881519474
+    ],
+    [
+     -0.1649493369308857,
+     -0.05115562550556276
+    ]
+   ],
+   "computed": [
+    -0.10404536862003788,
+    [
+     -0.17750117017982137,
+     -0.03510278881519474
+    ],
+    [
+     -0.1649493369308857,
+     -0.05115562550556276
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-4.1 mini, all states, originals | whole | pooled",
+   "ok": true,
+   "stored": [
+    -0.08279773156899806,
+    [
+     -0.1323190369207851,
+     -0.035682230280692756
+    ],
+    [
+     -0.13190605036410757,
+     -0.035576704920311016
+    ]
+   ],
+   "computed": [
+    -0.08279773156899806,
+    [
+     -0.1323190369207851,
+     -0.035682230280692756
+    ],
+    [
+     -0.13190605036410757,
+     -0.035576704920311016
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-4.1 mini, all states, paraphrases | supersession | pooled",
+   "ok": true,
+   "stored": [
+    -0.08682479224376727,
+    [
+     -0.15832575394190926,
+     -0.011507838295104189
+    ],
+    [
+     -0.15720874178432234,
+     -0.01433441566911653
+    ]
+   ],
+   "computed": [
+    -0.08682479224376727,
+    [
+     -0.15832575394190926,
+     -0.011507838295104189
+    ],
+    [
+     -0.15720874178432234,
+     -0.01433441566911653
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-4.1 mini, all states, originals | supersession | pooled",
+   "ok": true,
+   "stored": [
+    -0.0702908587257618,
+    [
+     -0.11767632126548613,
+     -0.01966172170532262
+    ],
+    [
+     -0.1320227228159754,
+     -0.009897083940997082
+    ]
+   ],
+   "computed": [
+    -0.0702908587257618,
+    [
+     -0.11767632126548613,
+     -0.01966172170532262
+    ],
+    [
+     -0.1320227228159754,
+     -0.009897083940997082
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-4.1 mini, all states, paraphrases | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.1118421052631579,
+    [
+     -0.19078947368421054,
+     -0.039473684210526314
+    ],
+    [
+     -0.1875202922077922,
+     -0.038446969696969716
+    ]
+   ],
+   "computed": [
+    -0.1118421052631579,
+    [
+     -0.19078947368421054,
+     -0.039473684210526314
+    ],
+    [
+     -0.1875202922077922,
+     -0.038446969696969716
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-4.1 mini, all states, originals | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.07236842105263158,
+    [
+     -0.13157894736842105,
+     -0.013157894736842105
+    ],
+    [
+     -0.158257659145111,
+     0.0
+    ]
+   ],
+   "computed": [
+    -0.07236842105263158,
+    [
+     -0.13157894736842105,
+     -0.013157894736842105
+    ],
+    [
+     -0.158257659145111,
+     0.0
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Haiku 4.5, paraphrases | whole | pooled",
+   "ok": true,
+   "stored": [
+    -0.056767485822306174,
+    [
+     -0.11698324458479435,
+     0.004034727996140807
+    ],
+    [
+     -0.10655954239619346,
+     -0.0073854029036857895
+    ]
+   ],
+   "computed": [
+    -0.056767485822306174,
+    [
+     -0.11698324458479435,
+     0.004034727996140807
+    ],
+    [
+     -0.10655954239619346,
+     -0.0073854029036857895
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Haiku 4.5, originals | whole | pooled",
+   "ok": true,
+   "stored": [
+    -0.014234404536862089,
+    [
+     -0.06746038359788357,
+     0.03646686263032173
+    ],
+    [
+     -0.05570366061367463,
+     0.03461742465521563
+    ]
+   ],
+   "computed": [
+    -0.014234404536862089,
+    [
+     -0.06746038359788357,
+     0.03646686263032173
+    ],
+    [
+     -0.05570366061367463,
+     0.03461742465521563
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Haiku 4.5, paraphrases | supersession | pooled",
+   "ok": true,
+   "stored": [
+    -0.07427285318559551,
+    [
+     -0.13712993260441833,
+     -0.02019556179795598
+    ],
+    [
+     -0.13545953135464964,
+     -0.011586567081799483
+    ]
+   ],
+   "computed": [
+    -0.07427285318559551,
+    [
+     -0.13712993260441833,
+     -0.02019556179795598
+    ],
+    [
+     -0.13545953135464964,
+     -0.011586567081799483
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Haiku 4.5, originals | supersession | pooled",
+   "ok": true,
+   "stored": [
+    -0.030427631578947456,
+    [
+     -0.0746035203316595,
+     0.015228469003890186
+    ],
+    [
+     -0.08333646087446042,
+     0.0222391372719795
+    ]
+   ],
+   "computed": [
+    -0.030427631578947456,
+    [
+     -0.0746035203316595,
+     0.015228469003890186
+    ],
+    [
+     -0.08333646087446042,
+     0.0222391372719795
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Haiku 4.5, paraphrases | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.05263157894736842,
+    [
+     -0.125,
+     0.019736842105263157
+    ],
+    [
+     -0.12048712089738263,
+     0.023574087862993257
+    ]
+   ],
+   "computed": [
+    -0.05263157894736842,
+    [
+     -0.125,
+     0.019736842105263157
+    ],
+    [
+     -0.12048712089738263,
+     0.023574087862993257
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Haiku 4.5, originals | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.05921052631578947,
+    [
+     -0.125,
+     0.0
+    ],
+    [
+     -0.11808035714285714,
+     -0.006754504504504507
+    ]
+   ],
+   "computed": [
+    -0.05921052631578947,
+    [
+     -0.125,
+     0.0
+    ],
+    [
+     -0.11808035714285714,
+     -0.006754504504504507
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Haiku 4.5, all states, paraphrases | whole | pooled",
+   "ok": true,
+   "stored": [
+    -0.07043478260869562,
+    [
+     -0.12997664861366576,
+     -0.012953652154109749
+    ],
+    [
+     -0.12295994921514312,
+     -0.014862902317956788
+    ]
+   ],
+   "computed": [
+    -0.07043478260869562,
+    [
+     -0.12997664861366576,
+     -0.012953652154109749
+    ],
+    [
+     -0.12295994921514312,
+     -0.014862902317956788
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Haiku 4.5, all states, originals | whole | pooled",
+   "ok": true,
+   "stored": [
+    -0.0006427221172022879,
+    [
+     -0.03631620160004809,
+     0.03777759828406819
+    ],
+    [
+     -0.04260889269322417,
+     0.03849790019101267
+    ]
+   ],
+   "computed": [
+    -0.0006427221172022879,
+    [
+     -0.03631620160004809,
+     0.03777759828406819
+    ],
+    [
+     -0.04260889269322417,
+     0.03849790019101267
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Haiku 4.5, all states, paraphrases | supersession | pooled",
+   "ok": true,
+   "stored": [
+    -0.08790685595567871,
+    [
+     -0.1576565749786032,
+     -0.014828233349884899
+    ],
+    [
+     -0.14877854611495975,
+     -0.024080006055452494
+    ]
+   ],
+   "computed": [
+    -0.08790685595567871,
+    [
+     -0.1576565749786032,
+     -0.014828233349884899
+    ],
+    [
+     -0.14877854611495975,
+     -0.024080006055452494
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Haiku 4.5, all states, originals | supersession | pooled",
+   "ok": true,
+   "stored": [
+    -0.018698060941828354,
+    [
+     -0.05716737027092249,
+     0.029044667616979516
+    ],
+    [
+     -0.06779078402727055,
+     0.026460913390851912
+    ]
+   ],
+   "computed": [
+    -0.018698060941828354,
+    [
+     -0.05716737027092249,
+     0.029044667616979516
+    ],
+    [
+     -0.06779078402727055,
+     0.026460913390851912
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Haiku 4.5, all states, paraphrases | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.09210526315789473,
+    [
+     -0.16447368421052633,
+     -0.013157894736842105
+    ],
+    [
+     -0.16026234567901235,
+     -0.02408921399885256
+    ]
+   ],
+   "computed": [
+    -0.09210526315789473,
+    [
+     -0.16447368421052633,
+     -0.013157894736842105
+    ],
+    [
+     -0.16026234567901235,
+     -0.02408921399885256
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Haiku 4.5, all states, originals | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.039473684210526314,
+    [
+     -0.10526315789473684,
+     0.02631578947368421
+    ],
+    [
+     -0.10813978040540541,
+     0.025974025974025976
+    ]
+   ],
+   "computed": [
+    -0.039473684210526314,
+    [
+     -0.10526315789473684,
+     0.02631578947368421
+    ],
+    [
+     -0.10813978040540541,
+     0.025974025974025976
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Opus 5, draw 1, paraphrases | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.06300567107750477,
+    [
+     0.007789309853281074,
+     0.11343622088346983
+    ],
+    [
+     0.010129311661040197,
+     0.11394463769885334
+    ]
+   ],
+   "computed": [
+    0.06300567107750477,
+    [
+     0.007789309853281074,
+     0.11343622088346983
+    ],
+    [
+     0.010129311661040197,
+     0.11394463769885334
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Opus 5, draw 1, originals | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.07448015122873342,
+    [
+     0.023033605811907058,
+     0.12522288583662233
+    ],
+    [
+     0.035712075977198825,
+     0.11470761237366246
+    ]
+   ],
+   "computed": [
+    0.07448015122873342,
+    [
+     0.023033605811907058,
+     0.12522288583662233
+    ],
+    [
+     0.035712075977198825,
+     0.11470761237366246
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Opus 5, draw 1, paraphrases | supersession | pooled",
+   "ok": true,
+   "stored": [
+    0.022550207756232732,
+    [
+     -0.02406422774812162,
+     0.06977277318847087
+    ],
+    [
+     -0.03574882744917822,
+     0.08064751039304609
+    ]
+   ],
+   "computed": [
+    0.022550207756232732,
+    [
+     -0.02406422774812162,
+     0.06977277318847087
+    ],
+    [
+     -0.03574882744917822,
+     0.08064751039304609
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Opus 5, draw 1, originals | supersession | pooled",
+   "ok": true,
+   "stored": [
+    0.013634002770083087,
+    [
+     -0.021802368946274176,
+     0.04643125583566754
+    ],
+    [
+     -0.024903161347418094,
+     0.05130168547453701
+    ]
+   ],
+   "computed": [
+    0.013634002770083087,
+    [
+     -0.021802368946274176,
+     0.04643125583566754
+    ],
+    [
+     -0.024903161347418094,
+     0.05130168547453701
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Opus 5, draw 1, paraphrases | supersession | matched",
+   "ok": true,
+   "stored": [
+    0.02631578947368421,
+    [
+     -0.03289473684210526,
+     0.08552631578947369
+    ],
+    [
+     -0.0375,
+     0.1
+    ]
+   ],
+   "computed": [
+    0.02631578947368421,
+    [
+     -0.03289473684210526,
+     0.08552631578947369
+    ],
+    [
+     -0.0375,
+     0.1
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Opus 5, draw 1, originals | supersession | matched",
+   "ok": true,
+   "stored": [
+    0.013157894736842105,
+    [
+     -0.006578947368421052,
+     0.039473684210526314
+    ],
+    [
+     -0.01408953722334004,
+     0.04348505434782608
+    ]
+   ],
+   "computed": [
+    0.013157894736842105,
+    [
+     -0.006578947368421052,
+     0.039473684210526314
+    ],
+    [
+     -0.01408953722334004,
+     0.04348505434782608
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Opus 5, draw 1, all states, paraphrases | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.05436672967863887,
+    [
+     0.0013082496957897097,
+     0.09825363117926009
+    ],
+    [
+     0.005950888279792959,
+     0.10028688774071588
+    ]
+   ],
+   "computed": [
+    0.05436672967863887,
+    [
+     0.0013082496957897097,
+     0.09825363117926009
+    ],
+    [
+     0.005950888279792959,
+     0.10028688774071588
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Opus 5, draw 1, all states, originals | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.03871455576559546,
+    [
+     0.005308382840404946,
+     0.07178031701682233
+    ],
+    [
+     0.007096531406620614,
+     0.07054006870362818
+    ]
+   ],
+   "computed": [
+    0.03871455576559546,
+    [
+     0.005308382840404946,
+     0.07178031701682233
+    ],
+    [
+     0.007096531406620614,
+     0.07054006870362818
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Opus 5, draw 1, all states, paraphrases | supersession | pooled",
+   "ok": true,
+   "stored": [
+    0.060682132963988944,
+    [
+     0.011375653402476765,
+     0.11556786268279945
+    ],
+    [
+     0.0008527857529460688,
+     0.12556178457496714
+    ]
+   ],
+   "computed": [
+    0.060682132963988944,
+    [
+     0.011375653402476765,
+     0.11556786268279945
+    ],
+    [
+     0.0008527857529460688,
+     0.12556178457496714
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Opus 5, draw 1, all states, originals | supersession | pooled",
+   "ok": true,
+   "stored": [
+    0.030860457063711877,
+    [
+     -0.0027193599849849952,
+     0.06616698205475338
+    ],
+    [
+     -0.008996607224508532,
+     0.07229831673743665
+    ]
+   ],
+   "computed": [
+    0.030860457063711877,
+    [
+     -0.0027193599849849952,
+     0.06616698205475338
+    ],
+    [
+     -0.008996607224508532,
+     0.07229831673743665
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Opus 5, draw 1, all states, paraphrases | supersession | matched",
+   "ok": true,
+   "stored": [
+    0.05263157894736842,
+    [
+     0.0,
+     0.1118421052631579
+    ],
+    [
+     -0.00684931506849315,
+     0.10714285714285714
+    ]
+   ],
+   "computed": [
+    0.05263157894736842,
+    [
+     0.0,
+     0.1118421052631579
+    ],
+    [
+     -0.00684931506849315,
+     0.10714285714285714
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | Opus 5, draw 1, all states, originals | supersession | matched",
+   "ok": true,
+   "stored": [
+    0.046052631578947366,
+    [
+     0.0,
+     0.09868421052631579
+    ],
+    [
+     0.006097560975609756,
+     0.08904109589041095
+    ]
+   ],
+   "computed": [
+    0.046052631578947366,
+    [
+     0.0,
+     0.09868421052631579
+    ],
+    [
+     0.006097560975609756,
+     0.08904109589041095
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-5.6 Luna, paraphrases | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.09449905482041587,
+    [
+     0.04853439326330376,
+     0.1401101643109765
+    ],
+    [
+     0.04654861230677998,
+     0.14308661902709954
+    ]
+   ],
+   "computed": [
+    0.09449905482041587,
+    [
+     0.04853439326330376,
+     0.1401101643109765
+    ],
+    [
+     0.04654861230677998,
+     0.14308661902709954
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-5.6 Luna, originals | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.07625708884688087,
+    [
+     0.030498674915310227,
+     0.11922833968246066
+    ],
+    [
+     0.03996149787037553,
+     0.11227367840294376
+    ]
+   ],
+   "computed": [
+    0.07625708884688087,
+    [
+     0.030498674915310227,
+     0.11922833968246066
+    ],
+    [
+     0.03996149787037553,
+     0.11227367840294376
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-5.6 Luna, paraphrases | supersession | pooled",
+   "ok": true,
+   "stored": [
+    0.044537742382271484,
+    [
+     0.009321571213273608,
+     0.08449851792568876
+    ],
+    [
+     0.004246809908050246,
+     0.08948706271147046
+    ]
+   ],
+   "computed": [
+    0.044537742382271484,
+    [
+     0.009321571213273608,
+     0.08449851792568876
+    ],
+    [
+     0.004246809908050246,
+     0.08948706271147046
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-5.6 Luna, originals | supersession | pooled",
+   "ok": true,
+   "stored": [
+    0.025450138504155118,
+    [
+     -0.00025532826128888683,
+     0.05195872911889945
+    ],
+    [
+     -0.003982880778319614,
+     0.05142267489711937
+    ]
+   ],
+   "computed": [
+    0.025450138504155118,
+    [
+     -0.00025532826128888683,
+     0.05195872911889945
+    ],
+    [
+     -0.003982880778319614,
+     0.05142267489711937
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-5.6 Luna, paraphrases | supersession | matched",
+   "ok": true,
+   "stored": [
+    0.039473684210526314,
+    [
+     -0.006578947368421052,
+     0.09210526315789473
+    ],
+    [
+     -0.007142857142857143,
+     0.10527242401779094
+    ]
+   ],
+   "computed": [
+    0.039473684210526314,
+    [
+     -0.006578947368421052,
+     0.09210526315789473
+    ],
+    [
+     -0.007142857142857143,
+     0.10527242401779094
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-5.6 Luna, originals | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.019736842105263157,
+    [
+     -0.06578947368421052,
+     0.013157894736842105
+    ],
+    [
+     -0.05557511737089201,
+     0.0071568948575170925
+    ]
+   ],
+   "computed": [
+    -0.019736842105263157,
+    [
+     -0.06578947368421052,
+     0.013157894736842105
+    ],
+    [
+     -0.05557511737089201,
+     0.0071568948575170925
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-5.6 Sol, paraphrases | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.08913043478260874,
+    [
+     0.0369832624417554,
+     0.13843371163949778
+    ],
+    [
+     0.03741187254966079,
+     0.13799476973837002
+    ]
+   ],
+   "computed": [
+    0.08913043478260874,
+    [
+     0.0369832624417554,
+     0.13843371163949778
+    ],
+    [
+     0.03741187254966079,
+     0.13799476973837002
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-5.6 Sol, originals | whole | pooled",
+   "ok": true,
+   "stored": [
+    0.08238185255198482,
+    [
+     0.03791489630530731,
+     0.13000828291027156
+    ],
+    [
+     0.04425314594473378,
+     0.12343818307291668
+    ]
+   ],
+   "computed": [
+    0.08238185255198482,
+    [
+     0.03791489630530731,
+     0.13000828291027156
+    ],
+    [
+     0.04425314594473378,
+     0.12343818307291668
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-5.6 Sol, paraphrases | supersession | pooled",
+   "ok": true,
+   "stored": [
+    0.039646814404432185,
+    [
+     -0.006256455028702528,
+     0.08446905001465806
+    ],
+    [
+     -0.017629135955776365,
+     0.09286333333333327
+    ]
+   ],
+   "computed": [
+    0.039646814404432185,
+    [
+     -0.006256455028702528,
+     0.08446905001465806
+    ],
+    [
+     -0.017629135955776365,
+     0.09286333333333327
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-5.6 Sol, originals | supersession | pooled",
+   "ok": true,
+   "stored": [
+    0.01718317174515227,
+    [
+     -0.016875481554971393,
+     0.05009016541803067
+    ],
+    [
+     -0.022789814158560198,
+     0.05172996264734121
+    ]
+   ],
+   "computed": [
+    0.01718317174515227,
+    [
+     -0.016875481554971393,
+     0.05009016541803067
+    ],
+    [
+     -0.022789814158560198,
+     0.05172996264734121
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-5.6 Sol, paraphrases | supersession | matched",
+   "ok": true,
+   "stored": [
+    0.02631578947368421,
+    [
+     -0.039473684210526314,
+     0.08552631578947369
+    ],
+    [
+     -0.03898701298701299,
+     0.09743232119992681
+    ]
+   ],
+   "computed": [
+    0.02631578947368421,
+    [
+     -0.039473684210526314,
+     0.08552631578947369
+    ],
+    [
+     -0.03898701298701299,
+     0.09743232119992681
+    ]
+   ]
+  },
+  {
+   "row": "paraphrase set | GPT-5.6 Sol, originals | supersession | matched",
+   "ok": true,
+   "stored": [
+    -0.019736842105263157,
+    [
+     -0.06578947368421052,
+     0.019736842105263157
+    ],
+    [
+     -0.0595508658008658,
+     0.012987012987012988
+    ]
+   ],
+   "computed": [
+    -0.019736842105263157,
+    [
+     -0.06578947368421052,
+     0.019736842105263157
+    ],
+    [
+     -0.0595508658008658,
+     0.012987012987012988
+    ]
+   ]
+  }
+ ]
+}

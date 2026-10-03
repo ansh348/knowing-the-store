@@ -1,0 +1,351 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 35,
+    "in": 35977,
+    "out": 13154,
+    "usd": 0.0354372
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 3,
+  "persona": "thanh",
+  "probes": [
+    {
+      "domain": "entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.2007,
+      "note": "",
+      "question": "What kind of music do you usually listen to when relaxing at home?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2007,
+          "entry_id": "lb_00068",
+          "text": "User experiences a heavy feeling in the whole body, especially legs, sometimes needing to sit on the bed for 10 minutes before standing up."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2001,
+          "entry_id": "lb_00442",
+          "text": "User experiences physical strain including knee and back pain from pond work"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1995,
+          "entry_id": "lb_00522",
+          "text": "User prefers low-cost, traditional solutions like bamboo and clay for pond bank reinforcement over expensive concrete walls."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1905,
+          "entry_id": "lb_00337",
+          "text": "User has a wife who advises him to stretch."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1889,
+          "entry_id": "lb_00230",
+          "text": "User plans to cut bamboo today and clean the house tomorrow."
+        }
+      ],
+      "why_absent": "No information about music preferences or entertainment habits is stored."
+    },
+    {
+      "domain": "food_cooking",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "family",
+        "vietnamese",
+        "you"
+      ],
+      "max_cosine": 0.5095,
+      "note": "",
+      "question": "Can you describe your favorite traditional Vietnamese dish to cook for your family?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.5095,
+          "entry_id": "lb_00282",
+          "text": "User's family dinner for Tet includes shrimp prepared three ways: grilled, soup, and fried with tamarind sauce."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4937,
+          "entry_id": "lb_00278",
+          "text": "User brings shrimp for family dinner during Tet celebration."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.4919,
+          "entry_id": "lb_00283",
+          "text": "User's Tet family dinner also includes pork, chicken, and banh tet."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.4693,
+          "entry_id": "lb_00296",
+          "text": "User picks the biggest shrimp fresh from the pond at 4am on the morning of Tet to bring straight to the kitchen for cooking."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.437,
+          "entry_id": "lb_00280",
+          "text": "User hosted a family dinner for about 25 people last Tet."
+        }
+      ],
+      "why_absent": "No details about cooking habits or favorite dishes are present."
+    },
+    {
+      "domain": "transportation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "city",
+        "type",
+        "use",
+        "you"
+      ],
+      "max_cosine": 0.3345,
+      "note": "",
+      "question": "What type of transportation do you use when traveling to the nearest city for shopping?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3345,
+          "entry_id": "lb_00096",
+          "text": "User lives within 30 minutes by motorbike from a hardware store in town."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3343,
+          "entry_id": "lb_00548",
+          "text": "User shops at an agricultural supply store near the big market for farming supplies."
+        },
+        {
+          "category": "FINANCIAL_MATERIAL",
+          "cosine": 0.328,
+          "entry_id": "lb_00092",
+          "text": "User saves transport costs by selling shrimp to Binh who comes to the pond, instead of going to market themselves."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3146,
+          "entry_id": "lb_00021",
+          "text": "Lan transports shrimp about 2 kilometers on a motorbike using a styrofoam box."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2872,
+          "entry_id": "lb_00211",
+          "text": "User plans to go to Can Tho early morning to buy a Honda pump and spare parts"
+        }
+      ],
+      "why_absent": "No data about personal transportation methods or travel habits is included."
+    },
+    {
+      "domain": "community_engagement",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "events",
+        "local",
+        "you"
+      ],
+      "max_cosine": 0.3277,
+      "note": "",
+      "question": "Have you ever participated in any local community festivals or events? If so, which ones?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3277,
+          "entry_id": "lb_00403",
+          "text": "User lives in a small community where people talk and business dealings are known locally."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.245,
+          "entry_id": "lb_00227",
+          "text": "User has experience fishing in canals as a child, catching snakehead fish and catfish."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2441,
+          "entry_id": "lb_00479",
+          "text": "User can borrow a big freezer and tables and chairs from a neighbor who had a wedding last year."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.225,
+          "entry_id": "lb_00523",
+          "text": "User has access to free bamboo from a neighbor's bamboo grove and free broken concrete from a nearby road repair site for their pond bank project."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2091,
+          "entry_id": "lb_00149",
+          "text": "User harvests shrimp two times per year for the big pond and sometimes three times per year for the small ponds."
+        }
+      ],
+      "why_absent": "No records of community event participation or social activities are stored."
+    },
+    {
+      "domain": "language_skills",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "vietnamese",
+        "you"
+      ],
+      "max_cosine": 0.4105,
+      "note": "",
+      "question": "What languages do you speak besides Vietnamese, if any?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4105,
+          "entry_id": "lb_00228",
+          "text": "User lives in or near Can Tho city in Vietnam."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.314,
+          "entry_id": "lb_00283",
+          "text": "User's Tet family dinner also includes pork, chicken, and banh tet."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.313,
+          "entry_id": "lb_00464",
+          "text": "User's son Duc's girlfriend Thao is polite, hardworking, and from a good family in Can Tho"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3103,
+          "entry_id": "lb_00397",
+          "text": "User is located within a 4-hour drive from Saigon (Ho Chi Minh City)"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2956,
+          "entry_id": "lb_00463",
+          "text": "User's son Duc's girlfriend is named Thao"
+        }
+      ],
+      "why_absent": "No information about language abilities or multilingualism is available."
+    },
+    {
+      "domain": "pets",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.275,
+      "note": "",
+      "question": "Do you have any pets at home? If yes, what kind and how do you care for them?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.275,
+          "entry_id": "lb_00432",
+          "text": "User wakes up at 4am every day to check 3 ponds, carry feed, and fix things"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2637,
+          "entry_id": "lb_00130",
+          "text": "User's wife keeps important aquaculture documents at home but they are not well organized"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2485,
+          "entry_id": "lb_00480",
+          "text": "User has plenty of bougainvillea flowers around the house for decoration, including red and pink varieties."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2442,
+          "entry_id": "lb_00335",
+          "text": "User manages 3 ponds as part of their work"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2442,
+          "entry_id": "lb_00326",
+          "text": "User manages 3 ponds as part of their work"
+        }
+      ],
+      "why_absent": "No mention of pets or animal care in the stored attributes."
+    },
+    {
+      "domain": "reading_habits",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "time",
+        "you"
+      ],
+      "max_cosine": 0.2033,
+      "note": "",
+      "question": "What kind of books or magazines do you enjoy reading in your free time?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2033,
+          "entry_id": "lb_00223",
+          "text": "User enjoys fishing and has experience fishing in canals using bamboo rods."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1713,
+          "entry_id": "lb_00053",
+          "text": "User is experienced in shrimp farming and prefers practical work like netting and feeding over writing."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1665,
+          "entry_id": "lb_00226",
+          "text": "User lives on a farm with access to a pond and canal suitable for fishing and outdoor activities."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1643,
+          "entry_id": "lb_00523",
+          "text": "User has access to free bamboo from a neighbor's bamboo grove and free broken concrete from a nearby road repair site for their pond bank project."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.1642,
+          "entry_id": "lb_00066",
+          "text": "User rarely talks about old times but feels it might be good to talk about them now"
+        }
+      ],
+      "why_absent": "No data about reading preferences or intellectual leisure activities is recorded."
+    }
+  ],
+  "threshold": 0.295
+}

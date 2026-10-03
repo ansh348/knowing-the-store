@@ -1,0 +1,69 @@
+{
+ "answer_format": "JSON object {\"answer\": ...}; mini in JSON mode; Haiku fenced ```json blocks parsed by last_json",
+ "final_answer_rerun_note": "not triggered: 0 parse failures, 0 retries, no max-token hit; a re-run would need a model call and this script has no API path",
+ "final_answer_rerun_triggered": false,
+ "parse_failures_total": 0,
+ "pinned_time_or_current_date_given": false,
+ "question_present": true,
+ "selected_items": {
+  "PN supersession, three distinct views": "frbank:aisha:aisha_q02:FULL",
+  "PN untagged reached record (retraction/expiry printed active)": "frbank:bruna:bruna_q06:FULL",
+  "PRESENT, licensed record in view": "frbank:amara:amara_q04:FULL"
+ },
+ "tag_format": "inline field `lifecycle: <tag>` per line; multi-tag entries print a comma list",
+ "tags_explained_in_system_prompt": true,
+ "tags_present_in_views": {
+  "active": 21616,
+  "expired": 2390,
+  "retracted": 192,
+  "superseded": 2015
+ },
+ "time_information_per_line": "relative `age: N days` only (no absolute date, no t_now)",
+ "truncation": {
+  "max_view_lines": 27,
+  "per_lane_tokens": {
+   "h45-A3": {
+    "answer_none": 0,
+    "max_tok_in": 1675,
+    "max_tok_out": 115,
+    "n_tok_out_ge_200": 0,
+    "retries": 0,
+    "status_not_ok": 0
+   },
+   "h45-D4": {
+    "answer_none": 0,
+    "max_tok_in": 1610,
+    "max_tok_out": 123,
+    "n_tok_out_ge_200": 0,
+    "retries": 0,
+    "status_not_ok": 0
+   },
+   "mini-A3": {
+    "answer_none": 0,
+    "max_tok_in": 1517,
+    "max_tok_out": 73,
+    "n_tok_out_ge_200": 0,
+    "retries": 0,
+    "status_not_ok": 0
+   },
+   "mini-D4": {
+    "answer_none": 0,
+    "max_tok_in": 1455,
+    "max_tok_out": 74,
+    "n_tok_out_ge_200": 0,
+    "retries": 0,
+    "status_not_ok": 0
+   },
+   "mini-D4-V3": {
+    "answer_none": 0,
+    "max_tok_in": 1455,
+    "max_tok_out": 74,
+    "n_tok_out_ge_200": 0,
+    "retries": 0,
+    "status_not_ok": 0
+   }
+  },
+  "plus_more_fragments": 0,
+  "views_n_lines_equals_ids": true
+ }
+}

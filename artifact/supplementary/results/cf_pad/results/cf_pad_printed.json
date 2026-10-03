@@ -1,0 +1,788 @@
+{
+  "draws": {
+    "H45": 5,
+    "LUNA": 5,
+    "MINI": 5,
+    "OP5": 1,
+    "OP5_recorded": 5,
+    "SOL": 5
+  },
+  "frozen_commit": "06c611f",
+  "h45_minus_lookup_superseded_matched_padded": {
+    "printed": "0.03",
+    "reliable": false,
+    "source": "AUX-CFP-H45 superseded minus embedding lookup, padded, matched",
+    "value": -0.028409090909090908
+  },
+  "h45_minus_lookup_superseded_matched_unpadded": {
+    "printed": "0.05",
+    "reliable": false,
+    "source": "AUX-CFP-H45 superseded minus embedding lookup, unpadded (recorded), matched",
+    "value": -0.05113636363636364
+  },
+  "h45_minus_lookup_superseded_pooled_padded": {
+    "printed": "0.01",
+    "reliable": false,
+    "source": "AUX-CFP-H45 superseded minus embedding lookup, padded, pooled",
+    "value": -0.0062306301652892415
+  },
+  "h45_minus_lookup_superseded_pooled_unpadded": {
+    "printed": "0.03",
+    "reliable": false,
+    "source": "AUX-CFP-H45 superseded minus embedding lookup, unpadded (recorded), pooled",
+    "value": -0.03470428719008256
+  },
+  "h45_minus_lookup_whole_matched_padded": {
+    "printed": "0.04",
+    "reliable": false,
+    "source": "AUX-CFP-H45 whole minus embedding lookup, padded, matched",
+    "value": -0.04391891891891892
+  },
+  "h45_minus_lookup_whole_matched_unpadded": {
+    "printed": "0.00",
+    "reliable": false,
+    "source": "AUX-CFP-H45 whole minus embedding lookup, unpadded (recorded), matched",
+    "value": 0.0
+  },
+  "h45_minus_lookup_whole_pooled_padded": {
+    "printed": "0.01",
+    "reliable": false,
+    "source": "AUX-CFP-H45 whole minus embedding lookup, padded, pooled",
+    "value": 0.005524105186267336
+  },
+  "h45_minus_lookup_whole_pooled_unpadded": {
+    "printed": "0.01",
+    "reliable": false,
+    "source": "AUX-CFP-H45 whole minus embedding lookup, unpadded (recorded), pooled",
+    "value": -0.009781318480642787
+  },
+  "h45_superseded_loss_matched": {
+    "printed": "0.11",
+    "reliable": true,
+    "source": "AUX-CFP-H45 superseded matched padded minus unpadded",
+    "value": -0.11363636363636363
+  },
+  "h45_superseded_loss_pooled": {
+    "printed": "0.15",
+    "reliable": true,
+    "source": "AUX-CFP-H45 superseded pooled padded minus unpadded",
+    "value": -0.15218233471074383
+  },
+  "h45_superseded_matched_padded": {
+    "printed": "0.80",
+    "source": "AUX-CFP-H45 superseded matched padded",
+    "value": 0.8011
+  },
+  "h45_superseded_matched_unpadded": {
+    "printed": "0.91",
+    "source": "AUX-CFP-H45 superseded matched unpadded (recorded)",
+    "value": 0.9148
+  },
+  "h45_superseded_pooled_padded": {
+    "printed": "0.74",
+    "source": "AUX-CFP-H45 superseded pooled padded",
+    "value": 0.7353757747933884
+  },
+  "h45_superseded_pooled_unpadded": {
+    "printed": "0.89",
+    "source": "AUX-CFP-H45 superseded pooled unpadded (recorded)",
+    "value": 0.8875581095041323
+  },
+  "h45_whole_loss_matched": {
+    "printed": "0.12",
+    "reliable": true,
+    "source": "AUX-CFP-H45 whole matched padded minus unpadded",
+    "value": -0.125
+  },
+  "h45_whole_loss_pooled": {
+    "printed": "0.10",
+    "reliable": true,
+    "source": "AUX-CFP-H45 whole pooled padded minus unpadded",
+    "value": -0.10407916362308256
+  },
+  "h45_whole_matched_padded": {
+    "printed": "0.65",
+    "source": "AUX-CFP-H45 whole matched padded",
+    "value": 0.652
+  },
+  "h45_whole_matched_unpadded": {
+    "printed": "0.78",
+    "source": "AUX-CFP-H45 whole matched unpadded (recorded)",
+    "value": 0.777
+  },
+  "h45_whole_pooled_padded": {
+    "printed": "0.65",
+    "source": "AUX-CFP-H45 whole pooled padded",
+    "value": 0.6524835646457268
+  },
+  "h45_whole_pooled_unpadded": {
+    "printed": "0.76",
+    "source": "AUX-CFP-H45 whole pooled unpadded (recorded)",
+    "value": 0.7565627282688093
+  },
+  "lex_superseded_loss_matched": {
+    "printed": "0.04",
+    "reliable": true,
+    "source": "AUX-CFP-LEX superseded matched padded minus unpadded",
+    "value": -0.03977272727272727
+  },
+  "lex_superseded_loss_pooled": {
+    "printed": "0.09",
+    "reliable": true,
+    "source": "AUX-CFP-LEX superseded pooled padded minus unpadded",
+    "value": -0.09368543388429751
+  },
+  "lex_superseded_matched_padded": {
+    "printed": "0.74",
+    "source": "AUX-CFP-LEX superseded matched padded",
+    "value": 0.7443
+  },
+  "lex_superseded_matched_unpadded": {
+    "printed": "0.78",
+    "source": "AUX-CFP-LEX superseded matched unpadded (recorded)",
+    "value": 0.7841
+  },
+  "lex_superseded_pooled_padded": {
+    "printed": "0.69",
+    "source": "AUX-CFP-LEX superseded pooled padded",
+    "value": 0.6892432851239669
+  },
+  "lex_superseded_pooled_unpadded": {
+    "printed": "0.78",
+    "source": "AUX-CFP-LEX superseded pooled unpadded (recorded)",
+    "value": 0.7829287190082644
+  },
+  "lex_whole_loss_matched": {
+    "printed": "0.02",
+    "reliable": true,
+    "source": "AUX-CFP-LEX whole matched padded minus unpadded",
+    "value": -0.02364864864864865
+  },
+  "lex_whole_loss_pooled": {
+    "printed": "0.05",
+    "reliable": true,
+    "source": "AUX-CFP-LEX whole pooled padded minus unpadded",
+    "value": -0.05444211102994889
+  },
+  "lex_whole_matched_padded": {
+    "printed": "0.65",
+    "source": "AUX-CFP-LEX whole matched padded",
+    "value": 0.6453
+  },
+  "lex_whole_matched_unpadded": {
+    "printed": "0.67",
+    "source": "AUX-CFP-LEX whole matched unpadded (recorded)",
+    "value": 0.6689
+  },
+  "lex_whole_pooled_padded": {
+    "printed": "0.62",
+    "source": "AUX-CFP-LEX whole pooled padded",
+    "value": 0.6153442293644996
+  },
+  "lex_whole_pooled_unpadded": {
+    "printed": "0.67",
+    "source": "AUX-CFP-LEX whole pooled unpadded (recorded)",
+    "value": 0.6697863403944485
+  },
+  "list_length": {
+    "counted_states": 60,
+    "pn": 60,
+    "siblings": "57-60"
+  },
+  "lookup_superseded_loss_matched": {
+    "printed": "0.14",
+    "reliable": true,
+    "source": "AUX-CFP-LOOKUP superseded matched padded minus unpadded",
+    "value": -0.13636363636363635
+  },
+  "lookup_superseded_loss_pooled": {
+    "printed": "0.18",
+    "reliable": true,
+    "source": "AUX-CFP-LOOKUP superseded pooled padded minus unpadded",
+    "value": -0.18065599173553715
+  },
+  "lookup_superseded_matched_padded": {
+    "printed": "0.83",
+    "source": "AUX-CFP-LOOKUP superseded matched padded",
+    "value": 0.8295
+  },
+  "lookup_superseded_matched_unpadded": {
+    "printed": "0.97",
+    "source": "AUX-CFP-LOOKUP superseded matched unpadded (recorded)",
+    "value": 0.9659
+  },
+  "lookup_superseded_pooled_padded": {
+    "printed": "0.74",
+    "source": "AUX-CFP-LOOKUP superseded pooled padded",
+    "value": 0.7416064049586777
+  },
+  "lookup_superseded_pooled_unpadded": {
+    "printed": "0.92",
+    "source": "AUX-CFP-LOOKUP superseded pooled unpadded (recorded)",
+    "value": 0.9222623966942148
+  },
+  "lookup_whole_loss_matched": {
+    "printed": "0.08",
+    "reliable": true,
+    "source": "AUX-CFP-LOOKUP whole matched padded minus unpadded",
+    "value": -0.08108108108108109
+  },
+  "lookup_whole_loss_pooled": {
+    "printed": "0.12",
+    "reliable": true,
+    "source": "AUX-CFP-LOOKUP whole pooled padded minus unpadded",
+    "value": -0.11938458728999268
+  },
+  "lookup_whole_matched_padded": {
+    "printed": "0.70",
+    "source": "AUX-CFP-LOOKUP whole matched padded",
+    "value": 0.6959
+  },
+  "lookup_whole_matched_unpadded": {
+    "printed": "0.78",
+    "source": "AUX-CFP-LOOKUP whole matched unpadded (recorded)",
+    "value": 0.777
+  },
+  "lookup_whole_pooled_padded": {
+    "printed": "0.65",
+    "source": "AUX-CFP-LOOKUP whole pooled padded",
+    "value": 0.6469594594594594
+  },
+  "lookup_whole_pooled_unpadded": {
+    "printed": "0.77",
+    "source": "AUX-CFP-LOOKUP whole pooled unpadded (recorded)",
+    "value": 0.7663440467494521
+  },
+  "luna_minus_lookup_superseded_matched_padded": {
+    "printed": "0.10",
+    "reliable": true,
+    "source": "AUX-CFP-LUNA superseded minus embedding lookup, padded, matched",
+    "value": 0.10227272727272728
+  },
+  "luna_minus_lookup_superseded_matched_unpadded": {
+    "printed": "0.01",
+    "reliable": false,
+    "source": "AUX-CFP-LUNA superseded minus embedding lookup, unpadded (recorded), matched",
+    "value": -0.005681818181818182
+  },
+  "luna_minus_lookup_superseded_pooled_padded": {
+    "printed": "0.14",
+    "reliable": true,
+    "source": "AUX-CFP-LUNA superseded minus embedding lookup, padded, pooled",
+    "value": 0.13746126033057848
+  },
+  "luna_minus_lookup_superseded_pooled_unpadded": {
+    "printed": "0.02",
+    "reliable": false,
+    "source": "AUX-CFP-LUNA superseded minus embedding lookup, unpadded (recorded), pooled",
+    "value": 0.020370609504132275
+  },
+  "luna_minus_lookup_whole_matched_padded": {
+    "printed": "0.17",
+    "reliable": true,
+    "source": "AUX-CFP-LUNA whole minus embedding lookup, padded, matched",
+    "value": 0.16891891891891891
+  },
+  "luna_minus_lookup_whole_matched_unpadded": {
+    "printed": "0.10",
+    "reliable": true,
+    "source": "AUX-CFP-LUNA whole minus embedding lookup, unpadded (recorded), matched",
+    "value": 0.10135135135135136
+  },
+  "luna_minus_lookup_whole_pooled_padded": {
+    "printed": "0.09",
+    "reliable": true,
+    "source": "AUX-CFP-LUNA whole minus embedding lookup, padded, pooled",
+    "value": 0.09207222425127837
+  },
+  "luna_minus_lookup_whole_pooled_unpadded": {
+    "printed": "0.08",
+    "reliable": true,
+    "source": "AUX-CFP-LUNA whole minus embedding lookup, unpadded (recorded), pooled",
+    "value": 0.07539718772826887
+  },
+  "luna_superseded_loss_matched": {
+    "printed": "0.03",
+    "reliable": false,
+    "source": "AUX-CFP-LUNA superseded matched padded minus unpadded",
+    "value": -0.028409090909090908
+  },
+  "luna_superseded_loss_pooled": {
+    "printed": "0.06",
+    "reliable": true,
+    "source": "AUX-CFP-LUNA superseded pooled padded minus unpadded",
+    "value": -0.06356534090909094
+  },
+  "luna_superseded_matched_padded": {
+    "printed": "0.93",
+    "source": "AUX-CFP-LUNA superseded matched padded",
+    "value": 0.9318
+  },
+  "luna_superseded_matched_unpadded": {
+    "printed": "0.96",
+    "source": "AUX-CFP-LUNA superseded matched unpadded (recorded)",
+    "value": 0.9602
+  },
+  "luna_superseded_pooled_padded": {
+    "printed": "0.88",
+    "source": "AUX-CFP-LUNA superseded pooled padded",
+    "value": 0.8790676652892562
+  },
+  "luna_superseded_pooled_unpadded": {
+    "printed": "0.94",
+    "source": "AUX-CFP-LUNA superseded pooled unpadded (recorded)",
+    "value": 0.9426330061983471
+  },
+  "luna_whole_loss_matched": {
+    "printed": "0.01",
+    "reliable": false,
+    "source": "AUX-CFP-LUNA whole matched padded minus unpadded",
+    "value": -0.013513513513513514
+  },
+  "luna_whole_loss_pooled": {
+    "printed": "0.10",
+    "reliable": true,
+    "source": "AUX-CFP-LUNA whole pooled padded minus unpadded",
+    "value": -0.10270955076698318
+  },
+  "luna_whole_matched_padded": {
+    "printed": "0.86",
+    "source": "AUX-CFP-LUNA whole matched padded",
+    "value": 0.8649
+  },
+  "luna_whole_matched_unpadded": {
+    "printed": "0.88",
+    "source": "AUX-CFP-LUNA whole matched unpadded (recorded)",
+    "value": 0.8784
+  },
+  "luna_whole_pooled_padded": {
+    "printed": "0.74",
+    "source": "AUX-CFP-LUNA whole pooled padded",
+    "value": 0.7390316837107378
+  },
+  "luna_whole_pooled_unpadded": {
+    "printed": "0.84",
+    "source": "AUX-CFP-LUNA whole pooled unpadded (recorded)",
+    "value": 0.841741234477721
+  },
+  "mini_minus_lookup_superseded_matched_padded": {
+    "printed": "0.05",
+    "reliable": false,
+    "source": "AUX-CFP-MINI superseded minus embedding lookup, padded, matched",
+    "value": -0.045454545454545456
+  },
+  "mini_minus_lookup_superseded_matched_unpadded": {
+    "printed": "0.07",
+    "reliable": true,
+    "source": "AUX-CFP-MINI superseded minus embedding lookup, unpadded (recorded), matched",
+    "value": -0.07386363636363637
+  },
+  "mini_minus_lookup_superseded_pooled_padded": {
+    "printed": "0.05",
+    "reliable": false,
+    "source": "AUX-CFP-MINI superseded minus embedding lookup, padded, pooled",
+    "value": -0.05245996900826444
+  },
+  "mini_minus_lookup_superseded_pooled_unpadded": {
+    "printed": "0.04",
+    "reliable": false,
+    "source": "AUX-CFP-MINI superseded minus embedding lookup, unpadded (recorded), pooled",
+    "value": -0.0429364669421487
+  },
+  "mini_minus_lookup_whole_matched_padded": {
+    "printed": "0.02",
+    "reliable": false,
+    "source": "AUX-CFP-MINI whole minus embedding lookup, padded, matched",
+    "value": 0.016891891891891893
+  },
+  "mini_minus_lookup_whole_matched_unpadded": {
+    "printed": "0.05",
+    "reliable": false,
+    "source": "AUX-CFP-MINI whole minus embedding lookup, unpadded (recorded), matched",
+    "value": -0.05067567567567568
+  },
+  "mini_minus_lookup_whole_pooled_padded": {
+    "printed": "0.02",
+    "reliable": false,
+    "source": "AUX-CFP-MINI whole minus embedding lookup, padded, pooled",
+    "value": -0.016538075237399585
+  },
+  "mini_minus_lookup_whole_pooled_unpadded": {
+    "printed": "0.00",
+    "reliable": false,
+    "source": "AUX-CFP-MINI whole minus embedding lookup, unpadded (recorded), pooled",
+    "value": -0.00156364134404674
+  },
+  "mini_superseded_loss_matched": {
+    "printed": "0.11",
+    "reliable": true,
+    "source": "AUX-CFP-MINI superseded matched padded minus unpadded",
+    "value": -0.10795454545454546
+  },
+  "mini_superseded_loss_pooled": {
+    "printed": "0.19",
+    "reliable": true,
+    "source": "AUX-CFP-MINI superseded pooled padded minus unpadded",
+    "value": -0.1901794938016529
+  },
+  "mini_superseded_matched_padded": {
+    "printed": "0.78",
+    "source": "AUX-CFP-MINI superseded matched padded",
+    "value": 0.7841
+  },
+  "mini_superseded_matched_unpadded": {
+    "printed": "0.89",
+    "source": "AUX-CFP-MINI superseded matched unpadded (recorded)",
+    "value": 0.892
+  },
+  "mini_superseded_pooled_padded": {
+    "printed": "0.69",
+    "source": "AUX-CFP-MINI superseded pooled padded",
+    "value": 0.6891464359504132
+  },
+  "mini_superseded_pooled_unpadded": {
+    "printed": "0.88",
+    "source": "AUX-CFP-MINI superseded pooled unpadded (recorded)",
+    "value": 0.8793259297520661
+  },
+  "mini_whole_loss_matched": {
+    "printed": "0.01",
+    "reliable": false,
+    "source": "AUX-CFP-MINI whole matched padded minus unpadded",
+    "value": -0.013513513513513514
+  },
+  "mini_whole_loss_pooled": {
+    "printed": "0.13",
+    "reliable": true,
+    "source": "AUX-CFP-MINI whole pooled padded minus unpadded",
+    "value": -0.13435902118334553
+  },
+  "mini_whole_matched_padded": {
+    "printed": "0.71",
+    "source": "AUX-CFP-MINI whole matched padded",
+    "value": 0.7128
+  },
+  "mini_whole_matched_unpadded": {
+    "printed": "0.73",
+    "source": "AUX-CFP-MINI whole matched unpadded (recorded)",
+    "value": 0.7264
+  },
+  "mini_whole_pooled_padded": {
+    "printed": "0.63",
+    "source": "AUX-CFP-MINI whole pooled padded",
+    "value": 0.6304213842220598
+  },
+  "mini_whole_pooled_unpadded": {
+    "printed": "0.76",
+    "source": "AUX-CFP-MINI whole pooled unpadded (recorded)",
+    "value": 0.7647804054054054
+  },
+  "n_items": 444,
+  "n_pairs": 148,
+  "n_sup_pairs": 88,
+  "op5_minus_lookup_superseded_matched_padded": {
+    "printed": "0.05",
+    "reliable": false,
+    "source": "AUX-CFP-OP5 superseded minus embedding lookup, padded, matched",
+    "value": -0.045454545454545456
+  },
+  "op5_minus_lookup_superseded_matched_unpadded": {
+    "printed": "0.01",
+    "reliable": false,
+    "source": "AUX-CFP-OP5 superseded minus embedding lookup, unpadded (recorded), matched",
+    "value": 0.011363636363636364
+  },
+  "op5_minus_lookup_superseded_pooled_padded": {
+    "printed": "0.03",
+    "reliable": false,
+    "source": "AUX-CFP-OP5 superseded minus embedding lookup, padded, pooled",
+    "value": -0.03357438016528924
+  },
+  "op5_minus_lookup_superseded_pooled_unpadded": {
+    "printed": "0.01",
+    "reliable": false,
+    "source": "AUX-CFP-OP5 superseded minus embedding lookup, unpadded (recorded), pooled",
+    "value": 0.010233729338843034
+  },
+  "op5_minus_lookup_whole_matched_padded": {
+    "printed": "0.01",
+    "reliable": false,
+    "source": "AUX-CFP-OP5 whole minus embedding lookup, padded, matched",
+    "value": 0.013513513513513514
+  },
+  "op5_minus_lookup_whole_matched_unpadded": {
+    "printed": "0.10",
+    "reliable": true,
+    "source": "AUX-CFP-OP5 whole minus embedding lookup, unpadded (recorded), matched",
+    "value": 0.09797297297297297
+  },
+  "op5_minus_lookup_whole_pooled_padded": {
+    "printed": "0.01",
+    "reliable": false,
+    "source": "AUX-CFP-OP5 whole minus embedding lookup, padded, pooled",
+    "value": 0.005706720233747298
+  },
+  "op5_minus_lookup_whole_pooled_unpadded": {
+    "printed": "0.07",
+    "reliable": true,
+    "source": "AUX-CFP-OP5 whole minus embedding lookup, unpadded (recorded), pooled",
+    "value": 0.07418736303871443
+  },
+  "op5_superseded_loss_matched": {
+    "printed": "0.19",
+    "reliable": true,
+    "source": "AUX-CFP-OP5 superseded matched padded minus unpadded",
+    "value": -0.19318181818181818
+  },
+  "op5_superseded_loss_pooled": {
+    "printed": "0.22",
+    "reliable": true,
+    "source": "AUX-CFP-OP5 superseded pooled padded minus unpadded",
+    "value": -0.22446410123966942
+  },
+  "op5_superseded_matched_padded": {
+    "printed": "0.78",
+    "source": "AUX-CFP-OP5 superseded matched padded",
+    "value": 0.7841
+  },
+  "op5_superseded_matched_unpadded": {
+    "printed": "0.98",
+    "source": "AUX-CFP-OP5 superseded matched unpadded (recorded)",
+    "value": 0.9773
+  },
+  "op5_superseded_pooled_padded": {
+    "printed": "0.71",
+    "source": "AUX-CFP-OP5 superseded pooled padded",
+    "value": 0.7080320247933884
+  },
+  "op5_superseded_pooled_unpadded": {
+    "printed": "0.93",
+    "source": "AUX-CFP-OP5 superseded pooled unpadded (recorded)",
+    "value": 0.9324961260330579
+  },
+  "op5_whole_loss_matched": {
+    "printed": "0.17",
+    "reliable": true,
+    "source": "AUX-CFP-OP5 whole matched padded minus unpadded",
+    "value": -0.16554054054054054
+  },
+  "op5_whole_loss_pooled": {
+    "printed": "0.19",
+    "reliable": true,
+    "source": "AUX-CFP-OP5 whole pooled padded minus unpadded",
+    "value": -0.1878652300949598
+  },
+  "op5_whole_matched_padded": {
+    "printed": "0.71",
+    "source": "AUX-CFP-OP5 whole matched padded",
+    "value": 0.7095
+  },
+  "op5_whole_matched_unpadded": {
+    "printed": "0.88",
+    "source": "AUX-CFP-OP5 whole matched unpadded (recorded)",
+    "value": 0.875
+  },
+  "op5_whole_pooled_padded": {
+    "printed": "0.65",
+    "source": "AUX-CFP-OP5 whole pooled padded",
+    "value": 0.6526661796932067
+  },
+  "op5_whole_pooled_unpadded": {
+    "printed": "0.84",
+    "source": "AUX-CFP-OP5 whole pooled unpadded (recorded)",
+    "value": 0.8405314097881665
+  },
+  "predictions": {
+    "P-L1": "FAILS",
+    "P-L2": "HOLDS",
+    "P-L3": "HOLDS",
+    "P-L4": "FAILS"
+  },
+  "randtok_superseded_loss_matched": {
+    "printed": "0.24",
+    "reliable": true,
+    "source": "AUX-CFP-RANDTOK superseded matched padded minus unpadded",
+    "value": -0.23863636363636365
+  },
+  "randtok_superseded_loss_pooled": {
+    "printed": "0.16",
+    "reliable": true,
+    "source": "AUX-CFP-RANDTOK superseded pooled padded minus unpadded",
+    "value": -0.16425619834710736
+  },
+  "randtok_superseded_matched_padded": {
+    "printed": "0.51",
+    "source": "AUX-CFP-RANDTOK superseded matched padded",
+    "value": 0.5057
+  },
+  "randtok_superseded_matched_unpadded": {
+    "printed": "0.74",
+    "source": "AUX-CFP-RANDTOK superseded matched unpadded (recorded)",
+    "value": 0.7443
+  },
+  "randtok_superseded_pooled_padded": {
+    "printed": "0.50",
+    "source": "AUX-CFP-RANDTOK superseded pooled padded",
+    "value": 0.5008393595041323
+  },
+  "randtok_superseded_pooled_unpadded": {
+    "printed": "0.67",
+    "source": "AUX-CFP-RANDTOK superseded pooled unpadded (recorded)",
+    "value": 0.6650955578512396
+  },
+  "randtok_whole_loss_matched": {
+    "printed": "0.14",
+    "reliable": true,
+    "source": "AUX-CFP-RANDTOK whole matched padded minus unpadded",
+    "value": -0.14189189189189189
+  },
+  "randtok_whole_loss_pooled": {
+    "printed": "0.10",
+    "reliable": true,
+    "source": "AUX-CFP-RANDTOK whole pooled padded minus unpadded",
+    "value": -0.09505113221329431
+  },
+  "randtok_whole_matched_padded": {
+    "printed": "0.50",
+    "source": "AUX-CFP-RANDTOK whole matched padded",
+    "value": 0.5034
+  },
+  "randtok_whole_matched_unpadded": {
+    "printed": "0.65",
+    "source": "AUX-CFP-RANDTOK whole matched unpadded (recorded)",
+    "value": 0.6453
+  },
+  "randtok_whole_pooled_padded": {
+    "printed": "0.50",
+    "source": "AUX-CFP-RANDTOK whole pooled padded",
+    "value": 0.5003880569758948
+  },
+  "randtok_whole_pooled_unpadded": {
+    "printed": "0.60",
+    "source": "AUX-CFP-RANDTOK whole pooled unpadded (recorded)",
+    "value": 0.5954391891891891
+  },
+  "registration_sha256": "a84dac1abc2f604b171b4ab838daba4bbdb440d124ef9f050387bd0a716eba21",
+  "sol_minus_lookup_superseded_matched_padded": {
+    "printed": "0.09",
+    "reliable": true,
+    "source": "AUX-CFP-SOL superseded minus embedding lookup, padded, matched",
+    "value": 0.09090909090909091
+  },
+  "sol_minus_lookup_superseded_matched_unpadded": {
+    "printed": "0.01",
+    "reliable": false,
+    "source": "AUX-CFP-SOL superseded minus embedding lookup, unpadded (recorded), matched",
+    "value": -0.005681818181818182
+  },
+  "sol_minus_lookup_superseded_pooled_padded": {
+    "printed": "0.13",
+    "reliable": true,
+    "source": "AUX-CFP-SOL superseded minus embedding lookup, padded, pooled",
+    "value": 0.12738894628099173
+  },
+  "sol_minus_lookup_superseded_pooled_unpadded": {
+    "printed": "0.02",
+    "reliable": false,
+    "source": "AUX-CFP-SOL superseded minus embedding lookup, unpadded (recorded), pooled",
+    "value": 0.01607696280991744
+  },
+  "sol_minus_lookup_whole_matched_padded": {
+    "printed": "0.07",
+    "reliable": false,
+    "source": "AUX-CFP-SOL whole minus embedding lookup, padded, matched",
+    "value": 0.06756756756756757
+  },
+  "sol_minus_lookup_whole_matched_unpadded": {
+    "printed": "0.08",
+    "reliable": true,
+    "source": "AUX-CFP-SOL whole minus embedding lookup, unpadded (recorded), matched",
+    "value": 0.08108108108108109
+  },
+  "sol_minus_lookup_whole_pooled_padded": {
+    "printed": "0.10",
+    "reliable": true,
+    "source": "AUX-CFP-SOL whole minus embedding lookup, padded, pooled",
+    "value": 0.10072361212563918
+  },
+  "sol_minus_lookup_whole_pooled_unpadded": {
+    "printed": "0.08",
+    "reliable": true,
+    "source": "AUX-CFP-SOL whole minus embedding lookup, unpadded (recorded), pooled",
+    "value": 0.08362627830533242
+  },
+  "sol_superseded_loss_matched": {
+    "printed": "0.04",
+    "reliable": false,
+    "source": "AUX-CFP-SOL superseded matched padded minus unpadded",
+    "value": -0.03977272727272727
+  },
+  "sol_superseded_loss_pooled": {
+    "printed": "0.07",
+    "reliable": true,
+    "source": "AUX-CFP-SOL superseded pooled padded minus unpadded",
+    "value": -0.06934400826446285
+  },
+  "sol_superseded_matched_padded": {
+    "printed": "0.92",
+    "source": "AUX-CFP-SOL superseded matched padded",
+    "value": 0.9205
+  },
+  "sol_superseded_matched_unpadded": {
+    "printed": "0.96",
+    "source": "AUX-CFP-SOL superseded matched unpadded (recorded)",
+    "value": 0.9602
+  },
+  "sol_superseded_pooled_padded": {
+    "printed": "0.87",
+    "source": "AUX-CFP-SOL superseded pooled padded",
+    "value": 0.8689953512396694
+  },
+  "sol_superseded_pooled_unpadded": {
+    "printed": "0.94",
+    "source": "AUX-CFP-SOL superseded pooled unpadded (recorded)",
+    "value": 0.9383393595041323
+  },
+  "sol_whole_loss_matched": {
+    "printed": "0.09",
+    "reliable": true,
+    "source": "AUX-CFP-SOL whole matched padded minus unpadded",
+    "value": -0.0945945945945946
+  },
+  "sol_whole_loss_pooled": {
+    "printed": "0.10",
+    "reliable": true,
+    "source": "AUX-CFP-SOL whole pooled padded minus unpadded",
+    "value": -0.10228725346968592
+  },
+  "sol_whole_matched_padded": {
+    "printed": "0.76",
+    "source": "AUX-CFP-SOL whole matched padded",
+    "value": 0.7635
+  },
+  "sol_whole_matched_unpadded": {
+    "printed": "0.86",
+    "source": "AUX-CFP-SOL whole matched unpadded (recorded)",
+    "value": 0.8581
+  },
+  "sol_whole_pooled_padded": {
+    "printed": "0.75",
+    "source": "AUX-CFP-SOL whole pooled padded",
+    "value": 0.7476830715850986
+  },
+  "sol_whole_pooled_unpadded": {
+    "printed": "0.85",
+    "source": "AUX-CFP-SOL whole pooled unpadded (recorded)",
+    "value": 0.8499703250547845
+  },
+  "spend": {
+    "anthropic": {
+      "cap": 12.0,
+      "usd": 8.1105
+    },
+    "openai": {
+      "cap": 20.0,
+      "usd": 15.537
+    }
+  }
+}

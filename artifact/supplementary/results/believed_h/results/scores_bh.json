@@ -1,0 +1,265 @@
+{
+ "arms": {
+  "INDEXED-BELIEVED-15": {
+   "auroc": 0.7069,
+   "haiku_minus_lookup": {
+    "agree": true,
+    "both_exclude_zero": true,
+    "delta": 0.1212,
+    "item_ci": {
+     "ci_hi": 0.18485520892121687,
+     "ci_lo": 0.06280533412907185,
+     "excludes_zero": true,
+     "mean": 0.12423159695274807,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.2107189833498969,
+     "ci_lo": 0.03166093561034169,
+     "excludes_zero": true,
+     "mean": 0.1227954732636428,
+     "n_draws": 1000
+    }
+   },
+   "item_ci": {
+    "ci_hi": 0.7503744556526419,
+    "ci_lo": 0.6657056928299331,
+    "excludes_zero": true,
+    "mean": 0.7076905493264304,
+    "n_draws": 1000
+   },
+   "lookup_auroc": 0.5858,
+   "minus_blind": {
+    "agree": true,
+    "both_exclude_zero": true,
+    "delta": 0.2919,
+    "item_ci": {
+     "ci_hi": 0.35365771295516274,
+     "ci_lo": 0.23060012934066515,
+     "excludes_zero": true,
+     "mean": 0.29220960126026885,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.36354911621980784,
+     "ci_lo": 0.21948653537832138,
+     "excludes_zero": true,
+     "mean": 0.2939478132297703,
+     "n_draws": 1000
+    }
+   },
+   "minus_true": {
+    "agree": true,
+    "both_exclude_zero": true,
+    "delta": -0.1141,
+    "item_ci": {
+     "ci_hi": -0.05558079506666721,
+     "ci_lo": -0.1646306147202328,
+     "excludes_zero": true,
+     "mean": -0.112636926915537,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": -0.04791884587997986,
+     "ci_lo": -0.182072950350795,
+     "excludes_zero": true,
+     "mean": -0.11307081361091514,
+     "n_draws": 1000
+    }
+   },
+   "n_rows_bad": 0,
+   "per_state": {
+    "EXPIRY": {
+     "believed": 0.6716,
+     "blind": 0.6542,
+     "lookup": 0.5926,
+     "n": 572,
+     "pos": 15,
+     "true": 0.6874
+    },
+    "RETRACTION": {
+     "believed": 0.6624,
+     "blind": 0.4918,
+     "lookup": 0.4062,
+     "n": 583,
+     "pos": 26,
+     "true": 0.7317
+    },
+    "SUPERSESSION": {
+     "believed": 0.7337,
+     "blind": 0.3264,
+     "lookup": 0.6583,
+     "n": 620,
+     "pos": 63,
+     "true": 0.8897
+    }
+   },
+   "persona_ci": {
+    "ci_hi": 0.754144762167309,
+    "ci_lo": 0.6619574449471076,
+    "excludes_zero": true,
+    "mean": 0.7078638084827434,
+    "n_draws": 1000
+   },
+   "retention": {
+    "item": {
+     "ci_hi": 0.84973027755021,
+     "ci_lo": 0.6213629141458704,
+     "discarded": 0,
+     "mean": 0.7228267819084374,
+     "n_draws": 1000
+    },
+    "persona": {
+     "ci_hi": 0.8603182169844021,
+     "ci_lo": 0.5935403801682956,
+     "discarded": 0,
+     "mean": 0.7202999612376128,
+     "n_draws": 1000
+    },
+    "point": 0.719
+   },
+   "usd": 4.3866
+  },
+  "INDEXED-BELIEVED-LIFTED": {
+   "auroc": 0.7364,
+   "haiku_minus_lookup": {
+    "agree": false,
+    "both_exclude_zero": false,
+    "delta": 0.0776,
+    "item_ci": {
+     "ci_hi": 0.13545716137345848,
+     "ci_lo": 0.027172966759444854,
+     "excludes_zero": true,
+     "mean": 0.07995258466687383,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.14984936170226926,
+     "ci_lo": -0.0030709834082066336,
+     "excludes_zero": false,
+     "mean": 0.07739999730980741,
+     "n_draws": 1000
+    }
+   },
+   "item_ci": {
+    "ci_hi": 0.7857749899321611,
+    "ci_lo": 0.6911059703341679,
+    "excludes_zero": true,
+    "mean": 0.7373340808757372,
+    "n_draws": 1000
+   },
+   "lookup_auroc": 0.6588,
+   "minus_blind": {
+    "agree": true,
+    "both_exclude_zero": true,
+    "delta": 0.3214,
+    "item_ci": {
+     "ci_hi": 0.39596509862634305,
+     "ci_lo": 0.2482676663060418,
+     "excludes_zero": true,
+     "mean": 0.32185313280957556,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.4227242386949349,
+     "ci_lo": 0.22314778310084563,
+     "excludes_zero": true,
+     "mean": 0.3217951125829884,
+     "n_draws": 1000
+    }
+   },
+   "minus_true": {
+    "agree": true,
+    "both_exclude_zero": true,
+    "delta": -0.0847,
+    "item_ci": {
+     "ci_hi": -0.029318430952094323,
+     "ci_lo": -0.13295905215012177,
+     "excludes_zero": true,
+     "mean": -0.08299339536623027,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": -0.026834534276807428,
+     "ci_lo": -0.14795872275008656,
+     "excludes_zero": true,
+     "mean": -0.08522351425769707,
+     "n_draws": 1000
+    }
+   },
+   "n_rows_bad": 0,
+   "per_state": {
+    "EXPIRY": {
+     "believed": 0.6712,
+     "blind": 0.6542,
+     "lookup": 0.5853,
+     "n": 572,
+     "pos": 15,
+     "true": 0.6874
+    },
+    "RETRACTION": {
+     "believed": 0.5303,
+     "blind": 0.4918,
+     "lookup": 0.443,
+     "n": 583,
+     "pos": 26,
+     "true": 0.7317
+    },
+    "SUPERSESSION": {
+     "believed": 0.8369,
+     "blind": 0.3264,
+     "lookup": 0.7653,
+     "n": 620,
+     "pos": 63,
+     "true": 0.8897
+    }
+   },
+   "persona_ci": {
+    "ci_hi": 0.8024444691366314,
+    "ci_lo": 0.666512876271905,
+    "excludes_zero": true,
+    "mean": 0.7357111078359616,
+    "n_draws": 1000
+   },
+   "retention": {
+    "item": {
+     "ci_hi": 0.9242685227957813,
+     "ci_lo": 0.683783228557751,
+     "discarded": 0,
+     "mean": 0.7951107530397828,
+     "n_draws": 1000
+    },
+    "persona": {
+     "ci_hi": 0.942459004335292,
+     "ci_lo": 0.6341996123168556,
+     "discarded": 0,
+     "mean": 0.7878785398912044,
+     "n_draws": 1000
+    },
+    "point": 0.7916
+   },
+   "usd": 4.9676
+  }
+ },
+ "branch": {
+  "abstract": "the abstract says 'the smallest model and the lookup fall near chance; the larger model keeps 72% of its gain'",
+  "fires": "at or above 60% under both",
+  "retention_capped": 0.719,
+  "retention_lifted": 0.7916
+ },
+ "frozen_at": "257a090",
+ "n": 661,
+ "pos": 104,
+ "recorded": {
+  "blind": 0.415,
+  "true": 0.821
+ },
+ "registration_sha256": "77de1e3786e4e86214f35a2a89c76d1daf4f88bd902f6c0e5f34880982b05d5c",
+ "spend": {
+  "INDEXED-BELIEVED-15": 4.3866,
+  "INDEXED-BELIEVED-LIFTED": 4.9676,
+  "cap": 12.0,
+  "probes": 0.0058,
+  "total": 9.36
+ }
+}

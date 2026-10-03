@@ -1,0 +1,1700 @@
+{
+ "changed": {
+  "frbank:aisha:aisha_q01:CAT-ABLATED|937b558e78122a93": {
+   "in_422": true,
+   "item_id": "frbank:aisha:aisha_q01:CAT-ABLATED",
+   "key": "frbank:aisha:aisha_q01:CAT-ABLATED|80605aed02c0977a",
+   "key_a4": "frbank:aisha:aisha_q01:CAT-ABLATED|937b558e78122a93",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "aisha",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "What team is Aisha on at PwC?",
+   "ranks_tagged": [
+    1,
+    4,
+    5
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 437 days | text: User works at PwC.\n[2] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 106 days | text: User works at PwC in the advisory deals team.\n[3] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 78 days | text: User works at PwC in the advisory deals and transactions team.\n[4] lifecycle: superseded | category: OBLIGATIONS | attribute: job_sector | age: 106 days | text: User works in corporate finance and M&A roles, currently at PwC.\n[5] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 503 days | text: User works at PwC and is pursuing the ACA qualification.\n[6] lifecycle: superseded | category: OBLIGATIONS | attribute: job_title | age: 560 days | text: User works in audit at PwC in Manchester at a junior level\n[7] lifecycle: superseded | category: OBLIGATIONS | attribute: job_title | age: 560 days | text: User works in audit at PwC in Manchester at a junior level",
+   "view_sha": "80605aed02c0977a",
+   "view_sha_a4": "937b558e78122a93"
+  },
+  "frbank:aisha:aisha_q01:FULL|d6b1425e11c3d1a5": {
+   "in_422": false,
+   "item_id": "frbank:aisha:aisha_q01:FULL",
+   "key": "frbank:aisha:aisha_q01:FULL|0b6a0a6084dddc2a",
+   "key_a4": "frbank:aisha:aisha_q01:FULL|d6b1425e11c3d1a5",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 12,
+   "persona": "aisha",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "question": "What team is Aisha on at PwC?",
+   "ranks_tagged": [
+    1,
+    4,
+    5
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 437 days | text: User works at PwC.\n[2] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 106 days | text: User works at PwC in the advisory deals team.\n[3] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 78 days | text: User works at PwC in the advisory deals and transactions team.\n[4] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: employer | age: 437 days | text: User works at PwC and is sponsored by them for the ACA qualification.\n[5] lifecycle: superseded | category: OBLIGATIONS | attribute: job_sector | age: 106 days | text: User works in corporate finance and M&A roles, currently at PwC.\n[6] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: current_city | age: 475 days | text: User lives in Ancoats in a new build flat with Zara.\n[7] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: current_city | age: 110 days | text: User currently lives in Manchester, sharing a nice 2-bedroom flat in Ancoats.\n[8] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: gym_location | age: 484 days | text: User goes to PureGym near Piccadilly, which is a 24-hour gym about a 10-minute walk from their office.\n[9] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: gym_location | age: 484 days | text: User goes to PureGym near Piccadilly, which is a 24-hour gym about 10 minutes from their office.\n[10] lifecycle: superseded | category: OBLIGATIONS | attribute: job_title | age: 560 days | text: User works in audit at PwC in Manchester at a junior level\n[11] lifecycle: superseded | category: OBLIGATIONS | attribute: job_title | age: 560 days | text: User works in audit at PwC in Manchester at a junior level\n[12] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: living_arrangement | age: 475 days | text: User lives in a flat in Ancoats with a flatmate named Zara",
+   "view_sha": "0b6a0a6084dddc2a",
+   "view_sha_a4": "d6b1425e11c3d1a5"
+  },
+  "frbank:aisha:aisha_q01:FULL|e917b5d570881987": {
+   "in_422": true,
+   "item_id": "frbank:aisha:aisha_q01:FULL",
+   "key": "frbank:aisha:aisha_q01:FULL|5eb721a906982258",
+   "key_a4": "frbank:aisha:aisha_q01:FULL|e917b5d570881987",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "aisha",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "What team is Aisha on at PwC?",
+   "ranks_tagged": [
+    1,
+    4,
+    5
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 437 days | text: User works at PwC.\n[2] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 106 days | text: User works at PwC in the advisory deals team.\n[3] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 78 days | text: User works at PwC in the advisory deals and transactions team.\n[4] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: employer | age: 437 days | text: User works at PwC and is sponsored by them for the ACA qualification.\n[5] lifecycle: superseded | category: OBLIGATIONS | attribute: job_sector | age: 106 days | text: User works in corporate finance and M&A roles, currently at PwC.\n[6] lifecycle: superseded | category: OBLIGATIONS | attribute: job_title | age: 560 days | text: User works in audit at PwC in Manchester at a junior level\n[7] lifecycle: superseded | category: OBLIGATIONS | attribute: job_title | age: 560 days | text: User works in audit at PwC in Manchester at a junior level",
+   "view_sha": "5eb721a906982258",
+   "view_sha_a4": "e917b5d570881987"
+  },
+  "frbank:aisha:aisha_q01:SLOT-ABLATED|d6b1425e11c3d1a5": {
+   "in_422": false,
+   "item_id": "frbank:aisha:aisha_q01:SLOT-ABLATED",
+   "key": "frbank:aisha:aisha_q01:SLOT-ABLATED|0b6a0a6084dddc2a",
+   "key_a4": "frbank:aisha:aisha_q01:SLOT-ABLATED|d6b1425e11c3d1a5",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 12,
+   "persona": "aisha",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "question": "What team is Aisha on at PwC?",
+   "ranks_tagged": [
+    1,
+    4,
+    5
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 437 days | text: User works at PwC.\n[2] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 106 days | text: User works at PwC in the advisory deals team.\n[3] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 78 days | text: User works at PwC in the advisory deals and transactions team.\n[4] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: employer | age: 437 days | text: User works at PwC and is sponsored by them for the ACA qualification.\n[5] lifecycle: superseded | category: OBLIGATIONS | attribute: job_sector | age: 106 days | text: User works in corporate finance and M&A roles, currently at PwC.\n[6] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: current_city | age: 475 days | text: User lives in Ancoats in a new build flat with Zara.\n[7] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: current_city | age: 110 days | text: User currently lives in Manchester, sharing a nice 2-bedroom flat in Ancoats.\n[8] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: gym_location | age: 484 days | text: User goes to PureGym near Piccadilly, which is a 24-hour gym about a 10-minute walk from their office.\n[9] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: gym_location | age: 484 days | text: User goes to PureGym near Piccadilly, which is a 24-hour gym about 10 minutes from their office.\n[10] lifecycle: superseded | category: OBLIGATIONS | attribute: job_title | age: 560 days | text: User works in audit at PwC in Manchester at a junior level\n[11] lifecycle: superseded | category: OBLIGATIONS | attribute: job_title | age: 560 days | text: User works in audit at PwC in Manchester at a junior level\n[12] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: living_arrangement | age: 475 days | text: User lives in a flat in Ancoats with a flatmate named Zara",
+   "view_sha": "0b6a0a6084dddc2a",
+   "view_sha_a4": "d6b1425e11c3d1a5"
+  },
+  "frbank:aisha:aisha_q01:SLOT-ABLATED|e917b5d570881987": {
+   "in_422": true,
+   "item_id": "frbank:aisha:aisha_q01:SLOT-ABLATED",
+   "key": "frbank:aisha:aisha_q01:SLOT-ABLATED|5eb721a906982258",
+   "key_a4": "frbank:aisha:aisha_q01:SLOT-ABLATED|e917b5d570881987",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "aisha",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "What team is Aisha on at PwC?",
+   "ranks_tagged": [
+    1,
+    4,
+    5
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 437 days | text: User works at PwC.\n[2] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 106 days | text: User works at PwC in the advisory deals team.\n[3] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 78 days | text: User works at PwC in the advisory deals and transactions team.\n[4] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: employer | age: 437 days | text: User works at PwC and is sponsored by them for the ACA qualification.\n[5] lifecycle: superseded | category: OBLIGATIONS | attribute: job_sector | age: 106 days | text: User works in corporate finance and M&A roles, currently at PwC.\n[6] lifecycle: superseded | category: OBLIGATIONS | attribute: job_title | age: 560 days | text: User works in audit at PwC in Manchester at a junior level\n[7] lifecycle: superseded | category: OBLIGATIONS | attribute: job_title | age: 560 days | text: User works in audit at PwC in Manchester at a junior level",
+   "view_sha": "5eb721a906982258",
+   "view_sha_a4": "e917b5d570881987"
+  },
+  "frbank:bruna:bruna_q06:FULL|ec2b9f9d36cb55c2": {
+   "in_422": true,
+   "item_id": "frbank:bruna:bruna_q06:FULL",
+   "key": "frbank:bruna:bruna_q06:FULL|a706c9890e992394",
+   "key_a4": "frbank:bruna:bruna_q06:FULL|ec2b9f9d36cb55c2",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "bruna",
+   "policies": [
+    "ALWAYS",
+    "ORACLE",
+    "LOOKUP-LIT"
+   ],
+   "question": "Is Bruna planning to get any new certifications?",
+   "ranks_tagged": [
+    3
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: IDENTITY_SELF_CONCEPT | attribute: name | age: 354 days | text: User's name is Bruna\n[2] lifecycle: active | category: OBLIGATIONS | attribute: project | age: 54 days | text: User is considering the credential recognition process for physical therapy qualifications in Portugal\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 419 days | text: User enrolled in a dry needling certification course starting in April 2025\n[4] lifecycle: active | category: IDENTITY_SELF_CONCEPT | attribute: education_level | age: 54 days | text: User has a doctorate degree obtained in Brazil\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 340 days | text: User enrolled in a dry needling certification course a couple months ago.",
+   "view_sha": "a706c9890e992394",
+   "view_sha_a4": "ec2b9f9d36cb55c2"
+  },
+  "frbank:bruna:bruna_q06:SLOT-ABLATED|ec2b9f9d36cb55c2": {
+   "in_422": true,
+   "item_id": "frbank:bruna:bruna_q06:SLOT-ABLATED",
+   "key": "frbank:bruna:bruna_q06:SLOT-ABLATED|a706c9890e992394",
+   "key_a4": "frbank:bruna:bruna_q06:SLOT-ABLATED|ec2b9f9d36cb55c2",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "bruna",
+   "policies": [
+    "ALWAYS",
+    "ORACLE",
+    "LOOKUP-LIT"
+   ],
+   "question": "Is Bruna planning to get any new certifications?",
+   "ranks_tagged": [
+    3
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: IDENTITY_SELF_CONCEPT | attribute: name | age: 354 days | text: User's name is Bruna\n[2] lifecycle: active | category: OBLIGATIONS | attribute: project | age: 54 days | text: User is considering the credential recognition process for physical therapy qualifications in Portugal\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 419 days | text: User enrolled in a dry needling certification course starting in April 2025\n[4] lifecycle: active | category: IDENTITY_SELF_CONCEPT | attribute: education_level | age: 54 days | text: User has a doctorate degree obtained in Brazil\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 340 days | text: User enrolled in a dry needling certification course a couple months ago.",
+   "view_sha": "a706c9890e992394",
+   "view_sha_a4": "ec2b9f9d36cb55c2"
+  },
+  "frbank:dariush:dariush_q04:SLOT-ABLATED|94c96d033edb1991": {
+   "in_422": true,
+   "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+   "key": "frbank:dariush:dariush_q04:SLOT-ABLATED|a08d4f59c627da18",
+   "key_a4": "frbank:dariush:dariush_q04:SLOT-ABLATED|94c96d033edb1991",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "dariush",
+   "policies": [
+    "ALWAYS",
+    "LOOKUP-LIT"
+   ],
+   "question": "Is Dariush opening a second practice in La Jolla?",
+   "ranks_tagged": [
+    4
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 386 days | text: User is considering opening a second practice location in La Jolla\n[2] lifecycle: active | category: OBLIGATIONS | attribute: work_schedule | age: 386 days | text: User currently splits time between two practice locations, spending three days at the original location and two days at the La Jolla location.\n[3] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 386 days | text: User is a periodontist with a current practice and is considering opening a second practice location in La Jolla.\n[4] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 386 days | text: User is planning to open a second periodontal surgical suite in La Jolla on Prospect Street.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 386 days | text: User plans to host a reception for La Jolla dentists to build referral relationships before opening the new location.",
+   "view_sha": "a08d4f59c627da18",
+   "view_sha_a4": "94c96d033edb1991"
+  },
+  "frbank:dariush:dariush_q04:SLOT-ABLATED|a821ddcdd5768637": {
+   "in_422": true,
+   "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+   "key": "frbank:dariush:dariush_q04:SLOT-ABLATED|0c26de5b61c911a5",
+   "key_a4": "frbank:dariush:dariush_q04:SLOT-ABLATED|a821ddcdd5768637",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 14,
+   "persona": "dariush",
+   "policies": [
+    "MODEL-ALL"
+   ],
+   "question": "Is Dariush opening a second practice in La Jolla?",
+   "ranks_tagged": [
+    4
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 386 days | text: User is considering opening a second practice location in La Jolla\n[2] lifecycle: active | category: OBLIGATIONS | attribute: work_schedule | age: 386 days | text: User currently splits time between two practice locations, spending three days at the original location and two days at the La Jolla location.\n[3] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 386 days | text: User is a periodontist with a current practice and is considering opening a second practice location in La Jolla.\n[4] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 386 days | text: User is planning to open a second periodontal surgical suite in La Jolla on Prospect Street.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 386 days | text: User plans to host a reception for La Jolla dentists to build referral relationships before opening the new location.\n[6] lifecycle: expired | category: HOBBIES_RECREATION | attribute: event | age: 351 days | text: User hosted a Nowruz dinner on March 20\n[7] lifecycle: expired | category: HOBBIES_RECREATION | attribute: event | age: 351 days | text: User hosted a Nowruz dinner for forty guests on March 20.\n[8] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: event | age: 351 days | text: User hosted a Nowruz dinner for forty guests on March 20.\n[9] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: event | age: 351 days | text: User hosted a Nowruz dinner for forty guests on March 20.\n[10] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: event | age: 351 days | text: User hosted a Nowruz dinner on March 20 with forty guests.\n[11] lifecycle: expired | category: OBLIGATIONS | attribute: license_renewal_deadline | age: 372 days | text: User's California dental license renewal deadline is April 30\n[12] lifecycle: expired | category: OBLIGATIONS | attribute: license_renewal_deadline | age: 372 days | text: User must renew their California dental license by April 30 annually.\n[13] lifecycle: expired | category: OBLIGATIONS | attribute: professional_license | age: 372 days | text: User is a licensed dentist in California with a license renewal deadline on April 30, 2025\n[14] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 504 days | text: User uses the LANAP protocol with the Periolase MVP-7 laser for periodontal therapy",
+   "view_sha": "0c26de5b61c911a5",
+   "view_sha_a4": "a821ddcdd5768637"
+  },
+  "frbank:dariush:dariush_q04:SLOT-ABLATED|d67c2ca9d3628556": {
+   "in_422": true,
+   "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+   "key": "frbank:dariush:dariush_q04:SLOT-ABLATED|02f79840c027ce71",
+   "key_a4": "frbank:dariush:dariush_q04:SLOT-ABLATED|d67c2ca9d3628556",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 6,
+   "persona": "dariush",
+   "policies": [
+    "ORACLE",
+    "MODEL"
+   ],
+   "question": "Is Dariush opening a second practice in La Jolla?",
+   "ranks_tagged": [
+    4
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 386 days | text: User is considering opening a second practice location in La Jolla\n[2] lifecycle: active | category: OBLIGATIONS | attribute: work_schedule | age: 386 days | text: User currently splits time between two practice locations, spending three days at the original location and two days at the La Jolla location.\n[3] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 386 days | text: User is a periodontist with a current practice and is considering opening a second practice location in La Jolla.\n[4] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 386 days | text: User is planning to open a second periodontal surgical suite in La Jolla on Prospect Street.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 386 days | text: User plans to host a reception for La Jolla dentists to build referral relationships before opening the new location.\n[6] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 504 days | text: User uses the LANAP protocol with the Periolase MVP-7 laser for periodontal therapy",
+   "view_sha": "02f79840c027ce71",
+   "view_sha_a4": "d67c2ca9d3628556"
+  },
+  "frbank:elena:elena_q01:CAT-ABLATED|20a14635103a2dba": {
+   "in_422": true,
+   "item_id": "frbank:elena:elena_q01:CAT-ABLATED",
+   "key": "frbank:elena:elena_q01:CAT-ABLATED|5970c3bff8f55101",
+   "key_a4": "frbank:elena:elena_q01:CAT-ABLATED|20a14635103a2dba",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "elena",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "Where does Elena work?",
+   "ranks_tagged": [
+    3,
+    4
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: IDENTITY_SELF_CONCEPT | attribute: identity_nickname | age: 113 days | text: User identifies as Elena from the west side and has a background of playing nurse with stuffed animals.\n[2] lifecycle: active | category: OBLIGATIONS | attribute: job_role | age: 381 days | text: User works on a nursing unit with day and night shifts\n[3] lifecycle: superseded | category: OBLIGATIONS | attribute: job_shift | age: 71 days | text: User works night shifts at a hospital\n[4] lifecycle: superseded | category: OBLIGATIONS | attribute: job_title | age: 423 days | text: User is a pediatric nurse who works shifts helping children.\n[5] lifecycle: active | category: OBLIGATIONS | attribute: work_shift_length | age: 113 days | text: User works 12-hour shifts\n[6] lifecycle: superseded | category: OBLIGATIONS | attribute: job_employer | age: 484 days | text: User works night shifts at Lurie Children's hospital.\n[7] lifecycle: superseded | category: OBLIGATIONS | attribute: job_night_shift_duration | age: 484 days | text: User works night shifts at Lurie Children's hospital and has been on this schedule for about 8 months.",
+   "view_sha": "5970c3bff8f55101",
+   "view_sha_a4": "20a14635103a2dba"
+  },
+  "frbank:elena:elena_q01:CAT-ABLATED|90c444c941500e93": {
+   "in_422": true,
+   "item_id": "frbank:elena:elena_q01:CAT-ABLATED",
+   "key": "frbank:elena:elena_q01:CAT-ABLATED|40595bb714d42943",
+   "key_a4": "frbank:elena:elena_q01:CAT-ABLATED|90c444c941500e93",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 8,
+   "persona": "elena",
+   "policies": [
+    "MODEL",
+    "LOOKUP-LIT"
+   ],
+   "question": "Where does Elena work?",
+   "ranks_tagged": [
+    3,
+    4
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: IDENTITY_SELF_CONCEPT | attribute: identity_nickname | age: 113 days | text: User identifies as Elena from the west side and has a background of playing nurse with stuffed animals.\n[2] lifecycle: active | category: OBLIGATIONS | attribute: job_role | age: 381 days | text: User works on a nursing unit with day and night shifts\n[3] lifecycle: superseded | category: OBLIGATIONS | attribute: job_shift | age: 71 days | text: User works night shifts at a hospital\n[4] lifecycle: superseded | category: OBLIGATIONS | attribute: job_title | age: 423 days | text: User is a pediatric nurse who works shifts helping children.\n[5] lifecycle: active | category: OBLIGATIONS | attribute: work_shift_length | age: 113 days | text: User works 12-hour shifts\n[6] lifecycle: superseded | category: HEALTH_WELLBEING | attribute: dietary_preference | age: 409 days | text: User has been doing keto for about three months and has lost 15 pounds so far\n[7] lifecycle: superseded | category: OBLIGATIONS | attribute: job_employer | age: 484 days | text: User works night shifts at Lurie Children's hospital.\n[8] lifecycle: superseded | category: OBLIGATIONS | attribute: job_night_shift_duration | age: 484 days | text: User works night shifts at Lurie Children's hospital and has been on this schedule for about 8 months.",
+   "view_sha": "40595bb714d42943",
+   "view_sha_a4": "90c444c941500e93"
+  },
+  "frbank:elena:elena_q01:CAT-ABLATED|9a04fd185b365bcc": {
+   "in_422": true,
+   "item_id": "frbank:elena:elena_q01:CAT-ABLATED",
+   "key": "frbank:elena:elena_q01:CAT-ABLATED|89e04e1917bd8f66",
+   "key_a4": "frbank:elena:elena_q01:CAT-ABLATED|9a04fd185b365bcc",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 16,
+   "persona": "elena",
+   "policies": [
+    "MODEL-ALL"
+   ],
+   "question": "Where does Elena work?",
+   "ranks_tagged": [
+    3,
+    4
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: IDENTITY_SELF_CONCEPT | attribute: identity_nickname | age: 113 days | text: User identifies as Elena from the west side and has a background of playing nurse with stuffed animals.\n[2] lifecycle: active | category: OBLIGATIONS | attribute: job_role | age: 381 days | text: User works on a nursing unit with day and night shifts\n[3] lifecycle: superseded | category: OBLIGATIONS | attribute: job_shift | age: 71 days | text: User works night shifts at a hospital\n[4] lifecycle: superseded | category: OBLIGATIONS | attribute: job_title | age: 423 days | text: User is a pediatric nurse who works shifts helping children.\n[5] lifecycle: active | category: OBLIGATIONS | attribute: work_shift_length | age: 113 days | text: User works 12-hour shifts\n[6] lifecycle: expired | category: OBLIGATIONS | attribute: certification_status | age: 337 days | text: User passed the NCLEX recertification exam on March 20, 2025\n[7] lifecycle: superseded | category: HEALTH_WELLBEING | attribute: dietary_preference | age: 409 days | text: User has been doing keto for about three months and has lost 15 pounds so far\n[8] lifecycle: superseded | category: OBLIGATIONS | attribute: job_employer | age: 484 days | text: User works night shifts at Lurie Children's hospital.\n[9] lifecycle: superseded | category: OBLIGATIONS | attribute: job_night_shift_duration | age: 484 days | text: User works night shifts at Lurie Children's hospital and has been on this schedule for about 8 months.\n[10] lifecycle: expired | category: OBLIGATIONS | attribute: professional_certification | age: 337 days | text: User had to recertify their NCLEX on March 20, 2025\n[11] lifecycle: expired | category: OBLIGATIONS | attribute: professional_obligation | age: 337 days | text: User's NCLEX recertification exam was on March 20, 2025\n[12] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 211 days | text: User is planning a video montage for their mom's birthday involving 10-12 people including family and church friends.\n[13] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 141 days | text: User is planning a DIY kids' paint party for about 6 or 7 children including Sofia.\n[14] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 141 days | text: User is planning a DIY kids' paint party at their parents' house for about 6 or 7 kids including Sofia.\n[15] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 141 days | text: User is planning a kids' paint party for Sofia and her friends around November 22, 2025.\n[16] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 141 days | text: User is planning a belated birthday party for Sofia on November 22.",
+   "view_sha": "89e04e1917bd8f66",
+   "view_sha_a4": "9a04fd185b365bcc"
+  },
+  "frbank:fatima:fatima_q06:FULL|71a7fb9cbf2ef87e": {
+   "in_422": true,
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "key": "frbank:fatima:fatima_q06:FULL|43610f97aba5dafb",
+   "key_a4": "frbank:fatima:fatima_q06:FULL|71a7fb9cbf2ef87e",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 13,
+   "persona": "fatima",
+   "policies": [
+    "MODEL-ALL"
+   ],
+   "question": "Is Fatima launching any new products or brands?",
+   "ranks_tagged": [
+    2,
+    3
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: business_extension | age: 342 days | text: User is considering extending their firm into home fragrance products.\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 342 days | text: User is launching a premium home fragrance line called Oud & Geometry as a lifestyle extension of their design brand.\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 342 days | text: User is developing a home fragrance line called Oud & Geometry as a brand extension of their interior design firm.\n[4] lifecycle: active | category: FINANCIAL_MATERIAL | attribute: project_cost | age: 264 days | text: User spent approximately forty thousand riyals on initial fragrance development and packaging concepts for the fragrance line.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 264 days | text: User decided that launching the Oud and Geometry fragrance line would require building a second business with its own supply chain, regulatory compliance, and distribution network.\n[6] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 317 days | text: User has a son named Omar who has a school science fair on May 15th, 2025.\n[7] lifecycle: expired | category: OBLIGATIONS | attribute: obligation | age: 317 days | text: User promised to attend Omar's school science fair on May 15th\n[8] lifecycle: expired | category: OBLIGATIONS | attribute: obligation | age: 317 days | text: User promised to attend Omar's school science fair on May 15th.\n[9] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 405 days | text: User's firm works exclusively in high-end residential design, focusing on villas, penthouses, private residences, and occasionally family compounds.\n[10] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 367 days | text: User is preparing a presentation for the Al-Faisal family on March 5th, 2025.\n[11] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 264 days | text: User decided not to launch a home fragrance line called Oud and Geometry because it would require a level of investment and attention that would compete with their core interior design work.\n[12] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: supplier | age: 481 days | text: User has a longstanding relationship with Maison Pierre in Paris as a primary fabric supplier for nearly eight years.\n[13] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: supplier | age: 481 days | text: User has a longstanding relationship with Maison Pierre in Paris as a primary fabric supplier for nearly eight years.",
+   "view_sha": "43610f97aba5dafb",
+   "view_sha_a4": "71a7fb9cbf2ef87e"
+  },
+  "frbank:fatima:fatima_q06:FULL|76820499dbdbc738": {
+   "in_422": true,
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "key": "frbank:fatima:fatima_q06:FULL|ee13b50163cf7e7e",
+   "key_a4": "frbank:fatima:fatima_q06:FULL|76820499dbdbc738",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "fatima",
+   "policies": [
+    "ALWAYS"
+   ],
+   "question": "Is Fatima launching any new products or brands?",
+   "ranks_tagged": [
+    2,
+    3
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: business_extension | age: 342 days | text: User is considering extending their firm into home fragrance products.\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 342 days | text: User is launching a premium home fragrance line called Oud & Geometry as a lifestyle extension of their design brand.\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 342 days | text: User is developing a home fragrance line called Oud & Geometry as a brand extension of their interior design firm.\n[4] lifecycle: active | category: FINANCIAL_MATERIAL | attribute: project_cost | age: 264 days | text: User spent approximately forty thousand riyals on initial fragrance development and packaging concepts for the fragrance line.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 264 days | text: User decided that launching the Oud and Geometry fragrance line would require building a second business with its own supply chain, regulatory compliance, and distribution network.",
+   "view_sha": "ee13b50163cf7e7e",
+   "view_sha_a4": "76820499dbdbc738"
+  },
+  "frbank:fatima:fatima_q06:FULL|d17a217596fb18b8": {
+   "in_422": true,
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "key": "frbank:fatima:fatima_q06:FULL|2ad1fe29b5743a2c",
+   "key_a4": "frbank:fatima:fatima_q06:FULL|d17a217596fb18b8",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 8,
+   "persona": "fatima",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "Is Fatima launching any new products or brands?",
+   "ranks_tagged": [
+    2,
+    3
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: business_extension | age: 342 days | text: User is considering extending their firm into home fragrance products.\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 342 days | text: User is launching a premium home fragrance line called Oud & Geometry as a lifestyle extension of their design brand.\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 342 days | text: User is developing a home fragrance line called Oud & Geometry as a brand extension of their interior design firm.\n[4] lifecycle: active | category: FINANCIAL_MATERIAL | attribute: project_cost | age: 264 days | text: User spent approximately forty thousand riyals on initial fragrance development and packaging concepts for the fragrance line.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 264 days | text: User decided that launching the Oud and Geometry fragrance line would require building a second business with its own supply chain, regulatory compliance, and distribution network.\n[6] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 405 days | text: User's firm works exclusively in high-end residential design, focusing on villas, penthouses, private residences, and occasionally family compounds.\n[7] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 367 days | text: User is preparing a presentation for the Al-Faisal family on March 5th, 2025.\n[8] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 264 days | text: User decided not to launch a home fragrance line called Oud and Geometry because it would require a level of investment and attention that would compete with their core interior design work.",
+   "view_sha": "2ad1fe29b5743a2c",
+   "view_sha_a4": "d17a217596fb18b8"
+  },
+  "frbank:fatima:fatima_q06:FULL|ef304ed5812e1f0b": {
+   "in_422": true,
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "key": "frbank:fatima:fatima_q06:FULL|52c84c360949bef0",
+   "key_a4": "frbank:fatima:fatima_q06:FULL|ef304ed5812e1f0b",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 10,
+   "persona": "fatima",
+   "policies": [
+    "MODEL",
+    "LOOKUP-LIT"
+   ],
+   "question": "Is Fatima launching any new products or brands?",
+   "ranks_tagged": [
+    2,
+    3
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: business_extension | age: 342 days | text: User is considering extending their firm into home fragrance products.\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 342 days | text: User is launching a premium home fragrance line called Oud & Geometry as a lifestyle extension of their design brand.\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 342 days | text: User is developing a home fragrance line called Oud & Geometry as a brand extension of their interior design firm.\n[4] lifecycle: active | category: FINANCIAL_MATERIAL | attribute: project_cost | age: 264 days | text: User spent approximately forty thousand riyals on initial fragrance development and packaging concepts for the fragrance line.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 264 days | text: User decided that launching the Oud and Geometry fragrance line would require building a second business with its own supply chain, regulatory compliance, and distribution network.\n[6] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 405 days | text: User's firm works exclusively in high-end residential design, focusing on villas, penthouses, private residences, and occasionally family compounds.\n[7] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 367 days | text: User is preparing a presentation for the Al-Faisal family on March 5th, 2025.\n[8] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 264 days | text: User decided not to launch a home fragrance line called Oud and Geometry because it would require a level of investment and attention that would compete with their core interior design work.\n[9] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: supplier | age: 481 days | text: User has a longstanding relationship with Maison Pierre in Paris as a primary fabric supplier for nearly eight years.\n[10] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: supplier | age: 481 days | text: User has a longstanding relationship with Maison Pierre in Paris as a primary fabric supplier for nearly eight years.",
+   "view_sha": "52c84c360949bef0",
+   "view_sha_a4": "ef304ed5812e1f0b"
+  },
+  "frbank:ingrid:ingrid_q01:CAT-ABLATED|5344bfe3b9eac04a": {
+   "in_422": true,
+   "item_id": "frbank:ingrid:ingrid_q01:CAT-ABLATED",
+   "key": "frbank:ingrid:ingrid_q01:CAT-ABLATED|c75169ed00aab75c",
+   "key_a4": "frbank:ingrid:ingrid_q01:CAT-ABLATED|5344bfe3b9eac04a",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 12,
+   "persona": "ingrid",
+   "policies": [
+    "ORACLE",
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "question": "What is Ingrid's primary research focus?",
+   "ranks_tagged": [
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's previous primary research focus was Arctic cod population dynamics.\n[2] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: research_interest | age: 175 days | text: User's primary research interest includes kelp aquaculture and nearshore habitat monitoring\n[3] lifecycle: superseded | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea\n[4] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's current primary research focus is kelp aquaculture as a climate adaptation strategy\n[5] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's research focus has shifted away from population dynamics.\n[6] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a population dynamics model for Arctic cod (Boreogadus saida)\n[7] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a three-year monitoring programme studying Arctic cod (Boreogadus saida) population dynamics\n[8] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User is conducting a monitoring programme on Arctic cod population dynamics in the Barents Sea\n[9] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User plans to continue sampling Arctic cod population dynamics for three more years\n[10] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of a monitoring programme.\n[11] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of their father's work.\n[12] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 432 days | text: User is preparing a grant proposal for the Research Council due on February 15, 2025",
+   "view_sha": "c75169ed00aab75c",
+   "view_sha_a4": "5344bfe3b9eac04a"
+  },
+  "frbank:ingrid:ingrid_q01:CAT-ABLATED|6154a72ed4ebcd04": {
+   "in_422": true,
+   "item_id": "frbank:ingrid:ingrid_q01:CAT-ABLATED",
+   "key": "frbank:ingrid:ingrid_q01:CAT-ABLATED|ea9800387478f3b1",
+   "key_a4": "frbank:ingrid:ingrid_q01:CAT-ABLATED|6154a72ed4ebcd04",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 14,
+   "persona": "ingrid",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "question": "What is Ingrid's primary research focus?",
+   "ranks_tagged": [
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's previous primary research focus was Arctic cod population dynamics.\n[2] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: research_interest | age: 175 days | text: User's primary research interest includes kelp aquaculture and nearshore habitat monitoring\n[3] lifecycle: superseded | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea\n[4] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's current primary research focus is kelp aquaculture as a climate adaptation strategy\n[5] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's research focus has shifted away from population dynamics.\n[6] lifecycle: expired | category: LOGISTICAL_CONTEXT | attribute: event | age: 402 days | text: User will present at the Arctic Science Summit in Reykjavik on March 22, 2025\n[7] lifecycle: expired | category: LOGISTICAL_CONTEXT | attribute: event | age: 402 days | text: User's conference talk is scheduled for March 22, 2025, at the Arctic Science Summit in Reykjavik.\n[8] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a population dynamics model for Arctic cod (Boreogadus saida)\n[9] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a three-year monitoring programme studying Arctic cod (Boreogadus saida) population dynamics\n[10] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User is conducting a monitoring programme on Arctic cod population dynamics in the Barents Sea\n[11] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User plans to continue sampling Arctic cod population dynamics for three more years\n[12] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of a monitoring programme.\n[13] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of their father's work.\n[14] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 432 days | text: User is preparing a grant proposal for the Research Council due on February 15, 2025",
+   "view_sha": "ea9800387478f3b1",
+   "view_sha_a4": "6154a72ed4ebcd04"
+  },
+  "frbank:ingrid:ingrid_q01:FULL|61a232e52bddd491": {
+   "in_422": true,
+   "item_id": "frbank:ingrid:ingrid_q01:FULL",
+   "key": "frbank:ingrid:ingrid_q01:FULL|3c18b34d28f12856",
+   "key_a4": "frbank:ingrid:ingrid_q01:FULL|61a232e52bddd491",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 16,
+   "persona": "ingrid",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "question": "What is Ingrid's primary research focus?",
+   "ranks_tagged": [
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's previous primary research focus was Arctic cod population dynamics.\n[2] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: research_interest | age: 175 days | text: User's primary research interest includes kelp aquaculture and nearshore habitat monitoring\n[3] lifecycle: superseded | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea\n[4] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's current primary research focus is kelp aquaculture as a climate adaptation strategy\n[5] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's research focus has shifted away from population dynamics.\n[6] lifecycle: expired | category: LOGISTICAL_CONTEXT | attribute: event | age: 402 days | text: User will present at the Arctic Science Summit in Reykjavik on March 22, 2025\n[7] lifecycle: expired | category: LOGISTICAL_CONTEXT | attribute: event | age: 402 days | text: User's conference talk is scheduled for March 22, 2025, at the Arctic Science Summit in Reykjavik.\n[8] lifecycle: expired | category: OBLIGATIONS | attribute: grant_proposal_due_date | age: 432 days | text: User has a grant proposal due to the Research Council on February 15\n[9] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a population dynamics model for Arctic cod (Boreogadus saida)\n[10] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a three-year monitoring programme studying Arctic cod (Boreogadus saida) population dynamics\n[11] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User is conducting a monitoring programme on Arctic cod population dynamics in the Barents Sea\n[12] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User plans to continue sampling Arctic cod population dynamics for three more years\n[13] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of a monitoring programme.\n[14] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of their father's work.\n[15] lifecycle: expired | category: OBLIGATIONS | attribute: project | age: 432 days | text: User has a grant proposal due to the Research Council on February 15, 2025\n[16] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 432 days | text: User is preparing a grant proposal for the Research Council due on February 15, 2025",
+   "view_sha": "3c18b34d28f12856",
+   "view_sha_a4": "61a232e52bddd491"
+  },
+  "frbank:ingrid:ingrid_q01:FULL|9d29859c3877048a": {
+   "in_422": true,
+   "item_id": "frbank:ingrid:ingrid_q01:FULL",
+   "key": "frbank:ingrid:ingrid_q01:FULL|27dcaaa502fef7f2",
+   "key_a4": "frbank:ingrid:ingrid_q01:FULL|9d29859c3877048a",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 13,
+   "persona": "ingrid",
+   "policies": [
+    "ORACLE",
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "question": "What is Ingrid's primary research focus?",
+   "ranks_tagged": [
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's previous primary research focus was Arctic cod population dynamics.\n[2] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: research_interest | age: 175 days | text: User's primary research interest includes kelp aquaculture and nearshore habitat monitoring\n[3] lifecycle: superseded | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea\n[4] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's current primary research focus is kelp aquaculture as a climate adaptation strategy\n[5] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's research focus has shifted away from population dynamics.\n[6] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a population dynamics model for Arctic cod (Boreogadus saida)\n[7] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a three-year monitoring programme studying Arctic cod (Boreogadus saida) population dynamics\n[8] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User is conducting a monitoring programme on Arctic cod population dynamics in the Barents Sea\n[9] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User plans to continue sampling Arctic cod population dynamics for three more years\n[10] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of a monitoring programme.\n[11] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of their father's work.\n[12] lifecycle: expired | category: OBLIGATIONS | attribute: project | age: 432 days | text: User has a grant proposal due to the Research Council on February 15, 2025\n[13] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 432 days | text: User is preparing a grant proposal for the Research Council due on February 15, 2025",
+   "view_sha": "27dcaaa502fef7f2",
+   "view_sha_a4": "9d29859c3877048a"
+  },
+  "frbank:ingrid:ingrid_q01:SLOT-ABLATED|2b00d3d299fee09e": {
+   "in_422": true,
+   "item_id": "frbank:ingrid:ingrid_q01:SLOT-ABLATED",
+   "key": "frbank:ingrid:ingrid_q01:SLOT-ABLATED|e41f39a479fba25d",
+   "key_a4": "frbank:ingrid:ingrid_q01:SLOT-ABLATED|2b00d3d299fee09e",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 16,
+   "persona": "ingrid",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "question": "What is Ingrid's primary research focus?",
+   "ranks_tagged": [
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's previous primary research focus was Arctic cod population dynamics.\n[2] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: research_interest | age: 175 days | text: User's primary research interest includes kelp aquaculture and nearshore habitat monitoring\n[3] lifecycle: superseded | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: research_location | age: 22 days | text: User conducts research at coastal field sites in the Arctic.\n[5] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: education | age: 489 days | text: User completed a PhD at Bergen on cod biology focusing on larval mortality across thermal gradients\n[6] lifecycle: expired | category: LOGISTICAL_CONTEXT | attribute: event | age: 402 days | text: User will present at the Arctic Science Summit in Reykjavik on March 22, 2025\n[7] lifecycle: expired | category: LOGISTICAL_CONTEXT | attribute: event | age: 402 days | text: User's conference talk is scheduled for March 22, 2025, at the Arctic Science Summit in Reykjavik.\n[8] lifecycle: expired | category: OBLIGATIONS | attribute: grant_proposal_due_date | age: 432 days | text: User has a grant proposal due to the Research Council on February 15\n[9] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a population dynamics model for Arctic cod (Boreogadus saida)\n[10] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a three-year monitoring programme studying Arctic cod (Boreogadus saida) population dynamics\n[11] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User is conducting a monitoring programme on Arctic cod population dynamics in the Barents Sea\n[12] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User plans to continue sampling Arctic cod population dynamics for three more years\n[13] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of a monitoring programme.\n[14] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of their father's work.\n[15] lifecycle: expired | category: OBLIGATIONS | attribute: project | age: 432 days | text: User has a grant proposal due to the Research Council on February 15, 2025\n[16] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 432 days | text: User is preparing a grant proposal for the Research Council due on February 15, 2025",
+   "view_sha": "e41f39a479fba25d",
+   "view_sha_a4": "2b00d3d299fee09e"
+  },
+  "frbank:ingrid:ingrid_q01:SLOT-ABLATED|f0a292a92f80ae35": {
+   "in_422": true,
+   "item_id": "frbank:ingrid:ingrid_q01:SLOT-ABLATED",
+   "key": "frbank:ingrid:ingrid_q01:SLOT-ABLATED|35425dc83c05df14",
+   "key_a4": "frbank:ingrid:ingrid_q01:SLOT-ABLATED|f0a292a92f80ae35",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 13,
+   "persona": "ingrid",
+   "policies": [
+    "ORACLE",
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "question": "What is Ingrid's primary research focus?",
+   "ranks_tagged": [
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's previous primary research focus was Arctic cod population dynamics.\n[2] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: research_interest | age: 175 days | text: User's primary research interest includes kelp aquaculture and nearshore habitat monitoring\n[3] lifecycle: superseded | category: INTELLECTUAL_INTERESTS | attribute: research_focus | age: 327 days | text: User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: research_location | age: 22 days | text: User conducts research at coastal field sites in the Arctic.\n[5] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: education | age: 489 days | text: User completed a PhD at Bergen on cod biology focusing on larval mortality across thermal gradients\n[6] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a population dynamics model for Arctic cod (Boreogadus saida)\n[7] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a three-year monitoring programme studying Arctic cod (Boreogadus saida) population dynamics\n[8] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User is conducting a monitoring programme on Arctic cod population dynamics in the Barents Sea\n[9] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User plans to continue sampling Arctic cod population dynamics for three more years\n[10] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of a monitoring programme.\n[11] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of their father's work.\n[12] lifecycle: expired | category: OBLIGATIONS | attribute: project | age: 432 days | text: User has a grant proposal due to the Research Council on February 15, 2025\n[13] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 432 days | text: User is preparing a grant proposal for the Research Council due on February 15, 2025",
+   "view_sha": "35425dc83c05df14",
+   "view_sha_a4": "f0a292a92f80ae35"
+  },
+  "frbank:ingrid:ingrid_q04:CAT-ABLATED|766a0fa846b1578c": {
+   "in_422": true,
+   "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+   "key": "frbank:ingrid:ingrid_q04:CAT-ABLATED|dadf7415662ffa5d",
+   "key_a4": "frbank:ingrid:ingrid_q04:CAT-ABLATED|766a0fa846b1578c",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 12,
+   "persona": "ingrid",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "Is Ingrid planning a sabbatical?",
+   "ranks_tagged": [
+    1,
+    2
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 466 days | text: User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 317 days | text: User was invited to spend a sabbatical year at Woods Hole Oceanographic Institution\n[3] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 317 days | text: User's sabbatical at Woods Hole is cancelled\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 466 days | text: User plans to be a Guest Investigator at Woods Hole Oceanographic Institution from August 2026 through July 2027.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 155 days | text: User plans to visit the animal shelter in December after the semester calms down.\n[6] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a population dynamics model for Arctic cod (Boreogadus saida)\n[7] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a three-year monitoring programme studying Arctic cod (Boreogadus saida) population dynamics\n[8] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User is conducting a monitoring programme on Arctic cod population dynamics in the Barents Sea\n[9] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User plans to continue sampling Arctic cod population dynamics for three more years\n[10] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of a monitoring programme.\n[11] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of their father's work.\n[12] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 432 days | text: User is preparing a grant proposal for the Research Council due on February 15, 2025",
+   "view_sha": "dadf7415662ffa5d",
+   "view_sha_a4": "766a0fa846b1578c"
+  },
+  "frbank:ingrid:ingrid_q04:CAT-ABLATED|9e515bcb2cb596d9": {
+   "in_422": true,
+   "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+   "key": "frbank:ingrid:ingrid_q04:CAT-ABLATED|8f1b42e4472dd143",
+   "key_a4": "frbank:ingrid:ingrid_q04:CAT-ABLATED|9e515bcb2cb596d9",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "ingrid",
+   "policies": [
+    "ALWAYS",
+    "LOOKUP-LIT"
+   ],
+   "question": "Is Ingrid planning a sabbatical?",
+   "ranks_tagged": [
+    1,
+    2
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 466 days | text: User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 317 days | text: User was invited to spend a sabbatical year at Woods Hole Oceanographic Institution\n[3] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 317 days | text: User's sabbatical at Woods Hole is cancelled\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 466 days | text: User plans to be a Guest Investigator at Woods Hole Oceanographic Institution from August 2026 through July 2027.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 155 days | text: User plans to visit the animal shelter in December after the semester calms down.",
+   "view_sha": "8f1b42e4472dd143",
+   "view_sha_a4": "9e515bcb2cb596d9"
+  },
+  "frbank:ingrid:ingrid_q04:FULL|0d259b789fae9132": {
+   "in_422": true,
+   "item_id": "frbank:ingrid:ingrid_q04:FULL",
+   "key": "frbank:ingrid:ingrid_q04:FULL|26f2fe62c9ef91b0",
+   "key_a4": "frbank:ingrid:ingrid_q04:FULL|0d259b789fae9132",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "ingrid",
+   "policies": [
+    "ALWAYS",
+    "LOOKUP-LIT"
+   ],
+   "question": "Is Ingrid planning a sabbatical?",
+   "ranks_tagged": [
+    2,
+    4
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: OBLIGATIONS | attribute: sabbatical_status | age: 317 days | text: User has decided that a sabbatical at Woods Hole is definitively off the table for now.\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 466 days | text: User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026\n[3] lifecycle: active | category: OBLIGATIONS | attribute: relationship | age: 466 days | text: User's department head is supportive in principle of the sabbatical\n[4] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 317 days | text: User was invited to spend a sabbatical year at Woods Hole Oceanographic Institution\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 317 days | text: User's sabbatical at Woods Hole is cancelled",
+   "view_sha": "26f2fe62c9ef91b0",
+   "view_sha_a4": "0d259b789fae9132"
+  },
+  "frbank:ingrid:ingrid_q04:FULL|17cca38cab630760": {
+   "in_422": true,
+   "item_id": "frbank:ingrid:ingrid_q04:FULL",
+   "key": "frbank:ingrid:ingrid_q04:FULL|cb1e087217210f0e",
+   "key_a4": "frbank:ingrid:ingrid_q04:FULL|17cca38cab630760",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 13,
+   "persona": "ingrid",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "Is Ingrid planning a sabbatical?",
+   "ranks_tagged": [
+    2,
+    4
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: OBLIGATIONS | attribute: sabbatical_status | age: 317 days | text: User has decided that a sabbatical at Woods Hole is definitively off the table for now.\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 466 days | text: User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026\n[3] lifecycle: active | category: OBLIGATIONS | attribute: relationship | age: 466 days | text: User's department head is supportive in principle of the sabbatical\n[4] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 317 days | text: User was invited to spend a sabbatical year at Woods Hole Oceanographic Institution\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 317 days | text: User's sabbatical at Woods Hole is cancelled\n[6] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a population dynamics model for Arctic cod (Boreogadus saida)\n[7] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a three-year monitoring programme studying Arctic cod (Boreogadus saida) population dynamics\n[8] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User is conducting a monitoring programme on Arctic cod population dynamics in the Barents Sea\n[9] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User plans to continue sampling Arctic cod population dynamics for three more years\n[10] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of a monitoring programme.\n[11] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of their father's work.\n[12] lifecycle: expired | category: OBLIGATIONS | attribute: project | age: 432 days | text: User has a grant proposal due to the Research Council on February 15, 2025\n[13] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 432 days | text: User is preparing a grant proposal for the Research Council due on February 15, 2025",
+   "view_sha": "cb1e087217210f0e",
+   "view_sha_a4": "17cca38cab630760"
+  },
+  "frbank:ingrid:ingrid_q04:SLOT-ABLATED|98db10edf7a2894b": {
+   "in_422": true,
+   "item_id": "frbank:ingrid:ingrid_q04:SLOT-ABLATED",
+   "key": "frbank:ingrid:ingrid_q04:SLOT-ABLATED|0f498d81b3b945c7",
+   "key_a4": "frbank:ingrid:ingrid_q04:SLOT-ABLATED|98db10edf7a2894b",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 13,
+   "persona": "ingrid",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "Is Ingrid planning a sabbatical?",
+   "ranks_tagged": [
+    1,
+    3
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 466 days | text: User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026\n[2] lifecycle: active | category: OBLIGATIONS | attribute: relationship | age: 466 days | text: User's department head is supportive in principle of the sabbatical\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 317 days | text: User was invited to spend a sabbatical year at Woods Hole Oceanographic Institution\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 317 days | text: User's sabbatical at Woods Hole is cancelled\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 466 days | text: User plans to be a Guest Investigator at Woods Hole Oceanographic Institution from August 2026 through July 2027.\n[6] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a population dynamics model for Arctic cod (Boreogadus saida)\n[7] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 532 days | text: User is involved in a three-year monitoring programme studying Arctic cod (Boreogadus saida) population dynamics\n[8] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User is conducting a monitoring programme on Arctic cod population dynamics in the Barents Sea\n[9] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User plans to continue sampling Arctic cod population dynamics for three more years\n[10] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of a monitoring programme.\n[11] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 511 days | text: User studies Arctic cod population dynamics in the Barents Sea as a continuation of their father's work.\n[12] lifecycle: expired | category: OBLIGATIONS | attribute: project | age: 432 days | text: User has a grant proposal due to the Research Council on February 15, 2025\n[13] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 432 days | text: User is preparing a grant proposal for the Research Council due on February 15, 2025",
+   "view_sha": "0f498d81b3b945c7",
+   "view_sha_a4": "98db10edf7a2894b"
+  },
+  "frbank:ingrid:ingrid_q04:SLOT-ABLATED|b17273a99f545c47": {
+   "in_422": true,
+   "item_id": "frbank:ingrid:ingrid_q04:SLOT-ABLATED",
+   "key": "frbank:ingrid:ingrid_q04:SLOT-ABLATED|a6bc1a7137a48f0e",
+   "key_a4": "frbank:ingrid:ingrid_q04:SLOT-ABLATED|b17273a99f545c47",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "ingrid",
+   "policies": [
+    "ALWAYS",
+    "LOOKUP-LIT"
+   ],
+   "question": "Is Ingrid planning a sabbatical?",
+   "ranks_tagged": [
+    1,
+    3
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 466 days | text: User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026\n[2] lifecycle: active | category: OBLIGATIONS | attribute: relationship | age: 466 days | text: User's department head is supportive in principle of the sabbatical\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 317 days | text: User was invited to spend a sabbatical year at Woods Hole Oceanographic Institution\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 317 days | text: User's sabbatical at Woods Hole is cancelled\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 466 days | text: User plans to be a Guest Investigator at Woods Hole Oceanographic Institution from August 2026 through July 2027.",
+   "view_sha": "a6bc1a7137a48f0e",
+   "view_sha_a4": "b17273a99f545c47"
+  },
+  "frbank:jerome:jerome_q02:CAT-ABLATED|5953d48a3007c7c2": {
+   "in_422": true,
+   "item_id": "frbank:jerome:jerome_q02:CAT-ABLATED",
+   "key": "frbank:jerome:jerome_q02:CAT-ABLATED|c03a463cb7e16a6c",
+   "key_a4": "frbank:jerome:jerome_q02:CAT-ABLATED|5953d48a3007c7c2",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "jerome",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "What company does Jerome drive for?",
+   "ranks_tagged": [
+    5
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 226 days | text: User works as a company driver at ABF\n[2] lifecycle: active | category: OBLIGATIONS | attribute: job_title | age: 20 days | text: User drives a truck for work.\n[3] lifecycle: active | category: OBLIGATIONS | attribute: job_title | age: 226 days | text: User is a company driver at ABF\n[4] lifecycle: active | category: OBLIGATIONS | attribute: vehicle | age: 242 days | text: User drives a 2024 Peterbilt 579 truck for work\n[5] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 543 days | text: User has been driving for Southeastern Freight Lines out of Atlanta for 4 years.\n[6] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 543 days | text: User drives for Southeastern Freight Lines out of the Atlanta terminal.\n[7] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 543 days | text: User drives for Southeastern Freight Lines out of the Atlanta terminal.",
+   "view_sha": "c03a463cb7e16a6c",
+   "view_sha_a4": "5953d48a3007c7c2"
+  },
+  "frbank:jerome:jerome_q02:CAT-ABLATED|e2f736917d8c4c29": {
+   "in_422": true,
+   "item_id": "frbank:jerome:jerome_q02:CAT-ABLATED",
+   "key": "frbank:jerome:jerome_q02:CAT-ABLATED|16c62d96f0619ec0",
+   "key_a4": "frbank:jerome:jerome_q02:CAT-ABLATED|e2f736917d8c4c29",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 9,
+   "persona": "jerome",
+   "policies": [
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "question": "What company does Jerome drive for?",
+   "ranks_tagged": [
+    5
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 226 days | text: User works as a company driver at ABF\n[2] lifecycle: active | category: OBLIGATIONS | attribute: job_title | age: 20 days | text: User drives a truck for work.\n[3] lifecycle: active | category: OBLIGATIONS | attribute: job_title | age: 226 days | text: User is a company driver at ABF\n[4] lifecycle: active | category: OBLIGATIONS | attribute: vehicle | age: 242 days | text: User drives a 2024 Peterbilt 579 truck for work\n[5] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 543 days | text: User has been driving for Southeastern Freight Lines out of Atlanta for 4 years.\n[6] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 543 days | text: User drives for Southeastern Freight Lines out of the Atlanta terminal.\n[7] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 543 days | text: User drives for Southeastern Freight Lines out of the Atlanta terminal.\n[8] lifecycle: superseded | category: OBLIGATIONS | attribute: job_title | age: 463 days | text: User is a flatbed truck driver who hauls construction materials such as steel beams, lumber, and concrete forms.\n[9] lifecycle: expired | category: OBLIGATIONS | attribute: job_title | age: 382 days | text: User works as a truck driver with heavy dispatch days on Fridays and has requested May 16, 2025 off to attend Naomi's play.",
+   "view_sha": "16c62d96f0619ec0",
+   "view_sha_a4": "e2f736917d8c4c29"
+  },
+  "frbank:jerome:jerome_q02:CAT-ABLATED|f69c4ad894fc6f40": {
+   "in_422": true,
+   "item_id": "frbank:jerome:jerome_q02:CAT-ABLATED",
+   "key": "frbank:jerome:jerome_q02:CAT-ABLATED|5ec33b9c340434ca",
+   "key_a4": "frbank:jerome:jerome_q02:CAT-ABLATED|f69c4ad894fc6f40",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 17,
+   "persona": "jerome",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "question": "What company does Jerome drive for?",
+   "ranks_tagged": [
+    5
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 226 days | text: User works as a company driver at ABF\n[2] lifecycle: active | category: OBLIGATIONS | attribute: job_title | age: 20 days | text: User drives a truck for work.\n[3] lifecycle: active | category: OBLIGATIONS | attribute: job_title | age: 226 days | text: User is a company driver at ABF\n[4] lifecycle: active | category: OBLIGATIONS | attribute: vehicle | age: 242 days | text: User drives a 2024 Peterbilt 579 truck for work\n[5] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 543 days | text: User has been driving for Southeastern Freight Lines out of Atlanta for 4 years.\n[6] lifecycle: expired | category: OBLIGATIONS | attribute: cdl_medical_card_expiry | age: 416 days | text: User's CDL medical card expires on 2025-03-28\n[7] lifecycle: expired | category: OBLIGATIONS | attribute: cdl_medical_card_expiry | age: 416 days | text: User's CDL medical card expires on March 28\n[8] lifecycle: expired | category: OBLIGATIONS | attribute: cdl_medical_card_expiry | age: 416 days | text: User's CDL medical card expires on 2025-03-28\n[9] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 543 days | text: User drives for Southeastern Freight Lines out of the Atlanta terminal.\n[10] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 543 days | text: User drives for Southeastern Freight Lines out of the Atlanta terminal.\n[11] lifecycle: superseded | category: OBLIGATIONS | attribute: job_title | age: 463 days | text: User is a flatbed truck driver who hauls construction materials such as steel beams, lumber, and concrete forms.\n[12] lifecycle: expired | category: OBLIGATIONS | attribute: job_title | age: 382 days | text: User works as a truck driver with heavy dispatch days on Fridays and has requested May 16, 2025 off to attend Naomi's play.\n[13] lifecycle: expired | category: OBLIGATIONS | attribute: medical_exam_date | age: 416 days | text: User has a DOT physical scheduled on March 28, 2025\n[14] lifecycle: expired | category: OBLIGATIONS | attribute: obligation | age: 479 days | text: User is a commercial driver with a CDL medical card renewal due around April 2025.\n[15] lifecycle: expired | category: OBLIGATIONS | attribute: obligation | age: 382 days | text: User has requested May 16, 2025 off work to attend Naomi's school play and has communicated this to dispatcher Rob.\n[16] lifecycle: expired | category: OBLIGATIONS | attribute: obligation | age: 382 days | text: User works in dispatch and has requested May 16 off to attend Naomi's play, coordinating with dispatcher named Rob.\n[17] lifecycle: expired | category: OBLIGATIONS | attribute: time_off | age: 382 days | text: User plans to take May 16 off to watch Naomi's play.",
+   "view_sha": "5ec33b9c340434ca",
+   "view_sha_a4": "f69c4ad894fc6f40"
+  },
+  "frbank:joonho:joonho_q04:SLOT-ABLATED|4ee9bd7760077288": {
+   "in_422": true,
+   "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+   "key": "frbank:joonho:joonho_q04:SLOT-ABLATED|e3d50bf4ababbdb5",
+   "key_a4": "frbank:joonho:joonho_q04:SLOT-ABLATED|4ee9bd7760077288",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 9,
+   "persona": "joonho",
+   "policies": [
+    "LOOKUP-ALL"
+   ],
+   "question": "Is Joon-ho writing a textbook?",
+   "ranks_tagged": [
+    4
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 464 days | text: User intends to publish the textbook initially with a Korean academic press, possibly followed by an English translation\n[2] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: publication_record | age: 499 days | text: User published approximately forty research papers and wrote two textbooks in Korean\n[3] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 310 days | text: User has been working on a mathematics textbook about combinatorial game theory with twelve chapters\n[4] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 464 days | text: User is writing a textbook on combinatorial game theory applied to go.\n[5] lifecycle: active | category: RELATIONAL_BONDS | attribute: family_member | age: 404 days | text: User has a son named Joon-seo.\n[6] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_event | age: 404 days | text: User's son Joon-seo is getting married on September 20.\n[7] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 404 days | text: User's son Joon-seo is getting married on September 20, 2025.\n[8] lifecycle: superseded | category: OBLIGATIONS | attribute: project | age: 552 days | text: User teaches go at the Haeundae Baduk Club in Busan to a group of six mostly retired beginners.\n[9] lifecycle: superseded | category: OBLIGATIONS | attribute: teaching_location | age: 552 days | text: User teaches go at the Haeundae Baduk Club in Busan.",
+   "view_sha": "e3d50bf4ababbdb5",
+   "view_sha_a4": "4ee9bd7760077288"
+  },
+  "frbank:joonho:joonho_q04:SLOT-ABLATED|8af5cc0b4f378251": {
+   "in_422": true,
+   "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+   "key": "frbank:joonho:joonho_q04:SLOT-ABLATED|18696bb8c89c6676",
+   "key_a4": "frbank:joonho:joonho_q04:SLOT-ABLATED|8af5cc0b4f378251",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 6,
+   "persona": "joonho",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "Is Joon-ho writing a textbook?",
+   "ranks_tagged": [
+    4
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 464 days | text: User intends to publish the textbook initially with a Korean academic press, possibly followed by an English translation\n[2] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: publication_record | age: 499 days | text: User published approximately forty research papers and wrote two textbooks in Korean\n[3] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 310 days | text: User has been working on a mathematics textbook about combinatorial game theory with twelve chapters\n[4] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 464 days | text: User is writing a textbook on combinatorial game theory applied to go.\n[5] lifecycle: active | category: RELATIONAL_BONDS | attribute: family_member | age: 404 days | text: User has a son named Joon-seo.\n[6] lifecycle: superseded | category: OBLIGATIONS | attribute: project | age: 552 days | text: User teaches go at the Haeundae Baduk Club in Busan to a group of six mostly retired beginners.",
+   "view_sha": "18696bb8c89c6676",
+   "view_sha_a4": "8af5cc0b4f378251"
+  },
+  "frbank:joonho:joonho_q04:SLOT-ABLATED|94ed40c788ee6aa4": {
+   "in_422": true,
+   "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+   "key": "frbank:joonho:joonho_q04:SLOT-ABLATED|072c3f0de427b208",
+   "key_a4": "frbank:joonho:joonho_q04:SLOT-ABLATED|94ed40c788ee6aa4",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "joonho",
+   "policies": [
+    "ALWAYS",
+    "MODEL",
+    "MODEL-ALL"
+   ],
+   "question": "Is Joon-ho writing a textbook?",
+   "ranks_tagged": [
+    4
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 464 days | text: User intends to publish the textbook initially with a Korean academic press, possibly followed by an English translation\n[2] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: publication_record | age: 499 days | text: User published approximately forty research papers and wrote two textbooks in Korean\n[3] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 310 days | text: User has been working on a mathematics textbook about combinatorial game theory with twelve chapters\n[4] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 464 days | text: User is writing a textbook on combinatorial game theory applied to go.\n[5] lifecycle: active | category: RELATIONAL_BONDS | attribute: family_member | age: 404 days | text: User has a son named Joon-seo.",
+   "view_sha": "072c3f0de427b208",
+   "view_sha_a4": "94ed40c788ee6aa4"
+  },
+  "frbank:joonho:joonho_q04:SLOT-ABLATED|ed91dffd8750aa41": {
+   "in_422": true,
+   "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+   "key": "frbank:joonho:joonho_q04:SLOT-ABLATED|5ce6f9c743a98da7",
+   "key_a4": "frbank:joonho:joonho_q04:SLOT-ABLATED|ed91dffd8750aa41",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "joonho",
+   "policies": [
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "question": "Is Joon-ho writing a textbook?",
+   "ranks_tagged": [
+    4
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 464 days | text: User intends to publish the textbook initially with a Korean academic press, possibly followed by an English translation\n[2] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: publication_record | age: 499 days | text: User published approximately forty research papers and wrote two textbooks in Korean\n[3] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 310 days | text: User has been working on a mathematics textbook about combinatorial game theory with twelve chapters\n[4] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 464 days | text: User is writing a textbook on combinatorial game theory applied to go.\n[5] lifecycle: active | category: RELATIONAL_BONDS | attribute: family_member | age: 404 days | text: User has a son named Joon-seo.\n[6] lifecycle: superseded | category: OBLIGATIONS | attribute: project | age: 552 days | text: User teaches go at the Haeundae Baduk Club in Busan to a group of six mostly retired beginners.\n[7] lifecycle: superseded | category: OBLIGATIONS | attribute: teaching_location | age: 552 days | text: User teaches go at the Haeundae Baduk Club in Busan.",
+   "view_sha": "5ce6f9c743a98da7",
+   "view_sha_a4": "ed91dffd8750aa41"
+  },
+  "frbank:kofi:kofi_q01:FULL|859bafc244b8d70e": {
+   "in_422": true,
+   "item_id": "frbank:kofi:kofi_q01:FULL",
+   "key": "frbank:kofi:kofi_q01:FULL|889deea744d5f7e9",
+   "key_a4": "frbank:kofi:kofi_q01:FULL|859bafc244b8d70e",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 6,
+   "persona": "kofi",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "Who does Kofi's cooperative sell cocoa through?",
+   "ranks_tagged": [
+    1
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: OBLIGATIONS | attribute: selling_method | age: 558 days | text: User sells cocoa through a cooperative system in their village.\n[2] lifecycle: active | category: OBLIGATIONS | attribute: job_title | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa\n[3] lifecycle: active | category: OBLIGATIONS | attribute: role | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa\n[4] lifecycle: active | category: OBLIGATIONS | attribute: role_cooperative_chairman | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa.\n[5] lifecycle: active | category: OBLIGATIONS | attribute: role_cooperative_chairman | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa.\n[6] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: contract | age: 558 days | text: User sells cocoa through a cooperative with a 3-year contract at 800 cedis per 64kg bag.",
+   "view_sha": "889deea744d5f7e9",
+   "view_sha_a4": "859bafc244b8d70e"
+  },
+  "frbank:kofi:kofi_q01:FULL|a6614376f94a4437": {
+   "in_422": false,
+   "item_id": "frbank:kofi:kofi_q01:FULL",
+   "key": "frbank:kofi:kofi_q01:FULL|f124836f88aa0736",
+   "key_a4": "frbank:kofi:kofi_q01:FULL|a6614376f94a4437",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "kofi",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "question": "Who does Kofi's cooperative sell cocoa through?",
+   "ranks_tagged": [
+    1
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: OBLIGATIONS | attribute: selling_method | age: 558 days | text: User sells cocoa through a cooperative system in their village.\n[2] lifecycle: active | category: OBLIGATIONS | attribute: job_title | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa\n[3] lifecycle: active | category: OBLIGATIONS | attribute: role | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa\n[4] lifecycle: active | category: OBLIGATIONS | attribute: role_cooperative_chairman | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa.\n[5] lifecycle: active | category: OBLIGATIONS | attribute: role_cooperative_chairman | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa.\n[6] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: contract | age: 558 days | text: User sells cocoa through a cooperative with a 3-year contract at 800 cedis per 64kg bag.\n[7] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: farm_fertilizer_purchase | age: 481 days | text: User buys 12 bags of Cocoa Life fertilizer every season at 180 cedis each, totaling 2,160 cedis.",
+   "view_sha": "f124836f88aa0736",
+   "view_sha_a4": "a6614376f94a4437"
+  },
+  "frbank:kofi:kofi_q01:SLOT-ABLATED|859bafc244b8d70e": {
+   "in_422": true,
+   "item_id": "frbank:kofi:kofi_q01:SLOT-ABLATED",
+   "key": "frbank:kofi:kofi_q01:SLOT-ABLATED|889deea744d5f7e9",
+   "key_a4": "frbank:kofi:kofi_q01:SLOT-ABLATED|859bafc244b8d70e",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 6,
+   "persona": "kofi",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "Who does Kofi's cooperative sell cocoa through?",
+   "ranks_tagged": [
+    1
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: OBLIGATIONS | attribute: selling_method | age: 558 days | text: User sells cocoa through a cooperative system in their village.\n[2] lifecycle: active | category: OBLIGATIONS | attribute: job_title | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa\n[3] lifecycle: active | category: OBLIGATIONS | attribute: role | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa\n[4] lifecycle: active | category: OBLIGATIONS | attribute: role_cooperative_chairman | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa.\n[5] lifecycle: active | category: OBLIGATIONS | attribute: role_cooperative_chairman | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa.\n[6] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: contract | age: 558 days | text: User sells cocoa through a cooperative with a 3-year contract at 800 cedis per 64kg bag.",
+   "view_sha": "889deea744d5f7e9",
+   "view_sha_a4": "859bafc244b8d70e"
+  },
+  "frbank:kofi:kofi_q01:SLOT-ABLATED|a6614376f94a4437": {
+   "in_422": false,
+   "item_id": "frbank:kofi:kofi_q01:SLOT-ABLATED",
+   "key": "frbank:kofi:kofi_q01:SLOT-ABLATED|f124836f88aa0736",
+   "key_a4": "frbank:kofi:kofi_q01:SLOT-ABLATED|a6614376f94a4437",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "kofi",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "question": "Who does Kofi's cooperative sell cocoa through?",
+   "ranks_tagged": [
+    1
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: OBLIGATIONS | attribute: selling_method | age: 558 days | text: User sells cocoa through a cooperative system in their village.\n[2] lifecycle: active | category: OBLIGATIONS | attribute: job_title | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa\n[3] lifecycle: active | category: OBLIGATIONS | attribute: role | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa\n[4] lifecycle: active | category: OBLIGATIONS | attribute: role_cooperative_chairman | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa.\n[5] lifecycle: active | category: OBLIGATIONS | attribute: role_cooperative_chairman | age: 122 days | text: User is the chairman of a cooperative of 147 families selling cocoa through Kuapa.\n[6] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: contract | age: 558 days | text: User sells cocoa through a cooperative with a 3-year contract at 800 cedis per 64kg bag.\n[7] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: farm_fertilizer_purchase | age: 481 days | text: User buys 12 bags of Cocoa Life fertilizer every season at 180 cedis each, totaling 2,160 cedis.",
+   "view_sha": "f124836f88aa0736",
+   "view_sha_a4": "a6614376f94a4437"
+  },
+  "frbank:kofi:kofi_q02:FULL|0f200c3de47720b9": {
+   "in_422": true,
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "key": "frbank:kofi:kofi_q02:FULL|fd7aa0c376bff17a",
+   "key_a4": "frbank:kofi:kofi_q02:FULL|0f200c3de47720b9",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "kofi",
+   "policies": [
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "question": "What fertilizer does Kofi use?",
+   "ranks_tagged": [
+    3,
+    4
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: fertilizer_brand | age: 481 days | text: User uses Cocoa Life fertilizer recommended by COCOBOD on their farm.\n[2] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 291 days | text: User applied fertilizer at planting time for cocoa trees.\n[3] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: project | age: 481 days | text: User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total.\n[4] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 481 days | text: User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: fertilizer_change_2026 | age: 102 days | text: User changed fertilizer this year and the cocoa yield improved.\n[6] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: contract | age: 558 days | text: User sells cocoa through a cooperative with a 3-year contract at 800 cedis per 64kg bag.\n[7] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: farm_fertilizer_purchase | age: 481 days | text: User buys 12 bags of Cocoa Life fertilizer every season at 180 cedis each, totaling 2,160 cedis.",
+   "view_sha": "fd7aa0c376bff17a",
+   "view_sha_a4": "0f200c3de47720b9"
+  },
+  "frbank:kofi:kofi_q02:FULL|173315c9a08350b2": {
+   "in_422": true,
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "key": "frbank:kofi:kofi_q02:FULL|6adec3890f2f068d",
+   "key_a4": "frbank:kofi:kofi_q02:FULL|173315c9a08350b2",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 9,
+   "persona": "kofi",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "question": "What fertilizer does Kofi use?",
+   "ranks_tagged": [
+    3,
+    4
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: fertilizer_brand | age: 481 days | text: User uses Cocoa Life fertilizer recommended by COCOBOD on their farm.\n[2] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 291 days | text: User applied fertilizer at planting time for cocoa trees.\n[3] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: project | age: 481 days | text: User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total.\n[4] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 481 days | text: User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: fertilizer_change_2026 | age: 102 days | text: User changed fertilizer this year and the cocoa yield improved.\n[6] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: contract | age: 558 days | text: User sells cocoa through a cooperative with a 3-year contract at 800 cedis per 64kg bag.\n[7] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: farm_fertilizer_purchase | age: 481 days | text: User buys 12 bags of Cocoa Life fertilizer every season at 180 cedis each, totaling 2,160 cedis.\n[8] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 451 days | text: User had cocoa beans graded by the Cocobod inspector on January 15, 2025.\n[9] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 403 days | text: User ordered borehole pump parts from Kumasi that arrived on March 8, 2025.",
+   "view_sha": "6adec3890f2f068d",
+   "view_sha_a4": "173315c9a08350b2"
+  },
+  "frbank:kofi:kofi_q02:FULL|cb517e75736a8c44": {
+   "in_422": true,
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "key": "frbank:kofi:kofi_q02:FULL|aa9d59dff76d7e55",
+   "key_a4": "frbank:kofi:kofi_q02:FULL|cb517e75736a8c44",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 6,
+   "persona": "kofi",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "What fertilizer does Kofi use?",
+   "ranks_tagged": [
+    3,
+    4
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: fertilizer_brand | age: 481 days | text: User uses Cocoa Life fertilizer recommended by COCOBOD on their farm.\n[2] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 291 days | text: User applied fertilizer at planting time for cocoa trees.\n[3] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: project | age: 481 days | text: User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total.\n[4] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 481 days | text: User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: fertilizer_change_2026 | age: 102 days | text: User changed fertilizer this year and the cocoa yield improved.\n[6] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: farm_fertilizer_purchase | age: 481 days | text: User buys 12 bags of Cocoa Life fertilizer every season at 180 cedis each, totaling 2,160 cedis.",
+   "view_sha": "aa9d59dff76d7e55",
+   "view_sha_a4": "cb517e75736a8c44"
+  },
+  "frbank:kofi:kofi_q02:SLOT-ABLATED|05ff6bf800ee3b14": {
+   "in_422": true,
+   "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+   "key": "frbank:kofi:kofi_q02:SLOT-ABLATED|7cfff8f02e12c5fc",
+   "key_a4": "frbank:kofi:kofi_q02:SLOT-ABLATED|05ff6bf800ee3b14",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 6,
+   "persona": "kofi",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "What fertilizer does Kofi use?",
+   "ranks_tagged": [
+    2,
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 291 days | text: User applied fertilizer at planting time for cocoa trees.\n[2] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: project | age: 481 days | text: User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total.\n[3] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 481 days | text: User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: fertilizer_change_2026 | age: 102 days | text: User changed fertilizer this year and the cocoa yield improved.\n[5] lifecycle: active | category: FINANCIAL_MATERIAL | attribute: expense | age: 102 days | text: User spends about 1,330 cedis on fertilizer for cocoa farming\n[6] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: farm_fertilizer_purchase | age: 481 days | text: User buys 12 bags of Cocoa Life fertilizer every season at 180 cedis each, totaling 2,160 cedis.",
+   "view_sha": "7cfff8f02e12c5fc",
+   "view_sha_a4": "05ff6bf800ee3b14"
+  },
+  "frbank:kofi:kofi_q02:SLOT-ABLATED|125dc29ed14eaa3e": {
+   "in_422": true,
+   "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+   "key": "frbank:kofi:kofi_q02:SLOT-ABLATED|a966b8b843c2d507",
+   "key_a4": "frbank:kofi:kofi_q02:SLOT-ABLATED|125dc29ed14eaa3e",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 9,
+   "persona": "kofi",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "question": "What fertilizer does Kofi use?",
+   "ranks_tagged": [
+    2,
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 291 days | text: User applied fertilizer at planting time for cocoa trees.\n[2] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: project | age: 481 days | text: User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total.\n[3] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 481 days | text: User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: fertilizer_change_2026 | age: 102 days | text: User changed fertilizer this year and the cocoa yield improved.\n[5] lifecycle: active | category: FINANCIAL_MATERIAL | attribute: expense | age: 102 days | text: User spends about 1,330 cedis on fertilizer for cocoa farming\n[6] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: contract | age: 558 days | text: User sells cocoa through a cooperative with a 3-year contract at 800 cedis per 64kg bag.\n[7] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: farm_fertilizer_purchase | age: 481 days | text: User buys 12 bags of Cocoa Life fertilizer every season at 180 cedis each, totaling 2,160 cedis.\n[8] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 451 days | text: User had cocoa beans graded by the Cocobod inspector on January 15, 2025.\n[9] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 403 days | text: User ordered borehole pump parts from Kumasi that arrived on March 8, 2025.",
+   "view_sha": "a966b8b843c2d507",
+   "view_sha_a4": "125dc29ed14eaa3e"
+  },
+  "frbank:kofi:kofi_q02:SLOT-ABLATED|dcf63162143dca0f": {
+   "in_422": true,
+   "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+   "key": "frbank:kofi:kofi_q02:SLOT-ABLATED|1123041a9bb334e6",
+   "key_a4": "frbank:kofi:kofi_q02:SLOT-ABLATED|dcf63162143dca0f",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "kofi",
+   "policies": [
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "question": "What fertilizer does Kofi use?",
+   "ranks_tagged": [
+    2,
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 291 days | text: User applied fertilizer at planting time for cocoa trees.\n[2] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: project | age: 481 days | text: User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total.\n[3] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 481 days | text: User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: fertilizer_change_2026 | age: 102 days | text: User changed fertilizer this year and the cocoa yield improved.\n[5] lifecycle: active | category: FINANCIAL_MATERIAL | attribute: expense | age: 102 days | text: User spends about 1,330 cedis on fertilizer for cocoa farming\n[6] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: contract | age: 558 days | text: User sells cocoa through a cooperative with a 3-year contract at 800 cedis per 64kg bag.\n[7] lifecycle: superseded | category: FINANCIAL_MATERIAL | attribute: farm_fertilizer_purchase | age: 481 days | text: User buys 12 bags of Cocoa Life fertilizer every season at 180 cedis each, totaling 2,160 cedis.",
+   "view_sha": "1123041a9bb334e6",
+   "view_sha_a4": "dcf63162143dca0f"
+  },
+  "frbank:mirri:mirri_q01:FULL|259ec0c4d9eaf246": {
+   "in_422": true,
+   "item_id": "frbank:mirri:mirri_q01:FULL",
+   "key": "frbank:mirri:mirri_q01:FULL|885ca72faf8cb706",
+   "key_a4": "frbank:mirri:mirri_q01:FULL|259ec0c4d9eaf246",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 14,
+   "persona": "mirri",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "question": "What patrol route does Mirri cover?",
+   "ranks_tagged": [
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: OBLIGATIONS | attribute: job_responsibility | age: 187 days | text: User has a patrol sector as part of their work responsibilities\n[2] lifecycle: active | category: OBLIGATIONS | attribute: job_location | age: 552 days | text: User does patrol work in Kakadu\n[3] lifecycle: superseded | category: OBLIGATIONS | attribute: job_location | age: 552 days | text: User does patrol work in Kakadu, focusing on the East Alligator River corridor.\n[4] lifecycle: active | category: HOBBIES_RECREATION | attribute: activity | age: 238 days | text: User drives patrol runs on varied terrain including sand, corrugated dirt, clay after rain, rock crossings, and water crossings.\n[5] lifecycle: active | category: OBLIGATIONS | attribute: patrol_schedule | age: 552 days | text: User's patrol schedule is three days a week, currently Tuesday, Thursday, and Saturday.\n[6] lifecycle: expired | category: FINANCIAL_MATERIAL | attribute: expense | age: 396 days | text: User paid $385 for Tali's school camp.\n[7] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 396 days | text: User has a child named Tali who recently returned from a school camp.\n[8] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 396 days | text: User's child Tali went to a school camp in Canberra starting April 5, 2025.\n[9] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 396 days | text: User has a child named Tali who attended a school camp in Canberra.\n[10] lifecycle: superseded | category: OBLIGATIONS | attribute: patrol_schedule | age: 552 days | text: User patrols the East Alligator River corridor three days a week: Tuesday, Thursday, and Saturday.\n[11] lifecycle: superseded | category: OBLIGATIONS | attribute: patrol_schedule | age: 552 days | text: User patrols the East Alligator River corridor three days a week: Tuesday, Thursday, and Saturday.\n[12] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User wants to write a bilingual children's book in Yolngu Matha and English about the country's animals, seasons, and land changes for kids aged 5 to 10.\n[13] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 290 days | text: User planned to write a bilingual children's book in Yolngu Matha and English.\n[14] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: workshop | age: 440 days | text: User attended a ranger accreditation workshop starting February 20, 2025, lasting three days.",
+   "view_sha": "885ca72faf8cb706",
+   "view_sha_a4": "259ec0c4d9eaf246"
+  },
+  "frbank:mirri:mirri_q01:FULL|28988d92b56155aa": {
+   "in_422": true,
+   "item_id": "frbank:mirri:mirri_q01:FULL",
+   "key": "frbank:mirri:mirri_q01:FULL|cf0ea216fc3a9360",
+   "key_a4": "frbank:mirri:mirri_q01:FULL|28988d92b56155aa",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "mirri",
+   "policies": [
+    "ORACLE",
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "question": "What patrol route does Mirri cover?",
+   "ranks_tagged": [
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: OBLIGATIONS | attribute: job_responsibility | age: 187 days | text: User has a patrol sector as part of their work responsibilities\n[2] lifecycle: active | category: OBLIGATIONS | attribute: job_location | age: 552 days | text: User does patrol work in Kakadu\n[3] lifecycle: superseded | category: OBLIGATIONS | attribute: job_location | age: 552 days | text: User does patrol work in Kakadu, focusing on the East Alligator River corridor.\n[4] lifecycle: active | category: HOBBIES_RECREATION | attribute: activity | age: 238 days | text: User drives patrol runs on varied terrain including sand, corrugated dirt, clay after rain, rock crossings, and water crossings.\n[5] lifecycle: active | category: OBLIGATIONS | attribute: patrol_schedule | age: 552 days | text: User's patrol schedule is three days a week, currently Tuesday, Thursday, and Saturday.\n[6] lifecycle: superseded | category: OBLIGATIONS | attribute: patrol_schedule | age: 552 days | text: User patrols the East Alligator River corridor three days a week: Tuesday, Thursday, and Saturday.\n[7] lifecycle: superseded | category: OBLIGATIONS | attribute: patrol_schedule | age: 552 days | text: User patrols the East Alligator River corridor three days a week: Tuesday, Thursday, and Saturday.",
+   "view_sha": "cf0ea216fc3a9360",
+   "view_sha_a4": "28988d92b56155aa"
+  },
+  "frbank:mirri:mirri_q01:SLOT-ABLATED|2ae3f399928196d9": {
+   "in_422": true,
+   "item_id": "frbank:mirri:mirri_q01:SLOT-ABLATED",
+   "key": "frbank:mirri:mirri_q01:SLOT-ABLATED|4ba9dcc83ec639a8",
+   "key_a4": "frbank:mirri:mirri_q01:SLOT-ABLATED|2ae3f399928196d9",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "mirri",
+   "policies": [
+    "ORACLE",
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "question": "What patrol route does Mirri cover?",
+   "ranks_tagged": [
+    5
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: OBLIGATIONS | attribute: job_responsibility | age: 187 days | text: User has a patrol sector as part of their work responsibilities\n[2] lifecycle: active | category: HOBBIES_RECREATION | attribute: activity | age: 238 days | text: User drives patrol runs on varied terrain including sand, corrugated dirt, clay after rain, rock crossings, and water crossings.\n[3] lifecycle: active | category: OBLIGATIONS | attribute: patrol_schedule | age: 552 days | text: User's patrol schedule is three days a week, currently Tuesday, Thursday, and Saturday.\n[4] lifecycle: active | category: OBLIGATIONS | attribute: job_title | age: 187 days | text: User works in a patrol sector and has work obligations\n[5] lifecycle: superseded | category: OBLIGATIONS | attribute: work_patrol_pattern | age: 509 days | text: User patrols alone most days on the East Alligator corridor.\n[6] lifecycle: superseded | category: OBLIGATIONS | attribute: patrol_schedule | age: 552 days | text: User patrols the East Alligator River corridor three days a week: Tuesday, Thursday, and Saturday.\n[7] lifecycle: superseded | category: OBLIGATIONS | attribute: patrol_schedule | age: 552 days | text: User patrols the East Alligator River corridor three days a week: Tuesday, Thursday, and Saturday.",
+   "view_sha": "4ba9dcc83ec639a8",
+   "view_sha_a4": "2ae3f399928196d9"
+  },
+  "frbank:mirri:mirri_q01:SLOT-ABLATED|d78671dbbc630ccb": {
+   "in_422": true,
+   "item_id": "frbank:mirri:mirri_q01:SLOT-ABLATED",
+   "key": "frbank:mirri:mirri_q01:SLOT-ABLATED|1088a92f6d3ae2f5",
+   "key_a4": "frbank:mirri:mirri_q01:SLOT-ABLATED|d78671dbbc630ccb",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 14,
+   "persona": "mirri",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "question": "What patrol route does Mirri cover?",
+   "ranks_tagged": [
+    5
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: OBLIGATIONS | attribute: job_responsibility | age: 187 days | text: User has a patrol sector as part of their work responsibilities\n[2] lifecycle: active | category: HOBBIES_RECREATION | attribute: activity | age: 238 days | text: User drives patrol runs on varied terrain including sand, corrugated dirt, clay after rain, rock crossings, and water crossings.\n[3] lifecycle: active | category: OBLIGATIONS | attribute: patrol_schedule | age: 552 days | text: User's patrol schedule is three days a week, currently Tuesday, Thursday, and Saturday.\n[4] lifecycle: active | category: OBLIGATIONS | attribute: job_title | age: 187 days | text: User works in a patrol sector and has work obligations\n[5] lifecycle: superseded | category: OBLIGATIONS | attribute: work_patrol_pattern | age: 509 days | text: User patrols alone most days on the East Alligator corridor.\n[6] lifecycle: expired | category: FINANCIAL_MATERIAL | attribute: expense | age: 396 days | text: User paid $385 for Tali's school camp.\n[7] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 396 days | text: User has a child named Tali who recently returned from a school camp.\n[8] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 396 days | text: User's child Tali went to a school camp in Canberra starting April 5, 2025.\n[9] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 396 days | text: User has a child named Tali who attended a school camp in Canberra.\n[10] lifecycle: superseded | category: OBLIGATIONS | attribute: patrol_schedule | age: 552 days | text: User patrols the East Alligator River corridor three days a week: Tuesday, Thursday, and Saturday.\n[11] lifecycle: superseded | category: OBLIGATIONS | attribute: patrol_schedule | age: 552 days | text: User patrols the East Alligator River corridor three days a week: Tuesday, Thursday, and Saturday.\n[12] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User wants to write a bilingual children's book in Yolngu Matha and English about the country's animals, seasons, and land changes for kids aged 5 to 10.\n[13] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 290 days | text: User planned to write a bilingual children's book in Yolngu Matha and English.\n[14] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: workshop | age: 440 days | text: User attended a ranger accreditation workshop starting February 20, 2025, lasting three days.",
+   "view_sha": "1088a92f6d3ae2f5",
+   "view_sha_a4": "d78671dbbc630ccb"
+  },
+  "frbank:mirri:mirri_q04:FULL|31762bb09df8f889": {
+   "in_422": true,
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "key": "frbank:mirri:mirri_q04:FULL|b411bb1cf6ba3e80",
+   "key_a4": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "mirri",
+   "policies": [
+    "ALWAYS",
+    "MODEL",
+    "LOOKUP",
+    "MODEL-ALL",
+    "LOOKUP-ALL",
+    "LOOKUP-LIT"
+   ],
+   "question": "Is Mirri writing a children's book?",
+   "ranks_tagged": [
+    2,
+    3,
+    5
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User wants to write a children's book\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 290 days | text: User planned to write a bilingual children's book with stories from their country in their language and in English\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User is writing a bilingual children's book in Yolngu Matha and English.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 290 days | text: User had an idea for a bilingual children's book with stories from their country in their language and in English.\n[5] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons.",
+   "view_sha": "b411bb1cf6ba3e80",
+   "view_sha_a4": "31762bb09df8f889"
+  },
+  "frbank:mirri:mirri_q04:FULL|ee0ce2e8298516c7": {
+   "in_422": true,
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "key": "frbank:mirri:mirri_q04:FULL|98688425800f2317",
+   "key_a4": "frbank:mirri:mirri_q04:FULL|ee0ce2e8298516c7",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "mirri",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "Is Mirri writing a children's book?",
+   "ranks_tagged": [
+    2,
+    3,
+    5
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User wants to write a children's book\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 290 days | text: User planned to write a bilingual children's book with stories from their country in their language and in English\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User is writing a bilingual children's book in Yolngu Matha and English.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 290 days | text: User had an idea for a bilingual children's book with stories from their country in their language and in English.\n[5] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons.\n[6] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User wants to write a bilingual children's book in Yolngu Matha and English about the country's animals, seasons, and land changes for kids aged 5 to 10.\n[7] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 290 days | text: User planned to write a bilingual children's book in Yolngu Matha and English.",
+   "view_sha": "98688425800f2317",
+   "view_sha_a4": "ee0ce2e8298516c7"
+  },
+  "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889": {
+   "in_422": true,
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "key": "frbank:mirri:mirri_q04:SLOT-ABLATED|b411bb1cf6ba3e80",
+   "key_a4": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "mirri",
+   "policies": [
+    "ALWAYS",
+    "MODEL",
+    "LOOKUP",
+    "MODEL-ALL",
+    "LOOKUP-ALL",
+    "LOOKUP-LIT"
+   ],
+   "question": "Is Mirri writing a children's book?",
+   "ranks_tagged": [
+    2,
+    3,
+    5
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User wants to write a children's book\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 290 days | text: User planned to write a bilingual children's book with stories from their country in their language and in English\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User is writing a bilingual children's book in Yolngu Matha and English.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 290 days | text: User had an idea for a bilingual children's book with stories from their country in their language and in English.\n[5] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons.",
+   "view_sha": "b411bb1cf6ba3e80",
+   "view_sha_a4": "31762bb09df8f889"
+  },
+  "frbank:mirri:mirri_q04:SLOT-ABLATED|ee0ce2e8298516c7": {
+   "in_422": true,
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "key": "frbank:mirri:mirri_q04:SLOT-ABLATED|98688425800f2317",
+   "key_a4": "frbank:mirri:mirri_q04:SLOT-ABLATED|ee0ce2e8298516c7",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "mirri",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "Is Mirri writing a children's book?",
+   "ranks_tagged": [
+    2,
+    3,
+    5
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User wants to write a children's book\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 290 days | text: User planned to write a bilingual children's book with stories from their country in their language and in English\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User is writing a bilingual children's book in Yolngu Matha and English.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 290 days | text: User had an idea for a bilingual children's book with stories from their country in their language and in English.\n[5] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons.\n[6] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 425 days | text: User wants to write a bilingual children's book in Yolngu Matha and English about the country's animals, seasons, and land changes for kids aged 5 to 10.\n[7] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 290 days | text: User planned to write a bilingual children's book in Yolngu Matha and English.",
+   "view_sha": "98688425800f2317",
+   "view_sha_a4": "ee0ce2e8298516c7"
+  },
+  "frbank:pan:pan_q01:CAT-ABLATED|6ea1fd8525e79794": {
+   "in_422": true,
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "key": "frbank:pan:pan_q01:CAT-ABLATED|c8fd40e9b81ecead",
+   "key_a4": "frbank:pan:pan_q01:CAT-ABLATED|6ea1fd8525e79794",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 14,
+   "persona": "pan",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "question": "Where does Pan buy her rice?",
+   "ranks_tagged": [
+    2,
+    4
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_supplier | age: 481 days | text: User buys jasmine long grain rice from Auntie Somjit at Khlong Toei market for making khao man gai.\n[2] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_purchase_habit | age: 481 days | text: User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market.\n[3] lifecycle: active | category: FINANCIAL_MATERIAL | attribute: rice_price_per_kilo | age: 481 days | text: User buys rice at 38 baht per kilo.\n[4] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_supplier | age: 481 days | text: User uses Auntie Somjit's jasmine long grain rice at 38 baht per kilo for their khao man gai.\n[5] lifecycle: active | category: FINANCIAL_MATERIAL | attribute: rice_price_per_kilo | age: 242 days | text: User pays 32 baht per kilo for jasmine rice.\n[6] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 454 days | text: User's brother Beam is in the army due to conscription and started service in August 2024.\n[7] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 454 days | text: User's brother Beam started army service in August and has 20 months remaining.\n[8] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 454 days | text: User's brother Beam started his army service in August and has about 20 months left to serve.\n[9] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother Beam's army conscription end date is August 20, 2025.\n[10] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother Beam is in the army under conscription and his service ends on August 20, 2025.\n[11] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother Beam is finishing army conscription on August 20, 2025.\n[12] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother Beam is finishing his army conscription on August 20, 2025.\n[13] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother named Beam is joining the food cart business after August 20, 2025.\n[14] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother Beam is returning from the army on August 20 and will work with the user at their food cart business.",
+   "view_sha": "c8fd40e9b81ecead",
+   "view_sha_a4": "6ea1fd8525e79794"
+  },
+  "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff": {
+   "in_422": true,
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "key": "frbank:pan:pan_q01:CAT-ABLATED|2ab0985e128297de",
+   "key_a4": "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "pan",
+   "policies": [
+    "ALWAYS",
+    "ORACLE",
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "question": "Where does Pan buy her rice?",
+   "ranks_tagged": [
+    2,
+    4
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_supplier | age: 481 days | text: User buys jasmine long grain rice from Auntie Somjit at Khlong Toei market for making khao man gai.\n[2] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_purchase_habit | age: 481 days | text: User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market.\n[3] lifecycle: active | category: FINANCIAL_MATERIAL | attribute: rice_price_per_kilo | age: 481 days | text: User buys rice at 38 baht per kilo.\n[4] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_supplier | age: 481 days | text: User uses Auntie Somjit's jasmine long grain rice at 38 baht per kilo for their khao man gai.\n[5] lifecycle: active | category: FINANCIAL_MATERIAL | attribute: rice_price_per_kilo | age: 242 days | text: User pays 32 baht per kilo for jasmine rice.",
+   "view_sha": "2ab0985e128297de",
+   "view_sha_a4": "f436fcbaccfffbff"
+  },
+  "frbank:pan:pan_q01:FULL|88c6a28911993e82": {
+   "in_422": true,
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "key": "frbank:pan:pan_q01:FULL|6be091eac7a45697",
+   "key_a4": "frbank:pan:pan_q01:FULL|88c6a28911993e82",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 11,
+   "persona": "pan",
+   "policies": [
+    "ORACLE",
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "question": "Where does Pan buy her rice?",
+   "ranks_tagged": [
+    1,
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: rice_purchase_habit | age: 481 days | text: User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am\n[2] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_supplier | age: 481 days | text: User buys jasmine long grain rice from Auntie Somjit at Khlong Toei market for making khao man gai.\n[3] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_purchase_habit | age: 481 days | text: User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 242 days | text: User buys jasmine rice from Uncle Prasert at Talat Thai market for cooking khao man gai.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: rice_supplier | age: 242 days | text: User buys 20 kilos of premium long-grain jasmine rice daily from Uncle Prasert at Talat Thai for cooking khao man gai.\n[6] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 481 days | text: User buys 15 kilos of rice daily at 38 baht per kilo from Auntie Somjit at Khlong Toei market.\n[7] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User will do a professional photo shoot for Grab Food on 2025-03-08\n[8] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User will be featured as a 'local street food hero' on the Grab app and social media on March 8, 2025.\n[9] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User has a collaboration deal with Grab Food involving a photo shoot on March 8, 2025\n[10] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User is collaborating with Grab Food for a photo shoot on March 8, 2025, with a payment of 45,000 baht.\n[11] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 338 days | text: User has a business cart and plans to work with brother Beam after August 20, 2025",
+   "view_sha": "6be091eac7a45697",
+   "view_sha_a4": "88c6a28911993e82"
+  },
+  "frbank:pan:pan_q01:FULL|c150bb6970c0e0f3": {
+   "in_422": true,
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "key": "frbank:pan:pan_q01:FULL|c7cfd33831eaa4b5",
+   "key_a4": "frbank:pan:pan_q01:FULL|c150bb6970c0e0f3",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 20,
+   "persona": "pan",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "question": "Where does Pan buy her rice?",
+   "ranks_tagged": [
+    1,
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: rice_purchase_habit | age: 481 days | text: User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am\n[2] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_supplier | age: 481 days | text: User buys jasmine long grain rice from Auntie Somjit at Khlong Toei market for making khao man gai.\n[3] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_purchase_habit | age: 481 days | text: User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 242 days | text: User buys jasmine rice from Uncle Prasert at Talat Thai market for cooking khao man gai.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: rice_supplier | age: 242 days | text: User buys 20 kilos of premium long-grain jasmine rice daily from Uncle Prasert at Talat Thai for cooking khao man gai.\n[6] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 454 days | text: User's brother Beam is in the army due to conscription and started service in August 2024.\n[7] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 454 days | text: User's brother Beam started army service in August and has 20 months remaining.\n[8] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 454 days | text: User's brother Beam started his army service in August and has about 20 months left to serve.\n[9] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother Beam's army conscription end date is August 20, 2025.\n[10] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother Beam is in the army under conscription and his service ends on August 20, 2025.\n[11] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother Beam is finishing army conscription on August 20, 2025.\n[12] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother Beam is finishing his army conscription on August 20, 2025.\n[13] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother named Beam is joining the food cart business after August 20, 2025.\n[14] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother Beam is returning from the army on August 20 and will work with the user at their food cart business.\n[15] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 481 days | text: User buys 15 kilos of rice daily at 38 baht per kilo from Auntie Somjit at Khlong Toei market.\n[16] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User will do a professional photo shoot for Grab Food on 2025-03-08\n[17] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User will be featured as a 'local street food hero' on the Grab app and social media on March 8, 2025.\n[18] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User has a collaboration deal with Grab Food involving a photo shoot on March 8, 2025\n[19] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User is collaborating with Grab Food for a photo shoot on March 8, 2025, with a payment of 45,000 baht.\n[20] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 338 days | text: User has a business cart and plans to work with brother Beam after August 20, 2025",
+   "view_sha": "c7cfd33831eaa4b5",
+   "view_sha_a4": "c150bb6970c0e0f3"
+  },
+  "frbank:pan:pan_q01:FULL|eac1819d7cfd8d64": {
+   "in_422": true,
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "key": "frbank:pan:pan_q01:FULL|bc5aa7d6239856a8",
+   "key_a4": "frbank:pan:pan_q01:FULL|eac1819d7cfd8d64",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "pan",
+   "policies": [
+    "ALWAYS"
+   ],
+   "question": "Where does Pan buy her rice?",
+   "ranks_tagged": [
+    1,
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: rice_purchase_habit | age: 481 days | text: User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am\n[2] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_supplier | age: 481 days | text: User buys jasmine long grain rice from Auntie Somjit at Khlong Toei market for making khao man gai.\n[3] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_purchase_habit | age: 481 days | text: User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 242 days | text: User buys jasmine rice from Uncle Prasert at Talat Thai market for cooking khao man gai.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: rice_supplier | age: 242 days | text: User buys 20 kilos of premium long-grain jasmine rice daily from Uncle Prasert at Talat Thai for cooking khao man gai.",
+   "view_sha": "bc5aa7d6239856a8",
+   "view_sha_a4": "eac1819d7cfd8d64"
+  },
+  "frbank:pan:pan_q01:SLOT-ABLATED|88c6a28911993e82": {
+   "in_422": true,
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "key": "frbank:pan:pan_q01:SLOT-ABLATED|6be091eac7a45697",
+   "key_a4": "frbank:pan:pan_q01:SLOT-ABLATED|88c6a28911993e82",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 11,
+   "persona": "pan",
+   "policies": [
+    "ORACLE",
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "question": "Where does Pan buy her rice?",
+   "ranks_tagged": [
+    1,
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: rice_purchase_habit | age: 481 days | text: User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am\n[2] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_supplier | age: 481 days | text: User buys jasmine long grain rice from Auntie Somjit at Khlong Toei market for making khao man gai.\n[3] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_purchase_habit | age: 481 days | text: User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 242 days | text: User buys jasmine rice from Uncle Prasert at Talat Thai market for cooking khao man gai.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: rice_supplier | age: 242 days | text: User buys 20 kilos of premium long-grain jasmine rice daily from Uncle Prasert at Talat Thai for cooking khao man gai.\n[6] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 481 days | text: User buys 15 kilos of rice daily at 38 baht per kilo from Auntie Somjit at Khlong Toei market.\n[7] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User will do a professional photo shoot for Grab Food on 2025-03-08\n[8] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User will be featured as a 'local street food hero' on the Grab app and social media on March 8, 2025.\n[9] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User has a collaboration deal with Grab Food involving a photo shoot on March 8, 2025\n[10] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User is collaborating with Grab Food for a photo shoot on March 8, 2025, with a payment of 45,000 baht.\n[11] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 338 days | text: User has a business cart and plans to work with brother Beam after August 20, 2025",
+   "view_sha": "6be091eac7a45697",
+   "view_sha_a4": "88c6a28911993e82"
+  },
+  "frbank:pan:pan_q01:SLOT-ABLATED|c150bb6970c0e0f3": {
+   "in_422": true,
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "key": "frbank:pan:pan_q01:SLOT-ABLATED|c7cfd33831eaa4b5",
+   "key_a4": "frbank:pan:pan_q01:SLOT-ABLATED|c150bb6970c0e0f3",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 20,
+   "persona": "pan",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "question": "Where does Pan buy her rice?",
+   "ranks_tagged": [
+    1,
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: rice_purchase_habit | age: 481 days | text: User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am\n[2] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_supplier | age: 481 days | text: User buys jasmine long grain rice from Auntie Somjit at Khlong Toei market for making khao man gai.\n[3] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_purchase_habit | age: 481 days | text: User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 242 days | text: User buys jasmine rice from Uncle Prasert at Talat Thai market for cooking khao man gai.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: rice_supplier | age: 242 days | text: User buys 20 kilos of premium long-grain jasmine rice daily from Uncle Prasert at Talat Thai for cooking khao man gai.\n[6] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 454 days | text: User's brother Beam is in the army due to conscription and started service in August 2024.\n[7] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 454 days | text: User's brother Beam started army service in August and has 20 months remaining.\n[8] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 454 days | text: User's brother Beam started his army service in August and has about 20 months left to serve.\n[9] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother Beam's army conscription end date is August 20, 2025.\n[10] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother Beam is in the army under conscription and his service ends on August 20, 2025.\n[11] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother Beam is finishing army conscription on August 20, 2025.\n[12] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother Beam is finishing his army conscription on August 20, 2025.\n[13] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother named Beam is joining the food cart business after August 20, 2025.\n[14] lifecycle: expired | category: RELATIONAL_BONDS | attribute: family_member | age: 338 days | text: User's brother Beam is returning from the army on August 20 and will work with the user at their food cart business.\n[15] lifecycle: superseded | category: PROJECTS_ENDEAVORS | attribute: project | age: 481 days | text: User buys 15 kilos of rice daily at 38 baht per kilo from Auntie Somjit at Khlong Toei market.\n[16] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User will do a professional photo shoot for Grab Food on 2025-03-08\n[17] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User will be featured as a 'local street food hero' on the Grab app and social media on March 8, 2025.\n[18] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User has a collaboration deal with Grab Food involving a photo shoot on March 8, 2025\n[19] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 368 days | text: User is collaborating with Grab Food for a photo shoot on March 8, 2025, with a payment of 45,000 baht.\n[20] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 338 days | text: User has a business cart and plans to work with brother Beam after August 20, 2025",
+   "view_sha": "c7cfd33831eaa4b5",
+   "view_sha_a4": "c150bb6970c0e0f3"
+  },
+  "frbank:pan:pan_q01:SLOT-ABLATED|eac1819d7cfd8d64": {
+   "in_422": true,
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "key": "frbank:pan:pan_q01:SLOT-ABLATED|bc5aa7d6239856a8",
+   "key_a4": "frbank:pan:pan_q01:SLOT-ABLATED|eac1819d7cfd8d64",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "pan",
+   "policies": [
+    "ALWAYS"
+   ],
+   "question": "Where does Pan buy her rice?",
+   "ranks_tagged": [
+    1,
+    3
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: rice_purchase_habit | age: 481 days | text: User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am\n[2] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_supplier | age: 481 days | text: User buys jasmine long grain rice from Auntie Somjit at Khlong Toei market for making khao man gai.\n[3] lifecycle: superseded | category: PREFERENCES_HABITS | attribute: rice_purchase_habit | age: 481 days | text: User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 242 days | text: User buys jasmine rice from Uncle Prasert at Talat Thai market for cooking khao man gai.\n[5] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: rice_supplier | age: 242 days | text: User buys 20 kilos of premium long-grain jasmine rice daily from Uncle Prasert at Talat Thai for cooking khao man gai.",
+   "view_sha": "bc5aa7d6239856a8",
+   "view_sha_a4": "eac1819d7cfd8d64"
+  },
+  "frbank:saga:saga_q01:FULL|430e778a36f6a62e": {
+   "in_422": true,
+   "item_id": "frbank:saga:saga_q01:FULL",
+   "key": "frbank:saga:saga_q01:FULL|c906a72f53b276b5",
+   "key_a4": "frbank:saga:saga_q01:FULL|430e778a36f6a62e",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "saga",
+   "policies": [
+    "ALWAYS",
+    "ORACLE",
+    "LOOKUP",
+    "LOOKUP-ALL",
+    "LOOKUP-LIT"
+   ],
+   "question": "What team does Saga work on at Spotify?",
+   "ranks_tagged": [
+    2
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 557 days | text: User works on the podcast analytics team at Spotify\n[2] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: employer | age: 121 days | text: User works at Spotify\n[3] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 290 days | text: User works at Spotify on the music recommendations team.\n[4] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 290 days | text: User works at Spotify on the music recommendations team focusing on collaborative filtering, cross-domain feature engineering, and cold start problems.\n[5] lifecycle: active | category: OBLIGATIONS | attribute: employer_tenure | age: 493 days | text: User has been working at Spotify for 4 years",
+   "view_sha": "c906a72f53b276b5",
+   "view_sha_a4": "430e778a36f6a62e"
+  },
+  "frbank:saga:saga_q01:SLOT-ABLATED|430e778a36f6a62e": {
+   "in_422": true,
+   "item_id": "frbank:saga:saga_q01:SLOT-ABLATED",
+   "key": "frbank:saga:saga_q01:SLOT-ABLATED|c906a72f53b276b5",
+   "key_a4": "frbank:saga:saga_q01:SLOT-ABLATED|430e778a36f6a62e",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "saga",
+   "policies": [
+    "ALWAYS",
+    "ORACLE",
+    "LOOKUP-LIT"
+   ],
+   "question": "What team does Saga work on at Spotify?",
+   "ranks_tagged": [
+    2
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: superseded | category: OBLIGATIONS | attribute: employer | age: 557 days | text: User works on the podcast analytics team at Spotify\n[2] lifecycle: superseded | category: LOGISTICAL_CONTEXT | attribute: employer | age: 121 days | text: User works at Spotify\n[3] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 290 days | text: User works at Spotify on the music recommendations team.\n[4] lifecycle: active | category: OBLIGATIONS | attribute: employer | age: 290 days | text: User works at Spotify on the music recommendations team focusing on collaborative filtering, cross-domain feature engineering, and cold start problems.\n[5] lifecycle: active | category: OBLIGATIONS | attribute: employer_tenure | age: 493 days | text: User has been working at Spotify for 4 years",
+   "view_sha": "c906a72f53b276b5",
+   "view_sha_a4": "430e778a36f6a62e"
+  },
+  "frbank:tom:tom_q06:FULL|20e59418eb9ecbe3": {
+   "in_422": true,
+   "item_id": "frbank:tom:tom_q06:FULL",
+   "key": "frbank:tom:tom_q06:FULL|f24e3aea1db002e5",
+   "key_a4": "frbank:tom:tom_q06:FULL|20e59418eb9ecbe3",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 10,
+   "persona": "tom",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "Is Tom planning any building projects?",
+   "ranks_tagged": [
+    3,
+    5
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 281 days | text: User had architectural drawings made by a local architect for the barn conversion project.\n[2] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 365 days | text: User plans to hire a local professional for roof repairs, plumbing, and electrics for the barn conversion.\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 281 days | text: User had grand plans to convert the barn into a honey extraction room, bottling area, and small shop front.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 281 days | text: User's hobby project to convert the barn was cancelled due to planning refusal and high cost.\n[5] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 281 days | text: User was planning to convert the barn into a honey processing space but has now cancelled the project.\n[6] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 379 days | text: User plans the first full inspection of bee colonies on March 22nd.\n[7] lifecycle: expired | category: OBLIGATIONS | attribute: project | age: 379 days | text: User plans the first full inspection of bee colonies around March 22nd annually.\n[8] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 379 days | text: User plans to conduct the first proper inspection of their bee colonies around March 22nd, 2025.\n[9] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 365 days | text: User has an old stone barn at the back of their property that they plan to convert into a dedicated honey processing space.\n[10] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 365 days | text: User is planning to convert a barn into a honey processing room in the Cotswolds Area of Outstanding Natural Beauty",
+   "view_sha": "f24e3aea1db002e5",
+   "view_sha_a4": "20e59418eb9ecbe3"
+  },
+  "frbank:tom:tom_q06:SLOT-ABLATED|6e84158b43622d95": {
+   "in_422": true,
+   "item_id": "frbank:tom:tom_q06:SLOT-ABLATED",
+   "key": "frbank:tom:tom_q06:SLOT-ABLATED|f511a53063d8ea2f",
+   "key_a4": "frbank:tom:tom_q06:SLOT-ABLATED|6e84158b43622d95",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 10,
+   "persona": "tom",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "Is Tom planning any building projects?",
+   "ranks_tagged": [
+    4
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 281 days | text: User had architectural drawings made by a local architect for the barn conversion project.\n[2] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 365 days | text: User plans to hire a local professional for roof repairs, plumbing, and electrics for the barn conversion.\n[3] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 281 days | text: User's hobby project to convert the barn was cancelled due to planning refusal and high cost.\n[4] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 281 days | text: User was planning to convert the barn into a honey processing space but has now cancelled the project.\n[5] lifecycle: active | category: RELATIONAL_BONDS | attribute: relationship | age: 113 days | text: User worked with Patricia Okonkwo as project manager on the Birmingham bypass.\n[6] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 379 days | text: User plans the first full inspection of bee colonies on March 22nd.\n[7] lifecycle: expired | category: OBLIGATIONS | attribute: project | age: 379 days | text: User plans the first full inspection of bee colonies around March 22nd annually.\n[8] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 379 days | text: User plans to conduct the first proper inspection of their bee colonies around March 22nd, 2025.\n[9] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 365 days | text: User has an old stone barn at the back of their property that they plan to convert into a dedicated honey processing space.\n[10] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 365 days | text: User is planning to convert a barn into a honey processing room in the Cotswolds Area of Outstanding Natural Beauty",
+   "view_sha": "f511a53063d8ea2f",
+   "view_sha_a4": "6e84158b43622d95"
+  },
+  "frbank:valentina:valentina_q03:FULL|499f59436e5454af": {
+   "in_422": true,
+   "item_id": "frbank:valentina:valentina_q03:FULL",
+   "key": "frbank:valentina:valentina_q03:FULL|30559306f2365b59",
+   "key_a4": "frbank:valentina:valentina_q03:FULL|499f59436e5454af",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "valentina",
+   "policies": [
+    "ORACLE",
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "question": "Does Valentina smoke?",
+   "ranks_tagged": [
+    5
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: RELATIONAL_BONDS | attribute: relationship | age: 476 days | text: User has a significant other named Lucía who is concerned about the user's smoking.\n[2] lifecycle: active | category: RELATIONAL_BONDS | attribute: relationship | age: 476 days | text: User has not told Lucía about their smoking struggles but believes she would understand.\n[3] lifecycle: active | category: RELATIONAL_BONDS | attribute: relationship | age: 476 days | text: User has a person named Lucía who is concerned about the user's smoking and health.\n[4] lifecycle: active | category: RELATIONAL_BONDS | attribute: partner | age: 476 days | text: User's partner is named Lucía and is concerned about the user's smoking\n[5] lifecycle: superseded | category: HEALTH_WELLBEING | attribute: habit | age: 503 days | text: User smokes cigarettes but is trying to quit\n[6] lifecycle: superseded | category: HEALTH_WELLBEING | attribute: smoking_habit | age: 476 days | text: User smokes about half a pack of cigarettes a day, sometimes more when stressed.\n[7] lifecycle: superseded | category: HEALTH_WELLBEING | attribute: smoking_habit | age: 476 days | text: User smokes about half a pack of cigarettes a day",
+   "view_sha": "30559306f2365b59",
+   "view_sha_a4": "499f59436e5454af"
+  },
+  "frbank:valentina:valentina_q03:FULL|e0bb5c533dbe6090": {
+   "in_422": true,
+   "item_id": "frbank:valentina:valentina_q03:FULL",
+   "key": "frbank:valentina:valentina_q03:FULL|dfae149ee1a4eaf6",
+   "key_a4": "frbank:valentina:valentina_q03:FULL|e0bb5c533dbe6090",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 11,
+   "persona": "valentina",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "question": "Does Valentina smoke?",
+   "ranks_tagged": [
+    5
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: RELATIONAL_BONDS | attribute: relationship | age: 476 days | text: User has a significant other named Lucía who is concerned about the user's smoking.\n[2] lifecycle: active | category: RELATIONAL_BONDS | attribute: relationship | age: 476 days | text: User has not told Lucía about their smoking struggles but believes she would understand.\n[3] lifecycle: active | category: RELATIONAL_BONDS | attribute: relationship | age: 476 days | text: User has a person named Lucía who is concerned about the user's smoking and health.\n[4] lifecycle: active | category: RELATIONAL_BONDS | attribute: partner | age: 476 days | text: User's partner is named Lucía and is concerned about the user's smoking\n[5] lifecycle: superseded | category: HEALTH_WELLBEING | attribute: habit | age: 503 days | text: User smokes cigarettes but is trying to quit\n[6] lifecycle: expired | category: OBLIGATIONS | attribute: important_meeting_date | age: 453 days | text: User has a source meeting on February 14, which is Valentine's Day.\n[7] lifecycle: expired | category: OBLIGATIONS | attribute: meeting_date | age: 453 days | text: User has a sensitive meeting with a source in the mining sector on February 14, 2025\n[8] lifecycle: expired | category: OBLIGATIONS | attribute: meeting_date | age: 453 days | text: User has a sensitive meeting scheduled on February 14, 2025.\n[9] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 453 days | text: User is preparing for an important investigative meeting on February 14, 2025.\n[10] lifecycle: superseded | category: HEALTH_WELLBEING | attribute: smoking_habit | age: 476 days | text: User smokes about half a pack of cigarettes a day, sometimes more when stressed.\n[11] lifecycle: superseded | category: HEALTH_WELLBEING | attribute: smoking_habit | age: 476 days | text: User smokes about half a pack of cigarettes a day",
+   "view_sha": "dfae149ee1a4eaf6",
+   "view_sha_a4": "e0bb5c533dbe6090"
+  },
+  "frbank:valentina:valentina_q03:SLOT-ABLATED|499f59436e5454af": {
+   "in_422": true,
+   "item_id": "frbank:valentina:valentina_q03:SLOT-ABLATED",
+   "key": "frbank:valentina:valentina_q03:SLOT-ABLATED|30559306f2365b59",
+   "key_a4": "frbank:valentina:valentina_q03:SLOT-ABLATED|499f59436e5454af",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 7,
+   "persona": "valentina",
+   "policies": [
+    "ORACLE",
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "question": "Does Valentina smoke?",
+   "ranks_tagged": [
+    5
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: RELATIONAL_BONDS | attribute: relationship | age: 476 days | text: User has a significant other named Lucía who is concerned about the user's smoking.\n[2] lifecycle: active | category: RELATIONAL_BONDS | attribute: relationship | age: 476 days | text: User has not told Lucía about their smoking struggles but believes she would understand.\n[3] lifecycle: active | category: RELATIONAL_BONDS | attribute: relationship | age: 476 days | text: User has a person named Lucía who is concerned about the user's smoking and health.\n[4] lifecycle: active | category: RELATIONAL_BONDS | attribute: partner | age: 476 days | text: User's partner is named Lucía and is concerned about the user's smoking\n[5] lifecycle: superseded | category: HEALTH_WELLBEING | attribute: habit | age: 503 days | text: User smokes cigarettes but is trying to quit\n[6] lifecycle: superseded | category: HEALTH_WELLBEING | attribute: smoking_habit | age: 476 days | text: User smokes about half a pack of cigarettes a day, sometimes more when stressed.\n[7] lifecycle: superseded | category: HEALTH_WELLBEING | attribute: smoking_habit | age: 476 days | text: User smokes about half a pack of cigarettes a day",
+   "view_sha": "30559306f2365b59",
+   "view_sha_a4": "499f59436e5454af"
+  },
+  "frbank:valentina:valentina_q03:SLOT-ABLATED|e0bb5c533dbe6090": {
+   "in_422": true,
+   "item_id": "frbank:valentina:valentina_q03:SLOT-ABLATED",
+   "key": "frbank:valentina:valentina_q03:SLOT-ABLATED|dfae149ee1a4eaf6",
+   "key_a4": "frbank:valentina:valentina_q03:SLOT-ABLATED|e0bb5c533dbe6090",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 11,
+   "persona": "valentina",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "question": "Does Valentina smoke?",
+   "ranks_tagged": [
+    5
+   ],
+   "state": "sup",
+   "tag": "superseded",
+   "view": "[1] lifecycle: active | category: RELATIONAL_BONDS | attribute: relationship | age: 476 days | text: User has a significant other named Lucía who is concerned about the user's smoking.\n[2] lifecycle: active | category: RELATIONAL_BONDS | attribute: relationship | age: 476 days | text: User has not told Lucía about their smoking struggles but believes she would understand.\n[3] lifecycle: active | category: RELATIONAL_BONDS | attribute: relationship | age: 476 days | text: User has a person named Lucía who is concerned about the user's smoking and health.\n[4] lifecycle: active | category: RELATIONAL_BONDS | attribute: partner | age: 476 days | text: User's partner is named Lucía and is concerned about the user's smoking\n[5] lifecycle: superseded | category: HEALTH_WELLBEING | attribute: habit | age: 503 days | text: User smokes cigarettes but is trying to quit\n[6] lifecycle: expired | category: OBLIGATIONS | attribute: important_meeting_date | age: 453 days | text: User has a source meeting on February 14, which is Valentine's Day.\n[7] lifecycle: expired | category: OBLIGATIONS | attribute: meeting_date | age: 453 days | text: User has a sensitive meeting with a source in the mining sector on February 14, 2025\n[8] lifecycle: expired | category: OBLIGATIONS | attribute: meeting_date | age: 453 days | text: User has a sensitive meeting scheduled on February 14, 2025.\n[9] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 453 days | text: User is preparing for an important investigative meeting on February 14, 2025.\n[10] lifecycle: superseded | category: HEALTH_WELLBEING | attribute: smoking_habit | age: 476 days | text: User smokes about half a pack of cigarettes a day, sometimes more when stressed.\n[11] lifecycle: superseded | category: HEALTH_WELLBEING | attribute: smoking_habit | age: 476 days | text: User smokes about half a pack of cigarettes a day",
+   "view_sha": "dfae149ee1a4eaf6",
+   "view_sha_a4": "e0bb5c533dbe6090"
+  },
+  "frbank:valentina:valentina_q04:FULL|07c08bad80a3cc48": {
+   "in_422": true,
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "key": "frbank:valentina:valentina_q04:FULL|dbcbd41f2ee1b231",
+   "key_a4": "frbank:valentina:valentina_q04:FULL|07c08bad80a3cc48",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 6,
+   "persona": "valentina",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "Is Valentina writing a book?",
+   "ranks_tagged": [
+    1,
+    2,
+    3,
+    5
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 263 days | text: User planned to write a book about her father's generation of journalists who covered the narco years and faced threats and relocations.\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 470 days | text: User is interested in writing a book about the generation of journalists who reported on the narco years and the war in Colombia.\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 263 days | text: User is planning to write a book about the generation of journalists who covered the narco years.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 263 days | text: User decided to stop writing a book about journalists covering narco years to protect their family.\n[5] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 470 days | text: User plans to write a book about the generation of Colombian journalists who reported during the narco years and the war, focusing on their personal experiences.\n[6] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 453 days | text: User is preparing for an important investigative meeting on February 14, 2025.",
+   "view_sha": "dbcbd41f2ee1b231",
+   "view_sha_a4": "07c08bad80a3cc48"
+  },
+  "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185": {
+   "in_422": true,
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "key": "frbank:valentina:valentina_q04:FULL|44cfd9c08777e6dd",
+   "key_a4": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "valentina",
+   "policies": [
+    "ALWAYS",
+    "MODEL",
+    "MODEL-ALL",
+    "LOOKUP-LIT"
+   ],
+   "question": "Is Valentina writing a book?",
+   "ranks_tagged": [
+    1,
+    2,
+    3,
+    5
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 263 days | text: User planned to write a book about her father's generation of journalists who covered the narco years and faced threats and relocations.\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 470 days | text: User is interested in writing a book about the generation of journalists who reported on the narco years and the war in Colombia.\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 263 days | text: User is planning to write a book about the generation of journalists who covered the narco years.\n[4] lifecycle: active | category: PROJECTS_ENDEAVORS | attribute: project | age: 263 days | text: User decided to stop writing a book about journalists covering narco years to protect their family.\n[5] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 470 days | text: User plans to write a book about the generation of Colombian journalists who reported during the narco years and the war, focusing on their personal experiences.",
+   "view_sha": "44cfd9c08777e6dd",
+   "view_sha_a4": "7c2e65cf3afde185"
+  },
+  "frbank:valentina:valentina_q04:SLOT-ABLATED|3f501d1a7d87924e": {
+   "in_422": true,
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "key": "frbank:valentina:valentina_q04:SLOT-ABLATED|35a9612ff438be3b",
+   "key_a4": "frbank:valentina:valentina_q04:SLOT-ABLATED|3f501d1a7d87924e",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 5,
+   "persona": "valentina",
+   "policies": [
+    "ALWAYS",
+    "LOOKUP-LIT"
+   ],
+   "question": "Is Valentina writing a book?",
+   "ranks_tagged": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 470 days | text: User is interested in writing a book about the generation of journalists who reported on the narco years and the war in Colombia.\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 470 days | text: User plans to write a book about the generation of Colombian journalists who reported during the narco years and the war, focusing on their personal experiences.\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 470 days | text: User is working on a book about the generation of Colombian journalists who reported during the narco years and the war.\n[4] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 470 days | text: User is writing a book about the generation of journalists who reported on the narco years and the war, including their own father.\n[5] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: reading_list_order | age: 55 days | text: User is ordering books by Luiselli and Janet Malcolm",
+   "view_sha": "35a9612ff438be3b",
+   "view_sha_a4": "3f501d1a7d87924e"
+  },
+  "frbank:valentina:valentina_q04:SLOT-ABLATED|c975e15427a8fbe2": {
+   "in_422": true,
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "key": "frbank:valentina:valentina_q04:SLOT-ABLATED|2233ddc9cdba99df",
+   "key_a4": "frbank:valentina:valentina_q04:SLOT-ABLATED|c975e15427a8fbe2",
+   "label": "PRESENT-NEGATIVE",
+   "n_lines": 6,
+   "persona": "valentina",
+   "policies": [
+    "ORACLE"
+   ],
+   "question": "Is Valentina writing a book?",
+   "ranks_tagged": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "state": "ret",
+   "tag": "retracted",
+   "view": "[1] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 470 days | text: User is interested in writing a book about the generation of journalists who reported on the narco years and the war in Colombia.\n[2] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 470 days | text: User plans to write a book about the generation of Colombian journalists who reported during the narco years and the war, focusing on their personal experiences.\n[3] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 470 days | text: User is working on a book about the generation of Colombian journalists who reported during the narco years and the war.\n[4] lifecycle: retracted | category: PROJECTS_ENDEAVORS | attribute: project | age: 470 days | text: User is writing a book about the generation of journalists who reported on the narco years and the war, including their own father.\n[5] lifecycle: active | category: INTELLECTUAL_INTERESTS | attribute: reading_list_order | age: 55 days | text: User is ordering books by Luiselli and Janet Malcolm\n[6] lifecycle: expired | category: PROJECTS_ENDEAVORS | attribute: project | age: 453 days | text: User is preparing for an important investigative meeting on February 14, 2025.",
+   "view_sha": "2233ddc9cdba99df",
+   "view_sha_a4": "c975e15427a8fbe2"
+  }
+ }
+}

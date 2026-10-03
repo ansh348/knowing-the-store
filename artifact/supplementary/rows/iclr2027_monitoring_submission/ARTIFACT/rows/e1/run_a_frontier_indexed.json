@@ -1,0 +1,1058 @@
+{
+  "model": "gpt-5.6-sol",
+  "n": 150,
+  "note": "deduplicated by item_id keeping the post-fix occurrence; see D19-E1",
+  "ok": 150,
+  "rows": [
+    {
+      "fok": 0.55,
+      "item_id": "mem0:elena:elena_q11:FULL",
+      "nok": 0.4,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "amem:ingrid:ingrid_q04:FULL",
+      "nok": 0.08,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "amem:amara:amara_q04:FULL",
+      "nok": 0.08,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.68,
+      "item_id": "mem0:samuel:samuel_q01:FULL",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.98,
+      "item_id": "frbank:bruna:bruna_q04:FULL",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "amem:zara:zara_q06:FULL",
+      "nok": 0.2,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "amem:tom:tom_q04:FULL",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.58,
+      "item_id": "amem:kofi:kofi_q03:FULL",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "mem0:saga:saga_q01:FULL",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.62,
+      "item_id": "amem:fatima:fatima_q06:FULL",
+      "nok": 0.08,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.82,
+      "item_id": "mem0:kofi:kofi_q01:FULL",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.88,
+      "item_id": "frbank:thanh:thanh_q13:FULL",
+      "nok": 0.62,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.52,
+      "item_id": "amem:dmitri:dmitri_q05:FULL",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.42,
+      "item_id": "mem0:amara:amara_q04:FULL",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.68,
+      "item_id": "frbank:leila:leila_q11:FULL",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "amem:aroha:aroha_q05:FULL",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "amem:aroha:aroha_q03:FULL",
+      "nok": 0.08,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.62,
+      "item_id": "amem:elena:elena_q10:FULL",
+      "nok": 0.28,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "amem:thanh:thanh_q05:FULL",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.62,
+      "item_id": "amem:valentina:valentina_q07:FULL",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.92,
+      "item_id": "frbank:raj:raj_q04:FULL",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.52,
+      "item_id": "mem0:callum:callum_q01:FULL",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.48,
+      "item_id": "amem:amara:amara_q12:FULL",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.98,
+      "item_id": "frbank:valentina:valentina_q07:CAT-ABLATED",
+      "nok": 0.01,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "amem:rosa:rosa_q04:FULL",
+      "nok": 0.06,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "mem0:pan:pan_q02:FULL",
+      "nok": 0.08,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.48,
+      "item_id": "mem0:ingrid:ingrid_q01:FULL",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.68,
+      "item_id": "mem0:mirri:mirri_q01:FULL",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "frbank:leila:leila_q09:FULL",
+      "nok": 0.08,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "amem:tom:tom_q01:FULL",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "frbank:marley:marley_q10:FULL",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.62,
+      "item_id": "mem0:amara:amara_q02:FULL",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.88,
+      "item_id": "frbank:bruna:bruna_q05:FULL",
+      "nok": 0.72,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.64,
+      "item_id": "amem:aisha:aisha_q05:FULL",
+      "nok": 0.12,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "mem0:valentina:valentina_q04:FULL",
+      "nok": 0.08,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "amem:mehmet:mehmet_q05:FULL",
+      "nok": 0.08,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "mem0:mehmet:mehmet_q06:FULL",
+      "nok": 0.2,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.88,
+      "item_id": "frbank:diane:diane_q09:FULL",
+      "nok": 0.06,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "amem:mehmet:mehmet_q02:FULL",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "amem:thanh:thanh_q02:FULL",
+      "nok": 0.1,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.62,
+      "item_id": "mem0:valentina:valentina_q07:FULL",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "frbank:diane:diane_q08:CAT-ABLATED",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.96,
+      "item_id": "frbank:jake:jake_q06:CAT-ABLATED",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "amem:fatima:fatima_q02:FULL",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.98,
+      "item_id": "frbank:fatima:fatima_q09:CAT-ABLATED",
+      "nok": 0.62,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.92,
+      "item_id": "frbank:diane:diane_q11:FULL",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "mem0:callum:callum_q04:FULL",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:amara:amara_q12:FULL",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.58,
+      "item_id": "amem:bruna:bruna_q05:FULL",
+      "nok": 0.72,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.58,
+      "item_id": "mem0:raj:raj_q03:FULL",
+      "nok": 0.08,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.2,
+      "item_id": "probe:frbank:kenji:76606586",
+      "nok": 0.08,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.28,
+      "item_id": "probe:mem0:amara:44980553",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.92,
+      "item_id": "frbank:kenji:kenji_q09:SLOT-ABLATED",
+      "nok": 0.76,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:amem:thanh:51065003",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.96,
+      "item_id": "frbank:diane:diane_q11:SLOT-ABLATED",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:mem0:bruna:668680",
+      "nok": 0.05,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.68,
+      "item_id": "probe:amem:dmitri:94213328",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:mem0:pan:11659441",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:mem0:mirri:42702693",
+      "nok": 0.18,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:amem:priya:2470720",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:mem0:ingrid:63373877",
+      "nok": 0.1,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.98,
+      "item_id": "frbank:raj:raj_q05:SLOT-ABLATED",
+      "nok": 0.94,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.95,
+      "item_id": "frbank:david:david_q09:SLOT-ABLATED",
+      "nok": 0.25,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.68,
+      "item_id": "frbank:callum:callum_q05:CAT-ABLATED",
+      "nok": 0.72,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.62,
+      "item_id": "probe:mem0:yoli:25566548",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.18,
+      "item_id": "frbank:valentina:valentina_q05:CAT-ABLATED",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.22,
+      "item_id": "probe:amem:dmitri:20812477",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.78,
+      "item_id": "frbank:dmitri:dmitri_q03:CAT-ABLATED",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.78,
+      "item_id": "frbank:valentina:valentina_q11:CAT-ABLATED",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.42,
+      "item_id": "frbank:jake:jake_q03:CAT-ABLATED",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.58,
+      "item_id": "probe:amem:tom:13744835",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.48,
+      "item_id": "probe:amem:callum:16873796",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.28,
+      "item_id": "probe:frbank:joonho:38353346",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:mem0:patrick:32972175",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.18,
+      "item_id": "probe:amem:priya:97423439",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.94,
+      "item_id": "frbank:mehmet:mehmet_q13:SLOT-ABLATED",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.42,
+      "item_id": "probe:amem:rosa:84851768",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.42,
+      "item_id": "probe:amem:pan:83136086",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.88,
+      "item_id": "frbank:samuel:samuel_q05:CAT-ABLATED",
+      "nok": 0.72,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.58,
+      "item_id": "probe:amem:billy:16751414",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "probe:mem0:rosa:84851768",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.08,
+      "item_id": "frbank:diane:diane_q04:CAT-ABLATED",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:mem0:marcus:58998349",
+      "nok": 0.6,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.94,
+      "item_id": "frbank:nadia:nadia_q07:CAT-ABLATED",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:frbank:zara:69057771",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.88,
+      "item_id": "frbank:zara:zara_q06:CAT-ABLATED",
+      "nok": 0.82,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.82,
+      "item_id": "frbank:mirri:mirri_q05:CAT-ABLATED",
+      "nok": 0.08,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.03,
+      "item_id": "probe:frbank:kofi:87324398",
+      "nok": 0.01,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:amem:thanh:59460199",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:amem:billy:68502554",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:mem0:priya:52584083",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "probe:mem0:callum:74122240",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.42,
+      "item_id": "frbank:tom:tom_q04:CAT-ABLATED",
+      "nok": 0.08,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:amem:lily:2587190",
+      "nok": 0.18,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.98,
+      "item_id": "frbank:chenoa:chenoa_q06:SLOT-ABLATED",
+      "nok": 0.82,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.82,
+      "item_id": "frbank:valentina:valentina_q05:SLOT-ABLATED",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.82,
+      "item_id": "frbank:aroha:aroha_q05:CAT-ABLATED",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.62,
+      "item_id": "probe:amem:kenji:17309019",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:frbank:amara:44980553",
+      "nok": 0.15,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.42,
+      "item_id": "probe:amem:billy:51592303",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.88,
+      "item_id": "frbank:david:david_q05:SLOT-ABLATED",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.62,
+      "item_id": "frbank:samuel:samuel_q12:CAT-ABLATED",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.08,
+      "item_id": "probe:mem0:dmitri:20812477",
+      "nok": 0.01,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:amem:joonho:6283392",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.58,
+      "item_id": "frbank:samuel:samuel_q12:SLOT-ABLATED",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.62,
+      "item_id": "probe:mem0:tom:55024768",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.24,
+      "item_id": "probe:frbank:patrick:32972175",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.42,
+      "item_id": "probe:frbank:aisha:51065003",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.48,
+      "item_id": "probe:mem0:raj:22772083",
+      "nok": 0.06,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.18,
+      "item_id": "probe:frbank:kenji:72579794",
+      "nok": 0.03,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.88,
+      "item_id": "frbank:david:david_q06:CAT-ABLATED",
+      "nok": 0.72,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.92,
+      "item_id": "frbank:fatima:fatima_q06:SLOT-ABLATED",
+      "nok": 0.68,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.92,
+      "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+      "nok": 0.78,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.98,
+      "item_id": "frbank:fatima:fatima_q02:SLOT-ABLATED",
+      "nok": 0.68,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.82,
+      "item_id": "frbank:tom:tom_q06:FULL",
+      "nok": 0.68,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.98,
+      "item_id": "frbank:nadia:nadia_q02:FULL",
+      "nok": 0.97,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.78,
+      "item_id": "frbank:mirri:mirri_q04:FULL",
+      "nok": 0.12,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.98,
+      "item_id": "frbank:zara:zara_q02:FULL",
+      "nok": 0.92,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.42,
+      "item_id": "frbank:valentina:valentina_q04:FULL",
+      "nok": 0.12,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.95,
+      "item_id": "frbank:nadia:nadia_q06:SLOT-ABLATED",
+      "nok": 0.45,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.99,
+      "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+      "nok": 0.96,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.95,
+      "item_id": "frbank:thanh:thanh_q02:FULL",
+      "nok": 0.7,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.94,
+      "item_id": "frbank:kofi:kofi_q01:FULL",
+      "nok": 0.67,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.92,
+      "item_id": "frbank:joonho:joonho_q01:SLOT-ABLATED",
+      "nok": 0.15,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.88,
+      "item_id": "frbank:elena:elena_q05:FULL",
+      "nok": 0.72,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.98,
+      "item_id": "frbank:zara:zara_q02:CAT-ABLATED",
+      "nok": 0.97,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.92,
+      "item_id": "frbank:mirri:mirri_q01:FULL",
+      "nok": 0.88,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.94,
+      "item_id": "frbank:mehmet:mehmet_q02:FULL",
+      "nok": 0.88,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.78,
+      "item_id": "frbank:bruna:bruna_q06:CAT-ABLATED",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.98,
+      "item_id": "frbank:aisha:aisha_q03:SLOT-ABLATED",
+      "nok": 0.95,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.88,
+      "item_id": "frbank:bruna:bruna_q11:CAT-ABLATED",
+      "nok": 0.78,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.92,
+      "item_id": "frbank:david:david_q06:FULL",
+      "nok": 0.78,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "frbank:raj:raj_q02:SLOT-ABLATED",
+      "nok": 0.04,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.88,
+      "item_id": "frbank:david:david_q11:CAT-ABLATED",
+      "nok": 0.78,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.95,
+      "item_id": "frbank:thanh:thanh_q02:CAT-ABLATED",
+      "nok": 0.9,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.98,
+      "item_id": "frbank:pan:pan_q01:FULL",
+      "nok": 0.99,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.99,
+      "item_id": "frbank:amara:amara_q03:SLOT-ABLATED",
+      "nok": 0.98,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "frbank:kenji:kenji_q03:FULL",
+      "nok": 0.38,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.92,
+      "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+      "nok": 0.72,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.9,
+      "item_id": "frbank:marcus:marcus_q10:CAT-ABLATED",
+      "nok": 0.65,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.82,
+      "item_id": "frbank:mirri:mirri_q04:CAT-ABLATED",
+      "nok": 0.08,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.82,
+      "item_id": "frbank:fatima:fatima_q06:FULL",
+      "nok": 0.48,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.95,
+      "item_id": "frbank:nadia:nadia_q02:CAT-ABLATED",
+      "nok": 0.92,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.62,
+      "item_id": "frbank:aisha:aisha_q01:FULL",
+      "nok": 0.58,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.82,
+      "item_id": "frbank:rosa:rosa_q06:CAT-ABLATED",
+      "nok": 0.58,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.98,
+      "item_id": "frbank:valentina:valentina_q03:FULL",
+      "nok": 0.97,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.98,
+      "item_id": "frbank:ingrid:ingrid_q01:CAT-ABLATED",
+      "nok": 0.96,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.98,
+      "item_id": "frbank:jerome:jerome_q02:SLOT-ABLATED",
+      "nok": 0.96,
+      "nok_candidates_found": true,
+      "status": "OK"
+    },
+    {
+      "fok": 0.38,
+      "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+      "nok": 0.02,
+      "nok_candidates_found": false,
+      "status": "OK"
+    },
+    {
+      "fok": 0.62,
+      "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+      "nok": 0.18,
+      "nok_candidates_found": false,
+      "status": "OK"
+    }
+  ]
+}

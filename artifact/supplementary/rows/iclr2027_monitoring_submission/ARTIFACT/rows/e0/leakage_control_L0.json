@@ -1,0 +1,258 @@
+{
+  "leaked": false,
+  "level": 0,
+  "meter": {
+    "cached": 0,
+    "calls": 30,
+    "in": 39518,
+    "out": 538,
+    "usd": 0.016668
+  },
+  "n": 30,
+  "n_correct": 3,
+  "rows": [
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Priya, a junior doctor (Zara moved out to live with her boyfriend)",
+      "item_id": "aisha:aisha_q03:ABLATED",
+      "question": "Who does Aisha live with?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Hypothyroidism — takes levothyroxine daily",
+      "item_id": "bruna:bruna_q04:FULL",
+      "question": "Does Bruna have any health conditions to be aware of?",
+      "response": "Yes, Bruna has health conditions including IT band trouble, anterior knee pain, anxiety, and homesickness."
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Gulf Sports Medicine Conference presentation on July 12, 2026",
+      "item_id": "bruna:bruna_q05:FULL",
+      "question": "Does Bruna have any upcoming events or deadlines?",
+      "response": "Yes, Bruna has an upcoming event called 'Dubai Marathon 2025' listed under the HOBBIES_RECREATION category."
+    },
+    {
+      "cached": false,
+      "correct": true,
+      "correct_answer": "Telehealth training certification renewal on May 5, 2026",
+      "item_id": "chenoa:chenoa_q06:FULL",
+      "question": "Does Chenoa have any upcoming certifications or deadlines?",
+      "response": "Yes, there are entries related to certification renewal and deadlines under the OBLIGATIONS category, such as certification_renewal:telehealth and certification_renewal_deadline, indicating that Chenoa has upcoming certifications or deadlines."
+    },
+    {
+      "cached": false,
+      "correct": true,
+      "correct_answer": "Mild hearing loss in left ear (wears hearing aid)",
+      "item_id": "david:david_q05:FULL",
+      "question": "What health conditions does David have?",
+      "response": "David has hearing loss, including mild hearing loss and hearing weakness in the left ear."
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Adopted from South Korea at 3, raised in Oregon. Wife Sarah (librarian). No children by choice.",
+      "item_id": "david:david_q08:FULL",
+      "question": "What's David's family background?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Debate team state tournament, May 9, 2026",
+      "item_id": "david:david_q10:FULL",
+      "question": "Does David have any upcoming events?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "She's considered moving to Cicero (suburbs) to be near family, but undecided — still in Logan Square",
+      "item_id": "elena:elena_q09:FULL",
+      "question": "Is Elena thinking about moving?",
+      "response": "Yes, there is a memory slot key 'considering_move_to:Cicero' under the IDENTITY_SELF_CONCEPT category, indicating that Elena is thinking about moving to Cicero."
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Chronic back pain from a car accident six years ago",
+      "item_id": "fatima:fatima_q04:FULL",
+      "question": "Does Fatima have any health conditions?",
+      "response": "Yes, Fatima has health conditions related to back pain, including chronic lower back pain, lower back injury, and back pain related to site visits."
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "BFA from Central Saint Martins in London",
+      "item_id": "fatima:fatima_q11:FULL",
+      "question": "What is Fatima's educational background?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Kelp farm pilot deployment at Senja station, July 8, 2026",
+      "item_id": "ingrid:ingrid_q06:ABLATED",
+      "question": "Does Ingrid have any upcoming deadlines or events?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Kelp farm pilot deployment at Senja station, July 8, 2026",
+      "item_id": "ingrid:ingrid_q06:FULL",
+      "question": "Does Ingrid have any upcoming deadlines or events?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Father was a fisherman in Lofoten, lost at sea in 1999. She is intentionally childfree. PhD from University of Bergen.",
+      "item_id": "ingrid:ingrid_q08:FULL",
+      "question": "What is Ingrid's family background?",
+      "response": "Ingrid's family background includes information about her father, who was a fisherman and was lost at sea. There are also entries related to family members named Lars and Maja."
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Naomi, age 9, lives with her mother Danielle in Newark, New Jersey",
+      "item_id": "jerome:jerome_q06:FULL",
+      "question": "What is Jerome's daughter's name and where does she live?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Tokyo Design Week submission deadline July 15, 2026",
+      "item_id": "kenji:kenji_q05:FULL",
+      "question": "Does Kenji have any upcoming deadlines?",
+      "response": "Yes, there are entries related to deadlines under the OBLIGATIONS category, such as project:menu_redesign_deadline and portfolio_review_date, indicating Kenji has upcoming deadlines."
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Bonsoy oat milk (switched from Minor Figures after formula change)",
+      "item_id": "lily:lily_q03:ABLATED",
+      "question": "What oat milk does Lily use?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "He's considering adding a modern grooming menu (facials, beard oils) but hasn't decided — still traditional only",
+      "item_id": "mehmet:mehmet_q10:FULL",
+      "question": "Is Mehmet adding new services to his shop?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Apprenticed at age 14 under master Hasan usta in Kadıköy",
+      "item_id": "mehmet:mehmet_q13:FULL",
+      "question": "Where did Mehmet learn his craft?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Contradictory — she said she could never live in a city, but later started seriously researching Darwin schools for Tali",
+      "item_id": "mirri:mirri_q10:FULL",
+      "question": "Does Mirri want to move to a city?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "She's thinking about it (friend Fern offered to film) but hasn't decided or started — still focused on her cart and Instagram",
+      "item_id": "pan:pan_q11:ABLATED",
+      "question": "Is Pan starting a YouTube channel?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Sparkhill, Birmingham (renting) — looking at buying in Solihull for better schools but hasn't decided",
+      "item_id": "raj:raj_q08:ABLATED",
+      "question": "Where does Raj live?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Originally planned to work until 65, but recently thinking about early retirement in 2027 — hasn't decided",
+      "item_id": "rosa:rosa_q08:FULL",
+      "question": "When is Rosa planning to retire?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Sleep apnea — uses a CPAP machine",
+      "item_id": "samuel:samuel_q04:FULL",
+      "question": "Does Samuel have any health conditions?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Atrial fibrillation — takes warfarin (blood thinners)",
+      "item_id": "tom:tom_q04:FULL",
+      "question": "Does Tom have any health conditions?",
+      "response": "Yes, Tom has the health condition atrial fibrillation."
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "In the Cotswolds, in the village house he shared with Margaret — he's been considering downsizing to a cottage on Church Lane but hasn't decided",
+      "item_id": "tom:tom_q08:FULL",
+      "question": "Where does Tom live?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Widower — wife Margaret died two years ago (cancer). Daughter Sophie in Christchurch, New Zealand.",
+      "item_id": "tom:tom_q09:ABLATED",
+      "question": "What's Tom's family situation?",
+      "response": "UNKNOWN"
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Widower — wife Margaret died two years ago (cancer). Daughter Sophie in Christchurch, New Zealand.",
+      "item_id": "tom:tom_q09:FULL",
+      "question": "What's Tom's family situation?",
+      "response": "Tom's family situation includes family members named Sophie, Margaret, and a daughter. There are multiple entries related to Sophie, such as communication schedule, location, and visits, indicating an active relationship. Margaret's status is also noted, suggesting attention to her condition or situation. The presence of these family members and related metadata implies Tom maintains connections with close family."
+    },
+    {
+      "cached": false,
+      "correct": true,
+      "correct_answer": "Civil engineer — BEng, worked at Arup for 35 years",
+      "item_id": "tom:tom_q11:FULL",
+      "question": "What was Tom's career?",
+      "response": "Tom's career was as a civil engineer, specifically noted under career:Arup and profession_experience:civil_engineer."
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Lucía, a human rights lawyer at a Bogotá NGO",
+      "item_id": "valentina:valentina_q07:ABLATED",
+      "question": "Who is Valentina's partner?",
+      "response": "Valentina's partner is Lucía."
+    },
+    {
+      "cached": false,
+      "correct": false,
+      "correct_answer": "Lucía, a human rights lawyer at a Bogotá NGO",
+      "item_id": "valentina:valentina_q07:FULL",
+      "question": "Who is Valentina's partner?",
+      "response": "Lucía"
+    }
+  ],
+  "scoring": "exp4_witnesses.supports_correct(response, correct_answer); UNKNOWN never counts as correct",
+  "seed": 42,
+  "threshold": 3
+}

@@ -1,0 +1,26 @@
+{
+ "H45": {
+  "identifier_ok": true,
+  "item_id": "frbank:aisha:aisha_q03:CAT-ABLATED",
+  "sample": "```json\n{\"answer\": \"Aisha lives with a flatmate named Zara, who is her friend from university.\"}\n```",
+  "served": "claude-haiku-4-5-20251001",
+  "status": "OK",
+  "tok_in": 523,
+  "tok_out": 33,
+  "usd": 0.000688,
+  "view_lines": 5,
+  "when": "2026-09-14T20:19:43"
+ },
+ "MINI": {
+  "identifier_ok": true,
+  "item_id": "frbank:aisha:aisha_q03:CAT-ABLATED",
+  "sample": "{\"answer\": \"Aisha lives with a flatmate named Zara who is their friend from university.\"}",
+  "served": "gpt-4.1-mini-2025-04-14",
+  "status": "OK",
+  "tok_in": 473,
+  "tok_out": 21,
+  "usd": 0.00022280000000000002,
+  "view_lines": 5,
+  "when": "2026-09-14T20:19:36"
+ }
+}

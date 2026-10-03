@@ -1,0 +1,352 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 37,
+    "in": 37632,
+    "out": 13895,
+    "usd": 0.0372848
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 2,
+  "persona": "valentina",
+  "probes": [
+    {
+      "domain": "Leisure reading",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last",
+        "you"
+      ],
+      "max_cosine": 0.3405,
+      "note": "",
+      "question": "What was the title and author of the last novel you read purely for pleasure?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3405,
+          "entry_id": "lb_00327",
+          "text": "User is ordering books by Luiselli and Janet Malcolm"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3195,
+          "entry_id": "lb_00180",
+          "text": "Lucía reads a lot"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2876,
+          "entry_id": "lb_00225",
+          "text": "User decided to stop writing a book about journalists covering narco years to protect their family."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2793,
+          "entry_id": "lb_00189",
+          "text": "User's friend Lucía enjoys reading, good coffee, and occasionally mentions travel destinations"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2749,
+          "entry_id": "lb_00223",
+          "text": "User decided to scrap the book project to protect her father's safety and peace of mind."
+        }
+      ],
+      "why_absent": "The memory store covers reading interests and lists but not specific leisure novels read."
+    },
+    {
+      "domain": "Personal history / Home environment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "home",
+        "you"
+      ],
+      "max_cosine": 0.2662,
+      "note": "",
+      "question": "Can you describe the layout and decor style of your childhood home?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2662,
+          "entry_id": "lb_00239",
+          "text": "User previously lived in La Candelaria neighborhood and loved it"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2367,
+          "entry_id": "lb_00240",
+          "text": "User dislikes living in Chapinero and misses the familiarity and atmosphere of La Candelaria"
+        },
+        {
+          "category": "FINANCIAL_MATERIAL",
+          "cosine": 0.221,
+          "entry_id": "lb_00084",
+          "text": "User's rent is reasonable and paid to Doña Carmen, the building owner who grew up in the building"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2208,
+          "entry_id": "lb_00253",
+          "text": "User lives with Lucía, who is involved in household decisions like labeling moving boxes."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2195,
+          "entry_id": "lb_00112",
+          "text": "User has years of notes with fragments, names, and dates related to their father's journalism generation."
+        }
+      ],
+      "why_absent": "The store includes current and previous neighborhoods but not details about childhood home environment."
+    },
+    {
+      "domain": "Music preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "home",
+        "you"
+      ],
+      "max_cosine": 0.4342,
+      "note": "",
+      "question": "What kind of music do you usually listen to when relaxing at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.4342,
+          "entry_id": "lb_00055",
+          "text": "User listens to history podcasts, such as about the Roman aqueducts, to relax."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3351,
+          "entry_id": "lb_00356",
+          "text": "User wants a nature trip with real nature sounds like birds and rivers, mixing hiking and at least one day of absolute rest"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3067,
+          "entry_id": "lb_00350",
+          "text": "User wants a nature-focused trip with real nature sounds like birds and rivers."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2359,
+          "entry_id": "lb_00081",
+          "text": "User has a close relationship with Lucía, who sometimes suggests moving somewhere quieter."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2192,
+          "entry_id": "lb_00154",
+          "text": "User often has deep conversations at 1am."
+        }
+      ],
+      "why_absent": "No attributes cover music tastes or listening habits."
+    },
+    {
+      "domain": "Cooking and social life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last",
+        "most",
+        "year",
+        "you"
+      ],
+      "max_cosine": 0.2992,
+      "note": "",
+      "question": "What was the most memorable meal you cooked for friends last year?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2992,
+          "entry_id": "lb_00130",
+          "text": "User has dinner reservations made by Lucía for February 14"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2944,
+          "entry_id": "lb_00165",
+          "text": "User plans to attempt making their abuela's ajiaco recipe on Sunday."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2924,
+          "entry_id": "lb_00157",
+          "text": "User's abuela made ajiaco by cooking a whole chicken with onion, garlic, and cilantro stems for about an hour until the chicken was falling apart, then shredding the chicken and adding it back later."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2866,
+          "entry_id": "lb_00142",
+          "text": "User has a partner named Lucía who made Valentine's Day dinner reservations."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2841,
+          "entry_id": "lb_00162",
+          "text": "User's abuela put a little bit of cumin in the ajiaco broth as her secret ingredient."
+        }
+      ],
+      "why_absent": "While there are some recipe and meal prep preferences, no specific memorable cooking events are stored."
+    },
+    {
+      "domain": "Education and hobbies",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "creative",
+        "ever",
+        "journalism",
+        "outside",
+        "writing",
+        "you"
+      ],
+      "max_cosine": 0.4249,
+      "note": "",
+      "question": "Have you ever taken any art or creative writing classes outside of your journalism education?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.4249,
+          "entry_id": "lb_00060",
+          "text": "User studied journalism at La Javeriana University."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.4079,
+          "entry_id": "lb_00063",
+          "text": "User studied journalism at La Javeriana and graduated top of their class"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.3889,
+          "entry_id": "lb_00373",
+          "text": "User has been a journalist for almost a decade"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3675,
+          "entry_id": "lb_00176",
+          "text": "User works in journalism in Bogotá."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3497,
+          "entry_id": "lb_00109",
+          "text": "User is considering writing about the generation of journalists in Colombia during the 1980s and 1990s."
+        }
+      ],
+      "why_absent": "Education attributes cover academic achievement and learning goals but not extracurricular creative classes."
+    },
+    {
+      "domain": "Local recreation spots",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "bogot",
+        "work"
+      ],
+      "max_cosine": 0.5181,
+      "note": "",
+      "question": "What is your favorite local park or outdoor spot in Bogotá to unwind after work?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.5181,
+          "entry_id": "lb_00078",
+          "text": "User prefers the lively, artistic, and authentic atmosphere of La Candelaria over the sanitized and controlled north of Bogotá."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.5099,
+          "entry_id": "lb_00250",
+          "text": "User lives in Chapinero neighborhood in Bogotá"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4956,
+          "entry_id": "lb_00079",
+          "text": "User lives in a third-floor apartment near the Chorro de Quevedo in La Candelaria, Bogotá."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4679,
+          "entry_id": "lb_00051",
+          "text": "User lives in Bogotá."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4679,
+          "entry_id": "lb_00194",
+          "text": "User lives in Bogotá."
+        }
+      ],
+      "why_absent": "The store has neighborhood preferences but no specific favorite outdoor locations."
+    },
+    {
+      "domain": "Pets and animals",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.2535,
+      "note": "",
+      "question": "Do you have any pets, and if so, what are their names and breeds?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2535,
+          "entry_id": "lb_00359",
+          "text": "User's partner Lucía is obsessed with birds and uses multiple bird identification apps."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2409,
+          "entry_id": "lb_00365",
+          "text": "User's partner is named Lucía and loves hiking and birdwatching."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2309,
+          "entry_id": "lb_00363",
+          "text": "Lucía loves birdwatching and has multiple bird identification apps on her phone."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2281,
+          "entry_id": "lb_00357",
+          "text": "Lucía is obsessed with birds and uses bird identification apps"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1893,
+          "entry_id": "lb_00129",
+          "text": "User has a partner named Lucía"
+        }
+      ],
+      "why_absent": "No attributes mention pets or animals."
+    }
+  ],
+  "threshold": 0.295
+}

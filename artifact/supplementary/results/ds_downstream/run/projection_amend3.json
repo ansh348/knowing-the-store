@@ -1,0 +1,16 @@
+{
+ "H45": {
+  "probe_usd": 0.000711,
+  "projected_usd": 0.338202
+ },
+ "MINI": {
+  "probe_usd": 0.0002496,
+  "projected_usd": 0.1195512
+ },
+ "line": 2.0,
+ "runs": true,
+ "sum": 0.4587138,
+ "sum_x1_3": 0.59632794,
+ "views": 452,
+ "when": "2026-09-14T15:01:21"
+}

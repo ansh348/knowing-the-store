@@ -1,0 +1,588 @@
+{
+ "meta": {
+  "script": "reviews/r113/tools/z5_graphiti_inputs.py",
+  "spec": "SPEC_R113 Z5",
+  "model_calls": 0,
+  "when": "2026-09-16T23:08:34"
+ },
+ "slot_cap_frozen": 15,
+ "personas": 40,
+ "superseded_names_max": 6,
+ "superseded_section_truncated_personas": 0,
+ "map_section_truncated_personas": 40,
+ "distinct_attribute_names_min": 100,
+ "docker": {
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "error during connect: Get \"http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.51/containers/json\": open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified."
+ },
+ "engine_reachable": false,
+ "neo4j_r85_running": false,
+ "edge_exports_on_disk": [],
+ "consequences": {
+  "NB-6 over the superseded list (P3's reader)": "the capped and lifted renderings print the same superseded-names section for every persona (no persona has more than the cap), so the section NB-6 reads exists on disk for all forty; P3 stays unscored at this pass: its population ruling is pending (D-R85-16) and the registration names both renderings",
+  "NB-5 over the whole map": "the capped rendering truncates the name map in every persona; the lifted rendering needs the graph",
+  "BELIEVED-lifted and TRUE-projected indexes (Step 4)": "need the graph: the engine is down and no per-edge export exists on disk",
+  "the tag route's retrieval (Step 5)": "stock Graphiti.search embeds the query with text-embedding-3-small (an API call) and needs the graph: not permitted at this pass",
+  "Amendment 2's Graphiti views": "need Step 5's record"
+ },
+ "per_persona": {
+  "aisha": {
+   "edges": 216,
+   "states": {
+    "superseded": 7,
+    "expired": 16,
+    "active": 193
+   },
+   "superseded_names": 3,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 144,
+   "map_section_truncated": true,
+   "invalidated_names": 18,
+   "group_id": "r85stock_aisha_g10"
+  },
+  "alex": {
+   "edges": 223,
+   "states": {
+    "active": 193,
+    "expired": 28,
+    "superseded": 2
+   },
+   "superseded_names": 1,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 173,
+   "map_section_truncated": true,
+   "invalidated_names": 26,
+   "group_id": "r85stock_alex_g10"
+  },
+  "amara": {
+   "edges": 211,
+   "states": {
+    "superseded": 2,
+    "active": 200,
+    "expired": 9
+   },
+   "superseded_names": 2,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 164,
+   "map_section_truncated": true,
+   "invalidated_names": 11,
+   "group_id": "r85stock_amara_g10"
+  },
+  "aroha": {
+   "edges": 230,
+   "states": {
+    "expired": 16,
+    "active": 211,
+    "superseded": 3
+   },
+   "superseded_names": 2,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 179,
+   "map_section_truncated": true,
+   "invalidated_names": 15,
+   "group_id": "r85stock_aroha_g10"
+  },
+  "billy": {
+   "edges": 187,
+   "states": {
+    "active": 180,
+    "superseded": 2,
+    "expired": 5
+   },
+   "superseded_names": 1,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 142,
+   "map_section_truncated": true,
+   "invalidated_names": 6,
+   "group_id": "r85stock_billy_g10"
+  },
+  "bruna": {
+   "edges": 288,
+   "states": {
+    "expired": 18,
+    "active": 258,
+    "superseded": 12
+   },
+   "superseded_names": 3,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 176,
+   "map_section_truncated": true,
+   "invalidated_names": 18,
+   "group_id": "r85stock_bruna_g10"
+  },
+  "callum": {
+   "edges": 226,
+   "states": {
+    "active": 195,
+    "expired": 27,
+    "superseded": 4
+   },
+   "superseded_names": 3,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 164,
+   "map_section_truncated": true,
+   "invalidated_names": 28,
+   "group_id": "r85stock_callum_g10"
+  },
+  "chenoa": {
+   "edges": 245,
+   "states": {
+    "active": 233,
+    "expired": 10,
+    "superseded": 2
+   },
+   "superseded_names": 2,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 168,
+   "map_section_truncated": true,
+   "invalidated_names": 10,
+   "group_id": "r85stock_chenoa_g10"
+  },
+  "dariush": {
+   "edges": 236,
+   "states": {
+    "active": 221,
+    "expired": 14,
+    "superseded": 1
+   },
+   "superseded_names": 1,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 195,
+   "map_section_truncated": true,
+   "invalidated_names": 15,
+   "group_id": "r85stock_dariush_g10"
+  },
+  "david": {
+   "edges": 251,
+   "states": {
+    "active": 228,
+    "superseded": 5,
+    "expired": 18
+   },
+   "superseded_names": 3,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 161,
+   "map_section_truncated": true,
+   "invalidated_names": 16,
+   "group_id": "r85stock_david_g10"
+  },
+  "diane": {
+   "edges": 219,
+   "states": {
+    "active": 204,
+    "superseded": 3,
+    "expired": 12
+   },
+   "superseded_names": 3,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 142,
+   "map_section_truncated": true,
+   "invalidated_names": 12,
+   "group_id": "r85stock_diane_g10"
+  },
+  "dmitri": {
+   "edges": 268,
+   "states": {
+    "active": 267,
+    "expired": 1
+   },
+   "superseded_names": 0,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 204,
+   "map_section_truncated": true,
+   "invalidated_names": 1,
+   "group_id": "r85stock_dmitri_g10"
+  },
+  "elena": {
+   "edges": 237,
+   "states": {
+    "active": 205,
+    "expired": 29,
+    "superseded": 3
+   },
+   "superseded_names": 3,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 161,
+   "map_section_truncated": true,
+   "invalidated_names": 25,
+   "group_id": "r85stock_elena_g10"
+  },
+  "fatima": {
+   "edges": 251,
+   "states": {
+    "active": 230,
+    "superseded": 4,
+    "expired": 17
+   },
+   "superseded_names": 2,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 175,
+   "map_section_truncated": true,
+   "invalidated_names": 14,
+   "group_id": "r85stock_fatima_g10"
+  },
+  "ingrid": {
+   "edges": 274,
+   "states": {
+    "active": 255,
+    "expired": 15,
+    "superseded": 4
+   },
+   "superseded_names": 1,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 174,
+   "map_section_truncated": true,
+   "invalidated_names": 15,
+   "group_id": "r85stock_ingrid_g10"
+  },
+  "jake": {
+   "edges": 206,
+   "states": {
+    "active": 195,
+    "expired": 9,
+    "superseded": 2
+   },
+   "superseded_names": 2,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 158,
+   "map_section_truncated": true,
+   "invalidated_names": 10,
+   "group_id": "r85stock_jake_g10"
+  },
+  "jerome": {
+   "edges": 282,
+   "states": {
+    "superseded": 10,
+    "active": 256,
+    "expired": 16
+   },
+   "superseded_names": 6,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 198,
+   "map_section_truncated": true,
+   "invalidated_names": 21,
+   "group_id": "r85stock_jerome_g10"
+  },
+  "joonho": {
+   "edges": 178,
+   "states": {
+    "active": 155,
+    "superseded": 3,
+    "expired": 20
+   },
+   "superseded_names": 3,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 125,
+   "map_section_truncated": true,
+   "invalidated_names": 21,
+   "group_id": "r85stock_joonho_g10"
+  },
+  "kenji": {
+   "edges": 240,
+   "states": {
+    "active": 221,
+    "expired": 18,
+    "superseded": 1
+   },
+   "superseded_names": 1,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 175,
+   "map_section_truncated": true,
+   "invalidated_names": 14,
+   "group_id": "r85stock_kenji_g10"
+  },
+  "kofi": {
+   "edges": 229,
+   "states": {
+    "active": 206,
+    "expired": 20,
+    "superseded": 3
+   },
+   "superseded_names": 3,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 180,
+   "map_section_truncated": true,
+   "invalidated_names": 22,
+   "group_id": "r85stock_kofi_g10"
+  },
+  "leila": {
+   "edges": 251,
+   "states": {
+    "expired": 9,
+    "active": 241,
+    "superseded": 1
+   },
+   "superseded_names": 1,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 189,
+   "map_section_truncated": true,
+   "invalidated_names": 8,
+   "group_id": "r85stock_leila_g10"
+  },
+  "lily": {
+   "edges": 283,
+   "states": {
+    "superseded": 1,
+    "expired": 26,
+    "active": 256
+   },
+   "superseded_names": 1,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 211,
+   "map_section_truncated": true,
+   "invalidated_names": 23,
+   "group_id": "r85stock_lily_g10"
+  },
+  "marcus": {
+   "edges": 118,
+   "states": {
+    "active": 103,
+    "expired": 13,
+    "superseded": 2
+   },
+   "superseded_names": 1,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 100,
+   "map_section_truncated": true,
+   "invalidated_names": 14,
+   "group_id": "r85stock_marcus_g10"
+  },
+  "marley": {
+   "edges": 206,
+   "states": {
+    "expired": 22,
+    "superseded": 3,
+    "active": 181
+   },
+   "superseded_names": 3,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 154,
+   "map_section_truncated": true,
+   "invalidated_names": 22,
+   "group_id": "r85stock_marley_g10"
+  },
+  "mehmet": {
+   "edges": 188,
+   "states": {
+    "superseded": 4,
+    "expired": 22,
+    "active": 162
+   },
+   "superseded_names": 1,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 141,
+   "map_section_truncated": true,
+   "invalidated_names": 22,
+   "group_id": "r85stock_mehmet_g10"
+  },
+  "mirri": {
+   "edges": 309,
+   "states": {
+    "active": 283,
+    "expired": 25,
+    "superseded": 1
+   },
+   "superseded_names": 1,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 205,
+   "map_section_truncated": true,
+   "invalidated_names": 21,
+   "group_id": "r85stock_mirri_g10"
+  },
+  "nadia": {
+   "edges": 268,
+   "states": {
+    "expired": 8,
+    "active": 258,
+    "superseded": 2
+   },
+   "superseded_names": 1,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 180,
+   "map_section_truncated": true,
+   "invalidated_names": 9,
+   "group_id": "r85stock_nadia_g10"
+  },
+  "omar": {
+   "edges": 157,
+   "states": {
+    "superseded": 5,
+    "active": 141,
+    "expired": 11
+   },
+   "superseded_names": 4,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 121,
+   "map_section_truncated": true,
+   "invalidated_names": 11,
+   "group_id": "r85stock_omar_g10"
+  },
+  "pan": {
+   "edges": 258,
+   "states": {
+    "superseded": 12,
+    "active": 223,
+    "expired": 23
+   },
+   "superseded_names": 4,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 169,
+   "map_section_truncated": true,
+   "invalidated_names": 23,
+   "group_id": "r85stock_pan_g10"
+  },
+  "patrick": {
+   "edges": 186,
+   "states": {
+    "active": 169,
+    "expired": 17
+   },
+   "superseded_names": 0,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 128,
+   "map_section_truncated": true,
+   "invalidated_names": 14,
+   "group_id": "r85stock_patrick_g10"
+  },
+  "priya": {
+   "edges": 223,
+   "states": {
+    "active": 205,
+    "expired": 13,
+    "superseded": 5
+   },
+   "superseded_names": 3,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 151,
+   "map_section_truncated": true,
+   "invalidated_names": 14,
+   "group_id": "r85stock_priya_g10"
+  },
+  "raj": {
+   "edges": 219,
+   "states": {
+    "active": 200,
+    "expired": 18,
+    "superseded": 1
+   },
+   "superseded_names": 1,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 143,
+   "map_section_truncated": true,
+   "invalidated_names": 12,
+   "group_id": "r85stock_raj_g10"
+  },
+  "rosa": {
+   "edges": 234,
+   "states": {
+    "expired": 13,
+    "active": 221
+   },
+   "superseded_names": 0,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 183,
+   "map_section_truncated": true,
+   "invalidated_names": 11,
+   "group_id": "r85stock_rosa_g10"
+  },
+  "saga": {
+   "edges": 226,
+   "states": {
+    "superseded": 3,
+    "active": 210,
+    "expired": 13
+   },
+   "superseded_names": 2,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 174,
+   "map_section_truncated": true,
+   "invalidated_names": 15,
+   "group_id": "r85stock_saga_g10"
+  },
+  "samuel": {
+   "edges": 240,
+   "states": {
+    "active": 213,
+    "expired": 26,
+    "superseded": 1
+   },
+   "superseded_names": 1,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 181,
+   "map_section_truncated": true,
+   "invalidated_names": 24,
+   "group_id": "r85stock_samuel_g10"
+  },
+  "thanh": {
+   "edges": 266,
+   "states": {
+    "active": 261,
+    "superseded": 1,
+    "expired": 4
+   },
+   "superseded_names": 1,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 197,
+   "map_section_truncated": true,
+   "invalidated_names": 5,
+   "group_id": "r85stock_thanh_g10"
+  },
+  "tom": {
+   "edges": 213,
+   "states": {
+    "superseded": 6,
+    "expired": 34,
+    "active": 173
+   },
+   "superseded_names": 4,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 151,
+   "map_section_truncated": true,
+   "invalidated_names": 33,
+   "group_id": "r85stock_tom_g10"
+  },
+  "valentina": {
+   "edges": 173,
+   "states": {
+    "active": 157,
+    "expired": 13,
+    "superseded": 3
+   },
+   "superseded_names": 2,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 123,
+   "map_section_truncated": true,
+   "invalidated_names": 14,
+   "group_id": "r85stock_valentina_g10"
+  },
+  "yoli": {
+   "edges": 224,
+   "states": {
+    "expired": 27,
+    "active": 195,
+    "superseded": 2
+   },
+   "superseded_names": 2,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 157,
+   "map_section_truncated": true,
+   "invalidated_names": 21,
+   "group_id": "r85stock_yoli_g10"
+  },
+  "zara": {
+   "edges": 250,
+   "states": {
+    "expired": 22,
+    "active": 224,
+    "superseded": 4
+   },
+   "superseded_names": 3,
+   "superseded_section_truncated": false,
+   "distinct_attribute_names": 166,
+   "map_section_truncated": true,
+   "invalidated_names": 21,
+   "group_id": "r85stock_zara_g10"
+  }
+ }
+}

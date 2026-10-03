@@ -1,0 +1,902 @@
+[
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Who is Zara's best friend?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Who is Zara's best friend?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Who is Zara's best friend?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Does Kenji have any upcoming deadlines?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Kenji have any upcoming deadlines?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Does Kenji have any upcoming deadlines?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Can you tell me about a recent book you read and what you thought of it?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Can you tell me about a recent book you read and what you thought of it?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Can you tell me about a recent book you read and what you thought of it?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What car does Aroha drive?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What car does Aroha drive?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What car does Aroha drive?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Is Leila planning to move?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Is Leila planning to move?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Is Leila planning to move?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Is Chenoa working on a traditional medicine integration program?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Is Chenoa working on a traditional medicine integration program?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Is Chenoa working on a traditional medicine integration program?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Patrick have upcoming events?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Patrick have upcoming events?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Patrick have upcoming events?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Jake have any exams or certifications coming up?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Jake have any exams or certifications coming up?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Jake have any exams or certifications coming up?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "What's Diane's educational and spiritual background?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "What's Diane's educational and spiritual background?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What's Diane's educational and spiritual background?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Dmitri have any upcoming events?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Dmitri have any upcoming events?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Dmitri have any upcoming events?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Where does Ingrid ski on weekends?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Where does Ingrid ski on weekends?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Where does Ingrid ski on weekends?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "What pets does Alex have?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "What pets does Alex have?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "What pets does Alex have?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Do you have any favorite podcasts or radio shows you listen to regularly?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Do you have any favorite podcasts or radio shows you listen to regularly?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Do you have any favorite podcasts or radio shows you listen to regularly?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Do you have any favorite local festivals or community events you attend regularly?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Do you have any favorite local festivals or community events you attend regularly?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Do you have any favorite local festivals or community events you attend regularly?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Does Elena need to make any lease decisions?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Does Elena need to make any lease decisions?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Does Elena need to make any lease decisions?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Is Bruna planning to get any new certifications?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Is Bruna planning to get any new certifications?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Is Bruna planning to get any new certifications?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Is Fatima launching any new products or brands?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Is Fatima launching any new products or brands?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Is Fatima launching any new products or brands?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What was the name of the last book you read for pleasure?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What was the name of the last book you read for pleasure?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What was the name of the last book you read for pleasure?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Where does Raj live?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Where does Raj live?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Where does Raj live?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Could Callum see himself living in a city?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Could Callum see himself living in a city?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Could Callum see himself living in a city?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "What's Raj's background?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "What's Raj's background?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "What's Raj's background?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Have you ever traveled outside the United States? If so, where did you go and what did you enjoy most about the trip?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Have you ever traveled outside the United States? If so, where did you go and what did you enjoy most about the trip?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Have you ever traveled outside the United States? If so, where did you go and what did you enjoy most about the trip?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "What oat milk does Lily use?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "What oat milk does Lily use?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "What oat milk does Lily use?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Is Bruna registered for any races or sporting events?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Is Bruna registered for any races or sporting events?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Is Bruna registered for any races or sporting events?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "What type of books or authors do you prefer to read in your free time?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "What type of books or authors do you prefer to read in your free time?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "What type of books or authors do you prefer to read in your free time?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Where does Elena work?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Where does Elena work?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Where does Elena work?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What car does Tom drive?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What car does Tom drive?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What car does Tom drive?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Can you describe your favorite childhood toy and why it was special to you?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Can you describe your favorite childhood toy and why it was special to you?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Can you describe your favorite childhood toy and why it was special to you?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Does Thanh have any upcoming government inspections?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Does Thanh have any upcoming government inspections?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Does Thanh have any upcoming government inspections?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What is Ingrid's family background?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What is Ingrid's family background?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What is Ingrid's family background?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Samuel have any upcoming events?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Samuel have any upcoming events?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Samuel have any upcoming events?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "How much rent does Mehmet pay for his shop?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "How much rent does Mehmet pay for his shop?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "How much rent does Mehmet pay for his shop?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What is Dariush's family background?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What is Dariush's family background?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What is Dariush's family background?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What kind of car do you drive, and how long have you had it?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What kind of car do you drive, and how long have you had it?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What kind of car do you drive, and how long have you had it?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Fatima have any upcoming events?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Fatima have any upcoming events?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Fatima have any upcoming events?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What is your favorite type of music or musical artist you listen to regularly?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What is your favorite type of music or musical artist you listen to regularly?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What is your favorite type of music or musical artist you listen to regularly?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "What is Jerome's daughter's name and where does she live?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "What is Jerome's daughter's name and where does she live?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "What is Jerome's daughter's name and where does she live?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Where does Thanh sell his shrimp?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Where does Thanh sell his shrimp?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "Where does Thanh sell his shrimp?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Is Valentina applying for the Nieman Fellowship?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Is Valentina applying for the Nieman Fellowship?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Is Valentina applying for the Nieman Fellowship?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Do you have any pets at home? If yes, what kind and what are their names?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Do you have any pets at home? If yes, what kind and what are their names?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Do you have any pets at home? If yes, what kind and what are their names?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What type of surgery does Samuel primarily perform?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What type of surgery does Samuel primarily perform?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What type of surgery does Samuel primarily perform?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What was your most memorable holiday trip and what activities did you do there?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What was your most memorable holiday trip and what activities did you do there?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What was your most memorable holiday trip and what activities did you do there?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Marcus have any equipment deliveries coming?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Marcus have any equipment deliveries coming?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does Marcus have any equipment deliveries coming?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What kind of car do you drive or prefer to drive?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What kind of car do you drive or prefer to drive?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "What kind of car do you drive or prefer to drive?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does David have any upcoming events?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does David have any upcoming events?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Does David have any upcoming events?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "What's Fatima's family situation?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "What's Fatima's family situation?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.2,
+    "nok": 0.0,
+    "question": "What's Fatima's family situation?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "What exercise does Amara do?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "What exercise does Amara do?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "What exercise does Amara do?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Who does Kofi's cooperative sell cocoa through?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Who does Kofi's cooperative sell cocoa through?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.4,
+    "nok": 0.0,
+    "question": "Who does Kofi's cooperative sell cocoa through?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Which climbing gym does Saga go to?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Which climbing gym does Saga go to?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.1,
+    "nok": 0.0,
+    "question": "Which climbing gym does Saga go to?"
+  },
+  {
+    "draw": 1,
+    "fok": 0.0,
+    "nok": 0.0,
+    "question": "What is your preferred brand and model of smartphone, and why do you like it?"
+  },
+  {
+    "draw": 2,
+    "fok": 0.0,
+    "nok": 0.0,
+    "question": "What is your preferred brand and model of smartphone, and why do you like it?"
+  },
+  {
+    "draw": 3,
+    "fok": 0.0,
+    "nok": 0.0,
+    "question": "What is your preferred brand and model of smartphone, and why do you like it?"
+  }
+]

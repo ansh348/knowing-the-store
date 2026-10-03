@@ -1,0 +1,1100 @@
+{
+ "meta": {
+  "dropped": 0,
+  "model_calls": 0,
+  "n_boot": 1000,
+  "n_pairs": 88,
+  "primary": "matched AUROC of PN against SIBLING within the pair, (W + T/2) / n; triple-level and persona-grouped bootstrap",
+  "script": "reviews/r125/tools/r125_t45_score.py t4",
+  "seed": 42,
+  "sibling_texts_sha256": "f54a7527d37d1a55a121c40558829847e2d7e05d5e5d03aea663f0f2eaed7687"
+ },
+ "predictions": {
+  "P-SB1": {
+   "criterion": "the name lookup's matched PN-vs-SIBLING AUROC at or above 0.90",
+   "lookup": 0.9489,
+   "verdict": "HELD"
+  },
+  "P-SB2": {
+   "criterion": "every model at or above 0.80 with the persona interval excluding 0.50",
+   "per_model": {
+    "GPT-4.1 mini (five draws)": {
+     "matched": 0.9034,
+     "ok": true,
+     "persona_lo": 0.8409
+    },
+    "GPT-5.6 Luna (five draws)": {
+     "matched": 0.9148,
+     "ok": true,
+     "persona_lo": 0.8351
+    },
+    "GPT-5.6 Sol (draw 1)": {
+     "matched": 0.9148,
+     "ok": true,
+     "persona_lo": 0.8681
+    },
+    "Haiku 4.5 (five draws)": {
+     "matched": 0.8807,
+     "ok": true,
+     "persona_lo": 0.8274
+    },
+    "Opus 5 (draw 1)": {
+     "matched": 0.9716,
+     "ok": true,
+     "persona_lo": 0.9387
+    }
+   },
+   "verdict": "HELD"
+  },
+  "P-SB3": {
+   "count_reader": 0.5,
+   "criterion": "the random-token lookup and the count reader within 0.05 of 0.50",
+   "random_token": 0.4716,
+   "verdict": "HELD"
+  },
+  "P-SB4": {
+   "criterion": "no model reliably exceeds the name lookup (matched, paired, both intervals above zero)",
+   "reliably_above": [],
+   "verdict": "HELD"
+  }
+ },
+ "readers": {
+  "Count reader, guessed category": {
+   "means": {
+    "PN": 0.0294,
+    "PRESENT": 0.0145,
+    "SIBLING": 0.0294
+   },
+   "minus_lookup_matched": {
+    "both_exclude_zero": true,
+    "ci_persona": {
+     "ci_hi": -0.4069671607462305,
+     "ci_lo": -0.48314606741573035,
+     "excludes_zero": true,
+     "mean": -0.44889480612037386,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": -0.4034090909090909,
+     "ci_lo": -0.48295454545454547,
+     "excludes_zero": true,
+     "mean": -0.4491875,
+     "n_draws": 1000
+    },
+    "delta": -0.4489,
+    "n": 88
+   },
+   "n_sibling_scored": 88,
+   "pn_minus_sibling_mean": {
+    "both_exclude_zero": false,
+    "ci_persona": {
+     "ci_hi": 0.0,
+     "ci_lo": 0.0,
+     "excludes_zero": false,
+     "mean": 0.0,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.0,
+     "ci_lo": 0.0,
+     "excludes_zero": false,
+     "mean": 0.0,
+     "n_draws": 1000
+    },
+    "delta": 0.0,
+    "n": 88
+   },
+   "pn_vs_present_same_pairs": {
+    "L": 0,
+    "T": 54,
+    "W": 34,
+    "ci_persona": {
+     "ci_hi": 0.7565833926031295,
+     "ci_lo": 0.6288494581020354,
+     "excludes_zero": true,
+     "mean": 0.6928025868636383,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.7386363636363636,
+     "ci_lo": 0.6420454545454546,
+     "excludes_zero": true,
+     "mean": 0.6926761363636363,
+     "n_draws": 1000
+    },
+    "matched": 0.6932,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pn_vs_sibling": {
+    "L": 0,
+    "T": 88,
+    "W": 0,
+    "ci_persona": {
+     "ci_hi": 0.5,
+     "ci_lo": 0.5,
+     "excludes_zero": true,
+     "mean": 0.5,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.5,
+     "ci_lo": 0.5,
+     "excludes_zero": true,
+     "mean": 0.5,
+     "n_draws": 1000
+    },
+    "matched": 0.5,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pooled_pn_vs_sibling": 0.5,
+   "sibling_minus_present_mean": {
+    "both_exclude_zero": true,
+    "ci_persona": {
+     "ci_hi": 0.02129456029877425,
+     "ci_lo": 0.009249538078129007,
+     "excludes_zero": true,
+     "mean": 0.01487215170959382,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.01998792662116718,
+     "ci_lo": 0.010107286443771627,
+     "excludes_zero": true,
+     "mean": 0.014839736145048086,
+     "n_draws": 1000
+    },
+    "delta": 0.0149,
+    "n": 88
+   },
+   "sibling_vs_present": {
+    "L": 0,
+    "T": 54,
+    "W": 34,
+    "ci_persona": {
+     "ci_hi": 0.7565833926031295,
+     "ci_lo": 0.6288494581020354,
+     "excludes_zero": true,
+     "mean": 0.6928025868636383,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.7386363636363636,
+     "ci_lo": 0.6420454545454546,
+     "excludes_zero": true,
+     "mean": 0.6926761363636363,
+     "n_draws": 1000
+    },
+    "matched": 0.6932,
+    "n": 88,
+    "n_missing": 0
+   }
+  },
+  "GPT-4.1 mini (five draws)": {
+   "means": {
+    "PN": 0.4634,
+    "PRESENT": 0.0876,
+    "SIBLING": 0.1635
+   },
+   "minus_lookup_matched": {
+    "both_exclude_zero": false,
+    "ci_persona": {
+     "ci_hi": 0.01149759422614274,
+     "ci_lo": -0.11117424242424241,
+     "excludes_zero": false,
+     "mean": -0.04563006289951803,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.017045454545454544,
+     "ci_lo": -0.11363636363636363,
+     "excludes_zero": false,
+     "mean": -0.04463068181818182,
+     "n_draws": 1000
+    },
+    "delta": -0.0455,
+    "n": 88
+   },
+   "n_sibling_scored": 88,
+   "pn_minus_sibling_mean": {
+    "both_exclude_zero": true,
+    "ci_persona": {
+     "ci_hi": 0.3627495941558442,
+     "ci_lo": 0.2409833118001722,
+     "excludes_zero": true,
+     "mean": 0.3007585279936155,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.35216761363636356,
+     "ci_lo": 0.2505681818181818,
+     "excludes_zero": true,
+     "mean": 0.3001843181818182,
+     "n_draws": 1000
+    },
+    "delta": 0.2999,
+    "n": 88
+   },
+   "pn_vs_present_same_pairs": {
+    "L": 7,
+    "T": 5,
+    "W": 76,
+    "ci_persona": {
+     "ci_hi": 0.9487244897959183,
+     "ci_lo": 0.8227611668849121,
+     "excludes_zero": true,
+     "mean": 0.8909024315121249,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.9488636363636364,
+     "ci_lo": 0.8295454545454546,
+     "excludes_zero": true,
+     "mean": 0.8933863636363636,
+     "n_draws": 1000
+    },
+    "matched": 0.892,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pn_vs_sibling": {
+    "L": 7,
+    "T": 3,
+    "W": 78,
+    "ci_persona": {
+     "ci_hi": 0.9550928187591597,
+     "ci_lo": 0.8409090909090909,
+     "excludes_zero": true,
+     "mean": 0.9032647432208558,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.9602272727272727,
+     "ci_lo": 0.8409090909090909,
+     "excludes_zero": true,
+     "mean": 0.9045568181818182,
+     "n_draws": 1000
+    },
+    "matched": 0.9034,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pooled_pn_vs_sibling": 0.8151,
+   "sibling_minus_present_mean": {
+    "both_exclude_zero": true,
+    "ci_persona": {
+     "ci_hi": 0.10732640067911713,
+     "ci_lo": 0.0410017778409899,
+     "excludes_zero": true,
+     "mean": 0.07519915427701904,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.10432386363636365,
+     "ci_lo": 0.046926136363636364,
+     "excludes_zero": true,
+     "mean": 0.07598613636363637,
+     "n_draws": 1000
+    },
+    "delta": 0.0759,
+    "n": 88
+   },
+   "sibling_vs_present": {
+    "L": 21,
+    "T": 12,
+    "W": 55,
+    "ci_persona": {
+     "ci_hi": 0.7816202475685234,
+     "ci_lo": 0.5904255319148937,
+     "excludes_zero": true,
+     "mean": 0.691967778221087,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.7727272727272727,
+     "ci_lo": 0.6022727272727273,
+     "excludes_zero": true,
+     "mean": 0.693221590909091,
+     "n_draws": 1000
+    },
+    "matched": 0.6932,
+    "n": 88,
+    "n_missing": 0
+   }
+  },
+  "GPT-5.6 Luna (five draws)": {
+   "means": {
+    "PN": 0.7791,
+    "PRESENT": 0.1421,
+    "SIBLING": 0.2065
+   },
+   "minus_lookup_matched": {
+    "both_exclude_zero": false,
+    "ci_persona": {
+     "ci_hi": 0.029420518207282906,
+     "ci_lo": -0.10752688172043011,
+     "excludes_zero": false,
+     "mean": -0.03425215394079841,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.022727272727272728,
+     "ci_lo": -0.08536931818181817,
+     "excludes_zero": false,
+     "mean": -0.033170454545454545,
+     "n_draws": 1000
+    },
+    "delta": -0.0341,
+    "n": 88
+   },
+   "n_sibling_scored": 88,
+   "pn_minus_sibling_mean": {
+    "both_exclude_zero": true,
+    "ci_persona": {
+     "ci_hi": 0.6531589473684211,
+     "ci_lo": 0.4941227911646587,
+     "excludes_zero": true,
+     "mean": 0.5746133503923093,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.6432863636363636,
+     "ci_lo": 0.5050761363636364,
+     "excludes_zero": true,
+     "mean": 0.5738179999999999,
+     "n_draws": 1000
+    },
+    "delta": 0.5726,
+    "n": 88
+   },
+   "pn_vs_present_same_pairs": {
+    "L": 3,
+    "T": 1,
+    "W": 84,
+    "ci_persona": {
+     "ci_hi": 0.9936708860759493,
+     "ci_lo": 0.917504295532646,
+     "excludes_zero": true,
+     "mean": 0.9594361491538634,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.9943181818181818,
+     "ci_lo": 0.9204545454545454,
+     "excludes_zero": true,
+     "mean": 0.9614034090909092,
+     "n_draws": 1000
+    },
+    "matched": 0.9602,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pn_vs_sibling": {
+    "L": 7,
+    "T": 1,
+    "W": 80,
+    "ci_persona": {
+     "ci_hi": 0.9767441860465116,
+     "ci_lo": 0.8350620567375887,
+     "excludes_zero": true,
+     "mean": 0.9146426521795755,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.9659090909090909,
+     "ci_lo": 0.8522727272727273,
+     "excludes_zero": true,
+     "mean": 0.9160170454545455,
+     "n_draws": 1000
+    },
+    "matched": 0.9148,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pooled_pn_vs_sibling": 0.9225,
+   "sibling_minus_present_mean": {
+    "both_exclude_zero": true,
+    "ci_persona": {
+     "ci_hi": 0.105488239006943,
+     "ci_lo": 0.023802834224598928,
+     "excludes_zero": true,
+     "mean": 0.06292674237947339,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.10570852272727273,
+     "ci_lo": 0.029453977272727278,
+     "excludes_zero": true,
+     "mean": 0.06532463636363636,
+     "n_draws": 1000
+    },
+    "delta": 0.0644,
+    "n": 88
+   },
+   "sibling_vs_present": {
+    "L": 25,
+    "T": 3,
+    "W": 60,
+    "ci_persona": {
+     "ci_hi": 0.7974754657943394,
+     "ci_lo": 0.5823529411764706,
+     "excludes_zero": true,
+     "mean": 0.6996351775589182,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.7897727272727273,
+     "ci_lo": 0.6079545454545454,
+     "excludes_zero": true,
+     "mean": 0.6993806818181818,
+     "n_draws": 1000
+    },
+    "matched": 0.6989,
+    "n": 88,
+    "n_missing": 0
+   }
+  },
+  "GPT-5.6 Sol (draw 1)": {
+   "means": {
+    "PN": 0.8903,
+    "PRESENT": 0.2376,
+    "SIBLING": 0.3032
+   },
+   "minus_lookup_matched": {
+    "both_exclude_zero": false,
+    "ci_persona": {
+     "ci_hi": 0.025332894953148104,
+     "ci_lo": -0.09045147898287494,
+     "excludes_zero": false,
+     "mean": -0.034016796288024266,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.028551136363636234,
+     "ci_lo": -0.09659090909090909,
+     "excludes_zero": false,
+     "mean": -0.034375,
+     "n_draws": 1000
+    },
+    "delta": -0.0341,
+    "n": 88
+   },
+   "n_sibling_scored": 88,
+   "pn_minus_sibling_mean": {
+    "both_exclude_zero": true,
+    "ci_persona": {
+     "ci_hi": 0.6620104395604395,
+     "ci_lo": 0.5151403896724838,
+     "excludes_zero": true,
+     "mean": 0.5876565216101369,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.6652386363636363,
+     "ci_lo": 0.5055511363636364,
+     "excludes_zero": true,
+     "mean": 0.5876067045454545,
+     "n_draws": 1000
+    },
+    "delta": 0.5872,
+    "n": 88
+   },
+   "pn_vs_present_same_pairs": {
+    "L": 3,
+    "T": 3,
+    "W": 82,
+    "ci_persona": {
+     "ci_hi": 0.9879518072289156,
+     "ci_lo": 0.898989898989899,
+     "excludes_zero": true,
+     "mean": 0.9496785931744871,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.9829545454545454,
+     "ci_lo": 0.9034090909090909,
+     "excludes_zero": true,
+     "mean": 0.9486420454545454,
+     "n_draws": 1000
+    },
+    "matched": 0.9489,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pn_vs_sibling": {
+    "L": 5,
+    "T": 5,
+    "W": 78,
+    "ci_persona": {
+     "ci_hi": 0.96203382332925,
+     "ci_lo": 0.868123973727422,
+     "excludes_zero": true,
+     "mean": 0.9148780098323496,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.9602272727272727,
+     "ci_lo": 0.8636363636363636,
+     "excludes_zero": true,
+     "mean": 0.9148125,
+     "n_draws": 1000
+    },
+    "matched": 0.9148,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pooled_pn_vs_sibling": 0.8917,
+   "sibling_minus_present_mean": {
+    "both_exclude_zero": false,
+    "ci_persona": {
+     "ci_hi": 0.13733715277777772,
+     "ci_lo": -0.0018057501652346275,
+     "excludes_zero": false,
+     "mean": 0.0663208670152801,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.13307386363636364,
+     "ci_lo": -0.002420454545454544,
+     "excludes_zero": false,
+     "mean": 0.06667352272727273,
+     "n_draws": 1000
+    },
+    "delta": 0.0656,
+    "n": 88
+   },
+   "sibling_vs_present": {
+    "L": 25,
+    "T": 19,
+    "W": 44,
+    "ci_persona": {
+     "ci_hi": 0.7164991408934708,
+     "ci_lo": 0.4834925249169435,
+     "excludes_zero": true,
+     "mean": 0.6044026196508724,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.6990056818181817,
+     "ci_lo": 0.5170454545454546,
+     "excludes_zero": true,
+     "mean": 0.6084261363636364,
+     "n_draws": 1000
+    },
+    "matched": 0.608,
+    "n": 88,
+    "n_missing": 0
+   }
+  },
+  "Haiku 4.5 (five draws)": {
+   "means": {
+    "PN": 0.5519,
+    "PRESENT": 0.1427,
+    "SIBLING": 0.2287
+   },
+   "minus_lookup_matched": {
+    "both_exclude_zero": false,
+    "ci_persona": {
+     "ci_hi": 0.0,
+     "ci_lo": -0.12660921088068947,
+     "excludes_zero": false,
+     "mean": -0.0666848601876326,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.0,
+     "ci_lo": -0.13636363636363635,
+     "excludes_zero": false,
+     "mean": -0.0690625,
+     "n_draws": 1000
+    },
+    "delta": -0.0682,
+    "n": 88
+   },
+   "n_sibling_scored": 88,
+   "pn_minus_sibling_mean": {
+    "both_exclude_zero": true,
+    "ci_persona": {
+     "ci_hi": 0.39233465277777774,
+     "ci_lo": 0.2599533533765032,
+     "excludes_zero": true,
+     "mean": 0.3249825029746644,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.37615909090909094,
+     "ci_lo": 0.2692727272727273,
+     "excludes_zero": true,
+     "mean": 0.32361984090909096,
+     "n_draws": 1000
+    },
+    "delta": 0.3233,
+    "n": 88
+   },
+   "pn_vs_present_same_pairs": {
+    "L": 3,
+    "T": 9,
+    "W": 76,
+    "ci_persona": {
+     "ci_hi": 0.9615384615384616,
+     "ci_lo": 0.863141447368421,
+     "excludes_zero": true,
+     "mean": 0.9157459818227085,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.9602272727272727,
+     "ci_lo": 0.8579545454545454,
+     "excludes_zero": true,
+     "mean": 0.9156193181818181,
+     "n_draws": 1000
+    },
+    "matched": 0.9148,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pn_vs_sibling": {
+    "L": 6,
+    "T": 9,
+    "W": 73,
+    "ci_persona": {
+     "ci_hi": 0.9318251964085297,
+     "ci_lo": 0.8273754409171076,
+     "excludes_zero": true,
+     "mean": 0.8822099459327413,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.9375,
+     "ci_lo": 0.8181818181818182,
+     "excludes_zero": true,
+     "mean": 0.880125,
+     "n_draws": 1000
+    },
+    "matched": 0.8807,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pooled_pn_vs_sibling": 0.8434,
+   "sibling_minus_present_mean": {
+    "both_exclude_zero": true,
+    "ci_persona": {
+     "ci_hi": 0.12009959585176144,
+     "ci_lo": 0.04986019004751187,
+     "excludes_zero": true,
+     "mean": 0.08583114824281955,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.11670625,
+     "ci_lo": 0.05564375,
+     "excludes_zero": true,
+     "mean": 0.08589177272727272,
+     "n_draws": 1000
+    },
+    "delta": 0.0859,
+    "n": 88
+   },
+   "sibling_vs_present": {
+    "L": 10,
+    "T": 32,
+    "W": 46,
+    "ci_persona": {
+     "ci_hi": 0.7848119664409773,
+     "ci_lo": 0.6220670134638923,
+     "excludes_zero": true,
+     "mean": 0.7038366582423803,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.7727272727272727,
+     "ci_lo": 0.6306818181818182,
+     "excludes_zero": true,
+     "mean": 0.7049488636363637,
+     "n_draws": 1000
+    },
+    "matched": 0.7045,
+    "n": 88,
+    "n_missing": 0
+   }
+  },
+  "Name lookup": {
+   "means": {
+    "PN": 0.5324,
+    "PRESENT": 0.1246,
+    "SIBLING": 0.1935
+   },
+   "n_sibling_scored": 88,
+   "pn_minus_sibling_mean": {
+    "both_exclude_zero": true,
+    "ci_persona": {
+     "ci_hi": 0.3971980465860103,
+     "ci_lo": 0.2852458477193799,
+     "excludes_zero": true,
+     "mean": 0.3402456220538713,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.3885318669347643,
+     "ci_lo": 0.2884655572357588,
+     "excludes_zero": true,
+     "mean": 0.3386011767828181,
+     "n_draws": 1000
+    },
+    "delta": 0.3389,
+    "n": 88
+   },
+   "pn_vs_present_same_pairs": {
+    "L": 0,
+    "T": 6,
+    "W": 82,
+    "ci_persona": {
+     "ci_hi": 0.9943820224719101,
+     "ci_lo": 0.9285714285714286,
+     "excludes_zero": true,
+     "mean": 0.9655430012509367,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.9886363636363636,
+     "ci_lo": 0.9375,
+     "excludes_zero": true,
+     "mean": 0.9663011363636363,
+     "n_draws": 1000
+    },
+    "matched": 0.9659,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pn_vs_sibling": {
+    "L": 3,
+    "T": 3,
+    "W": 82,
+    "ci_persona": {
+     "ci_hi": 0.9831460674157303,
+     "ci_lo": 0.9069671607462305,
+     "excludes_zero": true,
+     "mean": 0.9488948061203739,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.9829545454545454,
+     "ci_lo": 0.9034090909090909,
+     "excludes_zero": true,
+     "mean": 0.9491875,
+     "n_draws": 1000
+    },
+    "matched": 0.9489,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pooled_pn_vs_sibling": 0.8769,
+   "sibling_minus_present_mean": {
+    "both_exclude_zero": true,
+    "ci_persona": {
+     "ci_hi": 0.09875768093678548,
+     "ci_lo": 0.0437516355861249,
+     "excludes_zero": true,
+     "mean": 0.0689630920411157,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.09012944342327747,
+     "ci_lo": 0.049970664007361686,
+     "excludes_zero": true,
+     "mean": 0.06900508030144158,
+     "n_draws": 1000
+    },
+    "delta": 0.0689,
+    "n": 88
+   },
+   "sibling_vs_present": {
+    "L": 17,
+    "T": 9,
+    "W": 62,
+    "ci_persona": {
+     "ci_hi": 0.8588417052214143,
+     "ci_lo": 0.6337112403100775,
+     "excludes_zero": true,
+     "mean": 0.7543300667736489,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.8409090909090909,
+     "ci_lo": 0.6647727272727273,
+     "excludes_zero": true,
+     "mean": 0.7568863636363637,
+     "n_draws": 1000
+    },
+    "matched": 0.7557,
+    "n": 88,
+    "n_missing": 0
+   }
+  },
+  "Opus 5 (draw 1)": {
+   "means": {
+    "PN": 0.7797,
+    "PRESENT": 0.2911,
+    "SIBLING": 0.3287
+   },
+   "minus_lookup_matched": {
+    "both_exclude_zero": false,
+    "ci_persona": {
+     "ci_hi": 0.06321839080459771,
+     "ci_lo": -0.011363636363636364,
+     "excludes_zero": false,
+     "mean": 0.02275194602256721,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.06818181818181818,
+     "ci_lo": -0.017045454545454544,
+     "excludes_zero": false,
+     "mean": 0.02361931818181818,
+     "n_draws": 1000
+    },
+    "delta": 0.0227,
+    "n": 88
+   },
+   "n_sibling_scored": 88,
+   "pn_minus_sibling_mean": {
+    "both_exclude_zero": true,
+    "ci_persona": {
+     "ci_hi": 0.5093328282081608,
+     "ci_lo": 0.39972255231206405,
+     "excludes_zero": true,
+     "mean": 0.4524775222307456,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.50478125,
+     "ci_lo": 0.3979517045454545,
+     "excludes_zero": true,
+     "mean": 0.45171511363636363,
+     "n_draws": 1000
+    },
+    "delta": 0.4509,
+    "n": 88
+   },
+   "pn_vs_present_same_pairs": {
+    "L": 2,
+    "T": 1,
+    "W": 85,
+    "ci_persona": {
+     "ci_hi": 1.0,
+     "ci_lo": 0.9375,
+     "excludes_zero": true,
+     "mean": 0.9714144013034188,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 1.0,
+     "ci_lo": 0.9375,
+     "excludes_zero": true,
+     "mean": 0.972028409090909,
+     "n_draws": 1000
+    },
+    "matched": 0.9716,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pn_vs_sibling": {
+    "L": 2,
+    "T": 1,
+    "W": 85,
+    "ci_persona": {
+     "ci_hi": 1.0,
+     "ci_lo": 0.9386690542744002,
+     "excludes_zero": true,
+     "mean": 0.971646752142941,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 1.0,
+     "ci_lo": 0.9375,
+     "excludes_zero": true,
+     "mean": 0.9728068181818182,
+     "n_draws": 1000
+    },
+    "matched": 0.9716,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pooled_pn_vs_sibling": 0.9197,
+   "sibling_minus_present_mean": {
+    "both_exclude_zero": false,
+    "ci_persona": {
+     "ci_hi": 0.08444289772727273,
+     "ci_lo": -0.01827505376344086,
+     "excludes_zero": false,
+     "mean": 0.03638709007266736,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.08115056818181815,
+     "ci_lo": -0.0006818181818181787,
+     "excludes_zero": false,
+     "mean": 0.03803375,
+     "n_draws": 1000
+    },
+    "delta": 0.0376,
+    "n": 88
+   },
+   "sibling_vs_present": {
+    "L": 38,
+    "T": 7,
+    "W": 43,
+    "ci_persona": {
+     "ci_hi": 0.655948713301921,
+     "ci_lo": 0.3999747474747475,
+     "excludes_zero": true,
+     "mean": 0.5265828682548731,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.625,
+     "ci_lo": 0.42045454545454547,
+     "excludes_zero": true,
+     "mean": 0.5301988636363637,
+     "n_draws": 1000
+    },
+    "matched": 0.5284,
+    "n": 88,
+    "n_missing": 0
+   }
+  },
+  "Random-token lookup": {
+   "means": {
+    "PN": 0.0897,
+    "PRESENT": 0.0594,
+    "SIBLING": 0.0927
+   },
+   "minus_lookup_matched": {
+    "both_exclude_zero": true,
+    "ci_persona": {
+     "ci_hi": -0.41068739242685026,
+     "ci_lo": -0.5476253799392098,
+     "excludes_zero": true,
+     "mean": -0.47661618053148935,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": -0.3919034090909092,
+     "ci_lo": -0.5681818181818182,
+     "excludes_zero": true,
+     "mean": -0.4797215909090909,
+     "n_draws": 1000
+    },
+    "delta": -0.4773,
+    "n": 88
+   },
+   "n_sibling_scored": 88,
+   "pn_minus_sibling_mean": {
+    "both_exclude_zero": false,
+    "ci_persona": {
+     "ci_hi": 0.004104902770532327,
+     "ci_lo": -0.010165497643542026,
+     "excludes_zero": false,
+     "mean": -0.0031473553554637874,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.00411697129867124,
+     "ci_lo": -0.01071389516106468,
+     "excludes_zero": false,
+     "mean": -0.003182402781528336,
+     "n_draws": 1000
+    },
+    "delta": -0.0031,
+    "n": 88
+   },
+   "pn_vs_present_same_pairs": {
+    "L": 2,
+    "T": 41,
+    "W": 45,
+    "ci_persona": {
+     "ci_hi": 0.8148148148148148,
+     "ci_lo": 0.6802104398382204,
+     "excludes_zero": true,
+     "mean": 0.7456320377075762,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.8011363636363636,
+     "ci_lo": 0.6873579545454546,
+     "excludes_zero": true,
+     "mean": 0.7433693181818183,
+     "n_draws": 1000
+    },
+    "matched": 0.7443,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pn_vs_sibling": {
+    "L": 30,
+    "T": 33,
+    "W": 25,
+    "ci_persona": {
+     "ci_hi": 0.5402342389411355,
+     "ci_lo": 0.40113372093023253,
+     "excludes_zero": true,
+     "mean": 0.47227862558888456,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.5511363636363636,
+     "ci_lo": 0.38636363636363635,
+     "excludes_zero": true,
+     "mean": 0.46946590909090913,
+     "n_draws": 1000
+    },
+    "matched": 0.4716,
+    "n": 88,
+    "n_missing": 0
+   },
+   "pooled_pn_vs_sibling": 0.4735,
+   "sibling_minus_present_mean": {
+    "both_exclude_zero": true,
+    "ci_persona": {
+     "ci_hi": 0.04591708329617844,
+     "ci_lo": 0.0218447800714726,
+     "excludes_zero": true,
+     "mean": 0.033764680991153456,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.04374170079747935,
+     "ci_lo": 0.024183303922340697,
+     "excludes_zero": true,
+     "mean": 0.033327509829065426,
+     "n_draws": 1000
+    },
+    "delta": 0.0334,
+    "n": 88
+   },
+   "sibling_vs_present": {
+    "L": 4,
+    "T": 36,
+    "W": 48,
+    "ci_persona": {
+     "ci_hi": 0.8125157828282829,
+     "ci_lo": 0.6847463768115942,
+     "excludes_zero": true,
+     "mean": 0.7512071008980316,
+     "n_draws": 1000
+    },
+    "ci_triple": {
+     "ci_hi": 0.8069602272727271,
+     "ci_lo": 0.6818181818181818,
+     "excludes_zero": true,
+     "mean": 0.7495454545454545,
+     "n_draws": 1000
+    },
+    "matched": 0.75,
+    "n": 88,
+    "n_missing": 0
+   }
+  }
+ }
+}

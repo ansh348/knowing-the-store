@@ -1,0 +1,68 @@
+{
+ "answer_prompt": {
+  "header_sha256": "1fe1eb17795796bb95617a28ac7b7628b9607abc2fb8b51989cbf70d1de08d6b",
+  "system_answer_sha256": "af1c69c8817d286727e44027a9d469c875a4da1eb111d7351eb76094b48ea4a9",
+  "user_answer_a4_sha256": "e6c155364f8c69bef8af0c86941b3bf8fc5e739e043ac3ef2f86f422ff40cd7d"
+ },
+ "build_units_sha256": "24bd8d775a89296ed30efa919c1dc5b061335f6af648f7e78867a327f148b160",
+ "build_views_sha256": "ad0e60e53224f20d2d568fe70988adfce702527f3b09a1956711f8cc32f61f78",
+ "caps": {
+  "anthropic": 8.0,
+  "openai": 4.0
+ },
+ "common_sha256": "27fa4f75ae8a4637777c709138443561fdbeb887419f105d36a81012a9fdc568",
+ "freeze_file": "reviews\\r130\\FREEZE_R130.md",
+ "inputs_sha256": {
+  "ds_downstream/run/cell_ds.json": "e46d7b95da2a4e53ce85a9a5abeeceb72129df906298ec77112081ea7b641c0e",
+  "ds_downstream/run/rows_ds_amend4_h45.jsonl": "2f26e9332c7594cdb92f19af303f157f2608a83a3ea12f664524976b63008ec8",
+  "ds_downstream/run/rows_ds_amend4_mini.jsonl": "9ddc9f2638b6a29759c0aa5f7c34b27a3a6a95bb7da56d5d97620dd92af58b24",
+  "ds_downstream/run/rows_ds_amend5_h45.jsonl": "ee05348247656bf57506651e7a86e9782d044093cc079ec0b2eada3040887e5d",
+  "ds_downstream/run/rows_ds_amend5_merged_h45.jsonl": "4d34ad8f53c51a1e2618ad87dcefb31593f86ce3ad43c95e723ab82985b68d37",
+  "ds_downstream/run/rows_ds_amend5_merged_mini.jsonl": "b96ddcb2c52256e69ecbe0e87f0dd130075e2559408dbc289e3d35d86f8f65c9",
+  "ds_downstream/run/rows_ds_amend5_mini.jsonl": "fdfa2ca33a33df2b79060764f7d71dad2866ae25c69340fe6af3dc3cd7f78517",
+  "ds_downstream/run/scores_amend4.json": "a28a58595d8de7f47db93f91c30e8b73be1a1569c2a5d81645a7f12ce042b661",
+  "ds_downstream/run/scores_amend5.json": "64cfb720d5a8dee158d216abfabdefd96eb6caa65bec7357a9f831b1225dd443",
+  "ds_downstream/run/views_amend5.json": "db120fef3cb452d13eb8bfc1e175b9dc580f42298b3196048199f560acc17d1d",
+  "ds_downstream/stage1.json": "6691654d3dfd23595d077e717cf30fb4c76880275e0115996a4b1b3dabb29a8f",
+  "ds_downstream/views.json": "6d3cb6c7b863c4815a2af71af9cfaef00b8334ca3e4f25886f204d9af1d17d48",
+  "human_validation/hv1/inputs/hva_rows.json": "f0ba8ec949b14b08a8077d5317711670ab65d3d24f45f73e9271b71e1dbbfb1d",
+  "human_validation/hv1/key/key_hv1.json": "e8ea5bc1e38365a8b433ac801f0b1aafe7c809a78236b5d7a6aeb3602fd0f1c8"
+ },
+ "judge": {
+  "batch_mult": 0.5,
+  "max_tokens": 300,
+  "model": "claude-opus-5",
+  "price": [
+   5.0,
+   25.0
+  ],
+  "temperature": null
+ },
+ "judge_prompt": {
+  "JUDGE_SYSTEM": "d0e27a76e0ecce50cfc6ef59dcdb74fd5fe6a44e75aabcd0916fcd2443f5f08e",
+  "JUDGE_USER": "9c4f6c234315dbb473be9f1c580efe11eec9b11be4bb9ca85c25f85c574085c5"
+ },
+ "luna": {
+  "max_completion_tokens": 2048,
+  "model": "gpt-5.6-luna",
+  "note": "mini's answer-stage settings wherever the parameter exists for Luna (ruling 4): seed 42 and JSON mode as mini; temperature 0 REJECTED by the model (400 unsupported_value, build/luna_settings_check.json) so unset; max_completion_tokens 2048 as E5 (Luna's limit counts reasoning tokens, mini's max_tokens 200 counts output only); reasoning effort unset as E5; one retry on a parse failure as mini",
+  "price": {
+   "cached": 0.02,
+   "inp": 0.2,
+   "out": 1.2,
+   "write_mult": 1.25
+  },
+  "reasoning_effort": null,
+  "response_format": {
+   "type": "json_object"
+  },
+  "seed": 42,
+  "temperature": null
+ },
+ "n_units_recorded": 610,
+ "n_views": 305,
+ "program": "R130",
+ "registration_sha256": "2e95beab2451ab8d87b746e4e15b65a04c30805a252e8c23bfac03072f00253c",
+ "runner_sha256": "e4ffe96760b847fe44e89bbc7acd7d9dd305875af9a8cc7c67876d4d6bbcb71e",
+ "when": "2026-09-20T14:48:51"
+}

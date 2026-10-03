@@ -1,0 +1,347 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 3,
+    "in": 3114,
+    "out": 1123,
+    "usd": 0.0030424000000000007
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 4,
+  "persona": "amara",
+  "probes": [
+    {
+      "domain": "Social Life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "birthday",
+        "last",
+        "you"
+      ],
+      "max_cosine": 0.3988,
+      "note": "",
+      "question": "What was the theme of the last birthday party you attended as a guest?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3988,
+          "entry_id": "lb_00055",
+          "text": "User is planning a birthday dinner for a female friend who is turning forty."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3569,
+          "entry_id": "lb_00259",
+          "text": "User attended a dinner in Hampstead hosted by Charles."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3286,
+          "entry_id": "lb_00254",
+          "text": "User attended a chambers dinner hosted by Charles at his house in Hampstead."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3233,
+          "entry_id": "lb_00057",
+          "text": "User prefers to have the birthday dinner in Hackney or Dalston area of East London with a budget up to 100 pounds per head."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3018,
+          "entry_id": "lb_00277",
+          "text": "User plans to book a celebratory dinner at The River Cafe for their parents' anniversary."
+        }
+      ],
+      "why_absent": "The memory store does not include any information about social events attended as a guest or party themes."
+    },
+    {
+      "domain": "Music Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "type",
+        "you"
+      ],
+      "max_cosine": 0.2567,
+      "note": "",
+      "question": "Can you describe your favorite type of music or a band you enjoy listening to?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2567,
+          "entry_id": "lb_00113",
+          "text": "User prefers podcasts with legal commentary, intelligent true crime, or political analysis"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2071,
+          "entry_id": "lb_00112",
+          "text": "User listens to podcasts during their commute"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2062,
+          "entry_id": "lb_00116",
+          "text": "User listens to the podcasts Law in Action and The Rest is Politics"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1762,
+          "entry_id": "lb_00271",
+          "text": "User's parents both love Italian food and prefer warm, relaxed dining environments."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1578,
+          "entry_id": "lb_00114",
+          "text": "User dislikes podcasts that talk down to their audience"
+        }
+      ],
+      "why_absent": "No attributes cover music tastes or favorite bands."
+    },
+    {
+      "domain": "Pets",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "would",
+        "you"
+      ],
+      "max_cosine": 0.2105,
+      "note": "",
+      "question": "What kind of pet do you have or would like to have?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2105,
+          "entry_id": "lb_00090",
+          "text": "User is looking for a one-bedroom flat in Hackney, Clapton, or Homerton."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2036,
+          "entry_id": "lb_00072",
+          "text": "User lives in Hackney and wants to stay there or nearby in Clapton or Homerton"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1989,
+          "entry_id": "lb_00086",
+          "text": "User requires a one-bedroom flat on the first floor or above, not ground floor, with space for a working desk and good broadband."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1981,
+          "entry_id": "lb_00094",
+          "text": "User requires a one-bedroom flat on the first floor or above with a proper desk space and reliable broadband for working from home."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.198,
+          "entry_id": "lb_00247",
+          "text": "User is considering moving to Islington, specifically Canonbury"
+        }
+      ],
+      "why_absent": "There is no information about pets owned or pet preferences."
+    },
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last",
+        "you"
+      ],
+      "max_cosine": 0.2904,
+      "note": "",
+      "question": "What was the last movie you watched at a cinema?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2904,
+          "entry_id": "lb_00216",
+          "text": "User plans to watch The Innocence Files documentary."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2556,
+          "entry_id": "lb_00251",
+          "text": "User has two flat viewings booked next week: one on Canonbury Road and one off Alwyne Place"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.241,
+          "entry_id": "lb_00215",
+          "text": "User has seen the documentary Making a Murderer."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1835,
+          "entry_id": "lb_00063",
+          "text": "Sophie is a serious film photographer who mostly shoots street photography"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1827,
+          "entry_id": "lb_00210",
+          "text": "User attends Crown Court hearings and hearings at the Old Bailey"
+        }
+      ],
+      "why_absent": "The memory store does not include details about movies watched or cinema visits."
+    },
+    {
+      "domain": "Languages",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "english",
+        "you"
+      ],
+      "max_cosine": 0.2133,
+      "note": "",
+      "question": "What languages do you speak or are learning besides English?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2133,
+          "entry_id": "lb_00099",
+          "text": "User is considering doing a part-time LLM in human rights law at UCL to deepen expertise."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.208,
+          "entry_id": "lb_00066",
+          "text": "User lives in London"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2025,
+          "entry_id": "lb_00103",
+          "text": "User is interested in the international refugee law and economic and social rights modules at UCL's LLM program."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1887,
+          "entry_id": "lb_00102",
+          "text": "User is interested in the international refugee law and economic and social rights modules at UCL for their relevance to asylum and housing legal aid cases."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.1813,
+          "entry_id": "lb_00006",
+          "text": "User completed an LLB at King's College London"
+        }
+      ],
+      "why_absent": "No attributes mention language skills or language learning."
+    },
+    {
+      "domain": "Food Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "type"
+      ],
+      "max_cosine": 0.4224,
+      "note": "",
+      "question": "What is your favorite type of cuisine to eat out at restaurants?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.4224,
+          "entry_id": "lb_00271",
+          "text": "User's parents both love Italian food and prefer warm, relaxed dining environments."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3302,
+          "entry_id": "lb_00268",
+          "text": "User's parents enjoy eating well but rarely treat themselves to fine dining."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3212,
+          "entry_id": "lb_00056",
+          "text": "User's friend has no dietary restrictions and enjoys Turkish and Middle Eastern food."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.269,
+          "entry_id": "lb_00277",
+          "text": "User plans to book a celebratory dinner at The River Cafe for their parents' anniversary."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2551,
+          "entry_id": "lb_00278",
+          "text": "User's mother is an excellent cook who appreciates genuine culinary ambition."
+        }
+      ],
+      "why_absent": "While cooking style and family food preferences are covered, eating out cuisine preferences are not."
+    },
+    {
+      "domain": "Volunteering",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "work",
+        "you"
+      ],
+      "max_cosine": 0.3055,
+      "note": "",
+      "question": "Have you ever participated in any volunteer or charity work? If so, what kind?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3055,
+          "entry_id": "lb_00119",
+          "text": "User primarily does privately funded defence work but also takes legal aid cases on principle"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2979,
+          "entry_id": "lb_00100",
+          "text": "User has been doing asylum and immigration defence work for over a year and finds it the most meaningful part of their caseload"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2961,
+          "entry_id": "lb_00307",
+          "text": "User is considering engaging in innocence project work"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2746,
+          "entry_id": "lb_00096",
+          "text": "User has been doing more asylum and immigration defence work over the past year"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2698,
+          "entry_id": "lb_00097",
+          "text": "User finds asylum and immigration defence work the most meaningful part of their caseload"
+        }
+      ],
+      "why_absent": "There is no information about volunteer activities or charity involvement."
+    }
+  ],
+  "threshold": 0.295
+}

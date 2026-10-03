@@ -1,0 +1,59 @@
+{
+  "amem_excluded": [
+    "priya.canary"
+  ],
+  "census": {
+    "amem": {
+      "entries": 11319,
+      "field_non_null": {
+        "believed_retracted": 0,
+        "believed_superseded": 0,
+        "believed_supersedes": 0,
+        "category": 0,
+        "event_time": 0,
+        "ingest_time": 11319,
+        "recency_time": 11319,
+        "session_id": 0,
+        "slot": 0
+      },
+      "max_per_persona": 333,
+      "min_per_persona": 203,
+      "personas": 40
+    },
+    "frbank": {
+      "entries": 18936,
+      "field_non_null": {
+        "believed_retracted": 18936,
+        "believed_superseded": 18936,
+        "believed_supersedes": 18936,
+        "category": 18936,
+        "event_time": 1912,
+        "ingest_time": 18936,
+        "recency_time": 18936,
+        "session_id": 18936,
+        "slot": 18708
+      },
+      "max_per_persona": 622,
+      "min_per_persona": 262,
+      "personas": 40
+    },
+    "mem0": {
+      "entries": 10074,
+      "field_non_null": {
+        "believed_retracted": 0,
+        "believed_superseded": 10074,
+        "believed_supersedes": 0,
+        "category": 0,
+        "event_time": 0,
+        "ingest_time": 10074,
+        "recency_time": 10074,
+        "session_id": 10074,
+        "slot": 0
+      },
+      "max_per_persona": 319,
+      "min_per_persona": 60,
+      "personas": 40
+    }
+  },
+  "no_api_calls": true
+}

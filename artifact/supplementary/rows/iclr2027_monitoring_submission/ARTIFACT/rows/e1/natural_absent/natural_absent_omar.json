@@ -1,0 +1,349 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 28,
+    "in": 28456,
+    "out": 10417,
+    "usd": 0.0280496
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 3,
+  "persona": "omar",
+  "probes": [
+    {
+      "domain": "entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "home",
+        "type",
+        "you"
+      ],
+      "max_cosine": 0.345,
+      "note": "",
+      "question": "What type of music do you usually listen to when relaxing at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.345,
+          "entry_id": "lb_00275",
+          "text": "User drives late at night and uses gaming as a stress reliever after work."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3104,
+          "entry_id": "lb_00199",
+          "text": "User plays FIFA mostly solo and prefers to relax rather than play competitively online."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.3056,
+          "entry_id": "lb_00272",
+          "text": "User uses gaming as a way to relieve stress after a long day."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2857,
+          "entry_id": "lb_00202",
+          "text": "Playing FIFA helps the user relax and temporarily stop thinking about money or other stressors."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2848,
+          "entry_id": "lb_00280",
+          "text": "User plays FIFA as a way to unwind and recharge after work."
+        }
+      ],
+      "why_absent": "No information about Omar's music preferences or listening habits is present in the memory store."
+    },
+    {
+      "domain": "food and cooking",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "weekends",
+        "you"
+      ],
+      "max_cosine": 0.4249,
+      "note": "",
+      "question": "Can you describe your favorite meal to cook on weekends?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.4249,
+          "entry_id": "lb_00149",
+          "text": "User values the taste of home-cooked food as a comforting experience."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3317,
+          "entry_id": "lb_00249",
+          "text": "User spends Saturdays with his son."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3223,
+          "entry_id": "lb_00147",
+          "text": "User's mom makes a unique okra stew with dried okra and special spices."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3144,
+          "entry_id": "lb_00253",
+          "text": "User has a son with whom he spends Saturdays and plays soccer."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3112,
+          "entry_id": "lb_00142",
+          "text": "User's mom makes mulah bamia (okra stew) in a unique way that the user highly values."
+        }
+      ],
+      "why_absent": "The store does not contain any details about Omar's cooking habits or favorite recipes."
+    },
+    {
+      "domain": "entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last",
+        "you"
+      ],
+      "max_cosine": 0.1828,
+      "note": "",
+      "question": "What was the last movie you watched in a theater?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1828,
+          "entry_id": "lb_00255",
+          "text": "User is in Houston in October 2025"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1623,
+          "entry_id": "lb_00220",
+          "text": "User just moved recently"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1602,
+          "entry_id": "lb_00141",
+          "text": "User experienced sitting in the IAH airport lot for over an hour on a Tuesday morning while feeling sick."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1509,
+          "entry_id": "lb_00003",
+          "text": "User studies between rides during slow periods."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1495,
+          "entry_id": "lb_00168",
+          "text": "User switched to Lyft as their transportation service"
+        }
+      ],
+      "why_absent": "There is no record of Omar's movie watching history or preferences in the memory store."
+    },
+    {
+      "domain": "personal life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.2269,
+      "note": "",
+      "question": "Do you have any pets, and if so, what are their names and breeds?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2269,
+          "entry_id": "lb_00226",
+          "text": "User lives in a small studio apartment"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.215,
+          "entry_id": "lb_00072",
+          "text": "User has a son named Ismail who stays with him on weekends"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2095,
+          "entry_id": "lb_00081",
+          "text": "User has a 7-year-old son named Ismail who stays with him on weekends."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2092,
+          "entry_id": "lb_00222",
+          "text": "User lives in a studio apartment"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2069,
+          "entry_id": "lb_00077",
+          "text": "User has a 7-year-old son named Ismail who stays with him on weekends"
+        }
+      ],
+      "why_absent": "No pet ownership or related information is included in the stored attributes."
+    },
+    {
+      "domain": "health and fitness",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "study",
+        "work",
+        "you"
+      ],
+      "max_cosine": 0.3817,
+      "note": "",
+      "question": "What kind of exercise or sports do you enjoy outside of work and study?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3817,
+          "entry_id": "lb_00280",
+          "text": "User plays FIFA as a way to unwind and recharge after work."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3317,
+          "entry_id": "lb_00273",
+          "text": "User plays FIFA Ultimate Team mostly online as a way to decompress after stressful days."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.3214,
+          "entry_id": "lb_00275",
+          "text": "User drives late at night and uses gaming as a stress reliever after work."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3076,
+          "entry_id": "lb_00278",
+          "text": "User plays FIFA with Ismail on weekends as a shared activity."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3073,
+          "entry_id": "lb_00253",
+          "text": "User has a son with whom he spends Saturdays and plays soccer."
+        }
+      ],
+      "why_absent": "While exercise routine is mentioned, specific sports or fitness activities Omar enjoys are not documented."
+    },
+    {
+      "domain": "travel",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "texas",
+        "you"
+      ],
+      "max_cosine": 0.3628,
+      "note": "",
+      "question": "Have you traveled outside Texas recently? If yes, where did you go and what did you do?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3628,
+          "entry_id": "lb_00296",
+          "text": "User lives in Houston and is considering moving to Dallas, which is about 4 hours away."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3346,
+          "entry_id": "lb_00247",
+          "text": "User lives in Houston."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3346,
+          "entry_id": "lb_00318",
+          "text": "User lives in Houston."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3308,
+          "entry_id": "lb_00256",
+          "text": "User lives in Houston"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3308,
+          "entry_id": "lb_00048",
+          "text": "User lives in Houston"
+        }
+      ],
+      "why_absent": "The memory store lacks any travel history or recent trips information for Omar."
+    },
+    {
+      "domain": "intellectual interests",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "time",
+        "type",
+        "you"
+      ],
+      "max_cosine": 0.2696,
+      "note": "",
+      "question": "What type of books or authors do you prefer to read in your free time?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2696,
+          "entry_id": "lb_00329",
+          "text": "User's son Ismail is an excellent reader and read a chapter book about animals in two days."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.259,
+          "entry_id": "lb_00335",
+          "text": "User's child read a chapter book about animals given by his teacher in two days."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2328,
+          "entry_id": "lb_00199",
+          "text": "User plays FIFA mostly solo and prefers to relax rather than play competitively online."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2169,
+          "entry_id": "lb_00275",
+          "text": "User drives late at night and uses gaming as a stress reliever after work."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2169,
+          "entry_id": "lb_00322",
+          "text": "User's son Ismail is one of the best readers in his class."
+        }
+      ],
+      "why_absent": "There is no data on Omar's reading preferences or favorite authors in the memory store."
+    }
+  ],
+  "threshold": 0.295
+}

@@ -1,0 +1,32 @@
+% PARA-TABLE matched (written by cf2_paraphrase/tools/para_tex.py from cf2_paraphrase/results/*.json; spliced at its per-table marker by reviews/v23/tools/build_v23.py; do not edit by hand)
+\begin{table}[H]
+\caption{The same $115$ pairs under the matched metric (post hoc): within each triple the \pn{} version against the \present{} version, W/T/L and $(W+T/2)/115$, on the original questions and on the paraphrases, with the paired difference (the mean over triples of the per-triple outcome difference) and the triple-level and persona-grouped intervals. $^{*}$: both intervals exclude zero.}
+\label{tab:para-matched}
+\centering
+\tiny
+\setlength{\tabcolsep}{1.5pt}
+\begin{tabular}{@{}llrrrrrll@{}}
+\toprule
+Reader & States & original W/T/L & matched & paraphrase W/T/L & matched & difference & triple interval & persona interval \\
+\midrule
+Name lookup & superseded & $72/43/0$ & $0.8130$ & $69/43/3$ & $0.7870$ & $-0.0261$ & $[-0.0522,-0.0043]$ & $[-0.0636,+0.0000]$ \\
+Lexical lookup & superseded & $43/72/0$ & $0.6870$ & $0/115/0$ & $0.5000$ & $-0.1870$$^{*}$ & $[-0.2261,-0.1435]$ & $[-0.2328,-0.1381]$ \\
+Name lookup & all & $98/15/2$ & $0.9174$ & $93/21/1$ & $0.9000$ & $-0.0174$ & $[-0.0522,+0.0217]$ & $[-0.0572,+0.0192]$ \\
+Lexical lookup & all & $69/46/0$ & $0.8000$ & $0/115/0$ & $0.5000$ & $-0.3000$$^{*}$ & $[-0.3435,-0.2564]$ & $[-0.3440,-0.2521]$ \\
+GPT-4.1 mini & superseded & $63/46/6$ & $0.7478$ & $50/58/7$ & $0.6870$ & $-0.0609$$^{*}$ & $[-0.1174,-0.0087]$ & $[-0.1191,-0.0039]$ \\
+GPT-4.1 mini & all & $80/25/10$ & $0.8043$ & $69/36/10$ & $0.7565$ & $-0.0478$ & $[-0.1174,+0.0217]$ & $[-0.1355,+0.0345]$ \\
+Haiku 4.5 & superseded & $77/33/5$ & $0.8130$ & $66/41/8$ & $0.7522$ & $-0.0609$ & $[-0.1130,+0.0000]$ & $[-0.1179,+0.0000]$ \\
+Haiku 4.5 & all & $96/15/4$ & $0.9000$ & $75/31/9$ & $0.7870$ & $-0.1130$$^{*}$ & $[-0.1739,-0.0565]$ & $[-0.1709,-0.0564]$ \\
+Opus 5 (draw 1)$^{a}$ & superseded & $104/2/9$ & $0.9130$ & $95/6/14$ & $0.8522$ & $-0.0609$ & $[-0.1348,+0.0087]$ & $[-0.1296,+0.0042]$ \\
+Opus 5 (draw 1)$^{a}$ & all & $110/0/5$ & $0.9565$ & $103/2/10$ & $0.9043$ & $-0.0522$$^{*}$ & $[-0.1043,-0.0087]$ & $[-0.0958,-0.0094]$ \\
+\midrule
+\multicolumn{9}{@{}l}{\textit{Added after the registration, not registered}}\\
+GPT-5.6 Luna$^{b}$ & superseded & $102/1/12$ & $0.8913$ & $105/1/9$ & $0.9174$ & $+0.0261$ & $[-0.0435,+0.0870]$ & $[-0.0414,+0.0909]$ \\
+GPT-5.6 Sol$^{b}$ & superseded & $99/1/15$ & $0.8652$ & $98/1/16$ & $0.8565$ & $-0.0087$ & $[-0.0697,+0.0565]$ & $[-0.0764,+0.0591]$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.97\linewidth}\scriptsize
+$^{a}$Opus 5 ran the paraphrases once, against its recorded five-draw rows on the original questions, so its paired row carries a draw-count difference as well; $^{b}$added after the registration, not registered, no prediction: GPT-5.6 Luna and GPT-5.6 Sol at five draws through the raw API under the summary naming superseded records only, because both summaries together exceeded that lane's budget.
+\end{minipage}
+\end{table}

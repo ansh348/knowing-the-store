@@ -1,0 +1,128 @@
+{
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2 (local, offline)",
+  "matched_84_descriptive": {
+    "BELIEVED": {
+      "judgment": "nok",
+      "n": 84,
+      "n_pos": 40,
+      "nb6_best": 0.55625,
+      "nb6_best_variant": "embedding",
+      "nb6_embedding": 0.55625,
+      "nb6_lexical": 0.4815340909090909,
+      "status": "DESCRIPTIVE, carries no prediction"
+    },
+    "TRUE": {
+      "judgment": "nok",
+      "n": 84,
+      "n_pos": 40,
+      "nb6_best": 0.6022727272727273,
+      "nb6_best_variant": "embedding",
+      "nb6_embedding": 0.6022727272727273,
+      "nb6_lexical": 0.5375,
+      "status": "DESCRIPTIVE, carries no prediction"
+    }
+  },
+  "note": "FOK-6 is definitionally NB-4/NB-5 and is a reproduction check, not a prediction; see ADDENDUM_R81 section 3 and D-E1R-7.",
+  "registration": "registrations/ADDENDUM_R81.md @ 2bb7fd9 (+ Amendment 1, da0d4a0)",
+  "reproduction_dp": 4,
+  "reproduction_failures": [],
+  "rows": {
+    "R-FOK-FRB|BELIEVED": {
+      "field": "per-category name map",
+      "items_with_no_names": 0,
+      "judgment": "fok",
+      "mean_names_per_item": 124.8957654723127,
+      "monitor_indexed_auroc": 0.7005252100840336,
+      "monitor_minus_nb6_best": 0.08193277310924363,
+      "n": 307,
+      "n_pos": 35,
+      "nb6_beats_monitor": false,
+      "nb6_best": 0.6185924369747899,
+      "nb6_best_variant": "embedding",
+      "nb6_embedding": 0.6185924369747899,
+      "nb6_embedding_vs_committed_abs": 0.0,
+      "nb6_lexical": 0.6080357142857142,
+      "nb6_lexical_vs_committed_abs": 0.0,
+      "nb6_matches_monitor": false,
+      "provenance": "BELIEVED",
+      "reproduces_NB-4": true,
+      "reproduces_NB-5": true,
+      "row": "R-FOK-FRB"
+    },
+    "R-FOK-FRB|TRUE": {
+      "field": "per-category name map",
+      "items_with_no_names": 0,
+      "judgment": "fok",
+      "mean_names_per_item": 124.8957654723127,
+      "monitor_indexed_auroc": 0.7003151260504201,
+      "monitor_minus_nb6_best": 0.08172268907563018,
+      "n": 307,
+      "n_pos": 35,
+      "nb6_beats_monitor": false,
+      "nb6_best": 0.6185924369747899,
+      "nb6_best_variant": "embedding",
+      "nb6_embedding": 0.6185924369747899,
+      "nb6_embedding_vs_committed_abs": 0.0,
+      "nb6_lexical": 0.6080357142857142,
+      "nb6_lexical_vs_committed_abs": 0.0,
+      "nb6_matches_monitor": false,
+      "provenance": "TRUE",
+      "reproduces_NB-4": true,
+      "reproduces_NB-5": true,
+      "row": "R-FOK-FRB"
+    },
+    "R-NOK-FRB|BELIEVED": {
+      "field": "superseded-names section",
+      "items_with_no_names": 0,
+      "judgment": "nok",
+      "mean_names_per_item": 15.037821482602117,
+      "monitor_indexed_auroc": 0.5958603784007733,
+      "monitor_minus_nb6_best": 0.010081480458500214,
+      "n": 661,
+      "n_pos": 104,
+      "nb6_beats_monitor": false,
+      "nb6_best": 0.5857788979422731,
+      "nb6_best_variant": "embedding",
+      "nb6_embedding": 0.5857788979422731,
+      "nb6_lexical": 0.4717839386825024,
+      "nb6_matches_monitor": true,
+      "provenance": "BELIEVED",
+      "row": "R-NOK-FRB"
+    },
+    "R-NOK-FRB|TRUE": {
+      "field": "superseded-names section",
+      "items_with_no_names": 0,
+      "judgment": "nok",
+      "mean_names_per_item": 1.7473524962178517,
+      "monitor_indexed_auroc": 0.7339024306035078,
+      "monitor_minus_nb6_best": -0.01451802237260047,
+      "n": 661,
+      "n_pos": 104,
+      "nb6_beats_monitor": false,
+      "nb6_best": 0.7484204529761083,
+      "nb6_best_variant": "embedding",
+      "nb6_embedding": 0.7484204529761083,
+      "nb6_lexical": 0.5737812456842978,
+      "nb6_matches_monitor": true,
+      "provenance": "TRUE",
+      "row": "R-NOK-FRB"
+    }
+  },
+  "tolerance": 0.05,
+  "verdicts": {
+    "NB6-1": {
+      "margin": -0.01451802237260047,
+      "monitor": 0.7339024306035078,
+      "nb6_best": 0.7484204529761083,
+      "outcome": "FAILS",
+      "statement": "monitor NOK-TRUE exceeds best NB-6 NOK-TRUE by more than the tolerance"
+    },
+    "NB6-2": {
+      "margin": 0.010081480458500214,
+      "monitor": 0.5958603784007733,
+      "nb6_best": 0.5857788979422731,
+      "outcome": "HOLDS",
+      "statement": "monitor NOK-BELIEVED and best NB-6 NOK-BELIEVED are within the tolerance"
+    }
+  }
+}

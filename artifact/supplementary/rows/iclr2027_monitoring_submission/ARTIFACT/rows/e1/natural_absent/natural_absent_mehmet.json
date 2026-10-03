@@ -1,0 +1,353 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 25,
+    "in": 25400,
+    "out": 9328,
+    "usd": 0.0250848
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 3,
+  "persona": "mehmet",
+  "probes": [
+    {
+      "domain": "entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last",
+        "you"
+      ],
+      "max_cosine": 0.1367,
+      "note": "",
+      "question": "What was the last movie you watched at the cinema?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1367,
+          "entry_id": "lb_00489",
+          "text": "User has a routine of closing the shop, going home, having dinner made by Ayşe, and watching Fenerbahçe matches"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1286,
+          "entry_id": "lb_00208",
+          "text": "User worked in a barbershop called Salon Fritz on Oranienstraße in Berlin"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1274,
+          "entry_id": "lb_00196",
+          "text": "User's father took them to Şükrü Saracoğlu stadium when they were a child"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1244,
+          "entry_id": "lb_00283",
+          "text": "User is a hairdresser who cuts hair in a shop with customers present"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1186,
+          "entry_id": "lb_00491",
+          "text": "User has a daily routine of closing the shop, going home, having dinner with Ayşe, and watching football"
+        }
+      ],
+      "why_absent": "No information about Mehmet's movie watching habits or cinema visits is stored."
+    },
+    {
+      "domain": "cooking",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "home",
+        "traditional",
+        "turkish",
+        "you"
+      ],
+      "max_cosine": 0.443,
+      "note": "",
+      "question": "Can you describe your favorite traditional Turkish dish to cook at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.443,
+          "entry_id": "lb_00248",
+          "text": "User's mother made mercimek çorbası (lentil soup) with a specific method and ingredients passed down by feel rather than written recipes."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4222,
+          "entry_id": "lb_00251",
+          "text": "User has a family member named Ayşe who comments on the lentil soup's similarity to the original"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.4078,
+          "entry_id": "lb_00473",
+          "text": "User brews Turkish tea using a double çaydanlık with steeping time of 15 to 20 minutes"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.4052,
+          "entry_id": "lb_00284",
+          "text": "User speaks Turkish and knows Turkish sayings"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.4,
+          "entry_id": "lb_00262",
+          "text": "User serves traditional Turkish shaves with hot towels and offers Turkish tea to customers"
+        }
+      ],
+      "why_absent": "No details about Mehmet's cooking habits or favorite recipes are present."
+    },
+    {
+      "domain": "music preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "barber",
+        "listen",
+        "shop",
+        "working",
+        "you"
+      ],
+      "max_cosine": 0.5287,
+      "note": "",
+      "question": "What kind of music do you usually listen to while working in your barber shop?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.5287,
+          "entry_id": "lb_00416",
+          "text": "User's barbershop has a long-term older male clientele who prefer traditional services"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.5023,
+          "entry_id": "lb_00042",
+          "text": "User prefers traditional barbering methods and refuses to use electric clippers in his shop."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.5002,
+          "entry_id": "lb_00383",
+          "text": "User has a barbershop where the products used are part of the shop's identity and customer experience"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.4973,
+          "entry_id": "lb_00113",
+          "text": "User is a traditional barber"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.4869,
+          "entry_id": "lb_00409",
+          "text": "User considers their barbershop their second home"
+        }
+      ],
+      "why_absent": "No data about Mehmet's music preferences or listening habits is stored."
+    },
+    {
+      "domain": "travel",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last",
+        "you"
+      ],
+      "max_cosine": 0.3803,
+      "note": "",
+      "question": "Have you ever taken a vacation abroad? If so, where did you go last?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3803,
+          "entry_id": "lb_00507",
+          "text": "User lived in Berlin when they were young and traveled to other countries."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2729,
+          "entry_id": "lb_00015",
+          "text": "User lived in Berlin for some years when they were young"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2619,
+          "entry_id": "lb_00023",
+          "text": "User speaks German and lived in Berlin for five years"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2619,
+          "entry_id": "lb_00027",
+          "text": "User speaks German and lived in Berlin for five years"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2532,
+          "entry_id": "lb_00178",
+          "text": "User plans to travel to Istanbul."
+        }
+      ],
+      "why_absent": "No travel history or vacation details are included in the memory store."
+    },
+    {
+      "domain": "transportation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "daily",
+        "type",
+        "you"
+      ],
+      "max_cosine": 0.4522,
+      "note": "",
+      "question": "What type of car do you drive for your daily commute?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4522,
+          "entry_id": "lb_00191",
+          "text": "User drives a car to work in Kadıköy and struggles with parking every morning."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4451,
+          "entry_id": "lb_00183",
+          "text": "User works in Kadıköy and drives to work every morning."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4094,
+          "entry_id": "lb_00181",
+          "text": "User drives 5 minutes to get to work."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3624,
+          "entry_id": "lb_00188",
+          "text": "User lives in or frequently drives in Kadıköy, Istanbul."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2975,
+          "entry_id": "lb_00182",
+          "text": "User spends about 25 minutes finding a parking spot in the morning."
+        }
+      ],
+      "why_absent": "No information about Mehmet's personal vehicle or commuting transportation is stored."
+    },
+    {
+      "domain": "pets",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "home",
+        "you"
+      ],
+      "max_cosine": 0.2299,
+      "note": "",
+      "question": "Do you have any pets at home? If yes, what kind and what are their names?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2299,
+          "entry_id": "lb_00420",
+          "text": "User has a family member named Ayşe"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2224,
+          "entry_id": "lb_00301",
+          "text": "User has a neighbor named Kemal"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2151,
+          "entry_id": "lb_00186",
+          "text": "User has a wife."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2092,
+          "entry_id": "lb_00090",
+          "text": "User has a supplier named Kemal who delivers grooming products every two weeks and is reliable."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2059,
+          "entry_id": "lb_00350",
+          "text": "User lives in Kadıköy neighborhood"
+        }
+      ],
+      "why_absent": "No data about pets or animals in Mehmet's household is present."
+    },
+    {
+      "domain": "education",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "school",
+        "you"
+      ],
+      "max_cosine": 0.2455,
+      "note": "",
+      "question": "What was your favorite subject in school when you were a child?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2455,
+          "entry_id": "lb_00259",
+          "text": "User's apprentice speaks a little English from school."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.192,
+          "entry_id": "lb_00507",
+          "text": "User lived in Berlin when they were young and traveled to other countries."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.172,
+          "entry_id": "lb_00196",
+          "text": "User's father took them to Şükrü Saracoğlu stadium when they were a child"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.1706,
+          "entry_id": "lb_00015",
+          "text": "User lived in Berlin for some years when they were young"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.1635,
+          "entry_id": "lb_00205",
+          "text": "User has been a Fenerbahçe fan since they were 8 years old"
+        }
+      ],
+      "why_absent": "No educational background details beyond apprenticeship and career are stored."
+    }
+  ],
+  "threshold": 0.295
+}

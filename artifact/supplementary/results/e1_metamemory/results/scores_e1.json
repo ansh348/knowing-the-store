@@ -1,0 +1,351 @@
+{
+  "H2_hard": {
+    "blind_auroc": 0.5258331180573496,
+    "blind_brier": 0.10914540816326532,
+    "blind_ece": 0.15960884353741497,
+    "bootstrap": {
+      "ci_hi": 0.3503571710991159,
+      "ci_lo": 0.1177170625239439,
+      "excludes_zero": true,
+      "mean": 0.22824514549508482,
+      "n": 1000
+    },
+    "delta": 0.22720227331438902,
+    "indexed_auroc": 0.7530353913717386,
+    "indexed_brier": 0.09920068027210883,
+    "indexed_ece": 0.17414965986394557,
+    "n": 588,
+    "n_pos": 35,
+    "row": "HEADLINE hard tier, indexed-TRUE"
+  },
+  "H2_hard_frbank": {
+    "blind_auroc": 0.4965861344537815,
+    "blind_brier": 0.13877035830618895,
+    "blind_ece": 0.1285016286644951,
+    "bootstrap": {
+      "ci_hi": 0.3190716911764706,
+      "ci_lo": 0.09347308823039352,
+      "excludes_zero": true,
+      "mean": 0.20847573112072348,
+      "n": 1000
+    },
+    "delta": 0.2037289915966386,
+    "indexed_auroc": 0.7003151260504201,
+    "indexed_brier": 0.15950325732899023,
+    "indexed_ece": 0.18192182410423455,
+    "n": 307,
+    "n_pos": 35,
+    "row": "hard tier, FR-Bank only"
+  },
+  "H_BELIEVED": {
+    "amem": {
+      "believed_delta": -0.03129395218002806,
+      "holds_ge_60pct": false,
+      "retention": null,
+      "true_delta": -0.10648985332529637
+    },
+    "frbank": {
+      "believed_delta": 0.24202152638202756,
+      "holds_ge_60pct": true,
+      "retention": 1.014148251638167,
+      "true_delta": 0.23864511523940113
+    },
+    "mem0": {
+      "believed_delta": -0.000517139479905504,
+      "holds_ge_60pct": false,
+      "retention": null,
+      "true_delta": -0.09692671394799057
+    }
+  },
+  "H_NOK": {
+    "gate": {
+      "auroc_threshold": ">= 0.65",
+      "ci": [
+        0.1801363498913204,
+        0.2949032866227625
+      ],
+      "delta": 0.23928842701284353,
+      "holds": true,
+      "observed_indexed_auroc": 0.7339024306035078
+    },
+    "row": {
+      "blind_auroc": 0.49461400359066426,
+      "blind_brier": 0.15742813918305598,
+      "blind_ece": 0.15824508320726174,
+      "bootstrap": {
+        "ci_hi": 0.2949032866227625,
+        "ci_lo": 0.1801363498913204,
+        "excludes_zero": true,
+        "mean": 0.23853169499883248,
+        "n": 1000
+      },
+      "delta": 0.23928842701284353,
+      "indexed_auroc": 0.7339024306035078,
+      "indexed_brier": 0.10149016641452346,
+      "indexed_ece": 0.09863842662632374,
+      "n": 661,
+      "n_pos": 104,
+      "row": "NOK FR-Bank indexed-TRUE"
+    },
+    "scope": "FR-Bank only by construction; PN cell is empty on erase-mode backends"
+  },
+  "absent_mechanism": {
+    "ablation": 238,
+    "ingestion-loss-attributed": 19,
+    "natural": 426,
+    "sweep-negative": 2
+  },
+  "by_backend": {
+    "amem": {
+      "BELIEVED": {
+        "blind_auroc": 0.5590968454892505,
+        "blind_brier": 0.31986795774647886,
+        "blind_ece": 0.2625,
+        "bootstrap": {
+          "ci_hi": 0.03997303760085457,
+          "ci_lo": -0.09826587066129192,
+          "excludes_zero": false,
+          "mean": -0.032434314818268355,
+          "n": 1000
+        },
+        "delta": -0.03129395218002806,
+        "indexed_auroc": 0.5278028933092225,
+        "indexed_brier": 0.3454401408450705,
+        "indexed_ece": 0.31373239436619726,
+        "n": 284,
+        "n_pos": 126,
+        "row": "amem:BELIEVED"
+      },
+      "TRUE": {
+        "blind_auroc": 0.5590968454892505,
+        "blind_brier": 0.31986795774647886,
+        "blind_ece": 0.2625,
+        "bootstrap": {
+          "ci_hi": -0.04033407456284799,
+          "ci_lo": -0.17256882840098275,
+          "excludes_zero": true,
+          "mean": -0.1067115836638584,
+          "n": 1000
+        },
+        "delta": -0.10648985332529637,
+        "indexed_auroc": 0.45260699216395417,
+        "indexed_brier": 0.33768485915492963,
+        "indexed_ece": 0.284330985915493,
+        "n": 284,
+        "n_pos": 126,
+        "row": "amem:TRUE"
+      }
+    },
+    "frbank": {
+      "BELIEVED": {
+        "blind_auroc": 0.5055647388094746,
+        "blind_brier": 0.30389183055975794,
+        "blind_ece": 0.21641452344931925,
+        "bootstrap": {
+          "ci_hi": 0.28787409221525606,
+          "ci_lo": 0.18905323040608787,
+          "excludes_zero": true,
+          "mean": 0.2404431065492705,
+          "n": 1000
+        },
+        "delta": 0.24202152638202756,
+        "indexed_auroc": 0.7475862651915022,
+        "indexed_brier": 0.20858169440242058,
+        "indexed_ece": 0.1006807866868382,
+        "n": 661,
+        "n_pos": 278,
+        "row": "frbank:BELIEVED"
+      },
+      "TRUE": {
+        "blind_auroc": 0.5055647388094746,
+        "blind_brier": 0.30389183055975794,
+        "blind_ece": 0.21641452344931925,
+        "bootstrap": {
+          "ci_hi": 0.2876885973116023,
+          "ci_lo": 0.18563571039232543,
+          "excludes_zero": true,
+          "mean": 0.23665246926995964,
+          "n": 1000
+        },
+        "delta": 0.23864511523940113,
+        "indexed_auroc": 0.7442098540488757,
+        "indexed_brier": 0.2092700453857791,
+        "indexed_ece": 0.09326777609682299,
+        "n": 661,
+        "n_pos": 278,
+        "row": "frbank:TRUE"
+      }
+    },
+    "mem0": {
+      "BELIEVED": {
+        "blind_auroc": 0.5745789007092199,
+        "blind_brier": 0.2931617647058824,
+        "blind_ece": 0.2313025210084034,
+        "bootstrap": {
+          "ci_hi": 0.06440801139747689,
+          "ci_lo": -0.06630898792120132,
+          "excludes_zero": false,
+          "mean": -0.001191090778360118,
+          "n": 1000
+        },
+        "delta": -0.000517139479905504,
+        "indexed_auroc": 0.5740617612293144,
+        "indexed_brier": 0.29572478991596646,
+        "indexed_ece": 0.24810924369747897,
+        "n": 238,
+        "n_pos": 94,
+        "row": "mem0:BELIEVED"
+      },
+      "TRUE": {
+        "blind_auroc": 0.5745789007092199,
+        "blind_brier": 0.2931617647058824,
+        "blind_ece": 0.2313025210084034,
+        "bootstrap": {
+          "ci_hi": -0.024955421709675026,
+          "ci_lo": -0.1686248763035701,
+          "excludes_zero": true,
+          "mean": -0.09774327121741579,
+          "n": 1000
+        },
+        "delta": -0.09692671394799057,
+        "indexed_auroc": 0.47765218676122934,
+        "indexed_brier": 0.30079831932773116,
+        "indexed_ece": 0.23823529411764713,
+        "n": 238,
+        "n_pos": 94,
+        "row": "mem0:TRUE"
+      }
+    }
+  },
+  "by_tier": {
+    "easy": {
+      "blind_auroc": 0.44217553504810525,
+      "blind_brier": 0.49968067226890767,
+      "blind_ece": 0.5490756302521009,
+      "bootstrap": {
+        "ci_hi": 0.25963553251562543,
+        "ci_lo": 0.11791118961528609,
+        "excludes_zero": true,
+        "mean": 0.1892687844283975,
+        "n": 1000
+      },
+      "delta": 0.19139014333398785,
+      "indexed_auroc": 0.6335656783820931,
+      "indexed_brier": 0.4159495798319328,
+      "indexed_ece": 0.4721008403361344,
+      "n": 595,
+      "n_pos": 463,
+      "row": "tier=easy"
+    },
+    "hard": {
+      "blind_auroc": 0.5258331180573496,
+      "blind_brier": 0.10914540816326532,
+      "blind_ece": 0.15960884353741497,
+      "bootstrap": {
+        "ci_hi": 0.3503571710991159,
+        "ci_lo": 0.1177170625239439,
+        "excludes_zero": true,
+        "mean": 0.22824514549508482,
+        "n": 1000
+      },
+      "delta": 0.22720227331438902,
+      "indexed_auroc": 0.7530353913717386,
+      "indexed_brier": 0.09920068027210883,
+      "indexed_ece": 0.17414965986394557,
+      "n": 588,
+      "n_pos": 35,
+      "row": "tier=hard"
+    }
+  },
+  "gates": {
+    "H1_hard": {
+      "holds": true,
+      "observed": 0.5258331180573496,
+      "threshold": "< 0.75"
+    },
+    "H2_hard": {
+      "band": "> +0.15 — stands alone",
+      "ci": [
+        0.1177170625239439,
+        0.3503571710991159
+      ],
+      "delta": 0.22720227331438902,
+      "holds": true,
+      "threshold": ">= +0.10 with CI excluding 0"
+    }
+  },
+  "k3_noise": {
+    "identical_across_3": 46,
+    "max_spread": 0.2,
+    "mean_spread": 0.012,
+    "n_questions": 50
+  },
+  "lifecycle_decomposition": {
+    "amem_believed": -0.03129395218002806,
+    "frbank_believed": 0.24202152638202756,
+    "frbank_true": 0.23864511523940113,
+    "reading": "A-MEM believed carries counts and recency only, so its delta is the count-and-recency component; FR-Bank believed adds corrupted lifecycle signal; TRUE adds correct lifecycle signal."
+  },
+  "n_blind_prompts": 332,
+  "n_failed": 0,
+  "n_indexed_believed": 1183,
+  "n_indexed_true": 1183,
+  "n_items": 1183,
+  "nok_candidates_found_rate": {
+    "ABSENT|False": 373,
+    "ABSENT|True": 10,
+    "PRESENT-NEGATIVE|False": 48,
+    "PRESENT-NEGATIVE|True": 56,
+    "PRESENT|False": 165,
+    "PRESENT|True": 9
+  },
+  "skip_rate": [
+    {
+      "frac_of_hard": 0.061224489795918366,
+      "n_skipped": 36,
+      "precision_skipping_absent": 1.0,
+      "threshold": 0.1
+    },
+    {
+      "frac_of_hard": 0.47619047619047616,
+      "n_skipped": 280,
+      "precision_skipping_absent": 0.975,
+      "threshold": 0.2
+    },
+    {
+      "frac_of_hard": 0.7721088435374149,
+      "n_skipped": 454,
+      "precision_skipping_absent": 0.9757709251101322,
+      "threshold": 0.3
+    },
+    {
+      "frac_of_hard": 0.7738095238095238,
+      "n_skipped": 455,
+      "precision_skipping_absent": 0.9736263736263736,
+      "threshold": 0.4
+    },
+    {
+      "frac_of_hard": 0.8843537414965986,
+      "n_skipped": 520,
+      "precision_skipping_absent": 0.9634615384615385,
+      "threshold": 0.5
+    },
+    {
+      "frac_of_hard": 0.8843537414965986,
+      "n_skipped": 520,
+      "precision_skipping_absent": 0.9634615384615385,
+      "threshold": 0.6
+    },
+    {
+      "frac_of_hard": 0.8877551020408163,
+      "n_skipped": 522,
+      "precision_skipping_absent": 0.9636015325670498,
+      "threshold": 0.7
+    }
+  ],
+  "staircase": {
+    "auroc": 0.751611714864616,
+    "distinct_values": 5,
+    "n": 150
+  }
+}

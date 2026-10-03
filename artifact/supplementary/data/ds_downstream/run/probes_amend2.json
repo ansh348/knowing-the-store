@@ -1,0 +1,52 @@
+{
+ "H45": [
+  {
+   "identifier_ok": true,
+   "item_id": "frbank:aisha:aisha_q01:FULL",
+   "sample": "```json\n{\"answer\": \"The user works at PwC in the advisory deals and transactions team.\"}\n```",
+   "served": "claude-haiku-4-5-20251001",
+   "status": "OK",
+   "tok_in": 506,
+   "tok_out": 28,
+   "usd": 0.0006460000000000001,
+   "view_lines": 7,
+   "when": "2026-09-14T14:16:52"
+  },
+  {
+   "identifier_ok": true,
+   "item_id": "frbank:aisha:aisha_q03:CAT-ABLATED",
+   "sample": "```json\n{\"answer\": \"Aisha lives with a flatmate named Zara, who is her friend from university.\"}\n```",
+   "served": "claude-haiku-4-5-20251001",
+   "status": "OK",
+   "tok_in": 477,
+   "tok_out": 33,
+   "usd": 0.000642,
+   "view_lines": 5,
+   "when": "2026-09-14T14:16:53"
+  },
+  {
+   "identifier_ok": true,
+   "item_id": "frbank:jerome:jerome_q02:FULL",
+   "sample": "```json\n{\"answer\": \"The store does not currently contain the answer. While there is an active entry stating the user works as a company driver at ABF, the name 'Jerome' does not appear in any entries in the memory store.\"}\n```",
+   "served": "claude-haiku-4-5-20251001",
+   "status": "OK",
+   "tok_in": 1593,
+   "tok_out": 57,
+   "usd": 0.001878,
+   "view_lines": 27,
+   "when": "2026-09-14T14:16:54"
+  }
+ ],
+ "MINI": {
+  "identifier_ok": true,
+  "item_id": "frbank:aisha:aisha_q01:FULL",
+  "sample": "{\"answer\": \"User works at PwC in the advisory deals and transactions team.\"}",
+  "served": "gpt-4.1-mini-2025-04-14",
+  "status": "OK",
+  "tok_in": 727,
+  "tok_out": 18,
+  "usd": 0.0003196,
+  "view_lines": 12,
+  "when": "2026-09-14T14:16:38"
+ }
+}

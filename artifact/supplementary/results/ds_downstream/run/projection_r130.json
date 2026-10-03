@@ -1,0 +1,21 @@
+{
+ "JUDGE": {
+  "fits": true,
+  "spent": 0.0041,
+  "units": 915,
+  "usd": 2.0618,
+  "x1.3": 2.6804
+ },
+ "LUNA": {
+  "calls": 305,
+  "fits": true,
+  "spent": 0.0629,
+  "usd": 0.0614,
+  "x1.3": 0.0798
+ },
+ "caps": {
+  "anthropic": 8.0,
+  "openai": 4.0
+ },
+ "when": "2026-09-20T14:53:07"
+}

@@ -1,0 +1,266 @@
+{
+ "notes": [
+  "Re-read of the 17 records the seed-4242 re-authoring changed: 1 YES (20, omar budget_allocation: a real change of value), 16 the same failure in new words (13 paraphrase, 3 implausible). The 15 byte-identical records keep the first verdict by identity and were not re-read.",
+  "Outcome: 30 supersession and 1 retraction records fail after the frozen retry and fall to D-CF2-2 replacement. Supersession spares in walk order: 6 (positions 153-165); shortfall 24 before authoring losses.",
+  "Instrument note for the ledger and for CF-3: at temperature 0 an alternate seed changed 17 of 32 outputs and fixed 1; 'one frozen retry' is nearly a no-op for this tool. A retry that varies the sampling temperature or uses a disclosed second prompt lineage should be registered next time.",
+  "Method as before: records presented by a language model, verdicts typed by the author, disclosed under the AI-use line."
+ ],
+ "reread_verdicts": [
+  {
+   "reread_num": "01",
+   "state": "SUPERSESSION",
+   "persona": "aisha",
+   "entry_id": "lb_00071",
+   "identical": false,
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "reread_num": "02",
+   "state": "SUPERSESSION",
+   "persona": "aisha",
+   "entry_id": "lb_00057",
+   "identical": false,
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "reread_num": "03",
+   "state": "SUPERSESSION",
+   "persona": "aisha",
+   "entry_id": "lb_00088",
+   "identical": true,
+   "verdict": "NO-paraphrase (identical text; first verdict applies by identity)"
+  },
+  {
+   "reread_num": "04",
+   "state": "SUPERSESSION",
+   "persona": "alex",
+   "entry_id": "lb_00002",
+   "identical": false,
+   "verdict": "NO-implausible"
+  },
+  {
+   "reread_num": "05",
+   "state": "SUPERSESSION",
+   "persona": "bruna",
+   "entry_id": "lb_00011",
+   "identical": true,
+   "verdict": "NO-paraphrase (identical text; first verdict applies by identity)"
+  },
+  {
+   "reread_num": "06",
+   "state": "SUPERSESSION",
+   "persona": "chenoa",
+   "entry_id": "lb_00007",
+   "identical": true,
+   "verdict": "NO-implausible (identical text; first verdict applies by identity)"
+  },
+  {
+   "reread_num": "07",
+   "state": "SUPERSESSION",
+   "persona": "david",
+   "entry_id": "lb_00023",
+   "identical": false,
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "reread_num": "08",
+   "state": "SUPERSESSION",
+   "persona": "diane",
+   "entry_id": "lb_00007",
+   "identical": true,
+   "verdict": "NO-paraphrase (identical text; first verdict applies by identity)"
+  },
+  {
+   "reread_num": "09",
+   "state": "SUPERSESSION",
+   "persona": "dmitri",
+   "entry_id": "lb_00028",
+   "identical": true,
+   "verdict": "NO-paraphrase (identical text; first verdict applies by identity)"
+  },
+  {
+   "reread_num": "10",
+   "state": "SUPERSESSION",
+   "persona": "elena",
+   "entry_id": "lb_00056",
+   "identical": false,
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "reread_num": "11",
+   "state": "SUPERSESSION",
+   "persona": "ingrid",
+   "entry_id": "lb_00010",
+   "identical": false,
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "reread_num": "12",
+   "state": "SUPERSESSION",
+   "persona": "jerome",
+   "entry_id": "lb_00068",
+   "identical": false,
+   "verdict": "NO-implausible"
+  },
+  {
+   "reread_num": "13",
+   "state": "SUPERSESSION",
+   "persona": "jerome",
+   "entry_id": "lb_00066",
+   "identical": true,
+   "verdict": "NO-paraphrase (identical text; first verdict applies by identity)"
+  },
+  {
+   "reread_num": "14",
+   "state": "SUPERSESSION",
+   "persona": "kofi",
+   "entry_id": "lb_00070",
+   "identical": false,
+   "verdict": "NO-implausible"
+  },
+  {
+   "reread_num": "15",
+   "state": "SUPERSESSION",
+   "persona": "mehmet",
+   "entry_id": "lb_00020",
+   "identical": true,
+   "verdict": "NO-implausible (identical text; first verdict applies by identity)"
+  },
+  {
+   "reread_num": "16",
+   "state": "SUPERSESSION",
+   "persona": "mirri",
+   "entry_id": "lb_00052",
+   "identical": false,
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "reread_num": "17",
+   "state": "SUPERSESSION",
+   "persona": "mirri",
+   "entry_id": "lb_00055",
+   "identical": false,
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "reread_num": "18",
+   "state": "SUPERSESSION",
+   "persona": "mirri",
+   "entry_id": "lb_00050",
+   "identical": false,
+   "verdict": "NO-implausible"
+  },
+  {
+   "reread_num": "19",
+   "state": "SUPERSESSION",
+   "persona": "nadia",
+   "entry_id": "lb_00009",
+   "identical": false,
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "reread_num": "20",
+   "state": "SUPERSESSION",
+   "persona": "omar",
+   "entry_id": "lb_00092",
+   "identical": false,
+   "verdict": "YES"
+  },
+  {
+   "reread_num": "21",
+   "state": "SUPERSESSION",
+   "persona": "omar",
+   "entry_id": "lb_00070",
+   "identical": true,
+   "verdict": "NO-paraphrase (identical text; first verdict applies by identity)"
+  },
+  {
+   "reread_num": "22",
+   "state": "SUPERSESSION",
+   "persona": "omar",
+   "entry_id": "lb_00003",
+   "identical": true,
+   "verdict": "NO-paraphrase (identical text; first verdict applies by identity)"
+  },
+  {
+   "reread_num": "23",
+   "state": "SUPERSESSION",
+   "persona": "pan",
+   "entry_id": "lb_00069",
+   "identical": false,
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "reread_num": "24",
+   "state": "SUPERSESSION",
+   "persona": "priya",
+   "entry_id": "lb_00006",
+   "identical": false,
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "reread_num": "25",
+   "state": "SUPERSESSION",
+   "persona": "priya",
+   "entry_id": "lb_00005",
+   "identical": true,
+   "verdict": "NO-paraphrase (identical text; first verdict applies by identity)"
+  },
+  {
+   "reread_num": "26",
+   "state": "SUPERSESSION",
+   "persona": "rosa",
+   "entry_id": "lb_00002",
+   "identical": true,
+   "verdict": "NO-implausible (identical text; first verdict applies by identity)"
+  },
+  {
+   "reread_num": "27",
+   "state": "SUPERSESSION",
+   "persona": "saga",
+   "entry_id": "lb_00040",
+   "identical": false,
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "reread_num": "28",
+   "state": "SUPERSESSION",
+   "persona": "saga",
+   "entry_id": "lb_00024",
+   "identical": true,
+   "verdict": "NO-paraphrase (identical text; first verdict applies by identity)"
+  },
+  {
+   "reread_num": "29",
+   "state": "SUPERSESSION",
+   "persona": "samuel",
+   "entry_id": "lb_00018",
+   "identical": false,
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "reread_num": "30",
+   "state": "SUPERSESSION",
+   "persona": "valentina",
+   "entry_id": "lb_00028",
+   "identical": true,
+   "verdict": "NO-implausible (identical text; first verdict applies by identity)"
+  },
+  {
+   "reread_num": "31",
+   "state": "SUPERSESSION",
+   "persona": "valentina",
+   "entry_id": "lb_00030",
+   "identical": true,
+   "verdict": "NO-implausible (identical text; first verdict applies by identity)"
+  },
+  {
+   "reread_num": "32",
+   "state": "RETRACTION",
+   "persona": "alex",
+   "entry_id": "lb_00118",
+   "identical": true,
+   "verdict": "NO-implausible (identical text; first verdict applies by identity)"
+  }
+ ]
+}

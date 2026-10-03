@@ -1,0 +1,908 @@
+{
+  "meta": {
+    "alt_seed": 4242,
+    "intent_gate": "e1_metamemory/tools/intent.py type_question, text-only Rule 2 path",
+    "model": "gpt-4.1-mini",
+    "n": 30,
+    "n_paraphrases": 3,
+    "prompt_never_sees": [
+      "entry text or value",
+      "category",
+      "other candidates",
+      "any store content",
+      "any label"
+    ],
+    "prompt_sees": [
+      "entity",
+      "slot attribute path",
+      "intent"
+    ],
+    "prompt_sha256": "b748247b3ff380d8c24a3e142e2c37c12718942438c3a96cce476531692a8c7f",
+    "questions_sha256": "adec4c831571e409130d5c38282d0f3a56124e659506803c216857f430e9c035",
+    "redrafts": 0,
+    "seed": 42,
+    "substitutions": 2,
+    "temperature": 0,
+    "tokens_in": 9399,
+    "tokens_out": 1430,
+    "usd": 0.006048
+  },
+  "questions": [
+    {
+      "attempt": "first",
+      "entity": "Aisha Mohammed",
+      "intent": "CURRENT-STATE",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [],
+          "ok": true,
+          "question": "Can you tell me the current level of my fatigue?",
+          "rule": "Rule 2.3: no marker fired",
+          "typed": "UNRESOLVED"
+        }
+      ],
+      "pair_id": "cf:aisha:health_condition:fatigue",
+      "paraphrases": [
+        "How tired am I feeling right now today?",
+        "Can you tell me the current level of my fatigue?",
+        "What is my energy status at this moment?"
+      ],
+      "persona": "aisha",
+      "question": "Can you tell me the current level of my fatigue?",
+      "seed_used": 42,
+      "selected_index": 1,
+      "slot": "health_condition:fatigue",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Amara Okafor",
+      "intent": "CURRENT-STATE",
+      "intent_trail": [
+        {
+          "index": 0,
+          "markers": [],
+          "ok": true,
+          "question": "How severe is my endometriosis flare season right now?",
+          "rule": "Rule 2.3: no marker fired",
+          "typed": "UNRESOLVED"
+        }
+      ],
+      "pair_id": "cf:amara:health_condition:endometriosis_flare_season",
+      "paraphrases": [
+        "How severe is my endometriosis flare season right now?",
+        "What symptoms am I experiencing from my endometriosis flare season currently?",
+        "Can you tell me the current status of my endometriosis flare season?"
+      ],
+      "persona": "amara",
+      "question": "How severe is my endometriosis flare season right now?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "health_condition:endometriosis_flare_season",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Aroha Tāne",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [
+            "\\bnext\\b"
+          ],
+          "ok": true,
+          "question": "Can you tell me the next steps I have planned for my postgraduate study?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:aroha:project:postgraduate_study",
+      "paraphrases": [
+        "What are the upcoming deadlines for my postgraduate study project?",
+        "Can you tell me the next steps I have planned for my postgraduate study?",
+        "What tasks are scheduled soon for my postgraduate study project?"
+      ],
+      "persona": "aroha",
+      "question": "Can you tell me the next steps I have planned for my postgraduate study?",
+      "seed_used": 42,
+      "selected_index": 1,
+      "slot": "project:postgraduate_study",
+      "state": "RETRACTION"
+    },
+    {
+      "attempt": "first",
+      "entity": "William 'Billy' Kootook",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 2,
+          "markers": [
+            "\\bcoming\\b"
+          ],
+          "ok": true,
+          "question": "What preparations are planned for the coming aerial wildlife survey in the project aircraft?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:billy:project_aircraft:aerial_wildlife_survey",
+      "paraphrases": [
+        "What details do I have about the upcoming aerial wildlife survey for the project aircraft?",
+        "Can you tell me the schedule for the next aerial wildlife survey related to my project aircraft?",
+        "What preparations are planned for the coming aerial wildlife survey in the project aircraft?"
+      ],
+      "persona": "billy",
+      "question": "What preparations are planned for the coming aerial wildlife survey in the project aircraft?",
+      "seed_used": 42,
+      "selected_index": 2,
+      "slot": "project_aircraft:aerial_wildlife_survey",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "David Park",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 0,
+          "markers": [
+            "\\bscheduled\\b",
+            "\\bnext\\b"
+          ],
+          "ok": true,
+          "question": "When is my next coaching event scheduled, David Park?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:david:coaching_event_date",
+      "paraphrases": [
+        "When is my next coaching event scheduled, David Park?",
+        "Can you tell me the date of my upcoming coaching session?",
+        "What day is my next coaching event planned for?"
+      ],
+      "persona": "david",
+      "question": "When is my next coaching event scheduled, David Park?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "coaching_event_date",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Diane Holloway",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 2,
+          "markers": [],
+          "ok": false,
+          "question": "What tasks are planned soon for my chaplain book project?",
+          "rule": "Rule 2.3: no marker fired",
+          "typed": "UNRESOLVED"
+        },
+        {
+          "index": 0,
+          "markers": [
+            "\\bupcoming\\b"
+          ],
+          "ok": true,
+          "question": "What are the upcoming deadlines for my chaplain book project?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:diane:project:chaplain_book",
+      "paraphrases": [
+        "What are the upcoming deadlines for my chaplain book project?",
+        "Can you tell me the next steps scheduled for the chaplain book I'm working on?",
+        "What tasks are planned soon for my chaplain book project?"
+      ],
+      "persona": "diane",
+      "question": "What are the upcoming deadlines for my chaplain book project?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "project:chaplain_book",
+      "state": "RETRACTION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Dmitri Volkov",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 2,
+          "markers": [
+            "\\bnext\\b"
+          ],
+          "ok": true,
+          "question": "What tasks are planned next for the client_portal project?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:dmitri:project:client_portal",
+      "paraphrases": [
+        "What are the upcoming deadlines for the client_portal project?",
+        "Can you tell me the next milestones scheduled for the client_portal project?",
+        "What tasks are planned next for the client_portal project?"
+      ],
+      "persona": "dmitri",
+      "question": "What tasks are planned next for the client_portal project?",
+      "seed_used": 42,
+      "selected_index": 2,
+      "slot": "project:client_portal",
+      "state": "RETRACTION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Elena Vasquez",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 0,
+          "markers": [
+            "\\bcoming up\\b",
+            "\\bcoming\\b"
+          ],
+          "ok": true,
+          "question": "What events are on my wedding timeline coming up?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:elena:event:wedding_timeline",
+      "paraphrases": [
+        "What events are on my wedding timeline coming up?",
+        "Can you show me the schedule for my upcoming wedding day?",
+        "What are the next steps planned in my wedding timeline?"
+      ],
+      "persona": "elena",
+      "question": "What events are on my wedding timeline coming up?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "event:wedding_timeline",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Fatima Al-Rashidi",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [],
+          "ok": false,
+          "question": "Can you tell me the schedule for my Salone del Mobile 2026 trip?",
+          "rule": "Rule 2.3: no marker fired",
+          "typed": "UNRESOLVED"
+        },
+        {
+          "index": 2,
+          "markers": [
+            "\\bcoming up\\b",
+            "\\bcoming\\b"
+          ],
+          "ok": true,
+          "question": "What plans do I have for Salone del Mobile 2026 coming up?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:fatima:trip_schedule:salone_del_mobile_2026",
+      "paraphrases": [
+        "What are the details of my upcoming trip to Salone del Mobile 2026?",
+        "Can you tell me the schedule for my Salone del Mobile 2026 trip?",
+        "What plans do I have for Salone del Mobile 2026 coming up?"
+      ],
+      "persona": "fatima",
+      "question": "What plans do I have for Salone del Mobile 2026 coming up?",
+      "seed_used": 42,
+      "selected_index": 2,
+      "slot": "trip_schedule:salone_del_mobile_2026",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Jerome Baptiste",
+      "intent": "CURRENT-STATE",
+      "intent_trail": [
+        {
+          "index": 0,
+          "markers": [],
+          "ok": true,
+          "question": "What vehicle am I driving right now?",
+          "rule": "Rule 2.3: no marker fired",
+          "typed": "UNRESOLVED"
+        }
+      ],
+      "pair_id": "cf:jerome:vehicle_name",
+      "paraphrases": [
+        "What vehicle am I driving right now?",
+        "Can you tell me the name of my current car?",
+        "Which vehicle do I have at the moment?"
+      ],
+      "persona": "jerome",
+      "question": "What vehicle am I driving right now?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "vehicle_name",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Kenji Nakamura",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 0,
+          "markers": [
+            "\\bcoming up\\b",
+            "\\bcoming\\b"
+          ],
+          "ok": true,
+          "question": "What case studies are coming up in my projects?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:kenji:project:case_studies",
+      "paraphrases": [
+        "What case studies are coming up in my projects?",
+        "Can you tell me about the next case studies I have scheduled?",
+        "Which case studies am I planning to work on soon?"
+      ],
+      "persona": "kenji",
+      "question": "What case studies are coming up in my projects?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "project:case_studies",
+      "state": "RETRACTION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Kofi Mensah",
+      "intent": "CURRENT-STATE",
+      "intent_trail": [
+        {
+          "index": 2,
+          "markers": [],
+          "ok": true,
+          "question": "At this moment, what's the price I'm paying per bag?",
+          "rule": "Rule 2.3: no marker fired",
+          "typed": "UNRESOLVED"
+        }
+      ],
+      "pair_id": "cf:kofi:price_per_bag",
+      "paraphrases": [
+        "What's the current price per bag for me, Kofi Mensah?",
+        "Can you tell me how much each bag costs right now?",
+        "At this moment, what's the price I'm paying per bag?"
+      ],
+      "persona": "kofi",
+      "question": "At this moment, what's the price I'm paying per bag?",
+      "seed_used": 42,
+      "selected_index": 2,
+      "slot": "price_per_bag",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Leila Handal",
+      "intent": "CURRENT-STATE",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [],
+          "ok": true,
+          "question": "Right now, what aspects of my job don't align with my passions?",
+          "rule": "Rule 2.3: no marker fired",
+          "typed": "UNRESOLVED"
+        }
+      ],
+      "pair_id": "cf:leila:work_passion_discrepancy",
+      "paraphrases": [
+        "How different is my current work from what I'm truly passionate about?",
+        "Right now, what aspects of my job don't align with my passions?",
+        "At this moment, where do I feel the biggest gap between my work and what I love doing?"
+      ],
+      "persona": "leila",
+      "question": "Right now, what aspects of my job don't align with my passions?",
+      "seed_used": 42,
+      "selected_index": 1,
+      "slot": "work_passion_discrepancy",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Lily Chen",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 2,
+          "markers": [
+            "\\bscheduled\\b",
+            "\\bnext\\b"
+          ],
+          "ok": true,
+          "question": "What tasks are scheduled next for my honours thesis about microplastics?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:lily:project:honours_thesis_microplastics",
+      "paraphrases": [
+        "What is the deadline for my honours thesis on microplastics?",
+        "Can you tell me the next milestone I need to complete for my microplastics honours thesis?",
+        "What tasks are scheduled next for my honours thesis about microplastics?"
+      ],
+      "persona": "lily",
+      "question": "What tasks are scheduled next for my honours thesis about microplastics?",
+      "seed_used": 42,
+      "selected_index": 2,
+      "slot": "project:honours_thesis_microplastics",
+      "state": "RETRACTION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Marcus Thompson",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 2,
+          "markers": [
+            "\\bscheduled\\b"
+          ],
+          "ok": true,
+          "question": "Who is invited to Kayla's graduation party that's scheduled soon?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:marcus:event:Kayla_graduation_party",
+      "paraphrases": [
+        "What time is Kayla's graduation party coming up?",
+        "Where is the venue for Kayla's upcoming graduation party?",
+        "Who is invited to Kayla's graduation party that's scheduled soon?"
+      ],
+      "persona": "marcus",
+      "question": "Who is invited to Kayla's graduation party that's scheduled soon?",
+      "seed_used": 42,
+      "selected_index": 2,
+      "slot": "event:Kayla_graduation_party",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Marcus 'Marley' Williams",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 2,
+          "markers": [
+            "\\bcoming up\\b",
+            "\\bcoming\\b"
+          ],
+          "ok": true,
+          "question": "What travel plans do I have for the events coming up soon?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:marley:event_transportation",
+      "paraphrases": [
+        "What transportation is arranged for my upcoming events?",
+        "Can you tell me how I'll be getting to my next scheduled event?",
+        "What travel plans do I have for the events coming up soon?"
+      ],
+      "persona": "marley",
+      "question": "What travel plans do I have for the events coming up soon?",
+      "seed_used": 42,
+      "selected_index": 2,
+      "slot": "event_transportation",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Mehmet Yılmaz",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 2,
+          "markers": [
+            "\\bcoming\\b",
+            "\\bscheduled\\b"
+          ],
+          "ok": true,
+          "question": "What tasks are scheduled for me before the coming barber trade guild annual meeting?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:mehmet:preparation:barber_trade_guild_annual_meeting",
+      "paraphrases": [
+        "What do I need to prepare for the upcoming barber trade guild annual meeting?",
+        "Can you remind me of the details for the next barber trade guild annual meeting I'm attending?",
+        "What tasks are scheduled for me before the coming barber trade guild annual meeting?"
+      ],
+      "persona": "mehmet",
+      "question": "What tasks are scheduled for me before the coming barber trade guild annual meeting?",
+      "seed_used": 42,
+      "selected_index": 2,
+      "slot": "preparation:barber_trade_guild_annual_meeting",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Mirri Yunupingu",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 0,
+          "markers": [
+            "\\bupcoming\\b"
+          ],
+          "ok": true,
+          "question": "What tasks are included in my upcoming patrol schedule reorganization project?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:mirri:project:patrol_schedule_reorganization",
+      "paraphrases": [
+        "What tasks are included in my upcoming patrol schedule reorganization project?",
+        "Can you give me details on the next steps planned for the patrol schedule reorganization?",
+        "What deadlines should I be aware of for the coming patrol schedule reorganization project?"
+      ],
+      "persona": "mirri",
+      "question": "What tasks are included in my upcoming patrol schedule reorganization project?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "project:patrol_schedule_reorganization",
+      "state": "RETRACTION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Nadia Petrov",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [
+            "\\bcoming up\\b",
+            "\\bcoming\\b"
+          ],
+          "ok": true,
+          "question": "Can you tell me the status of the winter menu sauce project that's coming up?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:nadia:project:winter_menu_sauce",
+      "paraphrases": [
+        "What details do I have for the upcoming winter menu sauce project?",
+        "Can you tell me the status of the winter menu sauce project that's coming up?",
+        "What are the key points for the next winter menu sauce project I'm working on?"
+      ],
+      "persona": "nadia",
+      "question": "Can you tell me the status of the winter menu sauce project that's coming up?",
+      "seed_used": 42,
+      "selected_index": 1,
+      "slot": "project:winter_menu_sauce",
+      "state": "RETRACTION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Pornpan 'Pan' Srisai",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 0,
+          "markers": [
+            "\\bnext\\b"
+          ],
+          "ok": true,
+          "question": "What is the next Instagram post idea I have planned?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:pan:project:instagram_post_idea",
+      "paraphrases": [
+        "What is the next Instagram post idea I have planned?",
+        "Can you tell me about the upcoming Instagram post concept I’m working on?",
+        "What Instagram post idea do I have scheduled soon?"
+      ],
+      "persona": "pan",
+      "question": "What is the next Instagram post idea I have planned?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "project:instagram_post_idea",
+      "state": "RETRACTION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Patrick O'Brien",
+      "intent": "CURRENT-STATE",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [],
+          "ok": true,
+          "question": "Can you tell me the current kitchen cabinet style my partner likes?",
+          "rule": "Rule 2.3: no marker fired",
+          "typed": "UNRESOLVED"
+        }
+      ],
+      "pair_id": "cf:patrick:partner_preference:kitchen_cabinets_style",
+      "paraphrases": [
+        "What style of kitchen cabinets does my partner prefer right now?",
+        "Can you tell me the current kitchen cabinet style my partner likes?",
+        "How does my partner want the kitchen cabinets styled at the moment?"
+      ],
+      "persona": "patrick",
+      "question": "Can you tell me the current kitchen cabinet style my partner likes?",
+      "seed_used": 42,
+      "selected_index": 1,
+      "slot": "partner_preference:kitchen_cabinets_style",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Priya Sharma",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 2,
+          "markers": [
+            "\\bscheduled\\b"
+          ],
+          "ok": true,
+          "question": "What’s the scheduled deadline for my NeurIPS paper project?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:priya:project_deadline:NeurIPS_paper",
+      "paraphrases": [
+        "When is the upcoming deadline for my NeurIPS paper?",
+        "Can you tell me the date for the next NeurIPS paper submission deadline?",
+        "What’s the scheduled deadline for my NeurIPS paper project?"
+      ],
+      "persona": "priya",
+      "question": "What’s the scheduled deadline for my NeurIPS paper project?",
+      "seed_used": 42,
+      "selected_index": 2,
+      "slot": "project_deadline:NeurIPS_paper",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Raj Malhotra",
+      "intent": "CURRENT-STATE",
+      "intent_trail": [
+        {
+          "index": 2,
+          "markers": [],
+          "ok": true,
+          "question": "Can you tell me the amount set aside currently for Arjun's birthday gift?",
+          "rule": "Rule 2.3: no marker fired",
+          "typed": "UNRESOLVED"
+        }
+      ],
+      "pair_id": "cf:raj:budget:arjun_birthday_gift",
+      "paraphrases": [
+        "What's the current budget for Arjun's birthday gift?",
+        "How much money do I have allocated right now for Arjun's birthday present?",
+        "Can you tell me the amount set aside currently for Arjun's birthday gift?"
+      ],
+      "persona": "raj",
+      "question": "Can you tell me the amount set aside currently for Arjun's birthday gift?",
+      "seed_used": 42,
+      "selected_index": 2,
+      "slot": "budget:arjun_birthday_gift",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Rosa Gutierrez",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 2,
+          "markers": [
+            "\\bcoming up\\b",
+            "\\bcoming\\b"
+          ],
+          "ok": true,
+          "question": "What’s planned for the toast event I have coming up?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:rosa:event:toast_planning",
+      "paraphrases": [
+        "What details do I have for the upcoming toast planning event?",
+        "Can you tell me the schedule for my next toast planning?",
+        "What’s planned for the toast event I have coming up?"
+      ],
+      "persona": "rosa",
+      "question": "What’s planned for the toast event I have coming up?",
+      "seed_used": 42,
+      "selected_index": 2,
+      "slot": "event:toast_planning",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Saga Lindqvist",
+      "intent": "CURRENT-STATE",
+      "intent_trail": [
+        {
+          "index": 2,
+          "markers": [],
+          "ok": true,
+          "question": "Can you tell me the amount I can spend on gifts at the moment?",
+          "rule": "Rule 2.3: no marker fired",
+          "typed": "UNRESOLVED"
+        }
+      ],
+      "pair_id": "cf:saga:gift_budget",
+      "paraphrases": [
+        "What's my current budget for gifts?",
+        "How much money do I have set aside for buying presents right now?",
+        "Can you tell me the amount I can spend on gifts at the moment?"
+      ],
+      "persona": "saga",
+      "question": "Can you tell me the amount I can spend on gifts at the moment?",
+      "seed_used": 42,
+      "selected_index": 2,
+      "slot": "gift_budget",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Samuel Osei",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [
+            "\\bupcoming\\b"
+          ],
+          "ok": true,
+          "question": "Can you tell me the upcoming tasks I have for the cranial approaches textbook chapter?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:samuel:project:cranial_approaches_textbook_chapter",
+      "paraphrases": [
+        "What is the next deadline for the cranial approaches textbook chapter I'm working on?",
+        "Can you tell me the upcoming tasks I have for the cranial approaches textbook chapter?",
+        "What milestones are scheduled soon for my cranial approaches textbook chapter project?"
+      ],
+      "persona": "samuel",
+      "question": "Can you tell me the upcoming tasks I have for the cranial approaches textbook chapter?",
+      "seed_used": 42,
+      "selected_index": 1,
+      "slot": "project:cranial_approaches_textbook_chapter",
+      "state": "RETRACTION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Thanh Nguyen",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 0,
+          "markers": [
+            "\\bcoming up\\b",
+            "\\bcoming\\b"
+          ],
+          "ok": true,
+          "question": "How many guests are expected at Duc's wedding coming up?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:thanh:event_guest_count:duc_wedding",
+      "paraphrases": [
+        "How many guests are expected at Duc's wedding coming up?",
+        "What's the guest count for the upcoming Duc wedding?",
+        "Can you tell me the number of people attending Duc's wedding that's scheduled soon?"
+      ],
+      "persona": "thanh",
+      "question": "How many guests are expected at Duc's wedding coming up?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "event_guest_count:duc_wedding",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Tom Whitfield",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 0,
+          "markers": [
+            "\\bupcoming\\b"
+          ],
+          "ok": true,
+          "question": "What upcoming events do I have with the Gloucestershire Beekeepers?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf:tom:membership:gloucestershire_beekeepers",
+      "paraphrases": [
+        "What upcoming events do I have with the Gloucestershire Beekeepers?",
+        "Can you tell me about the next meetings scheduled for Gloucestershire Beekeepers that I'm part of?",
+        "What activities are planned soon for my Gloucestershire Beekeepers membership?"
+      ],
+      "persona": "tom",
+      "question": "What upcoming events do I have with the Gloucestershire Beekeepers?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "membership:gloucestershire_beekeepers",
+      "state": "RETRACTION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Valentina Herrera",
+      "intent": "CURRENT-STATE",
+      "intent_trail": [
+        {
+          "index": 0,
+          "markers": [],
+          "ok": true,
+          "question": "How am I currently using Excel in my projects?",
+          "rule": "Rule 2.3: no marker fired",
+          "typed": "UNRESOLVED"
+        }
+      ],
+      "pair_id": "cf:valentina:software_preference:excel",
+      "paraphrases": [
+        "How am I currently using Excel in my projects?",
+        "What Excel features am I relying on right now?",
+        "Which Excel templates or tools do I have open or active at the moment?"
+      ],
+      "persona": "valentina",
+      "question": "How am I currently using Excel in my projects?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "software_preference:excel",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempt": "first",
+      "entity": "Zara Ibrahim",
+      "intent": "CURRENT-STATE",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [],
+          "ok": true,
+          "question": "Can you tell me what influences my design approach at the moment?",
+          "rule": "Rule 2.3: no marker fired",
+          "typed": "UNRESOLVED"
+        }
+      ],
+      "pair_id": "cf:zara:design_philosophy_inspiration",
+      "paraphrases": [
+        "What is inspiring my design philosophy right now?",
+        "Can you tell me what influences my design approach at the moment?",
+        "What current ideas or themes am I drawing from for my design philosophy?"
+      ],
+      "persona": "zara",
+      "question": "Can you tell me what influences my design approach at the moment?",
+      "seed_used": 42,
+      "selected_index": 1,
+      "slot": "design_philosophy_inspiration",
+      "state": "SUPERSESSION"
+    }
+  ]
+}

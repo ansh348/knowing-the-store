@@ -1,0 +1,128 @@
+{
+  "census": {
+    "EXPIRY": {
+      "admissible_not_ineligible": 70,
+      "admitted": 79,
+      "admitted_by_overlap_tag": {
+        "O1": 9,
+        "O2": 4,
+        "zero-overlap": 66
+      },
+      "admitted_verdicts": {
+        "ELIGIBLE": 29,
+        "INELIGIBLE": 9,
+        "unadjudicated": 41
+      },
+      "distinct_persona_scrubbed": 62,
+      "frozen_predicate_stages_cf2": [
+        46,
+        41,
+        41,
+        41,
+        38,
+        38
+      ],
+      "o3_stages_cf2": [
+        87,
+        59,
+        53,
+        45,
+        41,
+        41
+      ],
+      "personas": 25,
+      "scope_o3": [
+        87,
+        null,
+        null,
+        null,
+        null,
+        41
+      ],
+      "scope_stages": [
+        46,
+        41,
+        41,
+        32,
+        25,
+        25
+      ]
+    },
+    "RETRACTION": {
+      "admissible_not_ineligible": 1018,
+      "admitted": 1043,
+      "admitted_by_overlap_tag": {
+        "zero-overlap": 1043
+      },
+      "admitted_verdicts": {
+        "ELIGIBLE": 1,
+        "INELIGIBLE": 25,
+        "unadjudicated": 1017
+      },
+      "distinct_persona_scrubbed": 509,
+      "frozen_predicate_stages_cf2": [
+        1590,
+        1379,
+        1173,
+        1053,
+        1048,
+        1043
+      ],
+      "o3_stages_cf2": null,
+      "personas": 40,
+      "scope_o3": null,
+      "scope_stages": [
+        1590,
+        1379,
+        1173,
+        1053,
+        1048,
+        1043
+      ]
+    },
+    "SUPERSESSION": {
+      "admissible_not_ineligible": 3130,
+      "admitted": 3133,
+      "admitted_by_overlap_tag": {
+        "zero-overlap": 3133
+      },
+      "admitted_verdicts": {
+        "INELIGIBLE": 3,
+        "unadjudicated": 3130
+      },
+      "distinct_persona_scrubbed": 2399,
+      "frozen_predicate_stages_cf2": [
+        3347,
+        3230,
+        3230,
+        3187,
+        3170,
+        3133
+      ],
+      "o3_stages_cf2": null,
+      "personas": 40,
+      "scope_o3": null,
+      "scope_stages": [
+        3347,
+        3230,
+        3230,
+        3187,
+        3170,
+        3133
+      ]
+    }
+  },
+  "no_api_calls": true,
+  "per_persona": 4,
+  "quota": {
+    "EXPIRY": 30,
+    "RETRACTION": 30,
+    "SUPERSESSION": 100
+  },
+  "scarcity_order": [
+    "EXPIRY",
+    "RETRACTION",
+    "SUPERSESSION"
+  ],
+  "seed": 42
+}

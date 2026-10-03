@@ -1,0 +1,347 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 36,
+    "in": 36738,
+    "out": 13513,
+    "usd": 0.036316
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 3,
+  "persona": "tom",
+  "probes": [
+    {
+      "domain": "Education",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "name",
+        "you"
+      ],
+      "max_cosine": 0.2729,
+      "note": "",
+      "question": "What was the name of the primary school you attended as a child?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2729,
+          "entry_id": "lb_00290",
+          "text": "User used to attend a pub quiz on Thursday evenings with a friend named Gerald."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2472,
+          "entry_id": "lb_00096",
+          "text": "User attends a pub quiz every Thursday with their friend Gerald for twelve or thirteen years"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.234,
+          "entry_id": "lb_00284",
+          "text": "User used to spend Thursday evenings at a pub quiz with their friend Gerald at The Fox."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2178,
+          "entry_id": "lb_00352",
+          "text": "User worked with David Hargreaves starting in 1987 and sat next to him for five years"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2156,
+          "entry_id": "lb_00085",
+          "text": "User attends a pub quiz every Thursday at The Fox with their friend Gerald."
+        }
+      ],
+      "why_absent": "The memory store covers education degree but not early schooling details."
+    },
+    {
+      "domain": "Culinary",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "family",
+        "recipe",
+        "you"
+      ],
+      "max_cosine": 0.3463,
+      "note": "",
+      "question": "Can you describe your favorite recipe to cook for family gatherings?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3463,
+          "entry_id": "lb_00422",
+          "text": "User makes Seville orange marmalade using Margaret's recipe annually."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3259,
+          "entry_id": "lb_00415",
+          "text": "User makes Seville orange marmalade using a recipe from his late wife."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3179,
+          "entry_id": "lb_00419",
+          "text": "User makes Seville orange marmalade using Margaret's recipe"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3167,
+          "entry_id": "lb_00173",
+          "text": "User plans to bake something to take to the village market stall"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.307,
+          "entry_id": "lb_00175",
+          "text": "User plans to bake honey flapjacks on Thursday to take to the village market stall."
+        }
+      ],
+      "why_absent": "No information about cooking habits or favorite recipes is stored."
+    },
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.3021,
+      "note": "",
+      "question": "What kind of music do you enjoy listening to when relaxing at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3021,
+          "entry_id": "lb_00241",
+          "text": "User likes to read in the garden in the afternoons when it is warm enough"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2728,
+          "entry_id": "lb_00019",
+          "text": "User listens to Radio 4 in the morning, a habit influenced by Margaret."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2641,
+          "entry_id": "lb_00099",
+          "text": "User enjoys walking and the countryside around their area"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2515,
+          "entry_id": "lb_00090",
+          "text": "User enjoys walking and appreciates the local countryside."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2464,
+          "entry_id": "lb_00236",
+          "text": "User likes nature writing that is contemplative, well-observed, and preferably British"
+        }
+      ],
+      "why_absent": "No data about musical preferences or entertainment habits is present."
+    },
+    {
+      "domain": "Volunteering",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "events",
+        "local",
+        "you"
+      ],
+      "max_cosine": 0.3425,
+      "note": "",
+      "question": "Have you ever volunteered for any local charity events? If so, which ones?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3425,
+          "entry_id": "lb_00248",
+          "text": "User is involved in village community matters and attends village events such as the village fete."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2884,
+          "entry_id": "lb_00371",
+          "text": "User has been asked to run the honey stall at the village fete again this year"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2826,
+          "entry_id": "lb_00187",
+          "text": "User has boxes of old engineering journals that have not been opened in a decade and is considering donating them to the local library."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2596,
+          "entry_id": "lb_00414",
+          "text": "User knows a few people in the local Ramblers group"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2463,
+          "entry_id": "lb_00379",
+          "text": "User runs a honey stall at the village fete annually."
+        }
+      ],
+      "why_absent": "Community involvement is noted but specific volunteer activities or charities are not detailed."
+    },
+    {
+      "domain": "Personal History",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "car",
+        "first",
+        "you"
+      ],
+      "max_cosine": 0.3644,
+      "note": "",
+      "question": "What was your first car and what memories do you have associated with it?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "FINANCIAL_MATERIAL",
+          "cosine": 0.3644,
+          "entry_id": "lb_00291",
+          "text": "User has recently bought a new car that is new to them."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2673,
+          "entry_id": "lb_00302",
+          "text": "User previously owned a 2006 Land Rover Defender"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2673,
+          "entry_id": "lb_00298",
+          "text": "User previously owned a 2006 Land Rover Defender"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2673,
+          "entry_id": "lb_00295",
+          "text": "User previously owned a 2006 Land Rover Defender"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2516,
+          "entry_id": "lb_00299",
+          "text": "User drives a Hyundai Ioniq 5 electric vehicle."
+        }
+      ],
+      "why_absent": "Vehicle use and ownership are covered but not personal history or stories about first vehicles."
+    },
+    {
+      "domain": "Travel",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.2483,
+      "note": "",
+      "question": "Do you have any favorite travel destinations or memorable trips you've taken?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2483,
+          "entry_id": "lb_00090",
+          "text": "User enjoys walking and appreciates the local countryside."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2341,
+          "entry_id": "lb_00099",
+          "text": "User enjoys walking and the countryside around their area"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1951,
+          "entry_id": "lb_00190",
+          "text": "User's daughter Sophie enjoys walking, especially in the Cotswolds."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1869,
+          "entry_id": "lb_00236",
+          "text": "User likes nature writing that is contemplative, well-observed, and preferably British"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1854,
+          "entry_id": "lb_00414",
+          "text": "User knows a few people in the local Ramblers group"
+        }
+      ],
+      "why_absent": "No travel history or favorite destinations are recorded."
+    },
+    {
+      "domain": "Leisure",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.2815,
+      "note": "",
+      "question": "What kind of movies or TV shows do you prefer watching in the evening?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2815,
+          "entry_id": "lb_00287",
+          "text": "User prefers walking in the morning as it suits them better than sitting in a pub."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2648,
+          "entry_id": "lb_00241",
+          "text": "User likes to read in the garden in the afternoons when it is warm enough"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2498,
+          "entry_id": "lb_00284",
+          "text": "User used to spend Thursday evenings at a pub quiz with their friend Gerald at The Fox."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2446,
+          "entry_id": "lb_00018",
+          "text": "User prefers to have tea first thing in the morning, a habit influenced by Margaret."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2338,
+          "entry_id": "lb_00240",
+          "text": "User is interested in British nature writing that is contemplative and well-observed but not too scientific or sentimental."
+        }
+      ],
+      "why_absent": "No information about TV or movie preferences is stored."
+    }
+  ],
+  "threshold": 0.295
+}

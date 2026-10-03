@@ -1,0 +1,209 @@
+{
+ "cell": {
+  "composition": {
+   "ABSENT": 7,
+   "PN": 12,
+   "PRESENT": 17
+  },
+  "n": 36,
+  "personas": 29
+ },
+ "index_oracle_n36": {
+  "auroc": 0.6041666666666666,
+  "pn_named": 3,
+  "registered_99cell_value": 0.5379
+ },
+ "lanes": {
+  "MINI": {
+   "NS1_blind_at_chance": true,
+   "NS2_delta_excludes_zero_positive": false,
+   "cells": {
+    "fok": {
+     "blind_auroc": 0.5788177339901478,
+     "blind_one_sample": {
+      "ci_hi": 0.808066502463054,
+      "ci_lo": 0.34838709677419355,
+      "includes_0.50": true,
+      "point": 0.5788177339901478
+     },
+     "degeneracy": {
+      "blind": {
+       "distinct": 4,
+       "modal_share": 0.4722222222222222
+      },
+      "indexed": {
+       "distinct": 7,
+       "modal_share": 0.3333333333333333
+      }
+     },
+     "indexed_auroc": 0.8866995073891626,
+     "n": 36,
+     "paired_delta": {
+      "ci_hi": 0.5222222222222221,
+      "ci_lo": 0.11330049261083741,
+      "excludes_zero": true,
+      "mean": 0.3109640609167905,
+      "n": 1000
+     },
+     "pos": 29
+    },
+    "nok": {
+     "blind_auroc": 0.4774305555555556,
+     "blind_one_sample": {
+      "ci_hi": 0.6622867892976588,
+      "ci_lo": 0.2990709358576206,
+      "includes_0.50": true,
+      "point": 0.4774305555555556
+     },
+     "degeneracy": {
+      "blind": {
+       "distinct": 4,
+       "modal_share": 0.6388888888888888
+      },
+      "indexed": {
+       "distinct": 9,
+       "modal_share": 0.3888888888888889
+      }
+     },
+     "indexed_auroc": 0.6770833333333334,
+     "n": 36,
+     "paired_delta": {
+      "ci_hi": 0.4984210055466094,
+      "ci_lo": -0.11209727772227772,
+      "excludes_zero": false,
+      "mean": 0.2027648355002359,
+      "n": 1000
+     },
+     "pos": 12
+    }
+   },
+   "dispersion_ratio_blind_over_indexed": 0.44649548361869845,
+   "lane": "MINI",
+   "parse_failures": {
+    "BLIND": {
+     "failed": 0,
+     "flagged": false,
+     "of": 108,
+     "rate": 0.0
+    },
+    "INDEXED-TRUE": {
+     "failed": 0,
+     "flagged": false,
+     "of": 108,
+     "rate": 0.0
+    }
+   },
+   "spend_usd": 0.0994,
+   "stability": {
+    "BLIND": {
+     "draws_per_item": 3,
+     "items_all_draws_identical": 19,
+     "items_scored": 36,
+     "mean_per_item_nok_sd": 0.05425576613746456
+    },
+    "INDEXED-TRUE": {
+     "draws_per_item": 3,
+     "items_all_draws_identical": 17,
+     "items_scored": 36,
+     "mean_per_item_nok_sd": 0.02422495454065024
+    }
+   }
+  },
+  "OP5": {
+   "NS1_blind_at_chance": true,
+   "NS2_delta_excludes_zero_positive": true,
+   "cells": {
+    "fok": {
+     "blind_auroc": 0.6674876847290641,
+     "blind_one_sample": {
+      "ci_hi": 0.8601080246913579,
+      "ci_lo": 0.42907792207792206,
+      "includes_0.50": true,
+      "point": 0.6674876847290641
+     },
+     "degeneracy": {
+      "blind": {
+       "distinct": 32,
+       "modal_share": 0.05555555555555555
+      },
+      "indexed": {
+       "distinct": 35,
+       "modal_share": 0.05555555555555555
+      }
+     },
+     "indexed_auroc": 1.0,
+     "n": 36,
+     "paired_delta": {
+      "ci_hi": 0.5709220779220779,
+      "ci_lo": 0.139891975308642,
+      "excludes_zero": true,
+      "mean": 0.3372376685396881,
+      "n": 1000
+     },
+     "pos": 29
+    },
+    "nok": {
+     "blind_auroc": 0.3993055555555556,
+     "blind_one_sample": {
+      "ci_hi": 0.6231648007165248,
+      "ci_lo": 0.20077438186813187,
+      "includes_0.50": true,
+      "point": 0.3993055555555556
+     },
+     "degeneracy": {
+      "blind": {
+       "distinct": 32,
+       "modal_share": 0.08333333333333333
+      },
+      "indexed": {
+       "distinct": 31,
+       "modal_share": 0.05555555555555555
+      }
+     },
+     "indexed_auroc": 0.6961805555555556,
+     "n": 36,
+     "paired_delta": {
+      "ci_hi": 0.529244227994228,
+      "ci_lo": 0.07524456521739131,
+      "excludes_zero": true,
+      "mean": 0.2977956509351911,
+      "n": 1000
+     },
+     "pos": 12
+    }
+   },
+   "dispersion_ratio_blind_over_indexed": 1.2087406244404486,
+   "lane": "OP5",
+   "parse_failures": {
+    "BLIND": {
+     "failed": 0,
+     "flagged": false,
+     "of": 180,
+     "rate": 0.0
+    },
+    "INDEXED-TRUE": {
+     "failed": 0,
+     "flagged": false,
+     "of": 180,
+     "rate": 0.0
+    }
+   },
+   "spend_usd": 2.3739,
+   "stability": {
+    "BLIND": {
+     "draws_per_item": 5,
+     "items_all_draws_identical": 0,
+     "items_scored": 36,
+     "mean_per_item_nok_sd": 0.03494467882315366
+    },
+    "INDEXED-TRUE": {
+     "draws_per_item": 5,
+     "items_all_draws_identical": 0,
+     "items_scored": 36,
+     "mean_per_item_nok_sd": 0.04223905290156968
+    }
+   }
+  }
+ },
+ "registration": "ADDENDUM_R74 SX5 @ 35f8416a55; launch per D-R74-10"
+}

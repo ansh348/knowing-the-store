@@ -1,0 +1,15 @@
+# DEVIATIONS_R122 — decisions the brief did not settle, decided by the nearest recorded precedent (2026-09-19)
+
+Each is recorded before the freeze and before any call or scoring; none is a change to a frozen registration.
+
+## D-R122-1 (T3): temperature for GPT-4.1 mini at five draws
+
+The brief: "temperature and other settings as the Haiku 4.5 and Opus 5 lanes used (provider default where they left it unset)". The two lanes disagree (`r82_counterfactual/tools/run_cf.py` `LANES`): Haiku 4.5 temperature 0, `max_tokens` 200; Opus 5 temperature unset, `max_tokens` 1,024. Decision: **temperature unset (the provider default), `max_tokens` 200.** Why: the parenthetical names the case that applies to Opus 5 only; the nearest recorded precedent for an OpenAI five-draw lane on this set, E5 (`ADDENDUM_CF2_OPENAI.md`, Luna and Sol), left temperature unset; and the prediction's tied-triple clause presupposes draws that vary, which a non-reasoning model at temperature 0 barely gives. `max_tokens` 200 is the recorded mini lane's own value and Haiku's. The five-draw row therefore differs from the recorded one-draw row in temperature as well as in draws, and prints with that stated. The alternative (temperature 0 at five draws) is not run.
+
+## D-R122-2 (T5): the budget match
+
+The brief: "each budget-matched to the model rule's mean view size by truncating the similarity fill (report the achieved mean)". Integer truncations of the similarity fill cannot hit the MODEL rule's 5.4342 (the TAGGED family's means are the integers 5 … 10; ALWAYS-FETCH's are k plus the fetched mean). Decision: **Amendment 6's rule** (`ADDENDUM_DS_AMENDMENT_6.md` §A6.4, the only recorded precedent for matching a non-integer mean view): linear interpolation between the two integer truncations whose means bracket the target, the weight fixed from the full-population means, the intervals resampling the items once per draw and interpolating with the fixed weight. The bracketing integer rows print beside the matched row; the match at the MODEL rule's mean over the 104 (7.0769, Section 8's basis) prints beside the registered 661 match. Two further choices inside RECENCY, fixed in the registration with no precedent to cite: ties at the smallest age are all kept, and entries with no attribute are kept (a "newest per attribute" rule has nothing to say about them); the best-matched name's ties go to the first name in sorted order.
+
+## D-R122-3 (all): where the registrations and the ledger live
+
+R117's mechanics put frozen registrations at `registrations/` and results in the topic ledgers (`cf2/NUMBERS_CF2.md`, `ds_downstream/NUMBERS_DS.md`). The brief fences this session to `reviews/r122/` and forbids editing frozen registrations; `NUMBERS_CF2.md` is modified in another session's working tree. Decision: registrations at `reviews/r122/registrations/`, frozen by hash in `reviews/r122/FREEZE_R122.md`; the ledger `reviews/r122/NUMBERS_R122.md`; rows and results under `reviews/r122/`. The main session can copy the frozen files to the canonical paths at landing without changing a byte above their markers.

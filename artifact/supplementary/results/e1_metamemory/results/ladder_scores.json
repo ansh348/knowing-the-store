@@ -1,0 +1,390 @@
+{
+  "P1": {
+    "ci": [
+      0.42991977400301196,
+      0.6869423462566845
+    ],
+    "includes_0.50": true,
+    "point": 0.5585227272727272,
+    "verdict": "HOLDS"
+  },
+  "P2": {
+    "holds": true,
+    "luna": 0.674537037037037,
+    "mini": 0.5266666666666666,
+    "sol": 0.8130555555555555
+  },
+  "P3": {
+    "holds": true,
+    "luna": 0.16820987654320996,
+    "mini": 0.2601851851851852,
+    "sol": 0.03641975308641976
+  },
+  "P4": {
+    "ci": [
+      0.1695545901665396,
+      0.4171942661676939
+    ],
+    "delta": 0.29403409090909094,
+    "holds": true
+  },
+  "dispersion": {
+    "luna": {
+      "blind_mean_sd": 0.17563851057881227,
+      "indexed_mean_sd": 0.09872391256963471,
+      "ratio_indexed_over_blind": 0.5620857990898042
+    },
+    "mini": {
+      "blind_mean_sd": 0.0069282032302755096,
+      "indexed_mean_sd": null,
+      "note": "mini has k=3 on the BLIND arm only (50 questions); no multi-draw indexed arm exists, so no ratio is computable"
+    },
+    "sol": {
+      "blind_mean_sd": 0.11910633546517901,
+      "indexed_mean_sd": 0.07013485153469515,
+      "ratio_indexed_over_blind": 0.5888423253118993
+    }
+  },
+  "headline": {
+    "claim": "scale buys coverage discrimination, not obligation awareness",
+    "rule": "SUPPORTED iff P1 and P4 both hold",
+    "supported": true
+  },
+  "k": 5,
+  "ladder": {
+    "FR-Bank FOK": {
+      "luna": {
+        "blind": 0.5734567901234567,
+        "blind_ci": {
+          "ci_hi": 0.7010227045620508,
+          "ci_lo": 0.4548310396342801,
+          "includes_0.50": true,
+          "point": 0.5734567901234567
+        },
+        "bootstrap": {
+          "ci_hi": 0.3032959367641287,
+          "ci_lo": 0.034026428935194634,
+          "excludes_zero": true,
+          "mean": 0.16343130575176662,
+          "n": 1000
+        },
+        "delta": 0.16820987654320996,
+        "indexed": 0.7416666666666667,
+        "indexed_ci": {
+          "ci_hi": 0.8440244354400356,
+          "ci_lo": 0.624384765625,
+          "includes_0.50": false,
+          "point": 0.7416666666666667
+        },
+        "mean_blind": 0.41554761904761905,
+        "mean_indexed": 0.6385714285714286,
+        "n": 84,
+        "n_pos": 54
+      },
+      "mini": {
+        "blind": 0.4487654320987654,
+        "blind_ci": {
+          "ci_hi": 0.572130261803237,
+          "ci_lo": 0.3299267964470481,
+          "includes_0.50": true,
+          "point": 0.4487654320987654
+        },
+        "bootstrap": {
+          "ci_hi": 0.42130150953389833,
+          "ci_lo": 0.08506259137426898,
+          "excludes_zero": true,
+          "mean": 0.2593840583642255,
+          "n": 1000
+        },
+        "delta": 0.2601851851851852,
+        "indexed": 0.7089506172839506,
+        "indexed_ci": {
+          "ci_hi": 0.8104349536860924,
+          "ci_lo": 0.5840032750880452,
+          "includes_0.50": false,
+          "point": 0.7089506172839506
+        },
+        "mean_blind": 0.2142857142857143,
+        "mean_indexed": 0.38392857142857145,
+        "n": 84,
+        "n_pos": 54
+      },
+      "sol": {
+        "blind": 0.7098765432098766,
+        "blind_ci": {
+          "ci_hi": 0.8330462780540179,
+          "ci_lo": 0.5722103528911564,
+          "includes_0.50": false,
+          "point": 0.7098765432098766
+        },
+        "bootstrap": {
+          "ci_hi": 0.15997850057781196,
+          "ci_lo": -0.09301887613513374,
+          "excludes_zero": false,
+          "mean": 0.03420279922240424,
+          "n": 1000
+        },
+        "delta": 0.03641975308641976,
+        "indexed": 0.7462962962962963,
+        "indexed_ci": {
+          "ci_hi": 0.8539580147377254,
+          "ci_lo": 0.6264276180446708,
+          "includes_0.50": false,
+          "point": 0.7462962962962963
+        },
+        "mean_blind": 0.5427857142857143,
+        "mean_indexed": 0.7575238095238095,
+        "n": 84,
+        "n_pos": 54
+      }
+    },
+    "FR-Bank NOK": {
+      "luna": {
+        "blind": 0.5585227272727272,
+        "blind_ci": {
+          "ci_hi": 0.6869423462566845,
+          "ci_lo": 0.42991977400301196,
+          "includes_0.50": true,
+          "point": 0.5585227272727272
+        },
+        "bootstrap": {
+          "ci_hi": 0.4171942661676939,
+          "ci_lo": 0.1695545901665396,
+          "excludes_zero": true,
+          "mean": 0.29210109974964565,
+          "n": 1000
+        },
+        "delta": 0.29403409090909094,
+        "indexed": 0.8525568181818182,
+        "indexed_ci": {
+          "ci_hi": 0.9296553203661327,
+          "ci_lo": 0.7584273061497326,
+          "includes_0.50": false,
+          "point": 0.8525568181818182
+        },
+        "mean_blind": 0.10166666666666667,
+        "mean_indexed": 0.2460952380952381,
+        "n": 84,
+        "n_pos": 40
+      },
+      "mini": {
+        "blind": 0.5,
+        "blind_ci": {
+          "ci_hi": 0.5,
+          "ci_lo": 0.5,
+          "includes_0.50": true,
+          "point": 0.5
+        },
+        "bootstrap": {
+          "ci_hi": 0.3069628170901054,
+          "ci_lo": 0.12419357144257413,
+          "excludes_zero": true,
+          "mean": 0.21450947476998067,
+          "n": 1000
+        },
+        "delta": 0.2139204545454545,
+        "indexed": 0.7139204545454545,
+        "indexed_ci": {
+          "ci_hi": 0.8069628170901054,
+          "ci_lo": 0.6241935714425741,
+          "includes_0.50": false,
+          "point": 0.7139204545454545
+        },
+        "mean_blind": 0.0,
+        "mean_indexed": 0.10595238095238095,
+        "n": 84,
+        "n_pos": 40
+      },
+      "sol": {
+        "blind": 0.5289772727272727,
+        "blind_ci": {
+          "ci_hi": 0.6493384628214597,
+          "ci_lo": 0.4050010594118145,
+          "includes_0.50": true,
+          "point": 0.5289772727272727
+        },
+        "bootstrap": {
+          "ci_hi": 0.4469702067042491,
+          "ci_lo": 0.19942973856209154,
+          "excludes_zero": true,
+          "mean": 0.32967084354483767,
+          "n": 1000
+        },
+        "delta": 0.32982954545454546,
+        "indexed": 0.8588068181818181,
+        "indexed_ci": {
+          "ci_hi": 0.9318352627236631,
+          "ci_lo": 0.7644673295454546,
+          "includes_0.50": false,
+          "point": 0.8588068181818181
+        },
+        "mean_blind": 0.2179047619047619,
+        "mean_indexed": 0.38521428571428573,
+        "n": 84,
+        "n_pos": 40
+      }
+    }
+  },
+  "luna:FR-Bank primary:fok": {
+    "blind": 0.5734567901234567,
+    "blind_ci": {
+      "ci_hi": 0.7010227045620508,
+      "ci_lo": 0.4548310396342801,
+      "includes_0.50": true,
+      "point": 0.5734567901234567
+    },
+    "bootstrap": {
+      "ci_hi": 0.3032959367641287,
+      "ci_lo": 0.034026428935194634,
+      "excludes_zero": true,
+      "mean": 0.16343130575176662,
+      "n": 1000
+    },
+    "delta": 0.16820987654320996,
+    "indexed": 0.7416666666666667,
+    "indexed_ci": {
+      "ci_hi": 0.8440244354400356,
+      "ci_lo": 0.624384765625,
+      "includes_0.50": false,
+      "point": 0.7416666666666667
+    },
+    "mean_blind": 0.41554761904761905,
+    "mean_indexed": 0.6385714285714286,
+    "n": 84,
+    "n_pos": 54
+  },
+  "luna:FR-Bank primary:nok": {
+    "blind": 0.5585227272727272,
+    "blind_ci": {
+      "ci_hi": 0.6869423462566845,
+      "ci_lo": 0.42991977400301196,
+      "includes_0.50": true,
+      "point": 0.5585227272727272
+    },
+    "bootstrap": {
+      "ci_hi": 0.4171942661676939,
+      "ci_lo": 0.1695545901665396,
+      "excludes_zero": true,
+      "mean": 0.29210109974964565,
+      "n": 1000
+    },
+    "delta": 0.29403409090909094,
+    "indexed": 0.8525568181818182,
+    "indexed_ci": {
+      "ci_hi": 0.9296553203661327,
+      "ci_lo": 0.7584273061497326,
+      "includes_0.50": false,
+      "point": 0.8525568181818182
+    },
+    "mean_blind": 0.10166666666666667,
+    "mean_indexed": 0.2460952380952381,
+    "n": 84,
+    "n_pos": 40
+  },
+  "luna:all 150:fok": {
+    "blind": 0.674537037037037,
+    "blind_ci": {
+      "ci_hi": 0.761819088999236,
+      "ci_lo": 0.5788939198540048,
+      "includes_0.50": false,
+      "point": 0.674537037037037
+    },
+    "bootstrap": {
+      "ci_hi": 0.0899664400413631,
+      "ci_lo": -0.1177261283941737,
+      "excludes_zero": false,
+      "mean": -0.012499967211226816,
+      "n": 1000
+    },
+    "delta": -0.009351851851851833,
+    "indexed": 0.6651851851851852,
+    "indexed_ci": {
+      "ci_hi": 0.7452585872218073,
+      "ci_lo": 0.5650917567815249,
+      "includes_0.50": false,
+      "point": 0.6651851851851852
+    },
+    "mean_blind": 0.39364,
+    "mean_indexed": 0.5309466666666667,
+    "n": 150,
+    "n_pos": 90
+  },
+  "luna:all 150:nok": {
+    "blind": 0.5786363636363636,
+    "blind_ci": {
+      "ci_hi": 0.6750704887218045,
+      "ci_lo": 0.47869386638502953,
+      "includes_0.50": true,
+      "point": 0.5786363636363636
+    },
+    "bootstrap": {
+      "ci_hi": 0.41727485405928894,
+      "ci_lo": 0.19787968975468975,
+      "excludes_zero": true,
+      "mean": 0.3094521423802754,
+      "n": 1000
+    },
+    "delta": 0.30761363636363637,
+    "indexed": 0.88625,
+    "indexed_ci": {
+      "ci_hi": 0.9434801586888928,
+      "ci_lo": 0.8246790276564722,
+      "includes_0.50": false,
+      "point": 0.88625
+    },
+    "mean_blind": 0.09176000000000001,
+    "mean_indexed": 0.16564,
+    "n": 150,
+    "n_pos": 40
+  },
+  "luna:external:fok": {
+    "blind": 0.7893518518518519,
+    "blind_ci": {
+      "ci_hi": 0.9060061443932411,
+      "ci_lo": 0.6690447984749455,
+      "includes_0.50": false,
+      "point": 0.7893518518518519
+    },
+    "bootstrap": {
+      "ci_hi": -0.18105875282805428,
+      "ci_lo": -0.48959446225071224,
+      "excludes_zero": true,
+      "mean": -0.33786944527710505,
+      "n": 1000
+    },
+    "delta": -0.33796296296296297,
+    "indexed": 0.4513888888888889,
+    "indexed_ci": {
+      "ci_hi": 0.59096833246722,
+      "ci_lo": 0.32641047707770365,
+      "includes_0.50": true,
+      "point": 0.4513888888888889
+    },
+    "mean_blind": 0.3657575757575758,
+    "mean_indexed": 0.39396969696969697,
+    "n": 66,
+    "n_pos": 36
+  },
+  "model": "gpt-5.6-luna",
+  "n_calls": 1500,
+  "n_excluded": 0,
+  "prompt_texts_sha256": "35d9b968ffc0b008289a59b06f10b7d23f71658c648dd2865a46e8da15d495f2",
+  "reproducibility": {
+    "luna": {
+      "cells": 300,
+      "frac_identical": 0.0033333333333333335,
+      "identical": 1,
+      "max_sd": 0.37583240945932267,
+      "mean_sd": 0.1371812115742235,
+      "median_sd": 0.130384048104053
+    },
+    "sol": {
+      "cells": 300,
+      "frac_identical": 0.01,
+      "identical": 3,
+      "max_sd": 0.28209927330640183,
+      "mean_sd": 0.09462059349993708,
+      "median_sd": 0.08366600265340758
+    }
+  }
+}

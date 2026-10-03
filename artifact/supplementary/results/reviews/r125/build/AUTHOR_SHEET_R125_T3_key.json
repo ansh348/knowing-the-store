@@ -1,0 +1,428 @@
+{
+ "control_pool": 79,
+ "n_controls": 20,
+ "n_unmarked": 22,
+ "rows": [
+  {
+   "cov": 0.5714,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00145",
+   "own_marked": true,
+   "row": 1
+  },
+  {
+   "cov": 0.8889,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00082",
+   "own_marked": false,
+   "row": 2
+  },
+  {
+   "cov": 0.3333,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:rosa:rosa_q06:CAT-ABLATED",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00233",
+   "own_marked": true,
+   "row": 3
+  },
+  {
+   "cov": 1.0,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:elena:elena_q01:FULL",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00015",
+   "own_marked": false,
+   "row": 4
+  },
+  {
+   "cov": 1.0,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:samuel:samuel_q02:SLOT-ABLATED",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00093",
+   "own_marked": true,
+   "row": 5
+  },
+  {
+   "cov": 1.0,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:saga:saga_q01:FULL",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00002",
+   "own_marked": true,
+   "row": 6
+  },
+  {
+   "cov": 0.5714,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:bruna:bruna_q06:FULL",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00174",
+   "own_marked": true,
+   "row": 7
+  },
+  {
+   "cov": 0.4286,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:david:david_q06:CAT-ABLATED",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00173",
+   "own_marked": true,
+   "row": 8
+  },
+  {
+   "cov": 1.0,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:nadia:nadia_q02:SLOT-ABLATED",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00088",
+   "own_marked": true,
+   "row": 9
+  },
+  {
+   "cov": 1.0,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:lily:lily_q01:SLOT-ABLATED",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00128",
+   "own_marked": true,
+   "row": 10
+  },
+  {
+   "cov": 1.0,
+   "entry_is_member": false,
+   "is_control": true,
+   "item_id": "frbank:aisha:aisha_q03:FULL",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00413",
+   "own_marked": true,
+   "row": 11
+  },
+  {
+   "cov": 0.8333,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:lily:lily_q06:FULL",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00166",
+   "own_marked": false,
+   "row": 12
+  },
+  {
+   "cov": 0.8,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:nadia:nadia_q06:FULL",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00180",
+   "own_marked": true,
+   "row": 13
+  },
+  {
+   "cov": 0.3333,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:rosa:rosa_q06:FULL",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00233",
+   "own_marked": true,
+   "row": 14
+  },
+  {
+   "cov": 0.6667,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00162",
+   "own_marked": true,
+   "row": 15
+  },
+  {
+   "cov": 1.0,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:aroha:aroha_q03:FULL",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00085",
+   "own_marked": true,
+   "row": 16
+  },
+  {
+   "cov": 0.75,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00115",
+   "own_marked": true,
+   "row": 17
+  },
+  {
+   "cov": 0.8,
+   "entry_is_member": false,
+   "is_control": false,
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00263",
+   "own_marked": true,
+   "row": 18
+  },
+  {
+   "cov": 0.8571,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:jerome:jerome_q02:CAT-ABLATED",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00011",
+   "own_marked": true,
+   "row": 19
+  },
+  {
+   "cov": 0.5714,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:joonho:joonho_q04:FULL",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00145",
+   "own_marked": true,
+   "row": 20
+  },
+  {
+   "cov": 0.6,
+   "entry_is_member": false,
+   "is_control": false,
+   "item_id": "frbank:fatima:fatima_q06:SLOT-ABLATED",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00188",
+   "own_marked": true,
+   "row": 21
+  },
+  {
+   "cov": 0.6,
+   "entry_is_member": false,
+   "is_control": false,
+   "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00230",
+   "own_marked": false,
+   "row": 22
+  },
+  {
+   "cov": 1.0,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:raj:raj_q02:FULL",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00115",
+   "own_marked": true,
+   "row": 23
+  },
+  {
+   "cov": 0.4286,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:david:david_q06:FULL",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00173",
+   "own_marked": true,
+   "row": 24
+  },
+  {
+   "cov": 0.4286,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:bruna:bruna_q06:CAT-ABLATED",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00185",
+   "own_marked": true,
+   "row": 25
+  },
+  {
+   "cov": 0.8333,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:kofi:kofi_q01:SLOT-ABLATED",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00014",
+   "own_marked": false,
+   "row": 26
+  },
+  {
+   "cov": 0.8333,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:saga:saga_q02:FULL",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00085",
+   "own_marked": true,
+   "row": 27
+  },
+  {
+   "cov": 0.5714,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:bruna:bruna_q06:SLOT-ABLATED",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00174",
+   "own_marked": true,
+   "row": 28
+  },
+  {
+   "cov": 0.8333,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:tom:tom_q06:FULL",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00148",
+   "own_marked": true,
+   "row": 29
+  },
+  {
+   "cov": 0.6,
+   "entry_is_member": false,
+   "is_control": false,
+   "item_id": "frbank:ingrid:ingrid_q04:SLOT-ABLATED",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00230",
+   "own_marked": false,
+   "row": 30
+  },
+  {
+   "cov": 0.4,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:marcus:marcus_q10:FULL",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00132",
+   "own_marked": true,
+   "row": 31
+  },
+  {
+   "cov": 0.75,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00115",
+   "own_marked": true,
+   "row": 32
+  },
+  {
+   "cov": 0.3333,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:rosa:rosa_q06:SLOT-ABLATED",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00233",
+   "own_marked": true,
+   "row": 33
+  },
+  {
+   "cov": 0.875,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:mirri:mirri_q01:SLOT-ABLATED",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00006",
+   "own_marked": true,
+   "row": 34
+  },
+  {
+   "cov": 0.875,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00017",
+   "own_marked": true,
+   "row": 35
+  },
+  {
+   "cov": 1.0,
+   "entry_is_member": false,
+   "is_control": true,
+   "item_id": "frbank:aisha:aisha_q03:SLOT-ABLATED",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00413",
+   "own_marked": true,
+   "row": 36
+  },
+  {
+   "cov": 0.8,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:zara:zara_q02:CAT-ABLATED",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00096",
+   "own_marked": true,
+   "row": 37
+  },
+  {
+   "cov": 0.4,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:marcus:marcus_q10:CAT-ABLATED",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00132",
+   "own_marked": false,
+   "row": 38
+  },
+  {
+   "cov": 0.6,
+   "entry_is_member": false,
+   "is_control": false,
+   "item_id": "frbank:ingrid:ingrid_q04:FULL",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00230",
+   "own_marked": false,
+   "row": 39
+  },
+  {
+   "cov": 0.875,
+   "entry_is_member": true,
+   "is_control": true,
+   "item_id": "frbank:mirri:mirri_q01:FULL",
+   "join_marked_0.80": true,
+   "nearest_entry": "lb_00006",
+   "own_marked": true,
+   "row": 40
+  },
+  {
+   "cov": 0.6667,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:dariush:dariush_q04:FULL",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00162",
+   "own_marked": true,
+   "row": 41
+  },
+  {
+   "cov": 0.5714,
+   "entry_is_member": true,
+   "is_control": false,
+   "item_id": "frbank:mirri:mirri_q04:CAT-ABLATED",
+   "join_marked_0.80": false,
+   "nearest_entry": "lb_00160",
+   "own_marked": false,
+   "row": 42
+  }
+ ],
+ "seed": 42
+}

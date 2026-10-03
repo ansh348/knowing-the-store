@@ -1,0 +1,39 @@
+{
+ "units": [
+  "e1",
+  "e2",
+  "p1",
+  "p2"
+ ],
+ "n": 71,
+ "edits": [
+  {
+   "unit": "e1",
+   "file": "body",
+   "old": "on explicit intent questions and, pooled only, in two further conditions",
+   "new": "on explicit intent questions, on a $60$-name list and, pooled only, in two further conditions",
+   "note": "R144 E1 (builders box)"
+  },
+  {
+   "unit": "e2",
+   "file": "abstract",
+   "old": "The three stronger readers lead only where the summary counts a state without naming it,",
+   "new": "On the short lists the three stronger readers lead only where the summary counts a state without naming it,",
+   "note": "R144 E2 (abstract)"
+  },
+  {
+   "unit": "p1",
+   "file": "body",
+   "old": " \\mbox{GPT-4.1} mini drafted the questions and is also a reader, the weakest.",
+   "new": "",
+   "note": "R144 payer P1 (Limitations)"
+  },
+  {
+   "unit": "p2",
+   "file": "body",
+   "old": " Kimi K3, the one open-weights model, completed only the cross-vendor replication.",
+   "new": "",
+   "note": "R144 payer P2 (Limitations)"
+  }
+ ]
+}

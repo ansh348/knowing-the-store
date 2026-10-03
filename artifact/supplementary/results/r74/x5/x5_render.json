@@ -1,0 +1,563 @@
+{
+ "cell": {
+  "composition": {
+   "ABSENT": 7,
+   "PN": 12,
+   "PRESENT": 17
+  },
+  "n": 36,
+  "personas": 29
+ },
+ "registration": "ADDENDUM_R74 SX5 @ 35f8416a55",
+ "rows": [
+  {
+   "entity": "Aisha",
+   "extracted": {
+    "entity": "Aisha",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:aisha:vehicle",
+   "label": "ABSENT",
+   "persona": "aisha",
+   "rendered_question": "What vehicle does Aisha drive these days?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Aisha's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Alex",
+   "extracted": {
+    "entity": "Alex",
+    "intent": "CURRENT",
+    "slot": "relationship"
+   },
+   "item_id": "ns:alex:relationship",
+   "label": "PRESENT",
+   "persona": "alex",
+   "rendered_question": "What's Alex's current relationship status these days?",
+   "slot": "relationship",
+   "template_question": "As of today, what is Alex's current relationship?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Alex",
+   "extracted": {
+    "entity": "Alex",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:alex:vehicle",
+   "label": "ABSENT",
+   "persona": "alex",
+   "rendered_question": "What car does Alex drive these days?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Alex's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Amara",
+   "extracted": {
+    "entity": "Amara",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:amara:vehicle",
+   "label": "ABSENT",
+   "persona": "amara",
+   "rendered_question": "What car does Amara drive these days?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Amara's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Aroha",
+   "extracted": {
+    "entity": "Aroha",
+    "intent": "CURRENT",
+    "slot": "relationship"
+   },
+   "item_id": "ns:aroha:relationship",
+   "label": "PRESENT",
+   "persona": "aroha",
+   "rendered_question": "What's Aroha's current relationship, as it stands today?",
+   "slot": "relationship",
+   "template_question": "As of today, what is Aroha's current relationship?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Aroha",
+   "extracted": {
+    "entity": "Aroha",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:aroha:vehicle",
+   "label": "PN",
+   "persona": "aroha",
+   "rendered_question": "What vehicle does Aroha currently drive?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Aroha's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "William",
+   "extracted": {
+    "entity": "William",
+    "intent": "CURRENT",
+    "slot": "research_focus"
+   },
+   "item_id": "ns:billy:research_focus",
+   "label": "PN",
+   "persona": "billy",
+   "rendered_question": "What is William currently focusing on in his research these days?",
+   "slot": "research_focus",
+   "template_question": "As of today, what is William's current research focus?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "William",
+   "extracted": {
+    "entity": "William",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:billy:vehicle",
+   "label": "PRESENT",
+   "persona": "billy",
+   "rendered_question": "What car is William driving these days?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is William's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Bruna",
+   "extracted": {
+    "entity": "Bruna",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:bruna:vehicle",
+   "label": "ABSENT",
+   "persona": "bruna",
+   "rendered_question": "What car is Bruna driving these days?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Bruna's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Callum",
+   "extracted": {
+    "entity": "Callum",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:callum:vehicle",
+   "label": "PN",
+   "persona": "callum",
+   "rendered_question": "What vehicle does Callum drive these days?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Callum's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Chenoa",
+   "extracted": {
+    "entity": "Chenoa",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:chenoa:vehicle",
+   "label": "PN",
+   "persona": "chenoa",
+   "rendered_question": "What car is Chenoa driving these days?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Chenoa's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Dariush",
+   "extracted": {
+    "entity": "Dariush",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:dariush:vehicle",
+   "label": "ABSENT",
+   "persona": "dariush",
+   "rendered_question": "What car does Dariush drive these days?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Dariush's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "David",
+   "extracted": {
+    "entity": "David",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:david:vehicle",
+   "label": "PN",
+   "persona": "david",
+   "rendered_question": "What car does David drive these days?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is David's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Diane",
+   "extracted": {
+    "entity": "Diane",
+    "intent": "CURRENT",
+    "slot": "hobby"
+   },
+   "item_id": "ns:diane:hobby",
+   "label": "PN",
+   "persona": "diane",
+   "rendered_question": "What hobby is Diane really into these days?",
+   "slot": "hobby",
+   "template_question": "As of today, what is Diane's current hobby?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Elena",
+   "extracted": {
+    "entity": "Elena",
+    "intent": "CURRENT",
+    "slot": "relationship"
+   },
+   "item_id": "ns:elena:relationship",
+   "label": "PN",
+   "persona": "elena",
+   "rendered_question": "What's Elena's current relationship status these days?",
+   "slot": "relationship",
+   "template_question": "As of today, what is Elena's current relationship?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Fatima",
+   "extracted": {
+    "entity": "Fatima",
+    "intent": "CURRENT",
+    "slot": "hobby"
+   },
+   "item_id": "ns:fatima:hobby",
+   "label": "PRESENT",
+   "persona": "fatima",
+   "rendered_question": "What's Fatima's current hobby these days?",
+   "slot": "hobby",
+   "template_question": "As of today, what is Fatima's current hobby?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Ingrid",
+   "extracted": {
+    "entity": "Ingrid",
+    "intent": "CURRENT",
+    "slot": "hobby"
+   },
+   "item_id": "ns:ingrid:hobby",
+   "label": "PRESENT",
+   "persona": "ingrid",
+   "rendered_question": "What is Ingrid's current hobby these days?",
+   "slot": "hobby",
+   "template_question": "As of today, what is Ingrid's current hobby?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Ingrid",
+   "extracted": {
+    "entity": "Ingrid",
+    "intent": "CURRENT",
+    "slot": "relationship"
+   },
+   "item_id": "ns:ingrid:relationship",
+   "label": "PRESENT",
+   "persona": "ingrid",
+   "rendered_question": "What is Ingrid's current relationship as of today?",
+   "slot": "relationship",
+   "template_question": "As of today, what is Ingrid's current relationship?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Ingrid",
+   "extracted": {
+    "entity": "Ingrid",
+    "intent": "CURRENT",
+    "slot": "research_focus"
+   },
+   "item_id": "ns:ingrid:research_focus",
+   "label": "PN",
+   "persona": "ingrid",
+   "rendered_question": "What's Ingrid's current research focus these days?",
+   "slot": "research_focus",
+   "template_question": "As of today, what is Ingrid's current research focus?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Jake",
+   "extracted": {
+    "entity": "Jake",
+    "intent": "CURRENT",
+    "slot": "relationship"
+   },
+   "item_id": "ns:jake:relationship",
+   "label": "PN",
+   "persona": "jake",
+   "rendered_question": "What's Jake's relationship status these days?",
+   "slot": "relationship",
+   "template_question": "As of today, what is Jake's current relationship?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Jake",
+   "extracted": {
+    "entity": "Jake",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:jake:vehicle",
+   "label": "PRESENT",
+   "persona": "jake",
+   "rendered_question": "What car is Jake driving these days?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Jake's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Jerome",
+   "extracted": {
+    "entity": "Jerome",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:jerome:vehicle",
+   "label": "PRESENT",
+   "persona": "jerome",
+   "rendered_question": "What car is Jerome driving these days?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Jerome's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Park",
+   "extracted": {
+    "entity": "Park",
+    "intent": "CURRENT",
+    "slot": "relationship"
+   },
+   "item_id": "ns:joonho:relationship",
+   "label": "PRESENT",
+   "persona": "joonho",
+   "rendered_question": "What's your current relationship with Park like these days?",
+   "slot": "relationship",
+   "template_question": "As of today, what is Park's current relationship?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Leila",
+   "extracted": {
+    "entity": "Leila",
+    "intent": "CURRENT",
+    "slot": "relationship"
+   },
+   "item_id": "ns:leila:relationship",
+   "label": "PRESENT",
+   "persona": "leila",
+   "rendered_question": "What is Leila's current relationship status?",
+   "slot": "relationship",
+   "template_question": "As of today, what is Leila's current relationship?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Leila",
+   "extracted": {
+    "entity": "Leila",
+    "intent": "CURRENT",
+    "slot": "research_focus"
+   },
+   "item_id": "ns:leila:research_focus",
+   "label": "PRESENT",
+   "persona": "leila",
+   "rendered_question": "What is Leila currently focusing on in her research?",
+   "slot": "research_focus",
+   "template_question": "As of today, what is Leila's current research focus?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Lily",
+   "extracted": {
+    "entity": "Lily",
+    "intent": "CURRENT",
+    "slot": "research_focus"
+   },
+   "item_id": "ns:lily:research_focus",
+   "label": "PRESENT",
+   "persona": "lily",
+   "rendered_question": "What is Lily currently focusing on in her research?",
+   "slot": "research_focus",
+   "template_question": "As of today, what is Lily's current research focus?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Marcus",
+   "extracted": {
+    "entity": "Marcus",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:marcus:vehicle",
+   "label": "PRESENT",
+   "persona": "marcus",
+   "rendered_question": "What vehicle does Marcus currently drive?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Marcus's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Mirri",
+   "extracted": {
+    "entity": "Mirri",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:mirri:vehicle",
+   "label": "PN",
+   "persona": "mirri",
+   "rendered_question": "What car is Mirri driving these days?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Mirri's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Pornpan",
+   "extracted": {
+    "entity": "Pornpan",
+    "intent": "CURRENT",
+    "slot": "research_focus"
+   },
+   "item_id": "ns:pan:research_focus",
+   "label": "ABSENT",
+   "persona": "pan",
+   "rendered_question": "What is Pornpan currently focusing on in her research?\n\nWait \u00e2\u20ac\u201d per the study's voice guidelines, I should avoid gendered pronouns unless established. Here is the question:\n\nWhat is Pornpan's current research focus these days?",
+   "slot": "research_focus",
+   "template_question": "As of today, what is Pornpan's current research focus?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Raj",
+   "extracted": {
+    "entity": "Raj",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:raj:vehicle",
+   "label": "PRESENT",
+   "persona": "raj",
+   "rendered_question": "What vehicle does Raj drive these days?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Raj's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Rosa",
+   "extracted": {
+    "entity": "Rosa",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:rosa:vehicle",
+   "label": "PRESENT",
+   "persona": "rosa",
+   "rendered_question": "What vehicle does Rosa drive these days?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Rosa's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Saga",
+   "extracted": {
+    "entity": "Saga",
+    "intent": "CURRENT",
+    "slot": "relationship"
+   },
+   "item_id": "ns:saga:relationship",
+   "label": "PN",
+   "persona": "saga",
+   "rendered_question": "What's Saga's current relationship status these days?",
+   "rerendered_under": "PI ruling (a): slot-disambiguated relationship-status instruction",
+   "slot": "relationship",
+   "template_question": "As of today, what is Saga's current relationship?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Samuel",
+   "extracted": {
+    "entity": "Samuel",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:samuel:vehicle",
+   "label": "PRESENT",
+   "persona": "samuel",
+   "rendered_question": "What vehicle does Samuel currently drive?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Samuel's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Thanh",
+   "extracted": {
+    "entity": "Thanh",
+    "intent": "CURRENT",
+    "slot": "research_focus"
+   },
+   "item_id": "ns:thanh:research_focus",
+   "label": "ABSENT",
+   "persona": "thanh",
+   "rendered_question": "What's Thanh's current research focus these days?",
+   "slot": "research_focus",
+   "template_question": "As of today, what is Thanh's current research focus?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Tom",
+   "extracted": {
+    "entity": "Tom",
+    "intent": "CURRENT",
+    "slot": "vehicle"
+   },
+   "item_id": "ns:tom:vehicle",
+   "label": "PN",
+   "persona": "tom",
+   "rendered_question": "What vehicle does Tom drive these days?",
+   "slot": "vehicle",
+   "template_question": "As of today, what is Tom's current vehicle?",
+   "transfer_ok": true
+  },
+  {
+   "entity": "Zara",
+   "extracted": {
+    "entity": "Zara",
+    "intent": "CURRENT",
+    "slot": "relationship"
+   },
+   "item_id": "ns:zara:relationship",
+   "label": "PRESENT",
+   "persona": "zara",
+   "rendered_question": "What's Zara's current relationship status these days?",
+   "rerendered_under": "PI ruling (a): slot-disambiguated relationship-status instruction",
+   "slot": "relationship",
+   "template_question": "As of today, what is Zara's current relationship?",
+   "transfer_ok": true
+  }
+ ],
+ "spot_check": {
+  "bar": 0.95,
+  "n": 36,
+  "ruling_a_note": "two relationship items re-rendered slot-disambiguated per PI ruling (a); all other renders untouched",
+  "transfer_accuracy": 1.0,
+  "verdict": "PASS"
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "auroc": 0.7153703703703703,
+  "base_rate": 0.6,
+  "brier": 0.220688,
+  "distinct_fok_values": 19,
+  "ece": 0.11306666666666668,
+  "gpt41mini_auroc_same_items": 0.5266666666666666,
+  "gpt41mini_mean_fok": 0.20800000000000002,
+  "mean_fok": 0.48893333333333333,
+  "model": "gpt-5.6-sol",
+  "n": 150,
+  "n_pos": 90,
+  "paired_n": 150,
+  "pessimistic_prior_gap": -0.11106666666666665
+}

@@ -1,0 +1,223 @@
+{
+ "meta": {
+  "script": "r85_graphiti/a2/build_views_a2.py",
+  "registration_sha256": "b87401f3604fed8d4db3e2fa20d758b274748374f876374321880e674c2fab92",
+  "prompts_sha256": {
+   "SYSTEM_ANSWER": "af1c69c8817d286727e44027a9d469c875a4da1eb111d7351eb76094b48ea4a9",
+   "USER_ANSWER_A4": "e6c155364f8c69bef8af0c86941b3bf8fc5e739e043ac3ef2f86f422ff40cd7d",
+   "SYSTEM_ANSWER_U": "69920206dfd337b67284faf871abadb5dfe80dd3959cd3e6fee10c620f465599",
+   "USER_ANSWER_A4_U": "9eb131624b663785d4cf8f31d0453bb2254ad58de64ce86dd3878b3520b892fc"
+  },
+  "M_rule": "active lines of ranks 1 to 10 in rank order, the first five, renumbered from [1] (the freeze's item 5)",
+  "answer_sharing": "one call per distinct complete input (system, user), keyed by sha256",
+  "frbank_r113_equal": 278,
+  "when": "2026-09-17T01:09:33"
+ },
+ "census": {
+  "frbank|primary_178": {
+   "n": 178,
+   "n_obligations": 47,
+   "n_licensed": 131,
+   "distinct_inputs": {
+    "U": 178,
+    "T": 178,
+    "M": 178
+   },
+   "distinct_inputs_all": 519,
+   "T_equals_M": 15,
+   "n_TM": 163,
+   "bound_T_vs_M": 0.9157,
+   "n_TM_obligations": 46,
+   "bound_obligations": 0.9787,
+   "n_TM_licensed": 117,
+   "bound_licensed": 0.8931,
+   "M_short_views": 63,
+   "M_short_lengths": {
+    "0": 1,
+    "1": 3,
+    "2": 16,
+    "3": 14,
+    "4": 29
+   },
+   "lines_removed_T_to_M": 423,
+   "sets": {
+    "a_reached": 26,
+    "b_reached_marked": 23,
+    "c_reached_unmarked": 3,
+    "e_imported": 10,
+    "g_unreached_10": 13
+   },
+   "f_evidence_removed_by_intent": {
+    "CHANGE-AWARE": 5,
+    "CURRENT-STATE": 18,
+    "UPCOMING": 3,
+    "PAST-EVENT": 3
+   },
+   "f_evidence_in_view_T_by_intent": {
+    "CHANGE-AWARE": 13,
+    "CURRENT-STATE": 31,
+    "UPCOMING": 8,
+    "PAST-EVENT": 3
+   },
+   "licensed_by_intent": {
+    "CURRENT-STATE": 65,
+    "UPCOMING": 26,
+    "CHANGE-AWARE": 35,
+    "PAST-EVENT": 5
+   },
+   "evidence_in_view": {
+    "U": {
+     "licensed_yes": 55,
+     "with_replacement_yes": 12,
+     "with_replacement_n": 38
+    },
+    "T": {
+     "licensed_yes": 55,
+     "with_replacement_yes": 12,
+     "with_replacement_n": 38
+    },
+    "M": {
+     "licensed_yes": 53,
+     "with_replacement_yes": 14,
+     "with_replacement_n": 38
+    }
+   },
+   "reading_rule_A2_P2": "empirical (bound at or above 0.05)"
+  },
+  "graphiti|primary_178": {
+   "n": 178,
+   "n_obligations": 47,
+   "n_licensed": 131,
+   "distinct_inputs": {
+    "U": 178,
+    "T": 178,
+    "M": 178
+   },
+   "distinct_inputs_all": 417,
+   "T_equals_M": 117,
+   "n_TM": 61,
+   "bound_T_vs_M": 0.3427,
+   "n_TM_obligations": 22,
+   "bound_obligations": 0.4681,
+   "n_TM_licensed": 39,
+   "bound_licensed": 0.2977,
+   "M_short_views": 2,
+   "M_short_lengths": {
+    "4": 2
+   },
+   "lines_removed_T_to_M": 82,
+   "sets": {
+    "a_reached": 10,
+    "b_reached_marked": 5,
+    "c_reached_unmarked": 5,
+    "e_imported": 0,
+    "g_unreached_10": 31
+   },
+   "f_evidence_removed_by_intent": {
+    "UPCOMING": 1,
+    "CHANGE-AWARE": 1,
+    "CURRENT-STATE": 2,
+    "PAST-EVENT": 1
+   },
+   "f_evidence_in_view_T_by_intent": {
+    "CURRENT-STATE": 20,
+    "UPCOMING": 3,
+    "CHANGE-AWARE": 7,
+    "PAST-EVENT": 4
+   },
+   "licensed_by_intent": {
+    "CURRENT-STATE": 65,
+    "UPCOMING": 26,
+    "CHANGE-AWARE": 35,
+    "PAST-EVENT": 5
+   },
+   "evidence_in_view": {
+    "U": {
+     "licensed_yes": 34,
+     "with_replacement_yes": 11,
+     "with_replacement_n": 38
+    },
+    "T": {
+     "licensed_yes": 34,
+     "with_replacement_yes": 11,
+     "with_replacement_n": 38
+    },
+    "M": {
+     "licensed_yes": 32,
+     "with_replacement_yes": 10,
+     "with_replacement_n": 38
+    }
+   },
+   "reading_rule_A2_P2": "empirical (bound at or above 0.05)"
+  },
+  "frbank|frbank_only_100": {
+   "n": 100,
+   "n_obligations": 57,
+   "n_licensed": 43,
+   "distinct_inputs": {
+    "U": 99,
+    "T": 99,
+    "M": 96
+   },
+   "distinct_inputs_all": 287,
+   "T_equals_M": 7,
+   "n_TM": 93,
+   "bound_T_vs_M": 0.93,
+   "n_TM_obligations": 55,
+   "bound_obligations": 0.9649,
+   "n_TM_licensed": 38,
+   "bound_licensed": 0.8837,
+   "M_short_views": 34,
+   "M_short_lengths": {
+    "2": 3,
+    "3": 15,
+    "4": 16
+   },
+   "lines_removed_T_to_M": 234,
+   "sets": {
+    "a_reached": 28,
+    "b_reached_marked": 23,
+    "c_reached_unmarked": 5,
+    "e_imported": 10,
+    "g_unreached_10": 17
+   },
+   "f_evidence_removed_by_intent": {
+    "CURRENT-STATE": 6,
+    "CHANGE-AWARE": 1,
+    "PAST-EVENT": 3
+   },
+   "f_evidence_in_view_T_by_intent": {
+    "CHANGE-AWARE": 5,
+    "CURRENT-STATE": 10,
+    "UPCOMING": 3,
+    "PAST-EVENT": 3
+   },
+   "licensed_by_intent": {
+    "CURRENT-STATE": 20,
+    "UPCOMING": 8,
+    "CHANGE-AWARE": 10,
+    "PAST-EVENT": 5
+   },
+   "evidence_in_view": {
+    "U": {
+     "licensed_yes": 21,
+     "with_replacement_yes": 4,
+     "with_replacement_n": 10
+    },
+    "T": {
+     "licensed_yes": 21,
+     "with_replacement_yes": 4,
+     "with_replacement_n": 10
+    },
+    "M": {
+     "licensed_yes": 22,
+     "with_replacement_yes": 6,
+     "with_replacement_n": 10
+    }
+   },
+   "reading_rule_A2_P2": "empirical (bound at or above 0.05)"
+  }
+ },
+ "n_jobs": 1114,
+ "n_rows": 1368
+}

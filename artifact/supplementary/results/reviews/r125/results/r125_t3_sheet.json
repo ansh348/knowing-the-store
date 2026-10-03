@@ -1,0 +1,194 @@
+{
+ "control_pool": 79,
+ "key": "reviews\\r125\\build\\AUTHOR_SHEET_R125_T3_key.json",
+ "key_sha256": "9c57c5c7548730a82e362228f240702dcd0711224add71652a080ab0e30174b3",
+ "meta": {
+  "model_calls": 0,
+  "script": "reviews/r125/tools/r125_t3_sheet.py"
+ },
+ "n_controls": 20,
+ "n_rows": 42,
+ "n_unmarked": 22,
+ "protection": "sheet protection on (password r125); columns J (verdict, data-validated to YES / NO / NOT STORED) and K (notes) unlocked; every other cell locked",
+ "seed": 42,
+ "unmarked_nearest": [
+  {
+   "cov": 0.5714,
+   "entry_is_member": true,
+   "item_id": "frbank:bruna:bruna_q06:FULL",
+   "nearest_entry": "lb_00174",
+   "own_mark": "superseded (not active)",
+   "state": "ret"
+  },
+  {
+   "cov": 0.4286,
+   "entry_is_member": true,
+   "item_id": "frbank:bruna:bruna_q06:CAT-ABLATED",
+   "nearest_entry": "lb_00185",
+   "own_mark": "superseded (not active)",
+   "state": "ret"
+  },
+  {
+   "cov": 0.5714,
+   "entry_is_member": true,
+   "item_id": "frbank:bruna:bruna_q06:SLOT-ABLATED",
+   "nearest_entry": "lb_00174",
+   "own_mark": "superseded (not active)",
+   "state": "ret"
+  },
+  {
+   "cov": 0.6667,
+   "entry_is_member": true,
+   "item_id": "frbank:dariush:dariush_q04:FULL",
+   "nearest_entry": "lb_00162",
+   "own_mark": "active",
+   "state": "ret"
+  },
+  {
+   "cov": 0.6667,
+   "entry_is_member": true,
+   "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+   "nearest_entry": "lb_00162",
+   "own_mark": "active",
+   "state": "ret"
+  },
+  {
+   "cov": 0.4286,
+   "entry_is_member": true,
+   "item_id": "frbank:david:david_q06:FULL",
+   "nearest_entry": "lb_00173",
+   "own_mark": "superseded (not active)",
+   "state": "exp"
+  },
+  {
+   "cov": 0.4286,
+   "entry_is_member": true,
+   "item_id": "frbank:david:david_q06:CAT-ABLATED",
+   "nearest_entry": "lb_00173",
+   "own_mark": "superseded (not active)",
+   "state": "exp"
+  },
+  {
+   "cov": 0.8,
+   "entry_is_member": false,
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "nearest_entry": "lb_00263",
+   "own_mark": "superseded (not active)",
+   "state": "ret"
+  },
+  {
+   "cov": 0.6,
+   "entry_is_member": false,
+   "item_id": "frbank:fatima:fatima_q06:SLOT-ABLATED",
+   "nearest_entry": "lb_00188",
+   "own_mark": "active",
+   "state": "ret"
+  },
+  {
+   "cov": 0.6,
+   "entry_is_member": false,
+   "item_id": "frbank:ingrid:ingrid_q04:FULL",
+   "nearest_entry": "lb_00230",
+   "own_mark": "superseded (not active)",
+   "state": "ret"
+  },
+  {
+   "cov": 0.6,
+   "entry_is_member": false,
+   "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+   "nearest_entry": "lb_00230",
+   "own_mark": "superseded (not active)",
+   "state": "ret"
+  },
+  {
+   "cov": 0.6,
+   "entry_is_member": false,
+   "item_id": "frbank:ingrid:ingrid_q04:SLOT-ABLATED",
+   "nearest_entry": "lb_00230",
+   "own_mark": "superseded (not active)",
+   "state": "ret"
+  },
+  {
+   "cov": 0.5714,
+   "entry_is_member": true,
+   "item_id": "frbank:joonho:joonho_q04:FULL",
+   "nearest_entry": "lb_00145",
+   "own_mark": "active",
+   "state": "ret"
+  },
+  {
+   "cov": 0.5714,
+   "entry_is_member": true,
+   "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+   "nearest_entry": "lb_00145",
+   "own_mark": "active",
+   "state": "ret"
+  },
+  {
+   "cov": 0.4,
+   "entry_is_member": true,
+   "item_id": "frbank:marcus:marcus_q10:FULL",
+   "nearest_entry": "lb_00132",
+   "own_mark": "active",
+   "state": "exp"
+  },
+  {
+   "cov": 0.4,
+   "entry_is_member": true,
+   "item_id": "frbank:marcus:marcus_q10:CAT-ABLATED",
+   "nearest_entry": "lb_00132",
+   "own_mark": "active",
+   "state": "exp"
+  },
+  {
+   "cov": 0.5714,
+   "entry_is_member": true,
+   "item_id": "frbank:mirri:mirri_q04:CAT-ABLATED",
+   "nearest_entry": "lb_00160",
+   "own_mark": "active",
+   "state": "ret"
+  },
+  {
+   "cov": 0.3333,
+   "entry_is_member": true,
+   "item_id": "frbank:rosa:rosa_q06:FULL",
+   "nearest_entry": "lb_00233",
+   "own_mark": "superseded (not active)",
+   "state": "ret"
+  },
+  {
+   "cov": 0.3333,
+   "entry_is_member": true,
+   "item_id": "frbank:rosa:rosa_q06:CAT-ABLATED",
+   "nearest_entry": "lb_00233",
+   "own_mark": "superseded (not active)",
+   "state": "ret"
+  },
+  {
+   "cov": 0.3333,
+   "entry_is_member": true,
+   "item_id": "frbank:rosa:rosa_q06:SLOT-ABLATED",
+   "nearest_entry": "lb_00233",
+   "own_mark": "superseded (not active)",
+   "state": "ret"
+  },
+  {
+   "cov": 0.75,
+   "entry_is_member": true,
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "nearest_entry": "lb_00115",
+   "own_mark": "superseded (not active)",
+   "state": "ret"
+  },
+  {
+   "cov": 0.75,
+   "entry_is_member": true,
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "nearest_entry": "lb_00115",
+   "own_mark": "superseded (not active)",
+   "state": "ret"
+  }
+ ],
+ "xlsx": "reviews\\r125\\build\\AUTHOR_SHEET_R125_T3.xlsx",
+ "xlsx_sha256": "97ba2d2591f91d5d06f1080090c09655ab70e05be6c29c9fcd65a15fd74a9852"
+}

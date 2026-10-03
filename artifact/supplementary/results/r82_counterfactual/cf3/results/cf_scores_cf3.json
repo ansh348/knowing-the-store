@@ -1,0 +1,2696 @@
+{
+ "cells": {
+  "cf2_expiry": {
+   "label": "CF-2 expiry slice: 30 pairs, 90 items (recorded rows)",
+   "lookups": {
+    "emb_v2": {
+     "auroc": 0.5,
+     "persona_ci": {
+      "ci_hi": 0.5,
+      "ci_lo": 0.5,
+      "excludes_zero": true,
+      "mean": 0.5,
+      "n_draws": 1000
+     }
+    },
+    "emb_v3": {
+     "auroc": 0.8711,
+     "persona_ci": {
+      "ci_hi": 0.9423996913580247,
+      "ci_lo": 0.7863960650887574,
+      "excludes_zero": true,
+      "mean": 0.8755876642379998,
+      "n_draws": 1000
+     }
+    },
+    "lex_v2": {
+     "auroc": 0.5,
+     "persona_ci": {
+      "ci_hi": 0.5,
+      "ci_lo": 0.5,
+      "excludes_zero": true,
+      "mean": 0.5,
+      "n_draws": 1000
+     }
+    },
+    "lex_v3": {
+     "auroc": 0.8244,
+     "persona_ci": {
+      "ci_hi": 0.9000221893491124,
+      "ci_lo": 0.7476891541772959,
+      "excludes_zero": true,
+      "mean": 0.8245332623753201,
+      "n_draws": 1000
+     }
+    }
+   },
+   "models": {
+    "claude-haiku-4-5-20251001": {
+     "blind_auroc": 0.5,
+     "blind_identity_0.5": true,
+     "v2": {
+      "agree": false,
+      "both_exclude_zero": false,
+      "delta": 0.0794,
+      "indexed": 0.5794,
+      "indexed_ci_persona": {
+       "ci_hi": 0.6457457449776786,
+       "ci_lo": 0.5234076175431679,
+       "excludes_zero": true,
+       "mean": 0.5803352844748083,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.21821478342921236,
+       "ci_lo": -0.06256384034397354,
+       "excludes_zero": false,
+       "mean": 0.07959240089581325,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.0794,
+       "item_ci": {
+        "ci_hi": 0.2488356370192307,
+        "ci_lo": -0.07757006448412695,
+        "excludes_zero": false,
+        "mean": 0.08138838805716463,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2)",
+       "persona_ci": {
+        "ci_hi": 0.1457457449776785,
+        "ci_lo": 0.023407617543167898,
+        "excludes_zero": true,
+        "mean": 0.08033528447480834,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.2488356370192307,
+        "ci_lo": -0.07757006448412695,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.0794,
+       "item_ci": {
+        "ci_hi": 0.18294297390110517,
+        "ci_lo": -0.029509801827429544,
+        "excludes_zero": false,
+        "mean": 0.07941606416726356,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.1457457449776785,
+        "ci_lo": 0.023407617543167898,
+        "excludes_zero": true,
+        "mean": 0.08033528447480834,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.18294297390110517,
+        "ci_lo": -0.029509801827429544,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.1457457449776785,
+       "ci_lo": 0.023407617543167898,
+       "excludes_zero": true,
+       "mean": 0.08033528447480834,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.21821478342921236,
+       "ci_lo": -0.06256384034397354,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v2r": {
+      "agree": false,
+      "both_exclude_zero": false,
+      "delta": 0.0847,
+      "indexed": 0.5847,
+      "indexed_ci_persona": {
+       "ci_hi": 0.6414232727903384,
+       "ci_lo": 0.5351139233241506,
+       "excludes_zero": true,
+       "mean": 0.5867261977209901,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.2187568774516511,
+       "ci_lo": -0.05941124268933172,
+       "excludes_zero": false,
+       "mean": 0.08447509437042784,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.0847,
+       "item_ci": {
+        "ci_hi": 0.2569188323477539,
+        "ci_lo": -0.07614784549276292,
+        "excludes_zero": false,
+        "mean": 0.0862710815317792,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2; v2r shares v2's lists)",
+       "persona_ci": {
+        "ci_hi": 0.14142327279033837,
+        "ci_lo": 0.03511392332415064,
+        "excludes_zero": true,
+        "mean": 0.08672619772099005,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.2569188323477539,
+        "ci_lo": -0.07614784549276292,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.0847,
+       "item_ci": {
+        "ci_hi": 0.18491198351948768,
+        "ci_lo": -0.024892326764307485,
+        "excludes_zero": false,
+        "mean": 0.08429875764187814,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.14142327279033837,
+        "ci_lo": 0.03511392332415064,
+        "excludes_zero": true,
+        "mean": 0.08672619772099005,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.18491198351948768,
+        "ci_lo": -0.024892326764307485,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.14142327279033837,
+       "ci_lo": 0.03511392332415064,
+       "excludes_zero": true,
+       "mean": 0.08672619772099005,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.2187568774516511,
+       "ci_lo": -0.05941124268933172,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v2r_minus_v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": 0.0053,
+      "item_ci": {
+       "ci_hi": 0.05032240902975185,
+       "ci_lo": -0.03745335565882992,
+       "excludes_zero": false,
+       "mean": 0.004882693474614578,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": 0.05039907277249138,
+       "ci_lo": -0.03699507183206261,
+       "excludes_zero": false,
+       "mean": 0.006390913246181723,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.05032240902975185,
+       "ci_lo": -0.03745335565882992,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v3": {
+      "agree": true,
+      "both_exclude_zero": true,
+      "delta": 0.3269,
+      "indexed": 0.8269,
+      "indexed_ci_persona": {
+       "ci_hi": 0.9155625000000001,
+       "ci_lo": 0.7387798109848089,
+       "excludes_zero": true,
+       "mean": 0.8303092030058978,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.46753027926411445,
+       "ci_lo": 0.19354777022914582,
+       "excludes_zero": true,
+       "mean": 0.327435680640154,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": -0.0442,
+       "item_ci": {
+        "ci_hi": 0.04493194231097462,
+        "ci_lo": -0.13866689821089723,
+        "excludes_zero": false,
+        "mean": -0.041639946839387834,
+        "n_draws": 1000
+       },
+       "lookup": "all-states lookup (v3)",
+       "persona_ci": {
+        "ci_hi": 0.026001927437641747,
+        "ci_lo": -0.1028174071855696,
+        "excludes_zero": false,
+        "mean": -0.04527846123210199,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.04493194231097462,
+        "ci_lo": -0.13866689821089723,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0025,
+       "item_ci": {
+        "ci_hi": 0.11112445826267198,
+        "ci_lo": -0.10528172108099665,
+        "excludes_zero": false,
+        "mean": 0.004135702296492709,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.07783569542745587,
+        "ci_lo": -0.06635330578512393,
+        "excludes_zero": false,
+        "mean": 0.005775940630577685,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.11112445826267198,
+        "ci_lo": -0.10528172108099665,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.4155625,
+       "ci_lo": 0.2387798109848089,
+       "excludes_zero": true,
+       "mean": 0.3303092030058978,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.46753027926411445,
+       "ci_lo": 0.19354777022914582,
+       "excludes_zero": true,
+       "which": "item"
+      }
+     }
+    },
+    "claude-opus-5": {
+     "blind_auroc": 0.5,
+     "blind_identity_0.5": true,
+     "v2": {
+      "agree": true,
+      "both_exclude_zero": true,
+      "delta": 0.115,
+      "indexed": 0.615,
+      "indexed_ci_persona": {
+       "ci_hi": 0.7008237494941612,
+       "ci_lo": 0.5442824184172281,
+       "excludes_zero": true,
+       "mean": 0.6197337621159538,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.22818428387079606,
+       "ci_lo": 0.007716148410440382,
+       "excludes_zero": true,
+       "mean": 0.11527155910077826,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.115,
+       "item_ci": {
+        "ci_hi": 0.25725350215517234,
+        "ci_lo": -0.024213342246496346,
+        "excludes_zero": false,
+        "mean": 0.11348363435925714,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2)",
+       "persona_ci": {
+        "ci_hi": 0.2008237494941612,
+        "ci_lo": 0.04428241841722813,
+        "excludes_zero": true,
+        "mean": 0.11973376211595381,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.25725350215517234,
+        "ci_lo": -0.024213342246496346,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.115,
+       "item_ci": {
+        "ci_hi": 0.23101132276215064,
+        "ci_lo": -0.006871810643338783,
+        "excludes_zero": false,
+        "mean": 0.11151131046935606,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.2008237494941612,
+        "ci_lo": 0.04428241841722813,
+        "excludes_zero": true,
+        "mean": 0.11973376211595381,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.23101132276215064,
+        "ci_lo": -0.006871810643338783,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.2008237494941612,
+       "ci_lo": 0.04428241841722813,
+       "excludes_zero": true,
+       "mean": 0.11973376211595381,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.22818428387079606,
+       "ci_lo": 0.007716148410440382,
+       "excludes_zero": true,
+       "which": "item"
+      }
+     },
+     "v2r": {
+      "agree": true,
+      "both_exclude_zero": true,
+      "delta": 0.1092,
+      "indexed": 0.6092,
+      "indexed_ci_persona": {
+       "ci_hi": 0.6985479511347168,
+       "ci_lo": 0.5400553871210402,
+       "excludes_zero": true,
+       "mean": 0.610717616305497,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.2139835858585859,
+       "ci_lo": 0.0008158405088683737,
+       "excludes_zero": true,
+       "mean": 0.10921624425738849,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.1092,
+       "item_ci": {
+        "ci_hi": 0.2446641350298408,
+        "ci_lo": -0.03245554956896546,
+        "excludes_zero": false,
+        "mean": 0.10742831951586734,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2; v2r shares v2's lists)",
+       "persona_ci": {
+        "ci_hi": 0.1985479511347168,
+        "ci_lo": 0.04005538712104022,
+        "excludes_zero": true,
+        "mean": 0.11071761630549701,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.2446641350298408,
+        "ci_lo": -0.03245554956896546,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.1092,
+       "item_ci": {
+        "ci_hi": 0.2217268429434305,
+        "ci_lo": -0.01207120066905787,
+        "excludes_zero": false,
+        "mean": 0.10545599562596629,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.1985479511347168,
+        "ci_lo": 0.04005538712104022,
+        "excludes_zero": true,
+        "mean": 0.11071761630549701,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.2217268429434305,
+        "ci_lo": -0.01207120066905787,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.1985479511347168,
+       "ci_lo": 0.04005538712104022,
+       "excludes_zero": true,
+       "mean": 0.11071761630549701,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.2139835858585859,
+       "ci_lo": 0.0008158405088683737,
+       "excludes_zero": true,
+       "which": "item"
+      }
+     },
+     "v2r_minus_v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": -0.0058,
+      "item_ci": {
+       "ci_hi": 0.03915213825650512,
+       "ci_lo": -0.05557282833992847,
+       "excludes_zero": false,
+       "mean": -0.006055314843389776,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": 0.03806385030864203,
+       "ci_lo": -0.05808538716535148,
+       "excludes_zero": false,
+       "mean": -0.009016145810456795,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.03806385030864203,
+       "ci_lo": -0.05808538716535148,
+       "excludes_zero": false,
+       "which": "persona"
+      }
+     },
+     "v3": {
+      "agree": true,
+      "both_exclude_zero": true,
+      "delta": 0.4267,
+      "indexed": 0.9267,
+      "indexed_ci_persona": {
+       "ci_hi": 0.9787491391618376,
+       "ci_lo": 0.8576178846153847,
+       "excludes_zero": true,
+       "mean": 0.928793719975224,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.5637142115509409,
+       "ci_lo": 0.2974296382896498,
+       "excludes_zero": true,
+       "mean": 0.43037413633374433,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.0556,
+       "item_ci": {
+        "ci_hi": 0.13795859011531766,
+        "ci_lo": -0.0236427578822672,
+        "excludes_zero": false,
+        "mean": 0.05771459695133008,
+        "n_draws": 1000
+       },
+       "lookup": "all-states lookup (v3)",
+       "persona_ci": {
+        "ci_hi": 0.11694717721193412,
+        "ci_lo": 0.0014587402343750003,
+        "excludes_zero": true,
+        "mean": 0.05320605573722423,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.13795859011531766,
+        "ci_lo": -0.0236427578822672,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": true,
+       "delta": 0.1022,
+       "item_ci": {
+        "ci_hi": 0.1921995128215512,
+        "ci_lo": 0.0169223191669012,
+        "excludes_zero": true,
+        "mean": 0.10349024608721062,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.1675945355544077,
+        "ci_lo": 0.036856130866436985,
+        "excludes_zero": true,
+        "mean": 0.1042604575999039,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.1921995128215512,
+        "ci_lo": 0.0169223191669012,
+        "excludes_zero": true,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.4787491391618376,
+       "ci_lo": 0.35761788461538463,
+       "excludes_zero": true,
+       "mean": 0.42879371997522403,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.5637142115509409,
+       "ci_lo": 0.2974296382896498,
+       "excludes_zero": true,
+       "which": "item"
+      }
+     }
+    },
+    "gpt-4.1-mini": {
+     "blind_auroc": 0.5,
+     "blind_identity_0.5": true,
+     "v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": 0.0489,
+      "indexed": 0.5489,
+      "indexed_ci_persona": {
+       "ci_hi": 0.629318805215161,
+       "ci_lo": 0.4800330737296219,
+       "excludes_zero": true,
+       "mean": 0.5459641247410446,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.18925593364698245,
+       "ci_lo": -0.10222233468286099,
+       "excludes_zero": false,
+       "mean": 0.047536796089902765,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0489,
+       "item_ci": {
+        "ci_hi": 0.171127000057436,
+        "ci_lo": -0.07047272727272721,
+        "excludes_zero": false,
+        "mean": 0.04956741529321762,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2)",
+       "persona_ci": {
+        "ci_hi": 0.12931880521516098,
+        "ci_lo": -0.01996692627037809,
+        "excludes_zero": false,
+        "mean": 0.0459641247410446,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.171127000057436,
+        "ci_lo": -0.07047272727272721,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0489,
+       "item_ci": {
+        "ci_hi": 0.15221628487295527,
+        "ci_lo": -0.046673447945155946,
+        "excludes_zero": false,
+        "mean": 0.04759509140331656,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.12931880521516098,
+        "ci_lo": -0.01996692627037809,
+        "excludes_zero": false,
+        "mean": 0.0459641247410446,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.15221628487295527,
+        "ci_lo": -0.046673447945155946,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.12931880521516098,
+       "ci_lo": -0.01996692627037809,
+       "excludes_zero": false,
+       "mean": 0.0459641247410446,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.18925593364698245,
+       "ci_lo": -0.10222233468286099,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v2r": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": 0.0144,
+      "indexed": 0.5144,
+      "indexed_ci_persona": {
+       "ci_hi": 0.5839889322916667,
+       "ci_lo": 0.44235721938775513,
+       "excludes_zero": true,
+       "mean": 0.5161389291124165,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.15338651338757447,
+       "ci_lo": -0.131724014066347,
+       "excludes_zero": false,
+       "mean": 0.012257822978214133,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0144,
+       "item_ci": {
+        "ci_hi": 0.148067854859335,
+        "ci_lo": -0.12140961423444972,
+        "excludes_zero": false,
+        "mean": 0.014288442181528988,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2; v2r shares v2's lists)",
+       "persona_ci": {
+        "ci_hi": 0.08398893229166667,
+        "ci_lo": -0.05764278061224488,
+        "excludes_zero": false,
+        "mean": 0.016138929112416572,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.148067854859335,
+        "ci_lo": -0.12140961423444972,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0144,
+       "item_ci": {
+        "ci_hi": 0.12053969151255739,
+        "ci_lo": -0.0944267344873266,
+        "excludes_zero": false,
+        "mean": 0.012316118291627919,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.08398893229166667,
+        "ci_lo": -0.05764278061224488,
+        "excludes_zero": false,
+        "mean": 0.016138929112416572,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.12053969151255739,
+        "ci_lo": -0.0944267344873266,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.08398893229166667,
+       "ci_lo": -0.05764278061224488,
+       "excludes_zero": false,
+       "mean": 0.016138929112416572,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.15338651338757447,
+       "ci_lo": -0.131724014066347,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v2r_minus_v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": -0.0344,
+      "item_ci": {
+       "ci_hi": 0.05044330187559353,
+       "ci_lo": -0.11750357756326192,
+       "excludes_zero": false,
+       "mean": -0.035278973111688636,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": 0.06032536139455776,
+       "ci_lo": -0.10822763303930584,
+       "excludes_zero": false,
+       "mean": -0.02982519562862803,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.06032536139455776,
+       "ci_lo": -0.10822763303930584,
+       "excludes_zero": false,
+       "which": "persona"
+      }
+     },
+     "v3": {
+      "agree": false,
+      "both_exclude_zero": false,
+      "delta": 0.0869,
+      "indexed": 0.5869,
+      "indexed_ci_persona": {
+       "ci_hi": 0.66841218530937,
+       "ci_lo": 0.5126951450510117,
+       "excludes_zero": true,
+       "mean": 0.5875050531397429,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.2229848845402358,
+       "ci_lo": -0.05239949902248283,
+       "excludes_zero": false,
+       "mean": 0.0842132589442592,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": true,
+       "both_exclude_zero": true,
+       "delta": -0.2842,
+       "item_ci": {
+        "ci_hi": -0.17163301589295565,
+        "ci_lo": -0.4114107572115385,
+        "excludes_zero": true,
+        "mean": -0.28462773649331913,
+        "n_draws": 1000
+       },
+       "lookup": "all-states lookup (v3)",
+       "persona_ci": {
+        "ci_hi": -0.19220263575108995,
+        "ci_lo": -0.38040603200755385,
+        "excludes_zero": true,
+        "mean": -0.28808261109825684,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": -0.17163301589295565,
+        "ci_lo": -0.4114107572115385,
+        "excludes_zero": true,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": true,
+       "delta": -0.2375,
+       "item_ci": {
+        "ci_hi": -0.13049386955636957,
+        "ci_lo": -0.3628657029798918,
+        "excludes_zero": true,
+        "mean": -0.23885208735743857,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": -0.14567474622523313,
+        "ci_lo": -0.3214594661393969,
+        "excludes_zero": true,
+        "mean": -0.23702820923557716,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": -0.13049386955636957,
+        "ci_lo": -0.3628657029798918,
+        "excludes_zero": true,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.16841218530936994,
+       "ci_lo": 0.012695145051011662,
+       "excludes_zero": true,
+       "mean": 0.08750505313974295,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.2229848845402358,
+       "ci_lo": -0.05239949902248283,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     }
+    }
+   },
+   "n": 90,
+   "pairs": 30,
+   "personas": 15,
+   "pos": 30
+  },
+  "cf3": {
+   "label": "CF-3 expiry cell: 14 pairs, 42 items",
+   "lookups": {
+    "emb_v2": {
+     "auroc": 0.5,
+     "persona_ci": {
+      "ci_hi": 0.5,
+      "ci_lo": 0.5,
+      "excludes_zero": true,
+      "mean": 0.5,
+      "n_draws": 1000
+     }
+    },
+    "emb_v3": {
+     "auroc": 0.9694,
+     "persona_ci": {
+      "ci_hi": 1.0,
+      "ci_lo": 0.9475,
+      "excludes_zero": true,
+      "mean": 0.9779871649580334,
+      "n_draws": 1000
+     }
+    },
+    "lex_v2": {
+     "auroc": 0.5,
+     "persona_ci": {
+      "ci_hi": 0.5,
+      "ci_lo": 0.5,
+      "excludes_zero": true,
+      "mean": 0.5,
+      "n_draws": 1000
+     }
+    },
+    "lex_v3": {
+     "auroc": 0.8929,
+     "persona_ci": {
+      "ci_hi": 1.0,
+      "ci_lo": 0.7780753337571519,
+      "excludes_zero": true,
+      "mean": 0.8982168737245033,
+      "n_draws": 1000
+     }
+    }
+   },
+   "models": {
+    "claude-haiku-4-5-20251001": {
+     "blind_auroc": 0.5,
+     "blind_identity_0.5": true,
+     "v2": {
+      "agree": false,
+      "both_exclude_zero": false,
+      "delta": 0.1059,
+      "indexed": 0.6059,
+      "indexed_ci_persona": {
+       "ci_hi": 0.6789940828402367,
+       "ci_lo": 0.5384615384615384,
+       "excludes_zero": true,
+       "mean": 0.6032796861224822,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.2595355775496905,
+       "ci_lo": -0.044060438049853386,
+       "excludes_zero": false,
+       "mean": 0.10695073178967794,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.1059,
+       "item_ci": {
+        "ci_hi": 0.3148569023569023,
+        "ci_lo": -0.10001736111111115,
+        "excludes_zero": false,
+        "mean": 0.10494167085309682,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2)",
+       "persona_ci": {
+        "ci_hi": 0.17899408284023666,
+        "ci_lo": 0.038461538461538436,
+        "excludes_zero": true,
+        "mean": 0.10327968612248228,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.3148569023569023,
+        "ci_lo": -0.10001736111111115,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.1059,
+       "item_ci": {
+        "ci_hi": 0.2765740740740741,
+        "ci_lo": -0.08211435394416483,
+        "excludes_zero": false,
+        "mean": 0.10551047394514355,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.17899408284023666,
+        "ci_lo": 0.038461538461538436,
+        "excludes_zero": true,
+        "mean": 0.10327968612248228,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.2765740740740741,
+        "ci_lo": -0.08211435394416483,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.17899408284023666,
+       "ci_lo": 0.038461538461538436,
+       "excludes_zero": true,
+       "mean": 0.10327968612248228,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.2595355775496905,
+       "ci_lo": -0.044060438049853386,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v2r": {
+      "agree": false,
+      "both_exclude_zero": false,
+      "delta": 0.1212,
+      "indexed": 0.6212,
+      "indexed_ci_persona": {
+       "ci_hi": 0.7839506172839507,
+       "ci_lo": 0.5312472967128028,
+       "excludes_zero": true,
+       "mean": 0.6344550064628669,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.25769321617535895,
+       "ci_lo": -0.03206903127383677,
+       "excludes_zero": false,
+       "mean": 0.11942428071973374,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.1212,
+       "item_ci": {
+        "ci_hi": 0.31257874668435004,
+        "ci_lo": -0.08024691358024694,
+        "excludes_zero": false,
+        "mean": 0.1174152197831526,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2; v2r shares v2's lists)",
+       "persona_ci": {
+        "ci_hi": 0.28395061728395066,
+        "ci_lo": 0.03124729671280277,
+        "excludes_zero": true,
+        "mean": 0.1344550064628669,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.31257874668435004,
+        "ci_lo": -0.08024691358024694,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.1212,
+       "item_ci": {
+        "ci_hi": 0.28365433673469387,
+        "ci_lo": -0.07270408163265307,
+        "excludes_zero": false,
+        "mean": 0.11798402287519935,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.28395061728395066,
+        "ci_lo": 0.03124729671280277,
+        "excludes_zero": true,
+        "mean": 0.1344550064628669,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.28365433673469387,
+        "ci_lo": -0.07270408163265307,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.28395061728395066,
+       "ci_lo": 0.03124729671280277,
+       "excludes_zero": true,
+       "mean": 0.1344550064628669,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.25769321617535895,
+       "ci_lo": -0.03206903127383677,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v2r_minus_v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": 0.0153,
+      "item_ci": {
+       "ci_hi": 0.1422042410714285,
+       "ci_lo": -0.1212233115386917,
+       "excludes_zero": false,
+       "mean": 0.012473548930055796,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": 0.15703435873890423,
+       "ci_lo": -0.05730920493197276,
+       "excludes_zero": false,
+       "mean": 0.03117532034038461,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.1422042410714285,
+       "ci_lo": -0.1212233115386917,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v3": {
+      "agree": true,
+      "both_exclude_zero": true,
+      "delta": 0.463,
+      "indexed": 0.963,
+      "indexed_ci_persona": {
+       "ci_hi": 1.0,
+       "ci_lo": 0.9422222222222222,
+       "excludes_zero": true,
+       "mean": 0.9730726621673534,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.6376717914438503,
+       "ci_lo": 0.29174222285067875,
+       "excludes_zero": true,
+       "mean": 0.4635500941794154,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": -0.0064,
+       "item_ci": {
+        "ci_hi": 0.029333116107309626,
+        "ci_lo": -0.06123346699383572,
+        "excludes_zero": false,
+        "mean": -0.007641890208706721,
+        "n_draws": 1000
+       },
+       "lookup": "all-states lookup (v3)",
+       "persona_ci": {
+        "ci_hi": 0.02777777777777779,
+        "ci_lo": -0.035502958579881616,
+        "excludes_zero": false,
+        "mean": -0.00491450279068011,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.029333116107309626,
+        "ci_lo": -0.06123346699383572,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.0702,
+       "item_ci": {
+        "ci_hi": 0.1671562270894429,
+        "ci_lo": 0.004703976034858437,
+        "excludes_zero": true,
+        "mean": 0.06827007067596175,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.18166089965397925,
+        "ci_lo": 0.0,
+        "excludes_zero": false,
+        "mean": 0.07485578844284999,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.18166089965397925,
+        "ci_lo": 0.0,
+        "excludes_zero": false,
+        "which": "persona"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.5,
+       "ci_lo": 0.4422222222222222,
+       "excludes_zero": true,
+       "mean": 0.4730726621673534,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.6376717914438503,
+       "ci_lo": 0.29174222285067875,
+       "excludes_zero": true,
+       "which": "item"
+      }
+     }
+    },
+    "claude-opus-5": {
+     "blind_auroc": 0.5,
+     "blind_identity_0.5": true,
+     "v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": 0.0638,
+      "indexed": 0.5638,
+      "indexed_ci_persona": {
+       "ci_hi": 0.7839506172839507,
+       "ci_lo": 0.41331249999999997,
+       "excludes_zero": true,
+       "mean": 0.5701382092712972,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.2430968137254902,
+       "ci_lo": -0.10782552083333331,
+       "excludes_zero": false,
+       "mean": 0.06841286465831505,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0638,
+       "item_ci": {
+        "ci_hi": 0.2319483024691358,
+        "ci_lo": -0.09689430147058817,
+        "excludes_zero": false,
+        "mean": 0.06493791593136804,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2)",
+       "persona_ci": {
+        "ci_hi": 0.28395061728395066,
+        "ci_lo": -0.0866875,
+        "excludes_zero": false,
+        "mean": 0.07013820927129712,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.28395061728395066,
+        "ci_lo": -0.0866875,
+        "excludes_zero": false,
+        "which": "persona"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0638,
+       "item_ci": {
+        "ci_hi": 0.2356888262599469,
+        "ci_lo": -0.09689139660493826,
+        "excludes_zero": false,
+        "mean": 0.0655067190234148,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.28395061728395066,
+        "ci_lo": -0.0866875,
+        "excludes_zero": false,
+        "mean": 0.07013820927129712,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.28395061728395066,
+        "ci_lo": -0.0866875,
+        "excludes_zero": false,
+        "which": "persona"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.28395061728395066,
+       "ci_lo": -0.0866875,
+       "excludes_zero": false,
+       "mean": 0.07013820927129712,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.28395061728395066,
+       "ci_lo": -0.0866875,
+       "excludes_zero": false,
+       "which": "persona"
+      }
+     },
+     "v2r": {
+      "agree": false,
+      "both_exclude_zero": false,
+      "delta": 0.1084,
+      "indexed": 0.6084,
+      "indexed_ci_persona": {
+       "ci_hi": 0.7479639108925047,
+       "ci_lo": 0.5210462962962963,
+       "excludes_zero": true,
+       "mean": 0.6283443372701888,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.27924399021622376,
+       "ci_lo": -0.08298139091511934,
+       "excludes_zero": false,
+       "mean": 0.11205487413041515,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.1084,
+       "item_ci": {
+        "ci_hi": 0.2716118970429314,
+        "ci_lo": -0.05388155751058975,
+        "excludes_zero": false,
+        "mean": 0.10857992540346816,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2; v2r shares v2's lists)",
+       "persona_ci": {
+        "ci_hi": 0.24796391089250472,
+        "ci_lo": 0.021046296296296268,
+        "excludes_zero": true,
+        "mean": 0.12834433727018882,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.2716118970429314,
+        "ci_lo": -0.05388155751058975,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.1084,
+       "item_ci": {
+        "ci_hi": 0.2798587164750958,
+        "ci_lo": -0.06815104166666665,
+        "excludes_zero": false,
+        "mean": 0.10914872849551492,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.24796391089250472,
+        "ci_lo": 0.021046296296296268,
+        "excludes_zero": true,
+        "mean": 0.12834433727018882,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.2798587164750958,
+        "ci_lo": -0.06815104166666665,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.24796391089250472,
+       "ci_lo": 0.021046296296296268,
+       "excludes_zero": true,
+       "mean": 0.12834433727018882,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.27924399021622376,
+       "ci_lo": -0.08298139091511934,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v2r_minus_v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": 0.0446,
+      "item_ci": {
+       "ci_hi": 0.13060049019607836,
+       "ci_lo": -0.0397212577160494,
+       "excludes_zero": false,
+       "mean": 0.043642009472100105,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": 0.19214876033057854,
+       "ci_lo": -0.0625,
+       "excludes_zero": false,
+       "mean": 0.05820612799889169,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.19214876033057854,
+       "ci_lo": -0.0625,
+       "excludes_zero": false,
+       "which": "persona"
+      }
+     },
+     "v3": {
+      "agree": true,
+      "both_exclude_zero": true,
+      "delta": 0.4452,
+      "indexed": 0.9452,
+      "indexed_ci_persona": {
+       "ci_hi": 0.9940828402366864,
+       "ci_lo": 0.8827907986111111,
+       "excludes_zero": true,
+       "mean": 0.9512263749497321,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.6318270697167755,
+       "ci_lo": 0.2592592592592593,
+       "excludes_zero": true,
+       "mean": 0.44782711213323534,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": -0.0242,
+       "item_ci": {
+        "ci_hi": 0.007661963526829524,
+        "ci_lo": -0.06491390306122448,
+        "excludes_zero": false,
+        "mean": -0.02483076004525256,
+        "n_draws": 1000
+       },
+       "lookup": "all-states lookup (v3)",
+       "persona_ci": {
+        "ci_hi": 0.0,
+        "ci_lo": -0.08976851851851846,
+        "excludes_zero": false,
+        "mean": -0.026760790008301383,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.0,
+        "ci_lo": -0.08976851851851846,
+        "excludes_zero": false,
+        "which": "persona"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0523,
+       "item_ci": {
+        "ci_hi": 0.16074152140962483,
+        "ci_lo": -0.026633873456790105,
+        "excludes_zero": false,
+        "mean": 0.051081200839415905,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.18132158070605034,
+        "ci_lo": -0.05253047520661156,
+        "excludes_zero": false,
+        "mean": 0.05300950122522871,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.18132158070605034,
+        "ci_lo": -0.05253047520661156,
+        "excludes_zero": false,
+        "which": "persona"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.49408284023668636,
+       "ci_lo": 0.3827907986111111,
+       "excludes_zero": true,
+       "mean": 0.4512263749497321,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.6318270697167755,
+       "ci_lo": 0.2592592592592593,
+       "excludes_zero": true,
+       "which": "item"
+      }
+     }
+    },
+    "gpt-4.1-mini": {
+     "blind_auroc": 0.5,
+     "blind_identity_0.5": true,
+     "v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": 0.0421,
+      "indexed": 0.5421,
+      "indexed_ci_persona": {
+       "ci_hi": 0.646727519132653,
+       "ci_lo": 0.466625,
+       "excludes_zero": true,
+       "mean": 0.5465263835267119,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.22222222222222215,
+       "ci_lo": -0.1445941091954023,
+       "excludes_zero": false,
+       "mean": 0.044736423591077094,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0421,
+       "item_ci": {
+        "ci_hi": 0.23856426294774205,
+        "ci_lo": -0.15495611496913578,
+        "excludes_zero": false,
+        "mean": 0.04247926494914275,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2)",
+       "persona_ci": {
+        "ci_hi": 0.14672751913265297,
+        "ci_lo": -0.03337499999999999,
+        "excludes_zero": false,
+        "mean": 0.046526383526712,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.23856426294774205,
+        "ci_lo": -0.15495611496913578,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0421,
+       "item_ci": {
+        "ci_hi": 0.2086646527163768,
+        "ci_lo": -0.13581018518518517,
+        "excludes_zero": false,
+        "mean": 0.04304806804118951,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.14672751913265297,
+        "ci_lo": -0.03337499999999999,
+        "excludes_zero": false,
+        "mean": 0.046526383526712,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.2086646527163768,
+        "ci_lo": -0.13581018518518517,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.14672751913265297,
+       "ci_lo": -0.03337499999999999,
+       "excludes_zero": false,
+       "mean": 0.046526383526712,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.22222222222222215,
+       "ci_lo": -0.1445941091954023,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v2r": {
+      "agree": false,
+      "both_exclude_zero": false,
+      "delta": 0.0651,
+      "indexed": 0.5651,
+      "indexed_ci_persona": {
+       "ci_hi": 0.6049398148148148,
+       "ci_lo": 0.522189349112426,
+       "excludes_zero": true,
+       "mean": 0.5632134360197246,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.23725127551020414,
+       "ci_lo": -0.10214419699872287,
+       "excludes_zero": false,
+       "mean": 0.06960473530206156,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.0651,
+       "item_ci": {
+        "ci_hi": 0.2568518518518518,
+        "ci_lo": -0.11805555555555558,
+        "excludes_zero": false,
+        "mean": 0.06734757666012722,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2; v2r shares v2's lists)",
+       "persona_ci": {
+        "ci_hi": 0.10493981481481483,
+        "ci_lo": 0.022189349112425982,
+        "excludes_zero": true,
+        "mean": 0.06321343601972468,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.2568518518518518,
+        "ci_lo": -0.11805555555555558,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.0651,
+       "item_ci": {
+        "ci_hi": 0.22499999999999998,
+        "ci_lo": -0.09933067924139352,
+        "excludes_zero": false,
+        "mean": 0.06791637975217396,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.10493981481481483,
+        "ci_lo": 0.022189349112425982,
+        "excludes_zero": true,
+        "mean": 0.06321343601972468,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.22499999999999998,
+        "ci_lo": -0.09933067924139352,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.10493981481481483,
+       "ci_lo": 0.022189349112425982,
+       "excludes_zero": true,
+       "mean": 0.06321343601972468,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.23725127551020414,
+       "ci_lo": -0.10214419699872287,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v2r_minus_v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": 0.023,
+      "item_ci": {
+       "ci_hi": 0.18334183673469387,
+       "ci_lo": -0.1220210727969349,
+       "excludes_zero": false,
+       "mean": 0.024868311710984463,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": 0.11750571329639888,
+       "ci_lo": -0.09823673922231613,
+       "excludes_zero": false,
+       "mean": 0.016687052493012684,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.18334183673469387,
+       "ci_lo": -0.1220210727969349,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v3": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": 0.1811,
+      "indexed": 0.6811,
+      "indexed_ci_persona": {
+       "ci_hi": 0.8950570913461537,
+       "ci_lo": 0.4826989619377163,
+       "excludes_zero": true,
+       "mean": 0.6897666609140154,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.3900594486531987,
+       "ci_lo": -0.030775742115027784,
+       "excludes_zero": false,
+       "mean": 0.1815972663377737,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": true,
+       "both_exclude_zero": true,
+       "delta": -0.2883,
+       "item_ci": {
+        "ci_hi": -0.12940563725490195,
+        "ci_lo": -0.48202414772727276,
+        "excludes_zero": true,
+        "mean": -0.28984281575570164,
+        "n_draws": 1000
+       },
+       "lookup": "all-states lookup (v3)",
+       "persona_ci": {
+        "ci_hi": -0.10154257015306124,
+        "ci_lo": -0.4980571228780864,
+        "excludes_zero": true,
+        "mean": -0.28822050404401806,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": -0.10154257015306124,
+        "ci_lo": -0.4980571228780864,
+        "excludes_zero": true,
+        "which": "persona"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": true,
+       "delta": -0.2117,
+       "item_ci": {
+        "ci_hi": -0.06405302853406812,
+        "ci_lo": -0.39792534722222217,
+        "excludes_zero": true,
+        "mean": -0.21393085487103308,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": -0.05324143629807698,
+        "ci_lo": -0.32813193417159764,
+        "excludes_zero": true,
+        "mean": -0.20845021281048798,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": -0.06405302853406812,
+        "ci_lo": -0.39792534722222217,
+        "excludes_zero": true,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.39505709134615374,
+       "ci_lo": -0.017301038062283725,
+       "excludes_zero": false,
+       "mean": 0.1897666609140154,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.3900594486531987,
+       "ci_lo": -0.030775742115027784,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     }
+    }
+   },
+   "n": 42,
+   "pairs": 14,
+   "personas": 7,
+   "pos": 14
+  },
+  "pooled": {
+   "label": "pooled expiry: CF-2's 30 pairs + CF-3's 14 = 44 pairs, 132 items (two cells, two dates, two registrations; Opus 5 k = 5 on CF-2's rows, k = 1 on CF-3's)",
+   "lookups": {
+    "emb_v2": {
+     "auroc": 0.5,
+     "persona_ci": {
+      "ci_hi": 0.5,
+      "ci_lo": 0.5,
+      "excludes_zero": true,
+      "mean": 0.5,
+      "n_draws": 1000
+     }
+    },
+    "emb_v3": {
+     "auroc": 0.8977,
+     "persona_ci": {
+      "ci_hi": 0.9477244834118741,
+      "ci_lo": 0.8375756407214048,
+      "excludes_zero": true,
+      "mean": 0.8982530557402713,
+      "n_draws": 1000
+     }
+    },
+    "lex_v2": {
+     "auroc": 0.5,
+     "persona_ci": {
+      "ci_hi": 0.5,
+      "ci_lo": 0.5,
+      "excludes_zero": true,
+      "mean": 0.5,
+      "n_draws": 1000
+     }
+    },
+    "lex_v3": {
+     "auroc": 0.8453,
+     "persona_ci": {
+      "ci_hi": 0.9073005698005697,
+      "ci_lo": 0.7806224065500686,
+      "excludes_zero": true,
+      "mean": 0.8444812459972607,
+      "n_draws": 1000
+     }
+    }
+   },
+   "models": {
+    "claude-haiku-4-5-20251001": {
+     "blind_auroc": 0.5,
+     "blind_identity_0.5": true,
+     "v2": {
+      "agree": false,
+      "both_exclude_zero": false,
+      "delta": 0.0872,
+      "indexed": 0.5872,
+      "indexed_ci_persona": {
+       "ci_hi": 0.6365844384704231,
+       "ci_lo": 0.54702486347406,
+       "excludes_zero": true,
+       "mean": 0.587624378164046,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.19317727216433675,
+       "ci_lo": -0.030724776192096015,
+       "excludes_zero": false,
+       "mean": 0.08634208374609903,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.0872,
+       "item_ci": {
+        "ci_hi": 0.21880586973745322,
+        "ci_lo": -0.04899418355459825,
+        "excludes_zero": false,
+        "mean": 0.08876486428427702,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2)",
+       "persona_ci": {
+        "ci_hi": 0.1365844384704231,
+        "ci_lo": 0.04702486347406003,
+        "excludes_zero": true,
+        "mean": 0.08762437816404596,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.21880586973745322,
+        "ci_lo": -0.04899418355459825,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.0872,
+       "item_ci": {
+        "ci_hi": 0.178350215381661,
+        "ci_lo": -0.0088643723773034,
+        "excludes_zero": false,
+        "mean": 0.08857326196968011,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.1365844384704231,
+        "ci_lo": 0.04702486347406003,
+        "excludes_zero": true,
+        "mean": 0.08762437816404596,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.178350215381661,
+        "ci_lo": -0.0088643723773034,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.1365844384704231,
+       "ci_lo": 0.04702486347406003,
+       "excludes_zero": true,
+       "mean": 0.08762437816404596,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.19317727216433675,
+       "ci_lo": -0.030724776192096015,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v2r": {
+      "agree": false,
+      "both_exclude_zero": false,
+      "delta": 0.098,
+      "indexed": 0.598,
+      "indexed_ci_persona": {
+       "ci_hi": 0.6505444159329643,
+       "ci_lo": 0.5530727185337219,
+       "excludes_zero": true,
+       "mean": 0.5990543810844754,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.2055525586332239,
+       "ci_lo": -0.018615614864206348,
+       "excludes_zero": false,
+       "mean": 0.0971528319408362,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.098,
+       "item_ci": {
+        "ci_hi": 0.23359822692820256,
+        "ci_lo": -0.0386512859899956,
+        "excludes_zero": false,
+        "mean": 0.09957561247901417,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2; v2r shares v2's lists)",
+       "persona_ci": {
+        "ci_hi": 0.15054441593296433,
+        "ci_lo": 0.053072718533721856,
+        "excludes_zero": true,
+        "mean": 0.0990543810844753,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.23359822692820256,
+        "ci_lo": -0.0386512859899956,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": true,
+       "delta": 0.098,
+       "item_ci": {
+        "ci_hi": 0.18713985975830125,
+        "ci_lo": 0.0020873262839597355,
+        "excludes_zero": true,
+        "mean": 0.09938401016441728,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.15054441593296433,
+        "ci_lo": 0.053072718533721856,
+        "excludes_zero": true,
+        "mean": 0.0990543810844753,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.18713985975830125,
+        "ci_lo": 0.0020873262839597355,
+        "excludes_zero": true,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.15054441593296433,
+       "ci_lo": 0.053072718533721856,
+       "excludes_zero": true,
+       "mean": 0.0990543810844753,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.2055525586332239,
+       "ci_lo": -0.018615614864206348,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v2r_minus_v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": 0.0108,
+      "item_ci": {
+       "ci_hi": 0.05874631751190372,
+       "ci_lo": -0.03414332483098049,
+       "excludes_zero": false,
+       "mean": 0.010810748194737147,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": 0.05205384575613714,
+       "ci_lo": -0.025716460509927163,
+       "excludes_zero": false,
+       "mean": 0.011430002920429339,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.05874631751190372,
+       "ci_lo": -0.03414332483098049,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v3": {
+      "agree": true,
+      "both_exclude_zero": true,
+      "delta": 0.3644,
+      "indexed": 0.8644,
+      "indexed_ci_persona": {
+       "ci_hi": 0.9326152254956334,
+       "ci_lo": 0.7923712338151694,
+       "excludes_zero": true,
+       "mean": 0.8655146140678462,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.46764245513020025,
+       "ci_lo": 0.2551810878718958,
+       "excludes_zero": true,
+       "mean": 0.36136986430979146,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": -0.0333,
+       "item_ci": {
+        "ci_hi": 0.030620315035308664,
+        "ci_lo": -0.09809105356049155,
+        "excludes_zero": false,
+        "mean": -0.033249621620416135,
+        "n_draws": 1000
+       },
+       "lookup": "all-states lookup (v3)",
+       "persona_ci": {
+        "ci_hi": 0.013803534971644642,
+        "ci_lo": -0.074149932408861,
+        "excludes_zero": false,
+        "mean": -0.03273844167242512,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.030620315035308664,
+        "ci_lo": -0.09809105356049155,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0191,
+       "item_ci": {
+        "ci_hi": 0.10086493330039534,
+        "ci_lo": -0.05753808214215137,
+        "excludes_zero": false,
+        "mean": 0.018941123776390987,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.09123870370370377,
+        "ci_lo": -0.05103812358276639,
+        "excludes_zero": false,
+        "mean": 0.02103336807058566,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.10086493330039534,
+        "ci_lo": -0.05753808214215137,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.4326152254956334,
+       "ci_lo": 0.29237123381516944,
+       "excludes_zero": true,
+       "mean": 0.36551461406784624,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.46764245513020025,
+       "ci_lo": 0.2551810878718958,
+       "excludes_zero": true,
+       "which": "item"
+      }
+     }
+    },
+    "claude-opus-5": {
+     "blind_auroc": 0.5,
+     "blind_identity_0.5": true,
+     "v2": {
+      "agree": false,
+      "both_exclude_zero": false,
+      "delta": 0.0914,
+      "indexed": 0.5914,
+      "indexed_ci_persona": {
+       "ci_hi": 0.6593116604791426,
+       "ci_lo": 0.5302913803821759,
+       "excludes_zero": true,
+       "mean": 0.5961372831152054,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.1929886759581882,
+       "ci_lo": -0.006071494332747688,
+       "excludes_zero": false,
+       "mean": 0.08953531867678956,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.0914,
+       "item_ci": {
+        "ci_hi": 0.21244923538521102,
+        "ci_lo": -0.03197128550111505,
+        "excludes_zero": false,
+        "mean": 0.09101207958961302,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2)",
+       "persona_ci": {
+        "ci_hi": 0.15931166047914258,
+        "ci_lo": 0.03029138038217589,
+        "excludes_zero": true,
+        "mean": 0.09613728311520535,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.21244923538521102,
+        "ci_lo": -0.03197128550111505,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.0914,
+       "item_ci": {
+        "ci_hi": 0.19462060885811697,
+        "ci_lo": -0.012068896580187201,
+        "excludes_zero": false,
+        "mean": 0.09082047727501612,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.15931166047914258,
+        "ci_lo": 0.03029138038217589,
+        "excludes_zero": true,
+        "mean": 0.09613728311520535,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.19462060885811697,
+        "ci_lo": -0.012068896580187201,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.15931166047914258,
+       "ci_lo": 0.03029138038217589,
+       "excludes_zero": true,
+       "mean": 0.09613728311520535,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.1929886759581882,
+       "ci_lo": -0.006071494332747688,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v2r": {
+      "agree": true,
+      "both_exclude_zero": true,
+      "delta": 0.1068,
+      "indexed": 0.6068,
+      "indexed_ci_persona": {
+       "ci_hi": 0.6778733473557692,
+       "ci_lo": 0.5586745249009986,
+       "excludes_zero": true,
+       "mean": 0.6107984135263218,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.19736321719631372,
+       "ci_lo": 0.011522648224110239,
+       "excludes_zero": true,
+       "mean": 0.10528839008756848,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": false,
+       "both_exclude_zero": false,
+       "delta": 0.1068,
+       "item_ci": {
+        "ci_hi": 0.22314359697951713,
+        "ci_lo": -0.011634857686260646,
+        "excludes_zero": false,
+        "mean": 0.10676515100039193,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2; v2r shares v2's lists)",
+       "persona_ci": {
+        "ci_hi": 0.17787334735576918,
+        "ci_lo": 0.0586745249009986,
+        "excludes_zero": true,
+        "mean": 0.11079841352632194,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.22314359697951713,
+        "ci_lo": -0.011634857686260646,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": true,
+       "delta": 0.1068,
+       "item_ci": {
+        "ci_hi": 0.20550359669547932,
+        "ci_lo": 0.002447497920929698,
+        "excludes_zero": true,
+        "mean": 0.10657354868579504,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.17787334735576918,
+        "ci_lo": 0.0586745249009986,
+        "excludes_zero": true,
+        "mean": 0.11079841352632194,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.20550359669547932,
+        "ci_lo": 0.002447497920929698,
+        "excludes_zero": true,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.17787334735576918,
+       "ci_lo": 0.0586745249009986,
+       "excludes_zero": true,
+       "mean": 0.11079841352632194,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.19736321719631372,
+       "ci_lo": 0.011522648224110239,
+       "excludes_zero": true,
+       "which": "item"
+      }
+     },
+     "v2r_minus_v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": 0.0154,
+      "item_ci": {
+       "ci_hi": 0.05928160782116793,
+       "ci_lo": -0.026416632926631097,
+       "excludes_zero": false,
+       "mean": 0.01575307141077891,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": 0.0685840255286021,
+       "ci_lo": -0.028679285456469236,
+       "excludes_zero": false,
+       "mean": 0.014661130411116585,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.0685840255286021,
+       "ci_lo": -0.028679285456469236,
+       "excludes_zero": false,
+       "which": "persona"
+      }
+     },
+     "v3": {
+      "agree": true,
+      "both_exclude_zero": true,
+      "delta": 0.4232,
+      "indexed": 0.9232,
+      "indexed_ci_persona": {
+       "ci_hi": 0.965393235462229,
+       "ci_lo": 0.8768969907407407,
+       "excludes_zero": true,
+       "mean": 0.9259038889210067,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.5217685528917878,
+       "ci_lo": 0.3245515496767168,
+       "excludes_zero": true,
+       "mean": 0.42098807393293497,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0254,
+       "item_ci": {
+        "ci_hi": 0.0814855506383442,
+        "ci_lo": -0.026231239956382067,
+        "excludes_zero": false,
+        "mean": 0.025422568377372775,
+        "n_draws": 1000
+       },
+       "lookup": "all-states lookup (v3)",
+       "persona_ci": {
+        "ci_hi": 0.07234578358420096,
+        "ci_lo": -0.012986787022501353,
+        "excludes_zero": false,
+        "mean": 0.02765083318073534,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.0814855506383442,
+        "ci_lo": -0.026231239956382067,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": true,
+       "delta": 0.0779,
+       "item_ci": {
+        "ci_hi": 0.14857078954412484,
+        "ci_lo": 0.010852449512311702,
+        "excludes_zero": true,
+        "mean": 0.0776133137741799,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.13910828559027777,
+        "ci_lo": 0.02505165289256195,
+        "excludes_zero": true,
+        "mean": 0.08142264292374612,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.14857078954412484,
+        "ci_lo": 0.010852449512311702,
+        "excludes_zero": true,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.465393235462229,
+       "ci_lo": 0.37689699074074073,
+       "excludes_zero": true,
+       "mean": 0.42590388892100667,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.5217685528917878,
+       "ci_lo": 0.3245515496767168,
+       "excludes_zero": true,
+       "which": "item"
+      }
+     }
+    },
+    "gpt-4.1-mini": {
+     "blind_auroc": 0.5,
+     "blind_identity_0.5": true,
+     "v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": 0.0461,
+      "indexed": 0.5461,
+      "indexed_ci_persona": {
+       "ci_hi": 0.6135256732296316,
+       "ci_lo": 0.4946311719214753,
+       "excludes_zero": true,
+       "mean": 0.5463731444064783,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.1585155491697787,
+       "ci_lo": -0.0627526079558065,
+       "excludes_zero": false,
+       "mean": 0.04685069216466322,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0461,
+       "item_ci": {
+        "ci_hi": 0.14727593415207738,
+        "ci_lo": -0.050842923558545895,
+        "excludes_zero": false,
+        "mean": 0.045679541446150274,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2)",
+       "persona_ci": {
+        "ci_hi": 0.1135256732296316,
+        "ci_lo": -0.00536882807852469,
+        "excludes_zero": false,
+        "mean": 0.04637314440647831,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.14727593415207738,
+        "ci_lo": -0.050842923558545895,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0461,
+       "item_ci": {
+        "ci_hi": 0.13217587992832022,
+        "ci_lo": -0.04112422459405221,
+        "excludes_zero": false,
+        "mean": 0.04548793913155337,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.1135256732296316,
+        "ci_lo": -0.00536882807852469,
+        "excludes_zero": false,
+        "mean": 0.04637314440647831,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.13217587992832022,
+        "ci_lo": -0.04112422459405221,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.1135256732296316,
+       "ci_lo": -0.00536882807852469,
+       "excludes_zero": false,
+       "mean": 0.04637314440647831,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.1585155491697787,
+       "ci_lo": -0.0627526079558065,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v2r": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": 0.0302,
+      "indexed": 0.5302,
+      "indexed_ci_persona": {
+       "ci_hi": 0.5782085053545754,
+       "ci_lo": 0.47920863464187324,
+       "excludes_zero": true,
+       "mean": 0.5305699012652567,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.13254268949948803,
+       "ci_lo": -0.07965286100259306,
+       "excludes_zero": false,
+       "mean": 0.031109040153360426,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0302,
+       "item_ci": {
+        "ci_hi": 0.1374556463400281,
+        "ci_lo": -0.08452555133848368,
+        "excludes_zero": false,
+        "mean": 0.029937889434847476,
+        "n_draws": 1000
+       },
+       "lookup": "superseded-names lookup (v2; v2r shares v2's lists)",
+       "persona_ci": {
+        "ci_hi": 0.07820850535457535,
+        "ci_lo": -0.020791365358126732,
+        "excludes_zero": false,
+        "mean": 0.030569901265256768,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.1374556463400281,
+        "ci_lo": -0.08452555133848368,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0302,
+       "item_ci": {
+        "ci_hi": 0.11573020006613755,
+        "ci_lo": -0.056154928081895955,
+        "excludes_zero": false,
+        "mean": 0.029746287120250577,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.07820850535457535,
+        "ci_lo": -0.020791365358126732,
+        "excludes_zero": false,
+        "mean": 0.030569901265256768,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": 0.11573020006613755,
+        "ci_lo": -0.056154928081895955,
+        "excludes_zero": false,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.07820850535457535,
+       "ci_lo": -0.020791365358126732,
+       "excludes_zero": false,
+       "mean": 0.030569901265256768,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.13254268949948803,
+       "ci_lo": -0.07965286100259306,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v2r_minus_v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": -0.0159,
+      "item_ci": {
+       "ci_hi": 0.05953045586287121,
+       "ci_lo": -0.09425373069279312,
+       "excludes_zero": false,
+       "mean": -0.015741652011302794,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": 0.05442202163435279,
+       "ci_lo": -0.08381597216797641,
+       "excludes_zero": false,
+       "mean": -0.015803243141221543,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.05953045586287121,
+       "ci_lo": -0.09425373069279312,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     },
+     "v3": {
+      "agree": false,
+      "both_exclude_zero": false,
+      "delta": 0.1139,
+      "indexed": 0.6139,
+      "indexed_ci_persona": {
+       "ci_hi": 0.702976387314185,
+       "ci_lo": 0.5349307270233196,
+       "excludes_zero": true,
+       "mean": 0.6152908642861669,
+       "n_draws": 1000
+      },
+      "item_ci": {
+       "ci_hi": 0.2197574845670507,
+       "ci_lo": -0.0041837317231115155,
+       "excludes_zero": false,
+       "mean": 0.1135762436392717,
+       "n_draws": 1000
+      },
+      "model_minus_emb_lookup": {
+       "agree": true,
+       "both_exclude_zero": true,
+       "delta": -0.2838,
+       "item_ci": {
+        "ci_hi": -0.1960130423553718,
+        "ci_lo": -0.37562982034952974,
+        "excludes_zero": true,
+        "mean": -0.28463717354762685,
+        "n_draws": 1000
+       },
+       "lookup": "all-states lookup (v3)",
+       "persona_ci": {
+        "ci_hi": -0.18191604572995534,
+        "ci_lo": -0.37620884773662555,
+        "excludes_zero": true,
+        "mean": -0.2829621914541044,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": -0.18191604572995534,
+        "ci_lo": -0.37620884773662555,
+        "excludes_zero": true,
+        "which": "persona"
+       }
+      },
+      "model_minus_lex_lookup": {
+       "agree": true,
+       "both_exclude_zero": true,
+       "delta": -0.2314,
+       "item_ci": {
+        "ci_hi": -0.13669145221776796,
+        "ci_lo": -0.332284133953168,
+        "excludes_zero": true,
+        "mean": -0.23244642815081978,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": -0.15914326989173394,
+        "ci_lo": -0.2963529177295918,
+        "excludes_zero": true,
+        "mean": -0.22919038171109365,
+        "n_draws": 1000
+       },
+       "weaker": {
+        "ci_hi": -0.13669145221776796,
+        "ci_lo": -0.332284133953168,
+        "excludes_zero": true,
+        "which": "item"
+       }
+      },
+      "persona_ci": {
+       "ci_hi": 0.20297638731418494,
+       "ci_lo": 0.03493072702331958,
+       "excludes_zero": true,
+       "mean": 0.1152908642861669,
+       "n_draws": 1000
+      },
+      "weaker": {
+       "ci_hi": 0.2197574845670507,
+       "ci_lo": -0.0041837317231115155,
+       "excludes_zero": false,
+       "which": "item"
+      }
+     }
+    }
+   },
+   "n": 132,
+   "pairs": 44,
+   "personas": 22,
+   "pos": 44
+  }
+ },
+ "gate": {
+  "cf2_expiry_emb_v2": 0.5,
+  "cf2_expiry_emb_v3": 0.8711,
+  "expected": {
+   "emb_v2": 0.5,
+   "emb_v3": 0.8711
+  },
+  "ok": true
+ },
+ "registration_sha256": "2f555c1ac4c3018e66a0fc453be7c4c4d3ffd4e3a2f7ac63c5c7b3590ca4f910"
+}

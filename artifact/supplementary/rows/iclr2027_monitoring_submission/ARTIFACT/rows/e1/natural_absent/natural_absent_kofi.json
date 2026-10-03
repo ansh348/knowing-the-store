@@ -1,0 +1,351 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 20,
+    "in": 20835,
+    "out": 7512,
+    "usd": 0.020353200000000002
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 3,
+  "persona": "kofi",
+  "probes": [
+    {
+      "domain": "Culinary Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "ashanti",
+        "cook"
+      ],
+      "max_cosine": 0.4168,
+      "note": "",
+      "question": "What is your favorite traditional Ashanti dish to cook at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4168,
+          "entry_id": "lb_00386",
+          "text": "Akosua is a hardworking woman who makes very good white shea butter and has been preparing it for the family since marriage."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3894,
+          "entry_id": "lb_00382",
+          "text": "Akosua makes very good white shea butter."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3815,
+          "entry_id": "lb_00383",
+          "text": "User's wife Akosua makes very good white shea butter."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3799,
+          "entry_id": "lb_00379",
+          "text": "User's wife Akosua knows how to process shea butter using traditional methods taught by her mother."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3747,
+          "entry_id": "lb_00385",
+          "text": "User's wife Akosua learned shea butter processing from her mother and has been making it for their family since they married"
+        }
+      ],
+      "why_absent": "No information about Kofi's favorite foods or cooking habits is stored."
+    },
+    {
+      "domain": "Home Environment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "village",
+        "you"
+      ],
+      "max_cosine": 0.3173,
+      "note": "",
+      "question": "Can you describe the layout and decoration style of your village home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3173,
+          "entry_id": "lb_00370",
+          "text": "User is part of a village cooperative with 147 families."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3038,
+          "entry_id": "lb_00362",
+          "text": "User is involved in a village cooperative with 147 families."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3004,
+          "entry_id": "lb_00011",
+          "text": "User has a drying shed for cocoa beans that was built by their father."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2985,
+          "entry_id": "lb_00201",
+          "text": "User has a farm with young cocoa trees and gliricidia shade trees planted between some rows."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2976,
+          "entry_id": "lb_00177",
+          "text": "User is planning to present a detailed plan for a cooperative processing shed to the elders."
+        }
+      ],
+      "why_absent": "No details about Kofi's living space interior or home decoration are present."
+    },
+    {
+      "domain": "Entertainment Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "during",
+        "time",
+        "you"
+      ],
+      "max_cosine": 0.1742,
+      "note": "",
+      "question": "What kind of music do you enjoy listening to during your leisure time?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.1742,
+          "entry_id": "lb_00529",
+          "text": "Yaa is a serious student who sits and reads attentively."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.1405,
+          "entry_id": "lb_00538",
+          "text": "User's family lives in Ghana and values cultural knowledge about Ghana's land, culture, and people."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1242,
+          "entry_id": "lb_00536",
+          "text": "User's daughters Yaa and Ama read aloud together after dinner to practice writing and reading skills."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1175,
+          "entry_id": "lb_00116",
+          "text": "User performs pruning weekly before the season changes."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1165,
+          "entry_id": "lb_00080",
+          "text": "User experiences malaria 2-3 times a year"
+        }
+      ],
+      "why_absent": "No data on Kofi's music tastes or entertainment habits is recorded."
+    },
+    {
+      "domain": "Cultural Activities",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "local",
+        "you"
+      ],
+      "max_cosine": 0.3449,
+      "note": "",
+      "question": "Have you ever participated in any local festivals or cultural ceremonies? If so, which ones?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3449,
+          "entry_id": "lb_00291",
+          "text": "User is on the planning committee for their church's harvest festival"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3208,
+          "entry_id": "lb_00298",
+          "text": "User is involved in organizing a festival with a target collection of 6,800 cedis from about 85 families."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2847,
+          "entry_id": "lb_00297",
+          "text": "The harvest festival is scheduled for September"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2732,
+          "entry_id": "lb_00138",
+          "text": "User participates in farmer meetings to share best practices"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2622,
+          "entry_id": "lb_00327",
+          "text": "User led negotiations with Kuapa Kokoo along with 3 elders in Kumasi."
+        }
+      ],
+      "why_absent": "No mention of Kofi's involvement in cultural or festival events is available."
+    },
+    {
+      "domain": "Language Skills",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.1821,
+      "note": "",
+      "question": "What languages do you speak besides your native tongue?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1821,
+          "entry_id": "lb_00536",
+          "text": "User's daughters Yaa and Ama read aloud together after dinner to practice writing and reading skills."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1622,
+          "entry_id": "lb_00535",
+          "text": "User has another daughter named Ama who is older and reads well."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.1534,
+          "entry_id": "lb_00538",
+          "text": "User's family lives in Ghana and values cultural knowledge about Ghana's land, culture, and people."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1479,
+          "entry_id": "lb_00352",
+          "text": "User has four children named Kwabena, Ama, Yaa, and Kofi Jr who attend school."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1456,
+          "entry_id": "lb_00333",
+          "text": "User has four children named Kwabena, Ama, Yaa, and Kofi Jr"
+        }
+      ],
+      "why_absent": "No information about Kofi's language abilities beyond his location is stored."
+    },
+    {
+      "domain": "Transportation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "cooperative",
+        "get",
+        "type",
+        "use",
+        "you"
+      ],
+      "max_cosine": 0.5359,
+      "note": "",
+      "question": "What type of transportation do you usually use to get to the cooperative meetings?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.5359,
+          "entry_id": "lb_00025",
+          "text": "The cooperative provides group transport, sometimes fertilizer on credit, and collective negotiation benefits to members"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4748,
+          "entry_id": "lb_00131",
+          "text": "User is part of a cocoa farming cooperative and attends farmer meetings."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.4522,
+          "entry_id": "lb_00038",
+          "text": "User plans to call a meeting this Saturday with the elders to discuss cooperative matters"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.429,
+          "entry_id": "lb_00140",
+          "text": "User is involved in a farming cooperative and plans to present a drying method at the next meeting."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.4259,
+          "entry_id": "lb_00497",
+          "text": "User presents the accounts at the cooperative's annual general meeting."
+        }
+      ],
+      "why_absent": "No details about Kofi's transportation methods or travel habits are included."
+    },
+    {
+      "domain": "Personal Life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "many",
+        "you"
+      ],
+      "max_cosine": 0.2751,
+      "note": "",
+      "question": "Do you have any pets at home? If yes, what kind and how many?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2751,
+          "entry_id": "lb_00016",
+          "text": "User has children named Kwabena (17), Ama (14), Yaa (10), and Kofi Jr (6)"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2751,
+          "entry_id": "lb_00018",
+          "text": "User has children named Kwabena (17), Ama (14), Yaa (10), and Kofi Jr (6)"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2649,
+          "entry_id": "lb_00069",
+          "text": "User has children who sleep under mosquito nets at home."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2625,
+          "entry_id": "lb_00012",
+          "text": "User has a family including wife Akosua and children Kwabena (17), Ama (14), Yaa (10), and Kofi Jr (6)."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2354,
+          "entry_id": "lb_00333",
+          "text": "User has four children named Kwabena, Ama, Yaa, and Kofi Jr"
+        }
+      ],
+      "why_absent": "No data about pets or animals in Kofi's household is recorded."
+    }
+  ],
+  "threshold": 0.295
+}

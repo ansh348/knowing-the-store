@@ -1,0 +1,26 @@
+{
+ "amendment": "Amendment 1 (GPT-5.6 Sol)",
+ "amendment_frozen_at": "2c441a7",
+ "amendment_sha256": "2a21bcce8257c551450896bcb17668cefbfd5573f89bc318256bc8f80057c1e6",
+ "cap_usd": 12.0,
+ "disclosure": "added after the interim read of three lanes (cf_scores_ix_interim_3lanes.json) while the Opus 5 batch was running and unread; P-I2b labelled as made after that read",
+ "frozen_at": "648d671",
+ "lane": "SOL",
+ "recorded_cells12_A": "rows_SOL.jsonl INDEXED-V2 draw 1 (sensitivity: the five-draw mean)",
+ "registration_sha256": "9480d6bbcfef47d25c2711d0c42f9c05d7dc2239fdddb371205a07923675711a",
+ "settings": {
+  "k": 1,
+  "max_tokens": 2048,
+  "model": "gpt-5.6-sol",
+  "mult": 1.0,
+  "price": [
+   4.0,
+   20.0
+  ],
+  "temp": null,
+  "transport": "raw",
+  "vendor": "openai"
+ },
+ "units": 730,
+ "when": "2026-09-19T14:20:27"
+}

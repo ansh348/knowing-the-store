@@ -1,0 +1,157 @@
+{
+ "n_items": 444,
+ "n_triples": 148,
+ "n_sup_items": 264,
+ "n_sup_triples": 88,
+ "n_counted_items": 90,
+ "n_counted_triples": 30,
+ "list_pn": 60,
+ "list_min": 57,
+ "list_max": 60,
+ "list_histogram": {
+  "57": 2,
+  "58": 12,
+  "59": 162,
+  "60": 268
+ },
+ "pool_min": 71,
+ "pool_median": 102.0,
+ "pool_max": 121,
+ "pool_b_pairs": 0,
+ "rank_min": 2,
+ "rank_median": 41.5,
+ "rank_max": 60,
+ "rank_first": 0,
+ "rank_last": 4,
+ "rank_n": 88,
+ "rank_deciles": [
+  5,
+  3,
+  2,
+  5,
+  8,
+  12,
+  12,
+  9,
+  9,
+  23
+ ],
+ "renderer_lock": 444,
+ "leak_fails": 0,
+ "draws": {
+  "H45": 5,
+  "LUNA": 5,
+  "MINI": 5,
+  "OP5": 1,
+  "SOL": 5
+ },
+ "draws_recorded": {
+  "H45": 5,
+  "LUNA": 5,
+  "MINI": 5,
+  "OP5": 5,
+  "SOL": 5
+ },
+ "rows": {
+  "H45": 2220,
+  "LUNA": 2220,
+  "MINI": 2220,
+  "OP5": 444,
+  "SOL": 2220
+ },
+ "not_ok": {
+  "H45": 0,
+  "LUNA": 0,
+  "MINI": 0,
+  "OP5": 0,
+  "SOL": 0
+ },
+ "served": {
+  "H45": [
+   "claude-haiku-4-5-20251001"
+  ],
+  "LUNA": [
+   "gpt-5.6-luna"
+  ],
+  "MINI": [
+   "gpt-4.1-mini-2025-04-14"
+  ],
+  "OP5": [
+   "claude-opus-5"
+  ],
+  "SOL": [
+   "gpt-5.6-sol"
+  ]
+ },
+ "usd": {
+  "H45": 3.31,
+  "LUNA": 0.87,
+  "MINI": 1.53,
+  "OP5": 4.78,
+  "SOL": 13.12
+ },
+ "spend": {
+  "anthropic": {
+   "usd": 8.11,
+   "cap": 12.0
+  },
+  "openai": {
+   "usd": 15.54,
+   "cap": 20.0
+  }
+ },
+ "predictions": {
+  "P-L1": "P-L1 FAILS",
+  "P-L2": "P-L2 HOLDS",
+  "P-L3": "P-L3 HOLDS",
+  "P-L4": "P-L4 FAILS"
+ },
+ "opus_d1": {
+  "superseded": {
+   "pooled_d1": "0.9317",
+   "matched_d1": "0.9716",
+   "padded_minus_d1": "-0.2236",
+   "ci_item": "[-0.2776,-0.1690]",
+   "ci_persona": "[-0.3416,-0.1294]",
+   "reliable": true
+  },
+  "whole": {
+   "pooled_d1": "0.8400",
+   "matched_d1": "0.8682",
+   "padded_minus_d1": "-0.1873",
+   "ci_item": "[-0.2277,-0.1476]",
+   "ci_persona": "[-0.2569,-0.1278]",
+   "reliable": true
+  }
+ },
+ "seed_reading_changes": [],
+ "seed_interval_moves": [
+  [
+   "MINI_minus_LOOKUP",
+   "45",
+   "persona"
+  ]
+ ],
+ "seeds": [
+  "43",
+  "44",
+  "45",
+  "46"
+ ],
+ "counted_reliable": [
+  [
+   "H45",
+   "retracted",
+   "matched"
+  ],
+  [
+   "OP5",
+   "retracted",
+   "pooled"
+  ]
+ ],
+ "tol": 0.05,
+ "stops": [],
+ "frozen_commit": "06c611f",
+ "registration_sha256": "a84dac1abc2f604b171b4ab838daba4bbdb440d124ef9f050387bd0a716eba21"
+}

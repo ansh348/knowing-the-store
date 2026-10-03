@@ -1,0 +1,42 @@
+[
+ [
+  "\\label{tab:resp-l1}\\centering\\scriptsize\\setlength{\\tabcolsep}{3pt}\n\\begin{tabular}{@{}lrrrrllrr@{}}\\toprule",
+  "\\label{tab:resp-l1}\\centering\\scriptsize\\setlength{\\tabcolsep}{3pt}\n\\resizebox{\\textwidth}{!}{\\begin{tabular}{@{}lrrrrllrr@{}}\\toprule",
+  1
+ ],
+ [
+  "& $0.4053$ & $0.4455$ \\\\\n\\bottomrule\\end{tabular}\\end{table}",
+  "& $0.4053$ & $0.4455$ \\\\\n\\bottomrule\\end{tabular}}\\end{table}",
+  1
+ ],
+ [
+  "\\label{tab:resp-l2}\\centering\\scriptsize\\setlength{\\tabcolsep}{3pt}\n\\begin{tabular}{@{}llrrrrll@{}}\\toprule",
+  "\\label{tab:resp-l2}\\centering\\scriptsize\\setlength{\\tabcolsep}{3pt}\n\\resizebox{\\textwidth}{!}{\\begin{tabular}{@{}llrrrrll@{}}\\toprule",
+  1
+ ],
+ [
+  "expiry $12$ of $15$.} \\\\\n\\bottomrule\\end{tabular}\\end{table}",
+  "expiry $12$ of $15$.} \\\\\n\\bottomrule\\end{tabular}}\\end{table}",
+  1
+ ],
+ [
+  "excludes zero on Opus 5 only---the resolution an $n=36$ set affords.",
+  "excludes zero on Opus 5 only, the resolution an $n=36$ set affords.",
+  1
+ ],
+ [
+  "This is a deterministic census on recorded labels---no model is fit and nothing is resampled---so no interval",
+  "This is a deterministic census on recorded labels (no model is fit and nothing is resampled), so no interval",
+  1
+ ],
+ [
+  "which bounds the mechanism rather than that specificity---per-category correspondence",
+  "which bounds the mechanism rather than that specificity: per-category correspondence",
+  1
+ ],
+ [
+  "The names condition has no ablation site --- these summaries expose no category names, every name section's body being exactly the inexpressibility marker --- and therefore equals",
+  "The names condition has no ablation site (these summaries expose no category names, every name section's body being exactly the inexpressibility marker) and therefore equals",
+  1
+ ]
+]

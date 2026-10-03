@@ -1,0 +1,103 @@
+{
+ "AV_CENSUS": {
+  "auroc_one_feature": 0.9735795454545455,
+  "class": "deterministic census on committed labels; no model fit, no holdout, no resampling; NO INTERVAL (is-FR-Bank 0.7541 / Table 16 family)",
+  "committed_tfidf_same_cell": 0.7972,
+  "n": 84,
+  "n_single_class_strata": 6,
+  "n_strata": 8,
+  "pn": 40,
+  "population": "committed matched-84 FR-Bank cell (cell_84.json), target y_nok",
+  "provenance": "computed pre-freeze as the R76 STOP premise diagnostic (D-R74-13); seedless and sampling-free, so invariant to run order",
+  "strata": {
+   "AV1_superseded_preference": {
+    "n": 14,
+    "p_pn": 0.9285714285714286,
+    "pn": 13
+   },
+   "AV2_expired_logistics": {
+    "n": 16,
+    "p_pn": 0.5,
+    "pn": 8
+   },
+   "AV3_stable_identity": {
+    "n": 21,
+    "p_pn": 0.0,
+    "pn": 0
+   },
+   "AV4_multi_version_fact": {
+    "n": 6,
+    "p_pn": 1.0,
+    "pn": 6
+   },
+   "AV6_cross_session_contradiction": {
+    "n": 2,
+    "p_pn": 0.0,
+    "pn": 0
+   },
+   "AV7_selective_forgetting": {
+    "n": 13,
+    "p_pn": 1.0,
+    "pn": 13
+   },
+   "AV9_soft_supersession": {
+    "n": 4,
+    "p_pn": 0.0,
+    "pn": 0
+   },
+   "NATURAL_ABSENT": {
+    "n": 8,
+    "p_pn": 0.0,
+    "pn": 0
+   }
+  },
+  "strata_with_both_classes": [
+   "AV1_superseded_preference",
+   "AV2_expired_logistics"
+  ],
+  "tie_pairs": 77,
+  "total_pairs": 1760
+ },
+ "MATCHED_PROBE": {
+  "apparatus": "committed e1qp probes.oof_tfidf, unchanged",
+  "auroc": 0.3472222222222222,
+  "ci": [
+   0.1672506157635468,
+   0.5423688271604937
+  ],
+  "config": {
+   "grouped_by": "persona",
+   "logreg": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "max_iter": 2000,
+    "solver": "lbfgs"
+   },
+   "n_splits_cap": 5,
+   "n_splits_used": 5,
+   "seed": 42,
+   "tfidf": {
+    "lowercase": true,
+    "min_df": 1,
+    "ngram_range": [
+     1,
+     2
+    ],
+    "sublinear_tf": true
+   }
+  },
+  "includes_0.50": true,
+  "n": 36,
+  "personas": 29,
+  "pn": 12,
+  "population": "the 36 authorship-matched rendered E1-NS questions (x5_render.json)",
+  "width_disclosure": "wide interval expected at n=36 with 12 positives; this row is a construction check on the E1-NS cell, not a measurement of the FR-Bank populations, and is not compared against 0.7972 as if the two sat on one population"
+ },
+ "ZERO_SHOT_MATCHED": {
+  "cached_rows_for_matched_cell": 0,
+  "cached_rows_total": 362,
+  "reason": "no ns:* responses exist in the committed cache and the matched questions are newly rendered text, so the row would require fresh metered calls ($0 rule)",
+  "status": "SKIPPED (registered)"
+ },
+ "registration": "ADDENDUM_R76 \u00a7A4 @ 692e379bdc"
+}

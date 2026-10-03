@@ -1,0 +1,615 @@
+{
+ "L1": {
+  "per_state": {
+   "all": {
+    "D": -0.23232288357961606,
+    "arm": 0.5015795470238917,
+    "base": 0.7339024306035078,
+    "cluster": {
+     "ci_hi": -0.1539984892918763,
+     "ci_lo": -0.30543664317249447,
+     "excludes_zero": true,
+     "mean": -0.23299984976217195,
+     "n_draws": 1000
+    },
+    "item": {
+     "ci_hi": -0.17532994652659475,
+     "ci_lo": -0.28901385915678834,
+     "excludes_zero": true,
+     "mean": -0.23150608894499666,
+     "n_draws": 1000
+    },
+    "n": 661,
+    "n_pos": 104
+   },
+   "expiry": {
+    "D": 0.0025733093955715436,
+    "arm": 0.5135846798324357,
+    "base": 0.5110113704368642,
+    "cluster": {
+     "ci_hi": 0.01026139532831918,
+     "ci_lo": -0.004074044174631863,
+     "excludes_zero": false,
+     "mean": 0.0025484414049440534,
+     "n_draws": 997
+    },
+    "item": {
+     "ci_hi": 0.007914196929576274,
+     "ci_lo": -0.0028371933472475784,
+     "excludes_zero": false,
+     "mean": 0.0025503395675474873,
+     "n_draws": 1000
+    },
+    "n": 572,
+    "n_pos": 15
+   },
+   "retraction": {
+    "D": -0.14041568844082308,
+    "arm": 0.42335312802099156,
+    "base": 0.5637688164618146,
+    "cluster": {
+     "ci_hi": -0.0027885982603936313,
+     "ci_lo": -0.3305406230868315,
+     "excludes_zero": true,
+     "mean": -0.14691271813337012,
+     "n_draws": 1000
+    },
+    "item": {
+     "ci_hi": -0.050775985663082404,
+     "ci_lo": -0.2568620265359267,
+     "excludes_zero": true,
+     "mean": -0.14103505955078946,
+     "n_draws": 1000
+    },
+    "n": 583,
+    "n_pos": 26
+   },
+   "supersession": {
+    "D": -0.3261805021230515,
+    "arm": 0.5310051010230543,
+    "base": 0.8571856031461058,
+    "cluster": {
+     "ci_hi": -0.21668624920891477,
+     "ci_lo": -0.43271559180628,
+     "excludes_zero": true,
+     "mean": -0.3269187694044064,
+     "n_draws": 1000
+    },
+    "item": {
+     "ci_hi": -0.25482212512664637,
+     "ci_lo": -0.3991096466071331,
+     "excludes_zero": true,
+     "mean": -0.32597392868685937,
+     "n_draws": 1000
+    },
+    "n": 620,
+    "n_pos": 63
+   }
+  },
+  "redraw": {
+   "all": {
+    "inside_draw_noise": false,
+    "own_minus_true_same_items": {
+     "D": -0.3250482625482626,
+     "arm": 0.44715250965250963,
+     "base": 0.7722007722007722,
+     "cluster": {
+      "ci_hi": -0.1967923697617576,
+      "ci_lo": -0.4763707542457542,
+      "excludes_zero": true,
+      "mean": -0.33074000570404394,
+      "n_draws": 1000
+     },
+     "item": {
+      "ci_hi": -0.21077772556390975,
+      "ci_lo": -0.443792291568257,
+      "excludes_zero": true,
+      "mean": -0.32412945607473487,
+      "n_draws": 1000
+     },
+     "n": 102,
+     "n_pos": 74
+    },
+    "redraw_minus_true": {
+     "D": 0.017857142857142794,
+     "arm": 0.790057915057915,
+     "base": 0.7722007722007722,
+     "cluster": {
+      "ci_hi": 0.05453447693765474,
+      "ci_lo": -0.016832956827309287,
+      "excludes_zero": false,
+      "mean": 0.01675015288667742,
+      "n_draws": 1000
+     },
+     "item": {
+      "ci_hi": 0.05228802447552444,
+      "ci_lo": -0.011678453466948263,
+      "excludes_zero": false,
+      "mean": 0.017373408636345792,
+      "n_draws": 1000
+     },
+     "n": 102,
+     "n_pos": 74
+    }
+   },
+   "expiry": {
+    "n": 28,
+    "n_pos": 0,
+    "note": "no positives of this state among the 102 changed items"
+   },
+   "retraction": {
+    "inside_draw_noise": false,
+    "own_minus_true_same_items": {
+     "D": -0.3133116883116884,
+     "arm": 0.30357142857142855,
+     "base": 0.6168831168831169,
+     "cluster": {
+      "ci_hi": -0.06656462585034022,
+      "ci_lo": -0.5907411858974358,
+      "excludes_zero": true,
+      "mean": -0.32538600284270375,
+      "n_draws": 999
+     },
+     "item": {
+      "ci_hi": -0.1128912960488643,
+      "ci_lo": -0.5335523473502305,
+      "excludes_zero": true,
+      "mean": -0.31947029006600236,
+      "n_draws": 1000
+     },
+     "n": 39,
+     "n_pos": 11
+    },
+    "redraw_minus_true": {
+     "D": 0.022727272727272707,
+     "arm": 0.6396103896103896,
+     "base": 0.6168831168831169,
+     "cluster": {
+      "ci_hi": 0.10526660839160824,
+      "ci_lo": -0.03667156862745094,
+      "excludes_zero": false,
+      "mean": 0.023924313732486033,
+      "n_draws": 999
+     },
+     "item": {
+      "ci_hi": 0.08772077922077917,
+      "ci_lo": -0.0271539408866995,
+      "excludes_zero": false,
+      "mean": 0.023637723956079815,
+      "n_draws": 1000
+     },
+     "n": 39,
+     "n_pos": 11
+    }
+   },
+   "supersession": {
+    "inside_draw_noise": false,
+    "own_minus_true_same_items": {
+     "D": -0.32709750566893425,
+     "arm": 0.4722222222222222,
+     "base": 0.7993197278911565,
+     "cluster": {
+      "ci_hi": -0.17719256423678878,
+      "ci_lo": -0.49973304953560377,
+      "excludes_zero": true,
+      "mean": -0.33226728071278766,
+      "n_draws": 1000
+     },
+     "item": {
+      "ci_hi": -0.20708380366073906,
+      "ci_lo": -0.4383184485233121,
+      "excludes_zero": true,
+      "mean": -0.3266346341624338,
+      "n_draws": 1000
+     },
+     "n": 91,
+     "n_pos": 63
+    },
+    "redraw_minus_true": {
+     "D": 0.017006802721088454,
+     "arm": 0.8163265306122449,
+     "base": 0.7993197278911565,
+     "cluster": {
+      "ci_hi": 0.045910635211482614,
+      "ci_lo": -0.015703550481776244,
+      "excludes_zero": false,
+      "mean": 0.015427380107331072,
+      "n_draws": 1000
+     },
+     "item": {
+      "ci_hi": 0.05410519125683059,
+      "ci_lo": -0.012727968460111289,
+      "excludes_zero": false,
+      "mean": 0.016944625064841914,
+      "n_draws": 1000
+     },
+     "n": 91,
+     "n_pos": 63
+    }
+   }
+  },
+  "verdicts": {
+   "L1-P1": {
+    "cluster_reading": true,
+    "disagree": false,
+    "holds": true,
+    "item_reading": true,
+    "text": "Removing the target's own name and its nearest neighbours from the superseded-names section costs the smallest model 0.3262 of its supersession discrimination (0.8572 to 0.5310, interval [-0.3991, -0.2548]; persona-clustered [-0.4327, -0.2167]): the obligation is read off the name, as the manuscript says."
+   },
+   "L1-P2": {
+    "expiry_D": 0.0025733093955715436,
+    "holds": false,
+    "retraction_D": -0.14041568844082308,
+    "text": "On retraction-derived items, which the summary only counts and never names, the ablation moves the smallest model's discrimination by -0.1404 with interval [-0.2569, -0.0508] (persona-clustered [-0.3305, -0.0028]), outside the tolerance. The change cannot come from a name the positives carried; it comes through the negatives whose names were removed, or through the model's response to a section that now reads \"(none)\" against non-zero counts. The per-state reading of Table 20 is not clean of the ablation on this state. (Retraction: 11 of 26 named in the section, §C.2.)"
+   }
+  }
+ },
+ "L2": {
+  "arms": {
+   "HYBRID": {
+    "all": {
+     "D": 0.09639552547990615,
+     "arm": 0.830297956083414,
+     "base": 0.7339024306035078,
+     "cluster": {
+      "ci_hi": 0.16353856665486402,
+      "ci_lo": 0.022728172725214935,
+      "excludes_zero": true,
+      "mean": 0.09405810284317238,
+      "n_draws": 1000
+     },
+     "item": {
+      "ci_hi": 0.1554299488100337,
+      "ci_lo": 0.04151061234766696,
+      "excludes_zero": true,
+      "mean": 0.0974713527150646,
+      "n_draws": 1000
+     },
+     "n": 661,
+     "n_pos": 104
+    },
+    "blind_nok_all": 0.49461400359066426,
+    "expiry": {
+     "D": 0.17474566128067026,
+     "arm": 0.6857570317175344,
+     "base": 0.5110113704368642,
+     "cluster": {
+      "ci_hi": 0.33348617632053124,
+      "ci_lo": 0.019546180633206588,
+      "excludes_zero": true,
+      "mean": 0.17094248128925535,
+      "n_draws": 997
+     },
+     "item": {
+      "ci_hi": 0.32874278698440734,
+      "ci_lo": 0.03198370974362762,
+      "excludes_zero": true,
+      "mean": 0.1762483021246056,
+      "n_draws": 1000
+     },
+     "n": 572,
+     "n_pos": 15
+    },
+    "fok_307_vs_blind": {
+     "D": 0.3275210084033613,
+     "arm": 0.8241071428571428,
+     "base": 0.4965861344537815,
+     "cluster": {
+      "ci_hi": 0.4123559542690318,
+      "ci_lo": 0.24014244742959506,
+      "excludes_zero": true,
+      "mean": 0.32652381025669014,
+      "n_draws": 1000
+     },
+     "item": {
+      "ci_hi": 0.42438525341354516,
+      "ci_lo": 0.22401684964361998,
+      "excludes_zero": true,
+      "mean": 0.32752693018228013,
+      "n_draws": 1000
+     },
+     "n": 307,
+     "n_pos": 35
+    },
+    "fok_307_vs_true": {
+     "D": 0.1237920168067227,
+     "arm": 0.8241071428571428,
+     "base": 0.7003151260504201,
+     "cluster": {
+      "ci_hi": 0.19939030826620757,
+      "ci_lo": 0.04709816727819062,
+      "excludes_zero": true,
+      "mean": 0.12236275929936706,
+      "n_draws": 1000
+     },
+     "item": {
+      "ci_hi": 0.22647216302789056,
+      "ci_lo": 0.020582021930254563,
+      "excludes_zero": true,
+      "mean": 0.11905119906155662,
+      "n_draws": 1000
+     },
+     "n": 307,
+     "n_pos": 35
+    },
+    "retraction": {
+     "D": 0.17041845049026383,
+     "arm": 0.7341872669520785,
+     "base": 0.5637688164618146,
+     "cluster": {
+      "ci_hi": 0.3471494590584481,
+      "ci_lo": -0.008869050613647156,
+      "excludes_zero": false,
+      "mean": 0.16545781521406627,
+      "n_draws": 1000
+     },
+     "item": {
+      "ci_hi": 0.2925611099979964,
+      "ci_lo": 0.042984114874597856,
+      "excludes_zero": true,
+      "mean": 0.17041468017407976,
+      "n_draws": 1000
+     },
+     "n": 583,
+     "n_pos": 26
+    },
+    "supersession": {
+     "D": 0.047191587586560724,
+     "arm": 0.9043771907326665,
+     "base": 0.8571856031461058,
+     "cluster": {
+      "ci_hi": 0.13479091413388822,
+      "ci_lo": -0.05096578121298265,
+      "excludes_zero": false,
+      "mean": 0.044867528709025856,
+      "n_draws": 1000
+     },
+     "item": {
+      "ci_hi": 0.12063922627018533,
+      "ci_lo": -0.03369345356126706,
+      "excludes_zero": false,
+      "mean": 0.0469796201497573,
+      "n_draws": 1000
+     },
+     "n": 620,
+     "n_pos": 63
+    }
+   },
+   "RETRIEVED": {
+    "all": {
+     "D": -0.048784698246098546,
+     "arm": 0.6851177323574092,
+     "base": 0.7339024306035078,
+     "cluster": {
+      "ci_hi": 0.03888819908906228,
+      "ci_lo": -0.14538263369082616,
+      "excludes_zero": false,
+      "mean": -0.05154462905934585,
+      "n_draws": 1000
+     },
+     "item": {
+      "ci_hi": 0.02854893239070885,
+      "ci_lo": -0.1273897641747677,
+      "excludes_zero": false,
+      "mean": -0.04732347821235865,
+      "n_draws": 1000
+     },
+     "n": 661,
+     "n_pos": 104
+    },
+    "blind_nok_all": 0.49461400359066426,
+    "expiry": {
+     "D": 0.23638539796529023,
+     "arm": 0.7473967684021544,
+     "base": 0.5110113704368642,
+     "cluster": {
+      "ci_hi": 0.40369139822801153,
+      "ci_lo": 0.06453082446150038,
+      "excludes_zero": true,
+      "mean": 0.2331492929561164,
+      "n_draws": 997
+     },
+     "item": {
+      "ci_hi": 0.3829061554015929,
+      "ci_lo": 0.10533576441447638,
+      "excludes_zero": true,
+      "mean": 0.23799637669815785,
+      "n_draws": 1000
+     },
+     "n": 572,
+     "n_pos": 15
+    },
+    "fok_307_vs_blind": {
+     "D": 0.2904411764705882,
+     "arm": 0.7870273109243697,
+     "base": 0.4965861344537815,
+     "cluster": {
+      "ci_hi": 0.3789272918655473,
+      "ci_lo": 0.19761928051558067,
+      "excludes_zero": true,
+      "mean": 0.28974552655834773,
+      "n_draws": 1000
+     },
+     "item": {
+      "ci_hi": 0.38232374049469636,
+      "ci_lo": 0.18260848440499797,
+      "excludes_zero": true,
+      "mean": 0.2895433994883424,
+      "n_draws": 1000
+     },
+     "n": 307,
+     "n_pos": 35
+    },
+    "fok_307_vs_true": {
+     "D": 0.0867121848739496,
+     "arm": 0.7870273109243697,
+     "base": 0.7003151260504201,
+     "cluster": {
+      "ci_hi": 0.16831532312637448,
+      "ci_lo": 0.004055880152371303,
+      "excludes_zero": true,
+      "mean": 0.08558447560102463,
+      "n_draws": 1000
+     },
+     "item": {
+      "ci_hi": 0.19081088845794725,
+      "ci_lo": -0.026104955536579363,
+      "excludes_zero": false,
+      "mean": 0.08106766836761889,
+      "n_draws": 1000
+     },
+     "n": 307,
+     "n_pos": 35
+    },
+    "retraction": {
+     "D": 0.08496754591907196,
+     "arm": 0.6487363623808866,
+     "base": 0.5637688164618146,
+     "cluster": {
+      "ci_hi": 0.27636967333611023,
+      "ci_lo": -0.14351323603002508,
+      "excludes_zero": false,
+      "mean": 0.07395115460152354,
+      "n_draws": 1000
+     },
+     "item": {
+      "ci_hi": 0.22350332434265718,
+      "ci_lo": -0.06818569926559272,
+      "excludes_zero": false,
+      "mean": 0.08248804799246122,
+      "n_draws": 1000
+     },
+     "n": 583,
+     "n_pos": 26
+    },
+    "supersession": {
+     "D": -0.17188167906300755,
+     "arm": 0.6853039240830983,
+     "base": 0.8571856031461058,
+     "cluster": {
+      "ci_hi": -0.06821745513917032,
+      "ci_lo": -0.27638697467828716,
+      "excludes_zero": true,
+      "mean": -0.17267520862737223,
+      "n_draws": 1000
+     },
+     "item": {
+      "ci_hi": -0.07344923084352158,
+      "ci_lo": -0.264118730861759,
+      "excludes_zero": true,
+      "mean": -0.17031600558677115,
+      "n_draws": 1000
+     },
+     "n": 620,
+     "n_pos": 63
+    }
+   }
+  },
+  "reach": {
+   "n": 104,
+   "rate": 0.5192307692307693,
+   "reached": 54,
+   "wilson95": [
+    0.42424497747638173,
+    0.612846508873065
+   ]
+  },
+  "verdicts": {
+   "L2-P1": {
+    "cluster_reading": false,
+    "disagree": false,
+    "holds": false,
+    "item_reading": false,
+    "text": "A monitor shown the five most similar entries with their lifecycle metadata, and no summary, scores 0.6851 on obligation against 0.7339 under the truthful summary, a paired difference of -0.0488 with interval [-0.1274, +0.0285] (persona-clustered [-0.1454, +0.0389]) that does not fall below the summary by more than the tolerance. On this population a five-item view carries the obligation signal the summary carries; the argument that a bounded retrieved view cannot settle the judgment is not supported at k = 5 here."
+   },
+   "L2-P2": {
+    "holds": false,
+    "text": "Adding the five retrieved entries to the truthful summary raises the smallest model's obligation discrimination from 0.7339 to 0.8303, a paired difference of +0.0964 with interval [+0.0415, +0.1554] (persona-clustered [+0.0227, +0.1635]) above the tolerance. Retrieved items carry obligation signal the summary does not: the summary names superseded content and only counts the other two states, and a retrieved entry flagged retracted or expired is a name the summary never prints."
+   },
+   "L2-P3": {
+    "holds": false,
+    "rate": 0.5192307692307693,
+    "text": "Over every entry the store holds, a five-item similarity view contains the record that forbids use for 54 of the 104 obligations, a reach rate of 0.5192. The record does not rank below the cutoff on this population for a retriever that does not mask inactive entries; the 5% figure the manuscript cites is FR-Bank's AV7 retrieval-pass rate under its lifecycle mask, a different quantity, and the premise sentence is to be restated as a mask effect."
+   }
+  }
+ },
+ "L3": {
+  "auroc_one_sample": {
+   "ci_hi": 0.5164627291975852,
+   "ci_lo": 0.464607753229636,
+   "includes_0.50": true,
+   "n_draws": 1000,
+   "point": 0.4887705427427151
+  },
+  "fok_values": {
+   "0.0": 2,
+   "0.1": 215,
+   "0.2": 254,
+   "0.3": 3,
+   "0.4": 179,
+   "0.7": 8
+  },
+  "indexed_true_minus_nogate_descriptive": {
+   "D": 0.2451318878607927,
+   "arm": 0.7339024306035078,
+   "base": 0.4887705427427151,
+   "cluster": {
+    "ci_hi": 0.3445314002882169,
+    "ci_lo": 0.14320452747013349,
+    "excludes_zero": true,
+    "mean": 0.24486245598918305,
+    "n_draws": 1000
+   },
+   "item": {
+    "ci_hi": 0.31168063627129355,
+    "ci_lo": 0.1773012583568224,
+    "excludes_zero": true,
+    "mean": 0.24438618052685004,
+    "n_draws": 1000
+   },
+   "n": 661,
+   "n_pos": 104
+  },
+  "modal": [
+   0.0,
+   604
+  ],
+  "n_distinct": 2,
+  "n_items": 661,
+  "n_questions": 302,
+  "values": {
+   "0.0": 604,
+   "0.1": 57
+  },
+  "verdicts": {
+   "L3-P1": {
+    "a_distinct_gt_2": false,
+    "b_includes_0.5": true,
+    "holds": false,
+    "text": "With the detection step removed and the probability elicited directly, the smallest model's blind obligation score still takes 2 distinct values across the 661 questions (604 at the modal value). The constant was not the gate: the reviewer's explanation is not supported, and the smallest model's blind obligation judgment is flat under either rubric."
+   }
+  }
+ },
+ "failures": {
+  "BLIND-NOGATE": 0,
+  "HYBRID": 0,
+  "RETRIEVED": 0,
+  "TRUE-REDRAW": 0,
+  "V2-OWN": 0
+ },
+ "n_rows": {
+  "BLIND-NOGATE": 302,
+  "HYBRID": 661,
+  "RETRIEVED": 661,
+  "TRUE-REDRAW": 102,
+  "V2-OWN": 102
+ },
+ "spend": {
+  "embedding": 6.594e-05,
+  "probes": 0.0027792000000000003,
+  "run": 0.9386292,
+  "total": 0.9414743400000001,
+  "under_4": true
+ },
+ "when": "2026-09-13T13:51:26"
+}

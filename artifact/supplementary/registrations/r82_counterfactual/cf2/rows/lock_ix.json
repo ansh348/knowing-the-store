@@ -1,0 +1,97 @@
+{
+ "caps_usd": {
+  "anthropic": 15.0,
+  "openai": 4.0
+ },
+ "counts": {
+  "A_pass": 87,
+  "A_total": 88,
+  "B_pass": 26,
+  "B_total": 30,
+  "checked": 53,
+  "drops": 5,
+  "pass_primary_checked": 46,
+  "reserve_unjudged": 65,
+  "second_lineage": 2
+ },
+ "cue_list_sha256": "a63461d09d5c60c44009c05b004657394a854ab10d468f80bf9377625f8fb9a8",
+ "frozen_at": "648d671",
+ "instruction_prompt_sha256": "ee92835120c2f76891e02cdbde2fadc8976bc1258d1fcfca7aa8d20d31b809f9",
+ "lanes": {
+  "H45": {
+   "k": 5,
+   "max_tokens": 200,
+   "model": "claude-haiku-4-5-20251001",
+   "mult": 0.5,
+   "price": [
+    1.0,
+    5.0
+   ],
+   "temp": 0.0,
+   "transport": "batch",
+   "vendor": "anthropic"
+  },
+  "LUNA": {
+   "k": 5,
+   "max_tokens": 2048,
+   "model": "gpt-5.6-luna",
+   "mult": 1.0,
+   "price": [
+    0.2,
+    1.2
+   ],
+   "temp": null,
+   "transport": "raw",
+   "vendor": "openai"
+  },
+  "MINI": {
+   "k": 1,
+   "max_tokens": 200,
+   "model": "gpt-4.1-mini",
+   "mult": 1.0,
+   "price": [
+    0.4,
+    1.6
+   ],
+   "temp": 0.0,
+   "transport": "sync",
+   "vendor": "openai"
+  },
+  "OP5": {
+   "k": 1,
+   "max_tokens": 1024,
+   "model": "claude-opus-5",
+   "mult": 0.5,
+   "price": [
+    5.0,
+    25.0
+   ],
+   "temp": null,
+   "transport": "batch",
+   "vendor": "anthropic"
+  }
+ },
+ "lineage2_sha256": "090d796e05ff5bc215809cca560aef89135407c699bf3541e72871546b48ee92",
+ "order": "MINI sync -> LUNA draw-major (8 workers) -> H45 Batch -> OP5 Batch -> score",
+ "p0_system_sha256": "f60fee2aeb9f3fddb4af153e4346bc43f5a71a4bb7a46bb3d9d29388837a98fb",
+ "p1_system_sha256": "c3c9a8e2b9798b50aa5a8f091f382b550e296f973f0c9af09d7fa38442cc7ce4",
+ "pairs_in_scope": 113,
+ "phase1_openai_usd": 0.2044,
+ "prompts_file_sha256": "337d37d3414c04823d28ad99eeab15c34e328e60198d68625452ebf330830b84",
+ "prompts_texts_sha256": "35d9b968ffc0b008289a59b06f10b7d23f71658c648dd2865a46e8da15d495f2",
+ "questions_sha256": {
+  "lineage2": "c488db0c316d8bd7f5f8deeb1f459cf3ef65fd6aa4c8ad7357cdadaf6bf1128b",
+  "primary": "efa8eeee63db25674d68a1e1067cdc5d3e9ea837d2ce2c8f68d063ba5dee195e"
+ },
+ "registration": "registrations/ADDENDUM_CF2_INTENT_CROSSOVER.md",
+ "registration_sha256": "9480d6bbcfef47d25c2711d0c42f9c05d7dc2239fdddb371205a07923675711a",
+ "units_per_lane": {
+  "H45": 678,
+  "LUNA": 730,
+  "MINI": 678,
+  "OP5": 678
+ },
+ "units_total": 904,
+ "when": "2026-09-19T13:24:42",
+ "workbook_returned_sha256": "be79963e0a328761aec0ca0d0300de78efc8ef1d114254a0540fcbf1ae585c49"
+}

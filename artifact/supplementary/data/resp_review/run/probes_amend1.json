@@ -1,0 +1,52 @@
+{
+ "H45-HYBRID": {
+  "identifier_ok": true,
+  "lane": "HYBRID",
+  "n_requests": 3305,
+  "sample": "```json\n{\"fok\": 92, \"nok_candidates_found\": false, \"nok\": 5, \"would_search\": true}\n```\n\n**Reasoning:**\n\n**FOK (92):** The store contains multiple recent, active entries specifically about the user's t",
+  "served": "claude-haiku-4-5-20251001",
+  "status": "OK",
+  "tok_in": 2053,
+  "tok_out": 200,
+  "unit_id": "frbank:aisha:aisha_q01:FULL",
+  "usd": 0.003053,
+  "when": "2026-09-14T15:55:03"
+ },
+ "H45-OWN": {
+  "identifier_ok": true,
+  "lane": "OWN",
+  "n_requests": 510,
+  "sample": "```json\n{\"fok\": 8, \"nok_candidates_found\": false, \"nok\": 2, \"would_search\": false}\n```\n\n**Reasoning:**\n\n**FOK (8):** The store contains 536 entries with substantial coverage of career and professional",
+  "served": "claude-haiku-4-5-20251001",
+  "status": "OK",
+  "tok_in": 1775,
+  "tok_out": 200,
+  "unit_id": "frbank:aisha:aisha_q01:FULL",
+  "usd": 0.002775,
+  "when": "2026-09-14T17:30:15"
+ },
+ "H45-RETRIEVED": {
+  "identifier_ok": true,
+  "lane": "RETRIEVED",
+  "n_requests": 3305,
+  "sample": "```json\n{\"fok\": 92, \"nok_candidates_found\": false, \"nok\": 5, \"would_search\": true}\n```",
+  "served": "claude-haiku-4-5-20251001",
+  "status": "OK",
+  "tok_in": 811,
+  "tok_out": 39,
+  "unit_id": "frbank:aisha:aisha_q01:FULL",
+  "usd": 0.001006,
+  "when": "2026-09-14T16:44:46"
+ },
+ "MINI": {
+  "identifier_ok": true,
+  "item_id": "frbank:aisha:aisha_q01:FULL",
+  "sample": "{\"fok\": 90, \"nok_candidates_found\": true, \"nok\": 80, \"would_search\": false}",
+  "served": "gpt-4.1-mini-2025-04-14",
+  "status": "OK",
+  "tok_in": 754,
+  "tok_out": 26,
+  "usd": 0.0003432,
+  "when": "2026-09-14T15:52:41"
+ }
+}

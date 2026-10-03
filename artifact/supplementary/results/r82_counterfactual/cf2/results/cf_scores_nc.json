@@ -1,0 +1,1888 @@
+{
+ "P-N1": {
+  "holds": true,
+  "per_reader": {
+   "claude-haiku-4-5-20251001": true,
+   "gpt-4.1-mini": true
+  },
+  "text": "P-N1 HOLDS: names only is within tolerance of the intact summary on the whole set for both readers (gpt-4.1-mini -0.0064; claude-haiku-4-5-20251001 -0.0059)."
+ },
+ "P-N2": {
+  "holds": true,
+  "per_reader": {
+   "claude-haiku-4-5-20251001": true,
+   "gpt-4.1-mini": true
+  },
+  "text": "P-N2 HOLDS: counts only is reliably below names only on the whole set for both readers (gpt-4.1-mini -0.1242 ([-0.1981, -0.0525]; [-0.1814, -0.0698]); claude-haiku-4-5-20251001 -0.1562 ([-0.2175, -0.0889]; [-0.2007, -0.1126]))."
+ },
+ "P-N3": {
+  "claude-haiku-4-5-20251001": {
+   "EXPIRY": {
+    "counts_only": 0.5189,
+    "recorded_v2": 0.5794,
+    "vs_v2": {
+     "agree": true,
+     "both_exclude_zero": false,
+     "delta": -0.0606,
+     "item_ci": {
+      "ci_hi": 0.08112366287094548,
+      "ci_lo": -0.20047395210326957,
+      "excludes_zero": false,
+      "mean": -0.06115509996986491,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.0,
+      "ci_lo": -0.1237386554338181,
+      "excludes_zero": false,
+      "mean": -0.06102138659899742,
+      "n_draws": 1000
+     }
+    },
+    "within_tolerance": false
+   },
+   "RETRACTION": {
+    "counts_only": 0.5553,
+    "recorded_v2": 0.5433,
+    "vs_v2": {
+     "agree": true,
+     "both_exclude_zero": false,
+     "delta": 0.0119,
+     "item_ci": {
+      "ci_hi": 0.13897666954537158,
+      "ci_lo": -0.1052395649617872,
+      "excludes_zero": false,
+      "mean": 0.010850456477030541,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.10378568229999205,
+      "ci_lo": -0.06790250994796446,
+      "excludes_zero": false,
+      "mean": 0.01263047859179131,
+      "n_draws": 1000
+     }
+    },
+    "within_tolerance": true
+   }
+  },
+  "gpt-4.1-mini": {
+   "EXPIRY": {
+    "counts_only": 0.4933,
+    "recorded_v2": 0.5489,
+    "vs_v2": {
+     "agree": true,
+     "both_exclude_zero": false,
+     "delta": -0.0556,
+     "item_ci": {
+      "ci_hi": 0.0867767232767232,
+      "ci_lo": -0.20170629910213245,
+      "excludes_zero": false,
+      "mean": -0.05720159016805972,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.03781732987312576,
+      "ci_lo": -0.14269662573709627,
+      "excludes_zero": false,
+      "mean": -0.05363925944677352,
+      "n_draws": 1000
+     }
+    },
+    "within_tolerance": false
+   },
+   "RETRACTION": {
+    "counts_only": 0.6053,
+    "recorded_v2": 0.5283,
+    "vs_v2": {
+     "agree": true,
+     "both_exclude_zero": false,
+     "delta": 0.0769,
+     "item_ci": {
+      "ci_hi": 0.22473763723145196,
+      "ci_lo": -0.07982968079691923,
+      "excludes_zero": false,
+      "mean": 0.07763893107656623,
+      "n_draws": 1000
+     },
+     "persona_ci": {
+      "ci_hi": 0.19642324270557024,
+      "ci_lo": -0.057884248618514274,
+      "excludes_zero": false,
+      "mean": 0.07287941697074715,
+      "n_draws": 1000
+     }
+    },
+    "within_tolerance": false
+   }
+  }
+ },
+ "build": {
+  "INDEXED-COUNTS": {
+   "lock": "asserted on every version",
+   "n": 444,
+   "prompt_tokens_max": 1034,
+   "prompt_tokens_mean": 1009.0,
+   "texts_sha256": "1187e126d7671768d5848059e8c7eb93c0194f64100209a6054636f45f1eb0e8"
+  },
+  "INDEXED-NAMES": {
+   "lock": "asserted on every version",
+   "n": 444,
+   "prompt_tokens_max": 1290,
+   "prompt_tokens_mean": 1178.8,
+   "texts_sha256": "d901ebefef3b1e6ba9d9cdc1ab008bb8e08988a413154bd125674e55e2c993db"
+  },
+  "INDEXED-NAMES-DASH": {
+   "lock": "asserted on every version",
+   "n": 444,
+   "prompt_tokens_max": 1655,
+   "prompt_tokens_mean": 1542.4,
+   "texts_sha256": "f895e8817ef7ef259111295dfda4410051e9b0be2b7edeffc5a9b704d03b3136"
+  }
+ },
+ "frozen_at": "177697a",
+ "probes": {
+  "claude-haiku-4-5-20251001": {
+   "identifier_ok": true,
+   "in": {
+    "INDEXED-COUNTS": 1001,
+    "INDEXED-NAMES": 1398
+   },
+   "lane": "claude-haiku-4-5-20251001",
+   "out": [
+    200,
+    200
+   ],
+   "parsed": [
+    "OK",
+    "OK"
+   ],
+   "sample": "```json\n{\"fok\": 25, \"nok_candidates_found\": false, \"nok\": 8, \"would_search\": true}\n```\n\n**Reasoning:**\n\n**FOK (25):** The store contains relevant attributes related to obligations and professional dev",
+   "served": "claude-haiku-4-5-20251001",
+   "usd": [
+    0.002398,
+    0.002001
+   ],
+   "when": "2026-09-19T00:20:05"
+  },
+  "gpt-4.1-mini": {
+   "identifier_ok": true,
+   "in": {
+    "INDEXED-COUNTS": 1030,
+    "INDEXED-NAMES": 1233,
+    "INDEXED-NAMES-DASH": 1607
+   },
+   "lane": "gpt-4.1-mini",
+   "out": [
+    26,
+    24,
+    26
+   ],
+   "parsed": [
+    "OK",
+    "OK",
+    "OK"
+   ],
+   "sample": "{\"fok\": 10, \"nok_candidates_found\": false, \"nok\": 0, \"would_search\": true}",
+   "served": "gpt-4.1-mini-2025-04-14",
+   "usd": [
+    0.000535,
+    0.00045,
+    0.000684
+   ],
+   "when": "2026-09-19T00:19:57"
+  }
+ },
+ "readers": {
+  "claude-haiku-4-5-20251001": {
+   "arms": {
+    "INDEXED-COUNTS": {
+     "census": {
+      "draws_per_unit": {
+       "5": 444
+      },
+      "identical_across_draws": 342,
+      "median_range": 0.0,
+      "not_ok": 0,
+      "rows": 2220,
+      "units": 444,
+      "units_collapsed": 444,
+      "usd": 2.1771
+     },
+     "counted_pooled": 0.5347,
+     "distinct_values": 62,
+     "lookup": 0.7663,
+     "missing_items": 0,
+     "per_state": {
+      "EXPIRY": {
+       "auroc": 0.5189,
+       "lookup": 0.5,
+       "n": 90,
+       "pos": 30,
+       "vs_lookup": {
+        "agree": true,
+        "both_exclude_zero": false,
+        "delta": 0.0189,
+        "item_ci": {
+         "ci_hi": 0.1350507202995542,
+         "ci_lo": -0.09154132299535775,
+         "excludes_zero": false,
+         "mean": 0.02023328808729973,
+         "n_draws": 1000
+        },
+        "persona_ci": {
+         "ci_hi": 0.05364494402363312,
+         "ci_lo": -0.02073243114909781,
+         "excludes_zero": false,
+         "mean": 0.019313897875810903,
+         "n_draws": 1000
+        }
+       }
+      },
+      "RETRACTION": {
+       "auroc": 0.5553,
+       "lookup": 0.5,
+       "n": 90,
+       "pos": 30,
+       "vs_lookup": {
+        "agree": true,
+        "both_exclude_zero": false,
+        "delta": 0.0553,
+        "item_ci": {
+         "ci_hi": 0.2283741918103449,
+         "ci_lo": -0.12575867518059847,
+         "excludes_zero": false,
+         "mean": 0.0521962901920369,
+         "n_draws": 1000
+        },
+        "persona_ci": {
+         "ci_hi": 0.14383769132653065,
+         "ci_lo": -0.001220703125,
+         "excludes_zero": false,
+         "mean": 0.05809768327305058,
+         "n_draws": 1000
+        }
+       }
+      },
+      "SUPERSESSION": {
+       "auroc": 0.6315,
+       "lookup": 0.9223,
+       "n": 264,
+       "pos": 88,
+       "vs_lookup": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "delta": -0.2907,
+        "item_ci": {
+         "ci_hi": -0.2180139869261648,
+         "ci_lo": -0.3665275056893707,
+         "excludes_zero": true,
+         "mean": -0.2913959732108913,
+         "n_draws": 1000
+        },
+        "persona_ci": {
+         "ci_hi": -0.224485493411877,
+         "ci_lo": -0.357511842567306,
+         "excludes_zero": true,
+         "mean": -0.2908052693345887,
+         "n_draws": 1000
+        }
+       }
+      }
+     },
+     "per_state_vs_v2": {
+      "EXPIRY": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": -0.0606,
+       "item_ci": {
+        "ci_hi": 0.08112366287094548,
+        "ci_lo": -0.20047395210326957,
+        "excludes_zero": false,
+        "mean": -0.06115509996986491,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.0,
+        "ci_lo": -0.1237386554338181,
+        "excludes_zero": false,
+        "mean": -0.06102138659899742,
+        "n_draws": 1000
+       }
+      },
+      "RETRACTION": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0119,
+       "item_ci": {
+        "ci_hi": 0.13897666954537158,
+        "ci_lo": -0.1052395649617872,
+        "excludes_zero": false,
+        "mean": 0.010850456477030541,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.10378568229999205,
+        "ci_lo": -0.06790250994796446,
+        "excludes_zero": false,
+        "mean": 0.01263047859179131,
+        "n_draws": 1000
+       }
+      },
+      "SUPERSESSION": {
+       "agree": true,
+       "both_exclude_zero": true,
+       "delta": -0.256,
+       "item_ci": {
+        "ci_hi": -0.1837093156702852,
+        "ci_lo": -0.3286472564056833,
+        "excludes_zero": true,
+        "mean": -0.25656527087011555,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": -0.18640778210653788,
+        "ci_lo": -0.32980621990953507,
+        "excludes_zero": true,
+        "mean": -0.2563538309680114,
+        "n_draws": 1000
+       }
+      }
+     },
+     "posthoc": {
+      "per_state": {
+       "EXPIRY": {
+        "n_pairs": 30,
+        "ordering": {
+         "ci_persona": {
+          "ci_hi": 0.27586206896551724,
+          "ci_lo": 0.06666666666666667,
+          "excludes_zero": true,
+          "mean": 0.16699891248148852,
+          "n_draws": 1000
+         },
+         "losses": 8,
+         "strict_win_fraction": 0.1667,
+         "ties": 17,
+         "wilson": [
+          0.0734,
+          0.3356
+         ],
+         "wins": 5
+        },
+        "pn_vs_absent": 0.5389,
+        "pn_vs_present": 0.4989,
+        "pn_vs_present_ci_persona": {
+         "ci_hi": 0.5392465465674974,
+         "ci_lo": 0.4427556966145833,
+         "excludes_zero": true,
+         "mean": 0.49685594922710385,
+         "n_draws": 1000
+        }
+       },
+       "RETRACTION": {
+        "n_pairs": 30,
+        "ordering": {
+         "ci_persona": {
+          "ci_hi": 0.4444444444444444,
+          "ci_lo": 0.1142063492063492,
+          "excludes_zero": true,
+          "mean": 0.27251911818121016,
+          "n_draws": 1000
+         },
+         "losses": 3,
+         "strict_win_fraction": 0.2667,
+         "ties": 19,
+         "wilson": [
+          0.1418,
+          0.4445
+         ],
+         "wins": 8
+        },
+        "pn_vs_absent": 0.5622,
+        "pn_vs_present": 0.5483,
+        "pn_vs_present_ci_persona": {
+         "ci_hi": 0.6345490539965987,
+         "ci_lo": 0.4783250594530321,
+         "excludes_zero": true,
+         "mean": 0.5506716962236275,
+         "n_draws": 1000
+        }
+       },
+       "SUPERSESSION": {
+        "n_pairs": 88,
+        "ordering": {
+         "ci_persona": {
+          "ci_hi": 0.6595744680851063,
+          "ci_lo": 0.4352670278637771,
+          "excludes_zero": true,
+          "mean": 0.5451153789527738,
+          "n_draws": 1000
+         },
+         "losses": 10,
+         "strict_win_fraction": 0.5455,
+         "ties": 30,
+         "wilson": [
+          0.4417,
+          0.6454
+         ],
+         "wins": 48
+        },
+        "pn_vs_absent": 0.6176,
+        "pn_vs_present": 0.6454,
+        "pn_vs_present_ci_persona": {
+         "ci_hi": 0.7189373170082513,
+         "ci_lo": 0.5820346661019753,
+         "excludes_zero": true,
+         "mean": 0.6464827076813943,
+         "n_draws": 1000
+        }
+       }
+      },
+      "whole": {
+       "n_pairs": 148,
+       "ordering": {
+        "ci_persona": {
+         "ci_hi": 0.5095636309950647,
+         "ci_lo": 0.32666326530612244,
+         "excludes_zero": true,
+         "mean": 0.41394005407019857,
+         "n_draws": 1000
+        },
+        "losses": 21,
+        "strict_win_fraction": 0.4122,
+        "ties": 66,
+        "wilson": [
+         0.3361,
+         0.4927
+        ],
+        "wins": 61
+       },
+       "pn_vs_absent": 0.592,
+       "pn_vs_present": 0.5969,
+       "pn_vs_present_ci_persona": {
+        "ci_hi": 0.6519659651205258,
+        "ci_lo": 0.5514627338736633,
+        "excludes_zero": true,
+        "mean": 0.597647153399564,
+        "n_draws": 1000
+       }
+      }
+     },
+     "vs_lookup": {
+      "agree": true,
+      "both_exclude_zero": true,
+      "delta": -0.1719,
+      "item_ci": {
+       "ci_hi": -0.10986419359410433,
+       "ci_lo": -0.22895167800715036,
+       "excludes_zero": true,
+       "mean": -0.16981293382751556,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": -0.11958012772045831,
+       "ci_lo": -0.2154828901381747,
+       "excludes_zero": true,
+       "mean": -0.17044227898343337,
+       "n_draws": 1000
+      }
+     },
+     "vs_v2": {
+      "agree": true,
+      "both_exclude_zero": true,
+      "delta": -0.1621,
+      "item_ci": {
+       "ci_hi": -0.1023632784380708,
+       "ci_lo": -0.2187173291824454,
+       "excludes_zero": true,
+       "mean": -0.1603887130496619,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": -0.12776033784515098,
+       "ci_lo": -0.19406488604357358,
+       "excludes_zero": true,
+       "mean": -0.16182138283738562,
+       "n_draws": 1000
+      }
+     },
+     "whole": 0.5945,
+     "whole_ci_persona": {
+      "ci_hi": 0.6460318976132834,
+      "ci_lo": 0.551353628323299,
+      "excludes_zero": true,
+      "mean": 0.5952945411911782,
+      "n_draws": 1000
+     },
+     "within_tolerance_of_v2": false
+    },
+    "INDEXED-NAMES": {
+     "census": {
+      "draws_per_unit": {
+       "5": 444
+      },
+      "identical_across_draws": 369,
+      "median_range": 0.0,
+      "not_ok": 0,
+      "rows": 2220,
+      "units": 444,
+      "units_collapsed": 444,
+      "usd": 2.3684
+     },
+     "counted_pooled": 0.5631,
+     "distinct_values": 50,
+     "lookup": 0.7663,
+     "missing_items": 0,
+     "per_state": {
+      "EXPIRY": {
+       "auroc": 0.5642,
+       "lookup": 0.5,
+       "n": 90,
+       "pos": 30,
+       "vs_lookup": {
+        "agree": false,
+        "both_exclude_zero": false,
+        "delta": 0.0642,
+        "item_ci": {
+         "ci_hi": 0.20733498357122662,
+         "ci_lo": -0.06830018297641638,
+         "excludes_zero": false,
+         "mean": 0.06699575361857085,
+         "n_draws": 1000
+        },
+        "persona_ci": {
+         "ci_hi": 0.11694783722177839,
+         "ci_lo": 0.02555125395665936,
+         "excludes_zero": true,
+         "mean": 0.0660155638176325,
+         "n_draws": 1000
+        }
+       }
+      },
+      "RETRACTION": {
+       "auroc": 0.5631,
+       "lookup": 0.5,
+       "n": 90,
+       "pos": 30,
+       "vs_lookup": {
+        "agree": false,
+        "both_exclude_zero": false,
+        "delta": 0.0631,
+        "item_ci": {
+         "ci_hi": 0.2106697048611111,
+         "ci_lo": -0.0941885880696365,
+         "excludes_zero": false,
+         "mean": 0.0617723002392766,
+         "n_draws": 1000
+        },
+        "persona_ci": {
+         "ci_hi": 0.10583539282984294,
+         "ci_lo": 0.025825475778546752,
+         "excludes_zero": true,
+         "mean": 0.06390379770729417,
+         "n_draws": 1000
+        }
+       }
+      },
+      "SUPERSESSION": {
+       "auroc": 0.901,
+       "lookup": 0.9223,
+       "n": 264,
+       "pos": 88,
+       "vs_lookup": {
+        "agree": true,
+        "both_exclude_zero": false,
+        "delta": -0.0213,
+        "item_ci": {
+         "ci_hi": 0.021791825985904914,
+         "ci_lo": -0.06405802955435022,
+         "excludes_zero": false,
+         "mean": -0.021034651663735447,
+         "n_draws": 1000
+        },
+        "persona_ci": {
+         "ci_hi": 0.01607926551423924,
+         "ci_lo": -0.06475765733033866,
+         "excludes_zero": false,
+         "mean": -0.021188107202059183,
+         "n_draws": 1000
+        }
+       }
+      }
+     },
+     "per_state_vs_v2": {
+      "EXPIRY": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": -0.0153,
+       "item_ci": {
+        "ci_hi": 0.0983013014527844,
+        "ci_lo": -0.1286402073732719,
+        "excludes_zero": false,
+        "mean": -0.014392634438593782,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.05765686345790315,
+        "ci_lo": -0.08823660558159045,
+        "excludes_zero": false,
+        "mean": -0.014319720657175818,
+        "n_draws": 1000
+       }
+      },
+      "RETRACTION": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0197,
+       "item_ci": {
+        "ci_hi": 0.12523494535300086,
+        "ci_lo": -0.08843605990783414,
+        "excludes_zero": false,
+        "mean": 0.020426466524270246,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.07342711757711415,
+        "ci_lo": -0.04219478300579491,
+        "excludes_zero": false,
+        "mean": 0.018436593026034894,
+        "n_draws": 1000
+       }
+      },
+      "SUPERSESSION": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0134,
+       "item_ci": {
+        "ci_hi": 0.035120860689698705,
+        "ci_lo": -0.006136340670621593,
+        "excludes_zero": false,
+        "mean": 0.01379605067704027,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.032939221683594956,
+        "ci_lo": -0.00400007656372231,
+        "excludes_zero": false,
+        "mean": 0.013263331164518175,
+        "n_draws": 1000
+       }
+      }
+     },
+     "posthoc": {
+      "per_state": {
+       "EXPIRY": {
+        "n_pairs": 30,
+        "ordering": {
+         "ci_persona": {
+          "ci_hi": 0.3226043643263757,
+          "ci_lo": 0.03333333333333333,
+          "excludes_zero": true,
+          "mean": 0.16466974294017964,
+          "n_draws": 1000
+         },
+         "losses": 1,
+         "strict_win_fraction": 0.1667,
+         "ties": 24,
+         "wilson": [
+          0.0734,
+          0.3356
+         ],
+         "wins": 5
+        },
+        "pn_vs_absent": 0.6122,
+        "pn_vs_present": 0.5161,
+        "pn_vs_present_ci_persona": {
+         "ci_hi": 0.5637860082304527,
+         "ci_lo": 0.48192525390625,
+         "excludes_zero": true,
+         "mean": 0.5171319633811825,
+         "n_draws": 1000
+        }
+       },
+       "RETRACTION": {
+        "n_pairs": 30,
+        "ordering": {
+         "ci_persona": {
+          "ci_hi": 0.2222222222222222,
+          "ci_lo": 0.0,
+          "excludes_zero": false,
+          "mean": 0.10307408579962109,
+          "n_draws": 1000
+         },
+         "losses": 2,
+         "strict_win_fraction": 0.1,
+         "ties": 25,
+         "wilson": [
+          0.0346,
+          0.2562
+         ],
+         "wins": 3
+        },
+        "pn_vs_absent": 0.6222,
+        "pn_vs_present": 0.5039,
+        "pn_vs_present_ci_persona": {
+         "ci_hi": 0.5208144951648912,
+         "ci_lo": 0.4936503372682794,
+         "excludes_zero": true,
+         "mean": 0.5045743007283082,
+         "n_draws": 1000
+        }
+       },
+       "SUPERSESSION": {
+        "n_pairs": 88,
+        "ordering": {
+         "ci_persona": {
+          "ci_hi": 0.9462508579272478,
+          "ci_lo": 0.788235294117647,
+          "excludes_zero": true,
+          "mean": 0.8760772432995453,
+          "n_draws": 1000
+         },
+         "losses": 1,
+         "strict_win_fraction": 0.875,
+         "ties": 10,
+         "wilson": [
+          0.7899,
+          0.9287
+         ],
+         "wins": 77
+        },
+        "pn_vs_absent": 0.9028,
+        "pn_vs_present": 0.8991,
+        "pn_vs_present_ci_persona": {
+         "ci_hi": 0.9479661099632691,
+         "ci_lo": 0.8485839032357932,
+         "excludes_zero": true,
+         "mean": 0.9003366177420397,
+         "n_draws": 1000
+        }
+       }
+      },
+      "whole": {
+       "n_pairs": 148,
+       "ordering": {
+        "ci_persona": {
+         "ci_hi": 0.6544527444735856,
+         "ci_lo": 0.48464918687311326,
+         "excludes_zero": true,
+         "mean": 0.5726377308620519,
+         "n_draws": 1000
+        },
+        "losses": 4,
+        "strict_win_fraction": 0.5743,
+        "ties": 59,
+        "wilson": [
+         0.4938,
+         0.6511
+        ],
+        "wins": 85
+       },
+       "pn_vs_absent": 0.7681,
+       "pn_vs_present": 0.7332,
+       "pn_vs_present_ci_persona": {
+        "ci_hi": 0.776662051639828,
+        "ci_lo": 0.688370467621529,
+        "excludes_zero": true,
+        "mean": 0.73333137565644,
+        "n_draws": 1000
+       }
+      }
+     },
+     "vs_lookup": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": -0.0157,
+      "item_ci": {
+       "ci_hi": 0.02929893489148162,
+       "ci_lo": -0.06779444141191766,
+       "excludes_zero": false,
+       "mean": -0.015228782047886781,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": 0.0140460882684069,
+       "ci_lo": -0.04210858733317129,
+       "excludes_zero": false,
+       "mean": -0.014903526881365998,
+       "n_draws": 1000
+      }
+     },
+     "vs_v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": -0.0059,
+      "item_ci": {
+       "ci_hi": 0.023666866927930585,
+       "ci_lo": -0.037036434330287485,
+       "excludes_zero": false,
+       "mean": -0.00580456127003314,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": 0.021551819849296116,
+       "ci_lo": -0.0364507717270751,
+       "excludes_zero": false,
+       "mean": -0.006282630735318252,
+       "n_draws": 1000
+      }
+     },
+     "whole": 0.7507,
+     "whole_ci_persona": {
+      "ci_hi": 0.7890849068513903,
+      "ci_lo": 0.7113578117967503,
+      "excludes_zero": true,
+      "mean": 0.7508332932932456,
+      "n_draws": 1000
+     },
+     "within_tolerance_of_v2": true
+    }
+   },
+   "counts_minus_names": {
+    "agree": true,
+    "both_exclude_zero": true,
+    "counts_below_names_reliably": true,
+    "delta": -0.1562,
+    "item_ci": {
+     "ci_hi": -0.08894747172183005,
+     "ci_lo": -0.21745434111846715,
+     "excludes_zero": true,
+     "mean": -0.15458415177962878,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": -0.11263114923651528,
+     "ci_lo": -0.20070999159840364,
+     "excludes_zero": true,
+     "mean": -0.15553875210206738,
+     "n_draws": 1000
+    }
+   },
+   "names_only_counted_identity": {
+    "EXPIRY": 0.5161,
+    "RETRACTION": 0.5039
+   },
+   "v2_recorded": 0.7566
+  },
+  "gpt-4.1-mini": {
+   "arms": {
+    "INDEXED-COUNTS": {
+     "census": {
+      "draws_per_unit": {
+       "1": 444
+      },
+      "identical_across_draws": 0,
+      "median_range": null,
+      "not_ok": 0,
+      "rows": 444,
+      "units": 444,
+      "units_collapsed": 444,
+      "usd": 0.1969
+     },
+     "counted_pooled": 0.5472,
+     "distinct_values": 9,
+     "lookup": 0.7663,
+     "missing_items": 0,
+     "per_state": {
+      "EXPIRY": {
+       "auroc": 0.4933,
+       "lookup": 0.5,
+       "n": 90,
+       "pos": 30,
+       "vs_lookup": {
+        "agree": true,
+        "both_exclude_zero": false,
+        "delta": -0.0067,
+        "item_ci": {
+         "ci_hi": 0.11910377155172412,
+         "ci_lo": -0.14661578341013826,
+         "excludes_zero": false,
+         "mean": -0.007634174874842096,
+         "n_draws": 1000
+        },
+        "persona_ci": {
+         "ci_hi": 0.06056944444444446,
+         "ci_lo": -0.07641634778911564,
+         "excludes_zero": false,
+         "mean": -0.007675134705728918,
+         "n_draws": 1000
+        }
+       }
+      },
+      "RETRACTION": {
+       "auroc": 0.6053,
+       "lookup": 0.5,
+       "n": 90,
+       "pos": 30,
+       "vs_lookup": {
+        "agree": false,
+        "both_exclude_zero": false,
+        "delta": 0.1053,
+        "item_ci": {
+         "ci_hi": 0.27384742647058824,
+         "ci_lo": -0.07671938656347277,
+         "excludes_zero": false,
+         "mean": 0.100997734017358,
+         "n_draws": 1000
+        },
+        "persona_ci": {
+         "ci_hi": 0.20027640766674987,
+         "ci_lo": 0.01513494809688585,
+         "excludes_zero": true,
+         "mean": 0.10310803873719065,
+         "n_draws": 1000
+        }
+       }
+      },
+      "SUPERSESSION": {
+       "auroc": 0.6107,
+       "lookup": 0.9223,
+       "n": 264,
+       "pos": 88,
+       "vs_lookup": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "delta": -0.3115,
+        "item_ci": {
+         "ci_hi": -0.24266696254962097,
+         "ci_lo": -0.37748584044981903,
+         "excludes_zero": true,
+         "mean": -0.3105325552790178,
+         "n_draws": 1000
+        },
+        "persona_ci": {
+         "ci_hi": -0.25575610849442,
+         "ci_lo": -0.3685715208356123,
+         "excludes_zero": true,
+         "mean": -0.3128407813404214,
+         "n_draws": 1000
+        }
+       }
+      }
+     },
+     "per_state_vs_v2": {
+      "EXPIRY": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": -0.0556,
+       "item_ci": {
+        "ci_hi": 0.0867767232767232,
+        "ci_lo": -0.20170629910213245,
+        "excludes_zero": false,
+        "mean": -0.05720159016805972,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.03781732987312576,
+        "ci_lo": -0.14269662573709627,
+        "excludes_zero": false,
+        "mean": -0.05363925944677352,
+        "n_draws": 1000
+       }
+      },
+      "RETRACTION": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0769,
+       "item_ci": {
+        "ci_hi": 0.22473763723145196,
+        "ci_lo": -0.07982968079691923,
+        "excludes_zero": false,
+        "mean": 0.07763893107656623,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.19642324270557024,
+        "ci_lo": -0.057884248618514274,
+        "excludes_zero": false,
+        "mean": 0.07287941697074715,
+        "n_draws": 1000
+       }
+      },
+      "SUPERSESSION": {
+       "agree": true,
+       "both_exclude_zero": true,
+       "delta": -0.2201,
+       "item_ci": {
+        "ci_hi": -0.1327334987455727,
+        "ci_lo": -0.2950948793546051,
+        "excludes_zero": true,
+        "mean": -0.21777839303258023,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": -0.14330828243439556,
+        "ci_lo": -0.2941152178883542,
+        "excludes_zero": true,
+        "mean": -0.22090492535386683,
+        "n_draws": 1000
+       }
+      }
+     },
+     "posthoc": {
+      "per_state": {
+       "EXPIRY": {
+        "n_pairs": 30,
+        "ordering": {
+         "ci_persona": {
+          "ci_hi": 0.20689655172413793,
+          "ci_lo": 0.0,
+          "excludes_zero": false,
+          "mean": 0.09953931257786836,
+          "n_draws": 1000
+         },
+         "losses": 6,
+         "strict_win_fraction": 0.1,
+         "ties": 21,
+         "wilson": [
+          0.0346,
+          0.2562
+         ],
+         "wins": 3
+        },
+        "pn_vs_absent": 0.5083,
+        "pn_vs_present": 0.4783,
+        "pn_vs_present_ci_persona": {
+         "ci_hi": 0.5477921658167141,
+         "ci_lo": 0.4024809883834349,
+         "excludes_zero": true,
+         "mean": 0.47824856108848657,
+         "n_draws": 1000
+        }
+       },
+       "RETRACTION": {
+        "n_pairs": 30,
+        "ordering": {
+         "ci_persona": {
+          "ci_hi": 0.5517241379310345,
+          "ci_lo": 0.18181818181818182,
+          "excludes_zero": true,
+          "mean": 0.35968236771558176,
+          "n_draws": 1000
+         },
+         "losses": 4,
+         "strict_win_fraction": 0.3667,
+         "ties": 15,
+         "wilson": [
+          0.2187,
+          0.5449
+         ],
+         "wins": 11
+        },
+        "pn_vs_absent": 0.5967,
+        "pn_vs_present": 0.6139,
+        "pn_vs_present_ci_persona": {
+         "ci_hi": 0.7128547072865995,
+         "ci_lo": 0.5129919215666123,
+         "excludes_zero": true,
+         "mean": 0.6116485293998043,
+         "n_draws": 1000
+        }
+       },
+       "SUPERSESSION": {
+        "n_pairs": 88,
+        "ordering": {
+         "ci_persona": {
+          "ci_hi": 0.47475378787878786,
+          "ci_lo": 0.2926026957637997,
+          "excludes_zero": true,
+          "mean": 0.38385725629165557,
+          "n_draws": 1000
+         },
+         "losses": 7,
+         "strict_win_fraction": 0.3864,
+         "ties": 47,
+         "wilson": [
+          0.2914,
+          0.4908
+         ],
+         "wins": 34
+        },
+        "pn_vs_absent": 0.6025,
+        "pn_vs_present": 0.619,
+        "pn_vs_present_ci_persona": {
+         "ci_hi": 0.6733537566329774,
+         "ci_lo": 0.5640978397578914,
+         "excludes_zero": true,
+         "mean": 0.6184260089935543,
+         "n_draws": 1000
+        }
+       }
+      },
+      "whole": {
+       "n_pairs": 148,
+       "ordering": {
+        "ci_persona": {
+         "ci_hi": 0.3959944604239906,
+         "ci_lo": 0.25693530701754386,
+         "excludes_zero": true,
+         "mean": 0.3246402246295619,
+         "n_draws": 1000
+        },
+        "losses": 17,
+        "strict_win_fraction": 0.3243,
+        "ties": 83,
+        "wilson": [
+         0.2542,
+         0.4034
+        ],
+        "wins": 48
+       },
+       "pn_vs_absent": 0.5831,
+       "pn_vs_present": 0.5893,
+       "pn_vs_present_ci_persona": {
+        "ci_hi": 0.6320430726851852,
+        "ci_lo": 0.5504293036297683,
+        "excludes_zero": true,
+        "mean": 0.5894287817958489,
+        "n_draws": 1000
+       }
+      }
+     },
+     "vs_lookup": {
+      "agree": true,
+      "both_exclude_zero": true,
+      "delta": -0.1802,
+      "item_ci": {
+       "ci_hi": -0.10974849734900022,
+       "ci_lo": -0.24937111051452135,
+       "excludes_zero": true,
+       "mean": -0.17940366228794416,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": -0.1318667777025173,
+       "ci_lo": -0.23013369633352523,
+       "excludes_zero": true,
+       "mean": -0.17911345666418085,
+       "n_draws": 1000
+      }
+     },
+     "vs_v2": {
+      "agree": true,
+      "both_exclude_zero": true,
+      "delta": -0.1306,
+      "item_ci": {
+       "ci_hi": -0.052361059167625595,
+       "ci_lo": -0.20249582787791615,
+       "excludes_zero": true,
+       "mean": -0.12989409773243474,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": -0.08009928184549098,
+       "ci_lo": -0.18346651333021285,
+       "excludes_zero": true,
+       "mean": -0.13021110269368966,
+       "n_draws": 1000
+      }
+     },
+     "whole": 0.5862,
+     "whole_ci_persona": {
+      "ci_hi": 0.6321918760220009,
+      "ci_lo": 0.5416196236641668,
+      "excludes_zero": true,
+      "mean": 0.5866233635104308,
+      "n_draws": 1000
+     },
+     "within_tolerance_of_v2": false
+    },
+    "INDEXED-NAMES": {
+     "census": {
+      "draws_per_unit": {
+       "1": 444
+      },
+      "identical_across_draws": 0,
+      "median_range": null,
+      "not_ok": 0,
+      "rows": 444,
+      "units": 444,
+      "units_collapsed": 444,
+      "usd": 0.2267
+     },
+     "counted_pooled": 0.5173,
+     "distinct_values": 11,
+     "lookup": 0.7663,
+     "missing_items": 0,
+     "per_state": {
+      "EXPIRY": {
+       "auroc": 0.5006,
+       "lookup": 0.5,
+       "n": 90,
+       "pos": 30,
+       "vs_lookup": {
+        "agree": true,
+        "both_exclude_zero": false,
+        "delta": 0.0006,
+        "item_ci": {
+         "ci_hi": 0.13741964709031368,
+         "ci_lo": -0.13822781232334658,
+         "excludes_zero": false,
+         "mean": 0.0025219870394139372,
+         "n_draws": 1000
+        },
+        "persona_ci": {
+         "ci_hi": 0.03451354679802949,
+         "ci_lo": -0.032265222370681454,
+         "excludes_zero": false,
+         "mean": 0.0012859166225770223,
+         "n_draws": 1000
+        }
+       }
+      },
+      "RETRACTION": {
+       "auroc": 0.5344,
+       "lookup": 0.5,
+       "n": 90,
+       "pos": 30,
+       "vs_lookup": {
+        "agree": true,
+        "both_exclude_zero": false,
+        "delta": 0.0344,
+        "item_ci": {
+         "ci_hi": 0.15673715953641928,
+         "ci_lo": -0.09056818958447238,
+         "excludes_zero": false,
+         "mean": 0.03020918166202823,
+         "n_draws": 1000
+        },
+        "persona_ci": {
+         "ci_hi": 0.11086425781249998,
+         "ci_lo": -0.03225806451612906,
+         "excludes_zero": false,
+         "mean": 0.03460245642040476,
+         "n_draws": 1000
+        }
+       }
+      },
+      "SUPERSESSION": {
+       "auroc": 0.8564,
+       "lookup": 0.9223,
+       "n": 264,
+       "pos": 88,
+       "vs_lookup": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "delta": -0.0658,
+        "item_ci": {
+         "ci_hi": -0.026124084170238687,
+         "ci_lo": -0.10919169422941725,
+         "excludes_zero": true,
+         "mean": -0.06587324095554399,
+         "n_draws": 1000
+        },
+        "persona_ci": {
+         "ci_hi": -0.025307450879602497,
+         "ci_lo": -0.11346001195276179,
+         "excludes_zero": true,
+         "mean": -0.06589702372988217,
+         "n_draws": 1000
+        }
+       }
+      }
+     },
+     "per_state_vs_v2": {
+      "EXPIRY": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": -0.0483,
+       "item_ci": {
+        "ci_hi": 0.04493732192161733,
+        "ci_lo": -0.14445473007036694,
+        "excludes_zero": false,
+        "mean": -0.04704542825380369,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.031068782584834892,
+        "ci_lo": -0.13021998055420517,
+        "excludes_zero": false,
+        "mean": -0.04467820811846759,
+        "n_draws": 1000
+       }
+      },
+      "RETRACTION": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0061,
+       "item_ci": {
+        "ci_hi": 0.1417475523813737,
+        "ci_lo": -0.11936781731808603,
+        "excludes_zero": false,
+        "mean": 0.006850378721236467,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.12136333578301844,
+        "ci_lo": -0.11777108755121618,
+        "excludes_zero": false,
+        "mean": 0.004373834653961259,
+        "n_draws": 1000
+       }
+      },
+      "SUPERSESSION": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0256,
+       "item_ci": {
+        "ci_hi": 0.06996682550685421,
+        "ci_lo": -0.016631983208309692,
+        "excludes_zero": false,
+        "mean": 0.026880921290893593,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.06926312004772806,
+        "ci_lo": -0.017999449710564563,
+        "excludes_zero": false,
+        "mean": 0.026038832256672386,
+        "n_draws": 1000
+       }
+      }
+     },
+     "posthoc": {
+      "per_state": {
+       "EXPIRY": {
+        "n_pairs": 30,
+        "ordering": {
+         "ci_persona": {
+          "ci_hi": 0.18518518518518517,
+          "ci_lo": 0.0,
+          "excludes_zero": false,
+          "mean": 0.06793567577379449,
+          "n_draws": 1000
+         },
+         "losses": 2,
+         "strict_win_fraction": 0.0667,
+         "ties": 26,
+         "wilson": [
+          0.0185,
+          0.2132
+         ],
+         "wins": 2
+        },
+        "pn_vs_absent": 0.5167,
+        "pn_vs_present": 0.4844,
+        "pn_vs_present_ci_persona": {
+         "ci_hi": 0.5454781818181818,
+         "ci_lo": 0.43103448275862066,
+         "excludes_zero": true,
+         "mean": 0.4852791541442297,
+         "n_draws": 1000
+        }
+       },
+       "RETRACTION": {
+        "n_pairs": 30,
+        "ordering": {
+         "ci_persona": {
+          "ci_hi": 0.3,
+          "ci_lo": 0.0,
+          "excludes_zero": false,
+          "mean": 0.13414170354911847,
+          "n_draws": 1000
+         },
+         "losses": 1,
+         "strict_win_fraction": 0.1333,
+         "ties": 25,
+         "wilson": [
+          0.0531,
+          0.2968
+         ],
+         "wins": 4
+        },
+        "pn_vs_absent": 0.5183,
+        "pn_vs_present": 0.5506,
+        "pn_vs_present_ci_persona": {
+         "ci_hi": 0.6368504797188183,
+         "ci_lo": 0.4666666666666667,
+         "excludes_zero": true,
+         "mean": 0.549833269171254,
+         "n_draws": 1000
+        }
+       },
+       "SUPERSESSION": {
+        "n_pairs": 88,
+        "ordering": {
+         "ci_persona": {
+          "ci_hi": 0.875,
+          "ci_lo": 0.6965915319265552,
+          "excludes_zero": true,
+          "mean": 0.7854533159165774,
+          "n_draws": 1000
+         },
+         "losses": 1,
+         "strict_win_fraction": 0.7841,
+         "ties": 18,
+         "wilson": [
+          0.6872,
+          0.8572
+         ],
+         "wins": 69
+        },
+        "pn_vs_absent": 0.8623,
+        "pn_vs_present": 0.8505,
+        "pn_vs_present_ci_persona": {
+         "ci_hi": 0.9100751617356262,
+         "ci_lo": 0.7890640486931282,
+         "excludes_zero": true,
+         "mean": 0.8516401456069029,
+         "n_draws": 1000
+        }
+       }
+      },
+      "whole": {
+       "n_pairs": 148,
+       "ordering": {
+        "ci_persona": {
+         "ci_hi": 0.5822203196347032,
+         "ci_lo": 0.4276315789473684,
+         "excludes_zero": true,
+         "mean": 0.5062844851363365,
+         "n_draws": 1000
+        },
+        "losses": 4,
+        "strict_win_fraction": 0.5068,
+        "ties": 69,
+        "wilson": [
+         0.4271,
+         0.5861
+        ],
+        "wins": 75
+       },
+       "pn_vs_absent": 0.7156,
+       "pn_vs_present": 0.7051,
+       "pn_vs_present_ci_persona": {
+        "ci_hi": 0.7484615435316146,
+        "ci_lo": 0.6576890002640715,
+        "excludes_zero": true,
+        "mean": 0.7047608466071386,
+        "n_draws": 1000
+       }
+      }
+     },
+     "vs_lookup": {
+      "agree": true,
+      "both_exclude_zero": true,
+      "delta": -0.056,
+      "item_ci": {
+       "ci_hi": -0.014554247942931121,
+       "ci_lo": -0.10066510463910304,
+       "excludes_zero": true,
+       "mean": -0.056651440182899776,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": -0.022556058769937198,
+       "ci_lo": -0.09130662868599924,
+       "excludes_zero": true,
+       "mean": -0.05587376447729325,
+       "n_draws": 1000
+      }
+     },
+     "vs_v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": -0.0064,
+      "item_ci": {
+       "ci_hi": 0.033768108816422136,
+       "ci_lo": -0.04839605707358037,
+       "excludes_zero": false,
+       "mean": -0.007141875627390339,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": 0.028984886955871637,
+       "ci_lo": -0.04389309378546669,
+       "excludes_zero": false,
+       "mean": -0.0069714105068020855,
+       "n_draws": 1000
+      }
+     },
+     "whole": 0.7103,
+     "whole_ci_persona": {
+      "ci_hi": 0.752380816466763,
+      "ci_lo": 0.6644466203208582,
+      "excludes_zero": true,
+      "mean": 0.7098630556973182,
+      "n_draws": 1000
+     },
+     "within_tolerance_of_v2": true
+    },
+    "INDEXED-NAMES-DASH": {
+     "census": {
+      "draws_per_unit": {
+       "1": 444
+      },
+      "identical_across_draws": 0,
+      "median_range": null,
+      "not_ok": 0,
+      "rows": 444,
+      "units": 444,
+      "units_collapsed": 444,
+      "usd": 0.2906
+     },
+     "counted_pooled": 0.4635,
+     "distinct_values": 11,
+     "lookup": 0.7663,
+     "missing_items": 0,
+     "per_state": {
+      "EXPIRY": {
+       "auroc": 0.4764,
+       "lookup": 0.5,
+       "n": 90,
+       "pos": 30,
+       "vs_lookup": {
+        "agree": true,
+        "both_exclude_zero": false,
+        "delta": -0.0236,
+        "item_ci": {
+         "ci_hi": 0.10612430001059918,
+         "ci_lo": -0.14891443899867218,
+         "excludes_zero": false,
+         "mean": -0.021032341042895947,
+         "n_draws": 1000
+        },
+        "persona_ci": {
+         "ci_hi": 0.013898809523809466,
+         "ci_lo": -0.07145737327188942,
+         "excludes_zero": false,
+         "mean": -0.022453308112034255,
+         "n_draws": 1000
+        }
+       }
+      },
+      "RETRACTION": {
+       "auroc": 0.45,
+       "lookup": 0.5,
+       "n": 90,
+       "pos": 30,
+       "vs_lookup": {
+        "agree": true,
+        "both_exclude_zero": false,
+        "delta": -0.05,
+        "item_ci": {
+         "ci_hi": 0.10659282314090801,
+         "ci_lo": -0.2154476766513057,
+         "excludes_zero": false,
+         "mean": -0.05128631986982608,
+         "n_draws": 1000
+        },
+        "persona_ci": {
+         "ci_hi": 0.014497073002754797,
+         "ci_lo": -0.11798507653061223,
+         "excludes_zero": false,
+         "mean": -0.0502837442789314,
+         "n_draws": 1000
+        }
+       }
+      },
+      "SUPERSESSION": {
+       "auroc": 0.8432,
+       "lookup": 0.9223,
+       "n": 264,
+       "pos": 88,
+       "vs_lookup": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "delta": -0.0791,
+        "item_ci": {
+         "ci_hi": -0.04194888643659709,
+         "ci_lo": -0.12021393189388842,
+         "excludes_zero": true,
+         "mean": -0.07910635645317625,
+         "n_draws": 1000
+        },
+        "persona_ci": {
+         "ci_hi": -0.0457447129264959,
+         "ci_lo": -0.11510026261146855,
+         "excludes_zero": true,
+         "mean": -0.07873373217441738,
+         "n_draws": 1000
+        }
+       }
+      }
+     },
+     "per_state_vs_v2": {
+      "EXPIRY": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": -0.0725,
+       "item_ci": {
+        "ci_hi": 0.022476269515731784,
+        "ci_lo": -0.17204508361262394,
+        "excludes_zero": false,
+        "mean": -0.07059975633611355,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.02056386908301299,
+        "ci_lo": -0.17992491590300033,
+        "excludes_zero": false,
+        "mean": -0.06841743285307886,
+        "n_draws": 1000
+       }
+      },
+      "RETRACTION": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": -0.0783,
+       "item_ci": {
+        "ci_hi": 0.03757116272434896,
+        "ci_lo": -0.1947471040806354,
+        "excludes_zero": false,
+        "mean": -0.07464512281061783,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.009625882006269196,
+        "ci_lo": -0.19173019008700434,
+        "excludes_zero": false,
+        "mean": -0.08051236604537489,
+        "n_draws": 1000
+       }
+      },
+      "SUPERSESSION": {
+       "agree": true,
+       "both_exclude_zero": false,
+       "delta": 0.0124,
+       "item_ci": {
+        "ci_hi": 0.05352528683263792,
+        "ci_lo": -0.02871583313311598,
+        "excludes_zero": false,
+        "mean": 0.013647805793261344,
+        "n_draws": 1000
+       },
+       "persona_ci": {
+        "ci_hi": 0.06344557913343093,
+        "ci_lo": -0.032882641301782256,
+        "excludes_zero": false,
+        "mean": 0.013202123812137175,
+        "n_draws": 1000
+       }
+      }
+     },
+     "posthoc": {
+      "per_state": {
+       "EXPIRY": {
+        "n_pairs": 30,
+        "ordering": {
+         "ci_persona": {
+          "ci_hi": 0.1111111111111111,
+          "ci_lo": 0.0,
+          "excludes_zero": false,
+          "mean": 0.0332072113878709,
+          "n_draws": 1000
+         },
+         "losses": 4,
+         "strict_win_fraction": 0.0333,
+         "ties": 25,
+         "wilson": [
+          0.0059,
+          0.1667
+         ],
+         "wins": 1
+        },
+        "pn_vs_absent": 0.5167,
+        "pn_vs_present": 0.4361,
+        "pn_vs_present_ci_persona": {
+         "ci_hi": 0.5004890815028291,
+         "ci_lo": 0.35,
+         "excludes_zero": true,
+         "mean": 0.4378007046750072,
+         "n_draws": 1000
+        }
+       },
+       "RETRACTION": {
+        "n_pairs": 30,
+        "ordering": {
+         "ci_persona": {
+          "ci_hi": 0.21212121212121213,
+          "ci_lo": 0.0,
+          "excludes_zero": false,
+          "mean": 0.0994933065033598,
+          "n_draws": 1000
+         },
+         "losses": 6,
+         "strict_win_fraction": 0.1,
+         "ties": 21,
+         "wilson": [
+          0.0346,
+          0.2562
+         ],
+         "wins": 3
+        },
+        "pn_vs_absent": 0.45,
+        "pn_vs_present": 0.45,
+        "pn_vs_present_ci_persona": {
+         "ci_hi": 0.5297414892456853,
+         "ci_lo": 0.3699722222222222,
+         "excludes_zero": true,
+         "mean": 0.4499493255824052,
+         "n_draws": 1000
+        }
+       },
+       "SUPERSESSION": {
+        "n_pairs": 88,
+        "ordering": {
+         "ci_persona": {
+          "ci_hi": 0.8351680672268907,
+          "ci_lo": 0.632904934125549,
+          "excludes_zero": true,
+          "mean": 0.7399433489391085,
+          "n_draws": 1000
+         },
+         "losses": 3,
+         "strict_win_fraction": 0.7386,
+         "ties": 20,
+         "wilson": [
+          0.6382,
+          0.8191
+         ],
+         "wins": 65
+        },
+        "pn_vs_absent": 0.8569,
+        "pn_vs_present": 0.8295,
+        "pn_vs_present_ci_persona": {
+         "ci_hi": 0.8890418098003242,
+         "ci_lo": 0.7692231122294668,
+         "excludes_zero": true,
+         "mean": 0.8309775041817916,
+         "n_draws": 1000
+        }
+       }
+      },
+      "whole": {
+       "n_pairs": 148,
+       "ordering": {
+        "ci_persona": {
+         "ci_hi": 0.5570469798657718,
+         "ci_lo": 0.3730008210180624,
+         "excludes_zero": true,
+         "mean": 0.46633861038305896,
+         "n_draws": 1000
+        },
+        "losses": 13,
+        "strict_win_fraction": 0.4662,
+        "ties": 66,
+        "wilson": [
+         0.3877,
+         0.5464
+        ],
+        "wins": 69
+       },
+       "pn_vs_absent": 0.7021,
+       "pn_vs_present": 0.6762,
+       "pn_vs_present_ci_persona": {
+        "ci_hi": 0.7276859449091586,
+        "ci_lo": 0.6197736808325254,
+        "excludes_zero": true,
+        "mean": 0.6760456172989199,
+        "n_draws": 1000
+       }
+      }
+     },
+     "vs_lookup": {
+      "agree": true,
+      "both_exclude_zero": true,
+      "delta": -0.0772,
+      "item_ci": {
+       "ci_hi": -0.033997235100007135,
+       "ci_lo": -0.12138349140593829,
+       "excludes_zero": true,
+       "mean": -0.07777534857321712,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": -0.04494447017412035,
+       "ci_lo": -0.10794959222979023,
+       "excludes_zero": true,
+       "mean": -0.07700724709222248,
+       "n_draws": 1000
+      }
+     },
+     "vs_v2": {
+      "agree": true,
+      "both_exclude_zero": false,
+      "delta": -0.0276,
+      "item_ci": {
+       "ci_hi": 0.00856188607012872,
+       "ci_lo": -0.06794792878052926,
+       "excludes_zero": false,
+       "mean": -0.02826578401770768,
+       "n_draws": 1000
+      },
+      "persona_ci": {
+       "ci_hi": 0.01200389228676193,
+       "ci_lo": -0.06937508478054788,
+       "excludes_zero": false,
+       "mean": -0.02810489312173133,
+       "n_draws": 1000
+      }
+     },
+     "whole": 0.6891,
+     "whole_ci_persona": {
+      "ci_hi": 0.7356136484608193,
+      "ci_lo": 0.6371484188034189,
+      "excludes_zero": true,
+      "mean": 0.6887295730823891,
+      "n_draws": 1000
+     },
+     "within_tolerance_of_v2": true
+    }
+   },
+   "counts_minus_names": {
+    "agree": true,
+    "both_exclude_zero": true,
+    "counts_below_names_reliably": true,
+    "delta": -0.1242,
+    "item_ci": {
+     "ci_hi": -0.05245164977990276,
+     "ci_lo": -0.19809080328942266,
+     "excludes_zero": true,
+     "mean": -0.1227522221050444,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": -0.06982512322012334,
+     "ci_lo": -0.1814419052551318,
+     "excludes_zero": true,
+     "mean": -0.12323969218688759,
+     "n_draws": 1000
+    }
+   },
+   "dash_minus_names": {
+    "agree": true,
+    "both_exclude_zero": false,
+    "delta": -0.0212,
+    "item_ci": {
+     "ci_hi": 0.010590915310742887,
+     "ci_lo": -0.053824155826723605,
+     "excludes_zero": false,
+     "mean": -0.021123908390317338,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.010369250602887192,
+     "ci_lo": -0.053066429117515204,
+     "excludes_zero": false,
+     "mean": -0.02113348261492924,
+     "n_draws": 1000
+    }
+   },
+   "names_only_counted_identity": {
+    "EXPIRY": 0.4844,
+    "RETRACTION": 0.5506
+   },
+   "v2_recorded": 0.7167
+  }
+ },
+ "registration_sha256": "6cd4cb94c3a3a4dce43da23640fbf05828f93da0d322f3f9db7da0761768db2c",
+ "spend": {
+  "cap": 10.0,
+  "h45": 4.5454,
+  "mini": 0.7142,
+  "probes": 0.0061
+ },
+ "when": "2026-09-19T00:38:21"
+}

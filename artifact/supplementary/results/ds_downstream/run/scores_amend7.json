@@ -1,0 +1,3287 @@
+{
+ "composite_answered": {
+  "A4-header|H45|ALWAYS": {
+   "absent_abstained": 280,
+   "absent_answerer": 280,
+   "absent_proxy_longer_view": 0,
+   "absent_rule": 0,
+   "composite": 369,
+   "licensed_correct": 73,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 16,
+   "reported_registered_rule": 15,
+   "successor_on_sup": 1
+  },
+  "A4-header|H45|LOOKUP": {
+   "absent_abstained": 304,
+   "absent_answerer": 130,
+   "absent_proxy_longer_view": 17,
+   "absent_rule": 174,
+   "composite": 379,
+   "licensed_correct": 58,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 17,
+   "reported_registered_rule": 16,
+   "successor_on_sup": 1
+  },
+  "A4-header|H45|LOOKUP-ALL": {
+   "absent_abstained": 304,
+   "absent_answerer": 130,
+   "absent_proxy_longer_view": 17,
+   "absent_rule": 174,
+   "composite": 381,
+   "licensed_correct": 58,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 19,
+   "reported_registered_rule": 17,
+   "successor_on_sup": 2
+  },
+  "A4-header|H45|LOOKUP-LIT": {
+   "absent_abstained": 280,
+   "absent_answerer": 280,
+   "absent_proxy_longer_view": 72,
+   "absent_rule": 0,
+   "composite": 373,
+   "licensed_correct": 72,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 21,
+   "reported_registered_rule": 20,
+   "successor_on_sup": 1
+  },
+  "A4-header|H45|MODEL": {
+   "absent_abstained": 291,
+   "absent_answerer": 119,
+   "absent_proxy_longer_view": 10,
+   "absent_rule": 172,
+   "composite": 371,
+   "licensed_correct": 64,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 16,
+   "reported_registered_rule": 15,
+   "successor_on_sup": 1
+  },
+  "A4-header|H45|MODEL-ALL": {
+   "absent_abstained": 291,
+   "absent_answerer": 119,
+   "absent_proxy_longer_view": 10,
+   "absent_rule": 172,
+   "composite": 376,
+   "licensed_correct": 64,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 21,
+   "reported_registered_rule": 19,
+   "successor_on_sup": 2
+  },
+  "A4-header|H45|ORACLE": {
+   "absent_abstained": 383,
+   "absent_answerer": 0,
+   "absent_proxy_longer_view": 0,
+   "absent_rule": 383,
+   "composite": 483,
+   "licensed_correct": 73,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 27,
+   "reported_registered_rule": 25,
+   "successor_on_sup": 2
+  },
+  "A4-header|MINI|ALWAYS": {
+   "absent_abstained": 241,
+   "absent_answerer": 241,
+   "absent_proxy_longer_view": 0,
+   "absent_rule": 0,
+   "composite": 301,
+   "licensed_correct": 56,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 4,
+   "reported_registered_rule": 3,
+   "successor_on_sup": 1
+  },
+  "A4-header|MINI|LOOKUP": {
+   "absent_abstained": 276,
+   "absent_answerer": 102,
+   "absent_proxy_longer_view": 17,
+   "absent_rule": 174,
+   "composite": 326,
+   "licensed_correct": 48,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 2,
+   "reported_registered_rule": 1,
+   "successor_on_sup": 1
+  },
+  "A4-header|MINI|LOOKUP-ALL": {
+   "absent_abstained": 276,
+   "absent_answerer": 102,
+   "absent_proxy_longer_view": 17,
+   "absent_rule": 174,
+   "composite": 325,
+   "licensed_correct": 47,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 2,
+   "reported_registered_rule": 1,
+   "successor_on_sup": 1
+  },
+  "A4-header|MINI|LOOKUP-LIT": {
+   "absent_abstained": 241,
+   "absent_answerer": 241,
+   "absent_proxy_longer_view": 72,
+   "absent_rule": 0,
+   "composite": 300,
+   "licensed_correct": 55,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 4,
+   "reported_registered_rule": 3,
+   "successor_on_sup": 1
+  },
+  "A4-header|MINI|MODEL": {
+   "absent_abstained": 264,
+   "absent_answerer": 92,
+   "absent_proxy_longer_view": 10,
+   "absent_rule": 172,
+   "composite": 319,
+   "licensed_correct": 53,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 2,
+   "reported_registered_rule": 1,
+   "successor_on_sup": 1
+  },
+  "A4-header|MINI|MODEL-ALL": {
+   "absent_abstained": 264,
+   "absent_answerer": 92,
+   "absent_proxy_longer_view": 10,
+   "absent_rule": 172,
+   "composite": 319,
+   "licensed_correct": 53,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 2,
+   "reported_registered_rule": 1,
+   "successor_on_sup": 1
+  },
+  "A4-header|MINI|ORACLE": {
+   "absent_abstained": 383,
+   "absent_answerer": 0,
+   "absent_proxy_longer_view": 0,
+   "absent_rule": 383,
+   "composite": 444,
+   "licensed_correct": 56,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 5,
+   "reported_registered_rule": 4,
+   "successor_on_sup": 1
+  },
+  "A5-duplicates-tagged|H45|ALWAYS": {
+   "absent_abstained": 280,
+   "absent_answerer": 280,
+   "absent_proxy_longer_view": 0,
+   "absent_rule": 0,
+   "composite": 373,
+   "licensed_correct": 73,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 20,
+   "reported_registered_rule": 19,
+   "successor_on_sup": 1
+  },
+  "A5-duplicates-tagged|H45|LOOKUP": {
+   "absent_abstained": 304,
+   "absent_answerer": 130,
+   "absent_proxy_longer_view": 17,
+   "absent_rule": 174,
+   "composite": 384,
+   "licensed_correct": 58,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 22,
+   "reported_registered_rule": 21,
+   "successor_on_sup": 1
+  },
+  "A5-duplicates-tagged|H45|LOOKUP-ALL": {
+   "absent_abstained": 304,
+   "absent_answerer": 130,
+   "absent_proxy_longer_view": 17,
+   "absent_rule": 174,
+   "composite": 386,
+   "licensed_correct": 58,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 24,
+   "reported_registered_rule": 22,
+   "successor_on_sup": 2
+  },
+  "A5-duplicates-tagged|H45|LOOKUP-LIT": {
+   "absent_abstained": 280,
+   "absent_answerer": 280,
+   "absent_proxy_longer_view": 72,
+   "absent_rule": 0,
+   "composite": 381,
+   "licensed_correct": 72,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 29,
+   "reported_registered_rule": 28,
+   "successor_on_sup": 1
+  },
+  "A5-duplicates-tagged|H45|MODEL": {
+   "absent_abstained": 291,
+   "absent_answerer": 119,
+   "absent_proxy_longer_view": 10,
+   "absent_rule": 172,
+   "composite": 377,
+   "licensed_correct": 64,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 22,
+   "reported_registered_rule": 21,
+   "successor_on_sup": 1
+  },
+  "A5-duplicates-tagged|H45|MODEL-ALL": {
+   "absent_abstained": 291,
+   "absent_answerer": 119,
+   "absent_proxy_longer_view": 10,
+   "absent_rule": 172,
+   "composite": 381,
+   "licensed_correct": 64,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 26,
+   "reported_registered_rule": 24,
+   "successor_on_sup": 2
+  },
+  "A5-duplicates-tagged|H45|ORACLE": {
+   "absent_abstained": 383,
+   "absent_answerer": 0,
+   "absent_proxy_longer_view": 0,
+   "absent_rule": 383,
+   "composite": 489,
+   "licensed_correct": 73,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 33,
+   "reported_registered_rule": 31,
+   "successor_on_sup": 2
+  },
+  "A5-duplicates-tagged|MINI|ALWAYS": {
+   "absent_abstained": 241,
+   "absent_answerer": 241,
+   "absent_proxy_longer_view": 0,
+   "absent_rule": 0,
+   "composite": 301,
+   "licensed_correct": 56,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 4,
+   "reported_registered_rule": 3,
+   "successor_on_sup": 1
+  },
+  "A5-duplicates-tagged|MINI|LOOKUP": {
+   "absent_abstained": 276,
+   "absent_answerer": 102,
+   "absent_proxy_longer_view": 17,
+   "absent_rule": 174,
+   "composite": 326,
+   "licensed_correct": 48,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 2,
+   "reported_registered_rule": 1,
+   "successor_on_sup": 1
+  },
+  "A5-duplicates-tagged|MINI|LOOKUP-ALL": {
+   "absent_abstained": 276,
+   "absent_answerer": 102,
+   "absent_proxy_longer_view": 17,
+   "absent_rule": 174,
+   "composite": 325,
+   "licensed_correct": 47,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 2,
+   "reported_registered_rule": 1,
+   "successor_on_sup": 1
+  },
+  "A5-duplicates-tagged|MINI|LOOKUP-LIT": {
+   "absent_abstained": 241,
+   "absent_answerer": 241,
+   "absent_proxy_longer_view": 72,
+   "absent_rule": 0,
+   "composite": 300,
+   "licensed_correct": 55,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 4,
+   "reported_registered_rule": 3,
+   "successor_on_sup": 1
+  },
+  "A5-duplicates-tagged|MINI|MODEL": {
+   "absent_abstained": 264,
+   "absent_answerer": 92,
+   "absent_proxy_longer_view": 10,
+   "absent_rule": 172,
+   "composite": 319,
+   "licensed_correct": 53,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 2,
+   "reported_registered_rule": 1,
+   "successor_on_sup": 1
+  },
+  "A5-duplicates-tagged|MINI|MODEL-ALL": {
+   "absent_abstained": 264,
+   "absent_answerer": 92,
+   "absent_proxy_longer_view": 10,
+   "absent_rule": 172,
+   "composite": 319,
+   "licensed_correct": 53,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 2,
+   "reported_registered_rule": 1,
+   "successor_on_sup": 1
+  },
+  "A5-duplicates-tagged|MINI|ORACLE": {
+   "absent_abstained": 383,
+   "absent_answerer": 0,
+   "absent_proxy_longer_view": 0,
+   "absent_rule": 383,
+   "composite": 446,
+   "licensed_correct": 56,
+   "of": {
+    "absent": 383,
+    "all": 661,
+    "licensed": 174,
+    "obligations": 104
+   },
+   "reported_answered": 7,
+   "reported_registered_rule": 6,
+   "successor_on_sup": 1
+  }
+ },
+ "composite_answered_diff": {
+  "A4-header|H45|LOOKUP": {
+   "ci_item": [
+    -0.0045,
+    0.0348
+   ],
+   "ci_persona": [
+    -0.0056,
+    0.0354
+   ],
+   "composite_always": 369,
+   "composite_policy": 379,
+   "difference_count": 10,
+   "difference_rate": 0.0151,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A4-header|H45|LOOKUP-ALL": {
+   "ci_item": [
+    -0.003,
+    0.0393
+   ],
+   "ci_persona": [
+    -0.0045,
+    0.0413
+   ],
+   "composite_always": 369,
+   "composite_policy": 381,
+   "difference_count": 12,
+   "difference_rate": 0.0182,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A4-header|H45|LOOKUP-LIT": {
+   "ci_item": [
+    -0.0015,
+    0.0151
+   ],
+   "ci_persona": [
+    -0.0015,
+    0.0149
+   ],
+   "composite_always": 369,
+   "composite_policy": 373,
+   "difference_count": 4,
+   "difference_rate": 0.0061,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A4-header|H45|MODEL": {
+   "ci_item": [
+    -0.0121,
+    0.0182
+   ],
+   "ci_persona": [
+    -0.0132,
+    0.0191
+   ],
+   "composite_always": 369,
+   "composite_policy": 371,
+   "difference_count": 2,
+   "difference_rate": 0.003,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A4-header|H45|MODEL-ALL": {
+   "ci_item": [
+    -0.0061,
+    0.0272
+   ],
+   "ci_persona": [
+    -0.0059,
+    0.0264
+   ],
+   "composite_always": 369,
+   "composite_policy": 376,
+   "difference_count": 7,
+   "difference_rate": 0.0106,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A4-header|MINI|LOOKUP": {
+   "ci_item": [
+    0.0182,
+    0.0575
+   ],
+   "ci_persona": [
+    0.0194,
+    0.0564
+   ],
+   "composite_always": 301,
+   "composite_policy": 326,
+   "difference_count": 25,
+   "difference_rate": 0.0378,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A4-header|MINI|LOOKUP-ALL": {
+   "ci_item": [
+    0.0166,
+    0.056
+   ],
+   "ci_persona": [
+    0.0171,
+    0.0554
+   ],
+   "composite_always": 301,
+   "composite_policy": 325,
+   "difference_count": 24,
+   "difference_rate": 0.0363,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A4-header|MINI|LOOKUP-LIT": {
+   "ci_item": [
+    -0.0061,
+    0.003
+   ],
+   "ci_persona": [
+    -0.0065,
+    0.0031
+   ],
+   "composite_always": 301,
+   "composite_policy": 300,
+   "difference_count": -1,
+   "difference_rate": -0.0015,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A4-header|MINI|MODEL": {
+   "ci_item": [
+    0.0121,
+    0.0439
+   ],
+   "ci_persona": [
+    0.0113,
+    0.0443
+   ],
+   "composite_always": 301,
+   "composite_policy": 319,
+   "difference_count": 18,
+   "difference_rate": 0.0272,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A4-header|MINI|MODEL-ALL": {
+   "ci_item": [
+    0.0121,
+    0.0439
+   ],
+   "ci_persona": [
+    0.0113,
+    0.0443
+   ],
+   "composite_always": 301,
+   "composite_policy": 319,
+   "difference_count": 18,
+   "difference_rate": 0.0272,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A5-duplicates-tagged|H45|LOOKUP": {
+   "ci_item": [
+    -0.0045,
+    0.0378
+   ],
+   "ci_persona": [
+    -0.0062,
+    0.0397
+   ],
+   "composite_always": 373,
+   "composite_policy": 384,
+   "difference_count": 11,
+   "difference_rate": 0.0166,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A5-duplicates-tagged|H45|LOOKUP-ALL": {
+   "ci_item": [
+    -0.003,
+    0.0408
+   ],
+   "ci_persona": [
+    -0.0048,
+    0.045
+   ],
+   "composite_always": 373,
+   "composite_policy": 386,
+   "difference_count": 13,
+   "difference_rate": 0.0197,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A5-duplicates-tagged|H45|LOOKUP-LIT": {
+   "ci_item": [
+    0.003,
+    0.0227
+   ],
+   "ci_persona": [
+    0.0029,
+    0.023
+   ],
+   "composite_always": 373,
+   "composite_policy": 381,
+   "difference_count": 8,
+   "difference_rate": 0.0121,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A5-duplicates-tagged|H45|MODEL": {
+   "ci_item": [
+    -0.0106,
+    0.0242
+   ],
+   "ci_persona": [
+    -0.0124,
+    0.024
+   ],
+   "composite_always": 373,
+   "composite_policy": 377,
+   "difference_count": 4,
+   "difference_rate": 0.0061,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A5-duplicates-tagged|H45|MODEL-ALL": {
+   "ci_item": [
+    -0.0061,
+    0.0303
+   ],
+   "ci_persona": [
+    -0.0074,
+    0.0304
+   ],
+   "composite_always": 373,
+   "composite_policy": 381,
+   "difference_count": 8,
+   "difference_rate": 0.0121,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A5-duplicates-tagged|MINI|LOOKUP": {
+   "ci_item": [
+    0.0182,
+    0.0575
+   ],
+   "ci_persona": [
+    0.0194,
+    0.0564
+   ],
+   "composite_always": 301,
+   "composite_policy": 326,
+   "difference_count": 25,
+   "difference_rate": 0.0378,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A5-duplicates-tagged|MINI|LOOKUP-ALL": {
+   "ci_item": [
+    0.0166,
+    0.056
+   ],
+   "ci_persona": [
+    0.0171,
+    0.0554
+   ],
+   "composite_always": 301,
+   "composite_policy": 325,
+   "difference_count": 24,
+   "difference_rate": 0.0363,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A5-duplicates-tagged|MINI|LOOKUP-LIT": {
+   "ci_item": [
+    -0.0061,
+    0.003
+   ],
+   "ci_persona": [
+    -0.0065,
+    0.0031
+   ],
+   "composite_always": 301,
+   "composite_policy": 300,
+   "difference_count": -1,
+   "difference_rate": -0.0015,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A5-duplicates-tagged|MINI|MODEL": {
+   "ci_item": [
+    0.0121,
+    0.0439
+   ],
+   "ci_persona": [
+    0.0113,
+    0.0443
+   ],
+   "composite_always": 301,
+   "composite_policy": 319,
+   "difference_count": 18,
+   "difference_rate": 0.0272,
+   "n_boot": 10000,
+   "seed": 42
+  },
+  "A5-duplicates-tagged|MINI|MODEL-ALL": {
+   "ci_item": [
+    0.0121,
+    0.0439
+   ],
+   "ci_persona": [
+    0.0113,
+    0.0443
+   ],
+   "composite_always": 301,
+   "composite_policy": 319,
+   "difference_count": 18,
+   "difference_rate": 0.0272,
+   "n_boot": 10000,
+   "seed": 42
+  }
+ },
+ "composite_answered_when": "2026-09-15T02:01:41",
+ "composite_diff": {
+  "A4-header|H45|LOOKUP minus ALWAYS, same prompt": {
+   "answerer": "H45",
+   "ci_item": [
+    0.2042,
+    0.2784
+   ],
+   "ci_persona": [
+    0.2072,
+    0.2785
+   ],
+   "comparison": "LOOKUP minus ALWAYS, same prompt",
+   "composite_always": 88,
+   "composite_policy": 248,
+   "difference_count": 160,
+   "difference_rate": 0.2421,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A4-header"
+  },
+  "A4-header|H45|LOOKUP-ALL minus ALWAYS, same prompt": {
+   "answerer": "H45",
+   "ci_item": [
+    0.2057,
+    0.2814
+   ],
+   "ci_persona": [
+    0.2075,
+    0.2809
+   ],
+   "comparison": "LOOKUP-ALL minus ALWAYS, same prompt",
+   "composite_always": 88,
+   "composite_policy": 249,
+   "difference_count": 161,
+   "difference_rate": 0.2436,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A4-header"
+  },
+  "A4-header|H45|LOOKUP-LIT minus ALWAYS, same prompt": {
+   "answerer": "H45",
+   "ci_item": [
+    -0.0015,
+    0.0151
+   ],
+   "ci_persona": [
+    -0.0015,
+    0.0149
+   ],
+   "comparison": "LOOKUP-LIT minus ALWAYS, same prompt",
+   "composite_always": 88,
+   "composite_policy": 92,
+   "difference_count": 4,
+   "difference_rate": 0.0061,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A4-header"
+  },
+  "A4-header|H45|MODEL minus ALWAYS, same prompt": {
+   "answerer": "H45",
+   "ci_item": [
+    0.2118,
+    0.2829
+   ],
+   "ci_persona": [
+    0.2095,
+    0.2847
+   ],
+   "comparison": "MODEL minus ALWAYS, same prompt",
+   "composite_always": 88,
+   "composite_policy": 251,
+   "difference_count": 163,
+   "difference_rate": 0.2466,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A4-header"
+  },
+  "A4-header|H45|MODEL-ALL minus ALWAYS, same prompt": {
+   "answerer": "H45",
+   "ci_item": [
+    0.2179,
+    0.289
+   ],
+   "ci_persona": [
+    0.2157,
+    0.2907
+   ],
+   "comparison": "MODEL-ALL minus ALWAYS, same prompt",
+   "composite_always": 88,
+   "composite_policy": 255,
+   "difference_count": 167,
+   "difference_rate": 0.2526,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A4-header"
+  },
+  "A4-header|MINI|LOOKUP minus ALWAYS, same prompt": {
+   "answerer": "MINI",
+   "ci_item": [
+    0.2118,
+    0.2844
+   ],
+   "ci_persona": [
+    0.2168,
+    0.2808
+   ],
+   "comparison": "LOOKUP minus ALWAYS, same prompt",
+   "composite_always": 59,
+   "composite_policy": 223,
+   "difference_count": 164,
+   "difference_rate": 0.2481,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A4-header"
+  },
+  "A4-header|MINI|LOOKUP-ALL minus ALWAYS, same prompt": {
+   "answerer": "MINI",
+   "ci_item": [
+    0.2103,
+    0.2829
+   ],
+   "ci_persona": [
+    0.2149,
+    0.2795
+   ],
+   "comparison": "LOOKUP-ALL minus ALWAYS, same prompt",
+   "composite_always": 59,
+   "composite_policy": 222,
+   "difference_count": 163,
+   "difference_rate": 0.2466,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A4-header"
+  },
+  "A4-header|MINI|LOOKUP-LIT minus ALWAYS, same prompt": {
+   "answerer": "MINI",
+   "ci_item": [
+    -0.0061,
+    0.003
+   ],
+   "ci_persona": [
+    -0.0065,
+    0.0031
+   ],
+   "comparison": "LOOKUP-LIT minus ALWAYS, same prompt",
+   "composite_always": 59,
+   "composite_policy": 58,
+   "difference_count": -1,
+   "difference_rate": -0.0015,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A4-header"
+  },
+  "A4-header|MINI|MODEL minus ALWAYS, same prompt": {
+   "answerer": "MINI",
+   "ci_item": [
+    0.2179,
+    0.2874
+   ],
+   "ci_persona": [
+    0.2191,
+    0.2884
+   ],
+   "comparison": "MODEL minus ALWAYS, same prompt",
+   "composite_always": 59,
+   "composite_policy": 226,
+   "difference_count": 167,
+   "difference_rate": 0.2526,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A4-header"
+  },
+  "A4-header|MINI|MODEL-ALL minus ALWAYS, same prompt": {
+   "answerer": "MINI",
+   "ci_item": [
+    0.2179,
+    0.2874
+   ],
+   "ci_persona": [
+    0.2191,
+    0.2884
+   ],
+   "comparison": "MODEL-ALL minus ALWAYS, same prompt",
+   "composite_always": 59,
+   "composite_policy": 226,
+   "difference_count": 167,
+   "difference_rate": 0.2526,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A4-header"
+  },
+  "A5-duplicates-tagged|H45|LOOKUP minus ALWAYS under the header": {
+   "answerer": "H45",
+   "ci_item": [
+    0.2118,
+    0.2859
+   ],
+   "ci_persona": [
+    0.2117,
+    0.2892
+   ],
+   "comparison": "LOOKUP minus ALWAYS under the header",
+   "composite_always": 88,
+   "composite_policy": 253,
+   "difference_count": 165,
+   "difference_rate": 0.2496,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|H45|LOOKUP minus ALWAYS, same prompt": {
+   "answerer": "H45",
+   "ci_item": [
+    0.2057,
+    0.2814
+   ],
+   "ci_persona": [
+    0.2062,
+    0.282
+   ],
+   "comparison": "LOOKUP minus ALWAYS, same prompt",
+   "composite_always": 92,
+   "composite_policy": 253,
+   "difference_count": 161,
+   "difference_rate": 0.2436,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|H45|LOOKUP-ALL minus ALWAYS under the header": {
+   "answerer": "H45",
+   "ci_item": [
+    0.2118,
+    0.289
+   ],
+   "ci_persona": [
+    0.2127,
+    0.2912
+   ],
+   "comparison": "LOOKUP-ALL minus ALWAYS under the header",
+   "composite_always": 88,
+   "composite_policy": 254,
+   "difference_count": 166,
+   "difference_rate": 0.2511,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|H45|LOOKUP-ALL minus ALWAYS, same prompt": {
+   "answerer": "H45",
+   "ci_item": [
+    0.2072,
+    0.2829
+   ],
+   "ci_persona": [
+    0.2068,
+    0.2842
+   ],
+   "comparison": "LOOKUP-ALL minus ALWAYS, same prompt",
+   "composite_always": 92,
+   "composite_policy": 254,
+   "difference_count": 162,
+   "difference_rate": 0.2451,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|H45|LOOKUP-LIT minus ALWAYS under the header": {
+   "answerer": "H45",
+   "ci_item": [
+    0.0076,
+    0.0303
+   ],
+   "ci_persona": [
+    0.0046,
+    0.0336
+   ],
+   "comparison": "LOOKUP-LIT minus ALWAYS under the header",
+   "composite_always": 88,
+   "composite_policy": 100,
+   "difference_count": 12,
+   "difference_rate": 0.0182,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|H45|LOOKUP-LIT minus ALWAYS, same prompt": {
+   "answerer": "H45",
+   "ci_item": [
+    0.003,
+    0.0227
+   ],
+   "ci_persona": [
+    0.0029,
+    0.023
+   ],
+   "comparison": "LOOKUP-LIT minus ALWAYS, same prompt",
+   "composite_always": 92,
+   "composite_policy": 100,
+   "difference_count": 8,
+   "difference_rate": 0.0121,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|H45|MODEL minus ALWAYS under the header": {
+   "answerer": "H45",
+   "ci_item": [
+    0.2194,
+    0.292
+   ],
+   "ci_persona": [
+    0.2158,
+    0.2965
+   ],
+   "comparison": "MODEL minus ALWAYS under the header",
+   "composite_always": 88,
+   "composite_policy": 257,
+   "difference_count": 169,
+   "difference_rate": 0.2557,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|H45|MODEL minus ALWAYS, same prompt": {
+   "answerer": "H45",
+   "ci_item": [
+    0.2133,
+    0.2874
+   ],
+   "ci_persona": [
+    0.2115,
+    0.2887
+   ],
+   "comparison": "MODEL minus ALWAYS, same prompt",
+   "composite_always": 92,
+   "composite_policy": 257,
+   "difference_count": 165,
+   "difference_rate": 0.2496,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|H45|MODEL-ALL minus ALWAYS under the header": {
+   "answerer": "H45",
+   "ci_item": [
+    0.2239,
+    0.2965
+   ],
+   "ci_persona": [
+    0.2202,
+    0.3008
+   ],
+   "comparison": "MODEL-ALL minus ALWAYS under the header",
+   "composite_always": 88,
+   "composite_policy": 260,
+   "difference_count": 172,
+   "difference_rate": 0.2602,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|H45|MODEL-ALL minus ALWAYS, same prompt": {
+   "answerer": "H45",
+   "ci_item": [
+    0.2179,
+    0.292
+   ],
+   "ci_persona": [
+    0.2158,
+    0.2932
+   ],
+   "comparison": "MODEL-ALL minus ALWAYS, same prompt",
+   "composite_always": 92,
+   "composite_policy": 260,
+   "difference_count": 168,
+   "difference_rate": 0.2542,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|MINI|LOOKUP minus ALWAYS under the header": {
+   "answerer": "MINI",
+   "ci_item": [
+    0.2118,
+    0.2844
+   ],
+   "ci_persona": [
+    0.2168,
+    0.2808
+   ],
+   "comparison": "LOOKUP minus ALWAYS under the header",
+   "composite_always": 59,
+   "composite_policy": 223,
+   "difference_count": 164,
+   "difference_rate": 0.2481,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|MINI|LOOKUP minus ALWAYS, same prompt": {
+   "answerer": "MINI",
+   "ci_item": [
+    0.2118,
+    0.2844
+   ],
+   "ci_persona": [
+    0.2168,
+    0.2808
+   ],
+   "comparison": "LOOKUP minus ALWAYS, same prompt",
+   "composite_always": 59,
+   "composite_policy": 223,
+   "difference_count": 164,
+   "difference_rate": 0.2481,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|MINI|LOOKUP-ALL minus ALWAYS under the header": {
+   "answerer": "MINI",
+   "ci_item": [
+    0.2103,
+    0.2829
+   ],
+   "ci_persona": [
+    0.2149,
+    0.2795
+   ],
+   "comparison": "LOOKUP-ALL minus ALWAYS under the header",
+   "composite_always": 59,
+   "composite_policy": 222,
+   "difference_count": 163,
+   "difference_rate": 0.2466,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|MINI|LOOKUP-ALL minus ALWAYS, same prompt": {
+   "answerer": "MINI",
+   "ci_item": [
+    0.2103,
+    0.2829
+   ],
+   "ci_persona": [
+    0.2149,
+    0.2795
+   ],
+   "comparison": "LOOKUP-ALL minus ALWAYS, same prompt",
+   "composite_always": 59,
+   "composite_policy": 222,
+   "difference_count": 163,
+   "difference_rate": 0.2466,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|MINI|LOOKUP-LIT minus ALWAYS under the header": {
+   "answerer": "MINI",
+   "ci_item": [
+    -0.0061,
+    0.003
+   ],
+   "ci_persona": [
+    -0.0065,
+    0.0031
+   ],
+   "comparison": "LOOKUP-LIT minus ALWAYS under the header",
+   "composite_always": 59,
+   "composite_policy": 58,
+   "difference_count": -1,
+   "difference_rate": -0.0015,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|MINI|LOOKUP-LIT minus ALWAYS, same prompt": {
+   "answerer": "MINI",
+   "ci_item": [
+    -0.0061,
+    0.003
+   ],
+   "ci_persona": [
+    -0.0065,
+    0.0031
+   ],
+   "comparison": "LOOKUP-LIT minus ALWAYS, same prompt",
+   "composite_always": 59,
+   "composite_policy": 58,
+   "difference_count": -1,
+   "difference_rate": -0.0015,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|MINI|MODEL minus ALWAYS under the header": {
+   "answerer": "MINI",
+   "ci_item": [
+    0.2179,
+    0.2874
+   ],
+   "ci_persona": [
+    0.2191,
+    0.2884
+   ],
+   "comparison": "MODEL minus ALWAYS under the header",
+   "composite_always": 59,
+   "composite_policy": 226,
+   "difference_count": 167,
+   "difference_rate": 0.2526,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|MINI|MODEL minus ALWAYS, same prompt": {
+   "answerer": "MINI",
+   "ci_item": [
+    0.2179,
+    0.2874
+   ],
+   "ci_persona": [
+    0.2191,
+    0.2884
+   ],
+   "comparison": "MODEL minus ALWAYS, same prompt",
+   "composite_always": 59,
+   "composite_policy": 226,
+   "difference_count": 167,
+   "difference_rate": 0.2526,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|MINI|MODEL-ALL minus ALWAYS under the header": {
+   "answerer": "MINI",
+   "ci_item": [
+    0.2179,
+    0.2874
+   ],
+   "ci_persona": [
+    0.2191,
+    0.2884
+   ],
+   "comparison": "MODEL-ALL minus ALWAYS under the header",
+   "composite_always": 59,
+   "composite_policy": 226,
+   "difference_count": 167,
+   "difference_rate": 0.2526,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  },
+  "A5-duplicates-tagged|MINI|MODEL-ALL minus ALWAYS, same prompt": {
+   "answerer": "MINI",
+   "ci_item": [
+    0.2179,
+    0.2874
+   ],
+   "ci_persona": [
+    0.2191,
+    0.2884
+   ],
+   "comparison": "MODEL-ALL minus ALWAYS, same prompt",
+   "composite_always": 59,
+   "composite_policy": 226,
+   "difference_count": 167,
+   "difference_rate": 0.2526,
+   "n": 661,
+   "n_boot": 10000,
+   "seed": 42,
+   "variant": "A5-duplicates-tagged"
+  }
+ },
+ "composite_diff_when": "2026-09-15T01:05:46",
+ "frozen_at": "12c63f9",
+ "n": {
+  "absent": 383,
+  "licensed": 174,
+  "obligations": 104
+ },
+ "q4": "dash: the second annotator's sheet is not yet labeled (reviews/v18/annotator_agreement.py carries the detector's Q4 counterpart)",
+ "registration_sha256": "6566bf097f41ccd289c888f4c467d64786eea3230b7f23f279377b6c8a1a7201",
+ "rule_sha256": "835329c6650279e0e7f2ca8c5a62bd7d9742f34678d3b1b8cbe0cdfe8962cbeb",
+ "variants": {
+  "A1-allstates-gate|MINI": {
+   "policies": {
+    "MODEL-ALL-V3": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 44,
+      "licensed_correct": 44,
+      "obligation_reported": 0,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 13,
+     "expiry_a_only_reported": 0,
+     "rate": 0.0,
+     "reached_obligations": 78,
+     "reported": 0,
+     "reported_scorable": 0,
+     "scorable_reached": 65,
+     "split": {
+      "names_state_but_gives_stale": 2,
+      "neither": 66,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 0,
+      "reported_with_successor": 0,
+      "stale_without_naming": 9
+     },
+     "stale_gold_beside": 11,
+     "wilson": [
+      0.0,
+      0.0469
+     ]
+    }
+   },
+   "rows": 233
+  },
+  "A3-instruction|H45": {
+   "policies": {
+    "ALWAYS": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 60,
+      "licensed_correct": 49,
+      "obligation_reported": 11,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 5,
+     "rate": 0.2037037037037037,
+     "reached_obligations": 54,
+     "reported": 11,
+     "reported_scorable": 6,
+     "scorable_reached": 42,
+     "split": {
+      "names_state_but_gives_stale": 2,
+      "neither": 29,
+      "reported_and_abstaining": 10,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 9
+     },
+     "stale_gold_beside": 11,
+     "wilson": [
+      0.1177,
+      0.329
+     ]
+    },
+    "LOOKUP": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 224,
+      "licensed_correct": 40,
+      "obligation_reported": 10,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 5,
+     "rate": 0.14285714285714285,
+     "reached_obligations": 70,
+     "reported": 10,
+     "reported_scorable": 5,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 7,
+      "neither": 44,
+      "reported_and_abstaining": 10,
+      "reported_and_answering": 0,
+      "reported_with_successor": 0,
+      "stale_without_naming": 6
+     },
+     "stale_gold_beside": 13,
+     "wilson": [
+      0.0795,
+      0.2434
+     ]
+    },
+    "LOOKUP-ALL": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 222,
+      "licensed_correct": 40,
+      "obligation_reported": 8,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 5,
+     "rate": 0.11428571428571428,
+     "reached_obligations": 70,
+     "reported": 8,
+     "reported_scorable": 3,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 3,
+      "neither": 50,
+      "reported_and_abstaining": 8,
+      "reported_and_answering": 0,
+      "reported_with_successor": 0,
+      "stale_without_naming": 6
+     },
+     "stale_gold_beside": 9,
+     "wilson": [
+      0.0591,
+      0.2096
+     ]
+    },
+    "LOOKUP-LIT": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 61,
+      "licensed_correct": 47,
+      "obligation_reported": 14,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 5,
+     "rate": 0.14893617021276595,
+     "reached_obligations": 94,
+     "reported": 14,
+     "reported_scorable": 9,
+     "scorable_reached": 82,
+     "split": {
+      "names_state_but_gives_stale": 10,
+      "neither": 55,
+      "reported_and_abstaining": 13,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 12
+     },
+     "stale_gold_beside": 22,
+     "wilson": [
+      0.0908,
+      0.2346
+     ]
+    },
+    "MODEL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 232,
+      "licensed_correct": 47,
+      "obligation_reported": 13,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 6,
+     "rate": 0.17567567567567569,
+     "reached_obligations": 74,
+     "reported": 13,
+     "reported_scorable": 7,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 9,
+      "neither": 41,
+      "reported_and_abstaining": 13,
+      "reported_and_answering": 0,
+      "reported_with_successor": 0,
+      "stale_without_naming": 8
+     },
+     "stale_gold_beside": 17,
+     "wilson": [
+      0.1056,
+      0.2777
+     ]
+    },
+    "MODEL-ALL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 230,
+      "licensed_correct": 47,
+      "obligation_reported": 11,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 5,
+     "rate": 0.14864864864864866,
+     "reached_obligations": 74,
+     "reported": 11,
+     "reported_scorable": 6,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 4,
+      "neither": 48,
+      "reported_and_abstaining": 11,
+      "reported_and_answering": 0,
+      "reported_with_successor": 0,
+      "stale_without_naming": 8
+     },
+     "stale_gold_beside": 12,
+     "wilson": [
+      0.0851,
+      0.2469
+     ]
+    },
+    "ORACLE": {
+     "composite": {
+      "absent_abstained_gate": 383,
+      "composite_gate_reading": 450,
+      "licensed_correct": 49,
+      "obligation_reported": 18,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 14,
+     "expiry_a_only_reported": 6,
+     "rate": 0.18181818181818182,
+     "reached_obligations": 99,
+     "reported": 18,
+     "reported_scorable": 12,
+     "scorable_reached": 85,
+     "split": {
+      "names_state_but_gives_stale": 5,
+      "neither": 60,
+      "reported_and_abstaining": 18,
+      "reported_and_answering": 0,
+      "reported_with_successor": 0,
+      "stale_without_naming": 13
+     },
+     "stale_gold_beside": 18,
+     "wilson": [
+      0.1182,
+      0.2692
+     ]
+    }
+   },
+   "rows": 452
+  },
+  "A3-instruction|MINI": {
+   "policies": {
+    "ALWAYS": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 48,
+      "licensed_correct": 47,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.018518518518518517,
+     "reached_obligations": 54,
+     "reported": 1,
+     "reported_scorable": 0,
+     "scorable_reached": 42,
+     "split": {
+      "names_state_but_gives_stale": 2,
+      "neither": 44,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 7
+     },
+     "stale_gold_beside": 9,
+     "wilson": [
+      0.0033,
+      0.0977
+     ]
+    },
+    "LOOKUP": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 215,
+      "licensed_correct": 40,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.014285714285714285,
+     "reached_obligations": 70,
+     "reported": 1,
+     "reported_scorable": 0,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 62,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 7
+     },
+     "stale_gold_beside": 7,
+     "wilson": [
+      0.0025,
+      0.0766
+     ]
+    },
+    "LOOKUP-ALL": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 215,
+      "licensed_correct": 40,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.014285714285714285,
+     "reached_obligations": 70,
+     "reported": 1,
+     "reported_scorable": 0,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 63,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 6
+     },
+     "stale_gold_beside": 6,
+     "wilson": [
+      0.0025,
+      0.0766
+     ]
+    },
+    "LOOKUP-LIT": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 47,
+      "licensed_correct": 46,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.010638297872340425,
+     "reached_obligations": 94,
+     "reported": 1,
+     "reported_scorable": 0,
+     "scorable_reached": 82,
+     "split": {
+      "names_state_but_gives_stale": 2,
+      "neither": 78,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 13
+     },
+     "stale_gold_beside": 15,
+     "wilson": [
+      0.0019,
+      0.0578
+     ]
+    },
+    "MODEL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 217,
+      "licensed_correct": 44,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.013513513513513514,
+     "reached_obligations": 74,
+     "reported": 1,
+     "reported_scorable": 0,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 64,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 9
+     },
+     "stale_gold_beside": 9,
+     "wilson": [
+      0.0024,
+      0.0727
+     ]
+    },
+    "MODEL-ALL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 217,
+      "licensed_correct": 44,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.013513513513513514,
+     "reached_obligations": 74,
+     "reported": 1,
+     "reported_scorable": 0,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 64,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 9
+     },
+     "stale_gold_beside": 9,
+     "wilson": [
+      0.0024,
+      0.0727
+     ]
+    },
+    "ORACLE": {
+     "composite": {
+      "absent_abstained_gate": 383,
+      "composite_gate_reading": 433,
+      "licensed_correct": 47,
+      "obligation_reported": 3,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 14,
+     "expiry_a_only_reported": 1,
+     "rate": 0.030303030303030304,
+     "reached_obligations": 99,
+     "reported": 3,
+     "reported_scorable": 2,
+     "scorable_reached": 85,
+     "split": {
+      "names_state_but_gives_stale": 3,
+      "neither": 79,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 3,
+      "reported_with_successor": 0,
+      "stale_without_naming": 14
+     },
+     "stale_gold_beside": 17,
+     "wilson": [
+      0.0104,
+      0.0853
+     ]
+    }
+   },
+   "rows": 452
+  },
+  "A4-header|H45": {
+   "policies": {
+    "ALWAYS": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 88,
+      "licensed_correct": 73,
+      "obligation_reported": 15,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 9,
+     "rate": 0.2777777777777778,
+     "reached_obligations": 54,
+     "reported": 15,
+     "reported_scorable": 6,
+     "scorable_reached": 42,
+     "split": {
+      "names_state_but_gives_stale": 2,
+      "neither": 26,
+      "reported_and_abstaining": 13,
+      "reported_and_answering": 2,
+      "reported_with_successor": 0,
+      "stale_without_naming": 8
+     },
+     "stale_gold_beside": 10,
+     "wilson": [
+      0.1762,
+      0.4089
+     ]
+    },
+    "LOOKUP": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 248,
+      "licensed_correct": 58,
+      "obligation_reported": 16,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 9,
+     "rate": 0.22857142857142856,
+     "reached_obligations": 70,
+     "reported": 16,
+     "reported_scorable": 7,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 5,
+      "neither": 35,
+      "reported_and_abstaining": 15,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 11
+     },
+     "stale_gold_beside": 16,
+     "wilson": [
+      0.1459,
+      0.3395
+     ]
+    },
+    "LOOKUP-ALL": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 249,
+      "licensed_correct": 58,
+      "obligation_reported": 17,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 9,
+     "rate": 0.24285714285714285,
+     "reached_obligations": 70,
+     "reported": 17,
+     "reported_scorable": 8,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 2,
+      "neither": 38,
+      "reported_and_abstaining": 16,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 10
+     },
+     "stale_gold_beside": 12,
+     "wilson": [
+      0.1575,
+      0.355
+     ]
+    },
+    "LOOKUP-LIT": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 92,
+      "licensed_correct": 72,
+      "obligation_reported": 20,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 9,
+     "rate": 0.2127659574468085,
+     "reached_obligations": 94,
+     "reported": 20,
+     "reported_scorable": 11,
+     "scorable_reached": 82,
+     "split": {
+      "names_state_but_gives_stale": 6,
+      "neither": 48,
+      "reported_and_abstaining": 18,
+      "reported_and_answering": 2,
+      "reported_with_successor": 0,
+      "stale_without_naming": 17
+     },
+     "stale_gold_beside": 23,
+     "wilson": [
+      0.1422,
+      0.3059
+     ]
+    },
+    "MODEL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 251,
+      "licensed_correct": 64,
+      "obligation_reported": 15,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 7,
+     "rate": 0.20270270270270271,
+     "reached_obligations": 74,
+     "reported": 15,
+     "reported_scorable": 8,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 6,
+      "neither": 37,
+      "reported_and_abstaining": 14,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 13
+     },
+     "stale_gold_beside": 19,
+     "wilson": [
+      0.1269,
+      0.3079
+     ]
+    },
+    "MODEL-ALL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 255,
+      "licensed_correct": 64,
+      "obligation_reported": 19,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 8,
+     "rate": 0.25675675675675674,
+     "reached_obligations": 74,
+     "reported": 19,
+     "reported_scorable": 11,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 2,
+      "neither": 37,
+      "reported_and_abstaining": 18,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 13
+     },
+     "stale_gold_beside": 15,
+     "wilson": [
+      0.171,
+      0.3665
+     ]
+    },
+    "ORACLE": {
+     "composite": {
+      "absent_abstained_gate": 383,
+      "composite_gate_reading": 481,
+      "licensed_correct": 73,
+      "obligation_reported": 25,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 14,
+     "expiry_a_only_reported": 11,
+     "rate": 0.25252525252525254,
+     "reached_obligations": 99,
+     "reported": 25,
+     "reported_scorable": 14,
+     "scorable_reached": 85,
+     "split": {
+      "names_state_but_gives_stale": 4,
+      "neither": 49,
+      "reported_and_abstaining": 23,
+      "reported_and_answering": 2,
+      "reported_with_successor": 0,
+      "stale_without_naming": 19
+     },
+     "stale_gold_beside": 23,
+     "wilson": [
+      0.1773,
+      0.3462
+     ]
+    }
+   },
+   "rows": 452
+  },
+  "A4-header|MINI": {
+   "policies": {
+    "ALWAYS": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 59,
+      "licensed_correct": 56,
+      "obligation_reported": 3,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.05555555555555555,
+     "reached_obligations": 54,
+     "reported": 3,
+     "reported_scorable": 2,
+     "scorable_reached": 42,
+     "split": {
+      "names_state_but_gives_stale": 1,
+      "neither": 41,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 3,
+      "reported_with_successor": 0,
+      "stale_without_naming": 9
+     },
+     "stale_gold_beside": 10,
+     "wilson": [
+      0.0191,
+      0.1511
+     ]
+    },
+    "LOOKUP": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 223,
+      "licensed_correct": 48,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.014285714285714285,
+     "reached_obligations": 70,
+     "reported": 1,
+     "reported_scorable": 0,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 61,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 8
+     },
+     "stale_gold_beside": 8,
+     "wilson": [
+      0.0025,
+      0.0766
+     ]
+    },
+    "LOOKUP-ALL": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 222,
+      "licensed_correct": 47,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.014285714285714285,
+     "reached_obligations": 70,
+     "reported": 1,
+     "reported_scorable": 0,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 61,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 8
+     },
+     "stale_gold_beside": 8,
+     "wilson": [
+      0.0025,
+      0.0766
+     ]
+    },
+    "LOOKUP-LIT": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 58,
+      "licensed_correct": 55,
+      "obligation_reported": 3,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.031914893617021274,
+     "reached_obligations": 94,
+     "reported": 3,
+     "reported_scorable": 2,
+     "scorable_reached": 82,
+     "split": {
+      "names_state_but_gives_stale": 1,
+      "neither": 75,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 3,
+      "reported_with_successor": 0,
+      "stale_without_naming": 15
+     },
+     "stale_gold_beside": 16,
+     "wilson": [
+      0.0109,
+      0.0897
+     ]
+    },
+    "MODEL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 226,
+      "licensed_correct": 53,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.013513513513513514,
+     "reached_obligations": 74,
+     "reported": 1,
+     "reported_scorable": 0,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 63,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 10
+     },
+     "stale_gold_beside": 10,
+     "wilson": [
+      0.0024,
+      0.0727
+     ]
+    },
+    "MODEL-ALL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 226,
+      "licensed_correct": 53,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.013513513513513514,
+     "reached_obligations": 74,
+     "reported": 1,
+     "reported_scorable": 0,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 62,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 11
+     },
+     "stale_gold_beside": 11,
+     "wilson": [
+      0.0024,
+      0.0727
+     ]
+    },
+    "ORACLE": {
+     "composite": {
+      "absent_abstained_gate": 383,
+      "composite_gate_reading": 443,
+      "licensed_correct": 56,
+      "obligation_reported": 4,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 14,
+     "expiry_a_only_reported": 1,
+     "rate": 0.04040404040404041,
+     "reached_obligations": 99,
+     "reported": 4,
+     "reported_scorable": 3,
+     "scorable_reached": 85,
+     "split": {
+      "names_state_but_gives_stale": 2,
+      "neither": 78,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 4,
+      "reported_with_successor": 0,
+      "stale_without_naming": 15
+     },
+     "stale_gold_beside": 17,
+     "wilson": [
+      0.0158,
+      0.0993
+     ]
+    }
+   },
+   "rows": 452
+  },
+  "A5-duplicates-tagged|H45": {
+   "policies": {
+    "ALWAYS": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 92,
+      "licensed_correct": 73,
+      "obligation_reported": 19,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 9,
+     "rate": 0.35185185185185186,
+     "reached_obligations": 54,
+     "reported": 19,
+     "reported_scorable": 10,
+     "scorable_reached": 42,
+     "split": {
+      "names_state_but_gives_stale": 3,
+      "neither": 29,
+      "reported_and_abstaining": 15,
+      "reported_and_answering": 4,
+      "reported_with_successor": 0,
+      "stale_without_naming": 0
+     },
+     "stale_gold_beside": 3,
+     "wilson": [
+      0.2382,
+      0.4852
+     ]
+    },
+    "LOOKUP": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 253,
+      "licensed_correct": 58,
+      "obligation_reported": 21,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 9,
+     "rate": 0.3,
+     "reached_obligations": 70,
+     "reported": 21,
+     "reported_scorable": 12,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 5,
+      "neither": 38,
+      "reported_and_abstaining": 20,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 3
+     },
+     "stale_gold_beside": 8,
+     "wilson": [
+      0.2054,
+      0.4154
+     ]
+    },
+    "LOOKUP-ALL": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 254,
+      "licensed_correct": 58,
+      "obligation_reported": 22,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 9,
+     "rate": 0.3142857142857143,
+     "reached_obligations": 70,
+     "reported": 22,
+     "reported_scorable": 13,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 3,
+      "neither": 41,
+      "reported_and_abstaining": 21,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 1
+     },
+     "stale_gold_beside": 4,
+     "wilson": [
+      0.2176,
+      0.4303
+     ]
+    },
+    "LOOKUP-LIT": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 100,
+      "licensed_correct": 72,
+      "obligation_reported": 28,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 9,
+     "rate": 0.2978723404255319,
+     "reached_obligations": 94,
+     "reported": 28,
+     "reported_scorable": 19,
+     "scorable_reached": 82,
+     "split": {
+      "names_state_but_gives_stale": 5,
+      "neither": 53,
+      "reported_and_abstaining": 24,
+      "reported_and_answering": 4,
+      "reported_with_successor": 0,
+      "stale_without_naming": 5
+     },
+     "stale_gold_beside": 10,
+     "wilson": [
+      0.2148,
+      0.3968
+     ]
+    },
+    "MODEL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 257,
+      "licensed_correct": 64,
+      "obligation_reported": 21,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 7,
+     "rate": 0.28378378378378377,
+     "reached_obligations": 74,
+     "reported": 21,
+     "reported_scorable": 14,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 6,
+      "neither": 41,
+      "reported_and_abstaining": 20,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 3
+     },
+     "stale_gold_beside": 9,
+     "wilson": [
+      0.1937,
+      0.3952
+     ]
+    },
+    "MODEL-ALL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 260,
+      "licensed_correct": 64,
+      "obligation_reported": 24,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 8,
+     "rate": 0.32432432432432434,
+     "reached_obligations": 74,
+     "reported": 24,
+     "reported_scorable": 16,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 4,
+      "neither": 42,
+      "reported_and_abstaining": 23,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 1
+     },
+     "stale_gold_beside": 5,
+     "wilson": [
+      0.2286,
+      0.4373
+     ]
+    },
+    "ORACLE": {
+     "composite": {
+      "absent_abstained_gate": 383,
+      "composite_gate_reading": 487,
+      "licensed_correct": 73,
+      "obligation_reported": 31,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 14,
+     "expiry_a_only_reported": 11,
+     "rate": 0.31313131313131315,
+     "reached_obligations": 99,
+     "reported": 31,
+     "reported_scorable": 20,
+     "scorable_reached": 85,
+     "split": {
+      "names_state_but_gives_stale": 3,
+      "neither": 53,
+      "reported_and_abstaining": 26,
+      "reported_and_answering": 5,
+      "reported_with_successor": 0,
+      "stale_without_naming": 10
+     },
+     "stale_gold_beside": 13,
+     "wilson": [
+      0.2302,
+      0.41
+     ]
+    }
+   },
+   "rows": 452
+  },
+  "A5-duplicates-tagged|MINI": {
+   "policies": {
+    "ALWAYS": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 59,
+      "licensed_correct": 56,
+      "obligation_reported": 3,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.05555555555555555,
+     "reached_obligations": 54,
+     "reported": 3,
+     "reported_scorable": 2,
+     "scorable_reached": 42,
+     "split": {
+      "names_state_but_gives_stale": 1,
+      "neither": 49,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 3,
+      "reported_with_successor": 0,
+      "stale_without_naming": 1
+     },
+     "stale_gold_beside": 2,
+     "wilson": [
+      0.0191,
+      0.1511
+     ]
+    },
+    "LOOKUP": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 223,
+      "licensed_correct": 48,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.014285714285714285,
+     "reached_obligations": 70,
+     "reported": 1,
+     "reported_scorable": 0,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 69,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 0
+     },
+     "stale_gold_beside": 0,
+     "wilson": [
+      0.0025,
+      0.0766
+     ]
+    },
+    "LOOKUP-ALL": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 222,
+      "licensed_correct": 47,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.014285714285714285,
+     "reached_obligations": 70,
+     "reported": 1,
+     "reported_scorable": 0,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 69,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 0
+     },
+     "stale_gold_beside": 0,
+     "wilson": [
+      0.0025,
+      0.0766
+     ]
+    },
+    "LOOKUP-LIT": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 58,
+      "licensed_correct": 55,
+      "obligation_reported": 3,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.031914893617021274,
+     "reached_obligations": 94,
+     "reported": 3,
+     "reported_scorable": 2,
+     "scorable_reached": 82,
+     "split": {
+      "names_state_but_gives_stale": 1,
+      "neither": 87,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 3,
+      "reported_with_successor": 0,
+      "stale_without_naming": 3
+     },
+     "stale_gold_beside": 4,
+     "wilson": [
+      0.0109,
+      0.0897
+     ]
+    },
+    "MODEL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 226,
+      "licensed_correct": 53,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.013513513513513514,
+     "reached_obligations": 74,
+     "reported": 1,
+     "reported_scorable": 0,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 72,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 1
+     },
+     "stale_gold_beside": 1,
+     "wilson": [
+      0.0024,
+      0.0727
+     ]
+    },
+    "MODEL-ALL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 226,
+      "licensed_correct": 53,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 1,
+     "rate": 0.013513513513513514,
+     "reached_obligations": 74,
+     "reported": 1,
+     "reported_scorable": 0,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 72,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 1
+     },
+     "stale_gold_beside": 1,
+     "wilson": [
+      0.0024,
+      0.0727
+     ]
+    },
+    "ORACLE": {
+     "composite": {
+      "absent_abstained_gate": 383,
+      "composite_gate_reading": 445,
+      "licensed_correct": 56,
+      "obligation_reported": 6,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 14,
+     "expiry_a_only_reported": 1,
+     "rate": 0.06060606060606061,
+     "reached_obligations": 99,
+     "reported": 6,
+     "reported_scorable": 5,
+     "scorable_reached": 85,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 91,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 6,
+      "reported_with_successor": 0,
+      "stale_without_naming": 2
+     },
+     "stale_gold_beside": 2,
+     "wilson": [
+      0.0281,
+      0.126
+     ]
+    }
+   },
+   "rows": 452
+  },
+  "D4|H45": {
+   "policies": {
+    "ALWAYS": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 67,
+      "licensed_correct": 48,
+      "obligation_reported": 19,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 8,
+     "rate": 0.35185185185185186,
+     "reached_obligations": 54,
+     "reported": 19,
+     "reported_scorable": 11,
+     "scorable_reached": 42,
+     "split": {
+      "names_state_but_gives_stale": 2,
+      "neither": 21,
+      "reported_and_abstaining": 17,
+      "reported_and_answering": 2,
+      "reported_with_successor": 0,
+      "stale_without_naming": 9
+     },
+     "stale_gold_beside": 11,
+     "wilson": [
+      0.2382,
+      0.4852
+     ]
+    },
+    "LOOKUP": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 233,
+      "licensed_correct": 41,
+      "obligation_reported": 18,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 8,
+     "rate": 0.2571428571428571,
+     "reached_obligations": 70,
+     "reported": 18,
+     "reported_scorable": 10,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 5,
+      "neither": 38,
+      "reported_and_abstaining": 17,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 6
+     },
+     "stale_gold_beside": 11,
+     "wilson": [
+      0.1693,
+      0.3703
+     ]
+    },
+    "LOOKUP-ALL": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 232,
+      "licensed_correct": 40,
+      "obligation_reported": 18,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 8,
+     "rate": 0.2571428571428571,
+     "reached_obligations": 70,
+     "reported": 18,
+     "reported_scorable": 10,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 3,
+      "neither": 39,
+      "reported_and_abstaining": 17,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 7
+     },
+     "stale_gold_beside": 10,
+     "wilson": [
+      0.1693,
+      0.3703
+     ]
+    },
+    "LOOKUP-LIT": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 69,
+      "licensed_correct": 47,
+      "obligation_reported": 22,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 8,
+     "rate": 0.23404255319148937,
+     "reached_obligations": 94,
+     "reported": 22,
+     "reported_scorable": 14,
+     "scorable_reached": 82,
+     "split": {
+      "names_state_but_gives_stale": 8,
+      "neither": 48,
+      "reported_and_abstaining": 20,
+      "reported_and_answering": 2,
+      "reported_with_successor": 0,
+      "stale_without_naming": 13
+     },
+     "stale_gold_beside": 21,
+     "wilson": [
+      0.1599,
+      0.329
+     ]
+    },
+    "MODEL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 235,
+      "licensed_correct": 45,
+      "obligation_reported": 18,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 7,
+     "rate": 0.24324324324324326,
+     "reached_obligations": 74,
+     "reported": 18,
+     "reported_scorable": 11,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 8,
+      "neither": 37,
+      "reported_and_abstaining": 17,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 8
+     },
+     "stale_gold_beside": 16,
+     "wilson": [
+      0.1598,
+      0.3521
+     ]
+    },
+    "MODEL-ALL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 237,
+      "licensed_correct": 45,
+      "obligation_reported": 20,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 7,
+     "rate": 0.2702702702702703,
+     "reached_obligations": 74,
+     "reported": 20,
+     "reported_scorable": 13,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 4,
+      "neither": 38,
+      "reported_and_abstaining": 19,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 9
+     },
+     "stale_gold_beside": 13,
+     "wilson": [
+      0.1823,
+      0.3809
+     ]
+    },
+    "ORACLE": {
+     "composite": {
+      "absent_abstained_gate": 383,
+      "composite_gate_reading": 455,
+      "licensed_correct": 48,
+      "obligation_reported": 24,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 14,
+     "expiry_a_only_reported": 9,
+     "rate": 0.24242424242424243,
+     "reached_obligations": 99,
+     "reported": 24,
+     "reported_scorable": 15,
+     "scorable_reached": 85,
+     "split": {
+      "names_state_but_gives_stale": 8,
+      "neither": 53,
+      "reported_and_abstaining": 21,
+      "reported_and_answering": 3,
+      "reported_with_successor": 0,
+      "stale_without_naming": 11
+     },
+     "stale_gold_beside": 19,
+     "wilson": [
+      0.1687,
+      0.3354
+     ]
+    }
+   },
+   "rows": 452
+  },
+  "D4|MINI": {
+   "policies": {
+    "ALWAYS": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 47,
+      "licensed_correct": 46,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 0,
+     "rate": 0.018518518518518517,
+     "reached_obligations": 54,
+     "reported": 1,
+     "reported_scorable": 1,
+     "scorable_reached": 42,
+     "split": {
+      "names_state_but_gives_stale": 1,
+      "neither": 44,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 7
+     },
+     "stale_gold_beside": 8,
+     "wilson": [
+      0.0033,
+      0.0977
+     ]
+    },
+    "LOOKUP": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 214,
+      "licensed_correct": 40,
+      "obligation_reported": 0,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 0,
+     "rate": 0.0,
+     "reached_obligations": 70,
+     "reported": 0,
+     "reported_scorable": 0,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 63,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 0,
+      "reported_with_successor": 0,
+      "stale_without_naming": 6
+     },
+     "stale_gold_beside": 6,
+     "wilson": [
+      0.0,
+      0.052
+     ]
+    },
+    "LOOKUP-ALL": {
+     "composite": {
+      "absent_abstained_gate": 174,
+      "composite_gate_reading": 213,
+      "licensed_correct": 39,
+      "obligation_reported": 0,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 0,
+     "rate": 0.0,
+     "reached_obligations": 70,
+     "reported": 0,
+     "reported_scorable": 0,
+     "scorable_reached": 58,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 64,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 0,
+      "reported_with_successor": 0,
+      "stale_without_naming": 5
+     },
+     "stale_gold_beside": 5,
+     "wilson": [
+      0.0,
+      0.052
+     ]
+    },
+    "LOOKUP-LIT": {
+     "composite": {
+      "absent_abstained_gate": 0,
+      "composite_gate_reading": 3,
+      "licensed_correct": 3,
+      "obligation_reported": 0,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 0,
+     "expiry_a_only_reported": 0,
+     "rate": 0.0,
+     "reached_obligations": 6,
+     "reported": 0,
+     "reported_scorable": 0,
+     "scorable_reached": 6,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 4,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 0,
+      "reported_with_successor": 0,
+      "stale_without_naming": 2
+     },
+     "stale_gold_beside": 2,
+     "wilson": [
+      0.0,
+      0.3903
+     ]
+    },
+    "MODEL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 216,
+      "licensed_correct": 44,
+      "obligation_reported": 0,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 0,
+     "rate": 0.0,
+     "reached_obligations": 74,
+     "reported": 0,
+     "reported_scorable": 0,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 65,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 0,
+      "reported_with_successor": 0,
+      "stale_without_naming": 8
+     },
+     "stale_gold_beside": 8,
+     "wilson": [
+      0.0,
+      0.0493
+     ]
+    },
+    "MODEL-ALL": {
+     "composite": {
+      "absent_abstained_gate": 172,
+      "composite_gate_reading": 216,
+      "licensed_correct": 44,
+      "obligation_reported": 0,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 12,
+     "expiry_a_only_reported": 0,
+     "rate": 0.0,
+     "reached_obligations": 74,
+     "reported": 0,
+     "reported_scorable": 0,
+     "scorable_reached": 62,
+     "split": {
+      "names_state_but_gives_stale": 0,
+      "neither": 65,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 0,
+      "reported_with_successor": 0,
+      "stale_without_naming": 8
+     },
+     "stale_gold_beside": 8,
+     "wilson": [
+      0.0,
+      0.0493
+     ]
+    },
+    "ORACLE": {
+     "composite": {
+      "absent_abstained_gate": 383,
+      "composite_gate_reading": 430,
+      "licensed_correct": 46,
+      "obligation_reported": 1,
+      "of_661": 661,
+      "of_absent": 383,
+      "of_licensed": 174,
+      "of_obligations": 104
+     },
+     "expiry_a_only_reached": 14,
+     "expiry_a_only_reported": 0,
+     "rate": 0.010101010101010102,
+     "reached_obligations": 99,
+     "reported": 1,
+     "reported_scorable": 1,
+     "scorable_reached": 85,
+     "split": {
+      "names_state_but_gives_stale": 3,
+      "neither": 81,
+      "reported_and_abstaining": 0,
+      "reported_and_answering": 1,
+      "reported_with_successor": 0,
+      "stale_without_naming": 13
+     },
+     "stale_gold_beside": 16,
+     "wilson": [
+      0.0018,
+      0.055
+     ]
+    }
+   },
+   "rows": 452
+  }
+ },
+ "when": "2026-09-15T00:29:44"
+}

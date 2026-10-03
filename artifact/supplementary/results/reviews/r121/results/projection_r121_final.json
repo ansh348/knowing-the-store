@@ -1,0 +1,48 @@
+{
+ "expected": {
+  "anthropic": 10.963,
+  "anthropic_x1.3": 14.252,
+  "calls": {
+   "haiku": 3390,
+   "luna": 3650,
+   "mini": 678,
+   "opus": 678
+  },
+  "generation": 0.041,
+  "haiku": 4.606,
+  "leakscreen": 0.043,
+  "luna_cache": 1.244,
+  "luna_nocache": 2.341,
+  "mini": 0.488,
+  "openai_cache": 1.816,
+  "openai_nocache": 2.913,
+  "openai_nocache_x1.3": 3.787,
+  "opus": 6.357
+ },
+ "fits_anthropic_cap_x1.3": true,
+ "fits_openai_cap_x1.3": true,
+ "high": {
+  "anthropic": 12.639,
+  "anthropic_x1.3": 16.431,
+  "calls": {
+   "haiku": 3390,
+   "luna": 3650,
+   "mini": 678,
+   "opus": 678
+  },
+  "generation": 0.041,
+  "haiku": 4.758,
+  "leakscreen": 0.043,
+  "luna_cache": 1.247,
+  "luna_nocache": 2.353,
+  "mini": 0.49,
+  "openai_cache": 1.821,
+  "openai_nocache": 2.927,
+  "openai_nocache_x1.3": 3.805,
+  "opus": 7.881
+ },
+ "k_haiku": 5,
+ "k_opus": 1,
+ "name": "O2 final: Opus k=1, Haiku k=5, mini k=1, Luna k=5; A 87 pairs, B 26 pairs",
+ "note": ""
+}

@@ -1,0 +1,569 @@
+{
+ "notes": [
+  "13 Sep 2026, third read: records 138-163 and re-reads 35/37: 13 YES, 15 NO (4 paraphrase, 11 implausible; letters model-assigned from the author's bare NO, disclosed). Questions 168-193: 14 flagged. Extension 229-272: 13 ELIGIBLE, 17 INELIGIBLE of 30 readable.",
+  "Author's ruling: with 16 replacements needed (15 failures plus 1 pending) against 13 eligible in reserve and the persona cap binding on 12 of 40 personas, the supersession quota drops by the residual shortfall after the D-CF2-3 retry and the walk over 229-272, under a deviation stating the reason (authoring failure rate on attitude slots, cap saturation, queue thinning). No further extension. n remains above 470.",
+  "Method as before: records presented by a language model, verdicts typed by the author, disclosed."
+ ],
+ "pn_read_ext2": [
+  {
+   "num": "138",
+   "persona": "aroha",
+   "entry_id": "lb_00053",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "139",
+   "persona": "bruna",
+   "entry_id": "lb_00033",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "140",
+   "persona": "callum",
+   "entry_id": "lb_00062",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": false
+  },
+  {
+   "num": "141",
+   "persona": "chenoa",
+   "entry_id": "lb_00031",
+   "state": "SUPERSESSION",
+   "verdict": "NO-paraphrase",
+   "reread": false
+  },
+  {
+   "num": "142",
+   "persona": "dmitri",
+   "entry_id": "lb_00033",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": false
+  },
+  {
+   "num": "143",
+   "persona": "elena",
+   "entry_id": "lb_00067",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": false
+  },
+  {
+   "num": "144",
+   "persona": "fatima",
+   "entry_id": "lb_00079",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "145",
+   "persona": "jake",
+   "entry_id": "lb_00027",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "146",
+   "persona": "jerome",
+   "entry_id": "lb_00074",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": false
+  },
+  {
+   "num": "147",
+   "persona": "kofi",
+   "entry_id": "lb_00078",
+   "state": "SUPERSESSION",
+   "verdict": "NO-paraphrase",
+   "reread": false
+  },
+  {
+   "num": "148",
+   "persona": "lily",
+   "entry_id": "lb_00056",
+   "state": "SUPERSESSION",
+   "verdict": "NO-paraphrase",
+   "reread": false
+  },
+  {
+   "num": "149",
+   "persona": "lily",
+   "entry_id": "lb_00054",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "150",
+   "persona": "mehmet",
+   "entry_id": "lb_00045",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": false
+  },
+  {
+   "num": "151",
+   "persona": "mehmet",
+   "entry_id": "lb_00042",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": false
+  },
+  {
+   "num": "152",
+   "persona": "mirri",
+   "entry_id": "lb_00060",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "153",
+   "persona": "omar",
+   "entry_id": "lb_00096",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": false
+  },
+  {
+   "num": "154",
+   "persona": "pan",
+   "entry_id": "lb_00078",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "155",
+   "persona": "patrick",
+   "entry_id": "lb_00055",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "156",
+   "persona": "priya",
+   "entry_id": "lb_00008",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": false
+  },
+  {
+   "num": "157",
+   "persona": "priya",
+   "entry_id": "lb_00014",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "158",
+   "persona": "raj",
+   "entry_id": "lb_00074",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "159",
+   "persona": "saga",
+   "entry_id": "lb_00044",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "160",
+   "persona": "tom",
+   "entry_id": "lb_00079",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": false
+  },
+  {
+   "num": "161",
+   "persona": "valentina",
+   "entry_id": "lb_00055",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "162",
+   "persona": "valentina",
+   "entry_id": "lb_00054",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": false
+  },
+  {
+   "num": "163",
+   "persona": "yoli",
+   "entry_id": "lb_00027",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "RE35",
+   "persona": "david",
+   "entry_id": "lb_00025",
+   "state": "SUPERSESSION",
+   "verdict": "NO-paraphrase",
+   "reread": true
+  },
+  {
+   "num": "RE37",
+   "persona": "tom",
+   "entry_id": "lb_00073",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": true
+  }
+ ],
+ "question_flags_ext2": [
+  {
+   "num": "168",
+   "persona": "aroha",
+   "entry_id": "lb_00053",
+   "flag": "YES",
+   "token": "blood sugar"
+  },
+  {
+   "num": "169",
+   "persona": "bruna",
+   "entry_id": "lb_00033",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "170",
+   "persona": "callum",
+   "entry_id": "lb_00062",
+   "flag": "YES",
+   "token": "health condition"
+  },
+  {
+   "num": "171",
+   "persona": "chenoa",
+   "entry_id": "lb_00031",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "172",
+   "persona": "dmitri",
+   "entry_id": "lb_00033",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "173",
+   "persona": "elena",
+   "entry_id": "lb_00067",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "174",
+   "persona": "fatima",
+   "entry_id": "lb_00079",
+   "flag": "YES",
+   "token": "physiotherapy"
+  },
+  {
+   "num": "175",
+   "persona": "jake",
+   "entry_id": "lb_00027",
+   "flag": "YES",
+   "token": "Juul"
+  },
+  {
+   "num": "176",
+   "persona": "jerome",
+   "entry_id": "lb_00074",
+   "flag": "YES",
+   "token": "trauma flashbacks"
+  },
+  {
+   "num": "177",
+   "persona": "kofi",
+   "entry_id": "lb_00078",
+   "flag": "YES",
+   "token": "tiredness"
+  },
+  {
+   "num": "178",
+   "persona": "lily",
+   "entry_id": "lb_00056",
+   "flag": "YES",
+   "token": "eczema cotton gloves"
+  },
+  {
+   "num": "179",
+   "persona": "lily",
+   "entry_id": "lb_00054",
+   "flag": "YES",
+   "token": "general practitioner"
+  },
+  {
+   "num": "180",
+   "persona": "mehmet",
+   "entry_id": "lb_00045",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "181",
+   "persona": "mehmet",
+   "entry_id": "lb_00042",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "182",
+   "persona": "mirri",
+   "entry_id": "lb_00060",
+   "flag": "YES",
+   "token": "work vehicle"
+  },
+  {
+   "num": "183",
+   "persona": "omar",
+   "entry_id": "lb_00096",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "184",
+   "persona": "pan",
+   "entry_id": "lb_00078",
+   "flag": "YES",
+   "token": "omeprazole"
+  },
+  {
+   "num": "185",
+   "persona": "patrick",
+   "entry_id": "lb_00055",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "186",
+   "persona": "priya",
+   "entry_id": "lb_00008",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "187",
+   "persona": "priya",
+   "entry_id": "lb_00014",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "188",
+   "persona": "raj",
+   "entry_id": "lb_00074",
+   "flag": "YES",
+   "token": "website hosting"
+  },
+  {
+   "num": "189",
+   "persona": "saga",
+   "entry_id": "lb_00044",
+   "flag": "YES",
+   "token": "stress level"
+  },
+  {
+   "num": "190",
+   "persona": "tom",
+   "entry_id": "lb_00079",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "191",
+   "persona": "valentina",
+   "entry_id": "lb_00055",
+   "flag": "YES",
+   "token": "history podcast"
+  },
+  {
+   "num": "192",
+   "persona": "valentina",
+   "entry_id": "lb_00054",
+   "flag": "YES",
+   "token": "therapy method"
+  },
+  {
+   "num": "193",
+   "persona": "yoli",
+   "entry_id": "lb_00027",
+   "flag": "NO",
+   "token": ""
+  }
+ ],
+ "adjudication_ext2": [
+  {
+   "state": "SUPERSESSION",
+   "num": "0229",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0230",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0232",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0233",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0234",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0235",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0236",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0239",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0240",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0241",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0242",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0243",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0245",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0246",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0248",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0249",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0250",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0252",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0253",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0256",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0258",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0261",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0263",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0264",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0266",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0267",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0268",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0269",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0270",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0272",
+   "verdict": "ELIGIBLE"
+  }
+ ]
+}

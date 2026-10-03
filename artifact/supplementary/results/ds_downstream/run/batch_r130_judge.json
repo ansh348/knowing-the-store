@@ -1,0 +1,18 @@
+{
+ "billed_usd": 2.2816,
+ "cancel_requested": "2026-09-20T15:18:23",
+ "final_counts": {
+  "canceled": 46,
+  "errored": 0,
+  "expired": 0,
+  "processing": 0,
+  "succeeded": 869
+ },
+ "final_status": "ended",
+ "id": "msgbatch_016ZpzjbmEWExxfZq9ET7u37",
+ "n": 915,
+ "projection_usd": 2.0618,
+ "settled": "2026-09-20T15:29:34",
+ "units_sha256": "b3dcd435f13e0eace7443561a181a2e71778a9e2c8ed8301912fb698a728048b",
+ "when": "2026-09-20T14:53:13"
+}

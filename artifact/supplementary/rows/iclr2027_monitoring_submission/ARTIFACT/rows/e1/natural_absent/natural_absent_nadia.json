@@ -1,0 +1,350 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 27,
+    "in": 27593,
+    "out": 10101,
+    "usd": 0.027198800000000002
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 4,
+  "persona": "nadia",
+  "probes": [
+    {
+      "domain": "Travel",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "canada",
+        "outside",
+        "you"
+      ],
+      "max_cosine": 0.3511,
+      "note": "",
+      "question": "What was the theme of the last vacation you took outside of Canada?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3511,
+          "entry_id": "lb_00360",
+          "text": "User moved to Villeray last weekend"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3324,
+          "entry_id": "lb_00253",
+          "text": "User went foraging in the Laurentians"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3227,
+          "entry_id": "lb_00218",
+          "text": "User lives in Toronto"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3057,
+          "entry_id": "lb_00014",
+          "text": "User currently lives in Montreal."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3055,
+          "entry_id": "lb_00367",
+          "text": "User moved to a new apartment in Villeray last weekend."
+        }
+      ],
+      "why_absent": "No travel or vacation details are present in the memory store."
+    },
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "type",
+        "you"
+      ],
+      "max_cosine": 0.1904,
+      "note": "",
+      "question": "Can you describe your favorite type of music or a band you enjoy listening to?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1904,
+          "entry_id": "lb_00510",
+          "text": "User is deeply passionate and skilled in cooking, describing it as a meditative and anxiety-free zone."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1892,
+          "entry_id": "lb_00354",
+          "text": "User currently practices CrossFit and enjoys heavy barbell work like deadlifts, cleans, and squats."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1891,
+          "entry_id": "lb_00200",
+          "text": "User loves their mother."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1869,
+          "entry_id": "lb_00114",
+          "text": "User experiences difficulty sleeping due to a wired mind after work, often thinking about work details late at night."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1822,
+          "entry_id": "lb_00498",
+          "text": "User feels a strong emotional and sensory connection to kitchen work, describing it as a drug-like experience that revives them."
+        }
+      ],
+      "why_absent": "No information about music preferences or entertainment interests is stored."
+    },
+    {
+      "domain": "Pets",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "name",
+        "you"
+      ],
+      "max_cosine": 0.2024,
+      "note": "",
+      "question": "What kind of pet do you have, and what is its name?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2024,
+          "entry_id": "lb_00300",
+          "text": "User has a new duck dish they are pairing wine with"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.197,
+          "entry_id": "lb_00037",
+          "text": "User's given name or nickname is Nadenka, which is no longer commonly used by others."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1969,
+          "entry_id": "lb_00196",
+          "text": "User owns a Miyabi Birchwood Japanese knife that they use daily and have maintained themselves for four years."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1909,
+          "entry_id": "lb_00193",
+          "text": "User owns a Miyabi Birchwood Japanese knife that they use daily on the line."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1853,
+          "entry_id": "lb_00471",
+          "text": "User has a friend named Sophie who is a pastry chef at Monarque"
+        }
+      ],
+      "why_absent": "No pet ownership or related details are included in the memory."
+    },
+    {
+      "domain": "Literature",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.1548,
+      "note": "",
+      "question": "What was the last book you read for pleasure, and what did you think of it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1548,
+          "entry_id": "lb_00303",
+          "text": "User appreciates natural wines that are elegant and restrained, such as Domaine Ganevat Chardonnay and skin-contact whites from the Jura region."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1515,
+          "entry_id": "lb_00290",
+          "text": "User works in a fine dining restaurant that was reviewed by the Gazette."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1478,
+          "entry_id": "lb_00441",
+          "text": "User has fine dining experience."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1454,
+          "entry_id": "lb_00090",
+          "text": "User has a decent Côtes du Rhône wine that they would drink and use for cooking."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1447,
+          "entry_id": "lb_00114",
+          "text": "User experiences difficulty sleeping due to a wired mind after work, often thinking about work details late at night."
+        }
+      ],
+      "why_absent": "No data about reading habits or favorite books is recorded."
+    },
+    {
+      "domain": "Local Lifestyle",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "montreal",
+        "you"
+      ],
+      "max_cosine": 0.4694,
+      "note": "",
+      "question": "Do you have any favorite local spots in Montreal for relaxing or socializing?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.4694,
+          "entry_id": "lb_00477",
+          "text": "User has a strong interest in Montreal's culinary identity and local food culture"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4551,
+          "entry_id": "lb_00425",
+          "text": "User's pop-up restaurant will be located in Montreal."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4505,
+          "entry_id": "lb_00011",
+          "text": "User lives in Montreal."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4394,
+          "entry_id": "lb_00084",
+          "text": "User lives in a tiny apartment in the Plateau-Mont-Royal."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4344,
+          "entry_id": "lb_00416",
+          "text": "User lives in Villeray"
+        }
+      ],
+      "why_absent": "No information about favorite local places or social hangouts is stored."
+    },
+    {
+      "domain": "Transportation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.2768,
+      "note": "",
+      "question": "What kind of car do you drive, and how long have you had it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2768,
+          "entry_id": "lb_00480",
+          "text": "User has a fridge from 2003."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2763,
+          "entry_id": "lb_00196",
+          "text": "User owns a Miyabi Birchwood Japanese knife that they use daily and have maintained themselves for four years."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.228,
+          "entry_id": "lb_00192",
+          "text": "User has owned and sharpened their Miyabi Birchwood knife themselves for four years."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2118,
+          "entry_id": "lb_00482",
+          "text": "User has a small kitchen with a short counter and an old fridge from 2003."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2008,
+          "entry_id": "lb_00509",
+          "text": "User has been working in kitchen/cooking for over a decade."
+        }
+      ],
+      "why_absent": "No details about personal vehicle ownership or preferences are present."
+    },
+    {
+      "domain": "Creative Arts",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "cooking",
+        "ever",
+        "like",
+        "outside",
+        "you"
+      ],
+      "max_cosine": 0.3416,
+      "note": "",
+      "question": "Have you ever taken any art or creative classes outside of cooking, like painting or photography?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3416,
+          "entry_id": "lb_00177",
+          "text": "User applied to do a professional kitchen stage to learn in the culinary world"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3329,
+          "entry_id": "lb_00499",
+          "text": "User has been working in kitchen and culinary life for over a decade."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3317,
+          "entry_id": "lb_00502",
+          "text": "User has been working in the kitchen and culinary life for over a decade."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3233,
+          "entry_id": "lb_00509",
+          "text": "User has been working in kitchen/cooking for over a decade."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.3219,
+          "entry_id": "lb_00077",
+          "text": "User acknowledges that many classmates burned out or left the culinary industry due to its demanding nature."
+        }
+      ],
+      "why_absent": "No mention of art or creative classes beyond culinary education is found."
+    }
+  ],
+  "threshold": 0.295
+}

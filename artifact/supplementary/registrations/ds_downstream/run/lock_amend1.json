@@ -1,0 +1,22 @@
+{
+ "counted_state_items": 41,
+ "newly_fetchable_under_v3": 17,
+ "population": {
+  "absent": 383,
+  "exp": 15,
+  "n": 661,
+  "pn": 104,
+  "present": 174,
+  "ret": 26,
+  "sup": 63
+ },
+ "prompts_e1": {
+  "file": "337d37d3414c04823d28ad99eeab15c34e328e60198d68625452ebf330830b84",
+  "texts": "35d9b968ffc0b008289a59b06f10b7d23f71658c648dd2865a46e8da15d495f2"
+ },
+ "registration": "registrations\\ADDENDUM_DS_AMENDMENT_1.md",
+ "registration_sha256": "72ab84dae2c7e464b1488570d4098aebf59b1de0d442ddc7b6f79a57bfcbbcf5",
+ "renderer_lock": "661 / 661 v2 prefixes byte-identical to the committed TRUE text",
+ "theta_nok": 0.1573373676248109,
+ "when": "2026-09-13T18:04:07"
+}

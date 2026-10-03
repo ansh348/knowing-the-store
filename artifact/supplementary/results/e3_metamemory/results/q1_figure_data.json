@@ -1,0 +1,122 @@
+{
+  "LABEL": "EXPLORATORY (forensic Q1). Not a gate. RESULTS_E3.md is unchanged.",
+  "effect_definition": "confabulation delta, S2 minus S1, unselected over all eval items; both E3 arms in the observed contrast retrieve on 100% of cells, which is why the unselected contrast is the matching quantity",
+  "estimator": "persona + label fixed effects, persona-clustered bootstrap, 1000 resamples, seed 42 (score_e2.adjusted / score_e2.boot_ci)",
+  "mixes": {
+    "E2": {
+      "PN": 0.15500945179584122,
+      "PRESENT": 0.2627599243856333,
+      "ablation/unwritten-absent": 0.3534971644612476,
+      "natural-absent": 0.22873345935727787
+    },
+    "E3": {
+      "PN": 0.11870503597122302,
+      "PRESENT": 0.2997601918465228,
+      "ablation/unwritten-absent": 0.001199040767386091,
+      "natural-absent": 0.580335731414868
+    }
+  },
+  "mutual_containment": {
+    "a": false,
+    "a''": true
+  },
+  "observed_E3": {
+    "(a'') vs (b) -- pure-caution analogue": {
+      "est": -0.023113863935777055,
+      "hi": 0.0008195034891982278,
+      "lo": -0.04590805097876315,
+      "n": 834
+    },
+    "(a) vs (b) -- registered H-E3a arm": {
+      "est": -0.00908643492584911,
+      "hi": 0.014263524776464488,
+      "lo": -0.02992132701704402,
+      "n": 834
+    }
+  },
+  "pooled_at_E2_mix": {
+    "est": -0.07107677028149752,
+    "hi": -0.0435942370999589,
+    "lo": -0.102166487618044,
+    "n": 529
+  },
+  "predicted_at_E3_mix": {
+    "est": -0.030885881106818072,
+    "hi": -0.007941843550154808,
+    "lo": -0.055575449971590606
+  },
+  "published_hc2_pooled": {
+    "est": -0.05786489082911299,
+    "hi": -0.030677404202487366,
+    "lo": -0.0874480504247344,
+    "n": 529
+  },
+  "residuals": {
+    "vs_a": 0.021799446180968962,
+    "vs_a_double_prime": 0.007772017171041017
+  },
+  "source": {
+    "e2": "e2_metamemory/answers_eval.json + cache/judgments_eval.json",
+    "e3": "e3_metamemory/answers_eval.json + cache/judgments_eval.json",
+    "forensic": "e3_metamemory/results/forensic_e3.json Q1"
+  },
+  "strata": [
+    {
+      "ci_hi": -0.04838709677419355,
+      "ci_lo": -0.16202787950068162,
+      "effect": -0.10160427807486631,
+      "n_E2": 187,
+      "published_hc2_ci": [
+        -0.14139865370231863,
+        -0.0325999298737728
+      ],
+      "published_hc2_effect": -0.0855614973262032,
+      "share_E2": 0.3534971644612476,
+      "share_E3": 0.001199040767386091,
+      "stratum": "ablation/unwritten-absent"
+    },
+    {
+      "ci_hi": 0.0,
+      "ci_lo": -0.0902935606060606,
+      "effect": -0.04316546762589928,
+      "n_E2": 139,
+      "published_hc2_ci": [
+        -0.08277298850574713,
+        0.007814037893700786
+      ],
+      "published_hc2_effect": -0.03597122302158273,
+      "share_E2": 0.2627599243856333,
+      "share_E3": 0.2997601918465228,
+      "stratum": "PRESENT"
+    },
+    {
+      "ci_hi": 0.017097701149425285,
+      "ci_lo": -0.03638738127544097,
+      "effect": -0.008264462809917356,
+      "n_E2": 121,
+      "published_hc2_ci": [
+        -0.02459016393442623,
+        0.023626734158230217
+      ],
+      "published_hc2_effect": 0.0,
+      "share_E2": 0.22873345935727787,
+      "share_E3": 0.580335731414868,
+      "stratum": "natural-absent"
+    },
+    {
+      "ci_hi": -0.03368934436350168,
+      "ci_lo": -0.21688056574122577,
+      "effect": -0.10975609756097561,
+      "n_E2": 82,
+      "published_hc2_ci": [
+        -0.2054794520547945,
+        -0.021505376344086023
+      ],
+      "published_hc2_effect": -0.0975609756097561,
+      "share_E2": 0.15500945179584122,
+      "share_E3": 0.11870503597122302,
+      "stratum": "PN"
+    }
+  ],
+  "what_this_typesets": "the E2/E3 mix-model figure: per-stratum caution effects, the two mixes, and predicted vs observed"
+}

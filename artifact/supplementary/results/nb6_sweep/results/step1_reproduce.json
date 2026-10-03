@@ -1,0 +1,209 @@
+{
+  "fails": [],
+  "got": {
+    "661|BELIEVED|census": {
+      "mean_len": 15.037821482602117,
+      "n": 661,
+      "n_neg": 557,
+      "n_neg_with_own": 397,
+      "n_pos": 104,
+      "neg_own_named_all": 0.23159784560143626,
+      "neg_own_named_of_those_with_own": 0.3249370277078086,
+      "pos_own_named": 0.4230769230769231,
+      "pos_own_named_by_state": {
+        "expired": [
+          4,
+          15
+        ],
+        "retracted": [
+          6,
+          26
+        ],
+        "superseded": [
+          34,
+          63
+        ]
+      },
+      "pos_pn_member_named": 0.2980769230769231,
+      "precision_vs_true": 0.03480885311871228,
+      "true_recall_item_weighted": 0.36041666666666666
+    },
+    "661|BELIEVED|emb": 0.5857788979422731,
+    "661|BELIEVED|emb|expired": 0.5925792938360264,
+    "661|BELIEVED|emb|retracted": 0.4061593702527275,
+    "661|BELIEVED|emb|superseded": 0.6582884500299222,
+    "661|BELIEVED|lex": 0.4717839386825024,
+    "661|BELIEVED|lex|expired": 0.39228007181328545,
+    "661|BELIEVED|lex|retracted": 0.4533904156884408,
+    "661|BELIEVED|lex|superseded": 0.4983044085378017,
+    "661|S2U|census": {
+      "mean_len": 32.54765506807867,
+      "n": 661,
+      "n_neg": 557,
+      "n_neg_with_own": 397,
+      "n_pos": 104,
+      "neg_own_named_all": 0.400359066427289,
+      "neg_own_named_of_those_with_own": 0.5617128463476071,
+      "pos_own_named": 0.8846153846153846,
+      "pos_own_named_by_state": {
+        "expired": [
+          5,
+          15
+        ],
+        "retracted": [
+          26,
+          26
+        ],
+        "superseded": [
+          61,
+          63
+        ]
+      },
+      "pos_pn_member_named": 0.8076923076923077,
+      "precision_vs_true": 0.03574416658919773,
+      "true_recall_item_weighted": 0.8010416666666667
+    },
+    "661|S2U|emb": 0.658766054412374,
+    "661|S2U|emb|expired": 0.585278276481149,
+    "661|S2U|emb|retracted": 0.4430327302858721,
+    "661|S2U|emb|superseded": 0.7652959448291585,
+    "661|S2U|lex": 0.5652879436541914,
+    "661|TRUE-clean|census": {
+      "mean_len": 1.4523449319213313,
+      "n": 661,
+      "n_neg": 557,
+      "n_neg_with_own": 397,
+      "n_pos": 104,
+      "neg_own_named_all": 0.03949730700179533,
+      "neg_own_named_of_those_with_own": 0.055415617128463476,
+      "pos_own_named": 0.7115384615384616,
+      "pos_own_named_by_state": {
+        "expired": [
+          0,
+          15
+        ],
+        "retracted": [
+          11,
+          26
+        ],
+        "superseded": [
+          63,
+          63
+        ]
+      },
+      "pos_pn_member_named": 0.7115384615384616,
+      "precision_vs_true": 1.0,
+      "true_recall_item_weighted": 1.0
+    },
+    "661|TRUE-clean|emb": 0.7442083275790636,
+    "661|TRUE-clean|emb|expired": 0.2570317175344105,
+    "661|TRUE-clean|emb|retracted": 0.5025548957326336,
+    "661|TRUE-clean|emb|superseded": 0.959932746288222,
+    "661|TRUE-clean|lex": 0.5737812456842978,
+    "661|TRUE-clean|lex|expired": 0.4964093357271095,
+    "661|TRUE-clean|lex|retracted": 0.4964093357271095,
+    "661|TRUE-clean|lex|superseded": 0.624134393434214,
+    "661|TRUE|census": {
+      "mean_len": 1.7473524962178517,
+      "n": 661,
+      "n_neg": 557,
+      "n_neg_with_own": 397,
+      "n_pos": 104,
+      "neg_own_named_all": 0.03949730700179533,
+      "neg_own_named_of_those_with_own": 0.055415617128463476,
+      "pos_own_named": 0.7115384615384616,
+      "pos_own_named_by_state": {
+        "expired": [
+          0,
+          15
+        ],
+        "retracted": [
+          11,
+          26
+        ],
+        "superseded": [
+          63,
+          63
+        ]
+      },
+      "pos_pn_member_named": 0.7115384615384616,
+      "precision_vs_true": 0.8311688311688312,
+      "true_recall_item_weighted": 1.0
+    },
+    "661|TRUE|emb": 0.7484204529761083,
+    "661|TRUE|emb|expired": 0.48228605625374027,
+    "661|TRUE|emb|retracted": 0.4052617041845049,
+    "661|TRUE|emb|superseded": 0.9534068564589211,
+    "661|TRUE|lex": 0.5737812456842978,
+    "661|TRUE|lex|expired": 0.4964093357271095,
+    "661|TRUE|lex|retracted": 0.4964093357271095,
+    "661|TRUE|lex|superseded": 0.624134393434214,
+    "cf2|v2|census": {
+      "mean_len": 1.7635135135135136,
+      "n": 444,
+      "n_neg": 296,
+      "n_neg_with_own": 296,
+      "n_pos": 148,
+      "neg_own_named_all": 0.0,
+      "neg_own_named_of_those_with_own": 0.0,
+      "pos_own_named": 0.5945945945945946,
+      "pos_own_named_by_state": {
+        "expired": [
+          0,
+          30
+        ],
+        "retracted": [
+          0,
+          30
+        ],
+        "superseded": [
+          88,
+          88
+        ]
+      },
+      "pos_pn_member_named": 0.5945945945945946,
+      "precision_vs_true": 1.0,
+      "true_recall_item_weighted": 1.0
+    },
+    "cf2|v2|emb": 0.7663212198685172,
+    "cf2|v2|emb|expired": 0.5,
+    "cf2|v2|emb|retracted": 0.5,
+    "cf2|v2|emb|superseded": 0.9221978305785123,
+    "cf2|v2|lex": 0.6697863403944485,
+    "cf2|v2|lex|expired": 0.5,
+    "cf2|v2|lex|retracted": 0.5,
+    "cf2|v2|lex|superseded": 0.7829287190082644
+  },
+  "n": {
+    "661": 661,
+    "cf2": 444
+  },
+  "pos": {
+    "661": 104,
+    "cf2": 148
+  },
+  "scorer_agreement": {
+    "661|BELIEVED|emb": 0.0,
+    "661|BELIEVED|emb|max_abs_score_diff": 1.4901161193847656e-07,
+    "661|BELIEVED|lex": 0.0,
+    "661|TRUE-clean|emb": 0.0,
+    "661|TRUE-clean|emb|max_abs_score_diff": 5.21540641784668e-08,
+    "661|TRUE-clean|lex": 0.0,
+    "661|TRUE|emb": 0.0,
+    "661|TRUE|emb|max_abs_score_diff": 1.0803341865539551e-07,
+    "661|TRUE|lex": 0.0,
+    "cf2|v2|emb": 2.282688093491192e-05,
+    "cf2|v2|emb|max_abs_score_diff": 1.4901161193847656e-07,
+    "cf2|v2|lex": 0.0
+  },
+  "targets": {
+    "661|BELIEVED|emb": 0.5858,
+    "661|TRUE|emb": 0.7484,
+    "661|TRUE|lex": 0.5738,
+    "cf2|v2|emb": 0.7663,
+    "cf2|v2|emb|superseded": 0.9223,
+    "cf2|v2|lex": 0.6698,
+    "cf2|v2|lex|superseded": 0.7829
+  },
+  "tolerance": 0.001
+}

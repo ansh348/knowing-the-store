@@ -1,0 +1,46 @@
+{
+ "build": {
+  "frozen_at": "177697a",
+  "n_ext66": 66,
+  "n_items": 522,
+  "n_keys": 77,
+  "neutral_text": "This store does not record this. Judge it from the question alone.",
+  "prompts_texts_sha256": "35d9b968ffc0b008289a59b06f10b7d23f71658c648dd2865a46e8da15d495f2",
+  "registration_sha256": "6d3afee82f2364b8d441ac097cae7917d3d0ec5f5b773317a8fd9a215e926d48",
+  "when": "2026-09-19T00:23:09",
+  "wrapper_neutral_sha256": "8b68205ed47371c063981b30436f6f72a67739d3979f53d017eb3f0ef95c1b19",
+  "wrapper_nomarker_sha256": "1a646a0e4a414cb05a83df0af6216cfaeb05a40c97eb3f179403c0b3f664ad69"
+ },
+ "cap_usd": 5.0,
+ "frozen_at": "177697a",
+ "luna": {
+  "arms": [
+   "BLIND",
+   "STRUCTURAL",
+   "OMITTED",
+   "NEUTRAL"
+  ],
+  "k": 5,
+  "max_completion_tokens": 2048,
+  "model": "gpt-5.6-luna",
+  "prices": {
+   "cached": 0.02,
+   "inp": 0.2,
+   "out": 1.2,
+   "write_mult": 1.25
+  },
+  "reasoning_effort": null,
+  "temperature": null
+ },
+ "mini": {
+  "arm": "NEUTRAL",
+  "cache": "e1_metamemory/marker/cache (fresh namespace)",
+  "max_tokens": 200,
+  "model": "gpt-4.1-mini",
+  "seed": 42,
+  "temperature": 0
+ },
+ "registration": "registrations\\ADDENDUM_MARKER_ABLATION.md",
+ "registration_sha256": "6d3afee82f2364b8d441ac097cae7917d3d0ec5f5b773317a8fd9a215e926d48",
+ "when": "2026-09-19T00:23:09"
+}

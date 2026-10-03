@@ -1,0 +1,31 @@
+{
+ "units": [
+  "e1",
+  "e2",
+  "e3"
+ ],
+ "n": 71,
+ "edits": [
+  {
+   "unit": "e1",
+   "file": "body",
+   "old": "\\claim{On the named state, no model reliably beats the lookup on the short list; on a long one, two do.}",
+   "new": "\\claim{On the named state, no model reliably beats the lookup on the short list; on a long one, Sol does with list length and counts fixed.}",
+   "note": "R142 item 1 (B-ii carried into 5.2's lead)"
+  },
+  {
+   "unit": "e2",
+   "file": "body",
+   "old": "and two of five do when it is padded to $60$ names.",
+   "new": "and one does on a $60$-name list with its length and counts fixed.",
+   "note": "R142 item 2 (B-ii carried into the Introduction's second bullet)"
+  },
+  {
+   "unit": "e3",
+   "file": "body",
+   "old": "\\claim{Backends omit or misstate the lifecycle information readers need.}",
+   "new": "\\claim{The backends we tested omit or misstate the lifecycle information readers need.}",
+   "note": "R142 item 3 (scoping)"
+  }
+ ]
+}

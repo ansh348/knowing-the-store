@@ -1,0 +1,458 @@
+{
+ "GPT-4.1 mini": {
+  "census": {
+   "draws_per_unit": {
+    "1": 444
+   },
+   "identical_across_draws": 0,
+   "median_range": null,
+   "not_ok": 0,
+   "rows": 444,
+   "units": 444,
+   "units_collapsed": 444,
+   "usd": 0.3045
+  },
+  "expiry": {
+   "auroc": 0.5489,
+   "lookup": 0.5,
+   "n": 90,
+   "pos": 30,
+   "vs_lookup": {
+    "agree": true,
+    "both_exclude_zero": false,
+    "delta": 0.0489,
+    "item_ci": {
+     "ci_hi": 0.171127000057436,
+     "ci_lo": -0.07047272727272721,
+     "excludes_zero": false,
+     "mean": 0.04956741529321762,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.12931880521516098,
+     "ci_lo": -0.01996692627037809,
+     "excludes_zero": false,
+     "mean": 0.0459641247410446,
+     "n_draws": 1000
+    }
+   }
+  },
+  "reliable_sup_margin": true,
+  "retraction": {
+   "auroc": 0.5283,
+   "lookup": 0.5,
+   "n": 90,
+   "pos": 30,
+   "vs_lookup": {
+    "agree": true,
+    "both_exclude_zero": false,
+    "delta": 0.0283,
+    "item_ci": {
+     "ci_hi": 0.19246262788977658,
+     "ci_lo": -0.14932892628205124,
+     "excludes_zero": false,
+     "mean": 0.02335880294079176,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.12277909487855757,
+     "ci_lo": -0.05834997704315888,
+     "excludes_zero": false,
+     "mean": 0.0302286217664435,
+     "n_draws": 1000
+    }
+   }
+  },
+  "supersession": {
+   "auroc": 0.8308,
+   "lookup": 0.9223,
+   "n": 264,
+   "pos": 88,
+   "vs_lookup": {
+    "agree": true,
+    "both_exclude_zero": true,
+    "delta": -0.0915,
+    "item_ci": {
+     "ci_hi": -0.04782348066948962,
+     "ci_lo": -0.13994135134870617,
+     "excludes_zero": true,
+     "mean": -0.09275416224643758,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": -0.04253603160946863,
+     "ci_lo": -0.14360832184232034,
+     "excludes_zero": true,
+     "mean": -0.09193585598655454,
+     "n_draws": 1000
+    }
+   }
+  },
+  "whole": 0.7167
+ },
+ "GPT-5.6 Luna": {
+  "census": {
+   "draws_per_unit": {
+    "4": 1,
+    "5": 443
+   },
+   "identical_across_draws": 9,
+   "median_range": 0.12,
+   "not_ok": 1,
+   "rows": 2220,
+   "units": 444,
+   "units_collapsed": 444,
+   "usd": 0.7478
+  },
+  "expiry": {
+   "auroc": 0.6167,
+   "lookup": 0.5,
+   "n": 90,
+   "pos": 30,
+   "vs_lookup": {
+    "agree": false,
+    "both_exclude_zero": false,
+    "delta": 0.1167,
+    "item_ci": {
+     "ci_hi": 0.26419967955989104,
+     "ci_lo": -0.027832863826948443,
+     "excludes_zero": false,
+     "mean": 0.1169099452267874,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.22127026839190556,
+     "ci_lo": 0.043192997685185155,
+     "excludes_zero": true,
+     "mean": 0.12533934728580257,
+     "n_draws": 1000
+    }
+   }
+  },
+  "reliable_sup_margin": false,
+  "retraction": {
+   "auroc": 0.5458,
+   "lookup": 0.5,
+   "n": 90,
+   "pos": 30,
+   "vs_lookup": {
+    "agree": true,
+    "both_exclude_zero": false,
+    "delta": 0.0458,
+    "item_ci": {
+     "ci_hi": 0.21125388824884797,
+     "ci_lo": -0.131695940777972,
+     "excludes_zero": false,
+     "mean": 0.03958005073479954,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.12931832694763726,
+     "ci_lo": -0.022899002939916254,
+     "excludes_zero": false,
+     "mean": 0.0475345105661214,
+     "n_draws": 1000
+    }
+   }
+  },
+  "supersession": {
+   "auroc": 0.9426,
+   "lookup": 0.9223,
+   "n": 264,
+   "pos": 88,
+   "vs_lookup": {
+    "agree": true,
+    "both_exclude_zero": false,
+    "delta": 0.0204,
+    "item_ci": {
+     "ci_hi": 0.04727154190404544,
+     "ci_lo": -0.00534325396825395,
+     "excludes_zero": false,
+     "mean": 0.020684809279986827,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.04506272771948944,
+     "ci_lo": -0.005625322830578549,
+     "excludes_zero": false,
+     "mean": 0.019644870631012383,
+     "n_draws": 1000
+    }
+   }
+  },
+  "whole": 0.8417
+ },
+ "GPT-5.6 Sol": {
+  "census": {
+   "draws_per_unit": {
+    "5": 444
+   },
+   "identical_across_draws": 35,
+   "median_range": 0.1,
+   "not_ok": 0,
+   "rows": 2220,
+   "units": 444,
+   "units_collapsed": 444,
+   "usd": 11.5686
+  },
+  "expiry": {
+   "auroc": 0.6403,
+   "lookup": 0.5,
+   "n": 90,
+   "pos": 30,
+   "vs_lookup": {
+    "agree": false,
+    "both_exclude_zero": false,
+    "delta": 0.1403,
+    "item_ci": {
+     "ci_hi": 0.3087291310781821,
+     "ci_lo": -0.005470405598739181,
+     "excludes_zero": false,
+     "mean": 0.1421279820644203,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.24318105099748974,
+     "ci_lo": 0.04974018083564788,
+     "excludes_zero": true,
+     "mean": 0.14138776344782747,
+     "n_draws": 1000
+    }
+   }
+  },
+  "reliable_sup_margin": false,
+  "retraction": {
+   "auroc": 0.5322,
+   "lookup": 0.5,
+   "n": 90,
+   "pos": 30,
+   "vs_lookup": {
+    "agree": true,
+    "both_exclude_zero": false,
+    "delta": 0.0322,
+    "item_ci": {
+     "ci_hi": 0.19830324074074068,
+     "ci_lo": -0.132488767281106,
+     "excludes_zero": false,
+     "mean": 0.028252395477439553,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.08866390306122453,
+     "ci_lo": -0.02161112074613634,
+     "excludes_zero": false,
+     "mean": 0.03444525813546126,
+     "n_draws": 1000
+    }
+   }
+  },
+  "supersession": {
+   "auroc": 0.9383,
+   "lookup": 0.9223,
+   "n": 264,
+   "pos": 88,
+   "vs_lookup": {
+    "agree": true,
+    "both_exclude_zero": false,
+    "delta": 0.0161,
+    "item_ci": {
+     "ci_hi": 0.0472641481785443,
+     "ci_lo": -0.012989429085500225,
+     "excludes_zero": false,
+     "mean": 0.016824840985553792,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.0478168685416402,
+     "ci_lo": -0.02017392431979146,
+     "excludes_zero": false,
+     "mean": 0.015607506776342124,
+     "n_draws": 1000
+    }
+   }
+  },
+  "whole": 0.85
+ },
+ "Haiku 4.5": {
+  "census": {
+   "draws_per_unit": {
+    "5": 444
+   },
+   "identical_across_draws": 373,
+   "median_range": 0.0,
+   "not_ok": 0,
+   "rows": 2220,
+   "units": 444,
+   "units_collapsed": 444,
+   "usd": 2.9161
+  },
+  "expiry": {
+   "auroc": 0.5794,
+   "lookup": 0.5,
+   "n": 90,
+   "pos": 30,
+   "vs_lookup": {
+    "agree": false,
+    "both_exclude_zero": false,
+    "delta": 0.0794,
+    "item_ci": {
+     "ci_hi": 0.2488356370192307,
+     "ci_lo": -0.07757006448412695,
+     "excludes_zero": false,
+     "mean": 0.08138838805716463,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.1457457449776785,
+     "ci_lo": 0.023407617543167898,
+     "excludes_zero": true,
+     "mean": 0.08033528447480834,
+     "n_draws": 1000
+    }
+   }
+  },
+  "reliable_sup_margin": false,
+  "retraction": {
+   "auroc": 0.5433,
+   "lookup": 0.5,
+   "n": 90,
+   "pos": 30,
+   "vs_lookup": {
+    "agree": true,
+    "both_exclude_zero": false,
+    "delta": 0.0433,
+    "item_ci": {
+     "ci_hi": 0.18863103941271653,
+     "ci_lo": -0.10838280090603768,
+     "excludes_zero": false,
+     "mean": 0.04134583371500636,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.09631518629432265,
+     "ci_lo": -0.005672601034570171,
+     "excludes_zero": false,
+     "mean": 0.045467204681259275,
+     "n_draws": 1000
+    }
+   }
+  },
+  "supersession": {
+   "auroc": 0.8876,
+   "lookup": 0.9223,
+   "n": 264,
+   "pos": 88,
+   "vs_lookup": {
+    "agree": true,
+    "both_exclude_zero": false,
+    "delta": -0.0347,
+    "item_ci": {
+     "ci_hi": 0.00860502805167763,
+     "ci_lo": -0.08131013510698383,
+     "excludes_zero": false,
+     "mean": -0.034830702340775725,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.006631149789009195,
+     "ci_lo": -0.08085728054805665,
+     "excludes_zero": false,
+     "mean": -0.03445143836657736,
+     "n_draws": 1000
+    }
+   }
+  },
+  "whole": 0.7566
+ },
+ "Opus 5": {
+  "census": {
+   "draws_per_unit": {
+    "5": 444
+   },
+   "identical_across_draws": 20,
+   "median_range": 0.07,
+   "not_ok": 0,
+   "rows": 2220,
+   "units": 444,
+   "units_collapsed": 444,
+   "usd": 20.2059
+  },
+  "expiry": {
+   "auroc": 0.615,
+   "lookup": 0.5,
+   "n": 90,
+   "pos": 30,
+   "vs_lookup": {
+    "agree": false,
+    "both_exclude_zero": false,
+    "delta": 0.115,
+    "item_ci": {
+     "ci_hi": 0.25725350215517234,
+     "ci_lo": -0.024213342246496346,
+     "excludes_zero": false,
+     "mean": 0.11348363435925714,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.2008237494941612,
+     "ci_lo": 0.04428241841722813,
+     "excludes_zero": true,
+     "mean": 0.11973376211595381,
+     "n_draws": 1000
+    }
+   }
+  },
+  "reliable_sup_margin": false,
+  "retraction": {
+   "auroc": 0.5872,
+   "lookup": 0.5,
+   "n": 90,
+   "pos": 30,
+   "vs_lookup": {
+    "agree": false,
+    "both_exclude_zero": false,
+    "delta": 0.0872,
+    "item_ci": {
+     "ci_hi": 0.2627816091954022,
+     "ci_lo": -0.09838698814655174,
+     "excludes_zero": false,
+     "mean": 0.08215944648695543,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.158094573137016,
+     "ci_lo": 0.04265306473829206,
+     "excludes_zero": true,
+     "mean": 0.0924651939982497,
+     "n_draws": 1000
+    }
+   }
+  },
+  "supersession": {
+   "auroc": 0.9325,
+   "lookup": 0.9223,
+   "n": 264,
+   "pos": 88,
+   "vs_lookup": {
+    "agree": true,
+    "both_exclude_zero": false,
+    "delta": 0.0102,
+    "item_ci": {
+     "ci_hi": 0.03921229338513641,
+     "ci_lo": -0.018276577904993214,
+     "excludes_zero": false,
+     "mean": 0.010276549900458856,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.04320996197940482,
+     "ci_lo": -0.025925252678865453,
+     "excludes_zero": false,
+     "mean": 0.009900381226904738,
+     "n_draws": 1000
+    }
+   }
+  },
+  "whole": 0.8405
+ }
+}

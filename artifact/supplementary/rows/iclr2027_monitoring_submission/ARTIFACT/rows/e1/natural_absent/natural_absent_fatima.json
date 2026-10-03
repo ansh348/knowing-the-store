@@ -1,0 +1,345 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 14,
+    "in": 14876,
+    "out": 5217,
+    "usd": 0.0142976
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 3,
+  "persona": "fatima",
+  "probes": [
+    {
+      "domain": "Social Life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.3256,
+      "note": "",
+      "question": "What was the theme and menu of the last birthday party you hosted for a close friend?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3256,
+          "entry_id": "lb_00190",
+          "text": "User is designing the packaging and launch event space themselves to reflect their design firm identity."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3195,
+          "entry_id": "lb_00278",
+          "text": "User prefers to have client dinners at restaurants with excellent ambiance and refined cuisine such as Modern Arabic, Japanese, or contemporary European."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3048,
+          "entry_id": "lb_00284",
+          "text": "User treats dinner reservations with intentionality similar to material specification, using every choice to construct a narrative for clients."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2925,
+          "entry_id": "lb_00277",
+          "text": "User treats dinner reservations with the same intention as material specifications, viewing every choice as a communication about their professional identity."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2797,
+          "entry_id": "lb_00280",
+          "text": "User prefers to make client dinner reservations at 8:30 PM to experience the restaurant's true character after the initial wave of diners."
+        }
+      ],
+      "why_absent": "No information about social events or personal celebrations is stored."
+    },
+    {
+      "domain": "Personal History",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "you"
+      ],
+      "max_cosine": 0.2603,
+      "note": "",
+      "question": "Can you describe your favorite childhood vacation destination and what made it special?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2603,
+          "entry_id": "lb_00417",
+          "text": "User visited a gallery last Friday with their child."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2235,
+          "entry_id": "lb_00126",
+          "text": "User built systems to avoid work travel in order to care for her young children."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2177,
+          "entry_id": "lb_00395",
+          "text": "User stays every year at the same small hotel near Corso Como in Milan."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2097,
+          "entry_id": "lb_00366",
+          "text": "User values moments with their son as the purpose behind their work and exhaustion."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2002,
+          "entry_id": "lb_00153",
+          "text": "User's design detail of the bronze mesh screen is frequently mentioned by the family during visits."
+        }
+      ],
+      "why_absent": "No details about childhood experiences or travel history are present."
+    },
+    {
+      "domain": "Entertainment Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "home",
+        "kind",
+        "you"
+      ],
+      "max_cosine": 0.2687,
+      "note": "",
+      "question": "What kind of music do you usually listen to when relaxing at home?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2687,
+          "entry_id": "lb_00282",
+          "text": "User values low noise levels and good acoustics in restaurants to facilitate conversation during client dinners."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2632,
+          "entry_id": "lb_00278",
+          "text": "User prefers to have client dinners at restaurants with excellent ambiance and refined cuisine such as Modern Arabic, Japanese, or contemporary European."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2563,
+          "entry_id": "lb_00182",
+          "text": "User's home fragrance line will launch with four scents inspired by spatial archetypes: courtyard, library, hammam, and rooftop at night."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2463,
+          "entry_id": "lb_00438",
+          "text": "User uses a heating pad at the office for back comfort."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.244,
+          "entry_id": "lb_00283",
+          "text": "User prefers Japanese dining rooms for their discipline in spatial design, negative space, restraint, and elevation of single materials or objects."
+        }
+      ],
+      "why_absent": "No data on music tastes or entertainment preferences is included."
+    },
+    {
+      "domain": "Home Management",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "managing"
+      ],
+      "max_cosine": 0.516,
+      "note": "",
+      "question": "What is your preferred method for managing household chores and cleaning schedules?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.516,
+          "entry_id": "lb_00356",
+          "text": "User's housekeeper manages the evening routine for their children."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4325,
+          "entry_id": "lb_00036",
+          "text": "User employs a housekeeper who manages the household but does not provide transportation."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3427,
+          "entry_id": "lb_00126",
+          "text": "User built systems to avoid work travel in order to care for her young children."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3387,
+          "entry_id": "lb_00235",
+          "text": "User is managing a contractor relationship with a focus on improving quality control through formal protocols like checklists."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3141,
+          "entry_id": "lb_00360",
+          "text": "User leaves notes on the kitchen counter for their boys before leaving for work"
+        }
+      ],
+      "why_absent": "No information about household routines or cleaning habits is stored."
+    },
+    {
+      "domain": "Personal Development",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "focus",
+        "you"
+      ],
+      "max_cosine": 0.4032,
+      "note": "",
+      "question": "Have you ever taken any cooking classes, and if so, what cuisine did you focus on?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.4032,
+          "entry_id": "lb_00275",
+          "text": "User prefers refined cuisine such as modern Arabic, Japanese, or contemporary European."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3359,
+          "entry_id": "lb_00278",
+          "text": "User prefers to have client dinners at restaurants with excellent ambiance and refined cuisine such as Modern Arabic, Japanese, or contemporary European."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2875,
+          "entry_id": "lb_00283",
+          "text": "User prefers Japanese dining rooms for their discipline in spatial design, negative space, restraint, and elevation of single materials or objects."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2702,
+          "entry_id": "lb_00276",
+          "text": "User appreciates Japanese dining rooms for their discipline in spatial design, negative space, restraint, and elevation of a single material or object."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2491,
+          "entry_id": "lb_00284",
+          "text": "User treats dinner reservations with intentionality similar to material specification, using every choice to construct a narrative for clients."
+        }
+      ],
+      "why_absent": "No records of cooking skills or culinary education are available."
+    },
+    {
+      "domain": "Language Skills",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "arabic",
+        "you"
+      ],
+      "max_cosine": 0.3389,
+      "note": "",
+      "question": "What languages do you speak besides Arabic, and how did you learn them?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3389,
+          "entry_id": "lb_00303",
+          "text": "User is interested in Arabic calligraphy as a design element"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3093,
+          "entry_id": "lb_00305",
+          "text": "User is interested in using Arabic calligraphy as a design element in interiors."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2879,
+          "entry_id": "lb_00306",
+          "text": "User prefers to use Arabic poetry, especially classical forms, rather than Quranic scripture in design."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2657,
+          "entry_id": "lb_00034",
+          "text": "User has two sons named Omar (14 years old) and Khalid (11 years old)."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2621,
+          "entry_id": "lb_00119",
+          "text": "User has two sons named Omar and Khalid, aged fourteen and eleven respectively."
+        }
+      ],
+      "why_absent": "No data on language proficiency or language learning history is stored."
+    },
+    {
+      "domain": "Pets and Animals",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "kind",
+        "you"
+      ],
+      "max_cosine": 0.2409,
+      "note": "",
+      "question": "What kind of pets have you owned, and what are their names?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2409,
+          "entry_id": "lb_00050",
+          "text": "User has two sons named Omar and Khalid, aged fourteen and eleven respectively."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2409,
+          "entry_id": "lb_00119",
+          "text": "User has two sons named Omar and Khalid, aged fourteen and eleven respectively."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2351,
+          "entry_id": "lb_00037",
+          "text": "User has two boys named Omar and Khalid, aged fourteen and eleven respectively."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2316,
+          "entry_id": "lb_00128",
+          "text": "User has two sons named Omar and Khalid who are fourteen and eleven years old respectively."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2284,
+          "entry_id": "lb_00034",
+          "text": "User has two sons named Omar (14 years old) and Khalid (11 years old)."
+        }
+      ],
+      "why_absent": "No information about pets or animal companions is included."
+    }
+  ],
+  "threshold": 0.295
+}

@@ -1,0 +1,694 @@
+{
+  "meta": {
+    "adjudication": {
+      "criteria": {
+        "EXPIRY": "An expiry obligation exists only when a one-off event with a fixed date has passed and nothing in the record renews, recurs, or persists past that date. Recurring events, standing policies, and open-ended provisions are not expiry candidates under any intent.",
+        "RETRACTION": "A retraction obligation exists only when the record states a specific, cancellable plan or commitment held by the user, such that a later cancellation of that plan makes the record wrong to surface under UPCOMING intent. Recurring commitments, completed history, third-party facts, and standing dispositions are not retraction candidates.",
+        "SUPERSESSION": "A supersession obligation exists only when the record asserts a single current value of a single-valued attribute of the user or their immediate circle, such that a later replacement value makes the old value no longer licensed under CURRENT-STATE intent. Multi-valued or accumulating attributes, historical statements, and records asserting an absence are not supersession candidates."
+      },
+      "no_api_calls": true,
+      "note": "The criterion for each class was written BEFORE its verdicts. Expiry was adjudicated exhaustively over the whole candidate pool of 46, in persona order, blind to which members of the first draw survived. Retraction and supersession pools are far larger (1590 and 3347) and are adjudicated on every drawn candidate rather than exhaustively; that asymmetry is disclosed rather than hidden, and its reason is that the expiry pool is both small and the pool in which the failure mode was found.",
+      "prior_art": "paper_v2.tex:1046 and the Appendix E ledger row at :1137 record that the non-intent-conditional expiry route achieved 20 percent precision, which forced the intent-conditioned definition. This adjudication handles the same known failure mode before freeze rather than after.",
+      "verdict_values": [
+        "ELIGIBLE",
+        "INELIGIBLE"
+      ],
+      "written_before_any_label_index_or_score": true
+    },
+    "candidate_census": {
+      "EXPIRY": {
+        "personas_with_candidate": 23,
+        "total_candidates": 46
+      },
+      "RETRACTION": {
+        "personas_with_candidate": 40,
+        "total_candidates": 1590
+      },
+      "SUPERSESSION": {
+        "personas_with_candidate": 40,
+        "total_candidates": 3347
+      }
+    },
+    "class_intent": {
+      "EXPIRY": "UPCOMING",
+      "RETRACTION": "UPCOMING",
+      "SUPERSESSION": "CURRENT-STATE"
+    },
+    "class_order_scarcity_first": [
+      "EXPIRY",
+      "RETRACTION",
+      "SUPERSESSION"
+    ],
+    "exp_cats": [
+      "LOGISTICAL_CONTEXT",
+      "OBLIGATIONS"
+    ],
+    "min_text_tokens": 6,
+    "no_api_calls": true,
+    "per_class": 10,
+    "ret_cats": [
+      "PROJECTS_ENDEAVORS"
+    ],
+    "seed": 42,
+    "sup_cats": [
+      "FINANCIAL_MATERIAL",
+      "HEALTH_WELLBEING",
+      "HOBBIES_RECREATION",
+      "IDENTITY_SELF_CONCEPT",
+      "INTELLECTUAL_INTERESTS",
+      "PREFERENCES_HABITS"
+    ]
+  },
+  "pairs": [
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "One survey flight on 4 June 2026; the assignment does not recur.",
+      "category": "LOGISTICAL_CONTEXT",
+      "created_at": "2026-01-22T00:00:00+00:00",
+      "cutoff": "2026-05-05T00:00:00+00:00",
+      "entry_id": "lb_00273",
+      "entry_text": "User will fly a Bell 206 helicopter from the Inuvik base for the survey on June 4, 2026.",
+      "event_time": "2026-06-04T00:00:00+00:00",
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 1,
+      "pair_id": "cf:billy:project_aircraft:aerial_wildlife_survey",
+      "persona": "billy",
+      "slot_key": [
+        "user",
+        "project_aircraft:aerial_wildlife_survey"
+      ],
+      "source_session": 28,
+      "state": "EXPIRY",
+      "t_now": "2026-05-19T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "One coaching responsibility for a tournament on a stated date.",
+      "category": "OBLIGATIONS",
+      "created_at": "2026-01-10T00:00:00+00:00",
+      "cutoff": "2026-03-23T00:00:00+00:00",
+      "entry_id": "lb_00496",
+      "entry_text": "User has a coaching responsibility for a debate tournament on May 9th.",
+      "event_time": "2026-05-09T00:00:00+00:00",
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 3,
+      "pair_id": "cf:david:coaching_event_date",
+      "persona": "david",
+      "slot_key": [
+        "user",
+        "coaching_event_date"
+      ],
+      "source_session": 29,
+      "state": "EXPIRY",
+      "t_now": "2026-04-06T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A single wedding in a stated window; it does not recur.",
+      "category": "OBLIGATIONS",
+      "created_at": "2026-01-08T00:00:00+00:00",
+      "cutoff": "2026-03-20T00:00:00+00:00",
+      "entry_id": "lb_00488",
+      "entry_text": "User has a wedding timeline around early to mid October.",
+      "event_time": "2026-10-15T00:00:00+00:00",
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 1,
+      "pair_id": "cf:elena:event:wedding_timeline",
+      "persona": "elena",
+      "slot_key": [
+        "user",
+        "event:wedding_timeline"
+      ],
+      "source_session": 29,
+      "state": "EXPIRY",
+      "t_now": "2026-04-03T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "Named supplier meetings on stated April dates during one trade fair.",
+      "category": "LOGISTICAL_CONTEXT",
+      "created_at": "2025-12-08T00:00:00+00:00",
+      "cutoff": "2026-02-15T00:00:00+00:00",
+      "entry_id": "lb_00393",
+      "entry_text": "User has scheduled supplier meetings in Milan and nearby areas during Salone del Mobile 2026: lighting manufacturer factory visit in Brianza on April 8th, terrazzo studio meeting at their stand on April 10th, and German bathroom fittings showroom visit in Brera on April 9th.",
+      "event_time": "2026-04-07T00:00:00+00:00",
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 2,
+      "pair_id": "cf:fatima:trip_schedule:salone_del_mobile_2026",
+      "persona": "fatima",
+      "slot_key": [
+        "user",
+        "trip_schedule:salone_del_mobile_2026"
+      ],
+      "source_session": 30,
+      "state": "EXPIRY",
+      "t_now": "2026-03-01T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "One graduation party being planned for a stated month.",
+      "category": "OBLIGATIONS",
+      "created_at": "2025-10-15T00:00:00+00:00",
+      "cutoff": "2026-04-27T00:00:00+00:00",
+      "entry_id": "lb_00235",
+      "entry_text": "User is planning a party for Kayla's graduation next June.",
+      "event_time": "2026-06-01T00:00:00+00:00",
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 4,
+      "pair_id": "cf:marcus:event:Kayla_graduation_party",
+      "persona": "marcus",
+      "slot_key": [
+        "user",
+        "event:Kayla_graduation_party"
+      ],
+      "source_session": 28,
+      "state": "EXPIRY",
+      "t_now": "2026-05-11T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "Transport arrangements for one graduation ceremony on a stated date.",
+      "category": "LOGISTICAL_CONTEXT",
+      "created_at": "2026-03-18T00:00:00+00:00",
+      "cutoff": "2026-05-01T00:00:00+00:00",
+      "entry_id": "lb_00343",
+      "entry_text": "User is concerned about transportation logistics for their nan to be dropped right at the door for the graduation ceremony.",
+      "event_time": "2026-07-01T00:00:00+00:00",
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 2,
+      "pair_id": "cf:marley:event_transportation",
+      "persona": "marley",
+      "slot_key": [
+        "user",
+        "event_transportation"
+      ],
+      "source_session": 31,
+      "state": "EXPIRY",
+      "t_now": "2026-05-15T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "Preparation for the specific 12 September 2026 sitting; that preparation does not survive the date.",
+      "category": "OBLIGATIONS",
+      "created_at": "2026-01-10T00:00:00+00:00",
+      "cutoff": "2026-04-22T00:00:00+00:00",
+      "entry_id": "lb_00429",
+      "entry_text": "User has to prepare for the barber trade guild annual meeting on September 12, 2026",
+      "event_time": "2026-09-12T00:00:00+00:00",
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 2,
+      "pair_id": "cf:mehmet:preparation:barber_trade_guild_annual_meeting",
+      "persona": "mehmet",
+      "slot_key": [
+        "user",
+        "preparation:barber_trade_guild_annual_meeting"
+      ],
+      "source_session": 29,
+      "state": "EXPIRY",
+      "t_now": "2026-05-06T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "One submission deadline in early June 2026; it does not recur within the record.",
+      "category": "OBLIGATIONS",
+      "created_at": "2025-11-28T00:00:00+00:00",
+      "cutoff": "2026-05-15T00:00:00+00:00",
+      "entry_id": "lb_00324",
+      "entry_text": "User has a hard deadline in early June 2026 for submitting a paper to NeurIPS.",
+      "event_time": "2026-06-01T00:00:00+00:00",
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 1,
+      "pair_id": "cf:priya:project_deadline:NeurIPS_paper",
+      "persona": "priya",
+      "slot_key": [
+        "user",
+        "project_deadline:NeurIPS_paper"
+      ],
+      "source_session": 28,
+      "state": "EXPIRY",
+      "t_now": "2026-05-29T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A toast planned for one dated family gathering.",
+      "category": "OBLIGATIONS",
+      "created_at": "2026-04-22T00:00:00+00:00",
+      "cutoff": "2026-05-06T00:00:00+00:00",
+      "entry_id": "lb_00522",
+      "entry_text": "User plans to give a short toast about gratitude at a family gathering on July 28th.",
+      "event_time": "2026-07-28T00:00:00+00:00",
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 3,
+      "pair_id": "cf:rosa:event:toast_planning",
+      "persona": "rosa",
+      "slot_key": [
+        "user",
+        "event:toast_planning"
+      ],
+      "source_session": 33,
+      "state": "EXPIRY",
+      "t_now": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A guest count for one wedding on a stated date.",
+      "category": "OBLIGATIONS",
+      "created_at": "2025-12-08T00:00:00+00:00",
+      "cutoff": "2026-04-18T00:00:00+00:00",
+      "entry_id": "lb_00468",
+      "entry_text": "User expects about 150 guests at Duc's wedding, including family, neighbors, and friends from both sides",
+      "event_time": "2026-07-12T00:00:00+00:00",
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 3,
+      "pair_id": "cf:thanh:event_guest_count:duc_wedding",
+      "persona": "thanh",
+      "slot_key": [
+        "user",
+        "event_guest_count:duc_wedding"
+      ],
+      "source_session": 27,
+      "state": "EXPIRY",
+      "t_now": "2026-05-02T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A specific prospective enrolment in a named postgraduate diploma; abandoning it makes the study plan wrong to surface as upcoming.",
+      "category": "PROJECTS_ENDEAVORS",
+      "created_at": "2025-03-05T00:00:00+00:00",
+      "cutoff": "2026-05-01T00:00:00+00:00",
+      "entry_id": "lb_00125",
+      "entry_text": "User is considering doing a postgraduate diploma in complex maternal care through the University of Otago",
+      "event_time": null,
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 32,
+      "pair_id": "cf:aroha:project:postgraduate_study",
+      "persona": "aroha",
+      "slot_key": [
+        "user",
+        "project:postgraduate_study"
+      ],
+      "source_session": 9,
+      "state": "RETRACTION",
+      "t_now": "2026-05-15T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A specific book project underway; abandoning it makes the project wrong to surface as current work.",
+      "category": "PROJECTS_ENDEAVORS",
+      "created_at": "2025-04-01T00:00:00+00:00",
+      "cutoff": "2026-03-12T00:00:00+00:00",
+      "entry_id": "lb_00156",
+      "entry_text": "User is writing a book from the perspective of a chaplain witnessing death and ethical tensions around storytelling.",
+      "event_time": null,
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 21,
+      "pair_id": "cf:diane:project:chaplain_book",
+      "persona": "diane",
+      "slot_key": [
+        "user",
+        "project:chaplain_book"
+      ],
+      "source_session": 11,
+      "state": "RETRACTION",
+      "t_now": "2026-03-26T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A specific prospective client-portal project; abandoning it makes the plan wrong to surface as upcoming.",
+      "category": "PROJECTS_ENDEAVORS",
+      "created_at": "2024-12-02T00:00:00+00:00",
+      "cutoff": "2026-03-24T00:00:00+00:00",
+      "entry_id": "lb_00027",
+      "entry_text": "User wants to professionalize client communication by setting up a client portal with a clear boundary between client-facing infrastructure and personal systems.",
+      "event_time": null,
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 72,
+      "pair_id": "cf:dmitri:project:client_portal",
+      "persona": "dmitri",
+      "slot_key": [
+        "user",
+        "project:client_portal"
+      ],
+      "source_session": 3,
+      "state": "RETRACTION",
+      "t_now": "2026-04-07T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A specific preparation task underway for subcontractor work, which can be abandoned.",
+      "category": "PROJECTS_ENDEAVORS",
+      "created_at": "2025-02-14T00:00:00+00:00",
+      "cutoff": "2026-01-24T00:00:00+00:00",
+      "entry_id": "lb_00120",
+      "entry_text": "User is preparing case studies for freelance subcontractor work",
+      "event_time": null,
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 77,
+      "pair_id": "cf:kenji:project:case_studies",
+      "persona": "kenji",
+      "slot_key": [
+        "user",
+        "project:case_studies"
+      ],
+      "source_session": 9,
+      "state": "RETRACTION",
+      "t_now": "2026-02-07T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A specific ongoing honours thesis that can be abandoned, which would make the topic wrong to surface as current work.",
+      "category": "PROJECTS_ENDEAVORS",
+      "created_at": "2024-11-05T00:00:00+00:00",
+      "cutoff": "2026-03-19T00:00:00+00:00",
+      "entry_id": "lb_00001",
+      "entry_text": "User is doing an honours thesis on microplastic contamination in Port Phillip Bay, focusing on sampling water column and sediment to quantify concentrations and polymer types.",
+      "event_time": null,
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 24,
+      "pair_id": "cf:lily:project:honours_thesis_microplastics",
+      "persona": "lily",
+      "slot_key": [
+        "user",
+        "project:honours_thesis_microplastics"
+      ],
+      "source_session": 1,
+      "state": "RETRACTION",
+      "t_now": "2026-04-02T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A specific planned reorganisation of the patrol schedule; abandoning it makes the record wrong to surface as upcoming.",
+      "category": "PROJECTS_ENDEAVORS",
+      "created_at": "2024-11-05T00:00:00+00:00",
+      "cutoff": "2026-04-27T00:00:00+00:00",
+      "entry_id": "lb_00009",
+      "entry_text": "User plans to reorganize patrol schedule by splitting the East Alligator River corridor into two sections: upper stretch accessible from the north track and lower stretch accessible by boat during high water.",
+      "event_time": null,
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 43,
+      "pair_id": "cf:mirri:project:patrol_schedule_reorganization",
+      "persona": "mirri",
+      "slot_key": [
+        "user",
+        "project:patrol_schedule_reorganization"
+      ],
+      "source_session": 1,
+      "state": "RETRACTION",
+      "t_now": "2026-05-11T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A specific prospective sauce for a named dish; dropping it makes the plan wrong to surface as upcoming.",
+      "category": "PROJECTS_ENDEAVORS",
+      "created_at": "2025-02-25T00:00:00+00:00",
+      "cutoff": "2026-03-23T00:00:00+00:00",
+      "entry_id": "lb_00161",
+      "entry_text": "User plans to make a red wine jus sauce with juniper and a touch of dark chocolate for the venison dish.",
+      "event_time": null,
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 39,
+      "pair_id": "cf:nadia:project:winter_menu_sauce",
+      "persona": "nadia",
+      "slot_key": [
+        "user",
+        "project:winter_menu_sauce"
+      ],
+      "source_session": 10,
+      "state": "RETRACTION",
+      "t_now": "2026-04-06T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A specific prospective post with a stated title; dropping it makes the plan wrong to surface as upcoming.",
+      "category": "PROJECTS_ENDEAVORS",
+      "created_at": "2024-11-18T00:00:00+00:00",
+      "cutoff": "2026-02-15T00:00:00+00:00",
+      "entry_id": "lb_00037",
+      "entry_text": "User is considering making an Instagram post titled 'from basket to Instagram' to showcase the three generations' evolution of their khao man gai business.",
+      "event_time": null,
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 107,
+      "pair_id": "cf:pan:project:instagram_post_idea",
+      "persona": "pan",
+      "slot_key": [
+        "user",
+        "project:instagram_post_idea"
+      ],
+      "source_session": 2,
+      "state": "RETRACTION",
+      "t_now": "2026-03-01T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A specific invitation the user has accepted and can withdraw from, which would make the chapter wrong to surface as upcoming.",
+      "category": "PROJECTS_ENDEAVORS",
+      "created_at": "2024-11-05T00:00:00+00:00",
+      "cutoff": "2026-02-06T00:00:00+00:00",
+      "entry_id": "lb_00010",
+      "entry_text": "User has been asked to contribute a chapter to a textbook on cranial approaches.",
+      "event_time": null,
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 34,
+      "pair_id": "cf:samuel:project:cranial_approaches_textbook_chapter",
+      "persona": "samuel",
+      "slot_key": [
+        "user",
+        "project:cranial_approaches_textbook_chapter"
+      ],
+      "source_session": 1,
+      "state": "RETRACTION",
+      "t_now": "2026-02-20T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "States a specific plan to rejoin the association, which can be dropped.",
+      "category": "PROJECTS_ENDEAVORS",
+      "created_at": "2025-02-04T00:00:00+00:00",
+      "cutoff": "2026-03-10T00:00:00+00:00",
+      "entry_id": "lb_00098",
+      "entry_text": "User let their membership in the Gloucestershire Beekeepers association lapse a few years ago but plans to rejoin",
+      "event_time": null,
+      "intent": "UPCOMING",
+      "n_candidates_this_persona_class": 39,
+      "pair_id": "cf:tom:membership:gloucestershire_beekeepers",
+      "persona": "tom",
+      "slot_key": [
+        "user",
+        "membership:gloucestershire_beekeepers"
+      ],
+      "source_session": 7,
+      "state": "RETRACTION",
+      "t_now": "2026-03-24T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "Asserts a current transient health state, explicitly marked current, which a later resolution replaces.",
+      "category": "HEALTH_WELLBEING",
+      "created_at": "2024-11-12T00:00:00+00:00",
+      "cutoff": "2026-05-12T00:00:00+00:00",
+      "entry_id": "lb_00007",
+      "entry_text": "User is currently experiencing extreme fatigue due to long working hours during busy season.",
+      "event_time": null,
+      "intent": "CURRENT-STATE",
+      "n_candidates_this_persona_class": 82,
+      "pair_id": "cf:aisha:health_condition:fatigue",
+      "persona": "aisha",
+      "slot_key": [
+        "user",
+        "health_condition:fatigue"
+      ],
+      "source_session": 1,
+      "state": "SUPERSESSION",
+      "t_now": "2026-05-26T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "Asserts one current seasonal flare pattern, which a later change in that pattern replaces.",
+      "category": "HEALTH_WELLBEING",
+      "created_at": "2024-12-16T00:00:00+00:00",
+      "cutoff": "2026-04-21T00:00:00+00:00",
+      "entry_id": "lb_00015",
+      "entry_text": "User experiences more frequent endometriosis flare-ups from December through February due to cold weather and stress.",
+      "event_time": null,
+      "intent": "CURRENT-STATE",
+      "n_candidates_this_persona_class": 57,
+      "pair_id": "cf:amara:health_condition:endometriosis_flare_season",
+      "persona": "amara",
+      "slot_key": [
+        "user",
+        "health_condition:endometriosis_flare_season"
+      ],
+      "source_session": 4,
+      "state": "SUPERSESSION",
+      "t_now": "2026-05-05T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "The vehicle carries one name; a later renaming replaces it.",
+      "category": "IDENTITY_SELF_CONCEPT",
+      "created_at": "2024-11-05T00:00:00+00:00",
+      "cutoff": "2026-04-18T00:00:00+00:00",
+      "entry_id": "lb_00006",
+      "entry_text": "User named their truck Marie after their grandmother from Haiti.",
+      "event_time": null,
+      "intent": "CURRENT-STATE",
+      "n_candidates_this_persona_class": 92,
+      "pair_id": "cf:jerome:vehicle_name",
+      "persona": "jerome",
+      "slot_key": [
+        "user",
+        "vehicle_name"
+      ],
+      "source_session": 1,
+      "state": "SUPERSESSION",
+      "t_now": "2026-05-02T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A single-valued price per bag that a later price replaces.",
+      "category": "FINANCIAL_MATERIAL",
+      "created_at": "2024-11-10T00:00:00+00:00",
+      "cutoff": "2026-05-08T00:00:00+00:00",
+      "entry_id": "lb_00010",
+      "entry_text": "User receives 800 cedis per 64kg bag of cocoa.",
+      "event_time": null,
+      "intent": "CURRENT-STATE",
+      "n_candidates_this_persona_class": 54,
+      "pair_id": "cf:kofi:price_per_bag",
+      "persona": "kofi",
+      "slot_key": [
+        "user",
+        "price_per_bag"
+      ],
+      "source_session": 1,
+      "state": "SUPERSESSION",
+      "t_now": "2026-05-22T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "Asserts a single current felt state about the user's work, which a later statement of alignment replaces.",
+      "category": "IDENTITY_SELF_CONCEPT",
+      "created_at": "2024-11-05T00:00:00+00:00",
+      "cutoff": "2026-04-25T00:00:00+00:00",
+      "entry_id": "lb_00003",
+      "entry_text": "User feels a disconnect between their work in high-end residential design and their personal passion or soul.",
+      "event_time": null,
+      "intent": "CURRENT-STATE",
+      "n_candidates_this_persona_class": 96,
+      "pair_id": "cf:leila:work_passion_discrepancy",
+      "persona": "leila",
+      "slot_key": [
+        "user",
+        "work_passion_discrepancy"
+      ],
+      "source_session": 1,
+      "state": "SUPERSESSION",
+      "t_now": "2026-05-09T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A single-valued cabinet-style preference held by the partner, an immediate-circle member.",
+      "category": "PREFERENCES_HABITS",
+      "created_at": "2024-11-18T00:00:00+00:00",
+      "cutoff": "2026-05-09T00:00:00+00:00",
+      "entry_id": "lb_00017",
+      "entry_text": "User's partner wants white shaker style kitchen cabinets.",
+      "event_time": null,
+      "intent": "CURRENT-STATE",
+      "n_candidates_this_persona_class": 64,
+      "pair_id": "cf:patrick:partner_preference:kitchen_cabinets_style",
+      "persona": "patrick",
+      "slot_key": [
+        "user",
+        "partner_preference:kitchen_cabinets_style"
+      ],
+      "source_session": 2,
+      "state": "SUPERSESSION",
+      "t_now": "2026-05-23T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A single-valued gift budget agreed for one occasion, which a later figure replaces.",
+      "category": "FINANCIAL_MATERIAL",
+      "created_at": "2024-11-05T00:00:00+00:00",
+      "cutoff": "2026-04-09T00:00:00+00:00",
+      "entry_id": "lb_00012",
+      "entry_text": "User and Simran have set a budget of about 80 pounds for Arjun's birthday gift.",
+      "event_time": null,
+      "intent": "CURRENT-STATE",
+      "n_candidates_this_persona_class": 65,
+      "pair_id": "cf:raj:budget:arjun_birthday_gift",
+      "persona": "raj",
+      "slot_key": [
+        "user",
+        "budget:arjun_birthday_gift"
+      ],
+      "source_session": 1,
+      "state": "SUPERSESSION",
+      "t_now": "2026-04-23T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A single-valued gift budget that a later figure replaces.",
+      "category": "FINANCIAL_MATERIAL",
+      "created_at": "2024-11-19T00:00:00+00:00",
+      "cutoff": "2026-05-02T00:00:00+00:00",
+      "entry_id": "lb_00014",
+      "entry_text": "User's budget for gifts is around 1500 kronor (approximately 140 euros)",
+      "event_time": null,
+      "intent": "CURRENT-STATE",
+      "n_candidates_this_persona_class": 131,
+      "pair_id": "cf:saga:gift_budget",
+      "persona": "saga",
+      "slot_key": [
+        "user",
+        "gift_budget"
+      ],
+      "source_session": 2,
+      "state": "SUPERSESSION",
+      "t_now": "2026-05-16T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "A single-valued software preference that a later tool switch replaces.",
+      "category": "PREFERENCES_HABITS",
+      "created_at": "2024-11-05T00:00:00+00:00",
+      "cutoff": "2026-04-25T00:00:00+00:00",
+      "entry_id": "lb_00003",
+      "entry_text": "User uses Excel mostly for work-related data management",
+      "event_time": null,
+      "intent": "CURRENT-STATE",
+      "n_candidates_this_persona_class": 75,
+      "pair_id": "cf:valentina:software_preference:excel",
+      "persona": "valentina",
+      "slot_key": [
+        "user",
+        "software_preference:excel"
+      ],
+      "source_session": 1,
+      "state": "SUPERSESSION",
+      "t_now": "2026-05-09T00:00:00+00:00"
+    },
+    {
+      "adjudication": "ELIGIBLE",
+      "adjudication_reason": "Asserts one namesake for the user's design philosophy, a single-valued attribute a later renaming replaces.",
+      "category": "IDENTITY_SELF_CONCEPT",
+      "created_at": "2024-11-29T00:00:00+00:00",
+      "cutoff": "2026-04-26T00:00:00+00:00",
+      "entry_id": "lb_00044",
+      "entry_text": "User named their whole design philosophy around their grandmother Haboba Zahra.",
+      "event_time": null,
+      "intent": "CURRENT-STATE",
+      "n_candidates_this_persona_class": 84,
+      "pair_id": "cf:zara:design_philosophy_inspiration",
+      "persona": "zara",
+      "slot_key": [
+        "user",
+        "design_philosophy_inspiration"
+      ],
+      "source_session": 3,
+      "state": "SUPERSESSION",
+      "t_now": "2026-05-10T00:00:00+00:00"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+ "BLIND": {
+  "cache_hit_token_share": 0.0,
+  "calls": 2000,
+  "mean_cached_tokens": 0.0,
+  "mean_completion_tokens": 26.0,
+  "mean_prompt_tokens": 479.4775,
+  "usd_billed_per_1M_calls": 233.391,
+  "usd_billed_per_call": 0.000233391,
+  "usd_billed_total": 0.46678200000000003
+ },
+ "INDEXED": {
+  "cache_hit_token_share": 0.6434628085909696,
+  "calls": 10000,
+  "mean_cached_tokens": 999.1168,
+  "mean_completion_tokens": 24.3613,
+  "mean_prompt_tokens": 1552.7188,
+  "usd_billed_per_1M_calls": 360.33056,
+  "usd_billed_per_call": 0.00036033056,
+  "usd_billed_total": 3.6033056
+ },
+ "ordering_confirmed_indexed_lt_blind": false,
+ "prices_pinned": {
+  "cached_input": 0.1,
+  "input": 0.4,
+  "output": 1.6,
+  "source": "developers.openai.com/api/docs/pricing, 2026-08-24"
+ },
+ "registration": "ADDENDUM_R74 SX3 @ 35f8416a55"
+}

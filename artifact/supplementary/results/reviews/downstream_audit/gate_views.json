@@ -1,0 +1,29 @@
+{
+ "age_unknown": 0,
+ "bad_len": 0,
+ "bad_parse": 0,
+ "n_lines": 26213,
+ "n_views": 4627,
+ "ok": true,
+ "plus_more_fragments": 0,
+ "present_view_identity": {
+  "n_present": 174,
+  "oracle_sha_equals_always": 174,
+  "present_views_differing_from_always_by_policy": {
+   "ALWAYS": 0,
+   "LOOKUP": 6,
+   "LOOKUP-ALL": 6,
+   "LOOKUP-LIT": 31,
+   "MODEL": 9,
+   "MODEL-ALL": 9,
+   "ORACLE": 0
+  }
+ },
+ "render_lock_failures": 0,
+ "tag_vocabulary": {
+  "active": 21616,
+  "expired": 2390,
+  "retracted": 192,
+  "superseded": 2015
+ }
+}

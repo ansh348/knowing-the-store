@@ -1,0 +1,4029 @@
+{
+  "pooled": {
+    "personas": 40,
+    "edges": 9189,
+    "states": {
+      "superseded": 130,
+      "expired": 677,
+      "active": 8382
+    },
+    "manifest_supersession_events": 109,
+    "buckets": {
+      "EXTRACTION_MISS": 77,
+      "STALE_ACTIVE": 12,
+      "RECOVERED": 20
+    },
+    "recall_tau_0.80": 0.1835,
+    "recall_by_band": {
+      "0.5": [
+        57,
+        109
+      ],
+      "0.75": [
+        35,
+        109
+      ],
+      "0.8": [
+        20,
+        109
+      ]
+    },
+    "invalidated_edges": 807,
+    "explained_invalidated_edges": 35,
+    "precision": 0.0434,
+    "user_entity_nodes_per_persona": {
+      "2": 7,
+      "3": 32,
+      "4": 1
+    },
+    "valid_at_null_edges": 784,
+    "edges_invalid_before_valid": 2,
+    "manifest_facts": 565,
+    "manifest_facts_extracted": 134,
+    "manifest_fact_recall": 0.2372,
+    "manifest_fact_recall_by_kind": {
+      "expiring": [
+        50,
+        126
+      ],
+      "retraction_original": [
+        7,
+        40
+      ],
+      "stable_identity": [
+        27,
+        160
+      ],
+      "supersession_new": [
+        7,
+        121
+      ],
+      "supersession_old": [
+        43,
+        118
+      ]
+    },
+    "future_dated_edges": {
+      "aisha": {
+        "future_dated": 0,
+        "edges": 216
+      },
+      "alex": {
+        "future_dated": 1,
+        "edges": 223
+      },
+      "amara": {
+        "future_dated": 1,
+        "edges": 211
+      },
+      "aroha": {
+        "future_dated": 2,
+        "edges": 230
+      },
+      "billy": {
+        "future_dated": 6,
+        "edges": 187
+      },
+      "bruna": {
+        "future_dated": 1,
+        "edges": 288
+      },
+      "callum": {
+        "future_dated": 8,
+        "edges": 226
+      },
+      "chenoa": {
+        "future_dated": 2,
+        "edges": 245
+      },
+      "dariush": {
+        "future_dated": 3,
+        "edges": 236
+      },
+      "david": {
+        "future_dated": 1,
+        "edges": 251
+      },
+      "diane": {
+        "future_dated": 1,
+        "edges": 219
+      },
+      "dmitri": {
+        "future_dated": 8,
+        "edges": 268
+      },
+      "elena": {
+        "future_dated": 0,
+        "edges": 237
+      },
+      "fatima": {
+        "future_dated": 7,
+        "edges": 251
+      },
+      "ingrid": {
+        "future_dated": 1,
+        "edges": 274
+      },
+      "jake": {
+        "future_dated": 0,
+        "edges": 206
+      },
+      "jerome": {
+        "future_dated": 1,
+        "edges": 282
+      },
+      "joonho": {
+        "future_dated": 0,
+        "edges": 178
+      },
+      "kenji": {
+        "future_dated": 0,
+        "edges": 240
+      },
+      "kofi": {
+        "future_dated": 1,
+        "edges": 229
+      },
+      "leila": {
+        "future_dated": 0,
+        "edges": 251
+      },
+      "lily": {
+        "future_dated": 3,
+        "edges": 283
+      },
+      "marcus": {
+        "future_dated": 3,
+        "edges": 118
+      },
+      "marley": {
+        "future_dated": 4,
+        "edges": 206
+      },
+      "mehmet": {
+        "future_dated": 1,
+        "edges": 188
+      },
+      "mirri": {
+        "future_dated": 1,
+        "edges": 309
+      },
+      "nadia": {
+        "future_dated": 1,
+        "edges": 268
+      },
+      "omar": {
+        "future_dated": 0,
+        "edges": 157
+      },
+      "pan": {
+        "future_dated": 0,
+        "edges": 258
+      },
+      "patrick": {
+        "future_dated": 3,
+        "edges": 186
+      },
+      "priya": {
+        "future_dated": 1,
+        "edges": 223
+      },
+      "raj": {
+        "future_dated": 3,
+        "edges": 219
+      },
+      "rosa": {
+        "future_dated": 2,
+        "edges": 234
+      },
+      "saga": {
+        "future_dated": 1,
+        "edges": 226
+      },
+      "samuel": {
+        "future_dated": 0,
+        "edges": 240
+      },
+      "thanh": {
+        "future_dated": 2,
+        "edges": 266
+      },
+      "tom": {
+        "future_dated": 1,
+        "edges": 213
+      },
+      "valentina": {
+        "future_dated": 2,
+        "edges": 173
+      },
+      "yoli": {
+        "future_dated": 0,
+        "edges": 224
+      },
+      "zara": {
+        "future_dated": 0,
+        "edges": 250
+      }
+    },
+    "future_dated_edges_total": 72
+  },
+  "repeatability": {
+    "elena": {
+      "edges": {
+        "trial": 242,
+        "g10": 237
+      },
+      "states": {
+        "trial": {
+          "superseded": 5,
+          "active": 218,
+          "expired": 19
+        },
+        "g10": {
+          "active": 205,
+          "expired": 29,
+          "superseded": 3
+        }
+      },
+      "manifest_supersession_events": {
+        "trial": 3,
+        "g10": 3
+      },
+      "buckets": {
+        "trial": {
+          "RECOVERED": 1,
+          "EXTRACTION_MISS": 2
+        },
+        "g10": {
+          "RECOVERED": 1,
+          "EXTRACTION_MISS": 2
+        }
+      },
+      "supersession_recall": {
+        "trial": 0.3333,
+        "g10": 0.3333
+      },
+      "supersession_precision": {
+        "trial": 0.0417,
+        "g10": 0.0312
+      },
+      "believed_superseded_edges": {
+        "trial": 24,
+        "g10": 32
+      },
+      "manifest_fact_recall": {
+        "trial": 0.2,
+        "g10": 0.2
+      },
+      "distinct_attribute_names": {
+        "trial": 168,
+        "g10": 161
+      },
+      "valid_at_null_edges": {
+        "trial": 25,
+        "g10": 10
+      },
+      "edges_invalid_before_valid": {
+        "trial": 1,
+        "g10": 0
+      },
+      "user_entity_nodes": {
+        "trial": [
+          "I",
+          "Speaker",
+          "user"
+        ],
+        "g10": [
+          "I",
+          "Speaker",
+          "User"
+        ]
+      }
+    },
+    "tom": {
+      "edges": {
+        "trial": 221,
+        "g10": 213
+      },
+      "states": {
+        "trial": {
+          "superseded": 7,
+          "expired": 17,
+          "active": 197
+        },
+        "g10": {
+          "superseded": 6,
+          "expired": 34,
+          "active": 173
+        }
+      },
+      "manifest_supersession_events": {
+        "trial": 3,
+        "g10": 3
+      },
+      "buckets": {
+        "trial": {
+          "EXTRACTION_MISS": 3
+        },
+        "g10": {
+          "EXTRACTION_MISS": 2,
+          "STALE_ACTIVE": 1
+        }
+      },
+      "supersession_recall": {
+        "trial": 0.0,
+        "g10": 0.0
+      },
+      "supersession_precision": {
+        "trial": 0.0,
+        "g10": 0.0
+      },
+      "believed_superseded_edges": {
+        "trial": 24,
+        "g10": 40
+      },
+      "manifest_fact_recall": {
+        "trial": 0.2143,
+        "g10": 0.3571
+      },
+      "distinct_attribute_names": {
+        "trial": 153,
+        "g10": 151
+      },
+      "valid_at_null_edges": {
+        "trial": 28,
+        "g10": 26
+      },
+      "edges_invalid_before_valid": {
+        "trial": 0,
+        "g10": 0
+      },
+      "user_entity_nodes": {
+        "trial": [
+          "I",
+          "Speaker",
+          "user"
+        ],
+        "g10": [
+          "I",
+          "Speaker",
+          "User",
+          "user"
+        ]
+      }
+    },
+    "yoli": {
+      "edges": {
+        "trial": 222,
+        "g10": 224
+      },
+      "states": {
+        "trial": {
+          "active": 194,
+          "expired": 27,
+          "superseded": 1
+        },
+        "g10": {
+          "expired": 27,
+          "active": 195,
+          "superseded": 2
+        }
+      },
+      "manifest_supersession_events": {
+        "trial": 4,
+        "g10": 4
+      },
+      "buckets": {
+        "trial": {
+          "EXTRACTION_MISS": 2,
+          "RECOVERED": 1,
+          "STALE_ACTIVE": 1
+        },
+        "g10": {
+          "EXTRACTION_MISS": 3,
+          "RECOVERED": 1
+        }
+      },
+      "supersession_recall": {
+        "trial": 0.25,
+        "g10": 0.25
+      },
+      "supersession_precision": {
+        "trial": 0.0357,
+        "g10": 0.069
+      },
+      "believed_superseded_edges": {
+        "trial": 28,
+        "g10": 29
+      },
+      "manifest_fact_recall": {
+        "trial": 0.375,
+        "g10": 0.4375
+      },
+      "distinct_attribute_names": {
+        "trial": 160,
+        "g10": 157
+      },
+      "valid_at_null_edges": {
+        "trial": 11,
+        "g10": 12
+      },
+      "edges_invalid_before_valid": {
+        "trial": 0,
+        "g10": 0
+      },
+      "user_entity_nodes": {
+        "trial": [
+          "I",
+          "Speaker",
+          "User"
+        ],
+        "g10": [
+          "I",
+          "Speaker",
+          "user"
+        ]
+      }
+    }
+  },
+  "per_persona": {
+    "aisha": {
+      "persona": "aisha",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_aisha_g10",
+      "edges": 216,
+      "states": {
+        "superseded": 7,
+        "expired": 16,
+        "active": 193
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 2,
+        "STALE_ACTIVE": 1
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 23,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          3,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 2,
+      "manifest_fact_recall": 0.1429,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          0,
+          3
+        ]
+      },
+      "distinct_attribute_names": 144,
+      "distinct_relation_types": 144,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "lives_in_entity",
+        "works_at_entity",
+        "works_in_entity"
+      ],
+      "invalidated_names": [
+        "aims_to_obtain_position_entity",
+        "has_equipment_entity",
+        "has_neglected_entity",
+        "has_position_entity",
+        "is_flatmate_with_entity",
+        "is_sponsored_by_entity",
+        "lives_in_entity",
+        "plans_to_pursued_after_entity",
+        "preparing_for_entity",
+        "previous_flatmate_with_entity",
+        "previously_worked_in_entity",
+        "works_at_entity",
+        "works_in_division_entity",
+        "works_in_entity",
+        "works_in_environment_entity",
+        "works_in_team_entity",
+        "works_on_entity",
+        "works_out_at_entity"
+      ],
+      "valid_at_null_edges": 11
+    },
+    "alex": {
+      "persona": "alex",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_alex_g10",
+      "edges": 223,
+      "states": {
+        "active": 193,
+        "expired": 28,
+        "superseded": 2
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 3
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 30,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 1,
+      "manifest_fact_recall": 0.0714,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          0,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          0,
+          3
+        ]
+      },
+      "distinct_attribute_names": 173,
+      "distinct_relation_types": 173,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "lives_in_entity"
+      ],
+      "invalidated_names": [
+        "builds_entity",
+        "built_entity",
+        "develops_project_entity",
+        "experiences_stress_preparing_demo_entity",
+        "focuses_on_serving_entity",
+        "has_lease_expiration_date_entity",
+        "has_regular_therapy_session_with_entity",
+        "has_therapist_entity",
+        "includes_feature_entity",
+        "includes_team_size_entity",
+        "is_member_of_entity",
+        "is_responsible_for_volume_entity",
+        "is_type_of_entity",
+        "likes_for_entity",
+        "lives_in_entity",
+        "owns_entity",
+        "preparing_demo_for_entity",
+        "previously_worked_with_entity",
+        "prioritizes_over_entity",
+        "published_on_entity",
+        "supports_feature_entity",
+        "uses_ci_tool_entity",
+        "uses_entity",
+        "uses_language_entity",
+        "was_therapist_of_entity",
+        "works_with_entity"
+      ],
+      "valid_at_null_edges": 19
+    },
+    "amara": {
+      "persona": "amara",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_amara_g10",
+      "edges": 211,
+      "states": {
+        "superseded": 2,
+        "active": 200,
+        "expired": 9
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 2,
+        "STALE_ACTIVE": 1
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 11,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 15,
+      "manifest_facts_extracted": 6,
+      "manifest_fact_recall": 0.4,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          2,
+          4
+        ],
+        "retraction_original": [
+          1,
+          1
+        ],
+        "stable_identity": [
+          2,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          1,
+          3
+        ]
+      },
+      "distinct_attribute_names": 164,
+      "distinct_relation_types": 164,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "is_a_entity",
+        "works_at_entity"
+      ],
+      "invalidated_names": [
+        "considers_enrolling_in_entity",
+        "experiences_flare_ups_more_frequently_in_entity",
+        "former_tenant_of_entity",
+        "has_prior_conviction_entity",
+        "involved_in_entity",
+        "is_a_entity",
+        "is_friends_with_entity",
+        "switched_from_entity",
+        "switched_to_entity",
+        "used_as_password_manager_entity",
+        "works_at_entity"
+      ],
+      "valid_at_null_edges": 22
+    },
+    "aroha": {
+      "persona": "aroha",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_aroha_g10",
+      "edges": 230,
+      "states": {
+        "expired": 16,
+        "active": 211,
+        "superseded": 3
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 2,
+        "RECOVERED": 1
+      },
+      "supersession_recall": 0.3333,
+      "supersession_precision": 0.0526,
+      "believed_superseded_edges": 19,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          2,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ],
+        "0.8": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "Speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 4,
+      "manifest_fact_recall": 0.2857,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          2,
+          3
+        ],
+        "retraction_original": [
+          1,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          1,
+          3
+        ]
+      },
+      "distinct_attribute_names": 179,
+      "distinct_relation_types": 179,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "co_parents_with_entity",
+        "lives_near_entity"
+      ],
+      "invalidated_names": [
+        "attends_births_at_entity",
+        "co_parents_with_entity",
+        "covers_entity",
+        "drives_entity",
+        "goes_to_entity",
+        "lives_in_entity",
+        "lives_near_entity",
+        "lives_with_weekends_entity",
+        "planned_to_pursue_entity",
+        "previously_owned_entity",
+        "requires_completion_of_continuing_professional_development_entity",
+        "requires_documentation_of_cpd_activities_entity",
+        "stopped_practicing_entity",
+        "used_to_spend_more_on_fuel_than_entity",
+        "visits_in_context_of_school_camp_entity"
+      ],
+      "valid_at_null_edges": 21
+    },
+    "billy": {
+      "persona": "billy",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_billy_g10",
+      "edges": 187,
+      "states": {
+        "active": 180,
+        "superseded": 2,
+        "expired": 5
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 3
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 7,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {},
+      "user_entity_nodes": [
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 0,
+      "manifest_fact_recall": 0.0,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          0,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          0,
+          3
+        ]
+      },
+      "distinct_attribute_names": 142,
+      "distinct_relation_types": 142,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "uses_entity"
+      ],
+      "invalidated_names": [
+        "formerly_ran_entity",
+        "has_experience_traveling_entity",
+        "is_located_at_entity",
+        "is_responsible_for_entity",
+        "previous_ownership_entity",
+        "uses_entity"
+      ],
+      "valid_at_null_edges": 11
+    },
+    "bruna": {
+      "persona": "bruna",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_bruna_g10",
+      "edges": 288,
+      "states": {
+        "expired": 18,
+        "active": 258,
+        "superseded": 12
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 3
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 30,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          2,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 5,
+      "manifest_fact_recall": 0.3571,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          2,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          3,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          0,
+          3
+        ]
+      },
+      "distinct_attribute_names": 176,
+      "distinct_relation_types": 176,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "is_a_entity",
+        "lives_in_entity",
+        "works_at_entity"
+      ],
+      "invalidated_names": [
+        "believes_in_entity",
+        "enrolled_in_entity",
+        "has_nationality_entity",
+        "has_not_seen_since_entity",
+        "is_a_entity",
+        "left_entity",
+        "lives_in_entity",
+        "missed_entity",
+        "open_to_treatment_modality_entity",
+        "operates_in_entity",
+        "origin_entity",
+        "pays_for_entity",
+        "plans_to_live_permanently_in_entity",
+        "visits_entity",
+        "worked_in_entity",
+        "worked_under_entity",
+        "works_at_entity",
+        "works_with_entity"
+      ],
+      "valid_at_null_edges": 10
+    },
+    "callum": {
+      "persona": "callum",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_callum_g10",
+      "edges": 226,
+      "states": {
+        "active": 195,
+        "expired": 27,
+        "superseded": 4
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 2,
+        "RECOVERED": 1
+      },
+      "supersession_recall": 0.3333,
+      "supersession_precision": 0.0323,
+      "believed_superseded_edges": 31,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          2,
+          3
+        ],
+        "0.75": [
+          2,
+          3
+        ],
+        "0.8": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 3,
+      "manifest_fact_recall": 0.2143,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          0,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          2,
+          3
+        ]
+      },
+      "distinct_attribute_names": 164,
+      "distinct_relation_types": 164,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "owns_entity",
+        "works_in_entity",
+        "works_on_entity"
+      ],
+      "invalidated_names": [
+        "attending_entity",
+        "chooses_instead_of_entity",
+        "considering_enrollment_in_entity",
+        "covers_area_entity",
+        "driving_to_entity",
+        "expected_to_receive_gift_from_entity",
+        "expects_attendance_entity",
+        "includes_topic_entity",
+        "left_entity",
+        "located_near_entity",
+        "member_of_entity",
+        "owns_entity",
+        "participates_in_entity",
+        "paying_for_entity",
+        "performs_entity",
+        "plays_as_entity",
+        "plays_entity",
+        "plays_for_entity",
+        "plays_in_entity",
+        "previously_owned_entity",
+        "runs_entity",
+        "specializes_in_entity",
+        "staying_at_friends_flat_entity",
+        "tests_for_tb_entity",
+        "works_for_entity",
+        "works_in_entity",
+        "works_in_location_entity",
+        "works_on_entity"
+      ],
+      "valid_at_null_edges": 10
+    },
+    "chenoa": {
+      "persona": "chenoa",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_chenoa_g10",
+      "edges": 245,
+      "states": {
+        "active": 233,
+        "expired": 10,
+        "superseded": 2
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 2,
+        "RECOVERED": 1
+      },
+      "supersession_recall": 0.3333,
+      "supersession_precision": 0.0833,
+      "believed_superseded_edges": 12,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ],
+        "0.8": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 2,
+      "manifest_fact_recall": 0.1429,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          1,
+          3
+        ]
+      },
+      "distinct_attribute_names": 168,
+      "distinct_relation_types": 168,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "cares_for_entity",
+        "works_at_entity"
+      ],
+      "invalidated_names": [
+        "cares_for_entity",
+        "considering_working_at_entity",
+        "driven_on_entity",
+        "has_job_offer_at_entity",
+        "lacks_entity",
+        "makes_entity",
+        "needs_to_renew_entity",
+        "owns_entity",
+        "required_to_complete_for_entity",
+        "works_at_entity"
+      ],
+      "valid_at_null_edges": 10
+    },
+    "dariush": {
+      "persona": "dariush",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_dariush_g10",
+      "edges": 236,
+      "states": {
+        "active": 221,
+        "expired": 14,
+        "superseded": 1
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "STALE_ACTIVE": 1,
+        "EXTRACTION_MISS": 2
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 15,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {},
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 3,
+      "manifest_fact_recall": 0.2143,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          3
+        ],
+        "retraction_original": [
+          1,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          1,
+          3
+        ]
+      },
+      "distinct_attribute_names": 195,
+      "distinct_relation_types": 195,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "has_financial_advisor_entity"
+      ],
+      "invalidated_names": [
+        "do_not_work_on_weekends_with_entity",
+        "had_practice_in_entity",
+        "has_financial_advisor_entity",
+        "has_partner_or_supporter_entity",
+        "is_the_only_entity",
+        "leases_entity",
+        "location_of_entity",
+        "offers_credits_entity",
+        "plans_to_open_entity",
+        "plans_to_open_practice_location_in_entity",
+        "requires_renewal_by_entity",
+        "splits_time_between_entity",
+        "treats_entity",
+        "volunteer_teaches_at_entity",
+        "works_at_entity"
+      ],
+      "valid_at_null_edges": 21
+    },
+    "david": {
+      "persona": "david",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_david_g10",
+      "edges": 251,
+      "states": {
+        "active": 228,
+        "superseded": 5,
+        "expired": 18
+      },
+      "manifest_supersession_events": 1,
+      "buckets": {
+        "EXTRACTION_MISS": 1
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 23,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          1
+        ],
+        "0.75": [
+          1,
+          1
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 15,
+      "manifest_facts_extracted": 4,
+      "manifest_fact_recall": 0.2667,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          2,
+          4
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          1,
+          3
+        ]
+      },
+      "distinct_attribute_names": 161,
+      "distinct_relation_types": 161,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "coaches_entity",
+        "owns_entity",
+        "teaches_entity"
+      ],
+      "invalidated_names": [
+        "abandoned_project_entity",
+        "coaches_entity",
+        "interested_in_entity",
+        "is_practical_companion_entity",
+        "owns_entity",
+        "plans_to_stop_coaching_after_entity",
+        "plans_trip_to_entity",
+        "plans_use_cooking_gear_entity",
+        "plans_use_entity",
+        "plans_visit_entity",
+        "previously_used_vehicle_entity",
+        "steps_down_from_role_entity",
+        "teaches_entity",
+        "travels_with_entity",
+        "uses_vehicle_entity",
+        "works_at_entity"
+      ],
+      "valid_at_null_edges": 13
+    },
+    "diane": {
+      "persona": "diane",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_diane_g10",
+      "edges": 219,
+      "states": {
+        "active": 204,
+        "superseded": 3,
+        "expired": 12
+      },
+      "manifest_supersession_events": 2,
+      "buckets": {
+        "EXTRACTION_MISS": 2
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 15,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {},
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 6,
+      "manifest_fact_recall": 0.4286,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          3,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          1,
+          3
+        ],
+        "supersession_old": [
+          1,
+          3
+        ]
+      },
+      "distinct_attribute_names": 142,
+      "distinct_relation_types": 142,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "is_married_to_entity",
+        "was_affected_by_death_of_entity",
+        "works_at_entity"
+      ],
+      "invalidated_names": [
+        "experiences_entity",
+        "has_condition_entity",
+        "has_worse_condition_than_entity",
+        "is_married_to_entity",
+        "limits_entity",
+        "practices_entity",
+        "was_affected_by_death_of_entity",
+        "was_before_entity",
+        "worked_at_entity",
+        "worked_in_before_moving_entity",
+        "works_at_entity",
+        "works_in_entity"
+      ],
+      "valid_at_null_edges": 22
+    },
+    "dmitri": {
+      "persona": "dmitri",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_dmitri_g10",
+      "edges": 268,
+      "states": {
+        "active": 267,
+        "expired": 1
+      },
+      "manifest_supersession_events": 2,
+      "buckets": {
+        "EXTRACTION_MISS": 2
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 1,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {},
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 4,
+      "manifest_fact_recall": 0.2857,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          2,
+          3
+        ]
+      },
+      "distinct_attribute_names": 204,
+      "distinct_relation_types": 204,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [],
+      "invalidated_names": [
+        "shares_living_space_with_entity"
+      ],
+      "valid_at_null_edges": 15
+    },
+    "elena": {
+      "persona": "elena",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_elena_g10",
+      "edges": 237,
+      "states": {
+        "active": 205,
+        "expired": 29,
+        "superseded": 3
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "RECOVERED": 1,
+        "EXTRACTION_MISS": 2
+      },
+      "supersession_recall": 0.3333,
+      "supersession_precision": 0.0312,
+      "believed_superseded_edges": 32,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          2,
+          3
+        ],
+        "0.75": [
+          2,
+          3
+        ],
+        "0.8": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 15,
+      "manifest_facts_extracted": 3,
+      "manifest_fact_recall": 0.2,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          4
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          2,
+          3
+        ]
+      },
+      "distinct_attribute_names": 161,
+      "distinct_relation_types": 161,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "lives_in_entity",
+        "works_at_entity",
+        "works_on_entity"
+      ],
+      "invalidated_names": [
+        "are_caregivers_of_entity",
+        "cares_for_entity",
+        "followed_diet_entity",
+        "follows_diet_entity",
+        "has_debt_from_entity",
+        "has_deceased_relative_entity",
+        "has_relationship_with_entity",
+        "includes_entity",
+        "is_cared_for_by_entity",
+        "is_child_of_entity",
+        "is_in_a_relationship_with_entity",
+        "is_interested_in_entity",
+        "is_on_repayment_plan_entity",
+        "lives_close_to_entity",
+        "lives_in_entity",
+        "plans_to_apply_to_entity",
+        "requires_completion_of_entity",
+        "used_service_entity",
+        "worked_at_entity",
+        "works_at_entity",
+        "works_during_entity",
+        "works_on_entity",
+        "works_shift_schedule_entity",
+        "works_with_different_schedules_entity",
+        "works_with_entity"
+      ],
+      "valid_at_null_edges": 10
+    },
+    "fatima": {
+      "persona": "fatima",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_fatima_g10",
+      "edges": 251,
+      "states": {
+        "active": 230,
+        "superseded": 4,
+        "expired": 17
+      },
+      "manifest_supersession_events": 2,
+      "buckets": {
+        "RECOVERED": 2
+      },
+      "supersession_recall": 1.0,
+      "supersession_precision": 0.2381,
+      "believed_superseded_edges": 21,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          2,
+          2
+        ],
+        "0.75": [
+          2,
+          2
+        ],
+        "0.8": [
+          2,
+          2
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 5,
+      "manifest_fact_recall": 0.3571,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          2,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          2,
+          3
+        ]
+      },
+      "distinct_attribute_names": 175,
+      "distinct_relation_types": 175,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "includes_entity",
+        "located_in_entity"
+      ],
+      "invalidated_names": [
+        "attends_entity",
+        "has_long_standing_relationship_with_entity",
+        "has_site_visit_entity",
+        "includes_entity",
+        "invested_in_entity",
+        "located_in_entity",
+        "manages_entity",
+        "part_of_entity",
+        "plans_to_enjoy_entity",
+        "plans_to_visit_entity",
+        "sees_occasionally_entity",
+        "supports_entity",
+        "terminated_development_of_entity",
+        "works_exclusively_on_entity"
+      ],
+      "valid_at_null_edges": 17
+    },
+    "ingrid": {
+      "persona": "ingrid",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_ingrid_g10",
+      "edges": 274,
+      "states": {
+        "active": 255,
+        "expired": 15,
+        "superseded": 4
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "RECOVERED": 1,
+        "EXTRACTION_MISS": 2
+      },
+      "supersession_recall": 0.3333,
+      "supersession_precision": 0.4211,
+      "believed_superseded_edges": 19,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          2,
+          3
+        ],
+        "0.75": [
+          2,
+          3
+        ],
+        "0.8": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 3,
+      "manifest_fact_recall": 0.2143,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          2,
+          3
+        ]
+      },
+      "distinct_attribute_names": 174,
+      "distinct_relation_types": 174,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "leads_entity"
+      ],
+      "invalidated_names": [
+        "conducts_monitoring_programme_in_entity",
+        "continues_work_of_entity",
+        "has_cancelled_sabbatical_at_entity",
+        "has_entity",
+        "involved_in_entity",
+        "leads_entity",
+        "plans_to_continue_sampling_population_dynamics_entity",
+        "plans_to_occupy_entity",
+        "previous_primary_research_focus_entity",
+        "shifted_focus_away_from_entity",
+        "skis_at_entity",
+        "studies_entity",
+        "studies_population_dynamics_in_entity",
+        "submits_grant_proposal_to_entity",
+        "was_invited_for_sabbatical_at_entity"
+      ],
+      "valid_at_null_edges": 15
+    },
+    "jake": {
+      "persona": "jake",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_jake_g10",
+      "edges": 206,
+      "states": {
+        "active": 195,
+        "expired": 9,
+        "superseded": 2
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 3
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 11,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {},
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "the user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 2,
+      "manifest_fact_recall": 0.1429,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          2,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          0,
+          3
+        ]
+      },
+      "distinct_attribute_names": 158,
+      "distinct_relation_types": 158,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "has_passed_exam_for_entity",
+        "lives_in_entity"
+      ],
+      "invalidated_names": [
+        "considers_installing_entity",
+        "considers_installing_for_entity",
+        "ended_relationship_with_entity",
+        "has_passed_exam_for_entity",
+        "lives_in_entity",
+        "plays_in_entity",
+        "prepares_for_entity",
+        "uses_entity",
+        "uses_for_work_transportation_entity",
+        "uses_ingredient_entity"
+      ],
+      "valid_at_null_edges": 27
+    },
+    "jerome": {
+      "persona": "jerome",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_jerome_g10",
+      "edges": 282,
+      "states": {
+        "superseded": 10,
+        "active": 256,
+        "expired": 16
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "STALE_ACTIVE": 2,
+        "RECOVERED": 1
+      },
+      "supersession_recall": 0.3333,
+      "supersession_precision": 0.0385,
+      "believed_superseded_edges": 26,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          2,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ],
+        "0.8": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 4,
+      "manifest_fact_recall": 0.2857,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          2,
+          3
+        ]
+      },
+      "distinct_attribute_names": 198,
+      "distinct_relation_types": 198,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "drives_entity",
+        "drives_on_entity",
+        "lives_in_entity",
+        "works_as_entity",
+        "works_at_entity",
+        "works_in_entity"
+      ],
+      "invalidated_names": [
+        "co_parents_with_entity",
+        "completed_orientation_at_entity",
+        "created_entity",
+        "currently_located_in_entity",
+        "drives_entity",
+        "drives_on_entity",
+        "eats_entity",
+        "formerly_works_at_entity",
+        "has_expiration_date_entity",
+        "has_family_member_entity",
+        "has_scheduled_event_entity",
+        "is_father_of_entity",
+        "is_located_in_entity",
+        "keeps_in_truck_entity",
+        "listens_to_entity",
+        "lives_in_entity",
+        "previously_drives_entity",
+        "rarely_visits_entity",
+        "works_as_entity",
+        "works_at_entity",
+        "works_in_entity"
+      ],
+      "valid_at_null_edges": 20
+    },
+    "joonho": {
+      "persona": "joonho",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_joonho_g10",
+      "edges": 178,
+      "states": {
+        "active": 155,
+        "superseded": 3,
+        "expired": 20
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "RECOVERED": 1,
+        "EXTRACTION_MISS": 2
+      },
+      "supersession_recall": 0.3333,
+      "supersession_precision": 0.0435,
+      "believed_superseded_edges": 23,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          2,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ],
+        "0.8": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 3,
+      "manifest_fact_recall": 0.2143,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          1,
+          3
+        ],
+        "supersession_old": [
+          1,
+          3
+        ]
+      },
+      "distinct_attribute_names": 125,
+      "distinct_relation_types": 125,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "lives_in_entity",
+        "reads_entity",
+        "teaches_entity"
+      ],
+      "invalidated_names": [
+        "applies_to_entity",
+        "gave_device_entity",
+        "has_condition_entity",
+        "has_difficulty_with_entity",
+        "is_fiance_of_entity",
+        "is_outlining_entity",
+        "is_writing_entity",
+        "lived_in_apartment_with_entity",
+        "lives_in_entity",
+        "lives_near_entity",
+        "married_to_entity",
+        "preparing_for_entity",
+        "previously_walked_along_entity",
+        "reads_entity",
+        "reviews_go_games_with_entity",
+        "teaches_entity",
+        "walked_path_with_entity",
+        "walks_in_entity",
+        "walks_on_entity",
+        "was_masters_advisor_of_entity",
+        "works_in_entity"
+      ],
+      "valid_at_null_edges": 35
+    },
+    "kenji": {
+      "persona": "kenji",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_kenji_g10",
+      "edges": 240,
+      "states": {
+        "active": 221,
+        "expired": 18,
+        "superseded": 1
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 2,
+        "RECOVERED": 1
+      },
+      "supersession_recall": 0.3333,
+      "supersession_precision": 0.1053,
+      "believed_superseded_edges": 19,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          3,
+          3
+        ],
+        "0.75": [
+          2,
+          3
+        ],
+        "0.8": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 2,
+      "manifest_fact_recall": 0.1429,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          0,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          1,
+          3
+        ]
+      },
+      "distinct_attribute_names": 175,
+      "distinct_relation_types": 175,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "runs_entity"
+      ],
+      "invalidated_names": [
+        "adapts_for_harmony_entity",
+        "designs_entity",
+        "has_retainer_client_entity",
+        "includes_entity",
+        "involved_in_entity",
+        "resdesigns_for_entity",
+        "runs_entity",
+        "shares_space_with_entity",
+        "shares_studio_space_in_entity",
+        "uses_for_design_work_entity",
+        "uses_for_layout_entity",
+        "uses_skills_in_entity",
+        "uses_tool_entity",
+        "works_in_entity"
+      ],
+      "valid_at_null_edges": 36
+    },
+    "kofi": {
+      "persona": "kofi",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_kofi_g10",
+      "edges": 229,
+      "states": {
+        "active": 206,
+        "expired": 20,
+        "superseded": 3
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 3
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 23,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          2,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "Speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 1,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 1,
+      "manifest_fact_recall": 0.0714,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          0,
+          3
+        ]
+      },
+      "distinct_attribute_names": 180,
+      "distinct_relation_types": 180,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "chairman_of_entity",
+        "is_member_of_entity",
+        "uses_entity"
+      ],
+      "invalidated_names": [
+        "applies_fertilizer_to_entity",
+        "buys_entity",
+        "chairman_of_entity",
+        "dries_on_entity",
+        "enrolled_in_entity",
+        "faces_school_fees_difficulty_entity",
+        "farms_entity",
+        "ferments_entity",
+        "harvested_entity",
+        "has_contract_entity",
+        "is_member_of_entity",
+        "is_saving_from_entity",
+        "left_school_entity",
+        "maintains_farm_originally_planted_by_entity",
+        "member_of_entity",
+        "owns_farm_entity",
+        "plans_to_build_using_savings_entity",
+        "planted_at_spacing_entity",
+        "planted_farm_then_expanded_by_entity",
+        "spent_money_from_entity",
+        "uses_entity",
+        "uses_for_cocoa_bean_fermentation_entity"
+      ],
+      "valid_at_null_edges": 26
+    },
+    "leila": {
+      "persona": "leila",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_leila_g10",
+      "edges": 251,
+      "states": {
+        "expired": 9,
+        "active": 241,
+        "superseded": 1
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 2,
+        "RECOVERED": 1
+      },
+      "supersession_recall": 0.3333,
+      "supersession_precision": 0.1,
+      "believed_superseded_edges": 10,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          2,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ],
+        "0.8": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "User",
+        "speaker"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 5,
+      "manifest_fact_recall": 0.3571,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          3,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          1,
+          3
+        ]
+      },
+      "distinct_attribute_names": 189,
+      "distinct_relation_types": 189,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "collaborates_with_entity"
+      ],
+      "invalidated_names": [
+        "collaborates_with_entity",
+        "focuses_on_location_entity",
+        "is_married_to_entity",
+        "practices_at_entity",
+        "serves_entity",
+        "taught_entity",
+        "teaches_entity",
+        "works_at_entity"
+      ],
+      "valid_at_null_edges": 20
+    },
+    "lily": {
+      "persona": "lily",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_lily_g10",
+      "edges": 283,
+      "states": {
+        "superseded": 1,
+        "expired": 26,
+        "active": 256
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 3
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 27,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 3,
+      "manifest_fact_recall": 0.2143,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          1,
+          3
+        ]
+      },
+      "distinct_attribute_names": 211,
+      "distinct_relation_types": 211,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "is_working_on_entity"
+      ],
+      "invalidated_names": [
+        "applies_to_entity",
+        "camping_at_entity",
+        "conducts_thesis_research_on_entity",
+        "focuses_on_entity",
+        "going_on_a_road_trip_to_entity",
+        "has_completed_entity",
+        "has_conducted_entity",
+        "has_due_assignment_entity",
+        "includes_entity",
+        "involves_entity",
+        "is_entity",
+        "is_in_relationship_with_entity",
+        "is_researching_entity",
+        "is_study_area_of_entity",
+        "is_working_on_entity",
+        "previously_worked_on_entity",
+        "stopping_at_for_supplies_entity",
+        "studies_entity",
+        "traveling_with_entity",
+        "used_to_be_loyal_to_entity",
+        "uses_for_latte_art_entity",
+        "uses_for_steaming_and_making_flat_whites_entity",
+        "visiting_entity"
+      ],
+      "valid_at_null_edges": 31
+    },
+    "marcus": {
+      "persona": "marcus",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_marcus_g10",
+      "edges": 118,
+      "states": {
+        "active": 103,
+        "expired": 13,
+        "superseded": 2
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 3
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 15,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          3,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 15,
+      "manifest_facts_extracted": 4,
+      "manifest_fact_recall": 0.2667,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          2,
+          4
+        ],
+        "retraction_original": [
+          1,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          1,
+          3
+        ],
+        "supersession_old": [
+          0,
+          3
+        ]
+      },
+      "distinct_attribute_names": 100,
+      "distinct_relation_types": 100,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "owns_entity"
+      ],
+      "invalidated_names": [
+        "closed_account_with_entity",
+        "considers_opening_entity",
+        "contains_entity",
+        "has_custody_during_week_entity",
+        "is_entity",
+        "manages_entity",
+        "needs_recertification_before_entity",
+        "owns_entity",
+        "requires_closure_of_entity",
+        "runs_business_entity",
+        "runs_entity",
+        "uses_for_hauling_entity",
+        "was_previous_wholesale_supplier_entity",
+        "works_in_entity"
+      ],
+      "valid_at_null_edges": 5
+    },
+    "marley": {
+      "persona": "marley",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_marley_g10",
+      "edges": 206,
+      "states": {
+        "expired": 22,
+        "superseded": 3,
+        "active": 181
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 2,
+        "RECOVERED": 1
+      },
+      "supersession_recall": 0.3333,
+      "supersession_precision": 0.08,
+      "believed_superseded_edges": 25,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ],
+        "0.8": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 3,
+      "manifest_fact_recall": 0.2143,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          2,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          1,
+          3
+        ]
+      },
+      "distinct_attribute_names": 154,
+      "distinct_relation_types": 154,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "coaches_entity",
+        "lives_in_entity",
+        "supervised_by_entity"
+      ],
+      "invalidated_names": [
+        "applying_for_entity",
+        "coaches_entity",
+        "considers_applying_for_entity",
+        "considers_for_study_entity",
+        "does_not_want_to_work_in_entity",
+        "former_flatmate_of_entity",
+        "had_players_with_hamstring_injuries_last_season_entity",
+        "includes_data_from_entity",
+        "is_a_student_entity",
+        "is_entity",
+        "lives_in_entity",
+        "lives_with_entity",
+        "on_placement_at_entity",
+        "placement_in_entity",
+        "plans_to_enroll_in_entity",
+        "previously_worked_in_entity",
+        "rents_entity",
+        "rents_with_entity",
+        "studies_at_entity",
+        "studies_entity",
+        "supervised_by_entity",
+        "wants_to_work_in_entity"
+      ],
+      "valid_at_null_edges": 9
+    },
+    "mehmet": {
+      "persona": "mehmet",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_mehmet_g10",
+      "edges": 188,
+      "states": {
+        "superseded": 4,
+        "expired": 22,
+        "active": 162
+      },
+      "manifest_supersession_events": 2,
+      "buckets": {
+        "RECOVERED": 1,
+        "EXTRACTION_MISS": 1
+      },
+      "supersession_recall": 0.5,
+      "supersession_precision": 0.0385,
+      "believed_superseded_edges": 26,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          2,
+          2
+        ],
+        "0.75": [
+          2,
+          2
+        ],
+        "0.8": [
+          1,
+          2
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 4,
+      "manifest_fact_recall": 0.2857,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          2,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          2,
+          3
+        ]
+      },
+      "distinct_attribute_names": 141,
+      "distinct_relation_types": 141,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "owns_entity"
+      ],
+      "invalidated_names": [
+        "charges_for_product_entity",
+        "considers_rent_for_new_shop_in_entity",
+        "fan_of_entity",
+        "had_a_relationship_with_entity",
+        "had_son_entity",
+        "has_apprentice_entity",
+        "is_apprentice_of_entity",
+        "opposes_use_of_entity",
+        "owns_entity",
+        "pays_rent_entity",
+        "pays_rent_for_shop_in_entity",
+        "planned_shop_opening_at_entity",
+        "plans_to_install_entity",
+        "plans_to_open_barbershop_in_entity",
+        "runs_entity",
+        "takes_for_entity",
+        "training_entity",
+        "used_pomade_brand_entity",
+        "uses_product_entity",
+        "works_as_traditional_barber_in_entity",
+        "works_at_entity",
+        "works_with_entity"
+      ],
+      "valid_at_null_edges": 21
+    },
+    "mirri": {
+      "persona": "mirri",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_mirri_g10",
+      "edges": 309,
+      "states": {
+        "active": 283,
+        "expired": 25,
+        "superseded": 1
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 3
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 26,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 2,
+      "manifest_fact_recall": 0.1429,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          3
+        ],
+        "retraction_original": [
+          1,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          0,
+          3
+        ]
+      },
+      "distinct_attribute_names": 205,
+      "distinct_relation_types": 205,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "collaborates_with_entity"
+      ],
+      "invalidated_names": [
+        "belongs_to_entity",
+        "collaborates_with_entity",
+        "conducts_tours_during_entity",
+        "drives_on_terrain_entity",
+        "drove_for_years_entity",
+        "features_topic_entity",
+        "has_child_entity",
+        "has_sibling_entity",
+        "includes_language_entity",
+        "is_14_years_old_entity",
+        "located_at_entity",
+        "monitors_entity",
+        "near_entity",
+        "possesses_knowledge_entity",
+        "previously_owned_entity",
+        "relates_to_entity",
+        "runs_entity",
+        "stayed_with_entity",
+        "stores_entity",
+        "targets_audience_entity",
+        "writes_entity"
+      ],
+      "valid_at_null_edges": 21
+    },
+    "nadia": {
+      "persona": "nadia",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_nadia_g10",
+      "edges": 268,
+      "states": {
+        "expired": 8,
+        "active": 258,
+        "superseded": 2
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 2,
+        "RECOVERED": 1
+      },
+      "supersession_recall": 0.3333,
+      "supersession_precision": 0.2,
+      "believed_superseded_edges": 10,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          2,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ],
+        "0.8": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 5,
+      "manifest_fact_recall": 0.3571,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          2,
+          3
+        ],
+        "retraction_original": [
+          1,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          1,
+          3
+        ]
+      },
+      "distinct_attribute_names": 180,
+      "distinct_relation_types": 180,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "lives_in_entity"
+      ],
+      "invalidated_names": [
+        "has_part_entity",
+        "influenced_cooking_style_entity",
+        "lives_in_entity",
+        "located_in_entity",
+        "previously_lived_in_entity",
+        "stopped_due_to_entity",
+        "used_to_attend_entity",
+        "worked_under_entity",
+        "works_under_entity"
+      ],
+      "valid_at_null_edges": 46
+    },
+    "omar": {
+      "persona": "omar",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_omar_g10",
+      "edges": 157,
+      "states": {
+        "superseded": 5,
+        "active": 141,
+        "expired": 11
+      },
+      "manifest_supersession_events": 2,
+      "buckets": {
+        "EXTRACTION_MISS": 2
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 16,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          2
+        ]
+      },
+      "user_entity_nodes": [
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 13,
+      "manifest_facts_extracted": 3,
+      "manifest_fact_recall": 0.2308,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          2,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          0,
+          2
+        ]
+      },
+      "distinct_attribute_names": 121,
+      "distinct_relation_types": 121,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "lives_in_entity",
+        "works_as_entity",
+        "works_for_entity",
+        "works_in_entity"
+      ],
+      "invalidated_names": [
+        "has_custody_on_weekends_entity",
+        "is_considering_buying_entity",
+        "is_considering_buying_from_entity",
+        "lives_in_community_entity",
+        "lives_in_entity",
+        "preparing_for_entity",
+        "resettled_in_entity",
+        "switched_from_entity",
+        "works_as_entity",
+        "works_for_entity",
+        "works_in_entity"
+      ],
+      "valid_at_null_edges": 5
+    },
+    "pan": {
+      "persona": "pan",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_pan_g10",
+      "edges": 258,
+      "states": {
+        "superseded": 12,
+        "active": 223,
+        "expired": 23
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 2,
+        "RECOVERED": 1
+      },
+      "supersession_recall": 0.3333,
+      "supersession_precision": 0.0286,
+      "believed_superseded_edges": 35,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ],
+        "0.8": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "Speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 3,
+      "manifest_fact_recall": 0.2143,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          1,
+          3
+        ]
+      },
+      "distinct_attribute_names": 169,
+      "distinct_relation_types": 169,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "buys_from_entity",
+        "located_in_entity",
+        "operates_entity",
+        "uses_entity"
+      ],
+      "invalidated_names": [
+        "buys_from_entity",
+        "charges_price_entity",
+        "closes_for_songkran_entity",
+        "cooks_on_entity",
+        "expected_to_sell_most_entity",
+        "follows_cooking_method_from_entity",
+        "includes_flavor_entity",
+        "is_developing_entity",
+        "located_in_entity",
+        "operated_at_entity",
+        "operates_entity",
+        "operates_in_entity",
+        "plans_production_day_entity",
+        "plans_sales_channel_entity",
+        "plans_to_work_at_entity",
+        "prepares_and_sells_on_entity",
+        "prices_at_entity",
+        "sells_product_entity",
+        "targets_sales_volume_entity",
+        "teaches_cooking_method_with_entity",
+        "trains_entity",
+        "uses_captions_language_entity",
+        "uses_entity"
+      ],
+      "valid_at_null_edges": 16
+    },
+    "patrick": {
+      "persona": "patrick",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_patrick_g10",
+      "edges": 186,
+      "states": {
+        "active": 169,
+        "expired": 17
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 3
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 17,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          2,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 3,
+      "manifest_fact_recall": 0.2143,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          3
+        ],
+        "retraction_original": [
+          1,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          1,
+          3
+        ]
+      },
+      "distinct_attribute_names": 128,
+      "distinct_relation_types": 128,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [],
+      "invalidated_names": [
+        "attends_entity",
+        "co_owned_with_entity",
+        "coached_entity",
+        "grew_up_in_entity",
+        "had_doctor_entity",
+        "lived_in_entity",
+        "played_for_entity",
+        "played_with_entity",
+        "receives_healthcare_at_entity",
+        "sees_doctor_entity",
+        "stays_at_entity",
+        "travels_to_for_event_entity",
+        "was_patient_of_entity",
+        "worked_at_entity"
+      ],
+      "valid_at_null_edges": 19
+    },
+    "priya": {
+      "persona": "priya",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_priya_g10",
+      "edges": 223,
+      "states": {
+        "active": 205,
+        "expired": 13,
+        "superseded": 5
+      },
+      "manifest_supersession_events": 1,
+      "buckets": {
+        "EXTRACTION_MISS": 1
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 18,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          1
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 3,
+      "manifest_fact_recall": 0.2143,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          4
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          1,
+          2
+        ]
+      },
+      "distinct_attribute_names": 151,
+      "distinct_relation_types": 151,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "lives_in_entity",
+        "practices_entity",
+        "works_at_entity"
+      ],
+      "invalidated_names": [
+        "current_neighborhood_entity",
+        "does_not_eat_entity",
+        "has_contacted_entity",
+        "has_deadline_for_entity",
+        "is_seriously_considering_getting_entity",
+        "is_triggered_by_entity",
+        "lives_in_entity",
+        "practices_entity",
+        "promised_to_write_entity",
+        "used_to_listen_to_entity",
+        "worked_at_entity",
+        "worked_on_entity",
+        "works_at_entity",
+        "works_on_entity"
+      ],
+      "valid_at_null_edges": 9
+    },
+    "raj": {
+      "persona": "raj",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_raj_g10",
+      "edges": 219,
+      "states": {
+        "active": 200,
+        "expired": 18,
+        "superseded": 1
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "STALE_ACTIVE": 2,
+        "RECOVERED": 1
+      },
+      "supersession_recall": 0.3333,
+      "supersession_precision": 0.0526,
+      "believed_superseded_edges": 19,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ],
+        "0.8": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 15,
+      "manifest_facts_extracted": 5,
+      "manifest_fact_recall": 0.3333,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          2,
+          4
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          3,
+          3
+        ]
+      },
+      "distinct_attribute_names": 143,
+      "distinct_relation_types": 143,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "lives_with_entity"
+      ],
+      "invalidated_names": [
+        "flies_from_entity",
+        "flies_to_entity",
+        "has_gas_safe_registration_entity",
+        "lives_with_entity",
+        "notifies_about_work_coverage_entity",
+        "stop_over_at_entity",
+        "subscribes_to_entity",
+        "supports_entity",
+        "travels_to_entity",
+        "travels_with_entity",
+        "visits_entity",
+        "watches_late_at_night_entity"
+      ],
+      "valid_at_null_edges": 16
+    },
+    "rosa": {
+      "persona": "rosa",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_rosa_g10",
+      "edges": 234,
+      "states": {
+        "expired": 13,
+        "active": 221
+      },
+      "manifest_supersession_events": 1,
+      "buckets": {
+        "STALE_ACTIVE": 1
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 13,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {},
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 13,
+      "manifest_facts_extracted": 6,
+      "manifest_fact_recall": 0.4615,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          3,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          1,
+          3
+        ],
+        "supersession_old": [
+          1,
+          2
+        ]
+      },
+      "distinct_attribute_names": 183,
+      "distinct_relation_types": 183,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [],
+      "invalidated_names": [
+        "cancelled_trip_entity",
+        "discussant_on_panel_about_entity",
+        "employs_entity",
+        "had_custody_of_entity",
+        "is_married_to_entity",
+        "participates_in_entity",
+        "participates_in_event_located_in_entity",
+        "pays_entity",
+        "tries_to_grow_entity",
+        "trusts_entity",
+        "used_cleaning_product_entity"
+      ],
+      "valid_at_null_edges": 50
+    },
+    "saga": {
+      "persona": "saga",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_saga_g10",
+      "edges": 226,
+      "states": {
+        "superseded": 3,
+        "active": 210,
+        "expired": 13
+      },
+      "manifest_supersession_events": 2,
+      "buckets": {
+        "RECOVERED": 1,
+        "STALE_ACTIVE": 1
+      },
+      "supersession_recall": 0.5,
+      "supersession_precision": 0.0625,
+      "believed_superseded_edges": 16,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          2
+        ],
+        "0.75": [
+          1,
+          2
+        ],
+        "0.8": [
+          1,
+          2
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 1,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 5,
+      "manifest_fact_recall": 0.3571,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          1,
+          3
+        ],
+        "supersession_old": [
+          2,
+          3
+        ]
+      },
+      "distinct_attribute_names": 174,
+      "distinct_relation_types": 174,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "uses_entity",
+        "works_on_entity"
+      ],
+      "invalidated_names": [
+        "correlates_with_entity",
+        "dating_entity",
+        "ended_relationship_with_entity",
+        "finds_algorithmically_interesting_entity",
+        "finds_statistically_interesting_entity",
+        "improved_by_entity",
+        "in_a_relationship_with_entity",
+        "is_considering_entity",
+        "looking_for_genuine_relationship_on_entity",
+        "plans_to_reside_near_entity",
+        "presents_to_entity",
+        "projects_climbing_grade_entity",
+        "uses_entity",
+        "worked_on_entity",
+        "works_on_entity"
+      ],
+      "valid_at_null_edges": 25
+    },
+    "samuel": {
+      "persona": "samuel",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_samuel_g10",
+      "edges": 240,
+      "states": {
+        "active": 213,
+        "expired": 26,
+        "superseded": 1
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 1,
+        "STALE_ACTIVE": 1,
+        "RECOVERED": 1
+      },
+      "supersession_recall": 0.3333,
+      "supersession_precision": 0.0741,
+      "believed_superseded_edges": 27,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ],
+        "0.8": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 3,
+      "manifest_fact_recall": 0.2143,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          1,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          2,
+          3
+        ]
+      },
+      "distinct_attribute_names": 181,
+      "distinct_relation_types": 181,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "lives_in_entity"
+      ],
+      "invalidated_names": [
+        "commutes_to_entity",
+        "completes_with_entity",
+        "concerns_about_entity",
+        "coordinates_with_entity",
+        "disinterested_in_entity",
+        "former_residence_entity",
+        "has_interested_colleagues_entity",
+        "has_residence_type_entity",
+        "has_spousal_relationship_with_entity",
+        "includes_entity",
+        "is_learning_to_play_entity",
+        "is_married_to_entity",
+        "is_partner_of_entity",
+        "lives_in_entity",
+        "organizes_entity",
+        "performs_entity",
+        "plans_duration_and_split_entity",
+        "plans_to_bring_entity",
+        "plans_to_operate_in_entity",
+        "prefers_over_entity",
+        "receives_support_from_in_activity_entity",
+        "uses_device_entity",
+        "uses_for_sleep_apnea_entity",
+        "values_entity"
+      ],
+      "valid_at_null_edges": 19
+    },
+    "thanh": {
+      "persona": "thanh",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_thanh_g10",
+      "edges": 266,
+      "states": {
+        "active": 261,
+        "superseded": 1,
+        "expired": 4
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 3
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 5,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 0,
+      "manifest_fact_recall": 0.0,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          0,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          0,
+          3
+        ]
+      },
+      "distinct_attribute_names": 197,
+      "distinct_relation_types": 197,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "uses_entity"
+      ],
+      "invalidated_names": [
+        "pays_for_entity",
+        "plans_to_build_entity",
+        "used_entity",
+        "used_for_feeding_entity",
+        "uses_entity"
+      ],
+      "valid_at_null_edges": 33
+    },
+    "tom": {
+      "persona": "tom",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_tom_g10",
+      "edges": 213,
+      "states": {
+        "superseded": 6,
+        "expired": 34,
+        "active": 173
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 2,
+        "STALE_ACTIVE": 1
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 40,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          2,
+          3
+        ],
+        "0.75": [
+          2,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 5,
+      "manifest_fact_recall": 0.3571,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          0,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          2,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          3,
+          3
+        ]
+      },
+      "distinct_attribute_names": 151,
+      "distinct_relation_types": 151,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "keeps_entity",
+        "lives_in_entity",
+        "lives_near_entity",
+        "owns_entity"
+      ],
+      "invalidated_names": [
+        "are_housed_in_entity",
+        "are_located_at_entity",
+        "attends_entity",
+        "bought_packaging_from_entity",
+        "considering_adding_next_spring_entity",
+        "harvested_amount_entity",
+        "has_beehives_at_entity",
+        "involved_in_assessment_of_entity",
+        "is_associated_with_entity",
+        "keeps_bees_in_entity",
+        "keeps_entity",
+        "keeps_in_entity",
+        "keeps_quantity_entity",
+        "lives_in_entity",
+        "lives_near_entity",
+        "manages_entity",
+        "married_to_entity",
+        "owns_entity",
+        "part_of_entity",
+        "planned_to_be_converted_into_entity",
+        "plans_to_hire_for_barn_conversion_entity",
+        "previously_owned_entity",
+        "requires_for_conversion_entity",
+        "sells_at_entity",
+        "shows_mite_drop_entity",
+        "sourced_from_entity",
+        "sources_for_packaging_from_entity",
+        "sources_from_entity",
+        "uses_face_time_with_entity",
+        "uses_for_sales_entity",
+        "was_tended_by_entity",
+        "will_include_entity",
+        "will_use_room_entity"
+      ],
+      "valid_at_null_edges": 26
+    },
+    "valentina": {
+      "persona": "valentina",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_valentina_g10",
+      "edges": 173,
+      "states": {
+        "active": 157,
+        "expired": 13,
+        "superseded": 3
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 2,
+        "STALE_ACTIVE": 1
+      },
+      "supersession_recall": 0.0,
+      "supersession_precision": 0.0,
+      "believed_superseded_edges": 16,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "User"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 0,
+      "manifest_fact_recall": 0.0,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          0,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          0,
+          4
+        ],
+        "supersession_new": [
+          0,
+          3
+        ],
+        "supersession_old": [
+          0,
+          3
+        ]
+      },
+      "distinct_attribute_names": 123,
+      "distinct_relation_types": 123,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "lives_in_entity",
+        "smokes_entity"
+      ],
+      "invalidated_names": [
+        "belongs_to_entity",
+        "covers_beat_entity",
+        "decided_not_to_write_about_entity",
+        "has_partner_concerned_about_entity",
+        "lives_in_entity",
+        "lives_near_entity",
+        "made_dinner_reservations_for_entity",
+        "planned_to_write_about_entity",
+        "previously_lived_in_entity",
+        "shares_journalistic_focus_similar_to_entity",
+        "smoked_entity",
+        "smokes_entity",
+        "worked_as_journalist_in_entity",
+        "works_with_entity"
+      ],
+      "valid_at_null_edges": 13
+    },
+    "yoli": {
+      "persona": "yoli",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_yoli_g10",
+      "edges": 224,
+      "states": {
+        "expired": 27,
+        "active": 195,
+        "superseded": 2
+      },
+      "manifest_supersession_events": 4,
+      "buckets": {
+        "EXTRACTION_MISS": 3,
+        "RECOVERED": 1
+      },
+      "supersession_recall": 0.25,
+      "supersession_precision": 0.069,
+      "believed_superseded_edges": 29,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          4,
+          4
+        ],
+        "0.75": [
+          3,
+          4
+        ],
+        "0.8": [
+          1,
+          4
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 16,
+      "manifest_facts_extracted": 7,
+      "manifest_fact_recall": 0.4375,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          2,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          1,
+          4
+        ],
+        "supersession_old": [
+          3,
+          4
+        ]
+      },
+      "distinct_attribute_names": 157,
+      "distinct_relation_types": 157,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "collaborated_with_entity",
+        "lives_in_entity"
+      ],
+      "invalidated_names": [
+        "collaborated_with_entity",
+        "has_dj_residency_at_entity",
+        "has_family_connection_in_jamaica_entity",
+        "has_residency_at_entity",
+        "increases_rent_for_entity",
+        "lives_in_entity",
+        "manages_entity",
+        "paid_commission_to_entity",
+        "pays_commission_to_entity",
+        "performs_as_entity",
+        "planned_tour_in_entity",
+        "plans_dj_tour_in_city_entity",
+        "plans_to_visit_entity",
+        "produced_entity",
+        "rents_entity",
+        "secures_residency_for_entity",
+        "switched_from_daw_entity",
+        "uses_as_daw_entity",
+        "uses_entity",
+        "uses_to_organize_dj_tour_entity",
+        "works_for_entity"
+      ],
+      "valid_at_null_edges": 12
+    },
+    "zara": {
+      "persona": "zara",
+      "arm": "stock",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "group_id": "r85stock_zara_g10",
+      "edges": 250,
+      "states": {
+        "expired": 22,
+        "active": 224,
+        "superseded": 4
+      },
+      "manifest_supersession_events": 3,
+      "buckets": {
+        "EXTRACTION_MISS": 2,
+        "RECOVERED": 1
+      },
+      "supersession_recall": 0.3333,
+      "supersession_precision": 0.0385,
+      "believed_superseded_edges": 26,
+      "retraction": "INEXPRESSIBLE (marker)",
+      "recall_by_band": {
+        "0.5": [
+          1,
+          3
+        ],
+        "0.75": [
+          1,
+          3
+        ],
+        "0.8": [
+          1,
+          3
+        ]
+      },
+      "user_entity_nodes": [
+        "I",
+        "Speaker",
+        "user"
+      ],
+      "edges_invalid_before_valid": 0,
+      "manifest_facts": 14,
+      "manifest_facts_extracted": 2,
+      "manifest_fact_recall": 0.1429,
+      "manifest_fact_recall_by_kind": {
+        "expiring": [
+          0,
+          3
+        ],
+        "retraction_original": [
+          0,
+          1
+        ],
+        "stable_identity": [
+          1,
+          4
+        ],
+        "supersession_new": [
+          1,
+          3
+        ],
+        "supersession_old": [
+          0,
+          3
+        ]
+      },
+      "distinct_attribute_names": 166,
+      "distinct_relation_types": 166,
+      "distinct_target_labels": [
+        "entity"
+      ],
+      "superseded_names": [
+        "lives_in_entity",
+        "works_at_entity",
+        "works_on_entity"
+      ],
+      "invalidated_names": [
+        "based_in_entity",
+        "born_in_entity",
+        "carpooled_with_entity",
+        "does_not_have_entity",
+        "focuses_on_entity",
+        "grow_up_in_entity",
+        "has_client_entity",
+        "has_parent_origin_from_entity",
+        "lives_in_entity",
+        "located_in_entity",
+        "looking_for_good_item_at_entity",
+        "pays_for_entity",
+        "plans_to_apply_to_entity",
+        "practices_at_entity",
+        "practices_entity",
+        "switched_exercise_from_entity",
+        "switched_from_working_on_entity",
+        "wants_to_join_entity",
+        "works_at_entity",
+        "works_in_entity",
+        "works_on_entity"
+      ],
+      "valid_at_null_edges": 17
+    }
+  }
+}

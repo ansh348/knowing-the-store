@@ -1,0 +1,36 @@
+{
+ "n_items": 661,
+ "prompts_e1": {
+  "file": "337d37d3414c04823d28ad99eeab15c34e328e60198d68625452ebf330830b84",
+  "texts": "35d9b968ffc0b008289a59b06f10b7d23f71658c648dd2865a46e8da15d495f2"
+ },
+ "prompts_resp": {
+  "SYSTEM_NOGATE": "1ad8621c1953805d4ce71d762cbfcd6061a17b345d41b5de9fb2b28080ea69f2",
+  "SYSTEM_RETRIEVED": "602b9431b3fca99b3b1c987fd9a760d8433dd7c5c6ca929b077f92b63d68feca",
+  "USER_HYBRID": "b29d1e476c260279787c46c940e9b6af68b491dd0fa57486a040e8a222a7f552",
+  "USER_RETRIEVED": "d9031f6f5bedd7a67401c5c6d6e6f56cac71a1983cfad0d0299bdd61026653cc"
+ },
+ "registration_sha256": "40b4c4084f89e41d38ff1b558c1db033bdcec88a5787a3feada9fe94ad321c9d",
+ "tags": {
+  "forbidding_records_in_view": {
+   "fn": 13,
+   "fp": 23,
+   "precision": 0.6714285714285714,
+   "recall": 0.7833333333333333,
+   "tn": 16,
+   "tp": 47
+  },
+  "items_with_a_changed_line": 565,
+  "lines": 3305,
+  "lines_changed": 1273,
+  "non_active_lines": {
+   "fn": 29,
+   "fp": 1201,
+   "precision": 0.1353491720662347,
+   "recall": 0.8663594470046083,
+   "tn": 1887,
+   "tp": 188
+  }
+ },
+ "when": "2026-09-14T15:52:23"
+}

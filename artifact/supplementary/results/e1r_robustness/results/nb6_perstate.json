@@ -1,0 +1,255 @@
+{
+  "estimator": "stratified paired item-level bootstrap, 1000 draws, seed 42, positives within state, negatives from the shared pool",
+  "frontier_reading": {
+    "condition_1_two_of_three_lanes_clear_on_both_count_only_states": true,
+    "condition_2_no_lane_clears_by_more_than_tol_on_supersession": true,
+    "fired": "(i)",
+    "sentence": "Larger models recover part of the obligation the index only counts."
+  },
+  "item2_mini_per_state": {
+    "expired": {
+      "matcher": {
+        "auroc": 0.48228605625374027,
+        "ci_hi": 0.6109619988031119,
+        "ci_lo": 0.3626346499102334,
+        "excludes_half": false,
+        "n_draws": 1000
+      },
+      "monitor": {
+        "auroc": 0.5110113704368642,
+        "ci_hi": 0.6382630161579892,
+        "ci_lo": 0.3970586475164572,
+        "excludes_half": false,
+        "n_draws": 1000
+      },
+      "monitor_minus_matcher": {
+        "ci_hi": 0.2211909036505086,
+        "ci_lo": -0.17954967085577492,
+        "delta": 0.028725314183123907,
+        "excludes_zero": false,
+        "n_draws": 1000
+      },
+      "n_pos": 15
+    },
+    "retracted": {
+      "matcher": {
+        "auroc": 0.4052617041845049,
+        "ci_hi": 0.5320406366523961,
+        "ci_lo": 0.2812085692583897,
+        "excludes_half": false,
+        "n_draws": 1000
+      },
+      "monitor": {
+        "auroc": 0.5637688164618146,
+        "ci_hi": 0.6759529070570364,
+        "ci_lo": 0.4628564770059384,
+        "excludes_half": false,
+        "n_draws": 1000
+      },
+      "monitor_minus_matcher": {
+        "ci_hi": 0.3340664272890484,
+        "ci_lo": 0.00015968098328958394,
+        "delta": 0.15850711227730974,
+        "excludes_zero": true,
+        "n_draws": 1000
+      },
+      "n_pos": 26
+    },
+    "superseded": {
+      "matcher": {
+        "auroc": 0.9534068564589211,
+        "ci_hi": 0.9759781710410076,
+        "ci_lo": 0.9280962355019806,
+        "excludes_half": true,
+        "n_draws": 1000
+      },
+      "monitor": {
+        "auroc": 0.8571856031461058,
+        "ci_hi": 0.9141987974124419,
+        "ci_lo": 0.7946328830754325,
+        "excludes_half": true,
+        "n_draws": 1000
+      },
+      "monitor_minus_matcher": {
+        "ci_hi": -0.049532287481120554,
+        "ci_lo": -0.15198234590065832,
+        "delta": -0.09622125331281528,
+        "excludes_zero": true,
+        "n_draws": 1000
+      },
+      "n_pos": 63
+    }
+  },
+  "item3_lanes_per_state": {
+    "Haiku 4.5": {
+      "coverage": 661,
+      "expired": {
+        "lane": {
+          "auroc": 0.6873728306403352,
+          "ci_hi": 0.7961699581089168,
+          "ci_lo": 0.5720481747456613,
+          "excludes_half": true,
+          "n_draws": 1000
+        },
+        "lane_minus_matcher": {
+          "ci_hi": 0.3892848593656492,
+          "ci_lo": 0.00019000598444046394,
+          "delta": 0.2050867743865949,
+          "excludes_zero": true,
+          "n_draws": 1000
+        },
+        "n_pos": 15
+      },
+      "retracted": {
+        "lane": {
+          "auroc": 0.731701422455462,
+          "ci_hi": 0.8221947935368044,
+          "ci_lo": 0.6406478732219306,
+          "excludes_half": true,
+          "n_draws": 1000
+        },
+        "lane_minus_matcher": {
+          "ci_hi": 0.46631680707084655,
+          "ci_lo": 0.19558244717580447,
+          "delta": 0.3264397182709571,
+          "excludes_zero": true,
+          "n_draws": 1000
+        },
+        "n_pos": 26
+      },
+      "superseded": {
+        "lane": {
+          "auroc": 0.8897438089538628,
+          "ci_hi": 0.9306146875267163,
+          "ci_lo": 0.8382377247727337,
+          "excludes_half": true,
+          "n_draws": 1000
+        },
+        "lane_minus_matcher": {
+          "ci_hi": -0.01586054828873496,
+          "ci_lo": -0.11661074064574957,
+          "delta": -0.06366304750505825,
+          "excludes_zero": true,
+          "n_draws": 1000
+        },
+        "n_pos": 63
+      }
+    },
+    "Opus 5": {
+      "coverage": 661,
+      "expired": {
+        "lane": {
+          "auroc": 0.8880909634949132,
+          "ci_hi": 0.9152603231597846,
+          "ci_lo": 0.8576062238180729,
+          "excludes_half": true,
+          "n_draws": 1000
+        },
+        "lane_minus_matcher": {
+          "ci_hi": 0.526361460203471,
+          "ci_lo": 0.27507929383602636,
+          "delta": 0.40580490724117296,
+          "excludes_zero": true,
+          "n_draws": 1000
+        },
+        "n_pos": 15
+      },
+      "retracted": {
+        "lane": {
+          "auroc": 0.7129194862588041,
+          "ci_hi": 0.7735861759425493,
+          "ci_lo": 0.6526351677945035,
+          "excludes_half": true,
+          "n_draws": 1000
+        },
+        "lane_minus_matcher": {
+          "ci_hi": 0.4386134511807761,
+          "ci_lo": 0.17720705013119736,
+          "delta": 0.30765778207429917,
+          "excludes_zero": true,
+          "n_draws": 1000
+        },
+        "n_pos": 26
+      },
+      "superseded": {
+        "lane": {
+          "auroc": 0.8689550027072469,
+          "ci_hi": 0.9025854207631586,
+          "ci_lo": 0.8322304864495169,
+          "excludes_half": true,
+          "n_draws": 1000
+        },
+        "lane_minus_matcher": {
+          "ci_hi": -0.04862678464563563,
+          "ci_lo": -0.12260871733492916,
+          "delta": -0.08445185375167419,
+          "excludes_zero": true,
+          "n_draws": 1000
+        },
+        "n_pos": 63
+      }
+    },
+    "luna": {
+      "coverage": 661,
+      "expired": {
+        "lane": {
+          "auroc": 0.8248354278874925,
+          "ci_hi": 0.8656014362657091,
+          "ci_lo": 0.7825164572112507,
+          "excludes_half": true,
+          "n_draws": 1000
+        },
+        "lane_minus_matcher": {
+          "ci_hi": 0.4635592459605027,
+          "ci_lo": 0.20927139437462589,
+          "delta": 0.34254937163375226,
+          "excludes_zero": true,
+          "n_draws": 1000
+        },
+        "n_pos": 15
+      },
+      "retracted": {
+        "lane": {
+          "auroc": 0.6323021682088109,
+          "ci_hi": 0.7361388275100125,
+          "ci_lo": 0.5254937163375224,
+          "excludes_half": true,
+          "n_draws": 1000
+        },
+        "lane_minus_matcher": {
+          "ci_hi": 0.36790757492059095,
+          "ci_lo": 0.08364521474934401,
+          "delta": 0.227040464024306,
+          "excludes_zero": true,
+          "n_draws": 1000
+        },
+        "n_pos": 26
+      },
+      "superseded": {
+        "lane": {
+          "auroc": 0.8933059758912542,
+          "ci_hi": 0.9324046764127554,
+          "ci_lo": 0.8495094896127212,
+          "excludes_half": true,
+          "n_draws": 1000
+        },
+        "lane_minus_matcher": {
+          "ci_hi": -0.024620629221167797,
+          "ci_lo": -0.10211450229403551,
+          "delta": -0.06010088056766694,
+          "excludes_zero": true,
+          "n_draws": 1000
+        },
+        "n_pos": 63
+      }
+    }
+  },
+  "n": 661,
+  "n_neg": 557,
+  "n_pos_by_state": {
+    "expired": 15,
+    "retracted": 26,
+    "superseded": 63
+  },
+  "registration": "registrations/ADDENDUM_R81.md section 10 @ e8ba22c"
+}

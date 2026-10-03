@@ -1,0 +1,112 @@
+{
+  "config": {
+    "tfidf": {
+      "lowercase": true,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 1,
+      "sublinear_tf": true
+    },
+    "logreg": {
+      "C": 1.0,
+      "max_iter": 2000,
+      "class_weight": "balanced",
+      "solver": "lbfgs"
+    },
+    "n_splits": 5,
+    "seed": 42,
+    "grouped_by": "persona"
+  },
+  "probes": {
+    "P1:full:PN-vs-rest": {
+      "n": 84,
+      "n_pos": 40,
+      "auroc": 0.7971590909090909,
+      "ci": [
+        0.6948615160349854,
+        0.8927488558352403
+      ],
+      "includes_0.50": false,
+      "n_splits": 5
+    },
+    "P1:full:nonABSENT-vs-ABSENT": {
+      "n": 84,
+      "n_pos": 54,
+      "auroc": 0.7175925925925926,
+      "ci": [
+        0.5849540146587482,
+        0.8393463339292562
+      ],
+      "includes_0.50": false,
+      "n_splits": 5
+    },
+    "P1:matched:PN-vs-slotablated": {
+      "n": 49,
+      "n_pos": 40,
+      "auroc": 0.49444444444444446,
+      "ci": [
+        0.1776700680272109,
+        0.7873608837970539
+      ],
+      "includes_0.50": true,
+      "n_splits": 5
+    },
+    "P1:strict-slotablated:PN-vs-rest": {
+      "n": 21,
+      "n_pos": 12,
+      "auroc": 0.8564814814814815,
+      "ci": [
+        0.5873579545454546,
+        1.0
+      ],
+      "includes_0.50": false,
+      "n_splits": 5
+    },
+    "P2:full:PN-vs-rest": {
+      "n": 307,
+      "n_pos": 35,
+      "auroc": 0.9199054621848739,
+      "ci": [
+        0.8868834826864024,
+        0.9472476195129909
+      ],
+      "includes_0.50": false,
+      "n_splits": 5
+    },
+    "P2:full:nonABSENT-vs-ABSENT": {
+      "n": 307,
+      "n_pos": 35,
+      "auroc": 0.9199054621848739,
+      "ci": [
+        0.8868834826864024,
+        0.9472476195129909
+      ],
+      "includes_0.50": false,
+      "n_splits": 5
+    },
+    "P2:matched:PN-vs-slotablated": {
+      "n": 162,
+      "n_pos": 35,
+      "auroc": 0.843644544431946,
+      "ci": [
+        0.7812997621876494,
+        0.8989769861286255
+      ],
+      "includes_0.50": false,
+      "n_splits": 5
+    },
+    "P2:strict-slotablated:PN-vs-rest": {
+      "n": 162,
+      "n_pos": 35,
+      "auroc": 0.843644544431946,
+      "ci": [
+        0.7812997621876494,
+        0.8989769861286255
+      ],
+      "includes_0.50": false,
+      "n_splits": 5
+    }
+  }
+}

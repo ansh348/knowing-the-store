@@ -1,0 +1,19 @@
+{
+ "h45": {
+  "line": 5.0,
+  "probe_usd": 0.003166,
+  "projected_usd": 0.374362,
+  "runs": true,
+  "views": 452,
+  "x1_3": 0.48667059999999995
+ },
+ "mini": {
+  "billed_amend1_stage2": 0.008314400000000001,
+  "billed_ds_and_probe": 0.10964760000000001,
+  "new_calls": 30,
+  "projected_usd": 0.007848,
+  "rule": 4.0,
+  "total_against_rule": 0.12581
+ },
+ "when": "2026-09-14T14:16:59"
+}

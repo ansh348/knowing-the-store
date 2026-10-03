@@ -1,0 +1,342 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 32,
+    "in": 32684,
+    "out": 12001,
+    "usd": 0.0322752
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 4,
+  "persona": "rosa",
+  "probes": [
+    {
+      "domain": "Leisure Reading",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [],
+      "max_cosine": 0.2435,
+      "note": "",
+      "question": "What was the title and author of the last novel you read purely for pleasure?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2435,
+          "entry_id": "lb_00280",
+          "text": "User has read 'The House on Mango Street' and considers it a perfect book to pair with the bilingual book for her granddaughter when she is older."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1875,
+          "entry_id": "lb_00279",
+          "text": "User wants to give her granddaughter a bilingual book 'Abuelas' by Pat Mora to connect her to her heritage."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1858,
+          "entry_id": "lb_00248",
+          "text": "User values unstructured, slow travel experiences to reconnect with places"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1831,
+          "entry_id": "lb_00238",
+          "text": "Carlos enjoys reading placards at exhibits and would appreciate the history in Cusco and Machu Picchu."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.1825,
+          "entry_id": "lb_00164",
+          "text": "User is considering what the next chapter of their life looks like."
+        }
+      ],
+      "why_absent": "The memory store does not include any information about Rosa's leisure reading or novels read."
+    },
+    {
+      "domain": "Personal History",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "style"
+      ],
+      "max_cosine": 0.3039,
+      "note": "",
+      "question": "Can you describe the layout and decor style of your childhood bedroom?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3039,
+          "entry_id": "lb_00274",
+          "text": "User has children who had keepsake items like a blanket made by user's mother and a silver cup with their names."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2911,
+          "entry_id": "lb_00362",
+          "text": "User prefers the house to smell like Fabuloso lavender as a sign of cleanliness."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2295,
+          "entry_id": "lb_00361",
+          "text": "User's previous housekeeper Maria used Fabuloso lavender for cleaning."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2221,
+          "entry_id": "lb_00518",
+          "text": "User has boxes of old family photographs that Carlos encourages them to organize."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2208,
+          "entry_id": "lb_00096",
+          "text": "User's mother cleaned offices."
+        }
+      ],
+      "why_absent": "No details about Rosa's childhood bedroom or personal living spaces are stored."
+    },
+    {
+      "domain": "Music Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "home",
+        "type"
+      ],
+      "max_cosine": 0.2818,
+      "note": "",
+      "question": "What type of music do you usually listen to when relaxing at home?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2818,
+          "entry_id": "lb_00120",
+          "text": "User takes magnesium supplements at night for sleep and muscle relaxation"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2722,
+          "entry_id": "lb_00362",
+          "text": "User prefers the house to smell like Fabuloso lavender as a sign of cleanliness."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2563,
+          "entry_id": "lb_00254",
+          "text": "Carlos prefers parties at home with close people, good food, and humor rather than rented halls with DJs."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2409,
+          "entry_id": "lb_00122",
+          "text": "User experiences lower back tightness by mid-afternoon on days without yoga"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2344,
+          "entry_id": "lb_00043",
+          "text": "Carlos maintains a routine of going to the gym, doing home projects, and trying to grow herbs in the backyard."
+        }
+      ],
+      "why_absent": "There is no information about Rosa's music tastes or listening habits."
+    },
+    {
+      "domain": "Travel Experiences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "five",
+        "most",
+        "past",
+        "years"
+      ],
+      "max_cosine": 0.3115,
+      "note": "",
+      "question": "What was the most memorable meal you had during a vacation in the past five years?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3115,
+          "entry_id": "lb_00257",
+          "text": "User values pastelitos from Islas Canarias, especially guava and cheese flavor, for the party food."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2982,
+          "entry_id": "lb_00002",
+          "text": "User is a loyal customer of Versailles colada in Miami and has been going there since before it was a tourist attraction"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.296,
+          "entry_id": "lb_00401",
+          "text": "User plans to bring back the yuca en escabeche dish for a meal with Carlos."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2935,
+          "entry_id": "lb_00517",
+          "text": "User has a family tradition of cooking traditional Peruvian dishes with younger family members during Peruvian Independence Day."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.289,
+          "entry_id": "lb_00403",
+          "text": "User celebrates Easter with a lechon dish and specific traditional sides."
+        }
+      ],
+      "why_absent": "While travel destinations and plans are stored, specific memorable meals during travel are not."
+    },
+    {
+      "domain": "Personal Care",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "type"
+      ],
+      "max_cosine": 0.2837,
+      "note": "",
+      "question": "What is your preferred brand or type of skincare products you use daily?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2837,
+          "entry_id": "lb_00366",
+          "text": "User prefers the lavender scent of Fabuloso as a cleaning product."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2491,
+          "entry_id": "lb_00362",
+          "text": "User prefers the house to smell like Fabuloso lavender as a sign of cleanliness."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.243,
+          "entry_id": "lb_00121",
+          "text": "User prepares smoothie bags on Sundays as part of nutrition routine"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2276,
+          "entry_id": "lb_00360",
+          "text": "User supplies cleaning products for their housekeeper Ana."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2269,
+          "entry_id": "lb_00124",
+          "text": "User plans to start making tropical smoothies on weekends as part of a health routine"
+        }
+      ],
+      "why_absent": "No data about Rosa's skincare routines or product preferences is present."
+    },
+    {
+      "domain": "Hobbies and Skills",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any"
+      ],
+      "max_cosine": 0.2612,
+      "note": "",
+      "question": "Have you ever taken any art or music classes as a hobby? If so, which ones?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2612,
+          "entry_id": "lb_00107",
+          "text": "User practices yoga three mornings a week at a studio in Coral Gables"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2394,
+          "entry_id": "lb_00123",
+          "text": "User practices yoga three mornings a week at the Coral Gables studio"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2293,
+          "entry_id": "lb_00043",
+          "text": "Carlos maintains a routine of going to the gym, doing home projects, and trying to grow herbs in the backyard."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2273,
+          "entry_id": "lb_00110",
+          "text": "User values flexibility highly due to age and has been doing yoga for about two years"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.223,
+          "entry_id": "lb_00112",
+          "text": "User has been practicing yoga for about two years"
+        }
+      ],
+      "why_absent": "Hobby information is limited and does not include art or music class participation."
+    },
+    {
+      "domain": "Dining Out Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "favorite",
+        "miami",
+        "order"
+      ],
+      "max_cosine": 0.4128,
+      "note": "",
+      "question": "What is your favorite restaurant in Miami and what dish do you usually order there?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4128,
+          "entry_id": "lb_00331",
+          "text": "User lives in Miami."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3987,
+          "entry_id": "lb_00002",
+          "text": "User is a loyal customer of Versailles colada in Miami and has been going there since before it was a tourist attraction"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3885,
+          "entry_id": "lb_00379",
+          "text": "User lives or works in Miami and deals with Miami traffic regularly."
+        },
+        {
+          "category": "OTHER",
+          "cosine": 0.3734,
+          "entry_id": "lb_00007",
+          "text": "User associates colada with social connection and community in Miami culture."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3596,
+          "entry_id": "lb_00015",
+          "text": "User's family moved from Lima to Miami."
+        }
+      ],
+      "why_absent": "The memory store does not cover Rosa's favorite restaurants or dining out habits."
+    }
+  ],
+  "threshold": 0.295
+}

@@ -1,0 +1,403 @@
+{
+ "descriptive": true,
+ "note": "draw 1 alone in every cell (the one-draw analogue of the Sol and Opus lanes) beside the five-draw means; offline, no call",
+ "readers": {
+  "H45": {
+   "A": {
+    "P0": {
+     "draw1": {
+      "auroc": 0.3872,
+      "ci_persona": {
+       "ci_hi": 0.4367188450682801,
+       "ci_lo": 0.3302139700205655,
+       "excludes_half": true,
+       "excludes_zero": true,
+       "mean": 0.38489739633548353,
+       "n_draws": 1000
+      },
+      "wtl": [
+       16,
+       22,
+       49
+      ]
+     },
+     "five_draw": {
+      "auroc": 0.3765,
+      "ci_persona": {
+       "ci_hi": 0.425688871888801,
+       "ci_lo": 0.3182673721449364,
+       "excludes_half": true,
+       "excludes_zero": true,
+       "mean": 0.3744113829652902,
+       "n_draws": 1000
+      },
+      "wtl": [
+       18,
+       16,
+       53
+      ]
+     }
+    },
+    "P1": {
+     "draw1": {
+      "auroc": 0.5464,
+      "ci_persona": {
+       "ci_hi": 0.6072506196368297,
+       "ci_lo": 0.4769577610911989,
+       "excludes_half": false,
+       "excludes_zero": true,
+       "mean": 0.5454387393965994,
+       "n_draws": 1000
+      },
+      "wtl": [
+       37,
+       16,
+       34
+      ]
+     },
+     "five_draw": {
+      "auroc": 0.5483,
+      "ci_persona": {
+       "ci_hi": 0.6135261001942992,
+       "ci_lo": 0.4793065125198972,
+       "excludes_half": false,
+       "excludes_zero": true,
+       "mean": 0.5480079923375398,
+       "n_draws": 1000
+      },
+      "wtl": [
+       42,
+       10,
+       35
+      ]
+     }
+    }
+   },
+   "B": {
+    "P0": {
+     "draw1": {
+      "auroc": 0.412,
+      "ci_persona": {
+       "ci_hi": 0.4863424754485579,
+       "ci_lo": 0.32020658814489983,
+       "excludes_half": true,
+       "excludes_zero": true,
+       "mean": 0.4058566735939254,
+       "n_draws": 1000
+      },
+      "wtl": [
+       4,
+       6,
+       16
+      ]
+     },
+     "five_draw": {
+      "auroc": 0.4238,
+      "ci_persona": {
+       "ci_hi": 0.5135837619135303,
+       "ci_lo": 0.31789321221031996,
+       "excludes_half": false,
+       "excludes_zero": true,
+       "mean": 0.41983800867608645,
+       "n_draws": 1000
+      },
+      "wtl": [
+       8,
+       2,
+       16
+      ]
+     }
+    },
+    "P1": {
+     "draw1": {
+      "auroc": 0.5377,
+      "ci_persona": {
+       "ci_hi": 0.627783125216788,
+       "ci_lo": 0.4442339163242669,
+       "excludes_half": false,
+       "excludes_zero": true,
+       "mean": 0.5418730254267552,
+       "n_draws": 1000
+      },
+      "wtl": [
+       12,
+       6,
+       8
+      ]
+     },
+     "five_draw": {
+      "auroc": 0.5333,
+      "ci_persona": {
+       "ci_hi": 0.6206075734105604,
+       "ci_lo": 0.4437324334319526,
+       "excludes_half": false,
+       "excludes_zero": true,
+       "mean": 0.5382969606090575,
+       "n_draws": 1000
+      },
+      "wtl": [
+       13,
+       5,
+       8
+      ]
+     }
+    }
+   }
+  },
+  "LUNA": {
+   "A": {
+    "P0": {
+     "draw1": {
+      "auroc": 0.3484,
+      "ci_persona": {
+       "ci_hi": 0.37733054784868103,
+       "ci_lo": 0.3121446530895558,
+       "excludes_half": true,
+       "excludes_zero": true,
+       "mean": 0.346126333826502,
+       "n_draws": 1000
+      },
+      "wtl": [
+       15,
+       8,
+       64
+      ]
+     },
+     "five_draw": {
+      "auroc": 0.3467,
+      "ci_persona": {
+       "ci_hi": 0.3846960751475831,
+       "ci_lo": 0.2944415990407642,
+       "excludes_half": true,
+       "excludes_zero": true,
+       "mean": 0.3427314046549987,
+       "n_draws": 1000
+      },
+      "wtl": [
+       10,
+       1,
+       76
+      ]
+     }
+    },
+    "P1": {
+     "draw1": {
+      "auroc": 0.964,
+      "ci_persona": {
+       "ci_hi": 0.9934562760261749,
+       "ci_lo": 0.9238104338842975,
+       "excludes_half": true,
+       "excludes_zero": true,
+       "mean": 0.9639121631134667,
+       "n_draws": 1000
+      },
+      "wtl": [
+       82,
+       2,
+       3
+      ]
+     },
+     "five_draw": {
+      "auroc": 0.9836,
+      "ci_persona": {
+       "ci_hi": 1.0,
+       "ci_lo": 0.9557638269864551,
+       "excludes_half": true,
+       "excludes_zero": true,
+       "mean": 0.983361306287662,
+       "n_draws": 1000
+      },
+      "wtl": [
+       85,
+       0,
+       2
+      ]
+     }
+    }
+   },
+   "B": {
+    "P0": {
+     "draw1": {
+      "auroc": 0.48,
+      "ci_persona": {
+       "ci_hi": 0.5607905705013871,
+       "ci_lo": 0.4058375925925926,
+       "excludes_half": false,
+       "excludes_zero": true,
+       "mean": 0.48443961144796116,
+       "n_draws": 1000
+      },
+      "wtl": [
+       13,
+       2,
+       11
+      ]
+     },
+     "five_draw": {
+      "auroc": 0.4172,
+      "ci_persona": {
+       "ci_hi": 0.4664094650205761,
+       "ci_lo": 0.34967579191608905,
+       "excludes_half": true,
+       "excludes_zero": true,
+       "mean": 0.41104787345790955,
+       "n_draws": 1000
+      },
+      "wtl": [
+       8,
+       0,
+       18
+      ]
+     }
+    },
+    "P1": {
+     "draw1": {
+      "auroc": 0.9808,
+      "ci_persona": {
+       "ci_hi": 1.0,
+       "ci_lo": 0.9424,
+       "excludes_half": true,
+       "excludes_zero": true,
+       "mean": 0.9807155675291638,
+       "n_draws": 1000
+      },
+      "wtl": [
+       26,
+       0,
+       0
+      ]
+     },
+     "five_draw": {
+      "auroc": 0.9793,
+      "ci_persona": {
+       "ci_hi": 1.0,
+       "ci_lo": 0.9400865384615384,
+       "excludes_half": true,
+       "excludes_zero": true,
+       "mean": 0.9798747361179102,
+       "n_draws": 1000
+      },
+      "wtl": [
+       26,
+       0,
+       0
+      ]
+     }
+    }
+   }
+  }
+ },
+ "sol_losses_A_P1": [
+  {
+   "crossed": "How has my work preference changed over time?",
+   "lineage": "primary",
+   "nok_cell1": 0.97,
+   "nok_cell3": 1.0,
+   "original": "What is my current work style or preference?",
+   "pair_id": "cf2:alex:work_preference",
+   "persona": "alex",
+   "slot": "work_preference"
+  },
+  {
+   "crossed": "How has my desk posture changed over time?",
+   "lineage": "primary",
+   "nok_cell1": 0.03,
+   "nok_cell3": 0.06,
+   "original": "Can you describe the way I'm positioned at my desk at this moment?",
+   "pair_id": "cf2:amara:habit:desk_posture",
+   "persona": "amara",
+   "slot": "habit:desk_posture"
+  },
+  {
+   "crossed": "How has my breakfast habit changed over time?",
+   "lineage": "primary",
+   "nok_cell1": 0.99,
+   "nok_cell3": 1.0,
+   "original": "What's my current breakfast routine like?",
+   "pair_id": "cf2:bruna:breakfast_habit",
+   "persona": "bruna",
+   "slot": "breakfast_habit"
+  },
+  {
+   "crossed": "How has my family member Fiona's hobby of running changed over time?",
+   "lineage": "primary",
+   "nok_cell1": 0.48,
+   "nok_cell3": 1.0,
+   "original": "What distance is Fiona running these days?",
+   "pair_id": "cf2:callum:family_member:fiona_hobby_running",
+   "persona": "callum",
+   "slot": "family_member:fiona_hobby_running"
+  },
+  {
+   "crossed": "How has my phone scrolling as a decompression method changed over time?",
+   "lineage": "primary",
+   "nok_cell1": 0.96,
+   "nok_cell3": 1.0,
+   "original": "Can you tell me how I'm using phone scrolling as a way to decompress at the moment?",
+   "pair_id": "cf2:elena:decompression_method:phone_scrolling",
+   "persona": "elena",
+   "slot": "decompression_method:phone_scrolling"
+  },
+  {
+   "crossed": "How has my belief about the health effects of vaping compared to smoking changed over time?",
+   "lineage": "primary",
+   "nok_cell1": 0.99,
+   "nok_cell3": 1.0,
+   "original": "How do I feel about vaping versus smoking right now?",
+   "pair_id": "cf2:jake:health_belief_vaping_vs_smoking",
+   "persona": "jake",
+   "slot": "health_belief_vaping_vs_smoking"
+  },
+  {
+   "crossed": "How has my blood sugar check changed over time?",
+   "lineage": "primary",
+   "nok_cell1": 0.96,
+   "nok_cell3": 1.0,
+   "original": "Can you tell me the latest reading from my blood sugar check?",
+   "pair_id": "cf2:marcus:health_monitoring:blood sugar check",
+   "persona": "marcus",
+   "slot": "health_monitoring:blood sugar check"
+  },
+  {
+   "crossed": "How has my work vehicle condition changed over time?",
+   "lineage": "primary",
+   "nok_cell1": 0.99,
+   "nok_cell3": 1.0,
+   "original": "What's the current condition of my work vehicle?",
+   "pair_id": "cf2:mirri:work_vehicle_condition",
+   "persona": "mirri",
+   "slot": "work_vehicle_condition"
+  },
+  {
+   "crossed": "How has my budget allocation changed over time?",
+   "lineage": "primary",
+   "nok_cell1": 0.99,
+   "nok_cell3": 1.0,
+   "original": "What is my current budget allocation for this month?",
+   "pair_id": "cf2:omar:budget_allocation",
+   "persona": "omar",
+   "slot": "budget_allocation"
+  },
+  {
+   "crossed": "How has my health management method changed over time?",
+   "lineage": "primary",
+   "nok_cell1": 0.96,
+   "nok_cell3": 1.0,
+   "original": "Can you tell me the way I handle my health at the moment?",
+   "pair_id": "cf2:saga:health_management_method",
+   "persona": "saga",
+   "slot": "health_management_method"
+  },
+  {
+   "crossed": "How has my sleep schedule changed over time?",
+   "lineage": "primary",
+   "nok_cell1": 0.99,
+   "nok_cell3": 1.0,
+   "original": "Am I sticking to a regular sleep schedule right now?",
+   "pair_id": "cf2:thanh:sleep_schedule",
+   "persona": "thanh",
+   "slot": "sleep_schedule"
+  }
+ ],
+ "when": "2026-09-19T14:35:16"
+}

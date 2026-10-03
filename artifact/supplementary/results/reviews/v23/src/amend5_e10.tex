@@ -1,0 +1,32 @@
+% amend5_e10.tex -- DS Amendment 5 for paper_v18 (CC_PASS_v18; the author's instruction of 2026-09-14): the Section 8 sentence and the
+% Appendix E.10 table. Every number is AUX-DS-A5-* in ds_downstream/NUMBERS_DS.md section 11 (run/scores_amend5.json), beside the
+% Amendment 4 rows (AUX-DS-A4-STAGE2-*). Prose rounds to two decimals; the table carries counts and four-decimal rates.
+
+% ---- Section 8, one sentence after "the fix is in the write path" (rates over the reached obligations; TAU_GOLD 0.50)
+Tagging the $35$ untagged duplicates the audit found, and nothing else, cuts stale answers at the join's threshold from $0.20$ to $0.06$ of the reached obligations under retrieval alone and from $0.15$ to $0.03$ under the gated fetch for the smallest model, and from $0.33$ to $0.20$ and from $0.37$ to $0.23$ for Haiku~4.5, with the licensed items' views and hence the correct count untouched; Haiku~4.5's residual comes from tagged lines, and under the gated fetch two thirds of it is a mention of the tagged content beyond the answer's first sentence, inside an abstention or an explanation (Appendix~\ref{app:resp}).
+
+% ---- Appendix E.10, the table (lands after the Amendment 4 table; label tab:ds-a5)
+\begin{table}[H]
+\caption{The answer stage with the store's untagged duplicates tagged (DS Amendment 5, descriptive; no prediction was registered). For each of the $35$ obligations whose view carried an active line asserting the stale value, every such line is retagged with the obligation's state (superseded or retracted) and nothing else in any view changes; $74$ of the $452$ distinct views change ($132$ lines) and are re-answered by both answerers under the Amendment 4 header, the other $378$ keeping their Amendment 4 answers. A line counts as asserting the stale value by the item's own committed detector at the join's threshold: at least two content tokens shared with the stale field, coverage of the stale-only tokens at least $0.50$, coverage of the successor-only tokens below $0.34$. Stale is the detector's flag on the answer at $0.50$ (the join's threshold) and at $0.80$ (the registered threshold), over the reached obligations of each policy; the last two columns restrict to the scorable supersession- and retraction-derived obligations and give the flag on the whole answer beside the flag on the answer's first sentence alone (the expiry obligations' gold field is the expired fact, so they are unscorable there); correct is over the licensed items, whose views do not change. Every cell reads Amendment 4 (recorded) to Amendment 5; mini is GPT-4.1 mini and Haiku is Haiku 4.5.}
+\label{tab:ds-a5}\centering\tiny\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}llrrrrrrr@{}}\toprule
+Answerer & Policy & Reached & Stale at $0.50$ & Stale at $0.80$ & Correct (licensed) & Rate at $0.50$ & Scorable, whole answer & Scorable, first sentence \\ \midrule
+mini & Top-5 & $54$ & $11 \to 3$ & $3 \to 1$ & $56$ of $174$ & $0.2037 \to 0.0556$ & $10 \to 2$ of $42$ & $10 \to 2$ of $42$ \\
+mini & Model & $74$ & $11 \to 2$ & $2 \to 1$ & $53$ of $155$ & $0.1486 \to 0.0270$ & $10 \to 1$ of $62$ & $10 \to 1$ of $62$ \\
+mini & Lookup & $70$ & $9 \to 1$ & $2 \to 1$ & $48$ of $146$ & $0.1286 \to 0.0143$ & $8 \to 0$ of $58$ & $8 \to 0$ of $58$ \\
+mini & Model, all states & $74$ & $12 \to 2$ & $2 \to 1$ & $53$ of $155$ & $0.1622 \to 0.0270$ & $11 \to 1$ of $62$ & $11 \to 1$ of $62$ \\
+mini & Lookup, all states & $70$ & $9 \to 1$ & $1 \to 1$ & $47$ of $146$ & $0.1286 \to 0.0143$ & $8 \to 0$ of $58$ & $8 \to 0$ of $58$ \\
+mini & Literal & $94$ & $17 \to 5$ & $3 \to 1$ & $55$ of $174$ & $0.1809 \to 0.0532$ & $16 \to 4$ of $82$ & $16 \to 4$ of $82$ \\
+mini & Oracle & $99$ & $18 \to 3$ & $2 \to 1$ & $56$ of $174$ & $0.1818 \to 0.0303$ & $17 \to 2$ of $85$ & $17 \to 2$ of $85$ \\ \midrule
+Haiku & Top-5 & $54$ & $18 \to 11$ & $5 \to 4$ & $73$ of $174$ & $0.3333 \to 0.2037$ & $10 \to 3$ of $42$ & $6 \to 0$ of $42$ \\
+Haiku & Model & $74$ & $27 \to 17$ & $8 \to 6$ & $64$ of $155$ & $0.3649 \to 0.2297$ & $19 \to 9$ of $62$ & $12 \to 3$ of $62$ \\
+Haiku & Lookup & $70$ & $24 \to 16$ & $7 \to 6$ & $58$ of $146$ & $0.3429 \to 0.2286$ & $16 \to 8$ of $58$ & $11 \to 3$ of $58$ \\
+Haiku & Model, all states & $74$ & $23 \to 13$ & $7 \to 4$ & $64$ of $155$ & $0.3108 \to 0.1757$ & $15 \to 5$ of $62$ & $11 \to 1$ of $62$ \\
+Haiku & Lookup, all states & $70$ & $20 \to 12$ & $6 \to 4$ & $58$ of $146$ & $0.2857 \to 0.1714$ & $12 \to 4$ of $58$ & $9 \to 1$ of $58$ \\
+Haiku & Literal & $94$ & $31 \to 18$ & $8 \to 5$ & $72$ of $174$ & $0.3298 \to 0.1915$ & $23 \to 10$ of $82$ & $15 \to 5$ of $82$ \\
+Haiku & Oracle & $99$ & $32 \to 22$ & $7 \to 5$ & $73$ of $174$ & $0.3232 \to 0.2222$ & $23 \to 13$ of $85$ & $15 \to 7$ of $85$ \\
+\bottomrule\end{tabular}
+\end{table}
+
+% ---- Appendix E.10, the sentence under the table (the changed views alone; AUX-DS-A5-CHANGED-*)
+On the $74$ views that change, stale answers at $0.50$ fall from $37$ to $8$ for GPT-4.1 mini (a rate difference of $-0.39$, intervals $[-0.51,-0.28]$ and $[-0.65,-0.18]$ with questions grouped by user profile) and from $38$ to $12$ for Haiku~4.5 ($-0.35$, $[-0.46,-0.24]$ and $[-0.59,-0.14]$); every transition is from stale to not stale, none the other way, the flag at $0.80$ falls to zero for both, and abstentions rise from $2$ to $9$ and from $12$ to $27$. After the retagging no changed view carries an active line asserting the stale value, so every remaining stale answer on them has a tagged source ($8$ and $12$); GPT-4.1 mini's $8$ all flag on the first sentence, while $6$ of Haiku~4.5's $12$ flag only beyond it, a mention of the tagged content inside an abstention or an explanation.

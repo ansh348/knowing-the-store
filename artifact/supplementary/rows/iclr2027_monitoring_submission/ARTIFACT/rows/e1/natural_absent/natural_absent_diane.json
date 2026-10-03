@@ -1,0 +1,358 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 11,
+    "in": 11531,
+    "out": 4090,
+    "usd": 0.0111564
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 0,
+  "persona": "diane",
+  "probes": [
+    {
+      "domain": "Education History",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "diane",
+        "name",
+        "school"
+      ],
+      "max_cosine": 0.3453,
+      "note": "",
+      "question": "What was the name of the high school Diane attended?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3453,
+          "entry_id": "lb_00209",
+          "text": "User attended divinity school and studied under Professor Elias Hartwell."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.33,
+          "entry_id": "lb_00206",
+          "text": "User attended divinity school."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3031,
+          "entry_id": "lb_00029",
+          "text": "User attended Yale Divinity School for a Master of Divinity degree"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2936,
+          "entry_id": "lb_00214",
+          "text": "User attended a seminary where Dr. Elias Hartwell taught."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.292,
+          "entry_id": "lb_00025",
+          "text": "User went to divinity school because of The Wounded Healer by Henri Nouwen."
+        }
+      ],
+      "why_absent": "The store does not include any information about Diane's early education or high school."
+    },
+    {
+      "domain": "Personal History - Travel",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "diane's",
+        "tell",
+        "you"
+      ],
+      "max_cosine": 0.3357,
+      "note": "",
+      "question": "Can you tell me about Diane's favorite vacation destination from her childhood?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3357,
+          "entry_id": "lb_00304",
+          "text": "User visited DuPont State Forest and experienced a deep connection with the waterfalls there."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3338,
+          "entry_id": "lb_00107",
+          "text": "User has memorized Mary Oliver's poem 'The Summer Day'."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.325,
+          "entry_id": "lb_00302",
+          "text": "User visited DuPont State Forest and experienced a deep emotional and philosophical reflection on the waterfalls there."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3033,
+          "entry_id": "lb_00108",
+          "text": "User reflects on the meaning of the final question in 'The Summer Day' differently depending on the day."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3029,
+          "entry_id": "lb_00382",
+          "text": "User has read Joan Didion's The Year of Magical Thinking and found it formative."
+        }
+      ],
+      "why_absent": "No details about Diane's childhood vacations or travel preferences are present in the memory store."
+    },
+    {
+      "domain": "Transportation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "currently",
+        "diane",
+        "kind"
+      ],
+      "max_cosine": 0.2981,
+      "note": "",
+      "question": "What kind of car does Diane currently drive?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2981,
+          "entry_id": "lb_00422",
+          "text": "User processes their work emotionally during the car drive home."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2895,
+          "entry_id": "lb_00001",
+          "text": "User had a visit with a woman named Eleanor who is ninety-one years old and is dying well."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2817,
+          "entry_id": "lb_00308",
+          "text": "User drove home through Brevard with the windows down, appreciating the late-afternoon light and the air on their arm."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.275,
+          "entry_id": "lb_00283",
+          "text": "User currently works at CarePartners Hospice."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.275,
+          "entry_id": "lb_00289",
+          "text": "User currently works at CarePartners Hospice."
+        }
+      ],
+      "why_absent": "There is no information about Diane's vehicle ownership or transportation preferences."
+    },
+    {
+      "domain": "Home and Gardening",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "diane's",
+        "flower",
+        "home",
+        "type"
+      ],
+      "max_cosine": 0.4978,
+      "note": "",
+      "question": "What is Diane's favorite type of flower or plant to have in her home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.4978,
+          "entry_id": "lb_00323",
+          "text": "User paints flowers, especially those they used to tend in their garden."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.4459,
+          "entry_id": "lb_00087",
+          "text": "User tends a garden with mostly perennial plants such as echinacea, black-eyed Susan, and butterfly weed."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.4435,
+          "entry_id": "lb_00083",
+          "text": "User grows mostly perennial plants such as echinacea, black-eyed Susan, and butterfly weed in their garden."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.4212,
+          "entry_id": "lb_00324",
+          "text": "User tends to paint imaginary perennial flowers every morning at their kitchen table with a cup of coffee and a glass of water."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.4057,
+          "entry_id": "lb_00315",
+          "text": "User paints flowers in watercolor, focusing on blooms they can no longer tend in a garden."
+        }
+      ],
+      "why_absent": "The store does not cover Diane's preferences or habits related to home plants or gardening."
+    },
+    {
+      "domain": "Community Involvement",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "chaplaincy",
+        "community",
+        "diane",
+        "ever",
+        "outside",
+        "volunteer",
+        "work"
+      ],
+      "max_cosine": 0.5532,
+      "note": "",
+      "question": "Has Diane ever participated in any community volunteer work outside of her chaplaincy?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.5532,
+          "entry_id": "lb_00293",
+          "text": "User works as a chaplain at CarePartners Hospice."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.5224,
+          "entry_id": "lb_00295",
+          "text": "User works as a chaplain at CarePartners Hospice in western North Carolina."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.5182,
+          "entry_id": "lb_00148",
+          "text": "User has been a chaplain for about twenty years"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.4816,
+          "entry_id": "lb_00017",
+          "text": "User transitioned from parish work to hospice chaplaincy after the death of her son."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.4758,
+          "entry_id": "lb_00019",
+          "text": "User currently works in hospice ministry, focusing on presence and accompaniment with the dying."
+        }
+      ],
+      "why_absent": "No data about Diane's volunteer activities beyond her professional role is stored."
+    },
+    {
+      "domain": "Lifestyle - Home Environment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "diane's",
+        "home"
+      ],
+      "max_cosine": 0.4504,
+      "note": "",
+      "question": "What is Diane's preferred style of home decor or interior design?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4504,
+          "entry_id": "lb_00049",
+          "text": "User's husband Greg prefers Shaker-influenced furniture styles but would resist labeling his work as such."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.355,
+          "entry_id": "lb_00048",
+          "text": "User's husband Greg makes tables, chairs, and some cabinets with a focus on proportion, joinery, and the natural beauty of wood, avoiding ornate details like carving or inlay."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3378,
+          "entry_id": "lb_00323",
+          "text": "User paints flowers, especially those they used to tend in their garden."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3264,
+          "entry_id": "lb_00408",
+          "text": "Greg is designing a rocking chair that emphasizes functional craftsmanship."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3241,
+          "entry_id": "lb_00469",
+          "text": "User values elevated simplicity in cooking and prefers meals that feel special without being fussy."
+        }
+      ],
+      "why_absent": "There is no information about Diane's home decoration preferences or style."
+    },
+    {
+      "domain": "Personal Interests - Music History",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "diane",
+        "kind",
+        "years"
+      ],
+      "max_cosine": 0.3152,
+      "note": "",
+      "question": "What kind of music did Diane enjoy during her teenage years?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3152,
+          "entry_id": "lb_00164",
+          "text": "User appreciates old-time fiddle music distinct from bluegrass."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2573,
+          "entry_id": "lb_00031",
+          "text": "User was intellectually alive and engaged with diverse theological perspectives including liberation theology, feminist hermeneutics, and process theology during their time at Yale Divinity School"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2454,
+          "entry_id": "lb_00382",
+          "text": "User has read Joan Didion's The Year of Magical Thinking and found it formative."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2367,
+          "entry_id": "lb_00190",
+          "text": "User has experienced different resonances with Rilke's letters over time, initially relating most to passages about solitude and now to passages about patience and loving the questions."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2318,
+          "entry_id": "lb_00443",
+          "text": "User has a deep appreciation for poets Rilke, Mary Oliver, and Berry."
+        }
+      ],
+      "why_absent": "The memory store lacks details about Diane's early music interests or preferences."
+    }
+  ],
+  "threshold": 0.295
+}

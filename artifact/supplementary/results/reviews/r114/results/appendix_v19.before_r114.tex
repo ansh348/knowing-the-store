@@ -1,0 +1,1689 @@
+%% R104 appendices. Prose written under the presentation rules of the v11-to-v12 pass (section 4); every table, box and
+%% verbatim block is carried from paper_v11.tex by line range through reviews/v12/tools/build_v12.py (line-range markers),
+%% untouched except the one ordered typo repair in the authorship-matched table's block header. R108: Appendix A (the proposition
+%% and its proof, v11 lines 875-898) moved verbatim to the supplement, Section S.10, by the author's instruction. The factorial and inversion subsections of Appendix F are byte-identical to
+%% v11 because they carry the U-blocks and the U8 region.
+%% Writing pass (2026-09-15, paper_v18_writing_prompt.md; program R111): this file is edited in place by reviews/v18/tools/wp_phase1.py (Phase 1: E.7's carried block split around
+%% the U1 sentence, E.9's two census facts, C.2's own-pool sentence, tab:routes-full with the store's-own-tags rows and the sign fix). Do not re-run appendix_v18.py; it would overwrite these edits.
+\section{Exact capability table}\label{app:laddertable}
+
+This appendix carries the cross-model set in full; Table~\ref{tab:populations} defines every population the body names, and Table~\ref{tab:runs} records which model ran on which question set.
+
+%% R112 (2026-09-16), the page-budget step of the integration pass: Table tab:setup moved verbatim from Section 4; tab:populations and tab:runs below define the same populations in full.
+\begin{table}[H]
+%% Writing pass Phase 1 (2026-09-15), item 24: Table tab:populations and Table tab:runs (Appendix A) merged and trimmed to eight rows. Sizes and positives as in tab:populations;
+%% the models and calls per question from tab:runs and, for the expiry extension, r82_counterfactual/cf3/NUMBERS_CF3.md (AUX-CF3-PROJECTION: mini 140 calls, Haiku 4.5 700, Opus 5 140),
+%% for the authorship-matched set the recorded rows (r74/x5/rows_MINI.jsonl: three draws per arm; rows_OP5.jsonl and r74/x6/rows_H45.jsonl: five; reviews/NUMBERS_WP.md AUX-WP-X5-DRAWS).
+%% Phase 4b: the note keeps the draws (the author's skeleton); the score-resolution sentences stand in Appendix C.2 (AUX-R110-A3; k3_noise 46 of 50).
+\caption{The populations, with their sizes and positives and the models that ran on each (calls per question in parentheses); Appendix~\ref{app:laddertable} defines each population in full and records the runs.}
+\label{tab:setup}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{0.9}
+%% Phase 4c (L2): the row padding and column separation tightened, the population column widened; the words are unchanged.
+\begin{tabular}{@{}p{0.165\linewidth}p{0.505\linewidth}p{0.31\linewidth}@{}}
+\toprule
+Population & $n$ (positives) & Models (calls per question) \\
+\midrule
+the counterfactual set & $444$ items: $148$ questions asked of three versions of one store that differ in one attribute ($148$ obligations: $88$ supersession, $30$ retraction, $30$ expiry) & GPT-4.1 mini (1), Haiku 4.5 (5), Opus 5 (5) \\
+the expiry extension & $42$ items: the $14$ eligible expiry pairs the first draw left undrawn, built by the same construction ($44$ expiry pairs pooled with the set's $30$) & GPT-4.1 mini (1), Haiku 4.5 (5), Opus 5 (1) \\
+the full obligation set & $661$ questions ($104$ obligations: $63$ supersession, $26$ retraction, $15$ expiry): the hard tier's $307$ and the easy tier's $354$ together & GPT-4.1 mini (1); Haiku 4.5, Opus 5 and GPT-5.6 Luna (5); GPT-5.6 Sol and Kimi K3 stopped at the budget \\
+the coverage set & $307$ questions ($35$ non-\absent{}): the hard tier, on which every coverage positive is an obligation & the same \\
+the easy tier & $354$ questions ($243$ non-\absent{}, $69$ obligations): absent items made by removing a whole category from the store & the same \\
+the cross-model set & $84$ questions ($54$ FOK-positive, $40$ obligations): the same questions asked of every model & all six; GPT-4.1 mini (1), the others (5) \\
+the authorship-matched set & $36$ questions ($12$ obligations): every question rewritten in one voice & GPT-4.1 mini (3)$^{a}$, Haiku 4.5 (5), Opus 5 (5) \\
+the downstream items & $174$ licensed items and $89$ scorable obligations: the items the answer stage can answer and the obligations its detector can score & GPT-4.1 mini and Haiku 4.5 as answerers (1) \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.97\linewidth}\scriptsize
+$^{a}$GPT-4.1 mini ran three draws per question under each prompt on this set and one call per question on every other set; the score resolution of the one-call and five-call rows is in Appendix~\ref{app:counterfactual}.
+\end{minipage}
+\end{table}
+
+%% R110: the population list (OUTLINE.md section C), moved here from Section 4 by the author's trim order of 2026-09-15; the names are the only way the body refers to a population (P2).
+\begin{table}[H]
+\caption{The populations by name, with their sizes and what each isolates. The body refers to a population by these names only.}
+\label{tab:populations}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}p{0.2\linewidth}p{0.3\linewidth}p{0.46\linewidth}@{}}
+\toprule
+Name & $n$ & Definition \\
+\midrule
+the counterfactual set & $444$ items ($148$ questions, three store versions each; $148$ positives: $88$ supersession, $30$ retraction, $30$ expiry) & the same question asked of three versions of one store that differ in one attribute \\
+the expiry extension & $42$ items ($14$ pairs; pooled with the counterfactual set's $30$ expiry pairs: $44$) & the eligible expiry pairs the first draw left undrawn, built by the same construction \\
+the full obligation set & $661$ questions ($104$ obligations: $63$ supersession, $26$ retraction, $15$ expiry) & the hard tier's $307$ questions and the easy tier's $354$ together \\
+the coverage set & $307$ questions ($35$ non-\absent{}) & the hard tier; every coverage positive is an obligation \\
+the easy tier & $354$ questions ($243$ non-\absent{}, $69$ obligations) & a whole category removed for absence; joins the hard tier in the full obligation set \\
+the cross-model set & $84$ questions ($54$ FOK-positive, $40$ obligations) & the same questions asked of every model \\
+the authorship-matched set & $36$ questions ($12$ obligations) & every question rewritten in one voice \\
+the licensed items & $174$ & the downstream experiment's answerable items \\
+the scorable obligations & $89$ & the downstream obligations the detector can score \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%% R110: the run-coverage table (CC_PASS_v18 section 3.5), moved here from Section 4 by the author's trim order of 2026-09-15; cells verified against r74/NUMBERS_R74.md (X4; D-R74-6) and the cross-vendor record.
+\begin{table}[H]
+\caption{Run coverage, model by question set, in the words of the run records. Two runs stopped at the budget on the full populations, so their complete rows are on the cross-model set; three models ran on the counterfactual set.}
+\label{tab:runs}
+\centering
+\tiny
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}llllllp{0.24\linewidth}@{}}
+\toprule
+Model & Vendor & Counterfactual ($444$) & Full obligation ($661$) & Coverage ($307$) & Cross-model ($84$) & Scoring \\
+\midrule
+GPT-4.1 mini & OpenAI & ran & ran (the main study) & ran & ran & one call, temperature $0$ \\
+Haiku 4.5 & Anthropic & ran & ran & ran & ran & five calls, temperature $0$ \\
+Opus 5 & Anthropic & ran & ran & ran & ran & five calls, provider default; one call on the expiry extension \\
+GPT-5.6 Luna & OpenAI & not run & ran & ran & ran & five calls, provider default \\
+GPT-5.6 Sol & OpenAI & not run & stopped at the budget & stopped at the budget & ran & five calls \\
+Kimi K3 & Moonshot & not run & stopped at the budget & stopped at the budget & ran & five calls \\
+\bottomrule
+\end{tabular}
+\end{table}
+% R109: two sentences moved verbatim from Section 8 (page-9 gate).
+GPT-4.1 mini's blind obligation score is flat on the full population, two values with $604$ of the $661$ questions at one of them, so its indexed-minus-blind difference is not a gain.
+Its gain is defined only on the counterfactual set, where it is $+0.22$ and was predicted before the run (Section~\ref{sec:counterfactual}).
+It gives six models on the same $84$ questions, the five models with a varying blind obligation score on the full population, and the five capability items registered before the ladder run.
+Across the five models whose blind obligation score carries information, the blind span of $0.3307$ contracts to $0.0389$ when indexed.
+The indexed scores sit between $0.8199$ and $0.8588$ across three vendors, so the summary sets the level and the model sets little of it.
+The Anthropic pair spans two model generations, so its ordering compares price and capability rather than a within-generation change.
+GPT-4.1 mini's obligation row on the full population reads blind $0.4946$ and indexed $0.7339$.
+That difference of $+0.2393$ has item-level interval $[+0.1801,+0.2949]$ and $[+0.1552,+0.3237]$ with questions grouped by persona.
+The blind score takes two distinct values on the $661$ questions, with or without the rubric's detection step.
+The difference is therefore not read as a gain over a blind judgment, and the main text compares the indexed level with the name lookup instead.
+On coverage, model scale improves the blind guess, because blind levels include what the question text gives away.
+GPT-5.6 Sol's blind FOK reaches $0.8131$ on the $150$-question stratified set and $0.7099$ on the cross-model set.
+On the two largest models the coverage gain includes zero (GPT-5.6 Sol $+0.0364$, Kimi K3 $+0.0571$), while the obligation gain excludes zero on both.
+GPT-4.1 mini's blind obligation score is constant at $0.0$ on all $84$ items, so its $0.5000$ is an all-tie artifact rather than calibrated uncertainty, and its clustered interval is not reported for the same reason.
+Forty-eight distinct values are spanned by GPT-5.6 Luna, which still fails to discriminate.
+The GPT-4.1 mini $\Delta$ interval entries carry a dash because those rows are the recorded main-study elicitation, which predates the study's paired-interval machinery, and the persona-clustered interval is shown where defined.
+
+%%V11:913-943%%
+
+The $84$-item cross-model set spans $33$ of the $40$ personas.
+Under persona clustering, nine of the ten rows carrying both intervals keep the verdict they had at item level.
+The exception is Opus 5 coverage, whose item-level interval excludes zero by $+0.0047$ and whose clustered interval includes it ($[-0.0136,+0.2368]$).
+Leave-one-persona-out shows zero sign changes on that row, so the point estimate is stable and the interval is what widens.
+Every obligation row survives clustering, including all three models from the other two vendors.
+
+A preregistered expansion re-elicited the blind and indexed conditions on the full FR-Bank populations for every run that completed under the budget stop (Table~\ref{tab:x4-expansion}).
+Those populations are obligation $n=661$ with $104$ \pn{} and coverage $n=307$.
+The $84$-item cross-model set remains the primary, because its predictions were fixed first.
+GPT-4.1 mini's rows are the recorded main-study elicitation, re-derived exactly by the expansion scorer.
+
+%%V11:956-978%%
+
+%%V11:980-997%%
+
+\section{Cross-vendor replication record}\label{app:crossvendor}
+
+This appendix carries the five items registered for the three models from vendors other than OpenAI, and one follow-up on the authorship-matched set.
+The item-level interval is the preregistered primary endpoint and the persona-clustered interval is the sensitivity, because that is the convention everywhere in this paper.
+
+\noindent\textbf{Reading the Outcome column.} \textit{held}: every prediction the registration carried was borne out. \textit{failed}: it was not, and the registration's frozen failure text is reported as written. \textit{held / failed}: a registration carrying several predictions, split as the middle column describes. \textit{no prediction}: a method freeze, or a set of branches enumerated in advance with no pass bar, so nothing could hold or fail. \textit{held / undefined}: one prediction held and one named a quantity its population does not define, which the registration had anticipated.\\
+
+%%V11:1004-1020%%
+
+\noindent\textbf{Per-provider disclosures.} The seven run disclosures for the three providers are in the supplement (Section~S.4), with the correction of one frozen failure explanation whose gate and verdict are unchanged. They are there because they bear on reproduction rather than on any result.
+
+\noindent\textbf{Haiku 4.5 on authorship-matched questions.}
+A registered follow-up asked whether Haiku 4.5's below-chance blind obligation score survives when the questions are rewritten in one voice for every label, because question authorship could carry a direction the model does not.
+% AUX-R76-NS5-* -- frozen branch (iii) sentence, verbatim; XV-1 is never re-adjudicated
+On the authorship-matched cell the Haiku 4.5 blind NOK point stays below chance while its interval includes chance, so the matched cell is indeterminate at $n=36$ on whether the inverted prior of XV-1 reflects a property of the model or of question authorship; XV-1's registered verdict is unchanged.
+The point falls $0.0073$ below the registered decision boundary of $0.45$, and the values appear in Table~\ref{tab:matched-cell}.
+
+\section{Question-signal audit}\label{app:questionprior}
+
+This appendix records that the question text alone predicts the labels.
+That is why no absolute blind level in this paper is a finding, and why the paired gains and the counterfactual set carry the evidence.
+Supervised text probes separate \pn{} from non-\pn{} far above chance on every question set, while a zero-shot GPT-4.1 mini reader does not.
+The larger $162$-question comparison stays separable (Table~\ref{tab:questionprior}).
+The records we deleted were removed by the store's own operation, yet the questions written about them still read differently from the rest.
+The structure runs deeper than authorship, because ranking by the recipe used to build each item alone scores $0.9736$ on the cross-model set, above the probe's $0.7972$ (Table~\ref{tab:av-census}).
+Six of the eight recipes carry a single class, so rewording cannot make blind levels clean.
+Separating construction from authorship needs comparison within a recipe, and only one is large enough ($n=16$).
+The same holds for coverage: on hard questions the FOK-positive class coincides with \pn{}, and the coverage-targeted probe scores $0.9662$ pooled, so blind coverage levels carry the same question signal.
+Two quantities are free of this signal, because neither depends on the wording of a question.
+The paired gains compare identical questions and still measure the summary's added information, and the counterfactual set fixes the question and varies the store (Table~\ref{tab:counterfactual}).
+The balanced authorship-matched set ($36$) holds every slot at the same one-third \pn{} rate, and blind NOK is at chance on it for GPT-4.1 mini and Opus 5.
+
+%%V11:1054-1074%%
+
+\subsection{Authorship-matched set}\label{app:matched}
+
+The authorship-matched set rewrites every question in one generator voice from each item's entity and slot, so no label is distinguishable by who wrote its question.
+It also balances the set so that each slot token carries the same one-third \pn{} rate (Table~\ref{tab:matched-cell}).
+Coefficient inspection of the supervised probe first suggested an authorship mismatch, with \pn{} questions bespoke and many negatives reusing generator templates.
+The census of Table~\ref{tab:av-census} shows the structure runs deeper than authorship, because six of its eight recipes carry a single class.
+
+%%V11:1083-1108%%
+
+This set is not a store counterfactual, and what it holds fixed is stated here because the two designs are easy to confuse.
+Within a slot the question is near-identical across labels, differing only in the entity named, and the slot's \pn{} rate is one third by construction.
+That is what makes it an authorship and blind-score control.
+Each item in a slot belongs to a different persona, so the label co-varies with the entire store rather than with the target's lifecycle state alone.
+A counterfactual in the strict sense scores one query against versions of the same store differing only in the target's lifecycle state, which is the design of Appendix~\ref{app:counterfactual}.
+
+%%V11:1119-1140%%
+
+\subsection{Store-counterfactual set}\label{app:counterfactual}
+
+%% Writing pass Phase 4, Step 3 (2026-09-15), lever 2: the supersession triple of Figure 2 moved here; the retraction triple stays in the body (reviews/NUMBERS_R110.md AUX-R110-FIG2).
+\begin{table}[H]
+\caption{The supersession triple of the counterfactual set that Figure~\ref{fig:example} leaves out: the question is fixed, the three store versions differ in one attribute, and only the summary lines that differ are shown, with the name lookup's score under each. The obligation is named, and the lookup separates the versions.}
+\label{tab:sup-triple}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.27\linewidth}>{\raggedright\arraybackslash}p{0.21\linewidth}>{\raggedright\arraybackslash}p{0.23\linewidth}>{\raggedright\arraybackslash}p{0.21\linewidth}@{}}
+\multicolumn{4}{@{}l}{Question: \textit{What is my current work style or preference?}}\\
+\toprule
+summary line & version 1: \present{} & version 2: \pn{} & version 3: \absent{}\\
+\midrule
+lifecycle total, superseded & \texttt{0} & \texttt{1} & \texttt{0}\\
+\texttt{PREFERENCES\_HABITS}: entries, active, superseded & \texttt{46, 46, 0} & \texttt{47, 46, 1} & \texttt{45, 45, 0}\\
+names carrying superseded content & \texttt{(none)} & \texttt{work\_preference} & \texttt{(none)}\\
+the name lookup's score & $0.00$ & $0.73$ & $0.00$\\
+the label & a current value, licensed & the old value must not be used & no such record\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+This appendix carries the counterfactual set in full.
+It gives the whole-set and per-state rows of every reader under the three summaries, the first form of the set, the adverse rows, the coverage rows, the lexical lookup, and the expiry pairs the main text refers to.
+The set asks $148$ questions, each of three versions of one store that differ in a single attribute, so $n=444$ with $148$ positives: $88$ supersession, $30$ retraction and $30$ expiry pairs.
+The pairs were drawn under predicates fixed before any verdict, and every question was written before any version of the store existed.
+A question-only reader scores $0.5000$ on this set as an identity, because the same question is asked of all three versions.
+Every gain below is measured against it, with the item-level paired interval first and the interval with questions grouped by persona beside it; where the two disagree the wider one decides.
+
+%% CF-2 P2 HOLDS [MAIN] and P4 (registrations/ADDENDUM_CF2.md section 8): frozen wording ships verbatim.
+Under the summary that names only superseded content, Haiku 4.5's judgment on the named state exceeds its judgment on the two counted states by $+0.3237$, interval $[+0.2319,+0.4011]$.
+Grouped by persona that interval is $[+0.2612,+0.3851]$.
+Opus 5 gives $+0.3295$ with intervals $[+0.2420,+0.4181]$ and $[+0.2556,+0.3875]$, and GPT-4.1 mini's $+0.2948$ (interval $[+0.1875,+0.3905]$) is descriptive.
+On this cell the superseded-names lookup reaches $0.7663$ against the smallest reader's $0.7167$ under the superseded-only summary, and the all-states lookup reaches $0.8756$ against Haiku 4.5's $0.8773$ under the all-three-named summary, within tolerance.
+Under the summary naming all three states the named-minus-counted difference on Haiku 4.5 falls to $+0.0203$ (interval $[-0.0570,+0.0907]$), so the difference belongs to what the summary names.
+The totals-randomized summary permutes the retracted and expired lifecycle totals across the $444$ store versions under a recorded seed, so that no version keeps its own pair and every value keeps its multiplicity; the per-category counts are not touched.
+Elsewhere it is byte-identical to the superseded-only summary.
+It moves GPT-4.1 mini's whole-set judgment by $+0.0011$, Haiku 4.5's by $+0.0072$ and Opus 5's by $-0.0052$, every interval inside the tolerance band, so no model takes anything from the totals.
+
+\paragraph{Count readers on this set.}
+%% R110: the count readers (reviews/NUMBERS_R110.md AUX-R110-A1-CR, -MODELS, -V2R; reviews/v18/tools/a1_count_readers.py; no model call).
+Two readers with no model in them read the count table alone, so that what a count carries can be measured beside what the models read from it.
+The category-aware count reader knows the question's category from the manifest and reads that category's retracted-plus-expired count; the category-guessing reader assigns the category from the question by the recorded rule of the question-only baseline suite and reads the same count; a state-aware reader, an upper bound that knows the state as well as the category, reads the state's own cell.
+Under the superseded-only summary the category-aware reader separates the retracted versions at $0.7306$ (item interval $[0.6194,0.8228]$, profile $[0.6900,0.8090]$) and the expired versions at $0.7778$ ($[0.6793,0.8625]$, $[0.7153,0.8680]$), the state-aware reader at $0.8944$ and $0.7778$, and the models on the same items at $0.5283$ to $0.6150$ (Table~\ref{tab:cf-cr}).
+The count identifies the version because $26$ of the $30$ retraction pairs and $15$ of the $30$ expiry pairs have a category base count of zero, so the present-negative version's increment reads against zero within its triple.
+A reader of the two lifecycle totals, the lines the totals-randomized summary permutes, reads retraction at $0.6347$ and expiry at $0.6922$ under the superseded-only summary and $0.4044$ and $0.3894$ under the recorded permutation, at chance in expectation over $200$ permutation seeds ($0.4900$ and $0.5065$); the per-category counts are untouched by that permutation, so the category-aware reader is identical under both.
+
+\begin{table}[H]
+\caption{The count readers on the counterfactual set beside the models, under the superseded-only summary: AUROC on the whole set and per state, the persona interval of the whole-set AUROC, and each model minus the category-aware reader on the two counted states. The category-aware reader reads the retracted-plus-expired count at the question's category, the state-aware reader the state's own cell at that category, the totals reader the two lifecycle totals, and the category-guessing reader the count at the category the question-only suite's rule assigns. The category-aware reader separates the versions on the counted states; every model is below it on both. Descriptive; computed after the fact on the recorded texts and rows.}
+\label{tab:cf-cr}
+\centering
+\tiny
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lrrrrl@{}}
+\toprule
+Reader & whole & supersession & retraction & expiry & persona interval (whole) \\
+\midrule
+Category-aware reader & $0.6043$ & $0.5000$ & $0.7306$ & $0.7778$ & $[0.5753,0.6389]$ \\
+State-aware reader (an upper bound) & $0.8580$ & $0.9006$ & $0.8944$ & $0.7778$ & $[0.8150,0.8998]$ \\
+Totals reader & $0.5603$ & $0.5028$ & $0.6347$ & $0.6922$ & $[0.5452,0.5882]$ \\
+Category-guessing reader & $0.6623$ & $0.6573$ & $0.6669$ & $0.6872$ & $[0.6273,0.6991]$ \\
+\addlinespace
+\multicolumn{6}{@{}l}{\textit{Model minus the category-aware reader: whole set (difference; item interval; persona interval), and on the counted states (model level; difference)}}\\
+GPT-4.1 mini & $+0.1124$ & & $0.5283$; $-0.2022$ & $0.5489$; $-0.2289$ & $[+0.0272,+0.1944]$; $[+0.0400,+0.1756]$ \\
+Haiku 4.5 & $+0.1523$ & & $0.5433$; $-0.1872$ & $0.5794$; $-0.1983$ & $[+0.0706,+0.2319]$; $[+0.0843,+0.2168]$ \\
+Opus 5 & $+0.2362$ & & $0.5872$; $-0.1433$ & $0.6150$; $-0.1628$ & $[+0.1663,+0.3114]$; $[+0.1745,+0.2938]$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{The moved-count control.}
+%% R110: ADDENDUM_V2R_CAT (frozen 257a090; r82_counterfactual/v2rcat/NUMBERS_V2RCAT.md AUX-V2RCAT-LOCK, -REF, -LEAK, -MINI, -H45, -BRANCH, -POSTHOC; D-V2RCAT-1).
+A second count check starts from the totals-randomized text and, for each of the $60$ counted-state pairs, moves the obligation's own increment in the category row's retracted or expired column from the present-negative version to one non-present-negative sibling under a recorded seed, so that the version carrying the obligation reads the base count and a sibling reads the increment; every other line is unchanged, every name section equals the superseded-only summary's, the renderer lock holds on all $120$ changed texts, and the leakage screen returns $0$ of $30$.
+A reader that follows the moved cell falls below chance on that state, the state-aware reader to $0.3028$ on retraction and $0.3611$ on expiry (Table~\ref{tab:v2rcat}).
+The registered reading asked whether a model stays within the $0.05$ band of its superseded-only row on both counted states or moves beyond it reliably, and fired as neither for both models, so each row prints as it came out.
+Read after the fact against the direction a count reader falls, and labelled so: GPT-4.1 mini moves by $+0.0269$ on retraction and $+0.0611$ on expiry, upward, with both intervals including zero, and Haiku 4.5 by $-0.0072$ and $-0.0453$, so no model followed the count.
+
+\begin{table}[H]
+\caption{The moved-count control: each model under the moved text against its recorded superseded-only row, whole set and per state, with the paired difference and both intervals, beside the reference readers on the same text. Descriptive; no prediction was registered.}
+\label{tab:v2rcat}
+\centering
+\tiny
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}llrrl@{}}
+\toprule
+Reader & row & sup.\ only & moved-count control & difference (item; profile) \\
+\midrule
+GPT-4.1 mini ($k=1$) & whole set & $0.7167$ & $0.7410$ & $+0.0242$ $[-0.0047,+0.0523]$; $[-0.0032,+0.0530]$ \\
+GPT-4.1 mini & retraction ($30$ pairs) & $0.5283$ & $0.5553$ & $+0.0269$ $[-0.0491,+0.1080]$; $[-0.0692,+0.1331]$ \\
+GPT-4.1 mini & expiry ($30$ pairs) & $0.5489$ & $0.6100$ & $+0.0611$ $[-0.0404,+0.1641]$; $[-0.0217,+0.1417]$ \\
+Haiku 4.5 ($k=5$) & whole set & $0.7566$ & $0.7525$ & $-0.0041$ $[-0.0220,+0.0133]$; $[-0.0233,+0.0146]$ \\
+Haiku 4.5 & retraction ($30$ pairs) & $0.5433$ & $0.5361$ & $-0.0072$ $[-0.0925,+0.0781]$; $[-0.0981,+0.0795]$ \\
+Haiku 4.5 & expiry ($30$ pairs) & $0.5794$ & $0.5342$ & $-0.0453$ $[-0.0958,+0.0014]$; $[-0.0781,-0.0169]$ \\
+\addlinespace
+State-aware count reader & retraction; expiry & $0.8944$; $0.7778$ & $0.3028$; $0.3611$ & \\
+Totals reader & retraction; expiry & $0.6347$; $0.6922$ & $0.4044$; $0.3894$ & \\
+Name lookup & whole set & $0.7663$ & $0.7663$ & the name sections are unchanged \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%% R112 (2026-09-16), post hoc B1 to B4, specified before recomputation (reviews/integration/POSTHOC_SPEC_R112.md, sha256 ae2600fc; reviews/NUMBERS_WP.md sections 8 and 9;
+%% reviews/v19/tools/posthoc_b_pnpresent.py, posthoc_b4_intent.py; reviews/v19/results/posthoc_b.json, posthoc_b4.json). No model call.
+\paragraph{PN versus PRESENT, and the ordering within triples (post hoc, specified before recomputation).}
+The pooled obligation AUROC of Table~\ref{tab:cf-main} scores the \pn{} versions against both other versions, so it mixes two distinctions: \pn{} against \present{}, where both versions hold relevant content, and \pn{} against \absent{}.
+A reader that only knows whether the store covers the question scores $1$ on \pn{} and \present{} and $0$ on \absent{}, which gives $0.75$ pooled on this set and $0.5000$ on the \pn{}-versus-\present{} comparison, because it ties every triple.
+Table~\ref{tab:pnpresent} separates the two for every reader, summary and state, with the pooled value equal to the mean of the two (asserted to four decimals, the negative groups being equal in size), and counts, per triple, whether the reader scores the \pn{} version above, equal to, or below the \present{} version.
+The largest move from the pooled value on the whole set, any reader, is $0.0230$, so the model-versus-lookup comparison of Section~\ref{sec:counterfactual} is the same on the harder comparison: the name lookup reads $0.7663$, GPT-4.1 mini $0.7056$, Haiku 4.5 $0.7493$ and Opus 5 $0.8370$.
+The strict-win fraction counts ties as failures and is not a tie-adjusted ranking accuracy; GPT-4.1 mini's single call returns coarse probabilities, so its tie count is large ($57$ of $148$ triples on the whole set), and the interval to read is the persona-grouped one, since triples share personas.
+Where the summary only counts a state, the two lookups tie every retraction and expiry triple under the superseded-only summary (their lists do not differ), the count readers win most of them, and the models split between ties and small numbers of wins and losses; naming the states turns most of those ties into wins for every reader.
+The expected outcomes written before the run held for the name lookup and GPT-4.1 mini (supersession above $0.85$ and $0.70$; retraction and expiry within tolerance of $0.50$ under the superseded-only summary) and for the all-states lookup (above $0.70$ on both counted states); they did not hold for Opus 5, which reads $0.5689$ on retraction and $0.6128$ on expiry against the \present{} versions, nor for Haiku 4.5 on expiry ($0.5544$), nor for the count readers, which the pooled result had already shown to separate the counted states.
+
+% posthoc_tables_v19.tex -- generated by reviews/v19/tools/ledger_posthoc.py from reviews/v19/results/posthoc_b.json (AUX-WP-B-*); do not edit by hand.
+\begin{table}[H]
+\caption{PN-versus-PRESENT discrimination and within-triple ordering on the counterfactual set, per reader, summary and state (post hoc, specified before recomputation). PN vs PRESENT is the AUROC of the PN versions against the PRESENT versions alone (the ABSENT versions excluded), with the persona-grouped interval; the pooled AUROC of Table~\ref{tab:cf-main} is the mean of this column and the PN-vs-ABSENT AUROC, which the artifact's ledger carries beside the Wilson intervals. W/T/L counts the triples in which the reader scores the PN version above, equal to, or below the PRESENT version; the strict-win fraction counts ties as failures, is not a tie-adjusted ranking accuracy, and its chance reference is not $0.50$ when ties occur. A reader that only knows whether the store covers the question scores $0.75$ pooled and $0.50$ PN vs PRESENT (every triple a tie).}
+\label{tab:pnpresent}
+\centering\scriptsize\setlength{\tabcolsep}{1.5pt}
+\begin{tabular}{@{}llrlr@{\hspace{3pt}}rrl@{}}
+\toprule
+Reader, summary & scope & PN vs PRESENT & persona interval & pooled & W/T/L & strict-win & persona interval \\
+\midrule
+GPT-4.1 mini, sup.\ only & whole & $0.7056$ & $[0.6555,0.7575]$ & $0.7167$ & $81/57/10$ & $0.5473$ & $[0.4625,0.6334]$ \\
+ & sup. & $0.8265$ & $[0.7607,0.8931]$ & $0.8308$ & $68/19/1$ & $0.7727$ & $[0.6781,0.8734]$ \\
+ & ret. & $0.5044$ & $[0.4165,0.5975]$ & $0.5283$ & $9/15/6$ & $0.3000$ & $[0.1665,0.4516]$ \\
+ & exp. & $0.5250$ & $[0.4280,0.6450]$ & $0.5489$ & $4/23/3$ & $0.1333$ & $[0.0000,0.3333]$ \\
+\addlinespace[1pt]
+GPT-4.1 mini, all three & whole & $0.7840$ & $[0.7240,0.8407]$ & $0.7967$ & $105/32/11$ & $0.7095$ & $[0.6063,0.7961]$ \\
+ & sup. & $0.8428$ & $[0.7664,0.9130]$ & $0.8444$ & $71/12/5$ & $0.8068$ & $[0.7096,0.9000]$ \\
+ & ret. & $0.8433$ & $[0.7641,0.9096]$ & $0.8725$ & $27/2/1$ & $0.9000$ & $[0.7586,1.0000]$ \\
+ & exp. & $0.5494$ & $[0.4429,0.6578]$ & $0.5869$ & $7/18/5$ & $0.2333$ & $[0.0606,0.4444]$ \\
+\addlinespace[1pt]
+Haiku 4.5, sup.\ only & whole & $0.7493$ & $[0.7006,0.7976]$ & $0.7566$ & $89/52/7$ & $0.6014$ & $[0.5034,0.6968]$ \\
+ & sup. & $0.8852$ & $[0.8348,0.9356]$ & $0.8876$ & $76/9/3$ & $0.8636$ & $[0.7816,0.9348]$ \\
+ & ret. & $0.5072$ & $[0.4521,0.5684]$ & $0.5433$ & $6/22/2$ & $0.2000$ & $[0.0667,0.3574]$ \\
+ & exp. & $0.5544$ & $[0.5047,0.6139]$ & $0.5794$ & $7/21/2$ & $0.2333$ & $[0.0625,0.4688]$ \\
+\addlinespace[1pt]
+Haiku 4.5, all three & whole & $0.8703$ & $[0.8273,0.9083]$ & $0.8773$ & $125/18/5$ & $0.8446$ & $[0.7822,0.9006]$ \\
+ & sup. & $0.8857$ & $[0.8337,0.9362]$ & $0.8852$ & $73/11/4$ & $0.8295$ & $[0.7449,0.9059]$ \\
+ & ret. & $0.8933$ & $[0.8264,0.9556]$ & $0.9042$ & $27/2/1$ & $0.9000$ & $[0.8000,1.0000]$ \\
+ & exp. & $0.8039$ & $[0.7119,0.9022]$ & $0.8269$ & $25/5/0$ & $0.8333$ & $[0.6774,0.9655]$ \\
+\addlinespace[1pt]
+Opus 5, sup.\ only & whole & $0.8370$ & $[0.7959,0.8772]$ & $0.8405$ & $128/3/17$ & $0.8649$ & $[0.8027,0.9257]$ \\
+ & sup. & $0.9331$ & $[0.8952,0.9682]$ & $0.9325$ & $86/0/2$ & $0.9773$ & $[0.9432,1.0000]$ \\
+ & ret. & $0.5689$ & $[0.5244,0.6415]$ & $0.5872$ & $22/2/6$ & $0.7333$ & $[0.5556,0.9000]$ \\
+ & exp. & $0.6128$ & $[0.5428,0.7028]$ & $0.6150$ & $20/1/9$ & $0.6667$ & $[0.4643,0.8696]$ \\
+\addlinespace[1pt]
+Opus 5, all three & whole & $0.9070$ & $[0.8758,0.9370]$ & $0.9079$ & $139/0/9$ & $0.9392$ & $[0.8944,0.9750]$ \\
+ & sup. & $0.9332$ & $[0.8936,0.9697]$ & $0.9319$ & $85/0/3$ & $0.9659$ & $[0.9140,1.0000]$ \\
+ & ret. & $0.7922$ & $[0.7098,0.8814]$ & $0.8100$ & $25/0/5$ & $0.8333$ & $[0.7000,0.9432]$ \\
+ & exp. & $0.9300$ & $[0.8623,0.9789]$ & $0.9267$ & $29/0/1$ & $0.9667$ & $[0.8929,1.0000]$ \\
+\addlinespace[1pt]
+Name lookup, sup.\ only & whole & $0.7663$ & $[0.7226,0.8051]$ & $0.7663$ & $82/66/0$ & $0.5541$ & $[0.4691,0.6377]$ \\
+ & sup. & $0.9223$ & $[0.8810,0.9576]$ & $0.9223$ & $82/6/0$ & $0.9318$ & $[0.8571,0.9888]$ \\
+ & ret. & $0.5000$ & $[0.5000,0.5000]$ & $0.5000$ & $0/30/0$ & $0.0000$ & $[0.0000,0.0000]$ \\
+ & exp. & $0.5000$ & $[0.5000,0.5000]$ & $0.5000$ & $0/30/0$ & $0.0000$ & $[0.0000,0.0000]$ \\
+\addlinespace[1pt]
+All-states lookup, all three & whole & $0.8733$ & $[0.8350,0.9097]$ & $0.8756$ & $121/27/0$ & $0.8176$ & $[0.7569,0.8757]$ \\
+ & sup. & $0.8994$ & $[0.8532,0.9412]$ & $0.8995$ & $78/10/0$ & $0.8864$ & $[0.8043,0.9620]$ \\
+ & ret. & $0.7817$ & $[0.6950,0.8734]$ & $0.7975$ & $19/11/0$ & $0.6333$ & $[0.4643,0.7880]$ \\
+ & exp. & $0.8711$ & $[0.7864,0.9424]$ & $0.8711$ & $24/6/0$ & $0.8000$ & $[0.6667,0.9091]$ \\
+\addlinespace[1pt]
+Category-guessing count reader, sup.\ only & whole & $0.6393$ & $[0.6033,0.6782]$ & $0.6623$ & $65/83/0$ & $0.4392$ & $[0.3576,0.5133]$ \\
+ & sup. & $0.6475$ & $[0.5984,0.7000]$ & $0.6573$ & $34/54/0$ & $0.3864$ & $[0.2577,0.5132]$ \\
+ & ret. & $0.6050$ & $[0.5552,0.6739]$ & $0.6669$ & $16/14/0$ & $0.5333$ & $[0.3793,0.7037]$ \\
+ & exp. & $0.6683$ & $[0.5844,0.7700]$ & $0.6872$ & $15/15/0$ & $0.5000$ & $[0.3226,0.6522]$ \\
+\addlinespace[1pt]
+Category-aware count reader, sup.\ only & whole & $0.5941$ & $[0.5651,0.6292]$ & $0.6043$ & $60/88/0$ & $0.4054$ & $[0.3191,0.4895]$ \\
+ & sup. & $0.5000$ & $[0.5000,0.5000]$ & $0.5000$ & $0/88/0$ & $0.0000$ & $[0.0000,0.0000]$ \\
+ & ret. & $0.6706$ & $[0.6450,0.7585]$ & $0.7306$ & $30/0/0$ & $1.0000$ & $[1.0000,1.0000]$ \\
+ & exp. & $0.7778$ & $[0.7153,0.8680]$ & $0.7778$ & $30/0/0$ & $1.0000$ & $[1.0000,1.0000]$ \\
+\addlinespace[1pt]
+\bottomrule
+\end{tabular}
+\end{table}
+
+The test the review asked for on intent, the same store history judged under two intents, cannot be built from the recorded rows: each question carries one constructed intent and the \textsc{change} intent is never \pn{}, so any comparison across intents would vary intent with the label.
+Two things can be read instead (post hoc, specified before recomputation).
+An intent-aware name lookup, whose score is set to zero on the $105$ \textsc{change}-intent questions of the full obligation set (superseded content is licensed under that intent), reads $0.7957$ against the plain lookup's $0.7484$, $+0.0473$ with intervals $[+0.0331,+0.0654]$ and $[+0.0284,+0.0689]$; the all-states lookup moves from $0.7806$ to $0.8255$ under the same rule plus a zero on the $9$ past-intent questions whose best match is an expired name.
+The items on which intent alone decides the label, \textsc{change}-intent licensed questions whose own slot holds a superseded record, number $4$ of the $45$ on the full obligation set, below the floor of five the specification set for a reading, so no monitor comparison is printed on them.
+
+\paragraph{Score resolution.}
+%% R110: AUX-R110-A3 (reviews/v18/tools/a3_single_draw.py; no model call).
+The models scored from five calls carry finer score resolution than GPT-4.1 mini's single call, and the margin over the lookup does not depend on it.
+Opus 5's first draw alone reads $0.8400$ on this set ($53$ distinct values against $264$ after averaging), $+0.0736$ above the name lookup with intervals $[+0.0298,+0.1223]$ and $[+0.0388,+0.1129]$, and its five draws span $0.0059$; Haiku 4.5's first draw reads $0.7555$ ($17$ values), $-0.0108$ against the lookup with both intervals including zero; GPT-4.1 mini's single draw takes $12$ values.
+On the full obligation set the first draws read $0.8156$ (Haiku 4.5), $0.8335$ (Opus 5) and $0.8141$ (GPT-5.6 Luna) against averaged rows of $0.8210$, $0.8327$ and $0.8182$.
+GPT-4.1 mini's repeated calls return identical scores on $46$ of $50$ questions.
+%% Phase 4b: the sentence of Table 1's old note (item 29; reviews/NUMBERS_R110.md, k3_noise; e1_metamemory/results/scores_e1.json).
+
+The registered texts for this set (Appendix~\ref{app:registration}) read as follows.
+%% CF-2 P1 HOLDS [MAIN] and P3 HOLDS [MAIN] (registrations/ADDENDUM_CF2.md section 8; AUX-CF2-MINI-V2, AUX-CF2-COUNTED): frozen wording ships
+%% verbatim; moved here from Section 5 under registrations/AMENDMENT_MAIN_PLACEMENT.md (R105, 2026-09-14; pending the author's ratification).
+On $148$ questions written before any version of the store existed, and asked of three versions of the same store that differ in one attribute each, the smallest model's obligation judgment reaches $0.7167$ against the $0.5$ a question-only reader attains here, with an interval of $[+0.1494,+0.2846]$. The gain survives where the question cannot carry the label.
+Naming retracted and expired content lifts Haiku 4.5's judgment on those states from $0.5638$ to $0.8649$ on the store-counterfactual set ($60$ questions), a paired gain of $+0.3010$ with interval $[+0.2268,+0.3721]$.
+
+The adverse rows are reported in full, because a row that runs against the paper's reading is evidence too.
+The all-states lookup exceeds GPT-4.1 mini on the whole set under every summary ($+0.1589$, $+0.0789$, $+0.1577$), each beyond the $\pm0.05$ tolerance.
+It exceeds Haiku 4.5 under the two summaries that do not name the counted states ($+0.1190$, $+0.1118$), also beyond tolerance, and Opus 5 under those two summaries within it ($+0.0351$, $+0.0403$).
+The name lookup exceeds GPT-4.1 mini and Haiku 4.5 under the superseded-only summary within tolerance ($+0.0496$, $+0.0097$).
+By state, the name lookup ($0.9223$ on supersession) exceeds GPT-4.1 mini and Haiku 4.5 under every summary and trails Opus 5.
+The all-states lookup ($0.7975$ on retraction, $0.8711$ on expiry) exceeds every reader on the two counted states under the summaries that only count them.
+The whole name-map lookup ($0.5758$ on retraction, $0.5919$ on expiry) exceeds GPT-4.1 mini on both counted states under every summary except retraction under the all-three summary.
+That is what a reader of the whole map should do when the counted names sit in that map.
+
+The first form of this set asked thirty questions ($n=90$, ten positives per state) and reproduced the naming boundary.
+Under the summary that names only superseded content the named state scored $0.6550$ to $0.8275$ across the three models, while the two counted states scored $0.5225$ to $0.6225$.
+At that size GPT-4.1 mini reached $0.5939$ against $0.5000$, with an item-level interval of $[-0.0345,+0.2315]$ that includes chance and a question-clustered interval of $[+0.0325,+0.1625]$ that excludes it.
+The set could therefore neither establish the aggregate effect nor establish contamination, and the $444$-item form was built with the power the first lacked.
+On that form the all-states lookup exceeded three monitor rows by more than the tolerance: GPT-4.1 mini by $+0.1947$ under the first summary and $+0.1467$ under the second, and Haiku 4.5 by $+0.1480$ under the first.
+The name lookup exceeded GPT-4.1 mini by $+0.0322$, inside it.
+The struck clause of that form's failure text is in the supplement (Section~S.6).
+Of the $204$ questions drafted for the set and its replacements, $111$ name the plan or value their attribute is about, against $3$ of $30$ in the first form.
+A question is identical across the three versions of its store, so what it names cannot carry the label, and Appendix~\ref{app:posthoc-flags} splits the set by that flag.
+The summary-leakage screen returned $0$ of $30$ on the all-states summary and $0$ of $30$ on the totals-randomized one.
+The draw replaced $45$ pairs whose successor record failed our read and closed at $88$ supersession pairs (Table~\ref{tab:registrations-b}).
+
+%%V11:1191-1268%%
+\FloatBarrier
+
+\paragraph{Coverage on the counterfactual set.}
+The coverage score was recorded in the same calls, so the set also measures coverage under the same identity.
+One blind score per question, reused across its three versions, gives blind FOK $0.5000$ by construction, and the positives are the \present{} and \pn{} versions ($296$) against the \absent{} version ($148$).
+Table~\ref{tab:cf-fok} gives each model's coverage AUROC under the three summaries with the interval grouped by persona, and every interval excludes $0.50$.
+Opus 5, whose scores take about $200$ distinct values, separates the versions more than the two smaller models, whose scores crowd a dozen values.
+
+\begin{table}[H]
+% R104: reviews/NUMBERS_R104.md AUX-R104-CF-FOK (Phase 1 item 2; recorded fok values, no model call).
+\caption{Coverage AUROC on the counterfactual set ($n=444$; positives the \present{} and \pn{} versions, $296$) from the recorded coverage scores, by model and summary, with the interval grouped by persona and the mean score by store version. Blind coverage is $0.5000$ by construction, so the gain is the AUROC minus $0.5000$. Descriptive; no prediction was registered on these rows.}
+\label{tab:cf-fok}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llrlrrr@{}}
+\toprule
+Model & Summary & AUROC & persona interval & mean, \present{} & mean, \absent{} & mean, \pn{} \\
+\midrule
+GPT-4.1 mini & sup.\ only & $0.6357$ & $[0.5972,0.6770]$ & $0.4517$ & $0.3530$ & $0.4966$ \\
+GPT-4.1 mini & all three & $0.6436$ & $[0.6120,0.6802]$ & $0.4926$ & $0.3875$ & $0.5439$ \\
+GPT-4.1 mini & totals rand. & $0.6371$ & $[0.6071,0.6709]$ & $0.4551$ & $0.3503$ & $0.4882$ \\
+Haiku 4.5 & sup.\ only & $0.6168$ & $[0.5828,0.6537]$ & $0.5130$ & $0.4178$ & $0.5263$ \\
+Haiku 4.5 & all three & $0.6133$ & $[0.5816,0.6522]$ & $0.5055$ & $0.4163$ & $0.5180$ \\
+Haiku 4.5 & totals rand. & $0.6050$ & $[0.5713,0.6416]$ & $0.5072$ & $0.4231$ & $0.5180$ \\
+Opus 5 & sup.\ only & $0.6922$ & $[0.6576,0.7353]$ & $0.7746$ & $0.6604$ & $0.8369$ \\
+Opus 5 & all three & $0.7098$ & $[0.6763,0.7535]$ & $0.7818$ & $0.6637$ & $0.8567$ \\
+Opus 5 & totals rand. & $0.6894$ & $[0.6572,0.7299]$ & $0.7741$ & $0.6633$ & $0.8386$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{The lexical lookup on this set.}
+The similarity lookup of the main text is the embedding variant.
+The lexical variant, token overlap between the question and the names, reads the same lists (Table~\ref{tab:lex-444}).
+It reaches $0.6698$ on the whole set under the superseded-only summary and $0.8085$ under the all-states summary, below the embedding variant by $0.10$ and $0.07$.
+Under the superseded-only summary every model exceeds it with intervals that exclude zero, so the lexical reader is the weaker of the two, and the main text's comparisons use the stronger.
+
+\begin{table}[H]
+% R104: reviews/NUMBERS_R104.md AUX-R104-MARGIN (Phase 1 item 3; the 444 rows).
+\caption{The lexical lookup on the counterfactual set beside the embedding lookup, whole set and by state, and each model minus the lexical lookup on the same summary with both intervals. The lexical reader trails the embedding reader on every row. Exploratory, computed after the fact on the recorded rows.}
+\label{tab:lex-444}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Lookup, summary & whole set & supersession & retraction & expiry \\
+\midrule
+Lexical, sup.\ only & $0.6698$ & $0.7829$ & $0.5000$ & $0.5000$ \\
+Lexical, all three & $0.8085$ & $0.7829$ & $0.8617$ & $0.8244$ \\
+Embedding, sup.\ only & $0.7663$ & $0.9223$ & $0.5000$ & $0.5000$ \\
+Embedding, all three & $0.8756$ & $0.8995$ & $0.7975$ & $0.8711$ \\
+\addlinespace
+\multicolumn{5}{@{}l}{\textit{Model minus the lexical lookup on the same summary (paired bootstrap): difference, item interval, persona interval}}\\
+GPT-4.1 mini, sup.\ only & $+0.0469$ & $[+0.0037,+0.0925]$ & $[+0.0037,+0.0895]$ & \\
+GPT-4.1 mini, all three & $-0.0117$ & $[-0.0591,+0.0360]$ & $[-0.0566,+0.0294]$ & \\
+Haiku 4.5, sup.\ only & $+0.0868$ & $[+0.0405,+0.1299]$ & $[+0.0476,+0.1274]$ & \\
+Haiku 4.5, all three & $+0.0689$ & $[+0.0283,+0.1087]$ & $[+0.0321,+0.1046]$ & \\
+Opus 5, sup.\ only & $+0.1707$ & $[+0.1314,+0.2102]$ & $[+0.1317,+0.2118]$ & \\
+Opus 5, all three & $+0.0994$ & $[+0.0602,+0.1409]$ & $[+0.0545,+0.1451]$ & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{GPT-4.1 mini on the expiry pairs under the all-states summary.}
+Under the all-states summary GPT-4.1 mini reads retraction at $0.8725$ and expiry at $0.5869$ on this set, although both states are named in the same way.
+The $30$ expiry pairs show why, because the three versions of each pair can be read side by side.
+The model scores its \pn{} version at or below $0.05$ on $26$ of the $30$ pairs, and the \present{} and \absent{} versions score the same low values, so the three versions are indistinguishable to it.
+Only four pairs draw a score of $0.40$ or more on the \pn{} version, and in two of those the \present{} version draws the same score.
+Every expiry question carries the upcoming intent, and every \pn{} version names the expired attribute in the expired-names section.
+The model therefore does not take a name listed under the expired heading as evidence against a question about an upcoming event, whereas a name under the retracted heading moves it.
+Appendix~\ref{app:resp} records the same asymmetry on the full population, where the expiry row falls under the all-states summary.
+
+\paragraph{Two registered checks on this set.}
+The list-length check pads the superseded-names list of each of the $661$ main-study summaries with correct attribute names that no scored question of the persona targets, to $15$, $30$ and $60$ names, and scores both lookups and GPT-4.1 mini at each length against the $1.75$-name row (Table~\ref{tab:pad}).
+The embedding lookup falls from $0.7484$ to $0.6696$ at $60$ names, a difference whose item interval excludes zero and whose persona interval includes it; the lexical lookup is flat at every length; GPT-4.1 mini degrades first at $15$ names, reliably below $-0.05$ at $15$ and $30$.
+%% Writing pass Phase 1 (2026-09-15), item 90: the store's-own-pool sentence from Section 5 (reviews/NUMBERS_R110.md AUX-R110-A4: 0.6531; 99.2 names; 129).
+With every untargeted name the store holds on the list, a mean of $99$ names per summary and at most $129$, the embedding lookup reads $0.6531$; continued past that pool with other personas' names to $100$ and $200$ it reads $0.6558$ and $0.5960$ (Table~\ref{tab:pad}), so a longer list of the store's own names is untested.
+Its amendment injects wrong names into the counterfactual set's superseded-only lists at FR-Bank's measured rate of $0.232$ and at $0.40$: the lookup falls from $0.7663$ to $0.6740$ and $0.6001$, and GPT-4.1 mini and Haiku 4.5 fall with it and stay within $0.02$ of it on the same lists, every weaker interval including zero.
+The paraphrase check asks each of the $148$ questions again in a wording that shares no content token with the attribute's slot path or with any attribute name the summary lists, drafted by GPT-4.1 mini under a deterministic screen; our label-transfer read had not been made at this build, so no paraphrase row is printed.
+
+% PAD-TABLE-BEGIN (regenerated from pad_probe/paper_table.tex; do not edit by hand)
+\begin{table}[H]
+% R107 (2026-09-14): the padding probe (registrations/ADDENDUM_PAD.md, sha256 93e33022...; pad_probe/NUMBERS_PAD.md AUX-PAD-LOOKUP-EMB, -LOOKUP-LEX, -MINI) and its
+% Amendment 1 (AUX-PAD-C-LOOKUP-EMB, -C-LOOKUP-LEX, -C-MINI, -C-H45); regenerated by pad_probe/tools/pad_table.py; do not edit by hand.
+\caption{The list-length check and its amendment. Upper block: the superseded-names list of each of the $661$ main-study summaries padded with correct attribute names that no scored question of the persona targets, to $15$, $30$ and $60$ names, and for the two lookups to $100$ and $200$ names under the registered draw order, which continues into other personas' names once the store's own pool is exhausted ($79$ of the $242$ summaries at $100$, every summary at $200$); obligation AUROC of each reader against its recorded $1.75$-name row, with the paired difference and both intervals. Lower block: the counterfactual set's $444$ superseded-only summaries with wrong names injected into the negatives' lists at FR-Bank's measured rate ($0.232$) and at $0.40$; AUROC against the recorded list, the paired difference and both intervals, and for the models the difference from the embedding lookup on the same lists (the weaker of the two intervals). Descriptive; no prediction was registered, and every branch prints as it came out.}
+\label{tab:pad}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llrrll@{}}
+\toprule
+Reader & list & AUROC & $\Delta$ vs recorded & item interval & persona interval \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{Padding with correct names, the $661$ questions, ground-truth summary}}\\
+Name lookup & $1.75$ names & $0.7484$ & -- & -- & -- \\
+Name lookup & $15$ names & $0.7298$ & $-0.0186$ & $[-0.0777,+0.0400]$ & $[-0.0917,+0.0522]$ \\
+Name lookup & $30$ names & $0.7191$ & $-0.0293$ & $[-0.0968,+0.0392]$ & $[-0.1156,+0.0525]$ \\
+Name lookup & $60$ names & $0.6696$ & $-0.0788$ & $[-0.1541,-0.0096]$ & $[-0.1794,+0.0284]$ \\
+%% R110: the lookup at 100 and 200 names under the registered draw order (reviews/NUMBERS_R110.md AUX-R110-A4; reviews/v18/results/a4_table16_rows.tex).
+%% R113 (2026-09-16): the lexical rows at 100 and 200 print the paired difference and both intervals from the same artifact (reviews/NUMBERS_R113.md AUX-R113-PAD-LEX-PAIRED); the caption names the pool the rows draw on.
+Name lookup & $100$ names & $0.6558$ & $-0.0926$ & $[-0.1718,-0.0221]$ & $[-0.1953,+0.0199]$ \\
+Name lookup & $200$ names & $0.5960$ & $-0.1525$ & $[-0.2357,-0.0773]$ & $[-0.2595,-0.0399]$ \\
+Lexical lookup & $1.75$ names & $0.5738$ & -- & -- & -- \\
+Lexical lookup & $15$ names & $0.5772$ & $+0.0034$ & $[-0.0296,+0.0398]$ & $[-0.0367,+0.0501]$ \\
+Lexical lookup & $30$ names & $0.5817$ & $+0.0079$ & $[-0.0302,+0.0546]$ & $[-0.0425,+0.0672]$ \\
+Lexical lookup & $60$ names & $0.5825$ & $+0.0087$ & $[-0.0434,+0.0592]$ & $[-0.0662,+0.0865]$ \\
+Lexical lookup & $100$ names & $0.5601$ & $-0.0137$ & $[-0.0672,+0.0369]$ & $[-0.0926,+0.0716]$ \\
+Lexical lookup & $200$ names & $0.5383$ & $-0.0355$ & $[-0.0903,+0.0189]$ & $[-0.1125,+0.0455]$ \\
+GPT-4.1 mini & $1.75$ names & $0.7339$ & -- & -- & -- \\
+GPT-4.1 mini & $15$ names & $0.6675$ & $-0.0664$ & $[-0.1132,-0.0219]$ & $[-0.1291,-0.0128]$ \\
+GPT-4.1 mini & $30$ names & $0.6595$ & $-0.0744$ & $[-0.1112,-0.0388]$ & $[-0.1231,-0.0301]$ \\
+GPT-4.1 mini & $60$ names & $0.6944$ & $-0.0395$ & $[-0.0840,+0.0043]$ & $[-0.1021,+0.0274]$ \\
+\bottomrule
+\end{tabular}\\[6pt]
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}llrrll@{}}
+\toprule
+Reader & list & AUROC & $\Delta$ & intervals (item; profile) & minus lookup (weaker) \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{Wrong names injected, the counterfactual set ($444$), superseded-only summary}}\\
+Emb.\ lookup & recorded & $0.7663$ & -- & -- & -- \\
+Emb.\ lookup & $c=0.232$ & $0.6740$ & $-0.0923$ & $[-0.1157,-0.0696]$; $[-0.1177,-0.0695]$ & -- \\
+Emb.\ lookup & $c=0.40$ & $0.6001$ & $-0.1662$ & $[-0.1995,-0.1351]$; $[-0.2020,-0.1314]$ & -- \\
+Lex.\ lookup & recorded & $0.6698$ & -- & -- & -- \\
+Lex.\ lookup & $c=0.232$ & $0.5961$ & $-0.0737$ & $[-0.0941,-0.0549]$; $[-0.0960,-0.0521]$ & -- \\
+Lex.\ lookup & $c=0.40$ & $0.5497$ & $-0.1201$ & $[-0.1458,-0.0962]$; $[-0.1493,-0.0918]$ & -- \\
+GPT-4.1 mini & recorded & $0.7167$ & -- & -- & -- \\
+GPT-4.1 mini & $c=0.232$ & $0.6809$ & $-0.0358$ & $[-0.0712,-0.0029]$; $[-0.0771,-0.0006]$ & $+0.0069$ $[-0.0362,+0.0498]$ \\
+GPT-4.1 mini & $c=0.40$ & $0.6123$ & $-0.1045$ & $[-0.1365,-0.0708]$; $[-0.1473,-0.0638]$ & $+0.0122$ $[-0.0291,+0.0528]$ \\
+Haiku 4.5 & recorded & $0.7566$ & -- & -- & -- \\
+Haiku 4.5 & $c=0.232$ & $0.6823$ & $-0.0742$ & $[-0.0983,-0.0495]$; $[-0.1027,-0.0476]$ & $+0.0083$ $[-0.0405,+0.0527]$ \\
+Haiku 4.5 & $c=0.40$ & $0.6192$ & $-0.1373$ & $[-0.1660,-0.1078]$; $[-0.1709,-0.1044]$ & $+0.0192$ $[-0.0227,+0.0602]$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+% PAD-TABLE-END
+
+\paragraph{The expiry state extended by a third descriptive draw.}
+The candidate census behind the counterfactual draw (in the artifact) found $19$ expiry candidates that our read had passed and the draw had left undrawn, $14$ of them within the cap of four pairs per persona and the one-pair-per-name rule.
+A third descriptive registration draws those $14$, builds their three store versions by the same construction, drafts their questions through the same renderer before any version exists, and scores the same readers under the same summaries; its questions and summaries pass the same leakage screen ($0$ of $14$ on every summary).
+Table~\ref{tab:cf3-expiry} prints the extension beside the $444$'s expiry pairs and pools the two, $44$ pairs, with the pooling stated in the caption.
+On the extension the all-states lookup reads expiry at $0.97$ and GPT-4.1 mini at $0.68$ under the all-states summary; retraction stays at $30$ pairs, because one candidate in ten passes our read for a cancellable plan ($36$ of $370$ read), and the candidate census in the artifact records every candidate with the rule that removed it.
+
+% CF3-TABLE-BEGIN (regenerated from r82_counterfactual/cf3/paper_table.tex; do not edit by hand)
+\begin{table}[H]
+% R105 (2026-09-14): the CF-3 expiry extension (registrations/ADDENDUM_CF3.md, sha256 2f555c1a...; r82_counterfactual/cf3/NUMBERS_CF3.md AUX-CF3-*, AUX-CF3-POOLED-*).
+\caption{The expiry state of the counterfactual set extended by a third descriptive draw: the $444$'s $30$ expiry pairs ($90$ items), the $14$ eligible pairs the first draw left undrawn ($42$ items, built by the same construction with questions written before any store version existed), and the two pooled ($44$ pairs, $132$ items). Obligation AUROC per reader and summary; blind is $0.5000$ by construction on every set, so each value is also a gain. Intervals are the weaker of the item-level and persona-grouped paired intervals for the models and the persona interval of the AUROC for the lookups. The pooled row joins two cells scored on different dates under two registrations with the same prompts, models and construction; Opus 5's rows are five-call averages on the $444$ and single calls on the extension, so its pooled row mixes the two. Descriptive; no prediction was registered.}
+\label{tab:cf3-expiry}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+Reader & summary & $444$ expiry ($30$ pairs) & extension ($14$ pairs) & pooled ($44$ pairs) \\
+\midrule
+Name lookup & sup.\ only & $0.5000$ $[+0.5000,+0.5000]$ & $0.5000$ $[+0.5000,+0.5000]$ & $0.5000$ $[+0.5000,+0.5000]$ \\
+All-states lookup & all three & $0.8711$ $[+0.7864,+0.9424]$ & $0.9694$ $[+0.9475,+1.0000]$ & $0.8977$ $[+0.8376,+0.9477]$ \\
+GPT-4.1 mini & sup.\ only & $0.5489$ $[-0.1022,+0.1893]$ & $0.5421$ $[-0.1446,+0.2222]$ & $0.5461$ $[-0.0628,+0.1585]$ \\
+GPT-4.1 mini & all three & $0.5869$ $[-0.0524,+0.2230]$ & $0.6811$ $[-0.0308,+0.3901]$ & $0.6139$ $[-0.0042,+0.2198]$ \\
+GPT-4.1 mini & totals rand. & $0.5144$ $[-0.1317,+0.1534]$ & $0.5651$ $[-0.1021,+0.2373]$ & $0.5302$ $[-0.0797,+0.1325]$ \\
+Haiku 4.5 & sup.\ only & $0.5794$ $[-0.0626,+0.2182]$ & $0.6059$ $[-0.0441,+0.2595]$ & $0.5872$ $[-0.0307,+0.1932]$ \\
+Haiku 4.5 & all three & $0.8269$ $[+0.1935,+0.4675]$ & $0.9630$ $[+0.2917,+0.6377]$ & $0.8644$ $[+0.2552,+0.4676]$ \\
+Haiku 4.5 & totals rand. & $0.5847$ $[-0.0594,+0.2188]$ & $0.6212$ $[-0.0321,+0.2577]$ & $0.5980$ $[-0.0186,+0.2056]$ \\
+Opus 5 & sup.\ only & $0.6150$ $[+0.0077,+0.2282]$ & $0.5638$ $[-0.0867,+0.2840]$ & $0.5914$ $[-0.0061,+0.1930]$ \\
+Opus 5 & all three & $0.9267$ $[+0.2974,+0.5637]$ & $0.9452$ $[+0.2593,+0.6318]$ & $0.9232$ $[+0.3246,+0.5218]$ \\
+Opus 5 & totals rand. & $0.6092$ $[+0.0008,+0.2140]$ & $0.6084$ $[-0.0830,+0.2792]$ & $0.6068$ $[+0.0115,+0.1974]$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+% CF3-TABLE-END
+
+\section{Monitoring-scoped instrument ledger}\label{app:ledger}
+
+Every failure in the ledger is the same kind, a semantic assumption hidden inside a step that looked mechanical, so the ledger is kept as one list.
+% C108
+The following ledger contains only measurement steps germane to E0, E1, the capability ladder, the question-signal audit, and their economics; measurement steps outside this paper's monitoring scope are excluded.
+% C085, relocated verbatim from Section 7.1 (R87 B7, ORDERED-MECHANICAL).
+The lesson: printing a quantity beside the rule that constrains it makes the redundancy a detector for exactly this kind of failure.
+The twelve entries of the ledger, each stating what went wrong and what changed, are in the supplement (Section~S.1), because each is a record rather than a result.
+The supplement also carries the account of the four failures of the same kind in this manuscript's own verification battery.
+
+\section{Experimental and reproducibility detail}\label{app:repro}
+
+\subsection{Notation and study glossary}\label{app:glossary}
+
+The paper uses one vocabulary and the artifact records another.
+The two blocks below define every term the main text uses, and a third block in the supplement (Section~S.5) maps the internal names a reader meets in the registrations, ledgers and row files onto the paper's term.
+Two labeled queries from the hiking persona illustrate Definition~\ref{def:coverage}.
+Under the current intent ``What's David's family background?'' is \present{}.
+Under the upcoming intent ``Does David have any upcoming exams to prepare students for?'' is \pn{}, because the store holds an exam record whose date has passed.
+
+% R104 round 2: the abridged real summary moved here from Section 3 under the page gate (AUX-R86-INDEX-EXCERPT).
+\begin{center}
+\fbox{\begin{minipage}{0.97\linewidth}
+\ttfamily\tiny
+MEMORY STORE INDEX  (metadata only; no fact content)\\
+entries in this store: 575\\[1mm]
+CATEGORY\hspace{18mm} ENTRIES\quad ACTIVE\quad SUPRSD\quad RETRACT\quad EXPIRED\\
+HOBBIES\_RECREATION\hspace{10mm}29\hspace{8mm}18\hspace{8mm}11\hspace{10mm}0\hspace{10mm}2\\
+PREFERENCES\_HABITS\hspace{8mm}46\hspace{8mm}37\hspace{9mm}9\hspace{10mm}0\hspace{10mm}1\\
+PROJECTS\_ENDEAVORS\hspace{8mm}61\hspace{8mm}54\hspace{9mm}7\hspace{10mm}0\hspace{9mm}18\\[1mm]
+% R86 item 2.4.6 (D-R86-7): these lines are transcribed from the same summary the excerpt was cut
+% from, frbank:david:FULL:BELIEVED, and are ledgered at AUX-R86-INDEX-EXCERPT.
+AGES (days)\quad newest 1\quad oldest 518\quad median 258\quad bands 0-30: 47, 31-90: 54, 91-180: 75, 181-365: 229, 365+: 170\\[1mm]
+ATTRIBUTE NAMES BY CATEGORY (value-scrubbed; abridged)\\
+HOBBIES\_RECREATION: hiking\_experience, hiking\_preference, hiking\_preference\_scenery, ...\\
+PROJECTS\_ENDEAVORS: camp\_stove\_status, project\_status, trip, trip\_plan, ...\\
+ATTRIBUTE NAMES CARRYING SUPERSEDED CONTENT (abridged): hiking\_preference, ...
+\end{minipage}}
+\end{center}
+\noindent\textit{This is what the indexed monitor reads}, an abridged, real FR-Bank summary that exposes counts and attribute names but no stored value.
+The EXPIRED column is a flag derived from each entry's event time and the ACTIVE column counts the entries that are neither superseded nor retracted, so an expired entry can also be counted ACTIVE and the four lifecycle columns overlap; a record carrying more than one mark is labelled by the first of retracted, superseded, expired (Section~\ref{sec:framework}).
+
+%%V11:1293-1307%%
+
+%%V11:1309-1326%%
+
+%% R110: Definition 3 of v17 returns to vocabulary here (rule G3; READER_CLAIM.md section 2).
+\noindent A summary \emph{names} a state when it lists the attribute names in that state and \emph{counts} it when it gives only a count of it; a reader \emph{reads} a state when its score separates that state's items from the rest.
+
+%% R111 Phase 2 (the author's ruling of 2026-09-15): the registered texts quoted in the appendices use the artifact's names, byte for byte; this map carries them to the paper's terms.
+\paragraph{The artifact's names in the registered texts.}
+The registered texts quoted in Appendices~\ref{app:counterfactual}, \ref{app:baselines}, \ref{app:census}, \ref{app:resp} and~\ref{app:registration} are reproduced byte for byte, so they keep the artifact's names.
+Six of those names differ from this paper's terms.
+\begin{center}
+\scriptsize
+\begin{tabular}{@{}ll@{}}
+\toprule
+In the registered texts & In this paper \\
+\midrule
+\textsc{true} (the truthful summary) & the ground-truth summary; on Mem0 and A-MEM, the constrained rendering \\
+\textsc{believed} (the believed summary) & the store-written summary \\
+the join & ground-truth tags \\
+the matcher & the name lookup \\
+the smallest model & GPT-4.1 mini \\
+user profile & persona \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Pilot estimands}\label{app:pilot}
+
+The pilot preceded the main study with a different prompt, so its values support the design lesson and cannot be compared numerically with the main study.
+Its estimands and their table are in the supplement (Section~S.7).
+
+\subsection{Main-study construction and checks}\label{app:construction}
+
+This appendix carries the two user prompts, the obligation half of the rubric, and the construction record of the main study, because every reported estimate is bounded by one of them.
+Listing~\ref{lst:summary} is the abridged summary the indexed monitor sees, rendered from the store of one persona.
+
+%% Writing pass Phase 4b (2026-09-15): the example summary moved here from Section 3 (the author's skeleton, "Listing N in App. E.3"); the lines are those of the E.1 excerpt (AUX-R86-INDEX-EXCERPT).
+\begin{listing}[h]
+\caption{An abridged real summary: the count table (lines two and three), the name map (line four) and the superseded-names list (line five).}
+\label{lst:summary}
+\centering
+\fbox{\begin{minipage}{0.97\linewidth}
+\ttfamily\scriptsize
+MEMORY STORE INDEX  (metadata only; no fact content)\\
+CATEGORY\hspace{16mm} ENTRIES\quad ACTIVE\quad SUPRSD\quad RETRACT\quad EXPIRED\\
+HOBBIES\_RECREATION\hspace{8mm}29\hspace{8mm}18\hspace{8mm}11\hspace{10mm}0\hspace{10mm}2\\
+ATTRIBUTE NAMES BY CATEGORY (value-scrubbed; abridged)\quad HOBBIES\_RECREATION: hiking\_experience, hiking\_preference, ...\\
+ATTRIBUTE NAMES CARRYING SUPERSEDED CONTENT (abridged): hiking\_preference, ...
+\end{minipage}}
+\end{listing}
+
+%%V11:1359-1373%%
+\noindent\textit{The two user prompts.} The indexed condition inserts the serialized summary, and the blind condition supplies only the question.
+
+The obligation half of the elicitation rubric, which Section~\ref{sec:setup} points to, read in full:
+``NEGATIVE OBLIGATION: content the store still holds whose correct influence on the answer is SUPPRESSION rather than use, because it has been superseded, retracted, or has expired. Judge this in two steps. Step 1, nok\_candidates\_found: is there content on this topic in the store that has been superseded by a later value, retracted by the user, or has passed its date? true or false. Step 2, nok: the probability, 0 to 100, that such content is present.'' Step 2 is the scored quantity.
+
+%%V11:1379-1408%%
+
+A five-level scale in place of the free number scores within noise of the free-number format (Table~\ref{tab:e1-construction}), a descriptive comparison because we ran no equivalence test.
+On FR-Bank the store-written summary keeps $101.4\%$ of the ground-truth summary's coverage benefit despite severe metadata error, and the excess over $100\%$ is within what sampling alone produces.
+The $60\%$ retention threshold was fixed in advance at $60\%$ in the main study's preregistration (2026-08-10) for coverage retention and was inherited unchanged when obligation retention was scored, before that figure existed.
+
+The presence control's residual error is $\varepsilon=0.005$, the rate at which the check misses a target that is present.
+Turning that into the chance an \absent{} claim is wrong also needs the base rate, which is $0.917$ present among resolved targets.
+At that base rate the chance is $5.2\%$, roughly ten times $\varepsilon$, because the sampled questions are answerability-skewed.
+Splitting the hard-question negatives by kind gives the two coverage results the main text rounds.
+Against facts the user never had, coverage discrimination improves from $0.5517$ to $0.8782$ under the summary.
+Against records the store's own operation deleted it moves from $0.4336$ to $0.4972$ and stays at chance.
+A mislabeled \absent{} item enters the negative class in both conditions and is expected to shrink the measured discrimination, so the reported gains are conservative with respect to this error.
+
+The wrong-summary control replaces only the summary text and holds the question, prompts, protocol and populations fixed (Table~\ref{tab:wrongindex}).
+Giving the monitor another persona's summary costs it the whole benefit and inverts coverage below chance, from $0.7003$ to $0.3631$, so a mismatched summary actively misleads.
+A shuffle of the categories, by contrast, leaves both judgments where they were.
+% U7 (CLAIMS.md untouchable, byte-identical), placed under Table 14's footnote on
+% 2026-08-30. R86 item 2.4.7 deleted the lead-in line and the CLAIMS-machinery framing.
+% The U7 sentence itself is UNTOUCHABLE and stays: this is its only byte-identical
+% instance in the document, and deleting it would fail claims_diff (D-R86-4).
+Permuting which counts and attribute-name lists belong to which category changes neither judgment, which bounds the mechanism rather than that specificity---per-category correspondence is not necessary on FR-Bank, consistent with the name map rather than the count structure carrying the effect (Definition~\ref{def:index}), though the shuffle preserves the global name and count multiset and the flat superseded-names section and so bounds correspondence alone.
+
+%%V11:1511-1529%%
+
+\subsection{Statistics and serialization}
+
+% C142
+FOK AUROC treats non-\absent{} coverage as positive, while NOK AUROC treats \pn{} as positive.
+Items are nested within the $40$ personas.
+% C143
+Reported $95\%$ confidence intervals on paired AUROC differences use the fixed scorers' paired percentile bootstrap \citep{efron1993}, preserved in the anonymous artifact.
+Within each reported row, $1{,}000$ item-level resamples are drawn with replacement under fixed seed $42$, with paired-condition scores moving together.
+AUROC differences are recomputed per draw, single-class draws are discarded, and the $2.5$th and $97.5$th percentiles of retained differences form the interval.
+A whole row containing one outcome class has undefined AUROC and no interval, so the mechanism probe reports mean coverage for such external-backend strata.
+Ladder one-sample AUROC intervals use the same item-level draw-and-discard rule, so the scored item rather than the persona is the implemented resampling unit.
+A persona-clustered sensitivity \citep{cameron2008}, resampling whole personas under the same paired draw-and-discard rule, was computed after the item-level records were frozen.
+The preregistered item-level interval remains the primary endpoint.
+The measured intracluster correlation of the paired indexed$-$blind contribution spans $[-0.0544,+0.0870]$, and the clustered-to-jackknife width ratio is $0.95$--$0.99$ on all six calibration rows.
+Two independent cluster-level variance estimators therefore agree, and four of six clustered intervals are narrower than their item-level counterparts (Table~\ref{tab:cluster-sensitivity}).
+% C144
+Exact model identifiers were pinned, prompts were hash-verified, and the anonymous artifact preserves the exact prompts and serialized summaries used in monitor calls.
+
+%%V11:1443-1462%%
+
+\subsection{Summary-channel probe}
+
+The count-destruction probe compares intact, altered-count and names-only summaries on the pooled hard tier and on FR-Bank alone (Tables~\ref{tab:destruction} and~\ref{tab:destruction-fr}).
+The pooled names-only row is driven by the structureless stores.
+The FR-Bank row supports only the narrower conclusion that counts are not necessary for coverage, because every manipulated-condition interval on FR-Bank includes zero (Table~\ref{tab:destruction-fr}, with the differences and intervals read from the recorded probe scores).
+
+%%V11:1467-1484%%
+
+% R108: paper_v11.tex lines 1489-1504 carried inline so that Table 22's cells can be filled from the recorded bootstrap (e1_metamemory/results/mechanism_scores.json; reviews/NUMBERS_R108.md AUX-R108-MECH-FR).
+\begin{table}[h]
+\caption{The FR-Bank count-destruction probe compares each altered summary with the intact summary. Every manipulated-condition interval includes zero; the differences and their item-level bootstrap intervals are read from the recorded probe scores (the artifact's R108 ledger).}
+\label{tab:destruction-fr}
+\centering
+\scriptsize
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Condition & $n$ & AUROC & $\Delta$ vs. intact & $95\%$ CI \\
+\midrule
+Intact summary & $307$ & $0.7003$ & --- & --- \\
+Counts jittered & $307$ & $0.7018$ & $+0.0015$ & $[-0.0310,+0.0366]$ \\
+Counts coarsened & $307$ & $0.7015$ & $+0.0012$ & $[-0.0472,+0.0509]$ \\
+Names only & $307$ & $0.7283$ & $+0.0279$ & $[-0.0231,+0.0801]$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% R108: paper_v11.tex lines 1551-1562 carried inline so that the factorial's main effects carry the intervals recomputed from e2_metamemory/m1_factorial_raw.json (reviews/NUMBERS_R108.md AUX-R108-FACTORIAL).
+\subsection{Factorial attribution}\label{app:factorial}
+
+The factorial separates the lifecycle-index change from the two prompt changes and checks the main-study reproduction.
+The lifecycle-index main effect is $+0.1980$, with intervals $[+0.1522,+0.2423]$ at item level and $[+0.1297,+0.2639]$ grouped by persona; the two prompt-fix effects are $+0.0134$ ($[-0.0105,+0.0354]$; $[-0.0073,+0.0348]$) and $-0.0193$ ($[-0.0451,+0.0034]$; $[-0.0396,+0.0011]$), both including zero.
+The matching factorial condition reproduces the main study at $0.7344$ against its indexed NOK of $0.7339$; the intervals are recomputed from the recorded rows of the factorial, every cell rescored on the same bootstrap draw.
+
+%% CHANGED (R92-1): the attribution paragraph relocated from Section 4.4 (CL-C060-C062); the section pointer
+%% it carried is dropped here, where it would point at itself.
+After the pilot's null obligation result the index gained its lifecycle columns and the prompt gained worked examples and a detection step, so the NOK redesign changed three things at once.
+The attribution comparison estimates the effect of each of the three changes.
+The lifecycle-index effect dominates both prompt effects, so the recovery is attributed to the lifecycle information, within the conditions we varied.
+
+\FloatBarrier
+%%V11:1563-1574%%
+%% Writing pass Phase 1 (2026-09-15), item 1: the body's structureless-store paragraph cut to four sentences; its compression reading and the U1 disclosure (C071, byte-identical; pinned once) stand here.
+What the summary does to the score is compression, the indexed monitor answering almost every question with the same low value.
+% C071 (U1, byte-identical)
+This is an inversion at every scale, not a below-chance score at every scale.
+What triggers the compression is unresolved, and the ablations that narrowed it follow.
+%% R112 (2026-09-15), review-2 A1 (the author's ruling): the constrained rendering named where the verbatim summaries show it;
+%% the store-written deltas and intervals are AUX-WP-A1-BELIEVED-BLIND (reviews/NUMBERS_WP.md section 6; reviews/v19/results/believed_blind_a1.json).
+On these two stores the ground-truth summary is the constrained rendering: the manifest's lifecycle totals, with every name section printed as not expressible (the verbatim summaries below).
+The store-written summary carries the store's own fields alone, a superseded count on Mem0 and recency on A-MEM.
+The loss is measured on the constrained rendering.
+The store-written summary is within tolerance of blind: $-0.0005$ on Mem0, intervals $[-0.0663,+0.0644]$ item-level and $[-0.0672,+0.0635]$ persona-grouped, and $-0.0313$ on A-MEM, $[-0.0983,+0.0400]$ and $[-0.0798,+0.0208]$ (Table~\ref{tab:baselines}).
+
+%%V11:1575-1766%%
+
+\paragraph{What the summary does to the score.}
+The recorded coverage scores on the two structureless stores show what the inversion consists of (Table~\ref{tab:dist}).
+Blind, GPT-4.1 mini's score takes six distinct values with a variance of $0.0245$ on Mem0 and $0.0242$ on A-MEM.
+Indexed under the constrained rendering it takes five values with a variance of $0.0060$ and $0.0052$, and the mean falls from $0.22$ to $0.17$ on Mem0 and from $0.22$ to $0.16$ on A-MEM.
+The summary lowers the score on $86$ Mem0 items and raises it on $46$, and lowers it on $110$ A-MEM items and raises it on $48$, while the mean on positives and on negatives moves together.
+The indexed monitor therefore compresses every question toward one low value rather than reordering the questions by anything it reads.
+Which line of the summary produces the compression is the question the ablations above leave open.
+
+\begin{table}[H]
+% R104: reviews/NUMBERS_R104.md AUX-R104-DIST (Phase 1 item 5; recorded rows, no model call).
+\caption{The distribution of GPT-4.1 mini's coverage score on the two structureless stores, blind against indexed under the constrained rendering, from the recorded rows: distinct values, variance, mean, and the mean on positive and negative items. The summary compresses the score toward a low value on both stores. Descriptive.}
+\label{tab:dist}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+Store & Condition & distinct values & variance & mean & mean, positives & mean, negatives \\
+\midrule
+Mem0 ($238$) & blind & $6$ & $0.0245$ & $0.2183$ & $0.2202$ & $0.2170$ \\
+Mem0 ($238$) & indexed & $5$ & $0.0060$ & $0.1660$ & $0.1617$ & $0.1688$ \\
+A-MEM ($284$) & blind & $6$ & $0.0242$ & $0.2234$ & $0.2230$ & $0.2237$ \\
+A-MEM ($284$) & indexed & $5$ & $0.0052$ & $0.1607$ & $0.1544$ & $0.1658$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\FloatBarrier
+\subsection{Non-LLM baseline suite}\label{app:baselines}
+
+The non-model readers of the summary carry numbered names in the registrations, and the main text calls the sixth the name lookup.
+The registrations number them NB-1 to NB-6.
+This appendix carries the whole family, the per-state split of the name lookup against the models, and the lookup on the coverage tiers, because each bounds a claim the main text makes about what a model adds.
+Both readings were registered, the whole-population comparison as a sentence pair and the per-state one as a single reading.
+
+Six non-model readers were run on the same serialized summaries the monitor reads, to ask whether a language model is needed at all.
+The first is a deterministic lifecycle rule that parses per-category entry and lifecycle counts and assigns the question to a category by content-token overlap with that category's attribute names.
+It scores coverage as the assigned category's share of the store's largest category and obligation as its superseded-plus-retracted-plus-expired share.
+The second is a logistic model over numeric summary features only, label-supervised and persona-grouped.
+The fourth and fifth are unsupervised query-to-summary lookups, lexical and embedding respectively, scored against the whole per-category name map.
+The sixth is that same pair of lookups aimed at one section instead, the flat list under \texttt{ATTRIBUTE NAMES CARRYING SUPERSEDED CONTENT}, whose populations, tolerance and outcome sentences were fixed before it was scored.
+The third was disqualified before scoring, because its features concatenated the summary with the question and its ablation showed question-only text outscoring the concatenated version on every population.
+It read question templates rather than the store (supplement Section~S.1, item 12), and its column below is the summary-only ablation, which is the part that reads the store.
+
+%%V11:1780-1806%%
+
+Three readings carry beyond the table, because each bears on a claim the main text makes.
+The first is the store-written obligation row, where the monitor at $0.5959$ is indistinguishable from the embedding lookup at $0.5974$, a difference of $-0.0015$ inside the tolerance: under corrupted self-description the monitor's obligation judgment falls back to what a similarity lookup already achieves, which is the same degradation the $42.3\%$ retention records in Section~\ref{sec:backends}, reached by an independent route.
+The second is that the monitor's coverage margin over the whole-map readers, the lookups that score the question against the whole name map, is not uniform across backends.
+It exists where lifecycle structure exists and vanishes where it does not, which is the same boundary the inversion result draws.
+The third is the structureless pair, where the lexical and embedding lookups sit at $0.5000$ and the other readers scatter around chance ($0.4184$ to $0.5226$).
+The monitor's indexed point estimates under the constrained rendering fall below them ($0.4777$, $0.4526$; Section~\ref{sec:backends}).
+
+% AUX-E1R-NB6 (R81). U9 FIREWALL: this paragraph reports what NB-6 measures. It does NOT
+% join the BELIEVED retention figure to the flat-lookup bound, and no connective here may
+% be read as doing so. The 42.3% figure is deliberately absent from this paragraph.
+The name lookup was registered as a direct test of one exposure: whether the obligation judgment under a ground-truth summary is close to reading the answer off the superseded-names section.
+The whole-map lookups cannot detect that, because they dilute the section across the whole name map.
+Under the ground-truth summary it reaches $0.7484$ against the monitor's $0.7339$, so on this population the monitor holds no margin over that reader.
+The difference is inside the $\pm0.05$ tolerance, so it does not establish the lookup as the better judge either; what it removes is the claim of a margin.
+Under the store-written summary it reaches $0.5858$ against the monitor's $0.5959$, also inside the tolerance.
+The whole-population difference under the ground-truth summary, monitor minus lookup, is $-0.0145$ with item-level interval $[-0.0769,+0.0549]$ and persona-clustered interval $[-0.1080,+0.0765]$ (Table~\ref{tab:nb6-composition}, last row), so the interval and the tolerance reading agree.
+The ground-truth superseded list averages $1.75$ names per item and the store-written list averages $15.04$, so the two summaries give the lookup very different amounts of text to work with.
+Mem0 and A-MEM were not scored by the lookup, because their superseded-names section carries only the marker the renderer writes where a store exposes no field, and the lookup would measure the marker rather than the store.
+%% ADDENDUM_R81 reproduction check [APPX] F.8, one sentence; frozen wording ships verbatim.
+On the coverage rows NB-6 scores the whole per-category name map and reproduces NB-4 and NB-5 to four decimals, so the coverage cells print a dash rather than repeating them.
+The lookup has one descriptive value on the cross-model set, whole-set and per-state values on the store-counterfactual set, and none on the authorship-matched set. The comparison between model and lookup is therefore complete on the full obligation population ($661$) and on the store-counterfactual set ($444$).
+Table~\ref{tab:cov-lookup} below adds the superseded section scored on the coverage rows, a new measurement of this pass.
+
+The registered texts for these rows (Appendix~\ref{app:registration}) read as follows.
+%% NB6-1 FAILS [MAIN] (registrations/ADDENDUM_R81.md section 6; AUX-E1R-NB6): frozen wording ships verbatim; moved here from Section 8 under
+%% registrations/AMENDMENT_MAIN_PLACEMENT.md (R105, 2026-09-14; pending the author's ratification).
+A matcher that scores each question directly against the store's list of names marked superseded reaches $0.7484$ on the same $661$ questions, against the monitor's $0.7339$.
+Under a truthful summary the obligation judgment is available to a direct lookup on that one list.
+%% AUX-E1R-NB6-PERSTATE, frozen reading (i) [MAIN] (ADDENDUM_R81 section 10.3 @ e8ba22c): ships verbatim; moved here from Section 8 (same amendment).
+The superseded-names matcher matches the smallest model tested. Larger models score higher on the states the index only counts, an advantage the paired blind comparison does not attribute to the index (Tables~\ref{tab:nb6-attrib} and~\ref{tab:nb6-frontier}).
+%% NB6-2 HOLDS [MAIN] (ADDENDUM_R81 Amendment 1; AUX-E1R-NB6): ships verbatim; moved here from Section 7 (same amendment). U9 FIREWALL: no connective
+%% joins these two sentences to any retention sentence; the 42.3 percent figure is deliberately absent from this paragraph.
+Under the metadata the backend actually exposes, the monitor's obligation judgment is no better than a matcher that reads the store's list of superseded names directly.
+The monitor scores $0.5959$ on that row and the matcher $0.5858$ (Appendix~\ref{app:baselines}).
+
+A census run after that result asks why the lookup works where it does, because the answer says what a reader can take from this summary and what it cannot.
+The summary names attributes in exactly one place, the superseded-names section, and expiry and retraction reach the summary as counts and are never named.
+Splitting the obligation items by the lifecycle state each obligation arises from reproduces that asymmetry exactly (Table~\ref{tab:nb6-composition}).
+The lookup reaches $0.9534$ on supersession-derived items and sits at $0.4823$ on expiry and $0.4053$ on retraction, the last two at or below chance.
+The monitor is weaker off supersession as well, at $0.5110$ and $0.5638$, and on retraction it is the higher of the two readers.
+A check of whether each obligation's own attribute name appears in the section the lookup reads finds it for $74$ of $104$ under exact slot match: $63$ of $63$ supersession-derived, $11$ of $26$ retraction-derived, and none of the $15$ expiry-derived.
+On the state the summary names, the lookup has the item's own name to read; whether the monitor reads it is a separate question that this census does not settle.
+Where the self-description names an obligation, a lookup reaches it; where the self-description only counts it, the lookup does not.
+Composition follows the same line: obligations on the full population are $63$ of $104$ supersession-derived, against $19$ of $40$ on the cross-model set, where the lookup scores $0.6023$.
+
+%%V11:1844-1862%%
+
+%% ADDENDUM_R81 sections 10.2 and 11.4: registered branch texts, frozen wording ships verbatim.
+The monitor exceeds the matcher on retraction-derived obligations at $n=26$, by $+0.1585$ $[+0.0002,+0.3341]$.
+That interval's lower bound sits at $+0.0002$, so the row is marginal and is read as marginal.
+The index counts expired content, and neither reader recovers it.
+Under persona clustering the mini per-state differences read Supersession $-0.0962$ item $[-0.1520,-0.0495]$ clustered $[-0.1712,-0.0307]$; Expiry $+0.0287$ item $[-0.1795,+0.2212]$ clustered $[-0.3115,+0.4296]$; Retraction $+0.1585$ item $[+0.0002,+0.3341]$ clustered $[-0.0560,+0.4152]$.
+The retraction row is marginal at item level (lower bound $+0.0002$) and not separated under persona clustering.
+The same split run on the three models scored on this population under five calls per question separates the two readers in opposite directions.
+On supersession, the content the summary names, the lookup is above all three.
+On expiry and retraction, the content the summary only counts, all three are above the lookup, and every difference in Table~\ref{tab:nb6-frontier} excludes zero.
+Expiry rests on $15$ obligations and retraction on $26$, so what these rows support is the direction of the crossover rather than a calibrated size for it.
+The comparison sets the models against an intent-blind reader, so it cannot say whether their advantage on the counted states comes from the store or from the question.
+Answering that needs the paired gain on the same rows, which Table~\ref{tab:nb6-attrib} reports per state.
+On supersession the summary carries every model, each difference excluding zero.
+On expiry one model of three separates from its own blind condition and on retraction one does, so the models' advantage over the lookup on the counted states is not attributable to the summary.
+GPT-4.1 mini is absent from that table because its blind condition spans two distinct values on this population.
+
+%%V11:1886-1910%%
+
+%%V11:1912-1936%%
+
+\paragraph{The lookup against every model on the full population, both variants.}
+Table~\ref{tab:margin-661} gives each model's whole-population difference from the name lookup in both variants with both intervals.
+Against the embedding variant Haiku 4.5, Opus 5 and GPT-5.6 Luna lead by $+0.0698$ to $+0.0843$, with item-level intervals that exclude zero and persona-clustered intervals that include it, so the wider interval leaves the margin unsettled.
+Against the lexical variant, which reads $0.5738$ on this population, every model leads reliably.
+
+\begin{table}[H]
+% R104: reviews/NUMBERS_R104.md AUX-R104-MARGIN (Phase 1 item 3; the 661 rows; no model call).
+\caption{Each model minus the name lookup on the $661$ obligation questions, for the embedding and the lexical variant of the lookup, with the item-level and the persona-clustered interval. Haiku 4.5, Opus 5 and GPT-5.6 Luna lead the embedding lookup at item level and not under clustering; every model leads the lexical lookup. Exploratory, computed after the fact on the recorded rows.}
+\label{tab:margin-661}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llrrrll@{}}
+\toprule
+Model & Lookup variant & model & lookup & difference & item interval & persona interval \\
+\midrule
+GPT-4.1 mini & embedding & $0.7339$ & $0.7484$ & $-0.0145$ & $[-0.0769,+0.0549]$ & $[-0.1080,+0.0765]$ \\
+GPT-4.1 mini & lexical & $0.7339$ & $0.5738$ & $+0.1601$ & $[+0.1086,+0.2153]$ & $[+0.0676,+0.2585]$ \\
+GPT-5.6 Luna & embedding & $0.8182$ & $0.7484$ & $+0.0698$ & $[+0.0123,+0.1264]$ & $[-0.0180,+0.1520]$ \\
+GPT-5.6 Luna & lexical & $0.8182$ & $0.5738$ & $+0.2444$ & $[+0.1977,+0.2888]$ & $[+0.1655,+0.3197]$ \\
+Opus 5 & embedding & $0.8327$ & $0.7484$ & $+0.0843$ & $[+0.0182,+0.1448]$ & $[-0.0091,+0.1759]$ \\
+Opus 5 & lexical & $0.8327$ & $0.5738$ & $+0.2589$ & $[+0.2195,+0.2987]$ & $[+0.1935,+0.3199]$ \\
+Haiku 4.5 & embedding & $0.8210$ & $0.7484$ & $+0.0726$ & $[+0.0052,+0.1393]$ & $[-0.0143,+0.1634]$ \\
+Haiku 4.5 & lexical & $0.8210$ & $0.5738$ & $+0.2473$ & $[+0.1993,+0.2933]$ & $[+0.1747,+0.3178]$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{The superseded-section lookup on the coverage tiers.}
+The coverage rows of Table~\ref{tab:baselines} score the whole name map.
+Table~\ref{tab:cov-lookup} scores the superseded section alone on the same coverage populations, beside GPT-4.1 mini's recorded indexed coverage score.
+On the hard tier every coverage positive is an obligation, so the embedding lookup on the superseded section reads $0.7864$ against the model's $0.7003$, and the difference of $-0.0861$ has intervals that include zero.
+The FR-Bank easy tier has ordinary present records as its positives, and there the model reads $0.7835$ against the superseded-section lookup's $0.6083$, a reliable margin of $+0.1752$.
+%% R112 (2026-09-16), post hoc F1 (reviews/NUMBERS_WP.md section 10, AUX-WP-F1-WHOLEMAP; reviews/v19/results/posthoc_f1.json).
+A lookup over the whole name map, the reader the coverage rows of Table~\ref{tab:baselines} score, was computed on the easy tier after the fact and specified before recomputation: it reads $0.7469$ (persona interval $[0.6866,0.8028]$), and the model's margin over it is $+0.0367$ with intervals $[-0.0127,+0.0861]$ and $[-0.0036,+0.0776]$, not reliable and within tolerance, so the coverage margin the superseded-section lookup showed does not survive the stronger no-model reader (Table~\ref{tab:cov-lookup}, last row).
+Pooling the easy tier across backends drops the lookup to $0.4021$, because the structureless stores' sections carry only the marker, and the model's margin there is $+0.2315$.
+
+\begin{table}[H]
+% R104: reviews/NUMBERS_R104.md AUX-R104-COV-LOOKUP (Phase 1 item 1; no model call).
+\caption{The name lookup, lexical and embedding, on the coverage populations, beside GPT-4.1 mini's recorded blind and indexed coverage AUROC, with the model minus the embedding lookup and both intervals; the last row reads the whole name map instead of the superseded section (post hoc, specified before recomputation). Where the coverage positives are obligations the lookup reads them; where they are ordinary records the model leads the superseded-section lookup and not, reliably, the whole-map lookup. Exploratory, computed after the fact on the recorded rows.}
+\label{tab:cov-lookup}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrrrrrll@{}}
+\toprule
+Population & $n$ / pos. & blind & indexed & lexical & embedding & model $-$ embedding & item interval & persona interval \\
+\midrule
+FR-Bank hard tier & $307$ / $35$ & $0.4966$ & $0.7003$ & $0.5970$ & $0.7864$ & $-0.0861$ & $[-0.1879,+0.0305]$ & $[-0.1793,+0.0166]$ \\
+FR-Bank easy tier & $354$ / $243$ & $0.4660$ & $0.7835$ & $0.5162$ & $0.6083$ & $+0.1752$ & $[+0.0938,+0.2515]$ & $[+0.0959,+0.2579]$ \\
+Easy tier, all backends & $595$ / $463$ & $0.4422$ & $0.6336$ & $0.5071$ & $0.4021$ & $+0.2315$ & $[+0.1628,+0.2979]$ & $[+0.1680,+0.2970]$ \\
+\midrule
+%% R112 (2026-09-16), post hoc F1: the whole-map lookup on the FR-Bank easy tier (AUX-WP-F1-WHOLEMAP); the lexical column is the whole-map lexical reader of the same run.
+Easy tier, whole map & $354$ / $243$ & $0.4660$ & $0.7835$ & $0.6311$ & $0.7469$ & $+0.0367$ & $[-0.0127,+0.0861]$ & $[-0.0036,+0.0776]$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Census of the store-written state}\label{app:census}
+
+Table~\ref{tab:census} in Section~\ref{sec:backends} carries the census behind the overstate, erase and invent reading.
+This appendix records the store-written superseded list, the renderer's cap, and the fourth-backend trial, because each bears on how much of the loss is the store's.
+
+%% Writing pass Phase 1 (2026-09-15), items 52 and 90: the 5% provenance sentence from Section 4 and the body's Conflate row (AUX-SIDE-S2-CENSUS; the R109 write-path census) as prose.
+\paragraph{Two census facts the body states in brief.}
+The pass rate of $5\%$ that Section~\ref{sec:setup} cites for FR-Bank's mask is the released store's own figure, measured on its $40$ retraction questions with the mask in place \citep{fr}.
+The store also conflates retraction with supersession: of $31$ entries marked retracted across the $40$ personas, $22$ share a slot key with another entry and $16$ carry a supersedes pointer, so the write path records retraction through the supersession mechanism and the backend's own metadata cannot separate retracted from superseded content.
+The manifests record $40$ retraction events, one per persona, and the ground-truth join resolves $9$ of them to a retracted entry ($23$ entries).
+%% R112 (2026-09-15), review-2 A1: the Section 7 history-call sentence, moved here as the page swap the ruling named.
+Mem0's per-memory history call, which keeps the prior text under a known identifier, was not consulted, so the erase reading is of the record as exposed and says nothing about the history log.
+
+% R97-2b (SIDE registration S2; Amendment 1): the frozen census reading (registrations/ADDENDUM_SIDE.md section S2, 'prints regardless,
+% appendix only'; ships verbatim, so the em dashes stand) and the S2-U quantities; NUMBERS_SIDE.md sections 5 and 8
+% (AUX-SIDE-S2-CENSUS, -S2-CAP-RECALL, -S2-MINI); rounded forms in reviews/NUMBERS_R97.md. Section 6 carries the frozen branch text.
+\paragraph{The store-written superseded list, and the renderer's cap.}
+A registered follow-up asked whether a filter on the metadata FR-Bank itself exposes could recover the obligation gain the store-written summary loses.
+Two candidate rules were fixed before any call, with a precision bar of $0.80$, and a census of the store decided it at no cost.
+Two filters on the metadata FR-Bank exposes --- the store's own supersession pointers, alone and restricted to an active successor at least fourteen days later --- leave the superseded list at $15.04$ and $8.96$ names per item against $1.75$ under ground truth, at precision $0.035$ and $0.062$. The store records $5{,}968$ deactivations and the manifest $104$ supersessions, and on the fields the store exposes the two are indistinguishable. Forty of the $104$ are still active in the store. The believed-state loss is not a filtering problem.
+The one condition that ran is descriptive: the recorded store-written store versions rendered with the per-category cap of fifteen names lifted.
+The superseded-names section then runs to $32.55$ names per item against $15.04$ under the cap and $1.75$ under the ground-truth summary.
+Its recall of the ground-truth names rises from $30.0\%$ to $66.6\%$ at precision $0.0348$ under the cap and $0.0357$ without it.
+On the $661$ obligation questions the obligation AUROC reads blind $0.4946$, ground-truth $0.7339$, store-written $0.5959$, and store-written with the cap lifted $0.6513$.
+The paired gains over blind are $+0.2393$ $[+0.1801,+0.2949]$, $+0.1012$ $[+0.0458,+0.1543]$ (persona-clustered $[+0.0217,+0.1744]$) and $+0.1567$ $[+0.0961,+0.2162]$ (persona-clustered $[+0.0552,+0.2536]$).
+The lifted summary retains $65.5\%$ of the ground-truth gain, item-level $[44.6\%,87.2\%]$ and persona-clustered $[31.5\%,93.6\%]$, against the recorded $42.3\%$ under the cap.
+The lifted-minus-capped difference is $+0.0554$, item-level $[+0.0110,+0.0992]$ and persona-clustered $[-0.0019,+0.1173]$, so the two intervals disagree and the wider one governs in Section~\ref{sec:backends}.
+The three registered texts for this row (Appendix~\ref{app:registration}) read as follows.
+%% SIDE S2 (registrations/ADDENDUM_SIDE.md section S2): the 42.3 percent sentence, ships verbatim; moved here from Section 7 under
+%% registrations/AMENDMENT_MAIN_PLACEMENT.md (R105, 2026-09-14; pending the author's ratification).
+Under the \believed{} index the NOK gain is $+0.1012$ ($95\%$ CI $[+0.0217,+0.1744]$, with questions grouped by user profile). That keeps $42.3\%$ of the \trueidx{} gain, short of the $60\%$ we had set as the threshold.
+%% SIDE S2-U not-expected-branch text (ADDENDUM_SIDE.md section S2; AUX-SIDE-S2-MINI): ships verbatim; moved here from Section 7 (same amendment).
+Lifting the cap on the believed list, which raises its recall of ground-truth superseded names from $30.0$ to $66.6$ percent at unchanged precision, retains $65.5$ percent of the \trueidx{} gain, at or above the $60$ percent threshold.
+Part of the believed-state loss recorded at $42.3$ percent is an effect of the renderer's cap of fifteen names rather than of the store's metadata.
+%% The main study's frozen verdict sentence on the BELIEVED obligation row (PREREG_E1; CLAIMS.md): ships verbatim; moved here from Section 7 (same amendment).
+NOK degrades materially under believed metadata but remains positive.
+
+\paragraph{Haiku 4.5 under the store's own metadata.}
+%% R110: ADDENDUM_BELIEVED_H (frozen 257a090; believed_h/NUMBERS_BELIEVED_H.md AUX-BH-LOCK, -LOOKUP-LIFTED, -H45-15, -H45-LIFTED, -RETENTION-15, -RETENTION-LIFTED, -BRANCH, -SPLIT).
+A descriptive registration scored Haiku 4.5 at five calls per question on the recorded store-written texts under both renderings, the capped ($15.04$ superseded names per item) and the lifted ($32.55$ names, at most $50$), against its recorded blind ($0.4150$) and ground-truth ($0.8210$) rows on the full obligation set, with the name lookup on the same lists ($0.5858$ capped, $0.6588$ lifted, persona interval $[0.5777,0.7319]$).
+Haiku 4.5 reads $0.7069$ capped ($[0.6657,0.7504]$; $[0.6620,0.7541]$) and $0.7364$ lifted ($[0.6911,0.7858]$; $[0.6665,0.8024]$), $-0.1141$ and $-0.0847$ below its ground-truth row, both reliable, and $+0.1212$ ($[+0.0628,+0.1849]$; $[+0.0317,+0.2107]$) and $+0.0776$ ($[+0.0272,+0.1355]$; $[-0.0031,+0.1498]$) above the name lookup.
+Its retention, the ratio of the paired resampled differences, is $0.7190$ capped ($[0.6214,0.8497]$; $[0.5935,0.8603]$) and $0.7916$ lifted ($[0.6838,0.9243]$; $[0.6342,0.9425]$), at or above the sixty-percent line under both renderings.
+GPT-4.1 mini's retention figures above divide by an indexed-minus-blind difference that Section~\ref{sec:populations} does not report as a gain, because its blind score is one value on $604$ of the $661$ questions, so Table~\ref{tab:levels} reports retention for Haiku 4.5 only.
+Split by whether the obligation's own scrubbed name survives in the store-written list (Table~\ref{tab:bh-split}), Haiku 4.5 reads the $53$ supersession obligations whose name survives under the lifted rendering at $0.8658$ against $0.8855$ under the ground-truth summary ($-0.0197$, $[-0.0690,+0.0303]$; $[-0.0842,+0.0424]$), and the $10$ whose name is gone at $0.6839$ against $0.9122$ ($-0.2283$, $[-0.4288,-0.0430]$; $[-0.6568,+0.0182]$); under the cap the halves are $24$ and $39$, at $0.7993$ and $0.6933$.
+
+\begin{table}[H]
+\caption{Haiku 4.5 under the store's own metadata, the $63$ supersession obligations split by whether the item's own scrubbed name survives in the store-written list, each half against the same $557$ negatives: Haiku 4.5 under the store-written and the ground-truth summary, the lookup on the store-written list, and the paired differences, each with its item-level and persona-grouped intervals on the rows beneath. Descriptive; no prediction was registered.}
+\label{tab:bh-split}
+\centering
+\tiny
+\setlength{\tabcolsep}{1.5pt}
+\begin{tabular}{@{}llrrrrll@{}}
+\toprule
+Rend. & own name & $n$ & Haiku, store-written & ground-truth & lookup & store-written minus ground-truth & Haiku minus lookup \\
+\midrule
+capped & present & $24$ & $0.7993$ & $0.8925$ & $0.7292$ & $-0.0932$ & $+0.0701$ \\
+ & item & & & & & $[-0.1746,-0.0006]$ & $[-0.0204,+0.1663]$ \\
+ & profile & & & & & $[-0.2041,+0.0235]$ & $[-0.0261,+0.1709]$ \\
+capped & absent & $39$ & $0.6933$ & $0.8880$ & $0.6146$ & $-0.1947$ & $+0.0787$ \\
+ & item & & & & & $[-0.2673,-0.1224]$ & $[-0.0137,+0.1666]$ \\
+ & profile & & & & & $[-0.2813,-0.1011]$ & $[-0.0497,+0.2355]$ \\
+lifted & present & $53$ & $0.8658$ & $0.8855$ & $0.7593$ & $-0.0197$ & $+0.1065$ \\
+ & item & & & & & $[-0.0690,+0.0303]$ & $[+0.0411,+0.1785]$ \\
+ & profile & & & & & $[-0.0842,+0.0424]$ & $[+0.0233,+0.1846]$ \\
+lifted & absent & $10$ & $0.6839$ & $0.9122$ & $0.7969$ & $-0.2283$ & $-0.1130$ \\
+ & item & & & & $[0.6722,0.8992]$ & $[-0.4288,-0.0430]$ & $[-0.3613,+0.1503]$ \\
+ & profile & & & & & $[-0.6568,+0.0182]$ & $[-0.5208,+0.4381]$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%% R112 (2026-09-16), the page-budget step of the integration pass: this table moved verbatim from the main text; the body states its numbers in prose.
+\begin{table}[H]
+%% Writing pass Phase 1 (2026-09-15), item 53: the columns renamed (item 34's terms), two decimals, the caption to two lines, the retention intervals in the note.
+%% AUX-E1R-TRUE-NOK (0.7339), AUX-E1R-BELIEVED-NOK (0.5959), AUX-SIDE-S2-MINI (0.6513); AUX-R74-X4-H45-NOK (0.8210), AUX-BH-H45-15 (0.7069), AUX-BH-H45-LIFTED (0.7364);
+%% AUX-E1R-NB6 (0.7484 truthful; 0.5858 capped), AUX-BH-LOOKUP-LIFTED (0.6588); AUX-BH-RETENTION-15 (0.7190 [0.6214, 0.8497] / [0.5935, 0.8603]), -LIFTED (0.7916 [0.6838, 0.9243] / [0.6342, 0.9425]).
+\caption{Obligation AUROC on the full obligation set ($661$ questions, $104$ obligations) under the ground-truth summary and under FR-Bank's store-written summary, rendered with the fifteen-name cap and with the cap lifted. Retention is Haiku 4.5's store-written gain as a fraction of its ground-truth gain.}
+\label{tab:levels}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Reader & Ground-truth summary & Store-written, capped & Store-written, cap lifted \\
+\midrule
+GPT-4.1 mini & $0.73$ & $0.60$ & $0.65$ \\
+Haiku 4.5 & $0.82$ & $0.71$ & $0.74$ \\
+\quad retention$^{a}$ & & $0.72$ & $0.79$ \\
+Name lookup & $0.75$ & $0.59$ & $0.66$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.97\linewidth}\scriptsize
+$^{a}$The ratio of the paired resampled differences, with the item-level and the persona-grouped interval: capped $[0.62,0.85]$ and $[0.59,0.86]$, lifted $[0.68,0.92]$ and $[0.63,0.94]$. Reported for Haiku 4.5 only, because GPT-4.1 mini's blind score is one value on $604$ of the $661$ questions and the lookup has no blind score (Appendix~\ref{app:census}).
+\end{minipage}
+\end{table}
+
+\paragraph{A fourth backend, measured on three personas.}
+A trial on an unmodified public release of a fourth backend, Graphiti \citep{zep}, a temporal knowledge-graph store built by another group, asks whether the self-description problem is confined to the three backends above.
+On three personas and $137$ episodes it names at least one superseded attribute per persona, so its summary is not degenerate.
+Against the persona manifests it recovers $2$ of $10$ supersession events at the $0.80$ overlap bar this study inherited, a recall of $0.20$.
+At the $0.75$ and $0.50$ bands the same census recovers $5$ and $6$, and three of the ten events sit between $0.75$ and $0.80$.
+The verdict therefore turns on a threshold rather than on a wide margin, and all three bands are reported.
+What it does mark is mostly not a manifest event, because precision runs $0.00$ to $0.04$ across the three personas.
+Retraction and category are inexpressible under its stock defaults, so the summary emits the marker for both.
+Three properties of the store account for most of the misses.
+The user is split across three entity nodes in every persona, so a later fact about the same slot does not meet the earlier one.
+About a tenth of edges carry no validity time, and invalidation requires one on both sides, and some temporal bookkeeping is incoherent, with one edge invalidated before its own validity begins.
+The failure mode is erasure with overstatement in what survives, the same direction as FR-Bank's at a far smaller absolute scale.
+Because it covers three personas it is a trial rather than a census, and no obligation judgment is scored on this backend.
+Disclosure, because it bears on independence: the personas and episodes used here were ingested into that backend in early 2026 under a copy carrying four documented numeric-preservation modifications.
+Re-running the unmodified release on the same personas and episodes changes edge counts by $2.4\%$ and leaves supersession recall identical at the frozen bar, so those modifications are near-inert on this corpus.
+Since the trial, the census was run on all forty personas (Appendix~\ref{app:posthoc-graphiti}); the summary route and the tag route on this backend have not been run.
+
+\FloatBarrier
+\subsection{Own-name ablation, retrieved-view monitors, the rubric gate, and the downstream experiment}\label{app:resp}
+
+Three mechanism tests and one downstream experiment act on the judgment.
+Each was preregistered with its texts written before any call (Table~\ref{tab:registrations-b}), so every outcome below is read against a text that predates it.
+Every monitor call is GPT-4.1 mini at temperature $0$.
+The blind and ground-truth-summary rows are the main study's, read from the recorded rows.
+Intervals are the item-level paired bootstrap with the interval grouped by persona beside it.
+Where the two disagree the wider one decides, and the tolerance is $\pm0.05$.
+
+%%V11:1994-2003%%
+
+The draw-noise floor, the same $102$ prompts sent once more, moves the whole-population score by $+0.0179$ ($[-0.0117,+0.0523]$).
+The ablation's move on the same items, $-0.3250$, therefore lies outside the noise on every state that has positives among them.
+On retraction-derived items, which the summary only counts, the ablation moves GPT-4.1 mini's discrimination by $-0.1404$ with interval $[-0.2569,-0.0508]$, outside the tolerance.
+The change cannot come from a name the positives carried, so it comes through the negatives whose names were removed, or through the model's response to a section that now reads ``(none)'' against non-zero counts.
+Eleven of the $26$ retraction-derived obligations carry their own name in the section the ablation edits.
+
+% R108: paper_v11.tex lines 2007-2025 carried inline so that the retrieved view under the store's own marks and Haiku 4.5's rows (ADDENDUM_RESP_AMENDMENT_1) can be added.
+\begin{table}[H]
+\caption{Retrieved-view and hybrid monitors. The five entries a similarity retriever returns from the item's store, active or not, each with the lifecycle flags the store's ground-truth join records; the retrieved-view monitor sees those five and no summary, the hybrid monitor sees both. Obligation rows on the $661$, per state and whole; coverage rows on the $307$ against the ground-truth summary; reach of the record that forbids use, a census over the $104$ obligations with a Wilson interval.}
+\label{tab:resp-l2}\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llrrrrll@{}}\toprule
+Monitor & Population & $n$ / pos. & Truthful & Monitor & $\Delta$ & item-level $95\%$ & by persona \\ \midrule
+Retrieved view & obligation, whole & 661 / 104 & $0.7339$ & $0.6851$ & $-0.0488$ & $[-0.1274,+0.0285]$ & $[-0.1454,+0.0389]$ \\
+Retrieved view & obligation, supersession & 620 / 63 & $0.8572$ & $0.6853$ & $-0.1719$ & $[-0.2641,-0.0734]$ & $[-0.2764,-0.0682]$ \\
+Retrieved view & obligation, expiry & 572 / 15 & $0.5110$ & $0.7474$ & $+0.2364$ & $[+0.1053,+0.3829]$ & $[+0.0645,+0.4037]$ \\
+Retrieved view & obligation, retraction & 583 / 26 & $0.5638$ & $0.6487$ & $+0.0850$ & $[-0.0682,+0.2235]$ & $[-0.1435,+0.2764]$ \\
+Retrieved view & coverage, hard tier & 307 / 35 & $0.7003$ & $0.7870$ & $+0.0867$ & $[-0.0261,+0.1908]$ & $[+0.0041,+0.1683]$ \\
+Summary + retrieved view & obligation, whole & 661 / 104 & $0.7339$ & $0.8303$ & $+0.0964$ & $[+0.0415,+0.1554]$ & $[+0.0227,+0.1635]$ \\
+Summary + retrieved view & obligation, supersession & 620 / 63 & $0.8572$ & $0.9044$ & $+0.0472$ & $[-0.0337,+0.1206]$ & $[-0.0510,+0.1348]$ \\
+Summary + retrieved view & obligation, expiry & 572 / 15 & $0.5110$ & $0.6858$ & $+0.1747$ & $[+0.0320,+0.3287]$ & $[+0.0195,+0.3335]$ \\
+Summary + retrieved view & obligation, retraction & 583 / 26 & $0.5638$ & $0.7342$ & $+0.1704$ & $[+0.0430,+0.2926]$ & $[-0.0089,+0.3471]$ \\
+Summary + retrieved view & coverage, hard tier & 307 / 35 & $0.7003$ & $0.8241$ & $+0.1238$ & $[+0.0206,+0.2265]$ & $[+0.0471,+0.1994]$ \\
+% R108 (ADDENDUM_RESP_AMENDMENT_1, descriptive; NUMBERS_RESP.md section 7, AUX-RESP-A1-BELIEVED): the same five records tagged by the store's own marks, against the truthful summary.
+Retrieved view, store's own tags & obligation, whole & 661 / 104 & $0.7339$ & $0.8144$ & $+0.0805$ & $[+0.0177,+0.1439]$ & $[-0.0081,+0.1660]$ \\
+Retrieved view, store's own tags & obligation, supersession & 620 / 63 & $0.8572$ & $0.8189$ & $-0.0383$ & $[-0.1155,+0.0402]$ & $[-0.1192,+0.0442]$ \\
+Retrieved view, store's own tags & obligation, expiry & 572 / 15 & $0.5110$ & $0.7866$ & $+0.2756$ & $[+0.1209,+0.4275]$ & $[-0.0346,+0.5094]$ \\
+Retrieved view, store's own tags & obligation, retraction & 583 / 26 & $0.5638$ & $0.8194$ & $+0.2556$ & $[+0.1306,+0.3786]$ & $[+0.0608,+0.3916]$ \\
+\addlinespace
+% R108 (AUX-RESP-A1-H45-*): Haiku 4.5 at k = 5 (Batch), the truthful column is its own recorded summary row (r74/x4/rows_H45.jsonl, five draws averaged).
+\multicolumn{8}{@{}l}{\textit{Haiku 4.5, five calls averaged, against its own summary row; the own-name ablation on the $102$ changed items with the recorded score elsewhere}}\\
+Summary + retrieved view, Haiku 4.5 & obligation, whole & 661 / 104 & $0.8210$ & $0.7863$ & $-0.0347$ & $[-0.0930,+0.0248]$ & $[-0.1109,+0.0433]$ \\
+Summary + retrieved view, Haiku 4.5 & obligation, supersession & 620 / 63 & $0.8897$ & $0.7877$ & $-0.1020$ & $[-0.1739,-0.0265]$ & $[-0.2006,+0.0014]$ \\
+Summary + retrieved view, Haiku 4.5 & obligation, expiry & 572 / 15 & $0.6874$ & $0.8270$ & $+0.1396$ & $[-0.0338,+0.3048]$ & $[-0.0914,+0.3385]$ \\
+Summary + retrieved view, Haiku 4.5 & obligation, retraction & 583 / 26 & $0.7317$ & $0.7595$ & $+0.0278$ & $[-0.0928,+0.1408]$ & $[-0.1534,+0.1843]$ \\
+Retrieved view, Haiku 4.5 & obligation, whole & 661 / 104 & $0.8210$ & $0.7134$ & $-0.1077$ & $[-0.1732,-0.0369]$ & $[-0.1939,-0.0203]$ \\
+Retrieved view, Haiku 4.5 & obligation, supersession & 620 / 63 & $0.8897$ & $0.6911$ & $-0.1986$ & $[-0.2834,-0.1039]$ & $[-0.2994,-0.0967]$ \\
+Retrieved view, Haiku 4.5 & obligation, expiry & 572 / 15 & $0.6874$ & $0.7743$ & $+0.0870$ & $[-0.0735,+0.2452]$ & $[-0.0493,+0.1954]$ \\
+Retrieved view, Haiku 4.5 & obligation, retraction & 583 / 26 & $0.7317$ & $0.7322$ & $+0.0005$ & $[-0.1390,+0.1288]$ & $[-0.2181,+0.1773]$ \\
+Own-name ablation, Haiku 4.5 & obligation, whole & 661 / 104 & $0.8210$ & $0.6882$ & $-0.1328$ & $[-0.1778,-0.0960]$ & $[-0.1940,-0.0790]$ \\
+Own-name ablation, Haiku 4.5 & obligation, supersession & 620 / 63 & $0.8897$ & $0.6759$ & $-0.2139$ & $[-0.2752,-0.1584]$ & $[-0.3005,-0.1388]$ \\
+Own-name ablation, Haiku 4.5 & obligation, expiry & 572 / 15 & $0.6874$ & $0.6914$ & $+0.0040$ & $[+0.0003,+0.0094]$ & $[-0.0010,+0.0122]$ \\
+Own-name ablation, Haiku 4.5 & obligation, retraction & 583 / 26 & $0.7317$ & $0.7164$ & $-0.0153$ & $[-0.0516,+0.0164]$ & $[-0.0478,+0.0136]$ \\
+\midrule
+\multicolumn{8}{@{}l}{Reach of the forbidding record, five items: $54$ of $104$ ($0.5192$, Wilson $[0.4242,0.6128]$); supersession $22$ of $63$, retraction $20$ of $26$, expiry $12$ of $15$.} \\
+\multicolumn{8}{@{}l}{Ten items: $74$ of $104$ ($0.7115$); supersession $37$ of $63$, retraction $25$ of $26$, expiry $12$ of $15$.} \\
+\bottomrule\end{tabular}\end{table}
+%% R112 (2026-09-16), the page-budget step of the integration pass: this table moved verbatim from the main text (its rows also stand in Table~\ref{tab:routes-full}); the body states its numbers in prose.
+\begin{table}[H]
+%% Writing pass Phase 1 (2026-09-15), items 51 and 90: the three GPT-4.1 mini rows with the comparison in the row, two decimals; the four readers with no model in
+%% them under the store's own tags moved to Appendix E.10 (tab:routes-full) with the sign fix of item 36. AUX-RESP-RETRIEVED (0.6851), AUX-RESP-HYBRID (0.8303),
+%% AUX-RESP-A1-BELIEVED (0.8144), AUX-E1R-TRUE-NOK (0.7339).
+\caption{Obligation AUROC of GPT-4.1 mini on the tagged view, on the full obligation set ($661$ questions, $104$ obligations). $\Delta$ is the monitor minus the comparison named in its row, with both intervals; Haiku 4.5 and the no-model readers are in Appendix~\ref{app:resp}.}
+\label{tab:routes}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrlll@{}}
+\toprule
+Monitor, tag source & AUROC & $\Delta$ (against) & item interval & persona interval \\
+\midrule
+Summary alone & $0.73$ & & & \\
+Tagged view, ground-truth tags & $0.69$ & $-0.05$ (the summary alone) & $[-0.13,+0.03]$ & $[-0.15,+0.04]$ \\
+Summary plus tagged view, ground-truth tags & $0.83$ & $+0.10$ (the summary alone) & $[+0.04,+0.16]$ & $[+0.02,+0.16]$ \\
+Tagged view, the store's own tags & $0.81$ & $+0.13$ (the view under ground-truth tags) & $[+0.07,+0.18]$ & $[+0.06,+0.21]$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{The tagged view under the store's own tags, and Haiku 4.5 on the retrieved-view monitors.}
+A descriptive registration written after the ninth review re-rendered the same five retrieved records with FR-Bank's own lifecycle tags in place of the ground-truth join: the store's inactive flag as superseded, its retracted flag as retracted, and an event time before the persona's cutoff as expired, the rule the store-written summary uses.
+The store's own tags change the tag on $1,273$ of the $3,305$ lines shown, and against the ground-truth non-active flag the store's tag has precision $0.14$ and recall $0.87$ over lines and precision $0.67$ and recall $0.78$ over the forbidding records in view.
+GPT-4.1 mini on that view scores $0.8144$ against $0.6851$ under ground-truth tags, a difference of $+0.1292$ with intervals $[+0.0666,+0.1826]$ and $[+0.0606,+0.2060]$, and $+0.0805$ against the ground-truth summary (Table~\ref{tab:resp-l2}); under the registration's reading rule the view does not collapse (the fall is not a reliable one beyond the tolerance), so the system-builder rule on tags stays unconditional.
+The same registration ran Haiku 4.5 at five calls per question on the hybrid monitor, then the tagged view, then the own-name ablation, in that order; hybrid ran, retrieved ran, the own-name ablation ran (Appendix~\ref{app:economics}).
+Against its own summary row Haiku 4.5 gains $-0.0347$ shown both and $-0.1077$ on the tagged view alone, so the two routes read for the second model as they do for the first.
+
+Without the detection step of the two-step rubric, GPT-4.1 mini's blind obligation score takes $0.0$ on $604$ and $0.1$ on $57$ of the $661$ questions, two distinct values.
+Its one-sample discrimination is $0.4888$ with interval $[0.4646,0.5165]$, so the constant was not the gate.
+
+%% R110: the rows of Section 6's Table 3 that the author's trim order of 2026-09-15 moved here: Haiku 4.5 on the retrieved-view monitors (AUX-RESP-A1-H45-HYBRID, -H45-RETRIEVED) and the four readers with no model in them under the join's tags (AUX-R110-A2).
+%% Writing pass Phase 1 (2026-09-15), items 36 and 90: the four readers under the store's own tags moved here from the body's Table 2 (AUX-R110-A2: TD 0.6209, TL 0.6523, HL 0.6857; AUX-R110-A2-OWNVSJOIN: FR 0.7212;
+%% AUX-RESP-A1-BELIEVED 0.8144), and the sign fix: the printed difference on every no-model row is the monitor minus the reader (as the ledger records it), so those rows now name the monitor first. No cell value changes.
+\begin{table}[H]
+\caption{The tagged view, the rows Section~\ref{sec:routes}'s table leaves out: Haiku 4.5 on the view and on summary plus view under ground-truth tags, and the four readers with no model in them under each tag source, each against the GPT-4.1 mini monitor that saw the same input. The readers are tag density (the fraction of lines tagged non-active), the tagged-name lookup (the question against the names of the tagged lines), the forbidding-record indicator (the item's forbidding record in view and tagged) and the hybrid of the name lookup with the tagged-name lookup. $\Delta$ is the first-named score minus the second, with both intervals.}
+\label{tab:routes-full}
+\centering
+\tiny
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lrrrll@{}}
+\toprule
+Row & first & second & $\Delta$ & item interval & persona interval \\
+\midrule
+Haiku 4.5, view (ground-truth tags) minus its summary alone & $0.7134$ & $0.8210$ & $-0.1077$ & $[-0.1732,-0.0369]$ & $[-0.1939,-0.0203]$ \\
+Haiku 4.5, summary plus view (ground-truth tags) minus its summary alone & $0.7863$ & $0.8210$ & $-0.0347$ & $[-0.0930,+0.0248]$ & $[-0.1109,+0.0433]$ \\
+\addlinespace
+\multicolumn{6}{@{}l}{\textit{Ground-truth tags: the GPT-4.1 mini monitor on the same input minus the reader with no model in it}}\\
+View monitor minus tag density & $0.6851$ & $0.6157$ & $+0.0694$ & $[+0.0375,+0.1053]$ & $[+0.0257,+0.1103]$ \\
+View monitor minus tagged-name lookup & $0.6851$ & $0.6313$ & $+0.0538$ & $[+0.0232,+0.0899]$ & $[+0.0110,+0.0951]$ \\
+View monitor minus forbidding-record indicator & $0.6851$ & $0.6683$ & $+0.0168$ & $[-0.0192,+0.0572]$ & $[-0.0380,+0.0784]$ \\
+Summary-plus-view monitor minus hybrid lookup & $0.8303$ & $0.7708$ & $+0.0595$ & $[-0.0005,+0.1228]$ & $[-0.0198,+0.1498]$ \\
+\addlinespace
+\multicolumn{6}{@{}l}{\textit{The store's own tags: the same, against the view monitor under those tags}}\\
+View monitor minus tag density & $0.8144$ & $0.6209$ & $+0.1934$ & $[+0.1446,+0.2462]$ & $[+0.1280,+0.2536]$ \\
+View monitor minus tagged-name lookup & $0.8144$ & $0.6523$ & $+0.1621$ & $[+0.1123,+0.2164]$ & $[+0.0967,+0.2320]$ \\
+View monitor minus forbidding-record indicator & $0.8144$ & $0.7212$ & $+0.0932$ & $[+0.0440,+0.1453]$ & $[+0.0273,+0.1552]$ \\
+View monitor minus hybrid lookup & $0.8144$ & $0.6857$ & $+0.1287$ & $[+0.0771,+0.1878]$ & $[+0.0597,+0.2003]$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Retrieval that returns tags, as configured.}
+The retriever is the store's own cosine search over every entry the item's store variant holds, active or not, on the bank's cached embedding vectors.
+It applies no lifecycle mask, no lexical channel, no category forcing, no multi-hop and no distillation, so every entry can be returned; the top ten are taken and the top five used.
+Each returned line carries the lifecycle flags the store's ground-truth join records, the category, the scrubbed attribute, the age in days, and the text.
+That is a modification of FR-Bank's stock configuration, which masks non-active records, and it is what makes the tags a route at all.
+
+% R106: paper_v11.tex lines 2029-2057 carried inline so that the literal rule's answer row (DS Amendment 2) can be filled; every other line byte-identical to v11.
+\begin{table}[H]
+\caption{The downstream experiment. Seven registered policies assemble a view from the five retrieved entries and, where a rule fires, the store's non-active records for the attributes the summary names (the oracle: the item's own attribute; the gold labels decide abstention). Table~\ref{tab:ds-body} carries each policy's fires, reach, view size, tagged reach and coverage; the first block here adds the abstention counts and the reach by the state the obligation arises from. Stage $2$ is one GPT-4.1 mini answer per distinct view, scored by the ground-truth token detector at its high-precision threshold ($0.80$) and at the ground-truth join's threshold ($0.50$), split by whether the forbidding record carried its tag. The literal-threshold lookup row is descriptive; its answer stage was registered after the first draft (Amendment 2) and prints in the second block, whose lower rows give the same counts under the answer stage run once more with an added instruction to treat tagged records as not to be used (Amendment 3; the Amendment 1 policy's views were not answered again). The last row of each block is the descriptive policy of the amendment registered after the study: the model rule with its obligation score elicited under the summary that names all three states, and the all-states fetch set, so that the counted-state gate can fire.}
+\label{tab:ds}\centering\scriptsize\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}lrrrrr@{}}\toprule
+Policy & abstains & sup. (of $63$) & ret. (of $26$) & exp. (of $15$) & abstain, absent (of $383$) \\ \midrule
+Top-5 only & $0$ & $22$ & $20$ & $12$ & $0$ \\
+Oracle & $383$ & $63$ & $22$ & $14$ & $383$ \\
+Model rule & $210$ & $53$ & $20$ & $12$ & $172$ \\
+Lookup rule & $224$ & $53$ & $20$ & $12$ & $174$ \\
+Model rule, all states named & $210$ & $53$ & $20$ & $12$ & $172$ \\
+Lookup rule, all states named & $224$ & $53$ & $20$ & $12$ & $174$ \\
+Lookup, literal threshold & $0$ & $62$ & $20$ & $12$ & $0$ \\
+\addlinespace
+% R103 (DS Amendment 1, descriptive; NUMBERS_DS.md section 6, AUX-DS-A1-REACH, -PRESENT, -ABSTAIN, -VIEWSIZE)
+Model rule, all states named and scored & $210$ & $54$ & $22$ & $13$ & $172$ \\
+\bottomrule\end{tabular}\\[6pt]
+\begin{tabular}{@{}lrrlrl@{}}\toprule
+Policy & answered & stale at $0.80$ & stale at $0.50$, tagged / untagged & present answered & correct at $0.50$ \\ \midrule
+Top-5 only & $54$ & $0$ & $2$ of $35$ / $7$ of $19$ & $174$ & $46$ ($0.2644$) \\
+Oracle & $99$ & $0$ & $11$ of $82$ / $6$ of $17$ & $174$ & $46$ ($0.2644$) \\
+Model rule & $74$ & $0$ & $5$ of $61$ / $4$ of $13$ & $155$ & $44$ ($0.2839$) \\
+Lookup rule & $70$ & $0$ & $5$ of $61$ / $2$ of $9$ & $146$ & $40$ ($0.2740$) \\
+Model rule, all states named & $74$ & $0$ & $5$ of $61$ / $4$ of $13$ & $155$ & $44$ ($0.2839$) \\
+Lookup rule, all states named & $70$ & $0$ & $4$ of $61$ / $2$ of $9$ & $146$ & $39$ ($0.2671$) \\
+% R106 (DS Amendment 2, descriptive; NUMBERS_DS.md section 7, AUX-DS-A2-STAGE2-LIT)
+Lookup, literal threshold & $94$ & $0$ & $7$ of $75$ / $7$ of $19$ & $174$ & $46$ ($0.2644$) \\
+\addlinespace
+% R103 (DS Amendment 1, descriptive; NUMBERS_DS.md AUX-DS-A1-STAGE2)
+Model rule, all states named and scored & $78$ & $0$ & $10$ of $67$ / $2$ of $11$ & $155$ & $44$ ($0.2839$) \\
+\addlinespace
+% R107 (DS Amendment 3, descriptive; NUMBERS_DS.md section 8, AUX-DS-A3-STAGE2-MINI): the same views answered once more with the added instruction.
+\multicolumn{6}{@{}l}{\textit{With the added instruction to treat tagged records as not to be used (Amendment 3)}}\\
+Top-5 only & $54$ & $0$ & $2$ of $35$ / $8$ of $19$ & $174$ & $47$ ($0.2701$) \\
+Oracle & $99$ & $0$ & $11$ of $82$ / $7$ of $17$ & $174$ & $47$ ($0.2701$) \\
+Model rule & $74$ & $0$ & $6$ of $61$ / $4$ of $13$ & $155$ & $44$ ($0.2839$) \\
+Lookup rule & $70$ & $0$ & $6$ of $61$ / $2$ of $9$ & $146$ & $40$ ($0.2740$) \\
+Model rule, all states named & $74$ & $2$ & $6$ of $61$ / $4$ of $13$ & $155$ & $44$ ($0.2839$) \\
+Lookup rule, all states named & $70$ & $1$ & $5$ of $61$ / $2$ of $9$ & $146$ & $40$ ($0.2740$) \\
+Lookup, literal threshold & $94$ & $0$ & $8$ of $75$ / $8$ of $19$ & $174$ & $46$ ($0.2644$) \\
+\bottomrule\end{tabular}\end{table}
+
+The store's ground-truth join flags the forbidding record as non-active for $82$ of the $104$ obligations.
+The other $22$ retrieve as active, so no fetch by lifecycle state reaches them and the oracle's ceiling is $0.7885$ by construction; its reach of $99$ counts the $17$ of those $22$ that the retriever returns anyway.
+With the forbidding record in view and its tag shown, GPT-4.1 mini gives the stale value as the answer in $11$ of $82$ cases at the gold threshold, and in $6$ of $17$ where the record appeared as active.
+The retention of the oracle's gain, $0.7561$, is a near miss under the stricter interval convention, with $[0.563,0.939]$ grouped by persona against $0.60$.
+The registered text (supplement, Section~S.3) reports the same interval at four decimals.
+The $22$ unflagged records split by the fault in FR-Bank's own write path.
+For $17$ of them ($14$ retraction-derived, $3$ expiry-derived) the store's own metadata marks at least one forbidding record superseded and none retracted, so the retraction or expiry was recorded through the supersession mechanism.
+For the other $5$ ($4$ retraction-derived, $1$ expiry-derived, four of the ten distinct questions) no forbidding record carries any lifecycle mark at all; this census was run after the results were known.
+Two further faults of the write path came out of a forensic audit of the answer stage, run after the results were known and gated against every recorded per-row score (the downstream audit report in the artifact and its ledger, section 9).
+Active duplicates: for $35$ of the $89$ supersession and retraction obligations ($21$ and $14$) the view holds an active entry whose text asserts the stale value, a second copy of the forbidding content that the ground-truth join tied to no lifecycle event, while the item's own forbidding record may sit tagged beside it.
+Every stale answer of GPT-4.1 mini under the oracle ($16$ of $16$ on those $89$) and $14$ of Haiku 4.5's $19$ fall on such a view, and none of mini's falls where the stale content sits only on tagged lines.
+Negation: the ground-truth join assigns the retracted state by token coverage of the original fact at $0.80$ and reads no negation, so for one question, in both store variants, the retraction statement itself (``decided not to launch \ldots\ Oud and Geometry'') carries the retracted tag while the plan records stay active, because ``launching'' is not ``launch''.
+An answerer that obeys the tag then reads the withdrawal as withdrawn.
+The tagged and untagged split of Table~\ref{tab:ds} counts the item's own forbidding records and does not see these duplicates.
+
+The fourth downstream prediction could not be met by its own gate, because the gate's score was elicited under the summary that only counts the retracted and expired states.
+A descriptive repair registered afterwards elicited GPT-4.1 mini's obligation score once more under the summary that names all three states, on the same $661$ questions and under the main study's protocol, and drove the all-states fetch from it.
+That score reaches an AUROC of $0.7354$ against the recorded $0.7339$, a paired difference of $+0.0015$ with intervals $[-0.0385,+0.0494]$ and $[-0.0473,+0.0503]$.
+Naming the counted states in the summary therefore does not change GPT-4.1 mini's whole-population judgment; per state it reads $0.8790$ on supersession, $0.5941$ on retraction and $0.3770$ on expiry.
+Thresholded at the same base rate the new gate fires on $110$ items ($63$ obligations, $22$ present, $25$ absent) against $75$ for the recorded gate, and the two agree on $65$.
+The policy that reads it puts the forbidding record in view for $89$ of $104$ obligations ($0.8558$; $54$ of $63$ supersession, $22$ of $26$ retraction, $13$ of $15$ expiry; $72$ tagged).
+It abstains as the model rule does, and it keeps coverage at $60$ of $174$.
+On the $41$ counted-state obligations it reaches $0.8537$ against the recorded gate's $0.7805$, a difference of $+0.0732$ whose item-level interval $[+0.0000,+0.1707]$ and persona-clustered interval $[+0.0000,+0.1875]$ both reach zero.
+The reason is that the new gate fires on only $5$ of the $17$ records naming makes fetchable, $3$ of them records the retriever misses.
+In the answer stage its $78$ answered obligations give the stale value in $0$ cases at the high-precision threshold and in $10$ of $67$ tagged and $2$ of $11$ untagged cases at the gold threshold.
+
+A second descriptive registration, written after the first draft, ran the answer stage for the literal-threshold lookup rule, which fetches whenever the name lookup's cosine is at or above the base rate and never abstains, under the protocol above.
+Of its $268$ answered views, $238$ are byte-identical to a view a registered policy had already assembled and reuse the recorded answer, and $30$ were new calls.
+Its $94$ reached obligations give the stale value in $0$ cases at the high-precision threshold and in $7$ of $75$ tagged and $7$ of $19$ untagged cases at the gold threshold, and its $174$ licensed items are answered correctly in $46$ cases, as under retrieval alone (Table~\ref{tab:ds}).
+The same registration ran Haiku 4.5 as a second answerer on every distinct view of the seven policies, $452$ views, at temperature $0$ with the same two prompt texts (Table~\ref{tab:ds-h45}).
+Haiku 4.5 writes longer answers, so the high-precision threshold no longer reads zero, and at the gold threshold it gives the stale value about twice as often as GPT-4.1 mini under every policy, with the untagged records again the worse half.
+A third descriptive registration answered the same $452$ views once more with one instruction added to the prompt: to treat every entry tagged superseded, retracted or expired as not to be used, and to report the store as not holding the answer when only such entries bear on the question.
+Under it GPT-4.1 mini gives the stale value at the gold threshold in $10$ of $54$ cases under retrieval alone and $18$ of $99$ under the oracle, against $9$ and $17$ without it, and Haiku 4.5 in $17$ and $24$ against $19$ and $27$.
+Haiku 4.5's stale answers at the high-precision threshold fall from $7$ and $9$ to $3$ and $3$, and correct answers move by at most one under either answerer (the lower rows of Tables~\ref{tab:ds} and~\ref{tab:ds-h45}).
+The instruction addresses tagged lines, and the audit finds the stale sources untagged: GPT-4.1 mini's answers are byte-identical under it on $310$ of the $452$ views.
+A fourth amendment, registered on 2026-09-14 with two predictions, adds to the user message a header naming the persona and pinning the current date, because the view prints every entry as ``User'' and gives ages without a date.
+The persona's name appears in $47$ of the $174$ licensed-item views while $172$ of the $174$ questions name the persona; $15$ of GPT-4.1 mini's $28$ in-view misses under retrieval alone are abstentions with the record on the page, and Haiku 4.5 gives that mismatch as its reason in $94$ of its $145$ abstentions on those items.
+It predicted, before any call, that the correct count on the $65$ licensed items in view would rise reliably by at least $0.10$ for each answerer, and that the in-view abstentions would fall by more than half: from $15$ to $7$ or fewer for GPT-4.1 mini, from $38$ to $19$ or fewer for Haiku 4.5.
+Both predictions cleared their bars for both answerers.
+GPT-4.1 mini's correct count on the $65$ rose from $37$ to $48$, $+0.1692$ with intervals $[+0.0769,+0.2769]$ at item level and $[+0.0678,+0.2603]$ grouped by persona; Haiku 4.5's rose from $38$ to $59$, $+0.3231$ with $[+0.2000,+0.4462]$ and $[+0.1833,+0.4714]$.
+In-view abstentions fell to $3$ for each answerer, and the abstentions the detector had counted correct fell from $12$ to $3$ for Haiku 4.5.
+Over the $174$ licensed items the correct count rose from $46$ to $56$ and from $48$ to $73$; over the $221$ licensed-item views abstentions fell from $66$ to $42$ and from $145$ to $56$.
+On the scorable obligations the header changed little for GPT-4.1 mini: $17$ of $85$ stale under the oracle against $16$ before, all $17$ on views whose active lines assert the stale value and none on the $50$ tagged-only or empty views.
+Haiku 4.5, abstaining on $25$ of the $85$ against $44$ before, gave the stale value in $23$ of $85$ by the recorded detector, $15$ on the first sentence and $7$ from tagged-only views.
+The expiry obligations, unscorable, show the pinned date at work: under the oracle GPT-4.1 mini abstains on $10$ of the $14$ and Haiku 4.5 on $13$, and Haiku 4.5's answers now say the arrangement's date has passed as of today's date.
+Stale use prints by first sentence and by source beside the recorded column in the ledger (\texttt{AUX-DS-A4-*}).
+
+\begin{table}[H]
+% R106 (DS Amendment 2, descriptive; ds_downstream/NUMBERS_DS.md section 7, AUX-DS-A2-STAGE2-H45).
+\caption{The answer stage under Claude Haiku 4.5 as the answerer, every policy, on the same $452$ distinct views GPT-4.1 mini answered; the columns of the second block of Table~\ref{tab:ds}, counted over the answered subset, and the lower rows the same counts under the answer stage run once more with the added instruction to treat tagged records as not to be used (Amendment 3). Descriptive; both registered after the first draft.}
+\label{tab:ds-h45}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}lrrlrl@{}}\toprule
+Policy & answered & stale at $0.80$ & stale at $0.50$, tagged / untagged & present answered & correct at $0.50$ \\ \midrule
+Top-5 only & $54$ & $7$ & $8$ of $35$ / $11$ of $19$ & $174$ & $48$ ($0.2759$) \\
+Oracle & $99$ & $9$ & $17$ of $82$ / $10$ of $17$ & $174$ & $48$ ($0.2759$) \\
+Model rule & $74$ & $9$ & $15$ of $61$ / $8$ of $13$ & $155$ & $45$ ($0.2903$) \\
+Lookup rule & $70$ & $7$ & $14$ of $61$ / $5$ of $9$ & $146$ & $41$ ($0.2808$) \\
+Model rule, all states named & $74$ & $5$ & $12$ of $61$ / $8$ of $13$ & $155$ & $45$ ($0.2903$) \\
+Lookup rule, all states named & $70$ & $5$ & $13$ of $61$ / $5$ of $9$ & $146$ & $40$ ($0.2740$) \\
+Lookup, literal threshold & $94$ & $10$ & $18$ of $75$ / $11$ of $19$ & $174$ & $47$ ($0.2701$) \\
+\addlinespace
+% R107 (DS Amendment 3, descriptive; NUMBERS_DS.md section 8, AUX-DS-A3-STAGE2-H45): the same views answered once more with the added instruction.
+\multicolumn{6}{@{}l}{\textit{With the added instruction to treat tagged records as not to be used (Amendment 3)}}\\
+Top-5 only & $54$ & $3$ & $5$ of $35$ / $12$ of $19$ & $174$ & $49$ ($0.2816$) \\
+Oracle & $99$ & $3$ & $15$ of $82$ / $9$ of $17$ & $174$ & $49$ ($0.2816$) \\
+Model rule & $74$ & $7$ & $16$ of $61$ / $8$ of $13$ & $155$ & $47$ ($0.3032$) \\
+Lookup rule & $70$ & $5$ & $14$ of $61$ / $5$ of $9$ & $146$ & $40$ ($0.2740$) \\
+Model rule, all states named & $74$ & $4$ & $10$ of $61$ / $8$ of $13$ & $155$ & $47$ ($0.3032$) \\
+Lookup rule, all states named & $70$ & $3$ & $10$ of $61$ / $5$ of $9$ & $146$ & $40$ ($0.2740$) \\
+Lookup, literal threshold & $94$ & $7$ & $16$ of $75$ / $12$ of $19$ & $174$ & $47$ ($0.2701$) \\
+\bottomrule\end{tabular}\end{table}
+
+%% R110: the store's untagged duplicates tagged (DS Amendment 5; reviews/v18/src/amend5_e10.tex; AUX-DS-A5-*).
+\begin{table}[H]
+\caption{The answer stage with the store's untagged duplicates tagged (DS Amendment 5, descriptive; no prediction was registered). For each of the $35$ obligations whose view carried an active line asserting the stale value, every such line is retagged with the obligation's state (superseded or retracted) and nothing else in any view changes; $74$ of the $452$ distinct views change ($132$ lines) and are re-answered by both answerers under the Amendment 4 header, the other $378$ keeping their Amendment 4 answers. A line counts as asserting the stale value by the item's own committed detector at the ground-truth join's threshold: at least two content tokens shared with the stale field, coverage of the stale-only tokens at least $0.50$, coverage of the successor-only tokens below $0.34$. Stale is the detector's flag on the answer at $0.50$ (the ground-truth join's threshold) and at $0.80$ (the registered threshold), over the reached obligations of each policy; the last two columns restrict to the scorable supersession- and retraction-derived obligations and give the flag on the whole answer beside the flag on the answer's first sentence alone (the expiry obligations' gold field is the expired fact, so they are unscorable there); correct is over the licensed items, whose views do not change. Every cell reads Amendment 4 (recorded) to Amendment 5; mini is GPT-4.1 mini and Haiku is Haiku 4.5.}
+\label{tab:ds-a5}\centering\tiny\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}llrrrrrrr@{}}\toprule
+Answerer & Policy & Reached & Stale at $0.50$ & Stale at $0.80$ & Correct (licensed) & Rate at $0.50$ & Scorable, whole answer & Scorable, first sentence \\ \midrule
+mini & Top-5 & $54$ & $11 \to 3$ & $3 \to 1$ & $56$ of $174$ & $0.2037 \to 0.0556$ & $10 \to 2$ of $42$ & $10 \to 2$ of $42$ \\
+mini & Model & $74$ & $11 \to 2$ & $2 \to 1$ & $53$ of $155$ & $0.1486 \to 0.0270$ & $10 \to 1$ of $62$ & $10 \to 1$ of $62$ \\
+mini & Lookup & $70$ & $9 \to 1$ & $2 \to 1$ & $48$ of $146$ & $0.1286 \to 0.0143$ & $8 \to 0$ of $58$ & $8 \to 0$ of $58$ \\
+mini & Model, all states & $74$ & $12 \to 2$ & $2 \to 1$ & $53$ of $155$ & $0.1622 \to 0.0270$ & $11 \to 1$ of $62$ & $11 \to 1$ of $62$ \\
+mini & Lookup, all states & $70$ & $9 \to 1$ & $1 \to 1$ & $47$ of $146$ & $0.1286 \to 0.0143$ & $8 \to 0$ of $58$ & $8 \to 0$ of $58$ \\
+mini & Literal & $94$ & $17 \to 5$ & $3 \to 1$ & $55$ of $174$ & $0.1809 \to 0.0532$ & $16 \to 4$ of $82$ & $16 \to 4$ of $82$ \\
+mini & Oracle & $99$ & $18 \to 3$ & $2 \to 1$ & $56$ of $174$ & $0.1818 \to 0.0303$ & $17 \to 2$ of $85$ & $17 \to 2$ of $85$ \\ \midrule
+Haiku & Top-5 & $54$ & $18 \to 11$ & $5 \to 4$ & $73$ of $174$ & $0.3333 \to 0.2037$ & $10 \to 3$ of $42$ & $6 \to 0$ of $42$ \\
+Haiku & Model & $74$ & $27 \to 17$ & $8 \to 6$ & $64$ of $155$ & $0.3649 \to 0.2297$ & $19 \to 9$ of $62$ & $12 \to 3$ of $62$ \\
+Haiku & Lookup & $70$ & $24 \to 16$ & $7 \to 6$ & $58$ of $146$ & $0.3429 \to 0.2286$ & $16 \to 8$ of $58$ & $11 \to 3$ of $58$ \\
+Haiku & Model, all states & $74$ & $23 \to 13$ & $7 \to 4$ & $64$ of $155$ & $0.3108 \to 0.1757$ & $15 \to 5$ of $62$ & $11 \to 1$ of $62$ \\
+Haiku & Lookup, all states & $70$ & $20 \to 12$ & $6 \to 4$ & $58$ of $146$ & $0.2857 \to 0.1714$ & $12 \to 4$ of $58$ & $9 \to 1$ of $58$ \\
+Haiku & Literal & $94$ & $31 \to 18$ & $8 \to 5$ & $72$ of $174$ & $0.3298 \to 0.1915$ & $23 \to 10$ of $82$ & $15 \to 5$ of $82$ \\
+Haiku & Oracle & $99$ & $32 \to 22$ & $7 \to 5$ & $73$ of $174$ & $0.3232 \to 0.2222$ & $23 \to 13$ of $85$ & $15 \to 7$ of $85$ \\
+\bottomrule\end{tabular}
+\end{table}
+On the $74$ views that change, stale answers at $0.50$ fall from $37$ to $8$ for GPT-4.1 mini (a rate difference of $-0.39$, intervals $[-0.51,-0.28]$ and $[-0.65,-0.18]$ with questions grouped by persona) and from $38$ to $12$ for Haiku~4.5 ($-0.35$, $[-0.46,-0.24]$ and $[-0.59,-0.14]$); every transition is from stale to not stale, none the other way, the flag at $0.80$ falls to zero for both, and abstentions rise from $2$ to $9$ and from $12$ to $27$. After the retagging no changed view carries an active line asserting the stale value, so every remaining stale answer on them has a tagged source ($8$ and $12$); GPT-4.1 mini's $8$ all flag on the first sentence, while $6$ of Haiku~4.5's $12$ flag only beyond it, a mention of the tagged content inside an abstention or an explanation.
+
+%% R110: the depth of the retrieval view (DS Amendment 6; reviews/v18/src/amend6_e10.tex; AUX-DS-A6-*; D-DS-A6-1).
+\begin{table}[H]
+\caption{The answer stage along the depth of the retrieval view (DS Amendment 6, descriptive; no prediction was registered). Views are the first $k$ lines of the recorded ten-deep ranking rendered by the recorded renderer (the five-line view is the recorded one), answered under the Amendment 4 header by both answerers; the gated view renders ten lines where GPT-4.1 mini's recorded coverage score is at or above the base-rate threshold ($366$ of the $557$ items: $155$ of the $174$ licensed, $211$ of the $383$ absent) and five elsewhere, a mean of $8.29$ lines. Per policy: the licensed record in view, correct answers at $0.50$ and at $0.80$, correct among the items whose record is in view, abstentions on the licensed items, and abstentions on the $383$ absent items, with Wilson intervals on the rates. The last rows are the budget-matched comparison: the gated view against the flat curve interpolated at $8.29$ lines between $k=8$ and $k=9$, the difference with the item-level and persona-grouped bootstraps ($10{,}000$ draws, the three policies resampled together).}
+\label{tab:ds-a6}\centering\tiny\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lrlllrrl@{}}\toprule
+Policy & Lines & Record in view, of $174$ (Wilson) & Correct at $0.50$ (Wilson) & at $0.80$ & Among in view & Abstain, licensed & Abstain, absent, of $383$ (Wilson) \\ \midrule
+\multicolumn{8}{@{}l}{\textit{GPT-4.1 mini}} \\
+Flat $5$ & $5.00$ & $65$ $[0.3051,0.4474]$ & $56$ $[0.2569,0.3945]$ & $20$ & $48$ of $65$ & $33$ & $241$ $[0.5798,0.6761]$ \\
+Flat $6$ & $6.00$ & $72$ $[0.3432,0.4881]$ & $59$ $[0.2729,0.4122]$ & $21$ & $50$ of $72$ & $30$ & $236$ $[0.5666,0.6635]$ \\
+Flat $7$ & $7.00$ & $77$ $[0.3708,0.5168]$ & $62$ $[0.2890,0.4299]$ & $23$ & $54$ of $77$ & $25$ & $228$ $[0.5454,0.6433]$ \\
+Flat $8$ & $8.00$ & $82$ $[0.3985,0.5453]$ & $65$ $[0.3051,0.4474]$ & $20$ & $57$ of $82$ & $21$ & $218$ $[0.5192,0.6179]$ \\
+Flat $9$ & $9.00$ & $88$ $[0.4321,0.5791]$ & $67$ $[0.3160,0.4591]$ & $22$ & $60$ of $88$ & $18$ & $219$ $[0.5218,0.6204]$ \\
+Flat $10$ & $10.00$ & $89$ $[0.4378,0.5847]$ & $70$ $[0.3323,0.4765]$ & $23$ & $62$ of $89$ & $21$ & $214$ $[0.5087,0.6076]$ \\
+Gated & $8.29$ & $87$ $[0.4265,0.5735]$ & $69$ $[0.3269,0.4707]$ & $23$ & $61$ of $87$ & $24$ & $219$ $[0.5218,0.6204]$ \\
+\addlinespace
+\multicolumn{8}{@{}l}{\textit{Haiku 4.5}} \\
+Flat $5$ & $5.00$ & $65$ $[0.3051,0.4474]$ & $73$ $[0.3487,0.4938]$ & $27$ & $59$ of $65$ & $45$ & $280$ $[0.6845,0.7730]$ \\
+Flat $6$ & $6.00$ & $72$ $[0.3432,0.4881]$ & $75$ $[0.3597,0.5053]$ & $26$ & $64$ of $72$ & $36$ & $268$ $[0.6520,0.7435]$ \\
+Flat $7$ & $7.00$ & $77$ $[0.3708,0.5168]$ & $74$ $[0.3542,0.4996]$ & $28$ & $65$ of $77$ & $34$ & $263$ $[0.6386,0.7311]$ \\
+Flat $8$ & $8.00$ & $82$ $[0.3985,0.5453]$ & $78$ $[0.3763,0.5225]$ & $31$ & $67$ of $82$ & $35$ & $261$ $[0.6332,0.7261]$ \\
+Flat $9$ & $9.00$ & $88$ $[0.4321,0.5791]$ & $80$ $[0.3874,0.5339]$ & $34$ & $70$ of $88$ & $33$ & $257$ $[0.6225,0.7162]$ \\
+Flat $10$ & $10.00$ & $89$ $[0.4378,0.5847]$ & $85$ $[0.4153,0.5622]$ & $33$ & $72$ of $89$ & $32$ & $255$ $[0.6171,0.7112]$ \\
+Gated & $8.29$ & $87$ $[0.4265,0.5735]$ & $85$ $[0.4153,0.5622]$ & $33$ & $72$ of $87$ & $34$ & $261$ $[0.6332,0.7261]$ \\
+\bottomrule\end{tabular}\\[4pt]
+\begin{tabular}{@{}llrrrll@{}}\toprule
+\multicolumn{7}{@{}l}{\textit{The budget-matched comparison: the gated view minus the flat curve at $8.29$ lines}} \\
+Answerer & rate & gated & flat at $8.29$ & difference & item interval & persona interval \\ \midrule
+GPT-4.1 mini & record in view & $0.5000$ & $0.4813$ & $+0.0187$ & $[-0.0091,+0.0473]$ & $[+0.0028,+0.0374]$ \\
+GPT-4.1 mini & correct at $0.50$ & $0.3966$ & $0.3769$ & $+0.0197$ & $[-0.0106,+0.0517]$ & $[-0.0161,+0.0575]$ \\
+GPT-4.1 mini & abstain, absent & $0.5718$ & $0.5699$ & $+0.0019$ & $[-0.0202,+0.0235]$ & $[-0.0191,+0.0239]$ \\
+Haiku 4.5 & record in view & $0.5000$ & $0.4813$ & $+0.0187$ & $[-0.0091,+0.0473]$ & $[+0.0028,+0.0374]$ \\
+Haiku 4.5 & correct at $0.50$ & $0.4885$ & $0.4516$ & $+0.0369$ & $[+0.0156,+0.0623]$ & $[+0.0136,+0.0639]$ \\
+Haiku 4.5 & abstain, absent & $0.6815$ & $0.6784$ & $+0.0030$ & $[-0.0186,+0.0251]$ & $[-0.0169,+0.0235]$ \\
+\bottomrule\end{tabular}
+\end{table}
+
+%% R110: the obligation-reported detector and the composite (DS Amendment 7; reviews/v18/src/amend7_e10.tex; AUX-DS-A7-*; D-DS-A7-1).
+\begin{table}[H]
+\caption{The composite per policy over the full obligation set ($661$ questions) with its three components (DS Amendment 7, descriptive; no prediction was registered; no model call). A licensed item counts when its answer is correct at $0.50$. An obligation counts when it is reached, answered and reported: the answer names the lifecycle state from a closed word list (superseded, retracted, expired, no longer, not current, outdated, cancelled, replaced, withdrawn, discontinued, past, and previous or former in a sentence that also carries one of those) without giving the stale value by the committed detector at $0.50$, or, on a supersession item, gives the successor value; the count by the successor alone is printed beside it. An absent item counts when the policy's coverage rule abstained on it or, where the rule let it through, the answerer abstained on its recorded five-line view (the Amendment 6 answers under the header; the absent items a gated rule answers on a longer view, ten under the model rule, seventeen under the lookup rule and seventy-two under the literal rule, are read on the five-line view as a proxy). The last column is the rule-only reading, in which an absent item counts only when the coverage rule abstained. The oracle's rule is the label itself, so its absent component is $383$ of $383$; the row is printed and enters no comparison. Rows: retrieval alone and the literal rule (no coverage rule), the gated rules under the header prompt, the same rules with the store's untagged duplicates tagged (tagged), then the oracle; the denominators are $174$ licensed items, $104$ obligations, $383$ absent items and $661$ in all.}
+\label{tab:ds-a7}\centering\tiny\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}llrrlrr@{}}\toprule
+Answerer & Policy (prompt) & Licensed correct & Reported (by the successor) & Absent abstained: rule $+$ answerer & Composite & Rule-only \\ \midrule
+GPT-4.1 mini & Top-5 (header) & $56$ & $4$ ($1$) & $241 = 0 + 241$ & $301$ & $59$ \\
+GPT-4.1 mini & Top-5 (tagged) & $56$ & $4$ ($1$) & $241 = 0 + 241$ & $301$ & $59$ \\
+GPT-4.1 mini & Literal rule (header) & $55$ & $4$ ($1$) & $241 = 0 + 241$ & $300$ & $58$ \\
+GPT-4.1 mini & Literal rule (tagged) & $55$ & $4$ ($1$) & $241 = 0 + 241$ & $300$ & $58$ \\
+GPT-4.1 mini & Model rule (header) & $53$ & $2$ ($1$) & $264 = 172 + 92$ & $319$ & $226$ \\
+GPT-4.1 mini & Lookup rule (header) & $48$ & $2$ ($1$) & $276 = 174 + 102$ & $326$ & $223$ \\
+GPT-4.1 mini & Model rule, all states (header) & $53$ & $2$ ($1$) & $264 = 172 + 92$ & $319$ & $226$ \\
+GPT-4.1 mini & Lookup rule, all states (header) & $47$ & $2$ ($1$) & $276 = 174 + 102$ & $325$ & $222$ \\
+GPT-4.1 mini & Model rule (tagged) & $53$ & $2$ ($1$) & $264 = 172 + 92$ & $319$ & $226$ \\
+GPT-4.1 mini & Lookup rule (tagged) & $48$ & $2$ ($1$) & $276 = 174 + 102$ & $326$ & $223$ \\
+GPT-4.1 mini & Model rule, all states (tagged) & $53$ & $2$ ($1$) & $264 = 172 + 92$ & $319$ & $226$ \\
+GPT-4.1 mini & Lookup rule, all states (tagged) & $47$ & $2$ ($1$) & $276 = 174 + 102$ & $325$ & $222$ \\
+GPT-4.1 mini & Oracle, absent by label (header) & $56$ & $5$ ($1$) & $383 = 383 + 0$ & $444$ & $443$ \\
+GPT-4.1 mini & Oracle, absent by label (tagged) & $56$ & $7$ ($1$) & $383 = 383 + 0$ & $446$ & $445$ \\ \midrule
+Haiku 4.5 & Top-5 (header) & $73$ & $16$ ($1$) & $280 = 0 + 280$ & $369$ & $88$ \\
+Haiku 4.5 & Top-5 (tagged) & $73$ & $20$ ($1$) & $280 = 0 + 280$ & $373$ & $92$ \\
+Haiku 4.5 & Literal rule (header) & $72$ & $21$ ($1$) & $280 = 0 + 280$ & $373$ & $92$ \\
+Haiku 4.5 & Literal rule (tagged) & $72$ & $29$ ($1$) & $280 = 0 + 280$ & $381$ & $100$ \\
+Haiku 4.5 & Model rule (header) & $64$ & $16$ ($1$) & $291 = 172 + 119$ & $371$ & $251$ \\
+Haiku 4.5 & Lookup rule (header) & $58$ & $17$ ($1$) & $304 = 174 + 130$ & $379$ & $248$ \\
+Haiku 4.5 & Model rule, all states (header) & $64$ & $21$ ($2$) & $291 = 172 + 119$ & $376$ & $255$ \\
+Haiku 4.5 & Lookup rule, all states (header) & $58$ & $19$ ($2$) & $304 = 174 + 130$ & $381$ & $249$ \\
+Haiku 4.5 & Model rule (tagged) & $64$ & $22$ ($1$) & $291 = 172 + 119$ & $377$ & $257$ \\
+Haiku 4.5 & Lookup rule (tagged) & $58$ & $22$ ($1$) & $304 = 174 + 130$ & $384$ & $253$ \\
+Haiku 4.5 & Model rule, all states (tagged) & $64$ & $26$ ($2$) & $291 = 172 + 119$ & $381$ & $260$ \\
+Haiku 4.5 & Lookup rule, all states (tagged) & $58$ & $24$ ($2$) & $304 = 174 + 130$ & $386$ & $254$ \\
+Haiku 4.5 & Oracle, absent by label (header) & $73$ & $27$ ($2$) & $383 = 383 + 0$ & $483$ & $481$ \\
+Haiku 4.5 & Oracle, absent by label (tagged) & $73$ & $33$ ($2$) & $383 = 383 + 0$ & $489$ & $487$ \\
+\bottomrule\end{tabular}
+\end{table}
+Under the header prompt the composite under the model rule minus under retrieval alone is $+18$ of $661$ for GPT-4.1 mini, a rate difference of $+0.03$ with intervals $[+0.01,+0.04]$ at item level and $[+0.01,+0.04]$ grouped by persona, and $+2$ for Haiku~4.5 ($+0.00$, $[-0.01,+0.02]$ and $[-0.01,+0.02]$); the lookup rule reads $+25$ ($+0.04$, reliable) and $+10$ ($+0.02$, both intervals including zero).
+The rise, where there is one, comes from the absent items the coverage rule abstains on and the answerer would have answered: on the five-line view the answerer already abstains on $241$ of the $383$ absent items (GPT-4.1 mini) and $280$ (Haiku~4.5), the rule adds $23$ and $11$ to those, and the licensed component falls by $3$ and $9$ where the rule abstains on a licensed item.
+In the rule-only reading the same difference is $+167$ and $+163$ ($+0.25$, reliable for both answerers), carried entirely by the rule's abstentions, because retrieval alone has no coverage rule and counts none of the answerer's own.
+Reported answers are rare for GPT-4.1 mini ($2$ of $74$ reached under the model rule, one of them by the successor alone) and a fifth to a quarter of the reached obligations for Haiku~4.5 ($16$ of $74$ under the header, $22$ with the duplicates tagged), most of them inside an abstention.
+Agreement with the second annotator's fourth question is reported once the sheet is labeled.
+
+%% R110: the lower block of Section 8's Table 7, moved here by the author's trim order of 2026-09-15 (AUX-R104-REACH, AUX-DS-POLICIES, AUX-DS-VIEWSIZE, AUX-DS-AUDIT-RATES; the all-states row AUX-DS-A1-*).
+\begin{table}[H]
+\caption{The downstream policies, the columns Section 8's table leaves out: the items on which each rule fires, the reach of the forbidding record as a rate (of $104$ obligations), the Wilson interval of the stale rate over the reached scorable obligations (GPT-4.1 mini, the detector at $0.50$), the mean view size on the obligations, tagged records, and coverage of the $174$ licensed items (record in view without abstention).}
+\label{tab:ds-body-lower}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrlrrr@{}}
+\toprule
+Policy & fires & reach rate; Wilson interval of the stale rate & mean view & tagged & coverage (of $174$) \\
+\midrule
+Top-5 retrieval & $0$ & $0.5192$; $[0.100,0.333]$ & $5.00$ & $35$ & $65$ \\
+Model rule & $75$ & $0.8173$; $[0.067,0.234]$ & $7.08$ & $66$ & $60$ \\
+Lookup rule & $77$ & $0.8173$; $[0.048,0.208]$ & $6.88$ & $66$ & $56$ \\
+Model rule, all states named and scored & $110$ & $0.8558$; -- & $11.42$ & $72$ & $60$ \\
+Literal lookup rule (descriptive) & $184$ & $0.9038$; $[0.095,0.253]$ & $7.42$ & $75$ & $65$ \\
+Oracle & $104$ & $0.9519$; $[0.119,0.284]$ & $7.07$ & $82$ & $65$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% R109: the four verdict sentences moved verbatim from Section 8 (page-9 gate); the coverage rule's appendix pointer dropped as a self-reference.
+The coverage rule at the base rate costs $-0.03$ of coverage on the $174$ items, a small loss with both intervals excluding zero.
+The two registered bars were a reach gain of $0.50$ for the gold-label fetch and $60\%$ retention of that gain for the gated fetch.
+The two bars that did not hold, the reach gain of $0.50$ and the $60\%$ retention, were set under the masked-retrieval premise (the $5\%$ pass rate), which the reach of $0.52$ replaced.
+The gated fetch retains $0.76$ of that gain, and under the weaker reading, the interval grouped by persona, the lower end of $0.56$ falls below the $60\%$ bar.
+
+\paragraph{The registered paragraph.} The paragraph that Section~\ref{sec:populations} points to reads, with its numbers, as follows.
+%% DS frozen Section 7 paragraph (registrations/ADDENDUM_DS.md section PAPER, frozen a5a2036, R100; AUX-DS-PARAGRAPH-PRINTED): R78-2c, frozen wording ships
+%% verbatim; moved here from Section 8 under registrations/AMENDMENT_MAIN_PLACEMENT.md (R105, 2026-09-14; pending the author's ratification).
+Acting on the obligation judgment changes what a bounded view carries. The store's truthful metadata flags $82$ of the $104$ forbidding records; the other $22$ ($18$ retraction-derived, $4$ expiry-derived) are a store-side fact of the kind Table~\ref{tab:believed} records, retrieve as active, and are out of reach of any policy that acts on the metadata. On the $104$ obligation items, the five-entry similarity view contains the forbidding record for $0.5192$; a gold-label fetch of the store's lifecycle records for the obligation's own attribute reaches $0.9519$, $0.4327$ above retrieval alone and short of the $0.50$ bar; gated on the smallest model's committed obligation score at its base rate, the fetch reaches $0.8173$, retaining $0.7561$ of that gain on the supersession-derived items (interval $[0.610, 0.872]$; $[0.562, 0.939]$ with questions grouped by user profile), short of the $60\%$ bar under the weaker reading. The superseded-names lookup reaches $0.8173$ at the same fetch budget, within tolerance of the model. Naming the retracted and expired attributes raises the gated reach on those obligations only from $0.7805$ to $0.7805$: the gate elicited under the counting summary does not fire on them. The coverage gate at its base rate costs $0.0287$ of coverage on the items whose licensed record the store holds, within tolerance. With the forbidding record in view and tagged, the smallest model gives the stale value as the answer in $0$ of $82$ cases at the registered detector threshold ($11$ of $82$ at the join's gold threshold; $6$ of $17$ where the record printed as active) (Appendix~\ref{app:resp}).
+
+\paragraph{Reach by ranking depth, and the rates over the whole populations.}
+The recorded ranking is ten deep, so the reach of a $k$-item retrieval view is a census over the $104$ obligations for $k$ up to $10$ (Table~\ref{tab:reach-k}).
+The gated policies' mean view on those items is $7.08$ records for the model rule and $6.88$ for the lookup rule, so the seven-item view is their matched comparison.
+The all-states policies at $10.74$ and $11.42$ records are matched by the ten-item view, the deepest recorded.
+Stale use and correctness in Table~\ref{tab:ds-body} are counted over all $104$ obligations and all $174$ licensed items, so that an abstention or an unreached record counts as neither a stale answer nor a correct one.
+Table~\ref{tab:ds} counts them over the answered subset.
+The registered detector threshold of $0.80$ was calibrated on entry texts.
+On a two-sentence answer the stale value's unique tokens are paraphrased, with coverage $0.5$ to $0.67$ on the answers that give the stale value.
+That row therefore reads zero under every policy, and the gold threshold of $0.50$ is the sensitive one.
+The audit discloses ten limits of the instrument, in one place.
+First, the $15$ expiry obligations are unscorable for stale use, because the reference the detector holds for them is the expired fact itself, so the recorded column counts a mention of an expired arrangement as its use; the audit's own columns run on the $89$ supersession and retraction obligations.
+Second, five retraction obligations cannot be flagged even when the store's own line is echoed verbatim; third, $6$ successor entry texts would be flagged as stale if echoed; fourth, $3$ licensed items cannot be marked correct even when their gold line is echoed.
+Fifth, the flag is one-directional token coverage and rewards length, with an odds ratio of $2.34$ for GPT-4.1 mini and $2.99$ for Haiku 4.5 per doubling of answer length; on the first sentence alone Haiku 4.5's oracle count is $8$ of $85$ against $19$, and cut to GPT-4.1 mini's length it is $7$.
+Sixth, for $35$ of the $89$ scorable obligations the view carries an active line asserting the stale value; seventh, one retraction statement carries the retracted tag because the ground-truth join reads no negation; eighth, the persona's name is bound to ``User'' in none of the views.
+Ninth, the licensed record's median best rank under the retriever is $8.5$; tenth, twelve of Haiku 4.5's $38$ in-view abstentions on the $65$ licensed items were counted correct because their explanation restates the gold line.
+As rates on the reached scorable obligations, retrieval alone and the oracle read $0.19$ and $0.19$ for GPT-4.1 mini and $0.26$ and $0.22$ for Haiku 4.5; on the $42$ obligations both policies reach, GPT-4.1 mini's stale answers move from $8$ to $9$ and Haiku 4.5's stay at $11$, and the $43$ obligations only the oracle reaches add $7$ and $8$.
+Read by one of us, GPT-4.1 mini gives the stale value in $11$ of its $16$ scorable oracle flags and Haiku 4.5 in $8$ of its $19$, the rest naming the value while stating it superseded or restating the question's words; those classes are one reader's and not an independent validation.
+A validation sample of $100$ answers is stratified across retrieval alone, the gated policies and the oracle, and across tagged and untagged reach.
+Two annotators label whether the answer gives the stale value, whether it surfaces it, whether a licensed answer is correct, and whether the answer correctly reports the obligation; their agreement with each other, and with the detector at both thresholds on the first three, is reported here once labeled.
+The second annotator's sheet also carries the $19$ answers the audit read as giving the stale value ($11$ GPT-4.1 mini, $8$ Haiku 4.5), so the decisive labels receive two human reads.
+
+\begin{table}[H]
+% R104: reviews/NUMBERS_R104.md AUX-R104-REACH (Phase 1 item 4; no model call).
+\caption{Reach of the forbidding record by the depth of the retrieval view, a census over the $104$ obligations from the recorded ten-deep ranking, whole and by the state the obligation arises from. Reach grows with depth and stays below the gated policies at their matched view size.}
+\label{tab:reach-k}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}rrrrrr@{}}
+\toprule
+$k$ & reach (of $104$) & rate & supersession (of $63$) & retraction (of $26$) & expiry (of $15$) \\
+\midrule
+$5$ & $54$ & $0.5192$ & $22$ & $20$ & $12$ \\
+$6$ & $60$ & $0.5769$ & $26$ & $22$ & $12$ \\
+$7$ & $62$ & $0.5962$ & $27$ & $23$ & $12$ \\
+$8$ & $69$ & $0.6635$ & $32$ & $25$ & $12$ \\
+$9$ & $70$ & $0.6731$ & $33$ & $25$ & $12$ \\
+$10$ & $74$ & $0.7115$ & $37$ & $25$ & $12$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Registered texts.} The eleven prediction texts of the mechanism tests and the downstream experiment, written before any call and filled with their numbers, are in the supplement (Section~S.3), and the registered outcome sentence for the neutral-slice prediction is in its Section~S.9. They are the record behind the outcomes stated in Table~\ref{tab:registrations-b}, and every number they carry also appears in the tables of this appendix.
+
+\subsection{Spend and caching}\label{app:economics}
+
+Monitoring runs before every query, so its cost turns on prompt caching.
+The projection and the billed micro-run are in the supplement (Section~S.8).
+%% R110: A5_EDITS.md item 6; one line per run from its ledger key (AUX-RESP-SPEND, AUX-DS-SPEND, AUX-RESP-A1-SPEND, AUX-DS-A1-SPEND to -A7-SPEND, AUX-CF2-SPEND, AUX-CF3-SPEND, AUX-PAD-SPEND, AUX-PARA-DRAFT, AUX-BH-SPEND, AUX-V2RCAT-SPEND).
+Every model run in this paper was capped before its first call and metered from its rows at list or batch prices; the amounts, in dollars, are: the mechanism tests $0.94$ and the downstream experiment $0.11$; Haiku 4.5 on the retrieved-view monitors $6.72$ of a $12$ cap; the downstream answer-stage registrations $0.46$, $0.41$, $0.56$, $0.54$ (of $8$), $0.10$ (of $2$), $3.63$ (of $6$) and $0$; the counterfactual set $1.08$ of $22$ (OpenAI) and $72.50$ of $130$ (Anthropic); its expiry extension $2.21$ of $5$; the list-length check and its amendment $7.89$ of $28$; the paraphrase drafting lane $0.12$ over $413$ calls; Haiku 4.5 under the store's own metadata $9.36$ of $12$; the increment moved within the triple $3.23$ of $4$; the forty-persona Graphiti ingestion $11.88$ of a $13.22$ stop, twelve aborted partial runs included (Appendix~\ref{app:posthoc-graphiti}).
+
+
+%% R112 (2026-09-16), review-2 F5: the provenance table, one row per headline number of the abstract and Sections 5 to 9; every cell names a source the artifact carries.
+\subsection{Provenance of the headline numbers}\label{app:provenance}
+
+Each headline number rests on a population, a label source, a record alignment, a tag source and an evaluator, and they are not the same across the paper.
+Table~\ref{tab:provenance} lists them in one place, with the validation status of each evaluator, so that a number is never read with a stronger warrant than its row gives it.
+
+\begin{table}[H]
+\caption{Provenance of the headline numbers: the population, the label source, how records are aligned to labels, the tag source the reader saw, the evaluator, and its validation status. ``Manifest'' is the human-written persona manifest; ``join'' is the token-overlap alignment of manifest events to stored records at the $0.80$ bar; ``hand-verified'' means every \pn{} label was checked by hand from its constituent judgments.}
+\label{tab:provenance}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{0.95}
+\begin{tabular}{@{}p{0.18\linewidth}p{0.12\linewidth}p{0.135\linewidth}p{0.125\linewidth}p{0.125\linewidth}p{0.115\linewidth}p{0.115\linewidth}@{}}
+\toprule
+Number (where) & Population & Label source & Record alignment & Tag source & Evaluator & Validation \\
+\midrule
+Counterfactual NOK AUROC, lookup $0.77$ and models $0.72$ to $0.84$ (Section~\ref{sec:counterfactual}, Table~\ref{tab:cf-main}) & $444$ items, $148$ triples & manifest; \pn{} labels hand-verified; question fixed across versions & not needed: versions built from the manifest & ground-truth summary & AUROC, persona-grouped bootstrap & registered predictions held; PN-vs-PRESENT decomposition post hoc \\
+Own-name ablation, $0.86$ to $0.53$ (Section~\ref{sec:counterfactual}) & $661$, $63$ supersession obligations & manifest; hand-verified & join, for the names removed & ground-truth summary, edited & AUROC, paired bootstrap & registered prediction held \\
+Moved-count control (Section~\ref{sec:counterfactual}) & $60$ counted-state triples & manifest & not needed & ground-truth summary, one count moved & AUROC, paired bootstrap; band reading & descriptive; fired as neither \\
+Tagged view $0.69$, $0.83$, $0.81$ (Section~\ref{sec:routes}, Table~\ref{tab:routes}) & $661$, $104$ obligations & manifest; hand-verified & join (ground-truth tags: $82$ of $104$ forbidding records marked); the store's own tags for the $0.81$ row & ground-truth tags; FR-Bank's own tags & AUROC, paired bootstrap & L2 predictions failed; the own-tags row descriptive \\
+Census of the stores (Section~\ref{sec:backends}, Table~\ref{tab:census}) & every entry of each store; forty personas & manifest & join at $0.80$ (FR-Bank, Graphiti); the store's own fields (Mem0, A-MEM) & the store's own marks & counts & no sampling interval; Graphiti's population restricted to FULL-variant obligations (Appendix~\ref{app:posthoc-graphiti}) \\
+Store-written summary, retention $72\%$ (Section~\ref{sec:backends}, Table~\ref{tab:levels}) & $661$ & manifest; hand-verified & join, for the summary; the store's fields for the store-written one & FR-Bank's own metadata & AUROC; ratio of paired differences & descriptive; the sixty-percent line conventional \\
+Coverage FOK, easy tier $0.78$ (Section~\ref{sec:populations}) & $354$, $243$ positives & manifest; presence control & join & ground-truth summary & AUROC, paired bootstrap & the margin over the whole-map lookup not reliable (post hoc, Appendix~\ref{app:baselines}) \\
+Downstream reach, flagged stale answers, retagging (Section~\ref{sec:downstream}, Table~\ref{tab:ds-body}) & $104$ obligations, $174$ licensed; $89$ scorable & manifest; hand-verified & join; the audit's read of the views & ground-truth tags in the view; reference-assisted retags & token detector at $0.50$; one reader's classification of flags & the two-annotator validation registered, not labelled; the retagging diagnostic, not a deployable repair \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Registration record}\label{app:registration}
+
+This appendix is the registration record: each frozen artifact, its commit, freeze date, scope and outcome.
+Registered texts are quoted verbatim and use the artifact's names; Appendix~\ref{app:glossary} maps them to this paper's terms.
+The outcome vocabulary is defined at the head of Appendix~\ref{app:crossvendor}, because that is where held and failed first appear.
+
+%%V11:2084-2118%%
+
+% R109: paper_v11.tex lines 2120-2140 inline (byte-identical) so the Amendment 4 row can be added before \bottomrule.
+\begin{table}[H]
+\caption{The registration record, continued: the side experiments, the powered counterfactual set, the mechanism tests and the downstream experiment; the Outcome column lists each prediction's outcome.}
+\label{tab:registrations-b}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{1.5pt}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.13\linewidth}p{0.11\linewidth}p{0.42\linewidth}p{0.13\linewidth}@{}}
+\toprule
+Artifact & Commit hash & Freeze date & What it froze & Outcome \\
+\midrule
+% R97-7: the two SIDE rows (registrations/ADDENDUM_SIDE.md, frozen at e8b2630; 'Registration mechanics': one row per experiment). CLAIMS.md R97 block.
+Side experiments: name-bearing summary (S1) & \texttt{e8b2630ce3} & 2026-09-12 & a manifest-built, name-bearing summary for the two structureless stores, the entry map with its hand check, a coverage floor, and two predictions on A-MEM, both of which held; Mem0 fell below the floor and prints as descriptive & held / descriptive \\
+Side experiments: store-written-state cap (S2) & \texttt{e8b2630ce3} & 2026-09-12 & two filter rules on the store's own metadata and a precision bar neither reached, so the repair was withdrawn before any call; one descriptive condition, the store-written summary with its fifteen-name cap lifted, carrying no prediction & no prediction \\
+% R98-8: the CF-2 row (registrations/ADDENDUM_CF2.md, frozen at f016f03, R94; amendments sections 14-17; DEVIATIONS_CF2.md D-CF2-1 to D-CF2-5). CLAIMS.md R98 block.
+R94: CF-2 store-counterfactual set & \texttt{f016f033e9} & 2026-09-12 & $148$ question and slot pairs drawn under predicates fixed before any verdict, three store versions each, three summaries, three readers, five predictions and their branch texts; all five held, two of them printing either way: the lookups within tolerance and every reader inside the totals-randomization band; five recorded deviations (D-CF2-1 to D-CF2-5) & held \\
+% R101-14: the RESP and DS rows (registrations/ADDENDUM_RESP.md frozen 17e6328, R98; registrations/ADDENDUM_DS.md frozen a5a2036, R100). CLAIMS.md R101 block.
+RESP: mechanism tests & \texttt{17e6328c81} & 2026-09-12 & the own-name ablation, the retrieved-view and hybrid monitors, and the rubric-gate test on the full obligation population, six predictions and their failure texts: L1-P1 held; L1-P2, L2-P1, L2-P2, L2-P3, L3-P1 failed, all printed & L1-P1 held; L1-P2, L2-P1, L2-P2, L2-P3, L3-P1 failed. \\
+DS: downstream experiment & \texttt{a5a2036c3b} & 2026-09-13 & six policies over the obligation and coverage scores already on record, their assembled views, reach and abstention, and one answer call per distinct view; five predictions: DS-P3 and DS-P5 held; DS-P1, DS-P2 and DS-P4 failed; two bars set under the 5\% premise the study corrected at L2; one prediction unfulfillable by its own gate (D-DS-3) & held / failed \\
+% R109: DS Amendment 4 (registrations/ADDENDUM_DS_AMENDMENT_4.md frozen fb4b2ca8, 2026-09-14; NUMBERS_DS.md section 10 AUX-DS-A4-REG); both predictions held (NUMBERS_DS.md section 10 AUX-DS-A4-P1-*, -P2-*).
+DS Amendment 4: a view header binding the entries to the persona and pinning the date & \texttt{fb4b2ca8c8} & 2026-09-14 & the same $452$ views answered once more by GPT-4.1 mini and Haiku 4.5 with a header naming the persona and the current date; the same detector with first-sentence and source columns beside; two predictions on the $65$ licensed items in view, with failure texts & two predictions; both held \\
+% R112 (2026-09-16): the forty-persona Graphiti run (registrations/ADDENDUM_R85_GRAPHITI_AMENDMENT_1.md, frozen 43132a3; r85_graphiti/NUMBERS_R85.md AUX-R85-G10-*; D-R85-12, -15, -16). P1 failed on recall and held on precision; P2 to P4 not run at this build.
+Graphiti, forty personas: the event census, the forbidding-record census, a summary route and a tag route & \texttt{43132a3469} & 2026-09-15 & the unmodified release ingesting all forty personas; the two censuses against the manifests with four predictions and their failure texts, P1 on the census recall and precision, P2 to P4 on the summary and tag routes & P1 failed on recall, held on precision (Appendix~\ref{app:posthoc-graphiti}); P2 to P4 not run at this build \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+% R104: the four descriptive registrations of the last two passes (registrations/ADDENDUM_Q4.md, ADDENDUM_DS_AMENDMENT_1.md, ADDENDUM_PAD.md, ADDENDUM_PARA.md).
+\caption{The registration record, continued: twelve descriptive registrations, each frozen by sha256 before its first call and carrying no prediction and no bar, so nothing in them could hold or fail. Every one has run except the paraphrase check, which waits on our read.}
+\label{tab:registrations-c}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{1.5pt}
+\begin{tabular}{@{}p{0.17\linewidth}p{0.11\linewidth}p{0.11\linewidth}p{0.42\linewidth}p{0.13\linewidth}@{}}
+\toprule
+Artifact & sha256 (first bytes) & Freeze date & What it froze & Outcome \\
+\midrule
+Q4: the marker read as absence & \texttt{8b6ee9e3} & 2026-09-13 & one instruction line appended to the otherwise unchanged structureless summaries; the recorded coverage items of both stores; the paired differences against the recorded intact and blind rows (Table~\ref{tab:q4-marker}) & no prediction \\
+DS Amendment 1: the gate elicited under the all-states summary & \texttt{72ab84da} & 2026-09-13 & GPT-4.1 mini's obligation score re-elicited under the summary naming all three states on the $661$; one further policy reading it; the counted-state reach beside the recorded gate (Table~\ref{tab:ds}) & no prediction \\
+List-length padding & \texttt{93e33022} & 2026-09-13 & the superseded-names list of each of the $661$ summaries padded with correct attribute names to $15$, $30$ and $60$; both lookups and GPT-4.1 mini at each length, paired against the $1.75$-name row; three branches enumerated & no prediction \\
+Paraphrased counterfactual set & \texttt{45cad63d} & 2026-09-13 & each of the $148$ questions rewritten to share no content token with the slot path or any printed name, screened and read by us; both lookups and three models on the same store versions, paired against the originals; four branches enumerated & no prediction; pending \\
+Expiry extension of the counterfactual set & \texttt{2f555c1a} & 2026-09-14 & the $14$ eligible expiry pairs the counterfactual draw left undrawn, fixed by the candidate census (\texttt{rows/cf3/CF3\_CENSUS.md} in the artifact); the same construction, renderer, leakage screen and readers; a pooled expiry row with the $444$'s $30$ pairs (Table~\ref{tab:cf3-expiry}) & no prediction \\
+DS Amendment 2: the literal rule's answer stage, and a second answerer & \texttt{a3ff9d89} & 2026-09-14 & the answer stage of the literal-threshold lookup rule under the downstream protocol ($268$ views, $30$ new calls); Haiku 4.5 as answerer on every distinct view of the seven policies ($452$ views); the same detector and columns (Tables~\ref{tab:ds} and~\ref{tab:ds-h45}) & no prediction \\
+DS Amendment 3: the answer stage with an instruction to treat tagged records as not to be used & \texttt{eca19607} & 2026-09-14 & the same $452$ views answered once more by GPT-4.1 mini and Haiku 4.5 with one instruction added to the prompt; the same detector; stale and correct beside the recorded rows (Tables~\ref{tab:ds} and~\ref{tab:ds-h45}) & no prediction \\
+Haiku 4.5 under the store's own metadata & \texttt{77de1e37} & 2026-09-14 & Haiku 4.5 at five calls on the recorded store-written texts under the capped and the lifted rendering; retention against its recorded blind and ground-truth rows; the lookup on the same lists; three branches enumerated (Table~\ref{tab:bh-split}) & no prediction; at or above the sixty-percent line under both \\
+The moved-count control & \texttt{de2dd0ba} & 2026-09-14 & for each counted-state pair, the obligation's own per-category increment moved from the present-negative version to a sibling under a recorded seed; GPT-4.1 mini and Haiku 4.5 against their recorded superseded-only rows; the state-cell and totals readers; the band reading (Table~\ref{tab:v2rcat}) & no prediction; the band reading fired as neither \\
+DS Amendment 5: the store's untagged duplicates tagged & \texttt{a820195f} & 2026-09-14 & every active line asserting the stale value on the $35$ obligations the audit found retagged with the obligation's state; the $74$ changed views re-answered under the Amendment 4 header by both answerers; the same detector (Table~\ref{tab:ds-a5}) & no prediction \\
+DS Amendment 6: coverage-gated depth of the retrieval view & \texttt{52effd8d} & 2026-09-15 & views of five to ten lines from the recorded ten-deep ranking and a gated view that expands to ten where the recorded coverage score is at or above its threshold; both answerers under the header; the budget-matched comparison at the gated view's mean depth (Table~\ref{tab:ds-a6}) & no prediction \\
+DS Amendment 7: an obligation-reported detector and a composite & \texttt{6566bf09} & 2026-09-15 & a closed word list scored on every recorded answer under every policy; a composite per policy over the full obligation set; the detector's agreement with the second annotator's fourth question (Table~\ref{tab:ds-a7}) & no prediction; no model call \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\textbf{When Opus 5 entered.} Opus 5 entered the study at the cross-vendor preregistration (the R74 addendum, Table~\ref{tab:registrations}; 2026-08-14), carrying three of its predictions. That freeze came after the main-study freeze of 2026-08-10 and before the counterfactual freeze of 2026-08-29. In the counterfactual set it is a descriptive run carrying no prediction, because it was named at the freeze and funded before its run was submitted.\\
+
+\noindent\textbf{Deviation index.} Every deviation named in this paper is indexed in the supplement (Section~S.2), with the ledger entry and the appendix that discusses it, because the index is a lookup aid for the artifact rather than a result.
+
+\section{Analyses done after seeing the data}\label{app:posthoc}
+
+Everything in this appendix was done after seeing the data and carries no registered prediction.
+It is collected here so that unregistered material has one home and is never read as though it had been predicted.
+The analyses marked ``specified before recomputation'' (the PN-versus-PRESENT decomposition, the intent-aware lookup, the whole-map coverage lookup and the reading of the forty-persona census) were written up as definitions with expected outcomes in one file, hashed before any of them ran (sha256 \texttt{ae2600fc}), and are post-hoc analyses, not predictions made before the original study.
+
+\subsection{Calibration after the fact}\label{app:posthoc-cal}
+
+The elicited score is rescaled by three monotone maps \citep{platt2000,zadrozny2002,guo2017} under leave-one-persona-out cross-validation on the pooled hard-tier coverage set.
+That set holds $588$ questions.
+No question therefore contributes to the fit that predicts it.
+Expected calibration error on the intact-summary score falls from $0.1741$ to $0.0146$ under an isotonic map and $0.0029$ under a logistic one.
+That comparison needs its floor, and the floor is a constant predictor.
+At a base rate of $5.95\%$ a constant predictor scores an expected calibration error of $0.0000$ and a Brier score \citep{brier1950} of $0.0560$.
+The calibration numbers alone therefore understate how little is being asked.
+Against that floor the rescaled score improves the Brier score to $0.0519$.
+It also improves selective risk \citep{geifman2017} from $0.0615$ to $0.0373$, which is where its resolution shows.
+Figure~\ref{fig:reliability} is the reliability diagram behind these numbers.
+
+%%V11:2161-2177%%
+
+The rescaled probability never exceeds $0.375$ on the intact summary or $0.450$ on the names-only summary, so the value at which it would cross one half does not exist on either.
+The comparison is therefore reported at each population's own base rate, where the crossings sit at $0.3$ and $0.2$ in score space.
+At that threshold the rescaled intact-summary score flags $134$ of the $588$ hard questions and catches $24$ of the $35$ covered ones, a precision of $0.1791$ and a recall of $0.6857$ under the isotonic map.
+Precision is low because the map's probabilities crowd the base rate, so the threshold that recovers most positives admits more than four false alarms for each true one.
+Ordering is unchanged by construction, since every map is monotone.
+Monotonicity is checked on each fitted map rather than on the pooled out-of-fold values.
+Those pooled values are a mixture of forty maps, so their pooled ordering statistic moves.
+On the question-only condition it reads $0.2572$ against a raw $0.4946$, a diagnostic of the pooling rather than a property of any map.
+
+\subsection{A disclosure: the counterfactual set split by whether the question names its attribute}\label{app:posthoc-flags}
+
+We read every question of the counterfactual set before scoring and flagged it when it names the plan or value its attribute is about (Appendix~\ref{app:counterfactual}).
+The flag belongs to the question, so it is identical across the three store versions and cannot carry the label.
+Table~\ref{tab:flag-split} splits the $444$ items by that flag, $89$ questions flagged and $59$ not, and reports every reader on each half.
+The split answers whether the name lookup's score rides on questions that name what they ask about.
+It does not: every reader scores higher on the questions that name only the topic, the name lookup at $0.8668$ against $0.7142$.
+The split leaves the naming boundary in place on both halves.
+It was made after the results were known, carries no prediction, and has no interval, since it is a deterministic census on the recorded rows.
+It is a disclosure rather than a control, because the flag marks a question that names its attribute at the level of the topic while every value is scrubbed from every summary, so a flagged question need carry no more of the label than an unflagged one; the control is the paraphrased counterfactual set, registered and pending (Table~\ref{tab:registrations-c}).
+
+%%V11:2194-2215%%
+
+\subsection{The lookup's loss under a real backend's faults, decomposed}\label{app:posthoc-faults}
+
+% R106 (2026-09-14): post hoc; nb6_sweep/NUMBERS_NB6SWEEP.md AUX-NB6SWEEP-DECOMP-444, -DECOMP-661, -BELIEVED, -PRINTED (from nb6_sweep/results/step4_recall.json).
+A sweep run after every registered result was known asks how much of the name lookup's loss under FR-Bank's own list is due to each of three faults the census of Section~\ref{sec:backends} measured.
+The faults are missing names (the list's recall of the ground-truth superseded names, $0.36$), wrong names (the share of negatives whose own name the list carries, $0.23$) and list length ($15$ names as rendered).
+Each fault is injected into the ground-truth list at the store's measured rate, on the counterfactual set and on the $661$ questions, and the eight corners of the three-factor design give each factor's Shapley share of the total loss (Table~\ref{tab:faults}).
+On the counterfactual set the embedding lookup falls from $0.77$ to $0.50$ under all three faults, and missing names carry about six tenths of that loss, wrong names about three tenths and length about one tenth.
+On the $661$ questions it falls from $0.74$ to $0.61$; missing names carry about eight tenths and wrong names about four tenths, and length is a credit of about two tenths, because fillers drawn from the store's own names raise the absent probes less than the on-store items.
+The three faults are sub-additive on both populations, since the single-factor losses sum past the total.
+The sweep carries no prediction, and its report is in the artifact.
+
+\begin{table}[H]
+% R106: nb6_sweep/NUMBERS_NB6SWEEP.md AUX-NB6SWEEP-DECOMP-444 and -DECOMP-661 (r = 0.3604, the marker-corrected recall).
+\caption{The lookup's loss under FR-Bank's measured faults, decomposed after the fact. Each row gives the ground-truth-list score, the score with all three faults injected at the store's measured rates (length $15$, contamination $0.232$, recall $0.3604$), and the Shapley share of the loss attributed to each fault; shares sum to one, and a negative share is a credit. Post hoc; no prediction.}
+\label{tab:faults}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+Population & lookup, slice & ground-truth & all faults & missing names & wrong names & length \\
+\midrule
+Counterfactual set ($444$) & embedding, whole set & $0.7663$ & $0.5005$ & $0.6010$ & $0.2943$ & $0.1047$ \\
+Counterfactual set ($444$) & embedding, supersession & $0.9223$ & $0.5200$ & $0.5826$ & $0.1892$ & $0.2282$ \\
+Counterfactual set ($444$) & lexical, whole set & $0.6698$ & $0.4949$ & $0.5682$ & $0.3753$ & $0.0565$ \\
+Counterfactual set ($444$) & lexical, supersession & $0.7829$ & $0.5371$ & $0.6590$ & $0.2423$ & $0.0987$ \\
+Full population ($661$) & embedding, whole set & $0.7442$ & $0.6096$ & $0.8127$ & $0.4167$ & $-0.2294$ \\
+Full population ($661$) & embedding, supersession & $0.9599$ & $0.6593$ & $0.6423$ & $0.1675$ & $0.1902$ \\
+Full population ($661$) & lexical, whole set & $0.5738$ & $0.5032$ & $0.6804$ & $0.3161$ & $0.0035$ \\
+Full population ($661$) & lexical, supersession & $0.6241$ & $0.5345$ & $0.8936$ & $0.2833$ & $-0.1769$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+%% R112 (2026-09-16): the forty-persona Graphiti census (registrations/ADDENDUM_R85_GRAPHITI_AMENDMENT_1.md frozen 43132a3; r85_graphiti/NUMBERS_R85.md AUX-R85-G10-INGEST, -CENSUS, -REPEAT, -CENSUS-FORBIDDING, -CENSUS-FORBIDDING-FULL, -PRINTED; DEVIATIONS_R85.md D-R85-12, -15, -16). No obligation judgment is scored on this backend.
+\subsection{The fourth backend at forty personas}\label{app:posthoc-graphiti}
+
+The three-persona trial of Appendix~\ref{app:census} was extended to every persona after the main results were known, under predictions written before the ingestion, and the reading of its population was fixed before any number here was printed.
+The unmodified release (\texttt{graphiti-core} 0.28.1) ingested all forty personas at one episode per session: $1{,}365$ episodes rendered from FR-Bank's persona banks with every lifecycle field, status marker and supersession pointer removed, so the graph holds the same conversations FR-Bank holds and nothing of FR-Bank's own marks, and the ground truth is the persona manifest as everywhere in this paper.
+The result is one graph per persona, $7{,}096$ entity nodes and $9{,}189$ edges; under the mapping of Appendix~\ref{app:census} (an invalidated edge with a successor is superseded, invalidated without one is expired, retraction inexpressible) $8{,}382$ edges are active, $130$ superseded and $677$ expired; $784$ carry no validity time and $72$ are dated after the persona's clock.
+Every graph is the full store of its persona: the store variants of the main study, with categories or the successor removed, do not exist on it, so a Graphiti reading is valid only on the obligations of the full store, and the main text reports that population; the reading over all $104$ obligation rows, which repeats the same forbidding records on the same graph for the $57$ variant rows, prints below beside it because the prediction was written on it.
+
+\begin{table}[H]
+\caption{The forty-persona Graphiti census against the manifests. Recall is the share of ground-truth events, or forbidding records, on which some Graphiti edge asserting the old content carries a non-active state under the mapping above; stale-active means such an edge exists and every one is active; extraction miss means no edge asserts the content at the $0.80$ overlap bar. Precision is over all $807$ non-active edges of the forty graphs and is unchanged by the population. Retraction is inexpressible on this backend, so the eight obligations the ground truth marks retracted enter no recall.}
+\label{tab:graphiti-g10}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.28\linewidth}rrrr>{\raggedright\arraybackslash}p{0.19\linewidth}>{\raggedright\arraybackslash}p{0.12\linewidth}@{}}
+\toprule
+Census & $n$ & recovered & stale-active & extraction miss & recall (bands $0.50$ / $0.75$) & precision \\
+\midrule
+Manifest supersession events & $109$ & $20$ & $12$ & $77$ & $0.1835$ ($57$ / $35$ of $109$) & $35$ of $807$, $0.0434$ \\
+Forbidding records, obligations of the full store (the main-text reading) & $34$ of $47$ & $13$ & $10$ & $11$ & $0.3824$ & $54$ of $807$, $0.0669$ \\
+\quad the same over distinct forbidding-record sets & $39$ of $56$ & $16$ & $11$ & $12$ & $0.4103$ & the same \\
+Forbidding records, all $104$ obligation rows (the prediction's population) & $74$ of $104$ & $30$ & $21$ & $23$ & $0.4054$ ($48$ / $36$ of $74$); $0.3846$ over the $78$ by attack vector & the same \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+By state on the full-store obligations, superseded preferences are recovered in $7$ of $16$, multi-version facts in $5$ of $11$ and expired arrangements in $1$ of $7$; over all $104$ rows the same three read $0.47$, $0.44$ and $0.09$, so expiry is the weak state on this backend under both readings.
+The failure mode is extraction: of the $565$ manifest facts the graph asserts $134$ at the overlap bar, $77$ of the $109$ supersession events have no edge asserting the old value at all, and the user is split across two to four entity nodes in every persona, so a later fact about the same slot does not meet the earlier one.
+The three trial personas, re-ingested into the forty-persona graphs, give the same recall on both graphs (elena $0.33$, tom $0.00$, yoli $0.25$) at $237$, $213$ and $224$ edges against the trial's $242$, $221$ and $222$.
+
+The prediction fixed before the ingestion put the recall on the forbidding records at or below $0.25$ and the precision at or below $0.10$, the direction of the three-persona trial; the precision held and the recall did not, under the prediction's population and under both re-aggregations above.
+%% The registered P1 outcome text as r85_graphiti/NUMBERS_R85.md AUX-R85-G10-CENSUS-FORBIDDING filled it; the registration's wording ships verbatim.
+Its outcome text, quoted verbatim with the artifact's names (Appendix~\ref{app:glossary}), reads: ``Over the forty personas Graphiti reaches 30 of the 74 forbidding records (the join's count; 30 of the attack-vector 78), above the registered quarter, at precision 0.0669.''
+What the census establishes is therefore narrower than the trial suggested: some of the records the agent must not use are recovered by this backend's own invalidation, most are not, and almost every non-active mark it writes falls on a record the ground truth calls active.
+The summary route and the tag route registered for this backend, and the answer-stage comparison drafted after them, have not been run; no obligation judgment is scored on Graphiti in this paper, and no row for those routes prints here.
+
+\end{document}

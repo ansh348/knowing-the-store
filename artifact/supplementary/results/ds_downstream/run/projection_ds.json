@@ -1,0 +1,13 @@
+{
+ "billed_so_far": {
+  "probes": 0.0002232,
+  "run": 0.0,
+  "total": 0.0002232
+ },
+ "budget": 4.0,
+ "line": 2.0,
+ "n_distinct_views": 422,
+ "nominal_calls": 1391,
+ "projected_usd": 0.0997704,
+ "when": "2026-09-13T14:02:49"
+}

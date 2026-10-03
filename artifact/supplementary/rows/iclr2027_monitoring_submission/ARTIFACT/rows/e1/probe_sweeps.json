@@ -1,0 +1,2404 @@
+[
+  {
+    "bank_hits": [],
+    "domain": "Leisure reading",
+    "max_cosine": 0.2458,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "aisha",
+    "question": "What was the last book you read purely for pleasure, and what did you think of it?",
+    "terms": [
+      "book",
+      "last",
+      "pleasure",
+      "purely",
+      "read",
+      "think"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Music preferences",
+    "max_cosine": 0.2605,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "aisha",
+    "question": "What kind of music do you usually listen to when relaxing at home?",
+    "terms": [
+      "kind",
+      "listen",
+      "music",
+      "relaxing",
+      "usually"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Pets and animals",
+    "max_cosine": 0.2219,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "aisha",
+    "question": "Do you have any pets? If yes, what kind and what are their names?",
+    "terms": [
+      "kind",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment History",
+    "max_cosine": 0.2093,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "alex",
+    "question": "What was the last movie you watched in a theater?",
+    "terms": [
+      "last",
+      "movie",
+      "theater",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Cooking and Food Preparation",
+    "max_cosine": 0.2557,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "alex",
+    "question": "Do you have a favorite recipe you like to cook on weekends?",
+    "terms": [
+      "cook",
+      "favorite",
+      "weekends"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Hobbies and Education",
+    "max_cosine": 0.2592,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "alex",
+    "question": "Have you ever taken any art or music classes as a hobby?",
+    "terms": [
+      "classes",
+      "hobby",
+      "music",
+      "taken"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Music Preferences",
+    "max_cosine": 0.2567,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "amara",
+    "question": "Can you describe your favorite type of music or a band you enjoy listening to?",
+    "terms": [
+      "band",
+      "enjoy",
+      "favorite",
+      "listening",
+      "music"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Pets",
+    "max_cosine": 0.2105,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "amara",
+    "question": "What kind of pet do you have or would like to have?",
+    "terms": [
+      "kind"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment",
+    "max_cosine": 0.2904,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "amara",
+    "question": "What was the last movie you watched at a cinema?",
+    "terms": [
+      "cinema",
+      "last",
+      "movie",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Languages",
+    "max_cosine": 0.2133,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "amara",
+    "question": "What languages do you speak or are learning besides English?",
+    "terms": [
+      "besides",
+      "english",
+      "languages",
+      "learning",
+      "speak"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment",
+    "max_cosine": 0.1492,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "aroha",
+    "question": "What was the last movie you watched and what did you think about it?",
+    "terms": [
+      "last",
+      "movie",
+      "think",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Music Preferences",
+    "max_cosine": 0.2858,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "aroha",
+    "question": "What kind of music do you usually listen to when relaxing at home?",
+    "terms": [
+      "kind",
+      "listen",
+      "music",
+      "relaxing",
+      "usually"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Literature",
+    "max_cosine": 0.2479,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "aroha",
+    "question": "What type of books or authors do you enjoy reading in your free time?",
+    "terms": [
+      "authors",
+      "books",
+      "enjoy",
+      "free",
+      "reading"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal Celebrations",
+    "max_cosine": 0.2394,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "aroha",
+    "question": "What is your preferred way to celebrate your birthday?",
+    "terms": [
+      "birthday",
+      "celebrate",
+      "preferred"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "leisure reading",
+    "max_cosine": 0.2259,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "billy",
+    "question": "What was the title of the last novel you read for pleasure?",
+    "terms": [
+      "last",
+      "novel",
+      "pleasure",
+      "read",
+      "title"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "personal cooking preferences",
+    "max_cosine": 0.2473,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "billy",
+    "question": "Can you describe your favorite meal to cook at home?",
+    "terms": [
+      "cook",
+      "favorite",
+      "meal"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "artistic hobbies",
+    "max_cosine": 0.2148,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "billy",
+    "question": "Have you ever taken any art classes or pursued any artistic hobbies?",
+    "terms": [
+      "artistic",
+      "classes",
+      "hobbies",
+      "pursued",
+      "taken"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "education history",
+    "max_cosine": 0.2051,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "billy",
+    "question": "What was your favorite subject in high school?",
+    "terms": [
+      "favorite",
+      "high",
+      "subject"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "pets and animals",
+    "max_cosine": 0.2433,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "billy",
+    "question": "Do you have any pets at home? If so, what kind and what are their names?",
+    "terms": [
+      "kind",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "entertainment preferences",
+    "max_cosine": 0.1856,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "billy",
+    "question": "What kind of movies or TV shows do you enjoy watching in your free time?",
+    "terms": [
+      "enjoy",
+      "free",
+      "kind",
+      "movies",
+      "shows",
+      "watching"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Leisure",
+    "max_cosine": 0.2452,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "bruna",
+    "question": "What was the title of the last book you read purely for pleasure?",
+    "terms": [
+      "book",
+      "last",
+      "pleasure",
+      "purely",
+      "read",
+      "title"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal Life",
+    "max_cosine": 0.2433,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "bruna",
+    "question": "What kind of pet do you have, and what is its name?",
+    "terms": [
+      "kind"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment",
+    "max_cosine": 0.1902,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "bruna",
+    "question": "What was the last movie or TV show you watched and enjoyed?",
+    "terms": [
+      "enjoyed",
+      "last",
+      "movie",
+      "show",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Education and Hobbies",
+    "max_cosine": 0.255,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "bruna",
+    "question": "Have you ever taken any art or creative classes, and if so, which ones?",
+    "terms": [
+      "classes",
+      "creative",
+      "ones",
+      "taken"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment",
+    "max_cosine": 0.1599,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "callum",
+    "question": "What was the last movie you watched at the cinema and what did you think of it?",
+    "terms": [
+      "cinema",
+      "last",
+      "movie",
+      "think",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Education / Language Learning",
+    "max_cosine": 0.2454,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "callum",
+    "question": "Have you ever taken any language classes, and if so, which language and how far did you get?",
+    "terms": [
+      "classes",
+      "language",
+      "taken"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Travel / Leisure",
+    "max_cosine": 0.2729,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "callum",
+    "question": "What was your most memorable holiday trip and what activities did you do there?",
+    "terms": [
+      "activities",
+      "holiday",
+      "memorable",
+      "trip"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Reading / Literature",
+    "max_cosine": 0.185,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "callum",
+    "question": "What kind of books do you enjoy reading in your free time, and do you have a favorite author?",
+    "terms": [
+      "author",
+      "books",
+      "enjoy",
+      "favorite",
+      "free",
+      "kind",
+      "reading"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Leisure and Entertainment",
+    "max_cosine": 0.23,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "chenoa",
+    "question": "What was the title of the last book you read purely for pleasure?",
+    "terms": [
+      "book",
+      "last",
+      "pleasure",
+      "purely",
+      "read",
+      "title"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Music Preferences",
+    "max_cosine": 0.172,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "chenoa",
+    "question": "What is your favorite type of music or musical artist you listen to regularly?",
+    "terms": [
+      "artist",
+      "favorite",
+      "listen",
+      "music",
+      "musical",
+      "regularly"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Travel History",
+    "max_cosine": 0.1987,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "chenoa",
+    "question": "Have you ever traveled outside the United States? If so, where did you go and what did you enjoy most about the trip?",
+    "terms": [
+      "enjoy",
+      "outside",
+      "states",
+      "traveled",
+      "trip",
+      "united"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Intellectual Interests",
+    "max_cosine": 0.2289,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "dariush",
+    "question": "What was the title and main theme of the last book you read purely for pleasure?",
+    "terms": [
+      "book",
+      "last",
+      "main",
+      "pleasure",
+      "purely",
+      "read",
+      "theme",
+      "title"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Preferences Habits",
+    "max_cosine": 0.2612,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "dariush",
+    "question": "What is your favorite type of music or musical artist you listen to regularly?",
+    "terms": [
+      "artist",
+      "favorite",
+      "listen",
+      "music",
+      "musical",
+      "regularly"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Relational Bonds",
+    "max_cosine": 0.2444,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "dariush",
+    "question": "What kind of pet, if any, have you owned or currently own, and what is its name?",
+    "terms": [
+      "currently",
+      "kind",
+      "owned"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Hobbies Recreation",
+    "max_cosine": 0.2861,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "dariush",
+    "question": "Can you tell me about a hobby or activity you tried once but decided not to continue, and why?",
+    "terms": [
+      "activity",
+      "continue",
+      "hobby",
+      "once",
+      "tried"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal History",
+    "max_cosine": 0.222,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "david",
+    "question": "What was the name of your favorite childhood pet and what breed was it?",
+    "terms": [
+      "breed",
+      "childhood",
+      "favorite"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Media Consumption",
+    "max_cosine": 0.2596,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "david",
+    "question": "Do you have any favorite podcasts or radio shows you listen to regularly?",
+    "terms": [
+      "favorite",
+      "listen",
+      "podcasts",
+      "radio",
+      "regularly",
+      "shows"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal Life / Social Events",
+    "max_cosine": 0.2565,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "dmitri",
+    "question": "What was the theme of the last birthday party you hosted for your close friends?",
+    "terms": [
+      "birthday",
+      "close",
+      "friends",
+      "hosted",
+      "last",
+      "party",
+      "theme"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal Interests / Childhood",
+    "max_cosine": 0.2896,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "dmitri",
+    "question": "Can you describe your favorite childhood book or story that influenced you growing up?",
+    "terms": [
+      "book",
+      "childhood",
+      "favorite",
+      "growing",
+      "influenced",
+      "story"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Transportation / Personal Vehicle",
+    "max_cosine": 0.2189,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "dmitri",
+    "question": "What type of car do you currently drive and what features do you like most about it?",
+    "terms": [
+      "currently",
+      "drive",
+      "features"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Travel / Leisure",
+    "max_cosine": 0.2731,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "dmitri",
+    "question": "What was the last vacation destination you traveled to for leisure, and what activities did you enjoy there?",
+    "terms": [
+      "activities",
+      "destination",
+      "enjoy",
+      "last",
+      "leisure",
+      "traveled",
+      "vacation"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal Life / Pets",
+    "max_cosine": 0.2403,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "dmitri",
+    "question": "Do you have any pets at home? If yes, what kind and what are their names?",
+    "terms": [
+      "kind",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Intellectual Interests",
+    "max_cosine": 0.2482,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "elena",
+    "question": "Can you tell me about a recent book you read and what you thought of it?",
+    "terms": [
+      "book",
+      "read",
+      "recent",
+      "thought"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Transportation",
+    "max_cosine": 0.2631,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "elena",
+    "question": "What type of car do you drive or prefer to drive?",
+    "terms": [
+      "drive",
+      "prefer"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal Life",
+    "max_cosine": 0.2809,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "elena",
+    "question": "Do you have any pets, and if so, what are their names and breeds?",
+    "terms": [
+      "breeds",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal History",
+    "max_cosine": 0.2603,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "fatima",
+    "question": "Can you describe your favorite childhood vacation destination and what made it special?",
+    "terms": [
+      "childhood",
+      "destination",
+      "favorite",
+      "made",
+      "special",
+      "vacation"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment Preferences",
+    "max_cosine": 0.2687,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "fatima",
+    "question": "What kind of music do you usually listen to when relaxing at home?",
+    "terms": [
+      "kind",
+      "listen",
+      "music",
+      "relaxing",
+      "usually"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Pets and Animals",
+    "max_cosine": 0.2409,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "fatima",
+    "question": "What kind of pets have you owned, and what are their names?",
+    "terms": [
+      "kind",
+      "names",
+      "owned",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Cultural Activities",
+    "max_cosine": 0.2261,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "ingrid",
+    "question": "What was the theme of the last art exhibition you visited?",
+    "terms": [
+      "exhibition",
+      "last",
+      "theme",
+      "visited"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Community and Social Life",
+    "max_cosine": 0.2211,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "ingrid",
+    "question": "Do you have any favorite local festivals or community events you attend regularly?",
+    "terms": [
+      "attend",
+      "community",
+      "favorite",
+      "festivals",
+      "local",
+      "regularly"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Leisure",
+    "max_cosine": 0.1614,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "jake",
+    "question": "What was the name of the last book you read for pleasure?",
+    "terms": [
+      "book",
+      "last",
+      "pleasure",
+      "read"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment Preferences",
+    "max_cosine": 0.2491,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "jake",
+    "question": "What kind of music do you usually listen to when relaxing at home?",
+    "terms": [
+      "kind",
+      "listen",
+      "music",
+      "relaxing",
+      "usually"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment",
+    "max_cosine": 0.1543,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "jake",
+    "question": "What was the last movie you saw in a theater, and what did you think of it?",
+    "terms": [
+      "last",
+      "movie",
+      "theater",
+      "think"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Home Life",
+    "max_cosine": 0.2137,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "jake",
+    "question": "Do you have any pets, and if so, what are their names and breeds?",
+    "terms": [
+      "breeds",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Education and Skills",
+    "max_cosine": 0.2601,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "jake",
+    "question": "Have you ever taken any art or music classes outside of school? If yes, which ones?",
+    "terms": [
+      "classes",
+      "music",
+      "ones",
+      "outside",
+      "taken"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment",
+    "max_cosine": 0.1791,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "jerome",
+    "question": "What was the last movie you watched at a theater and what did you think of it?",
+    "terms": [
+      "last",
+      "movie",
+      "theater",
+      "think",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal History",
+    "max_cosine": 0.2145,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "jerome",
+    "question": "Can you describe your favorite childhood toy or game you used to play?",
+    "terms": [
+      "childhood",
+      "favorite",
+      "game",
+      "play",
+      "used"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Home Life",
+    "max_cosine": 0.2341,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "jerome",
+    "question": "What kind of plants or flowers do you keep at home, if any?",
+    "terms": [
+      "flowers",
+      "kind",
+      "plants"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Hobbies and Recreation",
+    "max_cosine": 0.2251,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "jerome",
+    "question": "What was the most memorable concert or live music event you attended?",
+    "terms": [
+      "attended",
+      "concert",
+      "memorable",
+      "music"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal Life",
+    "max_cosine": 0.2405,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "jerome",
+    "question": "Do you have any pets? If yes, what are their names and breeds?",
+    "terms": [
+      "breeds",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Transportation",
+    "max_cosine": 0.2397,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "joonho",
+    "question": "What kind of car do you currently drive or prefer to drive?",
+    "terms": [
+      "currently",
+      "drive",
+      "kind",
+      "prefer"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Travel History",
+    "max_cosine": 0.2949,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "joonho",
+    "question": "Have you ever traveled abroad for leisure? If so, which country did you enjoy the most?",
+    "terms": [
+      "abroad",
+      "country",
+      "enjoy",
+      "leisure",
+      "traveled"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Music Preferences",
+    "max_cosine": 0.2384,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "joonho",
+    "question": "What is your favorite genre of music or a musician you enjoy listening to?",
+    "terms": [
+      "enjoy",
+      "favorite",
+      "genre",
+      "listening",
+      "music",
+      "musician"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Pets and Animals",
+    "max_cosine": 0.2238,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "joonho",
+    "question": "Do you have any pets at home? If yes, what kind and what are their names?",
+    "terms": [
+      "kind",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Home Environment",
+    "max_cosine": 0.2682,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "kenji",
+    "question": "What kind of plants or flowers do you keep in your living space?",
+    "terms": [
+      "flowers",
+      "kind",
+      "living",
+      "plants",
+      "space"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment Preferences",
+    "max_cosine": 0.2562,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "kenji",
+    "question": "What was the last movie or TV show you watched for relaxation?",
+    "terms": [
+      "last",
+      "movie",
+      "relaxation",
+      "show",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Pets and Animals",
+    "max_cosine": 0.1944,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "kenji",
+    "question": "Do you have any pets? If yes, what are their names and breeds?",
+    "terms": [
+      "breeds",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment Preferences",
+    "max_cosine": 0.1742,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "kofi",
+    "question": "What kind of music do you enjoy listening to during your leisure time?",
+    "terms": [
+      "during",
+      "enjoy",
+      "kind",
+      "leisure",
+      "listening",
+      "music"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Language Skills",
+    "max_cosine": 0.1821,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "kofi",
+    "question": "What languages do you speak besides your native tongue?",
+    "terms": [
+      "besides",
+      "languages",
+      "native",
+      "speak",
+      "tongue"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal Life",
+    "max_cosine": 0.2751,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "kofi",
+    "question": "Do you have any pets at home? If yes, what kind and how many?",
+    "terms": [
+      "kind",
+      "many",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [
+      {
+        "entry_id": "lb_00038",
+        "terms": [
+          "attended",
+          "meeting"
+        ],
+        "text": "User attended a meeting at the municipal heritage office."
+      }
+    ],
+    "domain": "Social Activities",
+    "max_cosine": 0.2811,
+    "n_bank": 1,
+    "n_yaml": 0,
+    "persona": "leila",
+    "question": "What was the theme of the last book club meeting you attended?",
+    "terms": [
+      "attended",
+      "book",
+      "club",
+      "last",
+      "meeting",
+      "theme"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment",
+    "max_cosine": 0.2359,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "leila",
+    "question": "Can you describe the last concert or live music event you went to?",
+    "terms": [
+      "concert",
+      "last",
+      "music",
+      "went"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment",
+    "max_cosine": 0.1939,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "leila",
+    "question": "What was the last movie you watched and what did you think about it?",
+    "terms": [
+      "last",
+      "movie",
+      "think",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "personal reading habits",
+    "max_cosine": 0.2447,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "lily",
+    "question": "What was the title and author of the last novel you read purely for pleasure?",
+    "terms": [
+      "author",
+      "last",
+      "novel",
+      "pleasure",
+      "purely",
+      "read",
+      "title"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "personal history with pets",
+    "max_cosine": 0.2859,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "lily",
+    "question": "What kind of pet did you have growing up, and what was its name?",
+    "terms": [
+      "growing",
+      "kind"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "childhood recreation",
+    "max_cosine": 0.2241,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "lily",
+    "question": "What was your favorite childhood game or activity to play with friends?",
+    "terms": [
+      "activity",
+      "childhood",
+      "favorite",
+      "friends",
+      "game",
+      "play"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [
+      {
+        "entry_id": "lb_00347",
+        "terms": [
+          "brand",
+          "preferred"
+        ],
+        "text": "User currently uses Bonsoy oat milk as their preferred brand for steaming and latte art."
+      }
+    ],
+    "domain": "sports equipment preferences",
+    "max_cosine": 0.2386,
+    "n_bank": 1,
+    "n_yaml": 0,
+    "persona": "lily",
+    "question": "What is your preferred brand and model of running shoes for exercise?",
+    "terms": [
+      "brand",
+      "exercise",
+      "model",
+      "preferred",
+      "running",
+      "shoes"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "personal interests",
+    "max_cosine": 0.1845,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "marcus",
+    "question": "What was the title of the last book you read for pleasure?",
+    "terms": [
+      "book",
+      "last",
+      "pleasure",
+      "read",
+      "title"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "travel and leisure",
+    "max_cosine": 0.2531,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "marcus",
+    "question": "Can you describe your favorite vacation spot and why you like it?",
+    "terms": [
+      "favorite",
+      "spot",
+      "vacation"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "entertainment preferences",
+    "max_cosine": 0.2287,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "marcus",
+    "question": "What kind of music do you usually listen to when relaxing at home?",
+    "terms": [
+      "kind",
+      "listen",
+      "music",
+      "relaxing",
+      "usually"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "entertainment activities",
+    "max_cosine": 0.1407,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "marcus",
+    "question": "What was the last movie you saw in a theater, and what did you think of it?",
+    "terms": [
+      "last",
+      "movie",
+      "theater",
+      "think"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "personal life",
+    "max_cosine": 0.1817,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "marcus",
+    "question": "Do you have any pets, and if so, what are their names and breeds?",
+    "terms": [
+      "breeds",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment",
+    "max_cosine": 0.202,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "marley",
+    "question": "What was the last movie you watched at the cinema?",
+    "terms": [
+      "cinema",
+      "last",
+      "movie",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Transportation",
+    "max_cosine": 0.2505,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "marley",
+    "question": "What kind of car do you drive or prefer to drive?",
+    "terms": [
+      "drive",
+      "kind",
+      "prefer"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Pets",
+    "max_cosine": 0.2223,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "marley",
+    "question": "Do you have any pets, and if so, what are their names and breeds?",
+    "terms": [
+      "breeds",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Languages",
+    "max_cosine": 0.2103,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "marley",
+    "question": "What languages do you speak or are learning besides English?",
+    "terms": [
+      "besides",
+      "english",
+      "languages",
+      "learning",
+      "speak"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "entertainment",
+    "max_cosine": 0.1367,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "mehmet",
+    "question": "What was the last movie you watched at the cinema?",
+    "terms": [
+      "cinema",
+      "last",
+      "movie",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "pets",
+    "max_cosine": 0.2299,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "mehmet",
+    "question": "Do you have any pets at home? If yes, what kind and what are their names?",
+    "terms": [
+      "kind",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "education",
+    "max_cosine": 0.2455,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "mehmet",
+    "question": "What was your favorite subject in school when you were a child?",
+    "terms": [
+      "child",
+      "favorite",
+      "subject"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "entertainment",
+    "max_cosine": 0.1726,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "mirri",
+    "question": "What was the last movie you watched and what did you think about it?",
+    "terms": [
+      "last",
+      "movie",
+      "think",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [
+      {
+        "entry_id": "lb_00522",
+        "terms": [
+          "favorite",
+          "meal"
+        ],
+        "text": "Bunjil's favorite birthday meal is damper with honey."
+      }
+    ],
+    "domain": "culinary",
+    "max_cosine": 0.2757,
+    "n_bank": 1,
+    "n_yaml": 0,
+    "persona": "mirri",
+    "question": "Can you describe your favorite meal to cook at home and the recipe you use?",
+    "terms": [
+      "cook",
+      "favorite",
+      "meal"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "music preferences",
+    "max_cosine": 0.2842,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "mirri",
+    "question": "What kind of music do you usually listen to when relaxing after work?",
+    "terms": [
+      "kind",
+      "listen",
+      "music",
+      "relaxing",
+      "usually"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "literature",
+    "max_cosine": 0.2679,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "mirri",
+    "question": "What was the last book you read for pleasure, and what did you enjoy about it?",
+    "terms": [
+      "book",
+      "enjoy",
+      "last",
+      "pleasure",
+      "read"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment",
+    "max_cosine": 0.1904,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "nadia",
+    "question": "Can you describe your favorite type of music or a band you enjoy listening to?",
+    "terms": [
+      "band",
+      "enjoy",
+      "favorite",
+      "listening",
+      "music"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Pets",
+    "max_cosine": 0.2024,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "nadia",
+    "question": "What kind of pet do you have, and what is its name?",
+    "terms": [
+      "kind"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Literature",
+    "max_cosine": 0.1548,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "nadia",
+    "question": "What was the last book you read for pleasure, and what did you think of it?",
+    "terms": [
+      "book",
+      "last",
+      "pleasure",
+      "read",
+      "think"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Transportation",
+    "max_cosine": 0.2768,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "nadia",
+    "question": "What kind of car do you drive, and how long have you had it?",
+    "terms": [
+      "drive",
+      "kind",
+      "long"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "entertainment",
+    "max_cosine": 0.1828,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "omar",
+    "question": "What was the last movie you watched in a theater?",
+    "terms": [
+      "last",
+      "movie",
+      "theater",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "personal life",
+    "max_cosine": 0.2269,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "omar",
+    "question": "Do you have any pets, and if so, what are their names and breeds?",
+    "terms": [
+      "breeds",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "intellectual interests",
+    "max_cosine": 0.2696,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "omar",
+    "question": "What type of books or authors do you prefer to read in your free time?",
+    "terms": [
+      "authors",
+      "books",
+      "free",
+      "prefer",
+      "read"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment",
+    "max_cosine": 0.1977,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "pan",
+    "question": "What was the last movie you watched for entertainment?",
+    "terms": [
+      "entertainment",
+      "last",
+      "movie",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Travel",
+    "max_cosine": 0.1924,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "pan",
+    "question": "Can you describe your favorite vacation destination and why you like it?",
+    "terms": [
+      "destination",
+      "favorite",
+      "vacation"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Music Preferences",
+    "max_cosine": 0.2879,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "pan",
+    "question": "What kind of music do you enjoy listening to when you are relaxing at home?",
+    "terms": [
+      "enjoy",
+      "kind",
+      "listening",
+      "music",
+      "relaxing"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Pets",
+    "max_cosine": 0.1852,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "pan",
+    "question": "Do you have any pets, and if so, what are their names and breeds?",
+    "terms": [
+      "breeds",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Education and Skills",
+    "max_cosine": 0.2657,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "pan",
+    "question": "Have you ever taken any formal art or music classes? If yes, what did you study?",
+    "terms": [
+      "classes",
+      "formal",
+      "music",
+      "study",
+      "taken"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Reading Habits",
+    "max_cosine": 0.2182,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "pan",
+    "question": "What kind of books or magazines do you like to read in your free time?",
+    "terms": [
+      "books",
+      "free",
+      "kind",
+      "magazines",
+      "read"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Leisure Reading",
+    "max_cosine": 0.1682,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "patrick",
+    "question": "What was the title and author of the last novel you read for pleasure?",
+    "terms": [
+      "author",
+      "last",
+      "novel",
+      "pleasure",
+      "read",
+      "title"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Education / Language Learning",
+    "max_cosine": 0.2893,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "patrick",
+    "question": "Have you ever taken any language classes or learned a foreign language? If so, which one and how long did you study it?",
+    "terms": [
+      "classes",
+      "foreign",
+      "language",
+      "learned",
+      "long",
+      "study",
+      "taken"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Pets and Animals",
+    "max_cosine": 0.2083,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "patrick",
+    "question": "Do you have any pets? If so, what kind and what are their names?",
+    "terms": [
+      "kind",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Community Involvement",
+    "max_cosine": 0.2559,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "patrick",
+    "question": "What kind of volunteer work or community service have you participated in recently?",
+    "terms": [
+      "community",
+      "kind",
+      "participated",
+      "recently",
+      "service",
+      "volunteer"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal Events",
+    "max_cosine": 0.2752,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "priya",
+    "question": "What was the theme and your favorite activity at your last birthday party?",
+    "terms": [
+      "activity",
+      "birthday",
+      "favorite",
+      "last",
+      "party",
+      "theme"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Childhood Memories",
+    "max_cosine": 0.2414,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "priya",
+    "question": "Can you describe your favorite childhood toy and why it was special to you?",
+    "terms": [
+      "childhood",
+      "favorite",
+      "special"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Technology Preferences",
+    "max_cosine": 0.2375,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "priya",
+    "question": "What is your preferred brand and model of smartphone, and why do you like it?",
+    "terms": [
+      "brand",
+      "model",
+      "preferred",
+      "smartphone"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment Experiences",
+    "max_cosine": 0.2867,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "priya",
+    "question": "What was the most memorable concert or live music event you have attended?",
+    "terms": [
+      "attended",
+      "concert",
+      "memorable",
+      "music"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Education and Skills",
+    "max_cosine": 0.2422,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "priya",
+    "question": "Have you ever taken any art or music classes, and if so, what did you learn?",
+    "terms": [
+      "classes",
+      "learn",
+      "music",
+      "taken"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment / Music Preferences",
+    "max_cosine": 0.281,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "raj",
+    "question": "What kind of music do you usually listen to when relaxing at home?",
+    "terms": [
+      "kind",
+      "listen",
+      "music",
+      "relaxing",
+      "usually"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Pets",
+    "max_cosine": 0.2837,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "raj",
+    "question": "Do you have any pets at home? If so, what are their names and breeds?",
+    "terms": [
+      "breeds",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Leisure Reading",
+    "max_cosine": 0.2435,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "rosa",
+    "question": "What was the title and author of the last novel you read purely for pleasure?",
+    "terms": [
+      "author",
+      "last",
+      "novel",
+      "pleasure",
+      "purely",
+      "read",
+      "title"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Music Preferences",
+    "max_cosine": 0.2818,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "rosa",
+    "question": "What type of music do you usually listen to when relaxing at home?",
+    "terms": [
+      "listen",
+      "music",
+      "relaxing",
+      "usually"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal Care",
+    "max_cosine": 0.2837,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "rosa",
+    "question": "What is your preferred brand or type of skincare products you use daily?",
+    "terms": [
+      "brand",
+      "daily",
+      "preferred",
+      "products",
+      "skincare"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Hobbies and Skills",
+    "max_cosine": 0.2612,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "rosa",
+    "question": "Have you ever taken any art or music classes as a hobby? If so, which ones?",
+    "terms": [
+      "classes",
+      "hobby",
+      "music",
+      "ones",
+      "taken"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Community Involvement",
+    "max_cosine": 0.2438,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "saga",
+    "question": "Have you ever volunteered for a charity or community event? If so, what was your role?",
+    "terms": [
+      "charity",
+      "community",
+      "role",
+      "volunteered"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Leisure Activities",
+    "max_cosine": 0.2249,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "saga",
+    "question": "What was the last movie you watched in a theater, and what did you think of it?",
+    "terms": [
+      "last",
+      "movie",
+      "theater",
+      "think",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal Life",
+    "max_cosine": 0.2024,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "saga",
+    "question": "Do you have any pets? If yes, what are their names and breeds?",
+    "terms": [
+      "breeds",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment",
+    "max_cosine": 0.2117,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "samuel",
+    "question": "What was the last movie you watched for entertainment, and what did you think of it?",
+    "terms": [
+      "entertainment",
+      "last",
+      "movie",
+      "think",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Travel",
+    "max_cosine": 0.2658,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "samuel",
+    "question": "Have you ever taken a vacation to a beach destination? If so, which one was your favorite?",
+    "terms": [
+      "beach",
+      "destination",
+      "favorite",
+      "taken",
+      "vacation"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Pets",
+    "max_cosine": 0.2451,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "samuel",
+    "question": "Do you have any pets at home? If yes, what kind and what are their names?",
+    "terms": [
+      "kind",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "entertainment",
+    "max_cosine": 0.2007,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "thanh",
+    "question": "What kind of music do you usually listen to when relaxing at home?",
+    "terms": [
+      "kind",
+      "listen",
+      "music",
+      "relaxing",
+      "usually"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "pets",
+    "max_cosine": 0.275,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "thanh",
+    "question": "Do you have any pets at home? If yes, what kind and how do you care for them?",
+    "terms": [
+      "care",
+      "kind",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "reading_habits",
+    "max_cosine": 0.2033,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "thanh",
+    "question": "What kind of books or magazines do you enjoy reading in your free time?",
+    "terms": [
+      "books",
+      "enjoy",
+      "free",
+      "kind",
+      "magazines",
+      "reading"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Education",
+    "max_cosine": 0.2729,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "tom",
+    "question": "What was the name of the primary school you attended as a child?",
+    "terms": [
+      "attended",
+      "child",
+      "primary"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Travel",
+    "max_cosine": 0.2483,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "tom",
+    "question": "Do you have any favorite travel destinations or memorable trips you've taken?",
+    "terms": [
+      "destinations",
+      "favorite",
+      "memorable",
+      "taken",
+      "travel",
+      "trips",
+      "you've"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Leisure",
+    "max_cosine": 0.2815,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "tom",
+    "question": "What kind of movies or TV shows do you prefer watching in the evening?",
+    "terms": [
+      "evening",
+      "kind",
+      "movies",
+      "prefer",
+      "shows",
+      "watching"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal history / Home environment",
+    "max_cosine": 0.2662,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "valentina",
+    "question": "Can you describe the layout and decor style of your childhood home?",
+    "terms": [
+      "childhood",
+      "decor",
+      "layout",
+      "style"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Pets and animals",
+    "max_cosine": 0.2535,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "valentina",
+    "question": "Do you have any pets, and if so, what are their names and breeds?",
+    "terms": [
+      "breeds",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Literary Interests",
+    "max_cosine": 0.2078,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "yoli",
+    "question": "What kind of books or authors do you enjoy reading in your free time?",
+    "terms": [
+      "authors",
+      "books",
+      "enjoy",
+      "free",
+      "kind",
+      "reading"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Travel History",
+    "max_cosine": 0.277,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "yoli",
+    "question": "Have you traveled internationally for leisure, and if so, which destination did you enjoy most?",
+    "terms": [
+      "destination",
+      "enjoy",
+      "internationally",
+      "leisure",
+      "traveled"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Physical Fitness",
+    "max_cosine": 0.2643,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "yoli",
+    "question": "What type of exercise or physical activity do you usually do to stay fit?",
+    "terms": [
+      "activity",
+      "exercise",
+      "physical",
+      "stay",
+      "usually"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Pets and Animals",
+    "max_cosine": 0.1775,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "yoli",
+    "question": "Do you have any pets, and if so, what kind and what are their names?",
+    "terms": [
+      "kind",
+      "names",
+      "pets"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment Preferences",
+    "max_cosine": 0.2429,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "yoli",
+    "question": "What is your favorite movie or TV show genre to watch when relaxing?",
+    "terms": [
+      "favorite",
+      "genre",
+      "movie",
+      "relaxing",
+      "show",
+      "watch"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment Preferences",
+    "max_cosine": 0.2207,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "zara",
+    "question": "Can you describe your favorite type of music or a band you enjoy listening to?",
+    "terms": [
+      "band",
+      "enjoy",
+      "favorite",
+      "listening",
+      "music"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Personal Life",
+    "max_cosine": 0.2739,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "zara",
+    "question": "What kind of pet do you have, and what is its name?",
+    "terms": [
+      "kind"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Entertainment",
+    "max_cosine": 0.1332,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "zara",
+    "question": "What was the last movie you watched and what did you think of it?",
+    "terms": [
+      "last",
+      "movie",
+      "think",
+      "watched"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Culinary Preferences",
+    "max_cosine": 0.2877,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "zara",
+    "question": "What is your favorite type of cuisine to cook at home?",
+    "terms": [
+      "cook",
+      "cuisine",
+      "favorite"
+    ],
+    "yaml_hits": []
+  },
+  {
+    "bank_hits": [],
+    "domain": "Community Involvement",
+    "max_cosine": 0.2885,
+    "n_bank": 0,
+    "n_yaml": 0,
+    "persona": "zara",
+    "question": "Have you ever participated in any volunteer or charity work? If so, what was it?",
+    "terms": [
+      "charity",
+      "participated",
+      "volunteer"
+    ],
+    "yaml_hits": []
+  }
+]

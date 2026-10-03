@@ -1,0 +1,238 @@
+{
+ "reader": "length-only: the number of names in the superseded-names section of the text the reader saw",
+ "post_hoc": true,
+ "padded": {
+  "whole": {
+   "n_items": 444,
+   "n_triples": 148,
+   "pooled": 0.7973,
+   "pooled_persona_ci": [
+    0.7552,
+    0.8404
+   ],
+   "W": 88,
+   "T": 60,
+   "L": 0,
+   "matched": 0.7973,
+   "matched_triple_ci": [
+    0.7568,
+    0.8378
+   ],
+   "matched_persona_ci": [
+    0.7552,
+    0.8404
+   ]
+  },
+  "supersession": {
+   "n_items": 264,
+   "n_triples": 88,
+   "pooled": 1.0,
+   "pooled_persona_ci": [
+    1.0,
+    1.0
+   ],
+   "W": 88,
+   "T": 0,
+   "L": 0,
+   "matched": 1.0,
+   "matched_triple_ci": [
+    1.0,
+    1.0
+   ],
+   "matched_persona_ci": [
+    1.0,
+    1.0
+   ]
+  },
+  "retraction": {
+   "n_items": 90,
+   "n_triples": 30,
+   "pooled": 0.5,
+   "pooled_persona_ci": [
+    0.5,
+    0.5
+   ],
+   "W": 0,
+   "T": 30,
+   "L": 0,
+   "matched": 0.5,
+   "matched_triple_ci": [
+    0.5,
+    0.5
+   ],
+   "matched_persona_ci": [
+    0.5,
+    0.5
+   ]
+  },
+  "expiry": {
+   "n_items": 90,
+   "n_triples": 30,
+   "pooled": 0.5,
+   "pooled_persona_ci": [
+    0.5,
+    0.5
+   ],
+   "W": 0,
+   "T": 30,
+   "L": 0,
+   "matched": 0.5,
+   "matched_triple_ci": [
+    0.5,
+    0.5
+   ],
+   "matched_persona_ci": [
+    0.5,
+    0.5
+   ]
+  }
+ },
+ "unpadded": {
+  "whole": {
+   "n_items": 444,
+   "n_triples": 148,
+   "pooled": 0.6295,
+   "pooled_persona_ci": [
+    0.6078,
+    0.6654
+   ],
+   "W": 88,
+   "T": 60,
+   "L": 0,
+   "matched": 0.7973,
+   "matched_triple_ci": [
+    0.7568,
+    0.8378
+   ],
+   "matched_persona_ci": [
+    0.7552,
+    0.8404
+   ]
+  },
+  "supersession": {
+   "n_items": 264,
+   "n_triples": 88,
+   "pooled": 0.7199,
+   "pooled_persona_ci": [
+    0.6949,
+    0.7716
+   ],
+   "W": 88,
+   "T": 0,
+   "L": 0,
+   "matched": 1.0,
+   "matched_triple_ci": [
+    1.0,
+    1.0
+   ],
+   "matched_persona_ci": [
+    1.0,
+    1.0
+   ]
+  },
+  "retraction": {
+   "n_items": 90,
+   "n_triples": 30,
+   "pooled": 0.5,
+   "pooled_persona_ci": [
+    0.5,
+    0.5
+   ],
+   "W": 0,
+   "T": 30,
+   "L": 0,
+   "matched": 0.5,
+   "matched_triple_ci": [
+    0.5,
+    0.5
+   ],
+   "matched_persona_ci": [
+    0.5,
+    0.5
+   ]
+  },
+  "expiry": {
+   "n_items": 90,
+   "n_triples": 30,
+   "pooled": 0.5,
+   "pooled_persona_ci": [
+    0.5,
+    0.5
+   ],
+   "W": 0,
+   "T": 30,
+   "L": 0,
+   "matched": 0.5,
+   "matched_triple_ci": [
+    0.5,
+    0.5
+   ],
+   "matched_persona_ci": [
+    0.5,
+    0.5
+   ]
+  }
+ },
+ "sibling": {
+  "supersession": {
+   "n_items": 176,
+   "n_triples": 88,
+   "pooled": 0.5,
+   "pooled_persona_ci": [
+    0.5,
+    0.5
+   ],
+   "W": 0,
+   "T": 88,
+   "L": 0,
+   "matched": 0.5,
+   "matched_triple_ci": [
+    0.5,
+    0.5
+   ],
+   "matched_persona_ci": [
+    0.5,
+    0.5
+   ]
+  }
+ },
+ "hist_pn_minus_sibling": {
+  "padded|supersession": {
+   "1": 162,
+   "2": 12,
+   "3": 2
+  },
+  "padded|whole": {
+   "0": 120,
+   "1": 162,
+   "2": 12,
+   "3": 2
+  },
+  "unpadded|supersession": {
+   "1": 162,
+   "2": 12,
+   "3": 2
+  },
+  "unpadded|whole": {
+   "0": 120,
+   "1": 162,
+   "2": 12,
+   "3": 2
+  },
+  "sibling|supersession": {
+   "0": 88
+  }
+ },
+ "unpadded_supersession_lists": {
+  "pn_mean": 2.625,
+  "pn_max": 6,
+  "present_empty": 24,
+  "n": 88
+ },
+ "padded_lengths": {
+  "pn_min": 60,
+  "pn_max": 60,
+  "sib_min": 57,
+  "sib_max": 60
+ }
+}

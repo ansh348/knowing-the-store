@@ -1,0 +1,21 @@
+{
+ "branch": "all_five",
+ "cached_share": 0.9982,
+ "calls_read": 25,
+ "cap": 14.0,
+ "draw": 2,
+ "draws_to_run": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "luna_spend": 0.757,
+ "mean_usd_per_call": 0.003542,
+ "model": "gpt-5.6-sol",
+ "probes": 0.011,
+ "projected_total_five_draws": 12.0571,
+ "sol_draw1": 4.9982,
+ "when": "2026-09-19T11:30:33"
+}

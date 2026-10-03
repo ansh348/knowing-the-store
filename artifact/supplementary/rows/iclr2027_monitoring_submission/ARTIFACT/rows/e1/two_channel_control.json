@@ -1,0 +1,25 @@
+{
+  "control": {
+    "both": 134,
+    "combined_recall": 0.9950248756218906,
+    "embedding_recall": 0.9651741293532339,
+    "epsilon": 0.00497512437810943,
+    "lexical_recall": 0.6965174129353234,
+    "n": 201
+  },
+  "embed_model": "text-embedding-3-small",
+  "no_elicitation_call": true,
+  "routing_counts": {
+    "amem|ABSENT|ingestion-loss-attributed": 12,
+    "amem|ABSENT|sweep-negative": 1,
+    "amem|PRESENT|None": 126,
+    "amem|UNRESOLVED|join-unresolved": 191,
+    "amem|UNRESOLVED|lexical-negative-embedding-positive": 83,
+    "mem0|ABSENT|ingestion-loss-attributed": 7,
+    "mem0|ABSENT|sweep-negative": 1,
+    "mem0|PRESENT|None": 94,
+    "mem0|UNRESOLVED|join-unresolved": 177,
+    "mem0|UNRESOLVED|lexical-negative-embedding-positive": 103
+  },
+  "threshold": 0.295
+}

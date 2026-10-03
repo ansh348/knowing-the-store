@@ -1,0 +1,339 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 39,
+    "in": 39549,
+    "out": 14613,
+    "usd": 0.039200399999999996
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 5,
+  "persona": "zara",
+  "probes": [
+    {
+      "domain": "Social Life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "birthday",
+        "party",
+        "theme"
+      ],
+      "max_cosine": 0.4493,
+      "note": "",
+      "question": "What was the theme of the last birthday party you attended?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.4493,
+          "entry_id": "lb_00177",
+          "text": "User is designing decorations for their mother's 50th birthday party"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4417,
+          "entry_id": "lb_00178",
+          "text": "User's family is organizing a Sudanese-themed party with henna night for the mother's 50th birthday"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.4247,
+          "entry_id": "lb_00182",
+          "text": "User is organizing a Sudanese-themed 50th birthday party for their mother on July 19"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3964,
+          "entry_id": "lb_00183",
+          "text": "User's family includes a mother turning 50 and an aunt who is cooking most of the food for the party"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.38,
+          "entry_id": "lb_00184",
+          "text": "User's mother is turning 50 on July 19 and they are organizing a Sudanese-themed party for her."
+        }
+      ],
+      "why_absent": "No information about social events or parties attended is stored."
+    },
+    {
+      "domain": "Entertainment Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "type"
+      ],
+      "max_cosine": 0.2207,
+      "note": "",
+      "question": "Can you describe your favorite type of music or a band you enjoy listening to?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2207,
+          "entry_id": "lb_00205",
+          "text": "User enjoys architecture so much that they do not have other hobbies"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2143,
+          "entry_id": "lb_00190",
+          "text": "User's family includes a brother who plays oud and a cousin who sings"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1888,
+          "entry_id": "lb_00186",
+          "text": "User's brother plays oud and cousin sings; they will provide live Sudanese music for the party."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1835,
+          "entry_id": "lb_00301",
+          "text": "User is interested in architecture podcasts about women in architecture for motivation."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1809,
+          "entry_id": "lb_00015",
+          "text": "User's home environment includes Sudanese food, Sudanese music, and Arabic spoken with a Khartoum accent."
+        }
+      ],
+      "why_absent": "No data on music preferences or entertainment interests is present."
+    },
+    {
+      "domain": "Personal Life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "name"
+      ],
+      "max_cosine": 0.2739,
+      "note": "",
+      "question": "What kind of pet do you have, and what is its name?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2739,
+          "entry_id": "lb_00101",
+          "text": "User's best friend is named Nour and is like a soulmate to the user"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2242,
+          "entry_id": "lb_00111",
+          "text": "User's best friend is Nour, who is like a soulmate to them."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2115,
+          "entry_id": "lb_00418",
+          "text": "User's best friend moved abroad"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1909,
+          "entry_id": "lb_00108",
+          "text": "User's best friend is Nour, who is like a soulmate and works with the user at the same firm in Abu Dhabi."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.1708,
+          "entry_id": "lb_00153",
+          "text": "User's name is Zara"
+        }
+      ],
+      "why_absent": "No information about pets or animals in personal life is stored."
+    },
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [],
+      "max_cosine": 0.1332,
+      "note": "",
+      "question": "What was the last movie you watched and what did you think of it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1332,
+          "entry_id": "lb_00306",
+          "text": "User is emotionally affected by Nour leaving the office, having cried on Nour's last day."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1307,
+          "entry_id": "lb_00022",
+          "text": "User's father watches Sudanese news every night."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1228,
+          "entry_id": "lb_00302",
+          "text": "User loves Hassan Fathy and considers Architecture for the Poor one of their favorite books"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1221,
+          "entry_id": "lb_00354",
+          "text": "User has a 20 minute presentation slot at the design review"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1176,
+          "entry_id": "lb_00359",
+          "text": "User is presenting the sustainability section to the Department of Culture at a design review on April 15, 2026."
+        }
+      ],
+      "why_absent": "No records of movies watched or opinions on films are included."
+    },
+    {
+      "domain": "Culinary Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "type"
+      ],
+      "max_cosine": 0.2877,
+      "note": "",
+      "question": "What is your favorite type of cuisine to cook at home?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2877,
+          "entry_id": "lb_00023",
+          "text": "User's mother cooks kisra and mullah to keep Sudanese culture alive in their kitchen."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2872,
+          "entry_id": "lb_00345",
+          "text": "User values their mother's cooking highly and estimates its worth at about 5000 dirhams a month."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.259,
+          "entry_id": "lb_00368",
+          "text": "User likes lentil soup and is likely to make lentil soup this week."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2402,
+          "entry_id": "lb_00015",
+          "text": "User's home environment includes Sudanese food, Sudanese music, and Arabic spoken with a Khartoum accent."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2237,
+          "entry_id": "lb_00385",
+          "text": "User and their friend have a tradition of Friday dinners"
+        }
+      ],
+      "why_absent": "No details about cooking habits or favorite cuisines are stored."
+    },
+    {
+      "domain": "Community Involvement",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "work"
+      ],
+      "max_cosine": 0.2885,
+      "note": "",
+      "question": "Have you ever participated in any volunteer or charity work? If so, what was it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2885,
+          "entry_id": "lb_00121",
+          "text": "User works on sustainable projects regularly"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2659,
+          "entry_id": "lb_00117",
+          "text": "User works on sustainable projects daily"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2557,
+          "entry_id": "lb_00142",
+          "text": "User is currently working on residential sustainability projects, mostly villas"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2391,
+          "entry_id": "lb_00145",
+          "text": "User is currently working on residential sustainability projects focused on villas in a hot desert climate."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2294,
+          "entry_id": "lb_00001",
+          "text": "User works on the residential team at a firm doing sustainable design for custom villas."
+        }
+      ],
+      "why_absent": "No information about volunteer activities or charity involvement is present."
+    },
+    {
+      "domain": "Daily Routine",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "daily"
+      ],
+      "max_cosine": 0.3821,
+      "note": "",
+      "question": "What is your preferred mode of transportation for your daily commute?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3821,
+          "entry_id": "lb_00110",
+          "text": "User and Nour carpool together every morning and are each other's main support at work."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3672,
+          "entry_id": "lb_00299",
+          "text": "User used to carpool daily with Nour for about two years."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3077,
+          "entry_id": "lb_00294",
+          "text": "User's best friend Nour used to be their carpool partner for about two years."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3065,
+          "entry_id": "lb_00112",
+          "text": "User carpools with Nour every morning and they eat lunch together daily at a Lebanese place near their office."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3039,
+          "entry_id": "lb_00291",
+          "text": "User's best friend Nour used to be their carpool partner for two years."
+        }
+      ],
+      "why_absent": "No data on transportation preferences or commuting habits is stored."
+    }
+  ],
+  "threshold": 0.295
+}

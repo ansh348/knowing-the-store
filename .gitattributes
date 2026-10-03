@@ -1,0 +1,2 @@
+# artifact/ is the release archive unpacked byte for byte: no line-ending conversion, ever.
+artifact/** -text

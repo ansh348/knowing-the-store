@@ -1,0 +1,338 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 15,
+    "in": 15927,
+    "out": 5601,
+    "usd": 0.0153324
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 2,
+  "persona": "ingrid",
+  "probes": [
+    {
+      "domain": "Cultural Activities",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last"
+      ],
+      "max_cosine": 0.2261,
+      "note": "",
+      "question": "What was the theme of the last art exhibition you visited?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2261,
+          "entry_id": "lb_00176",
+          "text": "User's conference talk audience is mixed, including Arctic researchers from multiple disciplines, policymakers, and journalists."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2077,
+          "entry_id": "lb_00002",
+          "text": "User's research involves shared vessel time across six projects"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2055,
+          "entry_id": "lb_00396",
+          "text": "User prefers the phrase 'persistent curiosity' to describe their engagement with research rather than 'sustained interest' or 'excitement'."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1961,
+          "entry_id": "lb_00174",
+          "text": "User's conference talk is scheduled for March 22, 2025, at the Arctic Science Summit in Reykjavik."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1934,
+          "entry_id": "lb_00202",
+          "text": "User has read two books by Asa Larsson and appreciates the atmospheric quality of her work."
+        }
+      ],
+      "why_absent": "No information about Ingrid's attendance or interest in art exhibitions or cultural events is present."
+    },
+    {
+      "domain": "Cooking and Cuisine",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "norwegian"
+      ],
+      "max_cosine": 0.4167,
+      "note": "",
+      "question": "Can you describe your favorite recipe for a traditional Norwegian dish?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4167,
+          "entry_id": "lb_00020",
+          "text": "User's father fished cod out of Lofoten for 35 years."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4167,
+          "entry_id": "lb_00021",
+          "text": "User's father fished cod out of Lofoten for 35 years."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4167,
+          "entry_id": "lb_00030",
+          "text": "User's father fished cod out of Lofoten for 35 years."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4167,
+          "entry_id": "lb_00028",
+          "text": "User's father fished cod out of Lofoten for 35 years."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4167,
+          "entry_id": "lb_00025",
+          "text": "User's father fished cod out of Lofoten for 35 years."
+        }
+      ],
+      "why_absent": "No details about Ingrid's cooking habits, favorite recipes, or culinary interests are stored."
+    },
+    {
+      "domain": "Music Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [],
+      "max_cosine": 0.3706,
+      "note": "",
+      "question": "What kind of music do you usually listen to when relaxing at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3706,
+          "entry_id": "lb_00318",
+          "text": "User prefers quiet environments and has always preferred quiet to noise"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2835,
+          "entry_id": "lb_00299",
+          "text": "User works better in silence and finds the apartment quieter now."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2465,
+          "entry_id": "lb_00210",
+          "text": "User reads Scandinavian noir novels and prefers slower, atmospheric entries over procedurals."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2271,
+          "entry_id": "lb_00203",
+          "text": "User prefers slower, atmospheric Scandinavian noir over procedural crime novels."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2202,
+          "entry_id": "lb_00316",
+          "text": "User lives in a reasonably sized apartment"
+        }
+      ],
+      "why_absent": "There is no data on Ingrid's music tastes or listening habits."
+    },
+    {
+      "domain": "Education and Learning",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "biology",
+        "marine"
+      ],
+      "max_cosine": 0.4236,
+      "note": "",
+      "question": "Have you ever taken a course or workshop unrelated to marine biology? If so, what was it about?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.4236,
+          "entry_id": "lb_00339",
+          "text": "User conducts marine fieldwork involving deploying equipment from boats, collecting water samples, and running basic analyses in a wet lab on site."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3902,
+          "entry_id": "lb_00312",
+          "text": "User's primary research interest includes kelp aquaculture and nearshore habitat monitoring"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3849,
+          "entry_id": "lb_00350",
+          "text": "User is conducting marine fieldwork involving equipment deployment from boats, water sample collection, and basic analyses in a wet lab on Senja."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3644,
+          "entry_id": "lb_00208",
+          "text": "User has experience working on a research vessel."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.355,
+          "entry_id": "lb_00219",
+          "text": "User's previous primary research focus was Arctic cod population dynamics."
+        }
+      ],
+      "why_absent": "No records of Ingrid's education beyond her professional field or any unrelated courses or workshops."
+    },
+    {
+      "domain": "Transportation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "preferred",
+        "weekend"
+      ],
+      "max_cosine": 0.5437,
+      "note": "",
+      "question": "What is your preferred method of transportation for weekend trips around Tromsø?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.5437,
+          "entry_id": "lb_00302",
+          "text": "User currently spends most of their time in Tromsoe."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.5222,
+          "entry_id": "lb_00269",
+          "text": "User skis in northern Norway and is familiar with the Tromsdalen route."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.5205,
+          "entry_id": "lb_00266",
+          "text": "User prefers the Tromsdalen route because it is 4 kilometres shorter and at lower elevation, offering less demanding terrain and reduced avalanche hazard exposure."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.5099,
+          "entry_id": "lb_00305",
+          "text": "User currently spends the rest of their time in Tromsoe."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.4831,
+          "entry_id": "lb_00309",
+          "text": "User is considering concentrating presence in Lofoten from March through September for kelp work and being in Tromsoe during winter."
+        }
+      ],
+      "why_absent": "No information about Ingrid's transportation preferences or habits for leisure travel."
+    },
+    {
+      "domain": "Community and Social Life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "events"
+      ],
+      "max_cosine": 0.2211,
+      "note": "",
+      "question": "Do you have any favorite local festivals or community events you attend regularly?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2211,
+          "entry_id": "lb_00198",
+          "text": "User participates in boat season activities involving long hours between sampling stations."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2209,
+          "entry_id": "lb_00312",
+          "text": "User's primary research interest includes kelp aquaculture and nearshore habitat monitoring"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2204,
+          "entry_id": "lb_00239",
+          "text": "User uploads data weekly from monitoring stations."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2179,
+          "entry_id": "lb_00335",
+          "text": "User plans to visit the animal shelter in December after the semester calms down."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.209,
+          "entry_id": "lb_00124",
+          "text": "User plans to implement a running log system to document publications, presentations, and outreach activities."
+        }
+      ],
+      "why_absent": "No data on Ingrid's participation in local festivals or community events."
+    },
+    {
+      "domain": "Home and Lifestyle",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [],
+      "max_cosine": 0.3445,
+      "note": "",
+      "question": "What kind of interior decoration style do you prefer for your home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3445,
+          "entry_id": "lb_00318",
+          "text": "User prefers quiet environments and has always preferred quiet to noise"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3036,
+          "entry_id": "lb_00328",
+          "text": "User is considering adopting an indoor cat for companionship."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2891,
+          "entry_id": "lb_00402",
+          "text": "User owns blackout curtains that are adequate but allow some ambient light to enter around edges and top of the window frame."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2873,
+          "entry_id": "lb_00110",
+          "text": "User's apartment faces north with large windows."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2795,
+          "entry_id": "lb_00112",
+          "text": "User's apartment faces north with large windows and has blackout curtains that are not perfectly sealed along the edges"
+        }
+      ],
+      "why_absent": "No details about Ingrid's home decoration preferences or style."
+    }
+  ],
+  "threshold": 0.295
+}

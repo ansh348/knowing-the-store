@@ -1,0 +1,73 @@
+{
+  "pre_commitment": "reported whether it confirms or breaks the null; stated before the first number was computed",
+  "independence": "no import of score_e2 / score_e2op / verify_e2op / e2_common; item set from gates_eval.json rows",
+  "join": {
+    "n_eval": 529,
+    "n_answer_rows": 1587,
+    "verdicts_resolved": 1587,
+    "verdicts_missing": 0,
+    "n_retrieved": 362,
+    "n_selected": 197
+  },
+  "audit": {
+    "v_rate": 0.28166351606805295,
+    "vi_rate": 0.22684310018903592,
+    "op_rate": 0.2589792060491493,
+    "random_mean": 0.25164272211720223,
+    "random_sd": 0.006063642882778792,
+    "n_le": 920,
+    "permutation_p_plain": 0.92,
+    "permutation_p_addone": 0.9200799200799201,
+    "analytic_random": 0.25183030632173703
+  },
+  "high_M_reference": {
+    "draws": 100000,
+    "p_true": 0.9043,
+    "tie_share": 0.06087,
+    "distinct_endpoint_values": 28,
+    "mc_se_at_1000": 0.009302768942632081
+  },
+  "diff": [
+    {
+      "quantity": "targeted endpoint (vi-OP)",
+      "audit": 0.2589792060491493,
+      "reported": 0.259,
+      "delta": -2.079395085069491e-05,
+      "tolerance": 0.0005,
+      "verdict": "AGREE",
+      "note": null
+    },
+    {
+      "quantity": "random-arm mean (vii-NOK)",
+      "audit": 0.25164272211720223,
+      "reported": 0.2519,
+      "delta": -0.0002572778827977795,
+      "tolerance": 0.000575247672823511,
+      "verdict": "AGREE",
+      "note": "Monte Carlo, +/-3 SE = 0.00058"
+    },
+    {
+      "quantity": "permutation p, one-sided",
+      "audit": 0.9200799200799201,
+      "reported": 0.8931,
+      "delta": 0.026979920079920117,
+      "tolerance": 0.025737132707432657,
+      "verdict": "DIVERGE",
+      "note": "Monte Carlo, +/-3 SE = 0.02574"
+    }
+  ],
+  "root_cause": {
+    "dominant": "Monte Carlo noise at N_SEEDS=1000",
+    "secondary": "estimator definition: plain n/N vs add-one (n+1)/(N+1)",
+    "true_p_100k": 0.9043,
+    "tie_share": 0.06087,
+    "distinct_endpoint_values": 28,
+    "mc_se_at_1000": 0.009302768942632081,
+    "original_addone": 0.8931068931068931,
+    "audit_addone": 0.9200799200799201,
+    "original_deviation_se": 1.203201644814797,
+    "audit_deviation_se": 1.6962605625519742,
+    "gap_in_se_of_difference": 2.0502293886231597
+  },
+  "verdict": "DIVERGENCE FOUND"
+}

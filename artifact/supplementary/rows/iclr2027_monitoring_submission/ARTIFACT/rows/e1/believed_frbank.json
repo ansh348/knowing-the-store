@@ -1,0 +1,299 @@
+{
+  "believed_index_fields": [
+    {
+      "available": "YES",
+      "field": "per-category active count",
+      "source": "count of is_active == True"
+    },
+    {
+      "available": "YES (unreliable)",
+      "field": "per-category superseded count",
+      "source": "is_active == False; recall 61%, precision 1.0% vs YAML"
+    },
+    {
+      "available": "YES (near-empty)",
+      "field": "per-category retracted count",
+      "source": "is_retracted; 31 of 18,936 entries corpus-wide"
+    },
+    {
+      "available": "YES",
+      "field": "per-category expired count",
+      "source": "event_time < pinned t_now - 14d"
+    },
+    {
+      "available": "YES (unreliable)",
+      "field": "supersession-event count",
+      "source": "count of non-null `supersedes` pointers"
+    },
+    {
+      "available": "YES",
+      "field": "scrubbed superseded slot names",
+      "source": "slot_key[1] of inactive entries, value-scrubbed"
+    },
+    {
+      "available": "YES",
+      "field": "recency stats",
+      "source": "created_at = session date"
+    }
+  ],
+  "believed_vs_true": {
+    "believed_superseded": 5968,
+    "intersection": 62,
+    "per_persona": [
+      {
+        "believed": 201,
+        "both": 5,
+        "persona": "aisha",
+        "true": 7
+      },
+      {
+        "believed": 150,
+        "both": 0,
+        "persona": "alex",
+        "true": 0
+      },
+      {
+        "believed": 80,
+        "both": 5,
+        "persona": "amara",
+        "true": 7
+      },
+      {
+        "believed": 174,
+        "both": 5,
+        "persona": "aroha",
+        "true": 5
+      },
+      {
+        "believed": 55,
+        "both": 0,
+        "persona": "billy",
+        "true": 0
+      },
+      {
+        "believed": 227,
+        "both": 0,
+        "persona": "bruna",
+        "true": 0
+      },
+      {
+        "believed": 150,
+        "both": 2,
+        "persona": "callum",
+        "true": 4
+      },
+      {
+        "believed": 146,
+        "both": 2,
+        "persona": "chenoa",
+        "true": 3
+      },
+      {
+        "believed": 146,
+        "both": 0,
+        "persona": "dariush",
+        "true": 1
+      },
+      {
+        "believed": 197,
+        "both": 0,
+        "persona": "david",
+        "true": 0
+      },
+      {
+        "believed": 163,
+        "both": 0,
+        "persona": "diane",
+        "true": 0
+      },
+      {
+        "believed": 107,
+        "both": 0,
+        "persona": "dmitri",
+        "true": 0
+      },
+      {
+        "believed": 227,
+        "both": 1,
+        "persona": "elena",
+        "true": 3
+      },
+      {
+        "believed": 114,
+        "both": 2,
+        "persona": "fatima",
+        "true": 3
+      },
+      {
+        "believed": 96,
+        "both": 3,
+        "persona": "ingrid",
+        "true": 7
+      },
+      {
+        "believed": 93,
+        "both": 0,
+        "persona": "jake",
+        "true": 0
+      },
+      {
+        "believed": 276,
+        "both": 7,
+        "persona": "jerome",
+        "true": 7
+      },
+      {
+        "believed": 111,
+        "both": 1,
+        "persona": "joonho",
+        "true": 2
+      },
+      {
+        "believed": 148,
+        "both": 2,
+        "persona": "kenji",
+        "true": 3
+      },
+      {
+        "believed": 159,
+        "both": 0,
+        "persona": "kofi",
+        "true": 2
+      },
+      {
+        "believed": 150,
+        "both": 1,
+        "persona": "leila",
+        "true": 3
+      },
+      {
+        "believed": 139,
+        "both": 1,
+        "persona": "lily",
+        "true": 1
+      },
+      {
+        "believed": 68,
+        "both": 0,
+        "persona": "marcus",
+        "true": 0
+      },
+      {
+        "believed": 145,
+        "both": 1,
+        "persona": "marley",
+        "true": 2
+      },
+      {
+        "believed": 191,
+        "both": 0,
+        "persona": "mehmet",
+        "true": 2
+      },
+      {
+        "believed": 199,
+        "both": 2,
+        "persona": "mirri",
+        "true": 2
+      },
+      {
+        "believed": 177,
+        "both": 2,
+        "persona": "nadia",
+        "true": 2
+      },
+      {
+        "believed": 131,
+        "both": 0,
+        "persona": "omar",
+        "true": 0
+      },
+      {
+        "believed": 197,
+        "both": 1,
+        "persona": "pan",
+        "true": 2
+      },
+      {
+        "believed": 118,
+        "both": 1,
+        "persona": "patrick",
+        "true": 1
+      },
+      {
+        "believed": 118,
+        "both": 0,
+        "persona": "priya",
+        "true": 0
+      },
+      {
+        "believed": 173,
+        "both": 1,
+        "persona": "raj",
+        "true": 4
+      },
+      {
+        "believed": 182,
+        "both": 3,
+        "persona": "rosa",
+        "true": 3
+      },
+      {
+        "believed": 97,
+        "both": 3,
+        "persona": "saga",
+        "true": 5
+      },
+      {
+        "believed": 177,
+        "both": 7,
+        "persona": "samuel",
+        "true": 8
+      },
+      {
+        "believed": 167,
+        "both": 0,
+        "persona": "thanh",
+        "true": 0
+      },
+      {
+        "believed": 166,
+        "both": 1,
+        "persona": "tom",
+        "true": 4
+      },
+      {
+        "believed": 112,
+        "both": 1,
+        "persona": "valentina",
+        "true": 2
+      },
+      {
+        "believed": 130,
+        "both": 0,
+        "persona": "yoli",
+        "true": 3
+      },
+      {
+        "believed": 111,
+        "both": 2,
+        "persona": "zara",
+        "true": 4
+      }
+    ],
+    "precision": 0.010388739946380697,
+    "recall": 0.6078431372549019,
+    "true_superseded": 102
+  },
+  "leak": {
+    "bands": {
+      "0.50": 78,
+      "0.75": 43,
+      "1.00": 11
+    },
+    "events": 109,
+    "note": "same 40-persona population as E0; re-derivation, not a new sample",
+    "personas_affected_at_0.50": 36
+  },
+  "no_api_calls": true
+}

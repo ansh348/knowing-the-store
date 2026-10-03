@@ -1,0 +1,1687 @@
+{
+  "population": 104,
+  "join_split": {
+    "superseded_or_expired": 74,
+    "unflagged": 22,
+    "retracted": 8
+  },
+  "attack_vector_split": {
+    "superseded_or_expired": 78,
+    "retracted": 26
+  },
+  "expected_split": {
+    "superseded_or_expired": 78,
+    "retracted": 26
+  },
+  "D-R85-12": "join split differs from the attack-vector split; the join's split is used (D-R85-12)",
+  "buckets": {
+    "EXTRACTION_MISS": 23,
+    "STALE_ACTIVE": 21,
+    "RECOVERED": 30
+  },
+  "recall": 0.4054,
+  "recall_denominator": 74,
+  "recall_denominator_attack_vector": 78,
+  "recall_over_attack_vector_78": 0.3846,
+  "recall_by_band": {
+    "0.5": [
+      48,
+      74
+    ],
+    "0.75": [
+      36,
+      74
+    ],
+    "0.8": [
+      30,
+      74
+    ]
+  },
+  "precision": 0.0669,
+  "precision_numerator": 54,
+  "precision_denominator": 807,
+  "retraction": "INEXPRESSIBLE (marker) on every Graphiti row",
+  "per_persona_precision": {
+    "aisha": {
+      "non_active_edges": 23,
+      "firing_non_active": 0,
+      "join_events": 7
+    },
+    "alex": {
+      "non_active_edges": 30,
+      "firing_non_active": 0,
+      "join_events": 7
+    },
+    "amara": {
+      "non_active_edges": 11,
+      "firing_non_active": 1,
+      "join_events": 8
+    },
+    "aroha": {
+      "non_active_edges": 19,
+      "firing_non_active": 3,
+      "join_events": 7
+    },
+    "billy": {
+      "non_active_edges": 7,
+      "firing_non_active": 0,
+      "join_events": 7
+    },
+    "bruna": {
+      "non_active_edges": 30,
+      "firing_non_active": 1,
+      "join_events": 8
+    },
+    "callum": {
+      "non_active_edges": 31,
+      "firing_non_active": 1,
+      "join_events": 7
+    },
+    "chenoa": {
+      "non_active_edges": 12,
+      "firing_non_active": 1,
+      "join_events": 7
+    },
+    "dariush": {
+      "non_active_edges": 15,
+      "firing_non_active": 1,
+      "join_events": 8
+    },
+    "david": {
+      "non_active_edges": 23,
+      "firing_non_active": 0,
+      "join_events": 8
+    },
+    "diane": {
+      "non_active_edges": 15,
+      "firing_non_active": 0,
+      "join_events": 7
+    },
+    "dmitri": {
+      "non_active_edges": 1,
+      "firing_non_active": 0,
+      "join_events": 7
+    },
+    "elena": {
+      "non_active_edges": 32,
+      "firing_non_active": 1,
+      "join_events": 8
+    },
+    "fatima": {
+      "non_active_edges": 21,
+      "firing_non_active": 5,
+      "join_events": 7
+    },
+    "ingrid": {
+      "non_active_edges": 19,
+      "firing_non_active": 8,
+      "join_events": 7
+    },
+    "jake": {
+      "non_active_edges": 11,
+      "firing_non_active": 2,
+      "join_events": 7
+    },
+    "jerome": {
+      "non_active_edges": 26,
+      "firing_non_active": 1,
+      "join_events": 8
+    },
+    "joonho": {
+      "non_active_edges": 23,
+      "firing_non_active": 1,
+      "join_events": 8
+    },
+    "kenji": {
+      "non_active_edges": 19,
+      "firing_non_active": 2,
+      "join_events": 7
+    },
+    "kofi": {
+      "non_active_edges": 23,
+      "firing_non_active": 0,
+      "join_events": 7
+    },
+    "leila": {
+      "non_active_edges": 10,
+      "firing_non_active": 1,
+      "join_events": 7
+    },
+    "lily": {
+      "non_active_edges": 27,
+      "firing_non_active": 1,
+      "join_events": 7
+    },
+    "marcus": {
+      "non_active_edges": 15,
+      "firing_non_active": 0,
+      "join_events": 8
+    },
+    "marley": {
+      "non_active_edges": 25,
+      "firing_non_active": 2,
+      "join_events": 8
+    },
+    "mehmet": {
+      "non_active_edges": 26,
+      "firing_non_active": 1,
+      "join_events": 7
+    },
+    "mirri": {
+      "non_active_edges": 26,
+      "firing_non_active": 0,
+      "join_events": 7
+    },
+    "nadia": {
+      "non_active_edges": 10,
+      "firing_non_active": 2,
+      "join_events": 7
+    },
+    "omar": {
+      "non_active_edges": 16,
+      "firing_non_active": 0,
+      "join_events": 7
+    },
+    "pan": {
+      "non_active_edges": 35,
+      "firing_non_active": 2,
+      "join_events": 7
+    },
+    "patrick": {
+      "non_active_edges": 17,
+      "firing_non_active": 0,
+      "join_events": 7
+    },
+    "priya": {
+      "non_active_edges": 18,
+      "firing_non_active": 1,
+      "join_events": 7
+    },
+    "raj": {
+      "non_active_edges": 19,
+      "firing_non_active": 8,
+      "join_events": 8
+    },
+    "rosa": {
+      "non_active_edges": 13,
+      "firing_non_active": 2,
+      "join_events": 7
+    },
+    "saga": {
+      "non_active_edges": 16,
+      "firing_non_active": 1,
+      "join_events": 7
+    },
+    "samuel": {
+      "non_active_edges": 27,
+      "firing_non_active": 2,
+      "join_events": 7
+    },
+    "thanh": {
+      "non_active_edges": 5,
+      "firing_non_active": 0,
+      "join_events": 7
+    },
+    "tom": {
+      "non_active_edges": 40,
+      "firing_non_active": 0,
+      "join_events": 7
+    },
+    "valentina": {
+      "non_active_edges": 16,
+      "firing_non_active": 0,
+      "join_events": 7
+    },
+    "yoli": {
+      "non_active_edges": 29,
+      "firing_non_active": 2,
+      "join_events": 8
+    },
+    "zara": {
+      "non_active_edges": 26,
+      "firing_non_active": 1,
+      "join_events": 7
+    }
+  },
+  "obligations": [
+    {
+      "item_id": "frbank:aisha:aisha_q01:FULL",
+      "persona": "aisha",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00004",
+        "lb_00008"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:aisha:aisha_q01:CAT-ABLATED",
+      "persona": "aisha",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00004",
+        "lb_00008"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:aisha:aisha_q01:SLOT-ABLATED",
+      "persona": "aisha",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00004",
+        "lb_00008"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:aisha:aisha_q02:FULL",
+      "persona": "aisha",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00131",
+        "lb_00139"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:aisha:aisha_q02:SLOT-ABLATED",
+      "persona": "aisha",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00131",
+        "lb_00139"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:aisha:aisha_q03:FULL",
+      "persona": "aisha",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00157",
+        "lb_00161"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:aisha:aisha_q03:SLOT-ABLATED",
+      "persona": "aisha",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00157",
+        "lb_00161"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:amara:amara_q03:FULL",
+      "persona": "amara",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00034",
+        "lb_00036",
+        "lb_00038",
+        "lb_00040",
+        "lb_00044"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:amara:amara_q03:SLOT-ABLATED",
+      "persona": "amara",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00034",
+        "lb_00036",
+        "lb_00038",
+        "lb_00040",
+        "lb_00044"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:aroha:aroha_q03:FULL",
+      "persona": "aroha",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00082",
+        "lb_00085",
+        "lb_00088",
+        "lb_00091"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:aroha:aroha_q03:CAT-ABLATED",
+      "persona": "aroha",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00082",
+        "lb_00085",
+        "lb_00088",
+        "lb_00091"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:bruna:bruna_q06:FULL",
+      "persona": "bruna",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00174",
+        "lb_00185"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:bruna:bruna_q06:CAT-ABLATED",
+      "persona": "bruna",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00185"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:bruna:bruna_q06:SLOT-ABLATED",
+      "persona": "bruna",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00174",
+        "lb_00185"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:bruna:bruna_q11:FULL",
+      "persona": "bruna",
+      "attack_vector": "AV2_expired_logistics",
+      "members": [
+        "lb_00103",
+        "lb_00104",
+        "lb_00108",
+        "lb_00109",
+        "lb_00119"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:bruna:bruna_q11:CAT-ABLATED",
+      "persona": "bruna",
+      "attack_vector": "AV2_expired_logistics",
+      "members": [
+        "lb_00103",
+        "lb_00104",
+        "lb_00108",
+        "lb_00109",
+        "lb_00119"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:dariush:dariush_q04:FULL",
+      "persona": "dariush",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00149",
+        "lb_00159",
+        "lb_00162"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+      "persona": "dariush",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00149",
+        "lb_00159",
+        "lb_00162"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:david:david_q06:FULL",
+      "persona": "david",
+      "attack_vector": "AV2_expired_logistics",
+      "members": [
+        "lb_00171",
+        "lb_00172",
+        "lb_00173",
+        "lb_00175"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:david:david_q06:CAT-ABLATED",
+      "persona": "david",
+      "attack_vector": "AV2_expired_logistics",
+      "members": [
+        "lb_00171",
+        "lb_00172",
+        "lb_00173",
+        "lb_00175"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:david:david_q11:FULL",
+      "persona": "david",
+      "attack_vector": "AV2_expired_logistics",
+      "members": [
+        "lb_00148",
+        "lb_00150"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:david:david_q11:CAT-ABLATED",
+      "persona": "david",
+      "attack_vector": "AV2_expired_logistics",
+      "members": [
+        "lb_00148",
+        "lb_00150"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:elena:elena_q01:FULL",
+      "persona": "elena",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00008",
+        "lb_00015"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:elena:elena_q01:CAT-ABLATED",
+      "persona": "elena",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00008",
+        "lb_00015"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:elena:elena_q01:SLOT-ABLATED",
+      "persona": "elena",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00008",
+        "lb_00015"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:elena:elena_q02:FULL",
+      "persona": "elena",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00135"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:elena:elena_q02:CAT-ABLATED",
+      "persona": "elena",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00135"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:elena:elena_q05:FULL",
+      "persona": "elena",
+      "attack_vector": "AV2_expired_logistics",
+      "members": [
+        "lb_00213",
+        "lb_00214",
+        "lb_00219"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 2,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:elena:elena_q05:CAT-ABLATED",
+      "persona": "elena",
+      "attack_vector": "AV2_expired_logistics",
+      "members": [
+        "lb_00213",
+        "lb_00214",
+        "lb_00219"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 2,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:elena:elena_q10:FULL",
+      "persona": "elena",
+      "attack_vector": "AV2_expired_logistics",
+      "members": [
+        "lb_00187"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:fatima:fatima_q02:FULL",
+      "persona": "fatima",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00088"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 4,
+      "firing_non_active": 4
+    },
+    {
+      "item_id": "frbank:fatima:fatima_q02:SLOT-ABLATED",
+      "persona": "fatima",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00088"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 4,
+      "firing_non_active": 4
+    },
+    {
+      "item_id": "frbank:fatima:fatima_q06:FULL",
+      "persona": "fatima",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00176",
+        "lb_00180",
+        "lb_00182",
+        "lb_00183",
+        "lb_00186",
+        "lb_00189"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:fatima:fatima_q06:SLOT-ABLATED",
+      "persona": "fatima",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00182",
+        "lb_00189"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:ingrid:ingrid_q01:FULL",
+      "persona": "ingrid",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00005",
+        "lb_00007",
+        "lb_00018",
+        "lb_00019",
+        "lb_00024",
+        "lb_00026"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 8,
+      "firing_non_active": 8
+    },
+    {
+      "item_id": "frbank:ingrid:ingrid_q01:CAT-ABLATED",
+      "persona": "ingrid",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00005",
+        "lb_00007",
+        "lb_00018",
+        "lb_00019",
+        "lb_00024",
+        "lb_00026"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 8,
+      "firing_non_active": 8
+    },
+    {
+      "item_id": "frbank:ingrid:ingrid_q01:SLOT-ABLATED",
+      "persona": "ingrid",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00005",
+        "lb_00007",
+        "lb_00018",
+        "lb_00019",
+        "lb_00024",
+        "lb_00026"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 8,
+      "firing_non_active": 8
+    },
+    {
+      "item_id": "frbank:ingrid:ingrid_q04:FULL",
+      "persona": "ingrid",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00076",
+        "lb_00078",
+        "lb_00085",
+        "lb_00086"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+      "persona": "ingrid",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00076",
+        "lb_00078",
+        "lb_00085",
+        "lb_00086"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:ingrid:ingrid_q04:SLOT-ABLATED",
+      "persona": "ingrid",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00076",
+        "lb_00078",
+        "lb_00085",
+        "lb_00086"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:jake:jake_q11:FULL",
+      "persona": "jake",
+      "attack_vector": "AV2_expired_logistics",
+      "members": [
+        "lb_00104",
+        "lb_00112"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 2,
+      "firing_non_active": 2
+    },
+    {
+      "item_id": "frbank:jerome:jerome_q02:FULL",
+      "persona": "jerome",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00001",
+        "lb_00011"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:jerome:jerome_q02:CAT-ABLATED",
+      "persona": "jerome",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00001",
+        "lb_00011"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:jerome:jerome_q02:SLOT-ABLATED",
+      "persona": "jerome",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00001",
+        "lb_00011"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:jerome:jerome_q03:FULL",
+      "persona": "jerome",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00005",
+        "lb_00008",
+        "lb_00012",
+        "lb_00014"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 3,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:joonho:joonho_q01:FULL",
+      "persona": "joonho",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00001",
+        "lb_00008"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 2,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:joonho:joonho_q01:SLOT-ABLATED",
+      "persona": "joonho",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00001",
+        "lb_00008"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 2,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:joonho:joonho_q04:FULL",
+      "persona": "joonho",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00134",
+        "lb_00138",
+        "lb_00142",
+        "lb_00145"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+      "persona": "joonho",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00134",
+        "lb_00138",
+        "lb_00142",
+        "lb_00145"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:kenji:kenji_q03:FULL",
+      "persona": "kenji",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00088",
+        "lb_00090",
+        "lb_00094"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 2,
+      "firing_non_active": 2
+    },
+    {
+      "item_id": "frbank:kenji:kenji_q03:SLOT-ABLATED",
+      "persona": "kenji",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00088",
+        "lb_00090",
+        "lb_00094"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 2,
+      "firing_non_active": 2
+    },
+    {
+      "item_id": "frbank:kofi:kofi_q01:FULL",
+      "persona": "kofi",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00014"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:kofi:kofi_q01:SLOT-ABLATED",
+      "persona": "kofi",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00014"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:kofi:kofi_q02:FULL",
+      "persona": "kofi",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00082"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+      "persona": "kofi",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00082"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:lily:lily_q01:FULL",
+      "persona": "lily",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00128"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:lily:lily_q01:SLOT-ABLATED",
+      "persona": "lily",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00128"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:lily:lily_q06:FULL",
+      "persona": "lily",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00166"
+      ],
+      "join_state": "retracted",
+      "bucket": "INEXPRESSIBLE (marker)"
+    },
+    {
+      "item_id": "frbank:lily:lily_q06:SLOT-ABLATED",
+      "persona": "lily",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00166"
+      ],
+      "join_state": "retracted",
+      "bucket": "INEXPRESSIBLE (marker)"
+    },
+    {
+      "item_id": "frbank:marcus:marcus_q10:FULL",
+      "persona": "marcus",
+      "attack_vector": "AV2_expired_logistics",
+      "members": [
+        "lb_00131",
+        "lb_00132"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:marcus:marcus_q10:CAT-ABLATED",
+      "persona": "marcus",
+      "attack_vector": "AV2_expired_logistics",
+      "members": [
+        "lb_00132"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:marcus:marcus_q12:FULL",
+      "persona": "marcus",
+      "attack_vector": "AV2_expired_logistics",
+      "members": [
+        "lb_00102"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:mehmet:mehmet_q02:FULL",
+      "persona": "mehmet",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00079",
+        "lb_00081"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:mehmet:mehmet_q02:CAT-ABLATED",
+      "persona": "mehmet",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00079",
+        "lb_00081"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:mehmet:mehmet_q02:SLOT-ABLATED",
+      "persona": "mehmet",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00079",
+        "lb_00081"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:mirri:mirri_q01:FULL",
+      "persona": "mirri",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00004",
+        "lb_00006"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:mirri:mirri_q01:SLOT-ABLATED",
+      "persona": "mirri",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00004",
+        "lb_00006"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:mirri:mirri_q04:FULL",
+      "persona": "mirri",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00155",
+        "lb_00157",
+        "lb_00159",
+        "lb_00160",
+        "lb_00162",
+        "lb_00164"
+      ],
+      "join_state": "retracted",
+      "bucket": "INEXPRESSIBLE (marker)"
+    },
+    {
+      "item_id": "frbank:mirri:mirri_q04:CAT-ABLATED",
+      "persona": "mirri",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00160"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+      "persona": "mirri",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00155",
+        "lb_00157",
+        "lb_00159",
+        "lb_00160",
+        "lb_00162",
+        "lb_00164"
+      ],
+      "join_state": "retracted",
+      "bucket": "INEXPRESSIBLE (marker)"
+    },
+    {
+      "item_id": "frbank:nadia:nadia_q02:FULL",
+      "persona": "nadia",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00084",
+        "lb_00088"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 2,
+      "firing_non_active": 2
+    },
+    {
+      "item_id": "frbank:nadia:nadia_q02:CAT-ABLATED",
+      "persona": "nadia",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00084",
+        "lb_00088"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 2,
+      "firing_non_active": 2
+    },
+    {
+      "item_id": "frbank:nadia:nadia_q02:SLOT-ABLATED",
+      "persona": "nadia",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00088"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 2,
+      "firing_non_active": 2
+    },
+    {
+      "item_id": "frbank:nadia:nadia_q06:FULL",
+      "persona": "nadia",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00178",
+        "lb_00180",
+        "lb_00182",
+        "lb_00188"
+      ],
+      "join_state": "retracted",
+      "bucket": "INEXPRESSIBLE (marker)"
+    },
+    {
+      "item_id": "frbank:nadia:nadia_q06:SLOT-ABLATED",
+      "persona": "nadia",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00178",
+        "lb_00180",
+        "lb_00182",
+        "lb_00188"
+      ],
+      "join_state": "retracted",
+      "bucket": "INEXPRESSIBLE (marker)"
+    },
+    {
+      "item_id": "frbank:pan:pan_q01:FULL",
+      "persona": "pan",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00012",
+        "lb_00017"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+      "persona": "pan",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00017"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+      "persona": "pan",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00012",
+        "lb_00017"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:raj:raj_q02:FULL",
+      "persona": "raj",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00113",
+        "lb_00115",
+        "lb_00119"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:raj:raj_q02:CAT-ABLATED",
+      "persona": "raj",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00113",
+        "lb_00115"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:raj:raj_q02:SLOT-ABLATED",
+      "persona": "raj",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00113",
+        "lb_00115",
+        "lb_00119"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:raj:raj_q03:FULL",
+      "persona": "raj",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00033"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:raj:raj_q03:SLOT-ABLATED",
+      "persona": "raj",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00033"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:rosa:rosa_q06:FULL",
+      "persona": "rosa",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00231",
+        "lb_00233",
+        "lb_00236",
+        "lb_00240",
+        "lb_00242"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:rosa:rosa_q06:CAT-ABLATED",
+      "persona": "rosa",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00231",
+        "lb_00233",
+        "lb_00236",
+        "lb_00240",
+        "lb_00242"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:rosa:rosa_q06:SLOT-ABLATED",
+      "persona": "rosa",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00231",
+        "lb_00233",
+        "lb_00236",
+        "lb_00240",
+        "lb_00242"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:saga:saga_q01:FULL",
+      "persona": "saga",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00002"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:saga:saga_q01:SLOT-ABLATED",
+      "persona": "saga",
+      "attack_vector": "AV4_multi_version_fact",
+      "members": [
+        "lb_00002"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:saga:saga_q02:FULL",
+      "persona": "saga",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00068",
+        "lb_00075",
+        "lb_00080",
+        "lb_00085"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:saga:saga_q02:SLOT-ABLATED",
+      "persona": "saga",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00068",
+        "lb_00075",
+        "lb_00080",
+        "lb_00085"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:samuel:samuel_q02:FULL",
+      "persona": "samuel",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00086",
+        "lb_00090",
+        "lb_00093",
+        "lb_00096",
+        "lb_00099"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:samuel:samuel_q02:CAT-ABLATED",
+      "persona": "samuel",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00093"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:samuel:samuel_q02:SLOT-ABLATED",
+      "persona": "samuel",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00086",
+        "lb_00090",
+        "lb_00093",
+        "lb_00096",
+        "lb_00099"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:thanh:thanh_q02:FULL",
+      "persona": "thanh",
+      "attack_vector": "AV2_expired_logistics",
+      "members": [
+        "lb_00120"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:thanh:thanh_q02:CAT-ABLATED",
+      "persona": "thanh",
+      "attack_vector": "AV2_expired_logistics",
+      "members": [
+        "lb_00120"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "EXTRACTION_MISS",
+      "marking_events": 1,
+      "firing_edges": 0,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:tom:tom_q06:FULL",
+      "persona": "tom",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00143",
+        "lb_00148",
+        "lb_00151",
+        "lb_00160",
+        "lb_00163"
+      ],
+      "join_state": "retracted",
+      "bucket": "INEXPRESSIBLE (marker)"
+    },
+    {
+      "item_id": "frbank:tom:tom_q06:SLOT-ABLATED",
+      "persona": "tom",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00143",
+        "lb_00148",
+        "lb_00151",
+        "lb_00160",
+        "lb_00163"
+      ],
+      "join_state": "retracted",
+      "bucket": "INEXPRESSIBLE (marker)"
+    },
+    {
+      "item_id": "frbank:valentina:valentina_q03:FULL",
+      "persona": "valentina",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00087",
+        "lb_00101"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:valentina:valentina_q03:SLOT-ABLATED",
+      "persona": "valentina",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00087",
+        "lb_00101"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "STALE_ACTIVE",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 0
+    },
+    {
+      "item_id": "frbank:valentina:valentina_q04:FULL",
+      "persona": "valentina",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00115",
+        "lb_00117",
+        "lb_00120"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+      "persona": "valentina",
+      "attack_vector": "AV7_selective_forgetting",
+      "members": [
+        "lb_00115",
+        "lb_00117",
+        "lb_00120"
+      ],
+      "join_state": "unflagged",
+      "bucket": "UNFLAGGED (no member marked by the join)"
+    },
+    {
+      "item_id": "frbank:zara:zara_q02:FULL",
+      "persona": "zara",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00079",
+        "lb_00085",
+        "lb_00090",
+        "lb_00096"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:zara:zara_q02:CAT-ABLATED",
+      "persona": "zara",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00085",
+        "lb_00096"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    },
+    {
+      "item_id": "frbank:zara:zara_q02:SLOT-ABLATED",
+      "persona": "zara",
+      "attack_vector": "AV1_superseded_preference",
+      "members": [
+        "lb_00079",
+        "lb_00085",
+        "lb_00090",
+        "lb_00096"
+      ],
+      "join_state": "superseded_or_expired",
+      "bucket": "RECOVERED",
+      "marking_events": 1,
+      "firing_edges": 1,
+      "firing_non_active": 1
+    }
+  ]
+}

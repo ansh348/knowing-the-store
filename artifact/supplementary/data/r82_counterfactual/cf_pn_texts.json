@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "cosine_min": 0.85,
+    "embed_model": "text-embedding-3-small",
+    "embed_tokens": 467,
+    "model": "gpt-4.1-mini",
+    "prompt_sha256": "b6f53b1ab03fbd7124759fe19d875464f7e236a2df0a80a27f83c5277467a832",
+    "retries": 0,
+    "seed": 42,
+    "tau_hi": 0.8,
+    "tokens_in": 6536,
+    "tokens_out": 500,
+    "usd": 0.003424
+  },
+  "records": [
+    {
+      "attempts": 1,
+      "new_text": "User is currently feeling moderate exhaustion caused by insufficient rest and high stress levels at work.",
+      "pair_id": "cf:aisha:health_condition:fatigue",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 10
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User notices that endometriosis symptoms intensify primarily during the spring months, influenced by hormonal changes and increased physical activity.",
+      "pair_id": "cf:amara:health_condition:endometriosis_flare_season",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 13,
+        "n_discr_old": 11
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has decided to cancel their plans for a postgraduate diploma focused on complex maternal care at the University of Otago.",
+      "pair_id": "cf:aroha:project:postgraduate_study",
+      "predicates": {
+        "cosine_to_original": 0.7921,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 4,
+        "n_discr_old": 3,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf:billy:project_aircraft:aerial_wildlife_survey",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf:david:coaching_event_date",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the project involving a chaplain's viewpoint on mortality and moral dilemmas in narrative construction.",
+      "pair_id": "cf:diane:project:chaplain_book",
+      "predicates": {
+        "cosine_to_original": 0.6852,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 9,
+        "n_discr_old": 9,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the initiative to create a dedicated platform for client interactions, opting not to separate external communication tools from internal personal applications.",
+      "pair_id": "cf:dmitri:project:client_portal",
+      "predicates": {
+        "cosine_to_original": 0.5656,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 12,
+        "n_discr_old": 11,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf:elena:event:wedding_timeline",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf:fatima:trip_schedule:salone_del_mobile_2026",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User named their truck Luna inspired by the moon's glow during nighttime drives.",
+      "pair_id": "cf:jerome:vehicle_name",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 4
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the preparation of detailed case studies related to their freelance subcontracting projects.",
+      "pair_id": "cf:kenji:project:case_studies",
+      "predicates": {
+        "cosine_to_original": 0.7769,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 3,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User obtains 950 cedis for each 64-kilogram sack of cocoa beans.",
+      "pair_id": "cf:kofi:price_per_bag",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 5
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User experiences a strong alignment between their career in luxury home architecture and their inner creative drive.",
+      "pair_id": "cf:leila:work_passion_discrepancy",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 10
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the honours thesis investigating microplastic pollution in Port Phillip Bay, which involved analyzing water and sediment samples for polymer identification and concentration levels.",
+      "pair_id": "cf:lily:project:honours_thesis_microplastics",
+      "predicates": {
+        "cosine_to_original": 0.8666,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 8,
+        "write_path_deactivates_original": true
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf:marcus:event:Kayla_graduation_party",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf:marley:event_transportation",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf:mehmet:preparation:barber_trade_guild_annual_meeting",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the initiative to divide the East Alligator River patrol into separate northern and southern segments for improved access.",
+      "pair_id": "cf:mirri:project:patrol_schedule_reorganization",
+      "predicates": {
+        "cosine_to_original": 0.6958,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 9,
+        "n_discr_old": 17,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has cancelled the preparation of the red wine jus sauce featuring juniper and dark chocolate for the venison entrée.",
+      "pair_id": "cf:nadia:project:winter_menu_sauce",
+      "predicates": {
+        "cosine_to_original": 0.7943,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 4,
+        "n_discr_old": 4,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has decided to drop the Instagram post concept highlighting the family legacy and transformation of their khao man gai enterprise.",
+      "pair_id": "cf:pan:project:instagram_post_idea",
+      "predicates": {
+        "cosine_to_original": 0.7747,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 9,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User's partner prefers modern flat-panel kitchen cabinets with a sleek minimalist design.",
+      "pair_id": "cf:patrick:partner_preference:kitchen_cabinets_style",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 4
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf:priya:project_deadline:NeurIPS_paper",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User and Simran decided to allocate approximately 120 pounds for purchasing a present for Arjun's upcoming birthday celebration.",
+      "pair_id": "cf:raj:budget:arjun_birthday_gift",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 4
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf:rosa:event:toast_planning",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User allocates about 2000 kronor, roughly 190 euros, for purchasing presents this season.",
+      "pair_id": "cf:saga:gift_budget",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 6
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has cancelled their participation in writing a section for the medical publication focused on skull surgery techniques.",
+      "pair_id": "cf:samuel:project:cranial_approaches_textbook_chapter",
+      "predicates": {
+        "cosine_to_original": 0.551,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 6,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf:thanh:event_guest_count:duc_wedding",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has officially cancelled their affiliation with the Gloucestershire Beekeepers association and will not be renewing their participation.",
+      "pair_id": "cf:tom:membership:gloucestershire_beekeepers",
+      "predicates": {
+        "cosine_to_original": 0.7401,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 5,
+        "n_discr_old": 8,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User prefers Google Sheets primarily for organizing and analyzing professional spreadsheets.",
+      "pair_id": "cf:valentina:software_preference:excel",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 7
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User based their creative approach on the innovative techniques of architect Zaha Hadid.",
+      "pair_id": "cf:zara:design_philosophy_inspiration",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 8
+      },
+      "state": "SUPERSESSION"
+    }
+  ]
+}

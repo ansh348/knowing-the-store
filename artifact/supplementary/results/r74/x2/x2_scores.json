@@ -1,0 +1,193 @@
+{
+ "backends": {
+  "amem": {
+   "X2a-count-removed": {
+    "arm_auroc": 0.4587351818364477,
+    "blind_auroc": 0.5590968454892505,
+    "boot": {
+     "ci_hi": -0.030942567893370382,
+     "ci_lo": -0.16986552390142654,
+     "excludes_zero": true,
+     "mean": -0.10178743682405766,
+     "n": 1000
+    },
+    "by_construction_equals_intact": false,
+    "clustered_ci": [
+     -0.15748545427174496,
+     -0.04268889825645271
+    ],
+    "delta": -0.10036166365280286,
+    "n": 284,
+    "recovers": false,
+    "recovers_R1_positive": false,
+    "recovers_R2_shrink50_excl_intact": false
+   },
+   "X2b-names-removed": {
+    "arm_auroc": 0.45260699216395417,
+    "blind_auroc": 0.5590968454892505,
+    "boot": {
+     "ci_hi": -0.04221070209769663,
+     "ci_lo": -0.16883210880932312,
+     "excludes_zero": true,
+     "mean": -0.10746912737997932,
+     "n": 1000
+    },
+    "by_construction_equals_intact": true,
+    "clustered_ci": [
+     -0.16543679026287722,
+     -0.0446391480510389
+    ],
+    "delta": -0.10648985332529637,
+    "n": 284,
+    "recovers": false,
+    "recovers_R1_positive": false,
+    "recovers_R2_shrink50_excl_intact": false
+   },
+   "X2c-markers-removed": {
+    "arm_auroc": 0.4704641350210971,
+    "blind_auroc": 0.5590968454892505,
+    "boot": {
+     "ci_hi": -0.026860632669007577,
+     "ci_lo": -0.15502830071789014,
+     "excludes_zero": true,
+     "mean": -0.09009870005642227,
+     "n": 1000
+    },
+    "by_construction_equals_intact": false,
+    "clustered_ci": [
+     -0.14492117834048934,
+     -0.029970145293514876
+    ],
+    "delta": -0.08863271046815346,
+    "n": 284,
+    "recovers": false,
+    "recovers_R1_positive": false,
+    "recovers_R2_shrink50_excl_intact": false
+   },
+   "X2d-count-markers-removed": {
+    "arm_auroc": 0.5222523608599557,
+    "blind_auroc": 0.5590968454892505,
+    "boot": {
+     "ci_hi": 0.02677908020259634,
+     "ci_lo": -0.10409081003765175,
+     "excludes_zero": false,
+     "mean": -0.038782930337782774,
+     "n": 1000
+    },
+    "by_construction_equals_intact": false,
+    "clustered_ci": [
+     -0.0974030156571596,
+     0.022523288739400297
+    ],
+    "delta": -0.036844484629294794,
+    "n": 284,
+    "recovers": true,
+    "recovers_R1_positive": false,
+    "recovers_R2_shrink50_excl_intact": true
+   },
+   "intact_reproduction": {
+    "blind_auroc": 0.5590968454892505,
+    "delta": -0.10648985332529637,
+    "indexed_auroc": 0.45260699216395417,
+    "n": 284
+   }
+  },
+  "mem0": {
+   "X2a-count-removed": {
+    "arm_auroc": 0.4802378841607565,
+    "blind_auroc": 0.5745789007092199,
+    "boot": {
+     "ci_hi": -0.02325539916738898,
+     "ci_lo": -0.16744686777952247,
+     "excludes_zero": true,
+     "mean": -0.09546911680137041,
+     "n": 1000
+    },
+    "by_construction_equals_intact": false,
+    "clustered_ci": [
+     -0.1481907908525421,
+     -0.044012012064981614
+    ],
+    "delta": -0.09434101654846339,
+    "n": 238,
+    "recovers": false,
+    "recovers_R1_positive": false,
+    "recovers_R2_shrink50_excl_intact": false
+   },
+   "X2b-names-removed": {
+    "arm_auroc": 0.47765218676122934,
+    "blind_auroc": 0.5745789007092199,
+    "boot": {
+     "ci_hi": -0.022264668086414495,
+     "ci_lo": -0.16844277316541587,
+     "excludes_zero": true,
+     "mean": -0.09755959819470665,
+     "n": 1000
+    },
+    "by_construction_equals_intact": true,
+    "clustered_ci": [
+     -0.163764944393384,
+     -0.028568301478840707
+    ],
+    "delta": -0.09692671394799057,
+    "n": 238,
+    "recovers": false,
+    "recovers_R1_positive": false,
+    "recovers_R2_shrink50_excl_intact": false
+   },
+   "X2c-markers-removed": {
+    "arm_auroc": 0.47964686761229314,
+    "blind_auroc": 0.5745789007092199,
+    "boot": {
+     "ci_hi": -0.02497500752152765,
+     "ci_lo": -0.16542845976513362,
+     "excludes_zero": true,
+     "mean": -0.09508230897394801,
+     "n": 1000
+    },
+    "by_construction_equals_intact": false,
+    "clustered_ci": [
+     -0.15530387257054448,
+     -0.03199160135549349
+    ],
+    "delta": -0.09493203309692677,
+    "n": 238,
+    "recovers": false,
+    "recovers_R1_positive": false,
+    "recovers_R2_shrink50_excl_intact": false
+   },
+   "X2d-count-markers-removed": {
+    "arm_auroc": 0.4664228723404255,
+    "blind_auroc": 0.5745789007092199,
+    "boot": {
+     "ci_hi": -0.039232067138360846,
+     "ci_lo": -0.17691176470588243,
+     "excludes_zero": true,
+     "mean": -0.1100420490458979,
+     "n": 1000
+    },
+    "by_construction_equals_intact": false,
+    "clustered_ci": [
+     -0.17225789329824848,
+     -0.04309165019762845
+    ],
+    "delta": -0.1081560283687944,
+    "n": 238,
+    "recovers": false,
+    "recovers_R1_positive": false,
+    "recovers_R2_shrink50_excl_intact": false
+   },
+   "intact_reproduction": {
+    "blind_auroc": 0.5745789007092199,
+    "delta": -0.09692671394799057,
+    "indexed_auroc": 0.47765218676122934,
+    "n": 238
+   }
+  }
+ },
+ "branch": "ii-multiple-partial",
+ "recovering_arm_store_pairs": [
+  "X2d-count-markers-removed@amem"
+ ],
+ "registration": "ADDENDUM_R74 SX2 @ 35f8416a55"
+}

@@ -1,0 +1,416 @@
+{
+ "P-M2": {
+  "holds": false,
+  "text": "P-M2 FAILS for GPT-5.6 Luna, GPT-5.6 Sol: GPT-5.6 Luna retraction: -0.0664 with intervals [-0.1505, +0.0156] and [-0.1903, +0.0294]; GPT-5.6 Sol retraction: -0.0322 with intervals [-0.1121, +0.0440] and [-0.1228, +0.0636]."
+ },
+ "cost_rule": {
+  "branch": "all_five",
+  "cached_share": 0.9982,
+  "calls_read": 25,
+  "cap": 14.0,
+  "draw": 2,
+  "draws_to_run": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "luna_spend": 0.757,
+  "mean_usd_per_call": 0.003542,
+  "model": "gpt-5.6-sol",
+  "probes": 0.011,
+  "projected_total_five_draws": 12.0571,
+  "sol_draw1": 4.9982,
+  "when": "2026-09-19T11:30:33"
+ },
+ "frozen_at": "b0bee93",
+ "lock": {
+  "arm": "INDEXED-V2R-CAT",
+  "cap_usd_both_models": 14.0,
+  "cell": 444,
+  "cost_rule": {
+   "after": "Sol draw 2 starts",
+   "branch_if_projection_over_cap": "Sol stops at three whole draws",
+   "calls_read": 25,
+   "otherwise": "all five"
+  },
+  "frozen_at": "b0bee93",
+  "k": 5,
+  "order": "Luna first, all five draws, draw-major; then Sol draw-major; 8 workers",
+  "parent_registration_sha256": "de2dd0baaf33ccb3dcf1c2b0c10b01cc6f76f851e4057946dc03f477a584b18f",
+  "prices_per_million": {
+   "gpt-5.6-luna": {
+    "cached": 0.02,
+    "inp": 0.2,
+    "out": 1.2,
+    "write_mult": 1.25
+   },
+   "gpt-5.6-sol": {
+    "cached": 0.4,
+    "inp": 4.0,
+    "out": 20.0,
+    "write_mult": 1.25
+   }
+  },
+  "prompts_file_sha256": "337d37d3414c04823d28ad99eeab15c34e328e60198d68625452ebf330830b84",
+  "prompts_texts_sha256": "35d9b968ffc0b008289a59b06f10b7d23f71658c648dd2865a46e8da15d495f2",
+  "registration": "registrations\\ADDENDUM_V2R_CAT_AMENDMENT_2.md",
+  "registration_sha256": "f70e4779f7b892df704fe3890917da25031c2f746aa67eaec64cfbe76b4462e9",
+  "settings": {
+   "max_completion_tokens": 2048,
+   "reasoning_effort": null,
+   "temperature": null
+  },
+  "texts_v2rcat_sha256": "a7c2ff99fd9c9c1c800b72e38acbd4ecf7807efab8054db60cf765d7a696cedc",
+  "v2_gates": {
+   "gpt-5.6-luna": 0.8417,
+   "gpt-5.6-sol": 0.85
+  },
+  "when": "2026-09-19T11:13:37"
+ },
+ "models": {
+  "gpt-5.6-luna": {
+   "census": {
+    "draws_per_unit": {
+     "5": 444
+    },
+    "identical_across_draws": 10,
+    "median_range": 0.09,
+    "not_ok": 0,
+    "rows": 2220,
+    "units": 444,
+    "units_collapsed": 444,
+    "usd": 0.757
+   },
+   "draws_whole": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "minus_v2": {
+    "agree": true,
+    "both_exclude_zero": true,
+    "delta": -0.0297,
+    "item_ci": {
+     "ci_hi": -0.00893921578605792,
+     "ci_lo": -0.049926818496241074,
+     "excludes_zero": true,
+     "mean": -0.02946377974414306,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": -0.008119200176104551,
+     "ci_lo": -0.05834383216267892,
+     "excludes_zero": true,
+     "mean": -0.030902115947601196,
+     "n_draws": 1000
+    }
+   },
+   "per_state": {
+    "EXPIRY": {
+     "agree": true,
+     "beyond_band_both": false,
+     "both_exclude_zero": true,
+     "delta": -0.1158,
+     "inside_band_both": false,
+     "item_ci": {
+      "ci_hi": -0.020991376976391522,
+      "ci_lo": -0.2162374818036726,
+      "excludes_zero": true,
+      "mean": -0.11601257410070949,
+      "n_draws": 1000
+     },
+     "n": 90,
+     "persona_ci": {
+      "ci_hi": -0.01211734693877553,
+      "ci_lo": -0.25512032312925165,
+      "excludes_zero": true,
+      "mean": -0.11999232746184534,
+      "n_draws": 1000
+     },
+     "pos": 30,
+     "reliable_negative": true,
+     "v2": 0.6167,
+     "v2rcat": 0.5008
+    },
+    "RETRACTION": {
+     "agree": true,
+     "beyond_band_both": false,
+     "both_exclude_zero": false,
+     "delta": -0.0664,
+     "inside_band_both": false,
+     "item_ci": {
+      "ci_hi": 0.015569892473118255,
+      "ci_lo": -0.15050644417311082,
+      "excludes_zero": false,
+      "mean": -0.06650517291395366,
+      "n_draws": 1000
+     },
+     "n": 90,
+     "persona_ci": {
+      "ci_hi": 0.029430376838235284,
+      "ci_lo": -0.1903010102323968,
+      "excludes_zero": false,
+      "mean": -0.071286517572439,
+      "n_draws": 1000
+     },
+     "pos": 30,
+     "reliable_negative": false,
+     "v2": 0.5458,
+     "v2rcat": 0.4794
+    },
+    "SUPERSESSION": {
+     "agree": true,
+     "beyond_band_both": false,
+     "both_exclude_zero": false,
+     "delta": -0.0011,
+     "inside_band_both": true,
+     "item_ci": {
+      "ci_hi": 0.010122156394020986,
+      "ci_lo": -0.012420218760040036,
+      "excludes_zero": false,
+      "mean": -0.000863372797124809,
+      "n_draws": 1000
+     },
+     "n": 264,
+     "persona_ci": {
+      "ci_hi": 0.01099629220177799,
+      "ci_lo": -0.01237710018331246,
+      "excludes_zero": false,
+      "mean": -0.00118882429196389,
+      "n_draws": 1000
+     },
+     "pos": 88,
+     "reliable_negative": false,
+     "v2": 0.9426,
+     "v2rcat": 0.9416
+    }
+   },
+   "scorable": true,
+   "served": [
+    "gpt-5.6-luna"
+   ],
+   "tokens": {
+    "cache_write_mean": 317.2009,
+    "cached_mean": 1294.4095,
+    "completion_mean": 195.9905,
+    "per_draw_cached_share": {
+     "1": 0.0159,
+     "2": 0.9981,
+     "3": 0.9981,
+     "4": 0.9981,
+     "5": 0.9981
+    },
+    "per_draw_usd": {
+     "1": 0.2792,
+     "2": 0.1197,
+     "3": 0.1193,
+     "4": 0.1199,
+     "5": 0.1188
+    },
+    "prompt_mean": 1614.6104,
+    "reasoning_mean": 165.9905
+   },
+   "usd": 0.757,
+   "v2_recorded_k5": 0.8417,
+   "v2rcat": 0.8121
+  },
+  "gpt-5.6-sol": {
+   "census": {
+    "draws_per_unit": {
+     "5": 444
+    },
+    "identical_across_draws": 32,
+    "median_range": 0.1,
+    "not_ok": 0,
+    "rows": 2220,
+    "units": 444,
+    "units_collapsed": 444,
+    "usd": 11.7984
+   },
+   "draws_whole": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "minus_v2": {
+    "agree": true,
+    "both_exclude_zero": true,
+    "delta": -0.0327,
+    "item_ci": {
+     "ci_hi": -0.015146095000171828,
+     "ci_lo": -0.052071467179663614,
+     "excludes_zero": true,
+     "mean": -0.03326347202404864,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": -0.010249132832353935,
+     "ci_lo": -0.062105453648915156,
+     "excludes_zero": true,
+     "mean": -0.033262606978401145,
+     "n_draws": 1000
+    }
+   },
+   "per_state": {
+    "EXPIRY": {
+     "agree": true,
+     "beyond_band_both": true,
+     "both_exclude_zero": true,
+     "delta": -0.1914,
+     "inside_band_both": false,
+     "item_ci": {
+      "ci_hi": -0.10740376069938132,
+      "ci_lo": -0.2862370981401737,
+      "excludes_zero": true,
+      "mean": -0.19275349363132774,
+      "n_draws": 1000
+     },
+     "n": 90,
+     "persona_ci": {
+      "ci_hi": -0.08155729166666668,
+      "ci_lo": -0.32316176470588237,
+      "excludes_zero": true,
+      "mean": -0.19368822739876804,
+      "n_draws": 1000
+     },
+     "pos": 30,
+     "reliable_negative": true,
+     "v2": 0.6403,
+     "v2rcat": 0.4489
+    },
+    "RETRACTION": {
+     "agree": true,
+     "beyond_band_both": false,
+     "both_exclude_zero": false,
+     "delta": -0.0322,
+     "inside_band_both": false,
+     "item_ci": {
+      "ci_hi": 0.04400229276895936,
+      "ci_lo": -0.11210542929292926,
+      "excludes_zero": false,
+      "mean": -0.03254256088868708,
+      "n_draws": 1000
+     },
+     "n": 90,
+     "persona_ci": {
+      "ci_hi": 0.06363034188034185,
+      "ci_lo": -0.12283054315476195,
+      "excludes_zero": false,
+      "mean": -0.03290610336208825,
+      "n_draws": 1000
+     },
+     "pos": 30,
+     "reliable_negative": false,
+     "v2": 0.5322,
+     "v2rcat": 0.5
+    },
+    "SUPERSESSION": {
+     "agree": true,
+     "beyond_band_both": false,
+     "both_exclude_zero": false,
+     "delta": -0.001,
+     "inside_band_both": true,
+     "item_ci": {
+      "ci_hi": 0.006933176952006319,
+      "ci_lo": -0.008344843035471507,
+      "excludes_zero": false,
+      "mean": -0.0009513884331471212,
+      "n_draws": 1000
+     },
+     "n": 264,
+     "persona_ci": {
+      "ci_hi": 0.00716898677970313,
+      "ci_lo": -0.009245943834523238,
+      "excludes_zero": false,
+      "mean": -0.001092642042517511,
+      "n_draws": 1000
+     },
+     "pos": 88,
+     "reliable_negative": false,
+     "v2": 0.9383,
+     "v2rcat": 0.9373
+    }
+   },
+   "scorable": true,
+   "served": [
+    "gpt-5.6-sol"
+   ],
+   "tokens": {
+    "cache_write_mean": 321.5653,
+    "cached_mean": 1290.045,
+    "completion_mean": 158.9369,
+    "per_draw_cached_share": {
+     "1": 0.0023,
+     "2": 0.9981,
+     "3": 0.9981,
+     "4": 0.9981,
+     "5": 0.9981
+    },
+    "per_draw_usd": {
+     "1": 4.9982,
+     "2": 1.6994,
+     "3": 1.6859,
+     "4": 1.6872,
+     "5": 1.7276
+    },
+    "prompt_mean": 1614.6104,
+    "reasoning_mean": 128.6892
+   },
+   "usd": 11.7984,
+   "v2_recorded_k5": 0.85,
+   "v2rcat": 0.8172
+  }
+ },
+ "probes": {
+  "gpt-5.6-luna": {
+   "cache_fields_present": true,
+   "identifier_ok": true,
+   "model": "gpt-5.6-luna",
+   "parsed": "OK",
+   "probe_line": 0.0008,
+   "sample": "{\"fok\":75,\"nok_candidates_found\":true,\"nok\":45,\"would_search\":true}",
+   "served": "gpt-5.6-luna",
+   "tok_cache_write": 1680,
+   "tok_cached": 0,
+   "tok_in": 1683,
+   "tok_out": 162,
+   "tok_reasoning": 132,
+   "under_line": true,
+   "usd": 0.000615,
+   "when": "2026-09-19T11:13:48"
+  },
+  "gpt-5.6-sol": {
+   "cache_fields_present": true,
+   "identifier_ok": true,
+   "model": "gpt-5.6-sol",
+   "parsed": "OK",
+   "probe_line": 0.0135,
+   "sample": "{\"fok\":92,\"nok_candidates_found\":true,\"nok\":84,\"would_search\":true}",
+   "served": "gpt-5.6-sol",
+   "tok_cache_write": 1680,
+   "tok_cached": 0,
+   "tok_in": 1683,
+   "tok_out": 97,
+   "tok_reasoning": 67,
+   "under_line": true,
+   "usd": 0.010352,
+   "when": "2026-09-19T11:14:02"
+  }
+ },
+ "registration_sha256": "f70e4779f7b892df704fe3890917da25031c2f746aa67eaec64cfbe76b4462e9",
+ "spend": {
+  "both": 12.5554,
+  "cap": 14.0,
+  "gpt-5.6-luna": 0.757,
+  "gpt-5.6-sol": 11.7984,
+  "probes": 0.011
+ },
+ "tol": 0.05,
+ "when": "2026-09-19T11:50:09"
+}

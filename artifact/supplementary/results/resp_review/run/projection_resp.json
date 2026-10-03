@@ -1,0 +1,43 @@
+{
+ "billed_so_far": {
+  "embedding": 6.594e-05,
+  "probes": 0.0027792000000000003,
+  "run": 0.0,
+  "total": 0.0028451400000000003
+ },
+ "budget": 4.0,
+ "per_arm": {
+  "BLIND-NOGATE": {
+   "calls": 302,
+   "tok_in": 430,
+   "tok_out": 19,
+   "usd": 0.06112480000000001
+  },
+  "HYBRID": {
+   "calls": 661,
+   "tok_in": 1942,
+   "tok_out": 26,
+   "usd": 0.5409624000000001
+  },
+  "RETRIEVED": {
+   "calls": 661,
+   "tok_in": 751,
+   "tok_out": 21,
+   "usd": 0.22077400000000003
+  },
+  "TRUE-REDRAW": {
+   "calls": 102,
+   "tok_in": 1682,
+   "tok_out": 24,
+   "usd": 0.07254239999999999
+  },
+  "V2-OWN": {
+   "calls": 102,
+   "tok_in": 1679,
+   "tok_out": 26,
+   "usd": 0.07274640000000002
+  }
+ },
+ "projected_usd": 0.9681500000000001,
+ "when": "2026-09-13T13:45:39"
+}

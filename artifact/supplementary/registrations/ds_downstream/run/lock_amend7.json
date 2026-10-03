@@ -1,0 +1,175 @@
+{
+ "files": {
+  "A1-allstates-gate|MINI": {
+   "files": [
+    "ds_downstream\\run\\rows_ds_amend1.jsonl"
+   ],
+   "rows": 233
+  },
+  "A3-instruction|H45": {
+   "files": [
+    "ds_downstream\\run\\rows_ds_amend3_h45.jsonl"
+   ],
+   "rows": 452
+  },
+  "A3-instruction|MINI": {
+   "files": [
+    "ds_downstream\\run\\rows_ds_amend3_mini.jsonl"
+   ],
+   "rows": 452
+  },
+  "A4-header|H45": {
+   "files": [
+    "ds_downstream\\run\\rows_ds_amend4_h45.jsonl"
+   ],
+   "rows": 452
+  },
+  "A4-header|MINI": {
+   "files": [
+    "ds_downstream\\run\\rows_ds_amend4_mini.jsonl"
+   ],
+   "rows": 452
+  },
+  "A5-duplicates-tagged|H45": {
+   "files": [
+    "ds_downstream\\run\\rows_ds_amend5_merged_h45.jsonl"
+   ],
+   "rows": 452
+  },
+  "A5-duplicates-tagged|MINI": {
+   "files": [
+    "ds_downstream\\run\\rows_ds_amend5_merged_mini.jsonl"
+   ],
+   "rows": 452
+  },
+  "D4|H45": {
+   "files": [
+    "ds_downstream\\run\\rows_ds_amend2_h45.jsonl"
+   ],
+   "rows": 452
+  },
+  "D4|MINI": {
+   "files": [
+    "ds_downstream\\run\\rows_ds.jsonl",
+    "ds_downstream\\run\\rows_ds_amend2.jsonl"
+   ],
+   "rows": 452
+  }
+ },
+ "frozen_at": "12c63f9",
+ "gates": {
+  "A4|H45": {
+   "got": {
+    "ALWAYS": 18,
+    "LOOKUP": 24,
+    "LOOKUP-ALL": 20,
+    "LOOKUP-LIT": 31,
+    "MODEL": 27,
+    "MODEL-ALL": 23,
+    "ORACLE": 32
+   },
+   "ok": true,
+   "want": {
+    "ALWAYS": 18,
+    "LOOKUP": 24,
+    "LOOKUP-ALL": 20,
+    "LOOKUP-LIT": 31,
+    "MODEL": 27,
+    "MODEL-ALL": 23,
+    "ORACLE": 32
+   }
+  },
+  "A4|MINI": {
+   "got": {
+    "ALWAYS": 11,
+    "LOOKUP": 9,
+    "LOOKUP-ALL": 9,
+    "LOOKUP-LIT": 17,
+    "MODEL": 11,
+    "MODEL-ALL": 12,
+    "ORACLE": 18
+   },
+   "ok": true,
+   "want": {
+    "ALWAYS": 11,
+    "LOOKUP": 9,
+    "LOOKUP-ALL": 9,
+    "LOOKUP-LIT": 17,
+    "MODEL": 11,
+    "MODEL-ALL": 12,
+    "ORACLE": 18
+   }
+  },
+  "A5|H45": {
+   "got": {
+    "ALWAYS": 11,
+    "LOOKUP": 16,
+    "LOOKUP-ALL": 12,
+    "LOOKUP-LIT": 18,
+    "MODEL": 17,
+    "MODEL-ALL": 13,
+    "ORACLE": 22
+   },
+   "ok": true,
+   "want": {
+    "ALWAYS": 11,
+    "LOOKUP": 16,
+    "LOOKUP-ALL": 12,
+    "LOOKUP-LIT": 18,
+    "MODEL": 17,
+    "MODEL-ALL": 13,
+    "ORACLE": 22
+   }
+  },
+  "A5|MINI": {
+   "got": {
+    "ALWAYS": 3,
+    "LOOKUP": 1,
+    "LOOKUP-ALL": 1,
+    "LOOKUP-LIT": 5,
+    "MODEL": 2,
+    "MODEL-ALL": 2,
+    "ORACLE": 3
+   },
+   "ok": true,
+   "want": {
+    "ALWAYS": 3,
+    "LOOKUP": 1,
+    "LOOKUP-ALL": 1,
+    "LOOKUP-LIT": 5,
+    "MODEL": 2,
+    "MODEL-ALL": 2,
+    "ORACLE": 3
+   }
+  }
+ },
+ "gates_ok": true,
+ "registration": "registrations\\ADDENDUM_DS_AMENDMENT_7.md",
+ "registration_sha256": "6566bf097f41ccd289c888f4c467d64786eea3230b7f23f279377b6c8a1a7201",
+ "rule": {
+  "conditional_words": [
+   "previous",
+   "previously",
+   "former",
+   "formerly"
+  ],
+  "regex": "\\b(superseded|retracted|expired|no\\ longer|not\\ current|outdated|out\\ of\\ date|cancelled|canceled|replaced|withdrawn|discontinued|past)\\b|\\b(is|was|has|had) passed\\b",
+  "sha256": "835329c6650279e0e7f2ca8c5a62bd7d9742f34678d3b1b8cbe0cdfe8962cbeb",
+  "state_words": [
+   "superseded",
+   "retracted",
+   "expired",
+   "no longer",
+   "not current",
+   "outdated",
+   "out of date",
+   "cancelled",
+   "canceled",
+   "replaced",
+   "withdrawn",
+   "discontinued",
+   "past"
+  ]
+ },
+ "when": "2026-09-15T00:29:31"
+}

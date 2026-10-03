@@ -1,0 +1,62 @@
+A1: human_validation\hv1\workbooks\blank\HV1_A1.xlsx sha256 7a1fc974eecb3cbf05561784a62edaa80d48c9de7c6bba7ab4774c1eb8bb6843 cells 2070 hard 0 review 41
+A2: human_validation\hv1\workbooks\blank\HV1_A2.xlsx sha256 50f1aa50876adacb827c8243c686ac9ca57b6dc3662c7976426419b99759e8e1 cells 1345 hard 0 review 7
+
+HARD FAILS: none
+
+CONTENT-COLUMN OCCURRENCES FOR REVIEW (48): words that appear inside the material being judged
+  meta:after x25
+  meta:before x17
+  version:PRESENT x2
+  version:PN x2
+  plain:literal x2
+  decimal:0.67 x2
+  version:ABSENT x1
+  decimal:0.45 x1
+  A1 README!A1 {'meta': ['before']} :: Thank you for doing this. Please read this page once before you start. It takes about five minutes.
+  A1 README!A15 {'version': ['PRESENT']} :: • PRESENT: the memory has what is needed to answer, and nothing in it would mislead.
+  A1 README!A16 {'version': ['PN']} :: • PN: the memory holds something on this topic that must not be used for this question, such as a cancelled plan, a repl
+  A1 README!A17 {'version': ['ABSENT']} :: • ABSENT: the memory has nothing about this topic.
+  A1 README!A18 {'version': ['PRESENT', 'PN']} :: Read the question carefully. A question about how something changed is allowed to use the old value, so that case is PRE
+  A1 PRACTICE!D14 {'meta': ['after']} :: • User values teamwork and interdisciplinary collaboration highly.  (recorded 2025-10-22) / • User is from a family with r
+  A1 ANSWERS!D63 {'meta': ['after']} :: Moved to music recommendations team after restructure
+  A1 ANSWERS!D71 {'meta': ['after']} :: Moved to music recommendations team after restructure
+  A1 ANSWERS!D97 {'meta': ['after']} :: Moved to music recommendations team after restructure
+  A1 ANSWERS!D198 {'meta': ['after']} :: Moved to music recommendations team after restructure
+  A1 ANSWERS!E230 {'meta': ['after']} :: Mirri patrols the East Alligator corridor, typically alone most days. The patrol route involves varied terrain including
+  A1 ANSWERS!E248 {'meta': ['after']} :: Mirri covers the East Alligator River corridor as part of their patrol work in Kakadu. The patrol sector involves drivin
+  A1 TRIPLES!E8 {'meta': ['after']} :: • User is shadowing the physiotherapy department at Bristol City football club twice a week.  (recorded 2025-12-09) / • Us
+  A1 TRIPLES!E9 {'meta': ['after']} :: • User is shadowing the physiotherapy department at Bristol City football club twice a week.  (recorded 2025-12-09) / • Us
+  A1 TRIPLES!E21 {'plain': ['literal']} :: • User prefers to use Arabic poetry, especially classical forms, rather than Quranic scripture in design.  (recorded 202
+  A1 TRIPLES!E22 {'plain': ['literal']} :: • User wants geometric drapery that references Islamic geometric tradition through underlying mathematical logic rather 
+  A1 TRIPLES!E30 {'meta': ['after']} :: • User is currently studying for the ACA qualification and has an exam in 3 days.  (recorded 2025-03-15; event date 2025
+  A1 TRIPLES!E31 {'meta': ['after']} :: • User plans to start studying for the CIMA qualification after the ACA exam and busy season.  (recorded 2025-03-15) / • U
+  A1 TRIPLES!D35 {'meta': ['before']} :: What tasks are scheduled for me to complete before the coming meeting?
+  A1 TRIPLES!D36 {'meta': ['before']} :: What tasks are scheduled for me to complete before the coming meeting?
+  A1 TRIPLES!E36 {'meta': ['before']} :: • User sells cocoa through a cooperative system in their village.  (recorded 2024-11-10) / • Ama is in Junior High School 
+  A1 TRIPLES!D37 {'meta': ['before']} :: What tasks are scheduled for me to complete before the coming meeting?
+  A1 TRIPLES!E37 {'meta': ['before']} :: • User plans to prepare and practice answers to questions before the October 3 meeting.  (recorded 2026-02-27; event dat
+  A1 TRIPLES!E41 {'meta': ['after']} :: • User drives from Inverness to Edinburgh on Fridays after work, taking about three and a half hours via the A9.  (recor
+  A1 TRIPLES!E42 {'meta': ['after']} :: • User is currently based in Inverness  (recorded 2024-11-08) / • User has a weekend routine of staying in Stockbridge, Ed
+  A1 TRIPLES!E43 {'meta': ['after']} :: • User drives from Inverness to Edinburgh on Fridays after work, taking about three and a half hours via the A9.  (recor
+  A1 TRIPLES!E47 {'meta': ['after']} :: • User is planning to get a female golden retriever puppy from a breeder.  (recorded 2025-05-19) / • User works on designi
+  A1 TRIPLES!E48 {'meta': ['after']} :: • User is planning to get a female golden retriever puppy from a breeder.  (recorded 2025-05-19) / • User is attending a c
+  A1 TRIPLES!E56 {'meta': ['before']} :: • User completed a commercial plumbing job involving a full kitchen plumbing refit for a restaurant.  (recorded 2026-03-
+  A1 TRIPLES!E58 {'meta': ['before']} :: • User worked for a couple of plumbing companies for a few years to learn the business side.  (recorded 2025-01-06) / • Us
+  A1 TRIPLES!E62 {'meta': ['before']} :: • User must complete 40 hours of extra training before March 16, 2026, including online modules, simulation labs, and tr
+  A1 TRIPLES!E63 {'meta': ['before']} :: • User must complete 40 hours of extra training before March 16, 2026, including online modules, simulation labs, and tr
+  A1 TRIPLES!E64 {'meta': ['before']} :: • User works night shifts from 7 PM to 7 AM, usually 3-4 nights a week  (recorded 2025-02-18) / • User must complete 40 ho
+  A1 TRIPLES!E116 {'meta': ['after']} :: • User experiences grading delays during basketball season, with essay turnaround time increasing from one week to up to
+  A1 TRIPLES!E117 {'meta': ['after']} :: • User is a teacher who often reads with a pedagogical agenda but is currently reading for pure pleasure.  (recorded 202
+  A1 TRIPLES!E118 {'meta': ['after']} :: • User is the debate team coach starting this fall  (recorded 2025-07-22; event date 2025-09-01) / • User experiences grad
+  A1 TRIPLES!E119 {'meta': ['before'], 'decimal': ['0.67']} :: • User has managed to do a morning walk on 63% of days since November.  (recorded 2026-02-25) / • User describes the curre
+  A1 TRIPLES!E120 {'meta': ['before'], 'decimal': ['0.67', '0.45']} :: • User experiences significant forearm pump and inefficient body position shifts during climbing crux sequences.  (recor
+  A1 TRIPLES!E122 {'meta': ['before']} :: • User prefers to alternate between sitting and standing in structured intervals during work, with a strict thirty-minut
+  A1 TRIPLES!E123 {'meta': ['before']} :: • User's current desk setup is ergonomically inadequate and contributes to back pain  (recorded 2026-02-12) / • User's old
+  A1 TRIPLES!E124 {'meta': ['before']} :: • User's older son is bright but has lost confidence in algebra due to fast-paced teaching.  (recorded 2025-04-05) / • Use
+  A2 README!A1 {'meta': ['before']} :: Thank you for doing this. Please read this page once before you start. It takes about five minutes.
+  A2 ANSWERS!D8 {'meta': ['after']} :: Moved to music recommendations team after restructure
+  A2 ANSWERS!D136 {'meta': ['after']} :: Moved to music recommendations team after restructure
+  A2 ANSWERS!D148 {'meta': ['after']} :: Moved to music recommendations team after restructure
+  A2 ANSWERS!D173 {'meta': ['after']} :: Moved to music recommendations team after restructure
+  A2 ANSWERS!E209 {'meta': ['after']} :: Mirri patrols the East Alligator corridor, typically alone most days. The patrol route involves varied terrain including
+  A2 ANSWERS!E247 {'meta': ['after']} :: Mirri covers the East Alligator River corridor as part of their patrol work in Kakadu. The patrol sector involves drivin

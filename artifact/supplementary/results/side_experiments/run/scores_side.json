@@ -1,0 +1,251 @@
+{
+ "S1": {
+  "H45": "-- (no committed Haiku blind or TRUE rows on the external items; the S1 Haiku lane moves to October)",
+  "amem": {
+   "D_interval_clustered": {
+    "ci_hi": 0.5041651746194448,
+    "ci_lo": 0.387455213613018,
+    "excludes_zero": true,
+    "mean": 0.4465117155469426,
+    "n_draws": 1000
+   },
+   "D_interval_item": {
+    "ci_hi": 0.5115977493466777,
+    "ci_lo": 0.3799848653467424,
+    "excludes_zero": true,
+    "mean": 0.4459179624961569,
+    "n_draws": 1000
+   },
+   "S1-P1": {
+    "clustered": true,
+    "criterion": "D > 0.05 and the paired interval of GT - TRUE excludes zero; the weaker reading governs where the two intervals disagree",
+    "disagree": false,
+    "holds": true,
+    "item_level": true
+   },
+   "S1-P2": {
+    "clustered": true,
+    "criterion": "the GT gain's interval does not lie entirely below zero; the weaker reading governs",
+    "disagree": false,
+    "holds": true,
+    "item_level": true
+   },
+   "X_interval_item": {
+    "ci_hi": -0.04033407456284799,
+    "ci_lo": -0.17256882840098275,
+    "excludes_zero": true,
+    "mean": -0.1067115836638584,
+    "n_draws": 1000
+   },
+   "Y_interval_clustered": {
+    "ci_hi": 0.3976388320362423,
+    "ci_lo": 0.2790714339264294,
+    "excludes_zero": true,
+    "mean": 0.3384449240187365,
+    "n_draws": 1000
+   },
+   "Y_interval_item": {
+    "ci_hi": 0.41220841505668065,
+    "ci_lo": 0.26727941807933797,
+    "excludes_zero": true,
+    "mean": 0.33920637883229854,
+    "n_draws": 1000
+   },
+   "arm_status": "registered test (two-channel map, spot-check 0.800, rule (c) 0.970)",
+   "auroc": {
+    "blind": 0.5590968454892505,
+    "gt": 0.8974030540486236,
+    "true": 0.45260699216395417
+   },
+   "coverage": "284 of 284 items scored under INDEXED-GT (paired on those)",
+   "difference_D": 0.44479606188466947,
+   "gain_gt_Y": 0.3383062085593731,
+   "gain_true_X": -0.10648985332529637,
+   "n": 284,
+   "n_personas": 40,
+   "n_population": 284,
+   "n_pos": 126
+  },
+  "mem0": {
+   "D_interval_clustered": {
+    "ci_hi": 0.46168692997251376,
+    "ci_lo": 0.3327392692853918,
+    "excludes_zero": true,
+    "mean": 0.3979435061964289,
+    "n_draws": 1000
+   },
+   "D_interval_item": {
+    "ci_hi": 0.4747079203198308,
+    "ci_lo": 0.3218364093691793,
+    "excludes_zero": true,
+    "mean": 0.3975715331789975,
+    "n_draws": 1000
+   },
+   "X_interval_item": {
+    "ci_hi": -0.024955421709675026,
+    "ci_lo": -0.1686248763035701,
+    "excludes_zero": true,
+    "mean": -0.09774327121741579,
+    "n_draws": 1000
+   },
+   "Y_interval_clustered": {
+    "ci_hi": 0.3669416056783346,
+    "ci_lo": 0.24291279585065456,
+    "excludes_zero": true,
+    "mean": 0.30228810681078006,
+    "n_draws": 1000
+   },
+   "Y_interval_item": {
+    "ci_hi": 0.3727722551732341,
+    "ci_lo": 0.2207595312704009,
+    "excludes_zero": true,
+    "mean": 0.2998282619615817,
+    "n_draws": 1000
+   },
+   "arm_status": "DESCRIPTIVE ROW: spot-check precision 0.567 under the two-channel map; lexical-required coverage 0.494 < 0.50 (rule (c)); no verdict",
+   "auroc": {
+    "blind": 0.5745789007092199,
+    "gt": 0.8751477541371159,
+    "true": 0.47765218676122934
+   },
+   "coverage": "238 of 238 items scored under INDEXED-GT (paired on those)",
+   "difference_D": 0.39749556737588654,
+   "gain_gt_Y": 0.30056885342789597,
+   "gain_true_X": -0.09692671394799057,
+   "n": 238,
+   "n_personas": 37,
+   "n_population": 238,
+   "n_pos": 94
+  }
+ },
+ "S2U": {
+  "auroc": {
+   "believed": 0.5958603784007733,
+   "blind": 0.49461400359066426,
+   "s2u": 0.6512912581135202,
+   "true": 0.7339024306035078
+  },
+  "believed_gain_interval_item": {
+   "ci_hi": 0.15431495274745208,
+   "ci_lo": 0.045808824736030714,
+   "excludes_zero": true,
+   "mean": 0.10200008058304709,
+   "n_draws": 1000
+  },
+  "branch": "retention reaches 60% (not expected)",
+  "committed_retention_42_3": 0.423,
+  "coverage": "661 of 661 items scored under S2-U (all four arms paired on those)",
+  "expected_direction": "retention short of 60%",
+  "gains": {
+   "believed": 0.10124637481010906,
+   "s2u": 0.1566772545228559,
+   "true": 0.23928842701284353
+  },
+  "line_60pct": 0.6,
+  "n": 661,
+  "n_personas": 40,
+  "n_pn": 104,
+  "n_population": 661,
+  "retention_believed_committed_recomputed": 0.423114381560437,
+  "retention_s2u": 0.6547631930166286,
+  "retention_s2u_interval_clustered": {
+   "ci_hi": 0.9364988652336214,
+   "ci_lo": 0.31473460474957643,
+   "mean": 0.6460367991864558,
+   "n_draws": 1000,
+   "n_nonpositive_true_gain_discarded": 0
+  },
+  "retention_s2u_interval_item": {
+   "ci_hi": 0.8721435440392432,
+   "ci_lo": 0.4456158715668637,
+   "mean": 0.6579521178464549,
+   "n_draws": 1000,
+   "n_nonpositive_true_gain_discarded": 0
+  },
+  "s2u_gain_interval_clustered": {
+   "ci_hi": 0.2535906294216078,
+   "ci_lo": 0.05523175427190895,
+   "excludes_zero": true,
+   "mean": 0.1559122353169185,
+   "n_draws": 1000
+  },
+  "s2u_gain_interval_item": {
+   "ci_hi": 0.21621325316378995,
+   "ci_lo": 0.0960895344414459,
+   "excludes_zero": true,
+   "mean": 0.1567413440166842,
+   "n_draws": 1000
+  },
+  "s2u_minus_believed_clustered": {
+   "ci_hi": 0.11730193294818224,
+   "ci_lo": -0.0018675569828243278,
+   "excludes_zero": false,
+   "mean": 0.056322020971777624,
+   "n_draws": 1000
+  },
+  "s2u_minus_believed_item": {
+   "ci_hi": 0.09924730116109579,
+   "ci_lo": 0.011017922091030877,
+   "excludes_zero": true,
+   "mean": 0.05474126343363711,
+   "n_draws": 1000
+  },
+  "true_gain_interval_item": {
+   "ci_hi": 0.2949032866227625,
+   "ci_lo": 0.1801363498913204,
+   "excludes_zero": true,
+   "mean": 0.23853169499883248,
+   "n_draws": 1000
+  }
+ },
+ "budget_line": 2.0,
+ "estimators": "common_e1r.auroc (Mann-Whitney, ties 0.5); boot_item (item-level paired, 1,000 draws, seed 42, single-class draws discarded); boot_cluster (persona-clustered paired) beside; tolerance 0.05",
+ "frozen": "e8b2630",
+ "lane": "gpt-4.1-mini",
+ "meta": {
+  "blind_intact_source": "e1_metamemory/elicitation_main.json (BLIND by question; INDEXED-TRUE / INDEXED-BELIEVED by tag); read, never re-elicited",
+  "calls": 1183,
+  "frozen": "e8b2630",
+  "gt_indexes_sha256": "18095591689e63ded2ec6f8abea138e3f60fcc4cafefd55f7a419159a5d0cf3f",
+  "k": 1,
+  "lane": "gpt-4.1-mini",
+  "max_tokens": 200,
+  "populations": {
+   "amem": {
+    "n": 284,
+    "pos": 126
+   },
+   "mem0": {
+    "n": 238,
+    "pos": 94
+   },
+   "s2u": {
+    "n": 661,
+    "pn": 104
+   }
+  },
+  "prompts_file_sha256": "337d37d3414c04823d28ad99eeab15c34e328e60198d68625452ebf330830b84",
+  "prompts_texts_sha256": "35d9b968ffc0b008289a59b06f10b7d23f71658c648dd2865a46e8da15d495f2",
+  "registration": "registrations/ADDENDUM_SIDE.md",
+  "s2u_indexes_sha256": "f05e95565c825cf242b9907a77dee234d1a42bfff23add38baf089cd9aa54009",
+  "seed": 42,
+  "temperature": 0
+ },
+ "registration": "registrations/ADDENDUM_SIDE.md",
+ "rows": {
+  "INDEXED-GT": {
+   "elicited": 522,
+   "failed": 0
+  },
+  "INDEXED-S2U": {
+   "elicited": 661,
+   "failed": 0
+  }
+ },
+ "spend": {
+  "leakage_screens": 0.043328,
+  "probes": 0.0016464000000000001,
+  "run": 0.8454732,
+  "total": 0.8904476
+ }
+}

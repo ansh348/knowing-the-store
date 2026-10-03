@@ -1,0 +1,15 @@
+{
+ "cap_combined": 3.0,
+ "combined_with_q4": 0.6956684774615027,
+ "elicit_calls": 661,
+ "elicit_tok_in": 1059143.1936537565,
+ "elicit_tok_out": 15864,
+ "elicit_usd": 0.44903967746150264,
+ "probe_usd": 0.0006928,
+ "projected_total_usd": 0.5110892774615027,
+ "q4_projection_usd": 0.1845792,
+ "stage2_upper_bound_calls": 278,
+ "stage2_upper_bound_usd": 0.0620496,
+ "when": "2026-09-13T18:04:43",
+ "x1_3": 0.6644160606999535
+}

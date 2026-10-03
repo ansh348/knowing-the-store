@@ -1,0 +1,1492 @@
+{
+ "aggregates": {
+  "h45-A3": {
+   "ALWAYS": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 54,
+      "stale_surface": 3,
+      "stale_use": 3,
+      "stale_use_tau_gold": 17,
+      "successor_use": 0
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 1,
+      "stale_use_tau_gold": 6
+     },
+     "pn_state_ret": {
+      "n": 20,
+      "stale_use": 1,
+      "stale_use_tau_gold": 9
+     },
+     "pn_state_sup": {
+      "n": 22,
+      "stale_use": 1,
+      "stale_use_tau_gold": 2
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 35,
+      "stale_surface": 2,
+      "stale_use": 2,
+      "stale_use_tau_gold": 5,
+      "successor_use": 0
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 19,
+      "stale_surface": 1,
+      "stale_use": 1,
+      "stale_use_tau_gold": 12,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 49,
+      "correct_tau_hi": 16,
+      "n": 174
+     }
+    }
+   },
+   "LOOKUP": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 70,
+      "stale_surface": 5,
+      "stale_use": 5,
+      "stale_use_tau_gold": 19,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 1,
+      "stale_use_tau_gold": 6
+     },
+     "pn_state_ret": {
+      "n": 8,
+      "stale_use": 0,
+      "stale_use_tau_gold": 2
+     },
+     "pn_state_sup": {
+      "n": 50,
+      "stale_use": 4,
+      "stale_use_tau_gold": 11
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 5,
+      "stale_use": 5,
+      "stale_use_tau_gold": 14,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 9,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 5,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 40,
+      "correct_tau_hi": 12,
+      "n": 146
+     }
+    }
+   },
+   "LOOKUP-ALL": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 70,
+      "stale_surface": 3,
+      "stale_use": 3,
+      "stale_use_tau_gold": 15,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 1,
+      "stale_use_tau_gold": 6
+     },
+     "pn_state_ret": {
+      "n": 8,
+      "stale_use": 0,
+      "stale_use_tau_gold": 2
+     },
+     "pn_state_sup": {
+      "n": 50,
+      "stale_use": 2,
+      "stale_use_tau_gold": 7
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 3,
+      "stale_use": 3,
+      "stale_use_tau_gold": 10,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 9,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 5,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 40,
+      "correct_tau_hi": 12,
+      "n": 146
+     }
+    }
+   },
+   "LOOKUP-LIT": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 94,
+      "stale_surface": 7,
+      "stale_use": 7,
+      "stale_use_tau_gold": 28,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 1,
+      "stale_use_tau_gold": 6
+     },
+     "pn_state_ret": {
+      "n": 20,
+      "stale_use": 1,
+      "stale_use_tau_gold": 9
+     },
+     "pn_state_sup": {
+      "n": 62,
+      "stale_use": 5,
+      "stale_use_tau_gold": 13
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 75,
+      "stale_surface": 6,
+      "stale_use": 6,
+      "stale_use_tau_gold": 16,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 19,
+      "stale_surface": 1,
+      "stale_use": 1,
+      "stale_use_tau_gold": 12,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 47,
+      "correct_tau_hi": 16,
+      "n": 174
+     }
+    }
+   },
+   "MODEL": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 74,
+      "stale_surface": 7,
+      "stale_use": 7,
+      "stale_use_tau_gold": 24,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 1,
+      "stale_use_tau_gold": 7
+     },
+     "pn_state_ret": {
+      "n": 13,
+      "stale_use": 1,
+      "stale_use_tau_gold": 5
+     },
+     "pn_state_sup": {
+      "n": 49,
+      "stale_use": 5,
+      "stale_use_tau_gold": 12
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 6,
+      "stale_use": 6,
+      "stale_use_tau_gold": 16,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 13,
+      "stale_surface": 1,
+      "stale_use": 1,
+      "stale_use_tau_gold": 8,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 47,
+      "correct_tau_hi": 16,
+      "n": 155
+     }
+    }
+   },
+   "MODEL-ALL": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 74,
+      "stale_surface": 4,
+      "stale_use": 4,
+      "stale_use_tau_gold": 18,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 1,
+      "stale_use_tau_gold": 6
+     },
+     "pn_state_ret": {
+      "n": 13,
+      "stale_use": 1,
+      "stale_use_tau_gold": 5
+     },
+     "pn_state_sup": {
+      "n": 49,
+      "stale_use": 2,
+      "stale_use_tau_gold": 7
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 3,
+      "stale_use": 3,
+      "stale_use_tau_gold": 10,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 13,
+      "stale_surface": 1,
+      "stale_use": 1,
+      "stale_use_tau_gold": 8,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 47,
+      "correct_tau_hi": 16,
+      "n": 155
+     }
+    }
+   },
+   "ORACLE": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 99,
+      "stale_surface": 3,
+      "stale_use": 3,
+      "stale_use_tau_gold": 24,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 14,
+      "stale_use": 1,
+      "stale_use_tau_gold": 6
+     },
+     "pn_state_ret": {
+      "n": 22,
+      "stale_use": 1,
+      "stale_use_tau_gold": 8
+     },
+     "pn_state_sup": {
+      "n": 63,
+      "stale_use": 1,
+      "stale_use_tau_gold": 10
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 82,
+      "stale_surface": 2,
+      "stale_use": 2,
+      "stale_use_tau_gold": 15,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 17,
+      "stale_surface": 1,
+      "stale_use": 1,
+      "stale_use_tau_gold": 9,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 49,
+      "correct_tau_hi": 16,
+      "n": 174
+     }
+    }
+   }
+  },
+  "h45-D4": {
+   "ALWAYS": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 54,
+      "stale_surface": 7,
+      "stale_use": 7,
+      "stale_use_tau_gold": 19,
+      "successor_use": 0
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 4,
+      "stale_use_tau_gold": 8
+     },
+     "pn_state_ret": {
+      "n": 20,
+      "stale_use": 1,
+      "stale_use_tau_gold": 8
+     },
+     "pn_state_sup": {
+      "n": 22,
+      "stale_use": 2,
+      "stale_use_tau_gold": 3
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 35,
+      "stale_surface": 6,
+      "stale_use": 6,
+      "stale_use_tau_gold": 8,
+      "successor_use": 0
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 19,
+      "stale_surface": 1,
+      "stale_use": 1,
+      "stale_use_tau_gold": 11,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 48,
+      "correct_tau_hi": 14,
+      "n": 174
+     }
+    }
+   },
+   "LOOKUP": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 70,
+      "stale_surface": 7,
+      "stale_use": 7,
+      "stale_use_tau_gold": 19,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 4,
+      "stale_use_tau_gold": 8
+     },
+     "pn_state_ret": {
+      "n": 8,
+      "stale_use": 0,
+      "stale_use_tau_gold": 2
+     },
+     "pn_state_sup": {
+      "n": 50,
+      "stale_use": 3,
+      "stale_use_tau_gold": 9
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 7,
+      "stale_use": 7,
+      "stale_use_tau_gold": 14,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 9,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 5,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 41,
+      "correct_tau_hi": 14,
+      "n": 146
+     }
+    }
+   },
+   "LOOKUP-ALL": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 70,
+      "stale_surface": 5,
+      "stale_use": 5,
+      "stale_use_tau_gold": 18,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 4,
+      "stale_use_tau_gold": 8
+     },
+     "pn_state_ret": {
+      "n": 8,
+      "stale_use": 0,
+      "stale_use_tau_gold": 2
+     },
+     "pn_state_sup": {
+      "n": 50,
+      "stale_use": 1,
+      "stale_use_tau_gold": 8
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 5,
+      "stale_use": 5,
+      "stale_use_tau_gold": 13,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 9,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 5,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 40,
+      "correct_tau_hi": 12,
+      "n": 146
+     }
+    }
+   },
+   "LOOKUP-LIT": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 94,
+      "stale_surface": 10,
+      "stale_use": 10,
+      "stale_use_tau_gold": 29,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 4,
+      "stale_use_tau_gold": 8
+     },
+     "pn_state_ret": {
+      "n": 20,
+      "stale_use": 1,
+      "stale_use_tau_gold": 8
+     },
+     "pn_state_sup": {
+      "n": 62,
+      "stale_use": 5,
+      "stale_use_tau_gold": 13
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 75,
+      "stale_surface": 9,
+      "stale_use": 9,
+      "stale_use_tau_gold": 18,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 19,
+      "stale_surface": 1,
+      "stale_use": 1,
+      "stale_use_tau_gold": 11,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 47,
+      "correct_tau_hi": 16,
+      "n": 174
+     }
+    }
+   },
+   "MODEL": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 74,
+      "stale_surface": 9,
+      "stale_use": 9,
+      "stale_use_tau_gold": 23,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 3,
+      "stale_use_tau_gold": 7
+     },
+     "pn_state_ret": {
+      "n": 13,
+      "stale_use": 1,
+      "stale_use_tau_gold": 5
+     },
+     "pn_state_sup": {
+      "n": 49,
+      "stale_use": 5,
+      "stale_use_tau_gold": 11
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 8,
+      "stale_use": 8,
+      "stale_use_tau_gold": 15,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 13,
+      "stale_surface": 1,
+      "stale_use": 1,
+      "stale_use_tau_gold": 8,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 45,
+      "correct_tau_hi": 15,
+      "n": 155
+     }
+    }
+   },
+   "MODEL-ALL": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 74,
+      "stale_surface": 5,
+      "stale_use": 5,
+      "stale_use_tau_gold": 20,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 3,
+      "stale_use_tau_gold": 7
+     },
+     "pn_state_ret": {
+      "n": 13,
+      "stale_use": 1,
+      "stale_use_tau_gold": 5
+     },
+     "pn_state_sup": {
+      "n": 49,
+      "stale_use": 1,
+      "stale_use_tau_gold": 8
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 4,
+      "stale_use": 4,
+      "stale_use_tau_gold": 12,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 13,
+      "stale_surface": 1,
+      "stale_use": 1,
+      "stale_use_tau_gold": 8,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 45,
+      "correct_tau_hi": 14,
+      "n": 155
+     }
+    }
+   },
+   "ORACLE": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 99,
+      "stale_surface": 9,
+      "stale_use": 9,
+      "stale_use_tau_gold": 27,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 14,
+      "stale_use": 4,
+      "stale_use_tau_gold": 8
+     },
+     "pn_state_ret": {
+      "n": 22,
+      "stale_use": 2,
+      "stale_use_tau_gold": 9
+     },
+     "pn_state_sup": {
+      "n": 63,
+      "stale_use": 3,
+      "stale_use_tau_gold": 10
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 82,
+      "stale_surface": 7,
+      "stale_use": 7,
+      "stale_use_tau_gold": 17,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 17,
+      "stale_surface": 2,
+      "stale_use": 2,
+      "stale_use_tau_gold": 10,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 48,
+      "correct_tau_hi": 14,
+      "n": 174
+     }
+    }
+   }
+  },
+  "mini-A3": {
+   "ALWAYS": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 54,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 10,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_state_ret": {
+      "n": 20,
+      "stale_use": 0,
+      "stale_use_tau_gold": 8
+     },
+     "pn_state_sup": {
+      "n": 22,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 35,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 2,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 19,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 8,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 47,
+      "correct_tau_hi": 12,
+      "n": 174
+     }
+    }
+   },
+   "LOOKUP": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 70,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 8,
+      "successor_use": 0
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_state_ret": {
+      "n": 8,
+      "stale_use": 0,
+      "stale_use_tau_gold": 2
+     },
+     "pn_state_sup": {
+      "n": 50,
+      "stale_use": 0,
+      "stale_use_tau_gold": 5
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 6,
+      "successor_use": 0
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 9,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 2,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 40,
+      "correct_tau_hi": 10,
+      "n": 146
+     }
+    }
+   },
+   "LOOKUP-ALL": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 70,
+      "stale_surface": 1,
+      "stale_use": 1,
+      "stale_use_tau_gold": 7,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_state_ret": {
+      "n": 8,
+      "stale_use": 0,
+      "stale_use_tau_gold": 2
+     },
+     "pn_state_sup": {
+      "n": 50,
+      "stale_use": 1,
+      "stale_use_tau_gold": 4
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 1,
+      "stale_use": 1,
+      "stale_use_tau_gold": 5,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 9,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 2,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 40,
+      "correct_tau_hi": 10,
+      "n": 146
+     }
+    }
+   },
+   "LOOKUP-LIT": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 94,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 16,
+      "successor_use": 0
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_state_ret": {
+      "n": 20,
+      "stale_use": 0,
+      "stale_use_tau_gold": 8
+     },
+     "pn_state_sup": {
+      "n": 62,
+      "stale_use": 0,
+      "stale_use_tau_gold": 7
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 75,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 8,
+      "successor_use": 0
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 19,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 8,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 46,
+      "correct_tau_hi": 12,
+      "n": 174
+     }
+    }
+   },
+   "MODEL": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 74,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 10,
+      "successor_use": 0
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_state_ret": {
+      "n": 13,
+      "stale_use": 0,
+      "stale_use_tau_gold": 4
+     },
+     "pn_state_sup": {
+      "n": 49,
+      "stale_use": 0,
+      "stale_use_tau_gold": 5
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 6,
+      "successor_use": 0
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 13,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 4,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 44,
+      "correct_tau_hi": 12,
+      "n": 155
+     }
+    }
+   },
+   "MODEL-ALL": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 74,
+      "stale_surface": 2,
+      "stale_use": 2,
+      "stale_use_tau_gold": 10,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_state_ret": {
+      "n": 13,
+      "stale_use": 1,
+      "stale_use_tau_gold": 4
+     },
+     "pn_state_sup": {
+      "n": 49,
+      "stale_use": 1,
+      "stale_use_tau_gold": 5
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 1,
+      "stale_use": 1,
+      "stale_use_tau_gold": 6,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 13,
+      "stale_surface": 1,
+      "stale_use": 1,
+      "stale_use_tau_gold": 4,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 44,
+      "correct_tau_hi": 12,
+      "n": 155
+     }
+    }
+   },
+   "ORACLE": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 99,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 18,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 14,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_state_ret": {
+      "n": 22,
+      "stale_use": 0,
+      "stale_use_tau_gold": 10
+     },
+     "pn_state_sup": {
+      "n": 63,
+      "stale_use": 0,
+      "stale_use_tau_gold": 7
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 82,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 11,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 17,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 7,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 47,
+      "correct_tau_hi": 12,
+      "n": 174
+     }
+    }
+   }
+  },
+  "mini-D4": {
+   "ALWAYS": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 54,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 9,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_state_ret": {
+      "n": 20,
+      "stale_use": 0,
+      "stale_use_tau_gold": 7
+     },
+     "pn_state_sup": {
+      "n": 22,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 35,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 2,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 19,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 7,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 46,
+      "correct_tau_hi": 14,
+      "n": 174
+     }
+    }
+   },
+   "LOOKUP": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 70,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 7,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_state_ret": {
+      "n": 8,
+      "stale_use": 0,
+      "stale_use_tau_gold": 2
+     },
+     "pn_state_sup": {
+      "n": 50,
+      "stale_use": 0,
+      "stale_use_tau_gold": 4
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 5,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 9,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 2,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 40,
+      "correct_tau_hi": 12,
+      "n": 146
+     }
+    }
+   },
+   "LOOKUP-ALL": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 70,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 6,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_state_ret": {
+      "n": 8,
+      "stale_use": 0,
+      "stale_use_tau_gold": 2
+     },
+     "pn_state_sup": {
+      "n": 50,
+      "stale_use": 0,
+      "stale_use_tau_gold": 3
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 4,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 9,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 2,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 39,
+      "correct_tau_hi": 12,
+      "n": 146
+     }
+    }
+   },
+   "LOOKUP-LIT": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 94,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 14,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_state_ret": {
+      "n": 20,
+      "stale_use": 0,
+      "stale_use_tau_gold": 7
+     },
+     "pn_state_sup": {
+      "n": 62,
+      "stale_use": 0,
+      "stale_use_tau_gold": 6
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 75,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 7,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 19,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 7,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 46,
+      "correct_tau_hi": 14,
+      "n": 174
+     }
+    }
+   },
+   "MODEL": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 74,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 9,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_state_ret": {
+      "n": 13,
+      "stale_use": 0,
+      "stale_use_tau_gold": 4
+     },
+     "pn_state_sup": {
+      "n": 49,
+      "stale_use": 0,
+      "stale_use_tau_gold": 4
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 5,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 13,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 4,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 44,
+      "correct_tau_hi": 14,
+      "n": 155
+     }
+    }
+   },
+   "MODEL-ALL": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 74,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 9,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 12,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_state_ret": {
+      "n": 13,
+      "stale_use": 0,
+      "stale_use_tau_gold": 4
+     },
+     "pn_state_sup": {
+      "n": 49,
+      "stale_use": 0,
+      "stale_use_tau_gold": 4
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 61,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 5,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 13,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 4,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 44,
+      "correct_tau_hi": 14,
+      "n": 155
+     }
+    }
+   },
+   "ORACLE": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 99,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 17,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 14,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_state_ret": {
+      "n": 22,
+      "stale_use": 0,
+      "stale_use_tau_gold": 10
+     },
+     "pn_state_sup": {
+      "n": 63,
+      "stale_use": 0,
+      "stale_use_tau_gold": 6
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 82,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 11,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 17,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 6,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 46,
+      "correct_tau_hi": 14,
+      "n": 174
+     }
+    }
+   }
+  },
+  "mini-D4-V3": {
+   "MODEL-ALL-V3": {
+    "diffs": [],
+    "replica": {
+     "pn_all": {
+      "both": 0,
+      "n": 78,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 12,
+      "successor_use": 1
+     },
+     "pn_state_exp": {
+      "n": 13,
+      "stale_use": 0,
+      "stale_use_tau_gold": 1
+     },
+     "pn_state_ret": {
+      "n": 15,
+      "stale_use": 0,
+      "stale_use_tau_gold": 6
+     },
+     "pn_state_sup": {
+      "n": 50,
+      "stale_use": 0,
+      "stale_use_tau_gold": 5
+     },
+     "pn_tagged": {
+      "both": 0,
+      "n": 67,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 10,
+      "successor_use": 1
+     },
+     "pn_untagged": {
+      "both": 0,
+      "n": 11,
+      "stale_surface": 0,
+      "stale_use": 0,
+      "stale_use_tau_gold": 2,
+      "successor_use": 0
+     },
+     "present": {
+      "correct": 44,
+      "correct_tau_hi": 14,
+      "n": 155
+     }
+    }
+   }
+  }
+ },
+ "amend2_reuse": {
+  "answer_mismatch": [],
+  "new": 30,
+  "reused": 238,
+  "score_mismatch": []
+ },
+ "lanes": {
+  "h45-A3": {
+   "mismatches": [],
+   "n_compared": 452,
+   "n_mismatch": 0,
+   "n_rows": 452,
+   "reg_file": "scores_amend3.per_row.H45",
+   "rows_file": "run/rows_ds_amend3_h45.jsonl"
+  },
+  "h45-D4": {
+   "mismatches": [],
+   "n_compared": 452,
+   "n_mismatch": 0,
+   "n_rows": 452,
+   "reg_file": "scores_amend2.per_row_h45",
+   "rows_file": "run/rows_ds_amend2_h45.jsonl"
+  },
+  "mini-A3": {
+   "mismatches": [],
+   "n_compared": 452,
+   "n_mismatch": 0,
+   "n_rows": 452,
+   "reg_file": "scores_amend3.per_row.MINI",
+   "rows_file": "run/rows_ds_amend3_mini.jsonl"
+  },
+  "mini-D4": {
+   "mismatches": [],
+   "n_compared": 452,
+   "n_mismatch": 0,
+   "n_rows": 452,
+   "reg_file": "scores_ds.per_row + scores_amend2.per_row_mini",
+   "rows_file": "run/rows_ds.jsonl + run/rows_ds_amend2.jsonl (new)"
+  },
+  "mini-D4-V3": {
+   "mismatches": [],
+   "n_compared": 233,
+   "n_mismatch": 0,
+   "n_rows": 233,
+   "reg_file": "scores_amend1.per_row",
+   "rows_file": "run/rows_ds_amend1.jsonl"
+  }
+ },
+ "ok": true,
+ "records_none": [],
+ "summary": {
+  "aggregate_bad": [],
+  "aggregate_cells": 852,
+  "aggregate_mismatches": 0,
+  "row_mismatches": 0,
+  "rows_total": 2041
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "units": [
+  "l0",
+  "l1",
+  "l2",
+  "l4",
+  "l5",
+  "pa",
+  "pb",
+  "pc",
+  "s5"
+ ],
+ "edits": [
+  {
+   "unit": "l0",
+   "file": "body",
+   "old": "% [AUTHOR-1] 2026-09-09: Proposition 1 was written without model assistance; branch landed. R108: the proposition and its proof are in the supplement (S.10) and the statement's proof clause is gone by the author's instruction.",
+   "new": "",
+   "note": "L0: the source comment carrying the author's given name removed (it never reached the PDF)"
+  },
+  {
+   "unit": "l1",
+   "file": "abstract",
+   "old": "On lists longer than the stores we tested write, padded to $60$ names, the lookup loses $0.18$; \\mbox{GPT-5.6} Luna and Sol lose $0.06$ to $0.07$ and lead it by $0.13$ to $0.14$, while the other three fall with it. A list-length cue is uncontrolled there.",
+   "new": "On lists longer than the stores we tested write, padded to $60$ names, the lookup loses $0.18$; \\mbox{GPT-5.6} Luna and Sol lose $0.06$ to $0.07$ and lead it by $0.13$ to $0.14$, while the other three fall with it. The lead holds for Sol against a sibling padded to the same length and counts.",
+   "note": "B-ii abstract, Sol named"
+  },
+  {
+   "unit": "l1",
+   "file": "body",
+   "old": "; the padded set has no such control (Appendix~\\ref{app:counterfactual}).",
+   "new": ". A sibling padded to the same length and counts, run on Luna, Sol and mini, removes that cue: the length-only reader ties every pair, the lookup scores $0.82$, and Sol leads it by a reliable $0.09$. Luna's lead holds on the pooled metric only ($0.11$, reliable) and not within triples ($+0.04$; Appendix~\\ref{app:counterfactual}).",
+   "note": "B-ii 5.2: B-i's sentence with Sol named, and Luna's clause"
+  },
+  {
+   "unit": "l1",
+   "file": "body",
+   "old": "and the two readers that keep their lead there are from one model family. ",
+   "new": "and the two readers that keep their lead there are from one model family. The padded sibling control ran on Luna, Sol and mini; Haiku and Opus were not run on it, and the padded lists' counts stay as written, so the superseded total disagrees with the list length in both versions alike. Luna's lead is not separated from the cue. ",
+   "note": "B-ii Limitations: an addition (the length-cue sentence it was to replace never landed; AUX-R141-ERRATUM-R139), with Luna's clause kept"
+  },
+  {
+   "unit": "l1",
+   "file": "body",
+   "old": "On a $60$-name list Luna and Sol lead the lookup by $0.13$ to $0.14$ and the other three fall with it. ",
+   "new": "On a $60$-name list Luna and Sol lead the lookup by $0.13$ to $0.14$ and, with list length and counts fixed, Sol by $0.09$; the other three fall with it. ",
+   "note": "B-ii Conclusion, Sol named"
+  },
+  {
+   "unit": "l2",
+   "file": "appendix",
+   "old": "",
+   "new": "%% R141 (2026-09-24): the sibling-name control at 60 names (registrations: reviews/r141/registrations/ADDENDUM_R141_SB60.md, frozen alone at f224177 before the first call; the run 2588717; scored 7a62892; reviews/NUMBERS_R141.md AUX-R141-*), written by reviews/r141/tools/port_r141.py; every number through r141_number_gate.py.\n\\paragraph{The sibling-name control at $60$ names.}\\label{app:sb60}\nA fourth version of each of the $88$ supersession pairs takes the padded \\pn{} text and swaps the target's name for a same-category sibling, so the two lists hold the same $60$ names but one, under an identical pad and an identical count table (Table~\\ref{tab:sb60}). The sibling is the pair's sibling from the short-list control; where that name was already in the pad, which happened on $35$ pairs, a substitute was drawn from the pair's remaining eligible names under a recorded seed. The renderer reproduces every text byte for byte, every list holds $60$ distinct names, and the leak screen found $0$ of $30$ answers correct. Before the freeze the name lookup was recorded at $0.8239$ matched and the length-only reader, the count reader and the random-token lookup at $0.5000$. Of the four predictions, Luna reliably above the lookup came out otherwise (matched $+0.0398$, the persona interval reaching below zero; pooled $+0.1122$, reliable); Sol reliably above it held ($+0.0852$ matched, $+0.1238$ pooled); GPT-4.1 mini not reliably above it held ($-0.0909$ matched); and Luna and Sol at or above $0.80$ with the persona interval above $0.50$ held ($0.8636$ and $0.9091$). Seeds $43$ to $46$ change no reading. Luna, Sol and mini ran five draws each through the raw interface; Haiku 4.5 and Opus 5 were not run. Section~\\ref{sec:lookup} words Luna's result as holding on the pooled metric only, a wording deviation from the registered branch clause (\\emph{Luna's lead is not separated from the cue}): the registration promised the pooled reading beside the matched one, and the paper names the pooled metric wherever the two disagree.\n\n\\begin{table}[H]\n\\caption{The sibling-name control at $60$ names (registered; ADDENDUM\\_R141\\_SB60): the \\pn{} version with its list padded to $60$ names against a fourth version with one name swapped for a same-category sibling, identical pad and counts, on the $88$ supersession pairs. Upper panel: each reader's matched score (W + T/2)/88 with the triple-level and persona-grouped intervals, the pooled AUROC over the $176$ items, and the sibling against the padded \\present{} version (descriptive). The no-model rows were recorded before the freeze. Lower panel: each model minus the name lookup, paired; $^{*}$: both $95\\%$ intervals exclude zero; equivalent: both $90\\%$ intervals inside $[-0.05,+0.05]$. Haiku 4.5 and Opus 5 were not run on this control.}\n\\label{tab:sb60}\n\\centering\\tiny\\setlength{\\tabcolsep}{2pt}\n\\begin{tabular}{@{}lrrllrr@{}}\n\\toprule\nReader & W/T/L & matched & triple interval & persona interval & pooled & sibling vs \\present{} \\\\\n\\midrule\nName lookup (embedding) & $57/31/0$ & $0.8239$ & $[0.7727,0.8750]$ & $[0.7670,0.8816]$ & $0.7395$ & $0.5227$ \\\\\nLexical lookup & $42/46/0$ & $0.7386$ & $[0.6875,0.7898]$ & $[0.6875,0.7927]$ & $0.6815$ & $0.5114$ \\\\\nRandom-token lookup & $1/86/1$ & $0.5000$ & $[0.4830,0.5170]$ & $[0.4837,0.5170]$ & $0.5006$ & $0.5057$ \\\\\nLength-only reader & $0/88/0$ & $0.5000$ & $[0.5000,0.5000]$ & $[0.5000,0.5000]$ & $0.5000$ & $1.0000$ \\\\\nCount reader, guessed category (share) & $0/88/0$ & $0.5000$ & $[0.5000,0.5000]$ & $[0.5000,0.5000]$ & $0.5000$ & $0.6932$ \\\\\nGPT-5.6 Luna (five draws) & $76/0/12$ & $0.8636$ & $[0.7955,0.9318]$ & $[0.8043,0.9259]$ & $0.8517$ & $0.6818$ \\\\\nGPT-5.6 Sol (five draws) & $80/0/8$ & $0.9091$ & $[0.8523,0.9659]$ & $[0.8506,0.9620]$ & $0.8633$ & $0.5114$ \\\\\nGPT-4.1 mini (five draws) & $62/5/21$ & $0.7330$ & $[0.6420,0.8239]$ & $[0.6455,0.8193]$ & $0.5931$ & $0.6307$ \\\\\n\\bottomrule\n\\end{tabular}\\\\[4pt]\n\\begin{tabular}{@{}llrllr@{}}\n\\toprule\nModel minus the name lookup & metric & difference & triple / item interval & persona interval & equivalent \\\\\n\\midrule\nGPT-5.6 Luna & matched & $+0.0398$ & $[-0.0284,+0.1080]$ & $[-0.0112,+0.0987]$ & no \\\\\nGPT-5.6 Luna & pooled & $+0.1122$$^{*}$ & $[+0.0521,+0.1732]$ & $[+0.0688,+0.1575]$ & no \\\\\nGPT-5.6 Sol & matched & $+0.0852$$^{*}$ & $[+0.0284,+0.1420]$ & $[+0.0322,+0.1398]$ & no \\\\\nGPT-5.6 Sol & pooled & $+0.1238$$^{*}$ & $[+0.0615,+0.1911]$ & $[+0.0812,+0.1645]$ & no \\\\\nGPT-4.1 mini & matched & $-0.0909$ & $[-0.1818,+0.0001]$ & $[-0.1889,+0.0108]$ & no \\\\\nGPT-4.1 mini & pooled & $-0.1464$$^{*}$ & $[-0.2110,-0.0778]$ & $[-0.1920,-0.1006]$ & no \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}\n\n",
+   "note": "L2: the SB-60 paragraph and table after tab:length"
+  },
+  {
+   "unit": "l4",
+   "file": "appendix",
+   "old": "the full obligation set & $661$ questions",
+   "new": "the supersession pairs, a sibling padded to $60$ names & $176$ items: the $88$ supersession pairs' padded \\pn{} version against a fourth version with one name swapped for a same-category sibling (identical pad and counts) & GPT-4.1 mini (5), GPT-5.6 Luna (5), GPT-5.6 Sol (5); Haiku 4.5 and Opus 5 not run \\\\\nthe full obligation set & $661$ questions",
+   "note": "L4: Appendix A's population row"
+  },
+  {
+   "unit": "l4",
+   "file": "appendix",
+   "old": "and the long-list check on the counterfactual set, registered after the paraphrase check had been read; the Outcome column",
+   "new": "the long-list check on the counterfactual set, registered after the paraphrase check had been read, and the sibling-name control at $60$ names, registered after the long-list check had been read; the Outcome column",
+   "note": "L4: tab:registrations-e's caption"
+  },
+  {
+   "unit": "l4",
+   "file": "appendix",
+   "old": "",
+   "new": "%% R141 (2026-09-24): ADDENDUM_R141_SB60, registered text sha256 4fc25a8b..., frozen alone at f224177 (2026-09-23 12:23 +0300 = day 44) before the first call; reviews/NUMBERS_R141.md.\nThe sibling-name control at $60$ names & \\texttt{f224177} & day 44 & the $88$ supersession pairs' padded \\pn{} version against a fourth version with one name swapped (identical pad and counts), the no-model readers recorded before the freeze, GPT-5.6 Luna, GPT-5.6 Sol and GPT-4.1 mini at five draws (Table~\\ref{tab:sb60}); four predictions: Luna reliably above the name lookup (P-S1), Sol reliably above it (P-S2), mini not reliably above it (P-S3), Luna and Sol at or above $0.80$ matched with the persona interval above $0.50$ (P-S4) & P-S2, P-S3 and P-S4 held; P-S1 failed \\\\\n",
+   "note": "L4: Appendix F's registration row (day 44: the freeze commit's own date)"
+  },
+  {
+   "unit": "l4",
+   "file": "appendix",
+   "old": "Table~\\ref{tab:registrations-e} $9$ with $4$: $102$ predictions, $33$ of which came out otherwise",
+   "new": "Table~\\ref{tab:registrations-e} $13$ with $5$: $106$ predictions, $34$ of which came out otherwise",
+   "note": "L4: the count (P-S1 to P-S4, one failed)"
+  },
+  {
+   "unit": "l4",
+   "file": "body",
+   "old": "each before the run that tests it: $33$ of $102$ came out otherwise.",
+   "new": "each before the run that tests it: $34$ of $106$ came out otherwise.",
+   "note": "L4: Section 4's count"
+  },
+  {
+   "unit": "l5",
+   "file": "body",
+   "old": "Count reader, guessed category & superseded",
+   "new": "Count reader, guessed category (share) & superseded",
+   "note": "L5"
+  },
+  {
+   "unit": "l5",
+   "file": "body",
+   "old": "Count reader, given category & superseded",
+   "new": "Count reader, given category (count) & superseded",
+   "note": "L5"
+  },
+  {
+   "unit": "pa",
+   "file": "body",
+   "old": "The sibling-name control removed that cue on the short list, where readers still picked the \\pn{} version at $0.88$ or higher.",
+   "new": "The sibling-name control removed that cue on the short list.",
+   "note": "payer a"
+  },
+  {
+   "unit": "pb",
+   "file": "body",
+   "old": "removes that cue: the length-only reader ties every pair, the lookup scores",
+   "new": "removes that cue: the lookup scores",
+   "note": "payer b"
+  },
+  {
+   "unit": "pc",
+   "file": "body",
+   "old": "The padded sibling control ran on Luna, Sol and mini; Haiku and Opus were not run on it, and the padded lists' counts stay as written, so the superseded total disagrees with the list length in both versions alike. Luna's lead is not separated from the cue. ",
+   "new": "The padded sibling control ran on Luna, Sol and mini; Haiku and Opus were not run on it. Luna's lead is not separated from the cue. ",
+   "note": "payer c (Luna's clause kept)"
+  },
+  {
+   "unit": "s5",
+   "file": "body",
+   "old": "The ground-truth name lists are built through the manifest-to-record alignment. The $22$ obligations it does not mark are therefore invisible to every summary (mini scores $0.52$ on them under ground truth).",
+   "new": "The $22$ obligations the manifest-to-record alignment does not mark are invisible to every summary (mini scores $0.52$ on them under ground truth).",
+   "note": "the ruling of 23 Sep on the last line, payer (v)"
+  },
+  {
+   "unit": "s5",
+   "file": "body",
+   "old": "The $22$ obligations the manifest-to-record alignment does not mark are invisible to every summary (mini scores $0.52$ on them under ground truth). Control is outside this paper's scope. ",
+   "new": "Control is outside this paper's scope. The $22$ obligations the manifest-to-record alignment does not mark are invisible to every summary (mini scores $0.52$ on them under ground truth). ",
+   "note": "q_scan Q-A: the merged sentence carries numerals and would open the paragraph; the paragraph's own plain sentence moved first, no word changed (a departure in order, recorded)"
+  },
+  {
+   "unit": "N",
+   "file": "body",
+   "old": "reliable describes each of the $68$ comparisons the main text makes on its own.",
+   "new": "reliable describes each of the $71$ comparisons the main text makes on its own.",
+   "note": "A2's count recomputed: 71 (AUX-R139-N list with the SB-60 entry)"
+  }
+ ]
+}

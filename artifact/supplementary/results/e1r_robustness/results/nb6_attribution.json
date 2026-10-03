@@ -1,0 +1,150 @@
+{
+  "attribution_reading": {
+    "condition_two_of_three_lanes_exclude_zero_on_expiry_AND_retraction": false,
+    "fired": "(ii)",
+    "s43": "That matcher reaches the smallest model tested. Larger models score higher on the states the index only counts."
+  },
+  "item1_indexed_minus_blind": {
+    "Haiku 4.5": {
+      "expired": {
+        "blind": 0.6542190305206463,
+        "ci_hi": 0.17726511071214843,
+        "ci_lo": -0.12629712746858165,
+        "delta": 0.033153800119688825,
+        "excludes_zero": false,
+        "indexed": 0.6873728306403352,
+        "n_neg": 557,
+        "n_pos": 15
+      },
+      "retracted": {
+        "blind": 0.49181742853197075,
+        "ci_hi": 0.3576612346361,
+        "ci_lo": 0.13012360171247067,
+        "delta": 0.23988399392349125,
+        "excludes_zero": true,
+        "indexed": 0.731701422455462,
+        "n_neg": 557,
+        "n_pos": 26
+      },
+      "superseded": {
+        "blind": 0.3263799834715454,
+        "ci_hi": 0.6291837650679661,
+        "ci_lo": 0.4936041292639138,
+        "delta": 0.5633638254823174,
+        "excludes_zero": true,
+        "indexed": 0.8897438089538628,
+        "n_neg": 557,
+        "n_pos": 63
+      }
+    },
+    "Opus 5": {
+      "expired": {
+        "blind": 0.8708557749850389,
+        "ci_hi": 0.04111460203470975,
+        "ci_lo": -0.005686714542190293,
+        "delta": 0.017235188509874377,
+        "excludes_zero": false,
+        "indexed": 0.8880909634949132,
+        "n_neg": 557,
+        "n_pos": 15
+      },
+      "retracted": {
+        "blind": 0.7640519265294848,
+        "ci_hi": 0.0009347811075817951,
+        "ci_lo": -0.09868112139207288,
+        "delta": -0.05113244027068076,
+        "excludes_zero": false,
+        "indexed": 0.7129194862588041,
+        "n_neg": 557,
+        "n_pos": 26
+      },
+      "superseded": {
+        "blind": 0.5386851329400701,
+        "ci_hi": 0.3830978740987718,
+        "ci_lo": 0.2814240118548916,
+        "delta": 0.33026986976717676,
+        "excludes_zero": true,
+        "indexed": 0.8689550027072469,
+        "n_neg": 557,
+        "n_pos": 63
+      }
+    },
+    "luna": {
+      "expired": {
+        "blind": 0.7196888090963495,
+        "ci_hi": 0.21630909634949128,
+        "ci_lo": 0.005628366247755829,
+        "delta": 0.10514661879114306,
+        "excludes_zero": true,
+        "indexed": 0.8248354278874925,
+        "n_neg": 557,
+        "n_pos": 15
+      },
+      "retracted": {
+        "blind": 0.48812318740505456,
+        "ci_hi": 0.3041197693688717,
+        "ci_lo": -0.0077069810799612806,
+        "delta": 0.14417898080375635,
+        "excludes_zero": false,
+        "indexed": 0.6323021682088109,
+        "n_neg": 557,
+        "n_pos": 26
+      },
+      "superseded": {
+        "blind": 0.36926847339773733,
+        "ci_hi": 0.5969732267532986,
+        "ci_lo": 0.45443418540366476,
+        "delta": 0.5240375024935169,
+        "excludes_zero": true,
+        "indexed": 0.8933059758912542,
+        "n_neg": 557,
+        "n_pos": 63
+      }
+    }
+  },
+  "item3_mini_clustered": {
+    "expired": {
+      "clustered_excludes_zero": false,
+      "clustered_hi": 0.42955810347641604,
+      "clustered_lo": -0.31152024676286205,
+      "delta": 0.028725314183123907,
+      "item_excludes_zero": false,
+      "item_hi": 0.2211909036505086,
+      "item_lo": -0.17954967085577492,
+      "n_draws": 997,
+      "n_personas": 40
+    },
+    "retracted": {
+      "clustered_excludes_zero": false,
+      "clustered_hi": 0.4152288553222855,
+      "clustered_lo": -0.056001537411324256,
+      "delta": 0.15850711227730974,
+      "item_excludes_zero": true,
+      "item_hi": 0.3340664272890484,
+      "item_lo": 0.00015968098328958394,
+      "n_draws": 1000,
+      "n_personas": 40
+    },
+    "superseded": {
+      "clustered_excludes_zero": true,
+      "clustered_hi": -0.030748412510646715,
+      "clustered_lo": -0.17124032516220997,
+      "delta": -0.09622125331281528,
+      "item_excludes_zero": true,
+      "item_hi": -0.049532287481120554,
+      "item_lo": -0.15198234590065832,
+      "n_draws": 1000,
+      "n_personas": 40
+    }
+  },
+  "mini_excluded_reason": "blind NOK arm is constant, the standing all-tie degeneracy recorded at NUMBERS_E1R section 1",
+  "n": 661,
+  "n_neg": 557,
+  "n_pos_by_state": {
+    "expired": 15,
+    "retracted": 26,
+    "superseded": 63
+  },
+  "registration": "registrations/ADDENDUM_R81.md section 11 @ cfe5415",
+  "retraction_sentence": "The retraction row is marginal at item level (lower bound $+0.0002$) and not separated under persona clustering."
+}

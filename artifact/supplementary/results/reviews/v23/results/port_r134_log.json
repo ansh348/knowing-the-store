@@ -1,0 +1,268 @@
+{
+ "units": [
+  "appendix",
+  "main",
+  "main_short",
+  "abstract",
+  "partb",
+  "payers"
+ ],
+ "edits": [
+  {
+   "unit": "appendix",
+   "file": "appendix",
+   "section": "C.2, 'Two registered checks on this set'",
+   "old": "The paraphrase check asks each of the $148$ questions again in a wording that shares no content token with the attribute's slot path or with any attribute name the summary lists, drafted by GPT-4.1 mini under a deterministic screen; our label-transfer read has not been made, so no paraphrase row is printed.\n",
+   "new": "The paraphrase check asks each of the $148$ questions again in a wording that shares no content token with the attribute's slot path or with any attribute name the summary lists; it is reported after Table~\\ref{tab:pad}.\n",
+   "note": "section 5.2 of the brief: one sentence and a pointer"
+  },
+  {
+   "unit": "appendix",
+   "file": "appendix",
+   "section": "C.2, after tab:pad: the paraphrase check",
+   "old": "",
+   "new": "%% R134 (2026-09-21): the paraphrase check landed (registrations/ADDENDUM_PARA.md, registered text sha256 45cad63d..., descriptive; the home its section 9 names,\n%% 'Appendix D.2', is this appendix). The prose is written by reviews/v23/tools/port_r134.py from cf2_paraphrase/results/para_printed.json and the tables by\n%% cf2_paraphrase/tools/para_tex.py (spliced at the per-table markers by build_v23.py); every number through r134_number_gate.py; ledgers\n%% cf2_paraphrase/NUMBERS_PARA.md (AUX-PARA-*) and reviews/NUMBERS_R134.md (AUX-R134-PRINTED). Report reviews/para/REPORT_PARA.md.\n\\paragraph{The paraphrase check.}\nEach of the $148$ questions was rewritten by GPT-4.1 mini under a deterministic screen that forbids the attribute's own words and every name the summary prints; $24$ pairs had no rewrite that passed the screen after three drafts.\nAn author read the remaining $124$ against two questions, whether the rewrite asks the same thing under the same intent and whether it names the plan or value, and excluded $9$ on the first, leaving $115$ ($76$ supersession, $17$ retraction, $22$ expiry) whose labels transfer from the original triples because the store versions are unchanged.\nThe registered floor of $120$ accepted pairs was amended to the $115$ before any scoring call, nothing was revisited, and the $124$ are reported as a sensitivity analysis, not registered.\nThe registration is descriptive: it carries no prediction, only the branch readings of Table~\\ref{tab:para-pooled} at a $\\pm0.05$ tolerance.\n\nThe read was assisted.\nAn AI assistant pre-read the exported sheet and flagged rows with a one-line reason, and a coding session printed persona evidence for nine flagged rows; neither saw a reader's output or a score, and every verdict is an author's.\nAgainst those verdicts, the rows the assistant flagged as ones it would have rejected were excluded $5$ of $5$, the rows it flagged as depending on the persona $3$ of $4$, the rows it flagged as vaguer but passable $1$ of $12$, and the unflagged rows $0$ of $103$.\nThe sheet, the flags, the evidence and every verdict are in the artifact.\n\n%%PARA-TABLE:pooled%%\n%%PARA-TABLE:matched%%\n%%PARA-TABLE:minus-lookup%%\n%%PARA-TABLE:sup%%\nOn the named state, reworded, GPT-5.6 Luna is the only reader above the lookup (Table~\\ref{tab:para-sup}), by $0.04$ on the pooled metric.\nIt is the reader added after the registration; its matched interval includes zero; its pooled lower bounds are $0.009$ and $0.004$; this is one of five comparisons and no multiplicity correction is applied; and Haiku 4.5's pooled and matched readings also disagree on this state.\nOn the original questions of the same pairs no reader is reliably above the lookup.\n\n%%PARA-TABLE:sens%%\nThe picture is the same with the nine excluded pairs put back, slightly lower for every reader (Table~\\ref{tab:para-sens}).\n\nThe registered readings, per summary, at the $\\pm0.05$ tolerance on the point estimate: under the summary naming superseded records only, the lexical lookup collapses and the embedding lookup holds; GPT-4.1 mini and Opus 5 hold where the lexical lookup collapses, Haiku 4.5 collapses, and the two added readers hold.\nUnder the summary naming all states both lookups collapse and only Opus 5 holds; the embedding lookup's pooled loss there is beyond the registered tolerance, while its within-triple loss is not reliable (Table~\\ref{tab:para-matched}).\n\n%%PARA-TABLE:flags%%\nThe rewrites are systematically more generic than the originals.\nBecause the screen forbids the attribute's own words and every printed name, specific nouns give way to generic ones: ``What materials do I need to prepare for my upcoming meeting?'' became ``Which items should I get ready for the coming discussion?''; ``What type of headlamps am I currently carrying?'' became ``Can you tell me the model of the lights I currently possess?''; ``At this moment, how much am I paying per bag through the cooperative?'' became ``At present, what is the charge for every portion I get from the association?''.\nOver the $115$ pairs the mean cosine of the question to its target name falls from $0.486$ to $0.317$ and the mean content-token overlap with it from $0.484$ to $0.000$, so every change above reflects both the loss of shared words and vaguer wording.\n\nDraws: GPT-4.1 mini $1$, Haiku 4.5 $5$, Opus 5 $1$ against its recorded $5$, GPT-5.6 Luna and GPT-5.6 Sol $5$; the GPT-4.1 mini lane synchronous at list price, the Haiku 4.5 and Opus 5 lanes through the batch interface, the two added readers through the raw interface with the settings of their Table~\\ref{tab:cf-main} rows.\nEvery served model identifier was checked before its lane, every lock of the registration held, and the lookup gate reproduced the recorded values on the original questions at four decimals.\nAn interim aggregate read was taken with the Opus 5 and Sol lanes pending; no lane or analysis changed after it.\n\n",
+   "note": "section 5.1 of the brief, items 1 to 11; the tables through the markers"
+  },
+  {
+   "unit": "appendix",
+   "file": "appendix",
+   "section": "A, tab:setup",
+   "old": "",
+   "new": "the paraphrase set & $345$ items: the $115$ of the $148$ questions whose rewrite, sharing no content word with any printed name, passed a word screen and an author's read, asked of the same three store versions ($115$ obligations: $76$ supersession, $17$ retraction, $22$ expiry) & GPT-4.1 mini (1), Haiku 4.5 (5), Opus 5 (1), GPT-5.6 Luna (5), GPT-5.6 Sol (5); the last two under the default summary only \\\\\n",
+   "note": "section 5.2 of the brief: the paraphrase lanes in the run coverage"
+  },
+  {
+   "unit": "appendix",
+   "file": "appendix",
+   "section": "A, tab:runs caption",
+   "old": "five models ran on the counterfactual set. $^{h}$: elicited through the vendor's agent harness",
+   "new": "five models ran on the counterfactual set, and five ran its paraphrase set (Table~\\ref{tab:setup}): GPT-4.1 mini one call, Haiku 4.5 five, Opus 5 one, GPT-5.6 Luna and GPT-5.6 Sol five through the raw interface under the default summary only. $^{h}$: elicited through the vendor's agent harness",
+   "note": "the paraphrase lanes"
+  },
+  {
+   "unit": "appendix",
+   "file": "appendix",
+   "section": "E.12, tab:provenance",
+   "old": "",
+   "new": "Paraphrase check, the lookup's loss of $0.02$ (Section~\\ref{sec:lookup}, Table~\\ref{tab:para-pooled}) & $345$ items, $115$ of the $148$ triples & manifest; labels transferred from the original triples, whose store versions are unchanged; rewrites screened by a word rule and read by an author with disclosed AI assistance & not needed: versions built from the manifest & ground-truth summary & AUROC, paired bootstrap (item and persona) & descriptive registration, no prediction; readings as they came out; the matched metric and the supersession-only comparison post hoc \\\\\n",
+   "note": "section 5.2 of the brief: the provenance row"
+  },
+  {
+   "unit": "appendix",
+   "file": "appendix",
+   "section": "F, tab:registrations-c caption",
+   "old": "Every one has run except the paraphrase check, which waits on our read.}",
+   "new": "Every one has run; the paraphrase check ran last, on the pairs an author's read accepted, and its dated notes and amendment are the row below it.}",
+   "note": "the pending clause"
+  },
+  {
+   "unit": "appendix",
+   "file": "appendix",
+   "section": "F, tab:registrations-c rows",
+   "old": "both lookups and three models on the same store versions, paired against the originals; four branches enumerated & no prediction; pending \\\\\n",
+   "new": "both lookups and three models on the same store versions, paired against the originals; four branches enumerated & no prediction; run on day $42$ on the $115$ accepted pairs (Table~\\ref{tab:para-pooled}) \\\\\nParaphrased counterfactual set: the dated notes and the amendment & \\texttt{2848f1ad} (the whole file) & day 42 & below the registered text's marker, dated and never editing the text above: the read disclosed as AI-assisted (an assistant flagged rows with reasons and a coding session printed persona evidence; every verdict an author's); the floor amended from $120$ to the $115$ accepted pairs before any scoring call, with the $124$ screen-passing pairs as a sensitivity analysis, not registered; GPT-5.6 Luna and GPT-5.6 Sol added as readers, not registered, declared after the lookup result and before any model result & no prediction \\\\\n",
+   "note": "section 5.2 of the brief: the dated notes and amendment in the list's style"
+  },
+  {
+   "unit": "appendix",
+   "file": "body",
+   "section": "AI use statement",
+   "old": "the benchmark's human-written manifests are the ground truth against which every label is scored.\n",
+   "new": "the benchmark's human-written manifests are the ground truth against which every label is scored.\nAn AI assistant pre-read the paraphrase sheet and flagged rows with reasons; an author read every row and made every verdict.\n",
+   "note": "section 5.2 of the brief"
+  },
+  {
+   "unit": "appendix",
+   "file": "appendix",
+   "section": "G.5",
+   "old": "The registered human evaluation, detector validation and paraphrase approvals remain explicit dependencies.",
+   "new": "The registered human evaluation and detector validation remain explicit dependencies.",
+   "note": "flag (b), agreed: the paraphrase approvals are made"
+  },
+  {
+   "unit": "main",
+   "file": "body",
+   "section": "5.2, after the sibling-name control paragraph",
+   "old": "",
+   "new": "%% R134 (2026-09-21): the paraphrase check's paragraph (the brief, section 4.1; the Branch B sentences of the author's RULING 2); every number from\n%% cf2_paraphrase/results/para_printed.json through r134_number_gate.py (reviews/NUMBERS_R134.md AUX-R134-PRINTED).\n\\claim{The result survives rewording.}\nWe rewrote the questions so that none shares a content word with any name in the summary; $115$ rewrites passed a word screen and an author's read. A word-matching lookup falls to chance by construction. The embedding lookup loses $0.02$, within tolerance. Rewording costs mini $0.03$, Haiku a reliable $0.06$ and Opus a reliable $0.03$, while Luna and Sol do not move, so the lookup now sits a reliable $0.09$ above mini and the stronger models keep the lead they had. On the named state, reworded, mini and Haiku sit reliably below the lookup on the pooled metric (by $0.12$ and $0.07$), and Opus and Sol do not differ from it. Luna, a reader we added after fixing the design, edges above it by $0.04$, reliable on the pooled metric and not within triples; on the original questions no model exceeded it. Under the all-states summary the lookup loses $0.06$ pooled, beyond tolerance, and $0.02$ within triples. The rewrites are also vaguer than the originals, so each change reflects both. (Appendix~\\ref{app:counterfactual})\n\n",
+   "note": "section 4.1 of the brief; RULING 2's Branch B sentences"
+  },
+  {
+   "unit": "main",
+   "file": "body",
+   "section": "1, the second contribution",
+   "old": "including under a sibling-name control that holds counts and list length fixed; and a lookup with one count feature",
+   "new": "including under a sibling-name control that holds counts and list length fixed, and the lookup loses $0.02$ when the questions are reworded to share no word with the names; and a lookup with one count feature",
+   "note": "section 4.4 of the brief"
+  },
+  {
+   "unit": "main",
+   "file": "body",
+   "section": "9, Limitations",
+   "old": "The paraphrase check is not yet scored. ",
+   "new": "The paraphrase check covers $115$ of the $148$ questions, its rewrites are vaguer than the originals, and Opus ran it with one draw. GPT-4.1 mini drafted the questions and is also a reader; it is the weakest reader. ",
+   "note": "section 4.5 of the brief: the sentence replaced and the drafting sentence added in the same paragraph"
+  },
+  {
+   "unit": "main",
+   "file": "body",
+   "section": "10, Conclusion",
+   "old": "On a named state no model reliably exceeds the name lookup, with list length kept fixed or not. ",
+   "new": "On a named state no model reliably exceeds the name lookup, with list length kept fixed or not. When the questions are reworded, the lookup holds up at least as well as the smaller models, and only one stronger model edges past it on a named state. ",
+   "note": "section 4.6 of the brief; RULING 2's sentence"
+  },
+  {
+   "unit": "main_short",
+   "file": "body",
+   "section": "5.2, the paraphrase paragraph",
+   "old": "%% R134 (2026-09-21): the paraphrase check's paragraph (the brief, section 4.1; the Branch B sentences of the author's RULING 2); every number from\n%% cf2_paraphrase/results/para_printed.json through r134_number_gate.py (reviews/NUMBERS_R134.md AUX-R134-PRINTED).\n\\claim{The result survives rewording.}\nWe rewrote the questions so that none shares a content word with any name in the summary; $115$ rewrites passed a word screen and an author's read. A word-matching lookup falls to chance by construction. The embedding lookup loses $0.02$, within tolerance. Rewording costs mini $0.03$, Haiku a reliable $0.06$ and Opus a reliable $0.03$, while Luna and Sol do not move, so the lookup now sits a reliable $0.09$ above mini and the stronger models keep the lead they had. On the named state, reworded, mini and Haiku sit reliably below the lookup on the pooled metric (by $0.12$ and $0.07$), and Opus and Sol do not differ from it. Luna, a reader we added after fixing the design, edges above it by $0.04$, reliable on the pooled metric and not within triples; on the original questions no model exceeded it. Under the all-states summary the lookup loses $0.06$ pooled, beyond tolerance, and $0.02$ within triples. The rewrites are also vaguer than the originals, so each change reflects both. (Appendix~\\ref{app:counterfactual})\n\n",
+   "new": "%% R134 (2026-09-21): the paraphrase check's paragraph, the shorter form (the brief, section 4.2; the Branch B sentence of the author's RULING 2); every number from\n%% cf2_paraphrase/results/para_printed.json through r134_number_gate.py (reviews/NUMBERS_R134.md AUX-R134-PRINTED).\n\\claim{The result survives rewording.}\nWith the questions rewritten to share no content word with any name in the summary ($115$ pairs), a word-matching lookup falls to chance and the embedding lookup loses $0.02$. Mini loses $0.03$, Haiku a reliable $0.06$ and Opus a reliable $0.03$; Luna and Sol do not move, and the stronger models keep their lead. On the named state, reworded, mini and Haiku sit below the lookup and Luna, a reader we added later, edges $0.04$ above it on the pooled metric only. Under the all-states summary the lookup loses $0.06$ pooled and $0.02$ within triples. The rewrites are also vaguer than the originals. (Appendix~\\ref{app:counterfactual})\n\n",
+   "note": "section 4.2 of the brief: the shorter version after the page gate failed"
+  },
+  {
+   "unit": "abstract",
+   "file": "abstract",
+   "section": "the abstract",
+   "old": "%% R131 close, B1 (2026-09-20): the author's abstract, verbatim (ABSTRACT SWAP + ITS PAYER; hand-tuned, B4: no gate changes a word of it). Numbers: r131_close_gate.py\n%% (148 = the triples; 0.88 = the sibling floor, Haiku 0.8807, AUX-CF2-R125-SB-*; 0.08 to 0.10 = AUX-CF2-R125-VS-LOOKUP +0.0811 to +0.1014; 0.73 / 0.75 -> 0.60 / 0.59 = AUX-E1R-TRUE-NOK 0.7339,\n%% AUX-E1R-NB6 0.7484 / 0.5858, AUX-E1R-BELIEVED-NOK 0.5959; chance 0.50). The last clause is a placeholder (B5): it is replaced when the HV-1 numbers exist.\nAn agent with long-term memory can answer from a record it should no longer use, such as a plan the user later cancelled.\nWe test whether an agent can tell, before retrieving anything, that its store holds such a record, from a summary alone: the number of records in each lifecycle state, and a list of attribute names with the values removed.\nEach of $148$ questions is asked against three versions of one store that differ in one attribute, so a question's wording cannot give the answer away.\nFirst, ablations show that the two smaller of five models score the same with the state counts removed, while the three stronger ones also use them.\nSecond, for superseded records, the one state whose names the summary lists, no model reliably beats a cosine-similarity lookup over those names.\nUnder a control that holds counts and list length fixed, the lookup and every model pick the correct name over a similar one at an AUROC of $0.88$ or higher (chance $0.50$).\nThe stronger models lead the lookup by $0.08$ to $0.10$ overall, a lead that comes from retracted and expired records, which the summary only counts.\nAdding one count feature to the lookup closes that lead when a question's three store versions are compared with each other, but not when all items are pooled, where the models stay $0.05$ to $0.06$ ahead.\nThird, the memory backends we tested omit or misstate this information.\nGiven only what FR-Bank, a backend that tags every entry with a lifecycle state, actually writes, GPT-4.1 mini, Haiku 4.5 and the lookup drop from $0.73$, $0.82$ and $0.75$ to $0.60$, $0.71$ and $0.59$ on our larger question set.\nIn these tests, what the store wrote down limited every reader we gave it to.\nAll stores are synthetic, and whether better judgments yield better answers is not established; human validation is pending.\n",
+   "new": "%% R134 (2026-09-21): the author's abstract, verbatim (the ruling superseding the brief's section 4.3; no gate rewords it). Numbers: r134_number_gate.py (148 = the triples;\n%% 0.02 = AUX-PARA-LOOKUP-EMB-V2 -0.0216; 0.04 = AUX-PARA-POSTHOC-MINUS-LOOKUP-LUNA-V2, supersession only, pooled, +0.0445; 0.08 to 0.10 = AUX-CF2-R125-VS-LOOKUP; 0.05 to 0.06 = AUX-CF2-HYB-VS-MODELS;\n%% 0.73 / 0.82 / 0.75 -> 0.60 / 0.71 / 0.59 = AUX-E1R-TRUE-NOK, AUX-R74-X4-H45-NOK, AUX-E1R-NB6, AUX-E1R-BELIEVED-NOK, AUX-BH-H45-15, AUX-E1R-NB6). The last clause is a placeholder (B5): it stays until the HV-1 numbers exist.\nAn agent with long-term memory can answer from a record it should no longer use, such as a plan the user later cancelled.\nWe test whether an agent can tell, before retrieving anything, that its store holds such a record, from a summary alone: counts of records by lifecycle state, and a list of attribute names with the values removed.\nEach of $148$ questions is asked against three versions of one store that differ in one attribute, so a question's wording cannot give the answer away.\nFirst, the two smaller of five models score the same with the counts removed, while the three stronger ones also use them.\nSecond, for superseded records, the one state whose names the summary lists, no model reliably beats a cosine-similarity lookup over those names, even with counts and list length held fixed.\nReworded so that no question shares a word with the names, the lookup loses $0.02$, the two smaller models fall below it, and one stronger model edges ahead by $0.04$.\nThe stronger models' lead over the lookup of $0.08$ to $0.10$ comes from retracted and expired records, which the summary only counts; one count feature added to the lookup closes it within a question's three store versions, though not when all items are pooled ($0.05$ to $0.06$ remains).\nThird, the backends we tested omit or misstate this information.\nGiven only what FR-Bank, which tags every entry with a lifecycle state, actually writes, GPT-4.1 mini, Haiku 4.5 and the lookup drop from $0.73$, $0.82$ and $0.75$ to $0.60$, $0.71$ and $0.59$ on our larger question set.\nIn these tests, what the store wrote down limited every reader we gave it to.\nAll stores are synthetic, and whether better judgments yield better answers is not established; human validation is pending.\n",
+   "note": "the author's abstract of 2026-09-21, verbatim; numerals in math mode as the source's convention"
+  },
+  {
+   "unit": "partb",
+   "file": "body",
+   "section": "Table 1",
+   "old": "Count reader, given category & superseded & $0.60$",
+   "new": "Count reader, given category$^{c}$ & superseded & $0.60$",
+   "note": "B1: the mark"
+  },
+  {
+   "unit": "partb",
+   "file": "body",
+   "section": "Table 1, the note",
+   "old": "fit with personas left out (Table~\\ref{tab:cf-hybrid}).\n",
+   "new": "fit with personas left out (Table~\\ref{tab:cf-hybrid}). $^{c}$The two read different quantities: the given-category reader ties every supersession triple and is perfect on the counted states by construction.\n",
+   "note": "B1: taken from C.2's explanation of the two readers; one line, as the brief asks (the three-line form cost the page: gates_r134_partb_a.txt)"
+  },
+  {
+   "unit": "partb",
+   "file": "body",
+   "section": "4, Labels and summaries",
+   "old": "and part of the main question set come from the FR-Bank release \\citep{fr}.",
+   "new": "and part of the main question set come from the FR-Bank release (its LifecycleBench personas) \\citep{fr}.",
+   "note": "B2"
+  },
+  {
+   "unit": "partb",
+   "file": "body",
+   "section": "AI use statement",
+   "old": "An AI assistant pre-read the paraphrase sheet and flagged rows with reasons; an author read every row and made every verdict.\n",
+   "new": "An AI assistant pre-read the paraphrase sheet and flagged rows with reasons; an author read every row and made every verdict.\nFor the intent crossover's questions an AI model pre-flagged candidate failures before an author's check; every verdict was an author's, entered from a dictated list.\n",
+   "note": "the author's addition to step 6: the crossover check's sentence, from the registration's disclosure line"
+  },
+  {
+   "unit": "partb",
+   "file": "appendix",
+   "section": "E.1, the glossary's opening",
+   "old": "The paper uses one vocabulary and the artifact records another.\n",
+   "new": "The paper uses one vocabulary and the artifact records another.\nThree pairs of terms recur in the appendix prose before the table at the end of this section defines them: \\emph{blind} and \\emph{indexed} are the main text's question only and with the summary; \\emph{route A} and \\emph{route B} are the summary route and the tag route; and \\emph{the monitor} is the reader, a name lookup or a model.\n",
+   "note": "B3: the term bridge; nothing renamed in pinned text"
+  },
+  {
+   "unit": "payers",
+   "file": "body",
+   "section": "4, the models paragraph",
+   "old": "Appendix~\\ref{app:laddertable} lists both, and a dagger marks a number in the text that has a coverage note there.",
+   "new": "Appendix~\\ref{app:laddertable} lists both.",
+   "note": "P1"
+  },
+  {
+   "unit": "payers",
+   "file": "body",
+   "section": "5.1",
+   "old": "With every count deleted, mini$^{\\dagger}$ and Haiku stay within",
+   "new": "With every count deleted, mini and Haiku stay within",
+   "note": "P1: the first dagger"
+  },
+  {
+   "unit": "payers",
+   "file": "body",
+   "section": "5.1",
+   "old": "Removing every count costs Luna $0.06$ and Opus $0.04^{\\dagger}$ on the pooled metric",
+   "new": "Removing every count costs Luna $0.06$ and Opus $0.04$ on the pooled metric",
+   "note": "P1: the second dagger"
+  },
+  {
+   "unit": "payers",
+   "file": "body",
+   "section": "5.2",
+   "old": "Haiku by a reliable $0.35^{\\dagger}$ on the two states that were only counted",
+   "new": "Haiku by a reliable $0.35$ on the two states that were only counted",
+   "note": "P1: the third dagger"
+  },
+  {
+   "unit": "payers",
+   "file": "body",
+   "section": "5.3",
+   "old": "Luna, Sol and Opus score $0.88$ to $0.99^{\\dagger}$, while mini and Haiku",
+   "new": "Luna, Sol and Opus score $0.88$ to $0.99$, while mini and Haiku",
+   "note": "P1: the fourth dagger"
+  },
+  {
+   "unit": "payers",
+   "file": "body",
+   "section": "8",
+   "old": "Haiku, Luna and Opus score $0.82$ to $0.83^{\\dagger}$ against the lookup's $0.75$",
+   "new": "Haiku, Luna and Opus score $0.82$ to $0.83$ against the lookup's $0.75$",
+   "note": "P1: the fifth dagger"
+  },
+  {
+   "unit": "payers",
+   "file": "appendix",
+   "section": "A, the coverage notes",
+   "old": "\\paragraph{Coverage notes for the daggers in the main text.}\nA dagger on a number in the main text marks a run setting that differs from its neighbours in the same sentence, or a comparison set that is incomplete; each resolves to one note here.\n",
+   "new": "\\paragraph{Coverage notes for the main text.}\nEach note below records a run setting that differs from its neighbours in the same sentence of the main text, or a comparison set that is incomplete.\n",
+   "note": "P1: the notes stay, reworded so they no longer refer to a dagger"
+  },
+  {
+   "unit": "payers",
+   "file": "body",
+   "section": "2, Related work",
+   "old": "\\citep{lewis2020,flare,mallen2023,ren2025,wang2023,selfrag,su2024,seakr,verbrouting,metamem}",
+   "new": "\\citep{lewis2020,flare,mallen2023,selfrag,su2024}",
+   "note": "P2: Lewis 2020, Jiang 2023 (flare), Mallen 2023, Asai 2024 (selfrag), Su 2024 kept; ren2025, wang2023, seakr, verbrouting, metamem dropped from the string; no other citation touched"
+  },
+  {
+   "unit": "payers",
+   "file": "body",
+   "section": "1",
+   "old": "Their metamemory names are negative-obligation knowledge (NOK) and feeling of knowing (FOK), which connect these questions to judgments about one's own memory \\citep{hart1965,nelson1990,koriat1993}. Here, the object of the judgment is an external store.",
+   "new": "In metamemory terms these are negative-obligation knowledge (NOK) and the feeling of knowing (FOK) \\citep{hart1965,nelson1990,koriat1993}, here judged about an external store.",
+   "note": "P3, verbatim (the citation as \\citep)"
+  },
+  {
+   "unit": "payers",
+   "file": "body",
+   "section": "10, Conclusion",
+   "old": "In these tests, no reader we tried made up for what the store had failed to write down. The smaller models score the same with the counts removed; the stronger ones also read the counts, and a lookup given one count feature matches them within triples, though not on the pooled metric. On a named state no model reliably exceeds the name lookup, with list length kept fixed or not. When the questions are reworded, the lookup holds up at least as well as the smaller models, and only one stronger model edges past it on a named state. Told the intent rule, only the three stronger models apply it, and a fixed cue list matches the best of them.",
+   "new": "In these tests, no reader we tried made up for what the store had failed to write down. On a named state no model reliably exceeds the name lookup, with list length kept fixed or not, and when the questions are reworded only one stronger model edges past it. The stronger models' lead comes from counts the smaller models do not use. Told the intent rule, only the stronger models apply it, and a fixed cue list matches the best of them.",
+   "note": "P4, verbatim; the first sentence kept as it stands"
+  },
+  {
+   "unit": "payers",
+   "file": "body",
+   "section": "1, the second contribution",
+   "old": "\\item Evidence about what readers read. The two smaller models score the same with the counts removed and three stronger models also use the counts; on the named state no model reliably exceeds a name lookup, including under a sibling-name control that holds counts and list length fixed, and the lookup loses $0.02$ when the questions are reworded to share no word with the names; and a lookup with one count feature matches the stronger models within triples, though not on the pooled metric.",
+   "new": "\\item Evidence about what readers read. On the named state no model reliably exceeds a name lookup, including under a control that holds counts and list length fixed, and the lookup loses $0.02$ when the questions are reworded to share no word with the names. The stronger models' lead comes from the counts, which the two smaller models do not use.",
+   "note": "P5, verbatim"
+  },
+  {
+   "unit": "payers",
+   "file": "body",
+   "section": "5.1",
+   "old": "falling by $0.27$ to $0.33$ on the counted states",
+   "new": "falling by $0.28$ to $0.33$ on the counted states",
+   "note": "the moved-count range on the counted states, corrected through the number gate (AUX-CF2-R125-CONTRASTS counted: Opus -0.2833, Luna -0.2917, Sol -0.3250)"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "claude-haiku-4-5-20251001": {
+  "billed_before": 0.0185,
+  "fits": true,
+  "headroom": 3.9815,
+  "identifier_ok": true,
+  "in": 1782,
+  "lane": "claude-haiku-4-5-20251001",
+  "out": 200,
+  "parsed": "OK",
+  "probe_usd": 0.0027819999999999998,
+  "projection": {
+   "calls": 2220,
+   "input_tokens": 3834630,
+   "output_tokens": 444000,
+   "usd": 3.0273,
+   "usd_x1.3": 3.9355
+  },
+  "sample": "```json\n{\"fok\": 42, \"nok_candidates_found\": false, \"nok\": 8, \"would_search\": true}\n```\n\n**Reasoning:**\n\n**FOK (42):** The store contains 148 OBLIGATIONS entries (146 active), with attributes including",
+  "served": "claude-haiku-4-5-20251001"
+ },
+ "gpt-4.1-mini": {
+  "billed_before": 3.0465,
+  "fits": true,
+  "headroom": 0.9535,
+  "identifier_ok": true,
+  "in": 1684,
+  "lane": "gpt-4.1-mini",
+  "out": 26,
+  "parsed": "OK",
+  "probe_usd": 0.0007152,
+  "projection": {
+   "calls": 444,
+   "input_tokens": 724714,
+   "output_tokens": 11544,
+   "usd": 0.3084,
+   "usd_x1.3": 0.4009
+  },
+  "sample": "{\"fok\": 40, \"nok_candidates_found\": false, \"nok\": 5, \"would_search\": true}",
+  "served": "gpt-4.1-mini-2025-04-14"
+ },
+ "claude-opus-5": {
+  "lane": "claude-opus-5",
+  "k": 1,
+  "served": "claude-opus-5",
+  "identifier_ok": true,
+  "in": 2483,
+  "out": 134,
+  "parsed": "OK",
+  "probe_usd": 0.015764999999999998,
+  "projection": {
+   "calls": 444,
+   "input_tokens": 1068705,
+   "output_tokens": 59496,
+   "usd": 3.4155,
+   "usd_x1.3": 4.4401,
+   "cf3_anchor_usd": 3.8717
+  },
+  "r114_billed_before": 1.5725,
+  "r114_ceiling": 40.0,
+  "headroom": 38.4275,
+  "fits": true,
+  "sample": "{\"fok\": 92, \"nok_candidates_found\": true, \"nok\": 72, \"would_search\": true}",
+  "when": "2026-09-17T01:17:40"
+ }
+}

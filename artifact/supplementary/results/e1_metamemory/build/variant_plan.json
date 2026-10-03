@@ -1,0 +1,319 @@
+{
+  "cat_ablation": {
+    "aisha": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "HOBBIES_RECREATION",
+        "LOGISTICAL_CONTEXT"
+      ],
+      "questions_fully_covered": 3
+    },
+    "alex": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "LOGISTICAL_CONTEXT",
+        "OBLIGATIONS"
+      ],
+      "questions_fully_covered": 4
+    },
+    "amara": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "HOBBIES_RECREATION",
+        "IDENTITY_SELF_CONCEPT"
+      ],
+      "questions_fully_covered": 3
+    },
+    "aroha": {
+      "categories": [
+        "IDENTITY_SELF_CONCEPT",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 3
+    },
+    "billy": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "LOGISTICAL_CONTEXT",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 3
+    },
+    "bruna": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "LOGISTICAL_CONTEXT",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 4
+    },
+    "callum": {
+      "categories": [
+        "INTELLECTUAL_INTERESTS",
+        "LOGISTICAL_CONTEXT",
+        "OBLIGATIONS"
+      ],
+      "questions_fully_covered": 3
+    },
+    "chenoa": {
+      "categories": [
+        "IDENTITY_SELF_CONCEPT",
+        "OBLIGATIONS",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 5
+    },
+    "dariush": {
+      "categories": [
+        "FINANCIAL_MATERIAL",
+        "HEALTH_WELLBEING",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 3
+    },
+    "david": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "IDENTITY_SELF_CONCEPT",
+        "LOGISTICAL_CONTEXT"
+      ],
+      "questions_fully_covered": 3
+    },
+    "diane": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "PROJECTS_ENDEAVORS",
+        "RELATIONAL_BONDS"
+      ],
+      "questions_fully_covered": 3
+    },
+    "dmitri": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "LOGISTICAL_CONTEXT"
+      ],
+      "questions_fully_covered": 2
+    },
+    "elena": {
+      "categories": [
+        "LOGISTICAL_CONTEXT",
+        "RELATIONAL_BONDS"
+      ],
+      "questions_fully_covered": 2
+    },
+    "fatima": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "LOGISTICAL_CONTEXT",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 5
+    },
+    "ingrid": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "HOBBIES_RECREATION",
+        "OBLIGATIONS"
+      ],
+      "questions_fully_covered": 3
+    },
+    "jake": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "OBLIGATIONS",
+        "RELATIONAL_BONDS"
+      ],
+      "questions_fully_covered": 4
+    },
+    "jerome": {
+      "categories": [
+        "IDENTITY_SELF_CONCEPT",
+        "LOGISTICAL_CONTEXT",
+        "RELATIONAL_BONDS"
+      ],
+      "questions_fully_covered": 4
+    },
+    "joonho": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "OBLIGATIONS",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 4
+    },
+    "kenji": {
+      "categories": [
+        "LOGISTICAL_CONTEXT",
+        "PROJECTS_ENDEAVORS",
+        "RELATIONAL_BONDS"
+      ],
+      "questions_fully_covered": 5
+    },
+    "kofi": {
+      "categories": [
+        "FINANCIAL_MATERIAL",
+        "OBLIGATIONS",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 4
+    },
+    "leila": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "LOGISTICAL_CONTEXT",
+        "RELATIONAL_BONDS"
+      ],
+      "questions_fully_covered": 4
+    },
+    "lily": {
+      "categories": [
+        "PREFERENCES_HABITS",
+        "PROJECTS_ENDEAVORS",
+        "RELATIONAL_BONDS"
+      ],
+      "questions_fully_covered": 5
+    },
+    "marcus": {
+      "categories": [
+        "FINANCIAL_MATERIAL",
+        "HEALTH_WELLBEING",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 3
+    },
+    "marley": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "PROJECTS_ENDEAVORS",
+        "RELATIONAL_BONDS"
+      ],
+      "questions_fully_covered": 3
+    },
+    "mehmet": {
+      "categories": [
+        "FINANCIAL_MATERIAL",
+        "HEALTH_WELLBEING",
+        "OBLIGATIONS"
+      ],
+      "questions_fully_covered": 3
+    },
+    "mirri": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "OBLIGATIONS",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 4
+    },
+    "nadia": {
+      "categories": [
+        "FINANCIAL_MATERIAL",
+        "IDENTITY_SELF_CONCEPT",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 4
+    },
+    "omar": {
+      "categories": [
+        "FINANCIAL_MATERIAL",
+        "OBLIGATIONS"
+      ],
+      "questions_fully_covered": 2
+    },
+    "pan": {
+      "categories": [
+        "LOGISTICAL_CONTEXT",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 4
+    },
+    "patrick": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "LOGISTICAL_CONTEXT",
+        "OBLIGATIONS"
+      ],
+      "questions_fully_covered": 3
+    },
+    "priya": {
+      "categories": [
+        "FINANCIAL_MATERIAL",
+        "HEALTH_WELLBEING"
+      ],
+      "questions_fully_covered": 1
+    },
+    "raj": {
+      "categories": [
+        "FINANCIAL_MATERIAL",
+        "OBLIGATIONS",
+        "RELATIONAL_BONDS"
+      ],
+      "questions_fully_covered": 5
+    },
+    "rosa": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "IDENTITY_SELF_CONCEPT"
+      ],
+      "questions_fully_covered": 3
+    },
+    "saga": {
+      "categories": [
+        "HOBBIES_RECREATION",
+        "OBLIGATIONS",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 3
+    },
+    "samuel": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "IDENTITY_SELF_CONCEPT",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 3
+    },
+    "thanh": {
+      "categories": [
+        "FINANCIAL_MATERIAL",
+        "PROJECTS_ENDEAVORS",
+        "RELATIONAL_BONDS"
+      ],
+      "questions_fully_covered": 4
+    },
+    "tom": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "LOGISTICAL_CONTEXT",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 6
+    },
+    "valentina": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "OBLIGATIONS",
+        "PROJECTS_ENDEAVORS"
+      ],
+      "questions_fully_covered": 5
+    },
+    "yoli": {
+      "categories": [
+        "HEALTH_WELLBEING",
+        "PROJECTS_ENDEAVORS",
+        "RELATIONAL_BONDS"
+      ],
+      "questions_fully_covered": 4
+    },
+    "zara": {
+      "categories": [
+        "HOBBIES_RECREATION",
+        "PROJECTS_ENDEAVORS",
+        "RELATIONAL_BONDS"
+      ],
+      "questions_fully_covered": 4
+    }
+  },
+  "n_slot_ablations": 201,
+  "note": "SLOT-ABLATED stored as removal sets, not materialised banks (D4)"
+}

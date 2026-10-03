@@ -1,0 +1,344 @@
+{
+  "P-FOK-HARD/blind": {
+    "maps": {
+      "isotonic": {
+        "aurc": 0.0822,
+        "auroc_pooled_oof": 0.3801,
+        "auroc_raw": 0.5258,
+        "brier": 0.0561,
+        "crossing_0.5": null,
+        "crossing_base_rate": 0.2,
+        "ece": 0.0003,
+        "excess_aurc": 0.0804,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 0.0709,
+        "n_scored": 588
+      },
+      "platt": {
+        "aurc": 0.1135,
+        "auroc_pooled_oof": 0.2152,
+        "auroc_raw": 0.5258,
+        "brier": 0.0563,
+        "crossing_0.5": null,
+        "crossing_base_rate": 0.0,
+        "ece": 0.0001,
+        "excess_aurc": 0.1117,
+        "folds_decreasing": 38,
+        "folds_increasing": 2,
+        "max_calibrated_p": 0.0648,
+        "n_scored": 588
+      },
+      "temperature": {
+        "aurc": 0.0949,
+        "auroc_pooled_oof": 0.5201,
+        "auroc_raw": 0.5258,
+        "brier": 0.1043,
+        "crossing_0.5": 0.7,
+        "crossing_base_rate": 0.2,
+        "ece": 0.1222,
+        "excess_aurc": 0.0891,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 0.7704,
+        "n_scored": 588
+      }
+    },
+    "raw": {
+      "aurc": 0.0948,
+      "auroc": 0.5258,
+      "base_rate": 0.0595,
+      "brier": 0.1091,
+      "distinct_values": 6,
+      "ece": 0.1596,
+      "excess_aurc": 0.0889,
+      "n": 588,
+      "pos": 35
+    }
+  },
+  "P-FOK-HARD/intact": {
+    "maps": {
+      "isotonic": {
+        "aurc": 0.0454,
+        "auroc_pooled_oof": 0.6524,
+        "auroc_raw": 0.753,
+        "brier": 0.0524,
+        "crossing_0.5": null,
+        "crossing_base_rate": 0.3,
+        "ece": 0.0146,
+        "excess_aurc": 0.0436,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 0.375,
+        "n_scored": 588
+      },
+      "platt": {
+        "aurc": 0.0373,
+        "auroc_pooled_oof": 0.6949,
+        "auroc_raw": 0.753,
+        "brier": 0.0519,
+        "crossing_0.5": null,
+        "crossing_base_rate": 0.4,
+        "ece": 0.0029,
+        "excess_aurc": 0.0355,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 0.4248,
+        "n_scored": 588
+      },
+      "temperature": {
+        "aurc": 0.0567,
+        "auroc_pooled_oof": 0.7411,
+        "auroc_raw": 0.753,
+        "brier": 0.0967,
+        "crossing_0.5": 0.6,
+        "crossing_base_rate": 0.15,
+        "ece": 0.1299,
+        "excess_aurc": 0.049,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 0.9585,
+        "n_scored": 588
+      }
+    },
+    "raw": {
+      "aurc": 0.0615,
+      "auroc": 0.753,
+      "base_rate": 0.0595,
+      "brier": 0.0992,
+      "distinct_values": 12,
+      "ece": 0.1741,
+      "excess_aurc": 0.0538,
+      "n": 588,
+      "pos": 35
+    }
+  },
+  "P-FOK-HARD/names-only": {
+    "maps": {
+      "isotonic": {
+        "aurc": 0.0281,
+        "auroc_pooled_oof": 0.7865,
+        "auroc_raw": 0.8516,
+        "brier": 0.0504,
+        "crossing_0.5": null,
+        "crossing_base_rate": 0.2,
+        "ece": 0.034,
+        "excess_aurc": 0.0263,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 0.45,
+        "n_scored": 588
+      },
+      "platt": {
+        "aurc": 0.0163,
+        "auroc_pooled_oof": 0.8073,
+        "auroc_raw": 0.8516,
+        "brier": 0.0503,
+        "crossing_0.5": 0.7,
+        "crossing_base_rate": 0.2,
+        "ece": 0.0134,
+        "excess_aurc": 0.0137,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 0.5577,
+        "n_scored": 588
+      },
+      "temperature": {
+        "aurc": 0.0171,
+        "auroc_pooled_oof": 0.8241,
+        "auroc_raw": 0.8516,
+        "brier": 0.0554,
+        "crossing_0.5": 0.6,
+        "crossing_base_rate": 0.15,
+        "ece": 0.0296,
+        "excess_aurc": 0.0148,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 0.7704,
+        "n_scored": 588
+      }
+    },
+    "raw": {
+      "aurc": 0.0162,
+      "auroc": 0.8516,
+      "base_rate": 0.0595,
+      "brier": 0.0567,
+      "distinct_values": 9,
+      "ece": 0.0583,
+      "excess_aurc": 0.0139,
+      "n": 588,
+      "pos": 35
+    }
+  },
+  "P-NOK-FRB/blind": {
+    "maps": {
+      "isotonic": {
+        "aurc": 0.2785,
+        "auroc_pooled_oof": 0.2563,
+        "auroc_raw": 0.4946,
+        "brier": 0.1333,
+        "crossing_0.5": null,
+        "crossing_base_rate": 0.1,
+        "ece": 0.0002,
+        "excess_aurc": 0.2653,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 0.162,
+        "n_scored": 661
+      },
+      "platt": {
+        "aurc": 0.2782,
+        "auroc_pooled_oof": 0.2572,
+        "auroc_raw": 0.4946,
+        "brier": 0.1333,
+        "crossing_0.5": null,
+        "crossing_base_rate": 0.0,
+        "ece": 0.0012,
+        "excess_aurc": 0.265,
+        "folds_decreasing": 40,
+        "folds_increasing": 0,
+        "max_calibrated_p": 0.1636,
+        "n_scored": 661
+      },
+      "temperature": {
+        "aurc": 0.2347,
+        "auroc_pooled_oof": 0.4479,
+        "auroc_raw": 0.4946,
+        "brier": 0.1344,
+        "crossing_0.5": null,
+        "crossing_base_rate": 0.1,
+        "ece": 0.0058,
+        "excess_aurc": 0.2215,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 0.4333,
+        "n_scored": 661
+      }
+    },
+    "raw": {
+      "aurc": 0.2132,
+      "auroc": 0.4946,
+      "base_rate": 0.1573,
+      "brier": 0.1574,
+      "distinct_values": 2,
+      "ece": 0.1582,
+      "excess_aurc": 0.2,
+      "n": 661,
+      "pos": 104
+    }
+  },
+  "P-NOK-FRB/indexed-BELIEVED": {
+    "maps": {
+      "isotonic": {
+        "aurc": 0.199,
+        "auroc_pooled_oof": 0.4769,
+        "auroc_raw": 0.5959,
+        "brier": 0.1333,
+        "crossing_0.5": 0.8,
+        "crossing_base_rate": 0.05,
+        "ece": 0.0261,
+        "excess_aurc": 0.1852,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 0.5,
+        "n_scored": 661
+      },
+      "platt": {
+        "aurc": 0.1824,
+        "auroc_pooled_oof": 0.509,
+        "auroc_raw": 0.5959,
+        "brier": 0.1324,
+        "crossing_0.5": null,
+        "crossing_base_rate": 0.2,
+        "ece": 0.0262,
+        "excess_aurc": 0.1692,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 0.3273,
+        "n_scored": 661
+      },
+      "temperature": {
+        "aurc": 0.176,
+        "auroc_pooled_oof": 0.5837,
+        "auroc_raw": 0.5959,
+        "brier": 0.1656,
+        "crossing_0.5": 0.5,
+        "crossing_base_rate": 0.05,
+        "ece": 0.1458,
+        "excess_aurc": 0.1545,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 0.5584,
+        "n_scored": 661
+      }
+    },
+    "raw": {
+      "aurc": 0.1682,
+      "auroc": 0.5959,
+      "base_rate": 0.1573,
+      "brier": 0.156,
+      "distinct_values": 10,
+      "ece": 0.1411,
+      "excess_aurc": 0.1466,
+      "n": 661,
+      "pos": 104
+    }
+  },
+  "P-NOK-FRB/indexed-TRUE": {
+    "maps": {
+      "isotonic": {
+        "aurc": 0.131,
+        "auroc_pooled_oof": 0.6022,
+        "auroc_raw": 0.7339,
+        "brier": 0.0866,
+        "crossing_0.5": 0.2,
+        "crossing_base_rate": 0.2,
+        "ece": 0.0081,
+        "excess_aurc": 0.1256,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 1.0,
+        "n_scored": 661
+      },
+      "platt": {
+        "aurc": 0.1392,
+        "auroc_pooled_oof": 0.6298,
+        "auroc_raw": 0.7339,
+        "brier": 0.0894,
+        "crossing_0.5": 0.3,
+        "crossing_base_rate": 0.1,
+        "ece": 0.0482,
+        "excess_aurc": 0.1324,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 0.9838,
+        "n_scored": 661
+      },
+      "temperature": {
+        "aurc": 0.1295,
+        "auroc_pooled_oof": 0.7013,
+        "auroc_raw": 0.7339,
+        "brier": 0.1162,
+        "crossing_0.5": 0.6,
+        "crossing_base_rate": 0.05,
+        "ece": 0.0957,
+        "excess_aurc": 0.122,
+        "folds_decreasing": 0,
+        "folds_increasing": 40,
+        "max_calibrated_p": 0.5632,
+        "n_scored": 661
+      }
+    },
+    "raw": {
+      "aurc": 0.1225,
+      "auroc": 0.7339,
+      "base_rate": 0.1573,
+      "brier": 0.1015,
+      "distinct_values": 9,
+      "ece": 0.0986,
+      "excess_aurc": 0.1149,
+      "n": 661,
+      "pos": 104
+    }
+  }
+}

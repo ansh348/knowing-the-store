@@ -1,0 +1,649 @@
+{
+  "cache_adjusted_frontier_subset": {
+    "gpt-4.1-mini": {
+      "calls": 150,
+      "groups": 103,
+      "groups_meeting_min_prefix": 61,
+      "input_tokens_cached": 33896,
+      "input_tokens_list": 176935,
+      "input_tokens_uncached": 143039,
+      "max_calls_per_group": 4,
+      "mean_calls_per_group": 1.4563106796116505,
+      "saving_pct_as_run": 17.24158589312459,
+      "saving_pct_asymptotic": 64.49266679854183,
+      "scope": "150-item frontier subset",
+      "usd_input_cache_adjusted_as_run": 0.05857144,
+      "usd_input_cache_adjusted_asymptotic": 0.025129960000000007,
+      "usd_input_list": 0.070774
+    },
+    "gpt-5.6-luna": {
+      "calls": 150,
+      "groups": 103,
+      "groups_meeting_min_prefix": 61,
+      "input_tokens_cached": 33896,
+      "input_tokens_list": 176935,
+      "input_tokens_uncached": 143039,
+      "max_calls_per_group": 4,
+      "mean_calls_per_group": 1.4563106796116505,
+      "saving_pct_as_run": 17.24158589312459,
+      "saving_pct_asymptotic": 64.49266679854183,
+      "scope": "150-item frontier subset",
+      "usd_input_cache_adjusted_as_run": 0.02928572,
+      "usd_input_cache_adjusted_asymptotic": 0.012564980000000003,
+      "usd_input_list": 0.035387
+    },
+    "gpt-5.6-sol": {
+      "calls": 150,
+      "groups": 103,
+      "groups_meeting_min_prefix": 61,
+      "input_tokens_cached": 33896,
+      "input_tokens_list": 176935,
+      "input_tokens_uncached": 143039,
+      "max_calls_per_group": 4,
+      "mean_calls_per_group": 1.4563106796116505,
+      "saving_pct_as_run": 17.2415858931246,
+      "saving_pct_asymptotic": 64.49266679854185,
+      "scope": "150-item frontier subset",
+      "usd_input_cache_adjusted_as_run": 0.732143,
+      "usd_input_cache_adjusted_asymptotic": 0.31412450000000003,
+      "usd_input_list": 0.8846750000000001
+    }
+  },
+  "cache_adjusted_indexed_arm": {
+    "gpt-4.1-mini": {
+      "calls": 1183,
+      "groups": 319,
+      "groups_meeting_min_prefix": 242,
+      "input_tokens_cached": 636476,
+      "input_tokens_list": 1411114,
+      "input_tokens_uncached": 774638,
+      "max_calls_per_group": 12,
+      "mean_calls_per_group": 3.70846394984326,
+      "saving_pct_as_run": 40.59405547673681,
+      "saving_pct_asymptotic": 64.67670932327225,
+      "scope": "full E1 INDEXED-TRUE arm (mini lane items)",
+      "usd_input_cache_adjusted_as_run": 0.33531424000000004,
+      "usd_input_cache_adjusted_asymptotic": 0.19938076000000002,
+      "usd_input_list": 0.5644456
+    },
+    "gpt-5.6-luna": {
+      "calls": 1183,
+      "groups": 319,
+      "groups_meeting_min_prefix": 242,
+      "input_tokens_cached": 636476,
+      "input_tokens_list": 1411114,
+      "input_tokens_uncached": 774638,
+      "max_calls_per_group": 12,
+      "mean_calls_per_group": 3.70846394984326,
+      "saving_pct_as_run": 40.59405547673681,
+      "saving_pct_asymptotic": 64.67670932327225,
+      "scope": "full E1 INDEXED-TRUE arm (mini lane items)",
+      "usd_input_cache_adjusted_as_run": 0.16765712000000002,
+      "usd_input_cache_adjusted_asymptotic": 0.09969038000000001,
+      "usd_input_list": 0.2822228
+    },
+    "gpt-5.6-sol": {
+      "calls": 1183,
+      "groups": 319,
+      "groups_meeting_min_prefix": 242,
+      "input_tokens_cached": 636476,
+      "input_tokens_list": 1411114,
+      "input_tokens_uncached": 774638,
+      "max_calls_per_group": 12,
+      "mean_calls_per_group": 3.70846394984326,
+      "saving_pct_as_run": 40.59405547673681,
+      "saving_pct_asymptotic": 64.67670932327225,
+      "scope": "full E1 INDEXED-TRUE arm (mini lane items)",
+      "usd_input_cache_adjusted_as_run": 4.191428,
+      "usd_input_cache_adjusted_asymptotic": 2.4922595,
+      "usd_input_list": 7.0555699999999995
+    }
+  },
+  "frontier_prompt_tokens": {
+    "blind": {
+      "max": 486,
+      "mean": 470.14666666666665,
+      "median": 468.5,
+      "min": 464,
+      "n": 150
+    },
+    "indexed": {
+      "max": 1714,
+      "mean": 1179.5666666666666,
+      "median": 1318.5,
+      "min": 744,
+      "n": 150
+    },
+    "n_blind_items": 150,
+    "n_indexed_items": 150
+  },
+  "frontier_runs_metered_equivalent": {
+    "E1 strong-model check (sol, blind, k=1)": {
+      "calls": 150,
+      "codex_overhead_tokens_anchored": 471300,
+      "label": "computed-not-paid; subscription lane, $0 billed",
+      "model": "gpt-5.6-sol",
+      "prompt_text_tokens": 70522.0,
+      "usd_lower_bound_prompt_text_only": 0.35261,
+      "usd_mid_overhead_as_input": 2.70911,
+      "usd_upper_overhead_as_output": 14.49161
+    },
+    "E1.5 Run A (sol, indexed-TRUE, k=1)": {
+      "calls": 150,
+      "codex_overhead_tokens_anchored": 471300,
+      "label": "computed-not-paid; subscription lane, $0 billed",
+      "model": "gpt-5.6-sol",
+      "prompt_text_tokens": 176935.0,
+      "usd_lower_bound_prompt_text_only": 0.8846750000000001,
+      "usd_mid_overhead_as_input": 3.241175,
+      "usd_upper_overhead_as_output": 15.023674999999999
+    },
+    "E1.6 frontier redraw (sol, both arms, k=5)": {
+      "calls": 1500,
+      "codex_overhead_tokens_anchored": 4713000,
+      "label": "computed-not-paid; subscription lane, $0 billed",
+      "model": "gpt-5.6-sol",
+      "prompt_text_tokens": 1237285.0,
+      "usd_lower_bound_prompt_text_only": 6.186425,
+      "usd_mid_overhead_as_input": 29.751425,
+      "usd_upper_overhead_as_output": 147.57642500000003
+    },
+    "E1.7 capability ladder (luna, both arms, k=5)": {
+      "calls": 1500,
+      "codex_overhead_tokens_anchored": 17545500,
+      "label": "computed-not-paid; subscription lane, $0 billed",
+      "model": "gpt-5.6-luna",
+      "prompt_text_tokens": 1237285.0,
+      "usd_lower_bound_prompt_text_only": 0.247457,
+      "usd_mid_overhead_as_input": 3.7565570000000004,
+      "usd_upper_overhead_as_output": 21.302057
+    },
+    "_total": {
+      "actually_paid_usd": 0.0,
+      "usd_lower_bound": 7.671167,
+      "usd_mid": 39.458267,
+      "usd_upper": 198.39376700000003
+    }
+  },
+  "metered_lane": {
+    "E0:BLIND": {
+      "arm": "BLIND",
+      "calls": 508,
+      "input_tokens": {
+        "max": 284,
+        "mean": 274.251968503937,
+        "median": 274.0,
+        "min": 270,
+        "n": 508
+      },
+      "model": "gpt-4.1-mini",
+      "output_tokens": {
+        "max": 19,
+        "mean": 19.0,
+        "median": 19.0,
+        "min": 19,
+        "n": 508
+      },
+      "source": "measured: usage recorded per call by tools/api.py",
+      "study": "E0",
+      "total_input": 139320,
+      "total_output": 9652,
+      "usd_per_1M_calls": 140.10078740157482,
+      "usd_per_call": 0.0001401007874015748,
+      "usd_total": 0.0711712
+    },
+    "E0:INDEXED": {
+      "arm": "INDEXED",
+      "calls": 508,
+      "input_tokens": {
+        "max": 1339,
+        "mean": 1123.7204724409448,
+        "median": 1100.5,
+        "min": 922,
+        "n": 508
+      },
+      "model": "gpt-4.1-mini",
+      "output_tokens": {
+        "max": 19,
+        "mean": 17.818897637795274,
+        "median": 19.0,
+        "min": 15,
+        "n": 508
+      },
+      "source": "measured: usage recorded per call by tools/api.py",
+      "study": "E0",
+      "total_input": 570850,
+      "total_output": 9052,
+      "usd_per_1M_calls": 477.99842519685035,
+      "usd_per_call": 0.00047799842519685037,
+      "usd_total": 0.2428232
+    },
+    "E0:leakage_L0": {
+      "arm": "leakage_L0",
+      "calls": 29,
+      "input_tokens": {
+        "max": 1576,
+        "mean": 1329.1724137931035,
+        "median": 1416,
+        "min": 969,
+        "n": 29
+      },
+      "model": "gpt-4.1-mini",
+      "output_tokens": {
+        "max": 76,
+        "mean": 18.344827586206897,
+        "median": 6,
+        "min": 6,
+        "n": 29
+      },
+      "source": "measured: usage recorded per call by tools/api.py",
+      "study": "E0",
+      "total_input": 38546,
+      "total_output": 532,
+      "usd_per_1M_calls": 561.0206896551723,
+      "usd_per_call": 0.0005610206896551723,
+      "usd_total": 0.0162696
+    },
+    "E0:leakage_L1": {
+      "arm": "leakage_L1",
+      "calls": 26,
+      "input_tokens": {
+        "max": 1134,
+        "mean": 990.1153846153846,
+        "median": 1040.0,
+        "min": 737,
+        "n": 26
+      },
+      "model": "gpt-4.1-mini",
+      "output_tokens": {
+        "max": 37,
+        "mean": 7.1923076923076925,
+        "median": 6.0,
+        "min": 6,
+        "n": 26
+      },
+      "source": "measured: usage recorded per call by tools/api.py",
+      "study": "E0",
+      "total_input": 25743,
+      "total_output": 187,
+      "usd_per_1M_calls": 407.5538461538461,
+      "usd_per_call": 0.0004075538461538461,
+      "usd_total": 0.010596399999999999
+    },
+    "E1:A1-counts-jittered": {
+      "arm": "A1-counts-jittered",
+      "calls": 588,
+      "input_tokens": {
+        "max": 1733,
+        "mean": 1211.1309523809523,
+        "median": 1509.5,
+        "min": 757,
+        "n": 588
+      },
+      "model": "gpt-4.1-mini",
+      "output_tokens": {
+        "max": 26,
+        "mean": 24.443877551020407,
+        "median": 24.0,
+        "min": 21,
+        "n": 588
+      },
+      "source": "measured: usage recorded per call by tools/api.py",
+      "study": "E1",
+      "total_input": 712145,
+      "total_output": 14373,
+      "usd_per_1M_calls": 523.5625850340136,
+      "usd_per_call": 0.0005235625850340136,
+      "usd_total": 0.3078548
+    },
+    "E1:A2-counts-coarsened": {
+      "arm": "A2-counts-coarsened",
+      "calls": 588,
+      "input_tokens": {
+        "max": 1699,
+        "mean": 1188.9642857142858,
+        "median": 1470.5,
+        "min": 747,
+        "n": 588
+      },
+      "model": "gpt-4.1-mini",
+      "output_tokens": {
+        "max": 26,
+        "mean": 23.5765306122449,
+        "median": 24.0,
+        "min": 21,
+        "n": 588
+      },
+      "source": "measured: usage recorded per call by tools/api.py",
+      "study": "E1",
+      "total_input": 699111,
+      "total_output": 13863,
+      "usd_per_1M_calls": 513.3081632653062,
+      "usd_per_call": 0.0005133081632653062,
+      "usd_total": 0.3018252
+    },
+    "E1:A3-names-only": {
+      "arm": "A3-names-only",
+      "calls": 588,
+      "input_tokens": {
+        "max": 1661,
+        "mean": 1162.1666666666667,
+        "median": 1432.5,
+        "min": 735,
+        "n": 588
+      },
+      "model": "gpt-4.1-mini",
+      "output_tokens": {
+        "max": 26,
+        "mean": 22.34013605442177,
+        "median": 21.0,
+        "min": 21,
+        "n": 588
+      },
+      "source": "measured: usage recorded per call by tools/api.py",
+      "study": "E1",
+      "total_input": 683354,
+      "total_output": 13136,
+      "usd_per_1M_calls": 500.6108843537416,
+      "usd_per_call": 0.0005006108843537416,
+      "usd_total": 0.29435920000000004
+    },
+    "E1:BLIND": {
+      "arm": "BLIND",
+      "calls": 330,
+      "input_tokens": {
+        "max": 496,
+        "mean": 480.45454545454544,
+        "median": 479.0,
+        "min": 474,
+        "n": 330
+      },
+      "model": "gpt-4.1-mini",
+      "output_tokens": {
+        "max": 26,
+        "mean": 26.0,
+        "median": 26.0,
+        "min": 26,
+        "n": 330
+      },
+      "source": "measured: usage recorded per call by tools/api.py",
+      "study": "E1",
+      "total_input": 158550,
+      "total_output": 8580,
+      "usd_per_1M_calls": 233.7818181818182,
+      "usd_per_call": 0.0002337818181818182,
+      "usd_total": 0.07714800000000001
+    },
+    "E1:BLIND-K": {
+      "arm": "BLIND-K",
+      "calls": 156,
+      "input_tokens": {
+        "max": 496,
+        "mean": 480.09615384615387,
+        "median": 478.5,
+        "min": 475,
+        "n": 156
+      },
+      "model": "gpt-4.1-mini",
+      "output_tokens": {
+        "max": 26,
+        "mean": 26.0,
+        "median": 26.0,
+        "min": 26,
+        "n": 156
+      },
+      "source": "measured: usage recorded per call by tools/api.py",
+      "study": "E1",
+      "total_input": 74895,
+      "total_output": 4056,
+      "usd_per_1M_calls": 233.63846153846157,
+      "usd_per_call": 0.00023363846153846157,
+      "usd_total": 0.036447600000000004
+    },
+    "E1:INDEXED-BELIEVED": {
+      "arm": "INDEXED-BELIEVED",
+      "calls": 1179,
+      "input_tokens": {
+        "max": 1789,
+        "mean": 1237.3893129770993,
+        "median": 1381,
+        "min": 768,
+        "n": 1179
+      },
+      "model": "gpt-4.1-mini",
+      "output_tokens": {
+        "max": 26,
+        "mean": 24.09669211195929,
+        "median": 24,
+        "min": 21,
+        "n": 1179
+      },
+      "source": "measured: usage recorded per call by tools/api.py",
+      "study": "E1",
+      "total_input": 1458882,
+      "total_output": 28410,
+      "usd_per_1M_calls": 533.5104325699746,
+      "usd_per_call": 0.0005335104325699746,
+      "usd_total": 0.6290088
+    },
+    "E1:INDEXED-TRUE": {
+      "arm": "INDEXED-TRUE",
+      "calls": 1178,
+      "input_tokens": {
+        "max": 1733,
+        "mean": 1201.006791171477,
+        "median": 1334.0,
+        "min": 752,
+        "n": 1178
+      },
+      "model": "gpt-4.1-mini",
+      "output_tokens": {
+        "max": 26,
+        "mean": 24.000848896434636,
+        "median": 24.0,
+        "min": 21,
+        "n": 1178
+      },
+      "source": "measured: usage recorded per call by tools/api.py",
+      "study": "E1",
+      "total_input": 1414786,
+      "total_output": 28273,
+      "usd_per_1M_calls": 518.8040747028863,
+      "usd_per_call": 0.0005188040747028862,
+      "usd_total": 0.6111512
+    },
+    "E1:INDEXED-TRUE-NOMARKER": {
+      "arm": "INDEXED-TRUE-NOMARKER",
+      "calls": 522,
+      "input_tokens": {
+        "max": 726,
+        "mean": 711.904214559387,
+        "median": 712.0,
+        "min": 704,
+        "n": 522
+      },
+      "model": "gpt-4.1-mini",
+      "output_tokens": {
+        "max": 26,
+        "mean": 25.775862068965516,
+        "median": 26.0,
+        "min": 21,
+        "n": 522
+      },
+      "source": "measured: usage recorded per call by tools/api.py",
+      "study": "E1",
+      "total_input": 371614,
+      "total_output": 13455,
+      "usd_per_1M_calls": 326.0030651340996,
+      "usd_per_call": 0.0003260030651340996,
+      "usd_total": 0.1701736
+    },
+    "E1:STAIRCASE": {
+      "arm": "STAIRCASE",
+      "calls": 154,
+      "input_tokens": {
+        "max": 1428,
+        "mean": 1246.3051948051948,
+        "median": 1283.5,
+        "min": 936,
+        "n": 154
+      },
+      "model": "gpt-4.1-mini",
+      "output_tokens": {
+        "max": 28,
+        "mean": 28.0,
+        "median": 28.0,
+        "min": 28,
+        "n": 154
+      },
+      "source": "measured: usage recorded per call by tools/api.py",
+      "study": "E1",
+      "total_input": 191931,
+      "total_output": 4312,
+      "usd_per_1M_calls": 543.3220779220779,
+      "usd_per_call": 0.0005433220779220779,
+      "usd_total": 0.0836716
+    },
+    "E1:draft": {
+      "arm": "draft",
+      "calls": 40,
+      "input_tokens": {
+        "max": 1348,
+        "mean": 1012.475,
+        "median": 1016.0,
+        "min": 761,
+        "n": 40
+      },
+      "model": "gpt-4.1-mini",
+      "output_tokens": {
+        "max": 411,
+        "mean": 374.075,
+        "median": 377.0,
+        "min": 301,
+        "n": 40
+      },
+      "source": "measured: usage recorded per call by tools/api.py",
+      "study": "E1",
+      "total_input": 40499,
+      "total_output": 14963,
+      "usd_per_1M_calls": 1003.5100000000002,
+      "usd_per_call": 0.0010035100000000002,
+      "usd_total": 0.04014040000000001
+    },
+    "E1:leakage_L0": {
+      "arm": "leakage_L0",
+      "calls": 180,
+      "input_tokens": {
+        "max": 1335,
+        "mean": 617.5111111111111,
+        "median": 333.0,
+        "min": 311,
+        "n": 180
+      },
+      "model": "gpt-4.1-mini",
+      "output_tokens": {
+        "max": 49,
+        "mean": 6.438888888888889,
+        "median": 6.0,
+        "min": 6,
+        "n": 180
+      },
+      "source": "measured: usage recorded per call by tools/api.py",
+      "study": "E1",
+      "total_input": 111152,
+      "total_output": 1159,
+      "usd_per_1M_calls": 257.3066666666667,
+      "usd_per_call": 0.00025730666666666665,
+      "usd_total": 0.0463152
+    }
+  },
+  "metered_ledger_totals": {
+    "e1_cache_meter": {
+      "cached": 1111,
+      "calls": 653,
+      "hard_cap_usd": 10.0,
+      "in": 675036,
+      "out": 15217,
+      "price_in_per_mtok": 0.4,
+      "price_out_per_mtok": 1.6,
+      "usd": 0.2943616
+    },
+    "e1_phase_c_meter": {
+      "cached": 14,
+      "calls": 2984,
+      "hard_cap_usd": 10.0,
+      "in": 3289228,
+      "out": 73284,
+      "price_in_per_mtok": 0.4,
+      "price_out_per_mtok": 1.6,
+      "usd": 1.4329456
+    },
+    "note": "the Phase-C meter sits in E0's ledger file; see D25-E1"
+  },
+  "no_api_calls": true,
+  "price_date": "2026-08-11",
+  "price_provenance": "luna and sol list prices are as supplied by the study author in the E1.8 instruction, date-stamped 2026-08-11 (post-2026-07-30 cut); they were NOT independently re-fetched from the URL. gpt-4.1-mini's pair is the study's own constant (e0_metamemory/tools/api.py:31), the same constant that priced every metered call actually made.",
+  "price_source_url": "https://platform.openai.com/docs/pricing",
+  "prices_usd_per_1m_tokens": {
+    "gpt-4.1-mini": [
+      0.4,
+      1.6
+    ],
+    "gpt-5.6-luna": [
+      0.2,
+      1.2
+    ],
+    "gpt-5.6-sol": [
+      5.0,
+      30.0
+    ]
+  },
+  "tokenizer_crossvalidation": {
+    "arm": "E1:INDEXED-TRUE-NOMARKER (Run B)",
+    "delta_stats": {
+      "max": -19,
+      "mean": -19.0,
+      "median": -19.0,
+      "min": -19,
+      "n": 522
+    },
+    "n": 522,
+    "note": "recorded prompt_tokens minus tiktoken over system+user text; residue is the per-message chat-template overhead"
+  },
+  "wall_clock": {
+    "luna / E1.7 capability ladder": {
+      "arms": "BLIND + INDEXED-TRUE, k=5",
+      "calls": 1500,
+      "end": "2026-08-10T19:26:46.360Z",
+      "model": "gpt-5.6-luna",
+      "seconds": 2592.1,
+      "seconds_per_call_mean": 8.640333333333333,
+      "start": "2026-08-10T18:43:34.229Z",
+      "tool_use_id": "toolu_01QoNvUYZe8iMbWEgU9AT8EP",
+      "workers": 5
+    },
+    "mini / E1 Phase C (main + k3 + staircase)": {
+      "arms": "BLIND + INDEXED-TRUE + INDEXED-BELIEVED + BLIND-K + STAIRCASE",
+      "calls": 2997,
+      "end": "2026-08-10T14:43:19.250Z",
+      "model": "gpt-4.1-mini",
+      "seconds": 1909.1,
+      "seconds_per_call_mean": 7.644044044044043,
+      "start": "2026-08-10T14:11:30.154Z",
+      "tool_use_id": "toolu_01QzWX58FkDTYs2icExDbPV5",
+      "workers": 12
+    },
+    "sol / E1.6 frontier redraw": {
+      "arms": "BLIND + INDEXED-TRUE, k=5",
+      "calls": 1500,
+      "end": "2026-08-10T18:27:31.109Z",
+      "model": "gpt-5.6-sol",
+      "seconds": 2681.3,
+      "seconds_per_call_mean": 8.937666666666667,
+      "start": "2026-08-10T17:42:49.842Z",
+      "tool_use_id": "toolu_01KT7qBPnkKBUKw61mfiZY6p",
+      "workers": 5
+    }
+  },
+  "wall_clock_caveat": "harness throughput, not server latency: wall-clock x workers / calls, including process start, retry backoff and file I/O. No per-call timing was instrumented in any E1 run."
+}

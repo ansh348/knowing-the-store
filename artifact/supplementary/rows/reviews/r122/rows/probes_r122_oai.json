@@ -1,0 +1,50 @@
+{
+ "MINI5": {
+  "identifier_ok": true,
+  "lane": "MINI5",
+  "model": "gpt-4.1-mini",
+  "parsed": "OK",
+  "probe_line": 0.0015,
+  "sample": "{\"fok\":30,\"nok_candidates_found\":false,\"nok\":5,\"would_search\":true}",
+  "served": "gpt-4.1-mini-2025-04-14",
+  "tok_cached": 0,
+  "tok_in": 1684,
+  "tok_out": 21,
+  "tok_reasoning": 0,
+  "under_line": true,
+  "usd": 0.000707,
+  "when": "2026-09-19T15:57:28"
+ },
+ "P1LUNA": {
+  "identifier_ok": true,
+  "lane": "P1LUNA",
+  "model": "gpt-5.6-luna",
+  "parsed": "OK",
+  "probe_line": 0.001,
+  "sample": "{\"fok\":78,\"nok_candidates_found\":true,\"nok\":55,\"would_search\":true}",
+  "served": "gpt-5.6-luna",
+  "tok_cached": 0,
+  "tok_in": 1796,
+  "tok_out": 232,
+  "tok_reasoning": 202,
+  "under_line": true,
+  "usd": 0.000727,
+  "when": "2026-09-19T15:57:25"
+ },
+ "P1MINI": {
+  "identifier_ok": true,
+  "lane": "P1MINI",
+  "model": "gpt-4.1-mini",
+  "parsed": "OK",
+  "probe_line": 0.0015,
+  "sample": "{\"fok\": 70, \"nok_candidates_found\": false, \"nok\": 10, \"would_search\": false}",
+  "served": "gpt-4.1-mini-2025-04-14",
+  "tok_cached": 0,
+  "tok_in": 1797,
+  "tok_out": 26,
+  "tok_reasoning": 0,
+  "under_line": true,
+  "usd": 0.00076,
+  "when": "2026-09-19T15:57:20"
+ }
+}

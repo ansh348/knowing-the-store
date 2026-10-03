@@ -1,0 +1,4598 @@
+{
+ "best_name": {
+  "frbank:aisha:aisha_q01:CAT-ABLATED": "job_title",
+  "frbank:aisha:aisha_q01:FULL": "gym_location",
+  "frbank:aisha:aisha_q01:SLOT-ABLATED": "gym_location",
+  "frbank:aisha:aisha_q02:CAT-ABLATED": "job_title",
+  "frbank:aisha:aisha_q02:FULL": "gym_location",
+  "frbank:aisha:aisha_q02:SLOT-ABLATED": "gym_location",
+  "frbank:aisha:aisha_q03:CAT-ABLATED": "job_title",
+  "frbank:aisha:aisha_q03:FULL": "living_arrangement",
+  "frbank:aisha:aisha_q03:SLOT-ABLATED": "living_arrangement",
+  "frbank:aisha:aisha_q05:CAT-ABLATED": "job_title",
+  "frbank:aisha:aisha_q05:FULL": "living_arrangement",
+  "frbank:aisha:aisha_q05:SLOT-ABLATED": "living_arrangement",
+  "frbank:aisha:aisha_q08:CAT-ABLATED": "job_title",
+  "frbank:aisha:aisha_q08:FULL": "living_arrangement",
+  "frbank:aisha:aisha_q08:SLOT-ABLATED": "living_arrangement",
+  "frbank:alex:alex_q03:CAT-ABLATED": null,
+  "frbank:alex:alex_q05:CAT-ABLATED": null,
+  "frbank:alex:alex_q05:FULL": null,
+  "frbank:alex:alex_q05:SLOT-ABLATED": null,
+  "frbank:alex:alex_q07:CAT-ABLATED": null,
+  "frbank:alex:alex_q07:FULL": null,
+  "frbank:alex:alex_q07:SLOT-ABLATED": null,
+  "frbank:alex:alex_q11:CAT-ABLATED": null,
+  "frbank:alex:alex_q11:FULL": null,
+  "frbank:alex:alex_q11:SLOT-ABLATED": null,
+  "frbank:alex:alex_q12:CAT-ABLATED": null,
+  "frbank:alex:alex_q12:FULL": null,
+  "frbank:alex:alex_q12:SLOT-ABLATED": null,
+  "frbank:amara:amara_q03:CAT-ABLATED": null,
+  "frbank:amara:amara_q03:FULL": "exercise_routine",
+  "frbank:amara:amara_q03:SLOT-ABLATED": "exercise_routine",
+  "frbank:amara:amara_q04:CAT-ABLATED": null,
+  "frbank:amara:amara_q04:FULL": "exercise_routine",
+  "frbank:amara:amara_q04:SLOT-ABLATED": "exercise_routine",
+  "frbank:amara:amara_q12:CAT-ABLATED": null,
+  "frbank:amara:amara_q12:FULL": "hobby",
+  "frbank:amara:amara_q12:SLOT-ABLATED": "hobby",
+  "frbank:aroha:aroha_q03:CAT-ABLATED": "vehicle",
+  "frbank:aroha:aroha_q03:FULL": "vehicle",
+  "frbank:aroha:aroha_q03:SLOT-ABLATED": "hobby",
+  "frbank:aroha:aroha_q05:CAT-ABLATED": "hobby",
+  "frbank:aroha:aroha_q05:FULL": "hobby",
+  "frbank:aroha:aroha_q05:SLOT-ABLATED": "hobby",
+  "frbank:aroha:aroha_q06:CAT-ABLATED": "hobby",
+  "frbank:aroha:aroha_q06:FULL": "hobby",
+  "frbank:aroha:aroha_q06:SLOT-ABLATED": "hobby",
+  "frbank:billy:billy_q05:CAT-ABLATED": null,
+  "frbank:billy:billy_q05:FULL": null,
+  "frbank:billy:billy_q05:SLOT-ABLATED": null,
+  "frbank:billy:billy_q06:CAT-ABLATED": null,
+  "frbank:billy:billy_q06:FULL": null,
+  "frbank:billy:billy_q06:SLOT-ABLATED": null,
+  "frbank:bruna:bruna_q04:CAT-ABLATED": null,
+  "frbank:bruna:bruna_q04:FULL": null,
+  "frbank:bruna:bruna_q04:SLOT-ABLATED": null,
+  "frbank:bruna:bruna_q05:CAT-ABLATED": null,
+  "frbank:bruna:bruna_q05:FULL": null,
+  "frbank:bruna:bruna_q05:SLOT-ABLATED": null,
+  "frbank:bruna:bruna_q06:CAT-ABLATED": null,
+  "frbank:bruna:bruna_q06:FULL": null,
+  "frbank:bruna:bruna_q06:SLOT-ABLATED": null,
+  "frbank:bruna:bruna_q08:CAT-ABLATED": null,
+  "frbank:bruna:bruna_q08:FULL": null,
+  "frbank:bruna:bruna_q08:SLOT-ABLATED": null,
+  "frbank:bruna:bruna_q09:CAT-ABLATED": null,
+  "frbank:bruna:bruna_q09:FULL": null,
+  "frbank:bruna:bruna_q09:SLOT-ABLATED": null,
+  "frbank:bruna:bruna_q11:CAT-ABLATED": null,
+  "frbank:bruna:bruna_q11:FULL": null,
+  "frbank:callum:callum_q04:CAT-ABLATED": "hobby",
+  "frbank:callum:callum_q04:FULL": "hobby",
+  "frbank:callum:callum_q04:SLOT-ABLATED": "hobby",
+  "frbank:callum:callum_q05:CAT-ABLATED": "hobby",
+  "frbank:callum:callum_q05:FULL": "hobby",
+  "frbank:callum:callum_q05:SLOT-ABLATED": "hobby",
+  "frbank:callum:callum_q07:CAT-ABLATED": "hobby",
+  "frbank:callum:callum_q07:FULL": "hobby",
+  "frbank:callum:callum_q07:SLOT-ABLATED": "hobby",
+  "frbank:callum:callum_q08:CAT-ABLATED": "hobby",
+  "frbank:callum:callum_q08:FULL": "hobby",
+  "frbank:callum:callum_q08:SLOT-ABLATED": "hobby",
+  "frbank:callum:callum_q09:CAT-ABLATED": "hobby",
+  "frbank:callum:callum_q09:FULL": "hobby",
+  "frbank:callum:callum_q09:SLOT-ABLATED": "hobby",
+  "frbank:chenoa:chenoa_q01:CAT-ABLATED": "vehicle",
+  "frbank:chenoa:chenoa_q01:FULL": "vehicle",
+  "frbank:chenoa:chenoa_q01:SLOT-ABLATED": "vehicle",
+  "frbank:chenoa:chenoa_q05:CAT-ABLATED": "vehicle",
+  "frbank:chenoa:chenoa_q05:FULL": "vehicle",
+  "frbank:chenoa:chenoa_q05:SLOT-ABLATED": "vehicle",
+  "frbank:chenoa:chenoa_q06:CAT-ABLATED": "vehicle",
+  "frbank:chenoa:chenoa_q06:FULL": "vehicle",
+  "frbank:chenoa:chenoa_q06:SLOT-ABLATED": "vehicle",
+  "frbank:chenoa:chenoa_q10:CAT-ABLATED": "vehicle",
+  "frbank:chenoa:chenoa_q10:FULL": "vehicle",
+  "frbank:chenoa:chenoa_q10:SLOT-ABLATED": "vehicle",
+  "frbank:dariush:dariush_q04:FULL": "project",
+  "frbank:dariush:dariush_q04:SLOT-ABLATED": "project",
+  "frbank:dariush:dariush_q05:CAT-ABLATED": null,
+  "frbank:dariush:dariush_q05:FULL": "project",
+  "frbank:dariush:dariush_q05:SLOT-ABLATED": "project",
+  "frbank:dariush:dariush_q06:CAT-ABLATED": null,
+  "frbank:dariush:dariush_q06:FULL": "project",
+  "frbank:dariush:dariush_q06:SLOT-ABLATED": "project",
+  "frbank:dariush:dariush_q09:CAT-ABLATED": null,
+  "frbank:dariush:dariush_q09:FULL": "project",
+  "frbank:dariush:dariush_q09:SLOT-ABLATED": "project",
+  "frbank:dariush:dariush_q11:CAT-ABLATED": null,
+  "frbank:dariush:dariush_q11:FULL": "project",
+  "frbank:dariush:dariush_q11:SLOT-ABLATED": "project",
+  "frbank:david:david_q05:CAT-ABLATED": null,
+  "frbank:david:david_q05:FULL": null,
+  "frbank:david:david_q05:SLOT-ABLATED": null,
+  "frbank:david:david_q06:CAT-ABLATED": null,
+  "frbank:david:david_q06:FULL": null,
+  "frbank:david:david_q08:CAT-ABLATED": null,
+  "frbank:david:david_q08:FULL": null,
+  "frbank:david:david_q08:SLOT-ABLATED": null,
+  "frbank:david:david_q09:CAT-ABLATED": null,
+  "frbank:david:david_q09:FULL": null,
+  "frbank:david:david_q09:SLOT-ABLATED": null,
+  "frbank:david:david_q10:CAT-ABLATED": null,
+  "frbank:david:david_q10:FULL": null,
+  "frbank:david:david_q10:SLOT-ABLATED": null,
+  "frbank:david:david_q11:CAT-ABLATED": null,
+  "frbank:david:david_q11:FULL": null,
+  "frbank:diane:diane_q04:CAT-ABLATED": null,
+  "frbank:diane:diane_q04:FULL": null,
+  "frbank:diane:diane_q04:SLOT-ABLATED": null,
+  "frbank:diane:diane_q05:CAT-ABLATED": null,
+  "frbank:diane:diane_q05:FULL": null,
+  "frbank:diane:diane_q05:SLOT-ABLATED": null,
+  "frbank:diane:diane_q08:CAT-ABLATED": null,
+  "frbank:diane:diane_q08:FULL": null,
+  "frbank:diane:diane_q08:SLOT-ABLATED": null,
+  "frbank:diane:diane_q09:CAT-ABLATED": null,
+  "frbank:diane:diane_q09:FULL": null,
+  "frbank:diane:diane_q09:SLOT-ABLATED": null,
+  "frbank:diane:diane_q11:CAT-ABLATED": null,
+  "frbank:diane:diane_q11:FULL": null,
+  "frbank:diane:diane_q11:SLOT-ABLATED": null,
+  "frbank:dmitri:dmitri_q03:CAT-ABLATED": null,
+  "frbank:dmitri:dmitri_q05:CAT-ABLATED": null,
+  "frbank:dmitri:dmitri_q05:FULL": null,
+  "frbank:dmitri:dmitri_q05:SLOT-ABLATED": null,
+  "frbank:elena:elena_q01:CAT-ABLATED": "job_employer",
+  "frbank:elena:elena_q01:FULL": "job_employer",
+  "frbank:elena:elena_q01:SLOT-ABLATED": "job_employer",
+  "frbank:elena:elena_q02:CAT-ABLATED": "dietary_preference",
+  "frbank:elena:elena_q02:FULL": "dietary_preference",
+  "frbank:elena:elena_q05:CAT-ABLATED": "job_night_shift_duration",
+  "frbank:elena:elena_q05:FULL": "job_night_shift_duration",
+  "frbank:elena:elena_q08:CAT-ABLATED": "job_employer",
+  "frbank:elena:elena_q08:FULL": "job_employer",
+  "frbank:elena:elena_q08:SLOT-ABLATED": "job_employer",
+  "frbank:elena:elena_q09:CAT-ABLATED": "job_night_shift_duration",
+  "frbank:elena:elena_q09:FULL": "job_night_shift_duration",
+  "frbank:elena:elena_q09:SLOT-ABLATED": "job_night_shift_duration",
+  "frbank:elena:elena_q10:CAT-ABLATED": "job_night_shift_duration",
+  "frbank:elena:elena_q10:FULL": "job_night_shift_duration",
+  "frbank:fatima:fatima_q02:FULL": "project",
+  "frbank:fatima:fatima_q02:SLOT-ABLATED": "project",
+  "frbank:fatima:fatima_q04:CAT-ABLATED": null,
+  "frbank:fatima:fatima_q04:FULL": "project",
+  "frbank:fatima:fatima_q04:SLOT-ABLATED": "project",
+  "frbank:fatima:fatima_q05:CAT-ABLATED": null,
+  "frbank:fatima:fatima_q05:FULL": "project",
+  "frbank:fatima:fatima_q05:SLOT-ABLATED": "project",
+  "frbank:fatima:fatima_q06:CAT-ABLATED": null,
+  "frbank:fatima:fatima_q06:FULL": "supplier",
+  "frbank:fatima:fatima_q06:SLOT-ABLATED": "supplier",
+  "frbank:fatima:fatima_q07:CAT-ABLATED": null,
+  "frbank:fatima:fatima_q07:FULL": "project",
+  "frbank:fatima:fatima_q07:SLOT-ABLATED": "project",
+  "frbank:fatima:fatima_q09:CAT-ABLATED": null,
+  "frbank:fatima:fatima_q09:FULL": "project",
+  "frbank:fatima:fatima_q09:SLOT-ABLATED": "project",
+  "frbank:fatima:fatima_q11:CAT-ABLATED": null,
+  "frbank:fatima:fatima_q11:FULL": "project",
+  "frbank:fatima:fatima_q11:SLOT-ABLATED": "project",
+  "frbank:ingrid:ingrid_q01:CAT-ABLATED": "research_focus",
+  "frbank:ingrid:ingrid_q01:FULL": "research_focus",
+  "frbank:ingrid:ingrid_q01:SLOT-ABLATED": "research_focus",
+  "frbank:ingrid:ingrid_q02:CAT-ABLATED": "project",
+  "frbank:ingrid:ingrid_q04:CAT-ABLATED": "research_focus",
+  "frbank:ingrid:ingrid_q04:FULL": "research_focus",
+  "frbank:ingrid:ingrid_q04:SLOT-ABLATED": "research_focus",
+  "frbank:ingrid:ingrid_q05:CAT-ABLATED": "project",
+  "frbank:ingrid:ingrid_q05:FULL": "project",
+  "frbank:ingrid:ingrid_q05:SLOT-ABLATED": "project",
+  "frbank:ingrid:ingrid_q06:CAT-ABLATED": "project",
+  "frbank:ingrid:ingrid_q06:FULL": "project",
+  "frbank:ingrid:ingrid_q06:SLOT-ABLATED": "project",
+  "frbank:ingrid:ingrid_q08:CAT-ABLATED": "project",
+  "frbank:ingrid:ingrid_q08:FULL": "project",
+  "frbank:ingrid:ingrid_q08:SLOT-ABLATED": "project",
+  "frbank:jake:jake_q03:CAT-ABLATED": null,
+  "frbank:jake:jake_q03:FULL": null,
+  "frbank:jake:jake_q03:SLOT-ABLATED": null,
+  "frbank:jake:jake_q04:CAT-ABLATED": null,
+  "frbank:jake:jake_q04:FULL": null,
+  "frbank:jake:jake_q04:SLOT-ABLATED": null,
+  "frbank:jake:jake_q06:CAT-ABLATED": null,
+  "frbank:jake:jake_q06:FULL": null,
+  "frbank:jake:jake_q06:SLOT-ABLATED": null,
+  "frbank:jake:jake_q11:CAT-ABLATED": null,
+  "frbank:jake:jake_q11:FULL": null,
+  "frbank:jake:jake_q12:CAT-ABLATED": null,
+  "frbank:jake:jake_q12:FULL": null,
+  "frbank:jake:jake_q12:SLOT-ABLATED": null,
+  "frbank:jerome:jerome_q02:CAT-ABLATED": "employer",
+  "frbank:jerome:jerome_q02:FULL": "vehicle",
+  "frbank:jerome:jerome_q02:SLOT-ABLATED": "vehicle",
+  "frbank:jerome:jerome_q03:FULL": "vehicle",
+  "frbank:jerome:jerome_q05:CAT-ABLATED": "employer",
+  "frbank:jerome:jerome_q05:FULL": "employer",
+  "frbank:jerome:jerome_q05:SLOT-ABLATED": "employer",
+  "frbank:jerome:jerome_q06:CAT-ABLATED": "job_title",
+  "frbank:jerome:jerome_q06:FULL": "vehicle",
+  "frbank:jerome:jerome_q06:SLOT-ABLATED": "vehicle",
+  "frbank:jerome:jerome_q07:CAT-ABLATED": "employer",
+  "frbank:jerome:jerome_q07:FULL": "employer",
+  "frbank:jerome:jerome_q07:SLOT-ABLATED": "employer",
+  "frbank:jerome:jerome_q11:CAT-ABLATED": "employer",
+  "frbank:jerome:jerome_q11:FULL": "vehicle",
+  "frbank:jerome:jerome_q11:SLOT-ABLATED": "vehicle",
+  "frbank:joonho:joonho_q01:FULL": "teaching_location",
+  "frbank:joonho:joonho_q01:SLOT-ABLATED": "teaching_location",
+  "frbank:joonho:joonho_q04:FULL": "teaching_location",
+  "frbank:joonho:joonho_q04:SLOT-ABLATED": "teaching_location",
+  "frbank:joonho:joonho_q06:CAT-ABLATED": null,
+  "frbank:joonho:joonho_q06:FULL": "project",
+  "frbank:joonho:joonho_q06:SLOT-ABLATED": "project",
+  "frbank:joonho:joonho_q07:CAT-ABLATED": null,
+  "frbank:joonho:joonho_q07:FULL": "teaching_location",
+  "frbank:joonho:joonho_q07:SLOT-ABLATED": "teaching_location",
+  "frbank:kenji:kenji_q03:FULL": "workspace_location",
+  "frbank:kenji:kenji_q03:SLOT-ABLATED": "workspace_location",
+  "frbank:kenji:kenji_q05:CAT-ABLATED": null,
+  "frbank:kenji:kenji_q05:FULL": "living_arrangement",
+  "frbank:kenji:kenji_q05:SLOT-ABLATED": "living_arrangement",
+  "frbank:kenji:kenji_q07:CAT-ABLATED": null,
+  "frbank:kenji:kenji_q07:FULL": "workspace",
+  "frbank:kenji:kenji_q07:SLOT-ABLATED": "workspace",
+  "frbank:kenji:kenji_q09:CAT-ABLATED": null,
+  "frbank:kenji:kenji_q09:FULL": "living_arrangement",
+  "frbank:kenji:kenji_q09:SLOT-ABLATED": "living_arrangement",
+  "frbank:kenji:kenji_q12:CAT-ABLATED": null,
+  "frbank:kenji:kenji_q12:FULL": "living_arrangement",
+  "frbank:kenji:kenji_q12:SLOT-ABLATED": "living_arrangement",
+  "frbank:kofi:kofi_q01:CAT-ABLATED": null,
+  "frbank:kofi:kofi_q01:FULL": "contract",
+  "frbank:kofi:kofi_q01:SLOT-ABLATED": "contract",
+  "frbank:kofi:kofi_q02:CAT-ABLATED": null,
+  "frbank:kofi:kofi_q02:FULL": "farm_fertilizer_purchase",
+  "frbank:kofi:kofi_q02:SLOT-ABLATED": "farm_fertilizer_purchase",
+  "frbank:kofi:kofi_q04:CAT-ABLATED": null,
+  "frbank:kofi:kofi_q06:CAT-ABLATED": null,
+  "frbank:kofi:kofi_q06:FULL": "contract",
+  "frbank:kofi:kofi_q06:SLOT-ABLATED": "contract",
+  "frbank:kofi:kofi_q09:CAT-ABLATED": null,
+  "frbank:kofi:kofi_q09:FULL": "contract",
+  "frbank:kofi:kofi_q09:SLOT-ABLATED": "farm_fertilizer_purchase",
+  "frbank:leila:leila_q05:CAT-ABLATED": "job_responsibility",
+  "frbank:leila:leila_q05:FULL": "job_responsibility",
+  "frbank:leila:leila_q05:SLOT-ABLATED": "job_responsibility",
+  "frbank:leila:leila_q08:CAT-ABLATED": "job_responsibility",
+  "frbank:leila:leila_q08:FULL": "job_responsibility",
+  "frbank:leila:leila_q08:SLOT-ABLATED": "job_responsibility",
+  "frbank:leila:leila_q09:CAT-ABLATED": "job_responsibility",
+  "frbank:leila:leila_q09:FULL": "job_responsibility",
+  "frbank:leila:leila_q09:SLOT-ABLATED": "job_responsibility",
+  "frbank:leila:leila_q11:CAT-ABLATED": "job_responsibility",
+  "frbank:leila:leila_q11:FULL": "job_responsibility",
+  "frbank:lily:lily_q01:FULL": "project",
+  "frbank:lily:lily_q01:SLOT-ABLATED": "project",
+  "frbank:lily:lily_q02:CAT-ABLATED": null,
+  "frbank:lily:lily_q03:CAT-ABLATED": null,
+  "frbank:lily:lily_q03:FULL": "project",
+  "frbank:lily:lily_q03:SLOT-ABLATED": "project",
+  "frbank:lily:lily_q05:CAT-ABLATED": null,
+  "frbank:lily:lily_q05:FULL": "project",
+  "frbank:lily:lily_q05:SLOT-ABLATED": "project",
+  "frbank:lily:lily_q06:FULL": "project",
+  "frbank:lily:lily_q06:SLOT-ABLATED": "project",
+  "frbank:lily:lily_q07:CAT-ABLATED": null,
+  "frbank:lily:lily_q07:FULL": "project",
+  "frbank:lily:lily_q07:SLOT-ABLATED": "project",
+  "frbank:lily:lily_q08:CAT-ABLATED": null,
+  "frbank:lily:lily_q08:FULL": "project",
+  "frbank:lily:lily_q08:SLOT-ABLATED": "project",
+  "frbank:lily:lily_q09:CAT-ABLATED": null,
+  "frbank:lily:lily_q09:FULL": "project",
+  "frbank:lily:lily_q09:SLOT-ABLATED": "project",
+  "frbank:lily:lily_q11:CAT-ABLATED": null,
+  "frbank:lily:lily_q11:FULL": "project",
+  "frbank:marcus:marcus_q04:CAT-ABLATED": null,
+  "frbank:marcus:marcus_q04:FULL": null,
+  "frbank:marcus:marcus_q04:SLOT-ABLATED": null,
+  "frbank:marcus:marcus_q08:CAT-ABLATED": null,
+  "frbank:marcus:marcus_q08:FULL": null,
+  "frbank:marcus:marcus_q08:SLOT-ABLATED": null,
+  "frbank:marcus:marcus_q10:CAT-ABLATED": null,
+  "frbank:marcus:marcus_q10:FULL": null,
+  "frbank:marcus:marcus_q12:CAT-ABLATED": null,
+  "frbank:marcus:marcus_q12:FULL": null,
+  "frbank:marley:marley_q05:CAT-ABLATED": "placement_status",
+  "frbank:marley:marley_q05:FULL": "placement_status",
+  "frbank:marley:marley_q05:SLOT-ABLATED": "placement_status",
+  "frbank:marley:marley_q10:CAT-ABLATED": "placement_location",
+  "frbank:marley:marley_q10:FULL": "placement_location",
+  "frbank:marley:marley_q10:SLOT-ABLATED": "placement_location",
+  "frbank:marley:marley_q11:CAT-ABLATED": "placement_location",
+  "frbank:marley:marley_q11:FULL": "placement_location",
+  "frbank:marley:marley_q11:SLOT-ABLATED": "placement_location",
+  "frbank:mehmet:mehmet_q02:CAT-ABLATED": "signature_product",
+  "frbank:mehmet:mehmet_q02:FULL": "signature_product",
+  "frbank:mehmet:mehmet_q02:SLOT-ABLATED": "signature_product",
+  "frbank:mehmet:mehmet_q05:CAT-ABLATED": "hobby",
+  "frbank:mehmet:mehmet_q05:FULL": "hobby",
+  "frbank:mehmet:mehmet_q05:SLOT-ABLATED": "hobby",
+  "frbank:mehmet:mehmet_q06:CAT-ABLATED": "hobby",
+  "frbank:mehmet:mehmet_q06:FULL": "hobby",
+  "frbank:mehmet:mehmet_q06:SLOT-ABLATED": "hobby",
+  "frbank:mehmet:mehmet_q10:CAT-ABLATED": "signature_product",
+  "frbank:mehmet:mehmet_q10:FULL": "signature_product",
+  "frbank:mehmet:mehmet_q10:SLOT-ABLATED": "signature_product",
+  "frbank:mehmet:mehmet_q13:CAT-ABLATED": "hobby",
+  "frbank:mehmet:mehmet_q13:FULL": "hobby",
+  "frbank:mehmet:mehmet_q13:SLOT-ABLATED": "hobby",
+  "frbank:mirri:mirri_q01:FULL": "patrol_schedule",
+  "frbank:mirri:mirri_q01:SLOT-ABLATED": "patrol_schedule",
+  "frbank:mirri:mirri_q04:CAT-ABLATED": null,
+  "frbank:mirri:mirri_q04:FULL": "patrol_schedule",
+  "frbank:mirri:mirri_q04:SLOT-ABLATED": "patrol_schedule",
+  "frbank:mirri:mirri_q05:CAT-ABLATED": null,
+  "frbank:mirri:mirri_q05:FULL": "patrol_schedule",
+  "frbank:mirri:mirri_q05:SLOT-ABLATED": "patrol_schedule",
+  "frbank:mirri:mirri_q10:CAT-ABLATED": null,
+  "frbank:mirri:mirri_q10:FULL": "patrol_schedule",
+  "frbank:mirri:mirri_q10:SLOT-ABLATED": "patrol_schedule",
+  "frbank:nadia:nadia_q02:CAT-ABLATED": "current_city",
+  "frbank:nadia:nadia_q02:FULL": "current_city",
+  "frbank:nadia:nadia_q02:SLOT-ABLATED": "living_arrangement",
+  "frbank:nadia:nadia_q04:CAT-ABLATED": "current_city",
+  "frbank:nadia:nadia_q04:FULL": "current_city",
+  "frbank:nadia:nadia_q04:SLOT-ABLATED": "current_city",
+  "frbank:nadia:nadia_q05:CAT-ABLATED": "current_city",
+  "frbank:nadia:nadia_q05:FULL": "current_city",
+  "frbank:nadia:nadia_q05:SLOT-ABLATED": "current_city",
+  "frbank:nadia:nadia_q06:CAT-ABLATED": "current_city",
+  "frbank:nadia:nadia_q06:FULL": "current_city",
+  "frbank:nadia:nadia_q06:SLOT-ABLATED": "current_city",
+  "frbank:nadia:nadia_q07:CAT-ABLATED": "living_arrangement",
+  "frbank:nadia:nadia_q07:FULL": "living_arrangement",
+  "frbank:nadia:nadia_q07:SLOT-ABLATED": "living_arrangement",
+  "frbank:omar:omar_q03:CAT-ABLATED": null,
+  "frbank:omar:omar_q03:FULL": null,
+  "frbank:omar:omar_q03:SLOT-ABLATED": null,
+  "frbank:omar:omar_q09:CAT-ABLATED": null,
+  "frbank:omar:omar_q09:FULL": null,
+  "frbank:omar:omar_q09:SLOT-ABLATED": null,
+  "frbank:pan:pan_q01:CAT-ABLATED": "rice_supplier",
+  "frbank:pan:pan_q01:FULL": "rice_supplier",
+  "frbank:pan:pan_q01:SLOT-ABLATED": "rice_supplier",
+  "frbank:pan:pan_q05:CAT-ABLATED": "rice_supplier",
+  "frbank:pan:pan_q05:FULL": "rice_supplier",
+  "frbank:pan:pan_q05:SLOT-ABLATED": "rice_supplier",
+  "frbank:pan:pan_q06:CAT-ABLATED": "rice_supplier",
+  "frbank:pan:pan_q06:FULL": "rice_supplier",
+  "frbank:pan:pan_q06:SLOT-ABLATED": "rice_supplier",
+  "frbank:pan:pan_q10:CAT-ABLATED": "rice_supplier",
+  "frbank:pan:pan_q10:FULL": "rice_supplier",
+  "frbank:pan:pan_q10:SLOT-ABLATED": "rice_supplier",
+  "frbank:pan:pan_q11:CAT-ABLATED": "rice_supplier",
+  "frbank:pan:pan_q11:FULL": "project",
+  "frbank:pan:pan_q11:SLOT-ABLATED": "project",
+  "frbank:pan:pan_q13:CAT-ABLATED": "rice_supplier",
+  "frbank:pan:pan_q13:FULL": "rice_supplier",
+  "frbank:patrick:patrick_q03:CAT-ABLATED": "property",
+  "frbank:patrick:patrick_q05:CAT-ABLATED": "property",
+  "frbank:patrick:patrick_q05:FULL": "property",
+  "frbank:patrick:patrick_q05:SLOT-ABLATED": "property",
+  "frbank:patrick:patrick_q08:CAT-ABLATED": "property",
+  "frbank:patrick:patrick_q08:FULL": "property",
+  "frbank:patrick:patrick_q08:SLOT-ABLATED": "property",
+  "frbank:priya:priya_q09:CAT-ABLATED": "living_arrangement",
+  "frbank:priya:priya_q09:FULL": "living_arrangement",
+  "frbank:priya:priya_q09:SLOT-ABLATED": "living_arrangement",
+  "frbank:raj:raj_q02:CAT-ABLATED": "hobby",
+  "frbank:raj:raj_q02:FULL": "hobby",
+  "frbank:raj:raj_q02:SLOT-ABLATED": "hobby",
+  "frbank:raj:raj_q03:CAT-ABLATED": "hobby",
+  "frbank:raj:raj_q03:FULL": "hobby",
+  "frbank:raj:raj_q03:SLOT-ABLATED": "hobby",
+  "frbank:raj:raj_q04:CAT-ABLATED": "hobby",
+  "frbank:raj:raj_q04:FULL": "hobby",
+  "frbank:raj:raj_q04:SLOT-ABLATED": "hobby",
+  "frbank:raj:raj_q05:CAT-ABLATED": "hobby",
+  "frbank:raj:raj_q05:FULL": "hobby",
+  "frbank:raj:raj_q05:SLOT-ABLATED": "hobby",
+  "frbank:raj:raj_q07:CAT-ABLATED": "hobby",
+  "frbank:raj:raj_q07:FULL": "hobby",
+  "frbank:raj:raj_q07:SLOT-ABLATED": "hobby",
+  "frbank:raj:raj_q08:CAT-ABLATED": "hobby",
+  "frbank:raj:raj_q08:FULL": "hobby",
+  "frbank:raj:raj_q08:SLOT-ABLATED": "hobby",
+  "frbank:raj:raj_q09:CAT-ABLATED": "hobby",
+  "frbank:raj:raj_q09:FULL": "relationship",
+  "frbank:raj:raj_q09:SLOT-ABLATED": "relationship",
+  "frbank:raj:raj_q12:CAT-ABLATED": "hobby",
+  "frbank:raj:raj_q12:FULL": "relationship",
+  "frbank:raj:raj_q12:SLOT-ABLATED": "relationship",
+  "frbank:rosa:rosa_q04:CAT-ABLATED": null,
+  "frbank:rosa:rosa_q04:FULL": "exercise_routine",
+  "frbank:rosa:rosa_q04:SLOT-ABLATED": "exercise_routine",
+  "frbank:rosa:rosa_q06:CAT-ABLATED": null,
+  "frbank:rosa:rosa_q06:FULL": "exercise_routine",
+  "frbank:rosa:rosa_q06:SLOT-ABLATED": "exercise_routine",
+  "frbank:rosa:rosa_q08:CAT-ABLATED": null,
+  "frbank:rosa:rosa_q08:FULL": "exercise_routine",
+  "frbank:rosa:rosa_q08:SLOT-ABLATED": "exercise_routine",
+  "frbank:rosa:rosa_q12:CAT-ABLATED": null,
+  "frbank:rosa:rosa_q12:FULL": "exercise_routine",
+  "frbank:rosa:rosa_q12:SLOT-ABLATED": "exercise_routine",
+  "frbank:saga:saga_q01:FULL": "employer",
+  "frbank:saga:saga_q01:SLOT-ABLATED": "employer",
+  "frbank:saga:saga_q02:FULL": "hobby",
+  "frbank:saga:saga_q02:SLOT-ABLATED": "hobby",
+  "frbank:saga:saga_q06:CAT-ABLATED": null,
+  "frbank:saga:saga_q06:FULL": "hobby",
+  "frbank:saga:saga_q06:SLOT-ABLATED": "hobby",
+  "frbank:saga:saga_q11:CAT-ABLATED": null,
+  "frbank:saga:saga_q11:FULL": "hobby",
+  "frbank:saga:saga_q11:SLOT-ABLATED": "hobby",
+  "frbank:samuel:samuel_q02:CAT-ABLATED": "hobby",
+  "frbank:samuel:samuel_q02:FULL": "exercise_routine",
+  "frbank:samuel:samuel_q02:SLOT-ABLATED": "exercise_routine",
+  "frbank:samuel:samuel_q04:CAT-ABLATED": "living_arrangement",
+  "frbank:samuel:samuel_q04:FULL": "living_arrangement",
+  "frbank:samuel:samuel_q04:SLOT-ABLATED": "living_arrangement",
+  "frbank:samuel:samuel_q05:CAT-ABLATED": "living_arrangement",
+  "frbank:samuel:samuel_q08:CAT-ABLATED": "living_arrangement",
+  "frbank:samuel:samuel_q08:FULL": "living_arrangement",
+  "frbank:samuel:samuel_q08:SLOT-ABLATED": "living_arrangement",
+  "frbank:samuel:samuel_q12:CAT-ABLATED": "hobby",
+  "frbank:samuel:samuel_q12:FULL": "hobby",
+  "frbank:samuel:samuel_q12:SLOT-ABLATED": "hobby",
+  "frbank:thanh:thanh_q02:CAT-ABLATED": null,
+  "frbank:thanh:thanh_q02:FULL": null,
+  "frbank:thanh:thanh_q07:CAT-ABLATED": null,
+  "frbank:thanh:thanh_q07:FULL": null,
+  "frbank:thanh:thanh_q07:SLOT-ABLATED": null,
+  "frbank:thanh:thanh_q11:CAT-ABLATED": null,
+  "frbank:thanh:thanh_q11:FULL": null,
+  "frbank:thanh:thanh_q11:SLOT-ABLATED": null,
+  "frbank:thanh:thanh_q13:CAT-ABLATED": null,
+  "frbank:thanh:thanh_q13:FULL": null,
+  "frbank:thanh:thanh_q13:SLOT-ABLATED": null,
+  "frbank:tom:tom_q01:CAT-ABLATED": "hobby",
+  "frbank:tom:tom_q04:CAT-ABLATED": "hobby",
+  "frbank:tom:tom_q04:FULL": "hobby",
+  "frbank:tom:tom_q04:SLOT-ABLATED": "hobby",
+  "frbank:tom:tom_q06:CAT-ABLATED": "activity",
+  "frbank:tom:tom_q06:FULL": "activity",
+  "frbank:tom:tom_q06:SLOT-ABLATED": "activity",
+  "frbank:tom:tom_q08:CAT-ABLATED": "hobby",
+  "frbank:tom:tom_q08:FULL": "hobby",
+  "frbank:tom:tom_q08:SLOT-ABLATED": "hobby",
+  "frbank:tom:tom_q09:CAT-ABLATED": "hobby",
+  "frbank:tom:tom_q09:FULL": "hobby",
+  "frbank:tom:tom_q09:SLOT-ABLATED": "hobby",
+  "frbank:tom:tom_q11:CAT-ABLATED": "hobby",
+  "frbank:tom:tom_q11:FULL": "hobby",
+  "frbank:tom:tom_q11:SLOT-ABLATED": "hobby",
+  "frbank:valentina:valentina_q03:CAT-ABLATED": null,
+  "frbank:valentina:valentina_q03:FULL": "smoking_habit",
+  "frbank:valentina:valentina_q03:SLOT-ABLATED": "smoking_habit",
+  "frbank:valentina:valentina_q04:CAT-ABLATED": null,
+  "frbank:valentina:valentina_q04:FULL": "smoking_habit",
+  "frbank:valentina:valentina_q04:SLOT-ABLATED": "smoking_habit",
+  "frbank:valentina:valentina_q05:CAT-ABLATED": null,
+  "frbank:valentina:valentina_q05:FULL": "smoking_habit",
+  "frbank:valentina:valentina_q05:SLOT-ABLATED": "smoking_habit",
+  "frbank:valentina:valentina_q07:CAT-ABLATED": null,
+  "frbank:valentina:valentina_q07:FULL": "smoking_habit",
+  "frbank:valentina:valentina_q07:SLOT-ABLATED": "smoking_habit",
+  "frbank:valentina:valentina_q08:CAT-ABLATED": null,
+  "frbank:valentina:valentina_q08:FULL": "smoking_habit",
+  "frbank:valentina:valentina_q08:SLOT-ABLATED": "smoking_habit",
+  "frbank:valentina:valentina_q11:CAT-ABLATED": null,
+  "frbank:valentina:valentina_q11:FULL": "smoking_habit",
+  "frbank:valentina:valentina_q11:SLOT-ABLATED": "smoking_habit",
+  "frbank:valentina:valentina_q13:CAT-ABLATED": null,
+  "frbank:valentina:valentina_q13:FULL": "smoking_habit",
+  "frbank:yoli:yoli_q05:CAT-ABLATED": "hobby",
+  "frbank:yoli:yoli_q05:FULL": "project",
+  "frbank:yoli:yoli_q05:SLOT-ABLATED": "project",
+  "frbank:yoli:yoli_q06:CAT-ABLATED": "hobby",
+  "frbank:yoli:yoli_q06:FULL": "project",
+  "frbank:yoli:yoli_q06:SLOT-ABLATED": "project",
+  "frbank:yoli:yoli_q07:CAT-ABLATED": "music_preference",
+  "frbank:yoli:yoli_q07:FULL": "music_preference",
+  "frbank:yoli:yoli_q07:SLOT-ABLATED": "music_preference",
+  "frbank:yoli:yoli_q08:CAT-ABLATED": "hobby",
+  "frbank:yoli:yoli_q08:FULL": "project",
+  "frbank:yoli:yoli_q08:SLOT-ABLATED": "project",
+  "frbank:zara:zara_q02:CAT-ABLATED": "exercise_routine",
+  "frbank:zara:zara_q02:FULL": "exercise_routine",
+  "frbank:zara:zara_q02:SLOT-ABLATED": "exercise_routine",
+  "frbank:zara:zara_q05:CAT-ABLATED": "hobby",
+  "frbank:zara:zara_q05:FULL": "hobby",
+  "frbank:zara:zara_q05:SLOT-ABLATED": "hobby",
+  "frbank:zara:zara_q06:CAT-ABLATED": "exercise_routine",
+  "frbank:zara:zara_q13:CAT-ABLATED": "exercise_routine",
+  "frbank:zara:zara_q13:FULL": "exercise_routine",
+  "probe:frbank:aisha:29876293": "living_arrangement",
+  "probe:frbank:aisha:51065003": "living_arrangement",
+  "probe:frbank:aisha:87746797": "living_arrangement",
+  "probe:frbank:alex:49167599": null,
+  "probe:frbank:alex:64255471": null,
+  "probe:frbank:alex:9383268": null,
+  "probe:frbank:amara:44980553": "hobby",
+  "probe:frbank:amara:56016561": "hobby",
+  "probe:frbank:amara:647841": "hobby",
+  "probe:frbank:amara:86260058": "hobby",
+  "probe:frbank:aroha:51065003": "hobby",
+  "probe:frbank:aroha:79127530": "hobby",
+  "probe:frbank:aroha:83945397": "vehicle",
+  "probe:frbank:aroha:90080294": "hobby",
+  "probe:frbank:billy:16751414": null,
+  "probe:frbank:billy:51592303": null,
+  "probe:frbank:billy:55271723": null,
+  "probe:frbank:billy:68502554": null,
+  "probe:frbank:billy:83077706": null,
+  "probe:frbank:billy:86368938": null,
+  "probe:frbank:bruna:13209468": null,
+  "probe:frbank:bruna:62752536": null,
+  "probe:frbank:bruna:668680": null,
+  "probe:frbank:bruna:69057771": null,
+  "probe:frbank:callum:15070412": "hobby",
+  "probe:frbank:callum:16873796": "hobby",
+  "probe:frbank:callum:60798357": "hobby",
+  "probe:frbank:callum:74122240": "hobby",
+  "probe:frbank:chenoa:54693416": "vehicle",
+  "probe:frbank:chenoa:56588764": "vehicle",
+  "probe:frbank:chenoa:62752536": "vehicle",
+  "probe:frbank:dariush:3142250": "project",
+  "probe:frbank:dariush:32622554": "project",
+  "probe:frbank:dariush:54693416": "project",
+  "probe:frbank:dariush:92838680": "project",
+  "probe:frbank:david:25701766": null,
+  "probe:frbank:david:58071555": null,
+  "probe:frbank:dmitri:20812477": null,
+  "probe:frbank:dmitri:6283392": null,
+  "probe:frbank:dmitri:65609808": null,
+  "probe:frbank:dmitri:70998693": null,
+  "probe:frbank:dmitri:94213328": null,
+  "probe:frbank:elena:11659441": "dietary_preference",
+  "probe:frbank:elena:23782516": "job_employer",
+  "probe:frbank:elena:36462493": "dietary_preference",
+  "probe:frbank:fatima:27231561": "project",
+  "probe:frbank:fatima:51065003": "project",
+  "probe:frbank:fatima:88922627": "supplier",
+  "probe:frbank:ingrid:63373877": "project",
+  "probe:frbank:ingrid:79520186": "project",
+  "probe:frbank:jake:11659441": null,
+  "probe:frbank:jake:51065003": null,
+  "probe:frbank:jake:5905449": null,
+  "probe:frbank:jake:89005765": null,
+  "probe:frbank:jake:94874080": null,
+  "probe:frbank:jerome:14631081": "vehicle",
+  "probe:frbank:jerome:17309019": "vehicle",
+  "probe:frbank:jerome:63866738": "vehicle",
+  "probe:frbank:jerome:67788344": "vehicle",
+  "probe:frbank:jerome:96963085": "vehicle",
+  "probe:frbank:joonho:38353346": "teaching_location",
+  "probe:frbank:joonho:50016097": "project",
+  "probe:frbank:joonho:53707330": "project",
+  "probe:frbank:joonho:6283392": "project",
+  "probe:frbank:kenji:17309019": "living_arrangement",
+  "probe:frbank:kenji:72579794": "living_arrangement",
+  "probe:frbank:kenji:76606586": "living_arrangement",
+  "probe:frbank:kofi:38156792": "contract",
+  "probe:frbank:kofi:46824886": "contract",
+  "probe:frbank:kofi:87324398": "farm_fertilizer_purchase",
+  "probe:frbank:leila:17462441": "job_title",
+  "probe:frbank:leila:53745614": "teaching_commitment",
+  "probe:frbank:leila:83945397": "job_title",
+  "probe:frbank:lily:2587190": "project",
+  "probe:frbank:lily:36306625": "project",
+  "probe:frbank:lily:39535719": "project",
+  "probe:frbank:lily:59663591": "project",
+  "probe:frbank:marcus:11659441": null,
+  "probe:frbank:marcus:45479498": null,
+  "probe:frbank:marcus:51065003": null,
+  "probe:frbank:marcus:58998349": null,
+  "probe:frbank:marcus:89005765": null,
+  "probe:frbank:marley:11659441": "placement_status",
+  "probe:frbank:marley:57624530": "placement_location",
+  "probe:frbank:marley:64737475": "placement_location",
+  "probe:frbank:marley:86260058": "placement_location",
+  "probe:frbank:mehmet:56208549": "hobby",
+  "probe:frbank:mehmet:6283392": "hobby",
+  "probe:frbank:mehmet:64737475": "hobby",
+  "probe:frbank:mirri:17881048": "patrol_schedule",
+  "probe:frbank:mirri:42702693": "patrol_schedule",
+  "probe:frbank:mirri:73119623": "patrol_schedule",
+  "probe:frbank:mirri:83945397": "patrol_schedule",
+  "probe:frbank:nadia:407246": "living_arrangement",
+  "probe:frbank:nadia:44980553": "living_arrangement",
+  "probe:frbank:nadia:65534989": "current_city",
+  "probe:frbank:nadia:69057771": "current_city",
+  "probe:frbank:omar:11659441": null,
+  "probe:frbank:omar:2649492": null,
+  "probe:frbank:omar:49167599": null,
+  "probe:frbank:pan:11659441": "rice_supplier",
+  "probe:frbank:pan:62390807": "project",
+  "probe:frbank:pan:72345311": "project",
+  "probe:frbank:pan:74636740": "project",
+  "probe:frbank:pan:83136086": "project",
+  "probe:frbank:pan:96716348": "project",
+  "probe:frbank:patrick:14522807": "property",
+  "probe:frbank:patrick:32972175": "property",
+  "probe:frbank:patrick:39571891": "property",
+  "probe:frbank:patrick:52078828": "property",
+  "probe:frbank:priya:24322740": "living_arrangement",
+  "probe:frbank:priya:2470720": "living_arrangement",
+  "probe:frbank:priya:52584083": "living_arrangement",
+  "probe:frbank:priya:69699110": "living_arrangement",
+  "probe:frbank:priya:97423439": "living_arrangement",
+  "probe:frbank:raj:22772083": "hobby",
+  "probe:frbank:raj:51065003": "hobby",
+  "probe:frbank:rosa:2587190": "exercise_routine",
+  "probe:frbank:rosa:31623610": "exercise_routine",
+  "probe:frbank:rosa:47001555": "exercise_routine",
+  "probe:frbank:rosa:84851768": "exercise_routine",
+  "probe:frbank:saga:14972789": "employer",
+  "probe:frbank:saga:17309019": "hobby",
+  "probe:frbank:saga:44353198": "hobby",
+  "probe:frbank:samuel:55903416": "hobby",
+  "probe:frbank:samuel:6283392": "living_arrangement",
+  "probe:frbank:samuel:82070044": "hobby",
+  "probe:frbank:thanh:21169214": null,
+  "probe:frbank:thanh:51065003": null,
+  "probe:frbank:thanh:59460199": null,
+  "probe:frbank:tom:13744835": "hobby",
+  "probe:frbank:tom:55024768": "hobby",
+  "probe:frbank:tom:66011798": "activity",
+  "probe:frbank:valentina:11659441": "smoking_habit",
+  "probe:frbank:valentina:39799067": "smoking_habit",
+  "probe:frbank:yoli:17741734": "hobby",
+  "probe:frbank:yoli:23056170": "hobby",
+  "probe:frbank:yoli:25566548": "music_preference",
+  "probe:frbank:yoli:41440540": "hobby",
+  "probe:frbank:yoli:82993208": "hobby",
+  "probe:frbank:zara:2707808": "hobby",
+  "probe:frbank:zara:44980553": "hobby",
+  "probe:frbank:zara:69057771": "hobby",
+  "probe:frbank:zara:83180341": "hobby",
+  "probe:frbank:zara:83811390": "hobby"
+ },
+ "census": {
+  "a6_recorded_inview": {
+   "10": 89,
+   "5": 65,
+   "6": 72,
+   "7": 77,
+   "8": 82,
+   "9": 88,
+   "GATED": 87
+  },
+  "items_fetching_at_least_one_record": 466,
+  "items_with_a_best_name": 466,
+  "mean_fetched_661": 1.583963691376702,
+  "n_obligations": 104,
+  "obligations_whose_best_name_is_a_forbidding_slot": 58,
+  "recency": {
+   "mean_kept_per_variant": 219.29954614220878,
+   "mean_variant_size": 427.93494704992435,
+   "pn_member_kept_items": 38
+  }
+ },
+ "fetched": {
+  "frbank:aisha:aisha_q01:CAT-ABLATED": [
+   "lb_00004",
+   "lb_00008"
+  ],
+  "frbank:aisha:aisha_q01:FULL": [
+   "lb_00131",
+   "lb_00139"
+  ],
+  "frbank:aisha:aisha_q01:SLOT-ABLATED": [
+   "lb_00131",
+   "lb_00139"
+  ],
+  "frbank:aisha:aisha_q02:CAT-ABLATED": [
+   "lb_00004",
+   "lb_00008"
+  ],
+  "frbank:aisha:aisha_q02:FULL": [
+   "lb_00131",
+   "lb_00139"
+  ],
+  "frbank:aisha:aisha_q02:SLOT-ABLATED": [
+   "lb_00131",
+   "lb_00139"
+  ],
+  "frbank:aisha:aisha_q03:CAT-ABLATED": [
+   "lb_00004",
+   "lb_00008"
+  ],
+  "frbank:aisha:aisha_q03:FULL": [
+   "lb_00157"
+  ],
+  "frbank:aisha:aisha_q03:SLOT-ABLATED": [
+   "lb_00157"
+  ],
+  "frbank:aisha:aisha_q05:CAT-ABLATED": [
+   "lb_00004",
+   "lb_00008"
+  ],
+  "frbank:aisha:aisha_q05:FULL": [
+   "lb_00157"
+  ],
+  "frbank:aisha:aisha_q05:SLOT-ABLATED": [
+   "lb_00157"
+  ],
+  "frbank:aisha:aisha_q08:CAT-ABLATED": [
+   "lb_00004",
+   "lb_00008"
+  ],
+  "frbank:aisha:aisha_q08:FULL": [
+   "lb_00157"
+  ],
+  "frbank:aisha:aisha_q08:SLOT-ABLATED": [
+   "lb_00157"
+  ],
+  "frbank:alex:alex_q03:CAT-ABLATED": [],
+  "frbank:alex:alex_q05:CAT-ABLATED": [],
+  "frbank:alex:alex_q05:FULL": [],
+  "frbank:alex:alex_q05:SLOT-ABLATED": [],
+  "frbank:alex:alex_q07:CAT-ABLATED": [],
+  "frbank:alex:alex_q07:FULL": [],
+  "frbank:alex:alex_q07:SLOT-ABLATED": [],
+  "frbank:alex:alex_q11:CAT-ABLATED": [],
+  "frbank:alex:alex_q11:FULL": [],
+  "frbank:alex:alex_q11:SLOT-ABLATED": [],
+  "frbank:alex:alex_q12:CAT-ABLATED": [],
+  "frbank:alex:alex_q12:FULL": [],
+  "frbank:alex:alex_q12:SLOT-ABLATED": [],
+  "frbank:amara:amara_q03:CAT-ABLATED": [],
+  "frbank:amara:amara_q03:FULL": [
+   "lb_00034",
+   "lb_00036",
+   "lb_00038",
+   "lb_00040",
+   "lb_00044"
+  ],
+  "frbank:amara:amara_q03:SLOT-ABLATED": [
+   "lb_00034",
+   "lb_00036",
+   "lb_00038",
+   "lb_00040",
+   "lb_00044"
+  ],
+  "frbank:amara:amara_q04:CAT-ABLATED": [],
+  "frbank:amara:amara_q04:FULL": [
+   "lb_00034",
+   "lb_00036",
+   "lb_00038",
+   "lb_00040",
+   "lb_00044"
+  ],
+  "frbank:amara:amara_q04:SLOT-ABLATED": [
+   "lb_00034",
+   "lb_00036",
+   "lb_00038",
+   "lb_00040",
+   "lb_00044"
+  ],
+  "frbank:amara:amara_q12:CAT-ABLATED": [],
+  "frbank:amara:amara_q12:FULL": [
+   "lb_00222",
+   "lb_00225"
+  ],
+  "frbank:amara:amara_q12:SLOT-ABLATED": [
+   "lb_00222",
+   "lb_00225"
+  ],
+  "frbank:aroha:aroha_q03:CAT-ABLATED": [
+   "lb_00082",
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "frbank:aroha:aroha_q03:FULL": [
+   "lb_00082",
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "frbank:aroha:aroha_q03:SLOT-ABLATED": [
+   "lb_00061"
+  ],
+  "frbank:aroha:aroha_q05:CAT-ABLATED": [
+   "lb_00061"
+  ],
+  "frbank:aroha:aroha_q05:FULL": [
+   "lb_00061"
+  ],
+  "frbank:aroha:aroha_q05:SLOT-ABLATED": [
+   "lb_00061"
+  ],
+  "frbank:aroha:aroha_q06:CAT-ABLATED": [
+   "lb_00061"
+  ],
+  "frbank:aroha:aroha_q06:FULL": [
+   "lb_00061"
+  ],
+  "frbank:aroha:aroha_q06:SLOT-ABLATED": [
+   "lb_00061"
+  ],
+  "frbank:billy:billy_q05:CAT-ABLATED": [],
+  "frbank:billy:billy_q05:FULL": [],
+  "frbank:billy:billy_q05:SLOT-ABLATED": [],
+  "frbank:billy:billy_q06:CAT-ABLATED": [],
+  "frbank:billy:billy_q06:FULL": [],
+  "frbank:billy:billy_q06:SLOT-ABLATED": [],
+  "frbank:bruna:bruna_q04:CAT-ABLATED": [],
+  "frbank:bruna:bruna_q04:FULL": [],
+  "frbank:bruna:bruna_q04:SLOT-ABLATED": [],
+  "frbank:bruna:bruna_q05:CAT-ABLATED": [],
+  "frbank:bruna:bruna_q05:FULL": [],
+  "frbank:bruna:bruna_q05:SLOT-ABLATED": [],
+  "frbank:bruna:bruna_q06:CAT-ABLATED": [],
+  "frbank:bruna:bruna_q06:FULL": [],
+  "frbank:bruna:bruna_q06:SLOT-ABLATED": [],
+  "frbank:bruna:bruna_q08:CAT-ABLATED": [],
+  "frbank:bruna:bruna_q08:FULL": [],
+  "frbank:bruna:bruna_q08:SLOT-ABLATED": [],
+  "frbank:bruna:bruna_q09:CAT-ABLATED": [],
+  "frbank:bruna:bruna_q09:FULL": [],
+  "frbank:bruna:bruna_q09:SLOT-ABLATED": [],
+  "frbank:bruna:bruna_q11:CAT-ABLATED": [],
+  "frbank:bruna:bruna_q11:FULL": [],
+  "frbank:callum:callum_q04:CAT-ABLATED": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "frbank:callum:callum_q04:FULL": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "frbank:callum:callum_q04:SLOT-ABLATED": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "frbank:callum:callum_q05:CAT-ABLATED": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "frbank:callum:callum_q05:FULL": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "frbank:callum:callum_q05:SLOT-ABLATED": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "frbank:callum:callum_q07:CAT-ABLATED": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "frbank:callum:callum_q07:FULL": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "frbank:callum:callum_q07:SLOT-ABLATED": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "frbank:callum:callum_q08:CAT-ABLATED": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "frbank:callum:callum_q08:FULL": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "frbank:callum:callum_q08:SLOT-ABLATED": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "frbank:callum:callum_q09:CAT-ABLATED": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "frbank:callum:callum_q09:FULL": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "frbank:callum:callum_q09:SLOT-ABLATED": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "frbank:chenoa:chenoa_q01:CAT-ABLATED": [
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "frbank:chenoa:chenoa_q01:FULL": [
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "frbank:chenoa:chenoa_q01:SLOT-ABLATED": [
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "frbank:chenoa:chenoa_q05:CAT-ABLATED": [
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "frbank:chenoa:chenoa_q05:FULL": [
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "frbank:chenoa:chenoa_q05:SLOT-ABLATED": [
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "frbank:chenoa:chenoa_q06:CAT-ABLATED": [
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "frbank:chenoa:chenoa_q06:FULL": [
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "frbank:chenoa:chenoa_q06:SLOT-ABLATED": [
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "frbank:chenoa:chenoa_q10:CAT-ABLATED": [
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "frbank:chenoa:chenoa_q10:FULL": [
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "frbank:chenoa:chenoa_q10:SLOT-ABLATED": [
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "frbank:dariush:dariush_q04:FULL": [
+   "lb_00004"
+  ],
+  "frbank:dariush:dariush_q04:SLOT-ABLATED": [
+   "lb_00004"
+  ],
+  "frbank:dariush:dariush_q05:CAT-ABLATED": [],
+  "frbank:dariush:dariush_q05:FULL": [
+   "lb_00004"
+  ],
+  "frbank:dariush:dariush_q05:SLOT-ABLATED": [
+   "lb_00004"
+  ],
+  "frbank:dariush:dariush_q06:CAT-ABLATED": [],
+  "frbank:dariush:dariush_q06:FULL": [
+   "lb_00004"
+  ],
+  "frbank:dariush:dariush_q06:SLOT-ABLATED": [
+   "lb_00004"
+  ],
+  "frbank:dariush:dariush_q09:CAT-ABLATED": [],
+  "frbank:dariush:dariush_q09:FULL": [
+   "lb_00004"
+  ],
+  "frbank:dariush:dariush_q09:SLOT-ABLATED": [
+   "lb_00004"
+  ],
+  "frbank:dariush:dariush_q11:CAT-ABLATED": [],
+  "frbank:dariush:dariush_q11:FULL": [
+   "lb_00004"
+  ],
+  "frbank:dariush:dariush_q11:SLOT-ABLATED": [
+   "lb_00004"
+  ],
+  "frbank:david:david_q05:CAT-ABLATED": [],
+  "frbank:david:david_q05:FULL": [],
+  "frbank:david:david_q05:SLOT-ABLATED": [],
+  "frbank:david:david_q06:CAT-ABLATED": [],
+  "frbank:david:david_q06:FULL": [],
+  "frbank:david:david_q08:CAT-ABLATED": [],
+  "frbank:david:david_q08:FULL": [],
+  "frbank:david:david_q08:SLOT-ABLATED": [],
+  "frbank:david:david_q09:CAT-ABLATED": [],
+  "frbank:david:david_q09:FULL": [],
+  "frbank:david:david_q09:SLOT-ABLATED": [],
+  "frbank:david:david_q10:CAT-ABLATED": [],
+  "frbank:david:david_q10:FULL": [],
+  "frbank:david:david_q10:SLOT-ABLATED": [],
+  "frbank:david:david_q11:CAT-ABLATED": [],
+  "frbank:david:david_q11:FULL": [],
+  "frbank:diane:diane_q04:CAT-ABLATED": [],
+  "frbank:diane:diane_q04:FULL": [],
+  "frbank:diane:diane_q04:SLOT-ABLATED": [],
+  "frbank:diane:diane_q05:CAT-ABLATED": [],
+  "frbank:diane:diane_q05:FULL": [],
+  "frbank:diane:diane_q05:SLOT-ABLATED": [],
+  "frbank:diane:diane_q08:CAT-ABLATED": [],
+  "frbank:diane:diane_q08:FULL": [],
+  "frbank:diane:diane_q08:SLOT-ABLATED": [],
+  "frbank:diane:diane_q09:CAT-ABLATED": [],
+  "frbank:diane:diane_q09:FULL": [],
+  "frbank:diane:diane_q09:SLOT-ABLATED": [],
+  "frbank:diane:diane_q11:CAT-ABLATED": [],
+  "frbank:diane:diane_q11:FULL": [],
+  "frbank:diane:diane_q11:SLOT-ABLATED": [],
+  "frbank:dmitri:dmitri_q03:CAT-ABLATED": [],
+  "frbank:dmitri:dmitri_q05:CAT-ABLATED": [],
+  "frbank:dmitri:dmitri_q05:FULL": [],
+  "frbank:dmitri:dmitri_q05:SLOT-ABLATED": [],
+  "frbank:elena:elena_q01:CAT-ABLATED": [
+   "lb_00008"
+  ],
+  "frbank:elena:elena_q01:FULL": [
+   "lb_00008"
+  ],
+  "frbank:elena:elena_q01:SLOT-ABLATED": [
+   "lb_00008"
+  ],
+  "frbank:elena:elena_q02:CAT-ABLATED": [
+   "lb_00135"
+  ],
+  "frbank:elena:elena_q02:FULL": [
+   "lb_00135"
+  ],
+  "frbank:elena:elena_q05:CAT-ABLATED": [
+   "lb_00015"
+  ],
+  "frbank:elena:elena_q05:FULL": [
+   "lb_00015"
+  ],
+  "frbank:elena:elena_q08:CAT-ABLATED": [
+   "lb_00008"
+  ],
+  "frbank:elena:elena_q08:FULL": [
+   "lb_00008"
+  ],
+  "frbank:elena:elena_q08:SLOT-ABLATED": [
+   "lb_00008"
+  ],
+  "frbank:elena:elena_q09:CAT-ABLATED": [
+   "lb_00015"
+  ],
+  "frbank:elena:elena_q09:FULL": [
+   "lb_00015"
+  ],
+  "frbank:elena:elena_q09:SLOT-ABLATED": [
+   "lb_00015"
+  ],
+  "frbank:elena:elena_q10:CAT-ABLATED": [
+   "lb_00015"
+  ],
+  "frbank:elena:elena_q10:FULL": [
+   "lb_00015"
+  ],
+  "frbank:fatima:fatima_q02:FULL": [
+   "lb_00088",
+   "lb_00148",
+   "lb_00263"
+  ],
+  "frbank:fatima:fatima_q02:SLOT-ABLATED": [
+   "lb_00088",
+   "lb_00148",
+   "lb_00263"
+  ],
+  "frbank:fatima:fatima_q04:CAT-ABLATED": [],
+  "frbank:fatima:fatima_q04:FULL": [
+   "lb_00088",
+   "lb_00148",
+   "lb_00263"
+  ],
+  "frbank:fatima:fatima_q04:SLOT-ABLATED": [
+   "lb_00088",
+   "lb_00148",
+   "lb_00263"
+  ],
+  "frbank:fatima:fatima_q05:CAT-ABLATED": [],
+  "frbank:fatima:fatima_q05:FULL": [
+   "lb_00088",
+   "lb_00148",
+   "lb_00263"
+  ],
+  "frbank:fatima:fatima_q05:SLOT-ABLATED": [
+   "lb_00088",
+   "lb_00148",
+   "lb_00263"
+  ],
+  "frbank:fatima:fatima_q06:CAT-ABLATED": [],
+  "frbank:fatima:fatima_q06:FULL": [
+   "lb_00007",
+   "lb_00008"
+  ],
+  "frbank:fatima:fatima_q06:SLOT-ABLATED": [
+   "lb_00007",
+   "lb_00008"
+  ],
+  "frbank:fatima:fatima_q07:CAT-ABLATED": [],
+  "frbank:fatima:fatima_q07:FULL": [
+   "lb_00088",
+   "lb_00148",
+   "lb_00263"
+  ],
+  "frbank:fatima:fatima_q07:SLOT-ABLATED": [
+   "lb_00088",
+   "lb_00148",
+   "lb_00263"
+  ],
+  "frbank:fatima:fatima_q09:CAT-ABLATED": [],
+  "frbank:fatima:fatima_q09:FULL": [
+   "lb_00088",
+   "lb_00148",
+   "lb_00263"
+  ],
+  "frbank:fatima:fatima_q09:SLOT-ABLATED": [
+   "lb_00088",
+   "lb_00148",
+   "lb_00263"
+  ],
+  "frbank:fatima:fatima_q11:CAT-ABLATED": [],
+  "frbank:fatima:fatima_q11:FULL": [
+   "lb_00088",
+   "lb_00148",
+   "lb_00263"
+  ],
+  "frbank:fatima:fatima_q11:SLOT-ABLATED": [
+   "lb_00088",
+   "lb_00148",
+   "lb_00263"
+  ],
+  "frbank:ingrid:ingrid_q01:CAT-ABLATED": [
+   "lb_00219"
+  ],
+  "frbank:ingrid:ingrid_q01:FULL": [
+   "lb_00219"
+  ],
+  "frbank:ingrid:ingrid_q01:SLOT-ABLATED": [
+   "lb_00219"
+  ],
+  "frbank:ingrid:ingrid_q02:CAT-ABLATED": [
+   "lb_00005",
+   "lb_00007",
+   "lb_00018",
+   "lb_00019",
+   "lb_00024",
+   "lb_00026",
+   "lb_00133"
+  ],
+  "frbank:ingrid:ingrid_q04:CAT-ABLATED": [
+   "lb_00219"
+  ],
+  "frbank:ingrid:ingrid_q04:FULL": [
+   "lb_00219"
+  ],
+  "frbank:ingrid:ingrid_q04:SLOT-ABLATED": [
+   "lb_00219"
+  ],
+  "frbank:ingrid:ingrid_q05:CAT-ABLATED": [
+   "lb_00005",
+   "lb_00007",
+   "lb_00018",
+   "lb_00019",
+   "lb_00024",
+   "lb_00026",
+   "lb_00133"
+  ],
+  "frbank:ingrid:ingrid_q05:FULL": [
+   "lb_00005",
+   "lb_00007",
+   "lb_00018",
+   "lb_00019",
+   "lb_00024",
+   "lb_00026",
+   "lb_00127",
+   "lb_00133"
+  ],
+  "frbank:ingrid:ingrid_q05:SLOT-ABLATED": [
+   "lb_00005",
+   "lb_00007",
+   "lb_00018",
+   "lb_00019",
+   "lb_00024",
+   "lb_00026",
+   "lb_00127",
+   "lb_00133"
+  ],
+  "frbank:ingrid:ingrid_q06:CAT-ABLATED": [
+   "lb_00005",
+   "lb_00007",
+   "lb_00018",
+   "lb_00019",
+   "lb_00024",
+   "lb_00026",
+   "lb_00133"
+  ],
+  "frbank:ingrid:ingrid_q06:FULL": [
+   "lb_00005",
+   "lb_00007",
+   "lb_00018",
+   "lb_00019",
+   "lb_00024",
+   "lb_00026",
+   "lb_00127",
+   "lb_00133"
+  ],
+  "frbank:ingrid:ingrid_q06:SLOT-ABLATED": [
+   "lb_00005",
+   "lb_00007",
+   "lb_00018",
+   "lb_00019",
+   "lb_00024",
+   "lb_00026",
+   "lb_00127",
+   "lb_00133"
+  ],
+  "frbank:ingrid:ingrid_q08:CAT-ABLATED": [
+   "lb_00005",
+   "lb_00007",
+   "lb_00018",
+   "lb_00019",
+   "lb_00024",
+   "lb_00026",
+   "lb_00133"
+  ],
+  "frbank:ingrid:ingrid_q08:FULL": [
+   "lb_00005",
+   "lb_00007",
+   "lb_00018",
+   "lb_00019",
+   "lb_00024",
+   "lb_00026",
+   "lb_00127",
+   "lb_00133"
+  ],
+  "frbank:ingrid:ingrid_q08:SLOT-ABLATED": [
+   "lb_00005",
+   "lb_00007",
+   "lb_00018",
+   "lb_00019",
+   "lb_00024",
+   "lb_00026",
+   "lb_00127",
+   "lb_00133"
+  ],
+  "frbank:jake:jake_q03:CAT-ABLATED": [],
+  "frbank:jake:jake_q03:FULL": [],
+  "frbank:jake:jake_q03:SLOT-ABLATED": [],
+  "frbank:jake:jake_q04:CAT-ABLATED": [],
+  "frbank:jake:jake_q04:FULL": [],
+  "frbank:jake:jake_q04:SLOT-ABLATED": [],
+  "frbank:jake:jake_q06:CAT-ABLATED": [],
+  "frbank:jake:jake_q06:FULL": [],
+  "frbank:jake:jake_q06:SLOT-ABLATED": [],
+  "frbank:jake:jake_q11:CAT-ABLATED": [],
+  "frbank:jake:jake_q11:FULL": [],
+  "frbank:jake:jake_q12:CAT-ABLATED": [],
+  "frbank:jake:jake_q12:FULL": [],
+  "frbank:jake:jake_q12:SLOT-ABLATED": [],
+  "frbank:jerome:jerome_q02:CAT-ABLATED": [
+   "lb_00001",
+   "lb_00011"
+  ],
+  "frbank:jerome:jerome_q02:FULL": [
+   "lb_00005",
+   "lb_00008",
+   "lb_00012",
+   "lb_00014"
+  ],
+  "frbank:jerome:jerome_q02:SLOT-ABLATED": [
+   "lb_00005",
+   "lb_00008",
+   "lb_00012",
+   "lb_00014"
+  ],
+  "frbank:jerome:jerome_q03:FULL": [
+   "lb_00005",
+   "lb_00008",
+   "lb_00012",
+   "lb_00014"
+  ],
+  "frbank:jerome:jerome_q05:CAT-ABLATED": [
+   "lb_00001",
+   "lb_00011"
+  ],
+  "frbank:jerome:jerome_q05:FULL": [
+   "lb_00001",
+   "lb_00011"
+  ],
+  "frbank:jerome:jerome_q05:SLOT-ABLATED": [
+   "lb_00001",
+   "lb_00011"
+  ],
+  "frbank:jerome:jerome_q06:CAT-ABLATED": [
+   "lb_00143",
+   "lb_00251"
+  ],
+  "frbank:jerome:jerome_q06:FULL": [
+   "lb_00005",
+   "lb_00008",
+   "lb_00012",
+   "lb_00014"
+  ],
+  "frbank:jerome:jerome_q06:SLOT-ABLATED": [
+   "lb_00005",
+   "lb_00008",
+   "lb_00012",
+   "lb_00014"
+  ],
+  "frbank:jerome:jerome_q07:CAT-ABLATED": [
+   "lb_00001",
+   "lb_00011"
+  ],
+  "frbank:jerome:jerome_q07:FULL": [
+   "lb_00001",
+   "lb_00011"
+  ],
+  "frbank:jerome:jerome_q07:SLOT-ABLATED": [
+   "lb_00001",
+   "lb_00011"
+  ],
+  "frbank:jerome:jerome_q11:CAT-ABLATED": [
+   "lb_00001",
+   "lb_00011"
+  ],
+  "frbank:jerome:jerome_q11:FULL": [
+   "lb_00005",
+   "lb_00008",
+   "lb_00012",
+   "lb_00014"
+  ],
+  "frbank:jerome:jerome_q11:SLOT-ABLATED": [
+   "lb_00005",
+   "lb_00008",
+   "lb_00012",
+   "lb_00014"
+  ],
+  "frbank:joonho:joonho_q01:FULL": [
+   "lb_00001"
+  ],
+  "frbank:joonho:joonho_q01:SLOT-ABLATED": [
+   "lb_00001"
+  ],
+  "frbank:joonho:joonho_q04:FULL": [
+   "lb_00001"
+  ],
+  "frbank:joonho:joonho_q04:SLOT-ABLATED": [
+   "lb_00001"
+  ],
+  "frbank:joonho:joonho_q06:CAT-ABLATED": [],
+  "frbank:joonho:joonho_q06:FULL": [
+   "lb_00008"
+  ],
+  "frbank:joonho:joonho_q06:SLOT-ABLATED": [
+   "lb_00008"
+  ],
+  "frbank:joonho:joonho_q07:CAT-ABLATED": [],
+  "frbank:joonho:joonho_q07:FULL": [
+   "lb_00001"
+  ],
+  "frbank:joonho:joonho_q07:SLOT-ABLATED": [
+   "lb_00001"
+  ],
+  "frbank:kenji:kenji_q03:FULL": [
+   "lb_00094"
+  ],
+  "frbank:kenji:kenji_q03:SLOT-ABLATED": [
+   "lb_00094"
+  ],
+  "frbank:kenji:kenji_q05:CAT-ABLATED": [],
+  "frbank:kenji:kenji_q05:FULL": [
+   "lb_00088"
+  ],
+  "frbank:kenji:kenji_q05:SLOT-ABLATED": [
+   "lb_00088"
+  ],
+  "frbank:kenji:kenji_q07:CAT-ABLATED": [],
+  "frbank:kenji:kenji_q07:FULL": [
+   "lb_00090"
+  ],
+  "frbank:kenji:kenji_q07:SLOT-ABLATED": [
+   "lb_00090"
+  ],
+  "frbank:kenji:kenji_q09:CAT-ABLATED": [],
+  "frbank:kenji:kenji_q09:FULL": [
+   "lb_00088"
+  ],
+  "frbank:kenji:kenji_q09:SLOT-ABLATED": [
+   "lb_00088"
+  ],
+  "frbank:kenji:kenji_q12:CAT-ABLATED": [],
+  "frbank:kenji:kenji_q12:FULL": [
+   "lb_00088"
+  ],
+  "frbank:kenji:kenji_q12:SLOT-ABLATED": [
+   "lb_00088"
+  ],
+  "frbank:kofi:kofi_q01:CAT-ABLATED": [],
+  "frbank:kofi:kofi_q01:FULL": [
+   "lb_00014"
+  ],
+  "frbank:kofi:kofi_q01:SLOT-ABLATED": [
+   "lb_00014"
+  ],
+  "frbank:kofi:kofi_q02:CAT-ABLATED": [],
+  "frbank:kofi:kofi_q02:FULL": [
+   "lb_00082"
+  ],
+  "frbank:kofi:kofi_q02:SLOT-ABLATED": [
+   "lb_00082"
+  ],
+  "frbank:kofi:kofi_q04:CAT-ABLATED": [],
+  "frbank:kofi:kofi_q06:CAT-ABLATED": [],
+  "frbank:kofi:kofi_q06:FULL": [
+   "lb_00014"
+  ],
+  "frbank:kofi:kofi_q06:SLOT-ABLATED": [
+   "lb_00014"
+  ],
+  "frbank:kofi:kofi_q09:CAT-ABLATED": [],
+  "frbank:kofi:kofi_q09:FULL": [
+   "lb_00014"
+  ],
+  "frbank:kofi:kofi_q09:SLOT-ABLATED": [
+   "lb_00082"
+  ],
+  "frbank:leila:leila_q05:CAT-ABLATED": [
+   "lb_00097"
+  ],
+  "frbank:leila:leila_q05:FULL": [
+   "lb_00097"
+  ],
+  "frbank:leila:leila_q05:SLOT-ABLATED": [
+   "lb_00097"
+  ],
+  "frbank:leila:leila_q08:CAT-ABLATED": [
+   "lb_00097"
+  ],
+  "frbank:leila:leila_q08:FULL": [
+   "lb_00097"
+  ],
+  "frbank:leila:leila_q08:SLOT-ABLATED": [
+   "lb_00097"
+  ],
+  "frbank:leila:leila_q09:CAT-ABLATED": [
+   "lb_00097"
+  ],
+  "frbank:leila:leila_q09:FULL": [
+   "lb_00097"
+  ],
+  "frbank:leila:leila_q09:SLOT-ABLATED": [
+   "lb_00097"
+  ],
+  "frbank:leila:leila_q11:CAT-ABLATED": [
+   "lb_00097"
+  ],
+  "frbank:leila:leila_q11:FULL": [
+   "lb_00097"
+  ],
+  "frbank:lily:lily_q01:FULL": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "frbank:lily:lily_q01:SLOT-ABLATED": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "frbank:lily:lily_q02:CAT-ABLATED": [],
+  "frbank:lily:lily_q03:CAT-ABLATED": [],
+  "frbank:lily:lily_q03:FULL": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "frbank:lily:lily_q03:SLOT-ABLATED": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "frbank:lily:lily_q05:CAT-ABLATED": [],
+  "frbank:lily:lily_q05:FULL": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "frbank:lily:lily_q05:SLOT-ABLATED": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "frbank:lily:lily_q06:FULL": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "frbank:lily:lily_q06:SLOT-ABLATED": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "frbank:lily:lily_q07:CAT-ABLATED": [],
+  "frbank:lily:lily_q07:FULL": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "frbank:lily:lily_q07:SLOT-ABLATED": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "frbank:lily:lily_q08:CAT-ABLATED": [],
+  "frbank:lily:lily_q08:FULL": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "frbank:lily:lily_q08:SLOT-ABLATED": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "frbank:lily:lily_q09:CAT-ABLATED": [],
+  "frbank:lily:lily_q09:FULL": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "frbank:lily:lily_q09:SLOT-ABLATED": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "frbank:lily:lily_q11:CAT-ABLATED": [],
+  "frbank:lily:lily_q11:FULL": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "frbank:marcus:marcus_q04:CAT-ABLATED": [],
+  "frbank:marcus:marcus_q04:FULL": [],
+  "frbank:marcus:marcus_q04:SLOT-ABLATED": [],
+  "frbank:marcus:marcus_q08:CAT-ABLATED": [],
+  "frbank:marcus:marcus_q08:FULL": [],
+  "frbank:marcus:marcus_q08:SLOT-ABLATED": [],
+  "frbank:marcus:marcus_q10:CAT-ABLATED": [],
+  "frbank:marcus:marcus_q10:FULL": [],
+  "frbank:marcus:marcus_q12:CAT-ABLATED": [],
+  "frbank:marcus:marcus_q12:FULL": [],
+  "frbank:marley:marley_q05:CAT-ABLATED": [
+   "lb_00077"
+  ],
+  "frbank:marley:marley_q05:FULL": [
+   "lb_00077"
+  ],
+  "frbank:marley:marley_q05:SLOT-ABLATED": [
+   "lb_00077"
+  ],
+  "frbank:marley:marley_q10:CAT-ABLATED": [
+   "lb_00073"
+  ],
+  "frbank:marley:marley_q10:FULL": [
+   "lb_00073"
+  ],
+  "frbank:marley:marley_q10:SLOT-ABLATED": [
+   "lb_00073"
+  ],
+  "frbank:marley:marley_q11:CAT-ABLATED": [
+   "lb_00073"
+  ],
+  "frbank:marley:marley_q11:FULL": [
+   "lb_00073"
+  ],
+  "frbank:marley:marley_q11:SLOT-ABLATED": [
+   "lb_00073"
+  ],
+  "frbank:mehmet:mehmet_q02:CAT-ABLATED": [
+   "lb_00079"
+  ],
+  "frbank:mehmet:mehmet_q02:FULL": [
+   "lb_00079"
+  ],
+  "frbank:mehmet:mehmet_q02:SLOT-ABLATED": [
+   "lb_00079"
+  ],
+  "frbank:mehmet:mehmet_q05:CAT-ABLATED": [
+   "lb_00081"
+  ],
+  "frbank:mehmet:mehmet_q05:FULL": [
+   "lb_00081"
+  ],
+  "frbank:mehmet:mehmet_q05:SLOT-ABLATED": [
+   "lb_00081"
+  ],
+  "frbank:mehmet:mehmet_q06:CAT-ABLATED": [
+   "lb_00081"
+  ],
+  "frbank:mehmet:mehmet_q06:FULL": [
+   "lb_00081"
+  ],
+  "frbank:mehmet:mehmet_q06:SLOT-ABLATED": [
+   "lb_00081"
+  ],
+  "frbank:mehmet:mehmet_q10:CAT-ABLATED": [
+   "lb_00079"
+  ],
+  "frbank:mehmet:mehmet_q10:FULL": [
+   "lb_00079"
+  ],
+  "frbank:mehmet:mehmet_q10:SLOT-ABLATED": [
+   "lb_00079"
+  ],
+  "frbank:mehmet:mehmet_q13:CAT-ABLATED": [
+   "lb_00081"
+  ],
+  "frbank:mehmet:mehmet_q13:FULL": [
+   "lb_00081"
+  ],
+  "frbank:mehmet:mehmet_q13:SLOT-ABLATED": [
+   "lb_00081"
+  ],
+  "frbank:mirri:mirri_q01:FULL": [
+   "lb_00004",
+   "lb_00006"
+  ],
+  "frbank:mirri:mirri_q01:SLOT-ABLATED": [
+   "lb_00004",
+   "lb_00006"
+  ],
+  "frbank:mirri:mirri_q04:CAT-ABLATED": [],
+  "frbank:mirri:mirri_q04:FULL": [
+   "lb_00004",
+   "lb_00006"
+  ],
+  "frbank:mirri:mirri_q04:SLOT-ABLATED": [
+   "lb_00004",
+   "lb_00006"
+  ],
+  "frbank:mirri:mirri_q05:CAT-ABLATED": [],
+  "frbank:mirri:mirri_q05:FULL": [
+   "lb_00004",
+   "lb_00006"
+  ],
+  "frbank:mirri:mirri_q05:SLOT-ABLATED": [
+   "lb_00004",
+   "lb_00006"
+  ],
+  "frbank:mirri:mirri_q10:CAT-ABLATED": [],
+  "frbank:mirri:mirri_q10:FULL": [
+   "lb_00004",
+   "lb_00006"
+  ],
+  "frbank:mirri:mirri_q10:SLOT-ABLATED": [
+   "lb_00004",
+   "lb_00006"
+  ],
+  "frbank:nadia:nadia_q02:CAT-ABLATED": [
+   "lb_00084"
+  ],
+  "frbank:nadia:nadia_q02:FULL": [
+   "lb_00084"
+  ],
+  "frbank:nadia:nadia_q02:SLOT-ABLATED": [
+   "lb_00088"
+  ],
+  "frbank:nadia:nadia_q04:CAT-ABLATED": [
+   "lb_00084"
+  ],
+  "frbank:nadia:nadia_q04:FULL": [
+   "lb_00084"
+  ],
+  "frbank:nadia:nadia_q04:SLOT-ABLATED": [
+   "lb_00084"
+  ],
+  "frbank:nadia:nadia_q05:CAT-ABLATED": [
+   "lb_00084"
+  ],
+  "frbank:nadia:nadia_q05:FULL": [
+   "lb_00084"
+  ],
+  "frbank:nadia:nadia_q05:SLOT-ABLATED": [
+   "lb_00084"
+  ],
+  "frbank:nadia:nadia_q06:CAT-ABLATED": [
+   "lb_00084"
+  ],
+  "frbank:nadia:nadia_q06:FULL": [
+   "lb_00084"
+  ],
+  "frbank:nadia:nadia_q06:SLOT-ABLATED": [
+   "lb_00084"
+  ],
+  "frbank:nadia:nadia_q07:CAT-ABLATED": [
+   "lb_00088"
+  ],
+  "frbank:nadia:nadia_q07:FULL": [
+   "lb_00088"
+  ],
+  "frbank:nadia:nadia_q07:SLOT-ABLATED": [
+   "lb_00088"
+  ],
+  "frbank:omar:omar_q03:CAT-ABLATED": [],
+  "frbank:omar:omar_q03:FULL": [],
+  "frbank:omar:omar_q03:SLOT-ABLATED": [],
+  "frbank:omar:omar_q09:CAT-ABLATED": [],
+  "frbank:omar:omar_q09:FULL": [],
+  "frbank:omar:omar_q09:SLOT-ABLATED": [],
+  "frbank:pan:pan_q01:CAT-ABLATED": [
+   "lb_00017"
+  ],
+  "frbank:pan:pan_q01:FULL": [
+   "lb_00017"
+  ],
+  "frbank:pan:pan_q01:SLOT-ABLATED": [
+   "lb_00017"
+  ],
+  "frbank:pan:pan_q05:CAT-ABLATED": [
+   "lb_00017"
+  ],
+  "frbank:pan:pan_q05:FULL": [
+   "lb_00017"
+  ],
+  "frbank:pan:pan_q05:SLOT-ABLATED": [
+   "lb_00017"
+  ],
+  "frbank:pan:pan_q06:CAT-ABLATED": [
+   "lb_00017"
+  ],
+  "frbank:pan:pan_q06:FULL": [
+   "lb_00017"
+  ],
+  "frbank:pan:pan_q06:SLOT-ABLATED": [
+   "lb_00017"
+  ],
+  "frbank:pan:pan_q10:CAT-ABLATED": [
+   "lb_00017"
+  ],
+  "frbank:pan:pan_q10:FULL": [
+   "lb_00017"
+  ],
+  "frbank:pan:pan_q10:SLOT-ABLATED": [
+   "lb_00017"
+  ],
+  "frbank:pan:pan_q11:CAT-ABLATED": [
+   "lb_00017"
+  ],
+  "frbank:pan:pan_q11:FULL": [
+   "lb_00012",
+   "lb_00169",
+   "lb_00173",
+   "lb_00174",
+   "lb_00180",
+   "lb_00202"
+  ],
+  "frbank:pan:pan_q11:SLOT-ABLATED": [
+   "lb_00012",
+   "lb_00169",
+   "lb_00173",
+   "lb_00174",
+   "lb_00180",
+   "lb_00202"
+  ],
+  "frbank:pan:pan_q13:CAT-ABLATED": [
+   "lb_00017"
+  ],
+  "frbank:pan:pan_q13:FULL": [
+   "lb_00017"
+  ],
+  "frbank:patrick:patrick_q03:CAT-ABLATED": [
+   "lb_00092"
+  ],
+  "frbank:patrick:patrick_q05:CAT-ABLATED": [
+   "lb_00092"
+  ],
+  "frbank:patrick:patrick_q05:FULL": [
+   "lb_00092"
+  ],
+  "frbank:patrick:patrick_q05:SLOT-ABLATED": [
+   "lb_00092"
+  ],
+  "frbank:patrick:patrick_q08:CAT-ABLATED": [
+   "lb_00092"
+  ],
+  "frbank:patrick:patrick_q08:FULL": [
+   "lb_00092"
+  ],
+  "frbank:patrick:patrick_q08:SLOT-ABLATED": [
+   "lb_00092"
+  ],
+  "frbank:priya:priya_q09:CAT-ABLATED": [
+   "lb_00094"
+  ],
+  "frbank:priya:priya_q09:FULL": [
+   "lb_00094"
+  ],
+  "frbank:priya:priya_q09:SLOT-ABLATED": [
+   "lb_00094"
+  ],
+  "frbank:raj:raj_q02:CAT-ABLATED": [
+   "lb_00113",
+   "lb_00115"
+  ],
+  "frbank:raj:raj_q02:FULL": [
+   "lb_00113",
+   "lb_00115",
+   "lb_00119"
+  ],
+  "frbank:raj:raj_q02:SLOT-ABLATED": [
+   "lb_00113",
+   "lb_00115",
+   "lb_00119"
+  ],
+  "frbank:raj:raj_q03:CAT-ABLATED": [
+   "lb_00113",
+   "lb_00115"
+  ],
+  "frbank:raj:raj_q03:FULL": [
+   "lb_00113",
+   "lb_00115",
+   "lb_00119"
+  ],
+  "frbank:raj:raj_q03:SLOT-ABLATED": [
+   "lb_00113",
+   "lb_00115",
+   "lb_00119"
+  ],
+  "frbank:raj:raj_q04:CAT-ABLATED": [
+   "lb_00113",
+   "lb_00115"
+  ],
+  "frbank:raj:raj_q04:FULL": [
+   "lb_00113",
+   "lb_00115",
+   "lb_00119"
+  ],
+  "frbank:raj:raj_q04:SLOT-ABLATED": [
+   "lb_00113",
+   "lb_00115",
+   "lb_00119"
+  ],
+  "frbank:raj:raj_q05:CAT-ABLATED": [
+   "lb_00113",
+   "lb_00115"
+  ],
+  "frbank:raj:raj_q05:FULL": [
+   "lb_00113",
+   "lb_00115",
+   "lb_00119"
+  ],
+  "frbank:raj:raj_q05:SLOT-ABLATED": [
+   "lb_00113",
+   "lb_00115",
+   "lb_00119"
+  ],
+  "frbank:raj:raj_q07:CAT-ABLATED": [
+   "lb_00113",
+   "lb_00115"
+  ],
+  "frbank:raj:raj_q07:FULL": [
+   "lb_00113",
+   "lb_00115",
+   "lb_00119"
+  ],
+  "frbank:raj:raj_q07:SLOT-ABLATED": [
+   "lb_00113",
+   "lb_00115",
+   "lb_00119"
+  ],
+  "frbank:raj:raj_q08:CAT-ABLATED": [
+   "lb_00113",
+   "lb_00115"
+  ],
+  "frbank:raj:raj_q08:FULL": [
+   "lb_00113",
+   "lb_00115",
+   "lb_00119"
+  ],
+  "frbank:raj:raj_q08:SLOT-ABLATED": [
+   "lb_00113",
+   "lb_00115",
+   "lb_00119"
+  ],
+  "frbank:raj:raj_q09:CAT-ABLATED": [
+   "lb_00113",
+   "lb_00115"
+  ],
+  "frbank:raj:raj_q09:FULL": [
+   "lb_00033"
+  ],
+  "frbank:raj:raj_q09:SLOT-ABLATED": [
+   "lb_00033"
+  ],
+  "frbank:raj:raj_q12:CAT-ABLATED": [
+   "lb_00113",
+   "lb_00115"
+  ],
+  "frbank:raj:raj_q12:FULL": [
+   "lb_00033"
+  ],
+  "frbank:raj:raj_q12:SLOT-ABLATED": [
+   "lb_00033"
+  ],
+  "frbank:rosa:rosa_q04:CAT-ABLATED": [],
+  "frbank:rosa:rosa_q04:FULL": [
+   "lb_00105",
+   "lb_00107",
+   "lb_00123"
+  ],
+  "frbank:rosa:rosa_q04:SLOT-ABLATED": [
+   "lb_00105",
+   "lb_00107",
+   "lb_00123"
+  ],
+  "frbank:rosa:rosa_q06:CAT-ABLATED": [],
+  "frbank:rosa:rosa_q06:FULL": [
+   "lb_00105",
+   "lb_00107",
+   "lb_00123"
+  ],
+  "frbank:rosa:rosa_q06:SLOT-ABLATED": [
+   "lb_00105",
+   "lb_00107",
+   "lb_00123"
+  ],
+  "frbank:rosa:rosa_q08:CAT-ABLATED": [],
+  "frbank:rosa:rosa_q08:FULL": [
+   "lb_00105",
+   "lb_00107",
+   "lb_00123"
+  ],
+  "frbank:rosa:rosa_q08:SLOT-ABLATED": [
+   "lb_00105",
+   "lb_00107",
+   "lb_00123"
+  ],
+  "frbank:rosa:rosa_q12:CAT-ABLATED": [],
+  "frbank:rosa:rosa_q12:FULL": [
+   "lb_00105",
+   "lb_00107",
+   "lb_00123"
+  ],
+  "frbank:rosa:rosa_q12:SLOT-ABLATED": [
+   "lb_00105",
+   "lb_00107",
+   "lb_00123"
+  ],
+  "frbank:saga:saga_q01:FULL": [
+   "lb_00002"
+  ],
+  "frbank:saga:saga_q01:SLOT-ABLATED": [
+   "lb_00002"
+  ],
+  "frbank:saga:saga_q02:FULL": [
+   "lb_00068",
+   "lb_00075",
+   "lb_00080",
+   "lb_00085"
+  ],
+  "frbank:saga:saga_q02:SLOT-ABLATED": [
+   "lb_00068",
+   "lb_00075",
+   "lb_00080",
+   "lb_00085"
+  ],
+  "frbank:saga:saga_q06:CAT-ABLATED": [],
+  "frbank:saga:saga_q06:FULL": [
+   "lb_00068",
+   "lb_00075",
+   "lb_00080",
+   "lb_00085"
+  ],
+  "frbank:saga:saga_q06:SLOT-ABLATED": [
+   "lb_00068",
+   "lb_00075",
+   "lb_00080",
+   "lb_00085"
+  ],
+  "frbank:saga:saga_q11:CAT-ABLATED": [],
+  "frbank:saga:saga_q11:FULL": [
+   "lb_00068",
+   "lb_00075",
+   "lb_00080",
+   "lb_00085"
+  ],
+  "frbank:saga:saga_q11:SLOT-ABLATED": [
+   "lb_00068",
+   "lb_00075",
+   "lb_00080",
+   "lb_00085"
+  ],
+  "frbank:samuel:samuel_q02:CAT-ABLATED": [
+   "lb_00093"
+  ],
+  "frbank:samuel:samuel_q02:FULL": [
+   "lb_00086",
+   "lb_00090",
+   "lb_00096",
+   "lb_00099"
+  ],
+  "frbank:samuel:samuel_q02:SLOT-ABLATED": [
+   "lb_00086",
+   "lb_00090",
+   "lb_00096",
+   "lb_00099"
+  ],
+  "frbank:samuel:samuel_q04:CAT-ABLATED": [
+   "lb_00106"
+  ],
+  "frbank:samuel:samuel_q04:FULL": [
+   "lb_00106"
+  ],
+  "frbank:samuel:samuel_q04:SLOT-ABLATED": [
+   "lb_00106"
+  ],
+  "frbank:samuel:samuel_q05:CAT-ABLATED": [
+   "lb_00106"
+  ],
+  "frbank:samuel:samuel_q08:CAT-ABLATED": [
+   "lb_00106"
+  ],
+  "frbank:samuel:samuel_q08:FULL": [
+   "lb_00106"
+  ],
+  "frbank:samuel:samuel_q08:SLOT-ABLATED": [
+   "lb_00106"
+  ],
+  "frbank:samuel:samuel_q12:CAT-ABLATED": [
+   "lb_00093"
+  ],
+  "frbank:samuel:samuel_q12:FULL": [
+   "lb_00093"
+  ],
+  "frbank:samuel:samuel_q12:SLOT-ABLATED": [
+   "lb_00093"
+  ],
+  "frbank:thanh:thanh_q02:CAT-ABLATED": [],
+  "frbank:thanh:thanh_q02:FULL": [],
+  "frbank:thanh:thanh_q07:CAT-ABLATED": [],
+  "frbank:thanh:thanh_q07:FULL": [],
+  "frbank:thanh:thanh_q07:SLOT-ABLATED": [],
+  "frbank:thanh:thanh_q11:CAT-ABLATED": [],
+  "frbank:thanh:thanh_q11:FULL": [],
+  "frbank:thanh:thanh_q11:SLOT-ABLATED": [],
+  "frbank:thanh:thanh_q13:CAT-ABLATED": [],
+  "frbank:thanh:thanh_q13:FULL": [],
+  "frbank:thanh:thanh_q13:SLOT-ABLATED": [],
+  "frbank:tom:tom_q01:CAT-ABLATED": [
+   "lb_00085"
+  ],
+  "frbank:tom:tom_q04:CAT-ABLATED": [
+   "lb_00085"
+  ],
+  "frbank:tom:tom_q04:FULL": [
+   "lb_00085"
+  ],
+  "frbank:tom:tom_q04:SLOT-ABLATED": [
+   "lb_00085"
+  ],
+  "frbank:tom:tom_q06:CAT-ABLATED": [
+   "lb_00284"
+  ],
+  "frbank:tom:tom_q06:FULL": [
+   "lb_00284"
+  ],
+  "frbank:tom:tom_q06:SLOT-ABLATED": [
+   "lb_00284"
+  ],
+  "frbank:tom:tom_q08:CAT-ABLATED": [
+   "lb_00085"
+  ],
+  "frbank:tom:tom_q08:FULL": [
+   "lb_00085"
+  ],
+  "frbank:tom:tom_q08:SLOT-ABLATED": [
+   "lb_00085"
+  ],
+  "frbank:tom:tom_q09:CAT-ABLATED": [
+   "lb_00085"
+  ],
+  "frbank:tom:tom_q09:FULL": [
+   "lb_00085"
+  ],
+  "frbank:tom:tom_q09:SLOT-ABLATED": [
+   "lb_00085"
+  ],
+  "frbank:tom:tom_q11:CAT-ABLATED": [
+   "lb_00085"
+  ],
+  "frbank:tom:tom_q11:FULL": [
+   "lb_00085"
+  ],
+  "frbank:tom:tom_q11:SLOT-ABLATED": [
+   "lb_00085"
+  ],
+  "frbank:valentina:valentina_q03:CAT-ABLATED": [],
+  "frbank:valentina:valentina_q03:FULL": [
+   "lb_00087",
+   "lb_00101"
+  ],
+  "frbank:valentina:valentina_q03:SLOT-ABLATED": [
+   "lb_00087",
+   "lb_00101"
+  ],
+  "frbank:valentina:valentina_q04:CAT-ABLATED": [],
+  "frbank:valentina:valentina_q04:FULL": [
+   "lb_00087",
+   "lb_00101"
+  ],
+  "frbank:valentina:valentina_q04:SLOT-ABLATED": [
+   "lb_00087",
+   "lb_00101"
+  ],
+  "frbank:valentina:valentina_q05:CAT-ABLATED": [],
+  "frbank:valentina:valentina_q05:FULL": [
+   "lb_00087",
+   "lb_00101"
+  ],
+  "frbank:valentina:valentina_q05:SLOT-ABLATED": [
+   "lb_00087",
+   "lb_00101"
+  ],
+  "frbank:valentina:valentina_q07:CAT-ABLATED": [],
+  "frbank:valentina:valentina_q07:FULL": [
+   "lb_00087",
+   "lb_00101"
+  ],
+  "frbank:valentina:valentina_q07:SLOT-ABLATED": [
+   "lb_00087",
+   "lb_00101"
+  ],
+  "frbank:valentina:valentina_q08:CAT-ABLATED": [],
+  "frbank:valentina:valentina_q08:FULL": [
+   "lb_00087",
+   "lb_00101"
+  ],
+  "frbank:valentina:valentina_q08:SLOT-ABLATED": [
+   "lb_00087",
+   "lb_00101"
+  ],
+  "frbank:valentina:valentina_q11:CAT-ABLATED": [],
+  "frbank:valentina:valentina_q11:FULL": [
+   "lb_00087",
+   "lb_00101"
+  ],
+  "frbank:valentina:valentina_q11:SLOT-ABLATED": [
+   "lb_00087",
+   "lb_00101"
+  ],
+  "frbank:valentina:valentina_q13:CAT-ABLATED": [],
+  "frbank:valentina:valentina_q13:FULL": [
+   "lb_00087",
+   "lb_00101"
+  ],
+  "frbank:yoli:yoli_q05:CAT-ABLATED": [
+   "lb_00150"
+  ],
+  "frbank:yoli:yoli_q05:FULL": [
+   "lb_00101",
+   "lb_00129",
+   "lb_00130",
+   "lb_00132"
+  ],
+  "frbank:yoli:yoli_q05:SLOT-ABLATED": [
+   "lb_00101",
+   "lb_00129",
+   "lb_00130",
+   "lb_00132"
+  ],
+  "frbank:yoli:yoli_q06:CAT-ABLATED": [
+   "lb_00150"
+  ],
+  "frbank:yoli:yoli_q06:FULL": [
+   "lb_00101",
+   "lb_00129",
+   "lb_00130",
+   "lb_00132"
+  ],
+  "frbank:yoli:yoli_q06:SLOT-ABLATED": [
+   "lb_00101",
+   "lb_00129",
+   "lb_00130",
+   "lb_00132"
+  ],
+  "frbank:yoli:yoli_q07:CAT-ABLATED": [
+   "lb_00080"
+  ],
+  "frbank:yoli:yoli_q07:FULL": [
+   "lb_00080"
+  ],
+  "frbank:yoli:yoli_q07:SLOT-ABLATED": [
+   "lb_00080"
+  ],
+  "frbank:yoli:yoli_q08:CAT-ABLATED": [
+   "lb_00150"
+  ],
+  "frbank:yoli:yoli_q08:FULL": [
+   "lb_00101",
+   "lb_00129",
+   "lb_00130",
+   "lb_00132"
+  ],
+  "frbank:yoli:yoli_q08:SLOT-ABLATED": [
+   "lb_00101",
+   "lb_00129",
+   "lb_00130",
+   "lb_00132"
+  ],
+  "frbank:zara:zara_q02:CAT-ABLATED": [
+   "lb_00096"
+  ],
+  "frbank:zara:zara_q02:FULL": [
+   "lb_00096"
+  ],
+  "frbank:zara:zara_q02:SLOT-ABLATED": [
+   "lb_00096"
+  ],
+  "frbank:zara:zara_q05:CAT-ABLATED": [
+   "lb_00085"
+  ],
+  "frbank:zara:zara_q05:FULL": [
+   "lb_00079",
+   "lb_00085",
+   "lb_00090"
+  ],
+  "frbank:zara:zara_q05:SLOT-ABLATED": [
+   "lb_00079",
+   "lb_00085",
+   "lb_00090"
+  ],
+  "frbank:zara:zara_q06:CAT-ABLATED": [
+   "lb_00096"
+  ],
+  "frbank:zara:zara_q13:CAT-ABLATED": [
+   "lb_00096"
+  ],
+  "frbank:zara:zara_q13:FULL": [
+   "lb_00096"
+  ],
+  "probe:frbank:aisha:29876293": [
+   "lb_00157"
+  ],
+  "probe:frbank:aisha:51065003": [
+   "lb_00157"
+  ],
+  "probe:frbank:aisha:87746797": [
+   "lb_00157"
+  ],
+  "probe:frbank:alex:49167599": [],
+  "probe:frbank:alex:64255471": [],
+  "probe:frbank:alex:9383268": [],
+  "probe:frbank:amara:44980553": [
+   "lb_00222",
+   "lb_00225"
+  ],
+  "probe:frbank:amara:56016561": [
+   "lb_00222",
+   "lb_00225"
+  ],
+  "probe:frbank:amara:647841": [
+   "lb_00222",
+   "lb_00225"
+  ],
+  "probe:frbank:amara:86260058": [
+   "lb_00222",
+   "lb_00225"
+  ],
+  "probe:frbank:aroha:51065003": [
+   "lb_00061"
+  ],
+  "probe:frbank:aroha:79127530": [
+   "lb_00061"
+  ],
+  "probe:frbank:aroha:83945397": [
+   "lb_00082",
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "probe:frbank:aroha:90080294": [
+   "lb_00061"
+  ],
+  "probe:frbank:billy:16751414": [],
+  "probe:frbank:billy:51592303": [],
+  "probe:frbank:billy:55271723": [],
+  "probe:frbank:billy:68502554": [],
+  "probe:frbank:billy:83077706": [],
+  "probe:frbank:billy:86368938": [],
+  "probe:frbank:bruna:13209468": [],
+  "probe:frbank:bruna:62752536": [],
+  "probe:frbank:bruna:668680": [],
+  "probe:frbank:bruna:69057771": [],
+  "probe:frbank:callum:15070412": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "probe:frbank:callum:16873796": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "probe:frbank:callum:60798357": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "probe:frbank:callum:74122240": [
+   "lb_00107",
+   "lb_00109",
+   "lb_00111",
+   "lb_00114"
+  ],
+  "probe:frbank:chenoa:54693416": [
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "probe:frbank:chenoa:56588764": [
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "probe:frbank:chenoa:62752536": [
+   "lb_00085",
+   "lb_00088",
+   "lb_00091"
+  ],
+  "probe:frbank:dariush:3142250": [
+   "lb_00004"
+  ],
+  "probe:frbank:dariush:32622554": [
+   "lb_00004"
+  ],
+  "probe:frbank:dariush:54693416": [
+   "lb_00004"
+  ],
+  "probe:frbank:dariush:92838680": [
+   "lb_00004"
+  ],
+  "probe:frbank:david:25701766": [],
+  "probe:frbank:david:58071555": [],
+  "probe:frbank:dmitri:20812477": [],
+  "probe:frbank:dmitri:6283392": [],
+  "probe:frbank:dmitri:65609808": [],
+  "probe:frbank:dmitri:70998693": [],
+  "probe:frbank:dmitri:94213328": [],
+  "probe:frbank:elena:11659441": [
+   "lb_00135"
+  ],
+  "probe:frbank:elena:23782516": [
+   "lb_00008"
+  ],
+  "probe:frbank:elena:36462493": [
+   "lb_00135"
+  ],
+  "probe:frbank:fatima:27231561": [
+   "lb_00088",
+   "lb_00148",
+   "lb_00263"
+  ],
+  "probe:frbank:fatima:51065003": [
+   "lb_00088",
+   "lb_00148",
+   "lb_00263"
+  ],
+  "probe:frbank:fatima:88922627": [
+   "lb_00007",
+   "lb_00008"
+  ],
+  "probe:frbank:ingrid:63373877": [
+   "lb_00005",
+   "lb_00007",
+   "lb_00018",
+   "lb_00019",
+   "lb_00024",
+   "lb_00026",
+   "lb_00127",
+   "lb_00133"
+  ],
+  "probe:frbank:ingrid:79520186": [
+   "lb_00005",
+   "lb_00007",
+   "lb_00018",
+   "lb_00019",
+   "lb_00024",
+   "lb_00026",
+   "lb_00127",
+   "lb_00133"
+  ],
+  "probe:frbank:jake:11659441": [],
+  "probe:frbank:jake:51065003": [],
+  "probe:frbank:jake:5905449": [],
+  "probe:frbank:jake:89005765": [],
+  "probe:frbank:jake:94874080": [],
+  "probe:frbank:jerome:14631081": [
+   "lb_00005",
+   "lb_00008",
+   "lb_00012",
+   "lb_00014"
+  ],
+  "probe:frbank:jerome:17309019": [
+   "lb_00005",
+   "lb_00008",
+   "lb_00012",
+   "lb_00014"
+  ],
+  "probe:frbank:jerome:63866738": [
+   "lb_00005",
+   "lb_00008",
+   "lb_00012",
+   "lb_00014"
+  ],
+  "probe:frbank:jerome:67788344": [
+   "lb_00005",
+   "lb_00008",
+   "lb_00012",
+   "lb_00014"
+  ],
+  "probe:frbank:jerome:96963085": [
+   "lb_00005",
+   "lb_00008",
+   "lb_00012",
+   "lb_00014"
+  ],
+  "probe:frbank:joonho:38353346": [
+   "lb_00001"
+  ],
+  "probe:frbank:joonho:50016097": [
+   "lb_00008"
+  ],
+  "probe:frbank:joonho:53707330": [
+   "lb_00008"
+  ],
+  "probe:frbank:joonho:6283392": [
+   "lb_00008"
+  ],
+  "probe:frbank:kenji:17309019": [
+   "lb_00088"
+  ],
+  "probe:frbank:kenji:72579794": [
+   "lb_00088"
+  ],
+  "probe:frbank:kenji:76606586": [
+   "lb_00088"
+  ],
+  "probe:frbank:kofi:38156792": [
+   "lb_00014"
+  ],
+  "probe:frbank:kofi:46824886": [
+   "lb_00014"
+  ],
+  "probe:frbank:kofi:87324398": [
+   "lb_00082"
+  ],
+  "probe:frbank:leila:17462441": [
+   "lb_00112"
+  ],
+  "probe:frbank:leila:53745614": [
+   "lb_00100"
+  ],
+  "probe:frbank:leila:83945397": [
+   "lb_00112"
+  ],
+  "probe:frbank:lily:2587190": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "probe:frbank:lily:36306625": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "probe:frbank:lily:39535719": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "probe:frbank:lily:59663591": [
+   "lb_00128",
+   "lb_00148",
+   "lb_00154",
+   "lb_00166",
+   "lb_00202",
+   "lb_00205",
+   "lb_00212"
+  ],
+  "probe:frbank:marcus:11659441": [],
+  "probe:frbank:marcus:45479498": [],
+  "probe:frbank:marcus:51065003": [],
+  "probe:frbank:marcus:58998349": [],
+  "probe:frbank:marcus:89005765": [],
+  "probe:frbank:marley:11659441": [
+   "lb_00077"
+  ],
+  "probe:frbank:marley:57624530": [
+   "lb_00073"
+  ],
+  "probe:frbank:marley:64737475": [
+   "lb_00073"
+  ],
+  "probe:frbank:marley:86260058": [
+   "lb_00073"
+  ],
+  "probe:frbank:mehmet:56208549": [
+   "lb_00081"
+  ],
+  "probe:frbank:mehmet:6283392": [
+   "lb_00081"
+  ],
+  "probe:frbank:mehmet:64737475": [
+   "lb_00081"
+  ],
+  "probe:frbank:mirri:17881048": [
+   "lb_00004",
+   "lb_00006"
+  ],
+  "probe:frbank:mirri:42702693": [
+   "lb_00004",
+   "lb_00006"
+  ],
+  "probe:frbank:mirri:73119623": [
+   "lb_00004",
+   "lb_00006"
+  ],
+  "probe:frbank:mirri:83945397": [
+   "lb_00004",
+   "lb_00006"
+  ],
+  "probe:frbank:nadia:407246": [
+   "lb_00088"
+  ],
+  "probe:frbank:nadia:44980553": [
+   "lb_00088"
+  ],
+  "probe:frbank:nadia:65534989": [
+   "lb_00084"
+  ],
+  "probe:frbank:nadia:69057771": [
+   "lb_00084"
+  ],
+  "probe:frbank:omar:11659441": [],
+  "probe:frbank:omar:2649492": [],
+  "probe:frbank:omar:49167599": [],
+  "probe:frbank:pan:11659441": [
+   "lb_00017"
+  ],
+  "probe:frbank:pan:62390807": [
+   "lb_00012",
+   "lb_00169",
+   "lb_00173",
+   "lb_00174",
+   "lb_00180",
+   "lb_00202"
+  ],
+  "probe:frbank:pan:72345311": [
+   "lb_00012",
+   "lb_00169",
+   "lb_00173",
+   "lb_00174",
+   "lb_00180",
+   "lb_00202"
+  ],
+  "probe:frbank:pan:74636740": [
+   "lb_00012",
+   "lb_00169",
+   "lb_00173",
+   "lb_00174",
+   "lb_00180",
+   "lb_00202"
+  ],
+  "probe:frbank:pan:83136086": [
+   "lb_00012",
+   "lb_00169",
+   "lb_00173",
+   "lb_00174",
+   "lb_00180",
+   "lb_00202"
+  ],
+  "probe:frbank:pan:96716348": [
+   "lb_00012",
+   "lb_00169",
+   "lb_00173",
+   "lb_00174",
+   "lb_00180",
+   "lb_00202"
+  ],
+  "probe:frbank:patrick:14522807": [
+   "lb_00092"
+  ],
+  "probe:frbank:patrick:32972175": [
+   "lb_00092"
+  ],
+  "probe:frbank:patrick:39571891": [
+   "lb_00092"
+  ],
+  "probe:frbank:patrick:52078828": [
+   "lb_00092"
+  ],
+  "probe:frbank:priya:24322740": [
+   "lb_00094"
+  ],
+  "probe:frbank:priya:2470720": [
+   "lb_00094"
+  ],
+  "probe:frbank:priya:52584083": [
+   "lb_00094"
+  ],
+  "probe:frbank:priya:69699110": [
+   "lb_00094"
+  ],
+  "probe:frbank:priya:97423439": [
+   "lb_00094"
+  ],
+  "probe:frbank:raj:22772083": [
+   "lb_00113",
+   "lb_00115",
+   "lb_00119"
+  ],
+  "probe:frbank:raj:51065003": [
+   "lb_00113",
+   "lb_00115",
+   "lb_00119"
+  ],
+  "probe:frbank:rosa:2587190": [
+   "lb_00105",
+   "lb_00107",
+   "lb_00123"
+  ],
+  "probe:frbank:rosa:31623610": [
+   "lb_00105",
+   "lb_00107",
+   "lb_00123"
+  ],
+  "probe:frbank:rosa:47001555": [
+   "lb_00105",
+   "lb_00107",
+   "lb_00123"
+  ],
+  "probe:frbank:rosa:84851768": [
+   "lb_00105",
+   "lb_00107",
+   "lb_00123"
+  ],
+  "probe:frbank:saga:14972789": [
+   "lb_00002"
+  ],
+  "probe:frbank:saga:17309019": [
+   "lb_00068",
+   "lb_00075",
+   "lb_00080",
+   "lb_00085"
+  ],
+  "probe:frbank:saga:44353198": [
+   "lb_00068",
+   "lb_00075",
+   "lb_00080",
+   "lb_00085"
+  ],
+  "probe:frbank:samuel:55903416": [
+   "lb_00093"
+  ],
+  "probe:frbank:samuel:6283392": [
+   "lb_00106"
+  ],
+  "probe:frbank:samuel:82070044": [
+   "lb_00093"
+  ],
+  "probe:frbank:thanh:21169214": [],
+  "probe:frbank:thanh:51065003": [],
+  "probe:frbank:thanh:59460199": [],
+  "probe:frbank:tom:13744835": [
+   "lb_00085"
+  ],
+  "probe:frbank:tom:55024768": [
+   "lb_00085"
+  ],
+  "probe:frbank:tom:66011798": [
+   "lb_00284"
+  ],
+  "probe:frbank:valentina:11659441": [
+   "lb_00087",
+   "lb_00101"
+  ],
+  "probe:frbank:valentina:39799067": [
+   "lb_00087",
+   "lb_00101"
+  ],
+  "probe:frbank:yoli:17741734": [
+   "lb_00150"
+  ],
+  "probe:frbank:yoli:23056170": [
+   "lb_00150"
+  ],
+  "probe:frbank:yoli:25566548": [
+   "lb_00080"
+  ],
+  "probe:frbank:yoli:41440540": [
+   "lb_00150"
+  ],
+  "probe:frbank:yoli:82993208": [
+   "lb_00150"
+  ],
+  "probe:frbank:zara:2707808": [
+   "lb_00079",
+   "lb_00085",
+   "lb_00090"
+  ],
+  "probe:frbank:zara:44980553": [
+   "lb_00079",
+   "lb_00085",
+   "lb_00090"
+  ],
+  "probe:frbank:zara:69057771": [
+   "lb_00079",
+   "lb_00085",
+   "lb_00090"
+  ],
+  "probe:frbank:zara:83180341": [
+   "lb_00079",
+   "lb_00085",
+   "lb_00090"
+  ],
+  "probe:frbank:zara:83811390": [
+   "lb_00079",
+   "lb_00085",
+   "lb_00090"
+  ]
+ },
+ "matched": {
+  "AF": {
+   "achieved_mean": 5.4341906202723145,
+   "k_hi": 4,
+   "k_lo": 3,
+   "licensed_in_view": {
+    "hi": 0.3448275862068966,
+    "lo": 0.25287356321839083,
+    "minus_model": {
+     "D": -0.0374663357448381,
+     "item": {
+      "ci_hi": -0.015859604654028248,
+      "ci_lo": -0.06565629895618807,
+      "excludes_zero": true,
+      "mean": -0.037535811726602246,
+      "n_draws": 1000
+     },
+     "persona": {
+      "ci_hi": -0.01416946846442297,
+      "ci_lo": -0.06667674606213082,
+      "excludes_zero": true,
+      "mean": -0.037375775299737686,
+      "n_draws": 1000
+     }
+    },
+    "rate": 0.3360968826459665
+   },
+   "means": {
+    "0": 1.583963691376702,
+    "1": 2.571860816944024,
+    "2": 3.552193645990923,
+    "3": 4.540090771558245,
+    "4": 5.527987897125567,
+    "5": 6.51285930408472
+   },
+   "pop": "661",
+   "reach": {
+    "hi": 0.8173076923076923,
+    "lo": 0.8076923076923077,
+    "minus_model": {
+     "D": -0.000912946165626094,
+     "item": {
+      "ci_hi": 0.0663947461420662,
+      "ci_lo": -0.07004653080457057,
+      "excludes_zero": false,
+      "mean": -0.0026854605960654936,
+      "n_draws": 1000
+     },
+     "persona": {
+      "ci_hi": 0.08899577706622115,
+      "ci_lo": -0.0893007624398074,
+      "excludes_zero": false,
+      "mean": -0.0007209979058658437,
+      "n_draws": 1000
+     }
+    },
+    "rate": 0.8163947461420662
+   },
+   "target": 5.4341906202723145,
+   "weight_hi": 0.9050535987748851
+  },
+  "RECENCY": {
+   "achieved_mean": 5.4341906202723145,
+   "k_hi": 6,
+   "k_lo": 5,
+   "licensed_in_view": {
+    "hi": 0.3045977011494253,
+    "lo": 0.28160919540229884,
+    "minus_model": {
+     "D": -0.08197262941902722,
+     "item": {
+      "ci_hi": -0.02699106195767473,
+      "ci_lo": -0.13944389378684333,
+      "excludes_zero": true,
+      "mean": -0.08247413358373765,
+      "n_draws": 1000
+     },
+     "persona": {
+      "ci_hi": -0.015571741828010046,
+      "ci_lo": -0.15191706189729262,
+      "excludes_zero": true,
+      "mean": -0.08240262489590101,
+      "n_draws": 1000
+     }
+    },
+    "rate": 0.29159058897177736
+   },
+   "means": {
+    "5": 5.0,
+    "6": 6.0,
+    "7": 7.0,
+    "8": 8.0,
+    "9": 9.0,
+    "10": 10.0
+   },
+   "pop": "661",
+   "reach": {
+    "hi": 0.25,
+    "lo": 0.22115384615384615,
+    "minus_model": {
+     "D": -0.583629116722914,
+     "item": {
+      "ci_hi": -0.4749189020132667,
+      "ci_lo": -0.6936048964273246,
+      "excludes_zero": true,
+      "mean": -0.5853220499243571,
+      "n_draws": 1000
+     },
+     "persona": {
+      "ci_hi": -0.43704568442524255,
+      "ci_lo": -0.7300035038392373,
+      "excludes_zero": true,
+      "mean": -0.5863145741566771,
+      "n_draws": 1000
+     }
+    },
+    "rate": 0.2336785755847783
+   },
+   "target": 5.4341906202723145,
+   "weight_hi": 0.4341906202723145
+  },
+  "TAGGED": {
+   "achieved_mean": 5.4341906202723145,
+   "k_hi": 6,
+   "k_lo": 5,
+   "licensed_in_view": {
+    "hi": 0.41379310344827586,
+    "lo": 0.3735632183908046,
+    "minus_model": {
+     "D": 0.01746743874658735,
+     "item": {
+      "ci_hi": 0.029944180708435464,
+      "ci_lo": 0.007486045177108824,
+      "excludes_zero": true,
+      "mean": 0.01745745735301789,
+      "n_draws": 1000
+     },
+     "persona": {
+      "ci_hi": 0.0312108361756064,
+      "ci_lo": 0.005461517236129752,
+      "excludes_zero": true,
+      "mean": 0.017611893115135332,
+      "n_draws": 1000
+     }
+    },
+    "rate": 0.39103065713739193
+   },
+   "means": {
+    "5": 5.0,
+    "6": 6.0,
+    "7": 7.0,
+    "8": 8.0,
+    "9": 9.0,
+    "10": 10.0
+   },
+   "pop": "661",
+   "reach": {
+    "hi": 0.5769230769230769,
+    "lo": 0.5192307692307693,
+    "minus_model": {
+     "D": -0.27302746421505875,
+     "item": {
+      "ci_hi": -0.1864890026765973,
+      "ci_lo": -0.36210651111369724,
+      "excludes_zero": true,
+      "mean": -0.275757855231002,
+      "n_draws": 1000
+     },
+     "persona": {
+      "ci_hi": -0.1377890011284724,
+      "ci_lo": -0.39757577009623823,
+      "excludes_zero": true,
+      "mean": -0.26876585188483354,
+      "n_draws": 1000
+     }
+    },
+    "rate": 0.5442802280926335
+   },
+   "target": 5.4341906202723145,
+   "weight_hi": 0.4341906202723145
+  }
+ },
+ "matched_104": {
+  "AF": {
+   "means": {
+    "0": 1.7211538461538463,
+    "1": 2.6538461538461537,
+    "2": 3.5673076923076925,
+    "3": 4.509615384615385,
+    "4": 5.451923076923077,
+    "5": 6.394230769230769
+   },
+   "note": "target outside the family's range; no matched row",
+   "pop": "104",
+   "target": 7.076923076923077
+  },
+  "RECENCY": {
+   "achieved_mean": 7.076923076923077,
+   "k_hi": 8,
+   "k_lo": 7,
+   "licensed_in_view": {
+    "hi": 0.3333333333333333,
+    "lo": 0.3160919540229885,
+    "minus_model": {
+     "D": -0.05614500442086651,
+     "item": {
+      "ci_hi": 0.006189213085764757,
+      "ci_lo": -0.11720822281167109,
+      "excludes_zero": false,
+      "mean": -0.0569000884173298,
+      "n_draws": 1000
+     },
+     "persona": {
+      "ci_hi": 0.013085499406254125,
+      "ci_lo": -0.1340276456591942,
+      "excludes_zero": false,
+      "mean": -0.05660633048777434,
+      "n_draws": 1000
+     }
+    },
+    "rate": 0.3174182139699381
+   },
+   "means": {
+    "5": 5.0,
+    "6": 6.0,
+    "7": 7.0,
+    "8": 8.0,
+    "9": 9.0,
+    "10": 10.0
+   },
+   "pop": "104",
+   "reach": {
+    "hi": 0.3076923076923077,
+    "lo": 0.2692307692307692,
+    "minus_model": {
+     "D": -0.5451183431952663,
+     "item": {
+      "ci_hi": -0.4408284023668639,
+      "ci_lo": -0.6597633136094675,
+      "excludes_zero": true,
+      "mean": -0.5465347633136095,
+      "n_draws": 1000
+     },
+     "persona": {
+      "ci_hi": -0.3867666692845363,
+      "ci_lo": -0.6966695254431103,
+      "excludes_zero": true,
+      "mean": -0.5478879646660229,
+      "n_draws": 1000
+     }
+    },
+    "rate": 0.272189349112426
+   },
+   "target": 7.076923076923077,
+   "weight_hi": 0.07692307692307665
+  },
+  "TAGGED": {
+   "achieved_mean": 7.076923076923077,
+   "k_hi": 8,
+   "k_lo": 7,
+   "licensed_in_view": {
+    "hi": 0.47126436781609193,
+    "lo": 0.4425287356321839,
+    "minus_model": {
+     "D": 0.07117595048629533,
+     "item": {
+      "ci_hi": 0.11140583554376654,
+      "ci_lo": 0.035809018567639295,
+      "excludes_zero": true,
+      "mean": 0.07110698496905393,
+      "n_draws": 1000
+     },
+     "persona": {
+      "ci_hi": 0.10733545766249258,
+      "ci_lo": 0.03821480303447752,
+      "excludes_zero": true,
+      "mean": 0.07102365990370334,
+      "n_draws": 1000
+     }
+    },
+    "rate": 0.4447391688770999
+   },
+   "means": {
+    "5": 5.0,
+    "6": 6.0,
+    "7": 7.0,
+    "8": 8.0,
+    "9": 9.0,
+    "10": 10.0
+   },
+   "pop": "104",
+   "reach": {
+    "hi": 0.6634615384615384,
+    "lo": 0.5961538461538461,
+    "minus_model": {
+     "D": -0.21597633136094674,
+     "item": {
+      "ci_hi": -0.12941937869822484,
+      "ci_lo": -0.30399408284023666,
+      "excludes_zero": true,
+      "mean": -0.2175347633136095,
+      "n_draws": 1000
+     },
+     "persona": {
+      "ci_hi": -0.07845868670336772,
+      "ci_lo": -0.34751205644201,
+      "excludes_zero": true,
+      "mean": -0.21247859715990722,
+      "n_draws": 1000
+     }
+    },
+    "rate": 0.6013313609467456
+   },
+   "target": 7.076923076923077,
+   "weight_hi": 0.07692307692307665
+  }
+ },
+ "meta": {
+  "locks": {
+   "lookup_gate": {
+    "nb5_307": 0.6185924369747899,
+    "nb6_661": 0.7484204529761083,
+    "pass": true
+   },
+   "ranking_top10_reproduced": 661,
+   "tagged5_equals_always": 661
+  },
+  "model_gold_in_view": 65,
+  "model_reach": 85,
+  "n_boot": 1000,
+  "recorded_reach_by_depth": {
+   "5": 54,
+   "6": 60,
+   "7": 62,
+   "8": 69,
+   "9": 70,
+   "10": 74
+  },
+  "registration": "ADDENDUM_R122_GATE_REACH.md",
+  "registration_sha256": "1176a8af2158fc7fa1c0517d7003b55e0542bae440411ea1a6291e383e710b4e",
+  "seconds": 15.4,
+  "seed": 42,
+  "target_mean_104": 7.076923076923077,
+  "target_mean_661": 5.4341906202723145,
+  "when": "2026-09-19T16:00:41"
+ },
+ "predictions": {
+  "P-G1": {
+   "D": -0.000912946165626094,
+   "af_matched_reach": 0.8163947461420662,
+   "item": {
+    "ci_hi": 0.0663947461420662,
+    "ci_lo": -0.07004653080457057,
+    "excludes_zero": false,
+    "mean": -0.0026854605960654936,
+    "n_draws": 1000
+   },
+   "model": 0.8173076923076923,
+   "persona": {
+    "ci_hi": 0.08899577706622115,
+    "ci_lo": -0.0893007624398074,
+    "excludes_zero": false,
+    "mean": -0.0007209979058658437,
+    "n_draws": 1000
+   },
+   "unmatched_af5_reach": 0.8269230769230769,
+   "verdict": "HOLDS"
+  },
+  "P-G2": {
+   "af5_mean_661": 6.51285930408472,
+   "model_mean_661": 5.4341906202723145,
+   "ratio": 1.1984966592427617,
+   "verdict": "HOLDS"
+  },
+  "P-G3": {
+   "D": -0.583629116722914,
+   "item": {
+    "ci_hi": -0.4749189020132667,
+    "ci_lo": -0.6936048964273246,
+    "excludes_zero": true,
+    "mean": -0.5853220499243571,
+    "n_draws": 1000
+   },
+   "model": 0.8173076923076923,
+   "persona": {
+    "ci_hi": -0.43704568442524255,
+    "ci_lo": -0.7300035038392373,
+    "excludes_zero": true,
+    "mean": -0.5863145741566771,
+    "n_draws": 1000
+   },
+   "recency_matched_reach": 0.2336785755847783,
+   "unmatched_recency7_reach": 0.2692307692307692,
+   "verdict": "HOLDS"
+  }
+ },
+ "rows": {
+  "AF": {
+   "0": {
+    "licensed_in_view": {
+     "in_view": 1,
+     "minus_model": {
+      "D": -0.367816091954023,
+      "item": {
+       "ci_hi": -0.2988505747126437,
+       "ci_lo": -0.4425287356321839,
+       "excludes_zero": true,
+       "mean": -0.36880459770114943,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.2874251497005988,
+       "ci_lo": -0.4595967438358743,
+       "excludes_zero": true,
+       "mean": -0.36811249907936444,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.005747126436781609,
+     "wilson": [
+      0.001015230346197115,
+      0.0318312100622512
+     ]
+    },
+    "lines": {
+     "max_661": 8,
+     "mean_104": 1.7211538461538463,
+     "mean_661": 1.583963691376702,
+     "ratio_to_model": 0.29148106904231624
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.27884615384615385,
+      "item": {
+       "ci_hi": -0.16346153846153855,
+       "ci_lo": -0.39423076923076916,
+       "excludes_zero": true,
+       "mean": -0.2775961538461538,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.11991262135922337,
+       "ci_lo": -0.44666138299980185,
+       "excludes_zero": true,
+       "mean": -0.2814019906615458,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 0
+      },
+      "ret": {
+       "n": 26,
+       "reached": 2
+      },
+      "sup": {
+       "n": 63,
+       "reached": 54
+      }
+     },
+     "rate": 0.5384615384615384,
+     "reached": 56,
+     "wilson": [
+      0.44299301952143044,
+      0.6311899531774627
+     ]
+    }
+   },
+   "1": {
+    "licensed_in_view": {
+     "in_view": 21,
+     "minus_model": {
+      "D": -0.2528735632183908,
+      "item": {
+       "ci_hi": -0.1896551724137931,
+       "ci_lo": -0.3160919540229885,
+       "excludes_zero": true,
+       "mean": -0.2536551724137931,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.17159340659340658,
+       "ci_lo": -0.3437628073770492,
+       "excludes_zero": true,
+       "mean": -0.25308054629048826,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.1206896551724138,
+     "wilson": [
+      0.08030875900684864,
+      0.17745711386475121
+     ]
+    },
+    "lines": {
+     "max_661": 9,
+     "mean_104": 2.6538461538461537,
+     "mean_661": 2.571860816944024,
+     "ratio_to_model": 0.4732739420935412
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.15384615384615385,
+      "item": {
+       "ci_hi": -0.0576923076923076,
+       "ci_lo": -0.2596153846153846,
+       "excludes_zero": true,
+       "mean": -0.15518269230769233,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.0299852941176471,
+       "ci_lo": -0.28814869823519135,
+       "excludes_zero": true,
+       "mean": -0.15464425206419968,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 7
+      },
+      "ret": {
+       "n": 26,
+       "reached": 8
+      },
+      "sup": {
+       "n": 63,
+       "reached": 54
+      }
+     },
+     "rate": 0.6634615384615384,
+     "reached": 69,
+     "wilson": [
+      0.5682662719647407,
+      0.7470113620055556
+     ]
+    }
+   },
+   "2": {
+    "licensed_in_view": {
+     "in_view": 35,
+     "minus_model": {
+      "D": -0.17241379310344826,
+      "item": {
+       "ci_hi": -0.12054597701149435,
+       "ci_lo": -0.22988505747126434,
+       "excludes_zero": true,
+       "mean": -0.17251149425287354,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.10285714285714287,
+       "ci_lo": -0.24457853793691392,
+       "excludes_zero": true,
+       "mean": -0.1724431859537487,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.20114942528735633,
+     "wilson": [
+      0.14833742469696246,
+      0.2668720508988435
+     ]
+    },
+    "lines": {
+     "max_661": 10,
+     "mean_104": 3.5673076923076925,
+     "mean_661": 3.552193645990923,
+     "ratio_to_model": 0.6536748329621381
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.08653846153846156,
+      "item": {
+       "ci_hi": 0.0,
+       "ci_lo": -0.17307692307692313,
+       "excludes_zero": false,
+       "mean": -0.08813461538461538,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.020000000000000018,
+       "ci_lo": -0.2015574994666098,
+       "excludes_zero": false,
+       "mean": -0.08791285719359812,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 11
+      },
+      "ret": {
+       "n": 26,
+       "reached": 11
+      },
+      "sup": {
+       "n": 63,
+       "reached": 54
+      }
+     },
+     "rate": 0.7307692307692307,
+     "reached": 76,
+     "wilson": [
+      0.6384304478484382,
+      0.8066673883449211
+     ]
+    }
+   },
+   "3": {
+    "licensed_in_view": {
+     "in_view": 44,
+     "minus_model": {
+      "D": -0.12068965517241376,
+      "item": {
+       "ci_hi": -0.07471264367816094,
+       "ci_lo": -0.1724137931034483,
+       "excludes_zero": true,
+       "mean": -0.1208735632183908,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.06777852418354695,
+       "ci_lo": -0.17902073268921093,
+       "excludes_zero": true,
+       "mean": -0.12127902691143183,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.25287356321839083,
+     "wilson": [
+      0.19410670049989617,
+      0.32231651970432806
+     ]
+    },
+    "lines": {
+     "max_661": 11,
+     "mean_104": 4.509615384615385,
+     "mean_661": 4.540090771558245,
+     "ratio_to_model": 0.8354677060133631
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.009615384615384581,
+      "item": {
+       "ci_hi": 0.05769230769230771,
+       "ci_lo": -0.07716346153846158,
+       "excludes_zero": false,
+       "mean": -0.011144230769230769,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.07001767676767681,
+       "ci_lo": -0.09485051357300064,
+       "excludes_zero": false,
+       "mean": -0.009769781112311264,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 12
+      },
+      "ret": {
+       "n": 26,
+       "reached": 18
+      },
+      "sup": {
+       "n": 63,
+       "reached": 54
+      }
+     },
+     "rate": 0.8076923076923077,
+     "reached": 84,
+     "wilson": [
+      0.7215452330767922,
+      0.8719185485143539
+     ]
+    }
+   },
+   "4": {
+    "licensed_in_view": {
+     "in_view": 60,
+     "minus_model": {
+      "D": -0.02873563218390801,
+      "item": {
+       "ci_hi": -0.005747126436781602,
+       "ci_lo": -0.05747126436781608,
+       "excludes_zero": true,
+       "mean": -0.028793103448275858,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.005714285714285727,
+       "ci_lo": -0.057809994406116005,
+       "excludes_zero": true,
+       "mean": -0.028573742135735932,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.3448275862068966,
+     "wilson": [
+      0.27824194442850436,
+      0.4181168217462411
+     ]
+    },
+    "lines": {
+     "max_661": 12,
+     "mean_104": 5.451923076923077,
+     "mean_661": 5.527987897125567,
+     "ratio_to_model": 1.0172605790645879
+    },
+    "reach": {
+     "minus_model": {
+      "D": 0.0,
+      "item": {
+       "ci_hi": 0.06730769230769229,
+       "ci_lo": -0.0673076923076924,
+       "excludes_zero": false,
+       "mean": -0.0017980769230769226,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.09090909090909094,
+       "ci_lo": -0.0893007624398074,
+       "excludes_zero": false,
+       "mean": 0.00022828222746684336,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 12
+      },
+      "ret": {
+       "n": 26,
+       "reached": 19
+      },
+      "sup": {
+       "n": 63,
+       "reached": 54
+      }
+     },
+     "rate": 0.8173076923076923,
+     "reached": 85,
+     "wilson": [
+      0.7322037573576606,
+      0.8798057674082086
+     ]
+    }
+   },
+   "5": {
+    "licensed_in_view": {
+     "in_view": 65,
+     "minus_model": {
+      "D": 0.0,
+      "item": {
+       "ci_hi": 0.0,
+       "ci_lo": 0.0,
+       "excludes_zero": false,
+       "mean": 0.0,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.0,
+       "ci_lo": 0.0,
+       "excludes_zero": false,
+       "mean": 0.0,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.3735632183908046,
+     "wilson": [
+      0.30514471365847834,
+      0.44744391063205496
+     ]
+    },
+    "lines": {
+     "max_661": 13,
+     "mean_104": 6.394230769230769,
+     "mean_661": 6.51285930408472,
+     "ratio_to_model": 1.1984966592427617
+    },
+    "reach": {
+     "minus_model": {
+      "D": 0.009615384615384581,
+      "item": {
+       "ci_hi": 0.0673076923076924,
+       "ci_lo": -0.05769230769230771,
+       "excludes_zero": false,
+       "mean": 0.007932692307692306,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.09804359243697477,
+       "ci_lo": -0.08043154761904767,
+       "excludes_zero": false,
+       "mean": 0.009782863984964564,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 12
+      },
+      "ret": {
+       "n": 26,
+       "reached": 20
+      },
+      "sup": {
+       "n": 63,
+       "reached": 54
+      }
+     },
+     "rate": 0.8269230769230769,
+     "reached": 86,
+     "wilson": [
+      0.7429326892408391,
+      0.8876225786997535
+     ]
+    }
+   }
+  },
+  "RECENCY": {
+   "5": {
+    "licensed_in_view": {
+     "in_view": 49,
+     "minus_model": {
+      "D": -0.09195402298850575,
+      "item": {
+       "ci_hi": -0.040086206896551804,
+       "ci_lo": -0.14942528735632182,
+       "excludes_zero": true,
+       "mean": -0.09227586206896551,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.025934431422236344,
+       "ci_lo": -0.1585437589670014,
+       "excludes_zero": true,
+       "mean": -0.09243313597856828,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.28160919540229884,
+     "wilson": [
+      0.22005327132416247,
+      0.35259980699584953
+     ]
+    },
+    "lines": {
+     "max_661": 5,
+     "mean_104": 5.0,
+     "mean_661": 5.0,
+     "ratio_to_model": 0.9201002227171493
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.5961538461538461,
+      "item": {
+       "ci_hi": -0.4903846153846154,
+       "ci_lo": -0.701923076923077,
+       "excludes_zero": true,
+       "mean": -0.5976923076923076,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.4495096488453021,
+       "ci_lo": -0.7373917748917749,
+       "excludes_zero": true,
+       "mean": -0.5989639204381396,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 11
+      },
+      "ret": {
+       "n": 26,
+       "reached": 0
+      },
+      "sup": {
+       "n": 63,
+       "reached": 12
+      }
+     },
+     "rate": 0.22115384615384615,
+     "reached": 23,
+     "wilson": [
+      0.15212941894947996,
+      0.310044028983544
+     ]
+    }
+   },
+   "6": {
+    "licensed_in_view": {
+     "in_view": 53,
+     "minus_model": {
+      "D": -0.06896551724137928,
+      "item": {
+       "ci_hi": -0.011494252873563204,
+       "ci_lo": -0.13218390804597696,
+       "excludes_zero": true,
+       "mean": -0.06970114942528735,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.004764808362369319,
+       "ci_lo": -0.14467697635538573,
+       "excludes_zero": false,
+       "mean": -0.06933150592406281,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.3045977011494253,
+     "wilson": [
+      0.241045465429073,
+      0.3765914993835694
+     ]
+    },
+    "lines": {
+     "max_661": 6,
+     "mean_104": 6.0,
+     "mean_661": 6.0,
+     "ratio_to_model": 1.1041202672605792
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.5673076923076923,
+      "item": {
+       "ci_hi": -0.4612980769230771,
+       "ci_lo": -0.6826923076923077,
+       "excludes_zero": true,
+       "mean": -0.5692019230769231,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.41900832177531216,
+       "ci_lo": -0.7129960317460318,
+       "excludes_zero": true,
+       "mean": -0.5698307570512171,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 11
+      },
+      "ret": {
+       "n": 26,
+       "reached": 0
+      },
+      "sup": {
+       "n": 63,
+       "reached": 15
+      }
+     },
+     "rate": 0.25,
+     "reached": 26,
+     "wilson": [
+      0.17669640305662299,
+      0.3411142744005709
+     ]
+    }
+   },
+   "7": {
+    "licensed_in_view": {
+     "in_view": 55,
+     "minus_model": {
+      "D": -0.05747126436781608,
+      "item": {
+       "ci_hi": 0.005747126436781602,
+       "ci_lo": -0.12068965517241381,
+       "excludes_zero": false,
+       "mean": -0.05824137931034483,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.012132647226986861,
+       "ci_lo": -0.13499745888844522,
+       "excludes_zero": false,
+       "mean": -0.057920244426630345,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.3160919540229885,
+     "wilson": [
+      0.2516150330035346,
+      0.3885138750554229
+     ]
+    },
+    "lines": {
+     "max_661": 7,
+     "mean_104": 7.0,
+     "mean_661": 7.0,
+     "ratio_to_model": 1.288140311804009
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.5480769230769231,
+      "item": {
+       "ci_hi": -0.4423076923076923,
+       "ci_lo": -0.6634615384615384,
+       "excludes_zero": true,
+       "mean": -0.5495192307692307,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.3923741459200504,
+       "ci_lo": -0.6969982847341338,
+       "excludes_zero": true,
+       "mean": -0.5508141491687366,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 11
+      },
+      "ret": {
+       "n": 26,
+       "reached": 0
+      },
+      "sup": {
+       "n": 63,
+       "reached": 17
+      }
+     },
+     "rate": 0.2692307692307692,
+     "reached": 28,
+     "wilson": [
+      0.19333261165507876,
+      0.3615695521515617
+     ]
+    }
+   },
+   "8": {
+    "licensed_in_view": {
+     "in_view": 58,
+     "minus_model": {
+      "D": -0.04022988505747127,
+      "item": {
+       "ci_hi": 0.022988505747126464,
+       "ci_lo": -0.10344827586206895,
+       "excludes_zero": false,
+       "mean": -0.04080459770114943,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.03279268481286734,
+       "ci_lo": -0.11834319526627218,
+       "excludes_zero": false,
+       "mean": -0.040839363221502195,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.3333333333333333,
+     "wilson": [
+      0.26755715661388824,
+      0.406309666314542
+     ]
+    },
+    "lines": {
+     "max_661": 8,
+     "mean_104": 8.0,
+     "mean_661": 8.0,
+     "ratio_to_model": 1.4721603563474388
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.5096153846153846,
+      "item": {
+       "ci_hi": -0.40384615384615385,
+       "ci_lo": -0.615625,
+       "excludes_zero": true,
+       "mean": -0.5107211538461539,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.3302752293577982,
+       "ci_lo": -0.6732673267326732,
+       "excludes_zero": true,
+       "mean": -0.5127737506334573,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 11
+      },
+      "ret": {
+       "n": 26,
+       "reached": 0
+      },
+      "sup": {
+       "n": 63,
+       "reached": 21
+      }
+     },
+     "rate": 0.3076923076923077,
+     "reached": 32,
+     "wilson": [
+      0.22716461337709576,
+      0.401920523128438
+     ]
+    }
+   },
+   "9": {
+    "licensed_in_view": {
+     "in_view": 61,
+     "minus_model": {
+      "D": -0.02298850574712641,
+      "item": {
+       "ci_hi": 0.04022988505747127,
+       "ci_lo": -0.08620689655172414,
+       "excludes_zero": false,
+       "mean": -0.023103448275862068,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.05366115919223713,
+       "ci_lo": -0.10207600281491908,
+       "excludes_zero": false,
+       "mean": -0.023417265058782413,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.3505747126436782,
+     "wilson": [
+      0.28360093374415396,
+      0.42400380405374904
+     ]
+    },
+    "lines": {
+     "max_661": 9,
+     "mean_104": 9.0,
+     "mean_661": 9.0,
+     "ratio_to_model": 1.6561804008908687
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.5,
+      "item": {
+       "ci_hi": -0.3942307692307692,
+       "ci_lo": -0.6057692307692307,
+       "excludes_zero": true,
+       "mean": -0.5007884615384616,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.32142038007863694,
+       "ci_lo": -0.6667525773195877,
+       "excludes_zero": true,
+       "mean": -0.5031769418743764,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 11
+      },
+      "ret": {
+       "n": 26,
+       "reached": 0
+      },
+      "sup": {
+       "n": 63,
+       "reached": 22
+      }
+     },
+     "rate": 0.3173076923076923,
+     "reached": 33,
+     "wilson": [
+      0.23573153613483638,
+      0.4118993435454206
+     ]
+    }
+   },
+   "10": {
+    "licensed_in_view": {
+     "in_view": 62,
+     "minus_model": {
+      "D": -0.017241379310344807,
+      "item": {
+       "ci_hi": 0.04597701149425287,
+       "ci_lo": -0.08620689655172414,
+       "excludes_zero": false,
+       "mean": -0.01729310344827586,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.0615895953757225,
+       "ci_lo": -0.09581701980654077,
+       "excludes_zero": false,
+       "mean": -0.017626533063927353,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.3563218390804598,
+     "wilson": [
+      0.288970819104402,
+      0.4298798903166586
+     ]
+    },
+    "lines": {
+     "max_661": 10,
+     "mean_104": 10.0,
+     "mean_661": 10.0,
+     "ratio_to_model": 1.8402004454342986
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.49038461538461536,
+      "item": {
+       "ci_hi": -0.3846153846153846,
+       "ci_lo": -0.5961538461538461,
+       "excludes_zero": true,
+       "mean": -0.4913461538461538,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.3119266055045872,
+       "ci_lo": -0.6595744680851063,
+       "excludes_zero": true,
+       "mean": -0.4935801331152954,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 11
+      },
+      "ret": {
+       "n": 26,
+       "reached": 0
+      },
+      "sup": {
+       "n": 63,
+       "reached": 23
+      }
+     },
+     "rate": 0.3269230769230769,
+     "reached": 34,
+     "wilson": [
+      0.24433985213370962,
+      0.42183677072127074
+     ]
+    }
+   }
+  },
+  "TAGGED": {
+   "5": {
+    "licensed_in_view": {
+     "in_view": 65,
+     "minus_model": {
+      "D": 0.0,
+      "item": {
+       "ci_hi": 0.0,
+       "ci_lo": 0.0,
+       "excludes_zero": false,
+       "mean": 0.0,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.0,
+       "ci_lo": 0.0,
+       "excludes_zero": false,
+       "mean": 0.0,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.3735632183908046,
+     "wilson": [
+      0.30514471365847834,
+      0.44744391063205496
+     ]
+    },
+    "lines": {
+     "max_661": 5,
+     "mean_104": 5.0,
+     "mean_661": 5.0,
+     "ratio_to_model": 0.9201002227171493
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.298076923076923,
+      "item": {
+       "ci_hi": -0.21153846153846156,
+       "ci_lo": -0.39423076923076916,
+       "excludes_zero": true,
+       "mean": -0.30083653846153846,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.16654040404040424,
+       "ci_lo": -0.4227951219512195,
+       "excludes_zero": true,
+       "mean": -0.2935799866380512,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 12
+      },
+      "ret": {
+       "n": 26,
+       "reached": 20
+      },
+      "sup": {
+       "n": 63,
+       "reached": 22
+      }
+     },
+     "rate": 0.5192307692307693,
+     "reached": 54,
+     "wilson": [
+      0.42424497747638173,
+      0.612846508873065
+     ]
+    }
+   },
+   "6": {
+    "licensed_in_view": {
+     "in_view": 72,
+     "minus_model": {
+      "D": 0.04022988505747127,
+      "item": {
+       "ci_hi": 0.06896551724137928,
+       "ci_lo": 0.017241379310344807,
+       "excludes_zero": true,
+       "mean": 0.04020689655172414,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.07188279690618761,
+       "ci_lo": 0.012578616352201255,
+       "excludes_zero": true,
+       "mean": 0.040562583097924945,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.41379310344827586,
+     "wilson": [
+      0.34324624945065874,
+      0.4880641762019776
+     ]
+    },
+    "lines": {
+     "max_661": 6,
+     "mean_104": 6.0,
+     "mean_661": 6.0,
+     "ratio_to_model": 1.1041202672605792
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.24038461538461542,
+      "item": {
+       "ci_hi": -0.15384615384615385,
+       "ci_lo": -0.33653846153846156,
+       "excludes_zero": true,
+       "mean": -0.2430769230769231,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.0967586848635235,
+       "ci_lo": -0.37037037037037035,
+       "excludes_zero": true,
+       "mean": -0.23642966234579715,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 12
+      },
+      "ret": {
+       "n": 26,
+       "reached": 23
+      },
+      "sup": {
+       "n": 63,
+       "reached": 25
+      }
+     },
+     "rate": 0.5769230769230769,
+     "reached": 60,
+     "wilson": [
+      0.480898088329869,
+      0.6674678570679173
+     ]
+    }
+   },
+   "7": {
+    "licensed_in_view": {
+     "in_view": 77,
+     "minus_model": {
+      "D": 0.06896551724137934,
+      "item": {
+       "ci_hi": 0.10919540229885061,
+       "ci_lo": 0.03448275862068967,
+       "excludes_zero": true,
+       "mean": 0.06883908045977012,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.1036712398373984,
+       "ci_lo": 0.03626013019795405,
+       "excludes_zero": true,
+       "mean": 0.06884533703334687,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.4425287356321839,
+     "wilson": [
+      0.370761148610047,
+      0.5167791351583773
+     ]
+    },
+    "lines": {
+     "max_661": 7,
+     "mean_104": 7.0,
+     "mean_661": 7.0,
+     "ratio_to_model": 1.288140311804009
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.22115384615384615,
+      "item": {
+       "ci_hi": -0.13461538461538458,
+       "ci_lo": -0.30769230769230776,
+       "excludes_zero": true,
+       "mean": -0.22276923076923077,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.08499892542445744,
+       "ci_lo": -0.35297181372549025,
+       "excludes_zero": true,
+       "mean": -0.21752677436001217,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 12
+      },
+      "ret": {
+       "n": 26,
+       "reached": 23
+      },
+      "sup": {
+       "n": 63,
+       "reached": 27
+      }
+     },
+     "rate": 0.5961538461538461,
+     "reached": 62,
+     "wilson": [
+      0.5000587056437077,
+      0.6853987261035254
+     ]
+    }
+   },
+   "8": {
+    "licensed_in_view": {
+     "in_view": 82,
+     "minus_model": {
+      "D": 0.09770114942528735,
+      "item": {
+       "ci_hi": 0.14367816091954022,
+       "ci_lo": 0.051724137931034475,
+       "excludes_zero": true,
+       "mean": 0.09832183908045977,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.13772455089820357,
+       "ci_lo": 0.05882352941176472,
+       "excludes_zero": true,
+       "mean": 0.09716353434798095,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.47126436781609193,
+     "wilson": [
+      0.3985184152191634,
+      0.5452517266650486
+     ]
+    },
+    "lines": {
+     "max_661": 8,
+     "mean_104": 8.0,
+     "mean_661": 8.0,
+     "ratio_to_model": 1.4721603563474388
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.15384615384615385,
+      "item": {
+       "ci_hi": -0.05769230769230771,
+       "ci_lo": -0.25,
+       "excludes_zero": true,
+       "mean": -0.15472115384615387,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.02061329686513774,
+       "ci_lo": -0.2935914732865623,
+       "excludes_zero": true,
+       "mean": -0.1519004707586481,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 12
+      },
+      "ret": {
+       "n": 26,
+       "reached": 25
+      },
+      "sup": {
+       "n": 63,
+       "reached": 32
+      }
+     },
+     "rate": 0.6634615384615384,
+     "reached": 69,
+     "wilson": [
+      0.5682662719647407,
+      0.7470113620055556
+     ]
+    }
+   },
+   "9": {
+    "licensed_in_view": {
+     "in_view": 88,
+     "minus_model": {
+      "D": 0.13218390804597707,
+      "item": {
+       "ci_hi": 0.1896551724137931,
+       "ci_lo": 0.08045977011494254,
+       "excludes_zero": true,
+       "mean": 0.13216091954022988,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.1793513099219621,
+       "ci_lo": 0.08375872600349038,
+       "excludes_zero": true,
+       "mean": 0.13137656425854413,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.5057471264367817,
+     "wilson": [
+      0.4321422457816327,
+      0.5791037258415249
+     ]
+    },
+    "lines": {
+     "max_661": 9,
+     "mean_104": 9.0,
+     "mean_661": 9.0,
+     "ratio_to_model": 1.6561804008908687
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.14423076923076916,
+      "item": {
+       "ci_hi": -0.04807692307692302,
+       "ci_lo": -0.24062500000000003,
+       "excludes_zero": true,
+       "mean": -0.14452884615384612,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": -0.01888007054673741,
+       "ci_lo": -0.28217213114754097,
+       "excludes_zero": true,
+       "mean": -0.14220487474597918,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 12
+      },
+      "ret": {
+       "n": 26,
+       "reached": 25
+      },
+      "sup": {
+       "n": 63,
+       "reached": 33
+      }
+     },
+     "rate": 0.6730769230769231,
+     "reached": 70,
+     "wilson": [
+      0.5781632292787293,
+      0.7556601478662903
+     ]
+    }
+   },
+   "10": {
+    "licensed_in_view": {
+     "in_view": 89,
+     "minus_model": {
+      "D": 0.13793103448275862,
+      "item": {
+       "ci_hi": 0.18965517241379315,
+       "ci_lo": 0.08620689655172414,
+       "excludes_zero": true,
+       "mean": 0.13782183908045978,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.18617021276595747,
+       "ci_lo": 0.0889613127657332,
+       "excludes_zero": true,
+       "mean": 0.13691527806947448,
+       "n_draws": 1000
+      }
+     },
+     "n": 174,
+     "rate": 0.5114942528735632,
+     "wilson": [
+      0.4377794824432188,
+      0.5847124608030962
+     ]
+    },
+    "lines": {
+     "max_661": 10,
+     "mean_104": 10.0,
+     "mean_661": 10.0,
+     "ratio_to_model": 1.8402004454342986
+    },
+    "reach": {
+     "minus_model": {
+      "D": -0.10576923076923073,
+      "item": {
+       "ci_hi": -0.01899038461538477,
+       "ci_lo": -0.20192307692307698,
+       "excludes_zero": true,
+       "mean": -0.10715384615384616,
+       "n_draws": 1000
+      },
+      "persona": {
+       "ci_hi": 0.029419044845661036,
+       "ci_lo": -0.2407407407407407,
+       "excludes_zero": false,
+       "mean": -0.10307980413525619,
+       "n_draws": 1000
+      }
+     },
+     "n": 104,
+     "per_state": {
+      "exp": {
+       "n": 15,
+       "reached": 12
+      },
+      "ret": {
+       "n": 26,
+       "reached": 25
+      },
+      "sup": {
+       "n": 63,
+       "reached": 37
+      }
+     },
+     "rate": 0.7115384615384616,
+     "reached": 74,
+     "wilson": [
+      0.6181654423395835,
+      0.7898409075043293
+     ]
+    }
+   }
+  }
+ }
+}

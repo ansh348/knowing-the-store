@@ -1,0 +1,60 @@
+{
+ "meta": {
+  "script": "reviews/r113/tools/z6_pad_lex_ledger.py",
+  "artifact": "reviews\\v18\\results\\a4_pad_extend.json",
+  "artifact_sha256_16": "3f963949dc2fc66a",
+  "model_calls": 0,
+  "recomputed": false,
+  "when": "2026-09-16T23:14:02"
+ },
+ "rows": {
+  "100": {
+   "keys_spilling_into_pool_b": 79,
+   "names_from_pool_b_total": 1216,
+   "lex_auroc": 0.5601,
+   "lex_delta": -0.0137,
+   "lex_item_ci": [
+    -0.0672,
+    0.0369
+   ],
+   "lex_persona_ci": [
+    -0.0926,
+    0.0716
+   ],
+   "emb_auroc": 0.6558,
+   "emb_delta": -0.0926,
+   "emb_item_ci": [
+    -0.1718,
+    -0.0221
+   ],
+   "emb_persona_ci": [
+    -0.1953,
+    0.0199
+   ]
+  },
+  "200": {
+   "keys_spilling_into_pool_b": 242,
+   "names_from_pool_b_total": 23596,
+   "lex_auroc": 0.5383,
+   "lex_delta": -0.0355,
+   "lex_item_ci": [
+    -0.0903,
+    0.0189
+   ],
+   "lex_persona_ci": [
+    -0.1125,
+    0.0455
+   ],
+   "emb_auroc": 0.596,
+   "emb_delta": -0.1525,
+   "emb_item_ci": [
+    -0.2357,
+    -0.0773
+   ],
+   "emb_persona_ci": [
+    -0.2595,
+    -0.0399
+   ]
+  }
+ }
+}

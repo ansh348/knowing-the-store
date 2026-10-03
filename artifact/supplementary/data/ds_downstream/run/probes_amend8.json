@@ -1,0 +1,22 @@
+{
+ "H45": {
+  "identifier_ok": true,
+  "lane": "claude-haiku-4-5-20251001",
+  "parsed": true,
+  "served": "claude-haiku-4-5-20251001",
+  "tok_in": 636,
+  "tok_out": 92,
+  "usd": 0.001096,
+  "when": "2026-09-19T00:32:07"
+ },
+ "MINI": {
+  "identifier_ok": true,
+  "lane": "gpt-4.1-mini",
+  "parsed": true,
+  "served": "gpt-4.1-mini",
+  "tok_in": 578,
+  "tok_out": 19,
+  "usd": 0.00026159999999999996,
+  "when": "2026-09-19T00:32:00"
+ }
+}

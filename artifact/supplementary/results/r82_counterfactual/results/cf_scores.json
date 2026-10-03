@@ -1,0 +1,410 @@
+{
+  "baselines": {
+    "NB5-whole-map-v2": {
+      "auroc": 0.5347,
+      "clustered_ci": {
+        "ci_hi": 0.566951388888889,
+        "ci_lo": 0.5108333333333334,
+        "excludes_zero": true,
+        "mean": 0.5358808333333334,
+        "n_draws": 1000
+      }
+    },
+    "NB6-superseded-names-v2": {
+      "auroc": 0.6261,
+      "clustered_ci": {
+        "ci_hi": 0.7094444444444444,
+        "ci_lo": 0.5566666666666666,
+        "excludes_zero": true,
+        "mean": 0.6263775,
+        "n_draws": 1000
+      }
+    },
+    "_scores_cached": false,
+    "all-states-names-v3": {
+      "auroc": 0.7886,
+      "clustered_ci": {
+        "ci_hi": 0.8797291666666667,
+        "ci_lo": 0.7013472222222221,
+        "excludes_zero": true,
+        "mean": 0.7903705555555556,
+        "n_draws": 1000
+      }
+    }
+  },
+  "lanes": {
+    "claude-haiku-4-5-20251001": {
+      "cf3_counted": {
+        "delta_v3_minus_v2": 0.2833,
+        "item_ci": {
+          "ci_hi": 0.49446812596006146,
+          "ci_lo": 0.07715315598380118,
+          "excludes_zero": true,
+          "mean": 0.2838679547984458,
+          "n_draws": 1000
+        },
+        "n_items": 45,
+        "pairs": 15,
+        "pos": 15,
+        "question_clustered_ci": {
+          "ci_hi": 0.43111111111111117,
+          "ci_lo": 0.15091666666666664,
+          "excludes_zero": true,
+          "mean": 0.29337222222222226,
+          "n_draws": 1000
+        },
+        "v2": 0.5656,
+        "v3": 0.8489
+      },
+      "v2": {
+        "blind": 0.5,
+        "delta": 0.1406,
+        "indexed": 0.6406,
+        "indexed_ci_clustered": {
+          "ci_hi": 0.723625,
+          "ci_lo": 0.5652569444444444,
+          "excludes_zero": true,
+          "mean": 0.6423580555555556,
+          "n_draws": 1000
+        },
+        "item_ci": {
+          "ci_hi": 0.2911260556998149,
+          "ci_lo": -0.024334733893557337,
+          "excludes_zero": false,
+          "mean": 0.13959914504475465,
+          "n_draws": 1000
+        },
+        "label": "claude-haiku-4-5-20251001 v2 NOK, all 90",
+        "n": 90,
+        "per_state": {
+          "EXPIRY": {
+            "blind": 0.5,
+            "indexed": 0.5225,
+            "n": 30,
+            "pos": 10
+          },
+          "RETRACTION": {
+            "blind": 0.5,
+            "indexed": 0.6225,
+            "n": 30,
+            "pos": 10
+          },
+          "SUPERSESSION": {
+            "blind": 0.5,
+            "indexed": 0.7825,
+            "n": 30,
+            "pos": 10
+          }
+        },
+        "pos": 30,
+        "question_clustered_ci": {
+          "ci_hi": 0.22362499999999996,
+          "ci_lo": 0.06525694444444444,
+          "excludes_zero": true,
+          "mean": 0.14235805555555556,
+          "n_draws": 1000
+        }
+      },
+      "v3": {
+        "blind": 0.5,
+        "delta": 0.2656,
+        "indexed": 0.7656,
+        "indexed_ci_clustered": {
+          "ci_hi": 0.8536180555555556,
+          "ci_lo": 0.6799930555555556,
+          "excludes_zero": true,
+          "mean": 0.7680666666666666,
+          "n_draws": 1000
+        },
+        "item_ci": {
+          "ci_hi": 0.4177529587625985,
+          "ci_lo": 0.12668989188513802,
+          "excludes_zero": true,
+          "mean": 0.26622584256717596,
+          "n_draws": 1000
+        },
+        "label": "claude-haiku-4-5-20251001 v3 NOK, all 90",
+        "n": 90,
+        "per_state": {
+          "EXPIRY": {
+            "blind": 0.5,
+            "indexed": 0.8575,
+            "n": 30,
+            "pos": 10
+          },
+          "RETRACTION": {
+            "blind": 0.5,
+            "indexed": 0.7375,
+            "n": 30,
+            "pos": 10
+          },
+          "SUPERSESSION": {
+            "blind": 0.5,
+            "indexed": 0.745,
+            "n": 30,
+            "pos": 10
+          }
+        },
+        "pos": 30,
+        "question_clustered_ci": {
+          "ci_hi": 0.35361805555555553,
+          "ci_lo": 0.17999305555555561,
+          "excludes_zero": true,
+          "mean": 0.2680666666666667,
+          "n_draws": 1000
+        }
+      }
+    },
+    "claude-opus-5": {
+      "cf3_counted": {
+        "delta_v3_minus_v2": 0.3022,
+        "item_ci": {
+          "ci_hi": 0.4453605263157895,
+          "ci_lo": 0.16664438502673792,
+          "excludes_zero": true,
+          "mean": 0.30044417249785427,
+          "n_draws": 1000
+        },
+        "n_items": 45,
+        "pairs": 15,
+        "pos": 15,
+        "question_clustered_ci": {
+          "ci_hi": 0.3678055555555555,
+          "ci_lo": 0.2166388888888889,
+          "excludes_zero": true,
+          "mean": 0.2939588888888889,
+          "n_draws": 1000
+        },
+        "v2": 0.6122,
+        "v3": 0.9144
+      },
+      "v2": {
+        "blind": 0.5,
+        "delta": 0.2122,
+        "indexed": 0.7122,
+        "indexed_ci_clustered": {
+          "ci_hi": 0.8038888888888889,
+          "ci_lo": 0.6285972222222223,
+          "excludes_zero": true,
+          "mean": 0.7139136111111111,
+          "n_draws": 1000
+        },
+        "item_ci": {
+          "ci_hi": 0.3566747226769838,
+          "ci_lo": 0.06826874043855179,
+          "excludes_zero": true,
+          "mean": 0.2142479620299658,
+          "n_draws": 1000
+        },
+        "label": "claude-opus-5 v2 NOK, all 90",
+        "n": 90,
+        "per_state": {
+          "EXPIRY": {
+            "blind": 0.5,
+            "indexed": 0.615,
+            "n": 30,
+            "pos": 10
+          },
+          "RETRACTION": {
+            "blind": 0.5,
+            "indexed": 0.5975,
+            "n": 30,
+            "pos": 10
+          },
+          "SUPERSESSION": {
+            "blind": 0.5,
+            "indexed": 0.8275,
+            "n": 30,
+            "pos": 10
+          }
+        },
+        "pos": 30,
+        "question_clustered_ci": {
+          "ci_hi": 0.3038888888888889,
+          "ci_lo": 0.12859722222222222,
+          "excludes_zero": true,
+          "mean": 0.2139136111111111,
+          "n_draws": 1000
+        }
+      },
+      "v3": {
+        "blind": 0.5,
+        "delta": 0.3172,
+        "indexed": 0.8172,
+        "indexed_ci_clustered": {
+          "ci_hi": 0.9022222222222223,
+          "ci_lo": 0.7372083333333334,
+          "excludes_zero": true,
+          "mean": 0.8199375,
+          "n_draws": 1000
+        },
+        "item_ci": {
+          "ci_hi": 0.46581480414746534,
+          "ci_lo": 0.16946403715010935,
+          "excludes_zero": true,
+          "mean": 0.3211392637970916,
+          "n_draws": 1000
+        },
+        "label": "claude-opus-5 v3 NOK, all 90",
+        "n": 90,
+        "per_state": {
+          "EXPIRY": {
+            "blind": 0.5,
+            "indexed": 0.945,
+            "n": 30,
+            "pos": 10
+          },
+          "RETRACTION": {
+            "blind": 0.5,
+            "indexed": 0.73,
+            "n": 30,
+            "pos": 10
+          },
+          "SUPERSESSION": {
+            "blind": 0.5,
+            "indexed": 0.835,
+            "n": 30,
+            "pos": 10
+          }
+        },
+        "pos": 30,
+        "question_clustered_ci": {
+          "ci_hi": 0.40222222222222226,
+          "ci_lo": 0.23720833333333333,
+          "excludes_zero": true,
+          "mean": 0.3199375,
+          "n_draws": 1000
+        }
+      }
+    },
+    "gpt-4.1-mini": {
+      "cf3_counted": {
+        "delta_v3_minus_v2": 0.1022,
+        "item_ci": {
+          "ci_hi": 0.2668741644385027,
+          "ci_lo": -0.06374826388888893,
+          "excludes_zero": false,
+          "mean": 0.10282621575893669,
+          "n_draws": 1000
+        },
+        "n_items": 45,
+        "pairs": 15,
+        "pos": 15,
+        "question_clustered_ci": {
+          "ci_hi": 0.2777777777777778,
+          "ci_lo": -0.06894444444444445,
+          "excludes_zero": false,
+          "mean": 0.10360222222222222,
+          "n_draws": 1000
+        },
+        "v2": 0.5578,
+        "v3": 0.66
+      },
+      "v2": {
+        "blind": 0.5,
+        "delta": 0.0939,
+        "indexed": 0.5939,
+        "indexed_ci_clustered": {
+          "ci_hi": 0.6625,
+          "ci_lo": 0.5324930555555555,
+          "excludes_zero": true,
+          "mean": 0.5961527777777779,
+          "n_draws": 1000
+        },
+        "item_ci": {
+          "ci_hi": 0.23149679545592608,
+          "ci_lo": -0.03447628387282761,
+          "excludes_zero": false,
+          "mean": 0.09647750388180455,
+          "n_draws": 1000
+        },
+        "label": "gpt-4.1-mini v2 NOK, all 90",
+        "n": 90,
+        "per_state": {
+          "EXPIRY": {
+            "blind": 0.5,
+            "indexed": 0.5825,
+            "n": 30,
+            "pos": 10
+          },
+          "RETRACTION": {
+            "blind": 0.5,
+            "indexed": 0.57,
+            "n": 30,
+            "pos": 10
+          },
+          "SUPERSESSION": {
+            "blind": 0.5,
+            "indexed": 0.655,
+            "n": 30,
+            "pos": 10
+          }
+        },
+        "pos": 30,
+        "question_clustered_ci": {
+          "ci_hi": 0.16249999999999998,
+          "ci_lo": 0.03249305555555553,
+          "excludes_zero": true,
+          "mean": 0.09615277777777777,
+          "n_draws": 1000
+        }
+      },
+      "v3": {
+        "blind": 0.5,
+        "delta": 0.1419,
+        "indexed": 0.6419,
+        "indexed_ci_clustered": {
+          "ci_hi": 0.7433333333333333,
+          "ci_lo": 0.5444166666666667,
+          "excludes_zero": true,
+          "mean": 0.6411308333333333,
+          "n_draws": 1000
+        },
+        "item_ci": {
+          "ci_hi": 0.26681641791044775,
+          "ci_lo": 0.012570833333333305,
+          "excludes_zero": true,
+          "mean": 0.14437275924671872,
+          "n_draws": 1000
+        },
+        "label": "gpt-4.1-mini v3 NOK, all 90",
+        "n": 90,
+        "per_state": {
+          "EXPIRY": {
+            "blind": 0.5,
+            "indexed": 0.48,
+            "n": 30,
+            "pos": 10
+          },
+          "RETRACTION": {
+            "blind": 0.5,
+            "indexed": 0.75,
+            "n": 30,
+            "pos": 10
+          },
+          "SUPERSESSION": {
+            "blind": 0.5,
+            "indexed": 0.695,
+            "n": 30,
+            "pos": 10
+          }
+        },
+        "pos": 30,
+        "question_clustered_ci": {
+          "ci_hi": 0.2433333333333333,
+          "ci_lo": 0.044416666666666625,
+          "excludes_zero": true,
+          "mean": 0.14113083333333332,
+          "n_draws": 1000
+        }
+      }
+    }
+  },
+  "meta": {
+    "blind_is_half_by_construction": true,
+    "n": 90,
+    "pos": 30,
+    "tol": 0.05
+  },
+  "predictions": {}
+}

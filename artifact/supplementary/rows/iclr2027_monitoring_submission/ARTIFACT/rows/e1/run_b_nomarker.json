@@ -1,0 +1,4182 @@
+{
+  "n": 522,
+  "ok": 522,
+  "rows": [
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:aisha:aisha_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:aisha:aisha_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:aisha:aisha_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:aisha:aisha_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:alex:alex_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:alex:alex_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:alex:alex_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:alex:alex_q07:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:alex:alex_q12:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:amara:amara_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:amara:amara_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:amara:amara_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:amara:amara_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:amara:amara_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:amara:amara_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:amara:amara_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:amara:amara_q12:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:aroha:aroha_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:aroha:aroha_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:aroha:aroha_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:aroha:aroha_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:aroha:aroha_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:billy:billy_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:billy:billy_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:billy:billy_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:billy:billy_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:bruna:bruna_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:bruna:bruna_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:bruna:bruna_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:bruna:bruna_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:bruna:bruna_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:bruna:bruna_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:callum:callum_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:callum:callum_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:callum:callum_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:callum:callum_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:callum:callum_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:chenoa:chenoa_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:chenoa:chenoa_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:chenoa:chenoa_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:chenoa:chenoa_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:chenoa:chenoa_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:chenoa:chenoa_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:chenoa:chenoa_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:dariush:dariush_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:dariush:dariush_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "mem0:dariush:dariush_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:dariush:dariush_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:dariush:dariush_q11:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:dariush:dariush_q11:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:david:david_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:david:david_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:david:david_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:david:david_q08:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:david:david_q08:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:david:david_q10:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:david:david_q11:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:david:david_q11:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:diane:diane_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:diane:diane_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:diane:diane_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:diane:diane_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:diane:diane_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:diane:diane_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:diane:diane_q08:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:diane:diane_q09:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:diane:diane_q09:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:dmitri:dmitri_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:dmitri:dmitri_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:dmitri:dmitri_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:dmitri:dmitri_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:dmitri:dmitri_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "mem0:elena:elena_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:elena:elena_q01:FULL",
+      "label": "ABSENT",
+      "nok": 0.2,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:elena:elena_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:elena:elena_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:elena:elena_q10:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:elena:elena_q11:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:elena:elena_q11:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:fatima:fatima_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:fatima:fatima_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:fatima:fatima_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "mem0:fatima:fatima_q05:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:fatima:fatima_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:fatima:fatima_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:fatima:fatima_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:fatima:fatima_q07:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:fatima:fatima_q09:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:fatima:fatima_q11:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:fatima:fatima_q11:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:ingrid:ingrid_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:ingrid:ingrid_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:ingrid:ingrid_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:ingrid:ingrid_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:ingrid:ingrid_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:ingrid:ingrid_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:ingrid:ingrid_q05:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:ingrid:ingrid_q05:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:ingrid:ingrid_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:ingrid:ingrid_q08:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:ingrid:ingrid_q08:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:jake:jake_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:jake:jake_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:jake:jake_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:jake:jake_q04:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:jake:jake_q11:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:jake:jake_q11:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "mem0:jake:jake_q12:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:jake:jake_q12:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:jerome:jerome_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:jerome:jerome_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:jerome:jerome_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:jerome:jerome_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:jerome:jerome_q05:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:jerome:jerome_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:jerome:jerome_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:joonho:joonho_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:joonho:joonho_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:joonho:joonho_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:joonho:joonho_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "mem0:kenji:kenji_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:kenji:kenji_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:kenji:kenji_q12:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:kenji:kenji_q12:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:kofi:kofi_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:kofi:kofi_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:kofi:kofi_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:kofi:kofi_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:kofi:kofi_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:kofi:kofi_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:leila:leila_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:leila:leila_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:leila:leila_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:leila:leila_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:leila:leila_q05:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:leila:leila_q05:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:leila:leila_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:leila:leila_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:leila:leila_q09:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:lily:lily_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:lily:lily_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:lily:lily_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:lily:lily_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:lily:lily_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "mem0:lily:lily_q11:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:marcus:marcus_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:marcus:marcus_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:marcus:marcus_q04:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:marley:marley_q05:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:marley:marley_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:marley:marley_q10:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:mehmet:mehmet_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:mehmet:mehmet_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:mehmet:mehmet_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:mehmet:mehmet_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:mehmet:mehmet_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:mehmet:mehmet_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:mehmet:mehmet_q13:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:mehmet:mehmet_q13:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:mirri:mirri_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:mirri:mirri_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:mirri:mirri_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:nadia:nadia_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:nadia:nadia_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:nadia:nadia_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:nadia:nadia_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:nadia:nadia_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:nadia:nadia_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:nadia:nadia_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:nadia:nadia_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:omar:omar_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:pan:pan_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:pan:pan_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:pan:pan_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:pan:pan_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:pan:pan_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:pan:pan_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:pan:pan_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:pan:pan_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:pan:pan_q06:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:pan:pan_q10:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:patrick:patrick_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:patrick:patrick_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "mem0:priya:priya_q09:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:priya:priya_q09:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:raj:raj_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:raj:raj_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "mem0:raj:raj_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:raj:raj_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:raj:raj_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:raj:raj_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:raj:raj_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:raj:raj_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:raj:raj_q12:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:rosa:rosa_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:rosa:rosa_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:rosa:rosa_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:rosa:rosa_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:saga:saga_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:saga:saga_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:saga:saga_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:saga:saga_q06:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:saga:saga_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:saga:saga_q11:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:samuel:samuel_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:samuel:samuel_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:samuel:samuel_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:samuel:samuel_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:samuel:samuel_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:samuel:samuel_q05:FULL",
+      "label": "ABSENT",
+      "nok": 0.2,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:samuel:samuel_q08:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:samuel:samuel_q12:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:samuel:samuel_q12:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:thanh:thanh_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:thanh:thanh_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:tom:tom_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:tom:tom_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:tom:tom_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:tom:tom_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:tom:tom_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "mem0:tom:tom_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.3,
+      "item_id": "amem:tom:tom_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:tom:tom_q08:FULL",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:tom:tom_q11:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:tom:tom_q11:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:valentina:valentina_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.05,
+      "item_id": "amem:valentina:valentina_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:valentina:valentina_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "mem0:valentina:valentina_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:valentina:valentina_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:valentina:valentina_q07:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:valentina:valentina_q07:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:yoli:yoli_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:yoli:yoli_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:yoli:yoli_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:zara:zara_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "mem0:zara:zara_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "amem:zara:zara_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "mem0:zara:zara_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "amem:zara:zara_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "amem:zara:zara_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:aisha:29876293",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:aisha:51065003",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:aisha:87746797",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:alex:49167599",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:alex:9383268",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:alex:64255471",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:amara:44980553",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:amara:44980553",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "probe:mem0:amara:56016561",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:amara:56016561",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:amara:647841",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:amara:647841",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:amara:86260058",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:amara:86260058",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:aroha:83945397",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:aroha:83945397",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:aroha:51065003",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:aroha:51065003",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:aroha:90080294",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:aroha:90080294",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.05,
+      "item_id": "probe:mem0:aroha:79127530",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:aroha:79127530",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:billy:55271723",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:billy:55271723",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:billy:68502554",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:billy:68502554",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:billy:16751414",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.15,
+      "item_id": "probe:amem:billy:16751414",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:billy:83077706",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:billy:83077706",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "probe:mem0:billy:51592303",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.15,
+      "item_id": "probe:amem:billy:51592303",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:billy:86368938",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:billy:86368938",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:bruna:62752536",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:bruna:62752536",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:bruna:69057771",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:bruna:69057771",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:bruna:13209468",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:bruna:13209468",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:bruna:668680",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:bruna:668680",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:callum:60798357",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:callum:60798357",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:callum:74122240",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:callum:74122240",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:callum:16873796",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "probe:amem:callum:16873796",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:callum:15070412",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:callum:15070412",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:chenoa:62752536",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:chenoa:62752536",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:chenoa:54693416",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:chenoa:54693416",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "probe:mem0:chenoa:56588764",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:chenoa:56588764",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:dariush:3142250",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.05,
+      "item_id": "probe:amem:dariush:3142250",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:dariush:54693416",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.05,
+      "item_id": "probe:amem:dariush:54693416",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "probe:mem0:dariush:32622554",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:dariush:32622554",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:dariush:92838680",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:dariush:92838680",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:david:58071555",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:david:58071555",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:david:25701766",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:david:25701766",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:dmitri:70998693",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:dmitri:70998693",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:dmitri:20812477",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:dmitri:20812477",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:dmitri:65609808",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:dmitri:65609808",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:dmitri:94213328",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:dmitri:94213328",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:dmitri:6283392",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:dmitri:6283392",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:elena:23782516",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:elena:23782516",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:elena:36462493",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:elena:36462493",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:elena:11659441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.15,
+      "item_id": "probe:amem:elena:11659441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:fatima:27231561",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:fatima:27231561",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:fatima:51065003",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:fatima:51065003",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "probe:mem0:fatima:88922627",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "probe:amem:fatima:88922627",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:ingrid:63373877",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:ingrid:63373877",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:ingrid:79520186",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:ingrid:79520186",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:jake:5905449",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:jake:5905449",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:jake:51065003",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:jake:51065003",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:jake:89005765",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:jake:89005765",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:jake:11659441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:jake:11659441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:jake:94874080",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:jake:94874080",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:jerome:67788344",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:jerome:67788344",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:jerome:14631081",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:jerome:14631081",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:jerome:96963085",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:jerome:96963085",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "probe:mem0:jerome:63866738",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:jerome:63866738",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:jerome:17309019",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:jerome:17309019",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:joonho:50016097",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:joonho:50016097",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "probe:mem0:joonho:38353346",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "probe:amem:joonho:38353346",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:joonho:53707330",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:joonho:53707330",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:joonho:6283392",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:joonho:6283392",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:kenji:72579794",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:kenji:72579794",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "probe:mem0:kenji:76606586",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:kenji:76606586",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:kenji:17309019",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:kenji:17309019",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:kofi:46824886",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:kofi:46824886",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:kofi:38156792",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:kofi:38156792",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:kofi:87324398",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:kofi:87324398",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "probe:mem0:leila:53745614",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:leila:53745614",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:leila:17462441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:leila:17462441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:leila:83945397",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:leila:83945397",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:lily:2587190",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:lily:2587190",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:lily:39535719",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:lily:39535719",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:lily:59663591",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:lily:59663591",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:lily:36306625",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:lily:36306625",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:marcus:58998349",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.15,
+      "item_id": "probe:amem:marcus:58998349",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:marcus:45479498",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:marcus:45479498",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:marcus:51065003",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:marcus:51065003",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:marcus:89005765",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:marcus:89005765",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:marcus:11659441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:marcus:11659441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:marley:64737475",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:marley:64737475",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:marley:57624530",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:marley:57624530",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:marley:11659441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:marley:11659441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "probe:mem0:marley:86260058",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:marley:86260058",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:mehmet:64737475",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:mehmet:64737475",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:mehmet:6283392",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:mehmet:6283392",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.05,
+      "item_id": "probe:mem0:mehmet:56208549",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:mehmet:56208549",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:mirri:83945397",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:mirri:83945397",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:mirri:17881048",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:mirri:17881048",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:mirri:73119623",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:mirri:73119623",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:mirri:42702693",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:mirri:42702693",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:nadia:44980553",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:nadia:44980553",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:nadia:69057771",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:nadia:69057771",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:nadia:407246",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:nadia:407246",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:nadia:65534989",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:nadia:65534989",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:omar:49167599",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:omar:49167599",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:omar:11659441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:omar:11659441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:omar:2649492",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:omar:2649492",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:pan:74636740",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:pan:74636740",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:pan:83136086",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:pan:83136086",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:pan:62390807",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:pan:62390807",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:pan:11659441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:pan:11659441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:pan:72345311",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:pan:72345311",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:pan:96716348",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:pan:96716348",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:patrick:14522807",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:patrick:14522807",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:patrick:32972175",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "probe:amem:patrick:32972175",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:patrick:52078828",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "probe:amem:patrick:52078828",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:patrick:39571891",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:patrick:39571891",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:priya:69699110",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:priya:69699110",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:priya:97423439",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:priya:97423439",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:priya:24322740",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:priya:24322740",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:priya:2470720",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:priya:2470720",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:priya:52584083",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:priya:52584083",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:raj:51065003",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:raj:51065003",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.3,
+      "item_id": "probe:mem0:raj:22772083",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "probe:amem:raj:22772083",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:rosa:2587190",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:rosa:2587190",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:rosa:31623610",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:rosa:31623610",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:rosa:84851768",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:rosa:84851768",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:rosa:47001555",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:rosa:47001555",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:saga:44353198",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:saga:44353198",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.0,
+      "item_id": "probe:mem0:saga:14972789",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:saga:14972789",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:saga:17309019",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:saga:17309019",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:samuel:82070044",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:samuel:82070044",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:samuel:55903416",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:samuel:55903416",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.15,
+      "item_id": "probe:mem0:samuel:6283392",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:samuel:6283392",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:thanh:51065003",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:thanh:21169214",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:thanh:59460199",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:tom:13744835",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:tom:13744835",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:tom:55024768",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "probe:amem:tom:55024768",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:tom:66011798",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:tom:66011798",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:valentina:39799067",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:valentina:39799067",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:valentina:11659441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:valentina:11659441",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:yoli:25566548",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:yoli:25566548",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "probe:mem0:yoli:23056170",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:yoli:23056170",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.2,
+      "item_id": "probe:mem0:yoli:82993208",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:yoli:82993208",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.4,
+      "item_id": "probe:mem0:yoli:17741734",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "probe:amem:yoli:17741734",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:yoli:41440540",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:yoli:41440540",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:zara:44980553",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:zara:44980553",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:zara:69057771",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.4,
+      "item_id": "probe:amem:zara:69057771",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:zara:83180341",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:zara:83180341",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.05,
+      "item_id": "probe:mem0:zara:83811390",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.1,
+      "item_id": "probe:amem:zara:83811390",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "mem0",
+      "fok": 0.1,
+      "item_id": "probe:mem0:zara:2707808",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    },
+    {
+      "backend": "amem",
+      "fok": 0.2,
+      "item_id": "probe:amem:zara:2707808",
+      "label": "ABSENT",
+      "nok": 0.0,
+      "status": "OK"
+    }
+  ]
+}

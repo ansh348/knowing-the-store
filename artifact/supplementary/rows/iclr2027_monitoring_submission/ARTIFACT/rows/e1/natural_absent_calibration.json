@@ -1,0 +1,17 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "n": 516,
+  "no_api_calls": true,
+  "percentiles": {
+    "p1": 0.28582880049943926,
+    "p10": 0.33819475769996643,
+    "p2.5": 0.29540248215198517,
+    "p25": 0.40935657173395157,
+    "p5": 0.3124593049287796,
+    "p50": 0.49739736318588257,
+    "p75": 0.5797496438026428,
+    "p95": 0.6887032240629196
+  },
+  "rule": "reject candidate if max cosine to any bank entry >= p2.5 of the present-content distribution",
+  "screen_threshold_cosine": 0.295
+}

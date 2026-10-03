@@ -1,0 +1,345 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 1,
+    "in": 1202,
+    "out": 403,
+    "usd": 0.0011256
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 3,
+  "persona": "aisha",
+  "probes": [
+    {
+      "domain": "Leisure reading",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "think",
+        "you"
+      ],
+      "max_cosine": 0.2458,
+      "note": "",
+      "question": "What was the last book you read purely for pleasure, and what did you think of it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2458,
+          "entry_id": "lb_00334",
+          "text": "User has watched Heartstopper and Never Have I Ever and liked both."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2037,
+          "entry_id": "lb_00536",
+          "text": "User feels proud of their progress in self-kindness and mental wellbeing for the first time in a while."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1917,
+          "entry_id": "lb_00425",
+          "text": "User finds their work interesting."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1886,
+          "entry_id": "lb_00335",
+          "text": "User has watched season 1 of Bridgerton and liked it but has not watched later seasons."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1715,
+          "entry_id": "lb_00388",
+          "text": "User's previous flatmate Zara was a close friend from university with whom the user cooked and watched shows in the evenings."
+        }
+      ],
+      "why_absent": "No information about leisure reading or books read for pleasure is present in the memory store."
+    },
+    {
+      "domain": "Cooking and recipes",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "you"
+      ],
+      "max_cosine": 0.3664,
+      "note": "",
+      "question": "Can you describe your favorite recipe to cook when you have guests over?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3664,
+          "entry_id": "lb_00015",
+          "text": "User barely cooks during busy season"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.352,
+          "entry_id": "lb_00453",
+          "text": "User plans to host a proper sit-down lunch with biryani, sides, tea, and desserts for the Eid gathering at their parents' house."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3515,
+          "entry_id": "lb_00235",
+          "text": "User is planning a birthday dinner for a group of about 6 people."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3478,
+          "entry_id": "lb_00459",
+          "text": "User plans to handle salads and starters for the family gathering."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3473,
+          "entry_id": "lb_00462",
+          "text": "User plans to prepare salads and starters for family event."
+        }
+      ],
+      "why_absent": "The store covers cooking habits and dietary preferences but does not include any specific recipes or favorite dishes."
+    },
+    {
+      "domain": "Music preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "home",
+        "usually",
+        "you"
+      ],
+      "max_cosine": 0.2605,
+      "note": "",
+      "question": "What kind of music do you usually listen to when relaxing at home?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2605,
+          "entry_id": "lb_00146",
+          "text": "User usually works out after work around 6pm for about an hour when things are calm"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2427,
+          "entry_id": "lb_00531",
+          "text": "User used to lie in bed replaying daily interactions and cringing but does this less now."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2326,
+          "entry_id": "lb_00135",
+          "text": "User usually works out after work around 6pm for about an hour at PureGym when work is calm."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2309,
+          "entry_id": "lb_00184",
+          "text": "User usually goes to their mother's house on Sundays for dinner with the family"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2176,
+          "entry_id": "lb_00450",
+          "text": "User's family gatherings are held at their parents' house"
+        }
+      ],
+      "why_absent": "There is no data on music tastes or listening habits in the memory store."
+    },
+    {
+      "domain": "Travel and vacations",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.297,
+      "note": "",
+      "question": "Have you ever traveled abroad for a vacation? If so, where did you go and what did you enjoy most?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.297,
+          "entry_id": "lb_00487",
+          "text": "User tends to delay booking holidays to warm destinations despite interest"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2926,
+          "entry_id": "lb_00488",
+          "text": "User has a habit of postponing booking holidays to warm destinations despite intending to go"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2231,
+          "entry_id": "lb_00417",
+          "text": "User currently lives in Manchester and is considering a temporary secondment to London for career development."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2129,
+          "entry_id": "lb_00064",
+          "text": "User does not remember Somalia from personal experience"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1993,
+          "entry_id": "lb_00523",
+          "text": "User experienced significant professional growth over the past year, becoming much more confident and trusting their own judgment."
+        }
+      ],
+      "why_absent": "No travel or vacation history or preferences are recorded in the memory store."
+    },
+    {
+      "domain": "Personal celebrations",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "each",
+        "way",
+        "year"
+      ],
+      "max_cosine": 0.3129,
+      "note": "",
+      "question": "What is your preferred way to celebrate your birthday each year?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3129,
+          "entry_id": "lb_00235",
+          "text": "User is planning a birthday dinner for a group of about 6 people."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2568,
+          "entry_id": "lb_00450",
+          "text": "User's family gatherings are held at their parents' house"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2532,
+          "entry_id": "lb_00447",
+          "text": "User is organizing an Eid gathering for their whole family"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2375,
+          "entry_id": "lb_00535",
+          "text": "User wants to grow professionally at a more sustainable pace and enjoy their twenties instead of just surviving them."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2285,
+          "entry_id": "lb_00453",
+          "text": "User plans to host a proper sit-down lunch with biryani, sides, tea, and desserts for the Eid gathering at their parents' house."
+        }
+      ],
+      "why_absent": "The memory store does not contain any information about birthday celebrations or personal holiday traditions."
+    },
+    {
+      "domain": "Pets and animals",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.2219,
+      "note": "",
+      "question": "Do you have any pets? If yes, what kind and what are their names?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2219,
+          "entry_id": "lb_00041",
+          "text": "User has five siblings aged 24, 22, 19, 16, and 12."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2211,
+          "entry_id": "lb_00169",
+          "text": "User lives with a flatmate named Zara who is their friend from university."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2166,
+          "entry_id": "lb_00048",
+          "text": "User has five siblings aged 24, 22, 19, 16, and 12"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2162,
+          "entry_id": "lb_00156",
+          "text": "User has a flatmate named Zara"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2113,
+          "entry_id": "lb_00157",
+          "text": "User lives in a flat in Ancoats with a flatmate named Zara"
+        }
+      ],
+      "why_absent": "There is no mention of pets or animals in the stored attributes."
+    },
+    {
+      "domain": "Technology usage",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.3297,
+      "note": "",
+      "question": "What kind of smartphone or tech gadgets do you currently use daily?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3297,
+          "entry_id": "lb_00474",
+          "text": "User is currently working on a tech deal doing the quality of earnings analysis."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2399,
+          "entry_id": "lb_00506",
+          "text": "User usually prepares lunches for work that can be microwaved and prefers quick dinners."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2397,
+          "entry_id": "lb_00531",
+          "text": "User used to lie in bed replaying daily interactions and cringing but does this less now."
+        },
+        {
+          "category": "FINANCIAL_MATERIAL",
+          "cosine": 0.2374,
+          "entry_id": "lb_00501",
+          "text": "User spends about £40-50 a week on lunches from meal deals and Pret."
+        },
+        {
+          "category": "FINANCIAL_MATERIAL",
+          "cosine": 0.2373,
+          "entry_id": "lb_00507",
+          "text": "User spends about £40-50 a week on lunches from meal deals and Pret."
+        }
+      ],
+      "why_absent": "The memory store does not include any details about technology preferences or devices used."
+    }
+  ],
+  "threshold": 0.295
+}

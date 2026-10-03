@@ -1,0 +1,64 @@
+{
+ "e_groups": {
+  "mini": {
+   "matched": "reliably below",
+   "pooled": "neither"
+  },
+  "Haiku": {
+   "matched": "neither",
+   "pooled": "neither"
+  },
+  "Luna": {
+   "matched": "equivalent",
+   "pooled": "equivalent"
+  },
+  "Sol": {
+   "matched": "equivalent",
+   "pooled": "equivalent"
+  },
+  "Opus": {
+   "matched": "equivalent",
+   "pooled": "equivalent"
+  }
+ },
+ "b6": {
+  "Luna": "neither",
+  "Sol": "neither",
+  "Opus": "neither"
+ },
+ "sb_opus": {
+  "delta": "0.02",
+  "sign": "+",
+  "item_lo": "0.02",
+  "item_lo_sign": "-",
+  "item_hi": "0.07",
+  "item_hi_sign": "+",
+  "wider": "item"
+ },
+ "length": {
+  "padded_sup_matched": 1.0,
+  "padded_sup_pooled": 1.0,
+  "unpadded_sup_matched": 1.0,
+  "sb_matched": 0.5
+ },
+ "lists": {
+  "pn_mean": 2.625,
+  "pn_max": 6,
+  "present_empty": 24,
+  "n": 88,
+  "pn_mean_printed": "2.6"
+ },
+ "b7": {
+  "best": "OP5",
+  "delta": "+0.01",
+  "lo": "-0.02",
+  "hi": "+0.03",
+  "wider": "pair"
+ },
+ "b1": {
+  "lookup": "0.92",
+  "lo": "0.93",
+  "hi": "0.94",
+  "none_reliable": true
+ }
+}

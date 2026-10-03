@@ -1,0 +1,36 @@
+{
+ "gpt-5.6-luna": {
+  "cache_fields_present": true,
+  "identifier_ok": true,
+  "model": "gpt-5.6-luna",
+  "parsed": "OK",
+  "probe_line": 0.0008,
+  "sample": "{\"fok\":75,\"nok_candidates_found\":true,\"nok\":45,\"would_search\":true}",
+  "served": "gpt-5.6-luna",
+  "tok_cache_write": 1680,
+  "tok_cached": 0,
+  "tok_in": 1683,
+  "tok_out": 162,
+  "tok_reasoning": 132,
+  "under_line": true,
+  "usd": 0.000615,
+  "when": "2026-09-19T11:13:48"
+ },
+ "gpt-5.6-sol": {
+  "cache_fields_present": true,
+  "identifier_ok": true,
+  "model": "gpt-5.6-sol",
+  "parsed": "OK",
+  "probe_line": 0.0135,
+  "sample": "{\"fok\":92,\"nok_candidates_found\":true,\"nok\":84,\"would_search\":true}",
+  "served": "gpt-5.6-sol",
+  "tok_cache_write": 1680,
+  "tok_cached": 0,
+  "tok_in": 1683,
+  "tok_out": 97,
+  "tok_reasoning": 67,
+  "under_line": true,
+  "usd": 0.010352,
+  "when": "2026-09-19T11:14:02"
+ }
+}

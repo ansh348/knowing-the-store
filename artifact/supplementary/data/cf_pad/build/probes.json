@@ -1,0 +1,72 @@
+{
+  "claude-haiku-4-5-20251001": {
+    "fok": 0.72,
+    "identifier_ok": true,
+    "lane": "claude-haiku-4-5-20251001",
+    "nok": 0.62,
+    "sample": "```json\n{\"fok\": 72, \"nok_candidates_found\": true, \"nok\": 62, \"would_search\": true}\n```\n\n**Reasoning:**\n\n**FOK (72):** The store contains substantial content related to obligations, exams, and study ha",
+    "served": "claude-haiku-4-5-20251001",
+    "status": "OK",
+    "tok_in": 2075,
+    "tok_out": 200,
+    "tok_reasoning": 0,
+    "usd": 0.003075,
+    "when": "2026-09-22T01:06:16"
+  },
+  "claude-opus-5": {
+    "fok": 0.93,
+    "identifier_ok": true,
+    "lane": "claude-opus-5",
+    "nok": 0.8,
+    "sample": "{\"fok\": 93, \"nok_candidates_found\": true, \"nok\": 80, \"would_search\": true}",
+    "served": "claude-opus-5",
+    "status": "OK",
+    "tok_in": 2877,
+    "tok_out": 156,
+    "tok_reasoning": 0,
+    "usd": 0.018285,
+    "when": "2026-09-22T01:06:25"
+  },
+  "gpt-4.1-mini": {
+    "fok": 0.7,
+    "identifier_ok": true,
+    "lane": "gpt-4.1-mini",
+    "nok": 0.6,
+    "sample": "{\"fok\":70, \"nok_candidates_found\":true, \"nok\":60, \"would_search\":true}",
+    "served": "gpt-4.1-mini-2025-04-14",
+    "status": "OK",
+    "tok_in": 1928,
+    "tok_out": 24,
+    "tok_reasoning": 0,
+    "usd": 0.0008096000000000001,
+    "when": "2026-09-22T01:05:56"
+  },
+  "gpt-5.6-luna": {
+    "fok": 0.85,
+    "identifier_ok": true,
+    "lane": "gpt-5.6-luna",
+    "nok": 0.75,
+    "sample": "{\"fok\":85,\"nok_candidates_found\":true,\"nok\":75,\"would_search\":true}",
+    "served": "gpt-5.6-luna",
+    "status": "OK",
+    "tok_in": 1927,
+    "tok_out": 132,
+    "tok_reasoning": 102,
+    "usd": 0.00064,
+    "when": "2026-09-22T01:06:02"
+  },
+  "gpt-5.6-sol": {
+    "fok": 0.96,
+    "identifier_ok": true,
+    "lane": "gpt-5.6-sol",
+    "nok": 0.95,
+    "sample": "{\"fok\":96,\"nok_candidates_found\":true,\"nok\":95,\"would_search\":true}",
+    "served": "gpt-5.6-sol",
+    "status": "OK",
+    "tok_in": 1927,
+    "tok_out": 131,
+    "tok_reasoning": 101,
+    "usd": 0.012252,
+    "when": "2026-09-22T01:06:09"
+  }
+}

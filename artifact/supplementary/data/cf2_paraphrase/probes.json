@@ -1,0 +1,161 @@
+{
+  "claude-haiku-4-5-20251001": {
+    "billed_overall": 8.5254,
+    "billed_parts": {
+      "PAD Amendment 1 H45 lane": 5.86001,
+      "PAD Amendment 1 MINI lane": 0.6089536000000001,
+      "PAD Amendment 1 probe claude-haiku-4-5-20251001": 0.0055639999999999995,
+      "PAD Amendment 1 probe gpt-4.1-mini": 0.0014304,
+      "PAD mini lane": 1.4118195999999998,
+      "PAD probe": 0.0022212,
+      "PARA MINI lane": 0.5171208,
+      "PARA drafting": 0.1168,
+      "PARA probe gpt-4.1-mini": 0.001448
+    },
+    "billed_so_far": 2.6654,
+    "cap": 21.0,
+    "fits": true,
+    "fits_if_addon_counted_on_combined": true,
+    "headroom": 18.3346,
+    "headroom_combined": 18.3346,
+    "headroom_if_addon_counted_on_combined": 12.4746,
+    "headroom_overall": 19.4746,
+    "identifier_ok": true,
+    "in": [
+      1772,
+      1835
+    ],
+    "k": 5,
+    "lane": "claude-haiku-4-5-20251001",
+    "n_units": 372,
+    "out": [
+      200,
+      200
+    ],
+    "overall_cap": 28.0,
+    "parsed": [
+      "OK",
+      "OK"
+    ],
+    "population": "all124",
+    "probe_usd": 0.005607,
+    "projection": {
+      "calls": 3720,
+      "input_tokens": 6709020,
+      "output_tokens": 744000.0,
+      "usd": 5.2145,
+      "usd_x1.3": 6.7789
+    },
+    "sample": "```json\n{\"fok\": 42, \"nok_candidates_found\": true, \"nok\": 28, \"would_search\": true}\n```\n\n**Reasoning:**\n\n**FOK (42):** The store contains substantial content about the user's obligations, projects, and",
+    "served": [
+      "claude-haiku-4-5-20251001",
+      "claude-haiku-4-5-20251001"
+    ]
+  },
+  "claude-opus-5": {
+    "billed_overall": 13.7455,
+    "billed_parts": {
+      "PAD Amendment 1 H45 lane": 5.86001,
+      "PAD Amendment 1 MINI lane": 0.6089536000000001,
+      "PAD Amendment 1 probe claude-haiku-4-5-20251001": 0.0055639999999999995,
+      "PAD Amendment 1 probe gpt-4.1-mini": 0.0014304,
+      "PAD mini lane": 1.4118195999999998,
+      "PAD probe": 0.0022212,
+      "PARA H45 lane (submitted, projection)": 5.2145,
+      "PARA MINI lane": 0.5171208,
+      "PARA drafting": 0.1168,
+      "PARA probe claude-haiku-4-5-20251001": 0.005607,
+      "PARA probe gpt-4.1-mini": 0.001448
+    },
+    "billed_so_far": 7.8855,
+    "cap": 21.0,
+    "fits": true,
+    "fits_if_addon_counted_on_combined": false,
+    "headroom": 13.1145,
+    "headroom_combined": 13.1145,
+    "headroom_if_addon_counted_on_combined": 7.2545,
+    "headroom_overall": 14.2545,
+    "identifier_ok": true,
+    "in": [
+      2467,
+      2579
+    ],
+    "k": 1,
+    "lane": "claude-opus-5",
+    "n_units": 372,
+    "out": [
+      215,
+      242
+    ],
+    "overall_cap": 28.0,
+    "parsed": [
+      "OK",
+      "OK"
+    ],
+    "population": "all124",
+    "probe_usd": 0.036655,
+    "projection": {
+      "calls": 744,
+      "input_tokens": 1877112,
+      "output_tokens": 170004.0,
+      "usd": 6.8178,
+      "usd_x1.3": 8.8632
+    },
+    "sample": "{\"fok\": 78, \"nok_candidates_found\": true, \"nok\": 60, \"would_search\": true}",
+    "served": [
+      "claude-opus-5",
+      "claude-opus-5"
+    ]
+  },
+  "gpt-4.1-mini": {
+    "billed_overall": 8.0068,
+    "billed_parts": {
+      "PAD Amendment 1 H45 lane": 5.86001,
+      "PAD Amendment 1 MINI lane": 0.6089536000000001,
+      "PAD Amendment 1 probe claude-haiku-4-5-20251001": 0.0055639999999999995,
+      "PAD Amendment 1 probe gpt-4.1-mini": 0.0014304,
+      "PAD mini lane": 1.4118195999999998,
+      "PAD probe": 0.0022212,
+      "PARA drafting": 0.1168
+    },
+    "billed_so_far": 2.1468,
+    "cap": 21.0,
+    "fits": true,
+    "fits_if_addon_counted_on_combined": true,
+    "headroom": 18.8532,
+    "headroom_combined": 18.8532,
+    "headroom_if_addon_counted_on_combined": 12.9932,
+    "headroom_overall": 19.9932,
+    "identifier_ok": true,
+    "in": [
+      1678,
+      1734
+    ],
+    "k": 1,
+    "lane": "gpt-4.1-mini",
+    "n_units": 372,
+    "out": [
+      26,
+      26
+    ],
+    "overall_cap": 28.0,
+    "parsed": [
+      "OK",
+      "OK"
+    ],
+    "population": "all124",
+    "probe_usd": 0.001448,
+    "projection": {
+      "calls": 744,
+      "input_tokens": 1269264,
+      "output_tokens": 19344.0,
+      "usd": 0.5387,
+      "usd_x1.3": 0.7003
+    },
+    "sample": "{\"fok\": 40, \"nok_candidates_found\": false, \"nok\": 5, \"would_search\": true}",
+    "served": [
+      "gpt-4.1-mini-2025-04-14",
+      "gpt-4.1-mini-2025-04-14"
+    ]
+  }
+}

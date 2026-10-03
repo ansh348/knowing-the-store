@@ -1,0 +1,37 @@
+{
+ "JUDGE": {
+  "answer_chars": 63,
+  "identifier_ok": true,
+  "label": "CLEAN",
+  "model": "claude-opus-5",
+  "sample": "{\"reason\": \"The answer states only the current advisory deals and transactions team, with no reference to the old audit role.\", \"label\": \"CLEAN\"}",
+  "served": "claude-opus-5",
+  "status": "OK",
+  "tok_in": 473,
+  "tok_out": 71,
+  "unit_id": "MINI|a4|frbank:aisha:aisha_q01:CAT-ABLATED|937b558e78122a93",
+  "usd": 0.00414,
+  "usd_at_batch": 0.00207,
+  "vendor": "anthropic",
+  "when": "2026-09-20T14:48:55"
+ },
+ "LUNA": {
+  "finish_reason": "stop",
+  "identifier_ok": true,
+  "key": "frbank:aisha:aisha_q02:FULL|562acdee794a9018",
+  "model": "gpt-5.6-luna",
+  "sample": "{\"answer\":\"Aisha goes to a small, women-only, sisters-only gym in Rusholme with a welcoming community vibe.\"}",
+  "served": "gpt-5.6-luna",
+  "status": "OK",
+  "tok_cache_write": 0,
+  "tok_cached": 0,
+  "tok_in": 792,
+  "tok_out": 33,
+  "tok_reasoning": 0,
+  "usd": 0.000198,
+  "vendor": "openai",
+  "view_chars": 2049,
+  "view_lines": 12,
+  "when": "2026-09-20T14:48:11"
+ }
+}

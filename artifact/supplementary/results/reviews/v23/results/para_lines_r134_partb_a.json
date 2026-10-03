@@ -1,0 +1,330 @@
+[
+ {
+  "line": 237,
+  "section": "Setup",
+  "head": "the main backends are",
+  "tail": "turn it off. appendix",
+  "lines": 7,
+  "page": 4,
+  "margin": 173,
+  "straddles_pages": false
+ },
+ {
+  "line": 239,
+  "section": "Setup",
+  "head": "the models are gpt-4.1",
+  "tail": "a coverage note there.",
+  "lines": 5,
+  "page": 4,
+  "margin": 182,
+  "straddles_pages": false
+ },
+ {
+  "line": 243,
+  "section": "Setup",
+  "head": "the personas their human-written",
+  "tail": "to the reader. appendix",
+  "lines": 7,
+  "page": 4,
+  "margin": 188,
+  "straddles_pages": false
+ },
+ {
+  "line": 245,
+  "section": "Setup",
+  "head": "a ground-truth summary uses",
+  "tail": "their own fields. appendix",
+  "lines": 5,
+  "page": 4,
+  "margin": 195,
+  "straddles_pages": false
+ },
+ {
+  "line": 248,
+  "section": "Setup",
+  "head": "the counterfactual set asks",
+  "tail": "backend and retrieval comparisons.",
+  "lines": 5,
+  "page": 4,
+  "margin": 201,
+  "straddles_pages": false
+ },
+ {
+  "line": 250,
+  "section": "Setup",
+  "head": "readers return probabilities under",
+  "tail": "all non-active names. appendix",
+  "lines": 5,
+  "page": 4,
+  "margin": 206,
+  "straddles_pages": false
+ },
+ {
+  "line": 253,
+  "section": "Setup",
+  "head": "we score separation by",
+  "tail": "and without the summary.",
+  "lines": 20,
+  "page": 4,
+  "margin": 211,
+  "straddles_pages": true
+ },
+ {
+  "line": 255,
+  "section": "Setup",
+  "head": "question-only probes can recover",
+  "tail": "all data collection. appendix",
+  "lines": 4,
+  "page": 5,
+  "margin": 232,
+  "straddles_pages": false
+ },
+ {
+  "line": 290,
+  "section": "Names and counts",
+  "head": "within a triple a",
+  "tail": "the two they use.",
+  "lines": 8,
+  "page": 5,
+  "margin": 237,
+  "straddles_pages": false
+ },
+ {
+  "line": 293,
+  "section": "Names and counts",
+  "head": "the two smaller models",
+  "tail": "merely guesses the category.",
+  "lines": 4,
+  "page": 5,
+  "margin": 247,
+  "straddles_pages": false
+ },
+ {
+  "line": 296,
+  "section": "Names and counts",
+  "head": "the three stronger models",
+  "tail": "readers follow it. appendix",
+  "lines": 9,
+  "page": 5,
+  "margin": 251,
+  "straddles_pages": false
+ },
+ {
+  "line": 349,
+  "section": "The lookup against the models",
+  "head": "on the named state",
+  "tail": "reader sit near chance.",
+  "lines": 8,
+  "page": 5,
+  "margin": 260,
+  "straddles_pages": false
+ },
+ {
+  "line": 354,
+  "section": "The lookup against the models",
+  "head": "the result survives rewording.",
+  "tail": "than the originals. appendix",
+  "lines": 35,
+  "page": 5,
+  "margin": 269,
+  "straddles_pages": true
+ },
+ {
+  "line": 357,
+  "section": "The lookup against the models",
+  "head": "the stronger models' lead",
+  "tail": "fitted reader's do not.",
+  "lines": 8,
+  "page": 6,
+  "margin": 300,
+  "straddles_pages": false
+ },
+ {
+  "line": 360,
+  "section": "The lookup against the models",
+  "head": "naming all states lifts",
+  "tail": "reliably ahead on both.",
+  "lines": 4,
+  "page": 6,
+  "margin": 308,
+  "straddles_pages": false
+ },
+ {
+  "line": 364,
+  "section": "The lookup against the models",
+  "head": "list length and coverage",
+  "tail": "meaningless tokens within triples.",
+  "lines": 3,
+  "page": 6,
+  "margin": 312,
+  "straddles_pages": false
+ },
+ {
+  "line": 369,
+  "section": "The lookup against the models",
+  "head": "long or wrong name",
+  "tail": "longer store-written ones. appendix",
+  "lines": 4,
+  "page": 6,
+  "margin": 315,
+  "straddles_pages": false
+ },
+ {
+  "line": 413,
+  "section": "When intent licenses old content",
+  "head": "the stated intent rule",
+  "tail": "over deterministic intent handling.",
+  "lines": 24,
+  "page": 6,
+  "margin": 320,
+  "straddles_pages": true
+ },
+ {
+  "line": 416,
+  "section": "When intent licenses old content",
+  "head": "only opus lowers its",
+  "tail": "with the explicit rule.",
+  "lines": 6,
+  "page": 7,
+  "margin": 343,
+  "straddles_pages": false
+ },
+ {
+  "line": 419,
+  "section": "When intent licenses old content",
+  "head": "the explicit rule also",
+  "tail": "rubric at 0.64. appendix",
+  "lines": 4,
+  "page": 7,
+  "margin": 349,
+  "straddles_pages": false
+ },
+ {
+  "line": 424,
+  "section": "What backends write",
+  "head": "backends omit or misstate",
+  "tail": "in our integration table",
+  "lines": 5,
+  "page": 7,
+  "margin": 354,
+  "straddles_pages": false
+ },
+ {
+  "line": 461,
+  "section": "What backends write",
+  "head": "fr-bank's metadata leave mini",
+  "tail": "marks make it. appendix",
+  "lines": 8,
+  "page": 7,
+  "margin": null,
+  "straddles_pages": true
+ },
+ {
+  "line": 465,
+  "section": "What backends write",
+  "head": "graphiti writes part of",
+  "tail": "a reliable loss. appendix",
+  "lines": 5,
+  "page": 8,
+  "margin": 382,
+  "straddles_pages": false
+ },
+ {
+  "line": 468,
+  "section": "What backends write",
+  "head": "mem0 and a-mem lose",
+  "tail": "both stores table appendix",
+  "lines": null,
+  "note": "anchor not found"
+ },
+ {
+  "line": 473,
+  "section": "At retrieval",
+  "head": "the tagged view complements",
+  "tail": "of its summary alone.",
+  "lines": 8,
+  "page": 8,
+  "margin": 393,
+  "straddles_pages": false
+ },
+ {
+  "line": 477,
+  "section": "At retrieval",
+  "head": "fr-bank's own tags help",
+  "tail": "no reliable improvement. appendix",
+  "lines": 5,
+  "page": 8,
+  "margin": 404,
+  "straddles_pages": false
+ },
+ {
+  "line": 480,
+  "section": "At retrieval",
+  "head": "the lifecycle fetch supplies",
+  "tail": "the same level table",
+  "lines": 4,
+  "page": 8,
+  "margin": 409,
+  "straddles_pages": false
+ },
+ {
+  "line": 505,
+  "section": "At retrieval",
+  "head": "gating trades budget against",
+  "tail": "records a reliable 0.04.",
+  "lines": 4,
+  "page": 8,
+  "margin": null,
+  "straddles_pages": false
+ },
+ {
+  "line": 508,
+  "section": "At retrieval",
+  "head": "keeping the newest record",
+  "tail": "the attribute it cancels.",
+  "lines": 3,
+  "page": 8,
+  "margin": 427,
+  "straddles_pages": false
+ },
+ {
+  "line": 511,
+  "section": "At retrieval",
+  "head": "active copies complicate the",
+  "tail": "supplying a deployable repair.",
+  "lines": 5,
+  "page": 8,
+  "margin": 430,
+  "straddles_pages": true
+ },
+ {
+  "line": 514,
+  "section": "At retrieval",
+  "head": "the tested rule cannot",
+  "tail": "keys remains open. appendix",
+  "lines": 4,
+  "page": 9,
+  "margin": 435,
+  "straddles_pages": false
+ },
+ {
+  "line": 518,
+  "section": "Replication and the coverage judgment",
+  "head": "the summary's obligation benefit",
+  "tail": "summary kimi included. appendix",
+  "lines": 4,
+  "page": 9,
+  "margin": null,
+  "straddles_pages": false
+ },
+ {
+  "line": 520,
+  "section": "Replication and the coverage judgment",
+  "head": "on the full obligation",
+  "tail": "whole name map. appendix",
+  "lines": 4,
+  "page": 9,
+  "margin": 446,
+  "straddles_pages": false
+ }
+]

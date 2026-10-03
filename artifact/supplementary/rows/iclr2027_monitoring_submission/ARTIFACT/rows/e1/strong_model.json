@@ -1,0 +1,1207 @@
+{
+  "model": "gpt-5.6-sol",
+  "n": 150,
+  "ok": 150,
+  "rows": [
+    {
+      "fok": 0.55,
+      "item_id": "mem0:elena:elena_q11:FULL",
+      "label": "PRESENT",
+      "nok": 0.6,
+      "question": "Does Elena have any upcoming events or deadlines?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "amem:ingrid:ingrid_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.15,
+      "question": "Is Ingrid planning a sabbatical?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "amem:amara:amara_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.15,
+      "question": "Does Amara have any health conditions to be aware of?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "mem0:samuel:samuel_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "question": "What type of surgery does Samuel primarily perform?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.6,
+      "item_id": "frbank:bruna:bruna_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.1,
+      "question": "Does Bruna have any health conditions to be aware of?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "amem:zara:zara_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.72,
+      "question": "Does Zara have any upcoming events or deadlines?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.15,
+      "item_id": "amem:tom:tom_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "question": "Does Tom have any health conditions?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "amem:kofi:kofi_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.55,
+      "question": "Is Kwabena in school?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "mem0:saga:saga_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.15,
+      "question": "What team does Saga work on at Spotify?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "amem:fatima:fatima_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.55,
+      "question": "Is Fatima launching any new products or brands?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.88,
+      "item_id": "mem0:kofi:kofi_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.04,
+      "question": "Who does Kofi's cooperative sell cocoa through?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.58,
+      "item_id": "frbank:thanh:thanh_q13:FULL",
+      "label": "PRESENT",
+      "nok": 0.72,
+      "question": "Does Thanh have any upcoming family events?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "amem:dmitri:dmitri_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.1,
+      "question": "What health issues does Dmitri have?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "mem0:amara:amara_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.08,
+      "question": "Does Amara have any health conditions to be aware of?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "frbank:leila:leila_q11:FULL",
+      "label": "PRESENT",
+      "nok": 0.03,
+      "question": "Has Leila ever been to Bethlehem?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "amem:aroha:aroha_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.06,
+      "question": "What is Aroha's cultural identity?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.25,
+      "item_id": "amem:aroha:aroha_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "question": "What car does Aroha drive?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "amem:elena:elena_q10:FULL",
+      "label": "PRESENT",
+      "nok": 0.58,
+      "question": "Does Elena need to make any lease decisions?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.6,
+      "item_id": "amem:thanh:thanh_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "question": "What boat does Thanh use?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "amem:valentina:valentina_q07:FULL",
+      "label": "PRESENT",
+      "nok": 0.2,
+      "question": "Who is Valentina's partner?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "frbank:raj:raj_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.1,
+      "question": "Does Raj have any health conditions?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.15,
+      "item_id": "mem0:callum:callum_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "question": "Where does Callum work?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "amem:amara:amara_q12:FULL",
+      "label": "PRESENT",
+      "nok": 0.08,
+      "question": "What is Amara's educational background?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "frbank:valentina:valentina_q07:CAT-ABLATED",
+      "label": "PRESENT",
+      "nok": 0.08,
+      "question": "Who is Valentina's partner?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "amem:rosa:rosa_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.08,
+      "question": "Does Rosa have any health conditions?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "mem0:pan:pan_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.08,
+      "question": "Where is Pan's cart located?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "mem0:ingrid:ingrid_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "question": "What is Ingrid's primary research focus?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.85,
+      "item_id": "mem0:mirri:mirri_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.1,
+      "question": "What patrol route does Mirri cover?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "frbank:leila:leila_q09:FULL",
+      "label": "PRESENT",
+      "nok": 0.45,
+      "question": "Is Leila planning to move?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.75,
+      "item_id": "amem:tom:tom_q01:FULL",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "question": "Where does Tom get his honey jars?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "frbank:marley:marley_q10:FULL",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "question": "Who raised Marley?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.2,
+      "item_id": "mem0:amara:amara_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.15,
+      "question": "What phone does Amara use?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:bruna:bruna_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.7,
+      "question": "Does Bruna have any upcoming events or deadlines?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "amem:aisha:aisha_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.1,
+      "question": "What health conditions does Aisha have?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.6,
+      "item_id": "mem0:valentina:valentina_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.25,
+      "question": "Is Valentina writing a book?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "amem:mehmet:mehmet_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.15,
+      "question": "What health issues does Mehmet have?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "mem0:mehmet:mehmet_q06:FULL",
+      "label": "PRESENT",
+      "nok": 0.7,
+      "question": "Does Mehmet have any upcoming events?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "frbank:diane:diane_q09:FULL",
+      "label": "PRESENT",
+      "nok": 0.12,
+      "question": "What's Diane's family situation?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "amem:mehmet:mehmet_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "question": "What pomade brand does Mehmet use in his shop?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "amem:thanh:thanh_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.55,
+      "question": "Does Thanh have any upcoming government inspections?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "mem0:valentina:valentina_q07:FULL",
+      "label": "PRESENT",
+      "nok": 0.15,
+      "question": "Who is Valentina's partner?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "frbank:diane:diane_q08:CAT-ABLATED",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "question": "Where does Diane live?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "frbank:jake:jake_q06:CAT-ABLATED",
+      "label": "PRESENT",
+      "nok": 0.68,
+      "question": "How is Jake doing with his savings?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "amem:fatima:fatima_q02:FULL",
+      "label": "PRESENT",
+      "nok": 0.08,
+      "question": "What type of projects does Fatima's firm focus on?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.25,
+      "item_id": "frbank:fatima:fatima_q09:CAT-ABLATED",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "question": "What's Fatima's family situation?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:diane:diane_q11:FULL",
+      "label": "PRESENT",
+      "nok": 0.08,
+      "question": "What's Diane's educational and spiritual background?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "mem0:callum:callum_q04:FULL",
+      "label": "PRESENT",
+      "nok": 0.1,
+      "question": "Does Callum have any health conditions?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:amara:amara_q12:FULL",
+      "label": "PRESENT",
+      "nok": 0.08,
+      "question": "What is Amara's educational background?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.6,
+      "item_id": "amem:bruna:bruna_q05:FULL",
+      "label": "PRESENT",
+      "nok": 0.75,
+      "question": "Does Bruna have any upcoming events or deadlines?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "mem0:raj:raj_q03:FULL",
+      "label": "PRESENT",
+      "nok": 0.05,
+      "question": "What does Simran do for work?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:frbank:kenji:76606586",
+      "label": "ABSENT",
+      "nok": 0.7,
+      "question": "What was the last movie or TV show you watched for relaxation?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.15,
+      "item_id": "probe:mem0:amara:44980553",
+      "label": "ABSENT",
+      "nok": 0.03,
+      "question": "Can you describe your favorite type of music or a band you enjoy listening to?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "frbank:kenji:kenji_q09:SLOT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.08,
+      "question": "What's Kenji's family situation?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:amem:thanh:51065003",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "question": "What kind of music do you usually listen to when relaxing at home?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "frbank:diane:diane_q11:SLOT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.08,
+      "question": "What's Diane's educational and spiritual background?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.2,
+      "item_id": "probe:mem0:bruna:668680",
+      "label": "ABSENT",
+      "nok": 0.03,
+      "question": "Have you ever taken any art or creative classes, and if so, which ones?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.6,
+      "item_id": "probe:amem:dmitri:94213328",
+      "label": "ABSENT",
+      "nok": 0.45,
+      "question": "What was the last vacation destination you traveled to for leisure, and what activities did you enjoy there?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:mem0:pan:11659441",
+      "label": "ABSENT",
+      "nok": 0.12,
+      "question": "Do you have any pets, and if so, what are their names and breeds?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.25,
+      "item_id": "probe:mem0:mirri:42702693",
+      "label": "ABSENT",
+      "nok": 0.03,
+      "question": "What was the last book you read for pleasure, and what did you enjoy about it?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.25,
+      "item_id": "probe:amem:priya:2470720",
+      "label": "ABSENT",
+      "nok": 0.03,
+      "question": "What was the most memorable concert or live music event you have attended?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:mem0:ingrid:63373877",
+      "label": "ABSENT",
+      "nok": 0.2,
+      "question": "What was the theme of the last art exhibition you visited?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "frbank:raj:raj_q05:SLOT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.68,
+      "question": "Does Raj have any upcoming certifications or deadlines?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:david:david_q09:SLOT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.45,
+      "question": "Is David planning to move?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.6,
+      "item_id": "frbank:callum:callum_q05:CAT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.55,
+      "question": "Does Callum have any upcoming events?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:mem0:yoli:25566548",
+      "label": "ABSENT",
+      "nok": 0.08,
+      "question": "What kind of books or authors do you enjoy reading in your free time?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "frbank:valentina:valentina_q05:CAT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.1,
+      "question": "What mental health conditions does Valentina have?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.2,
+      "item_id": "probe:amem:dmitri:20812477",
+      "label": "ABSENT",
+      "nok": 0.03,
+      "question": "Can you describe your favorite childhood book or story that influenced you growing up?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "frbank:dmitri:dmitri_q03:CAT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.1,
+      "question": "Where does Dmitri live?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "frbank:valentina:valentina_q11:CAT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.58,
+      "question": "Is Valentina applying for the Nieman Fellowship?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "frbank:jake:jake_q03:CAT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "question": "What does Jake's mom do?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:amem:tom:13744835",
+      "label": "ABSENT",
+      "nok": 0.03,
+      "question": "What was the name of the primary school you attended as a child?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:amem:callum:16873796",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "question": "What was your most memorable holiday trip and what activities did you do there?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.25,
+      "item_id": "probe:frbank:joonho:38353346",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "question": "Have you ever traveled abroad for leisure? If so, which country did you enjoy the most?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:mem0:patrick:32972175",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "question": "Have you ever taken any language classes or learned a foreign language? If so, which one and how long did you study it?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.12,
+      "item_id": "probe:amem:priya:97423439",
+      "label": "ABSENT",
+      "nok": 0.02,
+      "question": "Can you describe your favorite childhood toy and why it was special to you?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:mehmet:mehmet_q13:SLOT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "question": "Where did Mehmet learn his craft?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.25,
+      "item_id": "probe:amem:rosa:84851768",
+      "label": "ABSENT",
+      "nok": 0.08,
+      "question": "What is your preferred brand or type of skincare products you use daily?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.02,
+      "item_id": "probe:amem:pan:83136086",
+      "label": "ABSENT",
+      "nok": 0.01,
+      "question": "Can you describe your favorite vacation destination and why you like it?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "frbank:samuel:samuel_q05:CAT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.25,
+      "question": "Does Samuel have any upcoming events?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:amem:billy:16751414",
+      "label": "ABSENT",
+      "nok": 0.08,
+      "question": "Have you ever taken any art classes or pursued any artistic hobbies?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:mem0:rosa:84851768",
+      "label": "ABSENT",
+      "nok": 0.08,
+      "question": "What is your preferred brand or type of skincare products you use daily?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "frbank:diane:diane_q04:CAT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.1,
+      "question": "Does Diane have any health conditions?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:mem0:marcus:58998349",
+      "label": "ABSENT",
+      "nok": 0.45,
+      "question": "What was the title of the last book you read for pleasure?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "frbank:nadia:nadia_q07:CAT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.08,
+      "question": "Would Nadia ever open her own restaurant?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.6,
+      "item_id": "probe:frbank:zara:69057771",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "question": "What kind of pet do you have, and what is its name?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "frbank:zara:zara_q06:CAT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.65,
+      "question": "Does Zara have any upcoming events or deadlines?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:mirri:mirri_q05:CAT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.1,
+      "question": "What health conditions does Mirri have?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:frbank:kofi:87324398",
+      "label": "ABSENT",
+      "nok": 0.1,
+      "question": "Do you have any pets at home? If yes, what kind and how many?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:amem:thanh:59460199",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "question": "What kind of books or magazines do you enjoy reading in your free time?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.25,
+      "item_id": "probe:amem:billy:68502554",
+      "label": "ABSENT",
+      "nok": 0.03,
+      "question": "Can you describe your favorite meal to cook at home?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:mem0:priya:52584083",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "question": "Have you ever taken any art or music classes, and if so, what did you learn?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:mem0:callum:74122240",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "question": "Have you ever taken any language classes, and if so, which language and how far did you get?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "frbank:tom:tom_q04:CAT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.1,
+      "question": "Does Tom have any health conditions?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:amem:lily:2587190",
+      "label": "ABSENT",
+      "nok": 0.55,
+      "question": "What was the title and author of the last novel you read purely for pleasure?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.75,
+      "item_id": "frbank:chenoa:chenoa_q06:SLOT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.7,
+      "question": "Does Chenoa have any upcoming certifications or deadlines?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.75,
+      "item_id": "frbank:valentina:valentina_q05:SLOT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.1,
+      "question": "What mental health conditions does Valentina have?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.85,
+      "item_id": "frbank:aroha:aroha_q05:CAT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.08,
+      "question": "What is Aroha's cultural identity?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:amem:kenji:17309019",
+      "label": "ABSENT",
+      "nok": 0.08,
+      "question": "Do you have any pets? If yes, what are their names and breeds?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:frbank:amara:44980553",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "question": "Can you describe your favorite type of music or a band you enjoy listening to?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.25,
+      "item_id": "probe:amem:billy:51592303",
+      "label": "ABSENT",
+      "nok": 0.03,
+      "question": "Do you have any pets at home? If so, what kind and what are their names?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.15,
+      "item_id": "frbank:david:david_q05:SLOT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "question": "What health conditions does David have?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.15,
+      "item_id": "frbank:samuel:samuel_q12:CAT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.03,
+      "question": "What are Samuel's credentials?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.18,
+      "item_id": "probe:mem0:dmitri:20812477",
+      "label": "ABSENT",
+      "nok": 0.02,
+      "question": "Can you describe your favorite childhood book or story that influenced you growing up?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:amem:joonho:6283392",
+      "label": "ABSENT",
+      "nok": 0.08,
+      "question": "Do you have any pets at home? If yes, what kind and what are their names?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.15,
+      "item_id": "frbank:samuel:samuel_q12:SLOT-ABLATED",
+      "label": "ABSENT",
+      "nok": 0.03,
+      "question": "What are Samuel's credentials?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.2,
+      "item_id": "probe:mem0:tom:55024768",
+      "label": "ABSENT",
+      "nok": 0.03,
+      "question": "Do you have any favorite travel destinations or memorable trips you've taken?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:frbank:patrick:32972175",
+      "label": "ABSENT",
+      "nok": 0.08,
+      "question": "Have you ever taken any language classes or learned a foreign language? If so, which one and how long did you study it?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "probe:frbank:aisha:51065003",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "question": "What kind of music do you usually listen to when relaxing at home?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "probe:mem0:raj:22772083",
+      "label": "ABSENT",
+      "nok": 0.12,
+      "question": "Do you have any pets at home? If so, what are their names and breeds?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.3,
+      "item_id": "probe:frbank:kenji:72579794",
+      "label": "ABSENT",
+      "nok": 0.05,
+      "question": "What kind of plants or flowers do you keep in your living space?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:david:david_q06:CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.75,
+      "question": "Does David have any upcoming exams to prepare students for?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "frbank:fatima:fatima_q06:SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.4,
+      "question": "Is Fatima launching any new products or brands?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.3,
+      "question": "Is Dariush opening a second practice in La Jolla?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.75,
+      "item_id": "frbank:fatima:fatima_q02:SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.05,
+      "question": "What type of projects does Fatima's firm focus on?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "frbank:tom:tom_q06:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.1,
+      "question": "Is Tom planning any building projects?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "frbank:nadia:nadia_q02:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.1,
+      "question": "Where does Nadia live?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:mirri:mirri_q04:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.1,
+      "question": "Is Mirri writing a children's book?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.85,
+      "item_id": "frbank:zara:zara_q02:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.05,
+      "question": "What fitness activity does Zara do?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:valentina:valentina_q04:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.1,
+      "question": "Is Valentina writing a book?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "frbank:nadia:nadia_q06:SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.48,
+      "question": "Is Nadia planning to stage at Noma?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.05,
+      "question": "What fertilizer does Kofi use?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:thanh:thanh_q02:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.7,
+      "question": "Does Thanh have any upcoming government inspections?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.85,
+      "item_id": "frbank:kofi:kofi_q01:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.05,
+      "question": "Who does Kofi's cooperative sell cocoa through?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "frbank:joonho:joonho_q01:SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.06,
+      "question": "What level of go students does Joon-ho teach?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:elena:elena_q05:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.7,
+      "question": "Does Elena have any upcoming exams or certifications?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:zara:zara_q02:CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.05,
+      "question": "What fitness activity does Zara do?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.75,
+      "item_id": "frbank:mirri:mirri_q01:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.05,
+      "question": "What patrol route does Mirri cover?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:mehmet:mehmet_q02:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.08,
+      "question": "What pomade brand does Mehmet use in his shop?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.7,
+      "item_id": "frbank:bruna:bruna_q06:CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.3,
+      "question": "Is Bruna planning to get any new certifications?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:aisha:aisha_q03:SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.08,
+      "question": "Who does Aisha live with?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.15,
+      "item_id": "frbank:bruna:bruna_q11:CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.05,
+      "question": "Is Bruna registered for any races or sporting events?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:david:david_q06:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.7,
+      "question": "Does David have any upcoming exams to prepare students for?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "frbank:raj:raj_q02:SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.2,
+      "question": "What sports package does Raj use?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "frbank:david:david_q11:CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.55,
+      "question": "Does David have any parent events coming up?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.25,
+      "item_id": "frbank:thanh:thanh_q02:CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.65,
+      "question": "Does Thanh have any upcoming government inspections?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "frbank:pan:pan_q01:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.05,
+      "question": "Where does Pan buy her rice?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.75,
+      "item_id": "frbank:amara:amara_q03:SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.05,
+      "question": "What exercise does Amara do?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "frbank:kenji:kenji_q03:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.15,
+      "question": "Where does Kenji work?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.08,
+      "question": "Is Joon-ho writing a textbook?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:marcus:marcus_q10:CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.6,
+      "question": "Does Marcus have any equipment deliveries coming?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.82,
+      "item_id": "frbank:mirri:mirri_q04:CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.08,
+      "question": "Is Mirri writing a children's book?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.25,
+      "item_id": "frbank:fatima:fatima_q06:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.15,
+      "question": "Is Fatima launching any new products or brands?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "frbank:nadia:nadia_q02:CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.08,
+      "question": "Where does Nadia live?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.35,
+      "item_id": "frbank:aisha:aisha_q01:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.15,
+      "question": "What team is Aisha on at PwC?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.55,
+      "item_id": "frbank:rosa:rosa_q06:CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.55,
+      "question": "Is Rosa planning to travel to Peru?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "frbank:valentina:valentina_q03:FULL",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.1,
+      "question": "Does Valentina smoke?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.45,
+      "item_id": "frbank:ingrid:ingrid_q01:CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.05,
+      "question": "What is Ingrid's primary research focus?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.72,
+      "item_id": "frbank:jerome:jerome_q02:SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.06,
+      "question": "What company does Jerome drive for?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.82,
+      "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.08,
+      "question": "Is Mirri writing a children's book?",
+      "status": "OK"
+    },
+    {
+      "fok": 0.65,
+      "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "nok": 0.2,
+      "question": "Is Ingrid planning a sabbatical?",
+      "status": "OK"
+    }
+  ]
+}

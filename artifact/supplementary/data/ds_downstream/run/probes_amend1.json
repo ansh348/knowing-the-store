@@ -1,0 +1,15 @@
+{
+ "ELICIT": {
+  "identifier_ok": true,
+  "item_id": "frbank:bruna:bruna_q06:FULL",
+  "sample": "{\"fok\":20, \"nok_candidates_found\":false, \"nok\":0, \"would_search\":true}",
+  "served": "gpt-4.1-mini-2025-04-14",
+  "state": "ret",
+  "status": "OK",
+  "tok_in": 1636,
+  "tok_out": 24,
+  "usd": 0.0006928,
+  "v3_lines": 67,
+  "when": "2026-09-13T18:04:26"
+ }
+}

@@ -1,0 +1,98 @@
+% moved_tables_v18.tex -- three tables the author's trim order of 2026-09-15 moved out of the body (read by reviews/v18/tools/appendix_v18.py by
+% their %%BLOCK markers): the run-coverage table (to Appendix A), the rows of Section 6's Table 3 that leave the body (to E.10), and the lower
+% block of Section 8's Table 7 (to E.10). Every number is as it stood in the body; keys in the block comments.
+
+%%BLOCK RUNS
+%% R110: the run-coverage table (CC_PASS_v18 section 3.5), moved here from Section 4 by the author's trim order of 2026-09-15; cells verified against r74/NUMBERS_R74.md (X4; D-R74-6) and the cross-vendor record.
+\begin{table}[H]
+\caption{Run coverage, model by question set, in the words of the run records. Two runs stopped at the budget on the full populations, so their complete rows are on the cross-model set; three models ran on the counterfactual set.}
+\label{tab:runs}
+\centering
+\tiny
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}llllllp{0.24\linewidth}@{}}
+\toprule
+Model & Vendor & Counterfactual ($444$) & Full obligation ($661$) & Coverage ($307$) & Cross-model ($84$) & Scoring \\
+\midrule
+GPT-4.1 mini & OpenAI & ran & ran (the main study) & ran & ran & one call, temperature $0$ \\
+Haiku 4.5 & Anthropic & ran & ran & ran & ran & five calls, temperature $0$ \\
+Opus 5 & Anthropic & ran & ran & ran & ran & five calls, provider default; one call on the expiry extension \\
+GPT-5.6 Luna & OpenAI & not run & ran & ran & ran & five calls, provider default \\
+GPT-5.6 Sol & OpenAI & not run & stopped at the budget & stopped at the budget & ran & five calls \\
+Kimi K3 & Moonshot & not run & stopped at the budget & stopped at the budget & ran & five calls \\
+\bottomrule
+\end{tabular}
+\end{table}
+%%END
+
+%%BLOCK ROUTES_FULL
+%% R110: the rows of Section 6's Table 3 that the author's trim order of 2026-09-15 moved here: Haiku 4.5 on the retrieved-view monitors (AUX-RESP-A1-H45-HYBRID, -H45-RETRIEVED) and the four readers with no model in them under the join's tags (AUX-R110-A2).
+\begin{table}[H]
+\caption{The retrieved view, the rows Section 6's table leaves out: Haiku 4.5 on the view and on summary plus view under the join's tags, and the four readers with no model in them under the join's tags (tag density, the tagged-name lookup, the forbidding-record indicator, the hybrid of the superseded-names lookup with the tagged-name lookup), each against the monitor that saw the same input. $\Delta$ is the reader minus the comparison named in the row, with both intervals.}
+\label{tab:routes-full}
+\centering
+\tiny
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}llrrrll@{}}
+\toprule
+Reader & compared with & Comparison & Reader & $\Delta$ & item interval & profile interval \\
+\midrule
+Haiku, view (join's tags) & its summary alone & $0.8210$ & $0.7134$ & $-0.1077$ & $[-0.1732,-0.0369]$ & $[-0.1939,-0.0203]$ \\
+Haiku, summary plus view (join's tags) & its summary alone & $0.8210$ & $0.7863$ & $-0.0347$ & $[-0.0930,+0.0248]$ & $[-0.1109,+0.0433]$ \\
+Tag density (join's tags) & the view monitor (mini) & $0.6851$ & $0.6157$ & $+0.0694$ & $[+0.0375,+0.1053]$ & $[+0.0257,+0.1103]$ \\
+Tagged-name lookup (join's tags) & the same & $0.6851$ & $0.6313$ & $+0.0538$ & $[+0.0232,+0.0899]$ & $[+0.0110,+0.0951]$ \\
+Forbidding-record indicator (join's tags) & the same & $0.6851$ & $0.6683$ & $+0.0168$ & $[-0.0192,+0.0572]$ & $[-0.0380,+0.0784]$ \\
+Hybrid lookup (join's tags) & summary plus view (mini) & $0.8303$ & $0.7708$ & $+0.0595$ & $[-0.0005,+0.1228]$ & $[-0.0198,+0.1498]$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+%%END
+
+%%BLOCK DS_LOWER
+%% R110: the lower block of Section 8's Table 7, moved here by the author's trim order of 2026-09-15 (AUX-R104-REACH, AUX-DS-POLICIES, AUX-DS-VIEWSIZE, AUX-DS-AUDIT-RATES; the all-states row AUX-DS-A1-*).
+\begin{table}[H]
+\caption{The downstream policies, the columns Section 8's table leaves out: the items on which each rule fires, the reach of the forbidding record as a rate (of $104$ obligations), the Wilson interval of the stale rate over the reached scorable obligations (GPT-4.1 mini, the detector at $0.50$), the mean view size on the obligations, tagged records, and coverage of the $174$ licensed items (record in view without abstention).}
+\label{tab:ds-body-lower}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrlrrr@{}}
+\toprule
+Policy & fires & reach rate; Wilson interval of the stale rate & mean view & tagged & coverage (of $174$) \\
+\midrule
+Top-5 retrieval & $0$ & $0.5192$; $[0.100,0.333]$ & $5.00$ & $35$ & $65$ \\
+Model rule & $75$ & $0.8173$; $[0.067,0.234]$ & $7.08$ & $66$ & $60$ \\
+Lookup rule & $77$ & $0.8173$; $[0.048,0.208]$ & $6.88$ & $66$ & $56$ \\
+Model rule, all states named and scored & $110$ & $0.8558$; -- & $11.42$ & $72$ & $60$ \\
+Literal lookup rule (descriptive) & $184$ & $0.9038$; $[0.095,0.253]$ & $7.42$ & $75$ & $65$ \\
+Oracle & $104$ & $0.9519$; $[0.119,0.284]$ & $7.07$ & $82$ & $65$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+%%END
+
+%%BLOCK POPULATIONS
+%% R110: the population list (OUTLINE.md section C), moved here from Section 4 by the author's trim order of 2026-09-15; the names are the only way the body refers to a population (P2).
+\begin{table}[H]
+\caption{The populations by name, with their sizes and what each isolates. The body refers to a population by these names only.}
+\label{tab:populations}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}p{0.2\linewidth}p{0.3\linewidth}p{0.46\linewidth}@{}}
+\toprule
+Name & $n$ & Definition \\
+\midrule
+the counterfactual set & $444$ items ($148$ questions, three store versions each; $148$ positives: $88$ supersession, $30$ retraction, $30$ expiry) & the same question asked of three versions of one store that differ in one attribute \\
+the expiry extension & $42$ items ($14$ pairs; pooled with the counterfactual set's $30$ expiry pairs: $44$) & the eligible expiry pairs the first draw left undrawn, built by the same construction \\
+the full obligation set & $661$ questions ($104$ obligations: $63$ supersession, $26$ retraction, $15$ expiry) & the hard tier's $307$ questions and the easy tier's $354$ together \\
+the coverage set & $307$ questions ($35$ non-\absent{}) & the hard tier; every coverage positive is an obligation \\
+the easy tier & $354$ questions ($243$ non-\absent{}, $69$ obligations) & a whole category removed for absence; joins the hard tier in the full obligation set \\
+the cross-model set & $84$ questions ($54$ FOK-positive, $40$ obligations) & the same questions asked of every model \\
+the authorship-matched set & $36$ questions ($12$ obligations) & every question rewritten in one voice \\
+the licensed items & $174$ & the downstream experiment's answerable items \\
+the scorable obligations & $89$ & the downstream obligations the detector can score \\
+\bottomrule
+\end{tabular}
+\end{table}
+%%END

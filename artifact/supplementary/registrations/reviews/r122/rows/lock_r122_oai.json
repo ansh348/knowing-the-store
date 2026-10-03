@@ -1,0 +1,72 @@
+{
+ "cap_usd_batch": 5.0,
+ "cell": 444,
+ "lanes": {
+  "MINI5": {
+   "arms": [
+    "INDEXED-V2",
+    "INDEXED-V3"
+   ],
+   "k": 5,
+   "kind": "chat",
+   "max_tokens": 200,
+   "model": "gpt-4.1-mini",
+   "probe_line": 0.0015,
+   "prompt": "P0",
+   "reg": "ADDENDUM_R122_MINI_K5.md",
+   "task": "T3",
+   "temperature": null
+  },
+  "P1LUNA": {
+   "arms": [
+    "INDEXED-V2"
+   ],
+   "k": 5,
+   "kind": "raw",
+   "max_completion_tokens": 2048,
+   "model": "gpt-5.6-luna",
+   "probe_line": 0.001,
+   "prompt": "P1",
+   "reg": "ADDENDUM_R122_CF2_P1.md",
+   "task": "T4",
+   "temperature": null
+  },
+  "P1MINI": {
+   "arms": [
+    "INDEXED-V2"
+   ],
+   "k": 1,
+   "kind": "chat",
+   "max_tokens": 200,
+   "model": "gpt-4.1-mini",
+   "probe_line": 0.0015,
+   "prompt": "P1",
+   "reg": "ADDENDUM_R122_CF2_P1.md",
+   "task": "T4",
+   "temperature": 0.0
+  }
+ },
+ "order": "draw-major per lane, 8 workers; lane order P1MINI, P1LUNA, MINI5",
+ "p0_file_sha256": "337d37d3414c04823d28ad99eeab15c34e328e60198d68625452ebf330830b84",
+ "p0_texts_sha256": "35d9b968ffc0b008289a59b06f10b7d23f71658c648dd2865a46e8da15d495f2",
+ "p1_system_sha256": "c3c9a8e2b9798b50aa5a8f091f382b550e296f973f0c9af09d7fa38442cc7ce4",
+ "prices_per_million": {
+  "gpt-4.1-mini": {
+   "cached": 0.1,
+   "inp": 0.4,
+   "out": 1.6,
+   "write_mult": 1.0
+  },
+  "gpt-5.6-luna": {
+   "cached": 0.02,
+   "inp": 0.2,
+   "out": 1.2,
+   "write_mult": 1.25
+  }
+ },
+ "registrations": {
+  "ADDENDUM_R122_CF2_P1.md": "f8a42bf52274caea9c79515e0b57b25f9c6346bac218a943500c52c1fbbb6df5",
+  "ADDENDUM_R122_MINI_K5.md": "953e94a2616cf3edea0e4ca2acd2f51459ec0671004e4ddc20b202df54019f17"
+ },
+ "when": "2026-09-19T15:57:10"
+}

@@ -1,0 +1,4129 @@
+{
+  "membership": [
+    {
+      "current": "Moved to advisory — deals and transactions team",
+      "entry_id": "lb_00004",
+      "entry_text": "User works in audit at PwC in Manchester at a junior level",
+      "is_active": false,
+      "key": [
+        "aisha",
+        "aisha_q01",
+        "lb_00004"
+      ],
+      "persona": "aisha",
+      "question_id": "aisha_q01",
+      "signal": 1.0,
+      "superseded": "Works in audit at PwC Manchester"
+    },
+    {
+      "current": "Moved to advisory — deals and transactions team",
+      "entry_id": "lb_00008",
+      "entry_text": "User works in audit at PwC in Manchester at a junior level",
+      "is_active": false,
+      "key": [
+        "aisha",
+        "aisha_q01",
+        "lb_00008"
+      ],
+      "persona": "aisha",
+      "question_id": "aisha_q01",
+      "signal": 1.0,
+      "superseded": "Works in audit at PwC Manchester"
+    },
+    {
+      "current": "Switched to a women-only gym in Rusholme — more comfortable",
+      "entry_id": "lb_00131",
+      "entry_text": "User goes to PureGym near Piccadilly, which is a 24-hour gym about a 10-minute walk from their office.",
+      "is_active": false,
+      "key": [
+        "aisha",
+        "aisha_q02",
+        "lb_00131"
+      ],
+      "persona": "aisha",
+      "question_id": "aisha_q02",
+      "signal": 0.8,
+      "superseded": "Goes to PureGym near Piccadilly — 3x a week"
+    },
+    {
+      "current": "Switched to a women-only gym in Rusholme — more comfortable",
+      "entry_id": "lb_00139",
+      "entry_text": "User goes to PureGym near Piccadilly, which is a 24-hour gym about 10 minutes from their office.",
+      "is_active": true,
+      "key": [
+        "aisha",
+        "aisha_q02",
+        "lb_00139"
+      ],
+      "persona": "aisha",
+      "question_id": "aisha_q02",
+      "signal": 0.8,
+      "superseded": "Goes to PureGym near Piccadilly — 3x a week"
+    },
+    {
+      "current": "Zara moved out — new roommate Priya moved in",
+      "entry_id": "lb_00157",
+      "entry_text": "User lives in a flat in Ancoats with a flatmate named Zara",
+      "is_active": true,
+      "key": [
+        "aisha",
+        "aisha_q03",
+        "lb_00157"
+      ],
+      "persona": "aisha",
+      "question_id": "aisha_q03",
+      "signal": 1.0,
+      "superseded": "Lives with roommate Zara in a flat in Ancoats"
+    },
+    {
+      "current": "Zara moved out — new roommate Priya moved in",
+      "entry_id": "lb_00161",
+      "entry_text": "User lives in Ancoats in a new build flat with Zara.",
+      "is_active": false,
+      "key": [
+        "aisha",
+        "aisha_q03",
+        "lb_00161"
+      ],
+      "persona": "aisha",
+      "question_id": "aisha_q03",
+      "signal": 1.0,
+      "superseded": "Lives with roommate Zara in a flat in Ancoats"
+    },
+    {
+      "current": "Zara moved out — new roommate Priya moved in",
+      "entry_id": "lb_00413",
+      "entry_text": "User currently lives in Manchester, sharing a nice 2-bedroom flat in Ancoats.",
+      "is_active": false,
+      "key": [
+        "aisha",
+        "aisha_q03",
+        "lb_00413"
+      ],
+      "persona": "aisha",
+      "question_id": "aisha_q03",
+      "signal": 1.0,
+      "superseded": "Lives with roommate Zara in a flat in Ancoats"
+    },
+    {
+      "current": "Dropped running, switched to boxing at a gym in Bethnal Green",
+      "entry_id": "lb_00034",
+      "entry_text": "User runs a 5K in Victoria Park three mornings a week on Monday, Wednesday, and Friday.",
+      "is_active": false,
+      "key": [
+        "amara",
+        "amara_q03",
+        "lb_00034"
+      ],
+      "persona": "amara",
+      "question_id": "amara_q03",
+      "signal": 1.0,
+      "superseded": "Runs 5K three mornings a week in Victoria Park"
+    },
+    {
+      "current": "Dropped running, switched to boxing at a gym in Bethnal Green",
+      "entry_id": "lb_00036",
+      "entry_text": "User runs a 5K in Victoria Park three mornings a week — Monday, Wednesday, Friday.",
+      "is_active": false,
+      "key": [
+        "amara",
+        "amara_q03",
+        "lb_00036"
+      ],
+      "persona": "amara",
+      "question_id": "amara_q03",
+      "signal": 1.0,
+      "superseded": "Runs 5K three mornings a week in Victoria Park"
+    },
+    {
+      "current": "Dropped running, switched to boxing at a gym in Bethnal Green",
+      "entry_id": "lb_00038",
+      "entry_text": "User runs a 5K in Victoria Park three mornings a week—Monday, Wednesday, and Friday.",
+      "is_active": false,
+      "key": [
+        "amara",
+        "amara_q03",
+        "lb_00038"
+      ],
+      "persona": "amara",
+      "question_id": "amara_q03",
+      "signal": 1.0,
+      "superseded": "Runs 5K three mornings a week in Victoria Park"
+    },
+    {
+      "current": "Dropped running, switched to boxing at a gym in Bethnal Green",
+      "entry_id": "lb_00040",
+      "entry_text": "User runs a 5K in Victoria Park three mornings a week—Monday, Wednesday, Friday.",
+      "is_active": false,
+      "key": [
+        "amara",
+        "amara_q03",
+        "lb_00040"
+      ],
+      "persona": "amara",
+      "question_id": "amara_q03",
+      "signal": 1.0,
+      "superseded": "Runs 5K three mornings a week in Victoria Park"
+    },
+    {
+      "current": "Dropped running, switched to boxing at a gym in Bethnal Green",
+      "entry_id": "lb_00044",
+      "entry_text": "User runs a 5K in Victoria Park three mornings a week: Monday, Wednesday, and Friday.",
+      "is_active": true,
+      "key": [
+        "amara",
+        "amara_q03",
+        "lb_00044"
+      ],
+      "persona": "amara",
+      "question_id": "amara_q03",
+      "signal": 1.0,
+      "superseded": "Runs 5K three mornings a week in Victoria Park"
+    },
+    {
+      "current": "Dropped running, switched to boxing at a gym in Bethnal Green",
+      "entry_id": "lb_00222",
+      "entry_text": "User used to run three mornings a week, 5K around Victoria Park, but has given it up.",
+      "is_active": false,
+      "key": [
+        "amara",
+        "amara_q03",
+        "lb_00222"
+      ],
+      "persona": "amara",
+      "question_id": "amara_q03",
+      "signal": 0.8333,
+      "superseded": "Runs 5K three mornings a week in Victoria Park"
+    },
+    {
+      "current": "Dropped running, switched to boxing at a gym in Bethnal Green",
+      "entry_id": "lb_00225",
+      "entry_text": "User previously ran three mornings a week, 5K around Victoria Park, but has given it up.",
+      "is_active": true,
+      "key": [
+        "amara",
+        "amara_q03",
+        "lb_00225"
+      ],
+      "persona": "amara",
+      "question_id": "amara_q03",
+      "signal": 0.8333,
+      "superseded": "Runs 5K three mornings a week in Victoria Park"
+    },
+    {
+      "current": "Switched to a Toyota Aqua hybrid — saves on petrol for rural callouts",
+      "entry_id": "lb_00082",
+      "entry_text": "User drives a 2017 Mazda hatchback.",
+      "is_active": false,
+      "key": [
+        "aroha",
+        "aroha_q03",
+        "lb_00082"
+      ],
+      "persona": "aroha",
+      "question_id": "aroha_q03",
+      "signal": 1.0,
+      "superseded": "Drives a 2017 Mazda 3 hatchback"
+    },
+    {
+      "current": "Switched to a Toyota Aqua hybrid — saves on petrol for rural callouts",
+      "entry_id": "lb_00085",
+      "entry_text": "User drives a 2017 Mazda hatchback",
+      "is_active": false,
+      "key": [
+        "aroha",
+        "aroha_q03",
+        "lb_00085"
+      ],
+      "persona": "aroha",
+      "question_id": "aroha_q03",
+      "signal": 1.0,
+      "superseded": "Drives a 2017 Mazda 3 hatchback"
+    },
+    {
+      "current": "Switched to a Toyota Aqua hybrid — saves on petrol for rural callouts",
+      "entry_id": "lb_00088",
+      "entry_text": "User drives a 2017 Mazda hatchback which is reliable but fuel costs are high due to frequent long-distance travel.",
+      "is_active": false,
+      "key": [
+        "aroha",
+        "aroha_q03",
+        "lb_00088"
+      ],
+      "persona": "aroha",
+      "question_id": "aroha_q03",
+      "signal": 1.0,
+      "superseded": "Drives a 2017 Mazda 3 hatchback"
+    },
+    {
+      "current": "Switched to a Toyota Aqua hybrid — saves on petrol for rural callouts",
+      "entry_id": "lb_00091",
+      "entry_text": "User drives a 2017 Mazda hatchback for work.",
+      "is_active": false,
+      "key": [
+        "aroha",
+        "aroha_q03",
+        "lb_00091"
+      ],
+      "persona": "aroha",
+      "question_id": "aroha_q03",
+      "signal": 1.0,
+      "superseded": "Drives a 2017 Mazda 3 hatchback"
+    },
+    {
+      "current": "Dropped the dry needling course — decided it doesn't align with her treatment philosophy",
+      "entry_id": "lb_00174",
+      "entry_text": "User enrolled in a dry needling certification course starting in April 2025",
+      "is_active": false,
+      "key": [
+        "bruna",
+        "bruna_q06",
+        "lb_00174"
+      ],
+      "persona": "bruna",
+      "question_id": "bruna_q06",
+      "signal": 1.0,
+      "superseded": "Planning to get certified in dry needling — enrolled in a course starting April 2025"
+    },
+    {
+      "current": "Dropped the dry needling course — decided it doesn't align with her treatment philosophy",
+      "entry_id": "lb_00185",
+      "entry_text": "User is a physical therapist planning to get certified in dry needling through the Dubai Physiotherapy Association with an Australian instructor.",
+      "is_active": false,
+      "key": [
+        "bruna",
+        "bruna_q06",
+        "lb_00185"
+      ],
+      "persona": "bruna",
+      "question_id": "bruna_q06",
+      "signal": 1.0,
+      "superseded": "Planning to get certified in dry needling — enrolled in a course starting April 2025"
+    },
+    {
+      "current": "Dubai Marathon on January 10, 2025 — she's registered to run",
+      "entry_id": "lb_00103",
+      "entry_text": "User ran the Dubai Marathon ten days ago.",
+      "is_active": true,
+      "key": [
+        "bruna",
+        "bruna_q11",
+        "lb_00103"
+      ],
+      "persona": "bruna",
+      "question_id": "bruna_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Dubai Marathon on January 10, 2025 — she's registered to run",
+      "entry_id": "lb_00104",
+      "entry_text": "User ran the Dubai Marathon on January 10th and finished in 4:12.",
+      "is_active": false,
+      "key": [
+        "bruna",
+        "bruna_q11",
+        "lb_00104"
+      ],
+      "persona": "bruna",
+      "question_id": "bruna_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Dubai Marathon on January 10, 2025 — she's registered to run",
+      "entry_id": "lb_00108",
+      "entry_text": "User ran the Dubai Marathon on January 10, 2025",
+      "is_active": true,
+      "key": [
+        "bruna",
+        "bruna_q11",
+        "lb_00108"
+      ],
+      "persona": "bruna",
+      "question_id": "bruna_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Dubai Marathon on January 10, 2025 — she's registered to run",
+      "entry_id": "lb_00109",
+      "entry_text": "User finished the Dubai Marathon in 4 hours and 12 minutes",
+      "is_active": true,
+      "key": [
+        "bruna",
+        "bruna_q11",
+        "lb_00109"
+      ],
+      "persona": "bruna",
+      "question_id": "bruna_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Dubai Marathon on January 10, 2025 — she's registered to run",
+      "entry_id": "lb_00119",
+      "entry_text": "User completed a marathon on January 10th with a time of 4:12",
+      "is_active": true,
+      "key": [
+        "bruna",
+        "bruna_q11",
+        "lb_00119"
+      ],
+      "persona": "bruna",
+      "question_id": "bruna_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Traditional medicine program is dead — tribal council politics killed it",
+      "entry_id": "lb_00233",
+      "entry_text": "User attempted to create an official traditional medicine integration program at an IHS clinic but it was rejected by the tribal council.",
+      "is_active": true,
+      "key": [
+        "chenoa",
+        "chenoa_q04",
+        "lb_00233"
+      ],
+      "persona": "chenoa",
+      "question_id": "chenoa_q04",
+      "signal": 1.0,
+      "superseded": "Planning to open a traditional medicine integration program at the clinic"
+    },
+    {
+      "current": "La Jolla second practice is off the table — too much overhead",
+      "entry_id": "lb_00149",
+      "entry_text": "User is considering opening a second practice location in La Jolla",
+      "is_active": false,
+      "key": [
+        "dariush",
+        "dariush_q04",
+        "lb_00149"
+      ],
+      "persona": "dariush",
+      "question_id": "dariush_q04",
+      "signal": 1.0,
+      "superseded": "Planning to open a second practice location in La Jolla"
+    },
+    {
+      "current": "La Jolla second practice is off the table — too much overhead",
+      "entry_id": "lb_00159",
+      "entry_text": "User is a periodontist with a current practice and is considering opening a second practice location in La Jolla.",
+      "is_active": true,
+      "key": [
+        "dariush",
+        "dariush_q04",
+        "lb_00159"
+      ],
+      "persona": "dariush",
+      "question_id": "dariush_q04",
+      "signal": 1.0,
+      "superseded": "Planning to open a second practice location in La Jolla"
+    },
+    {
+      "current": "La Jolla second practice is off the table — too much overhead",
+      "entry_id": "lb_00160",
+      "entry_text": "User currently splits time between two practice locations, spending three days at the original location and two days at the La Jolla location.",
+      "is_active": false,
+      "key": [
+        "dariush",
+        "dariush_q04",
+        "lb_00160"
+      ],
+      "persona": "dariush",
+      "question_id": "dariush_q04",
+      "signal": 1.0,
+      "superseded": "Planning to open a second practice location in La Jolla"
+    },
+    {
+      "current": "La Jolla second practice is off the table — too much overhead",
+      "entry_id": "lb_00162",
+      "entry_text": "User is planning to open a second periodontal surgical suite in La Jolla on Prospect Street.",
+      "is_active": true,
+      "key": [
+        "dariush",
+        "dariush_q04",
+        "lb_00162"
+      ],
+      "persona": "dariush",
+      "question_id": "dariush_q04",
+      "signal": 1.0,
+      "superseded": "Planning to open a second practice location in La Jolla"
+    },
+    {
+      "current": "AP Euro exam May 8 — students need to be ready",
+      "entry_id": "lb_00171",
+      "entry_text": "User has an AP European History exam on May 8.",
+      "is_active": true,
+      "key": [
+        "david",
+        "david_q06",
+        "lb_00171"
+      ],
+      "persona": "david",
+      "question_id": "david_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "AP Euro exam May 8 — students need to be ready",
+      "entry_id": "lb_00172",
+      "entry_text": "User has a major exam for AP European History scheduled on May 8.",
+      "is_active": true,
+      "key": [
+        "david",
+        "david_q06",
+        "lb_00172"
+      ],
+      "persona": "david",
+      "question_id": "david_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "AP Euro exam May 8 — students need to be ready",
+      "entry_id": "lb_00173",
+      "entry_text": "User's AP European History exam is on May 8, 2025",
+      "is_active": false,
+      "key": [
+        "david",
+        "david_q06",
+        "lb_00173"
+      ],
+      "persona": "david",
+      "question_id": "david_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "AP Euro exam May 8 — students need to be ready",
+      "entry_id": "lb_00175",
+      "entry_text": "User's AP European History exam is on May 8.",
+      "is_active": true,
+      "key": [
+        "david",
+        "david_q06",
+        "lb_00175"
+      ],
+      "persona": "david",
+      "question_id": "david_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Parent-teacher conferences March 12",
+      "entry_id": "lb_00148",
+      "entry_text": "User has parent-teacher conferences on March 12, 2025",
+      "is_active": true,
+      "key": [
+        "david",
+        "david_q11",
+        "lb_00148"
+      ],
+      "persona": "david",
+      "question_id": "david_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Parent-teacher conferences March 12",
+      "entry_id": "lb_00150",
+      "entry_text": "User has three difficult parent-teacher conversations upcoming on March 12, 2025",
+      "is_active": true,
+      "key": [
+        "david",
+        "david_q11",
+        "lb_00150"
+      ],
+      "persona": "david",
+      "question_id": "david_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Black Hat Asia presentation — Singapore, April 15, 2026",
+      "entry_id": "lb_00402",
+      "entry_text": "User's presentation on supply chain attacks was accepted for Black Hat Asia conference.",
+      "is_active": true,
+      "key": [
+        "dmitri",
+        "dmitri_q06",
+        "lb_00402"
+      ],
+      "persona": "dmitri",
+      "question_id": "dmitri_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Black Hat Asia presentation — Singapore, April 15, 2026",
+      "entry_id": "lb_00403",
+      "entry_text": "User will attend Black Hat Asia conference in Singapore on April 15.",
+      "is_active": true,
+      "key": [
+        "dmitri",
+        "dmitri_q06",
+        "lb_00403"
+      ],
+      "persona": "dmitri",
+      "question_id": "dmitri_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Black Hat Asia presentation — Singapore, April 15, 2026",
+      "entry_id": "lb_00408",
+      "entry_text": "User has a 50-minute presentation slot at Black Hat Asia on April 15 in Singapore.",
+      "is_active": true,
+      "key": [
+        "dmitri",
+        "dmitri_q06",
+        "lb_00408"
+      ],
+      "persona": "dmitri",
+      "question_id": "dmitri_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Black Hat Asia presentation — Singapore, April 15, 2026",
+      "entry_id": "lb_00411",
+      "entry_text": "User will present a 50-minute talk at Black Hat Asia in Singapore on April 15 about state-sponsored supply chain attacks.",
+      "is_active": true,
+      "key": [
+        "dmitri",
+        "dmitri_q06",
+        "lb_00411"
+      ],
+      "persona": "dmitri",
+      "question_id": "dmitri_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Transferred to Rush University Medical Center — better hours and pay",
+      "entry_id": "lb_00008",
+      "entry_text": "User works night shifts at Lurie Children's hospital.",
+      "is_active": true,
+      "key": [
+        "elena",
+        "elena_q01",
+        "lb_00008"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q01",
+      "signal": 1.0,
+      "superseded": "Works at Lurie Children's Hospital"
+    },
+    {
+      "current": "Transferred to Rush University Medical Center — better hours and pay",
+      "entry_id": "lb_00015",
+      "entry_text": "User works night shifts at Lurie Children's hospital and has been on this schedule for about 8 months.",
+      "is_active": true,
+      "key": [
+        "elena",
+        "elena_q01",
+        "lb_00015"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q01",
+      "signal": 1.0,
+      "superseded": "Works at Lurie Children's Hospital"
+    },
+    {
+      "current": "Quit keto — switched to Mediterranean diet on doctor's recommendation",
+      "entry_id": "lb_00135",
+      "entry_text": "User has been doing keto for about three months and has lost 15 pounds so far",
+      "is_active": false,
+      "key": [
+        "elena",
+        "elena_q02",
+        "lb_00135"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q02",
+      "signal": 1.0,
+      "superseded": "Doing keto diet — lost 15 pounds"
+    },
+    {
+      "current": "NCLEX-RN recertification exam March 20",
+      "entry_id": "lb_00213",
+      "entry_text": "User had to recertify their NCLEX on March 20, 2025",
+      "is_active": true,
+      "key": [
+        "elena",
+        "elena_q05",
+        "lb_00213"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "NCLEX-RN recertification exam March 20",
+      "entry_id": "lb_00214",
+      "entry_text": "User passed the NCLEX recertification exam on March 20, 2025",
+      "is_active": true,
+      "key": [
+        "elena",
+        "elena_q05",
+        "lb_00214"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "NCLEX-RN recertification exam March 20",
+      "entry_id": "lb_00219",
+      "entry_text": "User's NCLEX recertification exam was on March 20, 2025",
+      "is_active": true,
+      "key": [
+        "elena",
+        "elena_q05",
+        "lb_00219"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Apartment lease renewal deadline February 28",
+      "entry_id": "lb_00187",
+      "entry_text": "User signed a lease renewal at the end of February without fully thinking it through.",
+      "is_active": true,
+      "key": [
+        "elena",
+        "elena_q10",
+        "lb_00187"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q10",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Rush orientation for new trauma unit — March 16, 2026",
+      "entry_id": "lb_00503",
+      "entry_text": "User's orientation for the pediatric trauma unit starts on March 16, 2026.",
+      "is_active": false,
+      "key": [
+        "elena",
+        "elena_q11",
+        "lb_00503"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Rush orientation for new trauma unit — March 16, 2026",
+      "entry_id": "lb_00504",
+      "entry_text": "User must complete 40 hours of extra training before March 16, 2026.",
+      "is_active": true,
+      "key": [
+        "elena",
+        "elena_q11",
+        "lb_00504"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Rush orientation for new trauma unit — March 16, 2026",
+      "entry_id": "lb_00505",
+      "entry_text": "User must complete 40 hours of extra training before March 16, 2026, including online modules, simulation labs, and trauma scenario drills.",
+      "is_active": false,
+      "key": [
+        "elena",
+        "elena_q11",
+        "lb_00505"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Rush orientation for new trauma unit — March 16, 2026",
+      "entry_id": "lb_00506",
+      "entry_text": "User has orientation for the pediatric trauma unit on 2026-03-16",
+      "is_active": false,
+      "key": [
+        "elena",
+        "elena_q11",
+        "lb_00506"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Rush orientation for new trauma unit — March 16, 2026",
+      "entry_id": "lb_00507",
+      "entry_text": "User must complete 40 hours of extra training before March 16, 2026, including online modules, simulation labs, and trauma scenario drills",
+      "is_active": false,
+      "key": [
+        "elena",
+        "elena_q11",
+        "lb_00507"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Rush orientation for new trauma unit — March 16, 2026",
+      "entry_id": "lb_00508",
+      "entry_text": "User's orientation for the pediatric trauma unit starts on March 16, 2026.",
+      "is_active": true,
+      "key": [
+        "elena",
+        "elena_q11",
+        "lb_00508"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Rush orientation for new trauma unit — March 16, 2026",
+      "entry_id": "lb_00509",
+      "entry_text": "User must complete 40 hours of extra training before March 16, 2026, including online modules, simulation labs, and trauma scenario drills.",
+      "is_active": true,
+      "key": [
+        "elena",
+        "elena_q11",
+        "lb_00509"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Rush orientation for new trauma unit — March 16, 2026",
+      "entry_id": "lb_00513",
+      "entry_text": "User has an orientation for the pediatric trauma unit starting on 2026-03-16 with 40 hours of extra training required before then.",
+      "is_active": true,
+      "key": [
+        "elena",
+        "elena_q11",
+        "lb_00513"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Rush orientation for new trauma unit — March 16, 2026",
+      "entry_id": "lb_00515",
+      "entry_text": "User is training for a pediatric trauma nursing position.",
+      "is_active": true,
+      "key": [
+        "elena",
+        "elena_q11",
+        "lb_00515"
+      ],
+      "persona": "elena",
+      "question_id": "elena_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Pivoted to commercial projects — hotels and corporate offices",
+      "entry_id": "lb_00088",
+      "entry_text": "User's firm works exclusively in high-end residential design, focusing on villas, penthouses, private residences, and occasionally family compounds.",
+      "is_active": true,
+      "key": [
+        "fatima",
+        "fatima_q02",
+        "lb_00088"
+      ],
+      "persona": "fatima",
+      "question_id": "fatima_q02",
+      "signal": 0.8333,
+      "superseded": "Focuses exclusively on high-end residential design"
+    },
+    {
+      "current": "Fragrance line cancelled — too much distraction from core business",
+      "entry_id": "lb_00176",
+      "entry_text": "User is developing a home fragrance line called Oud & Geometry.",
+      "is_active": false,
+      "key": [
+        "fatima",
+        "fatima_q06",
+        "lb_00176"
+      ],
+      "persona": "fatima",
+      "question_id": "fatima_q06",
+      "signal": 1.0,
+      "superseded": "Planning to launch a home fragrance line — Oud & Geometry"
+    },
+    {
+      "current": "Fragrance line cancelled — too much distraction from core business",
+      "entry_id": "lb_00180",
+      "entry_text": "User is developing a home fragrance line called Oud & Geometry as a brand extension of their interior design firm.",
+      "is_active": false,
+      "key": [
+        "fatima",
+        "fatima_q06",
+        "lb_00180"
+      ],
+      "persona": "fatima",
+      "question_id": "fatima_q06",
+      "signal": 1.0,
+      "superseded": "Planning to launch a home fragrance line — Oud & Geometry"
+    },
+    {
+      "current": "Fragrance line cancelled — too much distraction from core business",
+      "entry_id": "lb_00182",
+      "entry_text": "User's home fragrance line will launch with four scents inspired by spatial archetypes: courtyard, library, hammam, and rooftop at night.",
+      "is_active": true,
+      "key": [
+        "fatima",
+        "fatima_q06",
+        "lb_00182"
+      ],
+      "persona": "fatima",
+      "question_id": "fatima_q06",
+      "signal": 1.0,
+      "superseded": "Planning to launch a home fragrance line — Oud & Geometry"
+    },
+    {
+      "current": "Fragrance line cancelled — too much distraction from core business",
+      "entry_id": "lb_00183",
+      "entry_text": "User is launching a premium home fragrance line called Oud & Geometry as a lifestyle extension of their design brand.",
+      "is_active": false,
+      "key": [
+        "fatima",
+        "fatima_q06",
+        "lb_00183"
+      ],
+      "persona": "fatima",
+      "question_id": "fatima_q06",
+      "signal": 1.0,
+      "superseded": "Planning to launch a home fragrance line — Oud & Geometry"
+    },
+    {
+      "current": "Fragrance line cancelled — too much distraction from core business",
+      "entry_id": "lb_00186",
+      "entry_text": "User is developing a home fragrance line called Oud & Geometry.",
+      "is_active": false,
+      "key": [
+        "fatima",
+        "fatima_q06",
+        "lb_00186"
+      ],
+      "persona": "fatima",
+      "question_id": "fatima_q06",
+      "signal": 1.0,
+      "superseded": "Planning to launch a home fragrance line — Oud & Geometry"
+    },
+    {
+      "current": "Fragrance line cancelled — too much distraction from core business",
+      "entry_id": "lb_00189",
+      "entry_text": "User is launching a fragrance line called Oud & Geometry with four initial scents inspired by spatial archetypes.",
+      "is_active": false,
+      "key": [
+        "fatima",
+        "fatima_q06",
+        "lb_00189"
+      ],
+      "persona": "fatima",
+      "question_id": "fatima_q06",
+      "signal": 1.0,
+      "superseded": "Planning to launch a home fragrance line — Oud & Geometry"
+    },
+    {
+      "current": "Fragrance line cancelled — too much distraction from core business",
+      "entry_id": "lb_00263",
+      "entry_text": "User decided not to launch a home fragrance line called Oud and Geometry because it would require a level of investment and attention that would compete with their core interior design work.",
+      "is_active": false,
+      "key": [
+        "fatima",
+        "fatima_q06",
+        "lb_00263"
+      ],
+      "persona": "fatima",
+      "question_id": "fatima_q06",
+      "signal": 0.8,
+      "superseded": "Planning to launch a home fragrance line — Oud & Geometry"
+    },
+    {
+      "current": "Shifted research focus to kelp farming as climate adaptation strategy",
+      "entry_id": "lb_00005",
+      "entry_text": "User is involved in a population dynamics model for Arctic cod (Boreogadus saida)",
+      "is_active": true,
+      "key": [
+        "ingrid",
+        "ingrid_q01",
+        "lb_00005"
+      ],
+      "persona": "ingrid",
+      "question_id": "ingrid_q01",
+      "signal": 0.8,
+      "superseded": "Primary research focus is Arctic cod population dynamics"
+    },
+    {
+      "current": "Shifted research focus to kelp farming as climate adaptation strategy",
+      "entry_id": "lb_00007",
+      "entry_text": "User is involved in a three-year monitoring programme studying Arctic cod (Boreogadus saida) population dynamics",
+      "is_active": false,
+      "key": [
+        "ingrid",
+        "ingrid_q01",
+        "lb_00007"
+      ],
+      "persona": "ingrid",
+      "question_id": "ingrid_q01",
+      "signal": 0.8,
+      "superseded": "Primary research focus is Arctic cod population dynamics"
+    },
+    {
+      "current": "Shifted research focus to kelp farming as climate adaptation strategy",
+      "entry_id": "lb_00018",
+      "entry_text": "User is conducting a monitoring programme on Arctic cod population dynamics in the Barents Sea",
+      "is_active": false,
+      "key": [
+        "ingrid",
+        "ingrid_q01",
+        "lb_00018"
+      ],
+      "persona": "ingrid",
+      "question_id": "ingrid_q01",
+      "signal": 0.8,
+      "superseded": "Primary research focus is Arctic cod population dynamics"
+    },
+    {
+      "current": "Shifted research focus to kelp farming as climate adaptation strategy",
+      "entry_id": "lb_00019",
+      "entry_text": "User plans to continue sampling Arctic cod population dynamics for three more years",
+      "is_active": true,
+      "key": [
+        "ingrid",
+        "ingrid_q01",
+        "lb_00019"
+      ],
+      "persona": "ingrid",
+      "question_id": "ingrid_q01",
+      "signal": 0.8,
+      "superseded": "Primary research focus is Arctic cod population dynamics"
+    },
+    {
+      "current": "Shifted research focus to kelp farming as climate adaptation strategy",
+      "entry_id": "lb_00024",
+      "entry_text": "User studies Arctic cod population dynamics in the Barents Sea as a continuation of a monitoring programme.",
+      "is_active": true,
+      "key": [
+        "ingrid",
+        "ingrid_q01",
+        "lb_00024"
+      ],
+      "persona": "ingrid",
+      "question_id": "ingrid_q01",
+      "signal": 0.8,
+      "superseded": "Primary research focus is Arctic cod population dynamics"
+    },
+    {
+      "current": "Shifted research focus to kelp farming as climate adaptation strategy",
+      "entry_id": "lb_00026",
+      "entry_text": "User studies Arctic cod population dynamics in the Barents Sea as a continuation of their father's work.",
+      "is_active": true,
+      "key": [
+        "ingrid",
+        "ingrid_q01",
+        "lb_00026"
+      ],
+      "persona": "ingrid",
+      "question_id": "ingrid_q01",
+      "signal": 0.8,
+      "superseded": "Primary research focus is Arctic cod population dynamics"
+    },
+    {
+      "current": "Shifted research focus to kelp farming as climate adaptation strategy",
+      "entry_id": "lb_00219",
+      "entry_text": "User's previous primary research focus was Arctic cod population dynamics.",
+      "is_active": false,
+      "key": [
+        "ingrid",
+        "ingrid_q01",
+        "lb_00219"
+      ],
+      "persona": "ingrid",
+      "question_id": "ingrid_q01",
+      "signal": 1.0,
+      "superseded": "Primary research focus is Arctic cod population dynamics"
+    },
+    {
+      "current": "Sabbatical at Woods Hole is off the table — kelp project cannot be left",
+      "entry_id": "lb_00076",
+      "entry_text": "User is planning to spend 2026 at Woods Hole Oceanographic Institution in the ocean acidification laboratory.",
+      "is_active": true,
+      "key": [
+        "ingrid",
+        "ingrid_q04",
+        "lb_00076"
+      ],
+      "persona": "ingrid",
+      "question_id": "ingrid_q04",
+      "signal": 1.0,
+      "superseded": "Planning a sabbatical year at Woods Hole Oceanographic Institution in Massachusetts"
+    },
+    {
+      "current": "Sabbatical at Woods Hole is off the table — kelp project cannot be left",
+      "entry_id": "lb_00078",
+      "entry_text": "User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026",
+      "is_active": true,
+      "key": [
+        "ingrid",
+        "ingrid_q04",
+        "lb_00078"
+      ],
+      "persona": "ingrid",
+      "question_id": "ingrid_q04",
+      "signal": 1.0,
+      "superseded": "Planning a sabbatical year at Woods Hole Oceanographic Institution in Massachusetts"
+    },
+    {
+      "current": "Sabbatical at Woods Hole is off the table — kelp project cannot be left",
+      "entry_id": "lb_00085",
+      "entry_text": "User plans to formalize the invitation for a Guest Investigator appointment at Woods Hole Oceanographic Institution by March 2025.",
+      "is_active": true,
+      "key": [
+        "ingrid",
+        "ingrid_q04",
+        "lb_00085"
+      ],
+      "persona": "ingrid",
+      "question_id": "ingrid_q04",
+      "signal": 1.0,
+      "superseded": "Planning a sabbatical year at Woods Hole Oceanographic Institution in Massachusetts"
+    },
+    {
+      "current": "Sabbatical at Woods Hole is off the table — kelp project cannot be left",
+      "entry_id": "lb_00086",
+      "entry_text": "User plans to be a Guest Investigator at Woods Hole Oceanographic Institution from August 2026 through July 2027.",
+      "is_active": true,
+      "key": [
+        "ingrid",
+        "ingrid_q04",
+        "lb_00086"
+      ],
+      "persona": "ingrid",
+      "question_id": "ingrid_q04",
+      "signal": 1.0,
+      "superseded": "Planning a sabbatical year at Woods Hole Oceanographic Institution in Massachusetts"
+    },
+    {
+      "current": "Journeyman exam scheduled for March 8, 2025",
+      "entry_id": "lb_00104",
+      "entry_text": "User has a journeyman electrician exam on March 8, 2025",
+      "is_active": true,
+      "key": [
+        "jake",
+        "jake_q11",
+        "lb_00104"
+      ],
+      "persona": "jake",
+      "question_id": "jake_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Journeyman exam scheduled for March 8, 2025",
+      "entry_id": "lb_00112",
+      "entry_text": "User is preparing for the NEC journeyman exam scheduled for March 8, 2025",
+      "is_active": true,
+      "key": [
+        "jake",
+        "jake_q11",
+        "lb_00112"
+      ],
+      "persona": "jake",
+      "question_id": "jake_q11",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Switched to ABF Freight — better routes that go through the Northeast",
+      "entry_id": "lb_00001",
+      "entry_text": "User drives for Southeastern Freight Lines out of the Atlanta terminal.",
+      "is_active": false,
+      "key": [
+        "jerome",
+        "jerome_q02",
+        "lb_00001"
+      ],
+      "persona": "jerome",
+      "question_id": "jerome_q02",
+      "signal": 0.8571,
+      "superseded": "Drives for Southeastern Freight Lines — based out of Atlanta terminal"
+    },
+    {
+      "current": "Switched to ABF Freight — better routes that go through the Northeast",
+      "entry_id": "lb_00011",
+      "entry_text": "User drives for Southeastern Freight Lines out of the Atlanta terminal.",
+      "is_active": false,
+      "key": [
+        "jerome",
+        "jerome_q02",
+        "lb_00011"
+      ],
+      "persona": "jerome",
+      "question_id": "jerome_q02",
+      "signal": 0.8571,
+      "superseded": "Drives for Southeastern Freight Lines — based out of Atlanta terminal"
+    },
+    {
+      "current": "Now driving a 2024 Peterbilt 579 — better sleeper cab",
+      "entry_id": "lb_00005",
+      "entry_text": "User drives a 2019 Freightliner Cascadia company truck with a 450 horsepower Detroit engine.",
+      "is_active": false,
+      "key": [
+        "jerome",
+        "jerome_q03",
+        "lb_00005"
+      ],
+      "persona": "jerome",
+      "question_id": "jerome_q03",
+      "signal": 1.0,
+      "superseded": "Drives a 2019 Freightliner Cascadia — company truck"
+    },
+    {
+      "current": "Now driving a 2024 Peterbilt 579 — better sleeper cab",
+      "entry_id": "lb_00008",
+      "entry_text": "User drives a 2019 Freightliner Cascadia company truck with a 450 horsepower Detroit engine.",
+      "is_active": false,
+      "key": [
+        "jerome",
+        "jerome_q03",
+        "lb_00008"
+      ],
+      "persona": "jerome",
+      "question_id": "jerome_q03",
+      "signal": 1.0,
+      "superseded": "Drives a 2019 Freightliner Cascadia — company truck"
+    },
+    {
+      "current": "Now driving a 2024 Peterbilt 579 — better sleeper cab",
+      "entry_id": "lb_00012",
+      "entry_text": "User drives a 2019 Freightliner Cascadia company truck named Marie.",
+      "is_active": false,
+      "key": [
+        "jerome",
+        "jerome_q03",
+        "lb_00012"
+      ],
+      "persona": "jerome",
+      "question_id": "jerome_q03",
+      "signal": 1.0,
+      "superseded": "Drives a 2019 Freightliner Cascadia — company truck"
+    },
+    {
+      "current": "Now driving a 2024 Peterbilt 579 — better sleeper cab",
+      "entry_id": "lb_00014",
+      "entry_text": "User drives a 2019 Freightliner Cascadia company truck named Marie.",
+      "is_active": false,
+      "key": [
+        "jerome",
+        "jerome_q03",
+        "lb_00014"
+      ],
+      "persona": "jerome",
+      "question_id": "jerome_q03",
+      "signal": 1.0,
+      "superseded": "Drives a 2019 Freightliner Cascadia — company truck"
+    },
+    {
+      "current": "Now teaches advanced students — preparing 2 for amateur dan certification",
+      "entry_id": "lb_00001",
+      "entry_text": "User teaches go at the Haeundae Baduk Club in Busan.",
+      "is_active": true,
+      "key": [
+        "joonho",
+        "joonho_q01",
+        "lb_00001"
+      ],
+      "persona": "joonho",
+      "question_id": "joonho_q01",
+      "signal": 0.8,
+      "superseded": "Teaches beginner go students at the Haeundae Baduk Club — 6 students"
+    },
+    {
+      "current": "Now teaches advanced students — preparing 2 for amateur dan certification",
+      "entry_id": "lb_00008",
+      "entry_text": "User teaches go at the Haeundae Baduk Club in Busan to a group of six mostly retired beginners.",
+      "is_active": false,
+      "key": [
+        "joonho",
+        "joonho_q01",
+        "lb_00008"
+      ],
+      "persona": "joonho",
+      "question_id": "joonho_q01",
+      "signal": 0.8,
+      "superseded": "Teaches beginner go students at the Haeundae Baduk Club — 6 students"
+    },
+    {
+      "current": "Textbook project abandoned — his eyesight makes sustained writing impossible",
+      "entry_id": "lb_00134",
+      "entry_text": "User has begun outlining a textbook on combinatorial game theory applied to go endgame positions",
+      "is_active": false,
+      "key": [
+        "joonho",
+        "joonho_q04",
+        "lb_00134"
+      ],
+      "persona": "joonho",
+      "question_id": "joonho_q04",
+      "signal": 1.0,
+      "superseded": "Planning to write a textbook on combinatorial game theory applied to baduk"
+    },
+    {
+      "current": "Textbook project abandoned — his eyesight makes sustained writing impossible",
+      "entry_id": "lb_00138",
+      "entry_text": "User is writing a textbook bridging combinatorial game theory and go",
+      "is_active": true,
+      "key": [
+        "joonho",
+        "joonho_q04",
+        "lb_00138"
+      ],
+      "persona": "joonho",
+      "question_id": "joonho_q04",
+      "signal": 1.0,
+      "superseded": "Planning to write a textbook on combinatorial game theory applied to baduk"
+    },
+    {
+      "current": "Textbook project abandoned — his eyesight makes sustained writing impossible",
+      "entry_id": "lb_00142",
+      "entry_text": "User has begun outlining a textbook on combinatorial game theory applied to go.",
+      "is_active": true,
+      "key": [
+        "joonho",
+        "joonho_q04",
+        "lb_00142"
+      ],
+      "persona": "joonho",
+      "question_id": "joonho_q04",
+      "signal": 1.0,
+      "superseded": "Planning to write a textbook on combinatorial game theory applied to baduk"
+    },
+    {
+      "current": "Textbook project abandoned — his eyesight makes sustained writing impossible",
+      "entry_id": "lb_00145",
+      "entry_text": "User is writing a textbook on combinatorial game theory applied to go.",
+      "is_active": true,
+      "key": [
+        "joonho",
+        "joonho_q04",
+        "lb_00145"
+      ],
+      "persona": "joonho",
+      "question_id": "joonho_q04",
+      "signal": 1.0,
+      "superseded": "Planning to write a textbook on combinatorial game theory applied to baduk"
+    },
+    {
+      "current": "Gave up the studio — works from home now to save money",
+      "entry_id": "lb_00088",
+      "entry_text": "User shares a studio space with two other designers in Shinsaibashi.",
+      "is_active": false,
+      "key": [
+        "kenji",
+        "kenji_q03",
+        "lb_00088"
+      ],
+      "persona": "kenji",
+      "question_id": "kenji_q03",
+      "signal": 0.8,
+      "superseded": "Works from a shared studio space in Shinsaibashi with two other designers"
+    },
+    {
+      "current": "Gave up the studio — works from home now to save money",
+      "entry_id": "lb_00090",
+      "entry_text": "User shares a 40 square meter studio space with two other designers in Shinsaibashi",
+      "is_active": true,
+      "key": [
+        "kenji",
+        "kenji_q03",
+        "lb_00090"
+      ],
+      "persona": "kenji",
+      "question_id": "kenji_q03",
+      "signal": 0.8,
+      "superseded": "Works from a shared studio space in Shinsaibashi with two other designers"
+    },
+    {
+      "current": "Gave up the studio — works from home now to save money",
+      "entry_id": "lb_00094",
+      "entry_text": "User shares a 40 square meter studio space in Shinsaibashi with two other designers.",
+      "is_active": false,
+      "key": [
+        "kenji",
+        "kenji_q03",
+        "lb_00094"
+      ],
+      "persona": "kenji",
+      "question_id": "kenji_q03",
+      "signal": 0.8,
+      "superseded": "Works from a shared studio space in Shinsaibashi with two other designers"
+    },
+    {
+      "current": "Switched to Kuapa Kokoo buying agent — better price and fair trade premium",
+      "entry_id": "lb_00014",
+      "entry_text": "User sells cocoa through a cooperative with a 3-year contract at 800 cedis per 64kg bag.",
+      "is_active": true,
+      "key": [
+        "kofi",
+        "kofi_q01",
+        "lb_00014"
+      ],
+      "persona": "kofi",
+      "question_id": "kofi_q01",
+      "signal": 0.8333,
+      "superseded": "Cooperative sells through Akuafo Buying Agent — 3-year contract"
+    },
+    {
+      "current": "Changed to Yara brand fertilizer — government subsidy makes it 95 cedis per bag",
+      "entry_id": "lb_00082",
+      "entry_text": "User buys 12 bags of Cocoa Life fertilizer every season at 180 cedis each, totaling 2,160 cedis.",
+      "is_active": true,
+      "key": [
+        "kofi",
+        "kofi_q02",
+        "lb_00082"
+      ],
+      "persona": "kofi",
+      "question_id": "kofi_q02",
+      "signal": 0.8889,
+      "superseded": "Uses Cocoa Life brand fertilizer — buys 12 bags per season at 180 cedis each"
+    },
+    {
+      "current": "Fieldwork trip to Bethlehem with Diego — April 22, 2026",
+      "entry_id": "lb_00414",
+      "entry_text": "User and Diego have booked flights to Bethlehem on April 22.",
+      "is_active": true,
+      "key": [
+        "leila",
+        "leila_q06",
+        "lb_00414"
+      ],
+      "persona": "leila",
+      "question_id": "leila_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Fieldwork trip to Bethlehem with Diego — April 22, 2026",
+      "entry_id": "lb_00416",
+      "entry_text": "User is planning a trip to Bethlehem with Diego on April 22 to connect with their grandparents' history.",
+      "is_active": true,
+      "key": [
+        "leila",
+        "leila_q06",
+        "lb_00416"
+      ],
+      "persona": "leila",
+      "question_id": "leila_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Fieldwork trip to Bethlehem with Diego — April 22, 2026",
+      "entry_id": "lb_00419",
+      "entry_text": "User is traveling to Bethlehem with Diego on April 22 to connect with their grandparents' history and document old domestic architecture.",
+      "is_active": true,
+      "key": [
+        "leila",
+        "leila_q06",
+        "lb_00419"
+      ],
+      "persona": "leila",
+      "question_id": "leila_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Fieldwork trip to Bethlehem with Diego — April 22, 2026",
+      "entry_id": "lb_00424",
+      "entry_text": "User is planning to travel to Bethlehem on April 22, 2026.",
+      "is_active": true,
+      "key": [
+        "leila",
+        "leila_q06",
+        "lb_00424"
+      ],
+      "persona": "leila",
+      "question_id": "leila_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Fieldwork trip to Bethlehem with Diego — April 22, 2026",
+      "entry_id": "lb_00426",
+      "entry_text": "User is planning a trip to Bethlehem on April 22 to visit the neighborhood where their grandparents lived and document old domestic architecture.",
+      "is_active": true,
+      "key": [
+        "leila",
+        "leila_q06",
+        "lb_00426"
+      ],
+      "persona": "leila",
+      "question_id": "leila_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Changed thesis to urban heat islands and green infrastructure in Melbourne",
+      "entry_id": "lb_00128",
+      "entry_text": "User's thesis is on microplastics in Port Phillip Bay involving sampling water and sediment and quantifying contamination levels.",
+      "is_active": false,
+      "key": [
+        "lily",
+        "lily_q01",
+        "lb_00128"
+      ],
+      "persona": "lily",
+      "question_id": "lily_q01",
+      "signal": 1.0,
+      "superseded": "Thesis is on microplastics in Port Phillip Bay"
+    },
+    {
+      "current": "UBC exchange cancelled — too expensive and would delay graduation",
+      "entry_id": "lb_00163",
+      "entry_text": "User is interested in the marine ecology program at the University of British Columbia in Vancouver",
+      "is_active": false,
+      "key": [
+        "lily",
+        "lily_q06",
+        "lb_00163"
+      ],
+      "persona": "lily",
+      "question_id": "lily_q06",
+      "signal": 1.0,
+      "superseded": "Planning to do a semester exchange at UBC (University of British Columbia) in Vancouver"
+    },
+    {
+      "current": "UBC exchange cancelled — too expensive and would delay graduation",
+      "entry_id": "lb_00166",
+      "entry_text": "User is applying for a semester exchange at the University of British Columbia in Vancouver.",
+      "is_active": true,
+      "key": [
+        "lily",
+        "lily_q06",
+        "lb_00166"
+      ],
+      "persona": "lily",
+      "question_id": "lily_q06",
+      "signal": 1.0,
+      "superseded": "Planning to do a semester exchange at UBC (University of British Columbia) in Vancouver"
+    },
+    {
+      "current": "Truck delivery arriving April 22",
+      "entry_id": "lb_00131",
+      "entry_text": "User has a new alignment rack being delivered and installed on April 22",
+      "is_active": false,
+      "key": [
+        "marcus",
+        "marcus_q10",
+        "lb_00131"
+      ],
+      "persona": "marcus",
+      "question_id": "marcus_q10",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Truck delivery arriving April 22",
+      "entry_id": "lb_00132",
+      "entry_text": "User needs to clear out bay 3 before April 22",
+      "is_active": true,
+      "key": [
+        "marcus",
+        "marcus_q10",
+        "lb_00132"
+      ],
+      "persona": "marcus",
+      "question_id": "marcus_q10",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Truck delivery arriving April 22",
+      "entry_id": "lb_00133",
+      "entry_text": "The delivery company is also doing the installation, which will take most of the day",
+      "is_active": true,
+      "key": [
+        "marcus",
+        "marcus_q10",
+        "lb_00133"
+      ],
+      "persona": "marcus",
+      "question_id": "marcus_q10",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Meeting with SBA loan officer Tuesday Feb 4",
+      "entry_id": "lb_00102",
+      "entry_text": "User has a meeting with the SBA loan officer on Tuesday about expanding their business",
+      "is_active": true,
+      "key": [
+        "marcus",
+        "marcus_q12",
+        "lb_00102"
+      ],
+      "persona": "marcus",
+      "question_id": "marcus_q12",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "BSc Physiotherapy final dissertation deadline — April 30, 2026",
+      "entry_id": "lb_00320",
+      "entry_text": "User has a dissertation due on April 30, 2026.",
+      "is_active": true,
+      "key": [
+        "marley",
+        "marley_q06",
+        "lb_00320"
+      ],
+      "persona": "marley",
+      "question_id": "marley_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "BSc Physiotherapy final dissertation deadline — April 30, 2026",
+      "entry_id": "lb_00323",
+      "entry_text": "User is writing a dissertation on ACL rehab outcomes comparing community and private settings.",
+      "is_active": true,
+      "key": [
+        "marley",
+        "marley_q06",
+        "lb_00323"
+      ],
+      "persona": "marley",
+      "question_id": "marley_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "BSc Physiotherapy final dissertation deadline — April 30, 2026",
+      "entry_id": "lb_00324",
+      "entry_text": "User is conducting research using retrospective data from clinics in Bristol.",
+      "is_active": true,
+      "key": [
+        "marley",
+        "marley_q06",
+        "lb_00324"
+      ],
+      "persona": "marley",
+      "question_id": "marley_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "BSc Physiotherapy final dissertation deadline — April 30, 2026",
+      "entry_id": "lb_00325",
+      "entry_text": "User has written about 8,000 words out of 12,000 for their dissertation.",
+      "is_active": true,
+      "key": [
+        "marley",
+        "marley_q06",
+        "lb_00325"
+      ],
+      "persona": "marley",
+      "question_id": "marley_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "BSc Physiotherapy final dissertation deadline — April 30, 2026",
+      "entry_id": "lb_00326",
+      "entry_text": "User is analyzing retrospective data from NHS community and private physio clinics in Bristol for their dissertation.",
+      "is_active": true,
+      "key": [
+        "marley",
+        "marley_q06",
+        "lb_00326"
+      ],
+      "persona": "marley",
+      "question_id": "marley_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "BSc Physiotherapy final dissertation deadline — April 30, 2026",
+      "entry_id": "lb_00327",
+      "entry_text": "User has written about 8,000 words out of a 12,000 word dissertation.",
+      "is_active": true,
+      "key": [
+        "marley",
+        "marley_q06",
+        "lb_00327"
+      ],
+      "persona": "marley",
+      "question_id": "marley_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Switched to Bıyıklı brand pomade — Erkek supplier went out of business",
+      "entry_id": "lb_00079",
+      "entry_text": "User has been using Erkek brand pomade for 15 years as their signature product.",
+      "is_active": true,
+      "key": [
+        "mehmet",
+        "mehmet_q02",
+        "lb_00079"
+      ],
+      "persona": "mehmet",
+      "question_id": "mehmet_q02",
+      "signal": 0.8,
+      "superseded": "Uses Erkek brand pomade — been his signature product for 15 years"
+    },
+    {
+      "current": "Switched to Bıyıklı brand pomade — Erkek supplier went out of business",
+      "entry_id": "lb_00081",
+      "entry_text": "User has been using Erkek brand pomade for 15 years as their signature product.",
+      "is_active": true,
+      "key": [
+        "mehmet",
+        "mehmet_q02",
+        "lb_00081"
+      ],
+      "persona": "mehmet",
+      "question_id": "mehmet_q02",
+      "signal": 0.8,
+      "superseded": "Uses Erkek brand pomade — been his signature product for 15 years"
+    },
+    {
+      "current": "New park management reassigned her to Jim Jim/Twin Falls sector — different country, different knowledge needed",
+      "entry_id": "lb_00004",
+      "entry_text": "User patrols the East Alligator River corridor three days a week: Tuesday, Thursday, and Saturday.",
+      "is_active": false,
+      "key": [
+        "mirri",
+        "mirri_q01",
+        "lb_00004"
+      ],
+      "persona": "mirri",
+      "question_id": "mirri_q01",
+      "signal": 0.875,
+      "superseded": "Patrols the East Alligator River corridor — 3 days per week"
+    },
+    {
+      "current": "New park management reassigned her to Jim Jim/Twin Falls sector — different country, different knowledge needed",
+      "entry_id": "lb_00006",
+      "entry_text": "User patrols the East Alligator River corridor three days a week: Tuesday, Thursday, and Saturday.",
+      "is_active": false,
+      "key": [
+        "mirri",
+        "mirri_q01",
+        "lb_00006"
+      ],
+      "persona": "mirri",
+      "question_id": "mirri_q01",
+      "signal": 0.875,
+      "superseded": "Patrols the East Alligator River corridor — 3 days per week"
+    },
+    {
+      "current": "Book project scrapped — elders concerned about putting cultural knowledge in print",
+      "entry_id": "lb_00155",
+      "entry_text": "User wants to write a bilingual children's book in Yolngu Matha and English about the country's animals, seasons, and land changes for kids aged 5 to 10.",
+      "is_active": false,
+      "key": [
+        "mirri",
+        "mirri_q04",
+        "lb_00155"
+      ],
+      "persona": "mirri",
+      "question_id": "mirri_q04",
+      "signal": 1.0,
+      "superseded": "Planning to write a bilingual children's book — Yolngu Matha and English"
+    },
+    {
+      "current": "Book project scrapped — elders concerned about putting cultural knowledge in print",
+      "entry_id": "lb_00157",
+      "entry_text": "User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons.",
+      "is_active": true,
+      "key": [
+        "mirri",
+        "mirri_q04",
+        "lb_00157"
+      ],
+      "persona": "mirri",
+      "question_id": "mirri_q04",
+      "signal": 1.0,
+      "superseded": "Planning to write a bilingual children's book — Yolngu Matha and English"
+    },
+    {
+      "current": "Book project scrapped — elders concerned about putting cultural knowledge in print",
+      "entry_id": "lb_00159",
+      "entry_text": "User is writing a bilingual children's book in Yolngu Matha and English.",
+      "is_active": false,
+      "key": [
+        "mirri",
+        "mirri_q04",
+        "lb_00159"
+      ],
+      "persona": "mirri",
+      "question_id": "mirri_q04",
+      "signal": 1.0,
+      "superseded": "Planning to write a bilingual children's book — Yolngu Matha and English"
+    },
+    {
+      "current": "Book project scrapped — elders concerned about putting cultural knowledge in print",
+      "entry_id": "lb_00160",
+      "entry_text": "User prefers the bilingual book layout with Yolngu Matha on the left page and English on the right page to give equal importance to both languages.",
+      "is_active": true,
+      "key": [
+        "mirri",
+        "mirri_q04",
+        "lb_00160"
+      ],
+      "persona": "mirri",
+      "question_id": "mirri_q04",
+      "signal": 1.0,
+      "superseded": "Planning to write a bilingual children's book — Yolngu Matha and English"
+    },
+    {
+      "current": "Book project scrapped — elders concerned about putting cultural knowledge in print",
+      "entry_id": "lb_00162",
+      "entry_text": "User is working on a bilingual children's book in Yolngu Matha and English featuring stories about local animals and seasons.",
+      "is_active": false,
+      "key": [
+        "mirri",
+        "mirri_q04",
+        "lb_00162"
+      ],
+      "persona": "mirri",
+      "question_id": "mirri_q04",
+      "signal": 1.0,
+      "superseded": "Planning to write a bilingual children's book — Yolngu Matha and English"
+    },
+    {
+      "current": "Book project scrapped — elders concerned about putting cultural knowledge in print",
+      "entry_id": "lb_00164",
+      "entry_text": "User is working on writing bilingual stories in Yolngu Matha and English for children.",
+      "is_active": true,
+      "key": [
+        "mirri",
+        "mirri_q04",
+        "lb_00164"
+      ],
+      "persona": "mirri",
+      "question_id": "mirri_q04",
+      "signal": 1.0,
+      "superseded": "Planning to write a bilingual children's book — Yolngu Matha and English"
+    },
+    {
+      "current": "Book project scrapped — elders concerned about putting cultural knowledge in print",
+      "entry_id": "lb_00252",
+      "entry_text": "User planned to write a bilingual children's book in Yolngu Matha and English.",
+      "is_active": false,
+      "key": [
+        "mirri",
+        "mirri_q04",
+        "lb_00252"
+      ],
+      "persona": "mirri",
+      "question_id": "mirri_q04",
+      "signal": 0.8571,
+      "superseded": "Planning to write a bilingual children's book — Yolngu Matha and English"
+    },
+    {
+      "current": "Moved to a bigger apartment in Villeray — needed more space and a real kitchen",
+      "entry_id": "lb_00084",
+      "entry_text": "User lives in a tiny apartment in the Plateau-Mont-Royal.",
+      "is_active": false,
+      "key": [
+        "nadia",
+        "nadia_q02",
+        "lb_00084"
+      ],
+      "persona": "nadia",
+      "question_id": "nadia_q02",
+      "signal": 0.8,
+      "superseded": "Lives in a small apartment in the Plateau-Mont-Royal"
+    },
+    {
+      "current": "Moved to a bigger apartment in Villeray — needed more space and a real kitchen",
+      "entry_id": "lb_00088",
+      "entry_text": "User lives in a tiny apartment in the Plateau-Mont-Royal with a very small kitchen.",
+      "is_active": false,
+      "key": [
+        "nadia",
+        "nadia_q02",
+        "lb_00088"
+      ],
+      "persona": "nadia",
+      "question_id": "nadia_q02",
+      "signal": 1.0,
+      "superseded": "Lives in a small apartment in the Plateau-Mont-Royal"
+    },
+    {
+      "current": "Noma stage cancelled — they closed, and she can't afford the trip anyway",
+      "entry_id": "lb_00178",
+      "entry_text": "User applied for a professional kitchen stage at Noma in Copenhagen",
+      "is_active": true,
+      "key": [
+        "nadia",
+        "nadia_q06",
+        "lb_00178"
+      ],
+      "persona": "nadia",
+      "question_id": "nadia_q06",
+      "signal": 1.0,
+      "superseded": "Planning to stage at Noma in Copenhagen — applied for a two-week stage"
+    },
+    {
+      "current": "Noma stage cancelled — they closed, and she can't afford the trip anyway",
+      "entry_id": "lb_00180",
+      "entry_text": "User applied for a two-week professional kitchen stage at Noma in Copenhagen",
+      "is_active": false,
+      "key": [
+        "nadia",
+        "nadia_q06",
+        "lb_00180"
+      ],
+      "persona": "nadia",
+      "question_id": "nadia_q06",
+      "signal": 1.0,
+      "superseded": "Planning to stage at Noma in Copenhagen — applied for a two-week stage"
+    },
+    {
+      "current": "Noma stage cancelled — they closed, and she can't afford the trip anyway",
+      "entry_id": "lb_00182",
+      "entry_text": "User applied for a two-week professional kitchen stage at Noma in Copenhagen",
+      "is_active": false,
+      "key": [
+        "nadia",
+        "nadia_q06",
+        "lb_00182"
+      ],
+      "persona": "nadia",
+      "question_id": "nadia_q06",
+      "signal": 1.0,
+      "superseded": "Planning to stage at Noma in Copenhagen — applied for a two-week stage"
+    },
+    {
+      "current": "Noma stage cancelled — they closed, and she can't afford the trip anyway",
+      "entry_id": "lb_00188",
+      "entry_text": "User applied for a two-week stage at Noma in Copenhagen.",
+      "is_active": false,
+      "key": [
+        "nadia",
+        "nadia_q06",
+        "lb_00188"
+      ],
+      "persona": "nadia",
+      "question_id": "nadia_q06",
+      "signal": 1.0,
+      "superseded": "Planning to stage at Noma in Copenhagen — applied for a two-week stage"
+    },
+    {
+      "current": "Switched rice supplier to Uncle Prasert at Talat Thai wholesale — 32 baht per kilo, better quality",
+      "entry_id": "lb_00012",
+      "entry_text": "User buys 15 kilos of rice daily at 38 baht per kilo from Auntie Somjit at Khlong Toei market.",
+      "is_active": true,
+      "key": [
+        "pan",
+        "pan_q01",
+        "lb_00012"
+      ],
+      "persona": "pan",
+      "question_id": "pan_q01",
+      "signal": 0.875,
+      "superseded": "Buys jasmine rice from Auntie Somjit at Khlong Toei market — 38 baht per kilo"
+    },
+    {
+      "current": "Switched rice supplier to Uncle Prasert at Talat Thai wholesale — 32 baht per kilo, better quality",
+      "entry_id": "lb_00017",
+      "entry_text": "User buys jasmine long grain rice from Auntie Somjit at Khlong Toei market for making khao man gai.",
+      "is_active": false,
+      "key": [
+        "pan",
+        "pan_q01",
+        "lb_00017"
+      ],
+      "persona": "pan",
+      "question_id": "pan_q01",
+      "signal": 0.875,
+      "superseded": "Buys jasmine rice from Auntie Somjit at Khlong Toei market — 38 baht per kilo"
+    },
+    {
+      "current": "Cancelled Sky Sports — switched to DAZN, much cheaper",
+      "entry_id": "lb_00113",
+      "entry_text": "User watches every Premier League match on Sky Sports every weekend as a personal treat.",
+      "is_active": false,
+      "key": [
+        "raj",
+        "raj_q02",
+        "lb_00113"
+      ],
+      "persona": "raj",
+      "question_id": "raj_q02",
+      "signal": 1.0,
+      "superseded": "Has Sky Sports — watches every Premier League match"
+    },
+    {
+      "current": "Cancelled Sky Sports — switched to DAZN, much cheaper",
+      "entry_id": "lb_00115",
+      "entry_text": "User watches every Premier League match on Sky Sports every weekend.",
+      "is_active": true,
+      "key": [
+        "raj",
+        "raj_q02",
+        "lb_00115"
+      ],
+      "persona": "raj",
+      "question_id": "raj_q02",
+      "signal": 1.0,
+      "superseded": "Has Sky Sports — watches every Premier League match"
+    },
+    {
+      "current": "Cancelled Sky Sports — switched to DAZN, much cheaper",
+      "entry_id": "lb_00119",
+      "entry_text": "User watches every Premier League match on Sky Sports every weekend and shares this activity with Arjun.",
+      "is_active": true,
+      "key": [
+        "raj",
+        "raj_q02",
+        "lb_00119"
+      ],
+      "persona": "raj",
+      "question_id": "raj_q02",
+      "signal": 1.0,
+      "superseded": "Has Sky Sports — watches every Premier League match"
+    },
+    {
+      "current": "Simran got promoted — now school admin coordinator at the same school",
+      "entry_id": "lb_00033",
+      "entry_text": "User's wife is a Year 3 teacher at Ladywood Primary School.",
+      "is_active": true,
+      "key": [
+        "raj",
+        "raj_q03",
+        "lb_00033"
+      ],
+      "persona": "raj",
+      "question_id": "raj_q03",
+      "signal": 1.0,
+      "superseded": "Simran is a primary school teacher at Ladywood Primary"
+    },
+    {
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "entry_id": "lb_00417",
+      "entry_text": "User's granddaughter Isabella is being baptized on April 5th, 2026.",
+      "is_active": false,
+      "key": [
+        "rosa",
+        "rosa_q05",
+        "lb_00417"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "entry_id": "lb_00421",
+      "entry_text": "User is the madrina (godmother) for Isabella's baptism",
+      "is_active": true,
+      "key": [
+        "rosa",
+        "rosa_q05",
+        "lb_00421"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "entry_id": "lb_00422",
+      "entry_text": "Isabella's baptism date is April 5, 2026",
+      "is_active": true,
+      "key": [
+        "rosa",
+        "rosa_q05",
+        "lb_00422"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "entry_id": "lb_00423",
+      "entry_text": "User plans to buy a 14K gold infant cross necklace with engraving for Isabella's baptism",
+      "is_active": true,
+      "key": [
+        "rosa",
+        "rosa_q05",
+        "lb_00423"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "entry_id": "lb_00425",
+      "entry_text": "User is the madrina (godmother) for her granddaughter Isabella's baptism on April 5, 2026",
+      "is_active": true,
+      "key": [
+        "rosa",
+        "rosa_q05",
+        "lb_00425"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "entry_id": "lb_00426",
+      "entry_text": "User needs to find a dress appropriate for church for the baptism celebration",
+      "is_active": true,
+      "key": [
+        "rosa",
+        "rosa_q05",
+        "lb_00426"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "entry_id": "lb_00427",
+      "entry_text": "User plans to bring a candle to the baptism",
+      "is_active": true,
+      "key": [
+        "rosa",
+        "rosa_q05",
+        "lb_00427"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "entry_id": "lb_00428",
+      "entry_text": "User plans to wear a soft blue dress to the baptism",
+      "is_active": true,
+      "key": [
+        "rosa",
+        "rosa_q05",
+        "lb_00428"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "entry_id": "lb_00429",
+      "entry_text": "User's daughter-in-law has hired a photographer for the baptism",
+      "is_active": true,
+      "key": [
+        "rosa",
+        "rosa_q05",
+        "lb_00429"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "entry_id": "lb_00430",
+      "entry_text": "Carlos, presumably user's partner or close family member, needs a lighter suit for the baptism",
+      "is_active": true,
+      "key": [
+        "rosa",
+        "rosa_q05",
+        "lb_00430"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "entry_id": "lb_00431",
+      "entry_text": "User's granddaughter Isabella is being baptized on April 5, 2026.",
+      "is_active": true,
+      "key": [
+        "rosa",
+        "rosa_q05",
+        "lb_00431"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "entry_id": "lb_00434",
+      "entry_text": "User is planning a gathering at her house for about forty people after Isabella's baptism.",
+      "is_active": false,
+      "key": [
+        "rosa",
+        "rosa_q05",
+        "lb_00434"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "entry_id": "lb_00435",
+      "entry_text": "User is planning a baptism celebration for her goddaughter Isabella on April 5, 2026",
+      "is_active": true,
+      "key": [
+        "rosa",
+        "rosa_q05",
+        "lb_00435"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "entry_id": "lb_00438",
+      "entry_text": "User is planning a gathering of about forty people at her house after the baptism",
+      "is_active": true,
+      "key": [
+        "rosa",
+        "rosa_q05",
+        "lb_00438"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "entry_id": "lb_00439",
+      "entry_text": "User plans to prepare most of the baptism celebration menu in advance",
+      "is_active": true,
+      "key": [
+        "rosa",
+        "rosa_q05",
+        "lb_00439"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Peru trip cancelled — Carlos needs knee surgery",
+      "entry_id": "lb_00231",
+      "entry_text": "User is planning a two-week trip to Peru with Carlos",
+      "is_active": false,
+      "key": [
+        "rosa",
+        "rosa_q06",
+        "lb_00231"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q06",
+      "signal": 1.0,
+      "superseded": "Planning a two-week trip to Peru with Carlos — visiting Lima for the first time in 20 years"
+    },
+    {
+      "current": "Peru trip cancelled — Carlos needs knee surgery",
+      "entry_id": "lb_00233",
+      "entry_text": "User is planning a two-week trip to Peru with Carlos",
+      "is_active": false,
+      "key": [
+        "rosa",
+        "rosa_q06",
+        "lb_00233"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q06",
+      "signal": 1.0,
+      "superseded": "Planning a two-week trip to Peru with Carlos — visiting Lima for the first time in 20 years"
+    },
+    {
+      "current": "Peru trip cancelled — Carlos needs knee surgery",
+      "entry_id": "lb_00236",
+      "entry_text": "User is planning a two-week trip to Peru with Carlos.",
+      "is_active": true,
+      "key": [
+        "rosa",
+        "rosa_q06",
+        "lb_00236"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q06",
+      "signal": 1.0,
+      "superseded": "Planning a two-week trip to Peru with Carlos — visiting Lima for the first time in 20 years"
+    },
+    {
+      "current": "Peru trip cancelled — Carlos needs knee surgery",
+      "entry_id": "lb_00240",
+      "entry_text": "User is planning a two-week trip to Peru with Carlos",
+      "is_active": false,
+      "key": [
+        "rosa",
+        "rosa_q06",
+        "lb_00240"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q06",
+      "signal": 1.0,
+      "superseded": "Planning a two-week trip to Peru with Carlos — visiting Lima for the first time in 20 years"
+    },
+    {
+      "current": "Peru trip cancelled — Carlos needs knee surgery",
+      "entry_id": "lb_00242",
+      "entry_text": "User is planning a two-week trip to Peru with Carlos",
+      "is_active": true,
+      "key": [
+        "rosa",
+        "rosa_q06",
+        "lb_00242"
+      ],
+      "persona": "rosa",
+      "question_id": "rosa_q06",
+      "signal": 1.0,
+      "superseded": "Planning a two-week trip to Peru with Carlos — visiting Lima for the first time in 20 years"
+    },
+    {
+      "current": "Moved to music recommendations team after restructure",
+      "entry_id": "lb_00002",
+      "entry_text": "User works on the podcast analytics team at Spotify",
+      "is_active": false,
+      "key": [
+        "saga",
+        "saga_q01",
+        "lb_00002"
+      ],
+      "persona": "saga",
+      "question_id": "saga_q01",
+      "signal": 1.0,
+      "superseded": "Works on podcast analytics team at Spotify"
+    },
+    {
+      "current": "Switched to Karbin climbing gym in Södermalm — better setting, closer to new apartment",
+      "entry_id": "lb_00068",
+      "entry_text": "User climbs at Klättercentret Telefonplan twice per week, usually on Tuesdays and Thursdays.",
+      "is_active": false,
+      "key": [
+        "saga",
+        "saga_q02",
+        "lb_00068"
+      ],
+      "persona": "saga",
+      "question_id": "saga_q02",
+      "signal": 0.8333,
+      "superseded": "Climbs at Klättercentret Telefonplan — goes 2x per week"
+    },
+    {
+      "current": "Switched to Karbin climbing gym in Södermalm — better setting, closer to new apartment",
+      "entry_id": "lb_00075",
+      "entry_text": "User climbs at Klättercentret Telefonplan twice per week, usually on Tuesdays and Thursdays.",
+      "is_active": true,
+      "key": [
+        "saga",
+        "saga_q02",
+        "lb_00075"
+      ],
+      "persona": "saga",
+      "question_id": "saga_q02",
+      "signal": 0.8333,
+      "superseded": "Climbs at Klättercentret Telefonplan — goes 2x per week"
+    },
+    {
+      "current": "Switched to Karbin climbing gym in Södermalm — better setting, closer to new apartment",
+      "entry_id": "lb_00080",
+      "entry_text": "User climbs at Klättercentret Telefonplan twice per week, usually on Tuesdays and Thursdays.",
+      "is_active": false,
+      "key": [
+        "saga",
+        "saga_q02",
+        "lb_00080"
+      ],
+      "persona": "saga",
+      "question_id": "saga_q02",
+      "signal": 0.8333,
+      "superseded": "Climbs at Klättercentret Telefonplan — goes 2x per week"
+    },
+    {
+      "current": "Switched to Karbin climbing gym in Södermalm — better setting, closer to new apartment",
+      "entry_id": "lb_00085",
+      "entry_text": "User climbs at Klättercentret Telefonplan twice per week, usually Tuesdays and Thursdays, with sessions lasting approximately 90 minutes.",
+      "is_active": true,
+      "key": [
+        "saga",
+        "saga_q02",
+        "lb_00085"
+      ],
+      "persona": "saga",
+      "question_id": "saga_q02",
+      "signal": 0.8333,
+      "superseded": "Climbs at Klättercentret Telefonplan — goes 2x per week"
+    },
+    {
+      "current": "Joined a climbing gym — Vertical Endeavors in Minneapolis",
+      "entry_id": "lb_00086",
+      "entry_text": "User swims laps three mornings a week at the YMCA.",
+      "is_active": false,
+      "key": [
+        "samuel",
+        "samuel_q02",
+        "lb_00086"
+      ],
+      "persona": "samuel",
+      "question_id": "samuel_q02",
+      "signal": 1.0,
+      "superseded": "Swims laps at the YMCA three mornings a week"
+    },
+    {
+      "current": "Joined a climbing gym — Vertical Endeavors in Minneapolis",
+      "entry_id": "lb_00090",
+      "entry_text": "User swims three mornings a week at the YMCA as their primary form of exercise.",
+      "is_active": false,
+      "key": [
+        "samuel",
+        "samuel_q02",
+        "lb_00090"
+      ],
+      "persona": "samuel",
+      "question_id": "samuel_q02",
+      "signal": 0.8333,
+      "superseded": "Swims laps at the YMCA three mornings a week"
+    },
+    {
+      "current": "Joined a climbing gym — Vertical Endeavors in Minneapolis",
+      "entry_id": "lb_00093",
+      "entry_text": "User swims laps at the YMCA three mornings a week as their primary form of exercise.",
+      "is_active": true,
+      "key": [
+        "samuel",
+        "samuel_q02",
+        "lb_00093"
+      ],
+      "persona": "samuel",
+      "question_id": "samuel_q02",
+      "signal": 1.0,
+      "superseded": "Swims laps at the YMCA three mornings a week"
+    },
+    {
+      "current": "Joined a climbing gym — Vertical Endeavors in Minneapolis",
+      "entry_id": "lb_00096",
+      "entry_text": "User swims laps at the YMCA three mornings a week as their primary form of exercise.",
+      "is_active": false,
+      "key": [
+        "samuel",
+        "samuel_q02",
+        "lb_00096"
+      ],
+      "persona": "samuel",
+      "question_id": "samuel_q02",
+      "signal": 1.0,
+      "superseded": "Swims laps at the YMCA three mornings a week"
+    },
+    {
+      "current": "Joined a climbing gym — Vertical Endeavors in Minneapolis",
+      "entry_id": "lb_00099",
+      "entry_text": "User swims laps at the YMCA three mornings a week as a sustainable form of exercise.",
+      "is_active": false,
+      "key": [
+        "samuel",
+        "samuel_q02",
+        "lb_00099"
+      ],
+      "persona": "samuel",
+      "question_id": "samuel_q02",
+      "signal": 1.0,
+      "superseded": "Swims laps at the YMCA three mornings a week"
+    },
+    {
+      "current": "Keynote speaker at AANS annual meeting — April 25, 2026",
+      "entry_id": "lb_00476",
+      "entry_text": "User has been invited to deliver a keynote address at the annual meeting of the American Association of Neurological Surgeons on April 25, 2025.",
+      "is_active": true,
+      "key": [
+        "samuel",
+        "samuel_q05",
+        "lb_00476"
+      ],
+      "persona": "samuel",
+      "question_id": "samuel_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Government aquaculture inspection scheduled for February 15, 2025",
+      "entry_id": "lb_00114",
+      "entry_text": "User owns a farm subject to aquaculture inspection.",
+      "is_active": true,
+      "key": [
+        "thanh",
+        "thanh_q02",
+        "lb_00114"
+      ],
+      "persona": "thanh",
+      "question_id": "thanh_q02",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Government aquaculture inspection scheduled for February 15, 2025",
+      "entry_id": "lb_00115",
+      "entry_text": "User's farm is inspected for water quality, chemical use, and drainage.",
+      "is_active": true,
+      "key": [
+        "thanh",
+        "thanh_q02",
+        "lb_00115"
+      ],
+      "persona": "thanh",
+      "question_id": "thanh_q02",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Government aquaculture inspection scheduled for February 15, 2025",
+      "entry_id": "lb_00120",
+      "entry_text": "User has an aquaculture inspection scheduled for February 15, 2025.",
+      "is_active": true,
+      "key": [
+        "thanh",
+        "thanh_q02",
+        "lb_00120"
+      ],
+      "persona": "thanh",
+      "question_id": "thanh_q02",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Village fete honey stall — June 20, 2026",
+      "entry_id": "lb_00371",
+      "entry_text": "User has been asked to run the honey stall at the village fete again this year",
+      "is_active": true,
+      "key": [
+        "tom",
+        "tom_q05",
+        "lb_00371"
+      ],
+      "persona": "tom",
+      "question_id": "tom_q05",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Barn conversion scrapped — too expensive and planning permission denied",
+      "entry_id": "lb_00143",
+      "entry_text": "User is considering converting the barn into a dedicated honey processing space with proper extraction equipment, bottling line, and temperature control",
+      "is_active": false,
+      "key": [
+        "tom",
+        "tom_q06",
+        "lb_00143"
+      ],
+      "persona": "tom",
+      "question_id": "tom_q06",
+      "signal": 1.0,
+      "superseded": "Planning to convert the old barn into a honey processing room"
+    },
+    {
+      "current": "Barn conversion scrapped — too expensive and planning permission denied",
+      "entry_id": "lb_00148",
+      "entry_text": "User has an old stone barn at the back of their property that they plan to convert into a dedicated honey processing space.",
+      "is_active": true,
+      "key": [
+        "tom",
+        "tom_q06",
+        "lb_00148"
+      ],
+      "persona": "tom",
+      "question_id": "tom_q06",
+      "signal": 1.0,
+      "superseded": "Planning to convert the old barn into a honey processing room"
+    },
+    {
+      "current": "Barn conversion scrapped — too expensive and planning permission denied",
+      "entry_id": "lb_00151",
+      "entry_text": "User has been considering converting the barn into a dedicated honey processing space.",
+      "is_active": true,
+      "key": [
+        "tom",
+        "tom_q06",
+        "lb_00151"
+      ],
+      "persona": "tom",
+      "question_id": "tom_q06",
+      "signal": 1.0,
+      "superseded": "Planning to convert the old barn into a honey processing room"
+    },
+    {
+      "current": "Barn conversion scrapped — too expensive and planning permission denied",
+      "entry_id": "lb_00160",
+      "entry_text": "User plans to convert the barn into a dedicated honey processing space with proper equipment and hopes to have it settled before summer to use by autumn extraction.",
+      "is_active": true,
+      "key": [
+        "tom",
+        "tom_q06",
+        "lb_00160"
+      ],
+      "persona": "tom",
+      "question_id": "tom_q06",
+      "signal": 1.0,
+      "superseded": "Planning to convert the old barn into a honey processing room"
+    },
+    {
+      "current": "Barn conversion scrapped — too expensive and planning permission denied",
+      "entry_id": "lb_00163",
+      "entry_text": "User is planning to convert a barn into a honey processing room in the Cotswolds Area of Outstanding Natural Beauty",
+      "is_active": true,
+      "key": [
+        "tom",
+        "tom_q06",
+        "lb_00163"
+      ],
+      "persona": "tom",
+      "question_id": "tom_q06",
+      "signal": 1.0,
+      "superseded": "Planning to convert the old barn into a honey processing room"
+    },
+    {
+      "current": "Barn conversion scrapped — too expensive and planning permission denied",
+      "entry_id": "lb_00216",
+      "entry_text": "User had grand plans to convert the barn into a honey extraction room, bottling area, and small shop front.",
+      "is_active": false,
+      "key": [
+        "tom",
+        "tom_q06",
+        "lb_00216"
+      ],
+      "persona": "tom",
+      "question_id": "tom_q06",
+      "signal": 1.0,
+      "superseded": "Planning to convert the old barn into a honey processing room"
+    },
+    {
+      "current": "Successfully quit smoking — 3 months clean, using nicotine patches",
+      "entry_id": "lb_00087",
+      "entry_text": "User smokes about half a pack of cigarettes a day, sometimes more when stressed.",
+      "is_active": false,
+      "key": [
+        "valentina",
+        "valentina_q03",
+        "lb_00087"
+      ],
+      "persona": "valentina",
+      "question_id": "valentina_q03",
+      "signal": 0.8333,
+      "superseded": "Smokes half a pack of cigarettes a day — trying to quit"
+    },
+    {
+      "current": "Successfully quit smoking — 3 months clean, using nicotine patches",
+      "entry_id": "lb_00101",
+      "entry_text": "User smokes about half a pack of cigarettes a day",
+      "is_active": true,
+      "key": [
+        "valentina",
+        "valentina_q03",
+        "lb_00101"
+      ],
+      "persona": "valentina",
+      "question_id": "valentina_q03",
+      "signal": 0.8333,
+      "superseded": "Smokes half a pack of cigarettes a day — trying to quit"
+    },
+    {
+      "current": "Book project scrapped — her father asked her not to write it",
+      "entry_id": "lb_00115",
+      "entry_text": "User plans to write a book about the generation of Colombian journalists who reported during the narco years and the war, focusing on their personal experiences.",
+      "is_active": false,
+      "key": [
+        "valentina",
+        "valentina_q04",
+        "lb_00115"
+      ],
+      "persona": "valentina",
+      "question_id": "valentina_q04",
+      "signal": 1.0,
+      "superseded": "Planning to write a book about her father's generation of Colombian journalists"
+    },
+    {
+      "current": "Book project scrapped — her father asked her not to write it",
+      "entry_id": "lb_00117",
+      "entry_text": "User is working on a book about the generation of Colombian journalists who reported during the narco years and the war.",
+      "is_active": true,
+      "key": [
+        "valentina",
+        "valentina_q04",
+        "lb_00117"
+      ],
+      "persona": "valentina",
+      "question_id": "valentina_q04",
+      "signal": 1.0,
+      "superseded": "Planning to write a book about her father's generation of Colombian journalists"
+    },
+    {
+      "current": "Book project scrapped — her father asked her not to write it",
+      "entry_id": "lb_00120",
+      "entry_text": "User is writing a book about the generation of journalists who reported on the narco years and the war, including their own father.",
+      "is_active": true,
+      "key": [
+        "valentina",
+        "valentina_q04",
+        "lb_00120"
+      ],
+      "persona": "valentina",
+      "question_id": "valentina_q04",
+      "signal": 1.0,
+      "superseded": "Planning to write a book about her father's generation of Colombian journalists"
+    },
+    {
+      "current": "Switched to muay thai — trains 4 times a week at a gym in Khalifa City",
+      "entry_id": "lb_00079",
+      "entry_text": "User practices reformer pilates three times a week at a place on Al Reem Island",
+      "is_active": true,
+      "key": [
+        "zara",
+        "zara_q02",
+        "lb_00079"
+      ],
+      "persona": "zara",
+      "question_id": "zara_q02",
+      "signal": 0.8,
+      "superseded": "Does pilates 3 times a week at a studio in Al Reem Island"
+    },
+    {
+      "current": "Switched to muay thai — trains 4 times a week at a gym in Khalifa City",
+      "entry_id": "lb_00085",
+      "entry_text": "User has been doing reformer Pilates for about 4 months, attending 3 times a week at a place on Al Reem Island.",
+      "is_active": false,
+      "key": [
+        "zara",
+        "zara_q02",
+        "lb_00085"
+      ],
+      "persona": "zara",
+      "question_id": "zara_q02",
+      "signal": 0.8,
+      "superseded": "Does pilates 3 times a week at a studio in Al Reem Island"
+    },
+    {
+      "current": "Switched to muay thai — trains 4 times a week at a gym in Khalifa City",
+      "entry_id": "lb_00090",
+      "entry_text": "User practices reformer Pilates three times a week at a place on Al Reem Island.",
+      "is_active": true,
+      "key": [
+        "zara",
+        "zara_q02",
+        "lb_00090"
+      ],
+      "persona": "zara",
+      "question_id": "zara_q02",
+      "signal": 0.8,
+      "superseded": "Does pilates 3 times a week at a studio in Al Reem Island"
+    },
+    {
+      "current": "Switched to muay thai — trains 4 times a week at a gym in Khalifa City",
+      "entry_id": "lb_00096",
+      "entry_text": "User practices reformer Pilates three times a week at a place on Al Reem Island.",
+      "is_active": false,
+      "key": [
+        "zara",
+        "zara_q02",
+        "lb_00096"
+      ],
+      "persona": "zara",
+      "question_id": "zara_q02",
+      "signal": 0.8,
+      "superseded": "Does pilates 3 times a week at a studio in Al Reem Island"
+    },
+    {
+      "current": "Museum project design review presentation — April 15, 2026",
+      "entry_id": "lb_00353",
+      "entry_text": "User will present the sustainability section to the client at a design review on April 15",
+      "is_active": true,
+      "key": [
+        "zara",
+        "zara_q06",
+        "lb_00353"
+      ],
+      "persona": "zara",
+      "question_id": "zara_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Museum project design review presentation — April 15, 2026",
+      "entry_id": "lb_00354",
+      "entry_text": "User has a 20 minute presentation slot at the design review",
+      "is_active": true,
+      "key": [
+        "zara",
+        "zara_q06",
+        "lb_00354"
+      ],
+      "persona": "zara",
+      "question_id": "zara_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Museum project design review presentation — April 15, 2026",
+      "entry_id": "lb_00355",
+      "entry_text": "User will present the sustainability section at a design review to the Department of Culture on April 15.",
+      "is_active": false,
+      "key": [
+        "zara",
+        "zara_q06",
+        "lb_00355"
+      ],
+      "persona": "zara",
+      "question_id": "zara_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Museum project design review presentation — April 15, 2026",
+      "entry_id": "lb_00357",
+      "entry_text": "User is responsible for presenting the sustainability section of the museum project.",
+      "is_active": true,
+      "key": [
+        "zara",
+        "zara_q06",
+        "lb_00357"
+      ],
+      "persona": "zara",
+      "question_id": "zara_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Museum project design review presentation — April 15, 2026",
+      "entry_id": "lb_00359",
+      "entry_text": "User is presenting the sustainability section to the Department of Culture at a design review on April 15, 2026.",
+      "is_active": false,
+      "key": [
+        "zara",
+        "zara_q06",
+        "lb_00359"
+      ],
+      "persona": "zara",
+      "question_id": "zara_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Museum project design review presentation — April 15, 2026",
+      "entry_id": "lb_00361",
+      "entry_text": "User is preparing to present the sustainability section of a cultural heritage museum project in Al Ain to the Department of Culture on April 15.",
+      "is_active": true,
+      "key": [
+        "zara",
+        "zara_q06",
+        "lb_00361"
+      ],
+      "persona": "zara",
+      "question_id": "zara_q06",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Museum project design review presentation — April 15, 2026",
+      "entry_id": "lb_00362",
+      "entry_text": "User is presenting the sustainability section of the museum project to the Department of Culture on April 15.",
+      "is_active": true,
+      "key": [
+        "zara",
+        "zara_q06",
+        "lb_00362"
+      ],
+      "persona": "zara",
+      "question_id": "zara_q06",
+      "signal": 1.0,
+      "superseded": null
+    }
+  ],
+  "n_pn_candidates": 122,
+  "semantic": [
+    {
+      "attack_vector": "AV4_multi_version_fact",
+      "correct_answer": "Advisory — deals and transactions (moved from audit)",
+      "current": "Moved to advisory — deals and transactions team",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "aisha",
+        "aisha_q01"
+      ],
+      "persona": "aisha",
+      "question": "What team is Aisha on at PwC?",
+      "question_id": "aisha_q01",
+      "record_idx": 0,
+      "section": "supersession_events",
+      "superseded": "Works in audit at PwC Manchester",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "Women-only gym in Rusholme",
+      "current": "Switched to a women-only gym in Rusholme — more comfortable",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "aisha",
+        "aisha_q02"
+      ],
+      "persona": "aisha",
+      "question": "Which gym does Aisha go to?",
+      "question_id": "aisha_q02",
+      "record_idx": 1,
+      "section": "supersession_events",
+      "superseded": "Goes to PureGym near Piccadilly — 3x a week",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "Priya, a junior doctor (Zara moved out to live with her boyfriend)",
+      "current": "Zara moved out — new roommate Priya moved in",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "aisha",
+        "aisha_q03"
+      ],
+      "persona": "aisha",
+      "question": "Who does Aisha live with?",
+      "question_id": "aisha_q03",
+      "record_idx": 2,
+      "section": "supersession_events",
+      "superseded": "Lives with roommate Zara in a flat in Ancoats",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "Boxing at a gym in Bethnal Green",
+      "current": "Dropped running, switched to boxing at a gym in Bethnal Green",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "amara",
+        "amara_q03"
+      ],
+      "persona": "amara",
+      "question": "What exercise does Amara do?",
+      "question_id": "amara_q03",
+      "record_idx": 1,
+      "section": "supersession_events",
+      "superseded": "Runs 5K three mornings a week in Victoria Park",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "Toyota Aqua hybrid",
+      "current": "Switched to a Toyota Aqua hybrid — saves on petrol for rural callouts",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "aroha",
+        "aroha_q03"
+      ],
+      "persona": "aroha",
+      "question": "What car does Aroha drive?",
+      "question_id": "aroha_q03",
+      "record_idx": 1,
+      "section": "supersession_events",
+      "superseded": "Drives a 2017 Mazda 3 hatchback",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV7_selective_forgetting",
+      "correct_answer": "No — she was enrolled in a dry needling course but dropped it because it didn't align with her treatment philosophy",
+      "current": "Dropped the dry needling course — decided it doesn't align with her treatment philosophy",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "bruna",
+        "bruna_q06"
+      ],
+      "persona": "bruna",
+      "question": "Is Bruna planning to get any new certifications?",
+      "question_id": "bruna_q06",
+      "record_idx": 0,
+      "section": "retractions",
+      "superseded": "Planning to get certified in dry needling — enrolled in a course starting April 2025",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "No — the Dubai Marathon (January 10, 2025) already passed, and she has since developed a knee injury that ended her running",
+      "current": "Dubai Marathon on January 10, 2025 — she's registered to run",
+      "event_date": "2025-01-10",
+      "intent": "UPCOMING",
+      "key": [
+        "bruna",
+        "bruna_q11"
+      ],
+      "persona": "bruna",
+      "question": "Is Bruna registered for any races or sporting events?",
+      "question_id": "bruna_q11",
+      "record_idx": 0,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL",
+        "CAT-ABLATED"
+      ],
+      "yaml_status": "expired"
+    },
+    {
+      "attack_vector": "AV7_selective_forgetting",
+      "correct_answer": "No — the program was killed by tribal council politics",
+      "current": "Traditional medicine program is dead — tribal council politics killed it",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "chenoa",
+        "chenoa_q04"
+      ],
+      "persona": "chenoa",
+      "question": "Is Chenoa working on a traditional medicine integration program?",
+      "question_id": "chenoa_q04",
+      "record_idx": 0,
+      "section": "retractions",
+      "superseded": "Planning to open a traditional medicine integration program at the clinic",
+      "variants": [
+        "FULL"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV7_selective_forgetting",
+      "correct_answer": "No — he scrapped it because the $425,000 first-year break-even was too high with the Fotona investment still being amortized",
+      "current": "La Jolla second practice is off the table — too much overhead",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "dariush",
+        "dariush_q04"
+      ],
+      "persona": "dariush",
+      "question": "Is Dariush opening a second practice in La Jolla?",
+      "question_id": "dariush_q04",
+      "record_idx": 0,
+      "section": "retractions",
+      "superseded": "Planning to open a second practice location in La Jolla",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "No current exams (AP Euro exam was May 8, already passed)",
+      "current": "AP Euro exam May 8 — students need to be ready",
+      "event_date": "2025-05-08",
+      "intent": "UPCOMING",
+      "key": [
+        "david",
+        "david_q06"
+      ],
+      "persona": "david",
+      "question": "Does David have any upcoming exams to prepare students for?",
+      "question_id": "david_q06",
+      "record_idx": 0,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL",
+        "CAT-ABLATED"
+      ],
+      "yaml_status": "expired"
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "No (parent-teacher conferences were March 12, already passed)",
+      "current": "Parent-teacher conferences March 12",
+      "event_date": "2025-03-12",
+      "intent": "UPCOMING",
+      "key": [
+        "david",
+        "david_q11"
+      ],
+      "persona": "david",
+      "question": "Does David have any parent events coming up?",
+      "question_id": "david_q11",
+      "record_idx": 2,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL",
+        "CAT-ABLATED"
+      ],
+      "yaml_status": "expired"
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "Black Hat Asia presentation in Singapore, April 15, 2026",
+      "current": "Black Hat Asia presentation — Singapore, April 15, 2026",
+      "event_date": "2026-04-15",
+      "intent": "UPCOMING",
+      "key": [
+        "dmitri",
+        "dmitri_q06"
+      ],
+      "persona": "dmitri",
+      "question": "Does Dmitri have any upcoming events?",
+      "question_id": "dmitri_q06",
+      "record_idx": 2,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL",
+        "CAT-ABLATED"
+      ],
+      "yaml_status": "upcoming"
+    },
+    {
+      "attack_vector": "AV4_multi_version_fact",
+      "correct_answer": "Rush University Medical Center",
+      "current": "Transferred to Rush University Medical Center — better hours and pay",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "elena",
+        "elena_q01"
+      ],
+      "persona": "elena",
+      "question": "Where does Elena work?",
+      "question_id": "elena_q01",
+      "record_idx": 0,
+      "section": "supersession_events",
+      "superseded": "Works at Lurie Children's Hospital",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "Mediterranean diet",
+      "current": "Quit keto — switched to Mediterranean diet on doctor's recommendation",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "elena",
+        "elena_q02"
+      ],
+      "persona": "elena",
+      "question": "What diet is Elena following?",
+      "question_id": "elena_q02",
+      "record_idx": 1,
+      "section": "supersession_events",
+      "superseded": "Doing keto diet — lost 15 pounds",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "No current exams (NCLEX recert was March 20, already passed)",
+      "current": "NCLEX-RN recertification exam March 20",
+      "event_date": "2025-03-20",
+      "intent": "UPCOMING",
+      "key": [
+        "elena",
+        "elena_q05"
+      ],
+      "persona": "elena",
+      "question": "Does Elena have any upcoming exams or certifications?",
+      "question_id": "elena_q05",
+      "record_idx": 0,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL",
+        "CAT-ABLATED"
+      ],
+      "yaml_status": "expired"
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "No (lease renewal deadline was Feb 28, already passed)",
+      "current": "Apartment lease renewal deadline February 28",
+      "event_date": "2025-02-28",
+      "intent": "UPCOMING",
+      "key": [
+        "elena",
+        "elena_q10"
+      ],
+      "persona": "elena",
+      "question": "Does Elena need to make any lease decisions?",
+      "question_id": "elena_q10",
+      "record_idx": 3,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL"
+      ],
+      "yaml_status": "expired"
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "Rush orientation for new pediatric trauma unit, March 16, 2026",
+      "current": "Rush orientation for new trauma unit — March 16, 2026",
+      "event_date": "2026-03-16",
+      "intent": "UPCOMING",
+      "key": [
+        "elena",
+        "elena_q11"
+      ],
+      "persona": "elena",
+      "question": "Does Elena have any upcoming events or deadlines?",
+      "question_id": "elena_q11",
+      "record_idx": 2,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL",
+        "CAT-ABLATED"
+      ],
+      "yaml_status": "upcoming"
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "Commercial projects — hotels and corporate offices (pivoted from residential)",
+      "current": "Pivoted to commercial projects — hotels and corporate offices",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "fatima",
+        "fatima_q02"
+      ],
+      "persona": "fatima",
+      "question": "What type of projects does Fatima's firm focus on?",
+      "question_id": "fatima_q02",
+      "record_idx": 1,
+      "section": "supersession_events",
+      "superseded": "Focuses exclusively on high-end residential design",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV7_selective_forgetting",
+      "correct_answer": "No — she planned a fragrance line (Oud & Geometry) but cancelled it",
+      "current": "Fragrance line cancelled — too much distraction from core business",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "fatima",
+        "fatima_q06"
+      ],
+      "persona": "fatima",
+      "question": "Is Fatima launching any new products or brands?",
+      "question_id": "fatima_q06",
+      "record_idx": 0,
+      "section": "retractions",
+      "superseded": "Planning to launch a home fragrance line — Oud & Geometry",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV4_multi_version_fact",
+      "correct_answer": "Kelp farming / kelp aquaculture as climate adaptation (shifted from Arctic cod population dynamics)",
+      "current": "Shifted research focus to kelp farming as climate adaptation strategy",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "ingrid",
+        "ingrid_q01"
+      ],
+      "persona": "ingrid",
+      "question": "What is Ingrid's primary research focus?",
+      "question_id": "ingrid_q01",
+      "record_idx": 0,
+      "section": "supersession_events",
+      "superseded": "Primary research focus is Arctic cod population dynamics",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV7_selective_forgetting",
+      "correct_answer": "No — the Woods Hole sabbatical is off the table because she cannot leave the kelp project",
+      "current": "Sabbatical at Woods Hole is off the table — kelp project cannot be left",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "ingrid",
+        "ingrid_q04"
+      ],
+      "persona": "ingrid",
+      "question": "Is Ingrid planning a sabbatical?",
+      "question_id": "ingrid_q04",
+      "record_idx": 0,
+      "section": "retractions",
+      "superseded": "Planning a sabbatical year at Woods Hole Oceanographic Institution in Massachusetts",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "No — journeyman exam was March 8, 2025 (already passed)",
+      "current": "Journeyman exam scheduled for March 8, 2025",
+      "event_date": "2025-03-08",
+      "intent": "UPCOMING",
+      "key": [
+        "jake",
+        "jake_q11"
+      ],
+      "persona": "jake",
+      "question": "Does Jake have any exams or certifications coming up?",
+      "question_id": "jake_q11",
+      "record_idx": 0,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL"
+      ],
+      "yaml_status": "expired"
+    },
+    {
+      "attack_vector": "AV4_multi_version_fact",
+      "correct_answer": "ABF Freight — switched from Southeastern Freight Lines for better routes and pay (74 cents/mile)",
+      "current": "Switched to ABF Freight — better routes that go through the Northeast",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "jerome",
+        "jerome_q02"
+      ],
+      "persona": "jerome",
+      "question": "What company does Jerome drive for?",
+      "question_id": "jerome_q02",
+      "record_idx": 0,
+      "section": "supersession_events",
+      "superseded": "Drives for Southeastern Freight Lines — based out of Atlanta terminal",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV4_multi_version_fact",
+      "correct_answer": "2024 Peterbilt 579 (replaced the 2019 Freightliner Cascadia he named Marie)",
+      "current": "Now driving a 2024 Peterbilt 579 — better sleeper cab",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "jerome",
+        "jerome_q03"
+      ],
+      "persona": "jerome",
+      "question": "What truck does Jerome drive?",
+      "question_id": "jerome_q03",
+      "record_idx": 1,
+      "section": "supersession_events",
+      "superseded": "Drives a 2019 Freightliner Cascadia — company truck",
+      "variants": [
+        "FULL"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV4_multi_version_fact",
+      "correct_answer": "Advanced students — he's preparing 2 for amateur 3-dan certification (moved from teaching beginners)",
+      "current": "Now teaches advanced students — preparing 2 for amateur dan certification",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "joonho",
+        "joonho_q01"
+      ],
+      "persona": "joonho",
+      "question": "What level of go students does Joon-ho teach?",
+      "question_id": "joonho_q01",
+      "record_idx": 0,
+      "section": "supersession_events",
+      "superseded": "Teaches beginner go students at the Haeundae Baduk Club — 6 students",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV7_selective_forgetting",
+      "correct_answer": "No — he abandoned the combinatorial game theory textbook because his glaucoma makes sustained writing impossible",
+      "current": "Textbook project abandoned — his eyesight makes sustained writing impossible",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "joonho",
+        "joonho_q04"
+      ],
+      "persona": "joonho",
+      "question": "Is Joon-ho writing a textbook?",
+      "question_id": "joonho_q04",
+      "record_idx": 0,
+      "section": "retractions",
+      "superseded": "Planning to write a textbook on combinatorial game theory applied to baduk",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "From home (gave up the shared studio in Shinsaibashi to save money)",
+      "current": "Gave up the studio — works from home now to save money",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "kenji",
+        "kenji_q03"
+      ],
+      "persona": "kenji",
+      "question": "Where does Kenji work?",
+      "question_id": "kenji_q03",
+      "record_idx": 2,
+      "section": "supersession_events",
+      "superseded": "Works from a shared studio space in Shinsaibashi with two other designers",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV4_multi_version_fact",
+      "correct_answer": "Kuapa Kokoo (switched from Akuafo) — 960 cedis per bag plus 75 cedis fair trade premium",
+      "current": "Switched to Kuapa Kokoo buying agent — better price and fair trade premium",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "kofi",
+        "kofi_q01"
+      ],
+      "persona": "kofi",
+      "question": "Who does Kofi's cooperative sell cocoa through?",
+      "question_id": "kofi_q01",
+      "record_idx": 0,
+      "section": "supersession_events",
+      "superseded": "Cooperative sells through Akuafo Buying Agent — 3-year contract",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "Yara brand — 95 cedis per bag (government subsidized), buys 14 bags per season",
+      "current": "Changed to Yara brand fertilizer — government subsidy makes it 95 cedis per bag",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "kofi",
+        "kofi_q02"
+      ],
+      "persona": "kofi",
+      "question": "What fertilizer does Kofi use?",
+      "question_id": "kofi_q02",
+      "record_idx": 1,
+      "section": "supersession_events",
+      "superseded": "Uses Cocoa Life brand fertilizer — buys 12 bags per season at 180 cedis each",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "Fieldwork trip to Bethlehem with Diego on April 22, 2026",
+      "current": "Fieldwork trip to Bethlehem with Diego — April 22, 2026",
+      "event_date": "2026-04-22",
+      "intent": "UPCOMING",
+      "key": [
+        "leila",
+        "leila_q06"
+      ],
+      "persona": "leila",
+      "question": "Does Leila have any upcoming events or deadlines?",
+      "question_id": "leila_q06",
+      "record_idx": 2,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL",
+        "CAT-ABLATED"
+      ],
+      "yaml_status": "upcoming"
+    },
+    {
+      "attack_vector": "AV4_multi_version_fact",
+      "correct_answer": "Urban heat islands and green infrastructure in Melbourne (changed from microplastics in Port Phillip Bay)",
+      "current": "Changed thesis to urban heat islands and green infrastructure in Melbourne",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "lily",
+        "lily_q01"
+      ],
+      "persona": "lily",
+      "question": "What is Lily's thesis about?",
+      "question_id": "lily_q01",
+      "record_idx": 0,
+      "section": "supersession_events",
+      "superseded": "Thesis is on microplastics in Port Phillip Bay",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV7_selective_forgetting",
+      "correct_answer": "No — she wanted to go to UBC in Vancouver but cancelled it (too expensive, would delay graduation)",
+      "current": "UBC exchange cancelled — too expensive and would delay graduation",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "lily",
+        "lily_q06"
+      ],
+      "persona": "lily",
+      "question": "Is Lily doing a semester exchange?",
+      "question_id": "lily_q06",
+      "record_idx": 0,
+      "section": "retractions",
+      "superseded": "Planning to do a semester exchange at UBC (University of British Columbia) in Vancouver",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "No current deliveries (alignment rack arrived April 22, already past)",
+      "current": "Truck delivery arriving April 22",
+      "event_date": "2025-04-22",
+      "intent": "UPCOMING",
+      "key": [
+        "marcus",
+        "marcus_q10"
+      ],
+      "persona": "marcus",
+      "question": "Does Marcus have any equipment deliveries coming?",
+      "question_id": "marcus_q10",
+      "record_idx": 3,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL",
+        "CAT-ABLATED"
+      ],
+      "yaml_status": "expired"
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "No upcoming meetings (SBA loan meeting was Feb 4, already passed)",
+      "current": "Meeting with SBA loan officer Tuesday Feb 4",
+      "event_date": "2025-02-04",
+      "intent": "UPCOMING",
+      "key": [
+        "marcus",
+        "marcus_q12"
+      ],
+      "persona": "marcus",
+      "question": "Does Marcus need to prepare for any meetings?",
+      "question_id": "marcus_q12",
+      "record_idx": 2,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL"
+      ],
+      "yaml_status": "expired"
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "BSc dissertation deadline — April 30, 2026",
+      "current": "BSc Physiotherapy final dissertation deadline — April 30, 2026",
+      "event_date": "2026-04-30",
+      "intent": "UPCOMING",
+      "key": [
+        "marley",
+        "marley_q06"
+      ],
+      "persona": "marley",
+      "question": "Does Marley have any upcoming deadlines?",
+      "question_id": "marley_q06",
+      "record_idx": 2,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL",
+        "CAT-ABLATED"
+      ],
+      "yaml_status": "upcoming"
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "Bıyıklı brand (95 lira per tin) — switched after Erkek supplier closed",
+      "current": "Switched to Bıyıklı brand pomade — Erkek supplier went out of business",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "mehmet",
+        "mehmet_q02"
+      ],
+      "persona": "mehmet",
+      "question": "What pomade brand does Mehmet use in his shop?",
+      "question_id": "mehmet_q02",
+      "record_idx": 1,
+      "section": "supersession_events",
+      "superseded": "Uses Erkek brand pomade — been his signature product for 15 years",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV4_multi_version_fact",
+      "correct_answer": "Jim Jim/Twin Falls sector (reassigned from East Alligator River corridor)",
+      "current": "New park management reassigned her to Jim Jim/Twin Falls sector — different country, different knowledge needed",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "mirri",
+        "mirri_q01"
+      ],
+      "persona": "mirri",
+      "question": "What patrol route does Mirri cover?",
+      "question_id": "mirri_q01",
+      "record_idx": 0,
+      "section": "supersession_events",
+      "superseded": "Patrols the East Alligator River corridor — 3 days per week",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV7_selective_forgetting",
+      "correct_answer": "No — the book project is dead. Elders were concerned about putting cultural knowledge in print.",
+      "current": "Book project scrapped — elders concerned about putting cultural knowledge in print",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "mirri",
+        "mirri_q04"
+      ],
+      "persona": "mirri",
+      "question": "Is Mirri writing a children's book?",
+      "question_id": "mirri_q04",
+      "record_idx": 0,
+      "section": "retractions",
+      "superseded": "Planning to write a bilingual children's book — Yolngu Matha and English",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "Villeray (moved from Plateau-Mont-Royal for a bigger kitchen)",
+      "current": "Moved to a bigger apartment in Villeray — needed more space and a real kitchen",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "nadia",
+        "nadia_q02"
+      ],
+      "persona": "nadia",
+      "question": "Where does Nadia live?",
+      "question_id": "nadia_q02",
+      "record_idx": 1,
+      "section": "supersession_events",
+      "superseded": "Lives in a small apartment in the Plateau-Mont-Royal",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV7_selective_forgetting",
+      "correct_answer": "No — that's over. Noma closed and she can't afford the trip. She explicitly said to forget it.",
+      "current": "Noma stage cancelled — they closed, and she can't afford the trip anyway",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "nadia",
+        "nadia_q06"
+      ],
+      "persona": "nadia",
+      "question": "Is Nadia planning to stage at Noma?",
+      "question_id": "nadia_q06",
+      "record_idx": 0,
+      "section": "retractions",
+      "superseded": "Planning to stage at Noma in Copenhagen — applied for a two-week stage",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "Uncle Prasert at Talat Thai wholesale — 32 baht per kilo",
+      "current": "Switched rice supplier to Uncle Prasert at Talat Thai wholesale — 32 baht per kilo, better quality",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "pan",
+        "pan_q01"
+      ],
+      "persona": "pan",
+      "question": "Where does Pan buy her rice?",
+      "question_id": "pan_q01",
+      "record_idx": 0,
+      "section": "supersession_events",
+      "superseded": "Buys jasmine rice from Auntie Somjit at Khlong Toei market — 38 baht per kilo",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "DAZN (cancelled Sky Sports to save money)",
+      "current": "Cancelled Sky Sports — switched to DAZN, much cheaper",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "raj",
+        "raj_q02"
+      ],
+      "persona": "raj",
+      "question": "What sports package does Raj use?",
+      "question_id": "raj_q02",
+      "record_idx": 1,
+      "section": "supersession_events",
+      "superseded": "Has Sky Sports — watches every Premier League match",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV4_multi_version_fact",
+      "correct_answer": "School admin coordinator at Ladywood Primary (promoted from teaching)",
+      "current": "Simran got promoted — now school admin coordinator at the same school",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "raj",
+        "raj_q03"
+      ],
+      "persona": "raj",
+      "question": "What does Simran do for work?",
+      "question_id": "raj_q03",
+      "record_idx": 2,
+      "section": "supersession_events",
+      "superseded": "Simran is a primary school teacher at Ladywood Primary",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "Granddaughter Isabella's baptism, April 5, 2026 (she's the madrina)",
+      "current": "Granddaughter Isabella's baptism — April 5, 2026",
+      "event_date": "2026-04-05",
+      "intent": "UPCOMING",
+      "key": [
+        "rosa",
+        "rosa_q05"
+      ],
+      "persona": "rosa",
+      "question": "Does Rosa have any upcoming events?",
+      "question_id": "rosa_q05",
+      "record_idx": 2,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL",
+        "CAT-ABLATED"
+      ],
+      "yaml_status": "upcoming"
+    },
+    {
+      "attack_vector": "AV7_selective_forgetting",
+      "correct_answer": "No — the trip was cancelled because Carlos needs knee surgery",
+      "current": "Peru trip cancelled — Carlos needs knee surgery",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "rosa",
+        "rosa_q06"
+      ],
+      "persona": "rosa",
+      "question": "Is Rosa planning to travel to Peru?",
+      "question_id": "rosa_q06",
+      "record_idx": 0,
+      "section": "retractions",
+      "superseded": "Planning a two-week trip to Peru with Carlos — visiting Lima for the first time in 20 years",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV4_multi_version_fact",
+      "correct_answer": "Music recommendations (moved from podcast analytics after a restructure)",
+      "current": "Moved to music recommendations team after restructure",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "saga",
+        "saga_q01"
+      ],
+      "persona": "saga",
+      "question": "What team does Saga work on at Spotify?",
+      "question_id": "saga_q01",
+      "record_idx": 0,
+      "section": "supersession_events",
+      "superseded": "Works on podcast analytics team at Spotify",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "Karbin in Södermalm (switched from Klättercentret Telefonplan)",
+      "current": "Switched to Karbin climbing gym in Södermalm — better setting, closer to new apartment",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "saga",
+        "saga_q02"
+      ],
+      "persona": "saga",
+      "question": "Which climbing gym does Saga go to?",
+      "question_id": "saga_q02",
+      "record_idx": 1,
+      "section": "supersession_events",
+      "superseded": "Climbs at Klättercentret Telefonplan — goes 2x per week",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "Rock climbing at Vertical Endeavors (stopped swimming at YMCA)",
+      "current": "Joined a climbing gym — Vertical Endeavors in Minneapolis",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "samuel",
+        "samuel_q02"
+      ],
+      "persona": "samuel",
+      "question": "What exercise does Samuel do?",
+      "question_id": "samuel_q02",
+      "record_idx": 1,
+      "section": "supersession_events",
+      "superseded": "Swims laps at the YMCA three mornings a week",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "AANS keynote speech, April 25, 2026",
+      "current": "Keynote speaker at AANS annual meeting — April 25, 2026",
+      "event_date": "2026-04-25",
+      "intent": "UPCOMING",
+      "key": [
+        "samuel",
+        "samuel_q05"
+      ],
+      "persona": "samuel",
+      "question": "Does Samuel have any upcoming events?",
+      "question_id": "samuel_q05",
+      "record_idx": 2,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL"
+      ],
+      "yaml_status": "upcoming"
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "No — the aquaculture inspection was February 15, 2025 (already passed)",
+      "current": "Government aquaculture inspection scheduled for February 15, 2025",
+      "event_date": "2025-02-15",
+      "intent": "UPCOMING",
+      "key": [
+        "thanh",
+        "thanh_q02"
+      ],
+      "persona": "thanh",
+      "question": "Does Thanh have any upcoming government inspections?",
+      "question_id": "thanh_q02",
+      "record_idx": 0,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL",
+        "CAT-ABLATED"
+      ],
+      "yaml_status": "expired"
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "Village fete honey stall on June 20, 2026",
+      "current": "Village fete honey stall — June 20, 2026",
+      "event_date": "2026-06-20",
+      "intent": "UPCOMING",
+      "key": [
+        "tom",
+        "tom_q05"
+      ],
+      "persona": "tom",
+      "question": "Does Tom have any upcoming events?",
+      "question_id": "tom_q05",
+      "record_idx": 2,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": "upcoming"
+    },
+    {
+      "attack_vector": "AV7_selective_forgetting",
+      "correct_answer": "No — he planned to convert a barn into a honey processing room but it was scrapped (planning permission denied, too expensive)",
+      "current": "Barn conversion scrapped — too expensive and planning permission denied",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "tom",
+        "tom_q06"
+      ],
+      "persona": "tom",
+      "question": "Is Tom planning any building projects?",
+      "question_id": "tom_q06",
+      "record_idx": 0,
+      "section": "retractions",
+      "superseded": "Planning to convert the old barn into a honey processing room",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "No — she quit 3 months ago, using nicotine patches",
+      "current": "Successfully quit smoking — 3 months clean, using nicotine patches",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "valentina",
+        "valentina_q03"
+      ],
+      "persona": "valentina",
+      "question": "Does Valentina smoke?",
+      "question_id": "valentina_q03",
+      "record_idx": 2,
+      "section": "supersession_events",
+      "superseded": "Smokes half a pack of cigarettes a day — trying to quit",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV7_selective_forgetting",
+      "correct_answer": "No — she planned a book about her father's generation of journalists but scrapped it because her father asked her not to",
+      "current": "Book project scrapped — her father asked her not to write it",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "valentina",
+        "valentina_q04"
+      ],
+      "persona": "valentina",
+      "question": "Is Valentina writing a book?",
+      "question_id": "valentina_q04",
+      "record_idx": 0,
+      "section": "retractions",
+      "superseded": "Planning to write a book about her father's generation of Colombian journalists",
+      "variants": [
+        "FULL",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV1_superseded_preference",
+      "correct_answer": "Muay thai, 4 times a week at a gym in Khalifa City (350 dirhams/month)",
+      "current": "Switched to muay thai — trains 4 times a week at a gym in Khalifa City",
+      "event_date": null,
+      "intent": "CURRENT-STATE",
+      "key": [
+        "zara",
+        "zara_q02"
+      ],
+      "persona": "zara",
+      "question": "What fitness activity does Zara do?",
+      "question_id": "zara_q02",
+      "record_idx": 1,
+      "section": "supersession_events",
+      "superseded": "Does pilates 3 times a week at a studio in Al Reem Island",
+      "variants": [
+        "FULL",
+        "CAT-ABLATED",
+        "SLOT-ABLATED"
+      ],
+      "yaml_status": null
+    },
+    {
+      "attack_vector": "AV2_expired_logistics",
+      "correct_answer": "Museum design review presentation on April 15, 2026 (presenting sustainability section to the Department of Culture)",
+      "current": "Museum project design review presentation — April 15, 2026",
+      "event_date": "2026-04-15",
+      "intent": "UPCOMING",
+      "key": [
+        "zara",
+        "zara_q06"
+      ],
+      "persona": "zara",
+      "question": "Does Zara have any upcoming events or deadlines?",
+      "question_id": "zara_q06",
+      "record_idx": 2,
+      "section": "expiring_logistics",
+      "superseded": null,
+      "variants": [
+        "FULL"
+      ],
+      "yaml_status": "upcoming"
+    }
+  ]
+}

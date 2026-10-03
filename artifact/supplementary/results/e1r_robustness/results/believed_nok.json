@@ -1,0 +1,142 @@
+{
+  "FOK_BELIEVED": {
+    "blind_auroc": 0.5055647388094746,
+    "blind_ece": 0.21641452344931925,
+    "ci_cluster": {
+      "ci_hi": 0.27262744218596435,
+      "ci_lo": 0.21057664290804812,
+      "excludes_zero": true,
+      "mean": 0.241575064146348,
+      "n_draws": 1000
+    },
+    "ci_item": {
+      "ci_hi": 0.28787409221525606,
+      "ci_lo": 0.18905323040608787,
+      "excludes_zero": true,
+      "mean": 0.2404431065492705,
+      "n_draws": 1000
+    },
+    "delta": 0.24202152638202756,
+    "indexed_auroc": 0.7475862651915022,
+    "indexed_ece": 0.1006807866868382,
+    "lopo": {
+      "full_delta": 0.24202152638202756,
+      "max_delta": 0.24829715417576192,
+      "min_delta": 0.23782630399248283,
+      "n_folds": 40,
+      "n_sign_changes": 0
+    },
+    "n": 661,
+    "n_personas": 40,
+    "n_pos": 278,
+    "row": "FOK FR-Bank indexed-BELIEVED"
+  },
+  "FOK_TRUE": {
+    "blind_auroc": 0.5055647388094746,
+    "blind_ece": 0.21641452344931925,
+    "ci_cluster": {
+      "ci_hi": 0.2672884358253357,
+      "ci_lo": 0.2073151323676952,
+      "excludes_zero": true,
+      "mean": 0.2380778093519313,
+      "n_draws": 1000
+    },
+    "ci_item": {
+      "ci_hi": 0.2876885973116023,
+      "ci_lo": 0.18563571039232543,
+      "excludes_zero": true,
+      "mean": 0.23665246926995964,
+      "n_draws": 1000
+    },
+    "delta": 0.23864511523940113,
+    "indexed_auroc": 0.7442098540488757,
+    "indexed_ece": 0.09326777609682299,
+    "lopo": {
+      "full_delta": 0.23864511523940113,
+      "max_delta": 0.2436176470588236,
+      "min_delta": 0.23364462569765232,
+      "n_folds": 40,
+      "n_sign_changes": 0
+    },
+    "n": 661,
+    "n_personas": 40,
+    "n_pos": 278,
+    "row": "FOK FR-Bank indexed-TRUE"
+  },
+  "NOK_BELIEVED": {
+    "blind_auroc": 0.49461400359066426,
+    "blind_ece": 0.15824508320726174,
+    "ci_cluster": {
+      "ci_hi": 0.1744257672310374,
+      "ci_lo": 0.021747376449784576,
+      "excludes_zero": true,
+      "mean": 0.09959021434514088,
+      "n_draws": 1000
+    },
+    "ci_item": {
+      "ci_hi": 0.15431495274745208,
+      "ci_lo": 0.045808824736030714,
+      "excludes_zero": true,
+      "mean": 0.10200008058304709,
+      "n_draws": 1000
+    },
+    "delta": 0.10124637481010906,
+    "indexed_auroc": 0.5958603784007733,
+    "indexed_ece": 0.1411497730711044,
+    "lopo": {
+      "full_delta": 0.10124637481010906,
+      "max_delta": 0.11410749283883614,
+      "min_delta": 0.08904544300583905,
+      "n_folds": 40,
+      "n_sign_changes": 0
+    },
+    "n": 661,
+    "n_personas": 40,
+    "n_pos": 104,
+    "row": "NOK FR-Bank indexed-BELIEVED"
+  },
+  "NOK_TRUE": {
+    "blind_auroc": 0.49461400359066426,
+    "blind_ece": 0.15824508320726174,
+    "ci_cluster": {
+      "ci_hi": 0.3236926645997786,
+      "ci_lo": 0.1552277302691103,
+      "excludes_zero": true,
+      "mean": 0.2398655008321618,
+      "n_draws": 1000
+    },
+    "ci_item": {
+      "ci_hi": 0.2949032866227625,
+      "ci_lo": 0.1801363498913204,
+      "excludes_zero": true,
+      "mean": 0.23853169499883248,
+      "n_draws": 1000
+    },
+    "delta": 0.23928842701284353,
+    "indexed_auroc": 0.7339024306035078,
+    "indexed_ece": 0.09863842662632374,
+    "lopo": {
+      "full_delta": 0.23928842701284353,
+      "max_delta": 0.2564274911779533,
+      "min_delta": 0.22036867763558804,
+      "n_folds": 40,
+      "n_sign_changes": 0
+    },
+    "n": 661,
+    "n_personas": 40,
+    "n_pos": 104,
+    "row": "NOK FR-Bank indexed-TRUE"
+  },
+  "coverage": {
+    "frbank_items": 661,
+    "full_coverage": true,
+    "nok_joinable_BELIEVED": 661,
+    "nok_joinable_TRUE": 661
+  },
+  "fok_retention": 1.014148251638167,
+  "fok_retention_published": 1.014,
+  "frozen_branch": "RETENTION < 60% BUT CI EXCLUDES ZERO -- NOK degrades materially under believed metadata but remains positive; report the degradation as a quantified limit on the practical claim.",
+  "nok_holds_ge_60pct": false,
+  "nok_retention": 0.423114381560437,
+  "spec": "e1r_robustness/SPEC_E1R.md @ 9ac91a2"
+}

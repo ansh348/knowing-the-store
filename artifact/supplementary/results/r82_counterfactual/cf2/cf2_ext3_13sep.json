@@ -1,0 +1,217 @@
+{
+ "notes": [
+  "13 Sep 2026, final read: records 164-174: 4 YES (165, 166, 168, 174), 7 NO; re-reads 39, 41, 42, 47, 48: all NO. Letters model-assigned from the author's bare NO (164, 167, RE39 paraphrase; the rest implausible), disclosed. Questions 194-204: 4 flagged.",
+  "Consequence under D-CF2-4: 12 failures; patrick 0264 fills one as the last spare (author's ruling); the supersession quota drops by the residual 11 to N_sup = 89, composition 89/30/30, n = 447. More than 10 of the 16 failed, so the conditional power re-run at the final composition fires before any store version; P1 below 0.80 is a STOP.",
+  "Construction telemetry across CF-2: PN read pass rate on supersession records 0.59 (first 100: 0.69; replacements: 0.42 to 0.50); the frozen seed-4242 retry restored 1 of 50; supersession eligibility 0.60 over 273 walked positions with the cap binding on 12 of 40 personas by position 272.",
+  "Method as before: entries presented by a language model, verdicts typed by the author, disclosed under the AI-use line."
+ ],
+ "pn_read_ext3": [
+  {
+   "num": "164",
+   "persona": "aisha",
+   "entry_id": "lb_00107",
+   "state": "SUPERSESSION",
+   "verdict": "NO-paraphrase",
+   "reread": false
+  },
+  {
+   "num": "165",
+   "persona": "aroha",
+   "entry_id": "lb_00054",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "166",
+   "persona": "bruna",
+   "entry_id": "lb_00063",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "167",
+   "persona": "chenoa",
+   "entry_id": "lb_00040",
+   "state": "SUPERSESSION",
+   "verdict": "NO-paraphrase",
+   "reread": false
+  },
+  {
+   "num": "168",
+   "persona": "david",
+   "entry_id": "lb_00029",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "169",
+   "persona": "diane",
+   "entry_id": "lb_00041",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": false
+  },
+  {
+   "num": "170",
+   "persona": "leila",
+   "entry_id": "lb_00081",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": false
+  },
+  {
+   "num": "171",
+   "persona": "mirri",
+   "entry_id": "lb_00063",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": false
+  },
+  {
+   "num": "172",
+   "persona": "omar",
+   "entry_id": "lb_00099",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": false
+  },
+  {
+   "num": "173",
+   "persona": "pan",
+   "entry_id": "lb_00107",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": false
+  },
+  {
+   "num": "174",
+   "persona": "valentina",
+   "entry_id": "lb_00056",
+   "state": "SUPERSESSION",
+   "verdict": "YES",
+   "reread": false
+  },
+  {
+   "num": "RE39",
+   "persona": "chenoa",
+   "entry_id": "lb_00031",
+   "state": "SUPERSESSION",
+   "verdict": "NO-paraphrase",
+   "reread": true
+  },
+  {
+   "num": "RE41",
+   "persona": "elena",
+   "entry_id": "lb_00067",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": true
+  },
+  {
+   "num": "RE42",
+   "persona": "jerome",
+   "entry_id": "lb_00074",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": true
+  },
+  {
+   "num": "RE47",
+   "persona": "omar",
+   "entry_id": "lb_00096",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": true
+  },
+  {
+   "num": "RE48",
+   "persona": "priya",
+   "entry_id": "lb_00008",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible",
+   "reread": true
+  }
+ ],
+ "question_flags_ext3": [
+  {
+   "num": "194",
+   "persona": "aisha",
+   "entry_id": "lb_00107",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "195",
+   "persona": "aroha",
+   "entry_id": "lb_00054",
+   "flag": "YES",
+   "token": "fasting blood sugar"
+  },
+  {
+   "num": "196",
+   "persona": "bruna",
+   "entry_id": "lb_00063",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "197",
+   "persona": "chenoa",
+   "entry_id": "lb_00040",
+   "flag": "YES",
+   "token": "traditional healing methods"
+  },
+  {
+   "num": "198",
+   "persona": "david",
+   "entry_id": "lb_00029",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "199",
+   "persona": "diane",
+   "entry_id": "lb_00041",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "200",
+   "persona": "leila",
+   "entry_id": "lb_00081",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "201",
+   "persona": "mirri",
+   "entry_id": "lb_00063",
+   "flag": "YES",
+   "token": "back"
+  },
+  {
+   "num": "202",
+   "persona": "omar",
+   "entry_id": "lb_00099",
+   "flag": "YES",
+   "token": "outfit"
+  },
+  {
+   "num": "203",
+   "persona": "pan",
+   "entry_id": "lb_00107",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "204",
+   "persona": "valentina",
+   "entry_id": "lb_00056",
+   "flag": "NO",
+   "token": ""
+  }
+ ]
+}

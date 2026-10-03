@@ -1,0 +1,38 @@
+{
+ "SB60-LUNA": {
+  "identifier_ok": true,
+  "lane": "SB60-LUNA",
+  "model": "gpt-5.6-luna",
+  "parsed": "OK",
+  "served": "gpt-5.6-luna",
+  "tok_in": 1900,
+  "tok_out": 144,
+  "tok_reasoning": 114,
+  "usd": 0.000648,
+  "when": "2026-09-23T12:26:03"
+ },
+ "SB60-MINI": {
+  "identifier_ok": true,
+  "lane": "SB60-MINI",
+  "model": "gpt-4.1-mini",
+  "parsed": "OK",
+  "served": "gpt-4.1-mini-2025-04-14",
+  "tok_in": 1901,
+  "tok_out": 21,
+  "tok_reasoning": 0,
+  "usd": 0.000794,
+  "when": "2026-09-23T12:26:06"
+ },
+ "SB60-SOL": {
+  "identifier_ok": true,
+  "lane": "SB60-SOL",
+  "model": "gpt-5.6-sol",
+  "parsed": "OK",
+  "served": "gpt-5.6-sol",
+  "tok_in": 1900,
+  "tok_out": 165,
+  "tok_reasoning": 135,
+  "usd": 0.012797,
+  "when": "2026-09-23T12:26:12"
+ }
+}

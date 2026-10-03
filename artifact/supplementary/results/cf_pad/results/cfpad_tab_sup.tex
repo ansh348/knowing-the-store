@@ -1,0 +1,45 @@
+% CFPAD-TABLE sup (written by cf_pad/tools/cfpad_tex.py from cf_pad/results/cf_pad_scores.json; spliced at its per-table marker by reviews/v23/tools/build_v23.py; do not edit by hand)
+\begin{table}[H]
+\caption{The long-list check, supersession (registered): the $264$ items of the $88$ supersession triples with the superseded-names list padded to $60$ names, every reader's pooled AUROC (upper panel) and matched score (lower panel, with W/T/L) beside its recorded unpadded value on the same items, and the paired difference padded minus unpadded with the item-level and the persona-grouped interval (pooled) or the triple-level and the persona-grouped interval (matched). The three lookups read the padded lists as printed; the models ran the padded summaries at the settings of their Table~\ref{tab:cf-main} rows. $^{*}$: both intervals exclude zero.}
+\label{tab:cfpad-sup}
+\centering
+\tiny
+\setlength{\tabcolsep}{1.5pt}
+\begin{tabular}{@{}lrrrll@{}}
+\toprule
+\multicolumn{6}{@{}l}{\textit{Pooled AUROC}}\\
+Reader & unpadded & padded & difference & item interval & persona interval \\
+\midrule
+Name lookup & $0.9223$ & $0.7416$ & $-0.1807$$^{*}$ & $[-0.2420,-0.1272]$ & $[-0.2335,-0.1311]$ \\
+Lexical lookup & $0.7829$ & $0.6892$ & $-0.0937$$^{*}$ & $[-0.1435,-0.0501]$ & $[-0.1320,-0.0599]$ \\
+Random-token lookup & $0.6651$ & $0.5008$ & $-0.1643$$^{*}$ & $[-0.2325,-0.0957]$ & $[-0.2302,-0.1106]$ \\
+\midrule
+GPT-4.1 mini & $0.8793$ & $0.6891$ & $-0.1902$$^{*}$ & $[-0.2451,-0.1369]$ & $[-0.2407,-0.1354]$ \\
+Haiku 4.5 & $0.8876$ & $0.7354$ & $-0.1522$$^{*}$ & $[-0.2106,-0.1001]$ & $[-0.2017,-0.0997]$ \\
+GPT-5.6 Luna & $0.9426$ & $0.8791$ & $-0.0636$$^{*}$ & $[-0.0978,-0.0293]$ & $[-0.0989,-0.0307]$ \\
+GPT-5.6 Sol & $0.9383$ & $0.8690$ & $-0.0693$$^{*}$ & $[-0.1058,-0.0352]$ & $[-0.1175,-0.0221]$ \\
+Opus 5$^{a}$ & $0.9325$ & $0.7080$ & $-0.2245$$^{*}$ & $[-0.2792,-0.1705]$ & $[-0.3449,-0.1294]$ \\
+\bottomrule
+\end{tabular}
+\par\vspace{3pt}
+\begin{tabular}{@{}lrrrll@{}}
+\toprule
+\multicolumn{6}{@{}l}{\textit{Matched score, \pn{} against \present{}}}\\
+Reader & unpadded (W/T/L) & padded (W/T/L) & difference & triple interval & persona interval \\
+\midrule
+Name lookup & $0.9659$ (82/6/0) & $0.8295$ (58/30/0) & $-0.1364$$^{*}$ & $[-0.1875,-0.0909]$ & $[-0.1883,-0.0823]$ \\
+Lexical lookup & $0.7841$ (50/38/0) & $0.7443$ (43/45/0) & $-0.0398$$^{*}$ & $[-0.0739,-0.0170]$ & $[-0.0745,-0.0120]$ \\
+Random-token lookup & $0.7443$ (45/41/2) & $0.5057$ (1/87/0) & $-0.2386$$^{*}$ & $[-0.2955,-0.1818]$ & $[-0.3056,-0.1772]$ \\
+\midrule
+GPT-4.1 mini & $0.8920$ (76/5/7) & $0.7841$ (67/4/17) & $-0.1080$$^{*}$ & $[-0.2159,-0.0055]$ & $[-0.2143,-0.0055]$ \\
+Haiku 4.5 & $0.9148$ (76/9/3) & $0.8011$ (59/23/6) & $-0.1136$$^{*}$ & $[-0.1706,-0.0511]$ & $[-0.1786,-0.0455]$ \\
+GPT-5.6 Luna & $0.9602$ (84/1/3) & $0.9318$ (82/0/6) & $-0.0284$ & $[-0.0795,+0.0170]$ & $[-0.0787,+0.0188]$ \\
+GPT-5.6 Sol & $0.9602$ (84/1/3) & $0.9205$ (81/0/7) & $-0.0398$ & $[-0.1193,+0.0284]$ & $[-0.1222,+0.0319]$ \\
+Opus 5$^{a}$ & $0.9773$ (86/0/2) & $0.7841$ (67/4/17) & $-0.1932$$^{*}$ & $[-0.2841,-0.1136]$ & $[-0.3148,-0.0841]$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.97\linewidth}\scriptsize
+$^{a}$Opus 5: one draw; recorded row five draws.
+\end{minipage}
+\end{table}

@@ -1,0 +1,3630 @@
+{
+  "meta": {
+    "deviation": "D-IX-1",
+    "fallback_lineage": "lineage2",
+    "gate": "G1 no frozen future marker; G2 not identical to the original; G3 non-empty; G4 no second person; G5 no persona-name token; G6 no time-window phrase (cross_questions.gate)",
+    "instruction_version": 2,
+    "lineage2": {
+      "gate": {
+        "G1": 1,
+        "G2": 0,
+        "G3": 0,
+        "G4": 0,
+        "G5": 0,
+        "G6": 0,
+        "rejected": 1
+      },
+      "identical_to_primary": 90,
+      "lineage_sha256": "090d796e05ff5bc215809cca560aef89135407c699bf3541e72871546b48ee92",
+      "questions_sha256": "c488db0c316d8bd7f5f8deeb1f459cf3ef65fd6aa4c8ad7357cdadaf6bf1128b",
+      "seed": 4242,
+      "served": [
+        "gpt-4.1-mini-2025-04-14"
+      ],
+      "system_fingerprints": [
+        "fp_2a126b9d98",
+        "fp_6f31bfbb14",
+        "fp_8f74a54150",
+        "fp_a2374ad346",
+        "fp_eb9b0343ec"
+      ],
+      "temperature": 0.7,
+      "tokens_in": 54450,
+      "tokens_out": 1868,
+      "usd": 0.024769
+    },
+    "max_tokens": 200,
+    "model": "gpt-4.1-mini",
+    "n": 118,
+    "primary": {
+      "gate": {
+        "G1": 1,
+        "G2": 0,
+        "G3": 0,
+        "G4": 0,
+        "G5": 0,
+        "G6": 0,
+        "rejected": 1
+      },
+      "prompt_sha256": "ee92835120c2f76891e02cdbde2fadc8976bc1258d1fcfca7aa8d20d31b809f9",
+      "questions_sha256": "efa8eeee63db25674d68a1e1067cdc5d3e9ea837d2ce2c8f68d063ba5dee195e",
+      "seed": 42,
+      "served": [
+        "gpt-4.1-mini-2025-04-14"
+      ],
+      "system_fingerprints": [
+        "fp_2a126b9d98",
+        "fp_6f31bfbb14",
+        "fp_a2374ad346",
+        "fp_eb9b0343ec"
+      ],
+      "temperature": 0,
+      "tokens_in": 54450,
+      "tokens_out": 1878,
+      "usd": 0.024785
+    },
+    "prompt_never_sees": [
+      "entry text or value",
+      "category",
+      "the original question",
+      "any store content",
+      "any label"
+    ],
+    "prompt_sees": [
+      "entity",
+      "slot attribute path",
+      "crossed time-sense"
+    ],
+    "superseded_v1": {
+      "file": "reviews/r121/build/superseded/cross_questions_v1.json",
+      "lineage2_sha256": "3fd41897587ce1d7c082027939f6169bba1edc584645d8781a37311b505c574e",
+      "prompt_sha256": "5c15f5ba3ecf27eed22e315de031b6ae766b81d104ac67e413b04d28c82fd81d"
+    }
+  },
+  "questions": [
+    {
+      "crossed_intent": "PAST",
+      "entity": "Aisha Mohammed",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What did I have prepared for my meeting?",
+        "raw": "{\"question\": \"What did I have prepared for my meeting?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "UPCOMING",
+      "original_question": "What materials do I need to prepare for my upcoming meeting?",
+      "pair_id": "cf2:aisha:preparation_for_meeting",
+      "persona": "aisha",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my preparation for the meeting like?",
+        "raw": "{\"question\": \"What was my preparation for the meeting like?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "preparation_for_meeting",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Aisha Mohammed",
+      "fallback": {
+        "gate_ok": false,
+        "gate_reasons": [
+          "G1: future marker \\bscheduled\\b"
+        ],
+        "question": "When was my meeting that I had scheduled previously?",
+        "raw": "{\"question\": \"When was my meeting that I had scheduled previously?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "UPCOMING",
+      "original_question": "Who am I meeting with in my next scheduled meeting?",
+      "pair_id": "cf2:aisha:upcoming_meeting",
+      "persona": "aisha",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When was my last meeting?",
+        "raw": "{\"question\": \"When was my last meeting?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "upcoming_meeting",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Alex Richter",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my monthly transaction volume changed over time?",
+        "raw": "{\"question\": \"How has my monthly transaction volume changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me the total transaction volume for this month right now?",
+      "pair_id": "cf2:alex:monthly_transaction_volume",
+      "persona": "alex",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my monthly transaction volume changed over time?",
+        "raw": "{\"question\": \"How has my monthly transaction volume changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "monthly_transaction_volume",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Alex Richter",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my work preference changed over time?",
+        "raw": "{\"question\": \"How has my work preference changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What is my current work style or preference?",
+      "pair_id": "cf2:alex:work_preference",
+      "persona": "alex",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my work preference changed over time?",
+        "raw": "{\"question\": \"How has my work preference changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "work_preference",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Amara Okafor",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my automatic update setting changed over time?",
+        "raw": "{\"question\": \"How has my automatic update setting changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What is the current status of your automatic update preference?",
+      "pair_id": "cf2:amara:automatic_update_setting",
+      "persona": "amara",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my automatic update setting changed over time?",
+        "raw": "{\"question\": \"How has my automatic update setting changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "automatic_update_setting",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Amara Okafor",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my preference for spacing out conferences changed over time?",
+        "raw": "{\"question\": \"How has my preference for spacing out conferences changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "At present, how do I space my conference meetings in my diary?",
+      "pair_id": "cf2:amara:diary_preference:conference_spacing",
+      "persona": "amara",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my preference for spacing out conferences changed over time?",
+        "raw": "{\"question\": \"How has my preference for spacing out conferences changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "diary_preference:conference_spacing",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Amara Okafor",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my desk posture changed over time?",
+        "raw": "{\"question\": \"How has my desk posture changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you describe the way I'm positioned at my desk at this moment?",
+      "pair_id": "cf2:amara:habit:desk_posture",
+      "persona": "amara",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my desk posture changed over time?",
+        "raw": "{\"question\": \"How has my desk posture changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "habit:desk_posture",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Aroha Tāne",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my blood sugar monitoring habit changed over time?",
+        "raw": "{\"question\": \"How has my blood sugar monitoring habit changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me the most recent blood sugar reading I have recorded?",
+      "pair_id": "cf2:aroha:health_habit:blood_sugar_monitoring",
+      "persona": "aroha",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my blood sugar monitoring habit changed over time?",
+        "raw": "{\"question\": \"How has my blood sugar monitoring habit changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0
+      },
+      "slot": "health_habit:blood_sugar_monitoring",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Aroha Tāne",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my fasting blood sugar changed over time?",
+        "raw": "{\"question\": \"How has my fasting blood sugar changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me my fasting blood sugar reading right now?",
+      "pair_id": "cf2:aroha:health_metric:fasting_blood_sugar",
+      "persona": "aroha",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my fasting blood sugar changed over time?",
+        "raw": "{\"question\": \"How has my fasting blood sugar changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "health_metric:fasting_blood_sugar",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Aroha Tāne",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my recharge location at Moana changed over time?",
+        "raw": "{\"question\": \"How has my recharge location at Moana changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me the current recharge location called Moana?",
+      "pair_id": "cf2:aroha:recharge_location:Moana",
+      "persona": "aroha",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my recharge location at Moana changed over time?",
+        "raw": "{\"question\": \"How has my recharge location at Moana changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "recharge_location:Moana",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "William 'Billy' Kootook",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my collection of headlamps changed over time?",
+        "raw": "{\"question\": \"How has my collection of headlamps changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What type of headlamps am I currently carrying?",
+      "pair_id": "cf2:billy:gear:headlamps",
+      "persona": "billy",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my collection of headlamps changed over time?",
+        "raw": "{\"question\": \"How has my collection of headlamps changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "gear:headlamps",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "William 'Billy' Kootook",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my aerial wildlife survey project about?",
+        "raw": "{\"question\": \"What was my aerial wildlife survey project about?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "UPCOMING",
+      "original_question": "What preparations are planned for the coming aerial wildlife survey in the project aircraft?",
+      "pair_id": "cf2:billy:project_aircraft:aerial_wildlife_survey",
+      "persona": "billy",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my aerial wildlife survey for the project aircraft?",
+        "raw": "{\"question\": \"What was my aerial wildlife survey for the project aircraft?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "project_aircraft:aerial_wildlife_survey",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Bruna Costa",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my breakfast habit changed over time?",
+        "raw": "{\"question\": \"How has my breakfast habit changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What's my current breakfast routine like?",
+      "pair_id": "cf2:bruna:breakfast_habit",
+      "persona": "bruna",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my breakfast habit changed over time?",
+        "raw": "{\"question\": \"How has my breakfast habit changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "breakfast_habit",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Bruna Costa",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my marital status changed over time?",
+        "raw": "{\"question\": \"How has my marital status changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me how I'm married or single right now?",
+      "pair_id": "cf2:bruna:marital_status",
+      "persona": "bruna",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my marital status changed over time?",
+        "raw": "{\"question\": \"How has my marital status changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "marital_status",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Bruna Costa",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my profession style changed over time?",
+        "raw": "{\"question\": \"How has my profession style changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How would you describe my current profession style?",
+      "pair_id": "cf2:bruna:profession_style",
+      "persona": "bruna",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my profession style changed over time?",
+        "raw": "{\"question\": \"How has my profession style changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "profession_style",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Bruna Costa",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my rehabilitation philosophy changed over time?",
+        "raw": "{\"question\": \"How has my rehabilitation philosophy changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What is my current approach to rehabilitation philosophy?",
+      "pair_id": "cf2:bruna:rehabilitation_philosophy",
+      "persona": "bruna",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my rehabilitation philosophy changed over time?",
+        "raw": "{\"question\": \"How has my rehabilitation philosophy changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "rehabilitation_philosophy",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Callum Fraser",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my accommodation option for the conference last time?",
+        "raw": "{\"question\": \"What was my accommodation option for the conference last time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "UPCOMING",
+      "original_question": "Can you tell me about the accommodation arrangements for my next conference?",
+      "pair_id": "cf2:callum:accommodation_option:conference",
+      "persona": "callum",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my conference accommodation option in the past?",
+        "raw": "{\"question\": \"What was my conference accommodation option in the past?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "accommodation_option:conference",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Callum Fraser",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my accommodation plan in the past?",
+        "raw": "{\"question\": \"What was my accommodation plan in the past?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_a2374ad346",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "UPCOMING",
+      "original_question": "What details are in my upcoming accommodation plan, Callum?",
+      "pair_id": "cf2:callum:accommodation_plan",
+      "persona": "callum",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my accommodation plan in the past?",
+        "raw": "{\"question\": \"What was my accommodation plan in the past?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "accommodation_plan",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Callum Fraser",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my family member Fiona's hobby of running changed over time?",
+        "raw": "{\"question\": \"How has my family member Fiona's hobby of running changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What distance is Fiona running these days?",
+      "pair_id": "cf2:callum:family_member:fiona_hobby_running",
+      "persona": "callum",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my family member Fiona's hobby of running changed over time?",
+        "raw": "{\"question\": \"How has my family member Fiona's hobby of running changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "family_member:fiona_hobby_running",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Callum Fraser",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my profession specialization changed over time?",
+        "raw": "{\"question\": \"How has my profession specialization changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What is my current area of specialization in my profession?",
+      "pair_id": "cf2:callum:profession_specialization",
+      "persona": "callum",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my profession specialization changed over time?",
+        "raw": "{\"question\": \"How has my profession specialization changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "profession_specialization",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Dariush Farhadi",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my guest count at the Nowruz dinner in the past?",
+        "raw": "{\"question\": \"What was my guest count at the Nowruz dinner in the past?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_a2374ad346",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "UPCOMING",
+      "original_question": "How many guests are coming to the Nowruz dinner this year?",
+      "pair_id": "cf2:dariush:annual_event:Nowruz_dinner_guest_count",
+      "persona": "dariush",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my guest count for the Nowruz dinner in the past?",
+        "raw": "{\"question\": \"What was my guest count for the Nowruz dinner in the past?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "annual_event:Nowruz_dinner_guest_count",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Dariush Farhadi",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When was my trip to Isfahan?",
+        "raw": "{\"question\": \"When was my trip to Isfahan?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "UPCOMING",
+      "original_question": "Can you tell me the schedule for my next trip to Isfahan?",
+      "pair_id": "cf2:dariush:trip:Isfahan",
+      "persona": "dariush",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When was my trip to Isfahan?",
+        "raw": "{\"question\": \"When was my trip to Isfahan?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "trip:Isfahan",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Dariush Farhadi",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was the duration of my trip to Isfahan?",
+        "raw": "{\"question\": \"What was the duration of my trip to Isfahan?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "UPCOMING",
+      "original_question": "What is the duration of my next trip to Isfahan?",
+      "pair_id": "cf2:dariush:trip_duration:Isfahan",
+      "persona": "dariush",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was the duration of my trip to Isfahan?",
+        "raw": "{\"question\": \"What was the duration of my trip to Isfahan?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "trip_duration:Isfahan",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "David Park",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When was my coaching event?",
+        "raw": "{\"question\": \"When was my coaching event?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "UPCOMING",
+      "original_question": "What day is my next coaching event coming up, David Park?",
+      "pair_id": "cf2:david:coaching_event_date",
+      "persona": "david",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When was my coaching event?",
+        "raw": "{\"question\": \"When was my coaching event?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "coaching_event_date",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "David Park",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "Which teams did I qualify for the debate coaching project in the past?",
+        "raw": "{\"question\": \"Which teams did I qualify for the debate coaching project in the past?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "UPCOMING",
+      "original_question": "What are the names of the debate coaching teams scheduled to be qualified soon?",
+      "pair_id": "cf2:david:project:debate_coaching_teams_qualified",
+      "persona": "david",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "Which teams qualified for my debate coaching project in the past?",
+        "raw": "{\"question\": \"Which teams qualified for my debate coaching project in the past?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "project:debate_coaching_teams_qualified",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "David Park",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my reading volume changed over time?",
+        "raw": "{\"question\": \"How has my reading volume changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How many books am I reading right now?",
+      "pair_id": "cf2:david:reading_volume",
+      "persona": "david",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my reading volume changed over time?",
+        "raw": "{\"question\": \"How has my reading volume changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "reading_volume",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Diane Holloway",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What made me nervous about the Greg show in the past?",
+        "raw": "{\"question\": \"What made me nervous about the Greg show in the past?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "UPCOMING",
+      "original_question": "How nervous am I feeling about the upcoming Greg show?",
+      "pair_id": "cf2:diane:emotional_state:nervous_about_greg_show",
+      "persona": "diane",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When was I nervous about the Greg show?",
+        "raw": "{\"question\": \"When was I nervous about the Greg show?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "emotional_state:nervous_about_greg_show",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Diane Holloway",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my relationship with Greg from the Project Folk Art Center in the past?",
+        "raw": "{\"question\": \"What was my relationship with Greg from the Project Folk Art Center in the past?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "UPCOMING",
+      "original_question": "What are the upcoming plans for my collaboration with Greg on the project at the Folk Art Center?",
+      "pair_id": "cf2:diane:relationship:greg_project_folk_art_center",
+      "persona": "diane",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my relationship with Greg from the Project Folk Art Center in the past?",
+        "raw": "{\"question\": \"What was my relationship with Greg from the Project Folk Art Center in the past?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "relationship:greg_project_folk_art_center",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Dmitri Volkov",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my primary client changed over time?",
+        "raw": "{\"question\": \"How has my primary client changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Who is my primary client right now?",
+      "pair_id": "cf2:dmitri:primary_client",
+      "persona": "dmitri",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my primary client changed over time?",
+        "raw": "{\"question\": \"How has my primary client changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "primary_client",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Dmitri Volkov",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my retainer amount changed over time?",
+        "raw": "{\"question\": \"How has my retainer amount changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What is the retainer amount I'm holding at the moment?",
+      "pair_id": "cf2:dmitri:retainer_amount",
+      "persona": "dmitri",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my retainer amount changed over time?",
+        "raw": "{\"question\": \"How has my retainer amount changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "retainer_amount",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Elena Vasquez",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my phone scrolling as a decompression method changed over time?",
+        "raw": "{\"question\": \"How has my phone scrolling as a decompression method changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me how I'm using phone scrolling as a way to decompress at the moment?",
+      "pair_id": "cf2:elena:decompression_method:phone_scrolling",
+      "persona": "elena",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my phone scrolling as a decompression method changed over time?",
+        "raw": "{\"question\": \"How has my phone scrolling as a decompression method changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "decompression_method:phone_scrolling",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Elena Vasquez",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my wedding timeline?",
+        "raw": "{\"question\": \"What was my wedding timeline?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "UPCOMING",
+      "original_question": "What are the key events on my upcoming wedding timeline?",
+      "pair_id": "cf2:elena:event:wedding_timeline",
+      "persona": "elena",
+      "population": "B",
+      "primary": {
+        "gate_ok": false,
+        "gate_reasons": [
+          "G1: future marker \\bscheduled\\b"
+        ],
+        "question": "When was my wedding timeline scheduled in the past?",
+        "raw": "{\"question\": \"When was my wedding timeline scheduled in the past?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "event:wedding_timeline",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Elena Vasquez",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When did I last use my light therapy lamp?",
+        "raw": "{\"question\": \"When did I last use my light therapy lamp?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "UPCOMING",
+      "original_question": "When is the light therapy lamp scheduled for me next?",
+      "pair_id": "cf2:elena:health_aid:light_therapy_lamp",
+      "persona": "elena",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When did I use my light therapy lamp in the past?",
+        "raw": "{\"question\": \"When did I use my light therapy lamp in the past?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "health_aid:light_therapy_lamp",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Elena Vasquez",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my sleep schedule changed over time?",
+        "raw": "{\"question\": \"How has my sleep schedule changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How many hours of sleep am I getting each night right now?",
+      "pair_id": "cf2:elena:sleep_schedule",
+      "persona": "elena",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my sleep schedule changed over time?",
+        "raw": "{\"question\": \"How has my sleep schedule changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "sleep_schedule",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Elena Vasquez",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my social connection status changed over time?",
+        "raw": "{\"question\": \"How has my social connection status changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Who am I currently connected with socially?",
+      "pair_id": "cf2:elena:social_connection_status",
+      "persona": "elena",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my social connection status changed over time?",
+        "raw": "{\"question\": \"How has my social connection status changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "social_connection_status",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Elena Vasquez",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When was my wedding date?",
+        "raw": "{\"question\": \"When was my wedding date?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "UPCOMING",
+      "original_question": "Can you tell me the date scheduled for my wedding?",
+      "pair_id": "cf2:elena:wedding_date",
+      "persona": "elena",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When was my wedding date?",
+        "raw": "{\"question\": \"When was my wedding date?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "wedding_date",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Fatima Al-Rashidi",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my preference for geometric drapery in design changed over time?",
+        "raw": "{\"question\": \"How has my preference for geometric drapery in design changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_a2374ad346",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you show me the geometric drapery styles I'm using right now?",
+      "pair_id": "cf2:fatima:design_preference:geometric_drapery",
+      "persona": "fatima",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my preference for geometric drapery in design changed over time?",
+        "raw": "{\"question\": \"How has my preference for geometric drapery in design changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "design_preference:geometric_drapery",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Fatima Al-Rashidi",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my physiotherapy routine changed over time?",
+        "raw": "{\"question\": \"How has my physiotherapy routine changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How is my physiotherapy treatment progressing at the moment?",
+      "pair_id": "cf2:fatima:health_care:physiotherapy",
+      "persona": "fatima",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my physiotherapy treatment changed over time?",
+        "raw": "{\"question\": \"How has my physiotherapy treatment changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "health_care:physiotherapy",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Fatima Al-Rashidi",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my back pain related to site visits changed over time?",
+        "raw": "{\"question\": \"How has my back pain related to site visits changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What is the current status of my back pain caused by site visits?",
+      "pair_id": "cf2:fatima:health_condition:back_pain_related_to_site_visits",
+      "persona": "fatima",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my back pain related to site visits changed over time?",
+        "raw": "{\"question\": \"How has my back pain related to site visits changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "health_condition:back_pain_related_to_site_visits",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Fatima Al-Rashidi",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What activities did I do on my personal day?",
+        "raw": "{\"question\": \"What activities did I do on my personal day?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "UPCOMING",
+      "original_question": "What personal activities do I have coming up today, Fatima?",
+      "pair_id": "cf2:fatima:personal_day_activity",
+      "persona": "fatima",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What activities did I have planned for my day in the past?",
+        "raw": "{\"question\": \"What activities did I have planned for my day in the past?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "personal_day_activity",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Fatima Al-Rashidi",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my supplier preference changed over time?",
+        "raw": "{\"question\": \"How has my supplier preference changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Which supplier do I prefer to work with right now?",
+      "pair_id": "cf2:fatima:supplier_preference",
+      "persona": "fatima",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my supplier preference changed over time?",
+        "raw": "{\"question\": \"How has my supplier preference changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "supplier_preference",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Fatima Al-Rashidi",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When was my trip to Milan in April 2026?",
+        "raw": "{\"question\": \"When was my trip to Milan in April 2026?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "UPCOMING",
+      "original_question": "Can you tell me the itinerary for my Milan trip scheduled for April 2026?",
+      "pair_id": "cf2:fatima:trip:Milan April 2026",
+      "persona": "fatima",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What did I have planned for my trip to Milan in April 2026?",
+        "raw": "{\"question\": \"What did I have planned for my trip to Milan in April 2026?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0
+      },
+      "slot": "trip:Milan April 2026",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Fatima Al-Rashidi",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my trip schedule for the Salone del Mobile 2026?",
+        "raw": "{\"question\": \"What was my trip schedule for the Salone del Mobile 2026?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_8f74a54150",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "UPCOMING",
+      "original_question": "Can you tell me the itinerary details for my upcoming Salone del Mobile 2026 visit?",
+      "pair_id": "cf2:fatima:trip_schedule:salone_del_mobile_2026",
+      "persona": "fatima",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my trip schedule for Salone del Mobile 2026?",
+        "raw": "{\"question\": \"What was my trip schedule for Salone del Mobile 2026?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0
+      },
+      "slot": "trip_schedule:salone_del_mobile_2026",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Ingrid Solberg",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my skill in R changed over time?",
+        "raw": "{\"question\": \"How has my skill in R changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me how skilled I am in using R at the moment?",
+      "pair_id": "cf2:ingrid:software_skill:R",
+      "persona": "ingrid",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my skill level in R changed over time?",
+        "raw": "{\"question\": \"How has my skill level in R changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0
+      },
+      "slot": "software_skill:R",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Ingrid Solberg",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my use of software tools changed over time?",
+        "raw": "{\"question\": \"How has my use of software tools changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What software tools am I currently using for my projects?",
+      "pair_id": "cf2:ingrid:software_tools",
+      "persona": "ingrid",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my use of software tools changed over time?",
+        "raw": "{\"question\": \"How has my use of software tools changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "software_tools",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Jake Brennan",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my juul use intensity changed over time?",
+        "raw": "{\"question\": \"How has my juul use intensity changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How often am I using my Juul right now during the day?",
+      "pair_id": "cf2:jake:habit:juul_use_intensity",
+      "persona": "jake",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my juul use intensity changed over time?",
+        "raw": "{\"question\": \"How has my juul use intensity changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "habit:juul_use_intensity",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Jake Brennan",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my belief about the health risks of vaping compared to smoking changed over time?",
+        "raw": "{\"question\": \"How has my belief about the health risks of vaping compared to smoking changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How do I feel about vaping versus smoking right now?",
+      "pair_id": "cf2:jake:health_belief_vaping_vs_smoking",
+      "persona": "jake",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my belief about the health effects of vaping compared to smoking changed over time?",
+        "raw": "{\"question\": \"How has my belief about the health effects of vaping compared to smoking changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "health_belief_vaping_vs_smoking",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Jake Brennan",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my preference for juul flavor changed over time?",
+        "raw": "{\"question\": \"How has my preference for juul flavor changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Which Juul flavor do I like the most right now?",
+      "pair_id": "cf2:jake:preference:juul_flavor",
+      "persona": "jake",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my preference for juul flavors changed over time?",
+        "raw": "{\"question\": \"How has my preference for juul flavors changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "preference:juul_flavor",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Jake Brennan",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What did I have planned for my lake trip on Presidents Day weekend?",
+        "raw": "{\"question\": \"What did I have planned for my lake trip on Presidents Day weekend?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "UPCOMING",
+      "original_question": "What details do I have for the upcoming lake trip over Presidents Day weekend?",
+      "pair_id": "cf2:jake:project:lake_trip_presidents_day_weekend",
+      "persona": "jake",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What did I have planned for my lake trip on Presidents Day weekend?",
+        "raw": "{\"question\": \"What did I have planned for my lake trip on Presidents Day weekend?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "project:lake_trip_presidents_day_weekend",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Jake Brennan",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my role in the lake trip project?",
+        "raw": "{\"question\": \"What was my role in the lake trip project?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_a2374ad346",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "UPCOMING",
+      "original_question": "What part am I playing in the scheduled lake trip?",
+      "pair_id": "cf2:jake:project_role:lake_trip",
+      "persona": "jake",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my role in the lake trip project?",
+        "raw": "{\"question\": \"What was my role in the lake trip project?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "project_role:lake_trip",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Jake Brennan",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my vaping frequency changed over time?",
+        "raw": "{\"question\": \"How has my vaping frequency changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How often am I vaping right now?",
+      "pair_id": "cf2:jake:vaping_frequency",
+      "persona": "jake",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my vaping frequency changed over time?",
+        "raw": "{\"question\": \"How has my vaping frequency changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "vaping_frequency",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Jerome Baptiste",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my Disney trip with Naomi like?",
+        "raw": "{\"question\": \"What was my Disney trip with Naomi like?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "UPCOMING",
+      "original_question": "Can you tell me the schedule for the Disney trip with Naomi that's coming up?",
+      "pair_id": "cf2:jerome:project:Disney trip with Naomi",
+      "persona": "jerome",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my Disney trip with Naomi like?",
+        "raw": "{\"question\": \"What was my Disney trip with Naomi like?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "project:Disney trip with Naomi",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Jerome Baptiste",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my involvement in psychological association movements changed over time?",
+        "raw": "{\"question\": \"How has my involvement in psychological association movements changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me which psychological association movement I'm part of right now?",
+      "pair_id": "cf2:jerome:psychological_association_movement",
+      "persona": "jerome",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my psychological association with movement changed over time?",
+        "raw": "{\"question\": \"How has my psychological association with movement changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "psychological_association_movement",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Park Joon-ho",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my interest in cooking Korean food changed over time?",
+        "raw": "{\"question\": \"How has my interest in cooking Korean food changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What Korean dishes am I currently cooking most often?",
+      "pair_id": "cf2:joonho:hobby:cooking_korean_food",
+      "persona": "joonho",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my interest in cooking Korean food changed over time?",
+        "raw": "{\"question\": \"How has my interest in cooking Korean food changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "hobby:cooking_korean_food",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Park Joon-ho",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my lesson preparation routine changed over time?",
+        "raw": "{\"question\": \"How has my lesson preparation routine changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me the details of my lesson preparation routine at this moment?",
+      "pair_id": "cf2:joonho:lesson_preparation_routine",
+      "persona": "joonho",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my lesson preparation routine changed over time?",
+        "raw": "{\"question\": \"How has my lesson preparation routine changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "lesson_preparation_routine",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Park Joon-ho",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my preference for home cooked meals changed over time?",
+        "raw": "{\"question\": \"How has my preference for home cooked meals changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_a2374ad346",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What home-cooked meals do I prefer to eat right now?",
+      "pair_id": "cf2:joonho:preference:home_cooked_meals",
+      "persona": "joonho",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my preference for home-cooked meals changed over time?",
+        "raw": "{\"question\": \"How has my preference for home-cooked meals changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "preference:home_cooked_meals",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Kenji Nakamura",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my insomnia changed over time and what caused it initially?",
+        "raw": "{\"question\": \"How has my insomnia changed over time and what caused it initially?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_8f74a54150",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me the reason I'm experiencing insomnia currently?",
+      "pair_id": "cf2:kenji:health_condition_cause:insomnia",
+      "persona": "kenji",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my insomnia changed over time and what used to cause it compared to now?",
+        "raw": "{\"question\": \"How has my insomnia changed over time and what used to cause it compared to now?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "health_condition_cause:insomnia",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Kenji Nakamura",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my hourly rate level changed over time?",
+        "raw": "{\"question\": \"How has my hourly rate level changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me the hourly rate level I'm at currently?",
+      "pair_id": "cf2:kenji:hourly_rate_level",
+      "persona": "kenji",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my hourly rate level changed over time?",
+        "raw": "{\"question\": \"How has my hourly rate level changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "hourly_rate_level",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Kenji Nakamura",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my pricing skill changed over time?",
+        "raw": "{\"question\": \"How has my pricing skill changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What pricing strategies am I currently using in my work?",
+      "pair_id": "cf2:kenji:pricing_skill",
+      "persona": "kenji",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my pricing skill changed over time?",
+        "raw": "{\"question\": \"How has my pricing skill changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0
+      },
+      "slot": "pricing_skill",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Kenji Nakamura",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my work pattern changed over time?",
+        "raw": "{\"question\": \"How has my work pattern changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How are you structuring your work hours right now?",
+      "pair_id": "cf2:kenji:work_pattern",
+      "persona": "kenji",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my work pattern changed over time?",
+        "raw": "{\"question\": \"How has my work pattern changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0
+      },
+      "slot": "work_pattern",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Kofi Mensah",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my cooperative price per bag changed over time?",
+        "raw": "{\"question\": \"How has my cooperative price per bag changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "At this moment, how much am I paying per bag through the cooperative?",
+      "pair_id": "cf2:kofi:cooperative_price_per_bag",
+      "persona": "kofi",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my cooperative price per bag changed over time?",
+        "raw": "{\"question\": \"How has my cooperative price per bag changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "cooperative_price_per_bag",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Kofi Mensah",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my malaria treatment cost changed over time?",
+        "raw": "{\"question\": \"How has my malaria treatment cost changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me the current expense for my malaria medication?",
+      "pair_id": "cf2:kofi:malaria_treatment_cost",
+      "persona": "kofi",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my malaria treatment cost changed over time?",
+        "raw": "{\"question\": \"How has my malaria treatment cost changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0
+      },
+      "slot": "malaria_treatment_cost",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Kofi Mensah",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my preparation for the meeting like?",
+        "raw": "{\"question\": \"What was my preparation for the meeting like?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "UPCOMING",
+      "original_question": "What tasks are scheduled for me to complete before the coming meeting?",
+      "pair_id": "cf2:kofi:preparation_for_meeting",
+      "persona": "kofi",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my preparation for the meeting?",
+        "raw": "{\"question\": \"What was my preparation for the meeting?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "preparation_for_meeting",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Kofi Mensah",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my sleeping arrangement in the drying shed changed over time?",
+        "raw": "{\"question\": \"How has my sleeping arrangement in the drying shed changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_8f74a54150",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How is my sleeping spot in the drying shed organized at the moment?",
+      "pair_id": "cf2:kofi:sleeping_arrangement:drying_shed",
+      "persona": "kofi",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my sleeping arrangement in the drying shed changed over time?",
+        "raw": "{\"question\": \"How has my sleeping arrangement in the drying shed changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "sleeping_arrangement:drying_shed",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Leila Handal",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my daily routine preference changed over time?",
+        "raw": "{\"question\": \"How has my daily routine preference changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What does my daily routine look like right now?",
+      "pair_id": "cf2:leila:daily_routine_preference",
+      "persona": "leila",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my daily routine preference changed over time?",
+        "raw": "{\"question\": \"How has my daily routine preference changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "daily_routine_preference",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Leila Handal",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my sensitivity to fluorescent lights as a migraine trigger changed over time?",
+        "raw": "{\"question\": \"How has my sensitivity to fluorescent lights as a migraine trigger changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Are fluorescent lights affecting my migraine right now?",
+      "pair_id": "cf2:leila:health_condition:migraine_trigger_fluorescent_lights",
+      "persona": "leila",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my sensitivity to fluorescent lights as a migraine trigger changed over time?",
+        "raw": "{\"question\": \"How has my sensitivity to fluorescent lights as a migraine trigger changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "health_condition:migraine_trigger_fluorescent_lights",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Lily Chen",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my chronic skin condition changed over time?",
+        "raw": "{\"question\": \"How has my chronic skin condition changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How is my chronic skin condition affecting me right now?",
+      "pair_id": "cf2:lily:health_condition:chronic skin condition",
+      "persona": "lily",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my chronic skin condition changed over time?",
+        "raw": "{\"question\": \"How has my chronic skin condition changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "health_condition:chronic skin condition",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Lily Chen",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my general practitioner changed over time?",
+        "raw": "{\"question\": \"How has my general practitioner changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Who is my current general practitioner?",
+      "pair_id": "cf2:lily:healthcare_provider:gp",
+      "persona": "lily",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my general practitioner changed over time?",
+        "raw": "{\"question\": \"How has my general practitioner changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "healthcare_provider:gp",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Lily Chen",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my opinion on the methodology for microplastic sampling changed over time?",
+        "raw": "{\"question\": \"How has my opinion on the methodology for microplastic sampling changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you explain your current opinion on the methodology for collecting microplastic samples?",
+      "pair_id": "cf2:lily:methodological_opinion:microplastic_sampling",
+      "persona": "lily",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my methodological opinion on microplastic sampling changed over time?",
+        "raw": "{\"question\": \"How has my methodological opinion on microplastic sampling changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "methodological_opinion:microplastic_sampling",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Marcus Thompson",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my budget for Kayla's graduation celebration?",
+        "raw": "{\"question\": \"What was my budget for Kayla's graduation celebration?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "UPCOMING",
+      "original_question": "How much have I allocated for Kayla's graduation party that's coming up?",
+      "pair_id": "cf2:marcus:budget:kayla_graduation_celebration",
+      "persona": "marcus",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my budget for Kayla's graduation celebration?",
+        "raw": "{\"question\": \"What was my budget for Kayla's graduation celebration?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0
+      },
+      "slot": "budget:kayla_graduation_celebration",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Marcus Thompson",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When was my Kayla graduation party?",
+        "raw": "{\"question\": \"When was my Kayla graduation party?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "UPCOMING",
+      "original_question": "What time is Kayla's graduation party coming up?",
+      "pair_id": "cf2:marcus:event:Kayla_graduation_party",
+      "persona": "marcus",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When was my Kayla graduation party?",
+        "raw": "{\"question\": \"When was my Kayla graduation party?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "event:Kayla_graduation_party",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Marcus Thompson",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was the capacity of the event space I used last time?",
+        "raw": "{\"question\": \"What was the capacity of the event space I used last time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "UPCOMING",
+      "original_question": "What is the capacity of the event space for my upcoming event?",
+      "pair_id": "cf2:marcus:event_space_capacity",
+      "persona": "marcus",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was the capacity of the event space I used in the past?",
+        "raw": "{\"question\": \"What was the capacity of the event space I used in the past?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "event_space_capacity",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Marcus Thompson",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my blood sugar check changed over time?",
+        "raw": "{\"question\": \"How has my blood sugar check changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me the latest reading from my blood sugar check?",
+      "pair_id": "cf2:marcus:health_monitoring:blood sugar check",
+      "persona": "marcus",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my blood sugar check changed over time?",
+        "raw": "{\"question\": \"How has my blood sugar check changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0
+      },
+      "slot": "health_monitoring:blood sugar check",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Marcus Thompson",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my inventory supplier changed over time?",
+        "raw": "{\"question\": \"How has my inventory supplier changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me which supplier I'm using for inventory right now?",
+      "pair_id": "cf2:marcus:inventory_supplier",
+      "persona": "marcus",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my inventory supplier changed over time?",
+        "raw": "{\"question\": \"How has my inventory supplier changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0
+      },
+      "slot": "inventory_supplier",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Marcus Thompson",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my morning phone usage duration changed over time?",
+        "raw": "{\"question\": \"How has my morning phone usage duration changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What's my current phone usage time for this morning?",
+      "pair_id": "cf2:marcus:morning_phone_usage_duration",
+      "persona": "marcus",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my morning phone usage duration changed over time?",
+        "raw": "{\"question\": \"How has my morning phone usage duration changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0
+      },
+      "slot": "morning_phone_usage_duration",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Marcus Thompson",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my shower and dress routine in the morning changed over time?",
+        "raw": "{\"question\": \"How has my shower and dress routine in the morning changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What steps am I following in my shower and dress routine this morning?",
+      "pair_id": "cf2:marcus:morning_routine:shower_and_dress",
+      "persona": "marcus",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my morning routine for showering and dressing changed over time?",
+        "raw": "{\"question\": \"How has my morning routine for showering and dressing changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "morning_routine:shower_and_dress",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Marcus 'Marley' Williams",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What transportation did I use for my past events?",
+        "raw": "{\"question\": \"What transportation did I use for my past events?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "UPCOMING",
+      "original_question": "What transportation is arranged for my upcoming events?",
+      "pair_id": "cf2:marley:event_transportation",
+      "persona": "marley",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What transportation did I use for my past events?",
+        "raw": "{\"question\": \"What transportation did I use for my past events?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "event_transportation",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Marcus 'Marley' Williams",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my nan's cooking routine changed over time?",
+        "raw": "{\"question\": \"How has my nan's cooking routine changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How does Nan usually prepare her meals right now?",
+      "pair_id": "cf2:marley:family_member:nan_hobby:cooking_routine",
+      "persona": "marley",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my nan's cooking routine changed over time?",
+        "raw": "{\"question\": \"How has my nan's cooking routine changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "family_member:nan_hobby:cooking_routine",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Marcus 'Marley' Williams",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How many guest tickets did I have for my graduation?",
+        "raw": "{\"question\": \"How many guest tickets did I have for my graduation?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "UPCOMING",
+      "original_question": "How many graduation guest tickets do I have for the upcoming ceremony?",
+      "pair_id": "cf2:marley:graduation_guest_tickets",
+      "persona": "marley",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How many guest tickets did I have for my graduation?",
+        "raw": "{\"question\": \"How many guest tickets did I have for my graduation?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "graduation_guest_tickets",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Mehmet Yılmaz",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my lunch habit changed over time?",
+        "raw": "{\"question\": \"How has my lunch habit changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What's my current lunch habit like?",
+      "pair_id": "cf2:mehmet:lunch_habit",
+      "persona": "mehmet",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my lunch habit changed over time?",
+        "raw": "{\"question\": \"How has my lunch habit changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "lunch_habit",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Mehmet Yılmaz",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When was my barber trade guild annual meeting?",
+        "raw": "{\"question\": \"When was my barber trade guild annual meeting?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "UPCOMING",
+      "original_question": "What items or documents should I bring to the coming barber trade guild annual meeting?",
+      "pair_id": "cf2:mehmet:preparation:barber_trade_guild_annual_meeting",
+      "persona": "mehmet",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my preparation for the barber trade guild annual meeting?",
+        "raw": "{\"question\": \"What was my preparation for the barber trade guild annual meeting?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "preparation:barber_trade_guild_annual_meeting",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Mehmet Yılmaz",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When was my air conditioning installation project?",
+        "raw": "{\"question\": \"When was my air conditioning installation project?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "UPCOMING",
+      "original_question": "What are the details of my upcoming air conditioning installation project?",
+      "pair_id": "cf2:mehmet:project:air_conditioning_installation",
+      "persona": "mehmet",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "When was my air conditioning installation project?",
+        "raw": "{\"question\": \"When was my air conditioning installation project?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "project:air_conditioning_installation",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Mirri Yunupingu",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my morning routine preference changed over time?",
+        "raw": "{\"question\": \"How has my morning routine preference changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What activities do I prefer to do in the morning currently?",
+      "pair_id": "cf2:mirri:morning_routine_preference",
+      "persona": "mirri",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my morning routine preference changed over time?",
+        "raw": "{\"question\": \"How has my morning routine preference changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "morning_routine_preference",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Mirri Yunupingu",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my work vehicle condition changed over time?",
+        "raw": "{\"question\": \"How has my work vehicle condition changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What's the current condition of my work vehicle?",
+      "pair_id": "cf2:mirri:work_vehicle_condition",
+      "persona": "mirri",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my work vehicle condition changed over time?",
+        "raw": "{\"question\": \"How has my work vehicle condition changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "work_vehicle_condition",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Nadia Petrov",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my preference for shopping at the Russian store in Decarie changed over time?",
+        "raw": "{\"question\": \"How has my preference for shopping at the Russian store in Decarie changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you show me my usual purchases at the Russian store on Decarie right now?",
+      "pair_id": "cf2:nadia:shopping_preference:russian_store_decarie",
+      "persona": "nadia",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my preference for shopping at the Russian store in Decarie changed over time?",
+        "raw": "{\"question\": \"How has my preference for shopping at the Russian store in Decarie changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "shopping_preference:russian_store_decarie",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Omar Hassan",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my budget allocation changed over time?",
+        "raw": "{\"question\": \"How has my budget allocation changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What is my current budget allocation for this month?",
+      "pair_id": "cf2:omar:budget_allocation",
+      "persona": "omar",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my budget allocation changed over time?",
+        "raw": "{\"question\": \"How has my budget allocation changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "budget_allocation",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Omar Hassan",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my mother support amount changed over time?",
+        "raw": "{\"question\": \"How has my mother support amount changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What is the amount I owe for mother support right now?",
+      "pair_id": "cf2:omar:financial_obligation:mother_support_amount",
+      "persona": "omar",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my mother support amount changed over time?",
+        "raw": "{\"question\": \"How has my mother support amount changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "financial_obligation:mother_support_amount",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Pornpan 'Pan' Srisai",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my habit of eating late night spicy food changed over time?",
+        "raw": "{\"question\": \"How has my habit of eating late night spicy food changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Am I eating spicy food late at night these days?",
+      "pair_id": "cf2:pan:dietary_habit:late_night_spicy_food",
+      "persona": "pan",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my habit of eating late night spicy food changed over time?",
+        "raw": "{\"question\": \"How has my habit of eating late night spicy food changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0
+      },
+      "slot": "dietary_habit:late_night_spicy_food",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Pornpan 'Pan' Srisai",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my omeprazole dose changed over time?",
+        "raw": "{\"question\": \"How has my omeprazole dose changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How much omeprazole am I taking right now?",
+      "pair_id": "cf2:pan:medication:omeprazole_dose",
+      "persona": "pan",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my omeprazole dose changed over time?",
+        "raw": "{\"question\": \"How has my omeprazole dose changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "medication:omeprazole_dose",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "PAST",
+      "entity": "Pornpan 'Pan' Srisai",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my product plan for Songkran?",
+        "raw": "{\"question\": \"What was my product plan for Songkran?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "UPCOMING",
+      "original_question": "What is planned next for my Songkran product project?",
+      "pair_id": "cf2:pan:product_plan_songkran",
+      "persona": "pan",
+      "population": "B",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "What was my product plan for Songkran?",
+        "raw": "{\"question\": \"What was my product plan for Songkran?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "product_plan_songkran",
+      "state": "EXPIRY"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Patrick O'Brien",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my mental health care changed over time?",
+        "raw": "{\"question\": \"How has my mental health care changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What is my current mental health care routine looking like today?",
+      "pair_id": "cf2:patrick:mental_health_care",
+      "persona": "patrick",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my mental health care changed over time?",
+        "raw": "{\"question\": \"How has my mental health care changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "mental_health_care",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Patrick O'Brien",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my preference for the kitchen cabinets installation changed over time?",
+        "raw": "{\"question\": \"How has my preference for the kitchen cabinets installation changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What style am I currently favoring for the kitchen cabinets installation?",
+      "pair_id": "cf2:patrick:project:kitchen_cabinets_installation_preference",
+      "persona": "patrick",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my preference for kitchen cabinets installation changed over time?",
+        "raw": "{\"question\": \"How has my preference for kitchen cabinets installation changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "project:kitchen_cabinets_installation_preference",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Priya Sharma",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my morning routine changed over time?",
+        "raw": "{\"question\": \"How has my morning routine changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What does my morning routine look like right now?",
+      "pair_id": "cf2:priya:morning_routine",
+      "persona": "priya",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my morning routine changed over time?",
+        "raw": "{\"question\": \"How has my morning routine changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "morning_routine",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Priya Sharma",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my productivity habit changed over time?",
+        "raw": "{\"question\": \"How has my productivity habit changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What productivity habit am I focusing on right now?",
+      "pair_id": "cf2:priya:productivity_habit",
+      "persona": "priya",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my productivity habit changed over time?",
+        "raw": "{\"question\": \"How has my productivity habit changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0
+      },
+      "slot": "productivity_habit",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Priya Sharma",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my productivity setup time changed over time?",
+        "raw": "{\"question\": \"How has my productivity setup time changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How much time am I currently spending setting up my workspace each day?",
+      "pair_id": "cf2:priya:productivity_setup_time",
+      "persona": "priya",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my productivity setup time changed over time?",
+        "raw": "{\"question\": \"How has my productivity setup time changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "productivity_setup_time",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Raj Malhotra",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my child Preet's interest changed over time?",
+        "raw": "{\"question\": \"How has my child Preet's interest changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What hobbies or activities does Preet like these days?",
+      "pair_id": "cf2:raj:child_interest:Preet",
+      "persona": "raj",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my child Preet's interest changed over time?",
+        "raw": "{\"question\": \"How has my child Preet's interest changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0
+      },
+      "slot": "child_interest:Preet",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Raj Malhotra",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my asthma triggered by dust changed over time?",
+        "raw": "{\"question\": \"How has my asthma triggered by dust changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Raj, how is your asthma reacting to dust right now?",
+      "pair_id": "cf2:raj:health_condition_trigger:asthma_dust",
+      "persona": "raj",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my asthma triggered by dust changed over time?",
+        "raw": "{\"question\": \"How has my asthma triggered by dust changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0
+      },
+      "slot": "health_condition_trigger:asthma_dust",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Raj Malhotra",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my website hosting budget changed over time?",
+        "raw": "{\"question\": \"How has my website hosting budget changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me the present budget I have for website hosting?",
+      "pair_id": "cf2:raj:website_hosting_budget",
+      "persona": "raj",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my website hosting budget changed over time?",
+        "raw": "{\"question\": \"How has my website hosting budget changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0
+      },
+      "slot": "website_hosting_budget",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Raj Malhotra",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my use of FFP3 masks for work safety changed over time?",
+        "raw": "{\"question\": \"How has my use of FFP3 masks for work safety changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Is your FFP3 mask currently in good condition and accessible for your work shift?",
+      "pair_id": "cf2:raj:work_safety_equipment:FFP3_mask",
+      "persona": "raj",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my use of the FFP3 mask changed over time at work?",
+        "raw": "{\"question\": \"How has my use of the FFP3 mask changed over time at work?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "work_safety_equipment:FFP3_mask",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Rosa Gutierrez",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my approach to judicial decisions changed over time?",
+        "raw": "{\"question\": \"How has my approach to judicial decisions changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you describe your current strategy for handling judicial decisions?",
+      "pair_id": "cf2:rosa:judicial_decision_approach",
+      "persona": "rosa",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my approach to judicial decisions changed over time?",
+        "raw": "{\"question\": \"How has my approach to judicial decisions changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "judicial_decision_approach",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Saga Lindqvist",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my health management method changed over time?",
+        "raw": "{\"question\": \"How has my health management method changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me the way I handle my health at the moment?",
+      "pair_id": "cf2:saga:health_management_method",
+      "persona": "saga",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my health management method changed over time?",
+        "raw": "{\"question\": \"How has my health management method changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "health_management_method",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Saga Lindqvist",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my stress correlation with health observations changed over time?",
+        "raw": "{\"question\": \"How has my stress correlation with health observations changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How is my stress level affecting my health right now?",
+      "pair_id": "cf2:saga:health_observation:stress_correlation",
+      "persona": "saga",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my stress correlation changed over time?",
+        "raw": "{\"question\": \"How has my stress correlation changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "health_observation:stress_correlation",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Samuel Osei",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my surgical training philosophy changed over time?",
+        "raw": "{\"question\": \"How has my surgical training philosophy changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How do I currently view the philosophy behind surgical training?",
+      "pair_id": "cf2:samuel:surgical_training_philosophy",
+      "persona": "samuel",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my surgical training philosophy changed over time?",
+        "raw": "{\"question\": \"How has my surgical training philosophy changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0
+      },
+      "slot": "surgical_training_philosophy",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Thanh Nguyen",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my communication preference changed over time compared to the old times?",
+        "raw": "{\"question\": \"How has my communication preference changed over time compared to the old times?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": false,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Which traditional communication methods am I favoring right now?",
+      "pair_id": "cf2:thanh:communication_preference:old_times",
+      "persona": "thanh",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my communication preference changed over time compared to how it was in the old times?",
+        "raw": "{\"question\": \"How has my communication preference changed over time compared to how it was in the old times?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "communication_preference:old_times",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Thanh Nguyen",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my family member Lan's sales volume changed over time?",
+        "raw": "{\"question\": \"How has my family member Lan's sales volume changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Can you tell me Lan's current sales numbers?",
+      "pair_id": "cf2:thanh:family_member:lan_sales_volume",
+      "persona": "thanh",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my family member Lan's sales volume changed over time?",
+        "raw": "{\"question\": \"How has my family member Lan's sales volume changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0
+      },
+      "slot": "family_member:lan_sales_volume",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Thanh Nguyen",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my shrimp sell price per kilo changed over time?",
+        "raw": "{\"question\": \"How has my shrimp sell price per kilo changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What's the current price per kilo for selling shrimp?",
+      "pair_id": "cf2:thanh:shrimp_sell_price_per_kilo",
+      "persona": "thanh",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my shrimp sell price per kilo changed over time?",
+        "raw": "{\"question\": \"How has my shrimp sell price per kilo changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_a2374ad346",
+        "temperature": 0
+      },
+      "slot": "shrimp_sell_price_per_kilo",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Thanh Nguyen",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my sleep schedule changed over time?",
+        "raw": "{\"question\": \"How has my sleep schedule changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_a2374ad346",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Am I sticking to a regular sleep schedule right now?",
+      "pair_id": "cf2:thanh:sleep_schedule",
+      "persona": "thanh",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my sleep schedule changed over time?",
+        "raw": "{\"question\": \"How has my sleep schedule changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0
+      },
+      "slot": "sleep_schedule",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Tom Whitfield",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my morning radio preference changed over time?",
+        "raw": "{\"question\": \"How has my morning radio preference changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What's my current favorite morning radio program?",
+      "pair_id": "cf2:tom:morning_radio_preference",
+      "persona": "tom",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my morning radio preference changed over time?",
+        "raw": "{\"question\": \"How has my morning radio preference changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "morning_radio_preference",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Tom Whitfield",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my morning tea preference changed over time?",
+        "raw": "{\"question\": \"How has my morning tea preference changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Which tea do I prefer to have right now?",
+      "pair_id": "cf2:tom:morning_tea_preference",
+      "persona": "tom",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my morning tea preference changed over time?",
+        "raw": "{\"question\": \"How has my morning tea preference changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "morning_tea_preference",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Valentina Herrera",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my career changed over time?",
+        "raw": "{\"question\": \"How has my career changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What is my current job title and role?",
+      "pair_id": "cf2:valentina:career",
+      "persona": "valentina",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my career changed over time?",
+        "raw": "{\"question\": \"How has my career changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "career",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Valentina Herrera",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my interest in history podcasts changed over time?",
+        "raw": "{\"question\": \"How has my interest in history podcasts changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Which history podcast episodes have I been following recently?",
+      "pair_id": "cf2:valentina:hobby:history_podcasts",
+      "persona": "valentina",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my interest in history podcasts changed over time?",
+        "raw": "{\"question\": \"How has my interest in history podcasts changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_2a126b9d98",
+        "temperature": 0
+      },
+      "slot": "hobby:history_podcasts",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Valentina Herrera",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my attitude towards my job changed over time?",
+        "raw": "{\"question\": \"How has my attitude towards my job changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How am I feeling about my work right now?",
+      "pair_id": "cf2:valentina:job_attitude",
+      "persona": "valentina",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my attitude towards my job changed over time?",
+        "raw": "{\"question\": \"How has my attitude towards my job changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_a2374ad346",
+        "temperature": 0
+      },
+      "slot": "job_attitude",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Yolanda 'Yoli' Chambers",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my preference for money transfer speed changed over time?",
+        "raw": "{\"question\": \"How has my preference for money transfer speed changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How fast do I prefer my money transfers to be processed right now?",
+      "pair_id": "cf2:yoli:money_transfer_speed_preference",
+      "persona": "yoli",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my preference for money transfer speed changed over time?",
+        "raw": "{\"question\": \"How has my preference for money transfer speed changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "money_transfer_speed_preference",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Yolanda 'Yoli' Chambers",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my primary digital audio workstation changed over time?",
+        "raw": "{\"question\": \"How has my primary digital audio workstation changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Which digital audio workstation am I currently using as my main one?",
+      "pair_id": "cf2:yoli:primary_daw",
+      "persona": "yoli",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my primary digital audio workstation changed over time?",
+        "raw": "{\"question\": \"How has my primary digital audio workstation changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "primary_daw",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Yolanda 'Yoli' Chambers",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my involvement in music production changed over time?",
+        "raw": "{\"question\": \"How has my involvement in music production changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What music projects am I working on right now?",
+      "pair_id": "cf2:yoli:profession_or_hobby:music_production",
+      "persona": "yoli",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my involvement in music production changed over time?",
+        "raw": "{\"question\": \"How has my involvement in music production changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "profession_or_hobby:music_production",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Yolanda 'Yoli' Chambers",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my use of Ableton Live changed over time?",
+        "raw": "{\"question\": \"How has my use of Ableton Live changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "Which Ableton Live session do I have open right now?",
+      "pair_id": "cf2:yoli:software:ableton_live",
+      "persona": "yoli",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my use of Ableton Live changed over time?",
+        "raw": "{\"question\": \"How has my use of Ableton Live changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0
+      },
+      "slot": "software:ableton_live",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Zara Ibrahim",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my vitamin D deficiency changed over time?",
+        "raw": "{\"question\": \"How has my vitamin D deficiency changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "How is my vitamin D deficiency right now?",
+      "pair_id": "cf2:zara:health_condition:vitamin_D_deficiency",
+      "persona": "zara",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my vitamin D deficiency changed over time?",
+        "raw": "{\"question\": \"How has my vitamin D deficiency changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "health_condition:vitamin_D_deficiency",
+      "state": "SUPERSESSION"
+    },
+    {
+      "crossed_intent": "CHANGE",
+      "entity": "Zara Ibrahim",
+      "fallback": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my vitamin D supplement dosage changed over time?",
+        "raw": "{\"question\": \"How has my vitamin D supplement dosage changed over time?\"}",
+        "seed": 4242,
+        "system_fingerprint": "fp_eb9b0343ec",
+        "temperature": 0.7
+      },
+      "fallback_identical": true,
+      "original_intent": "CURRENT-STATE",
+      "original_question": "What is my current dosage for the vitamin D supplement?",
+      "pair_id": "cf2:zara:medication:vitamin D supplement dosage",
+      "persona": "zara",
+      "population": "A",
+      "primary": {
+        "gate_ok": true,
+        "gate_reasons": [],
+        "question": "How has my vitamin D supplement dosage changed over time?",
+        "raw": "{\"question\": \"How has my vitamin D supplement dosage changed over time?\"}",
+        "seed": 42,
+        "system_fingerprint": "fp_6f31bfbb14",
+        "temperature": 0
+      },
+      "slot": "medication:vitamin D supplement dosage",
+      "state": "SUPERSESSION"
+    }
+  ]
+}

@@ -1,0 +1,877 @@
+{
+  "items": [
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:patrick:event:battalion_chiefs_conference_2026|ABSENT",
+      "label": "ABSENT",
+      "n_entries": 395,
+      "pair_id": "cf3:patrick:event:battalion_chiefs_conference_2026",
+      "persona": "patrick",
+      "pn_members": [],
+      "question": "What details do I have about the next Battalion Chiefs Conference in 2026?",
+      "state": "EXPIRY",
+      "version": "ABSENT",
+      "write_path": null,
+      "y_fok": 0,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:patrick:event:battalion_chiefs_conference_2026|PN",
+      "label": "PRESENT-NEGATIVE",
+      "n_entries": 402,
+      "pair_id": "cf3:patrick:event:battalion_chiefs_conference_2026",
+      "persona": "patrick",
+      "pn_members": [
+        "lb_00349"
+      ],
+      "question": "What details do I have about the next Battalion Chiefs Conference in 2026?",
+      "state": "EXPIRY",
+      "version": "PN",
+      "write_path": {
+        "anchor": "2026-04-09",
+        "entries_delta": 0
+      },
+      "y_fok": 1,
+      "y_nok": 1
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:patrick:event:battalion_chiefs_conference_2026|PRESENT",
+      "label": "PRESENT",
+      "n_entries": 402,
+      "pair_id": "cf3:patrick:event:battalion_chiefs_conference_2026",
+      "persona": "patrick",
+      "pn_members": [],
+      "question": "What details do I have about the next Battalion Chiefs Conference in 2026?",
+      "state": "EXPIRY",
+      "version": "PRESENT",
+      "write_path": null,
+      "y_fok": 1,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:patrick:hotel_for_conference_2026|ABSENT",
+      "label": "ABSENT",
+      "n_entries": 401,
+      "pair_id": "cf3:patrick:hotel_for_conference_2026",
+      "persona": "patrick",
+      "pn_members": [],
+      "question": "Where is my accommodation for the upcoming 2026 conference?",
+      "state": "EXPIRY",
+      "version": "ABSENT",
+      "write_path": null,
+      "y_fok": 0,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:patrick:hotel_for_conference_2026|PN",
+      "label": "PRESENT-NEGATIVE",
+      "n_entries": 402,
+      "pair_id": "cf3:patrick:hotel_for_conference_2026",
+      "persona": "patrick",
+      "pn_members": [
+        "lb_00350"
+      ],
+      "question": "Where is my accommodation for the upcoming 2026 conference?",
+      "state": "EXPIRY",
+      "version": "PN",
+      "write_path": {
+        "anchor": "2026-04-09",
+        "entries_delta": 0
+      },
+      "y_fok": 1,
+      "y_nok": 1
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:patrick:hotel_for_conference_2026|PRESENT",
+      "label": "PRESENT",
+      "n_entries": 402,
+      "pair_id": "cf3:patrick:hotel_for_conference_2026",
+      "persona": "patrick",
+      "pn_members": [],
+      "question": "Where is my accommodation for the upcoming 2026 conference?",
+      "state": "EXPIRY",
+      "version": "PRESENT",
+      "write_path": null,
+      "y_fok": 1,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:patrick:travel:flight_inbound|ABSENT",
+      "label": "ABSENT",
+      "n_entries": 397,
+      "pair_id": "cf3:patrick:travel:flight_inbound",
+      "persona": "patrick",
+      "pn_members": [],
+      "question": "What time is my upcoming inbound flight, Patrick O'Brien?",
+      "state": "EXPIRY",
+      "version": "ABSENT",
+      "write_path": null,
+      "y_fok": 0,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:patrick:travel:flight_inbound|PN",
+      "label": "PRESENT-NEGATIVE",
+      "n_entries": 402,
+      "pair_id": "cf3:patrick:travel:flight_inbound",
+      "persona": "patrick",
+      "pn_members": [
+        "lb_00344"
+      ],
+      "question": "What time is my upcoming inbound flight, Patrick O'Brien?",
+      "state": "EXPIRY",
+      "version": "PN",
+      "write_path": {
+        "anchor": "2026-04-09",
+        "entries_delta": 0
+      },
+      "y_fok": 1,
+      "y_nok": 1
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:patrick:travel:flight_inbound|PRESENT",
+      "label": "PRESENT",
+      "n_entries": 402,
+      "pair_id": "cf3:patrick:travel:flight_inbound",
+      "persona": "patrick",
+      "pn_members": [],
+      "question": "What time is my upcoming inbound flight, Patrick O'Brien?",
+      "state": "EXPIRY",
+      "version": "PRESENT",
+      "write_path": null,
+      "y_fok": 1,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:patrick:travel_arrival_date:battalion_chiefs_conference|ABSENT",
+      "label": "ABSENT",
+      "n_entries": 398,
+      "pair_id": "cf3:patrick:travel_arrival_date:battalion_chiefs_conference",
+      "persona": "patrick",
+      "pn_members": [],
+      "question": "Can you tell me the scheduled travel arrival date for the next Battalion Chiefs Conference?",
+      "state": "EXPIRY",
+      "version": "ABSENT",
+      "write_path": null,
+      "y_fok": 0,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:patrick:travel_arrival_date:battalion_chiefs_conference|PN",
+      "label": "PRESENT-NEGATIVE",
+      "n_entries": 402,
+      "pair_id": "cf3:patrick:travel_arrival_date:battalion_chiefs_conference",
+      "persona": "patrick",
+      "pn_members": [
+        "lb_00343"
+      ],
+      "question": "Can you tell me the scheduled travel arrival date for the next Battalion Chiefs Conference?",
+      "state": "EXPIRY",
+      "version": "PN",
+      "write_path": {
+        "anchor": "2026-04-09",
+        "entries_delta": 0
+      },
+      "y_fok": 1,
+      "y_nok": 1
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:patrick:travel_arrival_date:battalion_chiefs_conference|PRESENT",
+      "label": "PRESENT",
+      "n_entries": 402,
+      "pair_id": "cf3:patrick:travel_arrival_date:battalion_chiefs_conference",
+      "persona": "patrick",
+      "pn_members": [],
+      "question": "Can you tell me the scheduled travel arrival date for the next Battalion Chiefs Conference?",
+      "state": "EXPIRY",
+      "version": "PRESENT",
+      "write_path": null,
+      "y_fok": 1,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:priya:project_deadline:NeurIPS_paper|ABSENT",
+      "label": "ABSENT",
+      "n_entries": 387,
+      "pair_id": "cf3:priya:project_deadline:NeurIPS_paper",
+      "persona": "priya",
+      "pn_members": [],
+      "question": "What's the deadline for my NeurIPS paper project coming up?",
+      "state": "EXPIRY",
+      "version": "ABSENT",
+      "write_path": null,
+      "y_fok": 0,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:priya:project_deadline:NeurIPS_paper|PN",
+      "label": "PRESENT-NEGATIVE",
+      "n_entries": 390,
+      "pair_id": "cf3:priya:project_deadline:NeurIPS_paper",
+      "persona": "priya",
+      "pn_members": [
+        "lb_00324"
+      ],
+      "question": "What's the deadline for my NeurIPS paper project coming up?",
+      "state": "EXPIRY",
+      "version": "PN",
+      "write_path": {
+        "anchor": "2026-04-15",
+        "entries_delta": 0
+      },
+      "y_fok": 1,
+      "y_nok": 1
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:priya:project_deadline:NeurIPS_paper|PRESENT",
+      "label": "PRESENT",
+      "n_entries": 390,
+      "pair_id": "cf3:priya:project_deadline:NeurIPS_paper",
+      "persona": "priya",
+      "pn_members": [],
+      "question": "What's the deadline for my NeurIPS paper project coming up?",
+      "state": "EXPIRY",
+      "version": "PRESENT",
+      "write_path": null,
+      "y_fok": 1,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:raj:course:regulatory_update|ABSENT",
+      "label": "ABSENT",
+      "n_entries": 521,
+      "pair_id": "cf3:raj:course:regulatory_update",
+      "persona": "raj",
+      "pn_members": [],
+      "question": "Can you tell me the details of my next regulatory update course?",
+      "state": "EXPIRY",
+      "version": "ABSENT",
+      "write_path": null,
+      "y_fok": 0,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:raj:course:regulatory_update|PN",
+      "label": "PRESENT-NEGATIVE",
+      "n_entries": 524,
+      "pair_id": "cf3:raj:course:regulatory_update",
+      "persona": "raj",
+      "pn_members": [
+        "lb_00443"
+      ],
+      "question": "Can you tell me the details of my next regulatory update course?",
+      "state": "EXPIRY",
+      "version": "PN",
+      "write_path": {
+        "anchor": "2026-03-10",
+        "entries_delta": 0
+      },
+      "y_fok": 1,
+      "y_nok": 1
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:raj:course:regulatory_update|PRESENT",
+      "label": "PRESENT",
+      "n_entries": 524,
+      "pair_id": "cf3:raj:course:regulatory_update",
+      "persona": "raj",
+      "pn_members": [],
+      "question": "Can you tell me the details of my next regulatory update course?",
+      "state": "EXPIRY",
+      "version": "PRESENT",
+      "write_path": null,
+      "y_fok": 1,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:raj:training_course:boiler_refresher|ABSENT",
+      "label": "ABSENT",
+      "n_entries": 521,
+      "pair_id": "cf3:raj:training_course:boiler_refresher",
+      "persona": "raj",
+      "pn_members": [],
+      "question": "What is the date and time for my upcoming boiler refresher training course?",
+      "state": "EXPIRY",
+      "version": "ABSENT",
+      "write_path": null,
+      "y_fok": 0,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:raj:training_course:boiler_refresher|PN",
+      "label": "PRESENT-NEGATIVE",
+      "n_entries": 524,
+      "pair_id": "cf3:raj:training_course:boiler_refresher",
+      "persona": "raj",
+      "pn_members": [
+        "lb_00437"
+      ],
+      "question": "What is the date and time for my upcoming boiler refresher training course?",
+      "state": "EXPIRY",
+      "version": "PN",
+      "write_path": {
+        "anchor": "2026-03-10",
+        "entries_delta": 0
+      },
+      "y_fok": 1,
+      "y_nok": 1
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:raj:training_course:boiler_refresher|PRESENT",
+      "label": "PRESENT",
+      "n_entries": 524,
+      "pair_id": "cf3:raj:training_course:boiler_refresher",
+      "persona": "raj",
+      "pn_members": [],
+      "question": "What is the date and time for my upcoming boiler refresher training course?",
+      "state": "EXPIRY",
+      "version": "PRESENT",
+      "write_path": null,
+      "y_fok": 1,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:raj:upcoming_job|ABSENT",
+      "label": "ABSENT",
+      "n_entries": 523,
+      "pair_id": "cf3:raj:upcoming_job",
+      "persona": "raj",
+      "pn_members": [],
+      "question": "Can you tell me the location and time for my next job?",
+      "state": "EXPIRY",
+      "version": "ABSENT",
+      "write_path": null,
+      "y_fok": 0,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:raj:upcoming_job|PN",
+      "label": "PRESENT-NEGATIVE",
+      "n_entries": 524,
+      "pair_id": "cf3:raj:upcoming_job",
+      "persona": "raj",
+      "pn_members": [
+        "lb_00515"
+      ],
+      "question": "Can you tell me the location and time for my next job?",
+      "state": "EXPIRY",
+      "version": "PN",
+      "write_path": {
+        "anchor": "2026-03-10",
+        "entries_delta": 0
+      },
+      "y_fok": 1,
+      "y_nok": 1
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:raj:upcoming_job|PRESENT",
+      "label": "PRESENT",
+      "n_entries": 524,
+      "pair_id": "cf3:raj:upcoming_job",
+      "persona": "raj",
+      "pn_members": [],
+      "question": "Can you tell me the location and time for my next job?",
+      "state": "EXPIRY",
+      "version": "PRESENT",
+      "write_path": null,
+      "y_fok": 1,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:rosa:family_event_date|ABSENT",
+      "label": "ABSENT",
+      "n_entries": 560,
+      "pair_id": "cf3:rosa:family_event_date",
+      "persona": "rosa",
+      "pn_members": [],
+      "question": "Can you tell me the date of my upcoming family gathering?",
+      "state": "EXPIRY",
+      "version": "ABSENT",
+      "write_path": null,
+      "y_fok": 0,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:rosa:family_event_date|PN",
+      "label": "PRESENT-NEGATIVE",
+      "n_entries": 562,
+      "pair_id": "cf3:rosa:family_event_date",
+      "persona": "rosa",
+      "pn_members": [
+        "lb_00528"
+      ],
+      "question": "Can you tell me the date of my upcoming family gathering?",
+      "state": "EXPIRY",
+      "version": "PN",
+      "write_path": {
+        "anchor": "2026-04-06",
+        "entries_delta": 0
+      },
+      "y_fok": 1,
+      "y_nok": 1
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:rosa:family_event_date|PRESENT",
+      "label": "PRESENT",
+      "n_entries": 562,
+      "pair_id": "cf3:rosa:family_event_date",
+      "persona": "rosa",
+      "pn_members": [],
+      "question": "Can you tell me the date of my upcoming family gathering?",
+      "state": "EXPIRY",
+      "version": "PRESENT",
+      "write_path": null,
+      "y_fok": 1,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:thanh:event_guest_count:duc_wedding|ABSENT",
+      "label": "ABSENT",
+      "n_entries": 571,
+      "pair_id": "cf3:thanh:event_guest_count:duc_wedding",
+      "persona": "thanh",
+      "pn_members": [],
+      "question": "What's the guest count for the upcoming Duc wedding?",
+      "state": "EXPIRY",
+      "version": "ABSENT",
+      "write_path": null,
+      "y_fok": 0,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:thanh:event_guest_count:duc_wedding|PN",
+      "label": "PRESENT-NEGATIVE",
+      "n_entries": 572,
+      "pair_id": "cf3:thanh:event_guest_count:duc_wedding",
+      "persona": "thanh",
+      "pn_members": [
+        "lb_00468"
+      ],
+      "question": "What's the guest count for the upcoming Duc wedding?",
+      "state": "EXPIRY",
+      "version": "PN",
+      "write_path": {
+        "anchor": "2026-03-19",
+        "entries_delta": 0
+      },
+      "y_fok": 1,
+      "y_nok": 1
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:thanh:event_guest_count:duc_wedding|PRESENT",
+      "label": "PRESENT",
+      "n_entries": 572,
+      "pair_id": "cf3:thanh:event_guest_count:duc_wedding",
+      "persona": "thanh",
+      "pn_members": [],
+      "question": "What's the guest count for the upcoming Duc wedding?",
+      "state": "EXPIRY",
+      "version": "PRESENT",
+      "write_path": null,
+      "y_fok": 1,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:thanh:wedding_menu|ABSENT",
+      "label": "ABSENT",
+      "n_entries": 571,
+      "pair_id": "cf3:thanh:wedding_menu",
+      "persona": "thanh",
+      "pn_members": [],
+      "question": "What dishes are on my upcoming wedding menu?",
+      "state": "EXPIRY",
+      "version": "ABSENT",
+      "write_path": null,
+      "y_fok": 0,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:thanh:wedding_menu|PN",
+      "label": "PRESENT-NEGATIVE",
+      "n_entries": 572,
+      "pair_id": "cf3:thanh:wedding_menu",
+      "persona": "thanh",
+      "pn_members": [
+        "lb_00476"
+      ],
+      "question": "What dishes are on my upcoming wedding menu?",
+      "state": "EXPIRY",
+      "version": "PN",
+      "write_path": {
+        "anchor": "2026-03-19",
+        "entries_delta": 0
+      },
+      "y_fok": 1,
+      "y_nok": 1
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:thanh:wedding_menu|PRESENT",
+      "label": "PRESENT",
+      "n_entries": 572,
+      "pair_id": "cf3:thanh:wedding_menu",
+      "persona": "thanh",
+      "pn_members": [],
+      "question": "What dishes are on my upcoming wedding menu?",
+      "state": "EXPIRY",
+      "version": "PRESENT",
+      "write_path": null,
+      "y_fok": 1,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:valentina:trip_destination|ABSENT",
+      "label": "ABSENT",
+      "n_entries": 383,
+      "pair_id": "cf3:valentina:trip_destination",
+      "persona": "valentina",
+      "pn_members": [],
+      "question": "What's my upcoming trip destination?",
+      "state": "EXPIRY",
+      "version": "ABSENT",
+      "write_path": null,
+      "y_fok": 0,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:valentina:trip_destination|PN",
+      "label": "PRESENT-NEGATIVE",
+      "n_entries": 386,
+      "pair_id": "cf3:valentina:trip_destination",
+      "persona": "valentina",
+      "pn_members": [
+        "lb_00364"
+      ],
+      "question": "What's my upcoming trip destination?",
+      "state": "EXPIRY",
+      "version": "PN",
+      "write_path": {
+        "anchor": "2026-03-26",
+        "entries_delta": 0
+      },
+      "y_fok": 1,
+      "y_nok": 1
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:valentina:trip_destination|PRESENT",
+      "label": "PRESENT",
+      "n_entries": 386,
+      "pair_id": "cf3:valentina:trip_destination",
+      "persona": "valentina",
+      "pn_members": [],
+      "question": "What's my upcoming trip destination?",
+      "state": "EXPIRY",
+      "version": "PRESENT",
+      "write_path": null,
+      "y_fok": 1,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:valentina:trip_plan_rioclaro|ABSENT",
+      "label": "ABSENT",
+      "n_entries": 385,
+      "pair_id": "cf3:valentina:trip_plan_rioclaro",
+      "persona": "valentina",
+      "pn_members": [],
+      "question": "Can you tell me the schedule for my next Rio Claro trip?",
+      "state": "EXPIRY",
+      "version": "ABSENT",
+      "write_path": null,
+      "y_fok": 0,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:valentina:trip_plan_rioclaro|PN",
+      "label": "PRESENT-NEGATIVE",
+      "n_entries": 386,
+      "pair_id": "cf3:valentina:trip_plan_rioclaro",
+      "persona": "valentina",
+      "pn_members": [
+        "lb_00362"
+      ],
+      "question": "Can you tell me the schedule for my next Rio Claro trip?",
+      "state": "EXPIRY",
+      "version": "PN",
+      "write_path": {
+        "anchor": "2026-03-26",
+        "entries_delta": 0
+      },
+      "y_fok": 1,
+      "y_nok": 1
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:valentina:trip_plan_rioclaro|PRESENT",
+      "label": "PRESENT",
+      "n_entries": 386,
+      "pair_id": "cf3:valentina:trip_plan_rioclaro",
+      "persona": "valentina",
+      "pn_members": [],
+      "question": "Can you tell me the schedule for my next Rio Claro trip?",
+      "state": "EXPIRY",
+      "version": "PRESENT",
+      "write_path": null,
+      "y_fok": 1,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:yoli:event:Afrofest_attendance|ABSENT",
+      "label": "ABSENT",
+      "n_entries": 450,
+      "pair_id": "cf3:yoli:event:Afrofest_attendance",
+      "persona": "yoli",
+      "pn_members": [],
+      "question": "Can you tell me the schedule for my next Afrofest event?",
+      "state": "EXPIRY",
+      "version": "ABSENT",
+      "write_path": null,
+      "y_fok": 0,
+      "y_nok": 0
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:yoli:event:Afrofest_attendance|PN",
+      "label": "PRESENT-NEGATIVE",
+      "n_entries": 452,
+      "pair_id": "cf3:yoli:event:Afrofest_attendance",
+      "persona": "yoli",
+      "pn_members": [
+        "lb_00418"
+      ],
+      "question": "Can you tell me the schedule for my next Afrofest event?",
+      "state": "EXPIRY",
+      "version": "PN",
+      "write_path": {
+        "anchor": "2026-03-23",
+        "entries_delta": 0
+      },
+      "y_fok": 1,
+      "y_nok": 1
+    },
+    {
+      "intent": "UPCOMING",
+      "item_id": "cf3:yoli:event:Afrofest_attendance|PRESENT",
+      "label": "PRESENT",
+      "n_entries": 452,
+      "pair_id": "cf3:yoli:event:Afrofest_attendance",
+      "persona": "yoli",
+      "pn_members": [],
+      "question": "Can you tell me the schedule for my next Afrofest event?",
+      "state": "EXPIRY",
+      "version": "PRESENT",
+      "write_path": null,
+      "y_fok": 1,
+      "y_nok": 0
+    }
+  ],
+  "meta": {
+    "built": "2026-09-13",
+    "composition": "0/0/14",
+    "construction": "build_cf_cell.py functions called; assertions A-E unchanged; draw-time predicates and assertion C re-asserted",
+    "fails": [],
+    "index_size": {
+      "v2": {
+        "chars_mean": 4255.2,
+        "lines_max": 66,
+        "lines_min": 60
+      },
+      "v3": {
+        "chars_mean": 4457.5,
+        "lines_max": 72,
+        "lines_min": 66
+      }
+    },
+    "indexes_sha256": "b2d6441fd1b99a4b3c8a6415659b27fc2ba777796b98550d34b48531fcfde04d",
+    "individuating": 14,
+    "individuation": {
+      "cf3:patrick:event:battalion_chiefs_conference_2026": {
+        "assertion_c": true,
+        "in_pn": true,
+        "in_present": false,
+        "individuates": true,
+        "own_section": "expired",
+        "slot_scrubbed": "event",
+        "state": "EXPIRY",
+        "superseded_list_collision_in_present": false
+      },
+      "cf3:patrick:hotel_for_conference_2026": {
+        "assertion_c": true,
+        "in_pn": true,
+        "in_present": false,
+        "individuates": true,
+        "own_section": "expired",
+        "slot_scrubbed": "hotel_for_conference_2026",
+        "state": "EXPIRY",
+        "superseded_list_collision_in_present": false
+      },
+      "cf3:patrick:travel:flight_inbound": {
+        "assertion_c": true,
+        "in_pn": true,
+        "in_present": false,
+        "individuates": true,
+        "own_section": "expired",
+        "slot_scrubbed": "travel",
+        "state": "EXPIRY",
+        "superseded_list_collision_in_present": false
+      },
+      "cf3:patrick:travel_arrival_date:battalion_chiefs_conference": {
+        "assertion_c": true,
+        "in_pn": true,
+        "in_present": false,
+        "individuates": true,
+        "own_section": "expired",
+        "slot_scrubbed": "travel_arrival_date",
+        "state": "EXPIRY",
+        "superseded_list_collision_in_present": false
+      },
+      "cf3:priya:project_deadline:NeurIPS_paper": {
+        "assertion_c": true,
+        "in_pn": true,
+        "in_present": false,
+        "individuates": true,
+        "own_section": "expired",
+        "slot_scrubbed": "project_deadline",
+        "state": "EXPIRY",
+        "superseded_list_collision_in_present": false
+      },
+      "cf3:raj:course:regulatory_update": {
+        "assertion_c": true,
+        "in_pn": true,
+        "in_present": false,
+        "individuates": true,
+        "own_section": "expired",
+        "slot_scrubbed": "course",
+        "state": "EXPIRY",
+        "superseded_list_collision_in_present": false
+      },
+      "cf3:raj:training_course:boiler_refresher": {
+        "assertion_c": true,
+        "in_pn": true,
+        "in_present": false,
+        "individuates": true,
+        "own_section": "expired",
+        "slot_scrubbed": "training_course",
+        "state": "EXPIRY",
+        "superseded_list_collision_in_present": false
+      },
+      "cf3:raj:upcoming_job": {
+        "assertion_c": true,
+        "in_pn": true,
+        "in_present": false,
+        "individuates": true,
+        "own_section": "expired",
+        "slot_scrubbed": "upcoming_job",
+        "state": "EXPIRY",
+        "superseded_list_collision_in_present": false
+      },
+      "cf3:rosa:family_event_date": {
+        "assertion_c": true,
+        "in_pn": true,
+        "in_present": false,
+        "individuates": true,
+        "own_section": "expired",
+        "slot_scrubbed": "family_event_date",
+        "state": "EXPIRY",
+        "superseded_list_collision_in_present": false
+      },
+      "cf3:thanh:event_guest_count:duc_wedding": {
+        "assertion_c": true,
+        "in_pn": true,
+        "in_present": false,
+        "individuates": true,
+        "own_section": "expired",
+        "slot_scrubbed": "event_guest_count",
+        "state": "EXPIRY",
+        "superseded_list_collision_in_present": false
+      },
+      "cf3:thanh:wedding_menu": {
+        "assertion_c": true,
+        "in_pn": true,
+        "in_present": false,
+        "individuates": true,
+        "own_section": "expired",
+        "slot_scrubbed": "wedding_menu",
+        "state": "EXPIRY",
+        "superseded_list_collision_in_present": false
+      },
+      "cf3:valentina:trip_destination": {
+        "assertion_c": true,
+        "in_pn": true,
+        "in_present": false,
+        "individuates": true,
+        "own_section": "expired",
+        "slot_scrubbed": "trip_destination",
+        "state": "EXPIRY",
+        "superseded_list_collision_in_present": false
+      },
+      "cf3:valentina:trip_plan_rioclaro": {
+        "assertion_c": true,
+        "in_pn": true,
+        "in_present": false,
+        "individuates": true,
+        "own_section": "expired",
+        "slot_scrubbed": "trip_plan_rioclaro",
+        "state": "EXPIRY",
+        "superseded_list_collision_in_present": false
+      },
+      "cf3:yoli:event:Afrofest_attendance": {
+        "assertion_c": true,
+        "in_pn": true,
+        "in_present": false,
+        "individuates": true,
+        "own_section": "expired",
+        "slot_scrubbed": "event",
+        "state": "EXPIRY",
+        "superseded_list_collision_in_present": false
+      }
+    },
+    "n": 42,
+    "no_api_calls": true,
+    "quota": {
+      "EXPIRY": 14,
+      "RETRACTION": 0,
+      "SUPERSESSION": 0
+    },
+    "registration": "registrations/ADDENDUM_CF2.md (frozen f016f03; sections 14-16)",
+    "tau_hi": 0.8,
+    "tau_lo": 0.2,
+    "two_resolution_design": true
+  }
+}

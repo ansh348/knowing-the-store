@@ -1,0 +1,1488 @@
+{
+  "gate": "PASSED",
+  "rows": {
+    "R-FOK-AMEM": {
+      "ci_cluster": {
+        "ci_hi": -0.0446391480510389,
+        "ci_lo": -0.16543679026287722,
+        "excludes_zero": true,
+        "mean": -0.10806679152820607,
+        "n_draws": 1000
+      },
+      "ci_item_published": [
+        -0.173,
+        -0.04
+      ],
+      "ci_item_rederived": {
+        "ci_hi": -0.04033407456284799,
+        "ci_lo": -0.17256882840098275,
+        "excludes_zero": true,
+        "mean": -0.1067115836638584,
+        "n_draws": 1000
+      },
+      "lopo": {
+        "folds": [
+          {
+            "delta": -0.11240084611316759,
+            "n": 277,
+            "persona": "aisha"
+          },
+          {
+            "delta": -0.10095974406824842,
+            "n": 276,
+            "persona": "alex"
+          },
+          {
+            "delta": -0.09850273693248895,
+            "n": 275,
+            "persona": "amara"
+          },
+          {
+            "delta": -0.1070364062167341,
+            "n": 276,
+            "persona": "aroha"
+          },
+          {
+            "delta": -0.10359189303904925,
+            "n": 276,
+            "persona": "billy"
+          },
+          {
+            "delta": -0.10221950180966571,
+            "n": 276,
+            "persona": "bruna"
+          },
+          {
+            "delta": -0.10025659824046917,
+            "n": 278,
+            "persona": "callum"
+          },
+          {
+            "delta": -0.10634584875727132,
+            "n": 277,
+            "persona": "chenoa"
+          },
+          {
+            "delta": -0.10535980413029594,
+            "n": 276,
+            "persona": "dariush"
+          },
+          {
+            "delta": -0.10028607755880481,
+            "n": 277,
+            "persona": "david"
+          },
+          {
+            "delta": -0.11230030280881281,
+            "n": 279,
+            "persona": "diane"
+          },
+          {
+            "delta": -0.11796588554120835,
+            "n": 276,
+            "persona": "dmitri"
+          },
+          {
+            "delta": -0.10265547460669411,
+            "n": 277,
+            "persona": "elena"
+          },
+          {
+            "delta": -0.11096774193548387,
+            "n": 275,
+            "persona": "fatima"
+          },
+          {
+            "delta": -0.11579199489035558,
+            "n": 276,
+            "persona": "ingrid"
+          },
+          {
+            "delta": -0.1123502353444587,
+            "n": 275,
+            "persona": "jake"
+          },
+          {
+            "delta": -0.10791078305519897,
+            "n": 275,
+            "persona": "jerome"
+          },
+          {
+            "delta": -0.10504817762882285,
+            "n": 278,
+            "persona": "joonho"
+          },
+          {
+            "delta": -0.10450052029136314,
+            "n": 279,
+            "persona": "kenji"
+          },
+          {
+            "delta": -0.099737739312877,
+            "n": 278,
+            "persona": "kofi"
+          },
+          {
+            "delta": -0.10183718720304086,
+            "n": 277,
+            "persona": "leila"
+          },
+          {
+            "delta": -0.10606933389191453,
+            "n": 278,
+            "persona": "lily"
+          },
+          {
+            "delta": -0.10863157894736841,
+            "n": 277,
+            "persona": "marcus"
+          },
+          {
+            "delta": -0.11448366013071892,
+            "n": 278,
+            "persona": "marley"
+          },
+          {
+            "delta": -0.10538523060517196,
+            "n": 276,
+            "persona": "mehmet"
+          },
+          {
+            "delta": -0.10764034352744029,
+            "n": 278,
+            "persona": "mirri"
+          },
+          {
+            "delta": -0.10245901639344268,
+            "n": 276,
+            "persona": "nadia"
+          },
+          {
+            "delta": -0.10716845878136194,
+            "n": 281,
+            "persona": "omar"
+          },
+          {
+            "delta": -0.09765497774400167,
+            "n": 273,
+            "persona": "pan"
+          },
+          {
+            "delta": -0.10592207792207786,
+            "n": 279,
+            "persona": "patrick"
+          },
+          {
+            "delta": -0.10031372549019602,
+            "n": 278,
+            "persona": "priya"
+          },
+          {
+            "delta": -0.11413964823055739,
+            "n": 277,
+            "persona": "raj"
+          },
+          {
+            "delta": -0.10447682398901909,
+            "n": 277,
+            "persona": "rosa"
+          },
+          {
+            "delta": -0.10258692919983237,
+            "n": 278,
+            "persona": "saga"
+          },
+          {
+            "delta": -0.11190653608686402,
+            "n": 276,
+            "persona": "samuel"
+          },
+          {
+            "delta": -0.10970343392299686,
+            "n": 279,
+            "persona": "thanh"
+          },
+          {
+            "delta": -0.10979929161747343,
+            "n": 275,
+            "persona": "tom"
+          },
+          {
+            "delta": -0.10657702730873464,
+            "n": 279,
+            "persona": "valentina"
+          },
+          {
+            "delta": -0.10478600042167396,
+            "n": 277,
+            "persona": "yoli"
+          },
+          {
+            "delta": -0.11164684453016172,
+            "n": 275,
+            "persona": "zara"
+          }
+        ],
+        "full_delta": -0.10648985332529637,
+        "max_delta": -0.09765497774400167,
+        "min_delta": -0.11796588554120835,
+        "n_folds": 40,
+        "n_sign_changes": 0
+      },
+      "mean_items_per_persona": 7.1,
+      "n": 284,
+      "n_personas": 40,
+      "n_personas_with_positive": 39,
+      "n_pos": 126,
+      "point_delta": -0.10648985332529637,
+      "reproduction": {
+        "blind": 0.5591,
+        "blind_ok": true,
+        "blind_pub": 0.5591,
+        "delta": -0.1065,
+        "delta_ok": true,
+        "delta_pub": -0.1065,
+        "indexed": 0.4526,
+        "indexed_ok": true,
+        "indexed_pub": 0.4526,
+        "n": 284,
+        "n_ok": true,
+        "n_pub": 284
+      },
+      "stop_condition_triggered": false
+    },
+    "R-FOK-EASY": {
+      "ci_cluster": {
+        "ci_hi": 0.2433284660250032,
+        "ci_lo": 0.1326896388130123,
+        "excludes_zero": true,
+        "mean": 0.18935284854135062,
+        "n_draws": 1000
+      },
+      "ci_item_published": null,
+      "ci_item_rederived": {
+        "ci_hi": 0.25963553251562543,
+        "ci_lo": 0.11791118961528609,
+        "excludes_zero": true,
+        "mean": 0.1892687844283975,
+        "n_draws": 1000
+      },
+      "lopo": {
+        "folds": [
+          {
+            "delta": 0.19140598202648001,
+            "n": 581,
+            "persona": "aisha"
+          },
+          {
+            "delta": 0.18965576710816778,
+            "n": 581,
+            "persona": "alex"
+          },
+          {
+            "delta": 0.1994323248953832,
+            "n": 581,
+            "persona": "amara"
+          },
+          {
+            "delta": 0.19478143002372078,
+            "n": 584,
+            "persona": "aroha"
+          },
+          {
+            "delta": 0.1886719407507153,
+            "n": 587,
+            "persona": "billy"
+          },
+          {
+            "delta": 0.19156711053298192,
+            "n": 577,
+            "persona": "bruna"
+          },
+          {
+            "delta": 0.19300000000000006,
+            "n": 580,
+            "persona": "callum"
+          },
+          {
+            "delta": 0.19184699944690264,
+            "n": 580,
+            "persona": "chenoa"
+          },
+          {
+            "delta": 0.18699145299145298,
+            "n": 580,
+            "persona": "dariush"
+          },
+          {
+            "delta": 0.19632738902214342,
+            "n": 575,
+            "persona": "david"
+          },
+          {
+            "delta": 0.18444824218749994,
+            "n": 576,
+            "persona": "diane"
+          },
+          {
+            "delta": 0.19289681871738762,
+            "n": 587,
+            "persona": "dmitri"
+          },
+          {
+            "delta": 0.20113699776785715,
+            "n": 576,
+            "persona": "elena"
+          },
+          {
+            "delta": 0.19144144144144137,
+            "n": 571,
+            "persona": "fatima"
+          },
+          {
+            "delta": 0.18546038848052265,
+            "n": 573,
+            "persona": "ingrid"
+          },
+          {
+            "delta": 0.18766404199475062,
+            "n": 577,
+            "persona": "jake"
+          },
+          {
+            "delta": 0.18603841870824056,
+            "n": 577,
+            "persona": "jerome"
+          },
+          {
+            "delta": 0.19662721893491125,
+            "n": 585,
+            "persona": "joonho"
+          },
+          {
+            "delta": 0.19176206855245814,
+            "n": 582,
+            "persona": "kenji"
+          },
+          {
+            "delta": 0.1947334762168142,
+            "n": 580,
+            "persona": "kofi"
+          },
+          {
+            "delta": 0.18957192021351316,
+            "n": 578,
+            "persona": "leila"
+          },
+          {
+            "delta": 0.19140728214342334,
+            "n": 574,
+            "persona": "lily"
+          },
+          {
+            "delta": 0.1845360471491228,
+            "n": 584,
+            "persona": "marcus"
+          },
+          {
+            "delta": 0.18109378484552174,
+            "n": 586,
+            "persona": "marley"
+          },
+          {
+            "delta": 0.1851832731027362,
+            "n": 577,
+            "persona": "mehmet"
+          },
+          {
+            "delta": 0.18543397114705584,
+            "n": 585,
+            "persona": "mirri"
+          },
+          {
+            "delta": 0.19678278118040093,
+            "n": 577,
+            "persona": "nadia"
+          },
+          {
+            "delta": 0.19731605351170572,
+            "n": 590,
+            "persona": "omar"
+          },
+          {
+            "delta": 0.19422642819934016,
+            "n": 573,
+            "persona": "pan"
+          },
+          {
+            "delta": 0.1937393389741771,
+            "n": 588,
+            "persona": "patrick"
+          },
+          {
+            "delta": 0.19016760703617658,
+            "n": 591,
+            "persona": "priya"
+          },
+          {
+            "delta": 0.1904252686651584,
+            "n": 570,
+            "persona": "raj"
+          },
+          {
+            "delta": 0.1908103677901854,
+            "n": 583,
+            "persona": "rosa"
+          },
+          {
+            "delta": 0.193439879793737,
+            "n": 583,
+            "persona": "saga"
+          },
+          {
+            "delta": 0.18570782293986632,
+            "n": 577,
+            "persona": "samuel"
+          },
+          {
+            "delta": 0.19436179205409976,
+            "n": 585,
+            "persona": "thanh"
+          },
+          {
+            "delta": 0.19130159065687258,
+            "n": 574,
+            "persona": "tom"
+          },
+          {
+            "delta": 0.18914372280646125,
+            "n": 574,
+            "persona": "valentina"
+          },
+          {
+            "delta": 0.1953125,
+            "n": 584,
+            "persona": "yoli"
+          },
+          {
+            "delta": 0.19882573179033358,
+            "n": 582,
+            "persona": "zara"
+          }
+        ],
+        "full_delta": 0.19139014333398785,
+        "max_delta": 0.20113699776785715,
+        "min_delta": 0.18109378484552174,
+        "n_folds": 40,
+        "n_sign_changes": 0
+      },
+      "mean_items_per_persona": 14.875,
+      "n": 595,
+      "n_personas": 40,
+      "n_personas_with_positive": 40,
+      "n_pos": 463,
+      "point_delta": 0.19139014333398785,
+      "reproduction": {
+        "blind": 0.4422,
+        "blind_ok": true,
+        "blind_pub": 0.4422,
+        "delta": 0.1914,
+        "delta_ok": true,
+        "delta_pub": 0.1914,
+        "indexed": 0.6336,
+        "indexed_ok": true,
+        "indexed_pub": 0.6336,
+        "n": 595,
+        "n_ok": true,
+        "n_pub": 595
+      }
+    },
+    "R-FOK-FRB": {
+      "ci_cluster": {
+        "ci_hi": 0.2767026755748524,
+        "ci_lo": 0.1259132814750792,
+        "excludes_zero": true,
+        "mean": 0.20416105095732304,
+        "n_draws": 1000
+      },
+      "ci_item_published": [
+        0.0935,
+        0.3191
+      ],
+      "ci_item_rederived": {
+        "ci_hi": 0.3190716911764706,
+        "ci_lo": 0.09347308823039352,
+        "excludes_zero": true,
+        "mean": 0.20847573112072348,
+        "n_draws": 1000
+      },
+      "lopo": {
+        "folds": [
+          {
+            "delta": 0.18761704119850187,
+            "n": 299,
+            "persona": "aisha"
+          },
+          {
+            "delta": 0.2023180592991914,
+            "n": 300,
+            "persona": "alex"
+          },
+          {
+            "delta": 0.20693277310924374,
+            "n": 300,
+            "persona": "amara"
+          },
+          {
+            "delta": 0.2060916442048517,
+            "n": 300,
+            "persona": "aroha"
+          },
+          {
+            "delta": 0.20551948051948055,
+            "n": 299,
+            "persona": "billy"
+          },
+          {
+            "delta": 0.21986408199643492,
+            "n": 298,
+            "persona": "bruna"
+          },
+          {
+            "delta": 0.2053775122216187,
+            "n": 298,
+            "persona": "callum"
+          },
+          {
+            "delta": 0.2075471698113207,
+            "n": 300,
+            "persona": "chenoa"
+          },
+          {
+            "delta": 0.20237299465240632,
+            "n": 298,
+            "persona": "dariush"
+          },
+          {
+            "delta": 0.20580021482277122,
+            "n": 301,
+            "persona": "david"
+          },
+          {
+            "delta": 0.20743713215623333,
+            "n": 302,
+            "persona": "diane"
+          },
+          {
+            "delta": 0.20026852846401716,
+            "n": 301,
+            "persona": "dmitri"
+          },
+          {
+            "delta": 0.21111478299184838,
+            "n": 301,
+            "persona": "elena"
+          },
+          {
+            "delta": 0.19834710743801653,
+            "n": 297,
+            "persona": "fatima"
+          },
+          {
+            "delta": 0.20701395982294857,
+            "n": 300,
+            "persona": "ingrid"
+          },
+          {
+            "delta": 0.1963606735469854,
+            "n": 298,
+            "persona": "jake"
+          },
+          {
+            "delta": 0.19559382688436594,
+            "n": 297,
+            "persona": "jerome"
+          },
+          {
+            "delta": 0.21582365003417636,
+            "n": 299,
+            "persona": "joonho"
+          },
+          {
+            "delta": 0.20615982241953384,
+            "n": 299,
+            "persona": "kenji"
+          },
+          {
+            "delta": 0.20326864147088863,
+            "n": 300,
+            "persona": "kofi"
+          },
+          {
+            "delta": 0.20440386680988182,
+            "n": 301,
+            "persona": "leila"
+          },
+          {
+            "delta": 0.21534739025233324,
+            "n": 296,
+            "persona": "lily"
+          },
+          {
+            "delta": 0.1989218328840971,
+            "n": 300,
+            "persona": "marcus"
+          },
+          {
+            "delta": 0.1980053908355795,
+            "n": 300,
+            "persona": "marley"
+          },
+          {
+            "delta": 0.19716981132075473,
+            "n": 299,
+            "persona": "mehmet"
+          },
+          {
+            "delta": 0.20420369104579628,
+            "n": 299,
+            "persona": "mirri"
+          },
+          {
+            "delta": 0.19302458547741563,
+            "n": 298,
+            "persona": "nadia"
+          },
+          {
+            "delta": 0.2056179775280899,
+            "n": 302,
+            "persona": "omar"
+          },
+          {
+            "delta": 0.1935339021104625,
+            "n": 296,
+            "persona": "pan"
+          },
+          {
+            "delta": 0.20214822771213747,
+            "n": 301,
+            "persona": "patrick"
+          },
+          {
+            "delta": 0.2059613319011815,
+            "n": 301,
+            "persona": "priya"
+          },
+          {
+            "delta": 0.21051423324150598,
+            "n": 297,
+            "persona": "raj"
+          },
+          {
+            "delta": 0.19389567147613762,
+            "n": 299,
+            "persona": "rosa"
+          },
+          {
+            "delta": 0.2017364657814097,
+            "n": 300,
+            "persona": "saga"
+          },
+          {
+            "delta": 0.2130694383016365,
+            "n": 300,
+            "persona": "samuel"
+          },
+          {
+            "delta": 0.20187969924812027,
+            "n": 301,
+            "persona": "thanh"
+          },
+          {
+            "delta": 0.20488346281908992,
+            "n": 299,
+            "persona": "tom"
+          },
+          {
+            "delta": 0.20249487354750517,
+            "n": 299,
+            "persona": "valentina"
+          },
+          {
+            "delta": 0.20472569255839224,
+            "n": 298,
+            "persona": "yoli"
+          },
+          {
+            "delta": 0.20671163202122955,
+            "n": 300,
+            "persona": "zara"
+          }
+        ],
+        "full_delta": 0.2037289915966386,
+        "max_delta": 0.21986408199643492,
+        "min_delta": 0.18761704119850187,
+        "n_folds": 40,
+        "n_sign_changes": 0
+      },
+      "mean_items_per_persona": 7.675,
+      "n": 307,
+      "n_personas": 40,
+      "n_personas_with_positive": 23,
+      "n_pos": 35,
+      "point_delta": 0.2037289915966386,
+      "reproduction": {
+        "blind": 0.4966,
+        "blind_ok": true,
+        "blind_pub": 0.4966,
+        "delta": 0.2037,
+        "delta_ok": true,
+        "delta_pub": 0.2037,
+        "indexed": 0.7003,
+        "indexed_ok": true,
+        "indexed_pub": 0.7003,
+        "n": 307,
+        "n_ok": true,
+        "n_pub": 307
+      },
+      "stop_condition_triggered": false
+    },
+    "R-FOK-HARD": {
+      "ci_cluster": {
+        "ci_hi": 0.2996363127344929,
+        "ci_lo": 0.1552073193916349,
+        "excludes_zero": true,
+        "mean": 0.2279857923268438,
+        "n_draws": 1000
+      },
+      "ci_item_published": [
+        0.1177,
+        0.3504
+      ],
+      "ci_item_rederived": {
+        "ci_hi": 0.3503571710991159,
+        "ci_lo": 0.1177170625239439,
+        "excludes_zero": true,
+        "mean": 0.22824514549508482,
+        "n_draws": 1000
+      },
+      "lopo": {
+        "folds": [
+          {
+            "delta": 0.21479357798165133,
+            "n": 577,
+            "persona": "aisha"
+          },
+          {
+            "delta": 0.22744014732965,
+            "n": 578,
+            "persona": "alex"
+          },
+          {
+            "delta": 0.2287733275128233,
+            "n": 573,
+            "persona": "amara"
+          },
+          {
+            "delta": 0.22902283590015926,
+            "n": 573,
+            "persona": "aroha"
+          },
+          {
+            "delta": 0.2307156258375771,
+            "n": 568,
+            "persona": "billy"
+          },
+          {
+            "delta": 0.24405739949611127,
+            "n": 571,
+            "persona": "bruna"
+          },
+          {
+            "delta": 0.23091684434968018,
+            "n": 571,
+            "persona": "callum"
+          },
+          {
+            "delta": 0.22989417989417982,
+            "n": 575,
+            "persona": "chenoa"
+          },
+          {
+            "delta": 0.22045130901522625,
+            "n": 571,
+            "persona": "dariush"
+          },
+          {
+            "delta": 0.22930807682188903,
+            "n": 578,
+            "persona": "david"
+          },
+          {
+            "delta": 0.22922314911366004,
+            "n": 583,
+            "persona": "diane"
+          },
+          {
+            "delta": 0.22295823357275868,
+            "n": 572,
+            "persona": "dmitri"
+          },
+          {
+            "delta": 0.2325265899717821,
+            "n": 576,
+            "persona": "elena"
+          },
+          {
+            "delta": 0.21833361443751065,
+            "n": 572,
+            "persona": "fatima"
+          },
+          {
+            "delta": 0.2337065508021391,
+            "n": 577,
+            "persona": "ingrid"
+          },
+          {
+            "delta": 0.2208132691278759,
+            "n": 569,
+            "persona": "jake"
+          },
+          {
+            "delta": 0.22058823529411764,
+            "n": 568,
+            "persona": "jerome"
+          },
+          {
+            "delta": 0.2395288693989993,
+            "n": 572,
+            "persona": "joonho"
+          },
+          {
+            "delta": 0.23153594771241837,
+            "n": 574,
+            "persona": "kenji"
+          },
+          {
+            "delta": 0.2226322263222632,
+            "n": 575,
+            "persona": "kofi"
+          },
+          {
+            "delta": 0.22709268550303674,
+            "n": 576,
+            "persona": "leila"
+          },
+          {
+            "delta": 0.23790140208050659,
+            "n": 569,
+            "persona": "lily"
+          },
+          {
+            "delta": 0.22390724946695095,
+            "n": 571,
+            "persona": "marcus"
+          },
+          {
+            "delta": 0.2227562400424854,
+            "n": 573,
+            "persona": "marley"
+          },
+          {
+            "delta": 0.21919934640522876,
+            "n": 574,
+            "persona": "mehmet"
+          },
+          {
+            "delta": 0.22527688761455,
+            "n": 572,
+            "persona": "mirri"
+          },
+          {
+            "delta": 0.21803537231046521,
+            "n": 571,
+            "persona": "nadia"
+          },
+          {
+            "delta": 0.22706905640484976,
+            "n": 577,
+            "persona": "omar"
+          },
+          {
+            "delta": 0.21881577489752968,
+            "n": 565,
+            "persona": "pan"
+          },
+          {
+            "delta": 0.2252054068380599,
+            "n": 574,
+            "persona": "patrick"
+          },
+          {
+            "delta": 0.23083266826283588,
+            "n": 572,
+            "persona": "priya"
+          },
+          {
+            "delta": 0.2340502996695233,
+            "n": 574,
+            "persona": "raj"
+          },
+          {
+            "delta": 0.21859282746555875,
+            "n": 572,
+            "persona": "rosa"
+          },
+          {
+            "delta": 0.2289779715978978,
+            "n": 575,
+            "persona": "saga"
+          },
+          {
+            "delta": 0.2325214743938241,
+            "n": 575,
+            "persona": "samuel"
+          },
+          {
+            "delta": 0.22526260504201678,
+            "n": 579,
+            "persona": "thanh"
+          },
+          {
+            "delta": 0.2299019607843138,
+            "n": 574,
+            "persona": "tom"
+          },
+          {
+            "delta": 0.22919805792733972,
+            "n": 576,
+            "persona": "valentina"
+          },
+          {
+            "delta": 0.22715355805243442,
+            "n": 569,
+            "persona": "yoli"
+          },
+          {
+            "delta": 0.22937890239894843,
+            "n": 571,
+            "persona": "zara"
+          }
+        ],
+        "full_delta": 0.22720227331438902,
+        "max_delta": 0.24405739949611127,
+        "min_delta": 0.21479357798165133,
+        "n_folds": 40,
+        "n_sign_changes": 0
+      },
+      "mean_items_per_persona": 14.7,
+      "n": 588,
+      "n_personas": 40,
+      "n_personas_with_positive": 23,
+      "n_pos": 35,
+      "point_delta": 0.22720227331438902,
+      "reproduction": {
+        "blind": 0.5258,
+        "blind_ok": true,
+        "blind_pub": 0.5258,
+        "delta": 0.2272,
+        "delta_ok": true,
+        "delta_pub": 0.2272,
+        "indexed": 0.753,
+        "indexed_ok": true,
+        "indexed_pub": 0.753,
+        "n": 588,
+        "n_ok": true,
+        "n_pub": 588
+      },
+      "stop_condition_triggered": false
+    },
+    "R-FOK-MEM0": {
+      "ci_cluster": {
+        "ci_hi": -0.028568301478840707,
+        "ci_lo": -0.163764944393384,
+        "excludes_zero": true,
+        "mean": -0.09565539938564876,
+        "n_draws": 1000
+      },
+      "ci_item_published": [
+        -0.169,
+        -0.025
+      ],
+      "ci_item_rederived": {
+        "ci_hi": -0.024955421709675026,
+        "ci_lo": -0.1686248763035701,
+        "excludes_zero": true,
+        "mean": -0.09774327121741579,
+        "n_draws": 1000
+      },
+      "lopo": {
+        "folds": [
+          {
+            "delta": -0.10423861852433286,
+            "n": 231,
+            "persona": "amara"
+          },
+          {
+            "delta": -0.0990783410138249,
+            "n": 233,
+            "persona": "aroha"
+          },
+          {
+            "delta": -0.08849243856332706,
+            "n": 230,
+            "persona": "billy"
+          },
+          {
+            "delta": -0.0956909937888199,
+            "n": 232,
+            "persona": "bruna"
+          },
+          {
+            "delta": -0.08736263736263739,
+            "n": 231,
+            "persona": "callum"
+          },
+          {
+            "delta": -0.11328033668459198,
+            "n": 232,
+            "persona": "chenoa"
+          },
+          {
+            "delta": -0.1048524844720497,
+            "n": 232,
+            "persona": "dariush"
+          },
+          {
+            "delta": -0.10087447763504098,
+            "n": 233,
+            "persona": "david"
+          },
+          {
+            "delta": -0.10046296296296298,
+            "n": 234,
+            "persona": "diane"
+          },
+          {
+            "delta": -0.09661401313731621,
+            "n": 231,
+            "persona": "dmitri"
+          },
+          {
+            "delta": -0.09890109890109883,
+            "n": 232,
+            "persona": "elena"
+          },
+          {
+            "delta": -0.09428571428571425,
+            "n": 230,
+            "persona": "fatima"
+          },
+          {
+            "delta": -0.09427001569858712,
+            "n": 231,
+            "persona": "ingrid"
+          },
+          {
+            "delta": -0.09896083133493211,
+            "n": 229,
+            "persona": "jake"
+          },
+          {
+            "delta": -0.08838643371017474,
+            "n": 230,
+            "persona": "jerome"
+          },
+          {
+            "delta": -0.09534161490683235,
+            "n": 232,
+            "persona": "joonho"
+          },
+          {
+            "delta": -0.09123496762257166,
+            "n": 233,
+            "persona": "kenji"
+          },
+          {
+            "delta": -0.09001636661211132,
+            "n": 232,
+            "persona": "kofi"
+          },
+          {
+            "delta": -0.09277413234247761,
+            "n": 230,
+            "persona": "leila"
+          },
+          {
+            "delta": -0.08909795240730495,
+            "n": 230,
+            "persona": "lily"
+          },
+          {
+            "delta": -0.0974317320337279,
+            "n": 232,
+            "persona": "marcus"
+          },
+          {
+            "delta": -0.10251798561151076,
+            "n": 233,
+            "persona": "marley"
+          },
+          {
+            "delta": -0.09484841399735017,
+            "n": 232,
+            "persona": "mehmet"
+          },
+          {
+            "delta": -0.09658218125960055,
+            "n": 233,
+            "persona": "mirri"
+          },
+          {
+            "delta": -0.08837301587301588,
+            "n": 230,
+            "persona": "nadia"
+          },
+          {
+            "delta": -0.09990086174025775,
+            "n": 234,
+            "persona": "omar"
+          },
+          {
+            "delta": -0.09603484774466703,
+            "n": 227,
+            "persona": "pan"
+          },
+          {
+            "delta": -0.09984639016897084,
+            "n": 233,
+            "persona": "patrick"
+          },
+          {
+            "delta": -0.09012145122611587,
+            "n": 232,
+            "persona": "priya"
+          },
+          {
+            "delta": -0.1019953051643192,
+            "n": 232,
+            "persona": "raj"
+          },
+          {
+            "delta": -0.08544546850998469,
+            "n": 233,
+            "persona": "rosa"
+          },
+          {
+            "delta": -0.09914596273291926,
+            "n": 232,
+            "persona": "saga"
+          },
+          {
+            "delta": -0.1034672970843184,
+            "n": 231,
+            "persona": "samuel"
+          },
+          {
+            "delta": -0.09629629629629627,
+            "n": 231,
+            "persona": "tom"
+          },
+          {
+            "delta": -0.10442097026604075,
+            "n": 232,
+            "persona": "valentina"
+          },
+          {
+            "delta": -0.10543823006111236,
+            "n": 232,
+            "persona": "yoli"
+          },
+          {
+            "delta": -0.10021113543947446,
+            "n": 231,
+            "persona": "zara"
+          }
+        ],
+        "full_delta": -0.09692671394799057,
+        "max_delta": -0.08544546850998469,
+        "min_delta": -0.11328033668459198,
+        "n_folds": 37,
+        "n_sign_changes": 0
+      },
+      "mean_items_per_persona": 6.4324324324324325,
+      "n": 238,
+      "n_personas": 37,
+      "n_personas_with_positive": 36,
+      "n_pos": 94,
+      "point_delta": -0.09692671394799057,
+      "reproduction": {
+        "blind": 0.5746,
+        "blind_ok": true,
+        "blind_pub": 0.5746,
+        "delta": -0.0969,
+        "delta_ok": true,
+        "delta_pub": -0.0969,
+        "indexed": 0.4777,
+        "indexed_ok": true,
+        "indexed_pub": 0.4777,
+        "n": 238,
+        "n_ok": true,
+        "n_pub": 238
+      },
+      "stop_condition_triggered": false
+    },
+    "R-NOK-FRB": {
+      "ci_cluster": {
+        "ci_hi": 0.3236926645997786,
+        "ci_lo": 0.1552277302691103,
+        "excludes_zero": true,
+        "mean": 0.2398655008321618,
+        "n_draws": 1000
+      },
+      "ci_item_published": [
+        0.1801,
+        0.2949
+      ],
+      "ci_item_rederived": {
+        "ci_hi": 0.2949032866227625,
+        "ci_lo": 0.1801363498913204,
+        "excludes_zero": true,
+        "mean": 0.23853169499883248,
+        "n_draws": 1000
+      },
+      "lopo": {
+        "folds": [
+          {
+            "delta": 0.240672557682867,
+            "n": 643,
+            "persona": "aisha"
+          },
+          {
+            "delta": 0.23826069955922086,
+            "n": 645,
+            "persona": "alex"
+          },
+          {
+            "delta": 0.23417187387775618,
+            "n": 648,
+            "persona": "amara"
+          },
+          {
+            "delta": 0.23532105149752203,
+            "n": 648,
+            "persona": "aroha"
+          },
+          {
+            "delta": 0.23788814396612562,
+            "n": 649,
+            "persona": "billy"
+          },
+          {
+            "delta": 0.2564274911779533,
+            "n": 640,
+            "persona": "bruna"
+          },
+          {
+            "delta": 0.24090291678581638,
+            "n": 642,
+            "persona": "callum"
+          },
+          {
+            "delta": 0.2383799318762418,
+            "n": 646,
+            "persona": "chenoa"
+          },
+          {
+            "delta": 0.23628175854445294,
+            "n": 643,
+            "persona": "dariush"
+          },
+          {
+            "delta": 0.25319521178637194,
+            "n": 643,
+            "persona": "david"
+          },
+          {
+            "delta": 0.23880570536474593,
+            "n": 646,
+            "persona": "diane"
+          },
+          {
+            "delta": 0.23866507580011231,
+            "n": 652,
+            "persona": "dmitri"
+          },
+          {
+            "delta": 0.22036867763558804,
+            "n": 643,
+            "persona": "elena"
+          },
+          {
+            "delta": 0.2306877323420074,
+            "n": 638,
+            "persona": "fatima"
+          },
+          {
+            "delta": 0.2431192660550459,
+            "n": 643,
+            "persona": "ingrid"
+          },
+          {
+            "delta": 0.23379325251724692,
+            "n": 642,
+            "persona": "jake"
+          },
+          {
+            "delta": 0.22919444444444448,
+            "n": 640,
+            "persona": "jerome"
+          },
+          {
+            "delta": 0.2528427787934187,
+            "n": 647,
+            "persona": "joonho"
+          },
+          {
+            "delta": 0.2333767455321612,
+            "n": 644,
+            "persona": "kenji"
+          },
+          {
+            "delta": 0.24128440366972476,
+            "n": 645,
+            "persona": "kofi"
+          },
+          {
+            "delta": 0.2398356707748973,
+            "n": 647,
+            "persona": "leila"
+          },
+          {
+            "delta": 0.23724299065420557,
+            "n": 635,
+            "persona": "lily"
+          },
+          {
+            "delta": 0.24882368970842034,
+            "n": 646,
+            "persona": "marcus"
+          },
+          {
+            "delta": 0.23861708144796379,
+            "n": 648,
+            "persona": "marley"
+          },
+          {
+            "delta": 0.23376018413649485,
+            "n": 643,
+            "persona": "mehmet"
+          },
+          {
+            "delta": 0.246163647443355,
+            "n": 646,
+            "persona": "mirri"
+          },
+          {
+            "delta": 0.23811782651561653,
+            "n": 642,
+            "persona": "nadia"
+          },
+          {
+            "delta": 0.23950729927007297,
+            "n": 652,
+            "persona": "omar"
+          },
+          {
+            "delta": 0.23101388351125612,
+            "n": 638,
+            "persona": "pan"
+          },
+          {
+            "delta": 0.24152049873203718,
+            "n": 650,
+            "persona": "patrick"
+          },
+          {
+            "delta": 0.23689050021017233,
+            "n": 653,
+            "persona": "priya"
+          },
+          {
+            "delta": 0.25102706166139,
+            "n": 635,
+            "persona": "raj"
+          },
+          {
+            "delta": 0.24524970879440888,
+            "n": 645,
+            "persona": "rosa"
+          },
+          {
+            "delta": 0.240492700729927,
+            "n": 648,
+            "persona": "saga"
+          },
+          {
+            "delta": 0.2333375800815376,
+            "n": 645,
+            "persona": "samuel"
+          },
+          {
+            "delta": 0.2451070336391437,
+            "n": 647,
+            "persona": "thanh"
+          },
+          {
+            "delta": 0.24311909949164845,
+            "n": 642,
+            "persona": "tom"
+          },
+          {
+            "delta": 0.23700371057513914,
+            "n": 639,
+            "persona": "valentina"
+          },
+          {
+            "delta": 0.24134615384615388,
+            "n": 644,
+            "persona": "yoli"
+          },
+          {
+            "delta": 0.23006201719073005,
+            "n": 647,
+            "persona": "zara"
+          }
+        ],
+        "full_delta": 0.23928842701284353,
+        "max_delta": 0.2564274911779533,
+        "min_delta": 0.22036867763558804,
+        "n_folds": 40,
+        "n_sign_changes": 0
+      },
+      "mean_items_per_persona": 16.525,
+      "n": 661,
+      "n_personas": 40,
+      "n_personas_with_positive": 28,
+      "n_pos": 104,
+      "point_delta": 0.23928842701284353,
+      "reproduction": {
+        "blind": 0.4946,
+        "blind_ok": true,
+        "blind_pub": 0.4946,
+        "delta": 0.2393,
+        "delta_ok": true,
+        "delta_pub": 0.2393,
+        "indexed": 0.7339,
+        "indexed_ok": true,
+        "indexed_pub": 0.7339,
+        "n": 661,
+        "n_ok": true,
+        "n_pub": 661
+      },
+      "stop_condition_triggered": false
+    }
+  },
+  "spec": "e1r_robustness/SPEC_E1R.md @ 9ac91a2",
+  "stop_rows": []
+}

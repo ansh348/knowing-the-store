@@ -1,0 +1,1447 @@
+{
+  "baselines": {
+    "NB5-whole-map-v2": {
+      "auroc": 0.5776,
+      "per_state": {
+        "EXPIRY": 0.5919,
+        "RETRACTION": 0.5758,
+        "SUPERSESSION": 0.5728
+      },
+      "persona_ci": {
+        "ci_hi": 0.5981024925331667,
+        "ci_lo": 0.5586675076436901,
+        "excludes_zero": true,
+        "mean": 0.5774421956195963,
+        "n_draws": 1000
+      }
+    },
+    "NB6-superseded-names-v2": {
+      "auroc": 0.7663,
+      "per_state": {
+        "EXPIRY": 0.5,
+        "RETRACTION": 0.5,
+        "SUPERSESSION": 0.9223
+      },
+      "persona_ci": {
+        "ci_hi": 0.8051052816278313,
+        "ci_lo": 0.7225831829330372,
+        "excludes_zero": true,
+        "mean": 0.7657368201746114,
+        "n_draws": 1000
+      }
+    },
+    "all-states-names-v3": {
+      "auroc": 0.8756,
+      "per_state": {
+        "EXPIRY": 0.8711,
+        "RETRACTION": 0.7975,
+        "SUPERSESSION": 0.8995
+      },
+      "persona_ci": {
+        "ci_hi": 0.9111391451975162,
+        "ci_lo": 0.8390534002290884,
+        "excludes_zero": true,
+        "mean": 0.8753496205959613,
+        "n_draws": 1000
+      }
+    }
+  },
+  "flags": [
+    "baseline NB6-superseded-names-v2 (0.7663) exceeds gpt-4.1-mini v2 (0.7167) on the whole cell",
+    "baseline NB6-superseded-names-v2 (0.9223) exceeds gpt-4.1-mini v2 on SUPERSESSION (0.8308)",
+    "baseline all-states-names-v3 (0.8756) exceeds gpt-4.1-mini v2 (0.7167) on the whole cell",
+    "baseline all-states-names-v3 (0.8995) exceeds gpt-4.1-mini v2 on SUPERSESSION (0.8308)",
+    "baseline all-states-names-v3 (0.7975) exceeds gpt-4.1-mini v2 on RETRACTION (0.5283)",
+    "baseline all-states-names-v3 (0.8711) exceeds gpt-4.1-mini v2 on EXPIRY (0.5489)",
+    "baseline NB5-whole-map-v2 (0.5758) exceeds gpt-4.1-mini v2 on RETRACTION (0.5283)",
+    "baseline NB5-whole-map-v2 (0.5919) exceeds gpt-4.1-mini v2 on EXPIRY (0.5489)",
+    "baseline NB6-superseded-names-v2 (0.9223) exceeds gpt-4.1-mini v3 on SUPERSESSION (0.8444)",
+    "baseline all-states-names-v3 (0.8756) exceeds gpt-4.1-mini v3 (0.7967) on the whole cell",
+    "baseline all-states-names-v3 (0.8995) exceeds gpt-4.1-mini v3 on SUPERSESSION (0.8444)",
+    "baseline all-states-names-v3 (0.8711) exceeds gpt-4.1-mini v3 on EXPIRY (0.5869)",
+    "baseline NB5-whole-map-v2 (0.5919) exceeds gpt-4.1-mini v3 on EXPIRY (0.5869)",
+    "baseline NB6-superseded-names-v2 (0.7663) exceeds gpt-4.1-mini v2r (0.7179) on the whole cell",
+    "baseline NB6-superseded-names-v2 (0.9223) exceeds gpt-4.1-mini v2r on SUPERSESSION (0.8500)",
+    "baseline NB6-superseded-names-v2 (0.5000) exceeds gpt-4.1-mini v2r on RETRACTION (0.4950)",
+    "baseline all-states-names-v3 (0.8756) exceeds gpt-4.1-mini v2r (0.7179) on the whole cell",
+    "baseline all-states-names-v3 (0.8995) exceeds gpt-4.1-mini v2r on SUPERSESSION (0.8500)",
+    "baseline all-states-names-v3 (0.7975) exceeds gpt-4.1-mini v2r on RETRACTION (0.4950)",
+    "baseline all-states-names-v3 (0.8711) exceeds gpt-4.1-mini v2r on EXPIRY (0.5144)",
+    "baseline NB5-whole-map-v2 (0.5758) exceeds gpt-4.1-mini v2r on RETRACTION (0.4950)",
+    "baseline NB5-whole-map-v2 (0.5919) exceeds gpt-4.1-mini v2r on EXPIRY (0.5144)",
+    "baseline NB6-superseded-names-v2 (0.7663) exceeds claude-haiku-4-5-20251001 v2 (0.7566) on the whole cell",
+    "baseline NB6-superseded-names-v2 (0.9223) exceeds claude-haiku-4-5-20251001 v2 on SUPERSESSION (0.8876)",
+    "baseline all-states-names-v3 (0.8756) exceeds claude-haiku-4-5-20251001 v2 (0.7566) on the whole cell",
+    "baseline all-states-names-v3 (0.8995) exceeds claude-haiku-4-5-20251001 v2 on SUPERSESSION (0.8876)",
+    "baseline all-states-names-v3 (0.7975) exceeds claude-haiku-4-5-20251001 v2 on RETRACTION (0.5433)",
+    "baseline all-states-names-v3 (0.8711) exceeds claude-haiku-4-5-20251001 v2 on EXPIRY (0.5794)",
+    "baseline NB5-whole-map-v2 (0.5758) exceeds claude-haiku-4-5-20251001 v2 on RETRACTION (0.5433)",
+    "baseline NB5-whole-map-v2 (0.5919) exceeds claude-haiku-4-5-20251001 v2 on EXPIRY (0.5794)",
+    "baseline NB6-superseded-names-v2 (0.9223) exceeds claude-haiku-4-5-20251001 v3 on SUPERSESSION (0.8852)",
+    "baseline all-states-names-v3 (0.8995) exceeds claude-haiku-4-5-20251001 v3 on SUPERSESSION (0.8852)",
+    "baseline all-states-names-v3 (0.8711) exceeds claude-haiku-4-5-20251001 v3 on EXPIRY (0.8269)",
+    "baseline NB6-superseded-names-v2 (0.7663) exceeds claude-haiku-4-5-20251001 v2r (0.7638) on the whole cell",
+    "baseline NB6-superseded-names-v2 (0.9223) exceeds claude-haiku-4-5-20251001 v2r on SUPERSESSION (0.8874)",
+    "baseline all-states-names-v3 (0.8756) exceeds claude-haiku-4-5-20251001 v2r (0.7638) on the whole cell",
+    "baseline all-states-names-v3 (0.8995) exceeds claude-haiku-4-5-20251001 v2r on SUPERSESSION (0.8874)",
+    "baseline all-states-names-v3 (0.7975) exceeds claude-haiku-4-5-20251001 v2r on RETRACTION (0.5844)",
+    "baseline all-states-names-v3 (0.8711) exceeds claude-haiku-4-5-20251001 v2r on EXPIRY (0.5847)",
+    "baseline NB5-whole-map-v2 (0.5919) exceeds claude-haiku-4-5-20251001 v2r on EXPIRY (0.5847)",
+    "baseline all-states-names-v3 (0.8756) exceeds claude-opus-5 v2 (0.8405) on the whole cell",
+    "baseline all-states-names-v3 (0.7975) exceeds claude-opus-5 v2 on RETRACTION (0.5872)",
+    "baseline all-states-names-v3 (0.8711) exceeds claude-opus-5 v2 on EXPIRY (0.6150)",
+    "baseline all-states-names-v3 (0.8756) exceeds claude-opus-5 v2r (0.8353) on the whole cell",
+    "baseline all-states-names-v3 (0.7975) exceeds claude-opus-5 v2r on RETRACTION (0.5681)",
+    "baseline all-states-names-v3 (0.8711) exceeds claude-opus-5 v2r on EXPIRY (0.6092)",
+    "baseline NB5-whole-map-v2 (0.5758) exceeds claude-opus-5 v2r on RETRACTION (0.5681)"
+  ],
+  "lanes": {
+    "claude-haiku-4-5-20251001": {
+      "blind_auroc": 0.5,
+      "counted_paired_v3_minus_v2": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "delta": 0.301,
+        "item_ci": {
+          "ci_hi": 0.3720524125980467,
+          "ci_lo": 0.2268171755554451,
+          "excludes_zero": true,
+          "mean": 0.30187251448361535,
+          "n_draws": 1000
+        },
+        "n": 180,
+        "pairs": 60,
+        "persona_ci": {
+          "ci_hi": 0.35910102832487834,
+          "ci_lo": 0.2247354027554738,
+          "excludes_zero": true,
+          "mean": 0.3027840798313448,
+          "n_draws": 1000
+        },
+        "v2": 0.5638,
+        "v3": 0.8649
+      },
+      "equiv_v2r_minus_v2": {
+        "agree": true,
+        "both_exclude_zero": false,
+        "delta": 0.0072,
+        "inside_band_both": true,
+        "inside_band_item": true,
+        "inside_band_persona": true,
+        "item_ci": {
+          "ci_hi": 0.02289809149184156,
+          "ci_lo": -0.007864385494034825,
+          "excludes_zero": false,
+          "mean": 0.007373497795839517,
+          "n_draws": 1000
+        },
+        "persona_ci": {
+          "ci_hi": 0.024782205331112042,
+          "ci_lo": -0.0102643954716613,
+          "excludes_zero": false,
+          "mean": 0.006937552083886476,
+          "n_draws": 1000
+        }
+      },
+      "fok_descriptive": {
+        "v2": 0.6168,
+        "v2r": 0.605,
+        "v3": 0.6133
+      },
+      "n_rows_collapsed": 1480,
+      "v2": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "counted_pooled": {
+          "indexed": 0.5638,
+          "n": 180,
+          "pos": 60
+        },
+        "delta": 0.2566,
+        "indexed": 0.7566,
+        "indexed_ci_persona": {
+          "ci_hi": 0.8034599877235421,
+          "ci_lo": 0.7102220269183328,
+          "excludes_zero": true,
+          "mean": 0.7571159240285639,
+          "n_draws": 1000
+        },
+        "item_ci": {
+          "ci_hi": 0.3189202130762519,
+          "ci_lo": 0.19417661235355035,
+          "excludes_zero": true,
+          "mean": 0.2570008029058389,
+          "n_draws": 1000
+        },
+        "named_minus_counted": {
+          "counted": 0.5638,
+          "delta": 0.3237,
+          "sup": 0.8876,
+          "two_subset_ci": {
+            "ci_hi": 0.4011358005124468,
+            "ci_lo": 0.23187923837993998
+          },
+          "two_subset_ci_persona": {
+            "ci_hi": 0.3851486422045295,
+            "ci_lo": 0.2612461631201398,
+            "excludes_zero": true,
+            "n_draws": 1000
+          }
+        },
+        "per_state": {
+          "EXPIRY": {
+            "agree": false,
+            "blind": 0.5,
+            "both_exclude_zero": false,
+            "delta": 0.0794,
+            "indexed": 0.5794,
+            "item_ci": {
+              "ci_hi": 0.21821478342921236,
+              "ci_lo": -0.06256384034397354,
+              "excludes_zero": false,
+              "mean": 0.07959240089581325,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.1457457449776785,
+              "ci_lo": 0.023407617543167898,
+              "excludes_zero": true,
+              "mean": 0.08033528447480834,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "RETRACTION": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": false,
+            "delta": 0.0433,
+            "indexed": 0.5433,
+            "item_ci": {
+              "ci_hi": 0.17009716599190278,
+              "ci_lo": -0.07986283345953159,
+              "excludes_zero": false,
+              "mean": 0.04587593679918113,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.09631518629432265,
+              "ci_lo": -0.005672601034570171,
+              "excludes_zero": false,
+              "mean": 0.045467204681259275,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "SUPERSESSION": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.3876,
+            "indexed": 0.8876,
+            "item_ci": {
+              "ci_hi": 0.4675999842646626,
+              "ci_lo": 0.307190266080276,
+              "excludes_zero": true,
+              "mean": 0.3861253291862854,
+              "n_draws": 1000
+            },
+            "n": 264,
+            "persona_ci": {
+              "ci_hi": 0.43654356645763726,
+              "ci_lo": 0.3379498424628756,
+              "excludes_zero": true,
+              "mean": 0.3887765909227252,
+              "n_draws": 1000
+            },
+            "pos": 88
+          }
+        },
+        "persona_ci": {
+          "ci_hi": 0.3034599877235421,
+          "ci_lo": 0.2102220269183328,
+          "excludes_zero": true,
+          "mean": 0.2571159240285638,
+          "n_draws": 1000
+        }
+      },
+      "v2r": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "counted_pooled": {
+          "indexed": 0.5847,
+          "n": 180,
+          "pos": 60
+        },
+        "delta": 0.2638,
+        "indexed": 0.7638,
+        "indexed_ci_persona": {
+          "ci_hi": 0.8070602344757746,
+          "ci_lo": 0.7193495597229072,
+          "excludes_zero": true,
+          "mean": 0.7640534761124503,
+          "n_draws": 1000
+        },
+        "item_ci": {
+          "ci_hi": 0.3254221050492401,
+          "ci_lo": 0.20032416233644643,
+          "excludes_zero": true,
+          "mean": 0.2643743007016784,
+          "n_draws": 1000
+        },
+        "named_minus_counted": {
+          "counted": 0.5847,
+          "delta": 0.3026,
+          "sup": 0.8874,
+          "two_subset_ci": {
+            "ci_hi": 0.39097626980465744,
+            "ci_lo": 0.20548941210739727
+          },
+          "two_subset_ci_persona": {
+            "ci_hi": 0.36687083154273015,
+            "ci_lo": 0.24531953100772053,
+            "excludes_zero": true,
+            "n_draws": 1000
+          }
+        },
+        "per_state": {
+          "EXPIRY": {
+            "agree": false,
+            "blind": 0.5,
+            "both_exclude_zero": false,
+            "delta": 0.0847,
+            "indexed": 0.5847,
+            "item_ci": {
+              "ci_hi": 0.2187568774516511,
+              "ci_lo": -0.05941124268933172,
+              "excludes_zero": false,
+              "mean": 0.08447509437042784,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.14142327279033837,
+              "ci_lo": 0.03511392332415064,
+              "excludes_zero": true,
+              "mean": 0.08672619772099005,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "RETRACTION": {
+            "agree": false,
+            "blind": 0.5,
+            "both_exclude_zero": false,
+            "delta": 0.0844,
+            "indexed": 0.5844,
+            "item_ci": {
+              "ci_hi": 0.22792134689334137,
+              "ci_lo": -0.05635976304397362,
+              "excludes_zero": false,
+              "mean": 0.08601436448316702,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.14527875344352612,
+              "ci_lo": 0.01929994054696789,
+              "excludes_zero": true,
+              "mean": 0.08508420009211738,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "SUPERSESSION": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.3874,
+            "indexed": 0.8874,
+            "item_ci": {
+              "ci_hi": 0.4655442544315648,
+              "ci_lo": 0.3064677270699538,
+              "excludes_zero": true,
+              "mean": 0.38601446864950395,
+              "n_draws": 1000
+            },
+            "n": 264,
+            "persona_ci": {
+              "ci_hi": 0.43392154988850323,
+              "ci_lo": 0.33824548164911067,
+              "excludes_zero": true,
+              "mean": 0.38812978258801967,
+              "n_draws": 1000
+            },
+            "pos": 88
+          }
+        },
+        "persona_ci": {
+          "ci_hi": 0.3070602344757746,
+          "ci_lo": 0.21934955972290712,
+          "excludes_zero": true,
+          "mean": 0.26405347611245034,
+          "n_draws": 1000
+        }
+      },
+      "v3": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "counted_pooled": {
+          "indexed": 0.8649,
+          "n": 180,
+          "pos": 60
+        },
+        "delta": 0.3773,
+        "indexed": 0.8773,
+        "indexed_ci_persona": {
+          "ci_hi": 0.9123834179088295,
+          "ci_lo": 0.8361620092431958,
+          "excludes_zero": true,
+          "mean": 0.8767199534953649,
+          "n_draws": 1000
+        },
+        "item_ci": {
+          "ci_hi": 0.4395237157771088,
+          "ci_lo": 0.31739099326599324,
+          "excludes_zero": true,
+          "mean": 0.37819003581962907,
+          "n_draws": 1000
+        },
+        "named_minus_counted": {
+          "counted": 0.8649,
+          "delta": 0.0203,
+          "sup": 0.8852,
+          "two_subset_ci": {
+            "ci_hi": 0.09066376671398674,
+            "ci_lo": -0.05704361884582422
+          },
+          "two_subset_ci_persona": {
+            "ci_hi": 0.09245717928438626,
+            "ci_lo": -0.05471505221161796,
+            "excludes_zero": false,
+            "n_draws": 1000
+          }
+        },
+        "per_state": {
+          "EXPIRY": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.3269,
+            "indexed": 0.8269,
+            "item_ci": {
+              "ci_hi": 0.46753027926411445,
+              "ci_lo": 0.19354777022914582,
+              "excludes_zero": true,
+              "mean": 0.327435680640154,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.4155625,
+              "ci_lo": 0.2387798109848089,
+              "excludes_zero": true,
+              "mean": 0.3303092030058978,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "RETRACTION": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.4042,
+            "indexed": 0.9042,
+            "item_ci": {
+              "ci_hi": 0.5519286752582678,
+              "ci_lo": 0.26386539243356044,
+              "excludes_zero": true,
+              "mean": 0.40630416759830706,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.4544583333333333,
+              "ci_lo": 0.3524359301412873,
+              "excludes_zero": true,
+              "mean": 0.4065350872923422,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "SUPERSESSION": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.3852,
+            "indexed": 0.8852,
+            "item_ci": {
+              "ci_hi": 0.4634139798038834,
+              "ci_lo": 0.305000511538693,
+              "excludes_zero": true,
+              "mean": 0.3837737732906104,
+              "n_draws": 1000
+            },
+            "n": 264,
+            "persona_ci": {
+              "ci_hi": 0.43505549223504303,
+              "ci_lo": 0.3342984921529633,
+              "excludes_zero": true,
+              "mean": 0.3859087262734521,
+              "n_draws": 1000
+            },
+            "pos": 88
+          }
+        },
+        "persona_ci": {
+          "ci_hi": 0.41238341790882954,
+          "ci_lo": 0.33616200924319584,
+          "excludes_zero": true,
+          "mean": 0.37671995349536497,
+          "n_draws": 1000
+        }
+      }
+    },
+    "claude-opus-5": {
+      "blind_auroc": 0.5,
+      "counted_paired_v3_minus_v2": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "delta": 0.2506,
+        "item_ci": {
+          "ci_hi": 0.3348697598697598,
+          "ci_lo": 0.17841028654072139,
+          "excludes_zero": true,
+          "mean": 0.2532132107846247,
+          "n_draws": 1000
+        },
+        "n": 180,
+        "pairs": 60,
+        "persona_ci": {
+          "ci_hi": 0.301891910473878,
+          "ci_lo": 0.19405997027565572,
+          "excludes_zero": true,
+          "mean": 0.24990766007596807,
+          "n_draws": 1000
+        },
+        "v2": 0.603,
+        "v3": 0.8536
+      },
+      "equiv_v2r_minus_v2": {
+        "agree": true,
+        "both_exclude_zero": false,
+        "delta": -0.0052,
+        "inside_band_both": true,
+        "inside_band_item": true,
+        "inside_band_persona": true,
+        "item_ci": {
+          "ci_hi": 0.0025867404312460355,
+          "ci_lo": -0.012969740146814818,
+          "excludes_zero": false,
+          "mean": -0.005134866481224756,
+          "n_draws": 1000
+        },
+        "persona_ci": {
+          "ci_hi": 0.0020336546770816245,
+          "ci_lo": -0.012187125103235812,
+          "excludes_zero": false,
+          "mean": -0.005276470256529636,
+          "n_draws": 1000
+        }
+      },
+      "fok_descriptive": {
+        "v2": 0.6922,
+        "v2r": 0.6894,
+        "v3": 0.7098
+      },
+      "n_rows_collapsed": 1480,
+      "v2": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "counted_pooled": {
+          "indexed": 0.603,
+          "n": 180,
+          "pos": 60
+        },
+        "delta": 0.3405,
+        "indexed": 0.8405,
+        "indexed_ci_persona": {
+          "ci_hi": 0.8816697162712985,
+          "ci_lo": 0.799631473410266,
+          "excludes_zero": true,
+          "mean": 0.8412353844053266,
+          "n_draws": 1000
+        },
+        "item_ci": {
+          "ci_hi": 0.3913022149572225,
+          "ci_lo": 0.2881649584881391,
+          "excludes_zero": true,
+          "mean": 0.33972342194940325,
+          "n_draws": 1000
+        },
+        "named_minus_counted": {
+          "counted": 0.603,
+          "delta": 0.3295,
+          "sup": 0.9325,
+          "two_subset_ci": {
+            "ci_hi": 0.418092842775841,
+            "ci_lo": 0.24201550694818869
+          },
+          "two_subset_ci_persona": {
+            "ci_hi": 0.3875068570090145,
+            "ci_lo": 0.2556129727686113,
+            "excludes_zero": true,
+            "n_draws": 1000
+          }
+        },
+        "per_state": {
+          "EXPIRY": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.115,
+            "indexed": 0.615,
+            "item_ci": {
+              "ci_hi": 0.22818428387079606,
+              "ci_lo": 0.007716148410440382,
+              "excludes_zero": true,
+              "mean": 0.11527155910077826,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.2008237494941612,
+              "ci_lo": 0.04428241841722813,
+              "excludes_zero": true,
+              "mean": 0.11973376211595381,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "RETRACTION": {
+            "agree": false,
+            "blind": 0.5,
+            "both_exclude_zero": false,
+            "delta": 0.0872,
+            "indexed": 0.5872,
+            "item_ci": {
+              "ci_hi": 0.20259704756697644,
+              "ci_lo": -0.03313685771079088,
+              "excludes_zero": false,
+              "mean": 0.08377559307610372,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.158094573137016,
+              "ci_lo": 0.04265306473829206,
+              "excludes_zero": true,
+              "mean": 0.0924651939982497,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "SUPERSESSION": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.4325,
+            "indexed": 0.9325,
+            "item_ci": {
+              "ci_hi": 0.5067918676033485,
+              "ci_lo": 0.35976233134488284,
+              "excludes_zero": true,
+              "mean": 0.434309482813164,
+              "n_draws": 1000
+            },
+            "n": 264,
+            "persona_ci": {
+              "ci_hi": 0.46881497822212836,
+              "ci_lo": 0.3949067717904835,
+              "excludes_zero": true,
+              "mean": 0.43312841051620726,
+              "n_draws": 1000
+            },
+            "pos": 88
+          }
+        },
+        "persona_ci": {
+          "ci_hi": 0.3816697162712986,
+          "ci_lo": 0.29963147341026597,
+          "excludes_zero": true,
+          "mean": 0.3412353844053266,
+          "n_draws": 1000
+        }
+      },
+      "v2r": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "counted_pooled": {
+          "indexed": 0.5865,
+          "n": 180,
+          "pos": 60
+        },
+        "delta": 0.3353,
+        "indexed": 0.8353,
+        "indexed_ci_persona": {
+          "ci_hi": 0.8768032666634066,
+          "ci_lo": 0.7937115865742025,
+          "excludes_zero": true,
+          "mean": 0.8359589141487968,
+          "n_draws": 1000
+        },
+        "item_ci": {
+          "ci_hi": 0.38704669614032233,
+          "ci_lo": 0.2825441202522676,
+          "excludes_zero": true,
+          "mean": 0.33458855546817845,
+          "n_draws": 1000
+        },
+        "named_minus_counted": {
+          "counted": 0.5865,
+          "delta": 0.3457,
+          "sup": 0.9322,
+          "two_subset_ci": {
+            "ci_hi": 0.44110582265257464,
+            "ci_lo": 0.25284563820383865
+          },
+          "two_subset_ci_persona": {
+            "ci_hi": 0.4001386733894336,
+            "ci_lo": 0.2737148744666463,
+            "excludes_zero": true,
+            "n_draws": 1000
+          }
+        },
+        "per_state": {
+          "EXPIRY": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.1092,
+            "indexed": 0.6092,
+            "item_ci": {
+              "ci_hi": 0.2139835858585859,
+              "ci_lo": 0.0008158405088683737,
+              "excludes_zero": true,
+              "mean": 0.10921624425738849,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.1985479511347168,
+              "ci_lo": 0.04005538712104022,
+              "excludes_zero": true,
+              "mean": 0.11071761630549701,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "RETRACTION": {
+            "agree": false,
+            "blind": 0.5,
+            "both_exclude_zero": false,
+            "delta": 0.0681,
+            "indexed": 0.5681,
+            "item_ci": {
+              "ci_hi": 0.18202976024948347,
+              "ci_lo": -0.05481560074698396,
+              "excludes_zero": false,
+              "mean": 0.06528320197227612,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.13058384773662546,
+              "ci_lo": 0.026387330782971816,
+              "excludes_zero": true,
+              "mean": 0.07177231285884793,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "SUPERSESSION": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.4322,
+            "indexed": 0.9322,
+            "item_ci": {
+              "ci_hi": 0.5043986268961498,
+              "ci_lo": 0.36033242347053485,
+              "excludes_zero": true,
+              "mean": 0.4339400680067698,
+              "n_draws": 1000
+            },
+            "n": 264,
+            "persona_ci": {
+              "ci_hi": 0.4689808631440451,
+              "ci_lo": 0.3934105480889373,
+              "excludes_zero": true,
+              "mean": 0.4327768898781834,
+              "n_draws": 1000
+            },
+            "pos": 88
+          }
+        },
+        "persona_ci": {
+          "ci_hi": 0.3768032666634066,
+          "ci_lo": 0.29371158657420243,
+          "excludes_zero": true,
+          "mean": 0.3359589141487969,
+          "n_draws": 1000
+        }
+      },
+      "v3": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "counted_pooled": {
+          "indexed": 0.8536,
+          "n": 180,
+          "pos": 60
+        },
+        "delta": 0.4079,
+        "indexed": 0.9079,
+        "indexed_ci_persona": {
+          "ci_hi": 0.9377127000168078,
+          "ci_lo": 0.8768679036154551,
+          "excludes_zero": true,
+          "mean": 0.9080473379666337,
+          "n_draws": 1000
+        },
+        "item_ci": {
+          "ci_hi": 0.4627921144002222,
+          "ci_lo": 0.3507920542561057,
+          "excludes_zero": true,
+          "mean": 0.4072222857681185,
+          "n_draws": 1000
+        },
+        "named_minus_counted": {
+          "counted": 0.8536,
+          "delta": 0.0783,
+          "sup": 0.9319,
+          "two_subset_ci": {
+            "ci_hi": 0.14429223448424233,
+            "ci_lo": 0.013957650547284716
+          },
+          "two_subset_ci_persona": {
+            "ci_hi": 0.13849565230936853,
+            "ci_lo": 0.014749166205608677,
+            "excludes_zero": true,
+            "n_draws": 1000
+          }
+        },
+        "per_state": {
+          "EXPIRY": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.4267,
+            "indexed": 0.9267,
+            "item_ci": {
+              "ci_hi": 0.5637142115509409,
+              "ci_lo": 0.2974296382896498,
+              "excludes_zero": true,
+              "mean": 0.43037413633374433,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.4787491391618376,
+              "ci_lo": 0.35761788461538463,
+              "excludes_zero": true,
+              "mean": 0.42879371997522403,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "RETRACTION": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.31,
+            "indexed": 0.81,
+            "item_ci": {
+              "ci_hi": 0.4597315550976494,
+              "ci_lo": 0.1549916474654378,
+              "excludes_zero": true,
+              "mean": 0.30859191824138416,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.3922354536489152,
+              "ci_lo": 0.22450616975035032,
+              "excludes_zero": true,
+              "mean": 0.3135949304232689,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "SUPERSESSION": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.4319,
+            "indexed": 0.9319,
+            "item_ci": {
+              "ci_hi": 0.5079452098078867,
+              "ci_lo": 0.35840713119705175,
+              "excludes_zero": true,
+              "mean": 0.4338942679633078,
+              "n_draws": 1000
+            },
+            "n": 264,
+            "persona_ci": {
+              "ci_hi": 0.46867115665951053,
+              "ci_lo": 0.3939119467818137,
+              "excludes_zero": true,
+              "mean": 0.43266758406672723,
+              "n_draws": 1000
+            },
+            "pos": 88
+          }
+        },
+        "persona_ci": {
+          "ci_hi": 0.43771270001680784,
+          "ci_lo": 0.3768679036154551,
+          "excludes_zero": true,
+          "mean": 0.4080473379666336,
+          "n_draws": 1000
+        }
+      }
+    },
+    "gpt-4.1-mini": {
+      "blind_auroc": 0.5,
+      "counted_paired_v3_minus_v2": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "delta": 0.1854,
+        "item_ci": {
+          "ci_hi": 0.26894874200292523,
+          "ci_lo": 0.10072201964641941,
+          "excludes_zero": true,
+          "mean": 0.18310391373240162,
+          "n_draws": 1000
+        },
+        "n": 180,
+        "pairs": 60,
+        "persona_ci": {
+          "ci_hi": 0.27342944263166724,
+          "ci_lo": 0.10003096083505796,
+          "excludes_zero": true,
+          "mean": 0.18784115115717498,
+          "n_draws": 1000
+        },
+        "v2": 0.536,
+        "v3": 0.7214
+      },
+      "equiv_v2r_minus_v2": {
+        "agree": true,
+        "both_exclude_zero": false,
+        "delta": 0.0011,
+        "inside_band_both": true,
+        "inside_band_item": true,
+        "inside_band_persona": true,
+        "item_ci": {
+          "ci_hi": 0.029717610175119258,
+          "ci_lo": -0.028202380529506455,
+          "excludes_zero": false,
+          "mean": 0.0008986031204990578,
+          "n_draws": 1000
+        },
+        "persona_ci": {
+          "ci_hi": 0.02296321795090682,
+          "ci_lo": -0.021038954180767195,
+          "excludes_zero": false,
+          "mean": 0.0005421953335554454,
+          "n_draws": 1000
+        }
+      },
+      "fok_descriptive": {
+        "v2": 0.6357,
+        "v2r": 0.6371,
+        "v3": 0.6436
+      },
+      "n_rows_collapsed": 1480,
+      "v2": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "counted_pooled": {
+          "indexed": 0.536,
+          "n": 180,
+          "pos": 60
+        },
+        "delta": 0.2167,
+        "indexed": 0.7167,
+        "indexed_ci_persona": {
+          "ci_hi": 0.7648563058650113,
+          "ci_lo": 0.6662995338824235,
+          "excludes_zero": true,
+          "mean": 0.7168344662041204,
+          "n_draws": 1000
+        },
+        "item_ci": {
+          "ci_hi": 0.28464949853083543,
+          "ci_lo": 0.14942658920166882,
+          "excludes_zero": true,
+          "mean": 0.21595297506599656,
+          "n_draws": 1000
+        },
+        "named_minus_counted": {
+          "counted": 0.536,
+          "delta": 0.2948,
+          "sup": 0.8308,
+          "two_subset_ci": {
+            "ci_hi": 0.390501369152282,
+            "ci_lo": 0.18747560130018306
+          },
+          "two_subset_ci_persona": {
+            "ci_hi": 0.3838291124258177,
+            "ci_lo": 0.20986388512217566,
+            "excludes_zero": true,
+            "n_draws": 1000
+          }
+        },
+        "per_state": {
+          "EXPIRY": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": false,
+            "delta": 0.0489,
+            "indexed": 0.5489,
+            "item_ci": {
+              "ci_hi": 0.18925593364698245,
+              "ci_lo": -0.10222233468286099,
+              "excludes_zero": false,
+              "mean": 0.047536796089902765,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.12931880521516098,
+              "ci_lo": -0.01996692627037809,
+              "excludes_zero": false,
+              "mean": 0.0459641247410446,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "RETRACTION": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": false,
+            "delta": 0.0283,
+            "indexed": 0.5283,
+            "item_ci": {
+              "ci_hi": 0.15772299382716048,
+              "ci_lo": -0.12043155659192259,
+              "excludes_zero": false,
+              "mean": 0.025770395812727352,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.12277909487855757,
+              "ci_lo": -0.05834997704315888,
+              "excludes_zero": false,
+              "mean": 0.0302286217664435,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "SUPERSESSION": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.3308,
+            "indexed": 0.8308,
+            "item_ci": {
+              "ci_hi": 0.40701636906694266,
+              "ci_lo": 0.24798571426297036,
+              "excludes_zero": true,
+              "mean": 0.32926506314935555,
+              "n_draws": 1000
+            },
+            "n": 264,
+            "persona_ci": {
+              "ci_hi": 0.398767156422975,
+              "ci_lo": 0.2665892193155267,
+              "excludes_zero": true,
+              "mean": 0.33129217330274796,
+              "n_draws": 1000
+            },
+            "pos": 88
+          }
+        },
+        "persona_ci": {
+          "ci_hi": 0.2648563058650113,
+          "ci_lo": 0.16629953388242352,
+          "excludes_zero": true,
+          "mean": 0.2168344662041204,
+          "n_draws": 1000
+        }
+      },
+      "v2r": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "counted_pooled": {
+          "indexed": 0.5025,
+          "n": 180,
+          "pos": 60
+        },
+        "delta": 0.2179,
+        "indexed": 0.7179,
+        "indexed_ci_persona": {
+          "ci_hi": 0.7638128053849536,
+          "ci_lo": 0.6691287729875578,
+          "excludes_zero": true,
+          "mean": 0.7173766615376758,
+          "n_draws": 1000
+        },
+        "item_ci": {
+          "ci_hi": 0.28566239485441164,
+          "ci_lo": 0.14792291239402022,
+          "excludes_zero": true,
+          "mean": 0.2168515781864956,
+          "n_draws": 1000
+        },
+        "named_minus_counted": {
+          "counted": 0.5025,
+          "delta": 0.3475,
+          "sup": 0.85,
+          "two_subset_ci": {
+            "ci_hi": 0.44249370201562227,
+            "ci_lo": 0.2495821417295481
+          },
+          "two_subset_ci_persona": {
+            "ci_hi": 0.4152004754140559,
+            "ci_lo": 0.27405842822251936,
+            "excludes_zero": true,
+            "n_draws": 1000
+          }
+        },
+        "per_state": {
+          "EXPIRY": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": false,
+            "delta": 0.0144,
+            "indexed": 0.5144,
+            "item_ci": {
+              "ci_hi": 0.15338651338757447,
+              "ci_lo": -0.131724014066347,
+              "excludes_zero": false,
+              "mean": 0.012257822978214133,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.08398893229166667,
+              "ci_lo": -0.05764278061224488,
+              "excludes_zero": false,
+              "mean": 0.016138929112416572,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "RETRACTION": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": false,
+            "delta": -0.005,
+            "indexed": 0.495,
+            "item_ci": {
+              "ci_hi": 0.13588475364314956,
+              "ci_lo": -0.15520063872323117,
+              "excludes_zero": false,
+              "mean": -0.005723653380695182,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.07884826604939571,
+              "ci_lo": -0.07748814910329374,
+              "excludes_zero": false,
+              "mean": -0.00563316436938987,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "SUPERSESSION": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.35,
+            "indexed": 0.85,
+            "item_ci": {
+              "ci_hi": 0.4242058867866208,
+              "ci_lo": 0.2726008394566708,
+              "excludes_zero": true,
+              "mean": 0.3498594781661152,
+              "n_draws": 1000
+            },
+            "n": 264,
+            "persona_ci": {
+              "ci_hi": 0.4146883993982208,
+              "ci_lo": 0.28856044515744145,
+              "excludes_zero": true,
+              "mean": 0.3510120784669267,
+              "n_draws": 1000
+            },
+            "pos": 88
+          }
+        },
+        "persona_ci": {
+          "ci_hi": 0.2638128053849535,
+          "ci_lo": 0.16912877298755785,
+          "excludes_zero": true,
+          "mean": 0.21737666153767582,
+          "n_draws": 1000
+        }
+      },
+      "v3": {
+        "agree": true,
+        "both_exclude_zero": true,
+        "counted_pooled": {
+          "indexed": 0.7214,
+          "n": 180,
+          "pos": 60
+        },
+        "delta": 0.2967,
+        "indexed": 0.7967,
+        "indexed_ci_persona": {
+          "ci_hi": 0.8477668116440245,
+          "ci_lo": 0.7438354103852662,
+          "excludes_zero": true,
+          "mean": 0.7959985026326557,
+          "n_draws": 1000
+        },
+        "item_ci": {
+          "ci_hi": 0.35677594966654647,
+          "ci_lo": 0.23142384213537462,
+          "excludes_zero": true,
+          "mean": 0.29561987890379127,
+          "n_draws": 1000
+        },
+        "named_minus_counted": {
+          "counted": 0.7214,
+          "delta": 0.123,
+          "sup": 0.8444,
+          "two_subset_ci": {
+            "ci_hi": 0.22101419625042507,
+            "ci_lo": 0.020368636931933023
+          },
+          "two_subset_ci_persona": {
+            "ci_hi": 0.23231789364147243,
+            "ci_lo": 0.01320590530760027,
+            "excludes_zero": true,
+            "n_draws": 1000
+          }
+        },
+        "per_state": {
+          "EXPIRY": {
+            "agree": false,
+            "blind": 0.5,
+            "both_exclude_zero": false,
+            "delta": 0.0869,
+            "indexed": 0.5869,
+            "item_ci": {
+              "ci_hi": 0.2229848845402358,
+              "ci_lo": -0.05239949902248283,
+              "excludes_zero": false,
+              "mean": 0.0842132589442592,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.16841218530936994,
+              "ci_lo": 0.012695145051011662,
+              "excludes_zero": true,
+              "mean": 0.08750505313974295,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "RETRACTION": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.3725,
+            "indexed": 0.8725,
+            "item_ci": {
+              "ci_hi": 0.492594272302084,
+              "ci_lo": 0.2572990527903427,
+              "excludes_zero": true,
+              "mean": 0.373401708111909,
+              "n_draws": 1000
+            },
+            "n": 90,
+            "persona_ci": {
+              "ci_hi": 0.43070613069489705,
+              "ci_lo": 0.29705165289256197,
+              "excludes_zero": true,
+              "mean": 0.37299472030811115,
+              "n_draws": 1000
+            },
+            "pos": 30
+          },
+          "SUPERSESSION": {
+            "agree": true,
+            "blind": 0.5,
+            "both_exclude_zero": true,
+            "delta": 0.3444,
+            "indexed": 0.8444,
+            "item_ci": {
+              "ci_hi": 0.42563027137880155,
+              "ci_lo": 0.2609728456905709,
+              "excludes_zero": true,
+              "mean": 0.3429250451739797,
+              "n_draws": 1000
+            },
+            "n": 264,
+            "persona_ci": {
+              "ci_hi": 0.41106907772046936,
+              "ci_lo": 0.27289149189624473,
+              "excludes_zero": true,
+              "mean": 0.34469925293839365,
+              "n_draws": 1000
+            },
+            "pos": 88
+          }
+        },
+        "persona_ci": {
+          "ci_hi": 0.3477668116440245,
+          "ci_lo": 0.2438354103852663,
+          "excludes_zero": true,
+          "mean": 0.2959985026326557,
+          "n_draws": 1000
+        }
+      }
+    }
+  },
+  "meta": {
+    "blind_is_half_by_construction": true,
+    "cluster_unit": "persona",
+    "composition": "88/30/30",
+    "n": 444,
+    "n_boot": 1000,
+    "pairs": 148,
+    "pos": 148,
+    "primary": "item-level paired bootstrap",
+    "rule": "D.2: both intervals must agree; the weaker governs",
+    "seed": 42,
+    "tol": 0.05
+  },
+  "predictions": {
+    "P1": {
+      "I_item": "[+0.1494, +0.2846]",
+      "I_persona": "[+0.1663, +0.2649]",
+      "N": 148,
+      "X": 0.7167,
+      "agree": true,
+      "arm": "v2",
+      "delta": 0.2167,
+      "reader": "gpt-4.1-mini",
+      "text": "On 148 questions written before any version of the store existed, and asked of three versions of the same store that differ in one attribute each, the smallest model's obligation judgment reaches 0.717 against the 0.5 a question-only reader attains here, with an interval of [+0.1494, +0.2846] (persona-clustered [+0.1663, +0.2649]). The gain survives where the question cannot carry the label.",
+      "verdict": "HOLDS"
+    },
+    "P2": {
+      "D": 0.3237,
+      "I": "[+0.2319, +0.4011]",
+      "I_persona": "[+0.2612, +0.3851]",
+      "agree": true,
+      "counted": 0.5638,
+      "named": 0.8876,
+      "reader": "claude-haiku-4-5-20251001",
+      "text": "Under the summary that names only superseded content, Haiku 4.5's judgment on the named state exceeds its judgment on the two counted states by +0.324, interval [+0.2319, +0.4011] (persona-clustered [+0.2612, +0.3851]).",
+      "verdict": "HOLDS"
+    },
+    "P2_mini_descriptive": {
+      "D": 0.2948,
+      "I": "[+0.1875, +0.3905]",
+      "counted": 0.536,
+      "named": 0.8308,
+      "note": "descriptive, carries no prediction (section 7)"
+    },
+    "P2_opus": {
+      "D": 0.3295,
+      "I": "[+0.2420, +0.4181]",
+      "I_persona": "[+0.2556, +0.3875]",
+      "agree": true,
+      "counted": 0.603,
+      "named": 0.9325,
+      "reader": "claude-opus-5",
+      "text": "Under the summary that names only superseded content, Opus 5's judgment on the named state exceeds its judgment on the two counted states by +0.330, interval [+0.2420, +0.4181] (persona-clustered [+0.2556, +0.3875]).",
+      "verdict": "HOLDS"
+    },
+    "P3": {
+      "D": 0.301,
+      "I_item": "[+0.2268, +0.3721]",
+      "I_persona": "[+0.2247, +0.3591]",
+      "N": 60,
+      "X": 0.5638,
+      "Y": 0.8649,
+      "text": "Naming retracted and expired content lifts Haiku 4.5's judgment on those states from 0.564 to 0.865 on the store-counterfactual set (60 questions), a paired gain of +0.301 with interval [+0.2268, +0.3721] (persona-clustered [+0.2247, +0.3591]).",
+      "verdict": "HOLDS"
+    },
+    "P3_mini_descriptive": {
+      "D": 0.1854,
+      "I_item": "[+0.1007, +0.2689]",
+      "I_persona": "[+0.1000, +0.2734]",
+      "X": 0.536,
+      "Y": 0.7214,
+      "note": "descriptive"
+    },
+    "P4": {
+      "text": "On this cell the superseded-names lookup reaches 0.766 against the smallest reader's 0.717 under the superseded-only summary, within tolerance, and the all-states lookup reaches 0.876 against Haiku 4.5's 0.877 under the all-three-named summary, within tolerance.",
+      "v2_lookup_vs_mini": {
+        "D": 0.0496,
+        "X_reader": 0.7167,
+        "Y_lookup": 0.7663,
+        "favour": "lookup",
+        "within_tolerance": true
+      },
+      "v3_lookup_vs_haiku": {
+        "D": -0.0017,
+        "X_reader": 0.8773,
+        "Y_lookup": 0.8756,
+        "favour": "reader",
+        "within_tolerance": true
+      },
+      "verdict": "prints either way"
+    },
+    "P5": {
+      "haiku": {
+        "D": 0.0072,
+        "I_item": "[-0.0079, +0.0229]",
+        "I_persona": "[-0.0103, +0.0248]",
+        "inside_band": true,
+        "inside_item": true,
+        "inside_persona": true,
+        "reader": "claude-haiku-4-5-20251001"
+      },
+      "mini": {
+        "D": 0.0011,
+        "I_item": "[-0.0282, +0.0297]",
+        "I_persona": "[-0.0210, +0.0230]",
+        "inside_band": true,
+        "inside_item": true,
+        "inside_persona": true,
+        "reader": "gpt-4.1-mini"
+      },
+      "opus": {
+        "D": -0.0052,
+        "I_item": "[-0.0130, +0.0026]",
+        "I_persona": "[-0.0122, +0.0020]",
+        "inside_band": true,
+        "inside_item": true,
+        "inside_persona": true,
+        "reader": "claude-opus-5"
+      },
+      "text": "Randomizing the retracted and expired counts in the superseded-only summary moves gpt-4.1-mini's whole-cell judgment by +0.001 and Haiku 4.5's by +0.007, intervals [-0.0282, +0.0297] (persona-clustered [-0.0210, +0.0230]) and [-0.0079, +0.0229] (persona-clustered [-0.0103, +0.0248]), both inside the tolerance band; on this cell neither reader takes anything from the counts. Opus 5, run under the §11 rule: -0.005, intervals [-0.0130, +0.0026] (persona-clustered [-0.0122, +0.0020]), inside the band.",
+      "verdict": "both inside the band; Opus 5 inside"
+    }
+  }
+}

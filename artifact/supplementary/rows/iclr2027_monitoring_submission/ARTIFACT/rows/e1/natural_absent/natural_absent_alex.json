@@ -1,0 +1,347 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 2,
+    "in": 2157,
+    "out": 761,
+    "usd": 0.0020804
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 3,
+  "persona": "alex",
+  "probes": [
+    {
+      "domain": "Personal Events",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "party",
+        "you"
+      ],
+      "max_cosine": 0.3233,
+      "note": "",
+      "question": "What was the theme of the last birthday party you hosted at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3233,
+          "entry_id": "lb_00182",
+          "text": "User attended a warehouse party in Lichtenberg, Berlin"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3112,
+          "entry_id": "lb_00184",
+          "text": "User attended a warehouse party in Berlin with a no phones policy and local DJs only."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2531,
+          "entry_id": "lb_00183",
+          "text": "User experiences Berlin nightlife culture involving local DJs, no phones policy, and underground parties"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2431,
+          "entry_id": "lb_00189",
+          "text": "User attends underground warehouse parties in Berlin about once a month."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2431,
+          "entry_id": "lb_00186",
+          "text": "User attends underground warehouse parties in Berlin about once a month."
+        }
+      ],
+      "why_absent": "No attributes cover personal event details such as birthday parties or social gatherings."
+    },
+    {
+      "domain": "Outdoor Activities",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "berlin",
+        "can",
+        "tell",
+        "you"
+      ],
+      "max_cosine": 0.4534,
+      "note": "",
+      "question": "Can you tell me about your favorite local hiking trail near Berlin?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4534,
+          "entry_id": "lb_00321",
+          "text": "User lives in Kreuzberg neighborhood in Berlin"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4114,
+          "entry_id": "lb_00407",
+          "text": "User lives in Berlin"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4114,
+          "entry_id": "lb_00090",
+          "text": "User lives in Berlin"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4114,
+          "entry_id": "lb_00273",
+          "text": "User lives in Berlin"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3899,
+          "entry_id": "lb_00322",
+          "text": "User prefers to stay in Kreuzberg because they like the neighborhood and know the local shopkeeper"
+        }
+      ],
+      "why_absent": "No information about outdoor activities or favorite nature spots is stored."
+    },
+    {
+      "domain": "Entertainment Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "work",
+        "you"
+      ],
+      "max_cosine": 0.4557,
+      "note": "",
+      "question": "What kind of music do you usually listen to when relaxing after work?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.4557,
+          "entry_id": "lb_00185",
+          "text": "User finds heavy bass music in a dark room genuinely therapeutic and mentally resetting."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3416,
+          "entry_id": "lb_00400",
+          "text": "User values taking time to relax and do nothing productive as a form of luxury."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.327,
+          "entry_id": "lb_00015",
+          "text": "User prefers to do their best thinking after hours when the apartment is quiet"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2701,
+          "entry_id": "lb_00278",
+          "text": "User reads 10 pages of a book before bed as a wind-down ritual to improve sleep and mood."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2653,
+          "entry_id": "lb_00399",
+          "text": "User experienced a rare positive emotional state about work, feeling 'okay cool let's build another thing' instead of dreading it."
+        }
+      ],
+      "why_absent": "No attributes cover music or entertainment preferences."
+    },
+    {
+      "domain": "Entertainment History",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.2093,
+      "note": "",
+      "question": "What was the last movie you watched in a theater?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2093,
+          "entry_id": "lb_00361",
+          "text": "User enjoys reading or watching scenery during train rides."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1954,
+          "entry_id": "lb_00383",
+          "text": "User films switches with Deskeys films to reduce stem wobble."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1726,
+          "entry_id": "lb_00401",
+          "text": "User is currently in Berlin"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1704,
+          "entry_id": "lb_00403",
+          "text": "User spent the entire winter in a dark apartment staring at the same wall."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1673,
+          "entry_id": "lb_00249",
+          "text": "User had a long-term therapist named Dr. Krause who retired last month"
+        }
+      ],
+      "why_absent": "No data about recent movies watched or cinema visits is present."
+    },
+    {
+      "domain": "Cooking and Food Preparation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "like",
+        "you"
+      ],
+      "max_cosine": 0.2557,
+      "note": "",
+      "question": "Do you have a favorite recipe you like to cook on weekends?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2557,
+          "entry_id": "lb_00155",
+          "text": "User values bread freshness, proper spit-roasted meat, scharf sauce with depth, and good vibes in döner"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2464,
+          "entry_id": "lb_00274",
+          "text": "User loves coding in winter"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2297,
+          "entry_id": "lb_00229",
+          "text": "User prefers late-night snacks that are tasty and provide sustained energy"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2262,
+          "entry_id": "lb_00410",
+          "text": "User enjoys coding side experiments and tinkering with CLI tools for personal workflow improvements"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2244,
+          "entry_id": "lb_00238",
+          "text": "User's preferred late-night snack stack is dunkle voll-nuss chocolate and pretzel bites."
+        }
+      ],
+      "why_absent": "No attributes include cooking habits or favorite recipes."
+    },
+    {
+      "domain": "Language Skills",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "learning",
+        "programming",
+        "you"
+      ],
+      "max_cosine": 0.432,
+      "note": "",
+      "question": "What languages besides programming languages do you speak or are learning?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.432,
+          "entry_id": "lb_00303",
+          "text": "User has a background in garbage-collected languages."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.386,
+          "entry_id": "lb_00311",
+          "text": "User has experience with garbage-collected languages prior to using Rust"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3322,
+          "entry_id": "lb_00027",
+          "text": "User has been writing Kotlin professionally for about 4 years"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3322,
+          "entry_id": "lb_00033",
+          "text": "User has been writing Kotlin professionally for about 4 years"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3295,
+          "entry_id": "lb_00029",
+          "text": "User writes backend code professionally in Kotlin and has about 4 years of experience with it"
+        }
+      ],
+      "why_absent": "Only programming languages are covered; no information about spoken or foreign languages."
+    },
+    {
+      "domain": "Hobbies and Education",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.2592,
+      "note": "",
+      "question": "Have you ever taken any art or music classes as a hobby?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2592,
+          "entry_id": "lb_00125",
+          "text": "User codes for a living or as a main activity"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2415,
+          "entry_id": "lb_00185",
+          "text": "User finds heavy bass music in a dark room genuinely therapeutic and mentally resetting."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2372,
+          "entry_id": "lb_00128",
+          "text": "User codes for a living and types for about 10 hours a day"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2159,
+          "entry_id": "lb_00410",
+          "text": "User enjoys coding side experiments and tinkering with CLI tools for personal workflow improvements"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.209,
+          "entry_id": "lb_00138",
+          "text": "User did their degree in Munich"
+        }
+      ],
+      "why_absent": "Hobbies are covered but no mention of formal classes or lessons in arts or music."
+    }
+  ],
+  "threshold": 0.295
+}

@@ -1,0 +1,346 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 24,
+    "in": 24342,
+    "out": 8961,
+    "usd": 0.024074400000000003
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 4,
+  "persona": "marley",
+  "probes": [
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last",
+        "you"
+      ],
+      "max_cosine": 0.202,
+      "note": "",
+      "question": "What was the last movie you watched at the cinema?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.202,
+          "entry_id": "lb_00170",
+          "text": "User had plans to watch football with friends on the day of the church fundraiser."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1959,
+          "entry_id": "lb_00271",
+          "text": "User is living alone after their flatmate Dev moved back to Leicester."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1907,
+          "entry_id": "lb_00268",
+          "text": "User had to move quickly because their flatmate Dev moved back to Leicester"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1808,
+          "entry_id": "lb_00238",
+          "text": "User's last essay grade was 58"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.1697,
+          "entry_id": "lb_00258",
+          "text": "User is a final year physiotherapy student graduating next year"
+        }
+      ],
+      "why_absent": "No information about Marcus's movie watching habits or cinema visits is stored."
+    },
+    {
+      "domain": "Travel",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "like",
+        "you"
+      ],
+      "max_cosine": 0.3035,
+      "note": "",
+      "question": "Can you tell me about your favorite holiday destination and why you like it?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.3035,
+          "entry_id": "lb_00308",
+          "text": "User has a strong emotional connection to Bridgetown, Barbados, feeling it like home despite not growing up there."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2814,
+          "entry_id": "lb_00313",
+          "text": "User has family in Barbados including cousins, aunties, and uncles, and feels a strong connection to the place despite not having lived there."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2567,
+          "entry_id": "lb_00307",
+          "text": "User has visited Barbados but has never lived there."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2454,
+          "entry_id": "lb_00158",
+          "text": "User enjoys Caribbean food and prefers flavorful meals over plain chicken and rice"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2312,
+          "entry_id": "lb_00319",
+          "text": "User currently lives in Bristol and considers it their city with close family and friends"
+        }
+      ],
+      "why_absent": "There is no data on Marcus's travel history or holiday preferences."
+    },
+    {
+      "domain": "Transportation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.2505,
+      "note": "",
+      "question": "What kind of car do you drive or prefer to drive?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2505,
+          "entry_id": "lb_00151",
+          "text": "User grew up eating Caribbean food and prefers flavorful meals"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2359,
+          "entry_id": "lb_00158",
+          "text": "User enjoys Caribbean food and prefers flavorful meals over plain chicken and rice"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.208,
+          "entry_id": "lb_00138",
+          "text": "User prefers underground UK rap artists like Knucks, Ghetts, and Little Simz."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2076,
+          "entry_id": "lb_00141",
+          "text": "User loves when artists mix rap with dancehall vibes and Caribbean influence."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1928,
+          "entry_id": "lb_00319",
+          "text": "User currently lives in Bristol and considers it their city with close family and friends"
+        }
+      ],
+      "why_absent": "No details about Marcus's vehicle ownership or preferences are recorded."
+    },
+    {
+      "domain": "Cooking",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "cook",
+        "home",
+        "type"
+      ],
+      "max_cosine": 0.3953,
+      "note": "",
+      "question": "What is your favorite type of cuisine to cook at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3953,
+          "entry_id": "lb_00158",
+          "text": "User enjoys Caribbean food and prefers flavorful meals over plain chicken and rice"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3892,
+          "entry_id": "lb_00151",
+          "text": "User grew up eating Caribbean food and prefers flavorful meals"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3678,
+          "entry_id": "lb_00159",
+          "text": "User has a Sunday cook-up meal prep routine to save money and avoid ordering takeaway"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3435,
+          "entry_id": "lb_00154",
+          "text": "User has spices at home including scotch bonnet, allspice, thyme, and paprika"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3411,
+          "entry_id": "lb_00116",
+          "text": "User is committed to cooking rice and peas using the full traditional method with proper ingredients this weekend."
+        }
+      ],
+      "why_absent": "While some food preferences are noted, there is no specific information about cooking habits or favorite cuisines to cook."
+    },
+    {
+      "domain": "Pets",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.2223,
+      "note": "",
+      "question": "Do you have any pets, and if so, what are their names and breeds?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2223,
+          "entry_id": "lb_00064",
+          "text": "User lives with a housemate named Dev."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1957,
+          "entry_id": "lb_00360",
+          "text": "User lives in a studio flat with white walls, a bed, and a desk."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1871,
+          "entry_id": "lb_00062",
+          "text": "User lives with a housemate."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1806,
+          "entry_id": "lb_00318",
+          "text": "User has family roots in Bridgetown, Barbados, including nan, cousins, aunties, and uncles"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1775,
+          "entry_id": "lb_00019",
+          "text": "User's nan is named Iris and is a 78-year-old woman who came over from Barbados in the 1960s"
+        }
+      ],
+      "why_absent": "No information about Marcus's pet ownership or pets is present."
+    },
+    {
+      "domain": "Languages",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "learning",
+        "you"
+      ],
+      "max_cosine": 0.2103,
+      "note": "",
+      "question": "What languages do you speak or are learning besides English?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2103,
+          "entry_id": "lb_00088",
+          "text": "User is training in a clinical field involving patient consultations and assessments on communication, clinical reasoning, patient safety, and documentation."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1969,
+          "entry_id": "lb_00106",
+          "text": "User coaches youth football teams and plans to continue coaching while studying"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1876,
+          "entry_id": "lb_00303",
+          "text": "User is planning to graduate in the near future"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1808,
+          "entry_id": "lb_00240",
+          "text": "User is a university student with academic assignments alongside placement and coaching."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1808,
+          "entry_id": "lb_00249",
+          "text": "User is a university student with academic assignments alongside placement and coaching."
+        }
+      ],
+      "why_absent": "There is no data on Marcus's language skills or language learning activities."
+    },
+    {
+      "domain": "Literature",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "time",
+        "you"
+      ],
+      "max_cosine": 0.3081,
+      "note": "",
+      "question": "What kind of books do you enjoy reading in your free time?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3081,
+          "entry_id": "lb_00286",
+          "text": "User plans to spend more time studying at the library and visiting their nan's place for social and comfort reasons."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.22,
+          "entry_id": "lb_00329",
+          "text": "User plans to dedicate a weekend to writing the discussion chapter of their dissertation"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2035,
+          "entry_id": "lb_00079",
+          "text": "User balances football coaching and studying to avoid burnout and maintain a good routine."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2029,
+          "entry_id": "lb_00285",
+          "text": "User experiences loneliness in the evenings and weekends after moving to solo living."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1842,
+          "entry_id": "lb_00158",
+          "text": "User enjoys Caribbean food and prefers flavorful meals over plain chicken and rice"
+        }
+      ],
+      "why_absent": "No information about Marcus's reading habits or book preferences is stored."
+    }
+  ],
+  "threshold": 0.295
+}

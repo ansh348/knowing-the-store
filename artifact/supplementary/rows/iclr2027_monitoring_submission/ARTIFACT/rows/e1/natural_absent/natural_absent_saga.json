@@ -1,0 +1,341 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 33,
+    "in": 33703,
+    "out": 12395,
+    "usd": 0.0333132
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 3,
+  "persona": "saga",
+  "probes": [
+    {
+      "domain": "Social Life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last"
+      ],
+      "max_cosine": 0.3007,
+      "note": "",
+      "question": "What was the theme of the last birthday party you hosted for a close friend?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3007,
+          "entry_id": "lb_00140",
+          "text": "User is responsible for giving a speech at brother's wedding"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2885,
+          "entry_id": "lb_00236",
+          "text": "User is preparing a wedding speech for their brother's wedding."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2588,
+          "entry_id": "lb_00101",
+          "text": "User prefers low-key activities on Saturdays and finds groups larger than 4 socially draining"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2487,
+          "entry_id": "lb_00422",
+          "text": "User ended a long relationship"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2439,
+          "entry_id": "lb_00024",
+          "text": "User's ideal Tuesday evening is cooking a new recipe with someone who accepts that the user will rate the outcome on a 10-point scale and log it"
+        }
+      ],
+      "why_absent": "No information about social events or parties hosted by the user is present in the memory store."
+    },
+    {
+      "domain": "Culinary Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "weekends"
+      ],
+      "max_cosine": 0.4761,
+      "note": "",
+      "question": "Can you describe your favorite recipe to cook on weekends?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.4761,
+          "entry_id": "lb_00027",
+          "text": "User's ideal Tuesday evening is cooking a new recipe with someone who does not mind that the user rates the outcome on a 10-point scale and logs it."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.4538,
+          "entry_id": "lb_00024",
+          "text": "User's ideal Tuesday evening is cooking a new recipe with someone who accepts that the user will rate the outcome on a 10-point scale and log it"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.393,
+          "entry_id": "lb_00030",
+          "text": "User enjoys cooking new recipes and rates the outcome on a 10-point scale, logging the results."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3771,
+          "entry_id": "lb_00258",
+          "text": "User follows recipes from Swedish food blogs for baking"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3567,
+          "entry_id": "lb_00091",
+          "text": "User prefers low-key activities on Saturdays"
+        }
+      ],
+      "why_absent": "The memory store does not include any details about cooking habits or favorite recipes."
+    },
+    {
+      "domain": "Entertainment Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "kind",
+        "music",
+        "usually"
+      ],
+      "max_cosine": 0.346,
+      "note": "",
+      "question": "What kind of music do you usually listen to when relaxing at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.346,
+          "entry_id": "lb_00091",
+          "text": "User prefers low-key activities on Saturdays"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.345,
+          "entry_id": "lb_00094",
+          "text": "User prefers low-key activities on Saturdays due to being more drained after work"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2872,
+          "entry_id": "lb_00101",
+          "text": "User prefers low-key activities on Saturdays and finds groups larger than 4 socially draining"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2783,
+          "entry_id": "lb_00203",
+          "text": "User hypothesizes that podcast listeners who favor certain categories, like true crime or indie music podcasts, have predictable music preferences that could inform early recommendations."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2697,
+          "entry_id": "lb_00202",
+          "text": "User is conducting an exploratory analysis of the correlation between podcast genre preferences and music taste clusters."
+        }
+      ],
+      "why_absent": "There is no data about the user's music or entertainment preferences outside of professional context."
+    },
+    {
+      "domain": "Community Involvement",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "event",
+        "role"
+      ],
+      "max_cosine": 0.2438,
+      "note": "",
+      "question": "Have you ever volunteered for a charity or community event? If so, what was your role?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2438,
+          "entry_id": "lb_00275",
+          "text": "User finds helping with the documentary tagging system to be the most romantic thing they have ever done."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2313,
+          "entry_id": "lb_00001",
+          "text": "User is preparing a presentation on listener behaviour findings for a cross-functional team."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2263,
+          "entry_id": "lb_00111",
+          "text": "User seeks external consultation for political aspects at work"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2225,
+          "entry_id": "lb_00003",
+          "text": "User is preparing a presentation on listener behaviour findings for a cross-functional team including product managers, content strategists, and senior leaders"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2181,
+          "entry_id": "lb_00385",
+          "text": "User wants to be present and involved in the life of her niece but is uncertain about how to engage with small children."
+        }
+      ],
+      "why_absent": "No information about volunteering or community service activities is stored."
+    },
+    {
+      "domain": "Leisure Activities",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last"
+      ],
+      "max_cosine": 0.2249,
+      "note": "",
+      "question": "What was the last movie you watched in a theater, and what did you think of it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2249,
+          "entry_id": "lb_00122",
+          "text": "User had an 'exceeds expectations' rating in their last performance review."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2098,
+          "entry_id": "lb_00175",
+          "text": "User finished reading the book Invisible Women by Caroline Criado Perez this week"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2047,
+          "entry_id": "lb_00275",
+          "text": "User finds helping with the documentary tagging system to be the most romantic thing they have ever done."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1855,
+          "entry_id": "lb_00205",
+          "text": "User finds this project the most intellectually engaging work they have done in months."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1787,
+          "entry_id": "lb_00114",
+          "text": "User received an 'exceeds expectations' rating in last year's performance review"
+        }
+      ],
+      "why_absent": "The memory store lacks any record of movies watched or opinions on films."
+    },
+    {
+      "domain": "Personal Life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any"
+      ],
+      "max_cosine": 0.2024,
+      "note": "",
+      "question": "Do you have any pets? If yes, what are their names and breeds?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2024,
+          "entry_id": "lb_00009",
+          "text": "User has a twin brother named Erik"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2024,
+          "entry_id": "lb_00278",
+          "text": "User has a twin brother named Erik"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1977,
+          "entry_id": "lb_00032",
+          "text": "User has a twin brother named Erik."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1766,
+          "entry_id": "lb_00012",
+          "text": "User has a twin brother named Erik who is an architect in Gothenburg specializing in residential buildings"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1732,
+          "entry_id": "lb_00282",
+          "text": "User talks with their twin brother Erik every week."
+        }
+      ],
+      "why_absent": "There is no mention of pets or animals in the user's memory data."
+    },
+    {
+      "domain": "Personal Development",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "would"
+      ],
+      "max_cosine": 0.323,
+      "note": "",
+      "question": "What languages would you like to learn in the future, and why?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.323,
+          "entry_id": "lb_00185",
+          "text": "User's English is fine but prefers reading critical theory in their first language because the arguments feel approximately 15% stronger."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2255,
+          "entry_id": "lb_00316",
+          "text": "User plans to structure the argument for their conference presentation by February 2026."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2251,
+          "entry_id": "lb_00023",
+          "text": "User's interests include spreadsheets, cycling, podcasts about economic history, and very strong coffee"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2152,
+          "entry_id": "lb_00029",
+          "text": "User's interests include spreadsheets, cycling, podcasts about economic history, and very strong coffee described by colleagues as 'aggressive'."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2049,
+          "entry_id": "lb_00001",
+          "text": "User is preparing a presentation on listener behaviour findings for a cross-functional team."
+        }
+      ],
+      "why_absent": "The memory store does not contain information about language learning goals or interests."
+    }
+  ],
+  "threshold": 0.295
+}

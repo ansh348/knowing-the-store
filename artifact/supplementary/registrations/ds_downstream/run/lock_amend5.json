@@ -1,0 +1,45 @@
+{
+ "changed_by_policy": {
+  "ALWAYS": 17,
+  "LOOKUP": 17,
+  "LOOKUP-ALL": 17,
+  "LOOKUP-LIT": 32,
+  "MODEL": 20,
+  "MODEL-ALL": 20,
+  "ORACLE": 35
+ },
+ "changed_by_state": {
+  "ret": 29,
+  "sup": 45
+ },
+ "counts": {
+  "changed": 74,
+  "changed_in_422": 70,
+  "changed_lit": 4,
+  "items": 35,
+  "lines_in_422": 124,
+  "views": 452
+ },
+ "counts_ok": true,
+ "detector_rule": "an active line whose text asserts the item's stale value by the item's own committed detector at TAU_GOLD (old-only coverage >= 0.50 with >= 2 shared tokens, new-only coverage < 0.34)",
+ "expected": {
+  "changed": 74,
+  "changed_in_422": 70,
+  "changed_lit": 4,
+  "items": 35,
+  "lines_in_422": 124,
+  "views": 452
+ },
+ "frozen_at": "54f4ade",
+ "header_sha256": "1fe1eb17795796bb95617a28ac7b7628b9607abc2fb8b51989cbf70d1de08d6b",
+ "lines_tagged_total": 132,
+ "prompts_ds": {
+  "SYSTEM_ANSWER": "af1c69c8817d286727e44027a9d469c875a4da1eb111d7351eb76094b48ea4a9",
+  "USER_ANSWER": "c6dd6926a3c9e8d44d7d5a480540c554dbec510101c8c39e616a8c77299d83a5"
+ },
+ "registration": "registrations\\ADDENDUM_DS_AMENDMENT_5.md",
+ "registration_sha256": "a820195f93ffdf5b1d25c336b81bfcc59afaa27d67c5fd28ae1e97d9ae41e7a0",
+ "renderer_lock": "asserted on every changed view; unchanged views byte-identical (not re-run)",
+ "user_answer_a4_sha256": "e6c155364f8c69bef8af0c86941b3bf8fc5e739e043ac3ef2f86f422ff40cd7d",
+ "when": "2026-09-14T23:50:36"
+}

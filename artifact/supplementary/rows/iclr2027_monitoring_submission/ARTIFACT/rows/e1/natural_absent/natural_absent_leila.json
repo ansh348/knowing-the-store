@@ -1,0 +1,353 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 21,
+    "in": 21735,
+    "out": 7888,
+    "usd": 0.021314800000000002
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 3,
+  "persona": "leila",
+  "probes": [
+    {
+      "domain": "Social Activities",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "book",
+        "you"
+      ],
+      "max_cosine": 0.2811,
+      "note": "",
+      "question": "What was the theme of the last book club meeting you attended?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2811,
+          "entry_id": "lb_00138",
+          "text": "User has outlined 6 chapters for the book"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2726,
+          "entry_id": "lb_00136",
+          "text": "User has outlined 6 chapters for the book."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2725,
+          "entry_id": "lb_00141",
+          "text": "User has outlined 6 chapters for the book."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2725,
+          "entry_id": "lb_00140",
+          "text": "User has outlined 6 chapters for the book."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2592,
+          "entry_id": "lb_00231",
+          "text": "User's presentation theme is diaspora memory in built form, focusing on Palestinian architectural influences in Chile."
+        }
+      ],
+      "why_absent": "No information about book clubs or social reading groups is present in the memory store."
+    },
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "describe",
+        "event",
+        "you"
+      ],
+      "max_cosine": 0.2359,
+      "note": "",
+      "question": "Can you describe the last concert or live music event you went to?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2359,
+          "entry_id": "lb_00418",
+          "text": "User presented at a Bienal last year and started planning the trip to Bethlehem afterward."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.217,
+          "entry_id": "lb_00236",
+          "text": "User experiences anxiety about public speaking but feels ecstatic and alive when showing and discussing buildings."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1961,
+          "entry_id": "lb_00038",
+          "text": "User attended a meeting at the municipal heritage office."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1879,
+          "entry_id": "lb_00223",
+          "text": "User was invited to present at the Bienal de Arquitectura on October 4, 2025"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.182,
+          "entry_id": "lb_00233",
+          "text": "User is passionate about architecture and finds joy in showing buildings to others, describing architectural details vividly."
+        }
+      ],
+      "why_absent": "No details about music events or concerts attended are stored."
+    },
+    {
+      "domain": "Home and Gardening",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "garden",
+        "you"
+      ],
+      "max_cosine": 0.3716,
+      "note": "",
+      "question": "What kind of plants do you have in your home garden, and how do you care for them?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3716,
+          "entry_id": "lb_00458",
+          "text": "User has a back garden with a north-facing wall that holds warmth and is the intended planting site for jasmine"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3706,
+          "entry_id": "lb_00462",
+          "text": "User is planting jasmine as a private restoration project connected to family memory."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3628,
+          "entry_id": "lb_00452",
+          "text": "User wants to plant real jasmine in their garden to fill the courtyard with its scent at night."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3536,
+          "entry_id": "lb_00461",
+          "text": "User is undertaking a personal restoration project by planting jasmine to preserve their family's memory."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2764,
+          "entry_id": "lb_00453",
+          "text": "User's grandparents had jasmine growing up the walls of their house."
+        }
+      ],
+      "why_absent": "No data about home gardening or specific plants is included."
+    },
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.1939,
+      "note": "",
+      "question": "What was the last movie you watched and what did you think about it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1939,
+          "entry_id": "lb_00320",
+          "text": "User is collaborating with a filmmaker friend named Javiera on a documentary about diaspora architecture."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1652,
+          "entry_id": "lb_00313",
+          "text": "User is collaborating with a filmmaker friend named Javiera on a documentary about the architectural heritage of Palestinian families in Chile."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1559,
+          "entry_id": "lb_00145",
+          "text": "User found the shoebox of newspaper clippings last year and it had a strong emotional impact."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.155,
+          "entry_id": "lb_00433",
+          "text": "User is co-creator and architectural consultant for a documentary about diaspora architecture"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1525,
+          "entry_id": "lb_00476",
+          "text": "A year ago, the user was doing work that paid the bills but did not feed the soul."
+        }
+      ],
+      "why_absent": "No movie preferences or recent viewings are recorded."
+    },
+    {
+      "domain": "Language Skills",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "arabic",
+        "learning",
+        "spanish",
+        "you"
+      ],
+      "max_cosine": 0.4245,
+      "note": "",
+      "question": "What languages besides Arabic and Spanish do you speak or are learning?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.4245,
+          "entry_id": "lb_00273",
+          "text": "User's grandparents spoke Arabic at home and user grew up hearing it"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4101,
+          "entry_id": "lb_00262",
+          "text": "User's grandparents spoke Arabic at home but user was never formally taught to write Arabic."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3911,
+          "entry_id": "lb_00280",
+          "text": "User is beginning to learn Arabic calligraphy, specifically the Naskh script, as a new discipline after decades of expertise in another field"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3906,
+          "entry_id": "lb_00265",
+          "text": "User grew up hearing Arabic spoken at home by grandparents but was never formally taught to write it."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3901,
+          "entry_id": "lb_00269",
+          "text": "User can read Arabic slowly and recognizes different Arabic script styles like Naskh, Thuluth, and Diwani."
+        }
+      ],
+      "why_absent": "Only Arabic reading/writing skill is mentioned; no other language skills are noted."
+    },
+    {
+      "domain": "Work Environment Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "architectural",
+        "projects",
+        "working",
+        "you"
+      ],
+      "max_cosine": 0.5243,
+      "note": "",
+      "question": "What kind of music do you usually listen to while working on your architectural projects?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.5243,
+          "entry_id": "lb_00014",
+          "text": "User's professional work is mostly high-end residential architecture"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.5013,
+          "entry_id": "lb_00049",
+          "text": "User works on architectural projects outside regular work hours, including weekends."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.4317,
+          "entry_id": "lb_00009",
+          "text": "User's current architectural work is mostly high-end residential houses in Vitacura and Lo Barnechea"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.4238,
+          "entry_id": "lb_00001",
+          "text": "User works at a firm that designs high-end residential houses."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.4172,
+          "entry_id": "lb_00205",
+          "text": "User is interested in writing poetry about architecture, specifically about buildings as poems."
+        }
+      ],
+      "why_absent": "No information about music preferences related to work is stored."
+    },
+    {
+      "domain": "Hobbies and Learning",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "cooking",
+        "ever",
+        "focus",
+        "you"
+      ],
+      "max_cosine": 0.4192,
+      "note": "",
+      "question": "Have you ever taken any cooking classes, and if so, what cuisine did you focus on?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.4192,
+          "entry_id": "lb_00255",
+          "text": "User enjoys cooking lamb and values traditional culinary knowledge passed down from their grandmother."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3124,
+          "entry_id": "lb_00252",
+          "text": "User is hosting a dinner for their team this Friday with Chilean wine and Middle Eastern flavors."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3114,
+          "entry_id": "lb_00165",
+          "text": "User learned to make maftoul from their grandmother's memory and technique."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3071,
+          "entry_id": "lb_00384",
+          "text": "User taught a vernacular architecture seminar at a university in La Chile."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3016,
+          "entry_id": "lb_00170",
+          "text": "User is learning to make maftoul from memory based on their grandmother's recipe and technique."
+        }
+      ],
+      "why_absent": "No mention of cooking classes or culinary education is present."
+    }
+  ],
+  "threshold": 0.295
+}

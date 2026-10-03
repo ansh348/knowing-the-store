@@ -1,0 +1,349 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 34,
+    "in": 34897,
+    "out": 12781,
+    "usd": 0.034408400000000006
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 3,
+  "persona": "samuel",
+  "probes": [
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last"
+      ],
+      "max_cosine": 0.2117,
+      "note": "",
+      "question": "What was the last movie you watched for entertainment, and what did you think of it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2117,
+          "entry_id": "lb_00543",
+          "text": "User has read 'Do No Harm' by Henry Marsh and found it excellent but occasionally self-indulgent"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2075,
+          "entry_id": "lb_00270",
+          "text": "User has read No Longer at Ease twice and was deeply moved both times."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2014,
+          "entry_id": "lb_00431",
+          "text": "User experienced a profound emotional reaction of wonder during a recent endoscopic surgery."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1734,
+          "entry_id": "lb_00434",
+          "text": "User experienced a profound philosophical and emotional revelation about the value of endoscopic surgery during a recent case."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1702,
+          "entry_id": "lb_00273",
+          "text": "User values discussing literature with care and finds it nourishing"
+        }
+      ],
+      "why_absent": "No information about Samuel's movie watching or entertainment preferences is stored."
+    },
+    {
+      "domain": "Food and Dining",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "type"
+      ],
+      "max_cosine": 0.2967,
+      "note": "",
+      "question": "Can you describe your favorite type of cuisine to eat when dining out?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2967,
+          "entry_id": "lb_00528",
+          "text": "User appreciates Ghanaian cuisine, specifically groundnut soup"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2711,
+          "entry_id": "lb_00230",
+          "text": "User intends to arrange a private, intimate outdoor dinner near the ocean for Abena's birthday, featuring local ingredients."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2664,
+          "entry_id": "lb_00142",
+          "text": "User enjoys cooking, reading, and friendly arguments about whose jollof rice is better with his wife Abena."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2504,
+          "entry_id": "lb_00215",
+          "text": "User prefers to cook jollof rice using jasmine rice, more tomato paste, more onion, and a touch of nutmeg."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2368,
+          "entry_id": "lb_00213",
+          "text": "User prefers to use jasmine rice and adds nutmeg to his jollof rice recipe, which is a non-traditional variation."
+        }
+      ],
+      "why_absent": "No details about Samuel's dining preferences or favorite cuisines are present."
+    },
+    {
+      "domain": "Music Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "home",
+        "kind",
+        "music"
+      ],
+      "max_cosine": 0.3283,
+      "note": "",
+      "question": "What kind of music do you usually listen to when relaxing at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3283,
+          "entry_id": "lb_00379",
+          "text": "User plays the piano as a way to think and reflect."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3002,
+          "entry_id": "lb_00350",
+          "text": "User finds piano playing a private and personally meaningful activity where only they can be disappointed."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2814,
+          "entry_id": "lb_00344",
+          "text": "User practices piano mostly in the evenings with an inconsistent schedule"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2771,
+          "entry_id": "lb_00552",
+          "text": "User and Abena have settled into a rhythm in their house that feels like home"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2769,
+          "entry_id": "lb_00097",
+          "text": "User finds swimming to be a meditative practice that helps relieve shoulder tension from long hours in surgery."
+        }
+      ],
+      "why_absent": "No data on Samuel's music tastes or listening habits is included."
+    },
+    {
+      "domain": "Travel",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "one"
+      ],
+      "max_cosine": 0.2658,
+      "note": "",
+      "question": "Have you ever taken a vacation to a beach destination? If so, which one was your favorite?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2658,
+          "entry_id": "lb_00227",
+          "text": "User plans to take a ten-day trip to Cape Coast and Accra in July."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2636,
+          "entry_id": "lb_00233",
+          "text": "User plans to take a 10-day trip to Ghana including Cape Coast and Accra for wife's birthday and family visits"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2582,
+          "entry_id": "lb_00223",
+          "text": "User's wife has expressed a desire to travel to Cape Coast"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.235,
+          "entry_id": "lb_00237",
+          "text": "Abena has Ghanaian heritage and has expressed a wish to visit Cape Coast"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2285,
+          "entry_id": "lb_00238",
+          "text": "User is planning a ten-day trip to Ghana in July to celebrate Abena's 45th birthday and visit family"
+        }
+      ],
+      "why_absent": "No travel or vacation experiences related to beach destinations are recorded."
+    },
+    {
+      "domain": "Personal Celebrations",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "birthday",
+        "way",
+        "year"
+      ],
+      "max_cosine": 0.3194,
+      "note": "",
+      "question": "What is your preferred way to celebrate your birthday each year?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3194,
+          "entry_id": "lb_00037",
+          "text": "User and Abena usually celebrate their anniversary with dinner, sometimes at a restaurant and sometimes with her cooking something special."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2878,
+          "entry_id": "lb_00230",
+          "text": "User intends to arrange a private, intimate outdoor dinner near the ocean for Abena's birthday, featuring local ingredients."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.27,
+          "entry_id": "lb_00229",
+          "text": "User plans to celebrate Abena's 45th birthday on July 8th with a meaningful trip to Cape Coast and Accra, Ghana."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2502,
+          "entry_id": "lb_00235",
+          "text": "Abena will be turning forty-five on July 8th"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2298,
+          "entry_id": "lb_00220",
+          "text": "User's wife has a birthday approaching"
+        }
+      ],
+      "why_absent": "No information about Samuel's birthday traditions or celebration style is stored."
+    },
+    {
+      "domain": "Pets",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "home",
+        "kind"
+      ],
+      "max_cosine": 0.2451,
+      "note": "",
+      "question": "Do you have any pets at home? If yes, what kind and what are their names?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2451,
+          "entry_id": "lb_00392",
+          "text": "User's partner is named Abena and enjoys gardening, especially planning the garden layout."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2384,
+          "entry_id": "lb_00386",
+          "text": "User's new house has a garden and more space than needed for two people."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2363,
+          "entry_id": "lb_00397",
+          "text": "User lives in a neighborhood in Edina with a settled quality, where neighbors walk dogs and children ride bicycles."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2356,
+          "entry_id": "lb_00401",
+          "text": "User owns a house with a kitchen prioritized by Abena and a study that is still being organized."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2341,
+          "entry_id": "lb_00436",
+          "text": "User has a wife named Abena who is a pharmacist and supports the user emotionally and intellectually."
+        }
+      ],
+      "why_absent": "No mention of pets or pet ownership is present in the stored attributes."
+    },
+    {
+      "domain": "Community Involvement",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "activities",
+        "community",
+        "kind",
+        "outside",
+        "service",
+        "work"
+      ],
+      "max_cosine": 0.3671,
+      "note": "",
+      "question": "What kind of volunteer work or community service activities do you participate in outside of work?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.3671,
+          "entry_id": "lb_00570",
+          "text": "User values meaningful work, faith, and contributing something of value"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3453,
+          "entry_id": "lb_00046",
+          "text": "User serves on the building committee at Calvary Methodist Church."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3408,
+          "entry_id": "lb_00185",
+          "text": "User is collaborating with Remote Area Medical for volunteer medical expeditions."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3033,
+          "entry_id": "lb_00557",
+          "text": "User mentors residents in a professional context."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3006,
+          "entry_id": "lb_00444",
+          "text": "User has served on the church council at Calvary Methodist."
+        }
+      ],
+      "why_absent": "No records of Samuel's volunteer or community service activities beyond church roles exist."
+    }
+  ],
+  "threshold": 0.295
+}

@@ -1,0 +1,27 @@
+% CFPAD-TABLE position (written by cf_pad/tools/cfpad_tex.py from cf_pad/results/cf_pad_scores.json; spliced at its per-table marker by reviews/v23/tools/build_v23.py; do not edit by hand)
+\begin{table}[H]
+\caption{The target's alphabetical rank in the \pn{} version's $60$-name list over the $88$ supersession triples against each reader (descriptive): Spearman correlation of the rank with the reader's \pn{} score and with its \pn{}-against-\present{} outcome.}
+\label{tab:cfpad-position}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Reader & rank against \pn{} score & rank against outcome \\
+\midrule
+Name lookup & $+0.3264$ & $+0.2040$ \\
+Lexical lookup & $+0.3316$ & $+0.1612$ \\
+Random-token lookup & $-0.0496$ & $-0.0613$ \\
+\midrule
+GPT-4.1 mini & $+0.1434$ & $+0.2762$ \\
+Haiku 4.5 & $+0.1647$ & $+0.2717$ \\
+GPT-5.6 Luna & $+0.2634$ & $+0.1199$ \\
+GPT-5.6 Sol & $+0.2388$ & $-0.0546$ \\
+Opus 5$^{a}$ & $+0.0467$ & $+0.0172$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.97\linewidth}\scriptsize
+$^{a}$Opus 5: one draw; recorded row five draws.
+\end{minipage}
+\end{table}

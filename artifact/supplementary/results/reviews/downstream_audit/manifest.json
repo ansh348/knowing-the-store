@@ -1,0 +1,97 @@
+{
+ "checks": [
+  {
+   "check": "detector replica: 0 row mismatches over 2041 rows; 0 of 852 aggregate cells differ; records None 0; amend2 reuse mismatches 0/0",
+   "ok": true
+  },
+  {
+   "check": "retrieval replay: top-5 == ALWAYS ids and top-10 == L2 for 661/661 items",
+   "ok": true
+  },
+  {
+   "check": "views: 26213 lines parse, lengths agree, render lock holds (0/0/0 failures)",
+   "ok": true
+  },
+  {
+   "check": "PRESENT view identity: ORACLE sha == ALWAYS sha for 174/174 PRESENT items (by construction)",
+   "ok": true
+  },
+  {
+   "check": "prompts: SYSTEM_ANSWER af1c69c8, USER_ANSWER c6dd6926 as ledgered; A3 3cca2c0b as locked",
+   "ok": true
+  }
+ ],
+ "constants": {
+  "CROSS_GUARD": 0.34,
+  "MIN_DISCR": 3,
+  "MIN_SHARED": 2,
+  "TAU_GOLD": 0.5,
+  "TAU_HI": 0.8
+ },
+ "inputs_sha256": {
+  "ds_downstream/policies.json": "127a53dd877d9e5eb86b4887910c35c44d730b4c08c928bc6362eb3c52cc6db3",
+  "ds_downstream/run/cell_ds.json": "e46d7b95da2a4e53ce85a9a5abeeceb72129df906298ec77112081ea7b641c0e",
+  "ds_downstream/run/lock_amend2.json": "3ead454621b97041e9c83749c253ec8d15ddd3574b84cde3cbfa4a34710fe350",
+  "ds_downstream/run/lock_amend3.json": "f48d21739e5351ca76144eacb2285f6d8e723da7f84bad268fbcf030154e16c2",
+  "ds_downstream/run/rows_ds.jsonl": "8fdbad49e7544c1720c69cde4c94e3819094084f8d722d4facbb48e829f9435a",
+  "ds_downstream/run/rows_ds_amend1.jsonl": "03abb59046ee68b0c9c0fdbfb9554e5ce2f9aa34f33c472c72d3986184c05f9f",
+  "ds_downstream/run/rows_ds_amend2.jsonl": "8e4302431c2ac2567f926ca28fd8b3182159412c6c9c60f67b804192b5be6276",
+  "ds_downstream/run/rows_ds_amend2_h45.jsonl": "a7e0511a11fc41934601adee768a67b6f683a6385a367881948700feb2b1c05b",
+  "ds_downstream/run/rows_ds_amend3_h45.jsonl": "1fab360a961eb60edb957f6f574a3771ddfe4f915d14119dac9a64097af41707",
+  "ds_downstream/run/rows_ds_amend3_mini.jsonl": "946ca7bc14d3d02d724fa53062691b34296be9122c5d07ab26ca8d95627d89aa",
+  "ds_downstream/run/scores_amend1.json": "59472fb4504211d970bfcb01214ccf93c7e4d614eba03330e0ad5bcc9b4ea161",
+  "ds_downstream/run/scores_amend2.json": "e82149882d9aa3eb093ddc83df539fc80d631ddaa75e49f69b2b674013add7f9",
+  "ds_downstream/run/scores_amend3.json": "4bb966bb052677059d1e0c14dab66fcd4cbb62c42705d67158ce8f4c836ae07c",
+  "ds_downstream/run/scores_ds.json": "aab493c42d67d7b6a9af4e24f3ed2024d77b328e6e332c7d34b43d9aaa429461",
+  "ds_downstream/run/stage1_amend1.json": "5c3d2a09daea231db8bcc7d228e73bddfb2210111dbac9d52ebc81cbcc6f0327",
+  "ds_downstream/stage1.json": "6691654d3dfd23595d077e717cf30fb4c76880275e0115996a4b1b3dabb29a8f",
+  "ds_downstream/tools/ds_common.py": "d6fa6819cf9c52b60ef80669ec50a66a4c9f0838c1bc918ae94725f46b6b93be",
+  "ds_downstream/tools/prompts_ds.py": "bd8fe7f46d798099aa10ee7f3a0b31ed540bcdec3a8d1fa99906939fbe133f85",
+  "ds_downstream/tools/run_ds.py": "334ef59b9a8641f06d147e522286d865ee9e44134a1413a9494e689e40f21974",
+  "ds_downstream/views.json": "6d3cb6c7b863c4815a2af71af9cfaef00b8334ca3e4f25886f204d9af1d17d48",
+  "registrations/ADDENDUM_DS.md": "1f595e288c6b0851ebda7fdad4c234d103b3db693705d4194749c07225174a90",
+  "registrations/ADDENDUM_DS_AMENDMENT_3.md": "eca19607629c03d122f0e0ac66c50c3068978dcecd3be35296191aa3e2f3bce1",
+  "resp_review/l2/question_emb.npz": "341354661e40b7f0508d11f7a7274833064a600c02c7155310f237ae88d023cf",
+  "resp_review/l2/retrieval.json": "9b51d49fb842c3397a7d9e5a9efd5d2244edce85c4e21c573c1b9583a8f34b77"
+ },
+ "no_api_calls": true,
+ "outputs_sha256": {
+  "audit_ds.py": "55c636183799da002f71d5613919dfec49435c3782c9a38f192b84bfc9b08a4c",
+  "audit_step8.py": "5493c0feb9c09c9b46ee3f91fc1b140ba3383659397febdee0c4703598511668",
+  "gate_detector.json": "70c3e0461e1aa1515e8044a9797e6692abcf362d8181d412e7fb7059cb64fb79",
+  "gate_prompts.json": "8dae9884d4fecb2ceb36f390275874cc0f915a0cc52911e67dd7385d4e673ede",
+  "gate_retrieval.json": "dfa3895330a01bb47818284d0d697f32f835e66931012a97702ce1ee213a1969",
+  "gate_views.json": "a51b84af3c0d7c69e247dcd35d7b166e4c57a973036d227cfaa6fc7c437412d9",
+  "ledger_audit.py": "38600b665f886d063cf05e1c433897da6962f65101b1d683333d4a25b524da78",
+  "rows_master.jsonl": "36b7dfeca5b9d201eb0fdb59bc137b2e459460f538eb1a7b130b28f6770800a4",
+  "step1_synthetic.json": "0572a1e775b5ddd8e7e12e7f06c8f789340a7b43a259c2f75889908ba1ba329e",
+  "step2_overlap.json": "cbf858c810418ee016c07c144bf9a6f8748425ba2b4a6b30a7db86d3ca937f2a",
+  "step2_rescore.json": "2ea63936e529d7e5a953b4eb85303f97a04f90bb0fe73f52dc8f9aa51f82b6ad",
+  "step3_scored_text.json": "6e769dec708608635983bad60caa17f1fd4698e1f0380aba53e34998b7dda416",
+  "step4_counts.json": "d5c08c8e2d13d0c82a0c5494f461372b01eaf04c5d2713e98c41ee4ab8bf7e96",
+  "step4_labels.json": "7a06114c65521617659bfd2bd41cf39a2587d7f5e174fffa857e17f1d38b56b7",
+  "step4_labels.template.json": "288831f62be0317ba45fca4e6dad6642d236b203be461fe9b7d815a91c37a864",
+  "step4_sheets_present.md": "4780d729d0d675139dce14565951156af079a1cecc4a57ce89ffcf33898dfa7a",
+  "step4_sheets_stale.md": "ec923c0524368c8d05f31aa1d8bef115b822d85bb56cc104b01d34cbcd0c8b9b",
+  "step4b_view_lines.json": "2afb5263734b0628a94689cc891b0212e5785dd9beb6e7de13049c06bfa6b0df",
+  "step5_coverage.json": "f3748e7987fcb786364cf22f35e3d50a1cc0b14d6de36ece74ed4300d4886d80",
+  "step5_minilm_cache.npz": "b7897cdf58142e09be3c2c69b28a7885a86834cda560e8a50f980713fab48abf",
+  "step5_ranks.json": "fa94e3c3e9babbe5e3339cedf97f3b3b43cdf99489e86af1fc235e3cb4743123",
+  "step6_render.json": "34a97444b5b5c16d826cd72fee504fa744e108406125c46e7967a4b1939c2145",
+  "step6_render.md": "cf69a18ecdffed58b491490814ecbd42dd003baf0f62c3bcc48905685c9866b6",
+  "step7_length.json": "a157f13ea34d0b058855b6e8477f840acb7ff58eda861321dfbac1f96edfb481",
+  "step8_verdicts.json": "d86fb0f28becc25655a3d97a80d50f0a1b1b91c712512a60097aa1a99274d5d5"
+ },
+ "script_sha256": "55c636183799da002f71d5613919dfec49435c3782c9a38f192b84bfc9b08a4c",
+ "versions": {
+  "numpy": "2.4.2",
+  "python": "3.13.7",
+  "scipy": "1.17.1",
+  "sentence_transformers": "5.3.0",
+  "torch": "2.11.0+cpu"
+ },
+ "when": "2026-09-14T20:36:39",
+ "writes": [
+  "reviews/downstream_audit/*"
+ ]
+}

@@ -1,0 +1,33 @@
+# arXiv id: to be filled in after announcement. Add it to preferred-citation as
+#   identifiers:
+#     - type: other
+#       value: "arXiv:XXXX.XXXXX"
+#   url: "https://arxiv.org/abs/XXXX.XXXXX"
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the paper as below."
+title: "Knowing the Store: What a Memory Backend Must Write Down Before an Agent Can Read It"
+type: software
+authors:
+  - given-names: Ansuman
+    family-names: Mullick
+    affiliation: Bilkent University
+  - given-names: Eray
+    family-names: Tüzün
+    affiliation: Bilkent University
+repository-code: "https://github.com/ansh348/knowing-the-store"
+license:
+  - MIT
+  - CC-BY-4.0
+preferred-citation:
+  type: article
+  status: preprint
+  title: "Knowing the Store: What a Memory Backend Must Write Down Before an Agent Can Read It"
+  authors:
+    - given-names: Ansuman
+      family-names: Mullick
+      affiliation: Bilkent University
+    - given-names: Eray
+      family-names: Tüzün
+      affiliation: Bilkent University
+  year: 2026
+  journal: "arXiv preprint"

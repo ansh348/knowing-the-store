@@ -1,0 +1,347 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 7,
+    "in": 7010,
+    "out": 2666,
+    "usd": 0.0070696000000000005
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 4,
+  "persona": "callum",
+  "probes": [
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last",
+        "you"
+      ],
+      "max_cosine": 0.1599,
+      "note": "",
+      "question": "What was the last movie you watched at the cinema and what did you think of it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1599,
+          "entry_id": "lb_00360",
+          "text": "User spends most weekends in Edinburgh recently"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1597,
+          "entry_id": "lb_00253",
+          "text": "User left the NHS service a couple of weeks ago."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1494,
+          "entry_id": "lb_00352",
+          "text": "User has been visiting Edinburgh most weekends lately."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1488,
+          "entry_id": "lb_00258",
+          "text": "User left NHS veterinary service a couple of weeks ago."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1389,
+          "entry_id": "lb_00344",
+          "text": "User has been seeing Eilidh, a vet nurse at their practice, for a short time in a romantic relationship."
+        }
+      ],
+      "why_absent": "No information about Callum's movie watching habits or entertainment preferences is stored."
+    },
+    {
+      "domain": "Cooking",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "recipe",
+        "you"
+      ],
+      "max_cosine": 0.3745,
+      "note": "",
+      "question": "Can you tell me about your favorite recipe to cook when you have guests over?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3745,
+          "entry_id": "lb_00302",
+          "text": "User can cook and makes a good stew."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3288,
+          "entry_id": "lb_00350",
+          "text": "User plans to prepare chilli in a slow cooker by browning mince after their run and cooking it in the afternoon."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3236,
+          "entry_id": "lb_00348",
+          "text": "User does batch cooking on Sundays to have meals ready for the week"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.3228,
+          "entry_id": "lb_00237",
+          "text": "User identifies as someone who can't be bothered cooking properly."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3079,
+          "entry_id": "lb_00357",
+          "text": "User enjoys visiting Stockbridge Market on Sundays and likes sourdough and venison pie from there."
+        }
+      ],
+      "why_absent": "No details about specific recipes or cooking preferences beyond general cooking habits are stored."
+    },
+    {
+      "domain": "Music Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.33,
+      "note": "",
+      "question": "What kind of music do you usually listen to when relaxing at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.33,
+          "entry_id": "lb_00363",
+          "text": "User enjoys visiting the Royal Botanic Garden Edinburgh and finds it relaxing."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2765,
+          "entry_id": "lb_00128",
+          "text": "User lives in the Highlands and values the hills and quiet environment."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2643,
+          "entry_id": "lb_00362",
+          "text": "User has a weekend routine of staying in Stockbridge, Edinburgh, often at Eilidh's flat."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2624,
+          "entry_id": "lb_00125",
+          "text": "User prefers living in the Highlands for the hills and quiet environment."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2537,
+          "entry_id": "lb_00124",
+          "text": "User prefers living in a place with hills and quiet over a busy city like Glasgow."
+        }
+      ],
+      "why_absent": "No data on Callum's music tastes or listening habits is present."
+    },
+    {
+      "domain": "Education / Language Learning",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "get",
+        "you"
+      ],
+      "max_cosine": 0.2454,
+      "note": "",
+      "question": "Have you ever taken any language classes, and if so, which language and how far did you get?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2454,
+          "entry_id": "lb_00246",
+          "text": "User considered but decided against pursuing a course related to horses due to lack of interest."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1975,
+          "entry_id": "lb_00184",
+          "text": "User is considering a six-month equine surgery certificate course run through Edinburgh, involving distance learning and four practical blocks of one week each."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1844,
+          "entry_id": "lb_00083",
+          "text": "User studied for five years at Edinburgh for the BVetMed degree"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1796,
+          "entry_id": "lb_00078",
+          "text": "User had first year farm placements at Edinburgh which were very useful"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.179,
+          "entry_id": "lb_00177",
+          "text": "User is considering an equine surgery certificate course."
+        }
+      ],
+      "why_absent": "No information about language learning or language education is stored."
+    },
+    {
+      "domain": "Travel / Leisure",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "most",
+        "you"
+      ],
+      "max_cosine": 0.2729,
+      "note": "",
+      "question": "What was your most memorable holiday trip and what activities did you do there?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2729,
+          "entry_id": "lb_00355",
+          "text": "User has been spending most weekends in Edinburgh recently."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.272,
+          "entry_id": "lb_00360",
+          "text": "User spends most weekends in Edinburgh recently"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2604,
+          "entry_id": "lb_00401",
+          "text": "User visited Islay a couple years ago and toured Laphroaig, Ardbeg, and Lagavulin distilleries in one day."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2587,
+          "entry_id": "lb_00402",
+          "text": "User has visited Islay and toured the Laphroaig, Ardbeg, and Lagavulin distilleries in one day."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2559,
+          "entry_id": "lb_00352",
+          "text": "User has been visiting Edinburgh most weekends lately."
+        }
+      ],
+      "why_absent": "No travel experiences or holiday memories are recorded."
+    },
+    {
+      "domain": "Personal Pets",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.4962,
+      "note": "",
+      "question": "Do you have any pets at home besides the animals you care for professionally? If so, what are they?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.4962,
+          "entry_id": "lb_00133",
+          "text": "User works mostly with small animals, dogs and cats, in a mixed practice."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.4463,
+          "entry_id": "lb_00265",
+          "text": "User works in a small veterinary team of four vets including themselves and two vet nurses."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.4411,
+          "entry_id": "lb_00126",
+          "text": "User works in a profession related to animals but prefers not to work in a mostly small animal practice."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4387,
+          "entry_id": "lb_00272",
+          "text": "User works in a small veterinary practice with four vets including themselves and two vet nurses."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.4269,
+          "entry_id": "lb_00269",
+          "text": "User is part of a small veterinary team of four vets and two vet nurses."
+        }
+      ],
+      "why_absent": "No data about personal pets or animals outside of professional context is stored."
+    },
+    {
+      "domain": "Reading / Literature",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "free",
+        "time",
+        "you"
+      ],
+      "max_cosine": 0.185,
+      "note": "",
+      "question": "What kind of books do you enjoy reading in your free time, and do you have a favorite author?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.185,
+          "entry_id": "lb_00363",
+          "text": "User enjoys visiting the Royal Botanic Garden Edinburgh and finds it relaxing."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1817,
+          "entry_id": "lb_00357",
+          "text": "User enjoys visiting Stockbridge Market on Sundays and likes sourdough and venison pie from there."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1799,
+          "entry_id": "lb_00362",
+          "text": "User has a weekend routine of staying in Stockbridge, Edinburgh, often at Eilidh's flat."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1774,
+          "entry_id": "lb_00126",
+          "text": "User works in a profession related to animals but prefers not to work in a mostly small animal practice."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1722,
+          "entry_id": "lb_00355",
+          "text": "User has been spending most weekends in Edinburgh recently."
+        }
+      ],
+      "why_absent": "No information about Callum's reading habits or literary interests is available."
+    }
+  ],
+  "threshold": 0.295
+}

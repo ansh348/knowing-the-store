@@ -1,0 +1,349 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 18,
+    "in": 18853,
+    "out": 6741,
+    "usd": 0.0183268
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 4,
+  "persona": "joonho",
+  "probes": [
+    {
+      "domain": "Early Life Education",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "name"
+      ],
+      "max_cosine": 0.3073,
+      "note": "",
+      "question": "What was the name of the elementary school you attended as a child?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3073,
+          "entry_id": "lb_00327",
+          "text": "User previously taught mathematics to hundreds of students"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2991,
+          "entry_id": "lb_00269",
+          "text": "User is a teacher who has had students many years ago"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2852,
+          "entry_id": "lb_00045",
+          "text": "User spent 38 years teaching mathematics"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2783,
+          "entry_id": "lb_00270",
+          "text": "User was a teacher and had a master's student named Choi Sung-min in the early 1990s"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2774,
+          "entry_id": "lb_00273",
+          "text": "User was a teacher and had a master's student named Choi Sung-min in the early 1990s"
+        }
+      ],
+      "why_absent": "The memory store does not include details about early childhood or elementary education."
+    },
+    {
+      "domain": "Culinary Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "cook",
+        "favorite",
+        "home",
+        "korean"
+      ],
+      "max_cosine": 0.6857,
+      "note": "",
+      "question": "Can you describe your favorite traditional Korean dish to cook at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.6857,
+          "entry_id": "lb_00343",
+          "text": "User is Korean or familiar with Korean home cooking traditions"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.6411,
+          "entry_id": "lb_00018",
+          "text": "User prepares traditional Korean dishes such as galbitang and kkakdugi"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.4607,
+          "entry_id": "lb_00351",
+          "text": "User often eats simple meals such as rice with leftovers or ramyeon for lunch, and simpler dinners like rice, kimchi, and a fried egg."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.4497,
+          "entry_id": "lb_00023",
+          "text": "User is learning to cook galbitang following the method of Joon-seo's mother."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.4495,
+          "entry_id": "lb_00342",
+          "text": "User's recent dinner included rice, kimchi, and a fried egg"
+        }
+      ],
+      "why_absent": "No information about cooking habits or favorite homemade dishes is stored."
+    },
+    {
+      "domain": "Transportation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "kind",
+        "prefer"
+      ],
+      "max_cosine": 0.2397,
+      "note": "",
+      "question": "What kind of car do you currently drive or prefer to drive?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2397,
+          "entry_id": "lb_00012",
+          "text": "User prefers home-cooked meals over eating out"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2332,
+          "entry_id": "lb_00116",
+          "text": "User prefers analog media such as paper and ink over digital technology."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2205,
+          "entry_id": "lb_00186",
+          "text": "User prefers physical books but is transitioning to audiobooks due to difficulty with sustained reading"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1927,
+          "entry_id": "lb_00287",
+          "text": "User currently lives in Busan."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1923,
+          "entry_id": "lb_00348",
+          "text": "User prefers simple meals eaten properly with attention rather than elaborate meals eaten carelessly."
+        }
+      ],
+      "why_absent": "There is no data about vehicle ownership or transportation preferences."
+    },
+    {
+      "domain": "Travel History",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "enjoy",
+        "most"
+      ],
+      "max_cosine": 0.2949,
+      "note": "",
+      "question": "Have you ever traveled abroad for leisure? If so, which country did you enjoy the most?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2949,
+          "entry_id": "lb_00366",
+          "text": "User chose to prioritize family over pursuing research abroad."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2815,
+          "entry_id": "lb_00372",
+          "text": "User spent years at one university instead of pursuing research abroad for family reasons"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2686,
+          "entry_id": "lb_00365",
+          "text": "User spent years at one university instead of pursuing research abroad."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2436,
+          "entry_id": "lb_00071",
+          "text": "User remained in Korea for personal reasons including an unwell mother and recent marriage."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2293,
+          "entry_id": "lb_00276",
+          "text": "User plays go against opponents from diverse countries including China, Japan, Taiwan, Europe, and Brazil."
+        }
+      ],
+      "why_absent": "The memory store lacks any travel or vacation history."
+    },
+    {
+      "domain": "Music Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "enjoy",
+        "favorite"
+      ],
+      "max_cosine": 0.2384,
+      "note": "",
+      "question": "What is your favorite genre of music or a musician you enjoy listening to?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2384,
+          "entry_id": "lb_00054",
+          "text": "User enjoys reading poetry, mathematics, and go."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2318,
+          "entry_id": "lb_00049",
+          "text": "User enjoys reading poetry and mathematics."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2299,
+          "entry_id": "lb_00187",
+          "text": "User reads Korean poetry, essays, and history, with a preference for poetry and essays in audio format and history in print or screen format"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2284,
+          "entry_id": "lb_00183",
+          "text": "User primarily reads poetry, essays, and history"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2273,
+          "entry_id": "lb_00048",
+          "text": "User enjoys reading poetry"
+        }
+      ],
+      "why_absent": "No information about musical tastes or listening habits is present."
+    },
+    {
+      "domain": "Pets and Animals",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "home",
+        "kind"
+      ],
+      "max_cosine": 0.2238,
+      "note": "",
+      "question": "Do you have any pets at home? If yes, what kind and what are their names?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2238,
+          "entry_id": "lb_00380",
+          "text": "User lives alone in an apartment"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2209,
+          "entry_id": "lb_00302",
+          "text": "User has a son named Joon-seo and a daughter-in-law named Soo-yeon who live in Seoul."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2205,
+          "entry_id": "lb_00343",
+          "text": "User is Korean or familiar with Korean home cooking traditions"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2138,
+          "entry_id": "lb_00265",
+          "text": "User has a son named Joon-seo who lives in Seoul and gave the user a Samsung tablet."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2098,
+          "entry_id": "lb_00011",
+          "text": "User has a son who lives in Seoul"
+        }
+      ],
+      "why_absent": "There is no record of pet ownership or related details."
+    },
+    {
+      "domain": "Daily Transportation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "club",
+        "local",
+        "preferred"
+      ],
+      "max_cosine": 0.5569,
+      "note": "",
+      "question": "What is your preferred method of transportation when going to the local go club?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.5569,
+          "entry_id": "lb_00202",
+          "text": "User plays go regularly and attends a go club during the week."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.5416,
+          "entry_id": "lb_00197",
+          "text": "User is a member of a go club and discusses go there."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.509,
+          "entry_id": "lb_00036",
+          "text": "User participates in a Go club which provides essential structure and social interaction."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.4932,
+          "entry_id": "lb_00248",
+          "text": "User teaches at a go club."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4033,
+          "entry_id": "lb_00282",
+          "text": "User is part of a small go club ecosystem but also engages with a vast online go ecosystem."
+        }
+      ],
+      "why_absent": "Transportation methods for daily activities are not covered in the memory store."
+    }
+  ],
+  "threshold": 0.295
+}

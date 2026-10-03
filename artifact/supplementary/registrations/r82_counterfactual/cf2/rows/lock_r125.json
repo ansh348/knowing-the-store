@@ -1,0 +1,164 @@
+{
+ "anthropic_prices": {
+  "batch_mult": 0.5,
+  "claude-haiku-4-5-20251001": [
+   1.0,
+   5.0
+  ],
+  "claude-opus-5": [
+   5.0,
+   25.0
+  ]
+ },
+ "caps": {
+  "anthropic": 10.0,
+  "openai": 10.0
+ },
+ "freeze_file": "reviews\\r125\\FREEZE_R125.md",
+ "lanes": {
+  "NC-LUNA": {
+   "arms": [
+    "INDEXED-NAMES",
+    "INDEXED-COUNTS"
+   ],
+   "k": 5,
+   "kind": "raw",
+   "max_completion_tokens": 2048,
+   "model": "gpt-5.6-luna",
+   "task": "T5",
+   "vendor": "openai"
+  },
+  "NC-OP5": {
+   "arms": [
+    "INDEXED-NAMES",
+    "INDEXED-COUNTS"
+   ],
+   "code": "OP5",
+   "k": 1,
+   "kind": "batch",
+   "max_tokens": 1024,
+   "model": "claude-opus-5",
+   "price": [
+    5.0,
+    25.0
+   ],
+   "task": "T5",
+   "temperature": null,
+   "vendor": "anthropic"
+  },
+  "NC-SOL": {
+   "arms": [
+    "INDEXED-NAMES",
+    "INDEXED-COUNTS"
+   ],
+   "k": 1,
+   "kind": "raw",
+   "max_completion_tokens": 2048,
+   "model": "gpt-5.6-sol",
+   "task": "T5",
+   "vendor": "openai"
+  },
+  "SB-H45": {
+   "arms": [
+    "SIBLING"
+   ],
+   "code": "H45",
+   "k": 5,
+   "kind": "batch",
+   "max_tokens": 200,
+   "model": "claude-haiku-4-5-20251001",
+   "price": [
+    1.0,
+    5.0
+   ],
+   "task": "T4",
+   "temperature": 0.0,
+   "vendor": "anthropic"
+  },
+  "SB-LUNA": {
+   "arms": [
+    "SIBLING"
+   ],
+   "k": 5,
+   "kind": "raw",
+   "max_completion_tokens": 2048,
+   "model": "gpt-5.6-luna",
+   "task": "T4",
+   "vendor": "openai"
+  },
+  "SB-MINI5": {
+   "arms": [
+    "SIBLING"
+   ],
+   "k": 5,
+   "kind": "chat",
+   "max_tokens": 200,
+   "model": "gpt-4.1-mini",
+   "task": "T4",
+   "temperature": null,
+   "vendor": "openai"
+  },
+  "SB-OP5": {
+   "arms": [
+    "SIBLING"
+   ],
+   "code": "OP5",
+   "k": 1,
+   "kind": "batch",
+   "max_tokens": 1024,
+   "model": "claude-opus-5",
+   "price": [
+    5.0,
+    25.0
+   ],
+   "task": "T4",
+   "temperature": null,
+   "vendor": "anthropic"
+  },
+  "SB-SOL": {
+   "arms": [
+    "SIBLING"
+   ],
+   "k": 1,
+   "kind": "raw",
+   "max_completion_tokens": 2048,
+   "model": "gpt-5.6-sol",
+   "task": "T4",
+   "vendor": "openai"
+  }
+ },
+ "n_sibling": 88,
+ "nc_texts_sha256": {
+  "INDEXED-COUNTS": "1187e126d7671768d5848059e8c7eb93c0194f64100209a6054636f45f1eb0e8",
+  "INDEXED-NAMES": "d901ebefef3b1e6ba9d9cdc1ab008bb8e08988a413154bd125674e55e2c993db"
+ },
+ "prices": {
+  "gpt-4.1-mini": {
+   "cached": 0.1,
+   "inp": 0.4,
+   "out": 1.6,
+   "write_mult": 1.0
+  },
+  "gpt-5.6-luna": {
+   "cached": 0.02,
+   "inp": 0.2,
+   "out": 1.2,
+   "write_mult": 1.25
+  },
+  "gpt-5.6-sol": {
+   "cached": 0.4,
+   "inp": 4.0,
+   "out": 20.0,
+   "write_mult": 1.25
+  }
+ },
+ "prompts_file_sha256": "337d37d3414c04823d28ad99eeab15c34e328e60198d68625452ebf330830b84",
+ "prompts_texts_sha256": "35d9b968ffc0b008289a59b06f10b7d23f71658c648dd2865a46e8da15d495f2",
+ "registrations": {
+  "ADDENDUM_R125_E2_AMENDMENT_1.md": "41182fa7697dc402914aecea57a8bdf504b832c86f83fab136d96e5f2541462e",
+  "ADDENDUM_R125_SIBLING.md": "62078c878a1654377a3a36bab0883f6e15914bdb96454eb09961c3c54ee7c350"
+ },
+ "runner_sha256": "2be150f2ed0c4357e55ad79bc0ecd66b4228151a8dc984a63b671323bb735c43",
+ "sibling_texts_sha256": "f54a7527d37d1a55a121c40558829847e2d7e05d5e5d03aea663f0f2eaed7687",
+ "when": "2026-09-20T12:03:19"
+}

@@ -1,0 +1,30 @@
+%%BLOCK cf_hybrid%%
+%% R124 E1: tab:cf-hybrid, written by reviews/v21/tools/ledger_hybrid_r124.py from r82_counterfactual/cf2/results/cf_scores_hybrid.json (NUMBERS_CF2.md section 14e, AUX-CF2-HYB-*); do not edit by hand.
+\begin{table}[H]
+\caption{A hybrid reader with no generative-model call on the counterfactual set (registered; ADDENDUM\_CF2\_HYBRID\_READER): a logistic regression of the label on the name lookup's cosine, the category-guessing reader's share and an indicator that a category was assigned, fitted under leave-persona-out over the $40$ personas and scored out of fold, under the superseded-only summary. Upper panel: whole set and per state with the persona interval, and the paired differences against the name lookup and the category-guessing reader with both intervals. Lower panel: each model's recorded row minus the hybrid. Predicted before the run: that the hybrid exceeds the name lookup reliably (it does not: the item-level interval includes zero, a failed prediction) and that GPT-5.6 Sol stays reliably above it (as predicted). The fitted coefficients on the standardized features range over the folds from $+1.13$ to $+1.29$ on the lookup and $+0.39$ to $+0.53$ on the share.}
+\label{tab:cf-hybrid}
+\centering\tiny\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lrlrll@{}}
+\toprule
+Scope & hybrid & persona interval & minus the lookup & item interval & persona interval \\
+\midrule
+whole set & $0.7865$ & $[0.7488,0.8234]$ & $+0.0201$ & $[-0.0016,+0.0410]$ & $[+0.0039,+0.0409]$ \\
+supersession & $0.9070$ & -- & $-0.0153$ & $[-0.0293,-0.0029]$ & $[-0.0306,-0.0018]$ \\
+retraction & $0.5889$ & -- & $+0.0889$ & $[+0.0120,+0.1673]$ & $[+0.0477,+0.1483]$ \\
+expiry & $0.5942$ & -- & $+0.0942$ & $[+0.0165,+0.1717]$ & $[+0.0517,+0.1635]$ \\
+whole set, minus the category-guessing reader & & & $+0.1242$ & $[+0.0668,+0.1816]$ & $[+0.0825,+0.1656]$ \\
+\bottomrule
+\end{tabular}\\[4pt]
+\begin{tabular}{@{}lrrll@{}}
+\toprule
+Model (recorded row) & model & minus the hybrid & item interval & persona interval \\
+\midrule
+GPT-4.1 mini & $0.7167$ & $-0.0698$ & $[-0.1187,-0.0192]$ & $[-0.1094,-0.0316]$ \\
+Haiku 4.5 & $0.7566$ & $-0.0299$ & $[-0.0862,+0.0210]$ & $[-0.0694,+0.0093]$ \\
+Opus 5 & $0.8405$ & $+0.0540$ & $[+0.0061,+0.1004]$ & $[+0.0188,+0.0888]$ \\
+GPT-5.6 Sol & $0.8500$ & $+0.0635$ & $[+0.0214,+0.1108]$ & $[+0.0346,+0.0913]$ \\
+GPT-5.6 Luna & $0.8417$ & $+0.0553$ & $[+0.0169,+0.0987]$ & $[+0.0245,+0.0864]$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+%%END cf_hybrid%%

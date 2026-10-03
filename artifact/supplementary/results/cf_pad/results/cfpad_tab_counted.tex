@@ -1,0 +1,27 @@
+% CFPAD-TABLE counted (written by cf_pad/tools/cfpad_tex.py from cf_pad/results/cf_pad_scores.json; spliced at its per-table marker by reviews/v23/tools/build_v23.py; do not edit by hand)
+\begin{table}[H]
+\caption{The long-list check on retraction and expiry, $90$ items and $30$ triples each (descriptive): unpadded/padded/the paired difference, pooled and matched, per state. The padded list names neither state and a triple's three versions carry identical padded lists, so the lookups tie every triple on both states by construction. $^{*}$: both intervals exclude zero.}
+\label{tab:cfpad-counted}
+\centering
+\tiny
+\setlength{\tabcolsep}{1pt}
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Reader & retraction, pooled & retraction, matched & expiry, pooled & expiry, matched \\
+\midrule
+Name lookup & $0.5000$/$0.5000$/$+0.0000$ & $0.5000$/$0.5000$/$+0.0000$ & $0.5000$/$0.5000$/$+0.0000$ & $0.5000$/$0.5000$/$+0.0000$ \\
+Lexical lookup & $0.5000$/$0.5000$/$+0.0000$ & $0.5000$/$0.5000$/$+0.0000$ & $0.5000$/$0.5000$/$+0.0000$ & $0.5000$/$0.5000$/$+0.0000$ \\
+Random-token lookup & $0.5000$/$0.5000$/$+0.0000$ & $0.5000$/$0.5000$/$+0.0000$ & $0.5000$/$0.5000$/$+0.0000$ & $0.5000$/$0.5000$/$+0.0000$ \\
+\midrule
+GPT-4.1 mini & $0.5761$/$0.5597$/$-0.0164$ & $0.5667$/$0.6667$/$+0.1000$ & $0.5594$/$0.5147$/$-0.0447$ & $0.4000$/$0.5500$/$+0.1500$ \\
+Haiku 4.5 & $0.5433$/$0.5014$/$-0.0419$ & $0.5667$/$0.3833$/$-0.1833$$^{*}$ & $0.5794$/$0.5606$/$-0.0189$ & $0.5833$/$0.4833$/$-0.1000$ \\
+GPT-5.6 Luna & $0.5458$/$0.4956$/$-0.0503$ & $0.6500$/$0.7333$/$+0.0833$ & $0.6167$/$0.5700$/$-0.0467$ & $0.8667$/$0.8000$/$-0.0667$ \\
+GPT-5.6 Sol & $0.5322$/$0.4636$/$-0.0686$ & $0.5833$/$0.4000$/$-0.1833$ & $0.6403$/$0.5728$/$-0.0675$ & $0.8333$/$0.6667$/$-0.1667$ \\
+Opus 5$^{a}$ & $0.5872$/$0.5206$/$-0.0667$$^{*}$ & $0.7667$/$0.5667$/$-0.2000$ & $0.6150$/$0.6031$/$-0.0119$ & $0.6833$/$0.6333$/$-0.0500$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.97\linewidth}\scriptsize
+$^{a}$Opus 5: one draw; recorded row five draws.
+\end{minipage}
+\end{table}

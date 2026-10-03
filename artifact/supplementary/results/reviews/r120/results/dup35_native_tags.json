@@ -1,0 +1,6824 @@
+{
+ "gt_lock_lines": 3538,
+ "instances": 272,
+ "items": 35,
+ "items_every_duplicate_active_natively": 13,
+ "items_with_a_duplicate_non_active_natively": 22,
+ "native_state_by_instance": {
+  "active": 118,
+  "expired": 12,
+  "retracted, superseded": 1,
+  "superseded": 127,
+  "superseded, expired": 14
+ },
+ "native_state_by_unique_line": {
+  "active": 25,
+  "expired": 4,
+  "retracted, superseded": 1,
+  "superseded": 28,
+  "superseded, expired": 4
+ },
+ "rows": [
+  {
+   "age": "437 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00227",
+   "item_id": "frbank:aisha:aisha_q01:FULL",
+   "job_key": "frbank:aisha:aisha_q01:FULL|e917b5d570881987",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "aisha",
+   "policy": "ORACLE",
+   "rank": 1,
+   "text": "User works at PwC."
+  },
+  {
+   "age": "437 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00224",
+   "item_id": "frbank:aisha:aisha_q01:FULL",
+   "job_key": "frbank:aisha:aisha_q01:FULL|e917b5d570881987",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "aisha",
+   "policy": "ORACLE",
+   "rank": 4,
+   "text": "User works at PwC and is sponsored by them for the ACA qualification."
+  },
+  {
+   "age": "106 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "job_sector",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00444",
+   "item_id": "frbank:aisha:aisha_q01:FULL",
+   "job_key": "frbank:aisha:aisha_q01:FULL|e917b5d570881987",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "aisha",
+   "policy": "ORACLE",
+   "rank": 5,
+   "text": "User works in corporate finance and M&A roles, currently at PwC."
+  },
+  {
+   "age": "437 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00227",
+   "item_id": "frbank:aisha:aisha_q01:CAT-ABLATED",
+   "job_key": "frbank:aisha:aisha_q01:CAT-ABLATED|937b558e78122a93",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "aisha",
+   "policy": "ORACLE",
+   "rank": 1,
+   "text": "User works at PwC."
+  },
+  {
+   "age": "106 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "job_sector",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00444",
+   "item_id": "frbank:aisha:aisha_q01:CAT-ABLATED",
+   "job_key": "frbank:aisha:aisha_q01:CAT-ABLATED|937b558e78122a93",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "aisha",
+   "policy": "ORACLE",
+   "rank": 4,
+   "text": "User works in corporate finance and M&A roles, currently at PwC."
+  },
+  {
+   "age": "503 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00120",
+   "item_id": "frbank:aisha:aisha_q01:CAT-ABLATED",
+   "job_key": "frbank:aisha:aisha_q01:CAT-ABLATED|937b558e78122a93",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "aisha",
+   "policy": "ORACLE",
+   "rank": 5,
+   "text": "User works at PwC and is pursuing the ACA qualification."
+  },
+  {
+   "age": "437 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00227",
+   "item_id": "frbank:aisha:aisha_q01:SLOT-ABLATED",
+   "job_key": "frbank:aisha:aisha_q01:SLOT-ABLATED|e917b5d570881987",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "aisha",
+   "policy": "ORACLE",
+   "rank": 1,
+   "text": "User works at PwC."
+  },
+  {
+   "age": "437 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00224",
+   "item_id": "frbank:aisha:aisha_q01:SLOT-ABLATED",
+   "job_key": "frbank:aisha:aisha_q01:SLOT-ABLATED|e917b5d570881987",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "aisha",
+   "policy": "ORACLE",
+   "rank": 4,
+   "text": "User works at PwC and is sponsored by them for the ACA qualification."
+  },
+  {
+   "age": "106 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "job_sector",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00444",
+   "item_id": "frbank:aisha:aisha_q01:SLOT-ABLATED",
+   "job_key": "frbank:aisha:aisha_q01:SLOT-ABLATED|e917b5d570881987",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "aisha",
+   "policy": "ORACLE",
+   "rank": 5,
+   "text": "User works in corporate finance and M&A roles, currently at PwC."
+  },
+  {
+   "age": "419 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00174",
+   "item_id": "frbank:bruna:bruna_q06:FULL",
+   "job_key": "frbank:bruna:bruna_q06:FULL|ec2b9f9d36cb55c2",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded, expired",
+   "persona": "bruna",
+   "policy": "ALWAYS",
+   "rank": 3,
+   "text": "User enrolled in a dry needling certification course starting in April 2025"
+  },
+  {
+   "age": "419 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00174",
+   "item_id": "frbank:bruna:bruna_q06:FULL",
+   "job_key": "frbank:bruna:bruna_q06:FULL|ec2b9f9d36cb55c2",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded, expired",
+   "persona": "bruna",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User enrolled in a dry needling certification course starting in April 2025"
+  },
+  {
+   "age": "419 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00174",
+   "item_id": "frbank:bruna:bruna_q06:FULL",
+   "job_key": "frbank:bruna:bruna_q06:FULL|ec2b9f9d36cb55c2",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded, expired",
+   "persona": "bruna",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User enrolled in a dry needling certification course starting in April 2025"
+  },
+  {
+   "age": "419 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00174",
+   "item_id": "frbank:bruna:bruna_q06:SLOT-ABLATED",
+   "job_key": "frbank:bruna:bruna_q06:SLOT-ABLATED|ec2b9f9d36cb55c2",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded, expired",
+   "persona": "bruna",
+   "policy": "ALWAYS",
+   "rank": 3,
+   "text": "User enrolled in a dry needling certification course starting in April 2025"
+  },
+  {
+   "age": "419 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00174",
+   "item_id": "frbank:bruna:bruna_q06:SLOT-ABLATED",
+   "job_key": "frbank:bruna:bruna_q06:SLOT-ABLATED|ec2b9f9d36cb55c2",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded, expired",
+   "persona": "bruna",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User enrolled in a dry needling certification course starting in April 2025"
+  },
+  {
+   "age": "419 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00174",
+   "item_id": "frbank:bruna:bruna_q06:SLOT-ABLATED",
+   "job_key": "frbank:bruna:bruna_q06:SLOT-ABLATED|ec2b9f9d36cb55c2",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded, expired",
+   "persona": "bruna",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User enrolled in a dry needling certification course starting in April 2025"
+  },
+  {
+   "age": "386 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00162",
+   "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+   "job_key": "frbank:dariush:dariush_q04:SLOT-ABLATED|94c96d033edb1991",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "dariush",
+   "policy": "ALWAYS",
+   "rank": 4,
+   "text": "User is planning to open a second periodontal surgical suite in La Jolla on Prospect Street."
+  },
+  {
+   "age": "386 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00162",
+   "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+   "job_key": "frbank:dariush:dariush_q04:SLOT-ABLATED|94c96d033edb1991",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "dariush",
+   "policy": "LOOKUP-LIT",
+   "rank": 4,
+   "text": "User is planning to open a second periodontal surgical suite in La Jolla on Prospect Street."
+  },
+  {
+   "age": "386 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00162",
+   "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+   "job_key": "frbank:dariush:dariush_q04:SLOT-ABLATED|d67c2ca9d3628556",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "dariush",
+   "policy": "ORACLE",
+   "rank": 4,
+   "text": "User is planning to open a second periodontal surgical suite in La Jolla on Prospect Street."
+  },
+  {
+   "age": "386 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00162",
+   "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+   "job_key": "frbank:dariush:dariush_q04:SLOT-ABLATED|d67c2ca9d3628556",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "dariush",
+   "policy": "MODEL",
+   "rank": 4,
+   "text": "User is planning to open a second periodontal surgical suite in La Jolla on Prospect Street."
+  },
+  {
+   "age": "386 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00162",
+   "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+   "job_key": "frbank:dariush:dariush_q04:SLOT-ABLATED|a821ddcdd5768637",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "dariush",
+   "policy": "MODEL-ALL",
+   "rank": 4,
+   "text": "User is planning to open a second periodontal surgical suite in La Jolla on Prospect Street."
+  },
+  {
+   "age": "71 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "job_shift",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00499",
+   "item_id": "frbank:elena:elena_q01:CAT-ABLATED",
+   "job_key": "frbank:elena:elena_q01:CAT-ABLATED|20a14635103a2dba",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "elena",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User works night shifts at a hospital"
+  },
+  {
+   "age": "423 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "job_title",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00112",
+   "item_id": "frbank:elena:elena_q01:CAT-ABLATED",
+   "job_key": "frbank:elena:elena_q01:CAT-ABLATED|20a14635103a2dba",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "elena",
+   "policy": "ORACLE",
+   "rank": 4,
+   "text": "User is a pediatric nurse who works shifts helping children."
+  },
+  {
+   "age": "71 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "job_shift",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00499",
+   "item_id": "frbank:elena:elena_q01:CAT-ABLATED",
+   "job_key": "frbank:elena:elena_q01:CAT-ABLATED|90c444c941500e93",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "elena",
+   "policy": "MODEL",
+   "rank": 3,
+   "text": "User works night shifts at a hospital"
+  },
+  {
+   "age": "423 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "job_title",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00112",
+   "item_id": "frbank:elena:elena_q01:CAT-ABLATED",
+   "job_key": "frbank:elena:elena_q01:CAT-ABLATED|90c444c941500e93",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "elena",
+   "policy": "MODEL",
+   "rank": 4,
+   "text": "User is a pediatric nurse who works shifts helping children."
+  },
+  {
+   "age": "71 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "job_shift",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00499",
+   "item_id": "frbank:elena:elena_q01:CAT-ABLATED",
+   "job_key": "frbank:elena:elena_q01:CAT-ABLATED|90c444c941500e93",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "elena",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User works night shifts at a hospital"
+  },
+  {
+   "age": "423 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "job_title",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00112",
+   "item_id": "frbank:elena:elena_q01:CAT-ABLATED",
+   "job_key": "frbank:elena:elena_q01:CAT-ABLATED|90c444c941500e93",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "elena",
+   "policy": "LOOKUP-LIT",
+   "rank": 4,
+   "text": "User is a pediatric nurse who works shifts helping children."
+  },
+  {
+   "age": "71 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "job_shift",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00499",
+   "item_id": "frbank:elena:elena_q01:CAT-ABLATED",
+   "job_key": "frbank:elena:elena_q01:CAT-ABLATED|9a04fd185b365bcc",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "elena",
+   "policy": "MODEL-ALL",
+   "rank": 3,
+   "text": "User works night shifts at a hospital"
+  },
+  {
+   "age": "423 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "job_title",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00112",
+   "item_id": "frbank:elena:elena_q01:CAT-ABLATED",
+   "job_key": "frbank:elena:elena_q01:CAT-ABLATED|9a04fd185b365bcc",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "elena",
+   "policy": "MODEL-ALL",
+   "rank": 4,
+   "text": "User is a pediatric nurse who works shifts helping children."
+  },
+  {
+   "age": "342 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00183",
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "job_key": "frbank:fatima:fatima_q06:FULL|76820499dbdbc738",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "fatima",
+   "policy": "ALWAYS",
+   "rank": 2,
+   "text": "User is launching a premium home fragrance line called Oud & Geometry as a lifestyle extension of their design brand."
+  },
+  {
+   "age": "342 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00180",
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "job_key": "frbank:fatima:fatima_q06:FULL|76820499dbdbc738",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "fatima",
+   "policy": "ALWAYS",
+   "rank": 3,
+   "text": "User is developing a home fragrance line called Oud & Geometry as a brand extension of their interior design firm."
+  },
+  {
+   "age": "342 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00183",
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "job_key": "frbank:fatima:fatima_q06:FULL|d17a217596fb18b8",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "fatima",
+   "policy": "ORACLE",
+   "rank": 2,
+   "text": "User is launching a premium home fragrance line called Oud & Geometry as a lifestyle extension of their design brand."
+  },
+  {
+   "age": "342 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00180",
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "job_key": "frbank:fatima:fatima_q06:FULL|d17a217596fb18b8",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "fatima",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User is developing a home fragrance line called Oud & Geometry as a brand extension of their interior design firm."
+  },
+  {
+   "age": "342 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00183",
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "job_key": "frbank:fatima:fatima_q06:FULL|ef304ed5812e1f0b",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "fatima",
+   "policy": "MODEL",
+   "rank": 2,
+   "text": "User is launching a premium home fragrance line called Oud & Geometry as a lifestyle extension of their design brand."
+  },
+  {
+   "age": "342 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00180",
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "job_key": "frbank:fatima:fatima_q06:FULL|ef304ed5812e1f0b",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "fatima",
+   "policy": "MODEL",
+   "rank": 3,
+   "text": "User is developing a home fragrance line called Oud & Geometry as a brand extension of their interior design firm."
+  },
+  {
+   "age": "342 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00183",
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "job_key": "frbank:fatima:fatima_q06:FULL|ef304ed5812e1f0b",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "fatima",
+   "policy": "LOOKUP-LIT",
+   "rank": 2,
+   "text": "User is launching a premium home fragrance line called Oud & Geometry as a lifestyle extension of their design brand."
+  },
+  {
+   "age": "342 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00180",
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "job_key": "frbank:fatima:fatima_q06:FULL|ef304ed5812e1f0b",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "fatima",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User is developing a home fragrance line called Oud & Geometry as a brand extension of their interior design firm."
+  },
+  {
+   "age": "342 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00183",
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "job_key": "frbank:fatima:fatima_q06:FULL|71a7fb9cbf2ef87e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "fatima",
+   "policy": "MODEL-ALL",
+   "rank": 2,
+   "text": "User is launching a premium home fragrance line called Oud & Geometry as a lifestyle extension of their design brand."
+  },
+  {
+   "age": "342 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00180",
+   "item_id": "frbank:fatima:fatima_q06:FULL",
+   "job_key": "frbank:fatima:fatima_q06:FULL|71a7fb9cbf2ef87e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "fatima",
+   "policy": "MODEL-ALL",
+   "rank": 3,
+   "text": "User is developing a home fragrance line called Oud & Geometry as a brand extension of their interior design firm."
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:FULL",
+   "job_key": "frbank:ingrid:ingrid_q01:FULL|9d29859c3877048a",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:FULL",
+   "job_key": "frbank:ingrid:ingrid_q01:FULL|9d29859c3877048a",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "MODEL",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:FULL",
+   "job_key": "frbank:ingrid:ingrid_q01:FULL|9d29859c3877048a",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "LOOKUP",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:FULL",
+   "job_key": "frbank:ingrid:ingrid_q01:FULL|9d29859c3877048a",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:FULL",
+   "job_key": "frbank:ingrid:ingrid_q01:FULL|61a232e52bddd491",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "MODEL-ALL",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:FULL",
+   "job_key": "frbank:ingrid:ingrid_q01:FULL|61a232e52bddd491",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "LOOKUP-ALL",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:CAT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q01:CAT-ABLATED|5344bfe3b9eac04a",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:CAT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q01:CAT-ABLATED|5344bfe3b9eac04a",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "MODEL",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:CAT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q01:CAT-ABLATED|5344bfe3b9eac04a",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "LOOKUP",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:CAT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q01:CAT-ABLATED|5344bfe3b9eac04a",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:CAT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q01:CAT-ABLATED|6154a72ed4ebcd04",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "MODEL-ALL",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:CAT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q01:CAT-ABLATED|6154a72ed4ebcd04",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "LOOKUP-ALL",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:SLOT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q01:SLOT-ABLATED|f0a292a92f80ae35",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:SLOT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q01:SLOT-ABLATED|f0a292a92f80ae35",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "MODEL",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:SLOT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q01:SLOT-ABLATED|f0a292a92f80ae35",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "LOOKUP",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:SLOT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q01:SLOT-ABLATED|f0a292a92f80ae35",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:SLOT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q01:SLOT-ABLATED|2b00d3d299fee09e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "MODEL-ALL",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "327 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "research_focus",
+   "category": "INTELLECTUAL_INTERESTS",
+   "entry_id": "lb_00223",
+   "item_id": "frbank:ingrid:ingrid_q01:SLOT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q01:SLOT-ABLATED|2b00d3d299fee09e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "ingrid",
+   "policy": "LOOKUP-ALL",
+   "rank": 3,
+   "text": "User's previous primary research focus was long-term monitoring of Arctic cod stock decline in the Barents Sea"
+  },
+  {
+   "age": "466 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00078",
+   "item_id": "frbank:ingrid:ingrid_q04:FULL",
+   "job_key": "frbank:ingrid:ingrid_q04:FULL|0d259b789fae9132",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "expired",
+   "persona": "ingrid",
+   "policy": "ALWAYS",
+   "rank": 2,
+   "text": "User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026"
+  },
+  {
+   "age": "317 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00230",
+   "item_id": "frbank:ingrid:ingrid_q04:FULL",
+   "job_key": "frbank:ingrid:ingrid_q04:FULL|0d259b789fae9132",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "ingrid",
+   "policy": "ALWAYS",
+   "rank": 4,
+   "text": "User was invited to spend a sabbatical year at Woods Hole Oceanographic Institution"
+  },
+  {
+   "age": "466 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00078",
+   "item_id": "frbank:ingrid:ingrid_q04:FULL",
+   "job_key": "frbank:ingrid:ingrid_q04:FULL|0d259b789fae9132",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "expired",
+   "persona": "ingrid",
+   "policy": "LOOKUP-LIT",
+   "rank": 2,
+   "text": "User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026"
+  },
+  {
+   "age": "317 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00230",
+   "item_id": "frbank:ingrid:ingrid_q04:FULL",
+   "job_key": "frbank:ingrid:ingrid_q04:FULL|0d259b789fae9132",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "ingrid",
+   "policy": "LOOKUP-LIT",
+   "rank": 4,
+   "text": "User was invited to spend a sabbatical year at Woods Hole Oceanographic Institution"
+  },
+  {
+   "age": "466 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00078",
+   "item_id": "frbank:ingrid:ingrid_q04:FULL",
+   "job_key": "frbank:ingrid:ingrid_q04:FULL|17cca38cab630760",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "expired",
+   "persona": "ingrid",
+   "policy": "ORACLE",
+   "rank": 2,
+   "text": "User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026"
+  },
+  {
+   "age": "317 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00230",
+   "item_id": "frbank:ingrid:ingrid_q04:FULL",
+   "job_key": "frbank:ingrid:ingrid_q04:FULL|17cca38cab630760",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "ingrid",
+   "policy": "ORACLE",
+   "rank": 4,
+   "text": "User was invited to spend a sabbatical year at Woods Hole Oceanographic Institution"
+  },
+  {
+   "age": "466 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00078",
+   "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q04:CAT-ABLATED|9e515bcb2cb596d9",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "expired",
+   "persona": "ingrid",
+   "policy": "ALWAYS",
+   "rank": 1,
+   "text": "User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026"
+  },
+  {
+   "age": "317 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00230",
+   "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q04:CAT-ABLATED|9e515bcb2cb596d9",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "ingrid",
+   "policy": "ALWAYS",
+   "rank": 2,
+   "text": "User was invited to spend a sabbatical year at Woods Hole Oceanographic Institution"
+  },
+  {
+   "age": "466 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00078",
+   "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q04:CAT-ABLATED|9e515bcb2cb596d9",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "expired",
+   "persona": "ingrid",
+   "policy": "LOOKUP-LIT",
+   "rank": 1,
+   "text": "User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026"
+  },
+  {
+   "age": "317 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00230",
+   "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q04:CAT-ABLATED|9e515bcb2cb596d9",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "ingrid",
+   "policy": "LOOKUP-LIT",
+   "rank": 2,
+   "text": "User was invited to spend a sabbatical year at Woods Hole Oceanographic Institution"
+  },
+  {
+   "age": "466 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00078",
+   "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q04:CAT-ABLATED|766a0fa846b1578c",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "expired",
+   "persona": "ingrid",
+   "policy": "ORACLE",
+   "rank": 1,
+   "text": "User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026"
+  },
+  {
+   "age": "317 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00230",
+   "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q04:CAT-ABLATED|766a0fa846b1578c",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "ingrid",
+   "policy": "ORACLE",
+   "rank": 2,
+   "text": "User was invited to spend a sabbatical year at Woods Hole Oceanographic Institution"
+  },
+  {
+   "age": "466 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00078",
+   "item_id": "frbank:ingrid:ingrid_q04:SLOT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q04:SLOT-ABLATED|b17273a99f545c47",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "expired",
+   "persona": "ingrid",
+   "policy": "ALWAYS",
+   "rank": 1,
+   "text": "User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026"
+  },
+  {
+   "age": "317 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00230",
+   "item_id": "frbank:ingrid:ingrid_q04:SLOT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q04:SLOT-ABLATED|b17273a99f545c47",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "ingrid",
+   "policy": "ALWAYS",
+   "rank": 3,
+   "text": "User was invited to spend a sabbatical year at Woods Hole Oceanographic Institution"
+  },
+  {
+   "age": "466 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00078",
+   "item_id": "frbank:ingrid:ingrid_q04:SLOT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q04:SLOT-ABLATED|b17273a99f545c47",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "expired",
+   "persona": "ingrid",
+   "policy": "LOOKUP-LIT",
+   "rank": 1,
+   "text": "User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026"
+  },
+  {
+   "age": "317 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00230",
+   "item_id": "frbank:ingrid:ingrid_q04:SLOT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q04:SLOT-ABLATED|b17273a99f545c47",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "ingrid",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User was invited to spend a sabbatical year at Woods Hole Oceanographic Institution"
+  },
+  {
+   "age": "466 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00078",
+   "item_id": "frbank:ingrid:ingrid_q04:SLOT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q04:SLOT-ABLATED|98db10edf7a2894b",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "expired",
+   "persona": "ingrid",
+   "policy": "ORACLE",
+   "rank": 1,
+   "text": "User is planning a research sabbatical at Woods Hole Oceanographic Institution in 2026"
+  },
+  {
+   "age": "317 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.6,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00230",
+   "item_id": "frbank:ingrid:ingrid_q04:SLOT-ABLATED",
+   "job_key": "frbank:ingrid:ingrid_q04:SLOT-ABLATED|98db10edf7a2894b",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "ingrid",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User was invited to spend a sabbatical year at Woods Hole Oceanographic Institution"
+  },
+  {
+   "age": "543 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "employer",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00009",
+   "item_id": "frbank:jerome:jerome_q02:CAT-ABLATED",
+   "job_key": "frbank:jerome:jerome_q02:CAT-ABLATED|5953d48a3007c7c2",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "jerome",
+   "policy": "ORACLE",
+   "rank": 5,
+   "text": "User has been driving for Southeastern Freight Lines out of Atlanta for 4 years."
+  },
+  {
+   "age": "543 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "employer",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00009",
+   "item_id": "frbank:jerome:jerome_q02:CAT-ABLATED",
+   "job_key": "frbank:jerome:jerome_q02:CAT-ABLATED|e2f736917d8c4c29",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "jerome",
+   "policy": "MODEL",
+   "rank": 5,
+   "text": "User has been driving for Southeastern Freight Lines out of Atlanta for 4 years."
+  },
+  {
+   "age": "543 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "employer",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00009",
+   "item_id": "frbank:jerome:jerome_q02:CAT-ABLATED",
+   "job_key": "frbank:jerome:jerome_q02:CAT-ABLATED|e2f736917d8c4c29",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "jerome",
+   "policy": "LOOKUP",
+   "rank": 5,
+   "text": "User has been driving for Southeastern Freight Lines out of Atlanta for 4 years."
+  },
+  {
+   "age": "543 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "employer",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00009",
+   "item_id": "frbank:jerome:jerome_q02:CAT-ABLATED",
+   "job_key": "frbank:jerome:jerome_q02:CAT-ABLATED|e2f736917d8c4c29",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "jerome",
+   "policy": "LOOKUP-LIT",
+   "rank": 5,
+   "text": "User has been driving for Southeastern Freight Lines out of Atlanta for 4 years."
+  },
+  {
+   "age": "543 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "employer",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00009",
+   "item_id": "frbank:jerome:jerome_q02:CAT-ABLATED",
+   "job_key": "frbank:jerome:jerome_q02:CAT-ABLATED|f69c4ad894fc6f40",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "jerome",
+   "policy": "MODEL-ALL",
+   "rank": 5,
+   "text": "User has been driving for Southeastern Freight Lines out of Atlanta for 4 years."
+  },
+  {
+   "age": "543 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "employer",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00009",
+   "item_id": "frbank:jerome:jerome_q02:CAT-ABLATED",
+   "job_key": "frbank:jerome:jerome_q02:CAT-ABLATED|f69c4ad894fc6f40",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "jerome",
+   "policy": "LOOKUP-ALL",
+   "rank": 5,
+   "text": "User has been driving for Southeastern Freight Lines out of Atlanta for 4 years."
+  },
+  {
+   "age": "464 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.14,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00145",
+   "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+   "job_key": "frbank:joonho:joonho_q04:SLOT-ABLATED|94ed40c788ee6aa4",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "joonho",
+   "policy": "ALWAYS",
+   "rank": 4,
+   "text": "User is writing a textbook on combinatorial game theory applied to go."
+  },
+  {
+   "age": "464 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.14,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00145",
+   "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+   "job_key": "frbank:joonho:joonho_q04:SLOT-ABLATED|94ed40c788ee6aa4",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "joonho",
+   "policy": "MODEL",
+   "rank": 4,
+   "text": "User is writing a textbook on combinatorial game theory applied to go."
+  },
+  {
+   "age": "464 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.14,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00145",
+   "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+   "job_key": "frbank:joonho:joonho_q04:SLOT-ABLATED|94ed40c788ee6aa4",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "joonho",
+   "policy": "MODEL-ALL",
+   "rank": 4,
+   "text": "User is writing a textbook on combinatorial game theory applied to go."
+  },
+  {
+   "age": "464 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.14,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00145",
+   "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+   "job_key": "frbank:joonho:joonho_q04:SLOT-ABLATED|8af5cc0b4f378251",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "joonho",
+   "policy": "ORACLE",
+   "rank": 4,
+   "text": "User is writing a textbook on combinatorial game theory applied to go."
+  },
+  {
+   "age": "464 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.14,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00145",
+   "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+   "job_key": "frbank:joonho:joonho_q04:SLOT-ABLATED|ed91dffd8750aa41",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "joonho",
+   "policy": "LOOKUP",
+   "rank": 4,
+   "text": "User is writing a textbook on combinatorial game theory applied to go."
+  },
+  {
+   "age": "464 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.14,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00145",
+   "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+   "job_key": "frbank:joonho:joonho_q04:SLOT-ABLATED|ed91dffd8750aa41",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "joonho",
+   "policy": "LOOKUP-LIT",
+   "rank": 4,
+   "text": "User is writing a textbook on combinatorial game theory applied to go."
+  },
+  {
+   "age": "464 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.14,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00145",
+   "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+   "job_key": "frbank:joonho:joonho_q04:SLOT-ABLATED|4ee9bd7760077288",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "joonho",
+   "policy": "LOOKUP-ALL",
+   "rank": 4,
+   "text": "User is writing a textbook on combinatorial game theory applied to go."
+  },
+  {
+   "age": "558 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "selling_method",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00008",
+   "item_id": "frbank:kofi:kofi_q01:FULL",
+   "job_key": "frbank:kofi:kofi_q01:FULL|859bafc244b8d70e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "ORACLE",
+   "rank": 1,
+   "text": "User sells cocoa through a cooperative system in their village."
+  },
+  {
+   "age": "558 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "selling_method",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00008",
+   "item_id": "frbank:kofi:kofi_q01:SLOT-ABLATED",
+   "job_key": "frbank:kofi:kofi_q01:SLOT-ABLATED|859bafc244b8d70e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "ORACLE",
+   "rank": 1,
+   "text": "User sells cocoa through a cooperative system in their village."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.56,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "FINANCIAL_MATERIAL",
+   "entry_id": "lb_00093",
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "job_key": "frbank:kofi:kofi_q02:FULL|cb517e75736a8c44",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00096",
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "job_key": "frbank:kofi:kofi_q02:FULL|cb517e75736a8c44",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "ORACLE",
+   "rank": 4,
+   "text": "User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.56,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "FINANCIAL_MATERIAL",
+   "entry_id": "lb_00093",
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "job_key": "frbank:kofi:kofi_q02:FULL|0f200c3de47720b9",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "MODEL",
+   "rank": 3,
+   "text": "User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00096",
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "job_key": "frbank:kofi:kofi_q02:FULL|0f200c3de47720b9",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "MODEL",
+   "rank": 4,
+   "text": "User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.56,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "FINANCIAL_MATERIAL",
+   "entry_id": "lb_00093",
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "job_key": "frbank:kofi:kofi_q02:FULL|0f200c3de47720b9",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "LOOKUP",
+   "rank": 3,
+   "text": "User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00096",
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "job_key": "frbank:kofi:kofi_q02:FULL|0f200c3de47720b9",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "LOOKUP",
+   "rank": 4,
+   "text": "User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.56,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "FINANCIAL_MATERIAL",
+   "entry_id": "lb_00093",
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "job_key": "frbank:kofi:kofi_q02:FULL|0f200c3de47720b9",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00096",
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "job_key": "frbank:kofi:kofi_q02:FULL|0f200c3de47720b9",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "LOOKUP-LIT",
+   "rank": 4,
+   "text": "User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.56,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "FINANCIAL_MATERIAL",
+   "entry_id": "lb_00093",
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "job_key": "frbank:kofi:kofi_q02:FULL|173315c9a08350b2",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "MODEL-ALL",
+   "rank": 3,
+   "text": "User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00096",
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "job_key": "frbank:kofi:kofi_q02:FULL|173315c9a08350b2",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "MODEL-ALL",
+   "rank": 4,
+   "text": "User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.56,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "FINANCIAL_MATERIAL",
+   "entry_id": "lb_00093",
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "job_key": "frbank:kofi:kofi_q02:FULL|173315c9a08350b2",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "LOOKUP-ALL",
+   "rank": 3,
+   "text": "User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00096",
+   "item_id": "frbank:kofi:kofi_q02:FULL",
+   "job_key": "frbank:kofi:kofi_q02:FULL|173315c9a08350b2",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "LOOKUP-ALL",
+   "rank": 4,
+   "text": "User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.56,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "FINANCIAL_MATERIAL",
+   "entry_id": "lb_00093",
+   "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+   "job_key": "frbank:kofi:kofi_q02:SLOT-ABLATED|05ff6bf800ee3b14",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "ORACLE",
+   "rank": 2,
+   "text": "User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00096",
+   "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+   "job_key": "frbank:kofi:kofi_q02:SLOT-ABLATED|05ff6bf800ee3b14",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.56,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "FINANCIAL_MATERIAL",
+   "entry_id": "lb_00093",
+   "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+   "job_key": "frbank:kofi:kofi_q02:SLOT-ABLATED|dcf63162143dca0f",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "MODEL",
+   "rank": 2,
+   "text": "User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00096",
+   "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+   "job_key": "frbank:kofi:kofi_q02:SLOT-ABLATED|dcf63162143dca0f",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "MODEL",
+   "rank": 3,
+   "text": "User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.56,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "FINANCIAL_MATERIAL",
+   "entry_id": "lb_00093",
+   "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+   "job_key": "frbank:kofi:kofi_q02:SLOT-ABLATED|dcf63162143dca0f",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "LOOKUP",
+   "rank": 2,
+   "text": "User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00096",
+   "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+   "job_key": "frbank:kofi:kofi_q02:SLOT-ABLATED|dcf63162143dca0f",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "LOOKUP",
+   "rank": 3,
+   "text": "User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.56,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "FINANCIAL_MATERIAL",
+   "entry_id": "lb_00093",
+   "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+   "job_key": "frbank:kofi:kofi_q02:SLOT-ABLATED|dcf63162143dca0f",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "LOOKUP-LIT",
+   "rank": 2,
+   "text": "User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00096",
+   "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+   "job_key": "frbank:kofi:kofi_q02:SLOT-ABLATED|dcf63162143dca0f",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.56,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "FINANCIAL_MATERIAL",
+   "entry_id": "lb_00093",
+   "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+   "job_key": "frbank:kofi:kofi_q02:SLOT-ABLATED|125dc29ed14eaa3e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "MODEL-ALL",
+   "rank": 2,
+   "text": "User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00096",
+   "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+   "job_key": "frbank:kofi:kofi_q02:SLOT-ABLATED|125dc29ed14eaa3e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "MODEL-ALL",
+   "rank": 3,
+   "text": "User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.56,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "FINANCIAL_MATERIAL",
+   "entry_id": "lb_00093",
+   "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+   "job_key": "frbank:kofi:kofi_q02:SLOT-ABLATED|125dc29ed14eaa3e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "LOOKUP-ALL",
+   "rank": 2,
+   "text": "User applies 12 bags of Cocoa Life fertilizer per season, costing 2,160 cedis total."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00096",
+   "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+   "job_key": "frbank:kofi:kofi_q02:SLOT-ABLATED|125dc29ed14eaa3e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "LOOKUP-ALL",
+   "rank": 3,
+   "text": "User buys 12 bags of Cocoa Life fertilizer every season for their cocoa farm."
+  },
+  {
+   "age": "552 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "job_location",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00003",
+   "item_id": "frbank:mirri:mirri_q01:FULL",
+   "job_key": "frbank:mirri:mirri_q01:FULL|28988d92b56155aa",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User does patrol work in Kakadu, focusing on the East Alligator River corridor."
+  },
+  {
+   "age": "552 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "job_location",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00003",
+   "item_id": "frbank:mirri:mirri_q01:FULL",
+   "job_key": "frbank:mirri:mirri_q01:FULL|28988d92b56155aa",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "MODEL",
+   "rank": 3,
+   "text": "User does patrol work in Kakadu, focusing on the East Alligator River corridor."
+  },
+  {
+   "age": "552 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "job_location",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00003",
+   "item_id": "frbank:mirri:mirri_q01:FULL",
+   "job_key": "frbank:mirri:mirri_q01:FULL|28988d92b56155aa",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "LOOKUP",
+   "rank": 3,
+   "text": "User does patrol work in Kakadu, focusing on the East Alligator River corridor."
+  },
+  {
+   "age": "552 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "job_location",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00003",
+   "item_id": "frbank:mirri:mirri_q01:FULL",
+   "job_key": "frbank:mirri:mirri_q01:FULL|28988d92b56155aa",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User does patrol work in Kakadu, focusing on the East Alligator River corridor."
+  },
+  {
+   "age": "552 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "job_location",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00003",
+   "item_id": "frbank:mirri:mirri_q01:FULL",
+   "job_key": "frbank:mirri:mirri_q01:FULL|259ec0c4d9eaf246",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "MODEL-ALL",
+   "rank": 3,
+   "text": "User does patrol work in Kakadu, focusing on the East Alligator River corridor."
+  },
+  {
+   "age": "552 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "job_location",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00003",
+   "item_id": "frbank:mirri:mirri_q01:FULL",
+   "job_key": "frbank:mirri:mirri_q01:FULL|259ec0c4d9eaf246",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "LOOKUP-ALL",
+   "rank": 3,
+   "text": "User does patrol work in Kakadu, focusing on the East Alligator River corridor."
+  },
+  {
+   "age": "509 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.62,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "work_patrol_pattern",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00066",
+   "item_id": "frbank:mirri:mirri_q01:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q01:SLOT-ABLATED|2ae3f399928196d9",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "ORACLE",
+   "rank": 5,
+   "text": "User patrols alone most days on the East Alligator corridor."
+  },
+  {
+   "age": "509 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.62,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "work_patrol_pattern",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00066",
+   "item_id": "frbank:mirri:mirri_q01:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q01:SLOT-ABLATED|2ae3f399928196d9",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "MODEL",
+   "rank": 5,
+   "text": "User patrols alone most days on the East Alligator corridor."
+  },
+  {
+   "age": "509 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.62,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "work_patrol_pattern",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00066",
+   "item_id": "frbank:mirri:mirri_q01:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q01:SLOT-ABLATED|2ae3f399928196d9",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "LOOKUP",
+   "rank": 5,
+   "text": "User patrols alone most days on the East Alligator corridor."
+  },
+  {
+   "age": "509 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.62,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "work_patrol_pattern",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00066",
+   "item_id": "frbank:mirri:mirri_q01:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q01:SLOT-ABLATED|2ae3f399928196d9",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "LOOKUP-LIT",
+   "rank": 5,
+   "text": "User patrols alone most days on the East Alligator corridor."
+  },
+  {
+   "age": "509 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.62,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "work_patrol_pattern",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00066",
+   "item_id": "frbank:mirri:mirri_q01:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q01:SLOT-ABLATED|d78671dbbc630ccb",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "MODEL-ALL",
+   "rank": 5,
+   "text": "User patrols alone most days on the East Alligator corridor."
+  },
+  {
+   "age": "509 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.62,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "work_patrol_pattern",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00066",
+   "item_id": "frbank:mirri:mirri_q01:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q01:SLOT-ABLATED|d78671dbbc630ccb",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "LOOKUP-ALL",
+   "rank": 5,
+   "text": "User patrols alone most days on the East Alligator corridor."
+  },
+  {
+   "age": "290 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00248",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "ALWAYS",
+   "rank": 2,
+   "text": "User planned to write a bilingual children's book with stories from their country in their language and in English"
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00159",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "ALWAYS",
+   "rank": 3,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English."
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00157",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "ALWAYS",
+   "rank": 5,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons."
+  },
+  {
+   "age": "290 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00248",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "MODEL",
+   "rank": 2,
+   "text": "User planned to write a bilingual children's book with stories from their country in their language and in English"
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00159",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "MODEL",
+   "rank": 3,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English."
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00157",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "MODEL",
+   "rank": 5,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons."
+  },
+  {
+   "age": "290 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00248",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "LOOKUP",
+   "rank": 2,
+   "text": "User planned to write a bilingual children's book with stories from their country in their language and in English"
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00159",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "LOOKUP",
+   "rank": 3,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English."
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00157",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "LOOKUP",
+   "rank": 5,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons."
+  },
+  {
+   "age": "290 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00248",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "MODEL-ALL",
+   "rank": 2,
+   "text": "User planned to write a bilingual children's book with stories from their country in their language and in English"
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00159",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "MODEL-ALL",
+   "rank": 3,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English."
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00157",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "MODEL-ALL",
+   "rank": 5,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons."
+  },
+  {
+   "age": "290 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00248",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "LOOKUP-ALL",
+   "rank": 2,
+   "text": "User planned to write a bilingual children's book with stories from their country in their language and in English"
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00159",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "LOOKUP-ALL",
+   "rank": 3,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English."
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00157",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "LOOKUP-ALL",
+   "rank": 5,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons."
+  },
+  {
+   "age": "290 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00248",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "LOOKUP-LIT",
+   "rank": 2,
+   "text": "User planned to write a bilingual children's book with stories from their country in their language and in English"
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00159",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English."
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00157",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "LOOKUP-LIT",
+   "rank": 5,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons."
+  },
+  {
+   "age": "290 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00248",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|ee0ce2e8298516c7",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "ORACLE",
+   "rank": 2,
+   "text": "User planned to write a bilingual children's book with stories from their country in their language and in English"
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00159",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|ee0ce2e8298516c7",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English."
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00157",
+   "item_id": "frbank:mirri:mirri_q04:FULL",
+   "job_key": "frbank:mirri:mirri_q04:FULL|ee0ce2e8298516c7",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "ORACLE",
+   "rank": 5,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons."
+  },
+  {
+   "age": "290 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00248",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "ALWAYS",
+   "rank": 2,
+   "text": "User planned to write a bilingual children's book with stories from their country in their language and in English"
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00159",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "ALWAYS",
+   "rank": 3,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English."
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00157",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "ALWAYS",
+   "rank": 5,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons."
+  },
+  {
+   "age": "290 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00248",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "MODEL",
+   "rank": 2,
+   "text": "User planned to write a bilingual children's book with stories from their country in their language and in English"
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00159",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "MODEL",
+   "rank": 3,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English."
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00157",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "MODEL",
+   "rank": 5,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons."
+  },
+  {
+   "age": "290 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00248",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "LOOKUP",
+   "rank": 2,
+   "text": "User planned to write a bilingual children's book with stories from their country in their language and in English"
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00159",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "LOOKUP",
+   "rank": 3,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English."
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00157",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "LOOKUP",
+   "rank": 5,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons."
+  },
+  {
+   "age": "290 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00248",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "MODEL-ALL",
+   "rank": 2,
+   "text": "User planned to write a bilingual children's book with stories from their country in their language and in English"
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00159",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "MODEL-ALL",
+   "rank": 3,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English."
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00157",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "MODEL-ALL",
+   "rank": 5,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons."
+  },
+  {
+   "age": "290 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00248",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "LOOKUP-ALL",
+   "rank": 2,
+   "text": "User planned to write a bilingual children's book with stories from their country in their language and in English"
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00159",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "LOOKUP-ALL",
+   "rank": 3,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English."
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00157",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "LOOKUP-ALL",
+   "rank": 5,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons."
+  },
+  {
+   "age": "290 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00248",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "LOOKUP-LIT",
+   "rank": 2,
+   "text": "User planned to write a bilingual children's book with stories from their country in their language and in English"
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00159",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English."
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00157",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|31762bb09df8f889",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "LOOKUP-LIT",
+   "rank": 5,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons."
+  },
+  {
+   "age": "290 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.57,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00248",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|ee0ce2e8298516c7",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "ORACLE",
+   "rank": 2,
+   "text": "User planned to write a bilingual children's book with stories from their country in their language and in English"
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00159",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|ee0ce2e8298516c7",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "mirri",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English."
+  },
+  {
+   "age": "425 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.71,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 5
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00157",
+   "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+   "job_key": "frbank:mirri:mirri_q04:SLOT-ABLATED|ee0ce2e8298516c7",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "mirri",
+   "policy": "ORACLE",
+   "rank": 5,
+   "text": "User is writing a bilingual children's book in Yolngu Matha and English about local animals and seasons."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00006",
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "job_key": "frbank:pan:pan_q01:FULL|eac1819d7cfd8d64",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "pan",
+   "policy": "ALWAYS",
+   "rank": 1,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am"
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "job_key": "frbank:pan:pan_q01:FULL|eac1819d7cfd8d64",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "ALWAYS",
+   "rank": 3,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00006",
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "job_key": "frbank:pan:pan_q01:FULL|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "pan",
+   "policy": "ORACLE",
+   "rank": 1,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am"
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "job_key": "frbank:pan:pan_q01:FULL|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00006",
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "job_key": "frbank:pan:pan_q01:FULL|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "pan",
+   "policy": "MODEL",
+   "rank": 1,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am"
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "job_key": "frbank:pan:pan_q01:FULL|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "MODEL",
+   "rank": 3,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00006",
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "job_key": "frbank:pan:pan_q01:FULL|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "pan",
+   "policy": "LOOKUP",
+   "rank": 1,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am"
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "job_key": "frbank:pan:pan_q01:FULL|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "LOOKUP",
+   "rank": 3,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00006",
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "job_key": "frbank:pan:pan_q01:FULL|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "pan",
+   "policy": "LOOKUP-LIT",
+   "rank": 1,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am"
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "job_key": "frbank:pan:pan_q01:FULL|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00006",
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "job_key": "frbank:pan:pan_q01:FULL|c150bb6970c0e0f3",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "pan",
+   "policy": "MODEL-ALL",
+   "rank": 1,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am"
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "job_key": "frbank:pan:pan_q01:FULL|c150bb6970c0e0f3",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "MODEL-ALL",
+   "rank": 3,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00006",
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "job_key": "frbank:pan:pan_q01:FULL|c150bb6970c0e0f3",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "pan",
+   "policy": "LOOKUP-ALL",
+   "rank": 1,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am"
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:FULL",
+   "job_key": "frbank:pan:pan_q01:FULL|c150bb6970c0e0f3",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "LOOKUP-ALL",
+   "rank": 3,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "ALWAYS",
+   "rank": 2,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "rice_supplier",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00022",
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "ALWAYS",
+   "rank": 4,
+   "text": "User uses Auntie Somjit's jasmine long grain rice at 38 baht per kilo for their khao man gai."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "ORACLE",
+   "rank": 2,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "rice_supplier",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00022",
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "ORACLE",
+   "rank": 4,
+   "text": "User uses Auntie Somjit's jasmine long grain rice at 38 baht per kilo for their khao man gai."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "MODEL",
+   "rank": 2,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "rice_supplier",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00022",
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "MODEL",
+   "rank": 4,
+   "text": "User uses Auntie Somjit's jasmine long grain rice at 38 baht per kilo for their khao man gai."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "LOOKUP",
+   "rank": 2,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "rice_supplier",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00022",
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "LOOKUP",
+   "rank": 4,
+   "text": "User uses Auntie Somjit's jasmine long grain rice at 38 baht per kilo for their khao man gai."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "LOOKUP-LIT",
+   "rank": 2,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "rice_supplier",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00022",
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "LOOKUP-LIT",
+   "rank": 4,
+   "text": "User uses Auntie Somjit's jasmine long grain rice at 38 baht per kilo for their khao man gai."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:CAT-ABLATED|6ea1fd8525e79794",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "MODEL-ALL",
+   "rank": 2,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "rice_supplier",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00022",
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:CAT-ABLATED|6ea1fd8525e79794",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "MODEL-ALL",
+   "rank": 4,
+   "text": "User uses Auntie Somjit's jasmine long grain rice at 38 baht per kilo for their khao man gai."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:CAT-ABLATED|6ea1fd8525e79794",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "LOOKUP-ALL",
+   "rank": 2,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "rice_supplier",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00022",
+   "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:CAT-ABLATED|6ea1fd8525e79794",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "LOOKUP-ALL",
+   "rank": 4,
+   "text": "User uses Auntie Somjit's jasmine long grain rice at 38 baht per kilo for their khao man gai."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00006",
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:SLOT-ABLATED|eac1819d7cfd8d64",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "pan",
+   "policy": "ALWAYS",
+   "rank": 1,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am"
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:SLOT-ABLATED|eac1819d7cfd8d64",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "ALWAYS",
+   "rank": 3,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00006",
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:SLOT-ABLATED|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "pan",
+   "policy": "ORACLE",
+   "rank": 1,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am"
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:SLOT-ABLATED|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00006",
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:SLOT-ABLATED|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "pan",
+   "policy": "MODEL",
+   "rank": 1,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am"
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:SLOT-ABLATED|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "MODEL",
+   "rank": 3,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00006",
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:SLOT-ABLATED|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "pan",
+   "policy": "LOOKUP",
+   "rank": 1,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am"
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:SLOT-ABLATED|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "LOOKUP",
+   "rank": 3,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00006",
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:SLOT-ABLATED|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "pan",
+   "policy": "LOOKUP-LIT",
+   "rank": 1,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am"
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:SLOT-ABLATED|88c6a28911993e82",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00006",
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:SLOT-ABLATED|c150bb6970c0e0f3",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "pan",
+   "policy": "MODEL-ALL",
+   "rank": 1,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am"
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:SLOT-ABLATED|c150bb6970c0e0f3",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "MODEL-ALL",
+   "rank": 3,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00006",
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:SLOT-ABLATED|c150bb6970c0e0f3",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "pan",
+   "policy": "LOOKUP-ALL",
+   "rank": 1,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market at 4:30am"
+  },
+  {
+   "age": "481 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 6
+   },
+   "attribute": "rice_purchase_habit",
+   "category": "PREFERENCES_HABITS",
+   "entry_id": "lb_00001",
+   "item_id": "frbank:pan:pan_q01:SLOT-ABLATED",
+   "job_key": "frbank:pan:pan_q01:SLOT-ABLATED|c150bb6970c0e0f3",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "pan",
+   "policy": "LOOKUP-ALL",
+   "rank": 3,
+   "text": "User buys 15 kilos of rice every morning from Auntie Somjit at Khlong Toei market."
+  },
+  {
+   "age": "121 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00308",
+   "item_id": "frbank:saga:saga_q01:FULL",
+   "job_key": "frbank:saga:saga_q01:FULL|430e778a36f6a62e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "saga",
+   "policy": "ALWAYS",
+   "rank": 2,
+   "text": "User works at Spotify"
+  },
+  {
+   "age": "121 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00308",
+   "item_id": "frbank:saga:saga_q01:FULL",
+   "job_key": "frbank:saga:saga_q01:FULL|430e778a36f6a62e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "saga",
+   "policy": "ORACLE",
+   "rank": 2,
+   "text": "User works at Spotify"
+  },
+  {
+   "age": "121 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00308",
+   "item_id": "frbank:saga:saga_q01:FULL",
+   "job_key": "frbank:saga:saga_q01:FULL|430e778a36f6a62e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "saga",
+   "policy": "LOOKUP",
+   "rank": 2,
+   "text": "User works at Spotify"
+  },
+  {
+   "age": "121 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00308",
+   "item_id": "frbank:saga:saga_q01:FULL",
+   "job_key": "frbank:saga:saga_q01:FULL|430e778a36f6a62e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "saga",
+   "policy": "LOOKUP-ALL",
+   "rank": 2,
+   "text": "User works at Spotify"
+  },
+  {
+   "age": "121 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00308",
+   "item_id": "frbank:saga:saga_q01:FULL",
+   "job_key": "frbank:saga:saga_q01:FULL|430e778a36f6a62e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "saga",
+   "policy": "LOOKUP-LIT",
+   "rank": 2,
+   "text": "User works at Spotify"
+  },
+  {
+   "age": "121 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00308",
+   "item_id": "frbank:saga:saga_q01:SLOT-ABLATED",
+   "job_key": "frbank:saga:saga_q01:SLOT-ABLATED|430e778a36f6a62e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "saga",
+   "policy": "ALWAYS",
+   "rank": 2,
+   "text": "User works at Spotify"
+  },
+  {
+   "age": "121 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00308",
+   "item_id": "frbank:saga:saga_q01:SLOT-ABLATED",
+   "job_key": "frbank:saga:saga_q01:SLOT-ABLATED|430e778a36f6a62e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "saga",
+   "policy": "ORACLE",
+   "rank": 2,
+   "text": "User works at Spotify"
+  },
+  {
+   "age": "121 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00308",
+   "item_id": "frbank:saga:saga_q01:SLOT-ABLATED",
+   "job_key": "frbank:saga:saga_q01:SLOT-ABLATED|430e778a36f6a62e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "saga",
+   "policy": "LOOKUP-LIT",
+   "rank": 2,
+   "text": "User works at Spotify"
+  },
+  {
+   "age": "281 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00216",
+   "item_id": "frbank:tom:tom_q06:FULL",
+   "job_key": "frbank:tom:tom_q06:FULL|20e59418eb9ecbe3",
+   "native_flags": {
+    "expired": false,
+    "retracted": true,
+    "superseded": true
+   },
+   "native_tag": "retracted, superseded",
+   "persona": "tom",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User had grand plans to convert the barn into a honey extraction room, bottling area, and small shop front."
+  },
+  {
+   "age": "281 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00205",
+   "item_id": "frbank:tom:tom_q06:FULL",
+   "job_key": "frbank:tom:tom_q06:FULL|20e59418eb9ecbe3",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "tom",
+   "policy": "ORACLE",
+   "rank": 5,
+   "text": "User was planning to convert the barn into a honey processing space but has now cancelled the project."
+  },
+  {
+   "age": "281 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.67,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 4
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00205",
+   "item_id": "frbank:tom:tom_q06:SLOT-ABLATED",
+   "job_key": "frbank:tom:tom_q06:SLOT-ABLATED|6e84158b43622d95",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "tom",
+   "policy": "ORACLE",
+   "rank": 4,
+   "text": "User was planning to convert the barn into a honey processing space but has now cancelled the project."
+  },
+  {
+   "age": "503 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "habit",
+   "category": "HEALTH_WELLBEING",
+   "entry_id": "lb_00050",
+   "item_id": "frbank:valentina:valentina_q03:FULL",
+   "job_key": "frbank:valentina:valentina_q03:FULL|499f59436e5454af",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "valentina",
+   "policy": "ORACLE",
+   "rank": 5,
+   "text": "User smokes cigarettes but is trying to quit"
+  },
+  {
+   "age": "503 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "habit",
+   "category": "HEALTH_WELLBEING",
+   "entry_id": "lb_00050",
+   "item_id": "frbank:valentina:valentina_q03:FULL",
+   "job_key": "frbank:valentina:valentina_q03:FULL|499f59436e5454af",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "valentina",
+   "policy": "MODEL",
+   "rank": 5,
+   "text": "User smokes cigarettes but is trying to quit"
+  },
+  {
+   "age": "503 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "habit",
+   "category": "HEALTH_WELLBEING",
+   "entry_id": "lb_00050",
+   "item_id": "frbank:valentina:valentina_q03:FULL",
+   "job_key": "frbank:valentina:valentina_q03:FULL|499f59436e5454af",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "valentina",
+   "policy": "LOOKUP",
+   "rank": 5,
+   "text": "User smokes cigarettes but is trying to quit"
+  },
+  {
+   "age": "503 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "habit",
+   "category": "HEALTH_WELLBEING",
+   "entry_id": "lb_00050",
+   "item_id": "frbank:valentina:valentina_q03:FULL",
+   "job_key": "frbank:valentina:valentina_q03:FULL|499f59436e5454af",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "valentina",
+   "policy": "LOOKUP-LIT",
+   "rank": 5,
+   "text": "User smokes cigarettes but is trying to quit"
+  },
+  {
+   "age": "503 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "habit",
+   "category": "HEALTH_WELLBEING",
+   "entry_id": "lb_00050",
+   "item_id": "frbank:valentina:valentina_q03:FULL",
+   "job_key": "frbank:valentina:valentina_q03:FULL|e0bb5c533dbe6090",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "valentina",
+   "policy": "MODEL-ALL",
+   "rank": 5,
+   "text": "User smokes cigarettes but is trying to quit"
+  },
+  {
+   "age": "503 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "habit",
+   "category": "HEALTH_WELLBEING",
+   "entry_id": "lb_00050",
+   "item_id": "frbank:valentina:valentina_q03:FULL",
+   "job_key": "frbank:valentina:valentina_q03:FULL|e0bb5c533dbe6090",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "valentina",
+   "policy": "LOOKUP-ALL",
+   "rank": 5,
+   "text": "User smokes cigarettes but is trying to quit"
+  },
+  {
+   "age": "503 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "habit",
+   "category": "HEALTH_WELLBEING",
+   "entry_id": "lb_00050",
+   "item_id": "frbank:valentina:valentina_q03:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q03:SLOT-ABLATED|499f59436e5454af",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "valentina",
+   "policy": "ORACLE",
+   "rank": 5,
+   "text": "User smokes cigarettes but is trying to quit"
+  },
+  {
+   "age": "503 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "habit",
+   "category": "HEALTH_WELLBEING",
+   "entry_id": "lb_00050",
+   "item_id": "frbank:valentina:valentina_q03:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q03:SLOT-ABLATED|499f59436e5454af",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "valentina",
+   "policy": "MODEL",
+   "rank": 5,
+   "text": "User smokes cigarettes but is trying to quit"
+  },
+  {
+   "age": "503 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "habit",
+   "category": "HEALTH_WELLBEING",
+   "entry_id": "lb_00050",
+   "item_id": "frbank:valentina:valentina_q03:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q03:SLOT-ABLATED|499f59436e5454af",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "valentina",
+   "policy": "LOOKUP",
+   "rank": 5,
+   "text": "User smokes cigarettes but is trying to quit"
+  },
+  {
+   "age": "503 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "habit",
+   "category": "HEALTH_WELLBEING",
+   "entry_id": "lb_00050",
+   "item_id": "frbank:valentina:valentina_q03:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q03:SLOT-ABLATED|499f59436e5454af",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "valentina",
+   "policy": "LOOKUP-LIT",
+   "rank": 5,
+   "text": "User smokes cigarettes but is trying to quit"
+  },
+  {
+   "age": "503 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "habit",
+   "category": "HEALTH_WELLBEING",
+   "entry_id": "lb_00050",
+   "item_id": "frbank:valentina:valentina_q03:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q03:SLOT-ABLATED|e0bb5c533dbe6090",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "valentina",
+   "policy": "MODEL-ALL",
+   "rank": 5,
+   "text": "User smokes cigarettes but is trying to quit"
+  },
+  {
+   "age": "503 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "habit",
+   "category": "HEALTH_WELLBEING",
+   "entry_id": "lb_00050",
+   "item_id": "frbank:valentina:valentina_q03:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q03:SLOT-ABLATED|e0bb5c533dbe6090",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "valentina",
+   "policy": "LOOKUP-ALL",
+   "rank": 5,
+   "text": "User smokes cigarettes but is trying to quit"
+  },
+  {
+   "age": "263 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00222",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "ALWAYS",
+   "rank": 1,
+   "text": "User planned to write a book about her father's generation of journalists who covered the narco years and faced threats and relocations."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00111",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "ALWAYS",
+   "rank": 2,
+   "text": "User is interested in writing a book about the generation of journalists who reported on the narco years and the war in Colombia."
+  },
+  {
+   "age": "263 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00217",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "ALWAYS",
+   "rank": 3,
+   "text": "User is planning to write a book about the generation of journalists who covered the narco years."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00115",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded, expired",
+   "persona": "valentina",
+   "policy": "ALWAYS",
+   "rank": 5,
+   "text": "User plans to write a book about the generation of Colombian journalists who reported during the narco years and the war, focusing on their personal experiences."
+  },
+  {
+   "age": "263 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00222",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "MODEL",
+   "rank": 1,
+   "text": "User planned to write a book about her father's generation of journalists who covered the narco years and faced threats and relocations."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00111",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "MODEL",
+   "rank": 2,
+   "text": "User is interested in writing a book about the generation of journalists who reported on the narco years and the war in Colombia."
+  },
+  {
+   "age": "263 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00217",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "MODEL",
+   "rank": 3,
+   "text": "User is planning to write a book about the generation of journalists who covered the narco years."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00115",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded, expired",
+   "persona": "valentina",
+   "policy": "MODEL",
+   "rank": 5,
+   "text": "User plans to write a book about the generation of Colombian journalists who reported during the narco years and the war, focusing on their personal experiences."
+  },
+  {
+   "age": "263 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00222",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "MODEL-ALL",
+   "rank": 1,
+   "text": "User planned to write a book about her father's generation of journalists who covered the narco years and faced threats and relocations."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00111",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "MODEL-ALL",
+   "rank": 2,
+   "text": "User is interested in writing a book about the generation of journalists who reported on the narco years and the war in Colombia."
+  },
+  {
+   "age": "263 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00217",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "MODEL-ALL",
+   "rank": 3,
+   "text": "User is planning to write a book about the generation of journalists who covered the narco years."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00115",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded, expired",
+   "persona": "valentina",
+   "policy": "MODEL-ALL",
+   "rank": 5,
+   "text": "User plans to write a book about the generation of Colombian journalists who reported during the narco years and the war, focusing on their personal experiences."
+  },
+  {
+   "age": "263 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00222",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "LOOKUP-LIT",
+   "rank": 1,
+   "text": "User planned to write a book about her father's generation of journalists who covered the narco years and faced threats and relocations."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00111",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "LOOKUP-LIT",
+   "rank": 2,
+   "text": "User is interested in writing a book about the generation of journalists who reported on the narco years and the war in Colombia."
+  },
+  {
+   "age": "263 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00217",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User is planning to write a book about the generation of journalists who covered the narco years."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00115",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded, expired",
+   "persona": "valentina",
+   "policy": "LOOKUP-LIT",
+   "rank": 5,
+   "text": "User plans to write a book about the generation of Colombian journalists who reported during the narco years and the war, focusing on their personal experiences."
+  },
+  {
+   "age": "263 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00222",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|07c08bad80a3cc48",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "ORACLE",
+   "rank": 1,
+   "text": "User planned to write a book about her father's generation of journalists who covered the narco years and faced threats and relocations."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00111",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|07c08bad80a3cc48",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "ORACLE",
+   "rank": 2,
+   "text": "User is interested in writing a book about the generation of journalists who reported on the narco years and the war in Colombia."
+  },
+  {
+   "age": "263 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00217",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|07c08bad80a3cc48",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User is planning to write a book about the generation of journalists who covered the narco years."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00115",
+   "item_id": "frbank:valentina:valentina_q04:FULL",
+   "job_key": "frbank:valentina:valentina_q04:FULL|07c08bad80a3cc48",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded, expired",
+   "persona": "valentina",
+   "policy": "ORACLE",
+   "rank": 5,
+   "text": "User plans to write a book about the generation of Colombian journalists who reported during the narco years and the war, focusing on their personal experiences."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00111",
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q04:SLOT-ABLATED|3f501d1a7d87924e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "ALWAYS",
+   "rank": 1,
+   "text": "User is interested in writing a book about the generation of journalists who reported on the narco years and the war in Colombia."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00115",
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q04:SLOT-ABLATED|3f501d1a7d87924e",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded, expired",
+   "persona": "valentina",
+   "policy": "ALWAYS",
+   "rank": 2,
+   "text": "User plans to write a book about the generation of Colombian journalists who reported during the narco years and the war, focusing on their personal experiences."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00117",
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q04:SLOT-ABLATED|3f501d1a7d87924e",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "expired",
+   "persona": "valentina",
+   "policy": "ALWAYS",
+   "rank": 3,
+   "text": "User is working on a book about the generation of Colombian journalists who reported during the narco years and the war."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00120",
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q04:SLOT-ABLATED|3f501d1a7d87924e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "valentina",
+   "policy": "ALWAYS",
+   "rank": 4,
+   "text": "User is writing a book about the generation of journalists who reported on the narco years and the war, including their own father."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00111",
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q04:SLOT-ABLATED|3f501d1a7d87924e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "LOOKUP-LIT",
+   "rank": 1,
+   "text": "User is interested in writing a book about the generation of journalists who reported on the narco years and the war in Colombia."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00115",
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q04:SLOT-ABLATED|3f501d1a7d87924e",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded, expired",
+   "persona": "valentina",
+   "policy": "LOOKUP-LIT",
+   "rank": 2,
+   "text": "User plans to write a book about the generation of Colombian journalists who reported during the narco years and the war, focusing on their personal experiences."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00117",
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q04:SLOT-ABLATED|3f501d1a7d87924e",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "expired",
+   "persona": "valentina",
+   "policy": "LOOKUP-LIT",
+   "rank": 3,
+   "text": "User is working on a book about the generation of Colombian journalists who reported during the narco years and the war."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00120",
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q04:SLOT-ABLATED|3f501d1a7d87924e",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "valentina",
+   "policy": "LOOKUP-LIT",
+   "rank": 4,
+   "text": "User is writing a book about the generation of journalists who reported on the narco years and the war, including their own father."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00111",
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q04:SLOT-ABLATED|c975e15427a8fbe2",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "valentina",
+   "policy": "ORACLE",
+   "rank": 1,
+   "text": "User is interested in writing a book about the generation of journalists who reported on the narco years and the war in Colombia."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00115",
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q04:SLOT-ABLATED|c975e15427a8fbe2",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded, expired",
+   "persona": "valentina",
+   "policy": "ORACLE",
+   "rank": 2,
+   "text": "User plans to write a book about the generation of Colombian journalists who reported during the narco years and the war, focusing on their personal experiences."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.75,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00117",
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q04:SLOT-ABLATED|c975e15427a8fbe2",
+   "native_flags": {
+    "expired": true,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "expired",
+   "persona": "valentina",
+   "policy": "ORACLE",
+   "rank": 3,
+   "text": "User is working on a book about the generation of Colombian journalists who reported during the narco years and the war."
+  },
+  {
+   "age": "470 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "project",
+   "category": "PROJECTS_ENDEAVORS",
+   "entry_id": "lb_00120",
+   "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+   "job_key": "frbank:valentina:valentina_q04:SLOT-ABLATED|c975e15427a8fbe2",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "valentina",
+   "policy": "ORACLE",
+   "rank": 4,
+   "text": "User is writing a book about the generation of journalists who reported on the narco years and the war, including their own father."
+  },
+  {
+   "age": "437 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00227",
+   "item_id": "frbank:aisha:aisha_q01:FULL",
+   "job_key": "frbank:aisha:aisha_q01:FULL|d6b1425e11c3d1a5",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "aisha",
+   "policy": "LOOKUP-LIT",
+   "rank": 1,
+   "text": "User works at PwC."
+  },
+  {
+   "age": "437 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00224",
+   "item_id": "frbank:aisha:aisha_q01:FULL",
+   "job_key": "frbank:aisha:aisha_q01:FULL|d6b1425e11c3d1a5",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "aisha",
+   "policy": "LOOKUP-LIT",
+   "rank": 4,
+   "text": "User works at PwC and is sponsored by them for the ACA qualification."
+  },
+  {
+   "age": "106 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "job_sector",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00444",
+   "item_id": "frbank:aisha:aisha_q01:FULL",
+   "job_key": "frbank:aisha:aisha_q01:FULL|d6b1425e11c3d1a5",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "aisha",
+   "policy": "LOOKUP-LIT",
+   "rank": 5,
+   "text": "User works in corporate finance and M&A roles, currently at PwC."
+  },
+  {
+   "age": "437 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00227",
+   "item_id": "frbank:aisha:aisha_q01:SLOT-ABLATED",
+   "job_key": "frbank:aisha:aisha_q01:SLOT-ABLATED|d6b1425e11c3d1a5",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "aisha",
+   "policy": "LOOKUP-LIT",
+   "rank": 1,
+   "text": "User works at PwC."
+  },
+  {
+   "age": "437 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "employer",
+   "category": "LOGISTICAL_CONTEXT",
+   "entry_id": "lb_00224",
+   "item_id": "frbank:aisha:aisha_q01:SLOT-ABLATED",
+   "job_key": "frbank:aisha:aisha_q01:SLOT-ABLATED|d6b1425e11c3d1a5",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": true
+   },
+   "native_tag": "superseded",
+   "persona": "aisha",
+   "policy": "LOOKUP-LIT",
+   "rank": 4,
+   "text": "User works at PwC and is sponsored by them for the ACA qualification."
+  },
+  {
+   "age": "106 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 2
+   },
+   "attribute": "job_sector",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00444",
+   "item_id": "frbank:aisha:aisha_q01:SLOT-ABLATED",
+   "job_key": "frbank:aisha:aisha_q01:SLOT-ABLATED|d6b1425e11c3d1a5",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "aisha",
+   "policy": "LOOKUP-LIT",
+   "rank": 5,
+   "text": "User works in corporate finance and M&A roles, currently at PwC."
+  },
+  {
+   "age": "558 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "selling_method",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00008",
+   "item_id": "frbank:kofi:kofi_q01:FULL",
+   "job_key": "frbank:kofi:kofi_q01:FULL|a6614376f94a4437",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "LOOKUP-LIT",
+   "rank": 1,
+   "text": "User sells cocoa through a cooperative system in their village."
+  },
+  {
+   "age": "558 days",
+   "alignment_tag": "active",
+   "asserts_stale_value_detector": {
+    "cov_stale_only": 0.5,
+    "cov_successor_only": 0.0,
+    "fires": true,
+    "shared_stale_only": 3
+   },
+   "attribute": "selling_method",
+   "category": "OBLIGATIONS",
+   "entry_id": "lb_00008",
+   "item_id": "frbank:kofi:kofi_q01:SLOT-ABLATED",
+   "job_key": "frbank:kofi:kofi_q01:SLOT-ABLATED|a6614376f94a4437",
+   "native_flags": {
+    "expired": false,
+    "retracted": false,
+    "superseded": false
+   },
+   "native_tag": "active",
+   "persona": "kofi",
+   "policy": "LOOKUP-LIT",
+   "rank": 1,
+   "text": "User sells cocoa through a cooperative system in their village."
+  }
+ ],
+ "unique_lines": 62
+}

@@ -1,0 +1,81 @@
+{
+  "L15_c0.232_r0.3604": {
+    "auroc_pos_vs_other_negs": 0.5525228715459298,
+    "auroc_pos_vs_probes": 0.7718832891246684,
+    "auroc_whole": 0.6096274685816876,
+    "mean_score": {
+      "neg_absent_ablation": 0.2653272868517567,
+      "neg_present": 0.27348085420056323,
+      "neg_probe": 0.19729827498567515,
+      "pos_counted": 0.2471199995133935,
+      "pos_sup": 0.3078247318192134
+    }
+  },
+  "L15_c0_r0.3604": {
+    "auroc_pos_vs_other_negs": 0.6193404592979835,
+    "auroc_pos_vs_probes": 0.7807029177718833,
+    "auroc_whole": 0.661346844358514,
+    "mean_score": {
+      "neg_absent_ablation": 0.25133114164116,
+      "neg_present": 0.24187194256261849,
+      "neg_probe": 0.19640639694086437,
+      "pos_counted": 0.24989550833295032,
+      "pos_sup": 0.31402164106331176
+    }
+  },
+  "L15_c0_r1.0": {
+    "auroc_pos_vs_other_negs": 0.6760408887229276,
+    "auroc_pos_vs_probes": 0.8102785145888595,
+    "auroc_whole": 0.7109860516503246,
+    "mean_score": {
+      "neg_absent_ablation": 0.24946690645037578,
+      "neg_present": 0.24376661167747674,
+      "neg_probe": 0.1985432732721855,
+      "pos_counted": 0.24930935698311504,
+      "pos_sup": 0.3716799020767212
+    }
+  },
+  "Lbase_c0.232_r0.3604": {
+    "auroc_pos_vs_other_negs": 0.5057879014189693,
+    "auroc_pos_vs_probes": 0.5357427055702918,
+    "auroc_whole": 0.5135858306863693,
+    "mean_score": {
+      "neg_absent_ablation": 0.09633884931906682,
+      "neg_present": 0.1536818283299605,
+      "neg_probe": 0.08434757794542559,
+      "pos_counted": 0.052576493221993856,
+      "pos_sup": 0.18012894453510406
+    }
+  },
+  "Lbase_c0_r0.3604": {
+    "auroc_pos_vs_other_negs": 0.592734783420463,
+    "auroc_pos_vs_probes": 0.5732758620689655,
+    "auroc_whole": 0.5876691755282419,
+    "mean_score": {
+      "neg_absent_ablation": 0.035381582236903554,
+      "neg_present": 0.032417187659904874,
+      "neg_probe": 0.041157653240551206,
+      "pos_counted": 0.033948116231618856,
+      "pos_sup": 0.1451852601612844
+    }
+  },
+  "Lbase_c0_r1.0": {
+    "auroc_pos_vs_other_negs": 0.748984783420463,
+    "auroc_pos_vs_probes": 0.7306366047745358,
+    "auroc_whole": 0.7442083275790636,
+    "mean_score": {
+      "neg_absent_ablation": 0.07929018025576066,
+      "neg_present": 0.08902543806738553,
+      "neg_probe": 0.09392778308869436,
+      "pos_counted": 0.06778589817808896,
+      "pos_sup": 0.35980798883570564
+    }
+  },
+  "groups": {
+    "neg_absent_ablation": 238,
+    "neg_present": 174,
+    "neg_probe": 145,
+    "pos_counted": 41,
+    "pos_sup": 63
+  }
+}

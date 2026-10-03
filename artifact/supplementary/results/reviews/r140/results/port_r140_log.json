@@ -1,0 +1,87 @@
+{
+ "units": [
+  "t1",
+  "t8",
+  "t9",
+  "t10"
+ ],
+ "edits": [
+  {
+   "unit": "t1",
+   "file": "abstract",
+   "old": "none of five language models reliably beats a cosine-similarity lookup over the names, including under a control that fixes counts and list length. The three stronger ones are equivalent to it within $0.05$.\n",
+   "new": "none of five language models reliably beats a cosine-similarity lookup over the names, and the three stronger ones are equivalent to it within $0.05$. Under a control that fixes counts and list length, none is reliably above it and none is shown equivalent.\n",
+   "note": "item 1 (AUX-R139-EQUIV: the five sibling-control rows, none equivalent, none reliably above); split at the semicolon (prose rule L: 56 words as one sentence)"
+  },
+  {
+   "unit": "t1",
+   "file": "abstract",
+   "old": "On lists as long as real stores write, padded to $60$ names,",
+   "new": "On lists longer than the stores we tested write, padded to $60$ names,",
+   "note": "item 2 as ruled on 23 Sep ('longer than'; FR-Bank's own lists: 15.04 capped, 32.55 lifted, at most 50, Appendix E.9)"
+  },
+  {
+   "unit": "t1",
+   "file": "abstract",
+   "old": "lead it by $0.13$ to $0.14$, while the other three fall with it.\n",
+   "new": "lead it by $0.13$ to $0.14$, while the other three fall with it. A list-length cue is uncontrolled there.\n",
+   "note": "item 2, the appended clause as its own sentence (prose rule L: the one sentence would run 46 words; the R139 precedent of ruled splits)"
+  },
+  {
+   "unit": "t1",
+   "file": "body",
+   "old": "(Opus, the closest, $+0.02$ $[-0.02,+0.07]$)",
+   "new": "(Opus, the closest, $+0.02$ $[-0.02,+0.07]$) and none shown equivalent",
+   "note": "item 3"
+  },
+  {
+   "unit": "t1",
+   "file": "body",
+   "old": "We apply that distinction to an external store \\citep{koriat1996}:",
+   "new": "Metamemory's monitoring and control distinction (Section~\\ref{sec:intro}) carries over to an external store \\citep{koriat1996}:",
+   "note": "item 4"
+  },
+  {
+   "unit": "t1",
+   "file": "body",
+   "old": "(Sections~\\ref{sec:lookup} and~\\ref{sec:backends}), and a model call before every query cost more than the retrieval it saved (Appendix~\\ref{app:utility-completion}).",
+   "new": "(Sections~\\ref{sec:lookup} and~\\ref{sec:backends}); whether the judgment pays for itself is unresolved (Appendix~\\ref{app:utility-completion}).",
+   "note": "item 5"
+  },
+  {
+   "unit": "t1",
+   "file": "body",
+   "old": "Under the explicit-intent rubric only mini and Luna were rerun.",
+   "new": "The counterfactual set itself was rerun under the explicit-intent rubric for mini and Luna only; the crossover ran every reader under both rubrics.",
+   "note": "item 6"
+  },
+  {
+   "unit": "t1",
+   "file": "body",
+   "old": "On a named state no model reliably exceeds the name lookup on the short list, with list length kept fixed or not; the three stronger readers are equivalent to it within $0.05$.",
+   "new": "On a named state no model reliably exceeds the name lookup on the short list; the three stronger readers are equivalent to it within $0.05$, though not under the control that fixes list length.",
+   "note": "item 7"
+  },
+  {
+   "unit": "t8",
+   "file": "body",
+   "old": "The predictions were registered with a bar, each before the run that tests it",
+   "new": "The predictions were written into the repository's commit history (Appendix~\\ref{app:registration}), each before the run that tests it",
+   "note": "item 8 (rule V: 'registered' -> 'written into', the S3 precedent)"
+  },
+  {
+   "unit": "t9",
+   "file": "body",
+   "old": "an attribute-name list with the values removed.",
+   "new": "an attribute-name list with the values removed, so a store can expose it without disclosing content.",
+   "note": "item 9"
+  },
+  {
+   "unit": "t10",
+   "file": "body",
+   "old": "for Haiku neither holds (Appendix~\\ref{app:counterfactual}).",
+   "new": "for Haiku neither holds (Appendix~\\ref{app:counterfactual}). At that ceiling equivalence is the expected outcome; the sibling-name control is where a reader could show more, and none does.",
+   "note": "item 10"
+  }
+ ]
+}

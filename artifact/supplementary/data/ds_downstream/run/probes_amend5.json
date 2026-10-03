@@ -1,0 +1,26 @@
+{
+ "H45": {
+  "identifier_ok": true,
+  "item_id": "frbank:aisha:aisha_q01:CAT-ABLATED",
+  "sample": "```json\n{\"answer\": \"Aisha works at PwC in the advisory deals and transactions team.\"}\n```",
+  "served": "claude-haiku-4-5-20251001",
+  "status": "OK",
+  "tok_in": 547,
+  "tok_out": 29,
+  "usd": 0.0006919999999999999,
+  "view_lines": 7,
+  "when": "2026-09-14T23:50:57"
+ },
+ "MINI": {
+  "identifier_ok": true,
+  "item_id": "frbank:aisha:aisha_q01:CAT-ABLATED",
+  "sample": "{\"answer\": \"Aisha works at PwC in the advisory deals and transactions team.\"}",
+  "served": "gpt-4.1-mini-2025-04-14",
+  "status": "OK",
+  "tok_in": 528,
+  "tok_out": 19,
+  "usd": 0.00024160000000000004,
+  "view_lines": 7,
+  "when": "2026-09-14T23:50:52"
+ }
+}

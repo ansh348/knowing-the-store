@@ -1,0 +1,2340 @@
+{
+ "notes": {
+  "pn_read": [
+   "Three-way read: YES (a different value or a real cancellation this person could plausibly come to), NO-paraphrase (same fact reworded; under Definition 1 the old value would not make the answer wrong, so the PN label would be semantically hollow), NO-implausible (contradicts the persona or cancels something other than the plan).",
+   "Result: supersession 69 YES / 21 NO-paraphrase / 10 NO-implausible; retraction 29 YES / 1 NO-implausible (104: half-reverses rather than cancels).",
+   "Pattern: paraphrases concentrate on attitude, feeling and philosophy slots; implausible successors on identity-adjacent slots (career, family history, trauma).",
+   "The monitor's input is value-scrubbed; the read guards label honesty, not the measurement.",
+   "Method: records presented by a language model with a look-twice flag on some rows; verdicts typed by the author; disclosed under the AI-use line. Author caught 004 (Series A to seed is a rewind, not a successor) unflagged."
+  ],
+  "question_read": [
+   "Rule applied by the author: flag YES when the question names any specific condition, method, item, place, person (other than the persona's own name), date or event; NO when it names only the slot's topic. Persona's own name is not a value.",
+   "Result: 90 of 160 flagged (supersession 43 of 100 after the four consistency additions, retraction 19 of 30, expiry 28 of 30). CF-1 found 3 of 30. The difference is construction: CF-2's retraction and expiry slots are named after their events, so the question names the plan. The question is identical across the three versions and cannot carry the label; this is a disclosure, not a gate.",
+   "119: the raw slot name msc_sports_rehabilitation rendered verbatim in the question; flagged and recorded as a rendering note."
+  ]
+ },
+ "pn_verdicts": [
+  {
+   "num": "001",
+   "state": "SUPERSESSION",
+   "persona": "aisha",
+   "entry_id": "lb_00071",
+   "slot": "career_progress",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "002",
+   "state": "SUPERSESSION",
+   "persona": "aisha",
+   "entry_id": "lb_00057",
+   "slot": "emotional_state:family_expectations",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "003",
+   "state": "SUPERSESSION",
+   "persona": "aisha",
+   "entry_id": "lb_00088",
+   "slot": "medication:ferrous_sulfate",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "004",
+   "state": "SUPERSESSION",
+   "persona": "alex",
+   "entry_id": "lb_00002",
+   "slot": "company_stage",
+   "verdict": "NO-implausible"
+  },
+  {
+   "num": "005",
+   "state": "SUPERSESSION",
+   "persona": "alex",
+   "entry_id": "lb_00004",
+   "slot": "monthly_transaction_volume",
+   "verdict": "YES"
+  },
+  {
+   "num": "006",
+   "state": "SUPERSESSION",
+   "persona": "alex",
+   "entry_id": "lb_00015",
+   "slot": "work_preference",
+   "verdict": "YES"
+  },
+  {
+   "num": "007",
+   "state": "SUPERSESSION",
+   "persona": "amara",
+   "entry_id": "lb_00051",
+   "slot": "automatic_update_setting",
+   "verdict": "YES"
+  },
+  {
+   "num": "008",
+   "state": "SUPERSESSION",
+   "persona": "amara",
+   "entry_id": "lb_00026",
+   "slot": "diary_preference:conference_spacing",
+   "verdict": "YES"
+  },
+  {
+   "num": "009",
+   "state": "SUPERSESSION",
+   "persona": "amara",
+   "entry_id": "lb_00033",
+   "slot": "habit:desk_posture",
+   "verdict": "YES"
+  },
+  {
+   "num": "010",
+   "state": "SUPERSESSION",
+   "persona": "aroha",
+   "entry_id": "lb_00029",
+   "slot": "recharge_location:Moana",
+   "verdict": "YES"
+  },
+  {
+   "num": "011",
+   "state": "SUPERSESSION",
+   "persona": "billy",
+   "entry_id": "lb_00036",
+   "slot": "gear:headlamps",
+   "verdict": "YES"
+  },
+  {
+   "num": "012",
+   "state": "SUPERSESSION",
+   "persona": "bruna",
+   "entry_id": "lb_00017",
+   "slot": "profession_style",
+   "verdict": "YES"
+  },
+  {
+   "num": "013",
+   "state": "SUPERSESSION",
+   "persona": "bruna",
+   "entry_id": "lb_00011",
+   "slot": "professional_style",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "014",
+   "state": "SUPERSESSION",
+   "persona": "bruna",
+   "entry_id": "lb_00006",
+   "slot": "rehabilitation_philosophy",
+   "verdict": "YES"
+  },
+  {
+   "num": "015",
+   "state": "SUPERSESSION",
+   "persona": "callum",
+   "entry_id": "lb_00040",
+   "slot": "family_member:fiona_hobby_running",
+   "verdict": "YES"
+  },
+  {
+   "num": "016",
+   "state": "SUPERSESSION",
+   "persona": "callum",
+   "entry_id": "lb_00020",
+   "slot": "profession_specialization",
+   "verdict": "YES"
+  },
+  {
+   "num": "017",
+   "state": "SUPERSESSION",
+   "persona": "chenoa",
+   "entry_id": "lb_00007",
+   "slot": "personal_commitment",
+   "verdict": "NO-implausible"
+  },
+  {
+   "num": "018",
+   "state": "SUPERSESSION",
+   "persona": "david",
+   "entry_id": "lb_00023",
+   "slot": "living_arrangement",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "019",
+   "state": "SUPERSESSION",
+   "persona": "diane",
+   "entry_id": "lb_00007",
+   "slot": "preference:nature_comfort",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "020",
+   "state": "SUPERSESSION",
+   "persona": "dmitri",
+   "entry_id": "lb_00028",
+   "slot": "boundary_between_personal_and_professional",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "021",
+   "state": "SUPERSESSION",
+   "persona": "dmitri",
+   "entry_id": "lb_00009",
+   "slot": "primary_client",
+   "verdict": "YES"
+  },
+  {
+   "num": "022",
+   "state": "SUPERSESSION",
+   "persona": "dmitri",
+   "entry_id": "lb_00004",
+   "slot": "retainer_amount",
+   "verdict": "YES"
+  },
+  {
+   "num": "023",
+   "state": "SUPERSESSION",
+   "persona": "elena",
+   "entry_id": "lb_00013",
+   "slot": "decompression_method:phone_scrolling",
+   "verdict": "YES"
+  },
+  {
+   "num": "024",
+   "state": "SUPERSESSION",
+   "persona": "elena",
+   "entry_id": "lb_00056",
+   "slot": "health_condition:racing_thoughts",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "025",
+   "state": "SUPERSESSION",
+   "persona": "elena",
+   "entry_id": "lb_00012",
+   "slot": "sleep_schedule",
+   "verdict": "YES"
+  },
+  {
+   "num": "026",
+   "state": "SUPERSESSION",
+   "persona": "elena",
+   "entry_id": "lb_00018",
+   "slot": "social_connection_status",
+   "verdict": "YES"
+  },
+  {
+   "num": "027",
+   "state": "SUPERSESSION",
+   "persona": "fatima",
+   "entry_id": "lb_00019",
+   "slot": "design_preference:geometric_drapery",
+   "verdict": "YES"
+  },
+  {
+   "num": "028",
+   "state": "SUPERSESSION",
+   "persona": "fatima",
+   "entry_id": "lb_00071",
+   "slot": "health_condition:back_pain_related_to_site_visits",
+   "verdict": "YES"
+  },
+  {
+   "num": "029",
+   "state": "SUPERSESSION",
+   "persona": "fatima",
+   "entry_id": "lb_00017",
+   "slot": "supplier_preference",
+   "verdict": "YES"
+  },
+  {
+   "num": "030",
+   "state": "SUPERSESSION",
+   "persona": "ingrid",
+   "entry_id": "lb_00010",
+   "slot": "cognition_influence:Arctic_light",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "031",
+   "state": "SUPERSESSION",
+   "persona": "ingrid",
+   "entry_id": "lb_00003",
+   "slot": "software_skill:R",
+   "verdict": "YES"
+  },
+  {
+   "num": "032",
+   "state": "SUPERSESSION",
+   "persona": "ingrid",
+   "entry_id": "lb_00006",
+   "slot": "software_tools",
+   "verdict": "YES"
+  },
+  {
+   "num": "033",
+   "state": "SUPERSESSION",
+   "persona": "jake",
+   "entry_id": "lb_00025",
+   "slot": "health_belief_vaping_vs_smoking",
+   "verdict": "YES"
+  },
+  {
+   "num": "034",
+   "state": "SUPERSESSION",
+   "persona": "jake",
+   "entry_id": "lb_00022",
+   "slot": "vaping_frequency",
+   "verdict": "YES"
+  },
+  {
+   "num": "035",
+   "state": "SUPERSESSION",
+   "persona": "jerome",
+   "entry_id": "lb_00068",
+   "slot": "health_condition:ptsd_flashbacks",
+   "verdict": "NO-implausible"
+  },
+  {
+   "num": "036",
+   "state": "SUPERSESSION",
+   "persona": "jerome",
+   "entry_id": "lb_00067",
+   "slot": "psychological_association_movement",
+   "verdict": "YES"
+  },
+  {
+   "num": "037",
+   "state": "SUPERSESSION",
+   "persona": "jerome",
+   "entry_id": "lb_00066",
+   "slot": "restlessness_pattern",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "038",
+   "state": "SUPERSESSION",
+   "persona": "joonho",
+   "entry_id": "lb_00018",
+   "slot": "hobby:cooking_korean_food",
+   "verdict": "YES"
+  },
+  {
+   "num": "039",
+   "state": "SUPERSESSION",
+   "persona": "joonho",
+   "entry_id": "lb_00010",
+   "slot": "lesson_preparation_routine",
+   "verdict": "YES"
+  },
+  {
+   "num": "040",
+   "state": "SUPERSESSION",
+   "persona": "joonho",
+   "entry_id": "lb_00012",
+   "slot": "preference:home_cooked_meals",
+   "verdict": "YES"
+  },
+  {
+   "num": "041",
+   "state": "SUPERSESSION",
+   "persona": "kenji",
+   "entry_id": "lb_00024",
+   "slot": "health_condition_cause:insomnia",
+   "verdict": "YES"
+  },
+  {
+   "num": "042",
+   "state": "SUPERSESSION",
+   "persona": "kenji",
+   "entry_id": "lb_00010",
+   "slot": "hourly_rate_level",
+   "verdict": "YES"
+  },
+  {
+   "num": "043",
+   "state": "SUPERSESSION",
+   "persona": "kenji",
+   "entry_id": "lb_00008",
+   "slot": "pricing_skill",
+   "verdict": "YES"
+  },
+  {
+   "num": "044",
+   "state": "SUPERSESSION",
+   "persona": "kenji",
+   "entry_id": "lb_00007",
+   "slot": "work_pattern",
+   "verdict": "YES"
+  },
+  {
+   "num": "045",
+   "state": "SUPERSESSION",
+   "persona": "kofi",
+   "entry_id": "lb_00024",
+   "slot": "cooperative_price_per_bag",
+   "verdict": "YES"
+  },
+  {
+   "num": "046",
+   "state": "SUPERSESSION",
+   "persona": "kofi",
+   "entry_id": "lb_00070",
+   "slot": "health_risk:malaria_exposure",
+   "verdict": "NO-implausible"
+  },
+  {
+   "num": "047",
+   "state": "SUPERSESSION",
+   "persona": "kofi",
+   "entry_id": "lb_00067",
+   "slot": "malaria_treatment_cost",
+   "verdict": "YES"
+  },
+  {
+   "num": "048",
+   "state": "SUPERSESSION",
+   "persona": "kofi",
+   "entry_id": "lb_00072",
+   "slot": "sleeping_arrangement:drying_shed",
+   "verdict": "YES"
+  },
+  {
+   "num": "049",
+   "state": "SUPERSESSION",
+   "persona": "leila",
+   "entry_id": "lb_00018",
+   "slot": "daily_routine_preference",
+   "verdict": "YES"
+  },
+  {
+   "num": "050",
+   "state": "SUPERSESSION",
+   "persona": "leila",
+   "entry_id": "lb_00037",
+   "slot": "health_condition:migraine_trigger_fluorescent_lights",
+   "verdict": "YES"
+  },
+  {
+   "num": "051",
+   "state": "SUPERSESSION",
+   "persona": "lily",
+   "entry_id": "lb_00051",
+   "slot": "health_condition:chronic skin condition",
+   "verdict": "YES"
+  },
+  {
+   "num": "052",
+   "state": "SUPERSESSION",
+   "persona": "lily",
+   "entry_id": "lb_00005",
+   "slot": "methodological_opinion:microplastic_sampling",
+   "verdict": "YES"
+  },
+  {
+   "num": "053",
+   "state": "SUPERSESSION",
+   "persona": "marcus",
+   "entry_id": "lb_00033",
+   "slot": "health_monitoring:blood sugar check",
+   "verdict": "YES"
+  },
+  {
+   "num": "054",
+   "state": "SUPERSESSION",
+   "persona": "marcus",
+   "entry_id": "lb_00002",
+   "slot": "inventory_supplier",
+   "verdict": "YES"
+  },
+  {
+   "num": "055",
+   "state": "SUPERSESSION",
+   "persona": "marcus",
+   "entry_id": "lb_00023",
+   "slot": "morning_phone_usage_duration",
+   "verdict": "YES"
+  },
+  {
+   "num": "056",
+   "state": "SUPERSESSION",
+   "persona": "marcus",
+   "entry_id": "lb_00019",
+   "slot": "morning_routine:shower_and_dress",
+   "verdict": "YES"
+  },
+  {
+   "num": "057",
+   "state": "SUPERSESSION",
+   "persona": "marley",
+   "entry_id": "lb_00010",
+   "slot": "family_member:nan_hobby:cooking_routine",
+   "verdict": "YES"
+  },
+  {
+   "num": "058",
+   "state": "SUPERSESSION",
+   "persona": "mehmet",
+   "entry_id": "lb_00020",
+   "slot": "custom:tea_offered",
+   "verdict": "NO-implausible"
+  },
+  {
+   "num": "059",
+   "state": "SUPERSESSION",
+   "persona": "mehmet",
+   "entry_id": "lb_00013",
+   "slot": "lunch_habit",
+   "verdict": "YES"
+  },
+  {
+   "num": "060",
+   "state": "SUPERSESSION",
+   "persona": "mirri",
+   "entry_id": "lb_00052",
+   "slot": "cultural_learning",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "061",
+   "state": "SUPERSESSION",
+   "persona": "mirri",
+   "entry_id": "lb_00029",
+   "slot": "morning_routine_preference",
+   "verdict": "YES"
+  },
+  {
+   "num": "062",
+   "state": "SUPERSESSION",
+   "persona": "mirri",
+   "entry_id": "lb_00055",
+   "slot": "role:knowledge_keeper",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "063",
+   "state": "SUPERSESSION",
+   "persona": "mirri",
+   "entry_id": "lb_00050",
+   "slot": "terminology_preference_land",
+   "verdict": "NO-implausible"
+  },
+  {
+   "num": "064",
+   "state": "SUPERSESSION",
+   "persona": "nadia",
+   "entry_id": "lb_00012",
+   "slot": "shopping_preference:russian_store_decarie",
+   "verdict": "YES"
+  },
+  {
+   "num": "065",
+   "state": "SUPERSESSION",
+   "persona": "nadia",
+   "entry_id": "lb_00009",
+   "slot": "work_ethic",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "066",
+   "state": "SUPERSESSION",
+   "persona": "omar",
+   "entry_id": "lb_00092",
+   "slot": "budget_allocation",
+   "verdict": "NO-implausible"
+  },
+  {
+   "num": "067",
+   "state": "SUPERSESSION",
+   "persona": "omar",
+   "entry_id": "lb_00032",
+   "slot": "financial_obligation:mother_support_amount",
+   "verdict": "YES"
+  },
+  {
+   "num": "068",
+   "state": "SUPERSESSION",
+   "persona": "omar",
+   "entry_id": "lb_00070",
+   "slot": "study_difficulty:legal_topics",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "069",
+   "state": "SUPERSESSION",
+   "persona": "omar",
+   "entry_id": "lb_00003",
+   "slot": "study_habit",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "070",
+   "state": "SUPERSESSION",
+   "persona": "pan",
+   "entry_id": "lb_00069",
+   "slot": "bedtime_habit",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "071",
+   "state": "SUPERSESSION",
+   "persona": "pan",
+   "entry_id": "lb_00070",
+   "slot": "dietary_habit:late_night_spicy_food",
+   "verdict": "YES"
+  },
+  {
+   "num": "072",
+   "state": "SUPERSESSION",
+   "persona": "patrick",
+   "entry_id": "lb_00026",
+   "slot": "project:kitchen_cabinets_installation_preference",
+   "verdict": "YES"
+  },
+  {
+   "num": "073",
+   "state": "SUPERSESSION",
+   "persona": "priya",
+   "entry_id": "lb_00006",
+   "slot": "focus_pattern",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "074",
+   "state": "SUPERSESSION",
+   "persona": "priya",
+   "entry_id": "lb_00003",
+   "slot": "productivity_habit",
+   "verdict": "YES"
+  },
+  {
+   "num": "075",
+   "state": "SUPERSESSION",
+   "persona": "priya",
+   "entry_id": "lb_00004",
+   "slot": "productivity_setup_time",
+   "verdict": "YES"
+  },
+  {
+   "num": "076",
+   "state": "SUPERSESSION",
+   "persona": "priya",
+   "entry_id": "lb_00005",
+   "slot": "task_management_skill",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "077",
+   "state": "SUPERSESSION",
+   "persona": "raj",
+   "entry_id": "lb_00029",
+   "slot": "child_interest:Preet",
+   "verdict": "YES"
+  },
+  {
+   "num": "078",
+   "state": "SUPERSESSION",
+   "persona": "raj",
+   "entry_id": "lb_00064",
+   "slot": "health_condition_trigger:asthma_dust",
+   "verdict": "YES"
+  },
+  {
+   "num": "079",
+   "state": "SUPERSESSION",
+   "persona": "raj",
+   "entry_id": "lb_00066",
+   "slot": "work_safety_equipment:FFP3_mask",
+   "verdict": "YES"
+  },
+  {
+   "num": "080",
+   "state": "SUPERSESSION",
+   "persona": "rosa",
+   "entry_id": "lb_00017",
+   "slot": "judicial_decision_approach",
+   "verdict": "YES"
+  },
+  {
+   "num": "081",
+   "state": "SUPERSESSION",
+   "persona": "rosa",
+   "entry_id": "lb_00002",
+   "slot": "preference:colada_location",
+   "verdict": "NO-implausible"
+  },
+  {
+   "num": "082",
+   "state": "SUPERSESSION",
+   "persona": "saga",
+   "entry_id": "lb_00040",
+   "slot": "health_management:celiac_reactions_log",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "083",
+   "state": "SUPERSESSION",
+   "persona": "saga",
+   "entry_id": "lb_00043",
+   "slot": "health_management_method",
+   "verdict": "YES"
+  },
+  {
+   "num": "084",
+   "state": "SUPERSESSION",
+   "persona": "saga",
+   "entry_id": "lb_00024",
+   "slot": "preference:ideal_tuesday_evening",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "085",
+   "state": "SUPERSESSION",
+   "persona": "samuel",
+   "entry_id": "lb_00018",
+   "slot": "identity_connection_to_first_generation_students",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "086",
+   "state": "SUPERSESSION",
+   "persona": "samuel",
+   "entry_id": "lb_00006",
+   "slot": "surgical_training_philosophy",
+   "verdict": "YES"
+  },
+  {
+   "num": "087",
+   "state": "SUPERSESSION",
+   "persona": "thanh",
+   "entry_id": "lb_00066",
+   "slot": "communication_preference:old_times",
+   "verdict": "YES"
+  },
+  {
+   "num": "088",
+   "state": "SUPERSESSION",
+   "persona": "thanh",
+   "entry_id": "lb_00022",
+   "slot": "family_member:lan_sales_volume",
+   "verdict": "YES"
+  },
+  {
+   "num": "089",
+   "state": "SUPERSESSION",
+   "persona": "thanh",
+   "entry_id": "lb_00036",
+   "slot": "shrimp_sell_price_per_kilo",
+   "verdict": "YES"
+  },
+  {
+   "num": "090",
+   "state": "SUPERSESSION",
+   "persona": "thanh",
+   "entry_id": "lb_00067",
+   "slot": "sleep_schedule",
+   "verdict": "YES"
+  },
+  {
+   "num": "091",
+   "state": "SUPERSESSION",
+   "persona": "tom",
+   "entry_id": "lb_00019",
+   "slot": "morning_radio_preference",
+   "verdict": "YES"
+  },
+  {
+   "num": "092",
+   "state": "SUPERSESSION",
+   "persona": "tom",
+   "entry_id": "lb_00018",
+   "slot": "morning_tea_preference",
+   "verdict": "YES"
+  },
+  {
+   "num": "093",
+   "state": "SUPERSESSION",
+   "persona": "valentina",
+   "entry_id": "lb_00021",
+   "slot": "career",
+   "verdict": "YES"
+  },
+  {
+   "num": "094",
+   "state": "SUPERSESSION",
+   "persona": "valentina",
+   "entry_id": "lb_00028",
+   "slot": "internal_conflict_journalism",
+   "verdict": "NO-implausible"
+  },
+  {
+   "num": "095",
+   "state": "SUPERSESSION",
+   "persona": "valentina",
+   "entry_id": "lb_00030",
+   "slot": "psychological_pattern",
+   "verdict": "NO-implausible"
+  },
+  {
+   "num": "096",
+   "state": "SUPERSESSION",
+   "persona": "yoli",
+   "entry_id": "lb_00016",
+   "slot": "money_transfer_speed_preference",
+   "verdict": "YES"
+  },
+  {
+   "num": "097",
+   "state": "SUPERSESSION",
+   "persona": "yoli",
+   "entry_id": "lb_00007",
+   "slot": "primary_daw",
+   "verdict": "YES"
+  },
+  {
+   "num": "098",
+   "state": "SUPERSESSION",
+   "persona": "yoli",
+   "entry_id": "lb_00011",
+   "slot": "software:ableton_live",
+   "verdict": "YES"
+  },
+  {
+   "num": "099",
+   "state": "SUPERSESSION",
+   "persona": "zara",
+   "entry_id": "lb_00059",
+   "slot": "health_condition:vitamin_D_deficiency",
+   "verdict": "YES"
+  },
+  {
+   "num": "100",
+   "state": "SUPERSESSION",
+   "persona": "zara",
+   "entry_id": "lb_00051",
+   "slot": "medication:vitamin D supplement dosage",
+   "verdict": "YES"
+  },
+  {
+   "num": "101",
+   "state": "RETRACTION",
+   "persona": "aisha",
+   "entry_id": "lb_00223",
+   "slot": "current_study:CIMA",
+   "verdict": "YES"
+  },
+  {
+   "num": "102",
+   "state": "RETRACTION",
+   "persona": "aisha",
+   "entry_id": "lb_00220",
+   "slot": "project:CIMA_study",
+   "verdict": "YES"
+  },
+  {
+   "num": "103",
+   "state": "RETRACTION",
+   "persona": "aisha",
+   "entry_id": "lb_00123",
+   "slot": "study_habit",
+   "verdict": "YES"
+  },
+  {
+   "num": "104",
+   "state": "RETRACTION",
+   "persona": "alex",
+   "entry_id": "lb_00118",
+   "slot": "project_release_strategy",
+   "verdict": "NO-implausible"
+  },
+  {
+   "num": "105",
+   "state": "RETRACTION",
+   "persona": "aroha",
+   "entry_id": "lb_00316",
+   "slot": "equipment:portable_fetal_monitor",
+   "verdict": "YES"
+  },
+  {
+   "num": "106",
+   "state": "RETRACTION",
+   "persona": "billy",
+   "entry_id": "lb_00103",
+   "slot": "project:camp_building_husky_lakes",
+   "verdict": "YES"
+  },
+  {
+   "num": "107",
+   "state": "RETRACTION",
+   "persona": "bruna",
+   "entry_id": "lb_00264",
+   "slot": "trip_plan:brazil_carnival",
+   "verdict": "YES"
+  },
+  {
+   "num": "108",
+   "state": "RETRACTION",
+   "persona": "callum",
+   "entry_id": "lb_00350",
+   "slot": "project:batch_cooking_chilli",
+   "verdict": "YES"
+  },
+  {
+   "num": "109",
+   "state": "RETRACTION",
+   "persona": "chenoa",
+   "entry_id": "lb_00006",
+   "slot": "project:telehealth_log",
+   "verdict": "YES"
+  },
+  {
+   "num": "110",
+   "state": "RETRACTION",
+   "persona": "dmitri",
+   "entry_id": "lb_00058",
+   "slot": "contract_renegotiation_strategy",
+   "verdict": "YES"
+  },
+  {
+   "num": "111",
+   "state": "RETRACTION",
+   "persona": "elena",
+   "entry_id": "lb_00182",
+   "slot": "project:nurse_practitioner_program",
+   "verdict": "YES"
+  },
+  {
+   "num": "112",
+   "state": "RETRACTION",
+   "persona": "ingrid",
+   "entry_id": "lb_00168",
+   "slot": "provision_stock_cubes",
+   "verdict": "YES"
+  },
+  {
+   "num": "113",
+   "state": "RETRACTION",
+   "persona": "jake",
+   "entry_id": "lb_00111",
+   "slot": "study_method:codebook_tabbing",
+   "verdict": "YES"
+  },
+  {
+   "num": "114",
+   "state": "RETRACTION",
+   "persona": "kofi",
+   "entry_id": "lb_00061",
+   "slot": "project:cocoa_farm_replanting_schedule",
+   "verdict": "YES"
+  },
+  {
+   "num": "115",
+   "state": "RETRACTION",
+   "persona": "leila",
+   "entry_id": "lb_00016",
+   "slot": "project:municipal_heritage_restoration",
+   "verdict": "YES"
+  },
+  {
+   "num": "116",
+   "state": "RETRACTION",
+   "persona": "lily",
+   "entry_id": "lb_00167",
+   "slot": "exchange_semester",
+   "verdict": "YES"
+  },
+  {
+   "num": "117",
+   "state": "RETRACTION",
+   "persona": "marcus",
+   "entry_id": "lb_00111",
+   "slot": "project:second_location",
+   "verdict": "YES"
+  },
+  {
+   "num": "118",
+   "state": "RETRACTION",
+   "persona": "marley",
+   "entry_id": "lb_00096",
+   "slot": "education_plan",
+   "verdict": "YES"
+  },
+  {
+   "num": "119",
+   "state": "RETRACTION",
+   "persona": "marley",
+   "entry_id": "lb_00102",
+   "slot": "project:msc_sports_rehabilitation",
+   "verdict": "YES"
+  },
+  {
+   "num": "120",
+   "state": "RETRACTION",
+   "persona": "omar",
+   "entry_id": "lb_00005",
+   "slot": "project:real_estate_license",
+   "verdict": "YES"
+  },
+  {
+   "num": "121",
+   "state": "RETRACTION",
+   "persona": "pan",
+   "entry_id": "lb_00207",
+   "slot": "family_member:beam_role_in_business",
+   "verdict": "YES"
+  },
+  {
+   "num": "122",
+   "state": "RETRACTION",
+   "persona": "pan",
+   "entry_id": "lb_00192",
+   "slot": "sales_channels",
+   "verdict": "YES"
+  },
+  {
+   "num": "123",
+   "state": "RETRACTION",
+   "persona": "patrick",
+   "entry_id": "lb_00014",
+   "slot": "kitchen_cabinet_replacement_plan",
+   "verdict": "YES"
+  },
+  {
+   "num": "124",
+   "state": "RETRACTION",
+   "persona": "priya",
+   "entry_id": "lb_00199",
+   "slot": "pet_plan",
+   "verdict": "YES"
+  },
+  {
+   "num": "125",
+   "state": "RETRACTION",
+   "persona": "priya",
+   "entry_id": "lb_00096",
+   "slot": "project:apartment_improvement",
+   "verdict": "YES"
+  },
+  {
+   "num": "126",
+   "state": "RETRACTION",
+   "persona": "raj",
+   "entry_id": "lb_00153",
+   "slot": "business_practice",
+   "verdict": "YES"
+  },
+  {
+   "num": "127",
+   "state": "RETRACTION",
+   "persona": "raj",
+   "entry_id": "lb_00073",
+   "slot": "project:website_creation",
+   "verdict": "YES"
+  },
+  {
+   "num": "128",
+   "state": "RETRACTION",
+   "persona": "rosa",
+   "entry_id": "lb_00012",
+   "slot": "project:colada_taste_test",
+   "verdict": "YES"
+  },
+  {
+   "num": "129",
+   "state": "RETRACTION",
+   "persona": "saga",
+   "entry_id": "lb_00084",
+   "slot": "project:climbing_route_segmentation",
+   "verdict": "YES"
+  },
+  {
+   "num": "130",
+   "state": "RETRACTION",
+   "persona": "yoli",
+   "entry_id": "lb_00139",
+   "slot": "music_playlist_status",
+   "verdict": "YES"
+  }
+ ],
+ "question_flags": [
+  {
+   "num": "001",
+   "state": "SUPERSESSION",
+   "persona": "aisha",
+   "entry_id": "lb_00071",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "002",
+   "state": "SUPERSESSION",
+   "persona": "aisha",
+   "entry_id": "lb_00057",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "003",
+   "state": "SUPERSESSION",
+   "persona": "aisha",
+   "entry_id": "lb_00088",
+   "flag": "YES",
+   "token": "ferrous sulfate"
+  },
+  {
+   "num": "004",
+   "state": "SUPERSESSION",
+   "persona": "alex",
+   "entry_id": "lb_00002",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "005",
+   "state": "SUPERSESSION",
+   "persona": "alex",
+   "entry_id": "lb_00004",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "006",
+   "state": "SUPERSESSION",
+   "persona": "alex",
+   "entry_id": "lb_00015",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "007",
+   "state": "SUPERSESSION",
+   "persona": "amara",
+   "entry_id": "lb_00051",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "008",
+   "state": "SUPERSESSION",
+   "persona": "amara",
+   "entry_id": "lb_00026",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "009",
+   "state": "SUPERSESSION",
+   "persona": "amara",
+   "entry_id": "lb_00033",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "010",
+   "state": "SUPERSESSION",
+   "persona": "aroha",
+   "entry_id": "lb_00029",
+   "flag": "YES",
+   "token": "Moana"
+  },
+  {
+   "num": "011",
+   "state": "SUPERSESSION",
+   "persona": "billy",
+   "entry_id": "lb_00036",
+   "flag": "YES",
+   "token": "headlamps"
+  },
+  {
+   "num": "012",
+   "state": "SUPERSESSION",
+   "persona": "bruna",
+   "entry_id": "lb_00017",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "013",
+   "state": "SUPERSESSION",
+   "persona": "bruna",
+   "entry_id": "lb_00011",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "014",
+   "state": "SUPERSESSION",
+   "persona": "bruna",
+   "entry_id": "lb_00006",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "015",
+   "state": "SUPERSESSION",
+   "persona": "callum",
+   "entry_id": "lb_00040",
+   "flag": "YES",
+   "token": "Fiona"
+  },
+  {
+   "num": "016",
+   "state": "SUPERSESSION",
+   "persona": "callum",
+   "entry_id": "lb_00020",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "017",
+   "state": "SUPERSESSION",
+   "persona": "chenoa",
+   "entry_id": "lb_00007",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "018",
+   "state": "SUPERSESSION",
+   "persona": "david",
+   "entry_id": "lb_00023",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "019",
+   "state": "SUPERSESSION",
+   "persona": "diane",
+   "entry_id": "lb_00007",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "020",
+   "state": "SUPERSESSION",
+   "persona": "dmitri",
+   "entry_id": "lb_00028",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "021",
+   "state": "SUPERSESSION",
+   "persona": "dmitri",
+   "entry_id": "lb_00009",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "022",
+   "state": "SUPERSESSION",
+   "persona": "dmitri",
+   "entry_id": "lb_00004",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "023",
+   "state": "SUPERSESSION",
+   "persona": "elena",
+   "entry_id": "lb_00013",
+   "flag": "YES",
+   "token": "phone scrolling"
+  },
+  {
+   "num": "024",
+   "state": "SUPERSESSION",
+   "persona": "elena",
+   "entry_id": "lb_00056",
+   "flag": "YES",
+   "token": "racing thoughts"
+  },
+  {
+   "num": "025",
+   "state": "SUPERSESSION",
+   "persona": "elena",
+   "entry_id": "lb_00012",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "026",
+   "state": "SUPERSESSION",
+   "persona": "elena",
+   "entry_id": "lb_00018",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "027",
+   "state": "SUPERSESSION",
+   "persona": "fatima",
+   "entry_id": "lb_00019",
+   "flag": "YES",
+   "token": "geometric drapery"
+  },
+  {
+   "num": "028",
+   "state": "SUPERSESSION",
+   "persona": "fatima",
+   "entry_id": "lb_00071",
+   "flag": "YES",
+   "token": "back pain, site visits"
+  },
+  {
+   "num": "029",
+   "state": "SUPERSESSION",
+   "persona": "fatima",
+   "entry_id": "lb_00017",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "030",
+   "state": "SUPERSESSION",
+   "persona": "ingrid",
+   "entry_id": "lb_00010",
+   "flag": "YES",
+   "token": "Arctic light"
+  },
+  {
+   "num": "031",
+   "state": "SUPERSESSION",
+   "persona": "ingrid",
+   "entry_id": "lb_00003",
+   "flag": "YES",
+   "token": "R"
+  },
+  {
+   "num": "032",
+   "state": "SUPERSESSION",
+   "persona": "ingrid",
+   "entry_id": "lb_00006",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "033",
+   "state": "SUPERSESSION",
+   "persona": "jake",
+   "entry_id": "lb_00025",
+   "flag": "YES",
+   "token": "vaping"
+  },
+  {
+   "num": "034",
+   "state": "SUPERSESSION",
+   "persona": "jake",
+   "entry_id": "lb_00022",
+   "flag": "YES",
+   "token": "vaping"
+  },
+  {
+   "num": "035",
+   "state": "SUPERSESSION",
+   "persona": "jerome",
+   "entry_id": "lb_00068",
+   "flag": "YES",
+   "token": "PTSD flashbacks"
+  },
+  {
+   "num": "036",
+   "state": "SUPERSESSION",
+   "persona": "jerome",
+   "entry_id": "lb_00067",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "037",
+   "state": "SUPERSESSION",
+   "persona": "jerome",
+   "entry_id": "lb_00066",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "038",
+   "state": "SUPERSESSION",
+   "persona": "joonho",
+   "entry_id": "lb_00018",
+   "flag": "YES",
+   "token": "Korean"
+  },
+  {
+   "num": "039",
+   "state": "SUPERSESSION",
+   "persona": "joonho",
+   "entry_id": "lb_00010",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "040",
+   "state": "SUPERSESSION",
+   "persona": "joonho",
+   "entry_id": "lb_00012",
+   "flag": "YES",
+   "token": "home-cooked meals"
+  },
+  {
+   "num": "041",
+   "state": "SUPERSESSION",
+   "persona": "kenji",
+   "entry_id": "lb_00024",
+   "flag": "YES",
+   "token": "insomnia"
+  },
+  {
+   "num": "042",
+   "state": "SUPERSESSION",
+   "persona": "kenji",
+   "entry_id": "lb_00010",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "043",
+   "state": "SUPERSESSION",
+   "persona": "kenji",
+   "entry_id": "lb_00008",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "044",
+   "state": "SUPERSESSION",
+   "persona": "kenji",
+   "entry_id": "lb_00007",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "045",
+   "state": "SUPERSESSION",
+   "persona": "kofi",
+   "entry_id": "lb_00024",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "046",
+   "state": "SUPERSESSION",
+   "persona": "kofi",
+   "entry_id": "lb_00070",
+   "flag": "YES",
+   "token": "malaria"
+  },
+  {
+   "num": "047",
+   "state": "SUPERSESSION",
+   "persona": "kofi",
+   "entry_id": "lb_00067",
+   "flag": "YES",
+   "token": "malaria"
+  },
+  {
+   "num": "048",
+   "state": "SUPERSESSION",
+   "persona": "kofi",
+   "entry_id": "lb_00072",
+   "flag": "YES",
+   "token": "drying shed"
+  },
+  {
+   "num": "049",
+   "state": "SUPERSESSION",
+   "persona": "leila",
+   "entry_id": "lb_00018",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "050",
+   "state": "SUPERSESSION",
+   "persona": "leila",
+   "entry_id": "lb_00037",
+   "flag": "YES",
+   "token": "fluorescent lights, migraine"
+  },
+  {
+   "num": "051",
+   "state": "SUPERSESSION",
+   "persona": "lily",
+   "entry_id": "lb_00051",
+   "flag": "YES",
+   "token": "chronic skin condition"
+  },
+  {
+   "num": "052",
+   "state": "SUPERSESSION",
+   "persona": "lily",
+   "entry_id": "lb_00005",
+   "flag": "YES",
+   "token": "microplastic"
+  },
+  {
+   "num": "053",
+   "state": "SUPERSESSION",
+   "persona": "marcus",
+   "entry_id": "lb_00033",
+   "flag": "YES",
+   "token": "blood sugar"
+  },
+  {
+   "num": "054",
+   "state": "SUPERSESSION",
+   "persona": "marcus",
+   "entry_id": "lb_00002",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "055",
+   "state": "SUPERSESSION",
+   "persona": "marcus",
+   "entry_id": "lb_00023",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "056",
+   "state": "SUPERSESSION",
+   "persona": "marcus",
+   "entry_id": "lb_00019",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "057",
+   "state": "SUPERSESSION",
+   "persona": "marley",
+   "entry_id": "lb_00010",
+   "flag": "YES",
+   "token": "Nan"
+  },
+  {
+   "num": "058",
+   "state": "SUPERSESSION",
+   "persona": "mehmet",
+   "entry_id": "lb_00020",
+   "flag": "YES",
+   "token": "tea"
+  },
+  {
+   "num": "059",
+   "state": "SUPERSESSION",
+   "persona": "mehmet",
+   "entry_id": "lb_00013",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "060",
+   "state": "SUPERSESSION",
+   "persona": "mirri",
+   "entry_id": "lb_00052",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "061",
+   "state": "SUPERSESSION",
+   "persona": "mirri",
+   "entry_id": "lb_00029",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "062",
+   "state": "SUPERSESSION",
+   "persona": "mirri",
+   "entry_id": "lb_00055",
+   "flag": "YES",
+   "token": "knowledge keeper"
+  },
+  {
+   "num": "063",
+   "state": "SUPERSESSION",
+   "persona": "mirri",
+   "entry_id": "lb_00050",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "064",
+   "state": "SUPERSESSION",
+   "persona": "nadia",
+   "entry_id": "lb_00012",
+   "flag": "YES",
+   "token": "Russian store, Decarie"
+  },
+  {
+   "num": "065",
+   "state": "SUPERSESSION",
+   "persona": "nadia",
+   "entry_id": "lb_00009",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "066",
+   "state": "SUPERSESSION",
+   "persona": "omar",
+   "entry_id": "lb_00092",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "067",
+   "state": "SUPERSESSION",
+   "persona": "omar",
+   "entry_id": "lb_00032",
+   "flag": "YES",
+   "token": "mother support"
+  },
+  {
+   "num": "068",
+   "state": "SUPERSESSION",
+   "persona": "omar",
+   "entry_id": "lb_00070",
+   "flag": "YES",
+   "token": "legal topics"
+  },
+  {
+   "num": "069",
+   "state": "SUPERSESSION",
+   "persona": "omar",
+   "entry_id": "lb_00003",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "070",
+   "state": "SUPERSESSION",
+   "persona": "pan",
+   "entry_id": "lb_00069",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "071",
+   "state": "SUPERSESSION",
+   "persona": "pan",
+   "entry_id": "lb_00070",
+   "flag": "YES",
+   "token": "spicy food, late night"
+  },
+  {
+   "num": "072",
+   "state": "SUPERSESSION",
+   "persona": "patrick",
+   "entry_id": "lb_00026",
+   "flag": "YES",
+   "token": "kitchen cabinets"
+  },
+  {
+   "num": "073",
+   "state": "SUPERSESSION",
+   "persona": "priya",
+   "entry_id": "lb_00006",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "074",
+   "state": "SUPERSESSION",
+   "persona": "priya",
+   "entry_id": "lb_00003",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "075",
+   "state": "SUPERSESSION",
+   "persona": "priya",
+   "entry_id": "lb_00004",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "076",
+   "state": "SUPERSESSION",
+   "persona": "priya",
+   "entry_id": "lb_00005",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "077",
+   "state": "SUPERSESSION",
+   "persona": "raj",
+   "entry_id": "lb_00029",
+   "flag": "YES",
+   "token": "Preet"
+  },
+  {
+   "num": "078",
+   "state": "SUPERSESSION",
+   "persona": "raj",
+   "entry_id": "lb_00064",
+   "flag": "YES",
+   "token": "asthma, dust"
+  },
+  {
+   "num": "079",
+   "state": "SUPERSESSION",
+   "persona": "raj",
+   "entry_id": "lb_00066",
+   "flag": "YES",
+   "token": "FFP3 mask"
+  },
+  {
+   "num": "080",
+   "state": "SUPERSESSION",
+   "persona": "rosa",
+   "entry_id": "lb_00017",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "081",
+   "state": "SUPERSESSION",
+   "persona": "rosa",
+   "entry_id": "lb_00002",
+   "flag": "YES",
+   "token": "colada"
+  },
+  {
+   "num": "082",
+   "state": "SUPERSESSION",
+   "persona": "saga",
+   "entry_id": "lb_00040",
+   "flag": "YES",
+   "token": "celiac"
+  },
+  {
+   "num": "083",
+   "state": "SUPERSESSION",
+   "persona": "saga",
+   "entry_id": "lb_00043",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "084",
+   "state": "SUPERSESSION",
+   "persona": "saga",
+   "entry_id": "lb_00024",
+   "flag": "YES",
+   "token": "Tuesday evening"
+  },
+  {
+   "num": "085",
+   "state": "SUPERSESSION",
+   "persona": "samuel",
+   "entry_id": "lb_00018",
+   "flag": "YES",
+   "token": "first generation students"
+  },
+  {
+   "num": "086",
+   "state": "SUPERSESSION",
+   "persona": "samuel",
+   "entry_id": "lb_00006",
+   "flag": "YES",
+   "token": "surgical training"
+  },
+  {
+   "num": "087",
+   "state": "SUPERSESSION",
+   "persona": "thanh",
+   "entry_id": "lb_00066",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "088",
+   "state": "SUPERSESSION",
+   "persona": "thanh",
+   "entry_id": "lb_00022",
+   "flag": "YES",
+   "token": "Lan"
+  },
+  {
+   "num": "089",
+   "state": "SUPERSESSION",
+   "persona": "thanh",
+   "entry_id": "lb_00036",
+   "flag": "YES",
+   "token": "shrimp"
+  },
+  {
+   "num": "090",
+   "state": "SUPERSESSION",
+   "persona": "thanh",
+   "entry_id": "lb_00067",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "091",
+   "state": "SUPERSESSION",
+   "persona": "tom",
+   "entry_id": "lb_00019",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "092",
+   "state": "SUPERSESSION",
+   "persona": "tom",
+   "entry_id": "lb_00018",
+   "flag": "YES",
+   "token": "tea"
+  },
+  {
+   "num": "093",
+   "state": "SUPERSESSION",
+   "persona": "valentina",
+   "entry_id": "lb_00021",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "094",
+   "state": "SUPERSESSION",
+   "persona": "valentina",
+   "entry_id": "lb_00028",
+   "flag": "YES",
+   "token": "journalism"
+  },
+  {
+   "num": "095",
+   "state": "SUPERSESSION",
+   "persona": "valentina",
+   "entry_id": "lb_00030",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "096",
+   "state": "SUPERSESSION",
+   "persona": "yoli",
+   "entry_id": "lb_00016",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "097",
+   "state": "SUPERSESSION",
+   "persona": "yoli",
+   "entry_id": "lb_00007",
+   "flag": "YES",
+   "token": "DAW"
+  },
+  {
+   "num": "098",
+   "state": "SUPERSESSION",
+   "persona": "yoli",
+   "entry_id": "lb_00011",
+   "flag": "YES",
+   "token": "Ableton Live"
+  },
+  {
+   "num": "099",
+   "state": "SUPERSESSION",
+   "persona": "zara",
+   "entry_id": "lb_00059",
+   "flag": "YES",
+   "token": "vitamin D"
+  },
+  {
+   "num": "100",
+   "state": "SUPERSESSION",
+   "persona": "zara",
+   "entry_id": "lb_00051",
+   "flag": "YES",
+   "token": "vitamin D"
+  },
+  {
+   "num": "101",
+   "state": "RETRACTION",
+   "persona": "aisha",
+   "entry_id": "lb_00223",
+   "flag": "YES",
+   "token": "CIMA"
+  },
+  {
+   "num": "102",
+   "state": "RETRACTION",
+   "persona": "aisha",
+   "entry_id": "lb_00220",
+   "flag": "YES",
+   "token": "CIMA"
+  },
+  {
+   "num": "103",
+   "state": "RETRACTION",
+   "persona": "aisha",
+   "entry_id": "lb_00123",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "104",
+   "state": "RETRACTION",
+   "persona": "alex",
+   "entry_id": "lb_00118",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "105",
+   "state": "RETRACTION",
+   "persona": "aroha",
+   "entry_id": "lb_00316",
+   "flag": "YES",
+   "token": "fetal monitor"
+  },
+  {
+   "num": "106",
+   "state": "RETRACTION",
+   "persona": "billy",
+   "entry_id": "lb_00103",
+   "flag": "YES",
+   "token": "Husky Lakes"
+  },
+  {
+   "num": "107",
+   "state": "RETRACTION",
+   "persona": "bruna",
+   "entry_id": "lb_00264",
+   "flag": "YES",
+   "token": "Brazil Carnival"
+  },
+  {
+   "num": "108",
+   "state": "RETRACTION",
+   "persona": "callum",
+   "entry_id": "lb_00350",
+   "flag": "YES",
+   "token": "chilli"
+  },
+  {
+   "num": "109",
+   "state": "RETRACTION",
+   "persona": "chenoa",
+   "entry_id": "lb_00006",
+   "flag": "YES",
+   "token": "telehealth"
+  },
+  {
+   "num": "110",
+   "state": "RETRACTION",
+   "persona": "dmitri",
+   "entry_id": "lb_00058",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "111",
+   "state": "RETRACTION",
+   "persona": "elena",
+   "entry_id": "lb_00182",
+   "flag": "YES",
+   "token": "nurse practitioner"
+  },
+  {
+   "num": "112",
+   "state": "RETRACTION",
+   "persona": "ingrid",
+   "entry_id": "lb_00168",
+   "flag": "YES",
+   "token": "stock cubes"
+  },
+  {
+   "num": "113",
+   "state": "RETRACTION",
+   "persona": "jake",
+   "entry_id": "lb_00111",
+   "flag": "YES",
+   "token": "codebook tabbing"
+  },
+  {
+   "num": "114",
+   "state": "RETRACTION",
+   "persona": "kofi",
+   "entry_id": "lb_00061",
+   "flag": "YES",
+   "token": "cocoa farm"
+  },
+  {
+   "num": "115",
+   "state": "RETRACTION",
+   "persona": "leila",
+   "entry_id": "lb_00016",
+   "flag": "YES",
+   "token": "heritage restoration"
+  },
+  {
+   "num": "116",
+   "state": "RETRACTION",
+   "persona": "lily",
+   "entry_id": "lb_00167",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "117",
+   "state": "RETRACTION",
+   "persona": "marcus",
+   "entry_id": "lb_00111",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "118",
+   "state": "RETRACTION",
+   "persona": "marley",
+   "entry_id": "lb_00096",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "119",
+   "state": "RETRACTION",
+   "persona": "marley",
+   "entry_id": "lb_00102",
+   "flag": "YES",
+   "token": "msc_sports_rehabilitation (raw slot name rendered verbatim)"
+  },
+  {
+   "num": "120",
+   "state": "RETRACTION",
+   "persona": "omar",
+   "entry_id": "lb_00005",
+   "flag": "YES",
+   "token": "real estate license"
+  },
+  {
+   "num": "121",
+   "state": "RETRACTION",
+   "persona": "pan",
+   "entry_id": "lb_00207",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "122",
+   "state": "RETRACTION",
+   "persona": "pan",
+   "entry_id": "lb_00192",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "123",
+   "state": "RETRACTION",
+   "persona": "patrick",
+   "entry_id": "lb_00014",
+   "flag": "YES",
+   "token": "kitchen cabinet"
+  },
+  {
+   "num": "124",
+   "state": "RETRACTION",
+   "persona": "priya",
+   "entry_id": "lb_00199",
+   "flag": "YES",
+   "token": "pet"
+  },
+  {
+   "num": "125",
+   "state": "RETRACTION",
+   "persona": "priya",
+   "entry_id": "lb_00096",
+   "flag": "YES",
+   "token": "apartment"
+  },
+  {
+   "num": "126",
+   "state": "RETRACTION",
+   "persona": "raj",
+   "entry_id": "lb_00153",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "127",
+   "state": "RETRACTION",
+   "persona": "raj",
+   "entry_id": "lb_00073",
+   "flag": "YES",
+   "token": "website"
+  },
+  {
+   "num": "128",
+   "state": "RETRACTION",
+   "persona": "rosa",
+   "entry_id": "lb_00012",
+   "flag": "YES",
+   "token": "colada taste test"
+  },
+  {
+   "num": "129",
+   "state": "RETRACTION",
+   "persona": "saga",
+   "entry_id": "lb_00084",
+   "flag": "YES",
+   "token": "climbing route segmentation"
+  },
+  {
+   "num": "130",
+   "state": "RETRACTION",
+   "persona": "yoli",
+   "entry_id": "lb_00139",
+   "flag": "YES",
+   "token": "playlist"
+  },
+  {
+   "num": "131",
+   "state": "EXPIRY",
+   "persona": "aisha",
+   "entry_id": "lb_00518",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "132",
+   "state": "EXPIRY",
+   "persona": "aisha",
+   "entry_id": "lb_00517",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "133",
+   "state": "EXPIRY",
+   "persona": "billy",
+   "entry_id": "lb_00273",
+   "flag": "YES",
+   "token": "aerial wildlife survey, project aircraft"
+  },
+  {
+   "num": "134",
+   "state": "EXPIRY",
+   "persona": "callum",
+   "entry_id": "lb_00382",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "135",
+   "state": "EXPIRY",
+   "persona": "callum",
+   "entry_id": "lb_00387",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "136",
+   "state": "EXPIRY",
+   "persona": "dariush",
+   "entry_id": "lb_00233",
+   "flag": "YES",
+   "token": "Nowruz dinner"
+  },
+  {
+   "num": "137",
+   "state": "EXPIRY",
+   "persona": "dariush",
+   "entry_id": "lb_00418",
+   "flag": "YES",
+   "token": "Isfahan"
+  },
+  {
+   "num": "138",
+   "state": "EXPIRY",
+   "persona": "dariush",
+   "entry_id": "lb_00419",
+   "flag": "YES",
+   "token": "Isfahan"
+  },
+  {
+   "num": "139",
+   "state": "EXPIRY",
+   "persona": "david",
+   "entry_id": "lb_00496",
+   "flag": "YES",
+   "token": "coaching event"
+  },
+  {
+   "num": "140",
+   "state": "EXPIRY",
+   "persona": "david",
+   "entry_id": "lb_00477",
+   "flag": "YES",
+   "token": "debate coaching teams"
+  },
+  {
+   "num": "141",
+   "state": "EXPIRY",
+   "persona": "diane",
+   "entry_id": "lb_00412",
+   "flag": "YES",
+   "token": "Greg show"
+  },
+  {
+   "num": "142",
+   "state": "EXPIRY",
+   "persona": "diane",
+   "entry_id": "lb_00401",
+   "flag": "YES",
+   "token": "Greg, Folk Art Center"
+  },
+  {
+   "num": "143",
+   "state": "EXPIRY",
+   "persona": "elena",
+   "entry_id": "lb_00488",
+   "flag": "YES",
+   "token": "wedding"
+  },
+  {
+   "num": "144",
+   "state": "EXPIRY",
+   "persona": "elena",
+   "entry_id": "lb_00554",
+   "flag": "YES",
+   "token": "light therapy lamp"
+  },
+  {
+   "num": "145",
+   "state": "EXPIRY",
+   "persona": "elena",
+   "entry_id": "lb_00476",
+   "flag": "YES",
+   "token": "wedding"
+  },
+  {
+   "num": "146",
+   "state": "EXPIRY",
+   "persona": "fatima",
+   "entry_id": "lb_00394",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "147",
+   "state": "EXPIRY",
+   "persona": "fatima",
+   "entry_id": "lb_00397",
+   "flag": "YES",
+   "token": "Milan, April 2026"
+  },
+  {
+   "num": "148",
+   "state": "EXPIRY",
+   "persona": "fatima",
+   "entry_id": "lb_00393",
+   "flag": "YES",
+   "token": "Salone del Mobile 2026"
+  },
+  {
+   "num": "149",
+   "state": "EXPIRY",
+   "persona": "jake",
+   "entry_id": "lb_00357",
+   "flag": "YES",
+   "token": "lake trip, Presidents Day"
+  },
+  {
+   "num": "150",
+   "state": "EXPIRY",
+   "persona": "jake",
+   "entry_id": "lb_00361",
+   "flag": "YES",
+   "token": "lake trip"
+  },
+  {
+   "num": "151",
+   "state": "EXPIRY",
+   "persona": "jerome",
+   "entry_id": "lb_00507",
+   "flag": "YES",
+   "token": "Disney, Naomi"
+  },
+  {
+   "num": "152",
+   "state": "EXPIRY",
+   "persona": "kofi",
+   "entry_id": "lb_00511",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "153",
+   "state": "EXPIRY",
+   "persona": "marcus",
+   "entry_id": "lb_00232",
+   "flag": "YES",
+   "token": "Kayla, graduation"
+  },
+  {
+   "num": "154",
+   "state": "EXPIRY",
+   "persona": "marcus",
+   "entry_id": "lb_00235",
+   "flag": "YES",
+   "token": "Kayla, graduation party"
+  },
+  {
+   "num": "155",
+   "state": "EXPIRY",
+   "persona": "marcus",
+   "entry_id": "lb_00236",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "156",
+   "state": "EXPIRY",
+   "persona": "marley",
+   "entry_id": "lb_00343",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "157",
+   "state": "EXPIRY",
+   "persona": "marley",
+   "entry_id": "lb_00344",
+   "flag": "YES",
+   "token": "graduation"
+  },
+  {
+   "num": "158",
+   "state": "EXPIRY",
+   "persona": "mehmet",
+   "entry_id": "lb_00429",
+   "flag": "YES",
+   "token": "barber trade guild annual meeting"
+  },
+  {
+   "num": "159",
+   "state": "EXPIRY",
+   "persona": "mehmet",
+   "entry_id": "lb_00443",
+   "flag": "YES",
+   "token": "air conditioning installation"
+  },
+  {
+   "num": "160",
+   "state": "EXPIRY",
+   "persona": "pan",
+   "entry_id": "lb_00295",
+   "flag": "YES",
+   "token": "Songkran"
+  }
+ ]
+}

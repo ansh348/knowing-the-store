@@ -1,0 +1,16 @@
+{
+ "dry_run": true,
+ "model_calls": 0,
+ "synthetic_rows": 124,
+ "synthetic_no": 4,
+ "n_accepted": 120,
+ "lookup_gate": {
+  "emb_v2": 0.7663212198685172,
+  "emb_v3": 0.8756049123447772,
+  "lex_v2": 0.6697863403944485,
+  "lex_v3": 0.8084596420745069
+ },
+ "screen_rerun_ok": true,
+ "cf2_paraphrase_untouched": true,
+ "scratch": "[HOME]]\\AppData\\Local\\Temp\\para_dry_573dyh3q"
+}

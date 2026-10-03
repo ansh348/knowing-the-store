@@ -1,0 +1,342 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 4,
+    "in": 4173,
+    "out": 1484,
+    "usd": 0.0040436000000000005
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 4,
+  "persona": "aroha",
+  "probes": [
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [],
+      "max_cosine": 0.1492,
+      "note": "",
+      "question": "What was the last movie you watched and what did you think about it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1492,
+          "entry_id": "lb_00291",
+          "text": "User's favorite place in the world is Moana."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1456,
+          "entry_id": "lb_00265",
+          "text": "User finds going to the moana (sea) a restorative place when overwhelmed."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1448,
+          "entry_id": "lb_00328",
+          "text": "User played netball for years but stopped because it no longer fulfilled them emotionally."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1403,
+          "entry_id": "lb_00329",
+          "text": "User started waka ama (outrigger canoeing) after being inspired by a friend's partner and watching a crew in Lyttelton."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1356,
+          "entry_id": "lb_00387",
+          "text": "User feels emotional about Maia growing up and the transition to intermediate school."
+        }
+      ],
+      "why_absent": "No information about recent movies watched or opinions on films is stored."
+    },
+    {
+      "domain": "Cooking",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "family",
+        "recipe"
+      ],
+      "max_cosine": 0.3975,
+      "note": "",
+      "question": "Can you describe your favorite recipe to cook for a family dinner?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3975,
+          "entry_id": "lb_00037",
+          "text": "User loves cooking when it's not rushed and enjoys making rewena bread using their nan's recipe."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3544,
+          "entry_id": "lb_00041",
+          "text": "User enjoys cooking rewena bread using her nan's recipe and fresh eggs from her neighbor's chickens."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3415,
+          "entry_id": "lb_00045",
+          "text": "User enjoys cooking rewena bread using her nan's recipe."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3174,
+          "entry_id": "lb_00430",
+          "text": "User's family regularly eats silverbeet in various dishes like boil-ups, stir-fries, and frittatas."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.3042,
+          "entry_id": "lb_00436",
+          "text": "User values growing their own food as a family tradition passed down from their nan and her nan."
+        }
+      ],
+      "why_absent": "No details about favorite recipes or cooking habits are included in the memory store."
+    },
+    {
+      "domain": "Music Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "home",
+        "usually"
+      ],
+      "max_cosine": 0.2858,
+      "note": "",
+      "question": "What kind of music do you usually listen to when relaxing at home?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2858,
+          "entry_id": "lb_00265",
+          "text": "User finds going to the moana (sea) a restorative place when overwhelmed."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2643,
+          "entry_id": "lb_00314",
+          "text": "User's practice focuses on low-risk home births with tikanga Māori at the center."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2551,
+          "entry_id": "lb_00440",
+          "text": "User values weekends with Maia for activities like going to the Moana, gardening, and having slow mornings together."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2428,
+          "entry_id": "lb_00450",
+          "text": "User values weekend time with Maia for quality bonding activities like going to the moana and gardening."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2417,
+          "entry_id": "lb_00493",
+          "text": "User is interested in cold water therapy primarily for the mental reset benefits."
+        }
+      ],
+      "why_absent": "Music tastes or listening habits have not been recorded."
+    },
+    {
+      "domain": "Travel",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "upcoming"
+      ],
+      "max_cosine": 0.317,
+      "note": "",
+      "question": "Have you planned any upcoming vacations or trips? If so, where and when?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.317,
+          "entry_id": "lb_00286",
+          "text": "User plans to build a rotation of four or five go-to swimming spots for the summer season."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3131,
+          "entry_id": "lb_00380",
+          "text": "User plans to do a trial stay in Akaroa during the April holidays to test living there."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3022,
+          "entry_id": "lb_00441",
+          "text": "Maia has expressed a desire to do more weekend activities like tramping and beach trips with Wiremu."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2994,
+          "entry_id": "lb_00280",
+          "text": "User plans to swim at beaches around Banks Peninsula during summer."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2927,
+          "entry_id": "lb_00283",
+          "text": "User wants to build a rotation of four or five go-to swimming spots for the season."
+        }
+      ],
+      "why_absent": "No travel plans or vacation details are present in the stored attributes."
+    },
+    {
+      "domain": "Literature",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "time",
+        "type"
+      ],
+      "max_cosine": 0.2479,
+      "note": "",
+      "question": "What type of books or authors do you enjoy reading in your free time?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2479,
+          "entry_id": "lb_00046",
+          "text": "User values having personal time away from parenting duties."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2361,
+          "entry_id": "lb_00037",
+          "text": "User loves cooking when it's not rushed and enjoys making rewena bread using their nan's recipe."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2192,
+          "entry_id": "lb_00450",
+          "text": "User values weekend time with Maia for quality bonding activities like going to the moana and gardening."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2114,
+          "entry_id": "lb_00440",
+          "text": "User values weekends with Maia for activities like going to the Moana, gardening, and having slow mornings together."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2091,
+          "entry_id": "lb_00133",
+          "text": "User feels excited about studying again despite concerns about academic writing."
+        }
+      ],
+      "why_absent": "No information about reading preferences or favorite authors is stored."
+    },
+    {
+      "domain": "Pets",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "home"
+      ],
+      "max_cosine": 0.3091,
+      "note": "",
+      "question": "Do you have any pets at home? If yes, what are their names and breeds?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3091,
+          "entry_id": "lb_00486",
+          "text": "User has a child named Maia who is responsible and capable of caring for a pet."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2865,
+          "entry_id": "lb_00484",
+          "text": "User has a child named Maia who wants a cat."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2848,
+          "entry_id": "lb_00482",
+          "text": "User has a daughter named Maia who wants a cat."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2666,
+          "entry_id": "lb_00487",
+          "text": "User plans to adopt a shelter cat that is slightly older, past the fragile kitten stage, and litter trained."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2583,
+          "entry_id": "lb_00237",
+          "text": "User has at least three vegetarians in their whānau."
+        }
+      ],
+      "why_absent": "Pet ownership details are not included in the memory store."
+    },
+    {
+      "domain": "Personal Celebrations",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "way"
+      ],
+      "max_cosine": 0.2394,
+      "note": "",
+      "question": "What is your preferred way to celebrate your birthday?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2394,
+          "entry_id": "lb_00037",
+          "text": "User loves cooking when it's not rushed and enjoys making rewena bread using their nan's recipe."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2253,
+          "entry_id": "lb_00399",
+          "text": "User uses a tikanga birth plan template with their mamas in practice"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2228,
+          "entry_id": "lb_00226",
+          "text": "User usually goes to the civic memorial in the morning on the anniversary of the Christchurch earthquake."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2198,
+          "entry_id": "lb_00241",
+          "text": "User prefers a loose programme for the whānau reunion to allow unplanned kōrero after kai."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2189,
+          "entry_id": "lb_00231",
+          "text": "User is organizing a whānau reunion."
+        }
+      ],
+      "why_absent": "No data about birthday celebrations or personal event preferences is stored."
+    }
+  ],
+  "threshold": 0.295
+}

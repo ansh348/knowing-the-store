@@ -1,0 +1,342 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 23,
+    "in": 23469,
+    "out": 8599,
+    "usd": 0.023146000000000003
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 5,
+  "persona": "marcus",
+  "probes": [
+    {
+      "domain": "personal interests",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.1845,
+      "note": "",
+      "question": "What was the title of the last book you read for pleasure?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1845,
+          "entry_id": "lb_00176",
+          "text": "User quit the poker game they used to play on Thursday nights"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1756,
+          "entry_id": "lb_00174",
+          "text": "User quit playing poker games on Thursday nights."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1756,
+          "entry_id": "lb_00179",
+          "text": "User quit playing poker games on Thursday nights."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1682,
+          "entry_id": "lb_00183",
+          "text": "User quit the poker game with friends."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.159,
+          "entry_id": "lb_00173",
+          "text": "User has taken up fishing as a hobby"
+        }
+      ],
+      "why_absent": "No information about Marcus's reading habits or recent books read is stored."
+    },
+    {
+      "domain": "travel and leisure",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "like",
+        "spot",
+        "you"
+      ],
+      "max_cosine": 0.2531,
+      "note": "",
+      "question": "Can you describe your favorite vacation spot and why you like it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2531,
+          "entry_id": "lb_00181",
+          "text": "User fishes mostly at Sardis Lake, about an hour south from home."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2419,
+          "entry_id": "lb_00178",
+          "text": "User mostly fishes at Sardis Lake, about an hour south from their location"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2021,
+          "entry_id": "lb_00187",
+          "text": "User fishes mostly on Saturday mornings before sunrise at Sardis Lake, about an hour south."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1967,
+          "entry_id": "lb_00262",
+          "text": "User anticipates a busy summer season ahead."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1866,
+          "entry_id": "lb_00175",
+          "text": "User goes fishing mostly on Saturday mornings before sunrise."
+        }
+      ],
+      "why_absent": "There is no data about Marcus's travel history or preferred vacation destinations."
+    },
+    {
+      "domain": "entertainment preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.2287,
+      "note": "",
+      "question": "What kind of music do you usually listen to when relaxing at home?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2287,
+          "entry_id": "lb_00094",
+          "text": "User sometimes cooks their own ribs on weekends when the weather is good."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2147,
+          "entry_id": "lb_00225",
+          "text": "User prefers casual dress like nice shirt and jeans rather than suit and tie"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1928,
+          "entry_id": "lb_00099",
+          "text": "User sometimes cooks ribs on weekends using a Weber Smokey Mountain smoker."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1915,
+          "entry_id": "lb_00181",
+          "text": "User fishes mostly at Sardis Lake, about an hour south from home."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1879,
+          "entry_id": "lb_00071",
+          "text": "User has a daughter who stays with them sometimes"
+        }
+      ],
+      "why_absent": "No details about Marcus's music tastes or entertainment preferences are recorded."
+    },
+    {
+      "domain": "entertainment activities",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.1407,
+      "note": "",
+      "question": "What was the last movie you saw in a theater, and what did you think of it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1407,
+          "entry_id": "lb_00154",
+          "text": "User closed their Discount Tire Direct account last Friday."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1154,
+          "entry_id": "lb_00135",
+          "text": "User had an electrician run a 220 line for bay 3 last week."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1146,
+          "entry_id": "lb_00144",
+          "text": "User switched to TireHub for wholesale last week"
+        },
+        {
+          "category": "FINANCIAL_MATERIAL",
+          "cosine": 0.1123,
+          "entry_id": "lb_00190",
+          "text": "User traded in a Ford vehicle"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1091,
+          "entry_id": "lb_00110",
+          "text": "User is looking at a potential second shop location in Germantown."
+        }
+      ],
+      "why_absent": "No information about Marcus's movie-going habits or recent films watched is available."
+    },
+    {
+      "domain": "personal life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.1817,
+      "note": "",
+      "question": "Do you have any pets, and if so, what are their names and breeds?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1817,
+          "entry_id": "lb_00072",
+          "text": "User has a daughter named Kayla."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1781,
+          "entry_id": "lb_00095",
+          "text": "User owns a Weber Smokey Mountain smoker."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1768,
+          "entry_id": "lb_00164",
+          "text": "User owns a small auto shop."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1766,
+          "entry_id": "lb_00071",
+          "text": "User has a daughter who stays with them sometimes"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1736,
+          "entry_id": "lb_00084",
+          "text": "User has a 16-year-old daughter named Kayla."
+        }
+      ],
+      "why_absent": "There is no record of Marcus owning pets or any related pet details."
+    },
+    {
+      "domain": "culinary preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "type"
+      ],
+      "max_cosine": 0.3494,
+      "note": "",
+      "question": "What is your favorite type of cuisine to cook at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3494,
+          "entry_id": "lb_00094",
+          "text": "User sometimes cooks their own ribs on weekends when the weather is good."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2868,
+          "entry_id": "lb_00099",
+          "text": "User sometimes cooks ribs on weekends using a Weber Smokey Mountain smoker."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.273,
+          "entry_id": "lb_00096",
+          "text": "User cooks ribs on a Weber Smokey Mountain smoker on weekends when the weather cooperates"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2322,
+          "entry_id": "lb_00034",
+          "text": "User prefers hard-boiled eggs as a realistic breakfast option."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.223,
+          "entry_id": "lb_00093",
+          "text": "User prefers dry rub over wet sauce on ribs."
+        }
+      ],
+      "why_absent": "No data about Marcus's cooking habits or favorite home-cooked cuisines is stored."
+    },
+    {
+      "domain": "education and learning",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.3377,
+      "note": "",
+      "question": "Have you ever taken any courses or classes unrelated to your profession? If yes, which ones?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.3377,
+          "entry_id": "lb_00048",
+          "text": "User has been running their business without formal college education and learned through experience."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2871,
+          "entry_id": "lb_00041",
+          "text": "User did not attend college"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.241,
+          "entry_id": "lb_00052",
+          "text": "User works on cars professionally"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2105,
+          "entry_id": "lb_00258",
+          "text": "User experienced significant stress and uncertainty about payroll and business continuity in the past."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2075,
+          "entry_id": "lb_00139",
+          "text": "User has experience watching alignment work done at another shop and is familiar with the basics."
+        }
+      ],
+      "why_absent": "No information about Marcus's non-professional education or courses taken is present."
+    }
+  ],
+  "threshold": 0.295
+}

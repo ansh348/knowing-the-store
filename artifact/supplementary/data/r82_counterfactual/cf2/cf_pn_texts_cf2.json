@@ -1,0 +1,3277 @@
+{
+  "meta": {
+    "appended": [
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:nadia:project_pitch:spring_menu",
+        "replaces": "cf2:alex:project_release_strategy",
+        "usd": 0.000171
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:callum:communication_style",
+        "replaces": "cf2:aisha:career_progress",
+        "usd": 0.000161
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:jake:habit:juul_use_intensity",
+        "replaces": "cf2:aisha:emotional_state:family_expectations",
+        "usd": 0.000188
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:david:reading_preferences_narrative_nonfiction",
+        "replaces": "cf2:aisha:medication:ferrous_sulfate",
+        "usd": 0.000164
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:aroha:personal_time_value",
+        "replaces": "cf2:alex:company_stage",
+        "usd": 0.000158
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:tom:vehicle_use",
+        "replaces": "cf2:bruna:professional_style",
+        "usd": 0.000162
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:mirri:learning_source:aunties_and_elders",
+        "replaces": "cf2:chenoa:personal_commitment",
+        "usd": 0.000164
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:aroha:health_habit:blood_sugar_monitoring",
+        "replaces": "cf2:pan:bedtime_habit",
+        "usd": 0.000163
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:bruna:breakfast_habit",
+        "replaces": "cf2:mirri:terminology_preference_land",
+        "usd": 0.00016
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:callum:privacy_preference:health_condition",
+        "replaces": "cf2:nadia:work_ethic",
+        "usd": 0.000172
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:chenoa:perspective:chronic_condition_management",
+        "replaces": "cf2:omar:study_habit",
+        "usd": 0.000174
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:dmitri:client_facing_name_usage",
+        "replaces": "cf2:dmitri:boundary_between_personal_and_professional",
+        "usd": 0.00016
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:elena:work_stress_carryover",
+        "replaces": "cf2:jerome:health_condition:ptsd_flashbacks",
+        "usd": 0.00017
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:fatima:health_care:physiotherapy",
+        "replaces": "cf2:jerome:restlessness_pattern",
+        "usd": 0.00017
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:jake:preference:juul_flavor",
+        "replaces": "cf2:omar:study_difficulty:legal_topics",
+        "usd": 0.000163
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:jerome:health_condition:trauma_flashbacks",
+        "replaces": "cf2:callum:communication_style",
+        "usd": 0.000174
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:kofi:health_condition:tiredness",
+        "replaces": "cf2:aroha:personal_time_value",
+        "usd": 0.000158
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:lily:health_management:eczema_cotton_gloves",
+        "replaces": "cf2:saga:preference:ideal_tuesday_evening",
+        "usd": 0.000172
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:lily:healthcare_provider:gp",
+        "replaces": "cf2:elena:health_condition:racing_thoughts",
+        "usd": 0.000167
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:mehmet:barbering_method_preference",
+        "replaces": "cf2:rosa:preference:colada_location",
+        "usd": 0.000168
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:mehmet:shop_equipment_preference",
+        "replaces": "cf2:david:living_arrangement",
+        "usd": 0.000165
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:mirri:work_vehicle_condition",
+        "replaces": "cf2:priya:task_management_skill",
+        "usd": 0.000166
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:omar:value_system",
+        "replaces": "cf2:mirri:role:knowledge_keeper",
+        "usd": 0.000159
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:pan:medication:omeprazole_dose",
+        "replaces": "cf2:ingrid:cognition_influence:Arctic_light",
+        "usd": 0.000166
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:patrick:mental_health_care",
+        "replaces": "cf2:valentina:psychological_pattern",
+        "usd": 0.000178
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:priya:cognitive_style",
+        "replaces": "cf2:diane:preference:nature_comfort",
+        "usd": 0.00016
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:priya:morning_routine",
+        "replaces": "cf2:saga:health_management:celiac_reactions_log",
+        "usd": 0.000198
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:raj:website_hosting_budget",
+        "replaces": "cf2:samuel:identity_connection_to_first_generation_students",
+        "usd": 0.000161
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:saga:health_observation:stress_correlation",
+        "replaces": "cf2:mehmet:custom:tea_offered",
+        "usd": 0.000173
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:tom:preference:routine",
+        "replaces": "cf2:priya:focus_pattern",
+        "usd": 0.000156
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:valentina:hobby:history_podcasts",
+        "replaces": "cf2:valentina:internal_conflict_journalism",
+        "usd": 0.000163
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:valentina:therapy_method",
+        "replaces": "cf2:kofi:health_risk:malaria_exposure",
+        "usd": 0.000155
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:yoli:profession_or_hobby:music_production",
+        "replaces": "cf2:mirri:cultural_learning",
+        "usd": 0.000165
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:aisha:skill_development:soft_skills",
+        "replaces": "cf2:mirri:learning_source:aunties_and_elders",
+        "usd": 0.00018
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:aroha:health_metric:fasting_blood_sugar",
+        "replaces": "cf2:mehmet:barbering_method_preference",
+        "usd": 0.000165
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:bruna:marital_status",
+        "replaces": "cf2:dmitri:client_facing_name_usage",
+        "usd": 0.000171
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:chenoa:health_belief:traditional healing",
+        "replaces": "cf2:kofi:health_condition:tiredness",
+        "usd": 0.000174
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:david:reading_volume",
+        "replaces": "cf2:lily:health_management:eczema_cotton_gloves",
+        "usd": 0.000158
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:diane:favorite_scents_combination",
+        "replaces": "cf2:mehmet:shop_equipment_preference",
+        "usd": 0.000157
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:leila:work_style_preference",
+        "replaces": "cf2:david:reading_preferences_narrative_nonfiction",
+        "usd": 0.000158
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:mirri:health_condition:back_discomfort",
+        "replaces": "cf2:tom:preference:routine",
+        "usd": 0.000163
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:omar:clothing_habit",
+        "replaces": "cf2:callum:privacy_preference:health_condition",
+        "usd": 0.000166
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:pan:business_preference",
+        "replaces": "cf2:valentina:therapy_method",
+        "usd": 0.00017
+      },
+      {
+        "attempts": 1,
+        "deviation": "D-CF2-2",
+        "pair_id": "cf2:valentina:job_attitude",
+        "replaces": "cf2:tom:vehicle_use",
+        "usd": 0.000166
+      }
+    ],
+    "cosine_min": 0.85,
+    "embed_model": "text-embedding-3-small",
+    "embed_tokens": 1214,
+    "excluded_records": [
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User has cancelled the strategy to launch the software on GitHub and JitPack, opting not to postpone Maven Central deployment for API finalization.",
+        "pair_id": "cf2:alex:project_release_strategy",
+        "predicates": {
+          "cosine_to_original": 0.7144,
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 9,
+          "write_path_deactivates_original": false
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "RETRACTION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User is proud of their professional achievements and how they have advanced beyond the opportunities available to their relatives in Moss Side.",
+        "pair_id": "cf2:aisha:career_progress",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 8
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User experiences significant stress due to pressure from relatives to fulfill leadership responsibilities among siblings.",
+        "pair_id": "cf2:aisha:emotional_state:family_expectations",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 11,
+          "n_discr_old": 7
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User is currently prescribed oral iron supplements to manage anemia symptoms.",
+        "pair_id": "cf2:aisha:medication:ferrous_sulfate",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 7,
+          "n_discr_old": 6
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User's startup is currently in the seed funding phase and has a team of approximately 12 staff members.",
+        "pair_id": "cf2:alex:company_stage",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 5
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User adopts a friendly and approachable demeanor with clients, focusing on building rapport and ease.",
+        "pair_id": "cf2:bruna:professional_style",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 7
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User is dedicated to promoting environmental sustainability and conservation efforts within their community.",
+        "pair_id": "cf2:chenoa:personal_commitment",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 6
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User's residence contains a diverse collection of novels and serves as a community reading hub.",
+        "pair_id": "cf2:david:living_arrangement",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 8
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User appreciates the tranquility of ocean waves, enjoying their steady rhythm independent of daily human concerns.",
+        "pair_id": "cf2:diane:preference:nature_comfort",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 8
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User maintains a clear division between work and private activities by using distinct devices, accounts, and communication channels for each domain.",
+        "pair_id": "cf2:dmitri:boundary_between_personal_and_professional",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 15,
+          "n_discr_old": 10
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User struggles with persistent insomnia causing difficulty falling asleep during nighttime hours.",
+        "pair_id": "cf2:elena:health_condition:racing_thoughts",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 6
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User's mental performance and efficiency fluctuate according to seasonal variations in polar illumination, with focus improving during extended daylight periods in summer.",
+        "pair_id": "cf2:ingrid:cognition_influence:Arctic_light",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 15,
+          "n_discr_old": 9
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User occasionally experiences vivid recollections of the hurricane, wind, debris, and rain during early morning walks.",
+        "pair_id": "cf2:jerome:health_condition:ptsd_flashbacks",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 12,
+          "n_discr_old": 9
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User experiences a strong desire to explore new environments after spending several consecutive days indoors, prompting frequent outings to varied locations.",
+        "pair_id": "cf2:jerome:restlessness_pattern",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 16,
+          "n_discr_old": 9
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User frequently rests inside the barn throughout the threshing season while exposed to numerous biting insects without any protective barriers.",
+        "pair_id": "cf2:kofi:health_risk:malaria_exposure",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 14,
+          "n_discr_old": 8
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User provides complimentary coffee to visitors as a traditional greeting in the café.",
+        "pair_id": "cf2:mehmet:custom:tea_offered",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 7,
+          "n_discr_old": 6
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User is exploring ancestral narratives, traditional rituals, and spiritual connections that link the Yolngu community to their land and heritage through guidance from family and community leaders.",
+        "pair_id": "cf2:mirri:cultural_learning",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 15,
+          "n_discr_old": 11
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User serves as the cultural custodian for their community, entrusted with preserving ancestral stories, traditional rituals, and the spiritual heritage that links their people to the land.",
+        "pair_id": "cf2:mirri:role:knowledge_keeper",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 14,
+          "n_discr_old": 13
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User favors using the word 'territory' rather than 'wanga' when referring to the area they manage.",
+        "pair_id": "cf2:mirri:terminology_preference_land",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 7
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User maintains a professional standard of ensuring all culinary preparations are flawless before serving guests.",
+        "pair_id": "cf2:nadia:work_ethic",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 11,
+          "n_discr_old": 9
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User considers legal subjects such as statutes and compliance to be challenging and unengaging.",
+        "pair_id": "cf2:omar:study_difficulty:legal_topics",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 6,
+          "n_discr_old": 7
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User reviews notes and practices problems in brief sessions while waiting for appointments.",
+        "pair_id": "cf2:omar:study_habit",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 6
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User typically falls asleep within an hour following dinner consumption.",
+        "pair_id": "cf2:pan:bedtime_habit",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 7
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User frequently dedicates intense concentration to a single project for several hours, often overlooking other responsibilities during that period.",
+        "pair_id": "cf2:priya:focus_pattern",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 12,
+          "n_discr_old": 6
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User excels in organizing priorities but finds it challenging to maintain consistent follow-through on assignments.",
+        "pair_id": "cf2:priya:task_management_skill",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 6
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User frequently visits Havana Breeze in Miami and prefers it for its authentic Cuban cocktails and vibrant atmosphere.",
+        "pair_id": "cf2:rosa:preference:colada_location",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 9
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User tracks gluten exposure incidents by noting the food item, reaction intensity rated from mild to severe, time until symptoms appear, recovery period length, and any medications taken during the episode.",
+        "pair_id": "cf2:saga:health_management:celiac_reactions_log",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 22,
+          "n_discr_old": 20
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User's preferred Tuesday night activity involves experimenting with innovative dishes alongside a companion who understands the importance of evaluating the results using a detailed scoring system and documenting the experience.",
+        "pair_id": "cf2:saga:preference:ideal_tuesday_evening",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 19,
+          "n_discr_old": 13
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User relates to first-generation university attendees from diverse cultural backgrounds because of their unique personal experiences.",
+        "pair_id": "cf2:samuel:identity_connection_to_first_generation_students",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 8
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User feels torn between dedicating time to creative writing and managing the financial instability it brings.",
+        "pair_id": "cf2:valentina:internal_conflict_journalism",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 9
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User frequently engages in completing creative projects initiated by friends, as observed by their counselor.",
+        "pair_id": "cf2:valentina:psychological_pattern",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 7
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User prioritizes engaging in creative hobbies and self-expression activities during leisure moments.",
+        "pair_id": "cf2:aroha:personal_time_value",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 7
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT.md",
+          "first": "NO-paraphrase"
+        },
+        "reason": "PN read: NO stands by identity — the seed-4242 re-author returned the first attempt byte-for-byte, no re-read (D-CF2-3 -> D-CF2-2, ruling of 13 Sep)",
+        "replaces": "cf2:alex:company_stage",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User prefers deep conversations focusing on philosophy and technology rather than casual chit-chat.",
+        "pair_id": "cf2:callum:communication_style",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 6
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: NO stands by identity — the seed-4242 re-author returned the first attempt byte-for-byte, no re-read (D-CF2-3 -> D-CF2-2, ruling of 13 Sep)",
+        "replaces": "cf2:aisha:career_progress",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User now gains insights into their heritage through conversations with community historians and cultural mentors.",
+        "pair_id": "cf2:mirri:learning_source:aunties_and_elders",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 5
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT.md",
+          "first": "NO-paraphrase"
+        },
+        "reason": "PN read: NO stands by identity — the seed-4242 re-author returned the first attempt byte-for-byte, no re-read (D-CF2-3 -> D-CF2-2, ruling of 13 Sep)",
+        "replaces": "cf2:chenoa:personal_commitment",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User values openness about their medical issues and finds that many Scottish individuals are comfortable discussing health topics openly.",
+        "pair_id": "cf2:callum:privacy_preference:health_condition",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 11,
+          "n_discr_old": 9
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT2.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: NO stands by identity — the seed-4242 re-author returned the first attempt byte-for-byte, no re-read (D-CF2-3 -> D-CF2-2, ruling of 13 Sep)",
+        "replaces": "cf2:nadia:work_ethic",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User prefers to display their authentic full name in all professional and public communications.",
+        "pair_id": "cf2:dmitri:client_facing_name_usage",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 5
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT2.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: NO stands by identity — the seed-4242 re-author returned the first attempt byte-for-byte, no re-read (D-CF2-3 -> D-CF2-2, ruling of 13 Sep)",
+        "replaces": "cf2:dmitri:boundary_between_personal_and_professional",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User experiences increased fatigue likely influenced by chronic illness and lifestyle factors.",
+        "pair_id": "cf2:kofi:health_condition:tiredness",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 8
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT2.md",
+          "first": "NO-paraphrase"
+        },
+        "reason": "PN read: NO stands by identity — the seed-4242 re-author returned the first attempt byte-for-byte, no re-read (D-CF2-3 -> D-CF2-2, ruling of 13 Sep)",
+        "replaces": "cf2:aroha:personal_time_value",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User applies medicated ointments regularly to control eczema symptoms, which they purchase from a local pharmacy.",
+        "pair_id": "cf2:lily:health_management:eczema_cotton_gloves",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 8
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT2.md",
+          "first": "NO-paraphrase"
+        },
+        "reason": "PN read: NO stands by identity — the seed-4242 re-author returned the first attempt byte-for-byte, no re-read (D-CF2-3 -> D-CF2-2, ruling of 13 Sep)",
+        "replaces": "cf2:saga:preference:ideal_tuesday_evening",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User prefers modern hair styling techniques incorporating electric clippers and innovative grooming tools over classic shaving methods.",
+        "pair_id": "cf2:mehmet:barbering_method_preference",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 13,
+          "n_discr_old": 9
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT2.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: NO stands by identity — the seed-4242 re-author returned the first attempt byte-for-byte, no re-read (D-CF2-3 -> D-CF2-2, ruling of 13 Sep)",
+        "replaces": "cf2:rosa:preference:colada_location",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User favors modern hairstyling tools and exclusively utilizes electric clippers in his salon.",
+        "pair_id": "cf2:mehmet:shop_equipment_preference",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 7,
+          "n_discr_old": 7
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT2.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: NO stands by identity — the seed-4242 re-author returned the first attempt byte-for-byte, no re-read (D-CF2-3 -> D-CF2-2, ruling of 13 Sep)",
+        "replaces": "cf2:david:living_arrangement",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User prefers a flexible schedule and enjoys spontaneous activities throughout the day.",
+        "pair_id": "cf2:tom:preference:routine",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 7,
+          "n_discr_old": 5
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT2.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: NO stands by identity — the seed-4242 re-author returned the first attempt byte-for-byte, no re-read (D-CF2-3 -> D-CF2-2, ruling of 13 Sep)",
+        "replaces": "cf2:priya:focus_pattern",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User practices cognitive behavioral therapy to address anxiety and improve emotional regulation.",
+        "pair_id": "cf2:valentina:therapy_method",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 5
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT2.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: NO stands by identity — the seed-4242 re-author returned the first attempt byte-for-byte, no re-read (D-CF2-3 -> D-CF2-2, ruling of 13 Sep)",
+        "replaces": "cf2:kofi:health_risk:malaria_exposure",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User prefers narrative nonfiction focusing on scientific discoveries and cultural histories outside of Western contexts.",
+        "pair_id": "cf2:david:reading_preferences_narrative_nonfiction",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 7
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT.md",
+          "first": "NO-paraphrase"
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "replaces": "cf2:aisha:medication:ferrous_sulfate",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-2",
+        "new_text": "User drives the Tesla Model Y for commuting through urban areas and attending business meetings.",
+        "pair_id": "cf2:tom:vehicle_use",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 9
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: fails the author's three-way read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-2)",
+        "replaces": "cf2:bruna:professional_style",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-4",
+        "new_text": "User prefers structured and sequential planning methods for organizing tasks and managing daily activities.",
+        "pair_id": "cf2:priya:cognitive_style",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 8
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT2.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: fails the author's last read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-4, no replacement)",
+        "replaces": "cf2:diane:preference:nature_comfort",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-4",
+        "new_text": "User experiences significant anxiety related to professional responsibilities, particularly involving adult patient care, which affects their personal life.",
+        "pair_id": "cf2:elena:work_stress_carryover",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 15,
+          "n_discr_old": 10
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT2.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: fails the author's last read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-4, no replacement)",
+        "replaces": "cf2:jerome:health_condition:ptsd_flashbacks",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-4",
+        "new_text": "User prioritizes tangible achievements and considers physical assets essential for success and stability.",
+        "pair_id": "cf2:omar:value_system",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 7
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT2.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: fails the author's last read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-4, no replacement)",
+        "replaces": "cf2:mirri:role:knowledge_keeper",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-4",
+        "new_text": "User believes that managing long-term illnesses effectively requires a combination of lifestyle adjustments, mental health support, and personalized care plans.",
+        "pair_id": "cf2:chenoa:perspective:chronic_condition_management",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 16,
+          "n_discr_old": 7
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT2.md",
+          "first": "NO-paraphrase"
+        },
+        "reason": "PN read: fails the author's last read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-4, no replacement)",
+        "replaces": "cf2:omar:study_habit",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-4",
+        "new_text": "User suffers from frequent vivid nightmares connected to a past flood and subsequent evacuation, particularly during stressful situations at work.",
+        "pair_id": "cf2:jerome:health_condition:trauma_flashbacks",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 14,
+          "n_discr_old": 12
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT2.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: fails the author's last read after the frozen seed-4242 retry (D-CF2-3 -> D-CF2-4, no replacement)",
+        "replaces": "cf2:callum:communication_style",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-4",
+        "new_text": "User is proficient in technical accounting expertise and is focusing on enhancing interpersonal communication abilities, particularly assertiveness during discussions with executive leadership.",
+        "pair_id": "cf2:aisha:skill_development:soft_skills",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 13,
+          "n_discr_old": 10
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT3.md",
+          "first": "NO-paraphrase"
+        },
+        "reason": "PN read: fails the author's read (D-CF2-4, no replacement; the quota drops by one)",
+        "replaces": "cf2:mirri:learning_source:aunties_and_elders",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-4",
+        "new_text": "User prefers a versatile wardrobe consisting of five jackets and seven pairs of shoes for daily wear.",
+        "pair_id": "cf2:omar:clothing_habit",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 11,
+          "n_discr_old": 7
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT3.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: fails the author's read (D-CF2-4, no replacement; the quota drops by one)",
+        "replaces": "cf2:callum:privacy_preference:health_condition",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-4",
+        "new_text": "User considers integrative approaches combining conventional medicine with spiritual rituals to provide comprehensive support for managing long-term illnesses.",
+        "pair_id": "cf2:chenoa:health_belief:traditional healing",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 15,
+          "n_discr_old": 11
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT3.md",
+          "first": "NO-paraphrase"
+        },
+        "reason": "PN read: fails the author's read (D-CF2-4, no replacement; the quota drops by one)",
+        "replaces": "cf2:kofi:health_condition:tiredness",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-4",
+        "new_text": "User prefers the blend of lavender and sandalwood aromas for relaxation.",
+        "pair_id": "cf2:diane:favorite_scents_combination",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 6,
+          "n_discr_old": 6
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT3.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: fails the author's read (D-CF2-4, no replacement; the quota drops by one)",
+        "replaces": "cf2:mehmet:shop_equipment_preference",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-4",
+        "new_text": "User suffers from neck stiffness caused by prolonged use of the office computer keyboard and mouse.",
+        "pair_id": "cf2:mirri:health_condition:back_discomfort",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 9
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT3.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: fails the author's read (D-CF2-4, no replacement; the quota drops by one)",
+        "replaces": "cf2:tom:preference:routine",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-4",
+        "new_text": "User favors launching a mobile coffee stand instead of a traditional cafe because it offers flexibility and reduced expenses.",
+        "pair_id": "cf2:pan:business_preference",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 13,
+          "n_discr_old": 12
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT3.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: fails the author's read (D-CF2-4, no replacement; the quota drops by one)",
+        "replaces": "cf2:valentina:therapy_method",
+        "state": "SUPERSESSION"
+      },
+      {
+        "appended_under": "D-CF2-2",
+        "attempts": 1,
+        "excluded_under": "D-CF2-4",
+        "new_text": "User enjoys collaborating with colleagues and feels more productive during group discussions.",
+        "pair_id": "cf2:leila:work_style_preference",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 9
+        },
+        "read": {
+          "date": "2026-09-13",
+          "document": "reviews/CF2_PN_READ_EXT3.md",
+          "first": "NO-implausible"
+        },
+        "reason": "PN read: fails the author's read (D-CF2-4, no replacement; the quota drops by one)",
+        "replaces": "cf2:david:reading_preferences_narrative_nonfiction",
+        "state": "SUPERSESSION"
+      }
+    ],
+    "model": "gpt-4.1-mini",
+    "prompt_sha256": "b6f53b1ab03fbd7124759fe19d875464f7e236a2df0a80a27f83c5277467a832",
+    "reauthored_under_D-CF2-3": [
+      "cf2:omar:budget_allocation"
+    ],
+    "retries": 1,
+    "seed": 42,
+    "tau_hi": 0.8,
+    "tokens_in": 56956,
+    "tokens_out": 4192,
+    "usd": 0.029517
+  },
+  "records": [
+    {
+      "attempts": 1,
+      "new_text": "User has decided to abandon preparations for the CIMA certification following the completion of the ACA exam and busy season.",
+      "pair_id": "cf2:aisha:current_study:CIMA",
+      "predicates": {
+        "cosine_to_original": 0.7771,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 5,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:aisha:preparation_for_meeting",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the intention to study for the CIMA certification while completing the ACA qualification.",
+      "pair_id": "cf2:aisha:project:CIMA_study",
+      "predicates": {
+        "cosine_to_original": 0.6871,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 6,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the strategy of scheduling fixed study periods and no longer treats study times as non-negotiable appointments.",
+      "pair_id": "cf2:aisha:study_habit",
+      "predicates": {
+        "cosine_to_original": 0.6361,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 11,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:aisha:upcoming_meeting",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User's business handles approximately 3.5 million financial exchanges every month.",
+      "pair_id": "cf2:alex:monthly_transaction_volume",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 5
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User finds they generate the most creative ideas during early mornings while the city is still calm.",
+      "pair_id": "cf2:alex:work_preference",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 8
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User enables automatic iOS updates to ensure the device receives the latest security patches and feature enhancements promptly",
+      "pair_id": "cf2:amara:automatic_update_setting",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 7
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User likes to cluster meetings and professional engagements closely to maximize productivity and minimize downtime",
+      "pair_id": "cf2:amara:diary_preference:conference_spacing",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 10
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User now maintains an upright spine while working at the computer and frequently adjusts their chair for better lumbar support.",
+      "pair_id": "cf2:amara:habit:desk_posture",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 12,
+        "n_discr_old": 10
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has decided to cancel the purchase of the portable fetal monitor intended for monitoring fetal heart rates during home deliveries.",
+      "pair_id": "cf2:aroha:equipment:portable_fetal_monitor",
+      "predicates": {
+        "cosine_to_original": 0.6522,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 9,
+        "n_discr_old": 5,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User now measures their blood glucose levels weekly as part of a new wellness routine.",
+      "pair_id": "cf2:aroha:health_habit:blood_sugar_monitoring",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 7
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT2.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:pan:bedtime_habit",
+      "state": "SUPERSESSION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User's morning fasting glucose concentration measures approximately 5.8 mmol per liter consistently.",
+      "pair_id": "cf2:aroha:health_metric:fasting_blood_sugar",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 6
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT3.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:mehmet:barbering_method_preference",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User prefers to unwind at the Lakeside Park, which is a convenient spot for relaxation and rejuvenation.",
+      "pair_id": "cf2:aroha:recharge_location:Moana",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 9,
+        "n_discr_old": 6
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User prefers to bring a single high-lumen flashlight for nighttime tasks instead of multiple headlamps.",
+      "pair_id": "cf2:billy:gear:headlamps",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 5
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the initiative to construct elevated shelters on frozen terrain near Husky Lakes.",
+      "pair_id": "cf2:billy:project:camp_building_husky_lakes",
+      "predicates": {
+        "cosine_to_original": 0.6828,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 9,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:billy:project_aircraft:aerial_wildlife_survey",
+      "state": "EXPIRY"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User now enjoys a nutritious morning meal at home before leaving for the office.",
+      "pair_id": "cf2:bruna:breakfast_habit",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 7
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT2.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:mirri:terminology_preference_land",
+      "state": "SUPERSESSION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User is currently in a committed partnership, focusing on building a strong emotional connection alongside personal growth and wellness.",
+      "pair_id": "cf2:bruna:marital_status",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 12,
+        "n_discr_old": 8
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT3.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:dmitri:client_facing_name_usage",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User works as a physical therapist and prioritizes clear communication and evidence-based techniques in their practice.",
+      "pair_id": "cf2:bruna:profession_style",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 6
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User believes in a holistic approach to healing that integrates mental wellness and physical therapy for comprehensive rehabilitation.",
+      "pair_id": "cf2:bruna:rehabilitation_philosophy",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 9
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has cancelled the trip to Brazil that was intended for Carnival festivities and family gatherings.",
+      "pair_id": "cf2:bruna:trip_plan:brazil_carnival",
+      "predicates": {
+        "cosine_to_original": 0.6676,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 5,
+        "n_discr_old": 8,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:callum:accommodation_option:conference",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:callum:accommodation_plan",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User's sister Fiona enjoys painting and has recently exhibited her artwork at a local gallery.",
+      "pair_id": "cf2:callum:family_member:fiona_hobby_running",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 5
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User is a veterinarian focusing on exotic pet care and wildlife rehabilitation.",
+      "pair_id": "cf2:callum:profession_specialization",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 5
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has cancelled their batch cooking project involving slow cooker chilli preparation after exercise and afternoon simmering.",
+      "pair_id": "cf2:callum:project:batch_cooking_chilli",
+      "predicates": {
+        "cosine_to_original": 0.7113,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 5,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the initiative to document travel durations and appointment absences related to telemedicine efforts.",
+      "pair_id": "cf2:chenoa:project:telehealth_log",
+      "predicates": {
+        "cosine_to_original": 0.6472,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 11,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:dariush:annual_event:Nowruz_dinner_guest_count",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:dariush:trip:Isfahan",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:dariush:trip_duration:Isfahan",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:david:coaching_event_date",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:david:project:debate_coaching_teams_qualified",
+      "state": "EXPIRY"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User usually completes around fifty pages weekly when managing a moderate academic workload.",
+      "pair_id": "cf2:david:reading_volume",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 9
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT3.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:lily:health_management:eczema_cotton_gloves",
+      "state": "SUPERSESSION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:diane:emotional_state:nervous_about_greg_show",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:diane:relationship:greg_project_folk_art_center",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the strategy of leveraging the OSCP certification requirement during discussions to modify the retainer agreement.",
+      "pair_id": "cf2:dmitri:contract_renegotiation_strategy",
+      "predicates": {
+        "cosine_to_original": 0.7801,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 4,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User's main corporate partner is a growing fintech startup called CryptoGuard, engaging in a $20,000 monthly contract for cybersecurity assessments and vulnerability analysis.",
+      "pair_id": "cf2:dmitri:primary_client",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 15,
+        "n_discr_old": 13
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has a $20,000 monthly retainer dedicated to comprehensive cybersecurity assessments and vulnerability analysis",
+      "pair_id": "cf2:dmitri:retainer_amount",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 7
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User prefers practicing mindfulness meditation to relax and recover following overnight work hours, finding it more effective than digital distractions.",
+      "pair_id": "cf2:elena:decompression_method:phone_scrolling",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 14,
+        "n_discr_old": 9
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:elena:event:wedding_timeline",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:elena:health_aid:light_therapy_lamp",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has cancelled their intention to enroll in the DNP pediatric nurse practitioner program at DePaul University.",
+      "pair_id": "cf2:elena:project:nurse_practitioner_program",
+      "predicates": {
+        "cosine_to_original": 0.7157,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 3,
+        "n_discr_old": 5,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User maintains a consistent bedtime routine that adapts to varying work hours and minimizes exposure to bright light before sleep.",
+      "pair_id": "cf2:elena:sleep_schedule",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 13,
+        "n_discr_old": 7
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User experiences improved social engagement after transitioning to daytime work hours, allowing more interaction with peers and family.",
+      "pair_id": "cf2:elena:social_connection_status",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 13,
+        "n_discr_old": 11
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:elena:wedding_date",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User prefers contemporary drapery designs inspired by abstract mathematical concepts and modern minimalism instead of traditional Islamic geometric motifs.",
+      "pair_id": "cf2:fatima:design_preference:geometric_drapery",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 10
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User has started attending sessions with a chiropractor regularly to improve musculoskeletal health and enhance physical well-being.",
+      "pair_id": "cf2:fatima:health_care:physiotherapy",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 6
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT2.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:jerome:restlessness_pattern",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User suffers from persistent lower back strain triggered by prolonged walking on uneven terrain during construction inspections.",
+      "pair_id": "cf2:fatima:health_condition:back_pain_related_to_site_visits",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 14
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:fatima:personal_day_activity",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User favors Asian manufacturers for fabric procurement because of cost efficiency and faster delivery times.",
+      "pair_id": "cf2:fatima:supplier_preference",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 9
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:fatima:trip:Milan April 2026",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:fatima:trip_schedule:salone_del_mobile_2026",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has cancelled the intention to carry any stock cubes for the upcoming deployment, deciding against bringing broth supplies for morning use.",
+      "pair_id": "cf2:ingrid:provision_stock_cubes",
+      "predicates": {
+        "cosine_to_original": 0.7435,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 10,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User utilizes R extensively for ecological data analysis, focusing on the vegan and lme4 libraries.",
+      "pair_id": "cf2:ingrid:software_skill:R",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 9,
+        "n_discr_old": 8
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User utilizes Python with GeoPandas, PyMC3, and scikit-learn libraries for geospatial data analysis and probabilistic modeling.",
+      "pair_id": "cf2:ingrid:software_tools",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 6
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User vapes with a Juul device moderately, inhaling approximately once every 30 minutes throughout a typical work shift at the construction site.",
+      "pair_id": "cf2:jake:habit:juul_use_intensity",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 9
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:aisha:emotional_state:family_expectations",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User considers vaping to pose significant health risks and has decided to avoid it as part of their wellness strategy.",
+      "pair_id": "cf2:jake:health_belief_vaping_vs_smoking",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 8
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User enjoys mint flavored Juul pods and dislikes all other varieties due to their taste.",
+      "pair_id": "cf2:jake:preference:juul_flavor",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 7
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT2.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:omar:study_difficulty:legal_topics",
+      "state": "SUPERSESSION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:jake:project:lake_trip_presidents_day_weekend",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:jake:project_role:lake_trip",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the strategy of organizing the NEC codebook with color-coded tabs for key sections such as grounding, load calculations, and overcurrent protection.",
+      "pair_id": "cf2:jake:study_method:codebook_tabbing",
+      "predicates": {
+        "cosine_to_original": 0.789,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 7,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User now vapes intermittently, averaging one puff every 30 minutes while engaged in professional tasks.",
+      "pair_id": "cf2:jake:vaping_frequency",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 10
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:jerome:project:Disney trip with Naomi",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User connects frequent relocations with a sense of freedom and adaptability, influenced by childhood experiences of instability and change.",
+      "pair_id": "cf2:jerome:psychological_association_movement",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 14
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User enjoys experimenting with Japanese cuisine, frequently making sushi rolls and miso soup at home.",
+      "pair_id": "cf2:joonho:hobby:cooking_korean_food",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 6
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User studies go strategies during weekend mornings, enjoying group discussions and interactive problem-solving sessions.",
+      "pair_id": "cf2:joonho:lesson_preparation_routine",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 12,
+        "n_discr_old": 10
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User enjoys dining at local restaurants more than preparing food at home.",
+      "pair_id": "cf2:joonho:preference:home_cooked_meals",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 6
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User's insomnia is probably triggered by high stress levels and excessive caffeine consumption during the afternoon.",
+      "pair_id": "cf2:kenji:health_condition_cause:insomnia",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 9
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User's design budgets are generous, with hourly rates often exceeding the salaries of kitchen staff at partner dining establishments.",
+      "pair_id": "cf2:kenji:hourly_rate_level",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 9,
+        "n_discr_old": 7
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has developed effective strategies for setting competitive rates in their freelance graphic design projects.",
+      "pair_id": "cf2:kenji:pricing_skill",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 4
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User follows a consistent and steady freelance schedule with regular project flow.",
+      "pair_id": "cf2:kenji:work_pattern",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 6
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User's cooperative now prices each cocoa bag at 820 cedis, differing from the external purchaser's 850 cedis offer.",
+      "pair_id": "cf2:kofi:cooperative_price_per_bag",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 7
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User spends 60 cedis to purchase a full ACT regimen for malaria therapy.",
+      "pair_id": "cf2:kofi:malaria_treatment_cost",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 4
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:kofi:preparation_for_meeting",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the initiative to clear and ready the cocoa plantation for replanting during the dry period.",
+      "pair_id": "cf2:kofi:project:cocoa_farm_replanting_schedule",
+      "predicates": {
+        "cosine_to_original": 0.7339,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 6,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User now rests inside a cozy cabin near the fields equipped with a protective insect screen.",
+      "pair_id": "cf2:kofi:sleeping_arrangement:drying_shed",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 8
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User prefers working late at night when the environment is quiet and distractions are minimal.",
+      "pair_id": "cf2:leila:daily_routine_preference",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 9,
+        "n_discr_old": 8
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User experiences migraines induced by exposure to strong sunlight during outdoor activities.",
+      "pair_id": "cf2:leila:health_condition:migraine_trigger_fluorescent_lights",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 5
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the plan to engage local authorities for the conservation of historic structures in Barrio Yungay.",
+      "pair_id": "cf2:leila:project:municipal_heritage_restoration",
+      "predicates": {
+        "cosine_to_original": 0.7294,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 6,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has cancelled participation in the international study opportunity scheduled for the upcoming academic term.",
+      "pair_id": "cf2:lily:exchange_semester",
+      "predicates": {
+        "cosine_to_original": 0.463,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 9,
+        "n_discr_old": 6,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User experiences persistent eczema primarily impacting their arms and face, with symptoms intensifying under emotional strain.",
+      "pair_id": "cf2:lily:health_condition:chronic skin condition",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 12,
+        "n_discr_old": 10
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User consults a dermatologist for specialized treatment and receives advanced topical medications to manage severe eczema symptoms.",
+      "pair_id": "cf2:lily:healthcare_provider:gp",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 11
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT2.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:elena:health_condition:racing_thoughts",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User considers manta trawls more effective than pump filtering for collecting microplastic samples in coastal environments such as Port Phillip Bay.",
+      "pair_id": "cf2:lily:methodological_opinion:microplastic_sampling",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 8
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:marcus:budget:kayla_graduation_celebration",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:marcus:event:Kayla_graduation_party",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:marcus:event_space_capacity",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User measures blood glucose levels every evening consistently to manage diabetes effectively.",
+      "pair_id": "cf2:marcus:health_monitoring:blood sugar check",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 9,
+        "n_discr_old": 5
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User sources the majority of their stock from National Auto Parts Wholesale.",
+      "pair_id": "cf2:marcus:inventory_supplier",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 6
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User typically spends around 10 minutes checking notifications and messages after waking up.",
+      "pair_id": "cf2:marcus:morning_phone_usage_duration",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 9,
+        "n_discr_old": 7
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User includes meditation and light stretching in their morning routine before breakfast.",
+      "pair_id": "cf2:marcus:morning_routine:shower_and_dress",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 4
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has cancelled the initiative to establish an additional vehicle repair center in Germantown.",
+      "pair_id": "cf2:marcus:project:second_location",
+      "predicates": {
+        "cosine_to_original": 0.6819,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 6,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned their intention to pursue a master's degree specializing in Sports Rehabilitation following the completion of their physiotherapy studies.",
+      "pair_id": "cf2:marley:education_plan",
+      "predicates": {
+        "cosine_to_original": 0.7453,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 7,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:marley:event_transportation",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User's nan prepares jerk chicken and fried plantains regularly to celebrate traditional Caribbean cuisine.",
+      "pair_id": "cf2:marley:family_member:nan_hobby:cooking_routine",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 9,
+        "n_discr_old": 8
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:marley:graduation_guest_tickets",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has cancelled their intention to pursue a master's degree in Sports Rehabilitation at the University of Bath following their graduation.",
+      "pair_id": "cf2:marley:project:msc_sports_rehabilitation",
+      "predicates": {
+        "cosine_to_original": 0.7532,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 5,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User prefers having a light sandwich and coffee seated quietly during midday breaks.",
+      "pair_id": "cf2:mehmet:lunch_habit",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 10
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:mehmet:preparation:barber_trade_guild_annual_meeting",
+      "state": "EXPIRY"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:mehmet:project:air_conditioning_installation",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User begins the morning by meditating indoors with soft music playing, enjoying a cup of coffee while observing the sunrise through the window.",
+      "pair_id": "cf2:mirri:morning_routine_preference",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 15,
+        "n_discr_old": 17
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User's patrol car suspension has been upgraded, significantly improving ride comfort and handling on rough terrain.",
+      "pair_id": "cf2:mirri:work_vehicle_condition",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 6
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT2.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:priya:task_management_skill",
+      "state": "SUPERSESSION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User has abandoned the idea of presenting the deconstructed Paris-Brest as part of the upcoming seasonal offerings.",
+      "pair_id": "cf2:nadia:project_pitch:spring_menu",
+      "predicates": {
+        "cosine_to_original": 0.7258,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 5,
+        "write_path_deactivates_original": false
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:alex:project_release_strategy",
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User frequently purchases Eastern European groceries from the specialty market located on Saint Laurent Boulevard in Montreal.",
+      "pair_id": "cf2:nadia:shopping_preference:russian_store_decarie",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 6
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "first_attempt": {
+        "attempts": 1,
+        "new_text": "User distributes their monthly finances among their daughter, utility bills, and groceries, prioritizing household needs over personal expenses.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 14,
+          "n_discr_old": 8
+        },
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "new_text": "User distributes their monthly finances among savings, utility bills, groceries, and occasional leisure activities, prioritizing personal well-being alongside essential expenses.",
+      "pair_id": "cf2:omar:budget_allocation",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 17,
+        "n_discr_old": 8
+      },
+      "prompt_sha256_at_seed": "3b5c9c236b6783e2f306bd80ace8fb3b67311bd5643cbe8b20cc7eaf6d796c5a",
+      "read": {
+        "date": "2026-09-13",
+        "first": "NO-implausible",
+        "reread": "YES"
+      },
+      "reauthored_under": "D-CF2-3",
+      "seed": 4242,
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User transfers approximately $500 each month to assist their mother with living expenses.",
+      "pair_id": "cf2:omar:financial_obligation:mother_support_amount",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 7
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the plan to obtain a real estate license and will not pursue certification in property sales.",
+      "pair_id": "cf2:omar:project:real_estate_license",
+      "predicates": {
+        "cosine_to_original": 0.5078,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 5,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User now prefers mild meals in the evening to avoid aggravating digestive discomfort after finishing daily tasks.",
+      "pair_id": "cf2:pan:dietary_habit:late_night_spicy_food",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 10
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has decided not to involve brother Beam in any training related to the mobile food vending operations.",
+      "pair_id": "cf2:pan:family_member:beam_role_in_business",
+      "predicates": {
+        "cosine_to_original": 0.7113,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 9,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User consumes 40mg omeprazole daily in the early hours prior to breakfast.",
+      "pair_id": "cf2:pan:medication:omeprazole_dose",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 7
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT2.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:ingrid:cognition_influence:Arctic_light",
+      "state": "SUPERSESSION"
+    },
+    {
+      "new_text": null,
+      "note": "no expiry write path; the anchor moves and nothing else",
+      "pair_id": "cf2:pan:product_plan_songkran",
+      "state": "EXPIRY"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned plans to market bottled sauce through social media platforms and online marketplaces.",
+      "pair_id": "cf2:pan:sales_channels",
+      "predicates": {
+        "cosine_to_original": 0.6488,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 9,
+        "n_discr_old": 5,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has cancelled the project involving removal of kitchen cabinetry and will not proceed with any related remodeling tasks.",
+      "pair_id": "cf2:patrick:kitchen_cabinet_replacement_plan",
+      "predicates": {
+        "cosine_to_original": 0.6324,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 9,
+        "n_discr_old": 7,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User is currently engaged in therapy sessions to address anxiety and stress stemming from emergency response experiences and maintains regular appointments for ongoing support.",
+      "pair_id": "cf2:patrick:mental_health_care",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 16,
+        "n_discr_old": 10
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT2.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:valentina:psychological_pattern",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User chooses to personally install new kitchen cabinets while delegating the removal of outdated units to professionals.",
+      "pair_id": "cf2:patrick:project:kitchen_cabinets_installation_preference",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 6
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User starts their day by stretching, checking emails on their phone while having breakfast, organizing tasks in a planner, and then sitting at their desk feeling prepared and focused.",
+      "pair_id": "cf2:priya:morning_routine",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 16,
+        "n_discr_old": 16
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT2.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:saga:health_management:celiac_reactions_log",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has decided to cancel the intention to acquire an animal companion following relocation due to uncertainties about accommodation suitability and regulations.",
+      "pair_id": "cf2:priya:pet_plan",
+      "predicates": {
+        "cosine_to_original": 0.6529,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 13,
+        "n_discr_old": 12,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User consistently maintains new organizational methods for several weeks, demonstrating strong commitment and follow-through.",
+      "pair_id": "cf2:priya:productivity_habit",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 12,
+        "n_discr_old": 7
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User dedicates approximately 45 minutes personalizing organizational applications such as Trello at the beginning of a workflow.",
+      "pair_id": "cf2:priya:productivity_setup_time",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 10
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has decided to cancel the plan to purchase a carpet for enhancing the comfort and ambiance of their living space.",
+      "pair_id": "cf2:priya:project:apartment_improvement",
+      "predicates": {
+        "cosine_to_original": 0.6179,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 7,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the intention to implement additional fees or special terms for renovations involving older residential properties.",
+      "pair_id": "cf2:raj:business_practice",
+      "predicates": {
+        "cosine_to_original": 0.6134,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 12,
+        "n_discr_old": 14,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User's child Preet enjoys astronomy and dreams of becoming an astronaut in the future.",
+      "pair_id": "cf2:raj:child_interest:Preet",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 7
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User experiences intense asthma attacks primarily due to exposure to pet dander and pollen in outdoor environments.",
+      "pair_id": "cf2:raj:health_condition_trigger:asthma_dust",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 6
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has decided to abandon the initiative to develop a personal online platform for their enterprise without external design assistance.",
+      "pair_id": "cf2:raj:project:website_creation",
+      "predicates": {
+        "cosine_to_original": 0.5905,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 12,
+        "n_discr_old": 8,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User allocates approximately 150 pounds annually for maintaining their online hosting services.",
+      "pair_id": "cf2:raj:website_hosting_budget",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 5
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT2.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:samuel:identity_connection_to_first_generation_students",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User stores a P100 respirator in their vehicle for occupational health protection",
+      "pair_id": "cf2:raj:work_safety_equipment:FFP3_mask",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 6
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User prefers to integrate both logical analysis and empathetic understanding when forming conclusions in complex situations.",
+      "pair_id": "cf2:rosa:judicial_decision_approach",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 12,
+        "n_discr_old": 12
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has cancelled the planned colada tasting event with their spouse.",
+      "pair_id": "cf2:rosa:project:colada_taste_test",
+      "predicates": {
+        "cosine_to_original": 0.6139,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 7,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User monitors gluten intolerance by maintaining a detailed journal documenting symptoms, dietary intake, and emergency contacts.",
+      "pair_id": "cf2:saga:health_management_method",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 12,
+        "n_discr_old": 11
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User has identified a correlation coefficient of 0.45 linking perceived anxiety intensity and gluten sensitivity symptoms.",
+      "pair_id": "cf2:saga:health_observation:stress_correlation",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 10
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT2.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:mehmet:custom:tea_offered",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the project involving dividing climbing paths into distinct sections and evaluating effort levels for each part.",
+      "pair_id": "cf2:saga:project:climbing_route_segmentation",
+      "predicates": {
+        "cosine_to_original": 0.6233,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 14,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User prioritizes minimally invasive procedures and advanced imaging technologies rather than traditional open surgery methods.",
+      "pair_id": "cf2:samuel:surgical_training_philosophy",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 12,
+        "n_discr_old": 12
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User frequently reminisces about past experiences and enjoys sharing stories from earlier days with close friends.",
+      "pair_id": "cf2:thanh:communication_preference:old_times",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 8
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User Lan typically markets around 20 kilograms of seafood during peak periods and approximately 10 kilograms when business is quieter.",
+      "pair_id": "cf2:thanh:family_member:lan_sales_volume",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 13,
+        "n_discr_old": 6
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User offers premium shrimp weighing over 30 grams at a price ranging between 180,000 and 190,000 dong per kilogram.",
+      "pair_id": "cf2:thanh:shrimp_sell_price_per_kilo",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 8
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User typically falls asleep near 11pm and rises at 6am, achieving approximately 7 hours of rest nightly.",
+      "pair_id": "cf2:thanh:sleep_schedule",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 7
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User prefers to start the day with classical music broadcasts, a routine inspired by their friend Jonathan.",
+      "pair_id": "cf2:tom:morning_radio_preference",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 6
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User enjoys starting the day with a strong black coffee, a routine inspired by their colleague.",
+      "pair_id": "cf2:tom:morning_tea_preference",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 9,
+        "n_discr_old": 8
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User pursued a career as an investigative reporter specializing in environmental issues and social justice, inspired by their family's dedication to impactful storytelling.",
+      "pair_id": "cf2:valentina:career",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 14,
+        "n_discr_old": 8
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User enjoys tuning into science documentaries, including topics on marine biology, for entertainment.",
+      "pair_id": "cf2:valentina:hobby:history_podcasts",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 10,
+        "n_discr_old": 6
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT2.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:valentina:internal_conflict_journalism",
+      "state": "SUPERSESSION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User feels motivated to seek new employment opportunities that offer better compensation and work-life balance.",
+      "pair_id": "cf2:valentina:job_attitude",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 12,
+        "n_discr_old": 9
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT3.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:tom:vehicle_use",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User wants payments sent to their grandmother to be processed immediately for faster access to funds.",
+      "pair_id": "cf2:yoli:money_transfer_speed_preference",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 8,
+        "n_discr_old": 8
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has abandoned the idea of compiling a personal collection of favorite songs.",
+      "pair_id": "cf2:yoli:music_playlist_status",
+      "predicates": {
+        "cosine_to_original": 0.5521,
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 7,
+        "n_discr_old": 6,
+        "write_path_deactivates_original": false
+      },
+      "state": "RETRACTION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User primarily works with FL Studio for music production, focusing on composing, sequencing, and sound design.",
+      "pair_id": "cf2:yoli:primary_daw",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 11,
+        "n_discr_old": 10
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "appended_under": "D-CF2-2",
+      "attempts": 1,
+      "new_text": "User is a sound engineer specializing in live concert setups and audio mixing for performances.",
+      "pair_id": "cf2:yoli:profession_or_hobby:music_production",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 9,
+        "n_discr_old": 7
+      },
+      "read": {
+        "date": "2026-09-13",
+        "document": "reviews/CF2_PN_READ_EXT2.md",
+        "first": "YES"
+      },
+      "replaces": "cf2:mirri:cultural_learning",
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User creates music primarily with FL Studio, handling composition, sound design, and mastering within this digital audio workstation.",
+      "pair_id": "cf2:yoli:software:ableton_live",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 13,
+        "n_discr_old": 10
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 1,
+      "new_text": "User has a vitamin D level measured at 28 ng/mL, indicating sufficient status.",
+      "pair_id": "cf2:zara:health_condition:vitamin_D_deficiency",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 4
+      },
+      "state": "SUPERSESSION"
+    },
+    {
+      "attempts": 2,
+      "new_text": "User takes a daily dose of 2,000 IU vitamin D supplement for health maintenance.",
+      "pair_id": "cf2:zara:medication:vitamin D supplement dosage",
+      "predicates": {
+        "cross_guard_on_new": 1.0,
+        "detector_signal_on_original": 1.0,
+        "gold_cover_new": 1.0,
+        "n_discr_new": 6,
+        "n_discr_old": 3
+      },
+      "state": "SUPERSESSION"
+    }
+  ]
+}

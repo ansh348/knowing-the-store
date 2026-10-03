@@ -1,0 +1,14 @@
+{
+ "lookup_sb60_matched": "0.82",
+ "sol_lead_matched": "0.09",
+ "luna_lead_matched": "0.04",
+ "sol_lead_pooled": "0.12",
+ "luna_lead_pooled": "0.11",
+ "branch": "B-ii",
+ "predictions": {
+  "P-S1": false,
+  "P-S2": true,
+  "P-S3": true,
+  "P-S4": true
+ }
+}

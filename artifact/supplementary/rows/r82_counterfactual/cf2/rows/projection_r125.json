@@ -1,0 +1,60 @@
+{
+ "NC-LUNA": {
+  "calls": 4440,
+  "usd": 1.0432,
+  "x1.3": 1.3561
+ },
+ "NC-OP5": {
+  "calls": 888,
+  "usd": 5.7991,
+  "x1.3": 7.5388
+ },
+ "NC-SOL": {
+  "calls": 888,
+  "usd": 6.2316,
+  "x1.3": 8.1011
+ },
+ "SB-H45": {
+  "calls": 440,
+  "usd": 0.5828,
+  "x1.3": 0.7577
+ },
+ "SB-LUNA": {
+  "calls": 440,
+  "usd": 0.1046,
+  "x1.3": 0.136
+ },
+ "SB-MINI5": {
+  "calls": 440,
+  "usd": 0.1259,
+  "x1.3": 0.1637
+ },
+ "SB-OP5": {
+  "calls": 88,
+  "usd": 0.9668,
+  "x1.3": 1.2568
+ },
+ "SB-SOL": {
+  "calls": 88,
+  "usd": 1.0507,
+  "x1.3": 1.3659
+ },
+ "openai_without_NC-SOL": {
+  "fits": true,
+  "projected": 2.3244
+ },
+ "totals": {
+  "anthropic": {
+   "cap": 10.0,
+   "fits": true,
+   "projected": 7.3487,
+   "spent": 0.0413
+  },
+  "openai": {
+   "cap": 10.0,
+   "fits": true,
+   "projected": 8.5561,
+   "spent": 0.0379
+  }
+ }
+}

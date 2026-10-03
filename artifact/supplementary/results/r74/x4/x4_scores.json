@@ -1,0 +1,311 @@
+{
+ "lanes": {
+  "claude-haiku-4-5-20251001": {
+   "fok_307": {
+    "blind": 0.3780987394957983,
+    "blind_ci": {
+     "ci_hi": 0.4851447592585081,
+     "ci_lo": 0.27482259521326713,
+     "includes_0.50": false,
+     "point": 0.3780987394957983
+    },
+    "blind_tie_degenerate": false,
+    "boot": {
+     "ci_hi": 0.4754605828369854,
+     "ci_lo": 0.2629070077066852,
+     "excludes_zero": true,
+     "mean": 0.3703012337406629,
+     "n": 1000
+    },
+    "clustered_ci": [
+     0.2699888698113895,
+     0.47469418112909045
+    ],
+    "delta": 0.36843487394957986,
+    "indexed": 0.7465336134453782,
+    "indexed_ci": {
+     "ci_hi": 0.8114115460207435,
+     "ci_lo": 0.6791066965573912,
+     "includes_0.50": false,
+     "point": 0.7465336134453782
+    },
+    "n": 307,
+    "n_pos": 35
+   },
+   "n_cells": 1322,
+   "nok_661": {
+    "blind": 0.4150238226764259,
+    "blind_ci": {
+     "ci_hi": 0.4676208606584307,
+     "ci_lo": 0.36107192329475823,
+     "includes_0.50": false,
+     "point": 0.4150238226764259
+    },
+    "blind_tie_degenerate": false,
+    "boot": {
+     "ci_hi": 0.47913614365465423,
+     "ci_lo": 0.32826020287622193,
+     "excludes_zero": true,
+     "mean": 0.4048465281758058,
+     "n": 1000
+    },
+    "clustered_ci": [
+     0.3063379379498035,
+     0.5025608757944465
+    ],
+    "delta": 0.40602126778069325,
+    "indexed": 0.8210450904571192,
+    "indexed_ci": {
+     "ci_hi": 0.8646336126169172,
+     "ci_lo": 0.772564676936572,
+     "includes_0.50": false,
+     "point": 0.8210450904571192
+    },
+    "n": 661,
+    "n_pos": 104
+   },
+   "status": "OK"
+  },
+  "claude-opus-5": {
+   "fok_307": {
+    "blind": 0.6793067226890757,
+    "blind_ci": {
+     "ci_hi": 0.7476177836305152,
+     "ci_lo": 0.6049255637248051,
+     "includes_0.50": false,
+     "point": 0.6793067226890757
+    },
+    "blind_tie_degenerate": false,
+    "boot": {
+     "ci_hi": 0.21479266924005647,
+     "ci_lo": 0.05571483277555984,
+     "excludes_zero": true,
+     "mean": 0.1328849090510132,
+     "n": 1000
+    },
+    "clustered_ci": [
+     0.052309588646330875,
+     0.202638187429854
+    ],
+    "delta": 0.13061974789915964,
+    "indexed": 0.8099264705882353,
+    "indexed_ci": {
+     "ci_hi": 0.8622159920464755,
+     "ci_lo": 0.7511831133576312,
+     "includes_0.50": false,
+     "point": 0.8099264705882353
+    },
+    "n": 307,
+    "n_pos": 35
+   },
+   "n_cells": 1322,
+   "nok_661": {
+    "blind": 0.6429360585554481,
+    "blind_ci": {
+     "ci_hi": 0.6888827466791709,
+     "ci_lo": 0.597587419089962,
+     "includes_0.50": false,
+     "point": 0.6429360585554481
+    },
+    "blind_tie_degenerate": false,
+    "boot": {
+     "ci_hi": 0.24114319650062416,
+     "ci_lo": 0.1436671008015388,
+     "excludes_zero": true,
+     "mean": 0.1894715073732835,
+     "n": 1000
+    },
+    "clustered_ci": [
+     0.12410617681416856,
+     0.2523027706263902
+    ],
+    "delta": 0.189770059384063,
+    "indexed": 0.8327061179395111,
+    "indexed_ci": {
+     "ci_hi": 0.8657392630482527,
+     "ci_lo": 0.7965688895749131,
+     "includes_0.50": false,
+     "point": 0.8327061179395111
+    },
+    "n": 661,
+    "n_pos": 104
+   },
+   "status": "OK"
+  },
+  "gpt-4.1-mini": {
+   "fok_307": {
+    "blind": 0.4965861344537815,
+    "blind_ci": {
+     "ci_hi": 0.5900621747084012,
+     "ci_lo": 0.40869878778555285,
+     "includes_0.50": true,
+     "point": 0.4965861344537815
+    },
+    "blind_tie_degenerate": false,
+    "boot": {
+     "ci_hi": 0.31307757466590896,
+     "ci_lo": 0.09273156565565495,
+     "excludes_zero": true,
+     "mean": 0.20817305681432588,
+     "n": 1000
+    },
+    "clustered_ci": [
+     0.1259132814750792,
+     0.2767026755748524
+    ],
+    "delta": 0.2037289915966386,
+    "indexed": 0.7003151260504201,
+    "indexed_ci": {
+     "ci_hi": 0.7888514159916373,
+     "ci_lo": 0.6106470635504944,
+     "includes_0.50": false,
+     "point": 0.7003151260504201
+    },
+    "n": 307,
+    "n_pos": 35
+   },
+   "n_cells": 1322,
+   "nok_661": {
+    "blind": 0.49461400359066426,
+    "blind_ci": {
+     "ci_hi": 0.49823337107450355,
+     "ci_lo": 0.48951048951048953,
+     "includes_0.50": false,
+     "point": 0.49461400359066426
+    },
+    "blind_tie_degenerate": false,
+    "boot": {
+     "ci_hi": 0.29680321427845796,
+     "ci_lo": 0.18333401332350066,
+     "excludes_zero": true,
+     "mean": 0.23885286542056425,
+     "n": 1000
+    },
+    "clustered_ci": [
+     0.1552277302691103,
+     0.3236926645997786
+    ],
+    "delta": 0.23928842701284353,
+    "indexed": 0.7339024306035078,
+    "indexed_ci": {
+     "ci_hi": 0.7907518911626615,
+     "ci_lo": 0.6753860496055125,
+     "includes_0.50": false,
+     "point": 0.7339024306035078
+    },
+    "n": 661,
+    "n_pos": 104
+   },
+   "status": "OK"
+  },
+  "gpt-5.6-luna": {
+   "fok_307": {
+    "blind": 0.571953781512605,
+    "blind_ci": {
+     "ci_hi": 0.6953636270975182,
+     "ci_lo": 0.4427642838688991,
+     "includes_0.50": true,
+     "point": 0.571953781512605
+    },
+    "blind_tie_degenerate": false,
+    "boot": {
+     "ci_hi": 0.33518650123278204,
+     "ci_lo": 0.04390607778358216,
+     "excludes_zero": true,
+     "mean": 0.1909992037094542,
+     "n": 1000
+    },
+    "clustered_ci": [
+     0.0769983304403595,
+     0.30708214975404924
+    ],
+    "delta": 0.18849789915966386,
+    "indexed": 0.7604516806722689,
+    "indexed_ci": {
+     "ci_hi": 0.823789811050774,
+     "ci_lo": 0.6896397422105347,
+     "includes_0.50": false,
+     "point": 0.7604516806722689
+    },
+    "n": 307,
+    "n_pos": 35
+   },
+   "n_cells": 1322,
+   "nok_661": {
+    "blind": 0.44952354647148185,
+    "blind_ci": {
+     "ci_hi": 0.5092153577361517,
+     "ci_lo": 0.3960720060294247,
+     "includes_0.50": true,
+     "point": 0.44952354647148185
+    },
+    "blind_tie_degenerate": false,
+    "boot": {
+     "ci_hi": 0.435800845863994,
+     "ci_lo": 0.29324459160831284,
+     "excludes_zero": true,
+     "mean": 0.3671370185770967,
+     "n": 1000
+    },
+    "clustered_ci": [
+     0.26557002136958685,
+     0.4665551763607532
+    ],
+    "delta": 0.36865591769092665,
+    "indexed": 0.8181794641624085,
+    "indexed_ci": {
+     "ci_hi": 0.8586296578824953,
+     "ci_lo": 0.7704454509466094,
+     "includes_0.50": false,
+     "point": 0.8181794641624085
+    },
+    "n": 661,
+    "n_pos": 104
+   },
+   "status": "OK"
+  },
+  "gpt-5.6-sol": {
+   "n_rows": 1422,
+   "note": "D-R74-6 budget stop; not scored as a cell",
+   "status": "STOPPED_INCOMPLETE",
+   "usd": 12.387235
+  },
+  "kimi-k3": {
+   "n_rows": 231,
+   "note": "D-R74-6 budget stop; not scored as a cell",
+   "status": "STOPPED_INCOMPLETE",
+   "usd": 3.159291
+  }
+ },
+ "predictions": {
+  "XP-1": {
+   "claude-haiku-4-5-20251001": true,
+   "claude-opus-5": true,
+   "gpt-5.6-luna": true
+  },
+  "XP-2": {
+   "claude-haiku-4-5-20251001": true,
+   "claude-opus-5": true,
+   "gpt-5.6-luna": true
+  },
+  "XP-3": {
+   "blind_span": 0.2279122358790222,
+   "holds": true,
+   "indexed_span": 0.09880368733600331
+  },
+  "XP-4": {
+   "haiku_below": true,
+   "opus_above": true
+  },
+  "XP-5_mini_reproduction": true
+ },
+ "registration": "ADDENDUM_R74 SX4 @ 35f8416a55",
+ "usd": {
+  "claude-haiku-4-5-20251001": 5.3619625,
+  "claude-opus-5": 40.20146,
+  "gpt-4.1-mini": 0.0,
+  "gpt-5.6-luna": 2.673062,
+  "gpt-5.6-sol": 12.387235,
+  "kimi-k3": 3.159291
+ }
+}

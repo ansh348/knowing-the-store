@@ -1,0 +1,17 @@
+{
+ "blind_in": 523,
+ "identifier_ok": true,
+ "indexed_in": 1777,
+ "lane": "claude-haiku-4-5-20251001",
+ "out": [
+  39,
+  39
+ ],
+ "parsed": [
+  "OK",
+  "OK"
+ ],
+ "probe_usd": 0.00269,
+ "sample": "```json\n{\"fok\": 8, \"nok_candidates_found\": false, \"nok\": 2, \"would_search\": false}\n```",
+ "served": "claude-haiku-4-5-20251001"
+}

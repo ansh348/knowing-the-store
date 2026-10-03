@@ -1,0 +1,99 @@
+{
+  "feasibility": {
+    "n_eval": 529,
+    "gaps": {
+      "items_missing_answer_row": [],
+      "rows_missing_verdict": [],
+      "items_missing_nok": []
+    },
+    "assembly_constructible": true,
+    "uses_S0": false
+  },
+  "base_rate_ungated": 0.15500945179584122,
+  "n_pn": 82,
+  "grid": [
+    {
+      "tau": 0.0,
+      "selected": 529,
+      "precision": 0.15500945179584122,
+      "recall": 1.0,
+      "youden_j": 0.0,
+      "strict_subset": false,
+      "clears_base": true
+    },
+    {
+      "tau": 0.05,
+      "selected": 285,
+      "precision": 0.2,
+      "recall": 0.6951219512195121,
+      "youden_j": 0.18505483712555237,
+      "strict_subset": true,
+      "clears_base": true
+    },
+    {
+      "tau": 0.1,
+      "selected": 216,
+      "precision": 0.21296296296296297,
+      "recall": 0.5609756097560976,
+      "youden_j": 0.18066241065095218,
+      "strict_subset": true,
+      "clears_base": true
+    },
+    {
+      "tau": 0.2,
+      "selected": 199,
+      "precision": 0.22613065326633167,
+      "recall": 0.5487804878048781,
+      "youden_j": 0.20426147214492285,
+      "strict_subset": true,
+      "clears_base": true
+    },
+    {
+      "tau": 0.3,
+      "selected": 197,
+      "precision": 0.2233502538071066,
+      "recall": 0.5365853658536586,
+      "youden_j": 0.1943034866590277,
+      "strict_subset": true,
+      "clears_base": true
+    },
+    {
+      "tau": 0.4,
+      "selected": 144,
+      "precision": 0.2222222222222222,
+      "recall": 0.3902439024390244,
+      "youden_j": 0.1396846183226933,
+      "strict_subset": true,
+      "clears_base": true
+    },
+    {
+      "tau": 0.5,
+      "selected": 42,
+      "precision": 0.19047619047619047,
+      "recall": 0.0975609756097561,
+      "youden_j": 0.02149833578872702,
+      "strict_subset": true,
+      "clears_base": true
+    },
+    {
+      "tau": 0.6,
+      "selected": 41,
+      "precision": 0.1951219512195122,
+      "recall": 0.0975609756097561,
+      "youden_j": 0.0237354722540514,
+      "strict_subset": true,
+      "clears_base": true
+    },
+    {
+      "tau": 0.7,
+      "selected": 2,
+      "precision": 0.5,
+      "recall": 0.012195121951219513,
+      "youden_j": 0.009957985485895129,
+      "strict_subset": true,
+      "clears_base": true
+    }
+  ],
+  "tau_op2": 0.05,
+  "max_youden": 0.20426147214492285
+}

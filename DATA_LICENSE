@@ -1,0 +1,18 @@
+Data license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Ansuman Mullick and Eray Tüzün
+
+The data records, model outputs (the recorded model responses and every score derived from
+them), registrations and ledgers in this repository and in its release archive
+(supplementary.zip, and the same files unpacked under artifact/) are licensed under the
+Creative Commons Attribution 4.0 International License.
+
+  Summary:   https://creativecommons.org/licenses/by/4.0/
+  Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+You may share and adapt the material for any purpose, provided you give appropriate credit,
+link to the license, and indicate if changes were made. Credit: cite the paper as given in
+CITATION.cff.
+
+Source code is licensed separately under the MIT License (LICENSE). Material that originates
+with third parties keeps its own terms; see THIRD_PARTY.md.

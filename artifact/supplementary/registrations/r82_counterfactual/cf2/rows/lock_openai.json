@@ -1,0 +1,32 @@
+{
+ "arm": "INDEXED-V2",
+ "cap_usd_both_models": 30.0,
+ "cell": 444,
+ "frozen_at": "177697a",
+ "k": 5,
+ "order": "draw-major per model, 8 workers",
+ "prices_per_million": {
+  "gpt-5.6-luna": {
+   "cached": 0.02,
+   "inp": 0.2,
+   "out": 1.2,
+   "write_mult": 1.25
+  },
+  "gpt-5.6-sol": {
+   "cached": 0.4,
+   "inp": 4.0,
+   "out": 20.0,
+   "write_mult": 1.25
+  }
+ },
+ "prompts_file_sha256": "337d37d3414c04823d28ad99eeab15c34e328e60198d68625452ebf330830b84",
+ "prompts_texts_sha256": "35d9b968ffc0b008289a59b06f10b7d23f71658c648dd2865a46e8da15d495f2",
+ "registration": "registrations\\ADDENDUM_CF2_OPENAI.md",
+ "registration_sha256": "230df444e3d5f028102426508e0d883824eb1258576515fadab49fbb84483149",
+ "settings": {
+  "max_completion_tokens": 2048,
+  "reasoning_effort": null,
+  "temperature": null
+ },
+ "when": "2026-09-19T00:15:28"
+}

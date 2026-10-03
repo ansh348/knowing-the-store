@@ -1,0 +1,114 @@
+[
+ {
+  "status": "AUTHORIZED",
+  "tag": "Q",
+  "key": "CLAIMS",
+  "base": 1,
+  "new": 0,
+  "text": "Luna's and Sol's shared cross-vendor rows are obtained through the vendor's agent tool."
+ },
+ {
+  "status": "AUTHORIZED",
+  "tag": "Q",
+  "key": "CLAIMS",
+  "base": 1,
+  "new": 0,
+  "text": "The full obligation set supports the backend and retrieval comparisons. It contains 661 questions about the original stores and their variants."
+ },
+ {
+  "status": "AUTHORIZED",
+  "tag": "Q",
+  "key": "CLAIMS",
+  "base": 1,
+  "new": 0,
+  "text": "Padding the default list to 60 names lowers the lookup to 0.67 on the full obligation set, and injected wrong names lower mini, Haiku and the lookup together, so short ground-truth lists do not establish robustness to longer store-written ones."
+ },
+ {
+  "status": "AUTHORIZED",
+  "tag": "Q",
+  "key": "CLAIMS",
+  "base": 1,
+  "new": 0,
+  "text": "The metric fixed in advance pools all items."
+ },
+ {
+  "status": "AUTHORIZED",
+  "tag": "Q",
+  "key": "CLAIMS",
+  "base": 1,
+  "new": 0,
+  "text": "with the names unchanged, all three follow it. Across the two counted states Opus falls"
+ },
+ {
+  "status": "AUTHORIZED",
+  "tag": "Q",
+  "key": "CLAIMS",
+  "base": 1,
+  "new": 0,
+  "text": "the lookup and Haiku score 0.78 and mini 0.73. Luna, Sol and Opus score 0.86 to 0.88,"
+ },
+ {
+  "status": "AUTHORIZED",
+  "tag": "Q",
+  "key": "CLAIMS",
+  "base": 1,
+  "new": 0,
+  "text": "the three stay a reliable 0.05 to 0.06 above it. Their remaining edge is in pairs"
+ },
+ {
+  "status": "AUTHORIZED",
+  "tag": "Q",
+  "key": "CLAIMS",
+  "base": 1,
+  "new": 0,
+  "text": "\\begin{abstract} An agent with long-term memory can answer from a record it should no longer use, such as a plan the user later cancelled. We test whether an agent can tell, before retrieving anything, that its store holds such a record, from a summary alone: the number of records in each lifecycle state, and a list of attribute names with the values removed. Each of 148 questions is asked against three versions of one store that differ in one attribute, so a question's wording cannot give the answer away. First, ablations show that the two smaller of five models rely on the attribute names alone, while the three stronger ones also use the state counts. Second, for superseded records, the one state whose names the summary lists, no model reliably beats a cosine-similarity lookup over those names. Under a control that holds counts and list length fixed, the lookup and every model pick the correct name over a similar one at an AUROC of 0.88 or higher (chance 0.50). The stronger models lead the lookup by 0.08 to 0.10 overall, a lead that comes from retracted and expired records, which the summary only counts; adding one count feature to the lookup closes it. Third, the memory backends we tested omit or misstate this information. Given only what FR-Bank, a backend that tags every entry with a lifecycle state, actually writes, GPT-4.1 mini and the lookup drop from 0.73 and 0.75 to 0.60 and 0.59 on our larger question set. In these tests, what the store wrote down mattered more than which model read it. All stores are synthetic, and whether better judgments yield better answers is not established; human validation is pending. \\end{abstract}"
+ },
+ {
+  "status": "AUTHORIZED",
+  "tag": "Q",
+  "key": "CLAIMS",
+  "base": 1,
+  "new": 0,
+  "text": "In these tests, what the store writes down mattered more than which reader read it. Models differ further when the rubric states the intent rule."
+ },
+ {
+  "status": "AUTHORIZED",
+  "tag": "Q",
+  "key": "CLAIMS",
+  "base": 1,
+  "new": 0,
+  "text": "Kimi K3 (open weights) joins the smaller comparison shared across vendors."
+ },
+ {
+  "status": "AUTHORIZED",
+  "tag": "Q",
+  "key": "CLAIMS",
+  "base": 1,
+  "new": 0,
+  "text": "The personas, their human-written manifests and sessions, the FR-Bank, Mem0 and A-MEM stores and part of the main question set come from the FR-Bank release \\citep{fr}. Language models drafted our other questions, and we built the Graphiti graphs from the released FR-Bank records, with lifecycle fields removed. (Appendix \\ref{app:construction})"
+ },
+ {
+  "status": "AUTHORIZED",
+  "tag": "Q",
+  "key": "CLAIMS",
+  "base": 1,
+  "new": 0,
+  "text": "that only guesses the question's category (0.77 and 0.75). (Appendix \\ref{app:counterfactual}; target-name ablation: Appendix \\ref{app:resp})"
+ },
+ {
+  "status": "AUTHORIZED",
+  "tag": "Q",
+  "key": "CLAIMS",
+  "base": 1,
+  "new": 0,
+  "text": "Those models score the change question higher, consistent with a scored step that asks whether stale content exists."
+ },
+ {
+  "status": "AUTHORIZED",
+  "tag": "Q",
+  "key": "CLAIMS",
+  "base": 1,
+  "new": 0,
+  "text": "\\claim{List length and coverage lift both metrics.} A reader that only knows whether the store covers the question scores 0.75 pooled and 0.50 matched. The name lookup stays a reliable 0.13 above a lookup over meaningless tokens on the matched metric. (Appendix \\ref{app:counterfactual})"
+ }
+]

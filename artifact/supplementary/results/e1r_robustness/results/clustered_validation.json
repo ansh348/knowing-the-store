@@ -1,0 +1,62 @@
+{
+  "R-FOK-AMEM": {
+    "cluster_boot_over_jackknife": 0.9900485124733877,
+    "cluster_jackknife_se": 0.03112546977829908,
+    "cluster_jackknife_width_1p96": 0.12201184153093239,
+    "icc_contribution": -0.054393953968225585,
+    "icc_n0": 7.091549295774648,
+    "jackknife_folds": 40,
+    "width_cluster_boot": 0.12079764221183832,
+    "width_item_boot": 0.13223475383813477
+  },
+  "R-FOK-EASY": {
+    "cluster_boot_over_jackknife": 0.9940299467284824,
+    "cluster_jackknife_se": 0.028393702531995434,
+    "cluster_jackknife_width_1p96": 0.1113033139254221,
+    "icc_contribution": 0.08698769667995691,
+    "icc_n0": 14.828786899375135,
+    "jackknife_folds": 40,
+    "width_cluster_boot": 0.11063882721199089,
+    "width_item_boot": 0.14172434290033936
+  },
+  "R-FOK-FRB": {
+    "cluster_boot_over_jackknife": 0.9528443679585369,
+    "cluster_jackknife_se": 0.0403703726042104,
+    "cluster_jackknife_width_1p96": 0.15825186060850477,
+    "icc_contribution": -0.02378165981150576,
+    "icc_n0": 7.667585400484424,
+    "jackknife_folds": 40,
+    "width_cluster_boot": 0.1507893940997732,
+    "width_item_boot": 0.2255986029460771
+  },
+  "R-FOK-HARD": {
+    "cluster_boot_over_jackknife": 0.9534597239595234,
+    "cluster_jackknife_se": 0.0386425666747669,
+    "cluster_jackknife_width_1p96": 0.15147886136508623,
+    "icc_contribution": 0.012916119395784605,
+    "icc_n0": 14.679487179487179,
+    "jackknife_folds": 40,
+    "width_cluster_boot": 0.14442899334285803,
+    "width_item_boot": 0.232640108575172
+  },
+  "R-FOK-MEM0": {
+    "cluster_boot_over_jackknife": 0.9496914538692314,
+    "cluster_jackknife_se": 0.03631594174981923,
+    "cluster_jackknife_width_1p96": 0.14235849165929138,
+    "icc_contribution": -0.033978987847505464,
+    "icc_n0": 6.42390289449113,
+    "jackknife_folds": 37,
+    "width_cluster_boot": 0.13519664291454328,
+    "width_item_boot": 0.14366945459389507
+  },
+  "R-NOK-FRB": {
+    "cluster_boot_over_jackknife": 0.9840839878294513,
+    "cluster_jackknife_se": 0.043670813756996024,
+    "cluster_jackknife_width_1p96": 0.17118958992742442,
+    "icc_contribution": 0.07685765539361364,
+    "icc_n0": 16.498079832421737,
+    "jackknife_folds": 40,
+    "width_cluster_boot": 0.16846493433066828,
+    "width_item_boot": 0.11476693673144209
+  }
+}

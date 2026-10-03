@@ -1,0 +1,6462 @@
+{
+ "both_values": {
+  "h45-A3": {
+   "ALWAYS": {
+    "stale_tg=False|0<succ<0.34": 6,
+    "stale_tg=False|succ=0": 20,
+    "stale_tg=False|succ>=0.34": 5,
+    "stale_tg=True|succ=0": 11
+   },
+   "LOOKUP": {
+    "stale_tg=False|0<succ<0.34": 12,
+    "stale_tg=False|succ=0": 22,
+    "stale_tg=False|succ>=0.34": 11,
+    "stale_tg=True|0<succ<0.34": 3,
+    "stale_tg=True|succ=0": 10
+   },
+   "LOOKUP-ALL": {
+    "stale_tg=False|0<succ<0.34": 14,
+    "stale_tg=False|succ=0": 25,
+    "stale_tg=False|succ>=0.34": 10,
+    "stale_tg=True|0<succ<0.34": 2,
+    "stale_tg=True|succ=0": 7
+   },
+   "LOOKUP-LIT": {
+    "stale_tg=False|0<succ<0.34": 17,
+    "stale_tg=False|succ=0": 28,
+    "stale_tg=False|succ>=0.34": 15,
+    "stale_tg=True|0<succ<0.34": 4,
+    "stale_tg=True|succ=0": 18
+   },
+   "MODEL": {
+    "stale_tg=False|0<succ<0.34": 11,
+    "stale_tg=False|succ=0": 24,
+    "stale_tg=False|succ>=0.34": 10,
+    "stale_tg=True|0<succ<0.34": 3,
+    "stale_tg=True|succ=0": 14
+   },
+   "MODEL-ALL": {
+    "stale_tg=False|0<succ<0.34": 12,
+    "stale_tg=False|succ=0": 28,
+    "stale_tg=False|succ>=0.34": 10,
+    "stale_tg=True|0<succ<0.34": 2,
+    "stale_tg=True|succ=0": 10
+   },
+   "ORACLE": {
+    "stale_tg=False|0<succ<0.34": 18,
+    "stale_tg=False|succ=0": 33,
+    "stale_tg=False|succ>=0.34": 16,
+    "stale_tg=True|0<succ<0.34": 5,
+    "stale_tg=True|succ=0": 13
+   }
+  },
+  "h45-D4": {
+   "ALWAYS": {
+    "stale_tg=False|0<succ<0.34": 5,
+    "stale_tg=False|succ=0": 19,
+    "stale_tg=False|succ>=0.34": 7,
+    "stale_tg=True|0<succ<0.34": 2,
+    "stale_tg=True|succ=0": 9
+   },
+   "LOOKUP": {
+    "stale_tg=False|0<succ<0.34": 16,
+    "stale_tg=False|succ=0": 21,
+    "stale_tg=False|succ>=0.34": 10,
+    "stale_tg=True|0<succ<0.34": 1,
+    "stale_tg=True|succ=0": 10
+   },
+   "LOOKUP-ALL": {
+    "stale_tg=False|0<succ<0.34": 17,
+    "stale_tg=False|succ=0": 20,
+    "stale_tg=False|succ>=0.34": 11,
+    "stale_tg=True|succ=0": 10
+   },
+   "LOOKUP-LIT": {
+    "stale_tg=False|0<succ<0.34": 20,
+    "stale_tg=False|succ=0": 27,
+    "stale_tg=False|succ>=0.34": 14,
+    "stale_tg=True|0<succ<0.34": 4,
+    "stale_tg=True|succ=0": 17
+   },
+   "MODEL": {
+    "stale_tg=False|0<succ<0.34": 13,
+    "stale_tg=False|succ=0": 23,
+    "stale_tg=False|succ>=0.34": 10,
+    "stale_tg=True|0<succ<0.34": 2,
+    "stale_tg=True|succ=0": 14
+   },
+   "MODEL-ALL": {
+    "stale_tg=False|0<succ<0.34": 14,
+    "stale_tg=False|succ=0": 24,
+    "stale_tg=False|succ>=0.34": 11,
+    "stale_tg=True|0<succ<0.34": 1,
+    "stale_tg=True|succ=0": 12
+   },
+   "ORACLE": {
+    "stale_tg=False|0<succ<0.34": 22,
+    "stale_tg=False|succ=0": 28,
+    "stale_tg=False|succ>=0.34": 16,
+    "stale_tg=True|0<succ<0.34": 3,
+    "stale_tg=True|succ=0": 16
+   }
+  },
+  "mini-A3": {
+   "ALWAYS": {
+    "stale_tg=False|0<succ<0.34": 4,
+    "stale_tg=False|succ=0": 22,
+    "stale_tg=False|succ>=0.34": 7,
+    "stale_tg=True|succ=0": 9
+   },
+   "LOOKUP": {
+    "stale_tg=False|0<succ<0.34": 9,
+    "stale_tg=False|succ=0": 29,
+    "stale_tg=False|succ>=0.34": 13,
+    "stale_tg=True|succ=0": 7
+   },
+   "LOOKUP-ALL": {
+    "stale_tg=False|0<succ<0.34": 9,
+    "stale_tg=False|succ=0": 30,
+    "stale_tg=False|succ>=0.34": 13,
+    "stale_tg=True|succ=0": 6
+   },
+   "LOOKUP-LIT": {
+    "stale_tg=False|0<succ<0.34": 11,
+    "stale_tg=False|succ=0": 39,
+    "stale_tg=False|succ>=0.34": 17,
+    "stale_tg=True|0<succ<0.34": 3,
+    "stale_tg=True|succ=0": 12
+   },
+   "MODEL": {
+    "stale_tg=False|0<succ<0.34": 8,
+    "stale_tg=False|succ=0": 33,
+    "stale_tg=False|succ>=0.34": 12,
+    "stale_tg=True|0<succ<0.34": 1,
+    "stale_tg=True|succ=0": 8
+   },
+   "MODEL-ALL": {
+    "stale_tg=False|0<succ<0.34": 8,
+    "stale_tg=False|succ=0": 33,
+    "stale_tg=False|succ>=0.34": 12,
+    "stale_tg=True|succ=0": 9
+   },
+   "ORACLE": {
+    "stale_tg=False|0<succ<0.34": 12,
+    "stale_tg=False|succ=0": 38,
+    "stale_tg=False|succ>=0.34": 18,
+    "stale_tg=True|0<succ<0.34": 2,
+    "stale_tg=True|succ=0": 15
+   }
+  },
+  "mini-D4": {
+   "ALWAYS": {
+    "stale_tg=False|0<succ<0.34": 4,
+    "stale_tg=False|succ=0": 23,
+    "stale_tg=False|succ>=0.34": 7,
+    "stale_tg=True|succ=0": 8
+   },
+   "LOOKUP": {
+    "stale_tg=False|0<succ<0.34": 10,
+    "stale_tg=False|succ=0": 30,
+    "stale_tg=False|succ>=0.34": 12,
+    "stale_tg=True|succ=0": 6
+   },
+   "LOOKUP-ALL": {
+    "stale_tg=False|0<succ<0.34": 9,
+    "stale_tg=False|succ=0": 31,
+    "stale_tg=False|succ>=0.34": 13,
+    "stale_tg=True|succ=0": 5
+   },
+   "LOOKUP-LIT": {
+    "stale_tg=False|0<succ<0.34": 11,
+    "stale_tg=False|succ=0": 42,
+    "stale_tg=False|succ>=0.34": 16,
+    "stale_tg=True|0<succ<0.34": 3,
+    "stale_tg=True|succ=0": 10
+   },
+   "MODEL": {
+    "stale_tg=False|0<succ<0.34": 8,
+    "stale_tg=False|succ=0": 35,
+    "stale_tg=False|succ>=0.34": 11,
+    "stale_tg=True|0<succ<0.34": 1,
+    "stale_tg=True|succ=0": 7
+   },
+   "MODEL-ALL": {
+    "stale_tg=False|0<succ<0.34": 8,
+    "stale_tg=False|succ=0": 34,
+    "stale_tg=False|succ>=0.34": 12,
+    "stale_tg=True|succ=0": 8
+   },
+   "ORACLE": {
+    "stale_tg=False|0<succ<0.34": 11,
+    "stale_tg=False|succ=0": 41,
+    "stale_tg=False|succ>=0.34": 17,
+    "stale_tg=True|0<succ<0.34": 4,
+    "stale_tg=True|succ=0": 12
+   }
+  },
+  "mini-D4-V3": {
+   "MODEL-ALL-V3": {
+    "stale_tg=False|0<succ<0.34": 8,
+    "stale_tg=False|succ=0": 34,
+    "stale_tg=False|succ>=0.34": 12,
+    "stale_tg=True|0<succ<0.34": 2,
+    "stale_tg=True|succ=0": 9
+   }
+  }
+ },
+ "n_sentences": {
+  "h45-A3": {
+   "1": 140,
+   "2": 292,
+   "3": 20
+  },
+  "h45-D4": {
+   "1": 106,
+   "2": 318,
+   "3": 28
+  },
+  "mini-A3": {
+   "1": 442,
+   "2": 10
+  },
+  "mini-D4": {
+   "1": 444,
+   "2": 8
+  },
+  "mini-D4-V3": {
+   "1": 228,
+   "2": 5
+  }
+ },
+ "per_lane": {
+  "h45-A3": {
+   "answer_none": 0,
+   "fenced": 392,
+   "hit_max_tokens": 0,
+   "n": 452,
+   "preamble": 0,
+   "raw_complete": 445,
+   "reparse_equal": 445,
+   "reparse_fail": 0,
+   "retries": 0,
+   "status_not_ok": 0,
+   "truncated_prefix_consistent": 4
+  },
+  "h45-D4": {
+   "answer_none": 0,
+   "fenced": 440,
+   "hit_max_tokens": 0,
+   "n": 452,
+   "preamble": 0,
+   "raw_complete": 441,
+   "reparse_equal": 441,
+   "reparse_fail": 0,
+   "retries": 0,
+   "status_not_ok": 0,
+   "truncated_prefix_consistent": 2
+  },
+  "mini-A3": {
+   "answer_none": 0,
+   "fenced": 0,
+   "hit_max_tokens": 0,
+   "n": 452,
+   "preamble": 0,
+   "raw_complete": 452,
+   "reparse_equal": 452,
+   "reparse_fail": 0,
+   "retries": 0,
+   "status_not_ok": 0
+  },
+  "mini-D4": {
+   "answer_none": 0,
+   "fenced": 0,
+   "hit_max_tokens": 0,
+   "n": 452,
+   "preamble": 0,
+   "raw_complete": 452,
+   "reparse_equal": 452,
+   "reparse_fail": 0,
+   "retries": 0,
+   "status_not_ok": 0
+  },
+  "mini-D4-V3": {
+   "answer_none": 0,
+   "fenced": 0,
+   "hit_max_tokens": 0,
+   "n": 233,
+   "preamble": 0,
+   "raw_complete": 233,
+   "reparse_equal": 233,
+   "reparse_fail": 0,
+   "retries": 0,
+   "status_not_ok": 0
+  }
+ },
+ "protocol": {
+  "final_answer_extraction_needed": false,
+  "full_output_scored": false,
+  "note": "the brief's 'extract the final answer line' branch does not apply (the answer field is already the model's answer object); the diagnostics below re-score sub-strings of it and, for the complete raws, the raw reply itself",
+  "scored_text": "the extracted JSON field answer -- run_ds.py:259 score_answer(it, rec, r['answer']); r['answer'] = parse_json(content)['answer'] (run_ds.py:157-170, JSON mode) for gpt-4.1-mini; last_json(full reply)['answer'] (amend2_lit.py, run_cf.last_json) for Haiku 4.5; the reply itself is stored as raw[:400] and never scored"
+ },
+ "rescore": {
+  "h45-A3": {
+   "ALWAYS": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 1,
+       "n": 42,
+       "rate": 0.0238,
+       "wilson": [
+        0.0042,
+        0.1232
+       ]
+      },
+      "last_sentence": {
+       "k": 2,
+       "n": 42,
+       "rate": 0.0476,
+       "wilson": [
+        0.0132,
+        0.1579
+       ]
+      },
+      "minus_question": {
+       "k": 2,
+       "n": 42,
+       "rate": 0.0476,
+       "wilson": [
+        0.0132,
+        0.1579
+       ]
+      },
+      "raw_full": {
+       "k": 2,
+       "n": 41,
+       "rate": 0.0488,
+       "wilson": [
+        0.0135,
+        0.1614
+       ]
+      },
+      "registered": {
+       "k": 3,
+       "n": 54,
+       "rate": 0.0556,
+       "wilson": [
+        0.0191,
+        0.1511
+       ]
+      },
+      "scorable": {
+       "k": 2,
+       "n": 42,
+       "rate": 0.0476,
+       "wilson": [
+        0.0132,
+        0.1579
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 8,
+       "n": 42,
+       "rate": 0.1905,
+       "wilson": [
+        0.0998,
+        0.333
+       ]
+      },
+      "last_sentence": {
+       "k": 9,
+       "n": 42,
+       "rate": 0.2143,
+       "wilson": [
+        0.1171,
+        0.3594
+       ]
+      },
+      "minus_question": {
+       "k": 10,
+       "n": 42,
+       "rate": 0.2381,
+       "wilson": [
+        0.1348,
+        0.3853
+       ]
+      },
+      "raw_full": {
+       "k": 11,
+       "n": 41,
+       "rate": 0.2683,
+       "wilson": [
+        0.1569,
+        0.4193
+       ]
+      },
+      "registered": {
+       "k": 17,
+       "n": 54,
+       "rate": 0.3148,
+       "wilson": [
+        0.2068,
+        0.4474
+       ]
+      },
+      "scorable": {
+       "k": 11,
+       "n": 42,
+       "rate": 0.2619,
+       "wilson": [
+        0.153,
+        0.4107
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 21,
+       "n": 174,
+       "rate": 0.1207,
+       "wilson": [
+        0.0803,
+        0.1775
+       ]
+      },
+      "last_sentence": {
+       "k": 41,
+       "n": 174,
+       "rate": 0.2356,
+       "wilson": [
+        0.1787,
+        0.304
+       ]
+      },
+      "minus_question": {
+       "k": 47,
+       "n": 174,
+       "rate": 0.2701,
+       "wilson": [
+        0.2096,
+        0.3405
+       ]
+      },
+      "raw_full": {
+       "k": 48,
+       "n": 173,
+       "rate": 0.2775,
+       "wilson": [
+        0.2161,
+        0.3485
+       ]
+      },
+      "registered": {
+       "k": 49,
+       "n": 174,
+       "rate": 0.2816,
+       "wilson": [
+        0.2201,
+        0.3526
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 3,
+       "n": 174,
+       "rate": 0.0172,
+       "wilson": [
+        0.0059,
+        0.0495
+       ]
+      },
+      "last_sentence": {
+       "k": 15,
+       "n": 174,
+       "rate": 0.0862,
+       "wilson": [
+        0.0529,
+        0.1374
+       ]
+      },
+      "minus_question": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      },
+      "raw_full": {
+       "k": 16,
+       "n": 173,
+       "rate": 0.0925,
+       "wilson": [
+        0.0577,
+        0.1449
+       ]
+      },
+      "registered": {
+       "k": 16,
+       "n": 174,
+       "rate": 0.092,
+       "wilson": [
+        0.0574,
+        0.1441
+       ]
+      }
+     }
+    }
+   },
+   "LOOKUP": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "last_sentence": {
+       "k": 2,
+       "n": 58,
+       "rate": 0.0345,
+       "wilson": [
+        0.0095,
+        0.1173
+       ]
+      },
+      "minus_question": {
+       "k": 4,
+       "n": 58,
+       "rate": 0.069,
+       "wilson": [
+        0.0271,
+        0.1643
+       ]
+      },
+      "raw_full": {
+       "k": 4,
+       "n": 55,
+       "rate": 0.0727,
+       "wilson": [
+        0.0286,
+        0.1726
+       ]
+      },
+      "registered": {
+       "k": 5,
+       "n": 70,
+       "rate": 0.0714,
+       "wilson": [
+        0.0309,
+        0.1566
+       ]
+      },
+      "scorable": {
+       "k": 4,
+       "n": 58,
+       "rate": 0.069,
+       "wilson": [
+        0.0271,
+        0.1643
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 2,
+       "n": 58,
+       "rate": 0.0345,
+       "wilson": [
+        0.0095,
+        0.1173
+       ]
+      },
+      "last_sentence": {
+       "k": 11,
+       "n": 58,
+       "rate": 0.1897,
+       "wilson": [
+        0.1093,
+        0.3085
+       ]
+      },
+      "minus_question": {
+       "k": 12,
+       "n": 58,
+       "rate": 0.2069,
+       "wilson": [
+        0.1225,
+        0.3277
+       ]
+      },
+      "raw_full": {
+       "k": 12,
+       "n": 55,
+       "rate": 0.2182,
+       "wilson": [
+        0.1295,
+        0.3437
+       ]
+      },
+      "registered": {
+       "k": 19,
+       "n": 70,
+       "rate": 0.2714,
+       "wilson": [
+        0.1812,
+        0.3854
+       ]
+      },
+      "scorable": {
+       "k": 13,
+       "n": 58,
+       "rate": 0.2241,
+       "wilson": [
+        0.1359,
+        0.3466
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 20,
+       "n": 146,
+       "rate": 0.137,
+       "wilson": [
+        0.0905,
+        0.2021
+       ]
+      },
+      "last_sentence": {
+       "k": 33,
+       "n": 146,
+       "rate": 0.226,
+       "wilson": [
+        0.1657,
+        0.3004
+       ]
+      },
+      "minus_question": {
+       "k": 38,
+       "n": 146,
+       "rate": 0.2603,
+       "wilson": [
+        0.1959,
+        0.3369
+       ]
+      },
+      "raw_full": {
+       "k": 40,
+       "n": 146,
+       "rate": 0.274,
+       "wilson": [
+        0.2081,
+        0.3514
+       ]
+      },
+      "registered": {
+       "k": 40,
+       "n": 146,
+       "rate": 0.274,
+       "wilson": [
+        0.2081,
+        0.3514
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 3,
+       "n": 146,
+       "rate": 0.0205,
+       "wilson": [
+        0.007,
+        0.0587
+       ]
+      },
+      "last_sentence": {
+       "k": 11,
+       "n": 146,
+       "rate": 0.0753,
+       "wilson": [
+        0.0426,
+        0.1299
+       ]
+      },
+      "minus_question": {
+       "k": 10,
+       "n": 146,
+       "rate": 0.0685,
+       "wilson": [
+        0.0376,
+        0.1215
+       ]
+      },
+      "raw_full": {
+       "k": 12,
+       "n": 146,
+       "rate": 0.0822,
+       "wilson": [
+        0.0476,
+        0.1382
+       ]
+      },
+      "registered": {
+       "k": 12,
+       "n": 146,
+       "rate": 0.0822,
+       "wilson": [
+        0.0476,
+        0.1382
+       ]
+      }
+     }
+    }
+   },
+   "LOOKUP-ALL": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "last_sentence": {
+       "k": 1,
+       "n": 58,
+       "rate": 0.0172,
+       "wilson": [
+        0.0031,
+        0.0914
+       ]
+      },
+      "minus_question": {
+       "k": 2,
+       "n": 58,
+       "rate": 0.0345,
+       "wilson": [
+        0.0095,
+        0.1173
+       ]
+      },
+      "raw_full": {
+       "k": 2,
+       "n": 58,
+       "rate": 0.0345,
+       "wilson": [
+        0.0095,
+        0.1173
+       ]
+      },
+      "registered": {
+       "k": 3,
+       "n": 70,
+       "rate": 0.0429,
+       "wilson": [
+        0.0147,
+        0.1186
+       ]
+      },
+      "scorable": {
+       "k": 2,
+       "n": 58,
+       "rate": 0.0345,
+       "wilson": [
+        0.0095,
+        0.1173
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 4,
+       "n": 58,
+       "rate": 0.069,
+       "wilson": [
+        0.0271,
+        0.1643
+       ]
+      },
+      "last_sentence": {
+       "k": 8,
+       "n": 58,
+       "rate": 0.1379,
+       "wilson": [
+        0.0716,
+        0.2493
+       ]
+      },
+      "minus_question": {
+       "k": 8,
+       "n": 58,
+       "rate": 0.1379,
+       "wilson": [
+        0.0716,
+        0.2493
+       ]
+      },
+      "raw_full": {
+       "k": 9,
+       "n": 58,
+       "rate": 0.1552,
+       "wilson": [
+        0.0838,
+        0.2693
+       ]
+      },
+      "registered": {
+       "k": 15,
+       "n": 70,
+       "rate": 0.2143,
+       "wilson": [
+        0.1344,
+        0.3239
+       ]
+      },
+      "scorable": {
+       "k": 9,
+       "n": 58,
+       "rate": 0.1552,
+       "wilson": [
+        0.0838,
+        0.2693
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 20,
+       "n": 146,
+       "rate": 0.137,
+       "wilson": [
+        0.0905,
+        0.2021
+       ]
+      },
+      "last_sentence": {
+       "k": 33,
+       "n": 146,
+       "rate": 0.226,
+       "wilson": [
+        0.1657,
+        0.3004
+       ]
+      },
+      "minus_question": {
+       "k": 38,
+       "n": 146,
+       "rate": 0.2603,
+       "wilson": [
+        0.1959,
+        0.3369
+       ]
+      },
+      "raw_full": {
+       "k": 40,
+       "n": 146,
+       "rate": 0.274,
+       "wilson": [
+        0.2081,
+        0.3514
+       ]
+      },
+      "registered": {
+       "k": 40,
+       "n": 146,
+       "rate": 0.274,
+       "wilson": [
+        0.2081,
+        0.3514
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 3,
+       "n": 146,
+       "rate": 0.0205,
+       "wilson": [
+        0.007,
+        0.0587
+       ]
+      },
+      "last_sentence": {
+       "k": 11,
+       "n": 146,
+       "rate": 0.0753,
+       "wilson": [
+        0.0426,
+        0.1299
+       ]
+      },
+      "minus_question": {
+       "k": 10,
+       "n": 146,
+       "rate": 0.0685,
+       "wilson": [
+        0.0376,
+        0.1215
+       ]
+      },
+      "raw_full": {
+       "k": 12,
+       "n": 146,
+       "rate": 0.0822,
+       "wilson": [
+        0.0476,
+        0.1382
+       ]
+      },
+      "registered": {
+       "k": 12,
+       "n": 146,
+       "rate": 0.0822,
+       "wilson": [
+        0.0476,
+        0.1382
+       ]
+      }
+     }
+    }
+   },
+   "LOOKUP-LIT": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 1,
+       "n": 82,
+       "rate": 0.0122,
+       "wilson": [
+        0.0022,
+        0.0659
+       ]
+      },
+      "last_sentence": {
+       "k": 4,
+       "n": 82,
+       "rate": 0.0488,
+       "wilson": [
+        0.0191,
+        0.1188
+       ]
+      },
+      "minus_question": {
+       "k": 6,
+       "n": 82,
+       "rate": 0.0732,
+       "wilson": [
+        0.034,
+        0.1506
+       ]
+      },
+      "raw_full": {
+       "k": 6,
+       "n": 78,
+       "rate": 0.0769,
+       "wilson": [
+        0.0357,
+        0.1578
+       ]
+      },
+      "registered": {
+       "k": 7,
+       "n": 94,
+       "rate": 0.0745,
+       "wilson": [
+        0.0365,
+        0.1458
+       ]
+      },
+      "scorable": {
+       "k": 6,
+       "n": 82,
+       "rate": 0.0732,
+       "wilson": [
+        0.034,
+        0.1506
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 7,
+       "n": 82,
+       "rate": 0.0854,
+       "wilson": [
+        0.042,
+        0.1659
+       ]
+      },
+      "last_sentence": {
+       "k": 19,
+       "n": 82,
+       "rate": 0.2317,
+       "wilson": [
+        0.1537,
+        0.3338
+       ]
+      },
+      "minus_question": {
+       "k": 19,
+       "n": 82,
+       "rate": 0.2317,
+       "wilson": [
+        0.1537,
+        0.3338
+       ]
+      },
+      "raw_full": {
+       "k": 21,
+       "n": 78,
+       "rate": 0.2692,
+       "wilson": [
+        0.1834,
+        0.3768
+       ]
+      },
+      "registered": {
+       "k": 28,
+       "n": 94,
+       "rate": 0.2979,
+       "wilson": [
+        0.2148,
+        0.3968
+       ]
+      },
+      "scorable": {
+       "k": 22,
+       "n": 82,
+       "rate": 0.2683,
+       "wilson": [
+        0.1844,
+        0.373
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 21,
+       "n": 174,
+       "rate": 0.1207,
+       "wilson": [
+        0.0803,
+        0.1775
+       ]
+      },
+      "last_sentence": {
+       "k": 41,
+       "n": 174,
+       "rate": 0.2356,
+       "wilson": [
+        0.1787,
+        0.304
+       ]
+      },
+      "minus_question": {
+       "k": 45,
+       "n": 174,
+       "rate": 0.2586,
+       "wilson": [
+        0.1993,
+        0.3284
+       ]
+      },
+      "raw_full": {
+       "k": 46,
+       "n": 172,
+       "rate": 0.2674,
+       "wilson": [
+        0.2069,
+        0.3381
+       ]
+      },
+      "registered": {
+       "k": 47,
+       "n": 174,
+       "rate": 0.2701,
+       "wilson": [
+        0.2096,
+        0.3405
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 3,
+       "n": 174,
+       "rate": 0.0172,
+       "wilson": [
+        0.0059,
+        0.0495
+       ]
+      },
+      "last_sentence": {
+       "k": 15,
+       "n": 174,
+       "rate": 0.0862,
+       "wilson": [
+        0.0529,
+        0.1374
+       ]
+      },
+      "minus_question": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      },
+      "raw_full": {
+       "k": 16,
+       "n": 172,
+       "rate": 0.093,
+       "wilson": [
+        0.0581,
+        0.1458
+       ]
+      },
+      "registered": {
+       "k": 16,
+       "n": 174,
+       "rate": 0.092,
+       "wilson": [
+        0.0574,
+        0.1441
+       ]
+      }
+     }
+    }
+   },
+   "MODEL": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 1,
+       "n": 62,
+       "rate": 0.0161,
+       "wilson": [
+        0.0029,
+        0.0859
+       ]
+      },
+      "last_sentence": {
+       "k": 4,
+       "n": 62,
+       "rate": 0.0645,
+       "wilson": [
+        0.0254,
+        0.1545
+       ]
+      },
+      "minus_question": {
+       "k": 6,
+       "n": 62,
+       "rate": 0.0968,
+       "wilson": [
+        0.0451,
+        0.1955
+       ]
+      },
+      "raw_full": {
+       "k": 6,
+       "n": 59,
+       "rate": 0.1017,
+       "wilson": [
+        0.0474,
+        0.2046
+       ]
+      },
+      "registered": {
+       "k": 7,
+       "n": 74,
+       "rate": 0.0946,
+       "wilson": [
+        0.0466,
+        0.1826
+       ]
+      },
+      "scorable": {
+       "k": 6,
+       "n": 62,
+       "rate": 0.0968,
+       "wilson": [
+        0.0451,
+        0.1955
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 3,
+       "n": 62,
+       "rate": 0.0484,
+       "wilson": [
+        0.0166,
+        0.1329
+       ]
+      },
+      "last_sentence": {
+       "k": 15,
+       "n": 62,
+       "rate": 0.2419,
+       "wilson": [
+        0.1525,
+        0.3615
+       ]
+      },
+      "minus_question": {
+       "k": 16,
+       "n": 62,
+       "rate": 0.2581,
+       "wilson": [
+        0.1655,
+        0.3788
+       ]
+      },
+      "raw_full": {
+       "k": 16,
+       "n": 59,
+       "rate": 0.2712,
+       "wilson": [
+        0.1744,
+        0.396
+       ]
+      },
+      "registered": {
+       "k": 24,
+       "n": 74,
+       "rate": 0.3243,
+       "wilson": [
+        0.2286,
+        0.4373
+       ]
+      },
+      "scorable": {
+       "k": 17,
+       "n": 62,
+       "rate": 0.2742,
+       "wilson": [
+        0.1788,
+        0.3959
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 21,
+       "n": 155,
+       "rate": 0.1355,
+       "wilson": [
+        0.0904,
+        0.1982
+       ]
+      },
+      "last_sentence": {
+       "k": 39,
+       "n": 155,
+       "rate": 0.2516,
+       "wilson": [
+        0.1899,
+        0.3254
+       ]
+      },
+      "minus_question": {
+       "k": 45,
+       "n": 155,
+       "rate": 0.2903,
+       "wilson": [
+        0.2246,
+        0.3662
+       ]
+      },
+      "raw_full": {
+       "k": 46,
+       "n": 154,
+       "rate": 0.2987,
+       "wilson": [
+        0.232,
+        0.3752
+       ]
+      },
+      "registered": {
+       "k": 47,
+       "n": 155,
+       "rate": 0.3032,
+       "wilson": [
+        0.2363,
+        0.3796
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 3,
+       "n": 155,
+       "rate": 0.0194,
+       "wilson": [
+        0.0066,
+        0.0554
+       ]
+      },
+      "last_sentence": {
+       "k": 15,
+       "n": 155,
+       "rate": 0.0968,
+       "wilson": [
+        0.0595,
+        0.1535
+       ]
+      },
+      "minus_question": {
+       "k": 14,
+       "n": 155,
+       "rate": 0.0903,
+       "wilson": [
+        0.0546,
+        0.1459
+       ]
+      },
+      "raw_full": {
+       "k": 16,
+       "n": 154,
+       "rate": 0.1039,
+       "wilson": [
+        0.065,
+        0.1621
+       ]
+      },
+      "registered": {
+       "k": 16,
+       "n": 155,
+       "rate": 0.1032,
+       "wilson": [
+        0.0645,
+        0.1611
+       ]
+      }
+     }
+    }
+   },
+   "MODEL-ALL": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      },
+      "last_sentence": {
+       "k": 1,
+       "n": 62,
+       "rate": 0.0161,
+       "wilson": [
+        0.0029,
+        0.0859
+       ]
+      },
+      "minus_question": {
+       "k": 3,
+       "n": 62,
+       "rate": 0.0484,
+       "wilson": [
+        0.0166,
+        0.1329
+       ]
+      },
+      "raw_full": {
+       "k": 3,
+       "n": 62,
+       "rate": 0.0484,
+       "wilson": [
+        0.0166,
+        0.1329
+       ]
+      },
+      "registered": {
+       "k": 4,
+       "n": 74,
+       "rate": 0.0541,
+       "wilson": [
+        0.0212,
+        0.1309
+       ]
+      },
+      "scorable": {
+       "k": 3,
+       "n": 62,
+       "rate": 0.0484,
+       "wilson": [
+        0.0166,
+        0.1329
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 5,
+       "n": 62,
+       "rate": 0.0806,
+       "wilson": [
+        0.0349,
+        0.1753
+       ]
+      },
+      "last_sentence": {
+       "k": 10,
+       "n": 62,
+       "rate": 0.1613,
+       "wilson": [
+        0.09,
+        0.2721
+       ]
+      },
+      "minus_question": {
+       "k": 11,
+       "n": 62,
+       "rate": 0.1774,
+       "wilson": [
+        0.1021,
+        0.2904
+       ]
+      },
+      "raw_full": {
+       "k": 12,
+       "n": 62,
+       "rate": 0.1935,
+       "wilson": [
+        0.1143,
+        0.3085
+       ]
+      },
+      "registered": {
+       "k": 18,
+       "n": 74,
+       "rate": 0.2432,
+       "wilson": [
+        0.1598,
+        0.3521
+       ]
+      },
+      "scorable": {
+       "k": 12,
+       "n": 62,
+       "rate": 0.1935,
+       "wilson": [
+        0.1143,
+        0.3085
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 21,
+       "n": 155,
+       "rate": 0.1355,
+       "wilson": [
+        0.0904,
+        0.1982
+       ]
+      },
+      "last_sentence": {
+       "k": 39,
+       "n": 155,
+       "rate": 0.2516,
+       "wilson": [
+        0.1899,
+        0.3254
+       ]
+      },
+      "minus_question": {
+       "k": 45,
+       "n": 155,
+       "rate": 0.2903,
+       "wilson": [
+        0.2246,
+        0.3662
+       ]
+      },
+      "raw_full": {
+       "k": 46,
+       "n": 154,
+       "rate": 0.2987,
+       "wilson": [
+        0.232,
+        0.3752
+       ]
+      },
+      "registered": {
+       "k": 47,
+       "n": 155,
+       "rate": 0.3032,
+       "wilson": [
+        0.2363,
+        0.3796
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 3,
+       "n": 155,
+       "rate": 0.0194,
+       "wilson": [
+        0.0066,
+        0.0554
+       ]
+      },
+      "last_sentence": {
+       "k": 15,
+       "n": 155,
+       "rate": 0.0968,
+       "wilson": [
+        0.0595,
+        0.1535
+       ]
+      },
+      "minus_question": {
+       "k": 14,
+       "n": 155,
+       "rate": 0.0903,
+       "wilson": [
+        0.0546,
+        0.1459
+       ]
+      },
+      "raw_full": {
+       "k": 16,
+       "n": 154,
+       "rate": 0.1039,
+       "wilson": [
+        0.065,
+        0.1621
+       ]
+      },
+      "registered": {
+       "k": 16,
+       "n": 155,
+       "rate": 0.1032,
+       "wilson": [
+        0.0645,
+        0.1611
+       ]
+      }
+     }
+    }
+   },
+   "ORACLE": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 1,
+       "n": 85,
+       "rate": 0.0118,
+       "wilson": [
+        0.0021,
+        0.0637
+       ]
+      },
+      "last_sentence": {
+       "k": 2,
+       "n": 85,
+       "rate": 0.0235,
+       "wilson": [
+        0.0065,
+        0.0818
+       ]
+      },
+      "minus_question": {
+       "k": 2,
+       "n": 85,
+       "rate": 0.0235,
+       "wilson": [
+        0.0065,
+        0.0818
+       ]
+      },
+      "raw_full": {
+       "k": 2,
+       "n": 81,
+       "rate": 0.0247,
+       "wilson": [
+        0.0068,
+        0.0856
+       ]
+      },
+      "registered": {
+       "k": 3,
+       "n": 99,
+       "rate": 0.0303,
+       "wilson": [
+        0.0104,
+        0.0853
+       ]
+      },
+      "scorable": {
+       "k": 2,
+       "n": 85,
+       "rate": 0.0235,
+       "wilson": [
+        0.0065,
+        0.0818
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 8,
+       "n": 85,
+       "rate": 0.0941,
+       "wilson": [
+        0.0485,
+        0.1749
+       ]
+      },
+      "last_sentence": {
+       "k": 15,
+       "n": 85,
+       "rate": 0.1765,
+       "wilson": [
+        0.11,
+        0.271
+       ]
+      },
+      "minus_question": {
+       "k": 14,
+       "n": 85,
+       "rate": 0.1647,
+       "wilson": [
+        0.1007,
+        0.2577
+       ]
+      },
+      "raw_full": {
+       "k": 17,
+       "n": 81,
+       "rate": 0.2099,
+       "wilson": [
+        0.1354,
+        0.3107
+       ]
+      },
+      "registered": {
+       "k": 24,
+       "n": 99,
+       "rate": 0.2424,
+       "wilson": [
+        0.1687,
+        0.3354
+       ]
+      },
+      "scorable": {
+       "k": 18,
+       "n": 85,
+       "rate": 0.2118,
+       "wilson": [
+        0.1384,
+        0.3101
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 21,
+       "n": 174,
+       "rate": 0.1207,
+       "wilson": [
+        0.0803,
+        0.1775
+       ]
+      },
+      "last_sentence": {
+       "k": 41,
+       "n": 174,
+       "rate": 0.2356,
+       "wilson": [
+        0.1787,
+        0.304
+       ]
+      },
+      "minus_question": {
+       "k": 47,
+       "n": 174,
+       "rate": 0.2701,
+       "wilson": [
+        0.2096,
+        0.3405
+       ]
+      },
+      "raw_full": {
+       "k": 48,
+       "n": 173,
+       "rate": 0.2775,
+       "wilson": [
+        0.2161,
+        0.3485
+       ]
+      },
+      "registered": {
+       "k": 49,
+       "n": 174,
+       "rate": 0.2816,
+       "wilson": [
+        0.2201,
+        0.3526
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 3,
+       "n": 174,
+       "rate": 0.0172,
+       "wilson": [
+        0.0059,
+        0.0495
+       ]
+      },
+      "last_sentence": {
+       "k": 15,
+       "n": 174,
+       "rate": 0.0862,
+       "wilson": [
+        0.0529,
+        0.1374
+       ]
+      },
+      "minus_question": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      },
+      "raw_full": {
+       "k": 16,
+       "n": 173,
+       "rate": 0.0925,
+       "wilson": [
+        0.0577,
+        0.1449
+       ]
+      },
+      "registered": {
+       "k": 16,
+       "n": 174,
+       "rate": 0.092,
+       "wilson": [
+        0.0574,
+        0.1441
+       ]
+      }
+     }
+    }
+   }
+  },
+  "h45-D4": {
+   "ALWAYS": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 1,
+       "n": 42,
+       "rate": 0.0238,
+       "wilson": [
+        0.0042,
+        0.1232
+       ]
+      },
+      "last_sentence": {
+       "k": 2,
+       "n": 42,
+       "rate": 0.0476,
+       "wilson": [
+        0.0132,
+        0.1579
+       ]
+      },
+      "minus_question": {
+       "k": 3,
+       "n": 42,
+       "rate": 0.0714,
+       "wilson": [
+        0.0246,
+        0.1901
+       ]
+      },
+      "raw_full": {
+       "k": 3,
+       "n": 39,
+       "rate": 0.0769,
+       "wilson": [
+        0.0265,
+        0.2032
+       ]
+      },
+      "registered": {
+       "k": 7,
+       "n": 54,
+       "rate": 0.1296,
+       "wilson": [
+        0.0642,
+        0.2442
+       ]
+      },
+      "scorable": {
+       "k": 3,
+       "n": 42,
+       "rate": 0.0714,
+       "wilson": [
+        0.0246,
+        0.1901
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 7,
+       "n": 42,
+       "rate": 0.1667,
+       "wilson": [
+        0.0832,
+        0.306
+       ]
+      },
+      "last_sentence": {
+       "k": 7,
+       "n": 42,
+       "rate": 0.1667,
+       "wilson": [
+        0.0832,
+        0.306
+       ]
+      },
+      "minus_question": {
+       "k": 11,
+       "n": 42,
+       "rate": 0.2619,
+       "wilson": [
+        0.153,
+        0.4107
+       ]
+      },
+      "raw_full": {
+       "k": 10,
+       "n": 39,
+       "rate": 0.2564,
+       "wilson": [
+        0.1457,
+        0.4108
+       ]
+      },
+      "registered": {
+       "k": 19,
+       "n": 54,
+       "rate": 0.3519,
+       "wilson": [
+        0.2382,
+        0.4852
+       ]
+      },
+      "scorable": {
+       "k": 11,
+       "n": 42,
+       "rate": 0.2619,
+       "wilson": [
+        0.153,
+        0.4107
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 22,
+       "n": 174,
+       "rate": 0.1264,
+       "wilson": [
+        0.085,
+        0.184
+       ]
+      },
+      "last_sentence": {
+       "k": 39,
+       "n": 174,
+       "rate": 0.2241,
+       "wilson": [
+        0.1685,
+        0.2917
+       ]
+      },
+      "minus_question": {
+       "k": 45,
+       "n": 174,
+       "rate": 0.2586,
+       "wilson": [
+        0.1993,
+        0.3284
+       ]
+      },
+      "raw_full": {
+       "k": 47,
+       "n": 172,
+       "rate": 0.2733,
+       "wilson": [
+        0.2122,
+        0.3443
+       ]
+      },
+      "registered": {
+       "k": 48,
+       "n": 174,
+       "rate": 0.2759,
+       "wilson": [
+        0.2148,
+        0.3466
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 3,
+       "n": 174,
+       "rate": 0.0172,
+       "wilson": [
+        0.0059,
+        0.0495
+       ]
+      },
+      "last_sentence": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      },
+      "minus_question": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      },
+      "raw_full": {
+       "k": 14,
+       "n": 172,
+       "rate": 0.0814,
+       "wilson": [
+        0.0491,
+        0.132
+       ]
+      },
+      "registered": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      }
+     }
+    }
+   },
+   "LOOKUP": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "last_sentence": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "minus_question": {
+       "k": 3,
+       "n": 58,
+       "rate": 0.0517,
+       "wilson": [
+        0.0177,
+        0.1414
+       ]
+      },
+      "raw_full": {
+       "k": 3,
+       "n": 58,
+       "rate": 0.0517,
+       "wilson": [
+        0.0177,
+        0.1414
+       ]
+      },
+      "registered": {
+       "k": 7,
+       "n": 70,
+       "rate": 0.1,
+       "wilson": [
+        0.0493,
+        0.1923
+       ]
+      },
+      "scorable": {
+       "k": 3,
+       "n": 58,
+       "rate": 0.0517,
+       "wilson": [
+        0.0177,
+        0.1414
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 3,
+       "n": 58,
+       "rate": 0.0517,
+       "wilson": [
+        0.0177,
+        0.1414
+       ]
+      },
+      "last_sentence": {
+       "k": 9,
+       "n": 58,
+       "rate": 0.1552,
+       "wilson": [
+        0.0838,
+        0.2693
+       ]
+      },
+      "minus_question": {
+       "k": 11,
+       "n": 58,
+       "rate": 0.1897,
+       "wilson": [
+        0.1093,
+        0.3085
+       ]
+      },
+      "raw_full": {
+       "k": 11,
+       "n": 58,
+       "rate": 0.1897,
+       "wilson": [
+        0.1093,
+        0.3085
+       ]
+      },
+      "registered": {
+       "k": 19,
+       "n": 70,
+       "rate": 0.2714,
+       "wilson": [
+        0.1812,
+        0.3854
+       ]
+      },
+      "scorable": {
+       "k": 11,
+       "n": 58,
+       "rate": 0.1897,
+       "wilson": [
+        0.1093,
+        0.3085
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 20,
+       "n": 146,
+       "rate": 0.137,
+       "wilson": [
+        0.0905,
+        0.2021
+       ]
+      },
+      "last_sentence": {
+       "k": 32,
+       "n": 146,
+       "rate": 0.2192,
+       "wilson": [
+        0.1597,
+        0.293
+       ]
+      },
+      "minus_question": {
+       "k": 39,
+       "n": 146,
+       "rate": 0.2671,
+       "wilson": [
+        0.202,
+        0.3442
+       ]
+      },
+      "raw_full": {
+       "k": 40,
+       "n": 144,
+       "rate": 0.2778,
+       "wilson": [
+        0.2111,
+        0.356
+       ]
+      },
+      "registered": {
+       "k": 41,
+       "n": 146,
+       "rate": 0.2808,
+       "wilson": [
+        0.2143,
+        0.3586
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 3,
+       "n": 146,
+       "rate": 0.0205,
+       "wilson": [
+        0.007,
+        0.0587
+       ]
+      },
+      "last_sentence": {
+       "k": 12,
+       "n": 146,
+       "rate": 0.0822,
+       "wilson": [
+        0.0476,
+        0.1382
+       ]
+      },
+      "minus_question": {
+       "k": 12,
+       "n": 146,
+       "rate": 0.0822,
+       "wilson": [
+        0.0476,
+        0.1382
+       ]
+      },
+      "raw_full": {
+       "k": 14,
+       "n": 144,
+       "rate": 0.0972,
+       "wilson": [
+        0.0588,
+        0.1566
+       ]
+      },
+      "registered": {
+       "k": 14,
+       "n": 146,
+       "rate": 0.0959,
+       "wilson": [
+        0.058,
+        0.1545
+       ]
+      }
+     }
+    }
+   },
+   "LOOKUP-ALL": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "last_sentence": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "minus_question": {
+       "k": 1,
+       "n": 58,
+       "rate": 0.0172,
+       "wilson": [
+        0.0031,
+        0.0914
+       ]
+      },
+      "raw_full": {
+       "k": 1,
+       "n": 58,
+       "rate": 0.0172,
+       "wilson": [
+        0.0031,
+        0.0914
+       ]
+      },
+      "registered": {
+       "k": 5,
+       "n": 70,
+       "rate": 0.0714,
+       "wilson": [
+        0.0309,
+        0.1566
+       ]
+      },
+      "scorable": {
+       "k": 1,
+       "n": 58,
+       "rate": 0.0172,
+       "wilson": [
+        0.0031,
+        0.0914
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 4,
+       "n": 58,
+       "rate": 0.069,
+       "wilson": [
+        0.0271,
+        0.1643
+       ]
+      },
+      "last_sentence": {
+       "k": 8,
+       "n": 58,
+       "rate": 0.1379,
+       "wilson": [
+        0.0716,
+        0.2493
+       ]
+      },
+      "minus_question": {
+       "k": 10,
+       "n": 58,
+       "rate": 0.1724,
+       "wilson": [
+        0.0964,
+        0.2891
+       ]
+      },
+      "raw_full": {
+       "k": 10,
+       "n": 58,
+       "rate": 0.1724,
+       "wilson": [
+        0.0964,
+        0.2891
+       ]
+      },
+      "registered": {
+       "k": 18,
+       "n": 70,
+       "rate": 0.2571,
+       "wilson": [
+        0.1693,
+        0.3703
+       ]
+      },
+      "scorable": {
+       "k": 10,
+       "n": 58,
+       "rate": 0.1724,
+       "wilson": [
+        0.0964,
+        0.2891
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 20,
+       "n": 146,
+       "rate": 0.137,
+       "wilson": [
+        0.0905,
+        0.2021
+       ]
+      },
+      "last_sentence": {
+       "k": 31,
+       "n": 146,
+       "rate": 0.2123,
+       "wilson": [
+        0.1538,
+        0.2856
+       ]
+      },
+      "minus_question": {
+       "k": 38,
+       "n": 146,
+       "rate": 0.2603,
+       "wilson": [
+        0.1959,
+        0.3369
+       ]
+      },
+      "raw_full": {
+       "k": 39,
+       "n": 144,
+       "rate": 0.2708,
+       "wilson": [
+        0.2049,
+        0.3487
+       ]
+      },
+      "registered": {
+       "k": 40,
+       "n": 146,
+       "rate": 0.274,
+       "wilson": [
+        0.2081,
+        0.3514
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 3,
+       "n": 146,
+       "rate": 0.0205,
+       "wilson": [
+        0.007,
+        0.0587
+       ]
+      },
+      "last_sentence": {
+       "k": 10,
+       "n": 146,
+       "rate": 0.0685,
+       "wilson": [
+        0.0376,
+        0.1215
+       ]
+      },
+      "minus_question": {
+       "k": 10,
+       "n": 146,
+       "rate": 0.0685,
+       "wilson": [
+        0.0376,
+        0.1215
+       ]
+      },
+      "raw_full": {
+       "k": 12,
+       "n": 144,
+       "rate": 0.0833,
+       "wilson": [
+        0.0483,
+        0.14
+       ]
+      },
+      "registered": {
+       "k": 12,
+       "n": 146,
+       "rate": 0.0822,
+       "wilson": [
+        0.0476,
+        0.1382
+       ]
+      }
+     }
+    }
+   },
+   "LOOKUP-LIT": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 1,
+       "n": 82,
+       "rate": 0.0122,
+       "wilson": [
+        0.0022,
+        0.0659
+       ]
+      },
+      "last_sentence": {
+       "k": 3,
+       "n": 82,
+       "rate": 0.0366,
+       "wilson": [
+        0.0125,
+        0.1021
+       ]
+      },
+      "minus_question": {
+       "k": 6,
+       "n": 82,
+       "rate": 0.0732,
+       "wilson": [
+        0.034,
+        0.1506
+       ]
+      },
+      "raw_full": {
+       "k": 6,
+       "n": 81,
+       "rate": 0.0741,
+       "wilson": [
+        0.0344,
+        0.1523
+       ]
+      },
+      "registered": {
+       "k": 10,
+       "n": 94,
+       "rate": 0.1064,
+       "wilson": [
+        0.0588,
+        0.1849
+       ]
+      },
+      "scorable": {
+       "k": 6,
+       "n": 82,
+       "rate": 0.0732,
+       "wilson": [
+        0.034,
+        0.1506
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 7,
+       "n": 82,
+       "rate": 0.0854,
+       "wilson": [
+        0.042,
+        0.1659
+       ]
+      },
+      "last_sentence": {
+       "k": 17,
+       "n": 82,
+       "rate": 0.2073,
+       "wilson": [
+        0.1337,
+        0.3072
+       ]
+      },
+      "minus_question": {
+       "k": 19,
+       "n": 82,
+       "rate": 0.2317,
+       "wilson": [
+        0.1537,
+        0.3338
+       ]
+      },
+      "raw_full": {
+       "k": 20,
+       "n": 81,
+       "rate": 0.2469,
+       "wilson": [
+        0.1659,
+        0.3508
+       ]
+      },
+      "registered": {
+       "k": 29,
+       "n": 94,
+       "rate": 0.3085,
+       "wilson": [
+        0.2242,
+        0.4079
+       ]
+      },
+      "scorable": {
+       "k": 21,
+       "n": 82,
+       "rate": 0.2561,
+       "wilson": [
+        0.174,
+        0.36
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 22,
+       "n": 174,
+       "rate": 0.1264,
+       "wilson": [
+        0.085,
+        0.184
+       ]
+      },
+      "last_sentence": {
+       "k": 40,
+       "n": 174,
+       "rate": 0.2299,
+       "wilson": [
+        0.1736,
+        0.2978
+       ]
+      },
+      "minus_question": {
+       "k": 44,
+       "n": 174,
+       "rate": 0.2529,
+       "wilson": [
+        0.1941,
+        0.3223
+       ]
+      },
+      "raw_full": {
+       "k": 46,
+       "n": 172,
+       "rate": 0.2674,
+       "wilson": [
+        0.2069,
+        0.3381
+       ]
+      },
+      "registered": {
+       "k": 47,
+       "n": 174,
+       "rate": 0.2701,
+       "wilson": [
+        0.2096,
+        0.3405
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 3,
+       "n": 174,
+       "rate": 0.0172,
+       "wilson": [
+        0.0059,
+        0.0495
+       ]
+      },
+      "last_sentence": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      },
+      "minus_question": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      },
+      "raw_full": {
+       "k": 16,
+       "n": 172,
+       "rate": 0.093,
+       "wilson": [
+        0.0581,
+        0.1458
+       ]
+      },
+      "registered": {
+       "k": 16,
+       "n": 174,
+       "rate": 0.092,
+       "wilson": [
+        0.0574,
+        0.1441
+       ]
+      }
+     }
+    }
+   },
+   "MODEL": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 1,
+       "n": 62,
+       "rate": 0.0161,
+       "wilson": [
+        0.0029,
+        0.0859
+       ]
+      },
+      "last_sentence": {
+       "k": 3,
+       "n": 62,
+       "rate": 0.0484,
+       "wilson": [
+        0.0166,
+        0.1329
+       ]
+      },
+      "minus_question": {
+       "k": 6,
+       "n": 62,
+       "rate": 0.0968,
+       "wilson": [
+        0.0451,
+        0.1955
+       ]
+      },
+      "raw_full": {
+       "k": 6,
+       "n": 61,
+       "rate": 0.0984,
+       "wilson": [
+        0.0459,
+        0.1984
+       ]
+      },
+      "registered": {
+       "k": 9,
+       "n": 74,
+       "rate": 0.1216,
+       "wilson": [
+        0.0653,
+        0.2153
+       ]
+      },
+      "scorable": {
+       "k": 6,
+       "n": 62,
+       "rate": 0.0968,
+       "wilson": [
+        0.0451,
+        0.1955
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 4,
+       "n": 62,
+       "rate": 0.0645,
+       "wilson": [
+        0.0254,
+        0.1545
+       ]
+      },
+      "last_sentence": {
+       "k": 13,
+       "n": 62,
+       "rate": 0.2097,
+       "wilson": [
+        0.1268,
+        0.3264
+       ]
+      },
+      "minus_question": {
+       "k": 16,
+       "n": 62,
+       "rate": 0.2581,
+       "wilson": [
+        0.1655,
+        0.3788
+       ]
+      },
+      "raw_full": {
+       "k": 15,
+       "n": 61,
+       "rate": 0.2459,
+       "wilson": [
+        0.1551,
+        0.3668
+       ]
+      },
+      "registered": {
+       "k": 23,
+       "n": 74,
+       "rate": 0.3108,
+       "wilson": [
+        0.2169,
+        0.4234
+       ]
+      },
+      "scorable": {
+       "k": 16,
+       "n": 62,
+       "rate": 0.2581,
+       "wilson": [
+        0.1655,
+        0.3788
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 22,
+       "n": 155,
+       "rate": 0.1419,
+       "wilson": [
+        0.0956,
+        0.2056
+       ]
+      },
+      "last_sentence": {
+       "k": 36,
+       "n": 155,
+       "rate": 0.2323,
+       "wilson": [
+        0.1727,
+        0.3047
+       ]
+      },
+      "minus_question": {
+       "k": 43,
+       "n": 155,
+       "rate": 0.2774,
+       "wilson": [
+        0.213,
+        0.3526
+       ]
+      },
+      "raw_full": {
+       "k": 44,
+       "n": 153,
+       "rate": 0.2876,
+       "wilson": [
+        0.2218,
+        0.3638
+       ]
+      },
+      "registered": {
+       "k": 45,
+       "n": 155,
+       "rate": 0.2903,
+       "wilson": [
+        0.2246,
+        0.3662
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 3,
+       "n": 155,
+       "rate": 0.0194,
+       "wilson": [
+        0.0066,
+        0.0554
+       ]
+      },
+      "last_sentence": {
+       "k": 13,
+       "n": 155,
+       "rate": 0.0839,
+       "wilson": [
+        0.0497,
+        0.1382
+       ]
+      },
+      "minus_question": {
+       "k": 13,
+       "n": 155,
+       "rate": 0.0839,
+       "wilson": [
+        0.0497,
+        0.1382
+       ]
+      },
+      "raw_full": {
+       "k": 15,
+       "n": 153,
+       "rate": 0.098,
+       "wilson": [
+        0.0603,
+        0.1555
+       ]
+      },
+      "registered": {
+       "k": 15,
+       "n": 155,
+       "rate": 0.0968,
+       "wilson": [
+        0.0595,
+        0.1535
+       ]
+      }
+     }
+    }
+   },
+   "MODEL-ALL": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 1,
+       "n": 62,
+       "rate": 0.0161,
+       "wilson": [
+        0.0029,
+        0.0859
+       ]
+      },
+      "last_sentence": {
+       "k": 1,
+       "n": 62,
+       "rate": 0.0161,
+       "wilson": [
+        0.0029,
+        0.0859
+       ]
+      },
+      "minus_question": {
+       "k": 2,
+       "n": 62,
+       "rate": 0.0323,
+       "wilson": [
+        0.0089,
+        0.1102
+       ]
+      },
+      "raw_full": {
+       "k": 2,
+       "n": 60,
+       "rate": 0.0333,
+       "wilson": [
+        0.0092,
+        0.1136
+       ]
+      },
+      "registered": {
+       "k": 5,
+       "n": 74,
+       "rate": 0.0676,
+       "wilson": [
+        0.0292,
+        0.1486
+       ]
+      },
+      "scorable": {
+       "k": 2,
+       "n": 62,
+       "rate": 0.0323,
+       "wilson": [
+        0.0089,
+        0.1102
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 5,
+       "n": 62,
+       "rate": 0.0806,
+       "wilson": [
+        0.0349,
+        0.1753
+       ]
+      },
+      "last_sentence": {
+       "k": 10,
+       "n": 62,
+       "rate": 0.1613,
+       "wilson": [
+        0.09,
+        0.2721
+       ]
+      },
+      "minus_question": {
+       "k": 13,
+       "n": 62,
+       "rate": 0.2097,
+       "wilson": [
+        0.1268,
+        0.3264
+       ]
+      },
+      "raw_full": {
+       "k": 12,
+       "n": 60,
+       "rate": 0.2,
+       "wilson": [
+        0.1183,
+        0.3178
+       ]
+      },
+      "registered": {
+       "k": 20,
+       "n": 74,
+       "rate": 0.2703,
+       "wilson": [
+        0.1823,
+        0.3809
+       ]
+      },
+      "scorable": {
+       "k": 13,
+       "n": 62,
+       "rate": 0.2097,
+       "wilson": [
+        0.1268,
+        0.3264
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 22,
+       "n": 155,
+       "rate": 0.1419,
+       "wilson": [
+        0.0956,
+        0.2056
+       ]
+      },
+      "last_sentence": {
+       "k": 36,
+       "n": 155,
+       "rate": 0.2323,
+       "wilson": [
+        0.1727,
+        0.3047
+       ]
+      },
+      "minus_question": {
+       "k": 43,
+       "n": 155,
+       "rate": 0.2774,
+       "wilson": [
+        0.213,
+        0.3526
+       ]
+      },
+      "raw_full": {
+       "k": 44,
+       "n": 153,
+       "rate": 0.2876,
+       "wilson": [
+        0.2218,
+        0.3638
+       ]
+      },
+      "registered": {
+       "k": 45,
+       "n": 155,
+       "rate": 0.2903,
+       "wilson": [
+        0.2246,
+        0.3662
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 3,
+       "n": 155,
+       "rate": 0.0194,
+       "wilson": [
+        0.0066,
+        0.0554
+       ]
+      },
+      "last_sentence": {
+       "k": 12,
+       "n": 155,
+       "rate": 0.0774,
+       "wilson": [
+        0.0448,
+        0.1304
+       ]
+      },
+      "minus_question": {
+       "k": 12,
+       "n": 155,
+       "rate": 0.0774,
+       "wilson": [
+        0.0448,
+        0.1304
+       ]
+      },
+      "raw_full": {
+       "k": 14,
+       "n": 153,
+       "rate": 0.0915,
+       "wilson": [
+        0.0553,
+        0.1477
+       ]
+      },
+      "registered": {
+       "k": 14,
+       "n": 155,
+       "rate": 0.0903,
+       "wilson": [
+        0.0546,
+        0.1459
+       ]
+      }
+     }
+    }
+   },
+   "ORACLE": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 1,
+       "n": 85,
+       "rate": 0.0118,
+       "wilson": [
+        0.0021,
+        0.0637
+       ]
+      },
+      "last_sentence": {
+       "k": 3,
+       "n": 85,
+       "rate": 0.0353,
+       "wilson": [
+        0.0121,
+        0.0987
+       ]
+      },
+      "minus_question": {
+       "k": 5,
+       "n": 85,
+       "rate": 0.0588,
+       "wilson": [
+        0.0254,
+        0.1304
+       ]
+      },
+      "raw_full": {
+       "k": 4,
+       "n": 81,
+       "rate": 0.0494,
+       "wilson": [
+        0.0194,
+        0.1202
+       ]
+      },
+      "registered": {
+       "k": 9,
+       "n": 99,
+       "rate": 0.0909,
+       "wilson": [
+        0.0486,
+        0.1638
+       ]
+      },
+      "scorable": {
+       "k": 5,
+       "n": 85,
+       "rate": 0.0588,
+       "wilson": [
+        0.0254,
+        0.1304
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 8,
+       "n": 85,
+       "rate": 0.0941,
+       "wilson": [
+        0.0485,
+        0.1749
+       ]
+      },
+      "last_sentence": {
+       "k": 14,
+       "n": 85,
+       "rate": 0.1647,
+       "wilson": [
+        0.1007,
+        0.2577
+       ]
+      },
+      "minus_question": {
+       "k": 18,
+       "n": 85,
+       "rate": 0.2118,
+       "wilson": [
+        0.1384,
+        0.3101
+       ]
+      },
+      "raw_full": {
+       "k": 16,
+       "n": 81,
+       "rate": 0.1975,
+       "wilson": [
+        0.1254,
+        0.297
+       ]
+      },
+      "registered": {
+       "k": 27,
+       "n": 99,
+       "rate": 0.2727,
+       "wilson": [
+        0.1947,
+        0.3677
+       ]
+      },
+      "scorable": {
+       "k": 19,
+       "n": 85,
+       "rate": 0.2235,
+       "wilson": [
+        0.148,
+        0.3229
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 22,
+       "n": 174,
+       "rate": 0.1264,
+       "wilson": [
+        0.085,
+        0.184
+       ]
+      },
+      "last_sentence": {
+       "k": 39,
+       "n": 174,
+       "rate": 0.2241,
+       "wilson": [
+        0.1685,
+        0.2917
+       ]
+      },
+      "minus_question": {
+       "k": 45,
+       "n": 174,
+       "rate": 0.2586,
+       "wilson": [
+        0.1993,
+        0.3284
+       ]
+      },
+      "raw_full": {
+       "k": 47,
+       "n": 172,
+       "rate": 0.2733,
+       "wilson": [
+        0.2122,
+        0.3443
+       ]
+      },
+      "registered": {
+       "k": 48,
+       "n": 174,
+       "rate": 0.2759,
+       "wilson": [
+        0.2148,
+        0.3466
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 3,
+       "n": 174,
+       "rate": 0.0172,
+       "wilson": [
+        0.0059,
+        0.0495
+       ]
+      },
+      "last_sentence": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      },
+      "minus_question": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      },
+      "raw_full": {
+       "k": 14,
+       "n": 172,
+       "rate": 0.0814,
+       "wilson": [
+        0.0491,
+        0.132
+       ]
+      },
+      "registered": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      }
+     }
+    }
+   }
+  },
+  "mini-A3": {
+   "ALWAYS": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 42,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0838
+       ]
+      },
+      "last_sentence": {
+       "k": 0,
+       "n": 42,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0838
+       ]
+      },
+      "minus_question": {
+       "k": 0,
+       "n": 42,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0838
+       ]
+      },
+      "raw_full": {
+       "k": 0,
+       "n": 42,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0838
+       ]
+      },
+      "registered": {
+       "k": 0,
+       "n": 54,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0664
+       ]
+      },
+      "scorable": {
+       "k": 0,
+       "n": 42,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0838
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 9,
+       "n": 42,
+       "rate": 0.2143,
+       "wilson": [
+        0.1171,
+        0.3594
+       ]
+      },
+      "last_sentence": {
+       "k": 9,
+       "n": 42,
+       "rate": 0.2143,
+       "wilson": [
+        0.1171,
+        0.3594
+       ]
+      },
+      "minus_question": {
+       "k": 7,
+       "n": 42,
+       "rate": 0.1667,
+       "wilson": [
+        0.0832,
+        0.306
+       ]
+      },
+      "raw_full": {
+       "k": 9,
+       "n": 42,
+       "rate": 0.2143,
+       "wilson": [
+        0.1171,
+        0.3594
+       ]
+      },
+      "registered": {
+       "k": 10,
+       "n": 54,
+       "rate": 0.1852,
+       "wilson": [
+        0.1038,
+        0.3084
+       ]
+      },
+      "scorable": {
+       "k": 9,
+       "n": 42,
+       "rate": 0.2143,
+       "wilson": [
+        0.1171,
+        0.3594
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 47,
+       "n": 174,
+       "rate": 0.2701,
+       "wilson": [
+        0.2096,
+        0.3405
+       ]
+      },
+      "last_sentence": {
+       "k": 47,
+       "n": 174,
+       "rate": 0.2701,
+       "wilson": [
+        0.2096,
+        0.3405
+       ]
+      },
+      "minus_question": {
+       "k": 42,
+       "n": 174,
+       "rate": 0.2414,
+       "wilson": [
+        0.1838,
+        0.3101
+       ]
+      },
+      "raw_full": {
+       "k": 47,
+       "n": 174,
+       "rate": 0.2701,
+       "wilson": [
+        0.2096,
+        0.3405
+       ]
+      },
+      "registered": {
+       "k": 47,
+       "n": 174,
+       "rate": 0.2701,
+       "wilson": [
+        0.2096,
+        0.3405
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      },
+      "last_sentence": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      },
+      "minus_question": {
+       "k": 10,
+       "n": 174,
+       "rate": 0.0575,
+       "wilson": [
+        0.0315,
+        0.1025
+       ]
+      },
+      "raw_full": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      },
+      "registered": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      }
+     }
+    }
+   },
+   "LOOKUP": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "last_sentence": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "minus_question": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "raw_full": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "registered": {
+       "k": 0,
+       "n": 70,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.052
+       ]
+      },
+      "scorable": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 7,
+       "n": 58,
+       "rate": 0.1207,
+       "wilson": [
+        0.0597,
+        0.2288
+       ]
+      },
+      "last_sentence": {
+       "k": 7,
+       "n": 58,
+       "rate": 0.1207,
+       "wilson": [
+        0.0597,
+        0.2288
+       ]
+      },
+      "minus_question": {
+       "k": 6,
+       "n": 58,
+       "rate": 0.1034,
+       "wilson": [
+        0.0483,
+        0.2079
+       ]
+      },
+      "raw_full": {
+       "k": 7,
+       "n": 58,
+       "rate": 0.1207,
+       "wilson": [
+        0.0597,
+        0.2288
+       ]
+      },
+      "registered": {
+       "k": 8,
+       "n": 70,
+       "rate": 0.1143,
+       "wilson": [
+        0.0591,
+        0.2096
+       ]
+      },
+      "scorable": {
+       "k": 7,
+       "n": 58,
+       "rate": 0.1207,
+       "wilson": [
+        0.0597,
+        0.2288
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 40,
+       "n": 146,
+       "rate": 0.274,
+       "wilson": [
+        0.2081,
+        0.3514
+       ]
+      },
+      "last_sentence": {
+       "k": 40,
+       "n": 146,
+       "rate": 0.274,
+       "wilson": [
+        0.2081,
+        0.3514
+       ]
+      },
+      "minus_question": {
+       "k": 36,
+       "n": 146,
+       "rate": 0.2466,
+       "wilson": [
+        0.1838,
+        0.3224
+       ]
+      },
+      "raw_full": {
+       "k": 40,
+       "n": 146,
+       "rate": 0.274,
+       "wilson": [
+        0.2081,
+        0.3514
+       ]
+      },
+      "registered": {
+       "k": 40,
+       "n": 146,
+       "rate": 0.274,
+       "wilson": [
+        0.2081,
+        0.3514
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 10,
+       "n": 146,
+       "rate": 0.0685,
+       "wilson": [
+        0.0376,
+        0.1215
+       ]
+      },
+      "last_sentence": {
+       "k": 10,
+       "n": 146,
+       "rate": 0.0685,
+       "wilson": [
+        0.0376,
+        0.1215
+       ]
+      },
+      "minus_question": {
+       "k": 8,
+       "n": 146,
+       "rate": 0.0548,
+       "wilson": [
+        0.028,
+        0.1044
+       ]
+      },
+      "raw_full": {
+       "k": 10,
+       "n": 146,
+       "rate": 0.0685,
+       "wilson": [
+        0.0376,
+        0.1215
+       ]
+      },
+      "registered": {
+       "k": 10,
+       "n": 146,
+       "rate": 0.0685,
+       "wilson": [
+        0.0376,
+        0.1215
+       ]
+      }
+     }
+    }
+   },
+   "LOOKUP-ALL": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 1,
+       "n": 58,
+       "rate": 0.0172,
+       "wilson": [
+        0.0031,
+        0.0914
+       ]
+      },
+      "last_sentence": {
+       "k": 1,
+       "n": 58,
+       "rate": 0.0172,
+       "wilson": [
+        0.0031,
+        0.0914
+       ]
+      },
+      "minus_question": {
+       "k": 1,
+       "n": 58,
+       "rate": 0.0172,
+       "wilson": [
+        0.0031,
+        0.0914
+       ]
+      },
+      "raw_full": {
+       "k": 1,
+       "n": 58,
+       "rate": 0.0172,
+       "wilson": [
+        0.0031,
+        0.0914
+       ]
+      },
+      "registered": {
+       "k": 1,
+       "n": 70,
+       "rate": 0.0143,
+       "wilson": [
+        0.0025,
+        0.0766
+       ]
+      },
+      "scorable": {
+       "k": 1,
+       "n": 58,
+       "rate": 0.0172,
+       "wilson": [
+        0.0031,
+        0.0914
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 6,
+       "n": 58,
+       "rate": 0.1034,
+       "wilson": [
+        0.0483,
+        0.2079
+       ]
+      },
+      "last_sentence": {
+       "k": 6,
+       "n": 58,
+       "rate": 0.1034,
+       "wilson": [
+        0.0483,
+        0.2079
+       ]
+      },
+      "minus_question": {
+       "k": 6,
+       "n": 58,
+       "rate": 0.1034,
+       "wilson": [
+        0.0483,
+        0.2079
+       ]
+      },
+      "raw_full": {
+       "k": 6,
+       "n": 58,
+       "rate": 0.1034,
+       "wilson": [
+        0.0483,
+        0.2079
+       ]
+      },
+      "registered": {
+       "k": 7,
+       "n": 70,
+       "rate": 0.1,
+       "wilson": [
+        0.0493,
+        0.1923
+       ]
+      },
+      "scorable": {
+       "k": 6,
+       "n": 58,
+       "rate": 0.1034,
+       "wilson": [
+        0.0483,
+        0.2079
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 40,
+       "n": 146,
+       "rate": 0.274,
+       "wilson": [
+        0.2081,
+        0.3514
+       ]
+      },
+      "last_sentence": {
+       "k": 40,
+       "n": 146,
+       "rate": 0.274,
+       "wilson": [
+        0.2081,
+        0.3514
+       ]
+      },
+      "minus_question": {
+       "k": 36,
+       "n": 146,
+       "rate": 0.2466,
+       "wilson": [
+        0.1838,
+        0.3224
+       ]
+      },
+      "raw_full": {
+       "k": 40,
+       "n": 146,
+       "rate": 0.274,
+       "wilson": [
+        0.2081,
+        0.3514
+       ]
+      },
+      "registered": {
+       "k": 40,
+       "n": 146,
+       "rate": 0.274,
+       "wilson": [
+        0.2081,
+        0.3514
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 10,
+       "n": 146,
+       "rate": 0.0685,
+       "wilson": [
+        0.0376,
+        0.1215
+       ]
+      },
+      "last_sentence": {
+       "k": 10,
+       "n": 146,
+       "rate": 0.0685,
+       "wilson": [
+        0.0376,
+        0.1215
+       ]
+      },
+      "minus_question": {
+       "k": 8,
+       "n": 146,
+       "rate": 0.0548,
+       "wilson": [
+        0.028,
+        0.1044
+       ]
+      },
+      "raw_full": {
+       "k": 10,
+       "n": 146,
+       "rate": 0.0685,
+       "wilson": [
+        0.0376,
+        0.1215
+       ]
+      },
+      "registered": {
+       "k": 10,
+       "n": 146,
+       "rate": 0.0685,
+       "wilson": [
+        0.0376,
+        0.1215
+       ]
+      }
+     }
+    }
+   },
+   "LOOKUP-LIT": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 82,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0448
+       ]
+      },
+      "last_sentence": {
+       "k": 0,
+       "n": 82,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0448
+       ]
+      },
+      "minus_question": {
+       "k": 0,
+       "n": 82,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0448
+       ]
+      },
+      "raw_full": {
+       "k": 0,
+       "n": 82,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0448
+       ]
+      },
+      "registered": {
+       "k": 0,
+       "n": 94,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0393
+       ]
+      },
+      "scorable": {
+       "k": 0,
+       "n": 82,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0448
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 15,
+       "n": 82,
+       "rate": 0.1829,
+       "wilson": [
+        0.1141,
+        0.2801
+       ]
+      },
+      "last_sentence": {
+       "k": 15,
+       "n": 82,
+       "rate": 0.1829,
+       "wilson": [
+        0.1141,
+        0.2801
+       ]
+      },
+      "minus_question": {
+       "k": 10,
+       "n": 82,
+       "rate": 0.122,
+       "wilson": [
+        0.0676,
+        0.2101
+       ]
+      },
+      "raw_full": {
+       "k": 15,
+       "n": 82,
+       "rate": 0.1829,
+       "wilson": [
+        0.1141,
+        0.2801
+       ]
+      },
+      "registered": {
+       "k": 16,
+       "n": 94,
+       "rate": 0.1702,
+       "wilson": [
+        0.1076,
+        0.2587
+       ]
+      },
+      "scorable": {
+       "k": 15,
+       "n": 82,
+       "rate": 0.1829,
+       "wilson": [
+        0.1141,
+        0.2801
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 46,
+       "n": 174,
+       "rate": 0.2644,
+       "wilson": [
+        0.2044,
+        0.3345
+       ]
+      },
+      "last_sentence": {
+       "k": 46,
+       "n": 174,
+       "rate": 0.2644,
+       "wilson": [
+        0.2044,
+        0.3345
+       ]
+      },
+      "minus_question": {
+       "k": 42,
+       "n": 174,
+       "rate": 0.2414,
+       "wilson": [
+        0.1838,
+        0.3101
+       ]
+      },
+      "raw_full": {
+       "k": 46,
+       "n": 174,
+       "rate": 0.2644,
+       "wilson": [
+        0.2044,
+        0.3345
+       ]
+      },
+      "registered": {
+       "k": 46,
+       "n": 174,
+       "rate": 0.2644,
+       "wilson": [
+        0.2044,
+        0.3345
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      },
+      "last_sentence": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      },
+      "minus_question": {
+       "k": 10,
+       "n": 174,
+       "rate": 0.0575,
+       "wilson": [
+        0.0315,
+        0.1025
+       ]
+      },
+      "raw_full": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      },
+      "registered": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      }
+     }
+    }
+   },
+   "MODEL": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      },
+      "last_sentence": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      },
+      "minus_question": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      },
+      "raw_full": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      },
+      "registered": {
+       "k": 0,
+       "n": 74,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0493
+       ]
+      },
+      "scorable": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 9,
+       "n": 62,
+       "rate": 0.1452,
+       "wilson": [
+        0.0783,
+        0.2534
+       ]
+      },
+      "last_sentence": {
+       "k": 9,
+       "n": 62,
+       "rate": 0.1452,
+       "wilson": [
+        0.0783,
+        0.2534
+       ]
+      },
+      "minus_question": {
+       "k": 8,
+       "n": 62,
+       "rate": 0.129,
+       "wilson": [
+        0.0669,
+        0.2345
+       ]
+      },
+      "raw_full": {
+       "k": 9,
+       "n": 62,
+       "rate": 0.1452,
+       "wilson": [
+        0.0783,
+        0.2534
+       ]
+      },
+      "registered": {
+       "k": 10,
+       "n": 74,
+       "rate": 0.1351,
+       "wilson": [
+        0.0751,
+        0.2312
+       ]
+      },
+      "scorable": {
+       "k": 9,
+       "n": 62,
+       "rate": 0.1452,
+       "wilson": [
+        0.0783,
+        0.2534
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 44,
+       "n": 155,
+       "rate": 0.2839,
+       "wilson": [
+        0.2188,
+        0.3594
+       ]
+      },
+      "last_sentence": {
+       "k": 43,
+       "n": 155,
+       "rate": 0.2774,
+       "wilson": [
+        0.213,
+        0.3526
+       ]
+      },
+      "minus_question": {
+       "k": 40,
+       "n": 155,
+       "rate": 0.2581,
+       "wilson": [
+        0.1956,
+        0.3322
+       ]
+      },
+      "raw_full": {
+       "k": 44,
+       "n": 155,
+       "rate": 0.2839,
+       "wilson": [
+        0.2188,
+        0.3594
+       ]
+      },
+      "registered": {
+       "k": 44,
+       "n": 155,
+       "rate": 0.2839,
+       "wilson": [
+        0.2188,
+        0.3594
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 12,
+       "n": 155,
+       "rate": 0.0774,
+       "wilson": [
+        0.0448,
+        0.1304
+       ]
+      },
+      "last_sentence": {
+       "k": 12,
+       "n": 155,
+       "rate": 0.0774,
+       "wilson": [
+        0.0448,
+        0.1304
+       ]
+      },
+      "minus_question": {
+       "k": 10,
+       "n": 155,
+       "rate": 0.0645,
+       "wilson": [
+        0.0354,
+        0.1147
+       ]
+      },
+      "raw_full": {
+       "k": 12,
+       "n": 155,
+       "rate": 0.0774,
+       "wilson": [
+        0.0448,
+        0.1304
+       ]
+      },
+      "registered": {
+       "k": 12,
+       "n": 155,
+       "rate": 0.0774,
+       "wilson": [
+        0.0448,
+        0.1304
+       ]
+      }
+     }
+    }
+   },
+   "MODEL-ALL": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 2,
+       "n": 62,
+       "rate": 0.0323,
+       "wilson": [
+        0.0089,
+        0.1102
+       ]
+      },
+      "last_sentence": {
+       "k": 2,
+       "n": 62,
+       "rate": 0.0323,
+       "wilson": [
+        0.0089,
+        0.1102
+       ]
+      },
+      "minus_question": {
+       "k": 2,
+       "n": 62,
+       "rate": 0.0323,
+       "wilson": [
+        0.0089,
+        0.1102
+       ]
+      },
+      "raw_full": {
+       "k": 2,
+       "n": 62,
+       "rate": 0.0323,
+       "wilson": [
+        0.0089,
+        0.1102
+       ]
+      },
+      "registered": {
+       "k": 2,
+       "n": 74,
+       "rate": 0.027,
+       "wilson": [
+        0.0074,
+        0.0933
+       ]
+      },
+      "scorable": {
+       "k": 2,
+       "n": 62,
+       "rate": 0.0323,
+       "wilson": [
+        0.0089,
+        0.1102
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 9,
+       "n": 62,
+       "rate": 0.1452,
+       "wilson": [
+        0.0783,
+        0.2534
+       ]
+      },
+      "last_sentence": {
+       "k": 9,
+       "n": 62,
+       "rate": 0.1452,
+       "wilson": [
+        0.0783,
+        0.2534
+       ]
+      },
+      "minus_question": {
+       "k": 9,
+       "n": 62,
+       "rate": 0.1452,
+       "wilson": [
+        0.0783,
+        0.2534
+       ]
+      },
+      "raw_full": {
+       "k": 9,
+       "n": 62,
+       "rate": 0.1452,
+       "wilson": [
+        0.0783,
+        0.2534
+       ]
+      },
+      "registered": {
+       "k": 10,
+       "n": 74,
+       "rate": 0.1351,
+       "wilson": [
+        0.0751,
+        0.2312
+       ]
+      },
+      "scorable": {
+       "k": 9,
+       "n": 62,
+       "rate": 0.1452,
+       "wilson": [
+        0.0783,
+        0.2534
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 44,
+       "n": 155,
+       "rate": 0.2839,
+       "wilson": [
+        0.2188,
+        0.3594
+       ]
+      },
+      "last_sentence": {
+       "k": 43,
+       "n": 155,
+       "rate": 0.2774,
+       "wilson": [
+        0.213,
+        0.3526
+       ]
+      },
+      "minus_question": {
+       "k": 40,
+       "n": 155,
+       "rate": 0.2581,
+       "wilson": [
+        0.1956,
+        0.3322
+       ]
+      },
+      "raw_full": {
+       "k": 44,
+       "n": 155,
+       "rate": 0.2839,
+       "wilson": [
+        0.2188,
+        0.3594
+       ]
+      },
+      "registered": {
+       "k": 44,
+       "n": 155,
+       "rate": 0.2839,
+       "wilson": [
+        0.2188,
+        0.3594
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 12,
+       "n": 155,
+       "rate": 0.0774,
+       "wilson": [
+        0.0448,
+        0.1304
+       ]
+      },
+      "last_sentence": {
+       "k": 12,
+       "n": 155,
+       "rate": 0.0774,
+       "wilson": [
+        0.0448,
+        0.1304
+       ]
+      },
+      "minus_question": {
+       "k": 10,
+       "n": 155,
+       "rate": 0.0645,
+       "wilson": [
+        0.0354,
+        0.1147
+       ]
+      },
+      "raw_full": {
+       "k": 12,
+       "n": 155,
+       "rate": 0.0774,
+       "wilson": [
+        0.0448,
+        0.1304
+       ]
+      },
+      "registered": {
+       "k": 12,
+       "n": 155,
+       "rate": 0.0774,
+       "wilson": [
+        0.0448,
+        0.1304
+       ]
+      }
+     }
+    }
+   },
+   "ORACLE": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 85,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0432
+       ]
+      },
+      "last_sentence": {
+       "k": 0,
+       "n": 85,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0432
+       ]
+      },
+      "minus_question": {
+       "k": 0,
+       "n": 85,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0432
+       ]
+      },
+      "raw_full": {
+       "k": 0,
+       "n": 85,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0432
+       ]
+      },
+      "registered": {
+       "k": 0,
+       "n": 99,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0374
+       ]
+      },
+      "scorable": {
+       "k": 0,
+       "n": 85,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0432
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 17,
+       "n": 85,
+       "rate": 0.2,
+       "wilson": [
+        0.1288,
+        0.2972
+       ]
+      },
+      "last_sentence": {
+       "k": 16,
+       "n": 85,
+       "rate": 0.1882,
+       "wilson": [
+        0.1193,
+        0.2841
+       ]
+      },
+      "minus_question": {
+       "k": 12,
+       "n": 85,
+       "rate": 0.1412,
+       "wilson": [
+        0.0826,
+        0.2307
+       ]
+      },
+      "raw_full": {
+       "k": 17,
+       "n": 85,
+       "rate": 0.2,
+       "wilson": [
+        0.1288,
+        0.2972
+       ]
+      },
+      "registered": {
+       "k": 18,
+       "n": 99,
+       "rate": 0.1818,
+       "wilson": [
+        0.1182,
+        0.2692
+       ]
+      },
+      "scorable": {
+       "k": 17,
+       "n": 85,
+       "rate": 0.2,
+       "wilson": [
+        0.1288,
+        0.2972
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 47,
+       "n": 174,
+       "rate": 0.2701,
+       "wilson": [
+        0.2096,
+        0.3405
+       ]
+      },
+      "last_sentence": {
+       "k": 47,
+       "n": 174,
+       "rate": 0.2701,
+       "wilson": [
+        0.2096,
+        0.3405
+       ]
+      },
+      "minus_question": {
+       "k": 42,
+       "n": 174,
+       "rate": 0.2414,
+       "wilson": [
+        0.1838,
+        0.3101
+       ]
+      },
+      "raw_full": {
+       "k": 47,
+       "n": 174,
+       "rate": 0.2701,
+       "wilson": [
+        0.2096,
+        0.3405
+       ]
+      },
+      "registered": {
+       "k": 47,
+       "n": 174,
+       "rate": 0.2701,
+       "wilson": [
+        0.2096,
+        0.3405
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      },
+      "last_sentence": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      },
+      "minus_question": {
+       "k": 10,
+       "n": 174,
+       "rate": 0.0575,
+       "wilson": [
+        0.0315,
+        0.1025
+       ]
+      },
+      "raw_full": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      },
+      "registered": {
+       "k": 12,
+       "n": 174,
+       "rate": 0.069,
+       "wilson": [
+        0.0399,
+        0.1167
+       ]
+      }
+     }
+    }
+   }
+  },
+  "mini-D4": {
+   "ALWAYS": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 42,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0838
+       ]
+      },
+      "last_sentence": {
+       "k": 0,
+       "n": 42,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0838
+       ]
+      },
+      "minus_question": {
+       "k": 0,
+       "n": 42,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0838
+       ]
+      },
+      "raw_full": {
+       "k": 0,
+       "n": 42,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0838
+       ]
+      },
+      "registered": {
+       "k": 0,
+       "n": 54,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0664
+       ]
+      },
+      "scorable": {
+       "k": 0,
+       "n": 42,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0838
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 8,
+       "n": 42,
+       "rate": 0.1905,
+       "wilson": [
+        0.0998,
+        0.333
+       ]
+      },
+      "last_sentence": {
+       "k": 8,
+       "n": 42,
+       "rate": 0.1905,
+       "wilson": [
+        0.0998,
+        0.333
+       ]
+      },
+      "minus_question": {
+       "k": 7,
+       "n": 42,
+       "rate": 0.1667,
+       "wilson": [
+        0.0832,
+        0.306
+       ]
+      },
+      "raw_full": {
+       "k": 8,
+       "n": 42,
+       "rate": 0.1905,
+       "wilson": [
+        0.0998,
+        0.333
+       ]
+      },
+      "registered": {
+       "k": 9,
+       "n": 54,
+       "rate": 0.1667,
+       "wilson": [
+        0.0902,
+        0.2874
+       ]
+      },
+      "scorable": {
+       "k": 8,
+       "n": 42,
+       "rate": 0.1905,
+       "wilson": [
+        0.0998,
+        0.333
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 45,
+       "n": 174,
+       "rate": 0.2586,
+       "wilson": [
+        0.1993,
+        0.3284
+       ]
+      },
+      "last_sentence": {
+       "k": 45,
+       "n": 174,
+       "rate": 0.2586,
+       "wilson": [
+        0.1993,
+        0.3284
+       ]
+      },
+      "minus_question": {
+       "k": 43,
+       "n": 174,
+       "rate": 0.2471,
+       "wilson": [
+        0.189,
+        0.3162
+       ]
+      },
+      "raw_full": {
+       "k": 46,
+       "n": 174,
+       "rate": 0.2644,
+       "wilson": [
+        0.2044,
+        0.3345
+       ]
+      },
+      "registered": {
+       "k": 46,
+       "n": 174,
+       "rate": 0.2644,
+       "wilson": [
+        0.2044,
+        0.3345
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      },
+      "last_sentence": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      },
+      "minus_question": {
+       "k": 11,
+       "n": 174,
+       "rate": 0.0632,
+       "wilson": [
+        0.0357,
+        0.1096
+       ]
+      },
+      "raw_full": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      },
+      "registered": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      }
+     }
+    }
+   },
+   "LOOKUP": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "last_sentence": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "minus_question": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "raw_full": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "registered": {
+       "k": 0,
+       "n": 70,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.052
+       ]
+      },
+      "scorable": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 6,
+       "n": 58,
+       "rate": 0.1034,
+       "wilson": [
+        0.0483,
+        0.2079
+       ]
+      },
+      "last_sentence": {
+       "k": 6,
+       "n": 58,
+       "rate": 0.1034,
+       "wilson": [
+        0.0483,
+        0.2079
+       ]
+      },
+      "minus_question": {
+       "k": 5,
+       "n": 58,
+       "rate": 0.0862,
+       "wilson": [
+        0.0374,
+        0.1864
+       ]
+      },
+      "raw_full": {
+       "k": 6,
+       "n": 58,
+       "rate": 0.1034,
+       "wilson": [
+        0.0483,
+        0.2079
+       ]
+      },
+      "registered": {
+       "k": 7,
+       "n": 70,
+       "rate": 0.1,
+       "wilson": [
+        0.0493,
+        0.1923
+       ]
+      },
+      "scorable": {
+       "k": 6,
+       "n": 58,
+       "rate": 0.1034,
+       "wilson": [
+        0.0483,
+        0.2079
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 39,
+       "n": 146,
+       "rate": 0.2671,
+       "wilson": [
+        0.202,
+        0.3442
+       ]
+      },
+      "last_sentence": {
+       "k": 39,
+       "n": 146,
+       "rate": 0.2671,
+       "wilson": [
+        0.202,
+        0.3442
+       ]
+      },
+      "minus_question": {
+       "k": 38,
+       "n": 146,
+       "rate": 0.2603,
+       "wilson": [
+        0.1959,
+        0.3369
+       ]
+      },
+      "raw_full": {
+       "k": 40,
+       "n": 146,
+       "rate": 0.274,
+       "wilson": [
+        0.2081,
+        0.3514
+       ]
+      },
+      "registered": {
+       "k": 40,
+       "n": 146,
+       "rate": 0.274,
+       "wilson": [
+        0.2081,
+        0.3514
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 12,
+       "n": 146,
+       "rate": 0.0822,
+       "wilson": [
+        0.0476,
+        0.1382
+       ]
+      },
+      "last_sentence": {
+       "k": 12,
+       "n": 146,
+       "rate": 0.0822,
+       "wilson": [
+        0.0476,
+        0.1382
+       ]
+      },
+      "minus_question": {
+       "k": 9,
+       "n": 146,
+       "rate": 0.0616,
+       "wilson": [
+        0.0328,
+        0.113
+       ]
+      },
+      "raw_full": {
+       "k": 12,
+       "n": 146,
+       "rate": 0.0822,
+       "wilson": [
+        0.0476,
+        0.1382
+       ]
+      },
+      "registered": {
+       "k": 12,
+       "n": 146,
+       "rate": 0.0822,
+       "wilson": [
+        0.0476,
+        0.1382
+       ]
+      }
+     }
+    }
+   },
+   "LOOKUP-ALL": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "last_sentence": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "minus_question": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "raw_full": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      },
+      "registered": {
+       "k": 0,
+       "n": 70,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.052
+       ]
+      },
+      "scorable": {
+       "k": 0,
+       "n": 58,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0621
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 5,
+       "n": 58,
+       "rate": 0.0862,
+       "wilson": [
+        0.0374,
+        0.1864
+       ]
+      },
+      "last_sentence": {
+       "k": 5,
+       "n": 58,
+       "rate": 0.0862,
+       "wilson": [
+        0.0374,
+        0.1864
+       ]
+      },
+      "minus_question": {
+       "k": 5,
+       "n": 58,
+       "rate": 0.0862,
+       "wilson": [
+        0.0374,
+        0.1864
+       ]
+      },
+      "raw_full": {
+       "k": 5,
+       "n": 58,
+       "rate": 0.0862,
+       "wilson": [
+        0.0374,
+        0.1864
+       ]
+      },
+      "registered": {
+       "k": 6,
+       "n": 70,
+       "rate": 0.0857,
+       "wilson": [
+        0.0399,
+        0.1747
+       ]
+      },
+      "scorable": {
+       "k": 5,
+       "n": 58,
+       "rate": 0.0862,
+       "wilson": [
+        0.0374,
+        0.1864
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 38,
+       "n": 146,
+       "rate": 0.2603,
+       "wilson": [
+        0.1959,
+        0.3369
+       ]
+      },
+      "last_sentence": {
+       "k": 38,
+       "n": 146,
+       "rate": 0.2603,
+       "wilson": [
+        0.1959,
+        0.3369
+       ]
+      },
+      "minus_question": {
+       "k": 37,
+       "n": 146,
+       "rate": 0.2534,
+       "wilson": [
+        0.1898,
+        0.3297
+       ]
+      },
+      "raw_full": {
+       "k": 39,
+       "n": 146,
+       "rate": 0.2671,
+       "wilson": [
+        0.202,
+        0.3442
+       ]
+      },
+      "registered": {
+       "k": 39,
+       "n": 146,
+       "rate": 0.2671,
+       "wilson": [
+        0.202,
+        0.3442
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 12,
+       "n": 146,
+       "rate": 0.0822,
+       "wilson": [
+        0.0476,
+        0.1382
+       ]
+      },
+      "last_sentence": {
+       "k": 12,
+       "n": 146,
+       "rate": 0.0822,
+       "wilson": [
+        0.0476,
+        0.1382
+       ]
+      },
+      "minus_question": {
+       "k": 9,
+       "n": 146,
+       "rate": 0.0616,
+       "wilson": [
+        0.0328,
+        0.113
+       ]
+      },
+      "raw_full": {
+       "k": 12,
+       "n": 146,
+       "rate": 0.0822,
+       "wilson": [
+        0.0476,
+        0.1382
+       ]
+      },
+      "registered": {
+       "k": 12,
+       "n": 146,
+       "rate": 0.0822,
+       "wilson": [
+        0.0476,
+        0.1382
+       ]
+      }
+     }
+    }
+   },
+   "LOOKUP-LIT": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 82,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0448
+       ]
+      },
+      "last_sentence": {
+       "k": 0,
+       "n": 82,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0448
+       ]
+      },
+      "minus_question": {
+       "k": 0,
+       "n": 82,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0448
+       ]
+      },
+      "raw_full": {
+       "k": 0,
+       "n": 82,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0448
+       ]
+      },
+      "registered": {
+       "k": 0,
+       "n": 94,
+       "rate": 0.0,
+       "wilson": [
+        -0.0,
+        0.0393
+       ]
+      },
+      "scorable": {
+       "k": 0,
+       "n": 82,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0448
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 13,
+       "n": 82,
+       "rate": 0.1585,
+       "wilson": [
+        0.0951,
+        0.2526
+       ]
+      },
+      "last_sentence": {
+       "k": 13,
+       "n": 82,
+       "rate": 0.1585,
+       "wilson": [
+        0.0951,
+        0.2526
+       ]
+      },
+      "minus_question": {
+       "k": 9,
+       "n": 82,
+       "rate": 0.1098,
+       "wilson": [
+        0.0588,
+        0.1956
+       ]
+      },
+      "raw_full": {
+       "k": 13,
+       "n": 82,
+       "rate": 0.1585,
+       "wilson": [
+        0.0951,
+        0.2526
+       ]
+      },
+      "registered": {
+       "k": 14,
+       "n": 94,
+       "rate": 0.1489,
+       "wilson": [
+        0.0908,
+        0.2346
+       ]
+      },
+      "scorable": {
+       "k": 13,
+       "n": 82,
+       "rate": 0.1585,
+       "wilson": [
+        0.0951,
+        0.2526
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 45,
+       "n": 174,
+       "rate": 0.2586,
+       "wilson": [
+        0.1993,
+        0.3284
+       ]
+      },
+      "last_sentence": {
+       "k": 45,
+       "n": 174,
+       "rate": 0.2586,
+       "wilson": [
+        0.1993,
+        0.3284
+       ]
+      },
+      "minus_question": {
+       "k": 44,
+       "n": 174,
+       "rate": 0.2529,
+       "wilson": [
+        0.1941,
+        0.3223
+       ]
+      },
+      "raw_full": {
+       "k": 46,
+       "n": 174,
+       "rate": 0.2644,
+       "wilson": [
+        0.2044,
+        0.3345
+       ]
+      },
+      "registered": {
+       "k": 46,
+       "n": 174,
+       "rate": 0.2644,
+       "wilson": [
+        0.2044,
+        0.3345
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      },
+      "last_sentence": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      },
+      "minus_question": {
+       "k": 11,
+       "n": 174,
+       "rate": 0.0632,
+       "wilson": [
+        0.0357,
+        0.1096
+       ]
+      },
+      "raw_full": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      },
+      "registered": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      }
+     }
+    }
+   },
+   "MODEL": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      },
+      "last_sentence": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      },
+      "minus_question": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      },
+      "raw_full": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      },
+      "registered": {
+       "k": 0,
+       "n": 74,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0493
+       ]
+      },
+      "scorable": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 8,
+       "n": 62,
+       "rate": 0.129,
+       "wilson": [
+        0.0669,
+        0.2345
+       ]
+      },
+      "last_sentence": {
+       "k": 8,
+       "n": 62,
+       "rate": 0.129,
+       "wilson": [
+        0.0669,
+        0.2345
+       ]
+      },
+      "minus_question": {
+       "k": 7,
+       "n": 62,
+       "rate": 0.1129,
+       "wilson": [
+        0.0558,
+        0.2152
+       ]
+      },
+      "raw_full": {
+       "k": 8,
+       "n": 62,
+       "rate": 0.129,
+       "wilson": [
+        0.0669,
+        0.2345
+       ]
+      },
+      "registered": {
+       "k": 9,
+       "n": 74,
+       "rate": 0.1216,
+       "wilson": [
+        0.0653,
+        0.2153
+       ]
+      },
+      "scorable": {
+       "k": 8,
+       "n": 62,
+       "rate": 0.129,
+       "wilson": [
+        0.0669,
+        0.2345
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 43,
+       "n": 155,
+       "rate": 0.2774,
+       "wilson": [
+        0.213,
+        0.3526
+       ]
+      },
+      "last_sentence": {
+       "k": 42,
+       "n": 155,
+       "rate": 0.271,
+       "wilson": [
+        0.2072,
+        0.3458
+       ]
+      },
+      "minus_question": {
+       "k": 41,
+       "n": 155,
+       "rate": 0.2645,
+       "wilson": [
+        0.2014,
+        0.339
+       ]
+      },
+      "raw_full": {
+       "k": 44,
+       "n": 155,
+       "rate": 0.2839,
+       "wilson": [
+        0.2188,
+        0.3594
+       ]
+      },
+      "registered": {
+       "k": 44,
+       "n": 155,
+       "rate": 0.2839,
+       "wilson": [
+        0.2188,
+        0.3594
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 14,
+       "n": 155,
+       "rate": 0.0903,
+       "wilson": [
+        0.0546,
+        0.1459
+       ]
+      },
+      "last_sentence": {
+       "k": 14,
+       "n": 155,
+       "rate": 0.0903,
+       "wilson": [
+        0.0546,
+        0.1459
+       ]
+      },
+      "minus_question": {
+       "k": 11,
+       "n": 155,
+       "rate": 0.071,
+       "wilson": [
+        0.0401,
+        0.1226
+       ]
+      },
+      "raw_full": {
+       "k": 14,
+       "n": 155,
+       "rate": 0.0903,
+       "wilson": [
+        0.0546,
+        0.1459
+       ]
+      },
+      "registered": {
+       "k": 14,
+       "n": 155,
+       "rate": 0.0903,
+       "wilson": [
+        0.0546,
+        0.1459
+       ]
+      }
+     }
+    }
+   },
+   "MODEL-ALL": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      },
+      "last_sentence": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      },
+      "minus_question": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      },
+      "raw_full": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      },
+      "registered": {
+       "k": 0,
+       "n": 74,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0493
+       ]
+      },
+      "scorable": {
+       "k": 0,
+       "n": 62,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0583
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 8,
+       "n": 62,
+       "rate": 0.129,
+       "wilson": [
+        0.0669,
+        0.2345
+       ]
+      },
+      "last_sentence": {
+       "k": 8,
+       "n": 62,
+       "rate": 0.129,
+       "wilson": [
+        0.0669,
+        0.2345
+       ]
+      },
+      "minus_question": {
+       "k": 8,
+       "n": 62,
+       "rate": 0.129,
+       "wilson": [
+        0.0669,
+        0.2345
+       ]
+      },
+      "raw_full": {
+       "k": 8,
+       "n": 62,
+       "rate": 0.129,
+       "wilson": [
+        0.0669,
+        0.2345
+       ]
+      },
+      "registered": {
+       "k": 9,
+       "n": 74,
+       "rate": 0.1216,
+       "wilson": [
+        0.0653,
+        0.2153
+       ]
+      },
+      "scorable": {
+       "k": 8,
+       "n": 62,
+       "rate": 0.129,
+       "wilson": [
+        0.0669,
+        0.2345
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 43,
+       "n": 155,
+       "rate": 0.2774,
+       "wilson": [
+        0.213,
+        0.3526
+       ]
+      },
+      "last_sentence": {
+       "k": 42,
+       "n": 155,
+       "rate": 0.271,
+       "wilson": [
+        0.2072,
+        0.3458
+       ]
+      },
+      "minus_question": {
+       "k": 41,
+       "n": 155,
+       "rate": 0.2645,
+       "wilson": [
+        0.2014,
+        0.339
+       ]
+      },
+      "raw_full": {
+       "k": 44,
+       "n": 155,
+       "rate": 0.2839,
+       "wilson": [
+        0.2188,
+        0.3594
+       ]
+      },
+      "registered": {
+       "k": 44,
+       "n": 155,
+       "rate": 0.2839,
+       "wilson": [
+        0.2188,
+        0.3594
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 14,
+       "n": 155,
+       "rate": 0.0903,
+       "wilson": [
+        0.0546,
+        0.1459
+       ]
+      },
+      "last_sentence": {
+       "k": 14,
+       "n": 155,
+       "rate": 0.0903,
+       "wilson": [
+        0.0546,
+        0.1459
+       ]
+      },
+      "minus_question": {
+       "k": 11,
+       "n": 155,
+       "rate": 0.071,
+       "wilson": [
+        0.0401,
+        0.1226
+       ]
+      },
+      "raw_full": {
+       "k": 14,
+       "n": 155,
+       "rate": 0.0903,
+       "wilson": [
+        0.0546,
+        0.1459
+       ]
+      },
+      "registered": {
+       "k": 14,
+       "n": 155,
+       "rate": 0.0903,
+       "wilson": [
+        0.0546,
+        0.1459
+       ]
+      }
+     }
+    }
+   },
+   "ORACLE": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 85,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0432
+       ]
+      },
+      "last_sentence": {
+       "k": 0,
+       "n": 85,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0432
+       ]
+      },
+      "minus_question": {
+       "k": 0,
+       "n": 85,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0432
+       ]
+      },
+      "raw_full": {
+       "k": 0,
+       "n": 85,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0432
+       ]
+      },
+      "registered": {
+       "k": 0,
+       "n": 99,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0374
+       ]
+      },
+      "scorable": {
+       "k": 0,
+       "n": 85,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0432
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 16,
+       "n": 85,
+       "rate": 0.1882,
+       "wilson": [
+        0.1193,
+        0.2841
+       ]
+      },
+      "last_sentence": {
+       "k": 16,
+       "n": 85,
+       "rate": 0.1882,
+       "wilson": [
+        0.1193,
+        0.2841
+       ]
+      },
+      "minus_question": {
+       "k": 12,
+       "n": 85,
+       "rate": 0.1412,
+       "wilson": [
+        0.0826,
+        0.2307
+       ]
+      },
+      "raw_full": {
+       "k": 16,
+       "n": 85,
+       "rate": 0.1882,
+       "wilson": [
+        0.1193,
+        0.2841
+       ]
+      },
+      "registered": {
+       "k": 17,
+       "n": 99,
+       "rate": 0.1717,
+       "wilson": [
+        0.1101,
+        0.2579
+       ]
+      },
+      "scorable": {
+       "k": 16,
+       "n": 85,
+       "rate": 0.1882,
+       "wilson": [
+        0.1193,
+        0.2841
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 45,
+       "n": 174,
+       "rate": 0.2586,
+       "wilson": [
+        0.1993,
+        0.3284
+       ]
+      },
+      "last_sentence": {
+       "k": 45,
+       "n": 174,
+       "rate": 0.2586,
+       "wilson": [
+        0.1993,
+        0.3284
+       ]
+      },
+      "minus_question": {
+       "k": 43,
+       "n": 174,
+       "rate": 0.2471,
+       "wilson": [
+        0.189,
+        0.3162
+       ]
+      },
+      "raw_full": {
+       "k": 46,
+       "n": 174,
+       "rate": 0.2644,
+       "wilson": [
+        0.2044,
+        0.3345
+       ]
+      },
+      "registered": {
+       "k": 46,
+       "n": 174,
+       "rate": 0.2644,
+       "wilson": [
+        0.2044,
+        0.3345
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      },
+      "last_sentence": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      },
+      "minus_question": {
+       "k": 11,
+       "n": 174,
+       "rate": 0.0632,
+       "wilson": [
+        0.0357,
+        0.1096
+       ]
+      },
+      "raw_full": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      },
+      "registered": {
+       "k": 14,
+       "n": 174,
+       "rate": 0.0805,
+       "wilson": [
+        0.0485,
+        0.1305
+       ]
+      }
+     }
+    }
+   }
+  },
+  "mini-D4-V3": {
+   "MODEL-ALL-V3": {
+    "pn": {
+     "stale_use": {
+      "first_sentence": {
+       "k": 0,
+       "n": 65,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0558
+       ]
+      },
+      "last_sentence": {
+       "k": 0,
+       "n": 65,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0558
+       ]
+      },
+      "minus_question": {
+       "k": 0,
+       "n": 65,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0558
+       ]
+      },
+      "raw_full": {
+       "k": 0,
+       "n": 65,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0558
+       ]
+      },
+      "registered": {
+       "k": 0,
+       "n": 78,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0469
+       ]
+      },
+      "scorable": {
+       "k": 0,
+       "n": 65,
+       "rate": 0.0,
+       "wilson": [
+        0.0,
+        0.0558
+       ]
+      }
+     },
+     "stale_use_tau_gold": {
+      "first_sentence": {
+       "k": 11,
+       "n": 65,
+       "rate": 0.1692,
+       "wilson": [
+        0.0972,
+        0.2782
+       ]
+      },
+      "last_sentence": {
+       "k": 11,
+       "n": 65,
+       "rate": 0.1692,
+       "wilson": [
+        0.0972,
+        0.2782
+       ]
+      },
+      "minus_question": {
+       "k": 10,
+       "n": 65,
+       "rate": 0.1538,
+       "wilson": [
+        0.0858,
+        0.2606
+       ]
+      },
+      "raw_full": {
+       "k": 11,
+       "n": 65,
+       "rate": 0.1692,
+       "wilson": [
+        0.0972,
+        0.2782
+       ]
+      },
+      "registered": {
+       "k": 12,
+       "n": 78,
+       "rate": 0.1538,
+       "wilson": [
+        0.0903,
+        0.2499
+       ]
+      },
+      "scorable": {
+       "k": 11,
+       "n": 65,
+       "rate": 0.1692,
+       "wilson": [
+        0.0972,
+        0.2782
+       ]
+      }
+     }
+    },
+    "present": {
+     "correct": {
+      "first_sentence": {
+       "k": 44,
+       "n": 155,
+       "rate": 0.2839,
+       "wilson": [
+        0.2188,
+        0.3594
+       ]
+      },
+      "last_sentence": {
+       "k": 43,
+       "n": 155,
+       "rate": 0.2774,
+       "wilson": [
+        0.213,
+        0.3526
+       ]
+      },
+      "minus_question": {
+       "k": 41,
+       "n": 155,
+       "rate": 0.2645,
+       "wilson": [
+        0.2014,
+        0.339
+       ]
+      },
+      "raw_full": {
+       "k": 44,
+       "n": 155,
+       "rate": 0.2839,
+       "wilson": [
+        0.2188,
+        0.3594
+       ]
+      },
+      "registered": {
+       "k": 44,
+       "n": 155,
+       "rate": 0.2839,
+       "wilson": [
+        0.2188,
+        0.3594
+       ]
+      }
+     },
+     "correct_tau_hi": {
+      "first_sentence": {
+       "k": 14,
+       "n": 155,
+       "rate": 0.0903,
+       "wilson": [
+        0.0546,
+        0.1459
+       ]
+      },
+      "last_sentence": {
+       "k": 14,
+       "n": 155,
+       "rate": 0.0903,
+       "wilson": [
+        0.0546,
+        0.1459
+       ]
+      },
+      "minus_question": {
+       "k": 11,
+       "n": 155,
+       "rate": 0.071,
+       "wilson": [
+        0.0401,
+        0.1226
+       ]
+      },
+      "raw_full": {
+       "k": 14,
+       "n": 155,
+       "rate": 0.0903,
+       "wilson": [
+        0.0546,
+        0.1459
+       ]
+      },
+      "registered": {
+       "k": 14,
+       "n": 155,
+       "rate": 0.0903,
+       "wilson": [
+        0.0546,
+        0.1459
+       ]
+      }
+     }
+    }
+   }
+  }
+ },
+ "sentence_split": "re.split(r\"(?<=[.!?])\\s+(?=[A-Z\\\"'(])\") -- heuristic; abbreviations such as 'Dr.' or '8th.' may over-split"
+}

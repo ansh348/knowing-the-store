@@ -1,0 +1,1054 @@
+{
+ "spec": "reviews/r114/SPEC_R114.md section 2",
+ "n_jobs": 99,
+ "policy_rows": 126,
+ "lines": 1061,
+ "per_policy": {
+  "MODEL": 10,
+  "LOOKUP-LIT": 72,
+  "LOOKUP": 17,
+  "MODEL-ALL": 10,
+  "LOOKUP-ALL": 17
+ },
+ "header_sha256": "1fe1eb17795796bb95617a28ac7b7628b9607abc2fb8b51989cbf70d1de08d6b",
+ "user_answer_a4_sha256": "e6c155364f8c69bef8af0c86941b3bf8fc5e739e043ac3ef2f86f422ff40cd7d",
+ "system_answer_sha256": "af1c69c8817d286727e44027a9d469c875a4da1eb111d7351eb76094b48ea4a9",
+ "lanes": {
+  "MINI": {
+   "model": "gpt-4.1-mini",
+   "temperature": 0,
+   "seed": 42,
+   "max_tokens": 200,
+   "json_mode": true,
+   "retry": 1
+  },
+  "H45": {
+   "model": "claude-haiku-4-5-20251001",
+   "temperature": 0,
+   "max_tokens": 200,
+   "synchronous": true,
+   "parse": "last JSON object",
+   "retry": 1
+  }
+ },
+ "jobs": [
+  {
+   "key": "frbank:elena:elena_q10:CAT-ABLATED|209877d444fe4729",
+   "item_id": "frbank:elena:elena_q10:CAT-ABLATED",
+   "persona": "elena",
+   "policies": [
+    "MODEL"
+   ],
+   "view_sha": "209877d444fe4729",
+   "n_lines": 8
+  },
+  {
+   "key": "frbank:lily:lily_q05:SLOT-ABLATED|a6bffd24e1a1c8bc",
+   "item_id": "frbank:lily:lily_q05:SLOT-ABLATED",
+   "persona": "lily",
+   "policies": [
+    "MODEL"
+   ],
+   "view_sha": "a6bffd24e1a1c8bc",
+   "n_lines": 12
+  },
+  {
+   "key": "frbank:lily:lily_q08:SLOT-ABLATED|e61647d013ab5dfa",
+   "item_id": "frbank:lily:lily_q08:SLOT-ABLATED",
+   "persona": "lily",
+   "policies": [
+    "MODEL"
+   ],
+   "view_sha": "e61647d013ab5dfa",
+   "n_lines": 12
+  },
+  {
+   "key": "frbank:patrick:patrick_q08:CAT-ABLATED|e4cfaa363f25efad",
+   "item_id": "frbank:patrick:patrick_q08:CAT-ABLATED",
+   "persona": "patrick",
+   "policies": [
+    "MODEL",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "e4cfaa363f25efad",
+   "n_lines": 6
+  },
+  {
+   "key": "frbank:patrick:patrick_q08:SLOT-ABLATED|944dfd7a466831fd",
+   "item_id": "frbank:patrick:patrick_q08:SLOT-ABLATED",
+   "persona": "patrick",
+   "policies": [
+    "MODEL",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "944dfd7a466831fd",
+   "n_lines": 6
+  },
+  {
+   "key": "frbank:raj:raj_q03:CAT-ABLATED|b03bf1379f02047c",
+   "item_id": "frbank:raj:raj_q03:CAT-ABLATED",
+   "persona": "raj",
+   "policies": [
+    "MODEL",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "b03bf1379f02047c",
+   "n_lines": 7
+  },
+  {
+   "key": "frbank:raj:raj_q09:SLOT-ABLATED|a3fd926dda91ae36",
+   "item_id": "frbank:raj:raj_q09:SLOT-ABLATED",
+   "persona": "raj",
+   "policies": [
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "a3fd926dda91ae36",
+   "n_lines": 9
+  },
+  {
+   "key": "frbank:yoli:yoli_q07:CAT-ABLATED|0ce422d103ed7824",
+   "item_id": "frbank:yoli:yoli_q07:CAT-ABLATED",
+   "persona": "yoli",
+   "policies": [
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "0ce422d103ed7824",
+   "n_lines": 6
+  },
+  {
+   "key": "frbank:yoli:yoli_q07:SLOT-ABLATED|edc8f61bb899a50f",
+   "item_id": "frbank:yoli:yoli_q07:SLOT-ABLATED",
+   "persona": "yoli",
+   "policies": [
+    "MODEL",
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "edc8f61bb899a50f",
+   "n_lines": 11
+  },
+  {
+   "key": "probe:frbank:dariush:92838680|b65f893d50133b5f",
+   "item_id": "probe:frbank:dariush:92838680",
+   "persona": "dariush",
+   "policies": [
+    "MODEL",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "b65f893d50133b5f",
+   "n_lines": 6
+  },
+  {
+   "key": "frbank:kenji:kenji_q09:SLOT-ABLATED|634486991bcade4c",
+   "item_id": "frbank:kenji:kenji_q09:SLOT-ABLATED",
+   "persona": "kenji",
+   "policies": [
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "634486991bcade4c",
+   "n_lines": 8
+  },
+  {
+   "key": "frbank:mehmet:mehmet_q13:SLOT-ABLATED|2c089afe7d0ce2ac",
+   "item_id": "frbank:mehmet:mehmet_q13:SLOT-ABLATED",
+   "persona": "mehmet",
+   "policies": [
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "2c089afe7d0ce2ac",
+   "n_lines": 7
+  },
+  {
+   "key": "frbank:pan:pan_q10:CAT-ABLATED|43445a5ed2539bae",
+   "item_id": "frbank:pan:pan_q10:CAT-ABLATED",
+   "persona": "pan",
+   "policies": [
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "43445a5ed2539bae",
+   "n_lines": 6
+  },
+  {
+   "key": "frbank:pan:pan_q10:SLOT-ABLATED|a56aae8b1e818418",
+   "item_id": "frbank:pan:pan_q10:SLOT-ABLATED",
+   "persona": "pan",
+   "policies": [
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "a56aae8b1e818418",
+   "n_lines": 12
+  },
+  {
+   "key": "probe:frbank:aroha:79127530|42faffde2eedf72c",
+   "item_id": "probe:frbank:aroha:79127530",
+   "persona": "aroha",
+   "policies": [
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "42faffde2eedf72c",
+   "n_lines": 10
+  },
+  {
+   "key": "probe:frbank:aroha:90080294|3dbdd62bd1d834de",
+   "item_id": "probe:frbank:aroha:90080294",
+   "persona": "aroha",
+   "policies": [
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "3dbdd62bd1d834de",
+   "n_lines": 10
+  },
+  {
+   "key": "probe:frbank:ingrid:63373877|3a3dcc0018457031",
+   "item_id": "probe:frbank:ingrid:63373877",
+   "persona": "ingrid",
+   "policies": [
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "3a3dcc0018457031",
+   "n_lines": 14
+  },
+  {
+   "key": "probe:frbank:kenji:72579794|a0f34f6d4376fbf0",
+   "item_id": "probe:frbank:kenji:72579794",
+   "persona": "kenji",
+   "policies": [
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "a0f34f6d4376fbf0",
+   "n_lines": 8
+  },
+  {
+   "key": "probe:frbank:mehmet:56208549|915c8c2c967f1839",
+   "item_id": "probe:frbank:mehmet:56208549",
+   "persona": "mehmet",
+   "policies": [
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "915c8c2c967f1839",
+   "n_lines": 7
+  },
+  {
+   "key": "probe:frbank:tom:66011798|778f00c90b3c7256",
+   "item_id": "probe:frbank:tom:66011798",
+   "persona": "tom",
+   "policies": [
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "778f00c90b3c7256",
+   "n_lines": 8
+  },
+  {
+   "key": "probe:frbank:yoli:23056170|2a8723ad6155e67c",
+   "item_id": "probe:frbank:yoli:23056170",
+   "persona": "yoli",
+   "policies": [
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "2a8723ad6155e67c",
+   "n_lines": 12
+  },
+  {
+   "key": "probe:frbank:yoli:25566548|da4bc83bfb662ad2",
+   "item_id": "probe:frbank:yoli:25566548",
+   "persona": "yoli",
+   "policies": [
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "da4bc83bfb662ad2",
+   "n_lines": 12
+  },
+  {
+   "key": "probe:frbank:yoli:41440540|5675a2c50facf138",
+   "item_id": "probe:frbank:yoli:41440540",
+   "persona": "yoli",
+   "policies": [
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "5675a2c50facf138",
+   "n_lines": 12
+  },
+  {
+   "key": "probe:frbank:yoli:82993208|1e1c459553143b0c",
+   "item_id": "probe:frbank:yoli:82993208",
+   "persona": "yoli",
+   "policies": [
+    "LOOKUP",
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "1e1c459553143b0c",
+   "n_lines": 12
+  },
+  {
+   "key": "frbank:elena:elena_q10:CAT-ABLATED|7142e326ac0cc94b",
+   "item_id": "frbank:elena:elena_q10:CAT-ABLATED",
+   "persona": "elena",
+   "policies": [
+    "MODEL-ALL"
+   ],
+   "view_sha": "7142e326ac0cc94b",
+   "n_lines": 16
+  },
+  {
+   "key": "frbank:lily:lily_q05:SLOT-ABLATED|a1176433b7370cf2",
+   "item_id": "frbank:lily:lily_q05:SLOT-ABLATED",
+   "persona": "lily",
+   "policies": [
+    "MODEL-ALL"
+   ],
+   "view_sha": "a1176433b7370cf2",
+   "n_lines": 14
+  },
+  {
+   "key": "frbank:lily:lily_q08:SLOT-ABLATED|d0840bf70f2cc7c7",
+   "item_id": "frbank:lily:lily_q08:SLOT-ABLATED",
+   "persona": "lily",
+   "policies": [
+    "MODEL-ALL"
+   ],
+   "view_sha": "d0840bf70f2cc7c7",
+   "n_lines": 14
+  },
+  {
+   "key": "frbank:patrick:patrick_q08:CAT-ABLATED|abff7a5107384cb1",
+   "item_id": "frbank:patrick:patrick_q08:CAT-ABLATED",
+   "persona": "patrick",
+   "policies": [
+    "MODEL-ALL"
+   ],
+   "view_sha": "abff7a5107384cb1",
+   "n_lines": 11
+  },
+  {
+   "key": "frbank:patrick:patrick_q08:SLOT-ABLATED|7f908369b24db7ef",
+   "item_id": "frbank:patrick:patrick_q08:SLOT-ABLATED",
+   "persona": "patrick",
+   "policies": [
+    "MODEL-ALL"
+   ],
+   "view_sha": "7f908369b24db7ef",
+   "n_lines": 12
+  },
+  {
+   "key": "frbank:raj:raj_q03:CAT-ABLATED|ecb5913f9727d199",
+   "item_id": "frbank:raj:raj_q03:CAT-ABLATED",
+   "persona": "raj",
+   "policies": [
+    "MODEL-ALL"
+   ],
+   "view_sha": "ecb5913f9727d199",
+   "n_lines": 10
+  },
+  {
+   "key": "frbank:raj:raj_q09:SLOT-ABLATED|623ced4befc0672c",
+   "item_id": "frbank:raj:raj_q09:SLOT-ABLATED",
+   "persona": "raj",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "623ced4befc0672c",
+   "n_lines": 23
+  },
+  {
+   "key": "frbank:yoli:yoli_q07:CAT-ABLATED|539e3aa809796ef7",
+   "item_id": "frbank:yoli:yoli_q07:CAT-ABLATED",
+   "persona": "yoli",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "539e3aa809796ef7",
+   "n_lines": 9
+  },
+  {
+   "key": "frbank:yoli:yoli_q07:SLOT-ABLATED|a007ab70805e1c86",
+   "item_id": "frbank:yoli:yoli_q07:SLOT-ABLATED",
+   "persona": "yoli",
+   "policies": [
+    "MODEL-ALL",
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "a007ab70805e1c86",
+   "n_lines": 14
+  },
+  {
+   "key": "probe:frbank:dariush:92838680|2274b7996680b765",
+   "item_id": "probe:frbank:dariush:92838680",
+   "persona": "dariush",
+   "policies": [
+    "MODEL-ALL"
+   ],
+   "view_sha": "2274b7996680b765",
+   "n_lines": 14
+  },
+  {
+   "key": "frbank:kenji:kenji_q09:SLOT-ABLATED|6e2c0237b983dac1",
+   "item_id": "frbank:kenji:kenji_q09:SLOT-ABLATED",
+   "persona": "kenji",
+   "policies": [
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "6e2c0237b983dac1",
+   "n_lines": 16
+  },
+  {
+   "key": "frbank:mehmet:mehmet_q13:SLOT-ABLATED|ad4594e75358f284",
+   "item_id": "frbank:mehmet:mehmet_q13:SLOT-ABLATED",
+   "persona": "mehmet",
+   "policies": [
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "ad4594e75358f284",
+   "n_lines": 13
+  },
+  {
+   "key": "frbank:pan:pan_q10:CAT-ABLATED|7ccdaa6af210bd68",
+   "item_id": "frbank:pan:pan_q10:CAT-ABLATED",
+   "persona": "pan",
+   "policies": [
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "7ccdaa6af210bd68",
+   "n_lines": 15
+  },
+  {
+   "key": "frbank:pan:pan_q10:SLOT-ABLATED|d2da60f7f951258e",
+   "item_id": "frbank:pan:pan_q10:SLOT-ABLATED",
+   "persona": "pan",
+   "policies": [
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "d2da60f7f951258e",
+   "n_lines": 21
+  },
+  {
+   "key": "probe:frbank:aroha:79127530|e0070b9e881bd1cf",
+   "item_id": "probe:frbank:aroha:79127530",
+   "persona": "aroha",
+   "policies": [
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "e0070b9e881bd1cf",
+   "n_lines": 23
+  },
+  {
+   "key": "probe:frbank:aroha:90080294|a6aa1b6a711fcbb3",
+   "item_id": "probe:frbank:aroha:90080294",
+   "persona": "aroha",
+   "policies": [
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "a6aa1b6a711fcbb3",
+   "n_lines": 23
+  },
+  {
+   "key": "probe:frbank:ingrid:63373877|725b27495aae89a4",
+   "item_id": "probe:frbank:ingrid:63373877",
+   "persona": "ingrid",
+   "policies": [
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "725b27495aae89a4",
+   "n_lines": 16
+  },
+  {
+   "key": "probe:frbank:kenji:72579794|b379c7170769b6d7",
+   "item_id": "probe:frbank:kenji:72579794",
+   "persona": "kenji",
+   "policies": [
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "b379c7170769b6d7",
+   "n_lines": 17
+  },
+  {
+   "key": "probe:frbank:mehmet:56208549|549c54f8f08e63eb",
+   "item_id": "probe:frbank:mehmet:56208549",
+   "persona": "mehmet",
+   "policies": [
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "549c54f8f08e63eb",
+   "n_lines": 13
+  },
+  {
+   "key": "probe:frbank:tom:66011798|1fc5e16327d89d81",
+   "item_id": "probe:frbank:tom:66011798",
+   "persona": "tom",
+   "policies": [
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "1fc5e16327d89d81",
+   "n_lines": 17
+  },
+  {
+   "key": "probe:frbank:yoli:23056170|4e08e9d2abf4199c",
+   "item_id": "probe:frbank:yoli:23056170",
+   "persona": "yoli",
+   "policies": [
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "4e08e9d2abf4199c",
+   "n_lines": 15
+  },
+  {
+   "key": "probe:frbank:yoli:25566548|e27cb384b7d6003b",
+   "item_id": "probe:frbank:yoli:25566548",
+   "persona": "yoli",
+   "policies": [
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "e27cb384b7d6003b",
+   "n_lines": 15
+  },
+  {
+   "key": "probe:frbank:yoli:41440540|a1fffb75862f5b80",
+   "item_id": "probe:frbank:yoli:41440540",
+   "persona": "yoli",
+   "policies": [
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "a1fffb75862f5b80",
+   "n_lines": 15
+  },
+  {
+   "key": "probe:frbank:yoli:82993208|b4286b43b34417c9",
+   "item_id": "probe:frbank:yoli:82993208",
+   "persona": "yoli",
+   "policies": [
+    "LOOKUP-ALL"
+   ],
+   "view_sha": "b4286b43b34417c9",
+   "n_lines": 15
+  },
+  {
+   "key": "frbank:aisha:aisha_q08:SLOT-ABLATED|7ce03a3c3c82ec74",
+   "item_id": "frbank:aisha:aisha_q08:SLOT-ABLATED",
+   "persona": "aisha",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "7ce03a3c3c82ec74",
+   "n_lines": 12
+  },
+  {
+   "key": "frbank:dariush:dariush_q09:SLOT-ABLATED|a69a4e645832d176",
+   "item_id": "frbank:dariush:dariush_q09:SLOT-ABLATED",
+   "persona": "dariush",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "a69a4e645832d176",
+   "n_lines": 6
+  },
+  {
+   "key": "frbank:fatima:fatima_q11:SLOT-ABLATED|7504574a7f3bd155",
+   "item_id": "frbank:fatima:fatima_q11:SLOT-ABLATED",
+   "persona": "fatima",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "7504574a7f3bd155",
+   "n_lines": 10
+  },
+  {
+   "key": "frbank:ingrid:ingrid_q08:SLOT-ABLATED|6766a87665bfeb8a",
+   "item_id": "frbank:ingrid:ingrid_q08:SLOT-ABLATED",
+   "persona": "ingrid",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "6766a87665bfeb8a",
+   "n_lines": 14
+  },
+  {
+   "key": "frbank:kenji:kenji_q07:SLOT-ABLATED|21a77febc438b8ff",
+   "item_id": "frbank:kenji:kenji_q07:SLOT-ABLATED",
+   "persona": "kenji",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "21a77febc438b8ff",
+   "n_lines": 8
+  },
+  {
+   "key": "frbank:leila:leila_q08:CAT-ABLATED|2b3c9e4299c06493",
+   "item_id": "frbank:leila:leila_q08:CAT-ABLATED",
+   "persona": "leila",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "2b3c9e4299c06493",
+   "n_lines": 8
+  },
+  {
+   "key": "frbank:leila:leila_q08:SLOT-ABLATED|d37e15d28b845729",
+   "item_id": "frbank:leila:leila_q08:SLOT-ABLATED",
+   "persona": "leila",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "d37e15d28b845729",
+   "n_lines": 8
+  },
+  {
+   "key": "frbank:leila:leila_q09:CAT-ABLATED|c71255cf52ae985f",
+   "item_id": "frbank:leila:leila_q09:CAT-ABLATED",
+   "persona": "leila",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "c71255cf52ae985f",
+   "n_lines": 8
+  },
+  {
+   "key": "frbank:leila:leila_q09:SLOT-ABLATED|363b53bee2a4fbf9",
+   "item_id": "frbank:leila:leila_q09:SLOT-ABLATED",
+   "persona": "leila",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "363b53bee2a4fbf9",
+   "n_lines": 8
+  },
+  {
+   "key": "frbank:marley:marley_q11:CAT-ABLATED|3d41a6d4fc9dced7",
+   "item_id": "frbank:marley:marley_q11:CAT-ABLATED",
+   "persona": "marley",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "3d41a6d4fc9dced7",
+   "n_lines": 7
+  },
+  {
+   "key": "frbank:marley:marley_q11:SLOT-ABLATED|039a65451864ae56",
+   "item_id": "frbank:marley:marley_q11:SLOT-ABLATED",
+   "persona": "marley",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "039a65451864ae56",
+   "n_lines": 7
+  },
+  {
+   "key": "frbank:mehmet:mehmet_q05:CAT-ABLATED|afb12d48d154406b",
+   "item_id": "frbank:mehmet:mehmet_q05:CAT-ABLATED",
+   "persona": "mehmet",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "afb12d48d154406b",
+   "n_lines": 7
+  },
+  {
+   "key": "frbank:mehmet:mehmet_q05:SLOT-ABLATED|6155dbcd0f31cbe3",
+   "item_id": "frbank:mehmet:mehmet_q05:SLOT-ABLATED",
+   "persona": "mehmet",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "6155dbcd0f31cbe3",
+   "n_lines": 7
+  },
+  {
+   "key": "frbank:mehmet:mehmet_q10:SLOT-ABLATED|63e6d3600d776700",
+   "item_id": "frbank:mehmet:mehmet_q10:SLOT-ABLATED",
+   "persona": "mehmet",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "63e6d3600d776700",
+   "n_lines": 7
+  },
+  {
+   "key": "frbank:pan:pan_q05:SLOT-ABLATED|d689b029ede7ebc9",
+   "item_id": "frbank:pan:pan_q05:SLOT-ABLATED",
+   "persona": "pan",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "d689b029ede7ebc9",
+   "n_lines": 12
+  },
+  {
+   "key": "frbank:raj:raj_q07:CAT-ABLATED|a34e0647884a0833",
+   "item_id": "frbank:raj:raj_q07:CAT-ABLATED",
+   "persona": "raj",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "a34e0647884a0833",
+   "n_lines": 7
+  },
+  {
+   "key": "frbank:raj:raj_q07:SLOT-ABLATED|fc5c8acb7f06fc0f",
+   "item_id": "frbank:raj:raj_q07:SLOT-ABLATED",
+   "persona": "raj",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "fc5c8acb7f06fc0f",
+   "n_lines": 9
+  },
+  {
+   "key": "frbank:raj:raj_q08:SLOT-ABLATED|dcffaff7f2f4567a",
+   "item_id": "frbank:raj:raj_q08:SLOT-ABLATED",
+   "persona": "raj",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "dcffaff7f2f4567a",
+   "n_lines": 9
+  },
+  {
+   "key": "frbank:raj:raj_q12:SLOT-ABLATED|d806b22779ea166e",
+   "item_id": "frbank:raj:raj_q12:SLOT-ABLATED",
+   "persona": "raj",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "d806b22779ea166e",
+   "n_lines": 9
+  },
+  {
+   "key": "frbank:samuel:samuel_q04:CAT-ABLATED|d29b62235574642d",
+   "item_id": "frbank:samuel:samuel_q04:CAT-ABLATED",
+   "persona": "samuel",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "d29b62235574642d",
+   "n_lines": 9
+  },
+  {
+   "key": "frbank:samuel:samuel_q04:SLOT-ABLATED|e1d64c6a676ef6e1",
+   "item_id": "frbank:samuel:samuel_q04:SLOT-ABLATED",
+   "persona": "samuel",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "e1d64c6a676ef6e1",
+   "n_lines": 13
+  },
+  {
+   "key": "frbank:tom:tom_q06:CAT-ABLATED|cc320f8c8a424952",
+   "item_id": "frbank:tom:tom_q06:CAT-ABLATED",
+   "persona": "tom",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "cc320f8c8a424952",
+   "n_lines": 9
+  },
+  {
+   "key": "frbank:tom:tom_q08:CAT-ABLATED|e62a78ce823d5483",
+   "item_id": "frbank:tom:tom_q08:CAT-ABLATED",
+   "persona": "tom",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "e62a78ce823d5483",
+   "n_lines": 9
+  },
+  {
+   "key": "frbank:tom:tom_q08:SLOT-ABLATED|466a8682a3dbfd7d",
+   "item_id": "frbank:tom:tom_q08:SLOT-ABLATED",
+   "persona": "tom",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "466a8682a3dbfd7d",
+   "n_lines": 9
+  },
+  {
+   "key": "frbank:tom:tom_q11:SLOT-ABLATED|842f6ae65e2cb524",
+   "item_id": "frbank:tom:tom_q11:SLOT-ABLATED",
+   "persona": "tom",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "842f6ae65e2cb524",
+   "n_lines": 9
+  },
+  {
+   "key": "frbank:valentina:valentina_q05:SLOT-ABLATED|ca72ea263e95765f",
+   "item_id": "frbank:valentina:valentina_q05:SLOT-ABLATED",
+   "persona": "valentina",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "ca72ea263e95765f",
+   "n_lines": 7
+  },
+  {
+   "key": "frbank:yoli:yoli_q08:SLOT-ABLATED|6dab5fea93b14d97",
+   "item_id": "frbank:yoli:yoli_q08:SLOT-ABLATED",
+   "persona": "yoli",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "6dab5fea93b14d97",
+   "n_lines": 12
+  },
+  {
+   "key": "probe:frbank:amara:44980553|23f9de8887c38f96",
+   "item_id": "probe:frbank:amara:44980553",
+   "persona": "amara",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "23f9de8887c38f96",
+   "n_lines": 12
+  },
+  {
+   "key": "probe:frbank:amara:56016561|3403c50a23bde8a3",
+   "item_id": "probe:frbank:amara:56016561",
+   "persona": "amara",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "3403c50a23bde8a3",
+   "n_lines": 12
+  },
+  {
+   "key": "probe:frbank:amara:86260058|e42195f39dcad1d5",
+   "item_id": "probe:frbank:amara:86260058",
+   "persona": "amara",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "e42195f39dcad1d5",
+   "n_lines": 12
+  },
+  {
+   "key": "probe:frbank:aroha:51065003|d3de8cc9cacea759",
+   "item_id": "probe:frbank:aroha:51065003",
+   "persona": "aroha",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "d3de8cc9cacea759",
+   "n_lines": 10
+  },
+  {
+   "key": "probe:frbank:callum:15070412|e3f4bb7dafdbae68",
+   "item_id": "probe:frbank:callum:15070412",
+   "persona": "callum",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "e3f4bb7dafdbae68",
+   "n_lines": 9
+  },
+  {
+   "key": "probe:frbank:callum:16873796|ac6e4624666be26b",
+   "item_id": "probe:frbank:callum:16873796",
+   "persona": "callum",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "ac6e4624666be26b",
+   "n_lines": 9
+  },
+  {
+   "key": "probe:frbank:elena:36462493|4e9c59800990c4ed",
+   "item_id": "probe:frbank:elena:36462493",
+   "persona": "elena",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "4e9c59800990c4ed",
+   "n_lines": 8
+  },
+  {
+   "key": "probe:frbank:fatima:88922627|b4b42af1ca112a84",
+   "item_id": "probe:frbank:fatima:88922627",
+   "persona": "fatima",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "b4b42af1ca112a84",
+   "n_lines": 10
+  },
+  {
+   "key": "probe:frbank:jerome:14631081|49747745982e5720",
+   "item_id": "probe:frbank:jerome:14631081",
+   "persona": "jerome",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "49747745982e5720",
+   "n_lines": 13
+  },
+  {
+   "key": "probe:frbank:joonho:38353346|c0a17b3bb29328f2",
+   "item_id": "probe:frbank:joonho:38353346",
+   "persona": "joonho",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "c0a17b3bb29328f2",
+   "n_lines": 7
+  },
+  {
+   "key": "probe:frbank:kenji:76606586|1233c98c7e267697",
+   "item_id": "probe:frbank:kenji:76606586",
+   "persona": "kenji",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "1233c98c7e267697",
+   "n_lines": 8
+  },
+  {
+   "key": "probe:frbank:leila:53745614|ef460ea07b9839a7",
+   "item_id": "probe:frbank:leila:53745614",
+   "persona": "leila",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "ef460ea07b9839a7",
+   "n_lines": 8
+  },
+  {
+   "key": "probe:frbank:lily:59663591|bf1a25adb2bcc14a",
+   "item_id": "probe:frbank:lily:59663591",
+   "persona": "lily",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "bf1a25adb2bcc14a",
+   "n_lines": 12
+  },
+  {
+   "key": "probe:frbank:priya:69699110|bd5795eea20b7404",
+   "item_id": "probe:frbank:priya:69699110",
+   "persona": "priya",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "bd5795eea20b7404",
+   "n_lines": 6
+  },
+  {
+   "key": "probe:frbank:raj:51065003|63eb3aae700b62d0",
+   "item_id": "probe:frbank:raj:51065003",
+   "persona": "raj",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "63eb3aae700b62d0",
+   "n_lines": 9
+  },
+  {
+   "key": "probe:frbank:rosa:31623610|176df234bbe8ca32",
+   "item_id": "probe:frbank:rosa:31623610",
+   "persona": "rosa",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "176df234bbe8ca32",
+   "n_lines": 8
+  },
+  {
+   "key": "probe:frbank:rosa:84851768|59e2f6b14e22f676",
+   "item_id": "probe:frbank:rosa:84851768",
+   "persona": "rosa",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "59e2f6b14e22f676",
+   "n_lines": 8
+  },
+  {
+   "key": "probe:frbank:saga:44353198|276914ae6140d794",
+   "item_id": "probe:frbank:saga:44353198",
+   "persona": "saga",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "276914ae6140d794",
+   "n_lines": 10
+  },
+  {
+   "key": "probe:frbank:samuel:6283392|3f22dfaf7b0a407a",
+   "item_id": "probe:frbank:samuel:6283392",
+   "persona": "samuel",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "3f22dfaf7b0a407a",
+   "n_lines": 13
+  },
+  {
+   "key": "probe:frbank:tom:55024768|688585dcaaf07497",
+   "item_id": "probe:frbank:tom:55024768",
+   "persona": "tom",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "688585dcaaf07497",
+   "n_lines": 9
+  },
+  {
+   "key": "probe:frbank:zara:2707808|d6cf3a51eea08b4b",
+   "item_id": "probe:frbank:zara:2707808",
+   "persona": "zara",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "d6cf3a51eea08b4b",
+   "n_lines": 9
+  },
+  {
+   "key": "probe:frbank:zara:44980553|688d273e6051ecad",
+   "item_id": "probe:frbank:zara:44980553",
+   "persona": "zara",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "688d273e6051ecad",
+   "n_lines": 9
+  },
+  {
+   "key": "probe:frbank:zara:69057771|36008a9f5c8cbd62",
+   "item_id": "probe:frbank:zara:69057771",
+   "persona": "zara",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "36008a9f5c8cbd62",
+   "n_lines": 9
+  },
+  {
+   "key": "probe:frbank:zara:83811390|634c60277bae51ac",
+   "item_id": "probe:frbank:zara:83811390",
+   "persona": "zara",
+   "policies": [
+    "LOOKUP-LIT"
+   ],
+   "view_sha": "634c60277bae51ac",
+   "n_lines": 9
+  }
+ ],
+ "when": "2026-09-17T00:29:54"
+}

@@ -1,0 +1,441 @@
+{
+  "H_E3c_VOID": {
+    "adjusted": 0.0,
+    "cause": "tau_FOK = 0.0; arm (a) realised retrieval rate 1.000; a permutation of FOK cannot move a decision, so (d) is byte-identical to (a)",
+    "ci_hi": 0.0,
+    "ci_lo": 0.0,
+    "disposition": "VOID BY DERIVATION (E3_AMENDMENT_2)",
+    "excludes_zero": false,
+    "n": 834,
+    "not_a_claim": true,
+    "prompt_pairs_differing": 0,
+    "unadjusted": 0.0
+  },
+  "absence_mix": {
+    "E2_vs_E3": {
+      "E2": {
+        "L": 0.5467,
+        "manufactured_share": 0.36,
+        "p_star": 0.5683,
+        "realised_rate": 0.684,
+        "tau_FOK": 0.2
+      },
+      "E3": {
+        "L": 0.10416666666666663,
+        "manufactured_share": 0.0,
+        "p_star": 0.20106053910737953,
+        "realised_rate": 1.0,
+        "tau_FOK": 0.0
+      }
+    },
+    "mechanism": "RESULTS_E2 3.6: ablation-induced ABSENT 1.000->0.235 credit with 70.1% confabulation; natural-absent probes 1.000->0.917 with 8.3%",
+    "per_rung_absence_share": {
+      "14": 0.6722222222222223,
+      "20": 0.61,
+      "24": 0.5654205607476636,
+      "32": 0.5041666666666667
+    }
+  },
+  "absence_split": {
+    "natural_absent_probe": {
+      "(a'') CAUTION-ONLY": {
+        "confab": 0.047520661157024795,
+        "credit": 0.9504132231404959,
+        "n": 484
+      },
+      "(a') CONTENT-LOBOTOMY": {
+        "confab": 0.05785123966942149,
+        "credit": 0.9400826446280992,
+        "n": 484
+      },
+      "(a) FULL": {
+        "confab": 0.047520661157024795,
+        "credit": 0.9504132231404959,
+        "n": 484
+      },
+      "(b) always-retrieve": {
+        "confab": 0.05785123966942149,
+        "credit": 0.9400826446280992,
+        "n": 484
+      },
+      "(c) no-memory floor": {
+        "confab": 0.0,
+        "credit": 1.0,
+        "n": 484
+      },
+      "(d) SHUFFLED-FOK [VOID]": {
+        "confab": 0.047520661157024795,
+        "credit": 0.9504132231404959,
+        "n": 484
+      }
+    },
+    "not_yet_written": {
+      "(a'') CAUTION-ONLY": {
+        "confab": 1.0,
+        "credit": 0.0,
+        "n": 1
+      },
+      "(a') CONTENT-LOBOTOMY": {
+        "confab": 1.0,
+        "credit": 0.0,
+        "n": 1
+      },
+      "(a) FULL": {
+        "confab": 1.0,
+        "credit": 0.0,
+        "n": 1
+      },
+      "(b) always-retrieve": {
+        "confab": 1.0,
+        "credit": 0.0,
+        "n": 1
+      },
+      "(c) no-memory floor": {
+        "confab": 0.0,
+        "credit": 1.0,
+        "n": 1
+      },
+      "(d) SHUFFLED-FOK [VOID]": {
+        "confab": 1.0,
+        "credit": 0.0,
+        "n": 1
+      }
+    }
+  },
+  "arm_table": {
+    "(a'') CAUTION-ONLY": {
+      "confab": 0.07673860911270983,
+      "cost": 0.0017549311702449997,
+      "cost_cached": 0.0014034686070716396,
+      "credit": 0.7559952038369304,
+      "five_state": {
+        "abstain": 566,
+        "confab": 64,
+        "correct": 123,
+        "partial": 81
+      },
+      "n": 834,
+      "retrieval_rate": 1.0
+    },
+    "(a') CONTENT-LOBOTOMY": {
+      "confab": 0.08273381294964029,
+      "cost": 0.002504115822523176,
+      "cost_cached": 0.002152653259349817,
+      "credit": 0.7643884892086331,
+      "five_state": {
+        "abstain": 547,
+        "confab": 69,
+        "correct": 133,
+        "partial": 85
+      },
+      "n": 834,
+      "retrieval_rate": 1.0
+    },
+    "(a) FULL": {
+      "confab": 0.08513189448441247,
+      "cost": 0.002477991721803751,
+      "cost_cached": 0.0021265291586303925,
+      "credit": 0.763189448441247,
+      "five_state": {
+        "abstain": 550,
+        "confab": 71,
+        "correct": 120,
+        "partial": 93
+      },
+      "n": 834,
+      "retrieval_rate": 1.0
+    },
+    "(b) always-retrieve": {
+      "confab": 0.09712230215827339,
+      "cost": 0.0009590917266187051,
+      "cost_cached": 0.0009590917266187051,
+      "credit": 0.7511990407673861,
+      "five_state": {
+        "abstain": 547,
+        "confab": 81,
+        "correct": 113,
+        "partial": 93
+      },
+      "n": 834,
+      "retrieval_rate": 1.0
+    },
+    "(c) no-memory floor": {
+      "confab": 0.0,
+      "cost": 0.0004260000000000001,
+      "cost_cached": 0.0004260000000000001,
+      "credit": 0.5815347721822542,
+      "five_state": {
+        "abstain": 834
+      },
+      "n": 834,
+      "retrieval_rate": 0.0
+    },
+    "(d) SHUFFLED-FOK [VOID]": {
+      "confab": 0.08513189448441247,
+      "cost": 0.002477991721803751,
+      "cost_cached": 0.0021265291586303925,
+      "credit": 0.763189448441247,
+      "five_state": {
+        "abstain": 550,
+        "confab": 71,
+        "correct": 120,
+        "partial": 93
+      },
+      "n": 834,
+      "retrieval_rate": 1.0
+    }
+  },
+  "economics": {
+    "answer_usd_by_state": {
+      "S0-nofacts": 0.000426,
+      "S1-facts": 0.000959091726618705,
+      "S2-facts-caution": 0.001170134892086331,
+      "S3-facts-caution-annotated": 0.001893195443645084,
+      "S3p-facts-caution-scrambled": 0.0019193195443645084
+    },
+    "gate_call_usd": 0.000584796278158668,
+    "index_maintenance": {
+      "clock_driven_ms_per_serve_median": {
+        "14": 0.13990000000000002,
+        "20": 0.1965,
+        "24": 0.23770000000000002,
+        "32": 0.32099999999999995
+      },
+      "note": "reported as two columns and never averaged into one: the write-driven cost is incurred once per write, the clock pass once per SERVE, because ages and expiry move with t_now and no write",
+      "per_rung_write_driven_us_40_personas": {
+        "14": 8911.08,
+        "20": 3307.8,
+        "24": 2384.28,
+        "32": 4817.4
+      },
+      "render_ms_per_serve_median": {
+        "14": 0.47025,
+        "20": 0.5872999999999999,
+        "24": 0.6306499999999999,
+        "32": 0.77875
+      },
+      "write_driven_us_per_write": 1.11
+    },
+    "per_1M_turns": {
+      "(a'') CAUTION-ONLY": {
+        "cached": 1403.4686070716396,
+        "uncached": 1754.9311702449997
+      },
+      "(a') CONTENT-LOBOTOMY": {
+        "cached": 2152.653259349817,
+        "uncached": 2504.115822523176
+      },
+      "(a) FULL": {
+        "cached": 2126.5291586303924,
+        "uncached": 2477.991721803751
+      },
+      "(b) always-retrieve": {
+        "cached": 959.0917266187051,
+        "uncached": 959.0917266187051
+      },
+      "(c) no-memory floor": {
+        "cached": 426.0000000000001,
+        "uncached": 426.0000000000001
+      },
+      "(d) SHUFFLED-FOK [VOID]": {
+        "cached": 2126.5291586303924,
+        "uncached": 2477.991721803751
+      }
+    },
+    "prices": {
+      "gpt-4.1-mini": [
+        0.4,
+        1.6
+      ],
+      "gpt-5.4": [
+        2.5,
+        15.0
+      ],
+      "source": "RESULTS_E2 3.11-R, verified 2026-08-11"
+    }
+  },
+  "judge_spotcheck": {
+    "bar": null,
+    "gates": "nothing",
+    "per_stratum": {
+      "ABSTAIN|False": {
+        "confab_agree": 4,
+        "four_way_agree": 4,
+        "n": 4,
+        "population_share": 0.4823273518216422
+      },
+      "CORRECT|False": {
+        "confab_agree": 3,
+        "four_way_agree": 2,
+        "n": 4,
+        "population_share": 0.21261555193039697
+      },
+      "PARTIAL|False": {
+        "confab_agree": 4,
+        "four_way_agree": 1,
+        "n": 4,
+        "population_share": 0.17074497009244155
+      },
+      "PARTIAL|True": {
+        "confab_agree": 1,
+        "four_way_agree": 2,
+        "n": 4,
+        "population_share": 0.06688417618270799
+      },
+      "WRONG|True": {
+        "confab_agree": 3,
+        "four_way_agree": 3,
+        "n": 4,
+        "population_share": 0.0674279499728113
+      }
+    },
+    "population_weighted": {
+      "confab_agreement": 0.879825992387167,
+      "four_way_agreement": 0.7153344208809136,
+      "note": "the selection is stratified over the pinned judge's verdict cells, so it equal-weights five strata whose population shares are 48.2 / 21.3 / 17.1 / 6.7 / 6.7 percent. The unweighted figure is therefore a deliberately hard slice and is NOT comparable to FR's 88 / 85 reference; the population-weighted figure is."
+    },
+    "reference": {
+      "confab": 0.88,
+      "four_way": 0.85,
+      "panel_fleiss_kappa": 0.834
+    },
+    "unweighted": {
+      "confab": 0.75,
+      "four_way": 0.6
+    }
+  },
+  "k": 1,
+  "margin": 0.02,
+  "n_eval": 834,
+  "operating_points": {
+    "consequence": "both thresholds sit at the grid minimum, so arm (a) is retrieve-always plus apply-always. It is not a gate and must not be called one.",
+    "derivation": {
+      "G_mean_gain_nonabsent": 0.41391941391941395,
+      "L": 0.10416666666666663,
+      "base_ABSENT": 0.5133689839572193,
+      "base_PN": 0.15508021390374332,
+      "base_PRESENT": 0.3315508021390374,
+      "gain_PN": 0.27586206896551724,
+      "gain_PRESENT": 0.478494623655914,
+      "loss_ABSENT": 0.10416666666666663,
+      "p_star": 0.20106053910737953,
+      "rule": "lowest grid threshold with calibration precision for non-ABSENT >= p*"
+    },
+    "q_note": "C <= 0: the application step does no harm off-target, so every threshold clears and tau_NOK is the grid minimum. Recorded, not hidden -- and it is the property that made the SP1 lobotomy a no-op (D56) and forced E3_AMENDMENT_1.",
+    "tau_FOK": 0.0,
+    "tau_NOK": 0.0
+  },
+  "scramble": {
+    "annotation_destruction_rate": {
+      "max": 0.359,
+      "mean": 0.0691,
+      "median": 0.0455,
+      "min": 0.0
+    },
+    "degenerate_persona_rungs": 54,
+    "index_lobotomy": {
+      "digests_that_differ": 160,
+      "indexes_that_differ": 160,
+      "marginal_preserving_totals_block_identical": 160,
+      "seed": "int(sha256('E3-LOBOTOMY-INDEX|persona|rung')[:16], 16)",
+      "spec": "E3_AMENDMENT_1 section 2.2 -- one frozen permutation of the per-entry `superseded` flag within each (persona, rung), applied to the renderer's input rows"
+    },
+    "non_vacuity_realised_eval": {
+      "a_vs_a_prime": 1.0,
+      "a_vs_b": 1.0
+    }
+  },
+  "sequence": [
+    {
+      "adjusted": -0.00908643492584911,
+      "band": "reduction >= 3pp AND CI excludes zero",
+      "ci_hi": 0.014263524776464488,
+      "ci_lo": -0.02992132701704402,
+      "contrast": "(a) vs (b), confabulation",
+      "excludes_zero": false,
+      "n": 834,
+      "name": "H-E3a",
+      "reduction_pp": 0.908643492584911,
+      "step": 1,
+      "unadjusted": -0.011990407673860911,
+      "verdict": "FAILS"
+    },
+    {
+      "adjusted": 0.013524505526668307,
+      "band": "one-sided 95% LB > -0.02",
+      "ci_hi": null,
+      "ci_lo": -0.007066617982927268,
+      "contrast": "(a) vs (b), credit",
+      "excludes_zero": null,
+      "n": 834,
+      "name": "H-E3b",
+      "step": 2,
+      "unadjusted": 0.011990407673860911,
+      "verdict": "EXPLORATORY (sequence broken at H-E3a)"
+    },
+    {
+      "adjusted": 0.009446658339168827,
+      "band": "reduction > 0 AND CI excludes zero",
+      "ci_hi": 0.029546273830374937,
+      "ci_lo": -0.012260542882941346,
+      "contrast": "(a) vs (a'), confabulation",
+      "excludes_zero": false,
+      "n": 834,
+      "name": "H-E3d",
+      "reduction_pp": -0.9446658339168826,
+      "step": 3,
+      "unadjusted": 0.002398081534772182,
+      "verdict": "EXPLORATORY (sequence broken at H-E3a)"
+    }
+  ],
+  "sequence_broken_at": "H-E3a",
+  "staleness_trajectory": {
+    "non_decreasing": false,
+    "registered_prediction": "non-decreasing across the four rungs",
+    "rows": [
+      {
+        "accumulated_supersessions": 2,
+        "advantage_pp": 0.8561727970684623,
+        "ci_hi_pp": 3.4321390811690895,
+        "ci_lo_pp": -1.754385964912283,
+        "confab_a": 0.044444444444444446,
+        "confab_b": 0.05555555555555555,
+        "n": 180,
+        "rung": 14
+      },
+      {
+        "accumulated_supersessions": 59,
+        "advantage_pp": 0.281057265178699,
+        "ci_hi_pp": 4.64712301749197,
+        "ci_lo_pp": -4.269626101007421,
+        "confab_a": 0.065,
+        "confab_b": 0.075,
+        "n": 200,
+        "rung": 20
+      },
+      {
+        "accumulated_supersessions": 123,
+        "advantage_pp": -0.12211478815840464,
+        "ci_hi_pp": 4.666039349208536,
+        "ci_lo_pp": -5.064242280373259,
+        "confab_a": 0.08878504672897196,
+        "confab_b": 0.08878504672897196,
+        "n": 214,
+        "rung": 24
+      },
+      {
+        "accumulated_supersessions": 165,
+        "advantage_pp": 2.0908333511615873,
+        "ci_hi_pp": 4.667206770029659,
+        "ci_lo_pp": -0.39360635704208496,
+        "confab_a": 0.12916666666666668,
+        "confab_b": 0.15416666666666667,
+        "n": 240,
+        "rung": 32
+      }
+    ],
+    "spearman_like_direction": "up"
+  },
+  "tau_FOK": 0.0,
+  "tau_NOK": 0.0
+}

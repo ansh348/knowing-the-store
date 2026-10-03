@@ -1,0 +1,4008 @@
+{
+ "instructions": "Copy to step4_labels.json; fill `label` for every entry from label_sets (and `note`). Expiry rows are unscorable and carry label null.",
+ "label_sets": {
+  "present": [
+   "wrong_value",
+   "correct_different_format",
+   "abstained",
+   "truncated_in_view",
+   "other"
+  ],
+  "stale": [
+   "gives_stale_value",
+   "mentions_but_superseded",
+   "partial_overlap_artifact",
+   "other"
+  ]
+ },
+ "present": {
+  "h45-A3": {
+   "frbank:billy:billy_q05:FULL|bc807c9cb9e79e3b": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00043": 0.0,
+      "lb_00051": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00040": true,
+      "lb_00043": true,
+      "lb_00044": true,
+      "lb_00045": true,
+      "lb_00048": true,
+      "lb_00051": true
+     },
+     "gold_in_view_ids": [
+      "lb_00043",
+      "lb_00051"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:billy:billy_q05:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q05:FULL|199ef5dc1bd227ea": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00378": 0.0,
+      "lb_00383": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00378": false,
+      "lb_00380": false,
+      "lb_00383": false
+     },
+     "gold_in_view_ids": [
+      "lb_00378",
+      "lb_00383"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:callum:callum_q05:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q08:CAT-ABLATED|8ee34ab8220ecd63": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00050": 0.25
+     },
+     "entry_passes_detector": {
+      "lb_00050": true
+     },
+     "gold_in_view_ids": [
+      "lb_00050"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:callum:callum_q08:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q08:FULL|8ee34ab8220ecd63": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00050": 0.25
+     },
+     "entry_passes_detector": {
+      "lb_00050": true
+     },
+     "gold_in_view_ids": [
+      "lb_00050"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:callum:callum_q08:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:diane:diane_q04:FULL|3cf1876c69c43346": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00071": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00063": true,
+      "lb_00064": true,
+      "lb_00065": true,
+      "lb_00071": true
+     },
+     "gold_in_view_ids": [
+      "lb_00071"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:diane:diane_q04:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:diane:diane_q05:FULL|25a725c91f24c8d0": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00398": 0.0769,
+      "lb_00401": 0.0833,
+      "lb_00403": 0.0833,
+      "lb_00407": 0.0909
+     },
+     "entry_passes_detector": {
+      "lb_00398": true,
+      "lb_00401": true,
+      "lb_00403": true,
+      "lb_00407": true,
+      "lb_00412": true,
+      "lb_00416": false
+     },
+     "gold_in_view_ids": [
+      "lb_00398",
+      "lb_00401",
+      "lb_00403",
+      "lb_00407"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:diane:diane_q05:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:fatima:fatima_q11:CAT-ABLATED|8496763e2470a08b": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00086": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00083": true,
+      "lb_00086": true
+     },
+     "gold_in_view_ids": [
+      "lb_00086"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:fatima:fatima_q11:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:fatima:fatima_q11:FULL|06a840f434c701e6": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00086": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00083": true,
+      "lb_00086": true
+     },
+     "gold_in_view_ids": [
+      "lb_00086"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:fatima:fatima_q11:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:jake:jake_q03:FULL|0aa1c0c015b4b7a2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00051": 0.1429,
+      "lb_00054": 0.1429
+     },
+     "entry_passes_detector": {
+      "lb_00047": true,
+      "lb_00051": true,
+      "lb_00054": true,
+      "lb_00061": true
+     },
+     "gold_in_view_ids": [
+      "lb_00051",
+      "lb_00054"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:jake:jake_q03:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:jake:jake_q12:FULL|c5b8bbe4f14d9360": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00010": 0.0,
+      "lb_00013": 0.0,
+      "lb_00015": 0.0,
+      "lb_00017": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00010": true,
+      "lb_00012": true,
+      "lb_00013": true,
+      "lb_00015": true,
+      "lb_00016": true,
+      "lb_00017": true,
+      "lb_00018": true
+     },
+     "gold_in_view_ids": [
+      "lb_00010",
+      "lb_00013",
+      "lb_00015",
+      "lb_00017"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:jake:jake_q12:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:kofi:kofi_q09:FULL|1c59cb8e93531764": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00008": 0.1667,
+      "lb_00014": 0.25
+     },
+     "entry_passes_detector": {
+      "lb_00008": true,
+      "lb_00014": true
+     },
+     "gold_in_view_ids": [
+      "lb_00008",
+      "lb_00014"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:kofi:kofi_q09:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:marcus:marcus_q04:FULL|b2caf21c1a00de0a": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00031": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00031": true
+     },
+     "gold_in_view_ids": [
+      "lb_00031"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:marcus:marcus_q04:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:nadia:nadia_q04:FULL|97e46e376ed92a5f": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00044": 0.1429,
+      "lb_00045": 0.25,
+      "lb_00049": 0.3333,
+      "lb_00062": 0.2
+     },
+     "entry_passes_detector": {
+      "lb_00044": true,
+      "lb_00045": true,
+      "lb_00049": true,
+      "lb_00062": true
+     },
+     "gold_in_view_ids": [
+      "lb_00044",
+      "lb_00045",
+      "lb_00049",
+      "lb_00062"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:nadia:nadia_q04:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:pan:pan_q10:FULL|6d60df716b296f2f": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00026": 0.2727
+     },
+     "entry_passes_detector": {
+      "lb_00026": true
+     },
+     "gold_in_view_ids": [
+      "lb_00026"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:pan:pan_q10:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:raj:raj_q07:FULL|ca392bb4b60bb3ce": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00400": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00390": true,
+      "lb_00393": true,
+      "lb_00394": true,
+      "lb_00396": true,
+      "lb_00399": true,
+      "lb_00400": true,
+      "lb_00403": true,
+      "lb_00407": true
+     },
+     "gold_in_view_ids": [
+      "lb_00400"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:raj:raj_q07:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:saga:saga_q06:FULL|84664519969f2865": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00306": 0.0,
+      "lb_00312": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00306": true,
+      "lb_00309": true,
+      "lb_00312": true,
+      "lb_00315": false
+     },
+     "gold_in_view_ids": [
+      "lb_00306",
+      "lb_00312"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:saga:saga_q06:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:saga:saga_q11:CAT-ABLATED|174abf8cd8636faf": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00009": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00009": true,
+      "lb_00010": true,
+      "lb_00012": true,
+      "lb_00015": true
+     },
+     "gold_in_view_ids": [
+      "lb_00009"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:saga:saga_q11:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:saga:saga_q11:FULL|587c999f85ed78c2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00009": 0.25
+     },
+     "entry_passes_detector": {
+      "lb_00009": true,
+      "lb_00010": true,
+      "lb_00012": true,
+      "lb_00015": true
+     },
+     "gold_in_view_ids": [
+      "lb_00009"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:saga:saga_q11:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:thanh:thanh_q13:CAT-ABLATED|24fc7028a5ba7661": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00468": 0.3636
+     },
+     "entry_passes_detector": {
+      "lb_00462": true,
+      "lb_00468": false,
+      "lb_00469": true,
+      "lb_00470": false,
+      "lb_00472": true,
+      "lb_00474": false,
+      "lb_00475": false,
+      "lb_00476": false
+     },
+     "gold_in_view_ids": [
+      "lb_00468"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:thanh:thanh_q13:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:tom:tom_q04:FULL|0595f1ca735118b0": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00046": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00045": true,
+      "lb_00046": true
+     },
+     "gold_in_view_ids": [
+      "lb_00046"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:tom:tom_q04:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:tom:tom_q08:FULL|e2a4bb700ca93242": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00027": 0.0,
+      "lb_00031": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00023": true,
+      "lb_00027": true,
+      "lb_00031": true
+     },
+     "gold_in_view_ids": [
+      "lb_00027",
+      "lb_00031"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:tom:tom_q08:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:valentina:valentina_q07:CAT-ABLATED|6107ff7f202cacd2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00036": 0.375
+     },
+     "entry_passes_detector": {
+      "lb_00035": true,
+      "lb_00036": true,
+      "lb_00041": true
+     },
+     "gold_in_view_ids": [
+      "lb_00036"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:valentina:valentina_q07:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:valentina:valentina_q07:FULL|6107ff7f202cacd2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00036": 0.375
+     },
+     "entry_passes_detector": {
+      "lb_00035": true,
+      "lb_00036": true,
+      "lb_00041": true
+     },
+     "gold_in_view_ids": [
+      "lb_00036"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:valentina:valentina_q07:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:zara:zara_q05:FULL|3416758f4e29193f": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00033": 0.3636,
+      "lb_00036": 0.375,
+      "lb_00042": 0.2727
+     },
+     "entry_passes_detector": {
+      "lb_00033": true,
+      "lb_00036": true,
+      "lb_00042": true,
+      "lb_00043": true,
+      "lb_00047": true
+     },
+     "gold_in_view_ids": [
+      "lb_00033",
+      "lb_00036",
+      "lb_00042"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:zara:zara_q05:FULL",
+    "label": null,
+    "note": ""
+   }
+  },
+  "h45-D4": {
+   "frbank:billy:billy_q05:FULL|bc807c9cb9e79e3b": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00043": 0.0,
+      "lb_00051": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00040": true,
+      "lb_00043": true,
+      "lb_00044": true,
+      "lb_00045": true,
+      "lb_00048": true,
+      "lb_00051": true
+     },
+     "gold_in_view_ids": [
+      "lb_00043",
+      "lb_00051"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:billy:billy_q05:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q05:FULL|199ef5dc1bd227ea": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00378": 0.0,
+      "lb_00383": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00378": false,
+      "lb_00380": false,
+      "lb_00383": false
+     },
+     "gold_in_view_ids": [
+      "lb_00378",
+      "lb_00383"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:callum:callum_q05:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q08:CAT-ABLATED|8ee34ab8220ecd63": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00050": 0.25
+     },
+     "entry_passes_detector": {
+      "lb_00050": true
+     },
+     "gold_in_view_ids": [
+      "lb_00050"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:callum:callum_q08:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q08:FULL|8ee34ab8220ecd63": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00050": 0.25
+     },
+     "entry_passes_detector": {
+      "lb_00050": true
+     },
+     "gold_in_view_ids": [
+      "lb_00050"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:callum:callum_q08:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q09:CAT-ABLATED|9d5c500649967d49": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00023": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00023": true,
+      "lb_00024": true,
+      "lb_00028": true
+     },
+     "gold_in_view_ids": [
+      "lb_00023"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:callum:callum_q09:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q09:FULL|9d5c500649967d49": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00023": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00023": true,
+      "lb_00024": true,
+      "lb_00028": true
+     },
+     "gold_in_view_ids": [
+      "lb_00023"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:callum:callum_q09:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:david:david_q08:FULL|102b28d17f2c3532": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00060": 0.0,
+      "lb_00063": 0.0,
+      "lb_00067": 0.0,
+      "lb_00070": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00060": true,
+      "lb_00063": true,
+      "lb_00064": true,
+      "lb_00067": true,
+      "lb_00070": true
+     },
+     "gold_in_view_ids": [
+      "lb_00060",
+      "lb_00063",
+      "lb_00067",
+      "lb_00070"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:david:david_q08:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:david:david_q10:CAT-ABLATED|1f79fac9a79216af": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00486": 0.0,
+      "lb_00496": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00477": true,
+      "lb_00486": true,
+      "lb_00496": true
+     },
+     "gold_in_view_ids": [
+      "lb_00486",
+      "lb_00496"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:david:david_q10:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:david:david_q10:FULL|ad9309e7d5c80d8c": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00496": 0.6667
+     },
+     "entry_passes_detector": {
+      "lb_00477": true,
+      "lb_00486": true,
+      "lb_00496": true
+     },
+     "gold_in_view_ids": [
+      "lb_00496"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:david:david_q10:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:diane:diane_q05:FULL|25a725c91f24c8d0": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00398": 0.0769,
+      "lb_00401": 0.0833,
+      "lb_00403": 0.0833,
+      "lb_00407": 0.0909
+     },
+     "entry_passes_detector": {
+      "lb_00398": true,
+      "lb_00401": true,
+      "lb_00403": true,
+      "lb_00407": true,
+      "lb_00412": true,
+      "lb_00416": false
+     },
+     "gold_in_view_ids": [
+      "lb_00398",
+      "lb_00401",
+      "lb_00403",
+      "lb_00407"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:diane:diane_q05:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:fatima:fatima_q11:CAT-ABLATED|8496763e2470a08b": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00086": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00083": true,
+      "lb_00086": true
+     },
+     "gold_in_view_ids": [
+      "lb_00086"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:fatima:fatima_q11:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:jake:jake_q03:FULL|0aa1c0c015b4b7a2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00051": 0.0,
+      "lb_00054": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00047": true,
+      "lb_00051": true,
+      "lb_00054": true,
+      "lb_00061": true
+     },
+     "gold_in_view_ids": [
+      "lb_00051",
+      "lb_00054"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:jake:jake_q03:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:jake:jake_q12:FULL|c5b8bbe4f14d9360": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00010": 0.0,
+      "lb_00013": 0.0,
+      "lb_00015": 0.0,
+      "lb_00017": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00010": true,
+      "lb_00012": true,
+      "lb_00013": true,
+      "lb_00015": true,
+      "lb_00016": true,
+      "lb_00017": true,
+      "lb_00018": true
+     },
+     "gold_in_view_ids": [
+      "lb_00010",
+      "lb_00013",
+      "lb_00015",
+      "lb_00017"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:jake:jake_q12:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:kofi:kofi_q09:FULL|1c59cb8e93531764": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00008": 0.1667,
+      "lb_00014": 0.25
+     },
+     "entry_passes_detector": {
+      "lb_00008": true,
+      "lb_00014": true
+     },
+     "gold_in_view_ids": [
+      "lb_00008",
+      "lb_00014"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:kofi:kofi_q09:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:marcus:marcus_q04:FULL|b2caf21c1a00de0a": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00031": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00031": true
+     },
+     "gold_in_view_ids": [
+      "lb_00031"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:marcus:marcus_q04:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:nadia:nadia_q04:FULL|97e46e376ed92a5f": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00044": 0.0,
+      "lb_00045": 0.0,
+      "lb_00049": 0.1667,
+      "lb_00062": 0.2
+     },
+     "entry_passes_detector": {
+      "lb_00044": true,
+      "lb_00045": true,
+      "lb_00049": true,
+      "lb_00062": true
+     },
+     "gold_in_view_ids": [
+      "lb_00044",
+      "lb_00045",
+      "lb_00049",
+      "lb_00062"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:nadia:nadia_q04:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:pan:pan_q10:FULL|6d60df716b296f2f": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00026": 0.2727
+     },
+     "entry_passes_detector": {
+      "lb_00026": true
+     },
+     "gold_in_view_ids": [
+      "lb_00026"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:pan:pan_q10:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:raj:raj_q07:FULL|ca392bb4b60bb3ce": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00400": 0.2857
+     },
+     "entry_passes_detector": {
+      "lb_00390": true,
+      "lb_00393": true,
+      "lb_00394": true,
+      "lb_00396": true,
+      "lb_00399": true,
+      "lb_00400": true,
+      "lb_00403": true,
+      "lb_00407": true
+     },
+     "gold_in_view_ids": [
+      "lb_00400"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:raj:raj_q07:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:saga:saga_q06:FULL|84664519969f2865": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00306": 0.0,
+      "lb_00312": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00306": true,
+      "lb_00309": true,
+      "lb_00312": true,
+      "lb_00315": false
+     },
+     "gold_in_view_ids": [
+      "lb_00306",
+      "lb_00312"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:saga:saga_q06:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:saga:saga_q11:CAT-ABLATED|174abf8cd8636faf": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00009": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00009": true,
+      "lb_00010": true,
+      "lb_00012": true,
+      "lb_00015": true
+     },
+     "gold_in_view_ids": [
+      "lb_00009"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:saga:saga_q11:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:saga:saga_q11:FULL|587c999f85ed78c2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00009": 0.25
+     },
+     "entry_passes_detector": {
+      "lb_00009": true,
+      "lb_00010": true,
+      "lb_00012": true,
+      "lb_00015": true
+     },
+     "gold_in_view_ids": [
+      "lb_00009"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:saga:saga_q11:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:thanh:thanh_q13:CAT-ABLATED|24fc7028a5ba7661": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00468": 0.4545
+     },
+     "entry_passes_detector": {
+      "lb_00462": true,
+      "lb_00468": false,
+      "lb_00469": true,
+      "lb_00470": false,
+      "lb_00472": true,
+      "lb_00474": false,
+      "lb_00475": false,
+      "lb_00476": false
+     },
+     "gold_in_view_ids": [
+      "lb_00468"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:thanh:thanh_q13:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:tom:tom_q04:FULL|0595f1ca735118b0": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00046": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00045": true,
+      "lb_00046": true
+     },
+     "gold_in_view_ids": [
+      "lb_00046"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:tom:tom_q04:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:tom:tom_q08:FULL|e2a4bb700ca93242": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00027": 0.0,
+      "lb_00031": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00023": true,
+      "lb_00027": true,
+      "lb_00031": true
+     },
+     "gold_in_view_ids": [
+      "lb_00027",
+      "lb_00031"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:tom:tom_q08:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:valentina:valentina_q07:CAT-ABLATED|6107ff7f202cacd2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00036": 0.375
+     },
+     "entry_passes_detector": {
+      "lb_00035": true,
+      "lb_00036": true,
+      "lb_00041": true
+     },
+     "gold_in_view_ids": [
+      "lb_00036"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:valentina:valentina_q07:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:valentina:valentina_q07:FULL|6107ff7f202cacd2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00036": 0.375
+     },
+     "entry_passes_detector": {
+      "lb_00035": true,
+      "lb_00036": true,
+      "lb_00041": true
+     },
+     "gold_in_view_ids": [
+      "lb_00036"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:valentina:valentina_q07:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:zara:zara_q05:FULL|3416758f4e29193f": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00033": 0.3636,
+      "lb_00036": 0.375,
+      "lb_00042": 0.2727
+     },
+     "entry_passes_detector": {
+      "lb_00033": true,
+      "lb_00036": true,
+      "lb_00042": true,
+      "lb_00043": true,
+      "lb_00047": true
+     },
+     "gold_in_view_ids": [
+      "lb_00033",
+      "lb_00036",
+      "lb_00042"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:zara:zara_q05:FULL",
+    "label": null,
+    "note": ""
+   }
+  },
+  "mini-A3": {
+   "frbank:callum:callum_q05:FULL|199ef5dc1bd227ea": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00378": 1.0,
+      "lb_00383": 0.8571
+     },
+     "entry_passes_detector": {
+      "lb_00378": false,
+      "lb_00380": false,
+      "lb_00383": false
+     },
+     "gold_in_view_ids": [
+      "lb_00378",
+      "lb_00383"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "correct_different_format",
+    "item_id": "frbank:callum:callum_q05:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q08:CAT-ABLATED|8ee34ab8220ecd63": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00050": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00050": true
+     },
+     "gold_in_view_ids": [
+      "lb_00050"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:callum:callum_q08:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q08:FULL|8ee34ab8220ecd63": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00050": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00050": true
+     },
+     "gold_in_view_ids": [
+      "lb_00050"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:callum:callum_q08:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q09:CAT-ABLATED|9d5c500649967d49": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00023": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00023": true,
+      "lb_00024": true,
+      "lb_00028": true
+     },
+     "gold_in_view_ids": [
+      "lb_00023"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:callum:callum_q09:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q09:FULL|9d5c500649967d49": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00023": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00023": true,
+      "lb_00024": true,
+      "lb_00028": true
+     },
+     "gold_in_view_ids": [
+      "lb_00023"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:callum:callum_q09:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:diane:diane_q04:FULL|3cf1876c69c43346": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00071": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00063": true,
+      "lb_00064": true,
+      "lb_00065": true,
+      "lb_00071": true
+     },
+     "gold_in_view_ids": [
+      "lb_00071"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:diane:diane_q04:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:diane:diane_q05:FULL|25a725c91f24c8d0": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00398": 0.0,
+      "lb_00401": 0.0,
+      "lb_00403": 0.0,
+      "lb_00407": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00398": true,
+      "lb_00401": true,
+      "lb_00403": true,
+      "lb_00407": true,
+      "lb_00412": true,
+      "lb_00416": false
+     },
+     "gold_in_view_ids": [
+      "lb_00398",
+      "lb_00401",
+      "lb_00403",
+      "lb_00407"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:diane:diane_q05:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:fatima:fatima_q11:CAT-ABLATED|8496763e2470a08b": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00086": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00083": true,
+      "lb_00086": true
+     },
+     "gold_in_view_ids": [
+      "lb_00086"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:fatima:fatima_q11:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:fatima:fatima_q11:FULL|06a840f434c701e6": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00086": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00083": true,
+      "lb_00086": true
+     },
+     "gold_in_view_ids": [
+      "lb_00086"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:fatima:fatima_q11:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:ingrid:ingrid_q05:FULL|82fbc8ac2f06e090": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00043": 0.5
+     },
+     "entry_passes_detector": {
+      "lb_00043": true
+     },
+     "gold_in_view_ids": [
+      "lb_00043"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "correct_different_format",
+    "item_id": "frbank:ingrid:ingrid_q05:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:jake:jake_q03:FULL|0aa1c0c015b4b7a2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00051": 0.0,
+      "lb_00054": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00047": true,
+      "lb_00051": true,
+      "lb_00054": true,
+      "lb_00061": true
+     },
+     "gold_in_view_ids": [
+      "lb_00051",
+      "lb_00054"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:jake:jake_q03:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:kenji:kenji_q12:FULL|1c9c2009de7dbd61": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00065": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00065": true,
+      "lb_00068": true,
+      "lb_00069": true,
+      "lb_00071": true
+     },
+     "gold_in_view_ids": [
+      "lb_00065"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:kenji:kenji_q12:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:lily:lily_q09:CAT-ABLATED|e1426bab79e22e41": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00026": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00018": true,
+      "lb_00021": true,
+      "lb_00026": true
+     },
+     "gold_in_view_ids": [
+      "lb_00026"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:lily:lily_q09:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:marcus:marcus_q04:FULL|b2caf21c1a00de0a": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00031": 0.5
+     },
+     "entry_passes_detector": {
+      "lb_00031": true
+     },
+     "gold_in_view_ids": [
+      "lb_00031"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "correct_different_format",
+    "item_id": "frbank:marcus:marcus_q04:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:nadia:nadia_q07:FULL|5fba739403e54d49": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00432": 0.1818
+     },
+     "entry_passes_detector": {
+      "lb_00432": true
+     },
+     "gold_in_view_ids": [
+      "lb_00432"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:nadia:nadia_q07:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:raj:raj_q07:FULL|ca392bb4b60bb3ce": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00400": 0.1429
+     },
+     "entry_passes_detector": {
+      "lb_00390": true,
+      "lb_00393": true,
+      "lb_00394": true,
+      "lb_00396": true,
+      "lb_00399": true,
+      "lb_00400": true,
+      "lb_00403": true,
+      "lb_00407": true
+     },
+     "gold_in_view_ids": [
+      "lb_00400"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:raj:raj_q07:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:raj:raj_q08:CAT-ABLATED|7cc325c0fc913a3f": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00027": 0.1667
+     },
+     "entry_passes_detector": {
+      "lb_00027": true
+     },
+     "gold_in_view_ids": [
+      "lb_00027"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:raj:raj_q08:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:saga:saga_q06:FULL|84664519969f2865": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00306": 0.0,
+      "lb_00312": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00306": true,
+      "lb_00309": true,
+      "lb_00312": true,
+      "lb_00315": false
+     },
+     "gold_in_view_ids": [
+      "lb_00306",
+      "lb_00312"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:saga:saga_q06:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:saga:saga_q11:CAT-ABLATED|174abf8cd8636faf": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00009": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00009": true,
+      "lb_00010": true,
+      "lb_00012": true,
+      "lb_00015": true
+     },
+     "gold_in_view_ids": [
+      "lb_00009"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:saga:saga_q11:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:saga:saga_q11:FULL|587c999f85ed78c2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00009": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00009": true,
+      "lb_00010": true,
+      "lb_00012": true,
+      "lb_00015": true
+     },
+     "gold_in_view_ids": [
+      "lb_00009"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:saga:saga_q11:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:thanh:thanh_q13:CAT-ABLATED|24fc7028a5ba7661": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00468": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00462": true,
+      "lb_00468": false,
+      "lb_00469": true,
+      "lb_00470": false,
+      "lb_00472": true,
+      "lb_00474": false,
+      "lb_00475": false,
+      "lb_00476": false
+     },
+     "gold_in_view_ids": [
+      "lb_00468"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:thanh:thanh_q13:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:tom:tom_q04:FULL|0595f1ca735118b0": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00046": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00045": true,
+      "lb_00046": true
+     },
+     "gold_in_view_ids": [
+      "lb_00046"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:tom:tom_q04:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:tom:tom_q08:FULL|e2a4bb700ca93242": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00027": 0.0,
+      "lb_00031": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00023": true,
+      "lb_00027": true,
+      "lb_00031": true
+     },
+     "gold_in_view_ids": [
+      "lb_00027",
+      "lb_00031"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:tom:tom_q08:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:valentina:valentina_q07:CAT-ABLATED|6107ff7f202cacd2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00036": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00035": true,
+      "lb_00036": true,
+      "lb_00041": true
+     },
+     "gold_in_view_ids": [
+      "lb_00036"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:valentina:valentina_q07:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:valentina:valentina_q07:FULL|6107ff7f202cacd2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00036": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00035": true,
+      "lb_00036": true,
+      "lb_00041": true
+     },
+     "gold_in_view_ids": [
+      "lb_00036"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:valentina:valentina_q07:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:yoli:yoli_q06:FULL|1b0be2729fef3d13": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00387": 0.75
+     },
+     "entry_passes_detector": {
+      "lb_00376": false,
+      "lb_00377": false,
+      "lb_00378": false,
+      "lb_00379": false,
+      "lb_00387": true
+     },
+     "gold_in_view_ids": [
+      "lb_00387"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "correct_different_format",
+    "item_id": "frbank:yoli:yoli_q06:FULL",
+    "label": null,
+    "note": ""
+   }
+  },
+  "mini-D4": {
+   "frbank:billy:billy_q05:FULL|bc807c9cb9e79e3b": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00043": 0.0,
+      "lb_00051": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00040": true,
+      "lb_00043": true,
+      "lb_00044": true,
+      "lb_00045": true,
+      "lb_00048": true,
+      "lb_00051": true
+     },
+     "gold_in_view_ids": [
+      "lb_00043",
+      "lb_00051"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:billy:billy_q05:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q05:FULL|199ef5dc1bd227ea": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00378": 1.0,
+      "lb_00383": 0.8571
+     },
+     "entry_passes_detector": {
+      "lb_00378": false,
+      "lb_00380": false,
+      "lb_00383": false
+     },
+     "gold_in_view_ids": [
+      "lb_00378",
+      "lb_00383"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "correct_different_format",
+    "item_id": "frbank:callum:callum_q05:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q08:CAT-ABLATED|8ee34ab8220ecd63": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00050": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00050": true
+     },
+     "gold_in_view_ids": [
+      "lb_00050"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:callum:callum_q08:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q08:FULL|8ee34ab8220ecd63": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00050": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00050": true
+     },
+     "gold_in_view_ids": [
+      "lb_00050"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:callum:callum_q08:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q09:CAT-ABLATED|9d5c500649967d49": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00023": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00023": true,
+      "lb_00024": true,
+      "lb_00028": true
+     },
+     "gold_in_view_ids": [
+      "lb_00023"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:callum:callum_q09:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:callum:callum_q09:FULL|9d5c500649967d49": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00023": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00023": true,
+      "lb_00024": true,
+      "lb_00028": true
+     },
+     "gold_in_view_ids": [
+      "lb_00023"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:callum:callum_q09:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:diane:diane_q04:FULL|3cf1876c69c43346": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00071": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00063": true,
+      "lb_00064": true,
+      "lb_00065": true,
+      "lb_00071": true
+     },
+     "gold_in_view_ids": [
+      "lb_00071"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:diane:diane_q04:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:diane:diane_q05:FULL|25a725c91f24c8d0": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00398": 0.0,
+      "lb_00401": 0.0,
+      "lb_00403": 0.0,
+      "lb_00407": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00398": true,
+      "lb_00401": true,
+      "lb_00403": true,
+      "lb_00407": true,
+      "lb_00412": true,
+      "lb_00416": false
+     },
+     "gold_in_view_ids": [
+      "lb_00398",
+      "lb_00401",
+      "lb_00403",
+      "lb_00407"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:diane:diane_q05:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:fatima:fatima_q11:CAT-ABLATED|8496763e2470a08b": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00086": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00083": true,
+      "lb_00086": true
+     },
+     "gold_in_view_ids": [
+      "lb_00086"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:fatima:fatima_q11:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:fatima:fatima_q11:FULL|06a840f434c701e6": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00086": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00083": true,
+      "lb_00086": true
+     },
+     "gold_in_view_ids": [
+      "lb_00086"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:fatima:fatima_q11:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:ingrid:ingrid_q05:FULL|82fbc8ac2f06e090": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00043": 0.5
+     },
+     "entry_passes_detector": {
+      "lb_00043": true
+     },
+     "gold_in_view_ids": [
+      "lb_00043"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "correct_different_format",
+    "item_id": "frbank:ingrid:ingrid_q05:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:jake:jake_q03:FULL|0aa1c0c015b4b7a2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00051": 0.0,
+      "lb_00054": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00047": true,
+      "lb_00051": true,
+      "lb_00054": true,
+      "lb_00061": true
+     },
+     "gold_in_view_ids": [
+      "lb_00051",
+      "lb_00054"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:jake:jake_q03:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:lily:lily_q09:CAT-ABLATED|e1426bab79e22e41": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00026": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00018": true,
+      "lb_00021": true,
+      "lb_00026": true
+     },
+     "gold_in_view_ids": [
+      "lb_00026"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:lily:lily_q09:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:marcus:marcus_q04:FULL|b2caf21c1a00de0a": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00031": 0.5
+     },
+     "entry_passes_detector": {
+      "lb_00031": true
+     },
+     "gold_in_view_ids": [
+      "lb_00031"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "correct_different_format",
+    "item_id": "frbank:marcus:marcus_q04:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:nadia:nadia_q07:FULL|5fba739403e54d49": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00432": 0.1818
+     },
+     "entry_passes_detector": {
+      "lb_00432": true
+     },
+     "gold_in_view_ids": [
+      "lb_00432"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:nadia:nadia_q07:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:raj:raj_q07:FULL|ca392bb4b60bb3ce": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00400": 0.1429
+     },
+     "entry_passes_detector": {
+      "lb_00390": true,
+      "lb_00393": true,
+      "lb_00394": true,
+      "lb_00396": true,
+      "lb_00399": true,
+      "lb_00400": true,
+      "lb_00403": true,
+      "lb_00407": true
+     },
+     "gold_in_view_ids": [
+      "lb_00400"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:raj:raj_q07:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:raj:raj_q08:CAT-ABLATED|7cc325c0fc913a3f": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00027": 0.1667
+     },
+     "entry_passes_detector": {
+      "lb_00027": true
+     },
+     "gold_in_view_ids": [
+      "lb_00027"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:raj:raj_q08:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:saga:saga_q06:FULL|84664519969f2865": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00306": 0.0,
+      "lb_00312": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00306": true,
+      "lb_00309": true,
+      "lb_00312": true,
+      "lb_00315": false
+     },
+     "gold_in_view_ids": [
+      "lb_00306",
+      "lb_00312"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:saga:saga_q06:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:saga:saga_q11:CAT-ABLATED|174abf8cd8636faf": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00009": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00009": true,
+      "lb_00010": true,
+      "lb_00012": true,
+      "lb_00015": true
+     },
+     "gold_in_view_ids": [
+      "lb_00009"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:saga:saga_q11:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:saga:saga_q11:FULL|587c999f85ed78c2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00009": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00009": true,
+      "lb_00010": true,
+      "lb_00012": true,
+      "lb_00015": true
+     },
+     "gold_in_view_ids": [
+      "lb_00009"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:saga:saga_q11:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:thanh:thanh_q13:CAT-ABLATED|24fc7028a5ba7661": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00468": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00462": true,
+      "lb_00468": false,
+      "lb_00469": true,
+      "lb_00470": false,
+      "lb_00472": true,
+      "lb_00474": false,
+      "lb_00475": false,
+      "lb_00476": false
+     },
+     "gold_in_view_ids": [
+      "lb_00468"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:thanh:thanh_q13:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:tom:tom_q04:FULL|0595f1ca735118b0": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00046": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00045": true,
+      "lb_00046": true
+     },
+     "gold_in_view_ids": [
+      "lb_00046"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:tom:tom_q04:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:tom:tom_q08:FULL|e2a4bb700ca93242": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00027": 0.0,
+      "lb_00031": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00023": true,
+      "lb_00027": true,
+      "lb_00031": true
+     },
+     "gold_in_view_ids": [
+      "lb_00027",
+      "lb_00031"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:tom:tom_q08:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:valentina:valentina_q05:FULL|3cb0d0591dddde1e": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00047": 0.2857
+     },
+     "entry_passes_detector": {
+      "lb_00046": true,
+      "lb_00047": true
+     },
+     "gold_in_view_ids": [
+      "lb_00047"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "wrong_value",
+    "item_id": "frbank:valentina:valentina_q05:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:valentina:valentina_q07:CAT-ABLATED|6107ff7f202cacd2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00036": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00035": true,
+      "lb_00036": true,
+      "lb_00041": true
+     },
+     "gold_in_view_ids": [
+      "lb_00036"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:valentina:valentina_q07:CAT-ABLATED",
+    "label": null,
+    "note": ""
+   },
+   "frbank:valentina:valentina_q07:FULL|6107ff7f202cacd2": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00036": 0.0
+     },
+     "entry_passes_detector": {
+      "lb_00035": true,
+      "lb_00036": true,
+      "lb_00041": true
+     },
+     "gold_in_view_ids": [
+      "lb_00036"
+     ],
+     "is_abstention": true
+    },
+    "auto_label": "abstained",
+    "item_id": "frbank:valentina:valentina_q07:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:yoli:yoli_q06:FULL|1b0be2729fef3d13": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00387": 0.75
+     },
+     "entry_passes_detector": {
+      "lb_00376": false,
+      "lb_00377": false,
+      "lb_00378": false,
+      "lb_00379": false,
+      "lb_00387": true
+     },
+     "gold_in_view_ids": [
+      "lb_00387"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "correct_different_format",
+    "item_id": "frbank:yoli:yoli_q06:FULL",
+    "label": null,
+    "note": ""
+   },
+   "frbank:zara:zara_q05:FULL|3416758f4e29193f": {
+    "auto_evidence": {
+     "answer_covers_entry": {
+      "lb_00033": 0.4545,
+      "lb_00036": 0.5,
+      "lb_00042": 0.3636
+     },
+     "entry_passes_detector": {
+      "lb_00033": true,
+      "lb_00036": true,
+      "lb_00042": true,
+      "lb_00043": true,
+      "lb_00047": true
+     },
+     "gold_in_view_ids": [
+      "lb_00033",
+      "lb_00036",
+      "lb_00042"
+     ],
+     "is_abstention": false
+    },
+    "auto_label": "correct_different_format",
+    "item_id": "frbank:zara:zara_q05:FULL",
+    "label": null,
+    "note": ""
+   }
+  }
+ },
+ "sheets_sha256": {
+  "step4_sheets_present.md": "4780d729d0d675139dce14565951156af079a1cecc4a57ce89ffcf33898dfa7a",
+  "step4_sheets_stale.md": "ec923c0524368c8d05f31aa1d8bef115b822d85bb56cc104b01d34cbcd0c8b9b"
+ },
+ "stale": {
+  "h45-A3": {
+   "frbank:bruna:bruna_q06:FULL|ec2b9f9d36cb55c2": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "2025",
+      "april",
+      "enrolled",
+      "starting"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:bruna:bruna_q06:FULL",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:bruna:bruna_q06:SLOT-ABLATED|ec2b9f9d36cb55c2": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "2025",
+      "april",
+      "enrolled",
+      "starting"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:bruna:bruna_q06:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:dariush:dariush_q04:SLOT-ABLATED|d67c2ca9d3628556": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "location",
+      "open",
+      "planning"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:david:david_q06:CAT-ABLATED|c65c804ae433b38e": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:david:david_q06:CAT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:david:david_q06:FULL|3277b5b20f7f6e86": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:david:david_q06:FULL",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:david:david_q11:CAT-ABLATED|549afd6257cd321a": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:david:david_q11:CAT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:david:david_q11:FULL|549afd6257cd321a": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:david:david_q11:FULL",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:fatima:fatima_q06:FULL|d17a217596fb18b8": {
+    "auto_evidence": {
+     "dn_A": [
+      "business"
+     ],
+     "do_A": [
+      "geometry",
+      "home",
+      "oud"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": "However",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:fatima:fatima_q06:FULL",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:ingrid:ingrid_q01:SLOT-ABLATED|f0a292a92f80ae35": {
+    "auto_evidence": {
+     "dn_A": [
+      "kelp"
+     ],
+     "do_A": [
+      "arctic",
+      "cod",
+      "primary"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": [
+      "primary"
+     ]
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:ingrid:ingrid_q01:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:ingrid:ingrid_q04:SLOT-ABLATED|98db10edf7a2894b": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "institution",
+      "oceanographic",
+      "planning"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": "cancelled",
+     "q_do_A": [
+      "planning"
+     ]
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:ingrid:ingrid_q04:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:jerome:jerome_q02:CAT-ABLATED|5953d48a3007c7c2": {
+    "auto_evidence": {
+     "dn_A": [
+      "abf"
+     ],
+     "do_A": [
+      "based",
+      "drives",
+      "lines",
+      "southeastern"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:jerome:jerome_q02:CAT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:kenji:kenji_q03:FULL|dc54ae53b3e9c308": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "shared",
+      "shinsaibashi",
+      "space"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:kenji:kenji_q03:FULL",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:kenji:kenji_q03:SLOT-ABLATED|dc54ae53b3e9c308": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "shared",
+      "shinsaibashi",
+      "space"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:kenji:kenji_q03:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:kofi:kofi_q01:FULL|859bafc244b8d70e": {
+    "auto_evidence": {
+     "dn_A": [
+      "kuapa"
+     ],
+     "do_A": [
+      "cooperative",
+      "sells",
+      "through"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": [
+      "cooperative",
+      "through"
+     ]
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:kofi:kofi_q01:FULL",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:kofi:kofi_q01:SLOT-ABLATED|859bafc244b8d70e": {
+    "auto_evidence": {
+     "dn_A": [
+      "kuapa"
+     ],
+     "do_A": [
+      "cooperative",
+      "sells",
+      "through"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": [
+      "cooperative",
+      "through"
+     ]
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:kofi:kofi_q01:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:lily:lily_q01:SLOT-ABLATED|58fc6c3490608d9e": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "bay",
+      "microplastics",
+      "phillip",
+      "port"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:lily:lily_q01:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:marcus:marcus_q10:FULL|b857289930965af8": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:marcus:marcus_q10:FULL",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:mirri:mirri_q01:FULL|28988d92b56155aa": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "alligator",
+      "corridor",
+      "east",
+      "river"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:mirri:mirri_q01:FULL",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:mirri:mirri_q01:SLOT-ABLATED|2ae3f399928196d9": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "alligator",
+      "corridor",
+      "east",
+      "patrols"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:mirri:mirri_q01:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:mirri:mirri_q04:FULL|ee0ce2e8298516c7": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "bilingual",
+      "children",
+      "english",
+      "matha",
+      "yolngu"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": [
+      "children"
+     ]
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:mirri:mirri_q04:FULL",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:mirri:mirri_q04:SLOT-ABLATED|ee0ce2e8298516c7": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "bilingual",
+      "children",
+      "english",
+      "matha",
+      "yolngu"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": [
+      "children"
+     ]
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "auntie",
+      "buys",
+      "khlong",
+      "market",
+      "somjit",
+      "toei"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:thanh:thanh_q02:CAT-ABLATED|7b07977c9ad1ce46": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:thanh:thanh_q02:CAT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:valentina:valentina_q04:SLOT-ABLATED|c975e15427a8fbe2": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "colombian",
+      "generation",
+      "journalists"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   }
+  },
+  "h45-D4": {
+   "frbank:aisha:aisha_q02:SLOT-ABLATED|87b671f9e3b6617f": {
+    "auto_evidence": {
+     "dn_A": [
+      "gym",
+      "only"
+     ],
+     "do_A": [
+      "near",
+      "piccadilly",
+      "puregym"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:aisha:aisha_q02:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:bruna:bruna_q06:FULL|ec2b9f9d36cb55c2": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "2025",
+      "april",
+      "enrolled",
+      "starting"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:bruna:bruna_q06:FULL",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:bruna:bruna_q06:SLOT-ABLATED|ec2b9f9d36cb55c2": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "2025",
+      "april",
+      "enrolled",
+      "starting"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:bruna:bruna_q06:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:dariush:dariush_q04:SLOT-ABLATED|d67c2ca9d3628556": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "location",
+      "open",
+      "planning"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:david:david_q06:CAT-ABLATED|c65c804ae433b38e": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:david:david_q06:CAT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:david:david_q06:FULL|3277b5b20f7f6e86": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:david:david_q06:FULL",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:elena:elena_q01:CAT-ABLATED|20a14635103a2dba": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "children",
+      "hospital",
+      "lurie",
+      "works"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:elena:elena_q01:CAT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:elena:elena_q05:CAT-ABLATED|0e2f57e75bdc4d34": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:elena:elena_q05:CAT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:elena:elena_q05:FULL|0e2f57e75bdc4d34": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:elena:elena_q05:FULL",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:fatima:fatima_q06:FULL|d17a217596fb18b8": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "geometry",
+      "home",
+      "launch",
+      "oud"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": "but",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:fatima:fatima_q06:FULL",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:ingrid:ingrid_q04:CAT-ABLATED|766a0fa846b1578c": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "institution",
+      "oceanographic",
+      "planning"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": "cancelled",
+     "q_do_A": [
+      "planning"
+     ]
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:jerome:jerome_q02:CAT-ABLATED|5953d48a3007c7c2": {
+    "auto_evidence": {
+     "dn_A": [
+      "abf"
+     ],
+     "do_A": [
+      "atlanta",
+      "lines",
+      "out",
+      "southeastern"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:jerome:jerome_q02:CAT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:kenji:kenji_q03:FULL|dc54ae53b3e9c308": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "shared",
+      "shinsaibashi",
+      "space"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:kenji:kenji_q03:FULL",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:kenji:kenji_q03:SLOT-ABLATED|dc54ae53b3e9c308": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "shared",
+      "shinsaibashi",
+      "space"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:kenji:kenji_q03:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:lily:lily_q01:SLOT-ABLATED|58fc6c3490608d9e": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "bay",
+      "microplastics",
+      "phillip",
+      "port"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:lily:lily_q01:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:marcus:marcus_q10:FULL|b857289930965af8": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:marcus:marcus_q10:FULL",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:marcus:marcus_q12:FULL|0f32feef9e8d196c": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:marcus:marcus_q12:FULL",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:mirri:mirri_q01:FULL|28988d92b56155aa": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "alligator",
+      "corridor",
+      "east",
+      "river"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:mirri:mirri_q01:FULL",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:mirri:mirri_q01:SLOT-ABLATED|2ae3f399928196d9": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "alligator",
+      "corridor",
+      "days",
+      "east",
+      "patrols"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": "though",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:mirri:mirri_q01:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:mirri:mirri_q04:FULL|ee0ce2e8298516c7": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "bilingual",
+      "children",
+      "english",
+      "matha",
+      "yolngu"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": [
+      "children"
+     ]
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:mirri:mirri_q04:FULL",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:mirri:mirri_q04:SLOT-ABLATED|ee0ce2e8298516c7": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "bilingual",
+      "children",
+      "english",
+      "matha",
+      "yolngu"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": [
+      "children"
+     ]
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:nadia:nadia_q02:SLOT-ABLATED|e260bc8c7c210e9d": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "lives",
+      "mont",
+      "plateau",
+      "royal"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:nadia:nadia_q02:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "auntie",
+      "buys",
+      "khlong",
+      "market",
+      "somjit",
+      "toei"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": true,
+     "phrase": "not current",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:thanh:thanh_q02:CAT-ABLATED|7b07977c9ad1ce46": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:thanh:thanh_q02:CAT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:thanh:thanh_q02:FULL|40773509689c6a9e": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:thanh:thanh_q02:FULL",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:valentina:valentina_q04:FULL|07c08bad80a3cc48": {
+    "auto_evidence": {
+     "dn_A": [
+      "project"
+     ],
+     "do_A": [
+      "journalists",
+      "planning"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": "old",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:valentina:valentina_q04:FULL",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:valentina:valentina_q04:SLOT-ABLATED|c975e15427a8fbe2": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "colombian",
+      "generation",
+      "journalists"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   }
+  },
+  "mini-A3": {
+   "frbank:bruna:bruna_q06:FULL|ec2b9f9d36cb55c2": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "2025",
+      "april",
+      "enrolled",
+      "starting"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:bruna:bruna_q06:FULL",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:bruna:bruna_q06:SLOT-ABLATED|ec2b9f9d36cb55c2": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "2025",
+      "april",
+      "enrolled",
+      "starting"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:bruna:bruna_q06:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:dariush:dariush_q04:SLOT-ABLATED|d67c2ca9d3628556": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "open",
+      "planning"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:fatima:fatima_q06:FULL|d17a217596fb18b8": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "geometry",
+      "home",
+      "oud"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:fatima:fatima_q06:FULL",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:ingrid:ingrid_q01:SLOT-ABLATED|f0a292a92f80ae35": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "arctic",
+      "cod",
+      "primary"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": [
+      "primary"
+     ]
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:ingrid:ingrid_q01:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:ingrid:ingrid_q04:CAT-ABLATED|766a0fa846b1578c": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "institution",
+      "oceanographic",
+      "planning"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": "but",
+     "q_do_A": [
+      "planning"
+     ]
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:ingrid:ingrid_q04:SLOT-ABLATED|98db10edf7a2894b": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "institution",
+      "oceanographic",
+      "planning"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": "but",
+     "q_do_A": [
+      "planning"
+     ]
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:ingrid:ingrid_q04:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:jake:jake_q11:FULL|131f342b26ed61a3": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:jake:jake_q11:FULL",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:kofi:kofi_q01:FULL|859bafc244b8d70e": {
+    "auto_evidence": {
+     "dn_A": [
+      "kuapa"
+     ],
+     "do_A": [
+      "cooperative",
+      "sells",
+      "through"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": [
+      "cooperative",
+      "through"
+     ]
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:kofi:kofi_q01:FULL",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:kofi:kofi_q01:SLOT-ABLATED|859bafc244b8d70e": {
+    "auto_evidence": {
+     "dn_A": [
+      "kuapa"
+     ],
+     "do_A": [
+      "cooperative",
+      "sells",
+      "through"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": [
+      "cooperative",
+      "through"
+     ]
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:kofi:kofi_q01:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:mirri:mirri_q01:FULL|28988d92b56155aa": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "alligator",
+      "corridor",
+      "east",
+      "river"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:mirri:mirri_q01:FULL",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:mirri:mirri_q01:SLOT-ABLATED|2ae3f399928196d9": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "alligator",
+      "corridor",
+      "days",
+      "east",
+      "patrols"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:mirri:mirri_q01:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:mirri:mirri_q04:FULL|ee0ce2e8298516c7": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "bilingual",
+      "children",
+      "english",
+      "matha",
+      "yolngu"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": [
+      "children"
+     ]
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:mirri:mirri_q04:FULL",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:mirri:mirri_q04:SLOT-ABLATED|ee0ce2e8298516c7": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "bilingual",
+      "children",
+      "english",
+      "matha",
+      "yolngu"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": [
+      "children"
+     ]
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "auntie",
+      "buys",
+      "khlong",
+      "market",
+      "somjit",
+      "toei"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:tom:tom_q06:FULL|20e59418eb9ecbe3": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "convert",
+      "honey",
+      "into",
+      "processing"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": "but",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:tom:tom_q06:FULL",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:valentina:valentina_q03:SLOT-ABLATED|499f59436e5454af": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "cigarettes",
+      "smokes",
+      "trying"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": "but",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:valentina:valentina_q03:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:valentina:valentina_q04:SLOT-ABLATED|c975e15427a8fbe2": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "generation",
+      "journalists"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   }
+  },
+  "mini-D4": {
+   "frbank:bruna:bruna_q06:FULL|ec2b9f9d36cb55c2": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "2025",
+      "april",
+      "enrolled",
+      "starting"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:bruna:bruna_q06:FULL",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:bruna:bruna_q06:SLOT-ABLATED|ec2b9f9d36cb55c2": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "2025",
+      "april",
+      "enrolled",
+      "starting"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:bruna:bruna_q06:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:dariush:dariush_q04:SLOT-ABLATED|d67c2ca9d3628556": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "open",
+      "planning"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:fatima:fatima_q06:FULL|d17a217596fb18b8": {
+    "auto_evidence": {
+     "dn_A": [
+      "business"
+     ],
+     "do_A": [
+      "geometry",
+      "home",
+      "oud"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:fatima:fatima_q06:FULL",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:ingrid:ingrid_q01:SLOT-ABLATED|f0a292a92f80ae35": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "arctic",
+      "cod",
+      "primary"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": [
+      "primary"
+     ]
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:ingrid:ingrid_q01:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:ingrid:ingrid_q04:SLOT-ABLATED|98db10edf7a2894b": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "institution",
+      "oceanographic",
+      "planning"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": "but",
+     "q_do_A": [
+      "planning"
+     ]
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:ingrid:ingrid_q04:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:jake:jake_q11:FULL|131f342b26ed61a3": {
+    "auto_evidence": {
+     "unscorable": true
+    },
+    "auto_label": null,
+    "item_id": "frbank:jake:jake_q11:FULL",
+    "label": null,
+    "note": "",
+    "state": "exp",
+    "unscorable": true
+   },
+   "frbank:kofi:kofi_q01:FULL|859bafc244b8d70e": {
+    "auto_evidence": {
+     "dn_A": [
+      "kuapa"
+     ],
+     "do_A": [
+      "cooperative",
+      "sells",
+      "through"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": [
+      "cooperative",
+      "through"
+     ]
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:kofi:kofi_q01:FULL",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:kofi:kofi_q01:SLOT-ABLATED|859bafc244b8d70e": {
+    "auto_evidence": {
+     "dn_A": [
+      "kuapa"
+     ],
+     "do_A": [
+      "cooperative",
+      "sells",
+      "through"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": [
+      "cooperative",
+      "through"
+     ]
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:kofi:kofi_q01:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:mirri:mirri_q01:FULL|28988d92b56155aa": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "alligator",
+      "corridor",
+      "east",
+      "river"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:mirri:mirri_q01:FULL",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:mirri:mirri_q01:SLOT-ABLATED|2ae3f399928196d9": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "alligator",
+      "corridor",
+      "days",
+      "east",
+      "patrols"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:mirri:mirri_q01:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:mirri:mirri_q04:FULL|ee0ce2e8298516c7": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "bilingual",
+      "children",
+      "english",
+      "matha",
+      "yolngu"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": [
+      "children"
+     ]
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:mirri:mirri_q04:FULL",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:mirri:mirri_q04:SLOT-ABLATED|ee0ce2e8298516c7": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "bilingual",
+      "children",
+      "english",
+      "matha",
+      "yolngu"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": [
+      "children"
+     ]
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:pan:pan_q01:CAT-ABLATED|f436fcbaccfffbff": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "auntie",
+      "buys",
+      "khlong",
+      "market",
+      "somjit",
+      "toei"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:pan:pan_q01:CAT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "sup",
+    "unscorable": false
+   },
+   "frbank:tom:tom_q06:FULL|20e59418eb9ecbe3": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "convert",
+      "honey",
+      "into",
+      "processing"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": "but",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:tom:tom_q06:FULL",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:tom:tom_q06:SLOT-ABLATED|6e84158b43622d95": {
+    "auto_evidence": {
+     "dn_A": [
+      "conversion"
+     ],
+     "do_A": [
+      "convert",
+      "honey",
+      "into",
+      "processing"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": "but",
+     "q_do_A": []
+    },
+    "auto_label": "mentions_but_superseded",
+    "item_id": "frbank:tom:tom_q06:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   },
+   "frbank:valentina:valentina_q04:SLOT-ABLATED|c975e15427a8fbe2": {
+    "auto_evidence": {
+     "dn_A": [],
+     "do_A": [
+      "generation",
+      "journalists"
+     ],
+     "do_A_subset_of_question": false,
+     "is_abstention": false,
+     "phrase": null,
+     "q_do_A": []
+    },
+    "auto_label": "gives_stale_value",
+    "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+    "label": null,
+    "note": "",
+    "state": "ret",
+    "unscorable": false
+   }
+  }
+ }
+}

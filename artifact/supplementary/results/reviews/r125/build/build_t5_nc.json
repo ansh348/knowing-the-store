@@ -1,0 +1,28 @@
+{
+ "arms": {
+  "INDEXED-COUNTS": {
+   "byte_check": "PASS",
+   "chars_mean": 1542.3,
+   "lock": "cf2_names_counts.locks asserted on every version",
+   "n": 444,
+   "recorded_prompt_tokens_mean": 1009.0,
+   "recorded_texts_sha256": "1187e126d7671768d5848059e8c7eb93c0194f64100209a6054636f45f1eb0e8",
+   "texts_sha256": "1187e126d7671768d5848059e8c7eb93c0194f64100209a6054636f45f1eb0e8"
+  },
+  "INDEXED-NAMES": {
+   "byte_check": "PASS",
+   "chars_mean": 2855.6,
+   "lock": "cf2_names_counts.locks asserted on every version",
+   "n": 444,
+   "recorded_prompt_tokens_mean": 1178.8,
+   "recorded_texts_sha256": "d901ebefef3b1e6ba9d9cdc1ab008bb8e08988a413154bd125674e55e2c993db",
+   "texts_sha256": "d901ebefef3b1e6ba9d9cdc1ab008bb8e08988a413154bd125674e55e2c993db"
+  }
+ },
+ "meta": {
+  "model_calls": 0,
+  "renderer": "r82_counterfactual/tools/cf2_names_counts.py names_only / counts_only (E2's primary forms)",
+  "renderer_sha256": "a9da24afb6cb067eef89605a4b996822562feb74e121a15b726e7b431ec5aa11",
+  "script": "reviews/r125/tools/r125_t5_build.py"
+ }
+}

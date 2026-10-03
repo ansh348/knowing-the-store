@@ -1,0 +1,340 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 38,
+    "in": 38682,
+    "out": 14254,
+    "usd": 0.0382792
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 5,
+  "persona": "yoli",
+  "probes": [
+    {
+      "domain": "Culinary Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "type"
+      ],
+      "max_cosine": 0.3409,
+      "note": "",
+      "question": "What is your favorite type of cuisine to cook at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3409,
+          "entry_id": "lb_00244",
+          "text": "User is learning to cook proper Jamaican food."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3397,
+          "entry_id": "lb_00239",
+          "text": "User is learning how to cook proper Jamaican food."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3258,
+          "entry_id": "lb_00243",
+          "text": "User is learning to cook proper Jamaican food, specifically curry goat."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3217,
+          "entry_id": "lb_00247",
+          "text": "User is planning to learn to cook ackee and saltfish next week from their grandmother."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3148,
+          "entry_id": "lb_00245",
+          "text": "User has a big dutch oven for cooking."
+        }
+      ],
+      "why_absent": "No information about cooking or food preferences is stored."
+    },
+    {
+      "domain": "Daily Routine",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "you"
+      ],
+      "max_cosine": 0.4197,
+      "note": "",
+      "question": "Can you describe your typical morning routine on a workday?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.4197,
+          "entry_id": "lb_00399",
+          "text": "User plans to implement a new energy management system including a power nap at 5-6pm with coffee before, peak creative work 7-10pm, cold water and snack at 11pm, and mechanical work after midnight."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.4074,
+          "entry_id": "lb_00046",
+          "text": "User usually plans Sunday as a rest day but ends up doing administrative work."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3598,
+          "entry_id": "lb_00389",
+          "text": "User has a weekly production schedule working weekdays from 1pm to 8pm, Saturdays have a residency, and Sundays are rest days"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3433,
+          "entry_id": "lb_00398",
+          "text": "User's optimal creative work time is between 7-10pm."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.3425,
+          "entry_id": "lb_00392",
+          "text": "User's prime creative working time is between 7-10pm."
+        }
+      ],
+      "why_absent": "No details about daily personal routines or habits are present."
+    },
+    {
+      "domain": "Literary Interests",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "time",
+        "you"
+      ],
+      "max_cosine": 0.2078,
+      "note": "",
+      "question": "What kind of books or authors do you enjoy reading in your free time?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2078,
+          "entry_id": "lb_00329",
+          "text": "User's grandmother loves cooking, gardening, and church"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1989,
+          "entry_id": "lb_00403",
+          "text": "User's music genres of interest are electronic, bass music, and Caribbean sounds."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1849,
+          "entry_id": "lb_00391",
+          "text": "User is highly energetic and productive in the evening between 7-10pm."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1771,
+          "entry_id": "lb_00398",
+          "text": "User's optimal creative work time is between 7-10pm."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1745,
+          "entry_id": "lb_00392",
+          "text": "User's prime creative working time is between 7-10pm."
+        }
+      ],
+      "why_absent": "No data about reading habits or literary interests is included."
+    },
+    {
+      "domain": "Travel History",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.277,
+      "note": "",
+      "question": "Have you traveled internationally for leisure, and if so, which destination did you enjoy most?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.277,
+          "entry_id": "lb_00122",
+          "text": "User intends to visit their grandmother in Jamaica during the tour and has family connections there."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.264,
+          "entry_id": "lb_00113",
+          "text": "User is planning a DJ tour in Jamaica covering multiple cities and local venues."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2617,
+          "entry_id": "lb_00126",
+          "text": "User is planning a music tour in Jamaica covering Kingston, Montego Bay, Ocho Rios, Negril, and Portmore."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2531,
+          "entry_id": "lb_00445",
+          "text": "User wants to expand their music production career internationally, aiming to have productions on other artists' albums and to tour"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.245,
+          "entry_id": "lb_00200",
+          "text": "User planned a Jamaica tour but cancelled it due to financial losses."
+        }
+      ],
+      "why_absent": "No travel or vacation history information is stored."
+    },
+    {
+      "domain": "Physical Fitness",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "type",
+        "you"
+      ],
+      "max_cosine": 0.2643,
+      "note": "",
+      "question": "What type of exercise or physical activity do you usually do to stay fit?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2643,
+          "entry_id": "lb_00134",
+          "text": "User performs regular Friday sets where some tracks have been very successful on the dancefloor."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2595,
+          "entry_id": "lb_00248",
+          "text": "User is active mostly on Instagram and a little bit on TikTok for social media."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.232,
+          "entry_id": "lb_00357",
+          "text": "User has health-related energy limitations affecting their ability to produce music after working in a studio full time"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.23,
+          "entry_id": "lb_00354",
+          "text": "User has health-related energy limitations affecting their ability to produce music outside of work"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2268,
+          "entry_id": "lb_00360",
+          "text": "User experiences health-related energy limitations that affect their ability to produce music after working full time."
+        }
+      ],
+      "why_absent": "No information about exercise habits or fitness routines is available."
+    },
+    {
+      "domain": "Pets and Animals",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.1775,
+      "note": "",
+      "question": "Do you have any pets, and if so, what kind and what are their names?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1775,
+          "entry_id": "lb_00329",
+          "text": "User's grandmother loves cooking, gardening, and church"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1618,
+          "entry_id": "lb_00245",
+          "text": "User has a big dutch oven for cooking."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1575,
+          "entry_id": "lb_00251",
+          "text": "User primarily uses Instagram and a little bit of TikTok for social media."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1428,
+          "entry_id": "lb_00333",
+          "text": "User wants to help grandmother write down her recipes in a nice recipe journal."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1426,
+          "entry_id": "lb_00138",
+          "text": "User has a SoundCloud account with their music."
+        }
+      ],
+      "why_absent": "No data about pets or animal companions is recorded."
+    },
+    {
+      "domain": "Entertainment Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [],
+      "max_cosine": 0.2429,
+      "note": "",
+      "question": "What is your favorite movie or TV show genre to watch when relaxing?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2429,
+          "entry_id": "lb_00403",
+          "text": "User's music genres of interest are electronic, bass music, and Caribbean sounds."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2056,
+          "entry_id": "lb_00427",
+          "text": "User's music production genres are dancehall, afrobeats, and hip hop."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2026,
+          "entry_id": "lb_00329",
+          "text": "User's grandmother loves cooking, gardening, and church"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1941,
+          "entry_id": "lb_00337",
+          "text": "User's grandmother has a CD player and listens to gospel, classic rocksteady, and reggae music."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.188,
+          "entry_id": "lb_00398",
+          "text": "User's optimal creative work time is between 7-10pm."
+        }
+      ],
+      "why_absent": "No information about movie or TV show preferences is stored."
+    }
+  ],
+  "threshold": 0.295
+}

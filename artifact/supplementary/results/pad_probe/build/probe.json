@@ -1,0 +1,57 @@
+{
+  "identifier_ok": true,
+  "probe_usd": 0.0022212,
+  "probes": [
+    {
+      "L": 15,
+      "completion_tokens": 24,
+      "content": "{\"fok\":10, \"nok_candidates_found\":false, \"nok\":0, \"would_search\":true}",
+      "item_id": "frbank:aisha:aisha_q01:FULL",
+      "o200k_estimate": 1721,
+      "prompt_tokens": 1732,
+      "served_model": "gpt-4.1-mini-2025-04-14",
+      "system_fingerprint": "fp_ab8fa114f2"
+    },
+    {
+      "L": 30,
+      "completion_tokens": 24,
+      "content": "{\"fok\":20, \"nok_candidates_found\":false, \"nok\":0, \"would_search\":true}",
+      "item_id": "frbank:aisha:aisha_q01:CAT-ABLATED",
+      "o200k_estimate": 1580,
+      "prompt_tokens": 1591,
+      "served_model": "gpt-4.1-mini-2025-04-14",
+      "system_fingerprint": "fp_ab8fa114f2"
+    },
+    {
+      "L": 60,
+      "completion_tokens": 24,
+      "content": "{\"fok\":10, \"nok_candidates_found\":false, \"nok\":0, \"would_search\":true}",
+      "item_id": "frbank:aisha:aisha_q01:SLOT-ABLATED",
+      "o200k_estimate": 1931,
+      "prompt_tokens": 1942,
+      "served_model": "gpt-4.1-mini-2025-04-14",
+      "system_fingerprint": "fp_ab8fa114f2"
+    }
+  ],
+  "projection": {
+    "billed_so_far_combined": 0.0,
+    "calibration_ratio_served_over_o200k": 1.006350062794428,
+    "calls": 1983,
+    "combined_cap": 15.0,
+    "headroom": 15.0,
+    "headroom_rule": "the cap less every lane already billed and every earlier lane's projection; this is the first lane",
+    "input_tokens_est": 3340373,
+    "line_usd": 2.5,
+    "mean_completion_tokens_probe": 24.0,
+    "mean_prompt_tokens_by_L": {
+      "15": 1604.2742466998845,
+      "30": 1664.1878533884612,
+      "60": 1785.0533886155777
+    },
+    "output_tokens_est": 47592,
+    "usd": 1.4123,
+    "usd_x1.3": 1.836,
+    "within_headroom": true,
+    "within_line": true
+  }
+}

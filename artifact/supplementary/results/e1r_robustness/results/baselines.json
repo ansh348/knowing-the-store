@@ -1,0 +1,217 @@
+{
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2 (local, offline)",
+  "rows": {
+    "R-FOK-AMEM|BELIEVED": {
+      "baseline_beats_monitor": true,
+      "baseline_matches_monitor": false,
+      "baselines": {
+        "NB-1 deterministic rule": 0.5226290938316255,
+        "NB-2 logistic/index feats": 0.4452481414506731,
+        "NB-3 TF-IDF/index text": 0.9527828008840667,
+        "NB-4 lexical match": 0.5,
+        "NB-5 embedding match": 0.5
+      },
+      "best_baseline": "NB-3 TF-IDF/index text",
+      "best_baseline_auroc": 0.9527828008840667,
+      "judgment": "fok",
+      "monitor_blind_auroc": 0.5590968454892505,
+      "monitor_indexed_auroc": 0.5278028933092225,
+      "monitor_minus_best": -0.4249799075748443,
+      "n": 284,
+      "n_pos": 126,
+      "provenance": "BELIEVED",
+      "row": "R-FOK-AMEM"
+    },
+    "R-FOK-AMEM|TRUE": {
+      "baseline_beats_monitor": true,
+      "baseline_matches_monitor": false,
+      "baselines": {
+        "NB-1 deterministic rule": 0.5226290938316255,
+        "NB-2 logistic/index feats": 0.4184247538677918,
+        "NB-3 TF-IDF/index text": 0.9512256379344987,
+        "NB-4 lexical match": 0.5,
+        "NB-5 embedding match": 0.5
+      },
+      "best_baseline": "NB-3 TF-IDF/index text",
+      "best_baseline_auroc": 0.9512256379344987,
+      "judgment": "fok",
+      "monitor_blind_auroc": 0.5590968454892505,
+      "monitor_indexed_auroc": 0.45260699216395417,
+      "monitor_minus_best": -0.4986186457705445,
+      "n": 284,
+      "n_pos": 126,
+      "provenance": "TRUE",
+      "row": "R-FOK-AMEM"
+    },
+    "R-FOK-FRB|BELIEVED": {
+      "baseline_beats_monitor": true,
+      "baseline_matches_monitor": false,
+      "baselines": {
+        "NB-1 deterministic rule": 0.5194327731092437,
+        "NB-2 logistic/index feats": 0.46302521008403363,
+        "NB-3 TF-IDF/index text": 0.8332983193277311,
+        "NB-4 lexical match": 0.6080357142857142,
+        "NB-5 embedding match": 0.6185924369747899
+      },
+      "best_baseline": "NB-3 TF-IDF/index text",
+      "best_baseline_auroc": 0.8332983193277311,
+      "judgment": "fok",
+      "monitor_blind_auroc": 0.4965861344537815,
+      "monitor_indexed_auroc": 0.7005252100840336,
+      "monitor_minus_best": -0.13277310924369756,
+      "n": 307,
+      "n_pos": 35,
+      "provenance": "BELIEVED",
+      "row": "R-FOK-FRB"
+    },
+    "R-FOK-FRB|TRUE": {
+      "baseline_beats_monitor": true,
+      "baseline_matches_monitor": false,
+      "baselines": {
+        "NB-1 deterministic rule": 0.5194327731092437,
+        "NB-2 logistic/index feats": 0.5227941176470589,
+        "NB-3 TF-IDF/index text": 0.8070378151260504,
+        "NB-4 lexical match": 0.6080357142857142,
+        "NB-5 embedding match": 0.6185924369747899
+      },
+      "best_baseline": "NB-3 TF-IDF/index text",
+      "best_baseline_auroc": 0.8070378151260504,
+      "judgment": "fok",
+      "monitor_blind_auroc": 0.4965861344537815,
+      "monitor_indexed_auroc": 0.7003151260504201,
+      "monitor_minus_best": -0.10672268907563032,
+      "n": 307,
+      "n_pos": 35,
+      "provenance": "TRUE",
+      "row": "R-FOK-FRB"
+    },
+    "R-FOK-HARD|BELIEVED": {
+      "baseline_beats_monitor": false,
+      "baseline_matches_monitor": true,
+      "baselines": {
+        "NB-1 deterministic rule": 0.45130457246189615,
+        "NB-2 logistic/index feats": 0.736657194523379,
+        "NB-3 TF-IDF/index text": 0.7602169981916818,
+        "NB-4 lexical match": 0.6983208473262723,
+        "NB-5 embedding match": 0.8123998966675278
+      },
+      "best_baseline": "NB-5 embedding match",
+      "best_baseline_auroc": 0.8123998966675278,
+      "judgment": "fok",
+      "monitor_blind_auroc": 0.5258331180573496,
+      "monitor_indexed_auroc": 0.7954792043399639,
+      "monitor_minus_best": -0.01692069232756388,
+      "n": 588,
+      "n_pos": 35,
+      "provenance": "BELIEVED",
+      "row": "R-FOK-HARD"
+    },
+    "R-FOK-HARD|TRUE": {
+      "baseline_beats_monitor": true,
+      "baseline_matches_monitor": false,
+      "baselines": {
+        "NB-1 deterministic rule": 0.45130457246189615,
+        "NB-2 logistic/index feats": 0.7245672952725394,
+        "NB-3 TF-IDF/index text": 0.7637303022474813,
+        "NB-4 lexical match": 0.6983208473262723,
+        "NB-5 embedding match": 0.8123998966675278
+      },
+      "best_baseline": "NB-5 embedding match",
+      "best_baseline_auroc": 0.8123998966675278,
+      "judgment": "fok",
+      "monitor_blind_auroc": 0.5258331180573496,
+      "monitor_indexed_auroc": 0.7530353913717386,
+      "monitor_minus_best": -0.05936450529578918,
+      "n": 588,
+      "n_pos": 35,
+      "provenance": "TRUE",
+      "row": "R-FOK-HARD"
+    },
+    "R-FOK-MEM0|BELIEVED": {
+      "baseline_beats_monitor": true,
+      "baseline_matches_monitor": false,
+      "baselines": {
+        "NB-1 deterministic rule": 0.4817893026004728,
+        "NB-2 logistic/index feats": 0.5371971040189125,
+        "NB-3 TF-IDF/index text": 0.9621749408983451,
+        "NB-4 lexical match": 0.5,
+        "NB-5 embedding match": 0.5
+      },
+      "best_baseline": "NB-3 TF-IDF/index text",
+      "best_baseline_auroc": 0.9621749408983451,
+      "judgment": "fok",
+      "monitor_blind_auroc": 0.5745789007092199,
+      "monitor_indexed_auroc": 0.5740617612293144,
+      "monitor_minus_best": -0.3881131796690307,
+      "n": 238,
+      "n_pos": 94,
+      "provenance": "BELIEVED",
+      "row": "R-FOK-MEM0"
+    },
+    "R-FOK-MEM0|TRUE": {
+      "baseline_beats_monitor": true,
+      "baseline_matches_monitor": false,
+      "baselines": {
+        "NB-1 deterministic rule": 0.4817893026004728,
+        "NB-2 logistic/index feats": 0.4922798463356974,
+        "NB-3 TF-IDF/index text": 0.9624704491725768,
+        "NB-4 lexical match": 0.5,
+        "NB-5 embedding match": 0.5
+      },
+      "best_baseline": "NB-3 TF-IDF/index text",
+      "best_baseline_auroc": 0.9624704491725768,
+      "judgment": "fok",
+      "monitor_blind_auroc": 0.5745789007092199,
+      "monitor_indexed_auroc": 0.47765218676122934,
+      "monitor_minus_best": -0.4848182624113475,
+      "n": 238,
+      "n_pos": 94,
+      "provenance": "TRUE",
+      "row": "R-FOK-MEM0"
+    },
+    "R-NOK-FRB|BELIEVED": {
+      "baseline_beats_monitor": true,
+      "baseline_matches_monitor": false,
+      "baselines": {
+        "NB-1 deterministic rule": 0.49867076370667035,
+        "NB-2 logistic/index feats": 0.5459104405468858,
+        "NB-3 TF-IDF/index text": 0.702354647148184,
+        "NB-4 lexical match": 0.5383493302030107,
+        "NB-5 embedding match": 0.5973967684021544
+      },
+      "best_baseline": "NB-3 TF-IDF/index text",
+      "best_baseline_auroc": 0.702354647148184,
+      "judgment": "nok",
+      "monitor_blind_auroc": 0.49461400359066426,
+      "monitor_indexed_auroc": 0.5958603784007733,
+      "monitor_minus_best": -0.10649426874741064,
+      "n": 661,
+      "n_pos": 104,
+      "provenance": "BELIEVED",
+      "row": "R-NOK-FRB"
+    },
+    "R-NOK-FRB|TRUE": {
+      "baseline_beats_monitor": false,
+      "baseline_matches_monitor": true,
+      "baselines": {
+        "NB-1 deterministic rule": 0.551443170832758,
+        "NB-2 logistic/index feats": 0.5833793674906781,
+        "NB-3 TF-IDF/index text": 0.7220860378400773,
+        "NB-4 lexical match": 0.5383493302030107,
+        "NB-5 embedding match": 0.5973967684021544
+      },
+      "best_baseline": "NB-3 TF-IDF/index text",
+      "best_baseline_auroc": 0.7220860378400773,
+      "judgment": "nok",
+      "monitor_blind_auroc": 0.49461400359066426,
+      "monitor_indexed_auroc": 0.7339024306035078,
+      "monitor_minus_best": 0.011816392763430494,
+      "n": 661,
+      "n_pos": 104,
+      "provenance": "TRUE",
+      "row": "R-NOK-FRB"
+    }
+  },
+  "spec": "e1r_robustness/SPEC_E1R.md @ 9ac91a2",
+  "tolerance": 0.05
+}

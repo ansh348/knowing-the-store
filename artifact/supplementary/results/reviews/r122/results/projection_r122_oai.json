@@ -1,0 +1,27 @@
+{
+ "MINI5": {
+  "calls": 4440,
+  "expected_usd": 1.3455,
+  "no_cache_usd": 3.14,
+  "tok_in": 1684,
+  "tok_out": 21
+ },
+ "P1LUNA": {
+  "calls": 2220,
+  "expected_usd": 0.8812,
+  "no_cache_usd": 1.4155,
+  "tok_in": 1796,
+  "tok_out": 232
+ },
+ "P1MINI": {
+  "calls": 444,
+  "expected_usd": 0.3376,
+  "no_cache_usd": 0.3376,
+  "tok_in": 1797,
+  "tok_out": 26
+ },
+ "cap": 5.0,
+ "spent_so_far": 0.0022,
+ "total_expected": 2.5643,
+ "total_no_cache": 4.8931
+}

@@ -1,0 +1,174 @@
+{
+ "arm": "Q4-MARKER-ABSENT",
+ "line": "Treat any field marked 'not expressible by this backend' as absent; the backend does not record it.",
+ "lock": {
+  "keys": 77,
+  "line": "Treat any field marked 'not expressible by this backend' as absent; the backend does not record it.",
+  "marker_lines_per_key": 3,
+  "prompts_e1": {
+   "file": "337d37d3414c04823d28ad99eeab15c34e328e60198d68625452ebf330830b84",
+   "texts": "35d9b968ffc0b008289a59b06f10b7d23f71658c648dd2865a46e8da15d495f2"
+  },
+  "registration": "registrations\\ADDENDUM_Q4.md",
+  "registration_sha256": "8b6ee9e3f7e2181edcab06e35d9a9efc0a0c21421ab841664a8f6e22da7ca608",
+  "reproduction": {
+   "amem": {
+    "blind_auroc": 0.5591,
+    "intact_auroc": 0.4526,
+    "intact_delta": -0.1065,
+    "n": 284,
+    "personas": 40,
+    "pos": 126
+   },
+   "mem0": {
+    "blind_auroc": 0.5746,
+    "intact_auroc": 0.4777,
+    "intact_delta": -0.0969,
+    "n": 238,
+    "personas": 37,
+    "pos": 94
+   }
+  },
+  "sep": "\\n\\n",
+  "when": "2026-09-13T18:03:36"
+ },
+ "probe": {
+  "backend": "amem",
+  "identifier_ok": true,
+  "item_id": "amem:aisha:aisha_q01:FULL",
+  "sample": "{\"fok\": 5, \"nok_candidates_found\": false, \"nok\": 0, \"would_search\": true}",
+  "served": "gpt-4.1-mini-2025-04-14",
+  "status": "OK",
+  "tok_in": 780,
+  "tok_out": 26,
+  "usd": 0.0003536,
+  "when": "2026-09-13T18:03:50"
+ },
+ "projection": {
+  "cap_combined": 3.0,
+  "combined": null,
+  "ds_amend1_projection_usd": null,
+  "n_calls": 522,
+  "probe_usd": 0.0003536,
+  "projected_usd": 0.1845792,
+  "tok_in": 407160,
+  "tok_out": 13572,
+  "when": "2026-09-13T18:04:35",
+  "x1_3": 0.23995296
+ },
+ "registration": "registrations\\ADDENDUM_Q4.md",
+ "registration_sha256": "8b6ee9e3f7e2181edcab06e35d9a9efc0a0c21421ab841664a8f6e22da7ca608",
+ "spend": {
+  "cached": 0,
+  "failed": 0,
+  "n_calls": 522,
+  "probe": 0.0003536,
+  "run": 0.1827544,
+  "total": 0.18310800000000002
+ },
+ "stores": {
+  "amem": {
+   "D1_q4_minus_intact": {
+    "agree": true,
+    "both_exclude_zero": true,
+    "delta": 0.0829,
+    "item": {
+     "ci_hi": 0.14114771544851415,
+     "ci_lo": 0.027657418602351585,
+     "excludes_zero": true,
+     "mean": 0.08301836207267146,
+     "n_draws": 1000
+    },
+    "persona": {
+     "ci_hi": 0.14028453813867056,
+     "ci_lo": 0.028500189667211823,
+     "excludes_zero": true,
+     "mean": 0.08521450439824699,
+     "n_draws": 1000
+    }
+   },
+   "D2_q4_minus_blind": {
+    "agree": true,
+    "both_exclude_zero": false,
+    "delta": -0.0236,
+    "item": {
+     "ci_hi": 0.038814315403173136,
+     "ci_lo": -0.08707093358264245,
+     "excludes_zero": false,
+     "mean": -0.02445076530730786,
+     "n_draws": 1000
+    },
+    "persona": {
+     "ci_hi": 0.03267757493692151,
+     "ci_lo": -0.07391102855674303,
+     "excludes_zero": false,
+     "mean": -0.02285228712995908,
+     "n_draws": 1000
+    }
+   },
+   "blind_auroc": 0.5591,
+   "identical_to_intact": 167,
+   "intact_auroc": 0.4526,
+   "intact_delta_vs_blind": -0.1065,
+   "intact_mean_fok": 0.1607,
+   "n": 284,
+   "personas": 40,
+   "pos": 126,
+   "q4_auroc": 0.5355,
+   "q4_distinct_values": 6,
+   "q4_mean_fok": 0.1329
+  },
+  "mem0": {
+   "D1_q4_minus_intact": {
+    "agree": true,
+    "both_exclude_zero": false,
+    "delta": 0.0577,
+    "item": {
+     "ci_hi": 0.11568221981499585,
+     "ci_lo": -0.007379503430662832,
+     "excludes_zero": false,
+     "mean": 0.05752902235050753,
+     "n_draws": 1000
+    },
+    "persona": {
+     "ci_hi": 0.12923607128574943,
+     "ci_lo": -0.014937666438567586,
+     "excludes_zero": false,
+     "mean": 0.05896284429892616,
+     "n_draws": 1000
+    }
+   },
+   "D2_q4_minus_blind": {
+    "agree": true,
+    "both_exclude_zero": false,
+    "delta": -0.0393,
+    "item": {
+     "ci_hi": 0.02257753561147516,
+     "ci_lo": -0.10417444029850743,
+     "excludes_zero": false,
+     "mean": -0.040030575844199105,
+     "n_draws": 1000
+    },
+    "persona": {
+     "ci_hi": 0.029371603827049397,
+     "ci_lo": -0.10261378344725648,
+     "excludes_zero": false,
+     "mean": -0.03669255508672259,
+     "n_draws": 1000
+    }
+   },
+   "blind_auroc": 0.5746,
+   "identical_to_intact": 141,
+   "intact_auroc": 0.4777,
+   "intact_delta_vs_blind": -0.0969,
+   "intact_mean_fok": 0.166,
+   "n": 238,
+   "personas": 37,
+   "pos": 94,
+   "q4_auroc": 0.5353,
+   "q4_distinct_values": 6,
+   "q4_mean_fok": 0.1277
+  }
+ },
+ "when": "2026-09-13T18:06:39"
+}

@@ -1,0 +1,294 @@
+\documentclass{article}
+\usepackage{official_style/iclr2027/iclr2027_conference,times}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{xr-hyper}
+% R104 (2026-09-13): the supplement now resolves into paper_v12; Section S.6 carries the struck clause of the first counterfactual form's failure text, moved out of Appendix D.2.
+% R108 (2026-09-14): the supplement resolves into paper_v16; Section S.10 carries Proposition 1 and its proof (Appendix A of v15).
+% R107 (2026-09-14): the supplement resolved into paper_v15 and Section S.4 gained the five-draw census.
+% R105 (2026-09-14): the supplement resolved into paper_v13; Sections S.7 to S.9 carry the pilot table, the caching-economics paragraph and the
+% neutral-slice outcome sentence, moved out of Appendices F.2, F.11 and Section 9 under the author's presentation pass (reviews/v13/).
+\usepackage[hidelinks]{hyperref}
+\externaldocument{paper_v16}
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage[section]{placeins}
+\usepackage{float}
+\usetikzlibrary{arrows.meta,positioning}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.18}
+
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{claim}{Claim}
+\newcommand{\present}{\textsc{present}}
+\newcommand{\absent}{\textsc{absent}}
+\newcommand{\pn}{\textsc{pn}}
+\newcommand{\trueidx}{\textsc{true}}
+\newcommand{\believed}{\textsc{believed}}
+
+
+\title{Supplementary Material for ``Knowing the Store: What a Memory Backend Must Write Down Before an Agent Can Read It''}
+\author{Anonymous Authors}
+
+\begin{document}
+\maketitle
+
+\noindent This supplement holds the records the paper's appendices point to: the instrument ledger, the deviation index, the prediction texts written before scoring, the per-provider run disclosures, the map from the artifact's internal names to the paper's terms, and the pilot table, the caching-economics paragraph and the neutral-slice outcome sentence moved here from the paper. Each block is printed as it stood in the paper, with its label, so that a pointer in the paper resolves here; every number in it also prints in a table of the paper.
+
+\renewcommand{\thesection}{S.\arabic{section}}
+
+\section{The monitoring-scoped instrument ledger}\label{sup:ledger}
+
+The twelve entries of Appendix~D of the paper, and the account of the four failures of the same kind in the manuscript's own verification battery.
+
+\begin{enumerate}
+\item % C109
+\textbf{What went wrong.} The expiry route that ignored query intent looked mechanical and was treated as one. It reached $20\%$ precision. \textbf{What we changed.} \pn{} is defined conditionally on intent, which is the definition this paper uses.
+\item % C110
+\textbf{What went wrong.} The half of \pn{} labeling that looked mechanical reached $69$--$86\%$ precision under spot check. \textbf{What we changed.} Every candidate receives human verification, and no part of the label is taken as mechanical.
+\item % C111
+\textbf{What went wrong.} The pilot's monitor prompt asserted lifecycle structure that two of the three backends do not expose, so it stated something false to them. \textbf{What we changed.} The prompt was rebuilt before the main study, which is why pilot and main-study values are not comparable.
+\item % C112
+\textbf{What went wrong.} Lexical presence recall was $0.697$, low enough that every \absent{} label rested on a weak check. \textbf{What we changed.} A two-channel replacement reached $0.995$, so its miss rate on present targets is $\varepsilon=0.005$. That is a conditional rate and not the error rate of an absence claim; the posterior, which also needs the base rate, is given in Section~\ref{sec:setup}.
+\item % C113
+\textbf{What went wrong.} Wall-clock ingestion time would have converted a measurement-step error into a lifecycle claim. \textbf{What we changed.} A proper recency time was added.
+\item % C114
+\textbf{What went wrong.} The probe screen fired on every content word. \textbf{What we changed.} It was replaced by a corpus-measured filter.
+\item % C115
+\textbf{What went wrong.} Only $3/300$ GPT-5.6 Sol scores and $1/300$ GPT-5.6 Luna scores reproduced across five draws. \textbf{What we changed.} The $k=5$ frontier protocol followed.
+\item % C116
+\textbf{What went wrong.} A frontier conclusion had already been drafted when that redraw ran. \textbf{What we changed.} The preregistered redraw reversed it before distribution.
+\item % C117
+\textbf{What went wrong.} The frontier provider/API's ``tokens used'' field reports a turn total rather than output telemetry. \textbf{What we changed.} Exact frontier economics are not reported.
+\item % C118
+\textbf{What went wrong.} An import-shadowing bug wrote this study's usage records into another study's cache. \textbf{What we changed.} It is disclosed here rather than repaired retrospectively.
+\item
+\textbf{What went wrong.} A label-supervised question-only probe exposed generator-specific template signal. \textbf{What we changed.} The powered matched set is reported as a second population rather than as evidence controlled for the question signal.
+\item % AUX-E1R-NB3
+\textbf{What went wrong.} A term-frequency summary-reader baseline (NB-3) read the question rather than the store; Appendix~\ref{app:baselines} holds the record. \textbf{What we changed.} NB-3 was disqualified as a summary reader and is retained as a measurement-step failure record.
+\item[Preventive.] % C119
+\textbf{What went wrong.} The generic frontier-family model string routed server-side to the top tier. \textbf{What we changed.} Exact model-identifier verification caught the mismatch before any call.
+\end{enumerate}
+
+% C120
+Across the ledger, the shared failure is a semantic assumption hidden inside a seemingly mechanical operation.
+% R83: the pattern recurred in this manuscript's own gate battery.
+The same failure appeared four times in this manuscript's own verification battery.
+That battery sits outside the monitoring scope this ledger covers, and it is recorded here because the pattern is this ledger's subject.
+A numeric re-scan defaulted to the frozen manuscript, so it audited a file nobody edits.
+A published figure passed that scan by matching an unrelated interval endpoint of equal value.
+An appendix exemption keyed by section name authorized one edit and then passed every later edit to the same section.
+Those three reported success for a reason unrelated to the question asked.
+The fourth is the cleanest case: an exemption table named the same section twice, and the language runtime discarded the earlier entry at parse time, so that rule had never been in force and no run could have exposed it.
+
+\section{Deviation index}\label{sup:deviations}
+
+Every deviation the paper names, with its ledger entry and the appendix that discusses it (Appendix~F of the paper).
+
+\noindent\textbf{Deviation index.}\\
+Intent conditioning: E0 D16; Appendix~\ref{app:ledger}, item 1.\\
+PN verification: registered Phase-0 resolution; Appendix~\ref{app:ledger}, item 2.\\
+Prompt structure: E1 D2; Appendix~\ref{app:ledger}, item 3.\\
+Presence control: E1 D5--D6; Appendix~\ref{app:ledger}, item 4.\\
+Recency time: E1 D13; Appendix~\ref{app:ledger}, item 5.\\
+Probe screen: E1 D15; Appendix~\ref{app:ledger}, item 6.\\
+Model nondeterminism: E1 D19 and D21; Appendix~\ref{app:ledger}, item 7.\\
+Redraw conclusion: E1 D21; Appendix~\ref{app:ledger}, item 8.\\
+Provider/API telemetry: E1 D24; Appendix~\ref{app:ledger}, item 9.\\
+Import shadowing: E1 D25; Appendix~\ref{app:ledger}, item 10.\\
+Per-provider run disclosures: D86--D91; Appendix~\ref{app:crossvendor}.\\
+Cross-vendor failure-text defect: D93; Appendix~\ref{app:crossvendor}.\\
+Question-authorship confound: D94; Appendix~\ref{app:questionprior}.\\
+Question-reading baseline (NB-3): E1-R D-E1R-2; Appendix~\ref{app:ledger}, item 12.\\
+Withdrawn coverage prediction (NB-6): E1-R D-E1R-7; Appendix~\ref{app:baselines}.\\
+Obligation-margin correction after NB-6: E1-R D-E1R-8; Appendix~\ref{app:baselines}.\\
+Own-name census key collision: E1-R D-E1R-10; Appendix~\ref{app:baselines}.\\
+Retraction quota on the measured eligibility rate: CF-2 D-CF2-1; Appendix~\ref{app:counterfactual}.\\
+Replacement in walk order after an authoring or reading failure: CF-2 D-CF2-2; Appendix~\ref{app:counterfactual}.\\
+One re-authoring of a record that fails the author's read: CF-2 D-CF2-3; Appendix~\ref{app:counterfactual}.\\
+No further queue extension; the supersession quota drops by the failures: CF-2 D-CF2-4; Appendix~\ref{app:counterfactual}.\\
+Drop rule evaluated on the 13th, once: CF-2 D-CF2-5; Appendix~\ref{app:counterfactual}.\\
+Truthful metadata does not flag $22$ of the $104$ forbidding records: DS D-DS-1; Appendix~\ref{app:resp}.\\
+Fetch-set zero count transcribed from the unflagged count: DS D-DS-2; Appendix~\ref{app:resp}.\\
+Two bars set under the premise corrected at L2; one prediction unfulfillable by its own gate: DS D-DS-3; Appendix~\ref{app:resp}.\\
+No deviation on the mechanism tests (RESP); Appendix~\ref{app:resp}.\\
+Zero-change wording of the DS-P4 failed form: DS D-DS-4; Appendix~\ref{app:resp}.\\
+Exact model identifier: E1.7 preventive check; Appendix~\ref{app:ledger}, Preventive.
+
+\section{Texts written before scoring, printed with their numbers}\label{sup:frozen-texts}
+
+The eleven prediction texts of the mechanism tests and the downstream experiment (Appendix~E.10 of the paper), each with its outcome; the placeholders were filled from the ledgers at print time and no word was changed.
+
+\paragraph{Texts written before scoring, printed with their numbers.}
+\noindent\textbf{Own-name ablation, supersession} (L1-P1, Table~\ref{tab:registrations-b}; held). Removing the target's own name and its nearest neighbours from the superseded-names section costs the smallest model $0.3262$ of its supersession discrimination ($0.8572$ to $0.5310$, interval $[$-0.3991$,$-0.2548$]$; persona-clustered $[$-0.4327$,$-0.2167$]$): the obligation is read off the name, as the manuscript says.
+
+\noindent\textbf{Own-name ablation, the two counted states} (L1-P2, Table~\ref{tab:registrations-b}; failed). On retraction-derived items, which the summary only counts and never names, the ablation moves the smallest model's discrimination by $-0.1404$ with interval $[$-0.2569$,$-0.0508$]$ (persona-clustered $[$-0.3305$,$-0.0028$]$), outside the tolerance. The change cannot come from a name the positives carried; it comes through the negatives whose names were removed, or through the model's response to a section that now reads ``(none)'' against non-zero counts. The per-state reading of Table $20$ is not clean of the ablation on this state. Eleven of the $26$ retraction-derived obligations carry their own name in the section the ablation edits; the row prints with that census beside it.
+
+\noindent\textbf{Retrieved view against the summary} (L2-P1, Table~\ref{tab:registrations-b}; failed). A monitor shown the five most similar entries with their lifecycle metadata, and no summary, scores $0.6851$ on obligation against $0.7339$ under the truthful summary, a paired difference of $-0.0488$ with interval $[$-0.1274$,$+0.0285$]$ (persona-clustered $[$-0.1454$,$+0.0389$]$) that does not fall below the summary by more than the tolerance. On this population a five-item view carries the obligation signal the summary carries; the argument that a bounded retrieved view cannot settle the judgment is not supported at k = $5$ here.
+
+\noindent\textbf{Summary with the retrieved view} (L2-P2, Table~\ref{tab:registrations-b}; failed). Adding the five retrieved entries to the truthful summary raises the smallest model's obligation discrimination from $0.7339$ to $0.8303$, a paired difference of $+0.0964$ with interval $[$+0.0415$,$+0.1554$]$ (persona-clustered $[$+0.0227$,$+0.1635$]$) above the tolerance. Retrieved items carry obligation signal the summary does not: the summary names superseded content and only counts the other two states, and a retrieved entry flagged retracted or expired is a name the summary never prints.
+
+\noindent\textbf{Reach of the forbidding record} (L2-P3, Table~\ref{tab:registrations-b}; failed). Over every entry the store holds, a five-item similarity view contains the record that forbids use for $54$ of the $104$ obligations, a reach rate of 0.5192. The record does not rank below the cutoff on this population for a retriever that does not mask inactive entries; the $5$\% figure the manuscript cites is FR-Bank's AV7 retrieval-pass rate under its lifecycle mask, a different quantity, and the premise sentence is to be restated as a mask effect.
+
+\noindent\textbf{The rubric gate} (L3-P1, Table~\ref{tab:registrations-b}; failed). With the detection step removed and the probability elicited directly, the smallest model's blind obligation score still takes $2$ distinct values across the $661$ questions ($604$ at the modal value). The constant was not the gate: the reviewer's explanation is not supported, and the smallest model's blind obligation judgment is flat under either rubric.
+
+\noindent\textbf{Downstream, the oracle ceiling} (DS-P1, Table~\ref{tab:registrations-b}; failed). Fetching the store's lifecycle records for the obligation's own attribute, on gold labels, puts the forbidding record in the view for $99$ of the $104$ obligations against $54$ for the five-entry similarity view alone, a difference of $+0.4327$ (interval $[$+0.3365$,$+0.5288$]$; persona-clustered $[$+0.2815$,$+0.5680$]$) that does not exceed 0.50. Either the retrieved view already carries the record for most obligations, or the store's metadata does not flag it: the truthful join marks the forbidding record non-active for $82$ of $104$ ($8$ of $26$ retraction-derived, $11$ of $15$ expiry-derived), and no fetch by lifecycle state reaches the other 22. Acting on a perfect obligation judgment reaches $0.9519$ on this store, not one.
+
+\noindent\textbf{Downstream, retention of the oracle gain} (DS-P2, Table~\ref{tab:registrations-b}; failed). On the $63$ supersession-derived obligations, where every forbidding record is flagged and named, gating the fetch on the smallest model's recorded obligation score at its base rate puts the record in view for $0.8413$, against $0.3492$ under retrieval alone and $1.0000$ under gold labels, retaining $0.7561$ of the oracle gain with interval $[$0.6097$,$0.8718$]$ (persona-clustered $[$0.5625$,$0.9394$]$) that does not exclude $0.60$ from below. The gate fires on $31$ of the $41$ supersession-derived obligations the retriever misses; the summary supports the judgment, and the judgment at this threshold does not carry it into the view. The item-level and the persona-clustered intervals disagree on this prediction; the weaker reading governs.
+
+\noindent\textbf{Downstream, the lookup as the rule} (DS-P3, Table~\ref{tab:registrations-b}; held). The superseded-names lookup, at the same fetch budget, puts the record in view within tolerance of the model's gate ($0.8413$ against $0.8413$ on the $63$, $+0.0000$, interval $[$-0.0794$,$+0.0794$]$; persona-clustered $[$-0.0938$,$+0.1035$]$): on the state the summary names, the gate can be a lookup.
+
+\noindent\textbf{Downstream, naming the counted states} (DS-P4, Table~\ref{tab:registrations-b}; failed). Naming the retracted and expired attributes in the summary makes their records fetchable, and the gate elicited under the counting summary reaches them for $0.7805$ against $0.7805$ under the superseded-only names, a difference of $+0.0000$ (interval $[$+0.0000$,$+0.0000$]$; persona-clustered $[$+0.0000$,$+0.0000$]$) that does not exceed $0.20$ on the $41$ retraction- and expiry-derived obligations. Of the $41$, $19$ carry a flagged record; naming makes $17$ of them fetchable that the superseded-only names do not, and the gate fires on $0$ of those. The bound on these states is the judgment, not the naming.
+
+\noindent\textbf{Downstream, the coverage rule} (DS-P5, Table~\ref{tab:registrations-b}; held). The gate does not cost coverage: on the $174$ items whose licensed record the store holds, coverage under the gated policy is within tolerance of retrieval alone ($0.3448$ against $0.3736$, $-0.0287$, interval $[$-0.0519$,$-0.0057$]$; persona-clustered $[$-0.0680$,$-0.0050$]$).
+
+\section{Per-provider disclosures and the failure-text correction}\label{sup:providers}
+
+The run disclosures for the three new providers of the cross-vendor replication (Appendix~B of the paper) and the correction of one frozen failure explanation.
+
+\noindent\textbf{Per-provider disclosures} (D86--D91; Appendix~\ref{app:registration}).
+In order: Haiku accepted the frozen temperature, Opus omitted an unsupported temperature, and K3 accepted only its provider-required value.
+K3 required a larger output ceiling to emit parseable content.
+A system-role assembly difference between the new providers and the OpenAI frontier path makes the indexed-coverage band item a band comparison rather than a matched contrast.
+Provider-specific tokenization is recorded for economics only.
+K3 is pinned to Moonshot direct rather than a routing mixture.
+
+\noindent\textbf{The five-draw census} (R107; \texttt{reviews/NUMBERS\_R107.md}).
+On the recorded five-draw lanes, Haiku 4.5's obligation score is identical across the five draws on $85\%$ of the item-arm groups of the $661$ ($1{,}123$ of $1{,}322$; median range $0$), and its reply text differs on $42\%$ of them while the number stays.
+Opus 5's and GPT-5.6 Luna's scores differ across the five draws on $97\%$ and $96\%$ of the groups (median range $0.07$ and $0.05$), because Opus 5's provider rejects the temperature parameter and the reasoning lanes omit it, so averaging the five draws is what makes those rows stable.
+The census script and its output accompany the artifact.
+Under that always-reasoning configuration the preregistration pilot measured a mean of $1{,}027$ reasoning tokens per call.
+The measured Opus output-ceiling correction was made before the full run.
+
+\noindent\textbf{Failure-text correction} (D93; Appendix~\ref{app:registration}).
+The frozen failure explanation for the universal-blind item (XV-1; Appendix~\ref{app:registration}) assumed that any miss would be above chance and that the indexed separation would fail with it.
+Haiku instead missed below chance, while every new indexed-minus-blind NOK interval excluded zero.
+The registered gate and its failed verdict remain unchanged; the attached explanation, rather than the gate, was defective.
+
+\section{Internal names in the artifact}\label{sup:names}
+
+The third glossary block of Appendix~E.1 of the paper: every internal name a reader meets in the registrations, ledgers and row files, and the term the paper prints for it.
+
+\begin{center}
+\fbox{\begin{minipage}{0.97\linewidth}
+\scriptsize
+\textbf{Internal names in the artifact, and the term this paper prints for each.}\par\smallskip
+\begin{tabular}{@{}p{.26\linewidth}p{.68\linewidth}@{}}
+E0 / E1 & the pilot / the main study \\
+lineage & one model family and version \\
+lane & one model scored on one question set \\
+cell & a fixed question set used for one comparison \\
+prior & what the question alone gives away, measured by the blind score \\
+arm & one experimental condition \\
+provenance & which summary a row used, \trueidx{} or \believed{} \\
+committed & recorded and frozen before later analysis \\
+registered & preregistered, with the prediction fixed before data collection \\
+NB-1 \ldots NB-6 & the six mechanical readers of the same summary \\
+NB-6 & the superseded-names lookup, scoring the query against the flat superseded-names list \\
+cross-model cell & cross-model set ($84$): the matched $84$-question set \\
+authorship-matched slice & authorship-matched set ($36$): the $36$-question set rewritten in one voice \\
+counterfactual cell & store-counterfactual set ($444$): $148$ queries asked of three versions of one store; its first form had $30$ \\
+count-destruction probe & the test that randomizes every count in the summary \\
+SWAP control & scoring the monitor against another persona's summary \\
+D-numbers & entries in the deviation ledgers of Appendix~\ref{app:registration} \\
+% R102 (2026-09-13): rows for every term the v10 brief bars from the body (brief section 4), mapped to the body term.
+index, metadata index, store description & the summary (Definition~\ref{def:index}; ``lifecycle index'' is its formal name) \\
+self-description & what a backend writes about itself; the summary, when it is the object read \\
+question-only arm, blind arm & the blind condition \\
+indexed arm & the indexed condition \\
+delta, paired delta, indexed-minus-blind & the gain \\
+matcher, NB-6, name lookup & the superseded-names lookup \\
+NB-1 \ldots NB-5 & the other mechanical readers of the summary (Appendix~\ref{app:baselines}) \\
+mechanical reader & any of the six non-model readers of the summary \\
+lineage, lane & the model, named in full (GPT-4.1 mini, GPT-5.6 Luna, GPT-5.6 Sol, Opus 5, Haiku 4.5, Kimi K3) \\
+the smallest model, the largest model & GPT-4.1 mini; GPT-5.6 Sol on the full populations and the cross-model set, and Opus 5 on the counterfactual set, where GPT-5.6 Sol was not run \\
+slice, population & question set (Section~\ref{sec:setup}); ``full populations'' is a set name \\
+committed, registered, frozen & recorded before scoring; preregistered; the text written before scoring \\
+witness, PN record, the record that forbids use & the forbidding record \\
+inside the band, inside the tolerance band & within tolerance ($\pm0.05$) \\
+mixed, by the weaker convention & the weaker reading governs \\
+no verdict, carries no prediction, reports, anchors no gain & descriptive (no prediction) \\
+\end{tabular}
+\end{minipage}}
+\end{center}
+
+\section{Struck clauses}\label{sup:struck}
+
+The clause of a frozen failure text that was struck as defective, kept here as the record that Appendix~D.2 of the paper points to; the paragraph is printed as it stood in the paper.
+
+The registered failure text continued that the gain measured on the larger population is therefore not free of what the question alone gives away. That clause is struck as defective and is not reported (deviation ledger, Appendix~\ref{app:registration}). At this size the set can neither establish the aggregate effect nor establish contamination: the point estimate is positive, the two interval conventions disagree, and the largest model tested, on which no prediction was registered, reaches $0.7122$ under the same summary with an item-level interval that excludes chance.
+
+\section{Pilot estimands}\label{sup:pilot}
+
+% R105 (2026-09-14): moved from Appendix F.2 (E.2 since R108) of the paper under the author's presentation pass; the two sentences and the table are the paper's, verbatim
+% (the table is paper_v11.tex lines 1333-1349, byte-identical).
+The pilot preceded the main study with a different prompt, so its values support the design lesson and cannot be compared numerically with the main study (Table~\ref{tab:pilot-record}).
+The raw and blind-deduplicated coverage estimands must not be mixed for the same reason.
+
+\begin{table}[H]
+% R75-F7: [H] pins this table below the Appendix F header; [h] floated it above (the W5(a) fix)
+\caption{The pilot table records its FOK, NOK, and calibration estimands. It supports the design lesson but cannot be compared numerically with the main study because the prompts differ.}
+\label{tab:pilot-record}
+\centering
+\scriptsize
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Result & $n$ & Blind / estimate & Indexed / target & $\Delta$ & $95\%$ CI \\
+\midrule
+FOK, raw & $210$ ($141/69$) & $0.5087$ & $0.8176$ & $+0.3088$ & $[+0.2051,+0.4090]$ \\
+FOK, blind-deduplicated & not recorded & $0.5429$ & same indexed condition & $+0.2747$ & not recorded \\
+NOK & not recorded & $0.4909$ & $0.5320$ & $+0.0411$ & $[-0.0569,+0.1255]$ \\
+Non-forced calibration & not recorded & $\mathord{\sim}0.26$ mean & $67\%$ base rate & ECE $0.4155$ & not recorded \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Caching economics}\label{sup:economics}
+
+% R105 (2026-09-14): moved from Appendix F.11 (E.11 since R108) of the paper under the author's presentation pass; the paragraph is the paper's, verbatim.
+Monitoring runs before every query, so its cost turns on prompt caching.
+The list-price projection and the billed micro-run disagree about which monitor is cheaper.
+With caching the indexed monitor is projected at \$207 per million calls against \$234 blind, while as billed it costs \$360 against \$233.
+The difference arises because cached input bills at $25\%$ of list and $64.3\%$ of indexed prompt tokens hit the block-aligned cache.
+The deployment Section~\ref{sec:conclusion} recommends makes no model call for obligations, so both orderings concern the model monitor only.
+
+\section{The neutral-slice outcome sentence}\label{sup:u6}
+
+% R105 (2026-09-14): moved from Section 9 of the paper under the author's presentation pass. U6 (CLAIMS.md): untouchable, byte-identical, exactly once
+% across the paper and this supplement; claims_diff --extra-tex counts it here.
+The registered outcome sentence of the neutral-slice prediction, as the paper's Limitations section printed it, reads:
+The indexed NOK gain excludes zero for Opus 5 and includes zero for GPT-4.1 mini, which we record as a failed prediction.
+
+% R108 (2026-09-14): Appendix A of paper_v15 (paper_v11.tex lines 875-898), moved here verbatim under a new heading; the paper keeps Remark 1.
+\section{Proposition 1 and its proof}\label{sup:proof}
+
+Remark~\ref{rem:mask} in Section~\ref{sec:framework} of the paper is the informal form of the proposition below, which the preregistered texts call Proposition 1; the paper prints the remark and its justification, and the formal statement and proof are here (R108, the author's instruction of 2026-09-14). The construction builds two stores that a top-$k$ retriever cannot tell apart, which is what makes the obligation undetectable from a bounded retrieved view.
+
+\subsection{Formal statement and proof}
+
+\begin{proposition}[Monitoring non-identifiability]\label{prop:nonident}
+Fix $k$ and a per-item score $\sigma$ whose retriever masks non-active records from its ranking, as lifecycle-tracking and overwriting stores do; under that mask a lifecycle record that changes intent-conditional coverage ranks below $k$ common items (on the inherited store, retraction records pass at $5\%$). Then there exist $S,S'$ with feature-identical retrieved sets $R_k(q,S)=R_k(q,S')$ but $\mathrm{Cov}(q,S)=\present$ and $\mathrm{Cov}(q,S')=\pn$; under the uniform distribution over $\{S,S'\}$, every decision rule over the monitor's output errs with probability at least $1/2$.
+\end{proposition}
+
+% C098
+Fix $k$, the score $\sigma$, and a below-cutoff witness from Proposition~\ref{prop:nonident}; let $q$ ask for the user's current weekend plan.
+% C099
+Let $e_g$ be an active item (``hiking trip Saturday'') with slot key \texttt{weekend\_plan} and $\sigma(e_g,q)=0.95$, and let $D=\{d_1,\ldots,d_{k-1}\}$ be lifecycle-inert filler items satisfying $0.85<\sigma(d_j,q)<0.90$.
+% C100
+Set $S=\{e_g\}\cup D\cup F$ and $S'=\{e_g\}\cup D\cup F\cup\{e_r\}$, where every item in the common pool $F$ has similarity below $0.80$ and $e_r$ is a retraction of the same slot with $\sigma(e_r,q)=0.70$.
+% C101
+The retraction lies below the fixed ranker's cutoff, so that ranker retrieves the same feature-identical top-$k$ set from both stores.
+% C102
+Under current intent, $\mathrm{Cov}(q,S)=\present$ and $\mathrm{Cov}(q,S')=\pn$.
+% C103
+The monitor's input, and hence output, is identical on the two stores, while exactly one required verdict is wrong; under their uniform mixture, its error is at least $1/2$.
+\hfill$\square$
+
+
+\end{document}

@@ -1,0 +1,3145 @@
+{
+ "build": {
+  "built": "2026-09-20T14:39:11",
+  "hv1_key_lock": {
+   "blocks": {
+    "haiku": 50,
+    "primary": 198
+   },
+   "items": 248
+  },
+  "inputs_sha256": {
+   "ds_downstream/run/cell_ds.json": "e46d7b95da2a4e53ce85a9a5abeeceb72129df906298ec77112081ea7b641c0e",
+   "ds_downstream/run/rows_ds_amend4_h45.jsonl": "2f26e9332c7594cdb92f19af303f157f2608a83a3ea12f664524976b63008ec8",
+   "ds_downstream/run/rows_ds_amend4_mini.jsonl": "9ddc9f2638b6a29759c0aa5f7c34b27a3a6a95bb7da56d5d97620dd92af58b24",
+   "ds_downstream/run/rows_ds_amend5_h45.jsonl": "ee05348247656bf57506651e7a86e9782d044093cc079ec0b2eada3040887e5d",
+   "ds_downstream/run/rows_ds_amend5_merged_h45.jsonl": "4d34ad8f53c51a1e2618ad87dcefb31593f86ce3ad43c95e723ab82985b68d37",
+   "ds_downstream/run/rows_ds_amend5_merged_mini.jsonl": "b96ddcb2c52256e69ecbe0e87f0dd130075e2559408dbc289e3d35d86f8f65c9",
+   "ds_downstream/run/rows_ds_amend5_mini.jsonl": "fdfa2ca33a33df2b79060764f7d71dad2866ae25c69340fe6af3dc3cd7f78517",
+   "ds_downstream/run/scores_amend4.json": "a28a58595d8de7f47db93f91c30e8b73be1a1569c2a5d81645a7f12ce042b661",
+   "ds_downstream/run/scores_amend5.json": "64cfb720d5a8dee158d216abfabdefd96eb6caa65bec7357a9f831b1225dd443",
+   "ds_downstream/run/views_amend5.json": "db120fef3cb452d13eb8bfc1e175b9dc580f42298b3196048199f560acc17d1d",
+   "ds_downstream/stage1.json": "6691654d3dfd23595d077e717cf30fb4c76880275e0115996a4b1b3dabb29a8f",
+   "ds_downstream/views.json": "6d3cb6c7b863c4815a2af71af9cfaef00b8334ca3e4f25886f204d9af1d17d48",
+   "human_validation/hv1/inputs/hva_rows.json": "f0ba8ec949b14b08a8077d5317711670ab65d3d24f45f73e9271b71e1dbbfb1d",
+   "human_validation/hv1/key/key_hv1.json": "e8ea5bc1e38365a8b433ac801f0b1aafe7c809a78236b5d7a6aeb3602fd0f1c8"
+  },
+  "judge_prompt_sha256": {
+   "JUDGE_SYSTEM": "d0e27a76e0ecce50cfc6ef59dcdb74fd5fe6a44e75aabcd0916fcd2443f5f08e",
+   "JUDGE_USER": "9c4f6c234315dbb473be9f1c580efe11eec9b11be4bb9ca85c25f85c574085c5"
+  },
+  "n_units_recorded": 610,
+  "n_views": 305,
+  "n_views_a4": 231,
+  "n_views_a5": 74,
+  "program": "R130",
+  "units_sha256": "24bd8d775a89296ed30efa919c1dc5b061335f6af648f7e78867a327f148b160",
+  "view_chars": {
+   "max": 4850,
+   "mean": 1673.5,
+   "sum": 510427
+  },
+  "view_lines": {
+   "max": 27,
+   "mean": 9.29
+  },
+  "views_sha256": "ad0e60e53224f20d2d568fe70988adfce702527f3b09a1956711f8cc32f61f78"
+ },
+ "identical_pairs": {
+  "n": 20,
+  "n_h45": 10,
+  "same_label": 20,
+  "same_label_h45": 10
+ },
+ "policy_tables": {
+  "H45": {
+   "ALWAYS": {
+    "abstains": 10,
+    "abstains_rate": 0.1852,
+    "answered_non_abstaining": 44,
+    "asserts": 21,
+    "asserts_rate": 0.3889,
+    "asserts_wilson": [
+     0.2704,
+     0.5221
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 2,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 16,
+      "n": 20
+     },
+     "sup": {
+      "asserts": 3,
+      "n": 22
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 18,
+     "scored": 54
+    },
+    "judged": 54,
+    "labels": {
+     "ABSTAINS": 10,
+     "ASSERTS": 21,
+     "CLEAN": 7,
+     "MENTIONS": 16,
+     "UNSURE": 0
+    },
+    "safe": 23,
+    "safe_of_answered": 0.5227,
+    "safe_of_judged": 0.4259,
+    "views": 54
+   },
+   "LOOKUP": {
+    "abstains": 9,
+    "abstains_rate": 0.1286,
+    "answered_non_abstaining": 61,
+    "asserts": 23,
+    "asserts_rate": 0.3286,
+    "asserts_wilson": [
+     0.23,
+     0.445
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 2,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 8,
+      "n": 8
+     },
+     "sup": {
+      "asserts": 13,
+      "n": 50
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 24,
+     "scored": 70
+    },
+    "judged": 70,
+    "labels": {
+     "ABSTAINS": 9,
+     "ASSERTS": 23,
+     "CLEAN": 18,
+     "MENTIONS": 20,
+     "UNSURE": 0
+    },
+    "safe": 38,
+    "safe_of_answered": 0.623,
+    "safe_of_judged": 0.5429,
+    "views": 70
+   },
+   "LOOKUP-ALL": {
+    "abstains": 9,
+    "abstains_rate": 0.1286,
+    "answered_non_abstaining": 61,
+    "asserts": 23,
+    "asserts_rate": 0.3286,
+    "asserts_wilson": [
+     0.23,
+     0.445
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 2,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 8,
+      "n": 8
+     },
+     "sup": {
+      "asserts": 13,
+      "n": 50
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 20,
+     "scored": 70
+    },
+    "judged": 70,
+    "labels": {
+     "ABSTAINS": 9,
+     "ASSERTS": 23,
+     "CLEAN": 19,
+     "MENTIONS": 19,
+     "UNSURE": 0
+    },
+    "safe": 38,
+    "safe_of_answered": 0.623,
+    "safe_of_judged": 0.5429,
+    "views": 70
+   },
+   "LOOKUP-LIT": {
+    "abstains": 16,
+    "abstains_rate": 0.1702,
+    "answered_non_abstaining": 78,
+    "asserts": 31,
+    "asserts_rate": 0.3298,
+    "asserts_wilson": [
+     0.2431,
+     0.4299
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 2,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 16,
+      "n": 20
+     },
+     "sup": {
+      "asserts": 13,
+      "n": 62
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 31,
+     "scored": 94
+    },
+    "judged": 94,
+    "labels": {
+     "ABSTAINS": 16,
+     "ASSERTS": 31,
+     "CLEAN": 25,
+     "MENTIONS": 22,
+     "UNSURE": 0
+    },
+    "safe": 47,
+    "safe_of_answered": 0.6026,
+    "safe_of_judged": 0.5,
+    "views": 94
+   },
+   "MODEL": {
+    "abstains": 9,
+    "abstains_rate": 0.1216,
+    "answered_non_abstaining": 65,
+    "asserts": 27,
+    "asserts_rate": 0.3649,
+    "asserts_wilson": [
+     0.2644,
+     0.4787
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 2,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 12,
+      "n": 13
+     },
+     "sup": {
+      "asserts": 13,
+      "n": 49
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 27,
+     "scored": 74
+    },
+    "judged": 74,
+    "labels": {
+     "ABSTAINS": 9,
+     "ASSERTS": 27,
+     "CLEAN": 16,
+     "MENTIONS": 22,
+     "UNSURE": 0
+    },
+    "safe": 38,
+    "safe_of_answered": 0.5846,
+    "safe_of_judged": 0.5135,
+    "views": 74
+   },
+   "MODEL-ALL": {
+    "abstains": 9,
+    "abstains_rate": 0.1216,
+    "answered_non_abstaining": 65,
+    "asserts": 27,
+    "asserts_rate": 0.3649,
+    "asserts_wilson": [
+     0.2644,
+     0.4787
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 2,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 12,
+      "n": 13
+     },
+     "sup": {
+      "asserts": 13,
+      "n": 49
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 23,
+     "scored": 74
+    },
+    "judged": 74,
+    "labels": {
+     "ABSTAINS": 9,
+     "ASSERTS": 27,
+     "CLEAN": 17,
+     "MENTIONS": 21,
+     "UNSURE": 0
+    },
+    "safe": 38,
+    "safe_of_answered": 0.5846,
+    "safe_of_judged": 0.5135,
+    "views": 74
+   },
+   "ORACLE": {
+    "abstains": 16,
+    "abstains_rate": 0.1616,
+    "answered_non_abstaining": 83,
+    "asserts": 32,
+    "asserts_rate": 0.3232,
+    "asserts_wilson": [
+     0.2392,
+     0.4205
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 2,
+      "n": 14
+     },
+     "ret": {
+      "asserts": 16,
+      "n": 22
+     },
+     "sup": {
+      "asserts": 14,
+      "n": 63
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 32,
+     "scored": 99
+    },
+    "judged": 99,
+    "labels": {
+     "ABSTAINS": 16,
+     "ASSERTS": 32,
+     "CLEAN": 26,
+     "MENTIONS": 25,
+     "UNSURE": 0
+    },
+    "safe": 51,
+    "safe_of_answered": 0.6145,
+    "safe_of_judged": 0.5152,
+    "views": 99
+   },
+   "RETAG": {
+    "abstains": 14,
+    "abstains_rate": 0.1892,
+    "answered_non_abstaining": 60,
+    "asserts": 17,
+    "asserts_rate": 0.2297,
+    "asserts_wilson": [
+     0.1487,
+     0.3375
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 0,
+      "n": 0
+     },
+     "ret": {
+      "asserts": 15,
+      "n": 29
+     },
+     "sup": {
+      "asserts": 2,
+      "n": 45
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 12,
+     "scored": 74
+    },
+    "judged": 74,
+    "labels": {
+     "ABSTAINS": 14,
+     "ASSERTS": 17,
+     "CLEAN": 26,
+     "MENTIONS": 17,
+     "UNSURE": 0
+    },
+    "safe": 43,
+    "safe_of_answered": 0.7167,
+    "safe_of_judged": 0.5811,
+    "views": 74
+   }
+  },
+  "LUNA": {
+   "ALWAYS": {
+    "abstains": 18,
+    "abstains_rate": 0.3333,
+    "answered_non_abstaining": 36,
+    "asserts": 22,
+    "asserts_rate": 0.4074,
+    "asserts_wilson": [
+     0.2868,
+     0.5403
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 3,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 14,
+      "n": 20
+     },
+     "sup": {
+      "asserts": 5,
+      "n": 22
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 9,
+     "scored": 54
+    },
+    "judged": 54,
+    "labels": {
+     "ABSTAINS": 18,
+     "ASSERTS": 22,
+     "CLEAN": 10,
+     "MENTIONS": 4,
+     "UNSURE": 0
+    },
+    "safe": 14,
+    "safe_of_answered": 0.3889,
+    "safe_of_judged": 0.2593,
+    "views": 54
+   },
+   "LOOKUP": {
+    "abstains": 23,
+    "abstains_rate": 0.3286,
+    "answered_non_abstaining": 47,
+    "asserts": 25,
+    "asserts_rate": 0.3571,
+    "asserts_wilson": [
+     0.255,
+     0.4741
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 3,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 8,
+      "n": 8
+     },
+     "sup": {
+      "asserts": 14,
+      "n": 50
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 8,
+     "scored": 70
+    },
+    "judged": 70,
+    "labels": {
+     "ABSTAINS": 23,
+     "ASSERTS": 25,
+     "CLEAN": 22,
+     "MENTIONS": 0,
+     "UNSURE": 0
+    },
+    "safe": 22,
+    "safe_of_answered": 0.4681,
+    "safe_of_judged": 0.3143,
+    "views": 70
+   },
+   "LOOKUP-ALL": {
+    "abstains": 19,
+    "abstains_rate": 0.2714,
+    "answered_non_abstaining": 51,
+    "asserts": 25,
+    "asserts_rate": 0.3571,
+    "asserts_wilson": [
+     0.255,
+     0.4741
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 3,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 8,
+      "n": 8
+     },
+     "sup": {
+      "asserts": 14,
+      "n": 50
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 9,
+     "scored": 70
+    },
+    "judged": 70,
+    "labels": {
+     "ABSTAINS": 19,
+     "ASSERTS": 25,
+     "CLEAN": 26,
+     "MENTIONS": 0,
+     "UNSURE": 0
+    },
+    "safe": 26,
+    "safe_of_answered": 0.5098,
+    "safe_of_judged": 0.3714,
+    "views": 70
+   },
+   "LOOKUP-LIT": {
+    "abstains": 30,
+    "abstains_rate": 0.3191,
+    "answered_non_abstaining": 64,
+    "asserts": 31,
+    "asserts_rate": 0.3298,
+    "asserts_wilson": [
+     0.2431,
+     0.4299
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 3,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 14,
+      "n": 20
+     },
+     "sup": {
+      "asserts": 14,
+      "n": 62
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 12,
+     "scored": 94
+    },
+    "judged": 94,
+    "labels": {
+     "ABSTAINS": 30,
+     "ASSERTS": 31,
+     "CLEAN": 29,
+     "MENTIONS": 4,
+     "UNSURE": 0
+    },
+    "safe": 33,
+    "safe_of_answered": 0.5156,
+    "safe_of_judged": 0.3511,
+    "views": 94
+   },
+   "MODEL": {
+    "abstains": 26,
+    "abstains_rate": 0.3514,
+    "answered_non_abstaining": 48,
+    "asserts": 28,
+    "asserts_rate": 0.3784,
+    "asserts_wilson": [
+     0.2765,
+     0.4923
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 3,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 11,
+      "n": 13
+     },
+     "sup": {
+      "asserts": 14,
+      "n": 49
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 10,
+     "scored": 74
+    },
+    "judged": 74,
+    "labels": {
+     "ABSTAINS": 26,
+     "ASSERTS": 28,
+     "CLEAN": 19,
+     "MENTIONS": 1,
+     "UNSURE": 0
+    },
+    "safe": 20,
+    "safe_of_answered": 0.4167,
+    "safe_of_judged": 0.2703,
+    "views": 74
+   },
+   "MODEL-ALL": {
+    "abstains": 23,
+    "abstains_rate": 0.3108,
+    "answered_non_abstaining": 51,
+    "asserts": 28,
+    "asserts_rate": 0.3784,
+    "asserts_wilson": [
+     0.2765,
+     0.4923
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 3,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 11,
+      "n": 13
+     },
+     "sup": {
+      "asserts": 14,
+      "n": 49
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 12,
+     "scored": 74
+    },
+    "judged": 74,
+    "labels": {
+     "ABSTAINS": 23,
+     "ASSERTS": 28,
+     "CLEAN": 22,
+     "MENTIONS": 1,
+     "UNSURE": 0
+    },
+    "safe": 23,
+    "safe_of_answered": 0.451,
+    "safe_of_judged": 0.3108,
+    "views": 74
+   },
+   "ORACLE": {
+    "abstains": 32,
+    "abstains_rate": 0.3232,
+    "answered_non_abstaining": 67,
+    "asserts": 33,
+    "asserts_rate": 0.3333,
+    "asserts_wilson": [
+     0.2482,
+     0.4309
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 3,
+      "n": 14
+     },
+     "ret": {
+      "asserts": 16,
+      "n": 22
+     },
+     "sup": {
+      "asserts": 14,
+      "n": 63
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 12,
+     "scored": 99
+    },
+    "judged": 99,
+    "labels": {
+     "ABSTAINS": 32,
+     "ASSERTS": 33,
+     "CLEAN": 31,
+     "MENTIONS": 3,
+     "UNSURE": 0
+    },
+    "safe": 34,
+    "safe_of_answered": 0.5075,
+    "safe_of_judged": 0.3434,
+    "views": 99
+   },
+   "RETAG": {
+    "abstains": 19,
+    "abstains_rate": 0.2568,
+    "answered_non_abstaining": 55,
+    "asserts": 21,
+    "asserts_rate": 0.2838,
+    "asserts_wilson": [
+     0.1937,
+     0.3952
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 0,
+      "n": 0
+     },
+     "ret": {
+      "asserts": 15,
+      "n": 29
+     },
+     "sup": {
+      "asserts": 6,
+      "n": 45
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 5,
+     "scored": 74
+    },
+    "judged": 74,
+    "labels": {
+     "ABSTAINS": 19,
+     "ASSERTS": 21,
+     "CLEAN": 27,
+     "MENTIONS": 7,
+     "UNSURE": 0
+    },
+    "safe": 34,
+    "safe_of_answered": 0.6182,
+    "safe_of_judged": 0.4595,
+    "views": 74
+   }
+  },
+  "MINI": {
+   "ALWAYS": {
+    "abstains": 18,
+    "abstains_rate": 0.3333,
+    "answered_non_abstaining": 36,
+    "asserts": 19,
+    "asserts_rate": 0.3519,
+    "asserts_wilson": [
+     0.2382,
+     0.4852
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 1,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 17,
+      "n": 20
+     },
+     "sup": {
+      "asserts": 1,
+      "n": 22
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 11,
+     "scored": 54
+    },
+    "judged": 54,
+    "labels": {
+     "ABSTAINS": 18,
+     "ASSERTS": 19,
+     "CLEAN": 11,
+     "MENTIONS": 6,
+     "UNSURE": 0
+    },
+    "safe": 17,
+    "safe_of_answered": 0.4722,
+    "safe_of_judged": 0.3148,
+    "views": 54
+   },
+   "LOOKUP": {
+    "abstains": 18,
+    "abstains_rate": 0.2571,
+    "answered_non_abstaining": 52,
+    "asserts": 22,
+    "asserts_rate": 0.3143,
+    "asserts_wilson": [
+     0.2176,
+     0.4303
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 1,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 8,
+      "n": 8
+     },
+     "sup": {
+      "asserts": 13,
+      "n": 50
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 9,
+     "scored": 70
+    },
+    "judged": 70,
+    "labels": {
+     "ABSTAINS": 18,
+     "ASSERTS": 22,
+     "CLEAN": 25,
+     "MENTIONS": 5,
+     "UNSURE": 0
+    },
+    "safe": 30,
+    "safe_of_answered": 0.5769,
+    "safe_of_judged": 0.4286,
+    "views": 70
+   },
+   "LOOKUP-ALL": {
+    "abstains": 18,
+    "abstains_rate": 0.2571,
+    "answered_non_abstaining": 52,
+    "asserts": 22,
+    "asserts_rate": 0.3143,
+    "asserts_wilson": [
+     0.2176,
+     0.4303
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 1,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 8,
+      "n": 8
+     },
+     "sup": {
+      "asserts": 13,
+      "n": 50
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 9,
+     "scored": 70
+    },
+    "judged": 70,
+    "labels": {
+     "ABSTAINS": 18,
+     "ASSERTS": 22,
+     "CLEAN": 25,
+     "MENTIONS": 5,
+     "UNSURE": 0
+    },
+    "safe": 30,
+    "safe_of_answered": 0.5769,
+    "safe_of_judged": 0.4286,
+    "views": 70
+   },
+   "LOOKUP-LIT": {
+    "abstains": 23,
+    "abstains_rate": 0.2447,
+    "answered_non_abstaining": 71,
+    "asserts": 31,
+    "asserts_rate": 0.3298,
+    "asserts_wilson": [
+     0.2431,
+     0.4299
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 1,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 17,
+      "n": 20
+     },
+     "sup": {
+      "asserts": 13,
+      "n": 62
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 17,
+     "scored": 94
+    },
+    "judged": 94,
+    "labels": {
+     "ABSTAINS": 23,
+     "ASSERTS": 31,
+     "CLEAN": 32,
+     "MENTIONS": 8,
+     "UNSURE": 0
+    },
+    "safe": 40,
+    "safe_of_answered": 0.5634,
+    "safe_of_judged": 0.4255,
+    "views": 94
+   },
+   "MODEL": {
+    "abstains": 21,
+    "abstains_rate": 0.2838,
+    "answered_non_abstaining": 53,
+    "asserts": 25,
+    "asserts_rate": 0.3378,
+    "asserts_wilson": [
+     0.2405,
+     0.4512
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 2,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 12,
+      "n": 13
+     },
+     "sup": {
+      "asserts": 11,
+      "n": 49
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 11,
+     "scored": 74
+    },
+    "judged": 74,
+    "labels": {
+     "ABSTAINS": 21,
+     "ASSERTS": 25,
+     "CLEAN": 22,
+     "MENTIONS": 6,
+     "UNSURE": 0
+    },
+    "safe": 28,
+    "safe_of_answered": 0.5283,
+    "safe_of_judged": 0.3784,
+    "views": 74
+   },
+   "MODEL-ALL": {
+    "abstains": 20,
+    "abstains_rate": 0.2703,
+    "answered_non_abstaining": 54,
+    "asserts": 24,
+    "asserts_rate": 0.3243,
+    "asserts_wilson": [
+     0.2286,
+     0.4373
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 1,
+      "n": 12
+     },
+     "ret": {
+      "asserts": 12,
+      "n": 13
+     },
+     "sup": {
+      "asserts": 11,
+      "n": 49
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 12,
+     "scored": 74
+    },
+    "judged": 74,
+    "labels": {
+     "ABSTAINS": 20,
+     "ASSERTS": 24,
+     "CLEAN": 24,
+     "MENTIONS": 6,
+     "UNSURE": 0
+    },
+    "safe": 30,
+    "safe_of_answered": 0.5556,
+    "safe_of_judged": 0.4054,
+    "views": 74
+   },
+   "ORACLE": {
+    "abstains": 24,
+    "abstains_rate": 0.2424,
+    "answered_non_abstaining": 75,
+    "asserts": 30,
+    "asserts_rate": 0.303,
+    "asserts_wilson": [
+     0.2213,
+     0.3995
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 0,
+      "n": 14
+     },
+     "ret": {
+      "asserts": 16,
+      "n": 22
+     },
+     "sup": {
+      "asserts": 14,
+      "n": 63
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 18,
+     "scored": 99
+    },
+    "judged": 99,
+    "labels": {
+     "ABSTAINS": 24,
+     "ASSERTS": 30,
+     "CLEAN": 33,
+     "MENTIONS": 12,
+     "UNSURE": 0
+    },
+    "safe": 45,
+    "safe_of_answered": 0.6,
+    "safe_of_judged": 0.4545,
+    "views": 99
+   },
+   "RETAG": {
+    "abstains": 16,
+    "abstains_rate": 0.2162,
+    "answered_non_abstaining": 58,
+    "asserts": 19,
+    "asserts_rate": 0.2568,
+    "asserts_wilson": [
+     0.171,
+     0.3665
+    ],
+    "by_state": {
+     "exp": {
+      "asserts": 0,
+      "n": 0
+     },
+     "ret": {
+      "asserts": 18,
+      "n": 29
+     },
+     "sup": {
+      "asserts": 1,
+      "n": 45
+     }
+    },
+    "detector_flag_0_50": {
+     "flagged": 8,
+     "scored": 74
+    },
+    "judged": 74,
+    "labels": {
+     "ABSTAINS": 16,
+     "ASSERTS": 19,
+     "CLEAN": 28,
+     "MENTIONS": 11,
+     "UNSURE": 0
+    },
+    "safe": 39,
+    "safe_of_answered": 0.6724,
+    "safe_of_judged": 0.527,
+    "views": 74
+   }
+  }
+ },
+ "predictions": {
+  "P-L1": {
+   "ci_item": [
+    -0.0732,
+    0.0488
+   ],
+   "ci_persona": [
+    -0.0921,
+    0.0674
+   ],
+   "delta_second_minus_first": -0.0122,
+   "direction_as_predicted": true,
+   "discordant": {
+    "first_only": 4,
+    "second_only": 3
+   },
+   "first": {
+    "asserts": 20,
+    "rate": 0.2439
+   },
+   "haiku_to_luna_beside": {
+    "ci_item": [
+     -0.0732,
+     0.0488
+    ],
+    "ci_persona": [
+     -0.0889,
+     0.0519
+    ],
+    "delta_second_minus_first": -0.0122,
+    "direction_as_predicted": true,
+    "discordant": {
+     "first_only": 4,
+     "second_only": 3
+    },
+    "first": {
+     "asserts": 20,
+     "rate": 0.2439
+    },
+    "item_interval_excludes_zero": false,
+    "label": "ASSERTS",
+    "mcnemar_p": 1.0,
+    "n": 82,
+    "n_personas": 26,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "second": {
+     "asserts": 19,
+     "rate": 0.2317
+    },
+    "unsure": "primary",
+    "verdict": "FAILED (direction as predicted, not reliable)"
+   },
+   "item_interval_excludes_zero": false,
+   "label": "ASSERTS",
+   "mcnemar_p": 1.0,
+   "mini_to_haiku_beside": {
+    "ci_item": [
+     -0.061,
+     0.061
+    ],
+    "ci_persona": [
+     -0.0732,
+     0.0781
+    ],
+    "delta_second_minus_first": 0.0,
+    "direction_as_predicted": false,
+    "discordant": {
+     "first_only": 3,
+     "second_only": 3
+    },
+    "first": {
+     "asserts": 20,
+     "rate": 0.2439
+    },
+    "item_interval_excludes_zero": false,
+    "label": "ASSERTS",
+    "mcnemar_p": 1.0,
+    "n": 82,
+    "n_personas": 26,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "second": {
+     "asserts": 20,
+     "rate": 0.2439
+    },
+    "unsure": "primary",
+    "verdict": "FAILED (no difference)"
+   },
+   "n": 82,
+   "n_personas": 26,
+   "persona_interval_excludes_zero": false,
+   "population": "the 82 obligations answered under the ORACLE policy whose forbidding record is in view and tagged (stage 1 tagged_reach); by state {'exp': 11, 'ret': 8, 'sup': 63}",
+   "registered": "among obligations whose tagged forbidding record is in view under the oracle fetch, Luna's ASSERTS rate is below GPT-4.1 mini's; paired by obligation",
+   "reliable": false,
+   "second": {
+    "asserts": 19,
+    "rate": 0.2317
+   },
+   "unsure": "primary",
+   "verdict": "FAILED (direction as predicted, not reliable)"
+  },
+  "P-L1b": {
+   "ci_item": [
+    -0.082,
+    0.1148
+   ],
+   "ci_persona": [
+    -0.125,
+    0.1406
+   ],
+   "delta_second_minus_first": 0.0164,
+   "direction_as_predicted": false,
+   "discordant": {
+    "first_only": 4,
+    "second_only": 5
+   },
+   "first": {
+    "asserts": 15,
+    "rate": 0.2459
+   },
+   "haiku_to_luna_beside": {
+    "ci_item": [
+     -0.0492,
+     0.082
+    ],
+    "ci_persona": [
+     -0.0877,
+     0.103
+    ],
+    "delta_second_minus_first": 0.0164,
+    "direction_as_predicted": false,
+    "discordant": {
+     "first_only": 2,
+     "second_only": 3
+    },
+    "first": {
+     "asserts": 15,
+     "rate": 0.2459
+    },
+    "item_interval_excludes_zero": false,
+    "label": "ASSERTS",
+    "mcnemar_p": 1.0,
+    "n": 61,
+    "n_personas": 24,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "second": {
+     "asserts": 16,
+     "rate": 0.2623
+    },
+    "unsure": "primary",
+    "verdict": "FAILED (direction against)"
+   },
+   "item_interval_excludes_zero": false,
+   "label": "ASSERTS",
+   "mcnemar_p": 1.0,
+   "mini_to_haiku_beside": {
+    "ci_item": [
+     -0.0656,
+     0.0656
+    ],
+    "ci_persona": [
+     -0.0952,
+     0.0968
+    ],
+    "delta_second_minus_first": 0.0,
+    "direction_as_predicted": false,
+    "discordant": {
+     "first_only": 2,
+     "second_only": 2
+    },
+    "first": {
+     "asserts": 15,
+     "rate": 0.2459
+    },
+    "item_interval_excludes_zero": false,
+    "label": "ASSERTS",
+    "mcnemar_p": 1.0,
+    "n": 61,
+    "n_personas": 24,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "second": {
+     "asserts": 15,
+     "rate": 0.2459
+    },
+    "unsure": "primary",
+    "verdict": "FAILED (no difference)"
+   },
+   "n": 61,
+   "n_personas": 24,
+   "persona_interval_excludes_zero": false,
+   "population": "the 61 obligations answered under the LOOKUP policy whose forbidding record is in view and tagged (stage 1 tagged_reach); by state {'exp': 9, 'ret': 2, 'sup': 50}",
+   "registered": "among obligations whose tagged forbidding record is in view under the lookup rule, Luna's ASSERTS rate is below GPT-4.1 mini's; paired by obligation (secondary)",
+   "reliable": false,
+   "second": {
+    "asserts": 16,
+    "rate": 0.2623
+   },
+   "unsure": "primary",
+   "verdict": "FAILED (direction against)"
+  },
+  "P-L2": {
+   "ci_item": [
+    -0.125,
+    0.0
+   ],
+   "ci_persona": [
+    -0.1714,
+    0.0
+   ],
+   "delta_second_minus_first": -0.05,
+   "direction_as_predicted": true,
+   "discordant": {
+    "first_only": 2,
+    "second_only": 0
+   },
+   "first": {
+    "asserts": 16,
+    "rate": 0.4
+   },
+   "h45_beside": {
+    "ci_item": [
+     0.0,
+     0.0
+    ],
+    "ci_persona": [
+     0.0,
+     0.0
+    ],
+    "delta_second_minus_first": 0.0,
+    "direction_as_predicted": false,
+    "discordant": {
+     "first_only": 0,
+     "second_only": 0
+    },
+    "first": {
+     "asserts": 13,
+     "rate": 0.325
+    },
+    "item_interval_excludes_zero": false,
+    "label": "ASSERTS",
+    "mcnemar_p": 1.0,
+    "n": 40,
+    "n_personas": 17,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "second": {
+     "asserts": 13,
+     "rate": 0.325
+    },
+    "unsure": "primary",
+    "verdict": "FAILED (no difference)"
+   },
+   "item_interval_excludes_zero": false,
+   "label": "ASSERTS",
+   "mcnemar_p": 0.5,
+   "mini_beside": {
+    "ci_item": [
+     0.0,
+     0.125
+    ],
+    "ci_persona": [
+     0.0,
+     0.1714
+    ],
+    "delta_second_minus_first": 0.05,
+    "direction_as_predicted": false,
+    "discordant": {
+     "first_only": 0,
+     "second_only": 2
+    },
+    "first": {
+     "asserts": 10,
+     "rate": 0.25
+    },
+    "item_interval_excludes_zero": false,
+    "label": "ASSERTS",
+    "mcnemar_p": 0.5,
+    "n": 40,
+    "n_personas": 17,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "second": {
+     "asserts": 12,
+     "rate": 0.3
+    },
+    "unsure": "primary",
+    "verdict": "FAILED (direction against)"
+   },
+   "n": 40,
+   "n_personas": 17,
+   "of_104_reading": {
+    "H45": {
+     "always_asserts": 21,
+     "ci_item": [
+      -0.0577,
+      0.0962
+     ],
+     "ci_persona": [
+      -0.0882,
+      0.1261
+     ],
+     "delta": 0.0192,
+     "discordant": {
+      "always_only": 8,
+      "lookup_only": 10
+     },
+     "lookup_asserts": 23,
+     "mcnemar_p": 0.8145,
+     "n": 104
+    },
+    "LUNA": {
+     "always_asserts": 22,
+     "ci_item": [
+      -0.0577,
+      0.1058
+     ],
+     "ci_persona": [
+      -0.0833,
+      0.1373
+     ],
+     "delta": 0.0288,
+     "discordant": {
+      "always_only": 8,
+      "lookup_only": 11
+     },
+     "lookup_asserts": 25,
+     "mcnemar_p": 0.6476,
+     "n": 104
+    },
+    "MINI": {
+     "always_asserts": 19,
+     "ci_item": [
+      -0.0577,
+      0.1154
+     ],
+     "ci_persona": [
+      -0.0879,
+      0.1429
+     ],
+     "delta": 0.0288,
+     "discordant": {
+      "always_only": 9,
+      "lookup_only": 12
+     },
+     "lookup_asserts": 22,
+     "mcnemar_p": 0.6636,
+     "n": 104
+    },
+    "rule": "every obligation; a policy that did not answer it (unreached or abstained) counts as not ASSERTS (Table tab:ds-body's convention); descriptive"
+   },
+   "persona_interval_excludes_zero": false,
+   "population": "the 40 obligations answered under both policies (24 with the same view under both, so concordant by construction; 16 informative pairs)",
+   "registered": "within Luna, the ASSERTS rate under the lookup rule is below its rate under top-five retrieval, over all judged obligations; paired",
+   "reliable": false,
+   "second": {
+    "asserts": 14,
+    "rate": 0.35
+   },
+   "unsure": "primary",
+   "verdict": "FAILED (direction as predicted, not reliable)"
+  },
+  "P-L3": {
+   "ci_item": [
+    -0.0286,
+    0.3829
+   ],
+   "ci_persona": [
+    -0.0789,
+    0.4519
+   ],
+   "corrected_tag_beside": {
+    "H45": {
+     "ci_item": [
+      -0.0196,
+      0.402
+     ],
+     "ci_persona": [
+      -0.1204,
+      0.5368
+     ],
+     "delta_group1_minus_group0": 0.1961,
+     "direction_as_predicted": true,
+     "fisher_p": 0.104,
+     "group0": {
+      "asserts": 14,
+      "rate": 0.2745,
+      "wilson": [
+       0.1711,
+       0.4095
+      ]
+     },
+     "group1": {
+      "asserts": 16,
+      "rate": 0.4706,
+      "wilson": [
+       0.3145,
+       0.6326
+      ]
+     },
+     "label": "ASSERTS",
+     "n0": 51,
+     "n1": 34,
+     "n_personas": 24,
+     "persona_interval_excludes_zero": false,
+     "reliable": false,
+     "unsure": "primary",
+     "verdict": "FAILED (direction as predicted, not reliable)"
+    },
+    "LUNA": {
+     "ci_item": [
+      -0.0686,
+      0.3529
+     ],
+     "ci_persona": [
+      -0.1053,
+      0.4133
+     ],
+     "delta_group1_minus_group0": 0.1471,
+     "direction_as_predicted": true,
+     "fisher_p": 0.1748,
+     "group0": {
+      "asserts": 15,
+      "rate": 0.2941,
+      "wilson": [
+       0.1871,
+       0.43
+      ]
+     },
+     "group1": {
+      "asserts": 15,
+      "rate": 0.4412,
+      "wilson": [
+       0.2888,
+       0.6055
+      ]
+     },
+     "label": "ASSERTS",
+     "n0": 51,
+     "n1": 34,
+     "n_personas": 24,
+     "persona_interval_excludes_zero": false,
+     "reliable": false,
+     "unsure": "primary",
+     "verdict": "FAILED (direction as predicted, not reliable)"
+    },
+    "MINI": {
+     "ci_item": [
+      -0.1078,
+      0.3039
+     ],
+     "ci_persona": [
+      -0.1892,
+      0.4046
+     ],
+     "delta_group1_minus_group0": 0.098,
+     "direction_as_predicted": true,
+     "fisher_p": 0.3659,
+     "group0": {
+      "asserts": 16,
+      "rate": 0.3137,
+      "wilson": [
+       0.2033,
+       0.4503
+      ]
+     },
+     "group1": {
+      "asserts": 14,
+      "rate": 0.4118,
+      "wilson": [
+       0.2637,
+       0.5778
+      ]
+     },
+     "label": "ASSERTS",
+     "n0": 51,
+     "n1": 34,
+     "n_personas": 24,
+     "persona_interval_excludes_zero": false,
+     "reliable": false,
+     "unsure": "primary",
+     "verdict": "FAILED (direction as predicted, not reliable)"
+    },
+    "note": "R129 A2: the inverted retraction tag on fatima_q06 corrected on paper; the view as answered is unchanged"
+   },
+   "delta_group1_minus_group0": 0.1771,
+   "direction_as_predicted": true,
+   "fisher_p": 0.1102,
+   "group0": {
+    "asserts": 14,
+    "rate": 0.28,
+    "wilson": [
+     0.1747,
+     0.4167
+    ]
+   },
+   "group1": {
+    "asserts": 16,
+    "rate": 0.4571,
+    "wilson": [
+     0.3047,
+     0.6181
+    ]
+   },
+   "h45_beside": {
+    "ci_item": [
+     0.0229,
+     0.4286
+    ],
+    "ci_persona": [
+     -0.0881,
+     0.5685
+    ],
+    "delta_group1_minus_group0": 0.2257,
+    "direction_as_predicted": true,
+    "fisher_p": 0.0397,
+    "group0": {
+     "asserts": 13,
+     "rate": 0.26,
+     "wilson": [
+      0.1587,
+      0.3955
+     ]
+    },
+    "group1": {
+     "asserts": 17,
+     "rate": 0.4857,
+     "wilson": [
+      0.3299,
+      0.6443
+     ]
+    },
+    "label": "ASSERTS",
+    "n0": 50,
+    "n1": 35,
+    "n_personas": 24,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "unsure": "primary",
+    "verdict": "FAILED (direction as predicted, not reliable)"
+   },
+   "label": "ASSERTS",
+   "mini_beside": {
+    "ci_item": [
+     -0.0771,
+     0.3371
+    ],
+    "ci_persona": [
+     -0.162,
+     0.4386
+    ],
+    "delta_group1_minus_group0": 0.1286,
+    "direction_as_predicted": true,
+    "fisher_p": 0.2545,
+    "group0": {
+     "asserts": 15,
+     "rate": 0.3,
+     "wilson": [
+      0.191,
+      0.4375
+     ]
+    },
+    "group1": {
+     "asserts": 15,
+     "rate": 0.4286,
+     "wilson": [
+      0.2798,
+      0.5914
+     ]
+    },
+    "label": "ASSERTS",
+    "n0": 50,
+    "n1": 35,
+    "n_personas": 24,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "unsure": "primary",
+    "verdict": "FAILED (direction as predicted, not reliable)"
+   },
+   "n0": 50,
+   "n1": 35,
+   "n_personas": 24,
+   "persona_interval_excludes_zero": false,
+   "population": "the 85 supersession and retraction obligations answered under ORACLE: 35 whose view holds an active line asserting the stale value (amend4_header.view_source), 50 without; 85 of the 89 audited scorable views",
+   "registered": "under the oracle fetch, Luna's ASSERTS rate on views holding an untagged active copy of the stale value is above its rate on views without one",
+   "reliable": false,
+   "unsure": "primary",
+   "verdict": "FAILED (direction as predicted, not reliable)"
+  },
+  "P-L3b": {
+   "ci_item": [
+    0.0172,
+    0.5595
+   ],
+   "ci_persona": [
+    -0.0929,
+    0.666
+   ],
+   "corrected_tag_beside": {
+    "H45": {
+     "ci_item": [
+      0.1333,
+      0.6628
+     ],
+     "ci_persona": [
+      -0.0513,
+      0.75
+     ],
+     "delta_group1_minus_group0": 0.4032,
+     "direction_as_predicted": true,
+     "fisher_p": 0.0063,
+     "group0": {
+      "asserts": 10,
+      "rate": 0.2439,
+      "wilson": [
+       0.1383,
+       0.3934
+      ]
+     },
+     "group1": {
+      "asserts": 11,
+      "rate": 0.6471,
+      "wilson": [
+       0.413,
+       0.8269
+      ]
+     },
+     "label": "ASSERTS",
+     "n0": 41,
+     "n1": 17,
+     "n_personas": 21,
+     "persona_interval_excludes_zero": false,
+     "reliable": false,
+     "unsure": "primary",
+     "verdict": "FAILED (direction as predicted, not reliable)"
+    },
+    "LUNA": {
+     "ci_item": [
+      0.0172,
+      0.5595
+     ],
+     "ci_persona": [
+      -0.0929,
+      0.666
+     ],
+     "delta_group1_minus_group0": 0.2956,
+     "direction_as_predicted": true,
+     "fisher_p": 0.043,
+     "group0": {
+      "asserts": 12,
+      "rate": 0.2927,
+      "wilson": [
+       0.1761,
+       0.4448
+      ]
+     },
+     "group1": {
+      "asserts": 10,
+      "rate": 0.5882,
+      "wilson": [
+       0.3601,
+       0.7839
+      ]
+     },
+     "label": "ASSERTS",
+     "n0": 41,
+     "n1": 17,
+     "n_personas": 21,
+     "persona_interval_excludes_zero": false,
+     "reliable": false,
+     "unsure": "primary",
+     "verdict": "FAILED (direction as predicted, not reliable)"
+    },
+    "MINI": {
+     "ci_item": [
+      -0.0373,
+      0.5108
+     ],
+     "ci_persona": [
+      -0.1689,
+      0.6133
+     ],
+     "delta_group1_minus_group0": 0.2367,
+     "direction_as_predicted": true,
+     "fisher_p": 0.1332,
+     "group0": {
+      "asserts": 12,
+      "rate": 0.2927,
+      "wilson": [
+       0.1761,
+       0.4448
+      ]
+     },
+     "group1": {
+      "asserts": 9,
+      "rate": 0.5294,
+      "wilson": [
+       0.3096,
+       0.7383
+      ]
+     },
+     "label": "ASSERTS",
+     "n0": 41,
+     "n1": 17,
+     "n_personas": 21,
+     "persona_interval_excludes_zero": false,
+     "reliable": false,
+     "unsure": "primary",
+     "verdict": "FAILED (direction as predicted, not reliable)"
+    },
+    "note": "R129 A2: the inverted retraction tag on fatima_q06 corrected on paper; the view as answered is unchanged"
+   },
+   "delta_group1_minus_group0": 0.2956,
+   "direction_as_predicted": true,
+   "fisher_p": 0.043,
+   "group0": {
+    "asserts": 12,
+    "rate": 0.2927,
+    "wilson": [
+     0.1761,
+     0.4448
+    ]
+   },
+   "group1": {
+    "asserts": 10,
+    "rate": 0.5882,
+    "wilson": [
+     0.3601,
+     0.7839
+    ]
+   },
+   "h45_beside": {
+    "ci_item": [
+     0.1333,
+     0.6628
+    ],
+    "ci_persona": [
+     -0.0513,
+     0.75
+    ],
+    "delta_group1_minus_group0": 0.4032,
+    "direction_as_predicted": true,
+    "fisher_p": 0.0063,
+    "group0": {
+     "asserts": 10,
+     "rate": 0.2439,
+     "wilson": [
+      0.1383,
+      0.3934
+     ]
+    },
+    "group1": {
+     "asserts": 11,
+     "rate": 0.6471,
+     "wilson": [
+      0.413,
+      0.8269
+     ]
+    },
+    "label": "ASSERTS",
+    "n0": 41,
+    "n1": 17,
+    "n_personas": 21,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "unsure": "primary",
+    "verdict": "FAILED (direction as predicted, not reliable)"
+   },
+   "label": "ASSERTS",
+   "mini_beside": {
+    "ci_item": [
+     -0.0373,
+     0.5108
+    ],
+    "ci_persona": [
+     -0.1689,
+     0.6133
+    ],
+    "delta_group1_minus_group0": 0.2367,
+    "direction_as_predicted": true,
+    "fisher_p": 0.1332,
+    "group0": {
+     "asserts": 12,
+     "rate": 0.2927,
+     "wilson": [
+      0.1761,
+      0.4448
+     ]
+    },
+    "group1": {
+     "asserts": 9,
+     "rate": 0.5294,
+     "wilson": [
+      0.3096,
+      0.7383
+     ]
+    },
+    "label": "ASSERTS",
+    "n0": 41,
+    "n1": 17,
+    "n_personas": 21,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "unsure": "primary",
+    "verdict": "FAILED (direction as predicted, not reliable)"
+   },
+   "n0": 41,
+   "n1": 17,
+   "n_personas": 21,
+   "persona_interval_excludes_zero": false,
+   "population": "the 58 supersession and retraction obligations answered under LOOKUP: 17 whose view holds an active line asserting the stale value (amend4_header.view_source), 41 without; expiry (12) excluded",
+   "registered": "under the lookup rule, Luna's ASSERTS rate on views holding an untagged active copy of the stale value is above its rate on views without one (secondary)",
+   "reliable": false,
+   "unsure": "primary",
+   "verdict": "FAILED (direction as predicted, not reliable)"
+  },
+  "P-L4": {
+   "ci_item": [
+    -0.122,
+    -0.0122
+   ],
+   "ci_persona": [
+    -0.1183,
+    -0.0122
+   ],
+   "delta_second_minus_first": -0.061,
+   "direction_as_predicted": false,
+   "discordant": {
+    "first_only": 5,
+    "second_only": 0
+   },
+   "first": {
+    "asserts": 7,
+    "rate": 0.0854
+   },
+   "haiku_to_luna_beside": {
+    "ci_item": [
+     -0.3293,
+     -0.1463
+    ],
+    "ci_persona": [
+     -0.3979,
+     -0.0941
+    ],
+    "delta_second_minus_first": -0.2317,
+    "direction_as_predicted": false,
+    "discordant": {
+     "first_only": 19,
+     "second_only": 0
+    },
+    "first": {
+     "asserts": 21,
+     "rate": 0.2561
+    },
+    "item_interval_excludes_zero": false,
+    "label": "MENTIONS",
+    "mcnemar_p": 0.0,
+    "n": 82,
+    "n_personas": 26,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "second": {
+     "asserts": 2,
+     "rate": 0.0244
+    },
+    "unsure": "primary",
+    "verdict": "FAILED (direction against)"
+   },
+   "item_interval_excludes_zero": false,
+   "label": "MENTIONS",
+   "mcnemar_p": 0.0625,
+   "mini_to_haiku_beside": {
+    "ci_item": [
+     0.0976,
+     0.2561
+    ],
+    "ci_persona": [
+     0.0641,
+     0.2987
+    ],
+    "delta_second_minus_first": 0.1707,
+    "direction_as_predicted": true,
+    "discordant": {
+     "first_only": 0,
+     "second_only": 14
+    },
+    "first": {
+     "asserts": 7,
+     "rate": 0.0854
+    },
+    "item_interval_excludes_zero": true,
+    "label": "MENTIONS",
+    "mcnemar_p": 0.0001,
+    "n": 82,
+    "n_personas": 26,
+    "persona_interval_excludes_zero": true,
+    "reliable": true,
+    "second": {
+     "asserts": 21,
+     "rate": 0.2561
+    },
+    "unsure": "primary",
+    "verdict": "HELD"
+   },
+   "n": 82,
+   "n_personas": 26,
+   "persona_interval_excludes_zero": false,
+   "population": "the 82 obligations answered under the ORACLE policy whose forbidding record is in view and tagged (stage 1 tagged_reach); by state {'exp': 11, 'ret': 8, 'sup': 63}",
+   "registered": "on the P-L1 pairs (oracle view, tagged reach), Luna's MENTIONS rate is above GPT-4.1 mini's; paired by obligation",
+   "reliable": false,
+   "second": {
+    "asserts": 2,
+    "rate": 0.0244
+   },
+   "unsure": "primary",
+   "verdict": "FAILED (direction against)"
+  },
+  "RETAG": {
+   "H45": {
+    "ci_item": [
+     -0.4054,
+     -0.1892
+    ],
+    "ci_persona": [
+     -0.5455,
+     -0.0723
+    ],
+    "delta_second_minus_first": -0.2973,
+    "direction_as_predicted": true,
+    "discordant": {
+     "first_only": 23,
+     "second_only": 1
+    },
+    "first": {
+     "asserts": 39,
+     "rate": 0.527
+    },
+    "item_interval_excludes_zero": true,
+    "label": "ASSERTS",
+    "mcnemar_p": 0.0,
+    "n": 74,
+    "n_personas": 14,
+    "persona_interval_excludes_zero": true,
+    "reliable": true,
+    "second": {
+     "asserts": 17,
+     "rate": 0.2297
+    },
+    "unsure": "primary",
+    "verdict": "HELD"
+   },
+   "LUNA": {
+    "ci_item": [
+     -0.3649,
+     -0.1486
+    ],
+    "ci_persona": [
+     -0.4925,
+     -0.0377
+    ],
+    "delta_second_minus_first": -0.2568,
+    "direction_as_predicted": true,
+    "discordant": {
+     "first_only": 21,
+     "second_only": 2
+    },
+    "first": {
+     "asserts": 40,
+     "rate": 0.5405
+    },
+    "item_interval_excludes_zero": true,
+    "label": "ASSERTS",
+    "mcnemar_p": 0.0001,
+    "n": 74,
+    "n_personas": 14,
+    "persona_interval_excludes_zero": true,
+    "reliable": true,
+    "second": {
+     "asserts": 21,
+     "rate": 0.2838
+    },
+    "unsure": "primary",
+    "verdict": "HELD"
+   },
+   "MINI": {
+    "ci_item": [
+     -0.2973,
+     -0.1081
+    ],
+    "ci_persona": [
+     -0.3572,
+     -0.0482
+    ],
+    "delta_second_minus_first": -0.2027,
+    "direction_as_predicted": true,
+    "discordant": {
+     "first_only": 15,
+     "second_only": 0
+    },
+    "first": {
+     "asserts": 34,
+     "rate": 0.4595
+    },
+    "item_interval_excludes_zero": true,
+    "label": "ASSERTS",
+    "mcnemar_p": 0.0001,
+    "n": 74,
+    "n_personas": 14,
+    "persona_interval_excludes_zero": true,
+    "reliable": true,
+    "second": {
+     "asserts": 19,
+     "rate": 0.2568
+    },
+    "unsure": "primary",
+    "verdict": "HELD"
+   },
+   "mentions": {
+    "H45": {
+     "ci_item": [
+      -0.0541,
+      0.1622
+     ],
+     "ci_persona": [
+      -0.0455,
+      0.1429
+     ],
+     "delta_second_minus_first": 0.0541,
+     "direction_as_predicted": true,
+     "discordant": {
+      "first_only": 6,
+      "second_only": 10
+     },
+     "first": {
+      "asserts": 13,
+      "rate": 0.1757
+     },
+     "item_interval_excludes_zero": false,
+     "label": "MENTIONS",
+     "mcnemar_p": 0.4545,
+     "n": 74,
+     "n_personas": 14,
+     "persona_interval_excludes_zero": false,
+     "reliable": false,
+     "second": {
+      "asserts": 17,
+      "rate": 0.2297
+     },
+     "unsure": "primary",
+     "verdict": "FAILED (direction as predicted, not reliable)"
+    },
+    "LUNA": {
+     "ci_item": [
+      -0.0541,
+      0.0541
+     ],
+     "ci_persona": [
+      -0.033,
+      0.0385
+     ],
+     "delta_second_minus_first": 0.0,
+     "direction_as_predicted": false,
+     "discordant": {
+      "first_only": 2,
+      "second_only": 2
+     },
+     "first": {
+      "asserts": 7,
+      "rate": 0.0946
+     },
+     "item_interval_excludes_zero": false,
+     "label": "MENTIONS",
+     "mcnemar_p": 1.0,
+     "n": 74,
+     "n_personas": 14,
+     "persona_interval_excludes_zero": false,
+     "reliable": false,
+     "second": {
+      "asserts": 7,
+      "rate": 0.0946
+     },
+     "unsure": "primary",
+     "verdict": "FAILED (no difference)"
+    },
+    "MINI": {
+     "ci_item": [
+      0.0,
+      0.0676
+     ],
+     "ci_persona": [
+      0.0,
+      0.0779
+     ],
+     "delta_second_minus_first": 0.027,
+     "direction_as_predicted": true,
+     "discordant": {
+      "first_only": 0,
+      "second_only": 2
+     },
+     "first": {
+      "asserts": 9,
+      "rate": 0.1216
+     },
+     "item_interval_excludes_zero": false,
+     "label": "MENTIONS",
+     "mcnemar_p": 0.5,
+     "n": 74,
+     "n_personas": 14,
+     "persona_interval_excludes_zero": false,
+     "reliable": false,
+     "second": {
+      "asserts": 11,
+      "rate": 0.1486
+     },
+     "unsure": "primary",
+     "verdict": "FAILED (direction as predicted, not reliable)"
+    }
+   },
+   "population": "the 74 views the reference-assisted retag changed (45 supersession, 29 retraction), before (Amendment 4 view) against after (the retagged view), paired by view; descriptive"
+  }
+ },
+ "program": "R130",
+ "registration_sha256": "2e95beab2451ab8d87b746e4e15b65a04c30805a252e8c23bfac03072f00253c",
+ "rows": {
+  "judge": {
+   "labels": {
+    "ABSTAINS": 221,
+    "ASSERTS": 271,
+    "CLEAN": 305,
+    "MENTIONS": 118
+   },
+   "n": 915,
+   "ok": 915,
+   "served": [
+    "claude-opus-5"
+   ],
+   "status": {
+    "OK": 915
+   }
+  },
+  "luna": {
+   "detector_flagged": 34,
+   "detector_scored": 305,
+   "mean_answer_chars": 77.5,
+   "n": 305,
+   "ok": 305,
+   "served": [
+    "gpt-5.6-luna"
+   ],
+   "status": {
+    "OK": 305
+   }
+  }
+ },
+ "sensitivity_drop_unsure": {
+  "P-L1": {
+   "ci_item": [
+    -0.0732,
+    0.0488
+   ],
+   "ci_persona": [
+    -0.0921,
+    0.0674
+   ],
+   "delta_second_minus_first": -0.0122,
+   "direction_as_predicted": true,
+   "discordant": {
+    "first_only": 4,
+    "second_only": 3
+   },
+   "first": {
+    "asserts": 20,
+    "rate": 0.2439
+   },
+   "haiku_to_luna_beside": {
+    "ci_item": [
+     -0.0732,
+     0.0488
+    ],
+    "ci_persona": [
+     -0.0889,
+     0.0519
+    ],
+    "delta_second_minus_first": -0.0122,
+    "direction_as_predicted": true,
+    "discordant": {
+     "first_only": 4,
+     "second_only": 3
+    },
+    "first": {
+     "asserts": 20,
+     "rate": 0.2439
+    },
+    "item_interval_excludes_zero": false,
+    "label": "ASSERTS",
+    "mcnemar_p": 1.0,
+    "n": 82,
+    "n_personas": 26,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "second": {
+     "asserts": 19,
+     "rate": 0.2317
+    },
+    "unsure": "drop",
+    "verdict": "FAILED (direction as predicted, not reliable)"
+   },
+   "item_interval_excludes_zero": false,
+   "label": "ASSERTS",
+   "mcnemar_p": 1.0,
+   "mini_to_haiku_beside": {
+    "ci_item": [
+     -0.061,
+     0.061
+    ],
+    "ci_persona": [
+     -0.0732,
+     0.0781
+    ],
+    "delta_second_minus_first": 0.0,
+    "direction_as_predicted": false,
+    "discordant": {
+     "first_only": 3,
+     "second_only": 3
+    },
+    "first": {
+     "asserts": 20,
+     "rate": 0.2439
+    },
+    "item_interval_excludes_zero": false,
+    "label": "ASSERTS",
+    "mcnemar_p": 1.0,
+    "n": 82,
+    "n_personas": 26,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "second": {
+     "asserts": 20,
+     "rate": 0.2439
+    },
+    "unsure": "drop",
+    "verdict": "FAILED (no difference)"
+   },
+   "n": 82,
+   "n_personas": 26,
+   "persona_interval_excludes_zero": false,
+   "population": "the 82 obligations answered under the ORACLE policy whose forbidding record is in view and tagged (stage 1 tagged_reach); by state {'exp': 11, 'ret': 8, 'sup': 63}",
+   "registered": "among obligations whose tagged forbidding record is in view under the oracle fetch, Luna's ASSERTS rate is below GPT-4.1 mini's; paired by obligation",
+   "reliable": false,
+   "second": {
+    "asserts": 19,
+    "rate": 0.2317
+   },
+   "unsure": "drop",
+   "verdict": "FAILED (direction as predicted, not reliable)"
+  },
+  "P-L1b": {
+   "ci_item": [
+    -0.082,
+    0.1148
+   ],
+   "ci_persona": [
+    -0.125,
+    0.1406
+   ],
+   "delta_second_minus_first": 0.0164,
+   "direction_as_predicted": false,
+   "discordant": {
+    "first_only": 4,
+    "second_only": 5
+   },
+   "first": {
+    "asserts": 15,
+    "rate": 0.2459
+   },
+   "haiku_to_luna_beside": {
+    "ci_item": [
+     -0.0492,
+     0.082
+    ],
+    "ci_persona": [
+     -0.0877,
+     0.103
+    ],
+    "delta_second_minus_first": 0.0164,
+    "direction_as_predicted": false,
+    "discordant": {
+     "first_only": 2,
+     "second_only": 3
+    },
+    "first": {
+     "asserts": 15,
+     "rate": 0.2459
+    },
+    "item_interval_excludes_zero": false,
+    "label": "ASSERTS",
+    "mcnemar_p": 1.0,
+    "n": 61,
+    "n_personas": 24,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "second": {
+     "asserts": 16,
+     "rate": 0.2623
+    },
+    "unsure": "drop",
+    "verdict": "FAILED (direction against)"
+   },
+   "item_interval_excludes_zero": false,
+   "label": "ASSERTS",
+   "mcnemar_p": 1.0,
+   "mini_to_haiku_beside": {
+    "ci_item": [
+     -0.0656,
+     0.0656
+    ],
+    "ci_persona": [
+     -0.0952,
+     0.0968
+    ],
+    "delta_second_minus_first": 0.0,
+    "direction_as_predicted": false,
+    "discordant": {
+     "first_only": 2,
+     "second_only": 2
+    },
+    "first": {
+     "asserts": 15,
+     "rate": 0.2459
+    },
+    "item_interval_excludes_zero": false,
+    "label": "ASSERTS",
+    "mcnemar_p": 1.0,
+    "n": 61,
+    "n_personas": 24,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "second": {
+     "asserts": 15,
+     "rate": 0.2459
+    },
+    "unsure": "drop",
+    "verdict": "FAILED (no difference)"
+   },
+   "n": 61,
+   "n_personas": 24,
+   "persona_interval_excludes_zero": false,
+   "population": "the 61 obligations answered under the LOOKUP policy whose forbidding record is in view and tagged (stage 1 tagged_reach); by state {'exp': 9, 'ret': 2, 'sup': 50}",
+   "registered": "among obligations whose tagged forbidding record is in view under the lookup rule, Luna's ASSERTS rate is below GPT-4.1 mini's; paired by obligation (secondary)",
+   "reliable": false,
+   "second": {
+    "asserts": 16,
+    "rate": 0.2623
+   },
+   "unsure": "drop",
+   "verdict": "FAILED (direction against)"
+  },
+  "P-L2": {
+   "ci_item": [
+    -0.125,
+    0.0
+   ],
+   "ci_persona": [
+    -0.1714,
+    0.0
+   ],
+   "delta_second_minus_first": -0.05,
+   "direction_as_predicted": true,
+   "discordant": {
+    "first_only": 2,
+    "second_only": 0
+   },
+   "first": {
+    "asserts": 16,
+    "rate": 0.4
+   },
+   "h45_beside": {
+    "ci_item": [
+     0.0,
+     0.0
+    ],
+    "ci_persona": [
+     0.0,
+     0.0
+    ],
+    "delta_second_minus_first": 0.0,
+    "direction_as_predicted": false,
+    "discordant": {
+     "first_only": 0,
+     "second_only": 0
+    },
+    "first": {
+     "asserts": 13,
+     "rate": 0.325
+    },
+    "item_interval_excludes_zero": false,
+    "label": "ASSERTS",
+    "mcnemar_p": 1.0,
+    "n": 40,
+    "n_personas": 17,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "second": {
+     "asserts": 13,
+     "rate": 0.325
+    },
+    "unsure": "drop",
+    "verdict": "FAILED (no difference)"
+   },
+   "item_interval_excludes_zero": false,
+   "label": "ASSERTS",
+   "mcnemar_p": 0.5,
+   "mini_beside": {
+    "ci_item": [
+     0.0,
+     0.125
+    ],
+    "ci_persona": [
+     0.0,
+     0.1714
+    ],
+    "delta_second_minus_first": 0.05,
+    "direction_as_predicted": false,
+    "discordant": {
+     "first_only": 0,
+     "second_only": 2
+    },
+    "first": {
+     "asserts": 10,
+     "rate": 0.25
+    },
+    "item_interval_excludes_zero": false,
+    "label": "ASSERTS",
+    "mcnemar_p": 0.5,
+    "n": 40,
+    "n_personas": 17,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "second": {
+     "asserts": 12,
+     "rate": 0.3
+    },
+    "unsure": "drop",
+    "verdict": "FAILED (direction against)"
+   },
+   "n": 40,
+   "n_personas": 17,
+   "of_104_reading": {
+    "H45": {
+     "always_asserts": 21,
+     "ci_item": [
+      -0.0577,
+      0.0962
+     ],
+     "ci_persona": [
+      -0.0882,
+      0.1261
+     ],
+     "delta": 0.0192,
+     "discordant": {
+      "always_only": 8,
+      "lookup_only": 10
+     },
+     "lookup_asserts": 23,
+     "mcnemar_p": 0.8145,
+     "n": 104
+    },
+    "LUNA": {
+     "always_asserts": 22,
+     "ci_item": [
+      -0.0577,
+      0.1058
+     ],
+     "ci_persona": [
+      -0.0833,
+      0.1373
+     ],
+     "delta": 0.0288,
+     "discordant": {
+      "always_only": 8,
+      "lookup_only": 11
+     },
+     "lookup_asserts": 25,
+     "mcnemar_p": 0.6476,
+     "n": 104
+    },
+    "MINI": {
+     "always_asserts": 19,
+     "ci_item": [
+      -0.0577,
+      0.1154
+     ],
+     "ci_persona": [
+      -0.0879,
+      0.1429
+     ],
+     "delta": 0.0288,
+     "discordant": {
+      "always_only": 9,
+      "lookup_only": 12
+     },
+     "lookup_asserts": 22,
+     "mcnemar_p": 0.6636,
+     "n": 104
+    },
+    "rule": "every obligation; a policy that did not answer it (unreached or abstained) counts as not ASSERTS (Table tab:ds-body's convention); descriptive"
+   },
+   "persona_interval_excludes_zero": false,
+   "population": "the 40 obligations answered under both policies (24 with the same view under both, so concordant by construction; 16 informative pairs)",
+   "registered": "within Luna, the ASSERTS rate under the lookup rule is below its rate under top-five retrieval, over all judged obligations; paired",
+   "reliable": false,
+   "second": {
+    "asserts": 14,
+    "rate": 0.35
+   },
+   "unsure": "drop",
+   "verdict": "FAILED (direction as predicted, not reliable)"
+  },
+  "P-L3": {
+   "ci_item": [
+    -0.0286,
+    0.3829
+   ],
+   "ci_persona": [
+    -0.0789,
+    0.4519
+   ],
+   "corrected_tag_beside": {
+    "H45": {
+     "ci_item": [
+      -0.0196,
+      0.402
+     ],
+     "ci_persona": [
+      -0.1204,
+      0.5368
+     ],
+     "delta_group1_minus_group0": 0.1961,
+     "direction_as_predicted": true,
+     "fisher_p": 0.104,
+     "group0": {
+      "asserts": 14,
+      "rate": 0.2745,
+      "wilson": [
+       0.1711,
+       0.4095
+      ]
+     },
+     "group1": {
+      "asserts": 16,
+      "rate": 0.4706,
+      "wilson": [
+       0.3145,
+       0.6326
+      ]
+     },
+     "label": "ASSERTS",
+     "n0": 51,
+     "n1": 34,
+     "n_personas": 24,
+     "persona_interval_excludes_zero": false,
+     "reliable": false,
+     "unsure": "drop",
+     "verdict": "FAILED (direction as predicted, not reliable)"
+    },
+    "LUNA": {
+     "ci_item": [
+      -0.0686,
+      0.3529
+     ],
+     "ci_persona": [
+      -0.1053,
+      0.4133
+     ],
+     "delta_group1_minus_group0": 0.1471,
+     "direction_as_predicted": true,
+     "fisher_p": 0.1748,
+     "group0": {
+      "asserts": 15,
+      "rate": 0.2941,
+      "wilson": [
+       0.1871,
+       0.43
+      ]
+     },
+     "group1": {
+      "asserts": 15,
+      "rate": 0.4412,
+      "wilson": [
+       0.2888,
+       0.6055
+      ]
+     },
+     "label": "ASSERTS",
+     "n0": 51,
+     "n1": 34,
+     "n_personas": 24,
+     "persona_interval_excludes_zero": false,
+     "reliable": false,
+     "unsure": "drop",
+     "verdict": "FAILED (direction as predicted, not reliable)"
+    },
+    "MINI": {
+     "ci_item": [
+      -0.1078,
+      0.3039
+     ],
+     "ci_persona": [
+      -0.1892,
+      0.4046
+     ],
+     "delta_group1_minus_group0": 0.098,
+     "direction_as_predicted": true,
+     "fisher_p": 0.3659,
+     "group0": {
+      "asserts": 16,
+      "rate": 0.3137,
+      "wilson": [
+       0.2033,
+       0.4503
+      ]
+     },
+     "group1": {
+      "asserts": 14,
+      "rate": 0.4118,
+      "wilson": [
+       0.2637,
+       0.5778
+      ]
+     },
+     "label": "ASSERTS",
+     "n0": 51,
+     "n1": 34,
+     "n_personas": 24,
+     "persona_interval_excludes_zero": false,
+     "reliable": false,
+     "unsure": "drop",
+     "verdict": "FAILED (direction as predicted, not reliable)"
+    },
+    "note": "R129 A2: the inverted retraction tag on fatima_q06 corrected on paper; the view as answered is unchanged"
+   },
+   "delta_group1_minus_group0": 0.1771,
+   "direction_as_predicted": true,
+   "fisher_p": 0.1102,
+   "group0": {
+    "asserts": 14,
+    "rate": 0.28,
+    "wilson": [
+     0.1747,
+     0.4167
+    ]
+   },
+   "group1": {
+    "asserts": 16,
+    "rate": 0.4571,
+    "wilson": [
+     0.3047,
+     0.6181
+    ]
+   },
+   "h45_beside": {
+    "ci_item": [
+     0.0229,
+     0.4286
+    ],
+    "ci_persona": [
+     -0.0881,
+     0.5685
+    ],
+    "delta_group1_minus_group0": 0.2257,
+    "direction_as_predicted": true,
+    "fisher_p": 0.0397,
+    "group0": {
+     "asserts": 13,
+     "rate": 0.26,
+     "wilson": [
+      0.1587,
+      0.3955
+     ]
+    },
+    "group1": {
+     "asserts": 17,
+     "rate": 0.4857,
+     "wilson": [
+      0.3299,
+      0.6443
+     ]
+    },
+    "label": "ASSERTS",
+    "n0": 50,
+    "n1": 35,
+    "n_personas": 24,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "unsure": "drop",
+    "verdict": "FAILED (direction as predicted, not reliable)"
+   },
+   "label": "ASSERTS",
+   "mini_beside": {
+    "ci_item": [
+     -0.0771,
+     0.3371
+    ],
+    "ci_persona": [
+     -0.162,
+     0.4386
+    ],
+    "delta_group1_minus_group0": 0.1286,
+    "direction_as_predicted": true,
+    "fisher_p": 0.2545,
+    "group0": {
+     "asserts": 15,
+     "rate": 0.3,
+     "wilson": [
+      0.191,
+      0.4375
+     ]
+    },
+    "group1": {
+     "asserts": 15,
+     "rate": 0.4286,
+     "wilson": [
+      0.2798,
+      0.5914
+     ]
+    },
+    "label": "ASSERTS",
+    "n0": 50,
+    "n1": 35,
+    "n_personas": 24,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "unsure": "drop",
+    "verdict": "FAILED (direction as predicted, not reliable)"
+   },
+   "n0": 50,
+   "n1": 35,
+   "n_personas": 24,
+   "persona_interval_excludes_zero": false,
+   "population": "the 85 supersession and retraction obligations answered under ORACLE: 35 whose view holds an active line asserting the stale value (amend4_header.view_source), 50 without; 85 of the 89 audited scorable views",
+   "registered": "under the oracle fetch, Luna's ASSERTS rate on views holding an untagged active copy of the stale value is above its rate on views without one",
+   "reliable": false,
+   "unsure": "drop",
+   "verdict": "FAILED (direction as predicted, not reliable)"
+  },
+  "P-L3b": {
+   "ci_item": [
+    0.0172,
+    0.5595
+   ],
+   "ci_persona": [
+    -0.0929,
+    0.666
+   ],
+   "corrected_tag_beside": {
+    "H45": {
+     "ci_item": [
+      0.1333,
+      0.6628
+     ],
+     "ci_persona": [
+      -0.0513,
+      0.75
+     ],
+     "delta_group1_minus_group0": 0.4032,
+     "direction_as_predicted": true,
+     "fisher_p": 0.0063,
+     "group0": {
+      "asserts": 10,
+      "rate": 0.2439,
+      "wilson": [
+       0.1383,
+       0.3934
+      ]
+     },
+     "group1": {
+      "asserts": 11,
+      "rate": 0.6471,
+      "wilson": [
+       0.413,
+       0.8269
+      ]
+     },
+     "label": "ASSERTS",
+     "n0": 41,
+     "n1": 17,
+     "n_personas": 21,
+     "persona_interval_excludes_zero": false,
+     "reliable": false,
+     "unsure": "drop",
+     "verdict": "FAILED (direction as predicted, not reliable)"
+    },
+    "LUNA": {
+     "ci_item": [
+      0.0172,
+      0.5595
+     ],
+     "ci_persona": [
+      -0.0929,
+      0.666
+     ],
+     "delta_group1_minus_group0": 0.2956,
+     "direction_as_predicted": true,
+     "fisher_p": 0.043,
+     "group0": {
+      "asserts": 12,
+      "rate": 0.2927,
+      "wilson": [
+       0.1761,
+       0.4448
+      ]
+     },
+     "group1": {
+      "asserts": 10,
+      "rate": 0.5882,
+      "wilson": [
+       0.3601,
+       0.7839
+      ]
+     },
+     "label": "ASSERTS",
+     "n0": 41,
+     "n1": 17,
+     "n_personas": 21,
+     "persona_interval_excludes_zero": false,
+     "reliable": false,
+     "unsure": "drop",
+     "verdict": "FAILED (direction as predicted, not reliable)"
+    },
+    "MINI": {
+     "ci_item": [
+      -0.0373,
+      0.5108
+     ],
+     "ci_persona": [
+      -0.1689,
+      0.6133
+     ],
+     "delta_group1_minus_group0": 0.2367,
+     "direction_as_predicted": true,
+     "fisher_p": 0.1332,
+     "group0": {
+      "asserts": 12,
+      "rate": 0.2927,
+      "wilson": [
+       0.1761,
+       0.4448
+      ]
+     },
+     "group1": {
+      "asserts": 9,
+      "rate": 0.5294,
+      "wilson": [
+       0.3096,
+       0.7383
+      ]
+     },
+     "label": "ASSERTS",
+     "n0": 41,
+     "n1": 17,
+     "n_personas": 21,
+     "persona_interval_excludes_zero": false,
+     "reliable": false,
+     "unsure": "drop",
+     "verdict": "FAILED (direction as predicted, not reliable)"
+    },
+    "note": "R129 A2: the inverted retraction tag on fatima_q06 corrected on paper; the view as answered is unchanged"
+   },
+   "delta_group1_minus_group0": 0.2956,
+   "direction_as_predicted": true,
+   "fisher_p": 0.043,
+   "group0": {
+    "asserts": 12,
+    "rate": 0.2927,
+    "wilson": [
+     0.1761,
+     0.4448
+    ]
+   },
+   "group1": {
+    "asserts": 10,
+    "rate": 0.5882,
+    "wilson": [
+     0.3601,
+     0.7839
+    ]
+   },
+   "h45_beside": {
+    "ci_item": [
+     0.1333,
+     0.6628
+    ],
+    "ci_persona": [
+     -0.0513,
+     0.75
+    ],
+    "delta_group1_minus_group0": 0.4032,
+    "direction_as_predicted": true,
+    "fisher_p": 0.0063,
+    "group0": {
+     "asserts": 10,
+     "rate": 0.2439,
+     "wilson": [
+      0.1383,
+      0.3934
+     ]
+    },
+    "group1": {
+     "asserts": 11,
+     "rate": 0.6471,
+     "wilson": [
+      0.413,
+      0.8269
+     ]
+    },
+    "label": "ASSERTS",
+    "n0": 41,
+    "n1": 17,
+    "n_personas": 21,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "unsure": "drop",
+    "verdict": "FAILED (direction as predicted, not reliable)"
+   },
+   "label": "ASSERTS",
+   "mini_beside": {
+    "ci_item": [
+     -0.0373,
+     0.5108
+    ],
+    "ci_persona": [
+     -0.1689,
+     0.6133
+    ],
+    "delta_group1_minus_group0": 0.2367,
+    "direction_as_predicted": true,
+    "fisher_p": 0.1332,
+    "group0": {
+     "asserts": 12,
+     "rate": 0.2927,
+     "wilson": [
+      0.1761,
+      0.4448
+     ]
+    },
+    "group1": {
+     "asserts": 9,
+     "rate": 0.5294,
+     "wilson": [
+      0.3096,
+      0.7383
+     ]
+    },
+    "label": "ASSERTS",
+    "n0": 41,
+    "n1": 17,
+    "n_personas": 21,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "unsure": "drop",
+    "verdict": "FAILED (direction as predicted, not reliable)"
+   },
+   "n0": 41,
+   "n1": 17,
+   "n_personas": 21,
+   "persona_interval_excludes_zero": false,
+   "population": "the 58 supersession and retraction obligations answered under LOOKUP: 17 whose view holds an active line asserting the stale value (amend4_header.view_source), 41 without; expiry (12) excluded",
+   "registered": "under the lookup rule, Luna's ASSERTS rate on views holding an untagged active copy of the stale value is above its rate on views without one (secondary)",
+   "reliable": false,
+   "unsure": "drop",
+   "verdict": "FAILED (direction as predicted, not reliable)"
+  },
+  "P-L4": {
+   "ci_item": [
+    -0.122,
+    -0.0122
+   ],
+   "ci_persona": [
+    -0.1183,
+    -0.0122
+   ],
+   "delta_second_minus_first": -0.061,
+   "direction_as_predicted": false,
+   "discordant": {
+    "first_only": 5,
+    "second_only": 0
+   },
+   "first": {
+    "asserts": 7,
+    "rate": 0.0854
+   },
+   "haiku_to_luna_beside": {
+    "ci_item": [
+     -0.3293,
+     -0.1463
+    ],
+    "ci_persona": [
+     -0.3979,
+     -0.0941
+    ],
+    "delta_second_minus_first": -0.2317,
+    "direction_as_predicted": false,
+    "discordant": {
+     "first_only": 19,
+     "second_only": 0
+    },
+    "first": {
+     "asserts": 21,
+     "rate": 0.2561
+    },
+    "item_interval_excludes_zero": false,
+    "label": "MENTIONS",
+    "mcnemar_p": 0.0,
+    "n": 82,
+    "n_personas": 26,
+    "persona_interval_excludes_zero": false,
+    "reliable": false,
+    "second": {
+     "asserts": 2,
+     "rate": 0.0244
+    },
+    "unsure": "drop",
+    "verdict": "FAILED (direction against)"
+   },
+   "item_interval_excludes_zero": false,
+   "label": "MENTIONS",
+   "mcnemar_p": 0.0625,
+   "mini_to_haiku_beside": {
+    "ci_item": [
+     0.0976,
+     0.2561
+    ],
+    "ci_persona": [
+     0.0641,
+     0.2987
+    ],
+    "delta_second_minus_first": 0.1707,
+    "direction_as_predicted": true,
+    "discordant": {
+     "first_only": 0,
+     "second_only": 14
+    },
+    "first": {
+     "asserts": 7,
+     "rate": 0.0854
+    },
+    "item_interval_excludes_zero": true,
+    "label": "MENTIONS",
+    "mcnemar_p": 0.0001,
+    "n": 82,
+    "n_personas": 26,
+    "persona_interval_excludes_zero": true,
+    "reliable": true,
+    "second": {
+     "asserts": 21,
+     "rate": 0.2561
+    },
+    "unsure": "drop",
+    "verdict": "HELD"
+   },
+   "n": 82,
+   "n_personas": 26,
+   "persona_interval_excludes_zero": false,
+   "population": "the 82 obligations answered under the ORACLE policy whose forbidding record is in view and tagged (stage 1 tagged_reach); by state {'exp': 11, 'ret': 8, 'sup': 63}",
+   "registered": "on the P-L1 pairs (oracle view, tagged reach), Luna's MENTIONS rate is above GPT-4.1 mini's; paired by obligation",
+   "reliable": false,
+   "second": {
+    "asserts": 2,
+    "rate": 0.0244
+   },
+   "unsure": "drop",
+   "verdict": "FAILED (direction against)"
+  }
+ },
+ "spend": {
+  "anthropic": 9.022089999999999,
+  "caps": {
+   "anthropic_lane_D_R130_5": 10.0,
+   "anthropic_registered": 8.0,
+   "openai": 4.0
+  },
+  "judge_batch": 2.2816,
+  "judge_insurance": 0.0862,
+  "judge_reask_rows": 0.94099,
+  "judge_rows": 9.017949999999999,
+  "judge_sync_rows": 5.70916,
+  "luna_rows": 0.06275172,
+  "openai": 0.06294972,
+  "probe_judge": 0.00414,
+  "probe_luna": 0.000198
+ },
+ "transports": {
+  "batch": 780,
+  "synchronous (D-R130-2)": 68,
+  "synchronous re-ask at max_tokens 1024 (D-R130-4)": 67
+ },
+ "when": "2026-09-20T15:38:29"
+}

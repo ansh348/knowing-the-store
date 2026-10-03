@@ -1,0 +1,775 @@
+{
+  "n": 84,
+  "expect": {
+    "n": 84,
+    "n_fok_pos": 54,
+    "n_nok_pos": 40
+  },
+  "rebuilt": {
+    "n": 84,
+    "n_fok_pos": 54,
+    "n_nok_pos": 40
+  },
+  "prompts_file_sha256": "337d37d3414c04823d28ad99eeab15c34e328e60198d68625452ebf330830b84",
+  "prompts_texts_sha256": "35d9b968ffc0b008289a59b06f10b7d23f71658c648dd2865a46e8da15d495f2",
+  "source_ladder": "e1_metamemory/ladder_gpt-5.6-luna.json",
+  "source_crosscheck": "e1_metamemory/redraw_frontier.json",
+  "items": [
+    {
+      "item_id": "frbank:aisha:aisha_q01:FULL",
+      "persona": "aisha",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "What team is Aisha on at PwC?"
+    },
+    {
+      "item_id": "frbank:aisha:aisha_q03:SLOT-ABLATED",
+      "persona": "aisha",
+      "variant": "SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Who does Aisha live with?"
+    },
+    {
+      "item_id": "frbank:amara:amara_q03:SLOT-ABLATED",
+      "persona": "amara",
+      "variant": "SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "What exercise does Amara do?"
+    },
+    {
+      "item_id": "frbank:amara:amara_q12:FULL",
+      "persona": "amara",
+      "variant": "FULL",
+      "label": "PRESENT",
+      "y_fok": 1,
+      "y_nok": 0,
+      "question": "What is Amara's educational background?"
+    },
+    {
+      "item_id": "frbank:aroha:aroha_q05:CAT-ABLATED",
+      "persona": "aroha",
+      "variant": "CAT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "What is Aroha's cultural identity?"
+    },
+    {
+      "item_id": "frbank:bruna:bruna_q04:FULL",
+      "persona": "bruna",
+      "variant": "FULL",
+      "label": "PRESENT",
+      "y_fok": 1,
+      "y_nok": 0,
+      "question": "Does Bruna have any health conditions to be aware of?"
+    },
+    {
+      "item_id": "frbank:bruna:bruna_q05:FULL",
+      "persona": "bruna",
+      "variant": "FULL",
+      "label": "PRESENT",
+      "y_fok": 1,
+      "y_nok": 0,
+      "question": "Does Bruna have any upcoming events or deadlines?"
+    },
+    {
+      "item_id": "frbank:bruna:bruna_q06:CAT-ABLATED",
+      "persona": "bruna",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Is Bruna planning to get any new certifications?"
+    },
+    {
+      "item_id": "frbank:bruna:bruna_q11:CAT-ABLATED",
+      "persona": "bruna",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Is Bruna registered for any races or sporting events?"
+    },
+    {
+      "item_id": "frbank:callum:callum_q05:CAT-ABLATED",
+      "persona": "callum",
+      "variant": "CAT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Does Callum have any upcoming events?"
+    },
+    {
+      "item_id": "frbank:chenoa:chenoa_q06:SLOT-ABLATED",
+      "persona": "chenoa",
+      "variant": "SLOT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Does Chenoa have any upcoming certifications or deadlines?"
+    },
+    {
+      "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+      "persona": "dariush",
+      "variant": "SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Is Dariush opening a second practice in La Jolla?"
+    },
+    {
+      "item_id": "frbank:david:david_q05:SLOT-ABLATED",
+      "persona": "david",
+      "variant": "SLOT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "What health conditions does David have?"
+    },
+    {
+      "item_id": "frbank:david:david_q06:CAT-ABLATED",
+      "persona": "david",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Does David have any upcoming exams to prepare students for?"
+    },
+    {
+      "item_id": "frbank:david:david_q06:FULL",
+      "persona": "david",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Does David have any upcoming exams to prepare students for?"
+    },
+    {
+      "item_id": "frbank:david:david_q09:SLOT-ABLATED",
+      "persona": "david",
+      "variant": "SLOT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Is David planning to move?"
+    },
+    {
+      "item_id": "frbank:david:david_q11:CAT-ABLATED",
+      "persona": "david",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Does David have any parent events coming up?"
+    },
+    {
+      "item_id": "frbank:diane:diane_q04:CAT-ABLATED",
+      "persona": "diane",
+      "variant": "CAT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Does Diane have any health conditions?"
+    },
+    {
+      "item_id": "frbank:diane:diane_q08:CAT-ABLATED",
+      "persona": "diane",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT",
+      "y_fok": 1,
+      "y_nok": 0,
+      "question": "Where does Diane live?"
+    },
+    {
+      "item_id": "frbank:diane:diane_q09:FULL",
+      "persona": "diane",
+      "variant": "FULL",
+      "label": "PRESENT",
+      "y_fok": 1,
+      "y_nok": 0,
+      "question": "What's Diane's family situation?"
+    },
+    {
+      "item_id": "frbank:diane:diane_q11:FULL",
+      "persona": "diane",
+      "variant": "FULL",
+      "label": "PRESENT",
+      "y_fok": 1,
+      "y_nok": 0,
+      "question": "What's Diane's educational and spiritual background?"
+    },
+    {
+      "item_id": "frbank:diane:diane_q11:SLOT-ABLATED",
+      "persona": "diane",
+      "variant": "SLOT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "What's Diane's educational and spiritual background?"
+    },
+    {
+      "item_id": "frbank:dmitri:dmitri_q03:CAT-ABLATED",
+      "persona": "dmitri",
+      "variant": "CAT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Where does Dmitri live?"
+    },
+    {
+      "item_id": "frbank:elena:elena_q05:FULL",
+      "persona": "elena",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Does Elena have any upcoming exams or certifications?"
+    },
+    {
+      "item_id": "frbank:fatima:fatima_q02:SLOT-ABLATED",
+      "persona": "fatima",
+      "variant": "SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "What type of projects does Fatima's firm focus on?"
+    },
+    {
+      "item_id": "frbank:fatima:fatima_q06:FULL",
+      "persona": "fatima",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Is Fatima launching any new products or brands?"
+    },
+    {
+      "item_id": "frbank:fatima:fatima_q06:SLOT-ABLATED",
+      "persona": "fatima",
+      "variant": "SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Is Fatima launching any new products or brands?"
+    },
+    {
+      "item_id": "frbank:fatima:fatima_q09:CAT-ABLATED",
+      "persona": "fatima",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT",
+      "y_fok": 1,
+      "y_nok": 0,
+      "question": "What's Fatima's family situation?"
+    },
+    {
+      "item_id": "frbank:ingrid:ingrid_q01:CAT-ABLATED",
+      "persona": "ingrid",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "What is Ingrid's primary research focus?"
+    },
+    {
+      "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+      "persona": "ingrid",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Is Ingrid planning a sabbatical?"
+    },
+    {
+      "item_id": "frbank:jake:jake_q03:CAT-ABLATED",
+      "persona": "jake",
+      "variant": "CAT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "What does Jake's mom do?"
+    },
+    {
+      "item_id": "frbank:jake:jake_q06:CAT-ABLATED",
+      "persona": "jake",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT",
+      "y_fok": 1,
+      "y_nok": 0,
+      "question": "How is Jake doing with his savings?"
+    },
+    {
+      "item_id": "frbank:jerome:jerome_q02:SLOT-ABLATED",
+      "persona": "jerome",
+      "variant": "SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "What company does Jerome drive for?"
+    },
+    {
+      "item_id": "frbank:joonho:joonho_q01:SLOT-ABLATED",
+      "persona": "joonho",
+      "variant": "SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "What level of go students does Joon-ho teach?"
+    },
+    {
+      "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+      "persona": "joonho",
+      "variant": "SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Is Joon-ho writing a textbook?"
+    },
+    {
+      "item_id": "frbank:kenji:kenji_q03:FULL",
+      "persona": "kenji",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Where does Kenji work?"
+    },
+    {
+      "item_id": "frbank:kenji:kenji_q09:SLOT-ABLATED",
+      "persona": "kenji",
+      "variant": "SLOT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "What's Kenji's family situation?"
+    },
+    {
+      "item_id": "frbank:kofi:kofi_q01:FULL",
+      "persona": "kofi",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Who does Kofi's cooperative sell cocoa through?"
+    },
+    {
+      "item_id": "frbank:kofi:kofi_q02:SLOT-ABLATED",
+      "persona": "kofi",
+      "variant": "SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "What fertilizer does Kofi use?"
+    },
+    {
+      "item_id": "frbank:leila:leila_q09:FULL",
+      "persona": "leila",
+      "variant": "FULL",
+      "label": "PRESENT",
+      "y_fok": 1,
+      "y_nok": 0,
+      "question": "Is Leila planning to move?"
+    },
+    {
+      "item_id": "frbank:leila:leila_q11:FULL",
+      "persona": "leila",
+      "variant": "FULL",
+      "label": "PRESENT",
+      "y_fok": 1,
+      "y_nok": 0,
+      "question": "Has Leila ever been to Bethlehem?"
+    },
+    {
+      "item_id": "frbank:marcus:marcus_q10:CAT-ABLATED",
+      "persona": "marcus",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Does Marcus have any equipment deliveries coming?"
+    },
+    {
+      "item_id": "frbank:marley:marley_q10:FULL",
+      "persona": "marley",
+      "variant": "FULL",
+      "label": "PRESENT",
+      "y_fok": 1,
+      "y_nok": 0,
+      "question": "Who raised Marley?"
+    },
+    {
+      "item_id": "frbank:mehmet:mehmet_q02:FULL",
+      "persona": "mehmet",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "What pomade brand does Mehmet use in his shop?"
+    },
+    {
+      "item_id": "frbank:mehmet:mehmet_q13:SLOT-ABLATED",
+      "persona": "mehmet",
+      "variant": "SLOT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Where did Mehmet learn his craft?"
+    },
+    {
+      "item_id": "frbank:mirri:mirri_q01:FULL",
+      "persona": "mirri",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "What patrol route does Mirri cover?"
+    },
+    {
+      "item_id": "frbank:mirri:mirri_q04:CAT-ABLATED",
+      "persona": "mirri",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Is Mirri writing a children's book?"
+    },
+    {
+      "item_id": "frbank:mirri:mirri_q04:FULL",
+      "persona": "mirri",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Is Mirri writing a children's book?"
+    },
+    {
+      "item_id": "frbank:mirri:mirri_q04:SLOT-ABLATED",
+      "persona": "mirri",
+      "variant": "SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Is Mirri writing a children's book?"
+    },
+    {
+      "item_id": "frbank:mirri:mirri_q05:CAT-ABLATED",
+      "persona": "mirri",
+      "variant": "CAT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "What health conditions does Mirri have?"
+    },
+    {
+      "item_id": "frbank:nadia:nadia_q02:CAT-ABLATED",
+      "persona": "nadia",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Where does Nadia live?"
+    },
+    {
+      "item_id": "frbank:nadia:nadia_q02:FULL",
+      "persona": "nadia",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Where does Nadia live?"
+    },
+    {
+      "item_id": "frbank:nadia:nadia_q06:SLOT-ABLATED",
+      "persona": "nadia",
+      "variant": "SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Is Nadia planning to stage at Noma?"
+    },
+    {
+      "item_id": "frbank:nadia:nadia_q07:CAT-ABLATED",
+      "persona": "nadia",
+      "variant": "CAT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Would Nadia ever open her own restaurant?"
+    },
+    {
+      "item_id": "frbank:pan:pan_q01:FULL",
+      "persona": "pan",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Where does Pan buy her rice?"
+    },
+    {
+      "item_id": "frbank:raj:raj_q02:SLOT-ABLATED",
+      "persona": "raj",
+      "variant": "SLOT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "What sports package does Raj use?"
+    },
+    {
+      "item_id": "frbank:raj:raj_q04:FULL",
+      "persona": "raj",
+      "variant": "FULL",
+      "label": "PRESENT",
+      "y_fok": 1,
+      "y_nok": 0,
+      "question": "Does Raj have any health conditions?"
+    },
+    {
+      "item_id": "frbank:raj:raj_q05:SLOT-ABLATED",
+      "persona": "raj",
+      "variant": "SLOT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Does Raj have any upcoming certifications or deadlines?"
+    },
+    {
+      "item_id": "frbank:rosa:rosa_q06:CAT-ABLATED",
+      "persona": "rosa",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Is Rosa planning to travel to Peru?"
+    },
+    {
+      "item_id": "frbank:samuel:samuel_q05:CAT-ABLATED",
+      "persona": "samuel",
+      "variant": "CAT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Does Samuel have any upcoming events?"
+    },
+    {
+      "item_id": "frbank:samuel:samuel_q12:CAT-ABLATED",
+      "persona": "samuel",
+      "variant": "CAT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "What are Samuel's credentials?"
+    },
+    {
+      "item_id": "frbank:samuel:samuel_q12:SLOT-ABLATED",
+      "persona": "samuel",
+      "variant": "SLOT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "What are Samuel's credentials?"
+    },
+    {
+      "item_id": "frbank:thanh:thanh_q02:CAT-ABLATED",
+      "persona": "thanh",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Does Thanh have any upcoming government inspections?"
+    },
+    {
+      "item_id": "frbank:thanh:thanh_q02:FULL",
+      "persona": "thanh",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Does Thanh have any upcoming government inspections?"
+    },
+    {
+      "item_id": "frbank:thanh:thanh_q13:FULL",
+      "persona": "thanh",
+      "variant": "FULL",
+      "label": "PRESENT",
+      "y_fok": 1,
+      "y_nok": 0,
+      "question": "Does Thanh have any upcoming family events?"
+    },
+    {
+      "item_id": "frbank:tom:tom_q04:CAT-ABLATED",
+      "persona": "tom",
+      "variant": "CAT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Does Tom have any health conditions?"
+    },
+    {
+      "item_id": "frbank:tom:tom_q06:FULL",
+      "persona": "tom",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Is Tom planning any building projects?"
+    },
+    {
+      "item_id": "frbank:valentina:valentina_q03:FULL",
+      "persona": "valentina",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Does Valentina smoke?"
+    },
+    {
+      "item_id": "frbank:valentina:valentina_q04:FULL",
+      "persona": "valentina",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "Is Valentina writing a book?"
+    },
+    {
+      "item_id": "frbank:valentina:valentina_q05:CAT-ABLATED",
+      "persona": "valentina",
+      "variant": "CAT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "What mental health conditions does Valentina have?"
+    },
+    {
+      "item_id": "frbank:valentina:valentina_q05:SLOT-ABLATED",
+      "persona": "valentina",
+      "variant": "SLOT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "What mental health conditions does Valentina have?"
+    },
+    {
+      "item_id": "frbank:valentina:valentina_q07:CAT-ABLATED",
+      "persona": "valentina",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT",
+      "y_fok": 1,
+      "y_nok": 0,
+      "question": "Who is Valentina's partner?"
+    },
+    {
+      "item_id": "frbank:valentina:valentina_q11:CAT-ABLATED",
+      "persona": "valentina",
+      "variant": "CAT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Is Valentina applying for the Nieman Fellowship?"
+    },
+    {
+      "item_id": "frbank:zara:zara_q02:CAT-ABLATED",
+      "persona": "zara",
+      "variant": "CAT-ABLATED",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "What fitness activity does Zara do?"
+    },
+    {
+      "item_id": "frbank:zara:zara_q02:FULL",
+      "persona": "zara",
+      "variant": "FULL",
+      "label": "PRESENT-NEGATIVE",
+      "y_fok": 1,
+      "y_nok": 1,
+      "question": "What fitness activity does Zara do?"
+    },
+    {
+      "item_id": "frbank:zara:zara_q06:CAT-ABLATED",
+      "persona": "zara",
+      "variant": "CAT-ABLATED",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Does Zara have any upcoming events or deadlines?"
+    },
+    {
+      "item_id": "probe:frbank:aisha:51065003",
+      "persona": "aisha",
+      "variant": "FULL",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "What kind of music do you usually listen to when relaxing at home?"
+    },
+    {
+      "item_id": "probe:frbank:amara:44980553",
+      "persona": "amara",
+      "variant": "FULL",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Can you describe your favorite type of music or a band you enjoy listening to?"
+    },
+    {
+      "item_id": "probe:frbank:joonho:38353346",
+      "persona": "joonho",
+      "variant": "FULL",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Have you ever traveled abroad for leisure? If so, which country did you enjoy the most?"
+    },
+    {
+      "item_id": "probe:frbank:kenji:72579794",
+      "persona": "kenji",
+      "variant": "FULL",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "What kind of plants or flowers do you keep in your living space?"
+    },
+    {
+      "item_id": "probe:frbank:kenji:76606586",
+      "persona": "kenji",
+      "variant": "FULL",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "What was the last movie or TV show you watched for relaxation?"
+    },
+    {
+      "item_id": "probe:frbank:kofi:87324398",
+      "persona": "kofi",
+      "variant": "FULL",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Do you have any pets at home? If yes, what kind and how many?"
+    },
+    {
+      "item_id": "probe:frbank:patrick:32972175",
+      "persona": "patrick",
+      "variant": "FULL",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "Have you ever taken any language classes or learned a foreign language? If so, which one and how long did you study it?"
+    },
+    {
+      "item_id": "probe:frbank:zara:69057771",
+      "persona": "zara",
+      "variant": "FULL",
+      "label": "ABSENT",
+      "y_fok": 0,
+      "y_nok": 0,
+      "question": "What kind of pet do you have, and what is its name?"
+    }
+  ]
+}

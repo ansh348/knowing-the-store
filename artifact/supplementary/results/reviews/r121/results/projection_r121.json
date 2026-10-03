@@ -1,0 +1,320 @@
+{
+ "basis": {
+  "H45": {
+   "INDEXED-V2": {
+    "in_mean": 1713.3918918918919,
+    "n": 2220,
+    "out_mean": 182.73963963963965,
+    "out_p95": 200.0,
+    "usd_mean": 0.0013135450450450451
+   },
+   "INDEXED-V3": {
+    "in_mean": 1771.6463963963963,
+    "n": 2220,
+    "out_mean": 179.39864864864865,
+    "out_p95": 200.0,
+    "usd_mean": 0.00133431981981982
+   }
+  },
+  "LUNA": {
+   "INDEXED-V2": {
+    "in_mean": 1614.6173952230733,
+    "n": 2219,
+    "out_mean": 191.65389815232086,
+    "out_p95": 327.0,
+    "usd_mean": 0.0003368103785488959
+   },
+   "INDEXED-V3": {
+    "in_mean": 1614.6173952230733,
+    "n": 2219,
+    "note": "v3 not recorded for Luna; v2 basis + 52 tokens",
+    "out_mean": 191.65389815232086,
+    "out_p95": 327.0,
+    "usd_mean": 0.0003368103785488959
+   }
+  },
+  "MINI": {
+   "INDEXED-V2": {
+    "in_mean": 1615.6103603603603,
+    "n": 444,
+    "out_mean": 24.756756756756758,
+    "out_p95": 26.0,
+    "usd_mean": 0.0006858549549549549
+   },
+   "INDEXED-V3": {
+    "in_mean": 1668.0202702702702,
+    "n": 444,
+    "out_mean": 23.833333333333332,
+    "out_p95": 26.0,
+    "usd_mean": 0.0007053414414414414
+   }
+  },
+  "OP5": {
+   "INDEXED-V2": {
+    "in_mean": 2415.1013513513512,
+    "n": 2220,
+    "out_mean": 245.1216216216216,
+    "out_p95": 423.0,
+    "usd_mean": 0.009101773648648647
+   },
+   "INDEXED-V3": {
+    "in_mean": 2519.286036036036,
+    "n": 2220,
+    "out_mean": 221.0554054054054,
+    "out_p95": 407.0,
+    "usd_mean": 0.00906140765765766
+   }
+  }
+ },
+ "caps": {
+  "anthropic": 16.0,
+  "openai": 4.0
+ },
+ "designs": [
+  {
+   "expected": {
+    "anthropic": 24.726,
+    "anthropic_x1.3": 32.144,
+    "calls": {
+     "haiku": 3540,
+     "luna": 3840,
+     "mini": 708,
+     "opus": 2124
+    },
+    "generation": 0.042,
+    "haiku": 4.811,
+    "leakscreen": 0.043,
+    "luna_cache": 1.308,
+    "luna_nocache": 2.462,
+    "mini": 0.51,
+    "openai_cache": 1.904,
+    "openai_nocache": 3.058,
+    "openai_nocache_x1.3": 3.976,
+    "opus": 19.915
+   },
+   "fits_anthropic_cap_x1.3": false,
+   "fits_openai_cap_x1.3": true,
+   "high": {
+    "anthropic": 29.664,
+    "anthropic_x1.3": 38.563,
+    "calls": {
+     "haiku": 3540,
+     "luna": 3840,
+     "mini": 708,
+     "opus": 2124
+    },
+    "generation": 0.042,
+    "haiku": 4.972,
+    "leakscreen": 0.043,
+    "luna_cache": 1.312,
+    "luna_nocache": 2.475,
+    "mini": 0.512,
+    "openai_cache": 1.91,
+    "openai_nocache": 3.073,
+    "openai_nocache_x1.3": 3.995,
+    "opus": 24.692
+   },
+   "k_haiku": 5,
+   "k_opus": 3,
+   "name": "D0: the brief (Opus k=3, Haiku k=5, all cells, both populations)",
+   "note": ""
+  },
+  {
+   "expected": {
+    "anthropic": 11.45,
+    "anthropic_x1.3": 14.884,
+    "calls": {
+     "haiku": 3540,
+     "luna": 3840,
+     "mini": 708,
+     "opus": 708
+    },
+    "generation": 0.042,
+    "haiku": 4.811,
+    "leakscreen": 0.043,
+    "luna_cache": 1.308,
+    "luna_nocache": 2.462,
+    "mini": 0.51,
+    "openai_cache": 1.904,
+    "openai_nocache": 3.058,
+    "openai_nocache_x1.3": 3.976,
+    "opus": 6.638
+   },
+   "fits_anthropic_cap_x1.3": true,
+   "fits_openai_cap_x1.3": true,
+   "high": {
+    "anthropic": 13.202,
+    "anthropic_x1.3": 17.163,
+    "calls": {
+     "haiku": 3540,
+     "luna": 3840,
+     "mini": 708,
+     "opus": 708
+    },
+    "generation": 0.042,
+    "haiku": 4.972,
+    "leakscreen": 0.043,
+    "luna_cache": 1.312,
+    "luna_nocache": 2.475,
+    "mini": 0.512,
+    "openai_cache": 1.91,
+    "openai_nocache": 3.073,
+    "openai_nocache_x1.3": 3.995,
+    "opus": 8.231
+   },
+   "k_haiku": 5,
+   "k_opus": 1,
+   "name": "O2: Opus k=1 on every new cell (the V2R-CAT draw-1 precedent), Haiku k=5",
+   "note": ""
+  },
+  {
+   "expected": {
+    "anthropic": 12.243,
+    "anthropic_x1.3": 15.916,
+    "calls": {
+     "haiku": 3540,
+     "luna": 3840,
+     "mini": 708,
+     "opus": 792
+    },
+    "generation": 0.042,
+    "haiku": 4.811,
+    "leakscreen": 0.043,
+    "luna_cache": 1.308,
+    "luna_nocache": 2.462,
+    "mini": 0.51,
+    "openai_cache": 1.904,
+    "openai_nocache": 3.058,
+    "openai_nocache_x1.3": 3.976,
+    "opus": 7.432
+   },
+   "fits_anthropic_cap_x1.3": true,
+   "fits_openai_cap_x1.3": true,
+   "high": {
+    "anthropic": 14.164,
+    "anthropic_x1.3": 18.413,
+    "calls": {
+     "haiku": 3540,
+     "luna": 3840,
+     "mini": 708,
+     "opus": 792
+    },
+    "generation": 0.042,
+    "haiku": 4.972,
+    "leakscreen": 0.043,
+    "luna_cache": 1.312,
+    "luna_nocache": 2.475,
+    "mini": 0.512,
+    "openai_cache": 1.91,
+    "openai_nocache": 3.073,
+    "openai_nocache_x1.3": 3.995,
+    "opus": 9.193
+   },
+   "k_haiku": 5,
+   "k_opus": 3,
+   "name": "O9: Opus k=3 on population A, P0 cell 3 + P1 cells 1 and 3 only; Haiku k=5 full",
+   "note": "Opus gets the primary estimand on A under both arms; no B, no interaction, no pooled AUROC"
+  },
+  {
+   "expected": {
+    "anthropic": 4.811,
+    "anthropic_x1.3": 6.255,
+    "calls": {
+     "haiku": 3540,
+     "luna": 3840,
+     "mini": 708,
+     "opus": 0
+    },
+    "generation": 0.042,
+    "haiku": 4.811,
+    "leakscreen": 0.043,
+    "luna_cache": 1.308,
+    "luna_nocache": 2.462,
+    "mini": 0.51,
+    "openai_cache": 1.904,
+    "openai_nocache": 3.058,
+    "openai_nocache_x1.3": 3.976,
+    "opus": 0.0
+   },
+   "fits_anthropic_cap_x1.3": true,
+   "fits_openai_cap_x1.3": true,
+   "high": {
+    "anthropic": 4.972,
+    "anthropic_x1.3": 6.463,
+    "calls": {
+     "haiku": 3540,
+     "luna": 3840,
+     "mini": 708,
+     "opus": 0
+    },
+    "generation": 0.042,
+    "haiku": 4.972,
+    "leakscreen": 0.043,
+    "luna_cache": 1.312,
+    "luna_nocache": 2.475,
+    "mini": 0.512,
+    "openai_cache": 1.91,
+    "openai_nocache": 3.073,
+    "openai_nocache_x1.3": 3.995,
+    "opus": 0.0
+   },
+   "k_haiku": 5,
+   "k_opus": 0,
+   "name": "O6: no Opus; Haiku k=5 full",
+   "note": ""
+  },
+  {
+   "expected": {
+    "anthropic": 19.674,
+    "anthropic_x1.3": 25.577,
+    "calls": {
+     "haiku": 3540,
+     "luna": 3840,
+     "mini": 708,
+     "opus": 1584
+    },
+    "generation": 0.042,
+    "haiku": 4.811,
+    "leakscreen": 0.043,
+    "luna_cache": 1.308,
+    "luna_nocache": 2.462,
+    "mini": 0.51,
+    "openai_cache": 1.904,
+    "openai_nocache": 3.058,
+    "openai_nocache_x1.3": 3.976,
+    "opus": 14.863
+   },
+   "fits_anthropic_cap_x1.3": false,
+   "fits_openai_cap_x1.3": true,
+   "high": {
+    "anthropic": 23.357,
+    "anthropic_x1.3": 30.364,
+    "calls": {
+     "haiku": 3540,
+     "luna": 3840,
+     "mini": 708,
+     "opus": 1584
+    },
+    "generation": 0.042,
+    "haiku": 4.972,
+    "leakscreen": 0.043,
+    "luna_cache": 1.312,
+    "luna_nocache": 2.475,
+    "mini": 0.512,
+    "openai_cache": 1.91,
+    "openai_nocache": 3.073,
+    "openai_nocache_x1.3": 3.995,
+    "opus": 18.385
+   },
+   "k_haiku": 5,
+   "k_opus": 3,
+   "name": "O4: Opus k=3 on population A only, all cells; Haiku k=5 full",
+   "note": ""
+  }
+ ],
+ "luna_per_call": {
+  "draw1": 0.0006272620495495494,
+  "drawn": 0.00026415655211267604
+ },
+ "p1_delta_o200k": 113
+}

@@ -1,0 +1,346 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 29,
+    "in": 29583,
+    "out": 10798,
+    "usd": 0.029110000000000004
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 6,
+  "persona": "pan",
+  "probes": [
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.1977,
+      "note": "",
+      "question": "What was the last movie you watched for entertainment?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1977,
+          "entry_id": "lb_00338",
+          "text": "User plans to post a video reel about their morning food preparation routine next week using trending audio."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1805,
+          "entry_id": "lb_00520",
+          "text": "User prefers motivational trending beats for social media content music"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1688,
+          "entry_id": "lb_00517",
+          "text": "User creates Instagram reels about their morning market run"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1656,
+          "entry_id": "lb_00522",
+          "text": "User creates Instagram reels about their morning market experience."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1654,
+          "entry_id": "lb_00523",
+          "text": "User prefers casual, authentic voiceover narration in their Instagram reels."
+        }
+      ],
+      "why_absent": "No information about movie watching habits or entertainment preferences is stored."
+    },
+    {
+      "domain": "Travel",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "you"
+      ],
+      "max_cosine": 0.1924,
+      "note": "",
+      "question": "Can you describe your favorite vacation destination and why you like it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1924,
+          "entry_id": "lb_00576",
+          "text": "User loves their food cart business and finds joy in seeing customers enjoy their food despite the hard work and physical challenges."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1892,
+          "entry_id": "lb_00290",
+          "text": "User's business is affected by seasonal weather, with fewer tourists and hot afternoons reducing customer traffic in June."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.189,
+          "entry_id": "lb_00465",
+          "text": "User believes Michelin recognition mainly attracts tourists and increases business credibility and social media exposure."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1873,
+          "entry_id": "lb_00061",
+          "text": "User's brother likes sweet things and misses Bangkok food."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.179,
+          "entry_id": "lb_00522",
+          "text": "User creates Instagram reels about their morning market experience."
+        }
+      ],
+      "why_absent": "No travel history or vacation preferences are recorded in the memory store."
+    },
+    {
+      "domain": "Music Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.2879,
+      "note": "",
+      "question": "What kind of music do you enjoy listening to when you are relaxing at home?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2879,
+          "entry_id": "lb_00520",
+          "text": "User prefers motivational trending beats for social media content music"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2315,
+          "entry_id": "lb_00112",
+          "text": "User enjoys the process of lighting charcoal and finds it meditative before the busy cooking starts."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2211,
+          "entry_id": "lb_00523",
+          "text": "User prefers casual, authentic voiceover narration in their Instagram reels."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1979,
+          "entry_id": "lb_00115",
+          "text": "User enjoys the ritual of lighting charcoal as a meditative part of their cooking routine."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1978,
+          "entry_id": "lb_00087",
+          "text": "User prefers spicy Thai food and finds it difficult to avoid spicy food at night."
+        }
+      ],
+      "why_absent": "Music listening preferences outside of content creation are not covered in the stored attributes."
+    },
+    {
+      "domain": "Pets",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.1852,
+      "note": "",
+      "question": "Do you have any pets, and if so, what are their names and breeds?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1852,
+          "entry_id": "lb_00550",
+          "text": "User has a brother named Beam"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1832,
+          "entry_id": "lb_00411",
+          "text": "User has a friend named Fern who does freelance video production"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1789,
+          "entry_id": "lb_00435",
+          "text": "User has a brother named Beam who recently returned from the army and is being trained to help with the food business."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1753,
+          "entry_id": "lb_00361",
+          "text": "User owns a chicken rice cart."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1733,
+          "entry_id": "lb_00450",
+          "text": "User has a brother named Beam who recently returned from the army and is helping with the food business."
+        }
+      ],
+      "why_absent": "No data about pet ownership or related details is present in the memory store."
+    },
+    {
+      "domain": "Food Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "eat",
+        "out",
+        "type",
+        "you"
+      ],
+      "max_cosine": 0.3435,
+      "note": "",
+      "question": "What is your favorite type of cuisine to eat when you dine out?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3435,
+          "entry_id": "lb_00091",
+          "text": "User prefers working in street food business over hotel kitchens"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3381,
+          "entry_id": "lb_00095",
+          "text": "User's cooking style combines traditional recipes and soul of cooking learned from their mom with technical skills from culinary school"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.3378,
+          "entry_id": "lb_00080",
+          "text": "User is Thai and prefers spicy food"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3268,
+          "entry_id": "lb_00464",
+          "text": "User's primary customers are Thai locals who value good food and fair price over Michelin recognition."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3218,
+          "entry_id": "lb_00242",
+          "text": "User works with food preparation and cooking, especially during lunch rush"
+        }
+      ],
+      "why_absent": "While cooking and business food details are stored, personal dining out preferences are not included."
+    },
+    {
+      "domain": "Education and Skills",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.2657,
+      "note": "",
+      "question": "Have you ever taken any formal art or music classes? If yes, what did you study?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2657,
+          "entry_id": "lb_00097",
+          "text": "User studied culinary arts at Dusit Thani College and obtained a vocational certificate"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.217,
+          "entry_id": "lb_00088",
+          "text": "User went to Dusit Thani College for a culinary vocational program and has proper training and certification."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.21,
+          "entry_id": "lb_00473",
+          "text": "User trained at culinary school."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2062,
+          "entry_id": "lb_00105",
+          "text": "User graduated from Dusit Thani culinary school"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.19,
+          "entry_id": "lb_00095",
+          "text": "User's cooking style combines traditional recipes and soul of cooking learned from their mom with technical skills from culinary school"
+        }
+      ],
+      "why_absent": "Formal education details beyond occupation and social media presence are not stored."
+    },
+    {
+      "domain": "Reading Habits",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "free",
+        "time",
+        "you"
+      ],
+      "max_cosine": 0.2182,
+      "note": "",
+      "question": "What kind of books or magazines do you like to read in your free time?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2182,
+          "entry_id": "lb_00149",
+          "text": "User posts food content 4-5 times per week, Monday to Saturday, with Sunday as a rest day."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2149,
+          "entry_id": "lb_00145",
+          "text": "User posts Instagram content 4-5 times per week, Monday to Saturday, with Sunday as a day off."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1941,
+          "entry_id": "lb_00146",
+          "text": "User's Instagram content includes cooking process, finished plates, market runs, funny customer moments, and personal posts on Sundays."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1864,
+          "entry_id": "lb_00102",
+          "text": "User runs a street food cart business and values the freedom it provides over working in a restaurant."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1853,
+          "entry_id": "lb_00520",
+          "text": "User prefers motivational trending beats for social media content music"
+        }
+      ],
+      "why_absent": "No information about reading interests or habits is recorded in the memory store."
+    }
+  ],
+  "threshold": 0.295
+}

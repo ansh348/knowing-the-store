@@ -1,0 +1,61 @@
+{
+ "cap_ruling": "Cap raised from $4.00 to $6.00 (dated 2026-09-15, below the marker)",
+ "counts": {
+  "absent": 383,
+  "calls_per_answerer": 3168,
+  "expanded": 366,
+  "expanded_absent": 211,
+  "expanded_licensed": 155,
+  "inview": {
+   "10": 89,
+   "5": 65,
+   "6": 72,
+   "7": 77,
+   "8": 82,
+   "9": 88,
+   "GATED": 87
+  },
+  "items": 557,
+  "licensed": 174,
+  "mean_view": 8.29,
+  "per_absent": 7.75,
+  "per_licensed": 9.45
+ },
+ "counts_ok": true,
+ "deviation": "D-DS-A6-1: the registered 696 licensed views / 2,994 calls per answerer is an arithmetic slip for 870 / 3,168; every other count reproduces",
+ "expected": {
+  "absent": 383,
+  "calls_per_answerer": 3168,
+  "expanded": 366,
+  "expanded_absent": 211,
+  "expanded_licensed": 155,
+  "inview": {
+   "10": 89,
+   "5": 65,
+   "6": 72,
+   "7": 77,
+   "8": 82,
+   "9": 88,
+   "GATED": 87
+  },
+  "items": 557,
+  "licensed": 174,
+  "mean_view": 8.29,
+  "per_absent": 7.75,
+  "per_licensed": 9.45
+ },
+ "frozen_at": "12c63f9",
+ "header_sha256": "1fe1eb17795796bb95617a28ac7b7628b9607abc2fb8b51989cbf70d1de08d6b",
+ "line_usd": 6.0,
+ "prompts_ds": {
+  "SYSTEM_ANSWER": "af1c69c8817d286727e44027a9d469c875a4da1eb111d7351eb76094b48ea4a9",
+  "USER_ANSWER": "c6dd6926a3c9e8d44d7d5a480540c554dbec510101c8c39e616a8c77299d83a5"
+ },
+ "ranking": "resp_review/l2/retrieval.json top10_ids (ADDENDUM_RESP, frozen 17e6328)",
+ "registration": "registrations\\ADDENDUM_DS_AMENDMENT_6.md",
+ "registration_sha256": "52effd8d7911a62505f2ee0a7d97fc42ca600a595dbffb46463ec05598fec65a",
+ "renderer_lock": "557 of 557 k = 5 renderings byte-identical to views.json ALWAYS; the ALWAYS ids the ranking's first five on all",
+ "theta_fok": 0.11400651465798045,
+ "user_answer_a4_sha256": "e6c155364f8c69bef8af0c86941b3bf8fc5e739e043ac3ef2f86f422ff40cd7d",
+ "when": "2026-09-15T00:39:32"
+}

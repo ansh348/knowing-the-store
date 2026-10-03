@@ -1,0 +1,102 @@
+{
+  "R-FOK-AMEM|BELIEVED": {
+    "backend_identity_auroc": NaN,
+    "n": 284,
+    "n_backends": 1,
+    "n_pos": 126,
+    "nb3_index_only": 0.5097950572634117,
+    "nb3_index_plus_question": 0.9527828008840667,
+    "nb3_question_only": 0.9538627687361865,
+    "question_carries_it": true
+  },
+  "R-FOK-AMEM|TRUE": {
+    "backend_identity_auroc": NaN,
+    "n": 284,
+    "n_backends": 1,
+    "n_pos": 126,
+    "nb3_index_only": 0.5163250954390195,
+    "nb3_index_plus_question": 0.9512256379344987,
+    "nb3_question_only": 0.9538627687361865,
+    "question_carries_it": true
+  },
+  "R-FOK-FRB|BELIEVED": {
+    "backend_identity_auroc": NaN,
+    "n": 307,
+    "n_backends": 1,
+    "n_pos": 35,
+    "nb3_index_only": 0.5419117647058823,
+    "nb3_index_plus_question": 0.8332983193277311,
+    "nb3_question_only": 0.9164390756302521,
+    "question_carries_it": true
+  },
+  "R-FOK-FRB|TRUE": {
+    "backend_identity_auroc": NaN,
+    "n": 307,
+    "n_backends": 1,
+    "n_pos": 35,
+    "nb3_index_only": 0.5048319327731092,
+    "nb3_index_plus_question": 0.8070378151260504,
+    "nb3_question_only": 0.9164390756302521,
+    "question_carries_it": true
+  },
+  "R-FOK-HARD|BELIEVED": {
+    "backend_identity_auroc": 0.5081374321880651,
+    "n": 588,
+    "n_backends": 3,
+    "n_pos": 35,
+    "nb3_index_only": 0.6908809093257556,
+    "nb3_index_plus_question": 0.7602169981916818,
+    "nb3_question_only": 0.9597778351847068,
+    "question_carries_it": true
+  },
+  "R-FOK-HARD|TRUE": {
+    "backend_identity_auroc": 0.5081374321880651,
+    "n": 588,
+    "n_backends": 3,
+    "n_pos": 35,
+    "nb3_index_only": 0.6827176440196332,
+    "nb3_index_plus_question": 0.7637303022474813,
+    "nb3_question_only": 0.9597778351847068,
+    "question_carries_it": true
+  },
+  "R-FOK-MEM0|BELIEVED": {
+    "backend_identity_auroc": NaN,
+    "n": 238,
+    "n_backends": 1,
+    "n_pos": 94,
+    "nb3_index_only": 0.4621380023640662,
+    "nb3_index_plus_question": 0.9621749408983451,
+    "nb3_question_only": 0.9666814420803782,
+    "question_carries_it": true
+  },
+  "R-FOK-MEM0|TRUE": {
+    "backend_identity_auroc": NaN,
+    "n": 238,
+    "n_backends": 1,
+    "n_pos": 94,
+    "nb3_index_only": 0.44640218676122934,
+    "nb3_index_plus_question": 0.9624704491725768,
+    "nb3_question_only": 0.9666814420803782,
+    "question_carries_it": true
+  },
+  "R-NOK-FRB|BELIEVED": {
+    "backend_identity_auroc": NaN,
+    "n": 661,
+    "n_backends": 1,
+    "n_pos": 104,
+    "nb3_index_only": 0.4714559453114211,
+    "nb3_index_plus_question": 0.702354647148184,
+    "nb3_question_only": 0.8706670349399255,
+    "question_carries_it": true
+  },
+  "R-NOK-FRB|TRUE": {
+    "backend_identity_auroc": NaN,
+    "n": 661,
+    "n_backends": 1,
+    "n_pos": 104,
+    "nb3_index_only": 0.4779640243060351,
+    "nb3_index_plus_question": 0.7220860378400773,
+    "nb3_question_only": 0.8706670349399255,
+    "question_carries_it": true
+  }
+}

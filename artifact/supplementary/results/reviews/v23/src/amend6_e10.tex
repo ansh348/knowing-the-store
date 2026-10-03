@@ -1,0 +1,40 @@
+% amend6_e10.tex -- DS Amendment 6 for paper_v18 (CC_PASS_v18; registrations/ADDENDUM_DS_AMENDMENT_6.md, frozen 12c63f9; descriptive): the
+% Appendix E.10 table (the Section 8 sentence is written in body_v18.tex in the author's words of 2026-09-15). Every number is AUX-DS-A6-* in
+% ds_downstream/NUMBERS_DS.md section 12 (run/scores_amend6.json). Counts and four-decimal rates; D-DS-A6-1 (the registered call count) is
+% in DEVIATIONS_DS.md. Two blocks, one per answerer, so the table stays inside the margin.
+
+% ---- Appendix E.10, the table (lands after the Amendment 5 table; label tab:ds-a6)
+\begin{table}[H]
+\caption{The answer stage along the depth of the retrieval view (DS Amendment 6, descriptive; no prediction was registered). Views are the first $k$ lines of the recorded ten-deep ranking rendered by the recorded renderer (the five-line view is the recorded one), answered under the Amendment 4 header by both answerers; the gated view renders ten lines where the smallest model's recorded coverage score is at or above the base-rate threshold ($366$ of the $557$ items: $155$ of the $174$ licensed, $211$ of the $383$ absent) and five elsewhere, a mean of $8.29$ lines. Per policy: the licensed record in view, correct answers at $0.50$ and at $0.80$, correct among the items whose record is in view, abstentions on the licensed items, and abstentions on the $383$ absent items, with Wilson intervals on the rates. The last rows are the budget-matched comparison: the gated view against the flat curve interpolated at $8.29$ lines between $k=8$ and $k=9$, the difference with the item-level and profile-grouped bootstraps ($10{,}000$ draws, the three policies resampled together).}
+\label{tab:ds-a6}\centering\tiny\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lrlllrrl@{}}\toprule
+Policy & Lines & Record in view, of $174$ (Wilson) & Correct at $0.50$ (Wilson) & at $0.80$ & Among in view & Abstain, licensed & Abstain, absent, of $383$ (Wilson) \\ \midrule
+\multicolumn{8}{@{}l}{\textit{GPT-4.1 mini}} \\
+Flat $5$ & $5.00$ & $65$ $[0.3051,0.4474]$ & $56$ $[0.2569,0.3945]$ & $20$ & $48$ of $65$ & $33$ & $241$ $[0.5798,0.6761]$ \\
+Flat $6$ & $6.00$ & $72$ $[0.3432,0.4881]$ & $59$ $[0.2729,0.4122]$ & $21$ & $50$ of $72$ & $30$ & $236$ $[0.5666,0.6635]$ \\
+Flat $7$ & $7.00$ & $77$ $[0.3708,0.5168]$ & $62$ $[0.2890,0.4299]$ & $23$ & $54$ of $77$ & $25$ & $228$ $[0.5454,0.6433]$ \\
+Flat $8$ & $8.00$ & $82$ $[0.3985,0.5453]$ & $65$ $[0.3051,0.4474]$ & $20$ & $57$ of $82$ & $21$ & $218$ $[0.5192,0.6179]$ \\
+Flat $9$ & $9.00$ & $88$ $[0.4321,0.5791]$ & $67$ $[0.3160,0.4591]$ & $22$ & $60$ of $88$ & $18$ & $219$ $[0.5218,0.6204]$ \\
+Flat $10$ & $10.00$ & $89$ $[0.4378,0.5847]$ & $70$ $[0.3323,0.4765]$ & $23$ & $62$ of $89$ & $21$ & $214$ $[0.5087,0.6076]$ \\
+Gated & $8.29$ & $87$ $[0.4265,0.5735]$ & $69$ $[0.3269,0.4707]$ & $23$ & $61$ of $87$ & $24$ & $219$ $[0.5218,0.6204]$ \\
+\addlinespace
+\multicolumn{8}{@{}l}{\textit{Haiku 4.5}} \\
+Flat $5$ & $5.00$ & $65$ $[0.3051,0.4474]$ & $73$ $[0.3487,0.4938]$ & $27$ & $59$ of $65$ & $45$ & $280$ $[0.6845,0.7730]$ \\
+Flat $6$ & $6.00$ & $72$ $[0.3432,0.4881]$ & $75$ $[0.3597,0.5053]$ & $26$ & $64$ of $72$ & $36$ & $268$ $[0.6520,0.7435]$ \\
+Flat $7$ & $7.00$ & $77$ $[0.3708,0.5168]$ & $74$ $[0.3542,0.4996]$ & $28$ & $65$ of $77$ & $34$ & $263$ $[0.6386,0.7311]$ \\
+Flat $8$ & $8.00$ & $82$ $[0.3985,0.5453]$ & $78$ $[0.3763,0.5225]$ & $31$ & $67$ of $82$ & $35$ & $261$ $[0.6332,0.7261]$ \\
+Flat $9$ & $9.00$ & $88$ $[0.4321,0.5791]$ & $80$ $[0.3874,0.5339]$ & $34$ & $70$ of $88$ & $33$ & $257$ $[0.6225,0.7162]$ \\
+Flat $10$ & $10.00$ & $89$ $[0.4378,0.5847]$ & $85$ $[0.4153,0.5622]$ & $33$ & $72$ of $89$ & $32$ & $255$ $[0.6171,0.7112]$ \\
+Gated & $8.29$ & $87$ $[0.4265,0.5735]$ & $85$ $[0.4153,0.5622]$ & $33$ & $72$ of $87$ & $34$ & $261$ $[0.6332,0.7261]$ \\
+\bottomrule\end{tabular}\\[4pt]
+\begin{tabular}{@{}llrrrll@{}}\toprule
+\multicolumn{7}{@{}l}{\textit{The budget-matched comparison: the gated view minus the flat curve at $8.29$ lines}} \\
+Answerer & rate & gated & flat at $8.29$ & difference & item interval & profile interval \\ \midrule
+GPT-4.1 mini & record in view & $0.5000$ & $0.4813$ & $+0.0187$ & $[-0.0091,+0.0473]$ & $[+0.0028,+0.0374]$ \\
+GPT-4.1 mini & correct at $0.50$ & $0.3966$ & $0.3769$ & $+0.0197$ & $[-0.0106,+0.0517]$ & $[-0.0161,+0.0575]$ \\
+GPT-4.1 mini & abstain, absent & $0.5718$ & $0.5699$ & $+0.0019$ & $[-0.0202,+0.0235]$ & $[-0.0191,+0.0239]$ \\
+Haiku 4.5 & record in view & $0.5000$ & $0.4813$ & $+0.0187$ & $[-0.0091,+0.0473]$ & $[+0.0028,+0.0374]$ \\
+Haiku 4.5 & correct at $0.50$ & $0.4885$ & $0.4516$ & $+0.0369$ & $[+0.0156,+0.0623]$ & $[+0.0136,+0.0639]$ \\
+Haiku 4.5 & abstain, absent & $0.6815$ & $0.6784$ & $+0.0030$ & $[-0.0186,+0.0251]$ & $[-0.0169,+0.0235]$ \\
+\bottomrule\end{tabular}
+\end{table}

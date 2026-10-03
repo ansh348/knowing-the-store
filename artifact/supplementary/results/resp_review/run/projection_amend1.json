@@ -1,0 +1,44 @@
+{
+ "HYBRID": {
+  "billed_earlier": 0.003053,
+  "cap": 12.0,
+  "fits": true,
+  "lane": "HYBRID",
+  "projection": {
+   "requests": 3305,
+   "tok_in": 6598780,
+   "tok_out": 661000,
+   "usd": 4.951890388706001
+  },
+  "when": "2026-09-14T15:55:05",
+  "x1_3": 6.437457505317802
+ },
+ "OWN": {
+  "billed_earlier": 6.050126499999999,
+  "cap": 12.0,
+  "fits": true,
+  "lane": "OWN",
+  "projection": {
+   "requests": 510,
+   "tok_in": 879586,
+   "tok_out": 102000,
+   "usd": 0.6947933214652768
+  },
+  "when": "2026-09-14T17:30:17",
+  "x1_3": 0.9032313179048599
+ },
+ "RETRIEVED": {
+  "billed_earlier": 4.106476499999999,
+  "cap": 12.0,
+  "fits": true,
+  "lane": "RETRIEVED",
+  "projection": {
+   "requests": 3305,
+   "tok_in": 2816981,
+   "tok_out": 128895,
+   "usd": 1.7307280751462888
+  },
+  "when": "2026-09-14T16:44:48",
+  "x1_3": 2.2499464976901753
+ }
+}

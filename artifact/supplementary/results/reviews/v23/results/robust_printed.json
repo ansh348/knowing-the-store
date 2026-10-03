@@ -1,0 +1,152 @@
+{
+ "rows": [
+  {
+   "n": 1,
+   "tried": "One question, three store versions",
+   "removes": "Question-wording leakage",
+   "happened": "A question-only reader scores $0.50$ by construction",
+   "metric": "pooled",
+   "population": "the counterfactual set",
+   "status": "by construction",
+   "source": "one score per question reused across its three versions (Table 1's caption; AUX-CF2-MINI-V2 'blind 0.5000 by identity')",
+   "values": {
+    "0.50": 0.5
+   }
+  },
+  {
+   "n": 2,
+   "tried": "Random tokens for the names",
+   "removes": "Name meaning, length kept",
+   "happened": "$0.65$; the real lookup is $0.13$ higher",
+   "metric": "matched",
+   "population": "the counterfactual set",
+   "status": "post hoc",
+   "source": "r125_matched.json readers/RANDTOK_v2/pn_vs_present/whole/matched; paired/contrasts 'random-token minus name lookup (v2)' (AUX-CF2-R125-MATCHED-V2, -CONTRASTS)",
+   "values": {
+    "0.65": 0.6453,
+    "0.13": -0.1318
+   }
+  },
+  {
+   "n": 3,
+   "tried": "Sibling-name control",
+   "removes": "List length and counts",
+   "happened": "Lookup $0.95$, models $0.88$ to $0.97$, none reliably above the lookup",
+   "metric": "matched, the PN version against its sibling",
+   "population": "the 88 supersession pairs",
+   "status": "registered",
+   "source": "r125_t4_sibling.json readers/*/pn_vs_sibling/matched; predictions P-SB4 HELD (AUX-CF2-R125-SB-*)",
+   "values": {
+    "0.95": 0.9489,
+    "0.88": 0.8807,
+    "0.97": 0.9716
+   }
+  },
+  {
+   "n": 4,
+   "tried": "Lifecycle totals permuted",
+   "removes": "The summary's two totals",
+   "happened": "No model moves by more than $0.01$, none reliably",
+   "metric": "pooled",
+   "population": "the counterfactual set",
+   "status": "registered",
+   "source": "cf_scores_cf2.json lanes/*/equiv_v2r_minus_v2 (AUX-CF2-EQUIV-V2R: mini +0.0011, Haiku 4.5 +0.0072, Opus 5 -0.0052; P5 held)",
+   "values": {
+    "0.01": 0.0072
+   }
+  },
+  {
+   "n": 5,
+   "tried": "Count moved to a sibling version",
+   "removes": "Where the count sits",
+   "happened": "Luna, Sol, Opus fall $0.28$ to $0.33$; mini, Haiku no reliable change",
+   "metric": "matched",
+   "population": "the counterfactual set, the 60 counted-state pairs",
+   "status": "post hoc",
+   "source": "r125_matched.json paired/contrasts 'moved count {Opus k5, Luna k5, Sol k5} minus sup-only k5' counted (AUX-CF2-R125-CONTRASTS); mini and Haiku counted, intervals include zero",
+   "values": {
+    "0.28": 0.2833,
+    "0.33": 0.325
+   }
+  },
+  {
+   "n": 6,
+   "tried": "Every count deleted",
+   "removes": "The counts",
+   "happened": "Mini and Haiku within $0.01$; Luna loses $0.06$, Opus $0.04$",
+   "metric": "pooled",
+   "population": "the counterfactual set",
+   "status": "registered",
+   "source": "cf_scores_nc.json readers/*/arms/INDEXED-NAMES/vs_v2 (AUX-CF2-NC-MINI-NAMES -0.0064, -H45-NAMES -0.0059; P-N1 held); r125_t5_nc.json readers/{Luna five draws, Opus draw 1}/names_only/minus_intact (AUX-CF2-R125-NC-*)",
+   "values": {
+    "0.01": 0.01,
+    "0.06": -0.0598,
+    "0.04": -0.0426
+   }
+  },
+  {
+   "n": 7,
+   "tried": "Questions reworded, no shared word",
+   "removes": "Word overlap with names",
+   "happened": "Word lookup at $0.50$; embedding lookup loses $0.02$; mini, Haiku lose more",
+   "metric": "pooled",
+   "population": "the 115 reworded pairs",
+   "status": "registered",
+   "source": "para_scores.json lookups/lex_v2/paraphrase 0.5000, lookups/emb_v2/paired -0.0216, models/MINI/v2/paired -0.0326, models/H45/v2/paired -0.0642 (AUX-PARA-LOOKUP-LEX-V2, -EMB-V2, -MINI-V2, -H45-V2)",
+   "values": {
+    "0.50": 0.5,
+    "0.02": -0.021625708884688177
+   }
+  },
+  {
+   "n": 8,
+   "tried": "Two other sentence encoders",
+   "removes": "The choice of encoder",
+   "happened": "Both within $0.01$ of the lookup",
+   "metric": "pooled",
+   "population": "the counterfactual set",
+   "status": "registered",
+   "source": "enc_lookup.json predictions/P-E1/encoders/{MPNET -0.0059, BGE -0.0080}/delta (AUX-R122-ENC-*; P-E1 held)",
+   "values": {
+    "0.01": 0.01
+   }
+  },
+  {
+   "n": 9,
+   "tried": "List padded to 60 names",
+   "removes": "Short, clean lists",
+   "happened": "Lookup $0.92$ to $0.74$; mini, Haiku, Opus fall with it; Luna, Sol lose $0.06$ to $0.07$, lead it by $0.13$ to $0.14$",
+   "metric": "pooled",
+   "population": "the counterfactual set, supersession (88 triples); Opus one draw against its recorded five-draw row",
+   "status": "registered",
+   "source": "cf_pad_scores.json readers/LOOKUP/superseded/pooled {unpadded 0.9223, padded 0.7416} (AUX-CFP-READERS-SUPERSEDED); readers/{LUNA,SOL}/superseded/pooled/padded_minus_unpadded (-0.0636, -0.0693, both reliable); minus_lookup/{LUNA,SOL}/LOOKUP/superseded/padded/pooled (+0.1375, +0.1274, both reliable on both metrics; AUX-CFP-MINUS-LOOKUP-SUPERSEDED); mini -0.0525, Haiku -0.0062, Opus -0.0336 minus the lookup, intervals including zero (P-L2 holds, P-L1 fails on Opus)",
+   "values": {
+    "0.92": 0.9222623966942148,
+    "0.74": 0.7416064049586777,
+    "0.06": 0.06356534090909094,
+    "0.07": 0.06934400826446285,
+    "0.13": 0.12738894628099173,
+    "0.14": 0.13746126033057848,
+    "60": 60
+   }
+  },
+  {
+   "n": 10,
+   "tried": "The store's own metadata (FR-Bank)",
+   "removes": "The ground-truth summary",
+   "happened": "Mini, Haiku, lookup: $0.73$, $0.82$, $0.75$ to $0.60$, $0.71$, $0.59$",
+   "metric": "pooled",
+   "population": "the full obligation set",
+   "status": "registered",
+   "source": "NUMBERS_E1R.md section 11 R-NOK-FRB TRUE / BELIEVED (AUX-E1R-TRUE-NOK, -BELIEVED-NOK, -NB6); NUMBERS_R74.md AUX-R74-X4-H45-NOK; NUMBERS_BELIEVED_H.md AUX-BH-H45-15",
+   "values": {
+    "0.73": 0.7339,
+    "0.82": 0.821,
+    "0.75": 0.7484,
+    "0.60": 0.5959,
+    "0.71": 0.7069,
+    "0.59": 0.5858
+   }
+  }
+ ]
+}

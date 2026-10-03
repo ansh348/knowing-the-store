@@ -1,0 +1,348 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 31,
+    "in": 31618,
+    "out": 11607,
+    "usd": 0.0312184
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 2,
+  "persona": "raj",
+  "probes": [
+    {
+      "domain": "Education",
+      "human_verdict": null,
+      "lexical_bank_hits": [
+        "lb_00472"
+      ],
+      "lexical_yaml_token_overlap": [
+        "name",
+        "primary",
+        "school"
+      ],
+      "max_cosine": 0.3622,
+      "note": "",
+      "question": "What was the name of the primary school you attended as a child?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3622,
+          "entry_id": "lb_00426",
+          "text": "User has a child named Arjun who currently shares a room and will soon need a secondary school."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3565,
+          "entry_id": "lb_00033",
+          "text": "User's wife is a Year 3 teacher at Ladywood Primary School."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3523,
+          "entry_id": "lb_00411",
+          "text": "User has a child named Arjun who is approaching secondary school age."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3417,
+          "entry_id": "lb_00466",
+          "text": "User has a child named Simran who was present at the school play."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3106,
+          "entry_id": "lb_00474",
+          "text": "User has a child named Preet who participated in her first school play as a tree."
+        }
+      ],
+      "why_absent": "No information about Raj's education history or schools attended is present in the memory store."
+    },
+    {
+      "domain": "Personal History / Travel",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "holiday"
+      ],
+      "max_cosine": 0.4402,
+      "note": "",
+      "question": "Can you tell me about your favorite childhood holiday destination?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4402,
+          "entry_id": "lb_00050",
+          "text": "User travels to Jalandhar in Punjab, India with their family around Christmas time every year."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.399,
+          "entry_id": "lb_00058",
+          "text": "User travels annually around Christmas to visit family in Punjab with wife and two kids"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.343,
+          "entry_id": "lb_00047",
+          "text": "User is traveling to Jalandhar in Punjab, India with their wife and two kids around Christmas time."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3276,
+          "entry_id": "lb_00049",
+          "text": "User's children enjoy visiting their grandparents in Jalandhar; Arjun loves it there and Preet is very excited because their grandmother spoils her."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.3192,
+          "entry_id": "lb_00491",
+          "text": "User values family traditions and quality family time"
+        }
+      ],
+      "why_absent": "There is no data on Raj's childhood travel experiences or favorite holiday spots."
+    },
+    {
+      "domain": "Entertainment / Music Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [],
+      "max_cosine": 0.281,
+      "note": "",
+      "question": "What kind of music do you usually listen to when relaxing at home?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.281,
+          "entry_id": "lb_00458",
+          "text": "User streams IPL cricket online and listens to afternoon games audio while driving between jobs."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2625,
+          "entry_id": "lb_00141",
+          "text": "User prioritizes family time on weekends, including swimming and park activities on Saturdays and family activities on Sundays."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2556,
+          "entry_id": "lb_00147",
+          "text": "User prioritizes family time over work on weekends."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2546,
+          "entry_id": "lb_00463",
+          "text": "User enjoys watching IPL cricket, especially staying up late with a brew during spring."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2511,
+          "entry_id": "lb_00316",
+          "text": "User prioritizes family time on weekends."
+        }
+      ],
+      "why_absent": "No details about Raj's music tastes or entertainment preferences are stored."
+    },
+    {
+      "domain": "Pets",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any"
+      ],
+      "max_cosine": 0.2837,
+      "note": "",
+      "question": "Do you have any pets at home? If so, what are their names and breeds?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2837,
+          "entry_id": "lb_00493",
+          "text": "User has children named Arjun and Preet with distinct eating habits"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.281,
+          "entry_id": "lb_00140",
+          "text": "User has a family with Simran and children named Arjun and Preet."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2729,
+          "entry_id": "lb_00027",
+          "text": "User lives in a 3-bedroom semi-detached house in Sparkhill."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2708,
+          "entry_id": "lb_00345",
+          "text": "User lives with someone named Simran."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2682,
+          "entry_id": "lb_00294",
+          "text": "User has a colleague or household member named Simran"
+        }
+      ],
+      "why_absent": "The memory store does not include any information about pets or animals in Raj's life."
+    },
+    {
+      "domain": "Cooking / Food Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "family",
+        "type",
+        "weekends"
+      ],
+      "max_cosine": 0.4883,
+      "note": "",
+      "question": "What is your favorite type of cuisine to cook for your family on weekends?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4883,
+          "entry_id": "lb_00316",
+          "text": "User prioritizes family time on weekends."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.4585,
+          "entry_id": "lb_00141",
+          "text": "User prioritizes family time on weekends, including swimming and park activities on Saturdays and family activities on Sundays."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.4478,
+          "entry_id": "lb_00143",
+          "text": "User prioritizes family time on weekends, dedicating Saturdays to kids' activities like swimming and park visits, and Sundays as family day with Simran and the kids."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.4366,
+          "entry_id": "lb_00147",
+          "text": "User prioritizes family time over work on weekends."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.4253,
+          "entry_id": "lb_00491",
+          "text": "User values family traditions and quality family time"
+        }
+      ],
+      "why_absent": "While some food preferences are noted, there is no specific information about Raj's cooking habits or favorite dishes to prepare."
+    },
+    {
+      "domain": "Community Involvement",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "events"
+      ],
+      "max_cosine": 0.3331,
+      "note": "",
+      "question": "Have you ever taken part in any local community events or volunteering activities?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3331,
+          "entry_id": "lb_00135",
+          "text": "User has children and spends Saturdays doing swimming and park activities with them."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3016,
+          "entry_id": "lb_00390",
+          "text": "User has been working emergency callouts on Saturdays for three consecutive weeks."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2938,
+          "entry_id": "lb_00393",
+          "text": "User has been working three consecutive Saturdays on emergency callouts."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2751,
+          "entry_id": "lb_00132",
+          "text": "User spends Saturdays with their kids, doing swimming and usually going to the park."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2612,
+          "entry_id": "lb_00407",
+          "text": "User has been working three consecutive Saturdays on emergency plumbing callouts"
+        }
+      ],
+      "why_absent": "No records exist about Raj's participation in community events or volunteer work."
+    },
+    {
+      "domain": "Career History",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "business",
+        "first",
+        "job",
+        "own",
+        "plumber"
+      ],
+      "max_cosine": 0.604,
+      "note": "",
+      "question": "What was your first job before becoming a plumber and starting your own business?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.604,
+          "entry_id": "lb_00082",
+          "text": "User worked for a couple of plumbing companies for a few years to learn the business side."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.594,
+          "entry_id": "lb_00295",
+          "text": "User works as a plumber and has been doing it for 15 years"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.5814,
+          "entry_id": "lb_00083",
+          "text": "User started their own business, RM Plumbing and Heating, about 7 years ago."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.5597,
+          "entry_id": "lb_00293",
+          "text": "User has been working in plumbing for 15 years"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.5597,
+          "entry_id": "lb_00289",
+          "text": "User has been working in plumbing for 15 years"
+        }
+      ],
+      "why_absent": "The memory store only covers current occupation and work experience related to plumbing, not prior jobs."
+    }
+  ],
+  "threshold": 0.295
+}

@@ -1,0 +1,86 @@
+{
+  "edge_cases": [
+    {
+      "current": "Zara moved out — new roommate Priya moved in",
+      "entry_id": "lb_00413",
+      "entry_text": "User currently lives in Manchester, sharing a nice 2-bedroom flat in Ancoats.",
+      "exclusion_tag": "other:unchanged-part-of-record",
+      "is_active": false,
+      "persona": "aisha",
+      "question_id": "aisha_q03",
+      "signal": 1.0,
+      "superseded": "Lives with roommate Zara in a flat in Ancoats"
+    },
+    {
+      "current": "La Jolla second practice is off the table — too much overhead",
+      "entry_id": "lb_00160",
+      "entry_text": "User currently splits time between two practice locations, spending three days at the original location and two days at the La Jolla location.",
+      "exclusion_tag": "other:asserts-completion-not-plan",
+      "is_active": false,
+      "persona": "dariush",
+      "question_id": "dariush_q04",
+      "signal": 1.0,
+      "superseded": "Planning to open a second practice location in La Jolla"
+    },
+    {
+      "current": "UBC exchange cancelled — too expensive and would delay graduation",
+      "entry_id": "lb_00163",
+      "entry_text": "User is interested in the marine ecology program at the University of British Columbia in Vancouver",
+      "exclusion_tag": "other:adjacent-topic-not-the-value",
+      "is_active": false,
+      "persona": "lily",
+      "question_id": "lily_q06",
+      "signal": 1.0,
+      "superseded": "Planning to do a semester exchange at UBC (University of British Columbia) in Vancouver"
+    },
+    {
+      "current": "Truck delivery arriving April 22",
+      "entry_id": "lb_00133",
+      "entry_text": "The delivery company is also doing the installation, which will take most of the day",
+      "exclusion_tag": "other:generic-not-the-dated-event",
+      "is_active": true,
+      "persona": "marcus",
+      "question_id": "marcus_q10",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Government aquaculture inspection scheduled for February 15, 2025",
+      "entry_id": "lb_00114",
+      "entry_text": "User owns a farm subject to aquaculture inspection.",
+      "exclusion_tag": "other:generic-not-the-dated-event",
+      "is_active": true,
+      "persona": "thanh",
+      "question_id": "thanh_q02",
+      "signal": 1.0,
+      "superseded": null
+    },
+    {
+      "current": "Government aquaculture inspection scheduled for February 15, 2025",
+      "entry_id": "lb_00115",
+      "entry_text": "User's farm is inspected for water quality, chemical use, and drainage.",
+      "exclusion_tag": "other:generic-not-the-dated-event",
+      "is_active": true,
+      "persona": "thanh",
+      "question_id": "thanh_q02",
+      "signal": 1.0,
+      "superseded": null
+    }
+  ],
+  "exclusions_by_tag": {
+    "decision-against": 2,
+    "historically-framed": 5,
+    "other:adjacent-topic-not-the-value": 1,
+    "other:asserts-completion-not-plan": 1,
+    "other:generic-not-the-dated-event": 3,
+    "other:unchanged-part-of-record": 1
+  },
+  "membership_member": 179,
+  "membership_total": 192,
+  "routing": {
+    "PRESENT-NEGATIVE": 104,
+    "UNRESOLVED": 18
+  },
+  "semantic_obligation": 48,
+  "semantic_total": 56
+}

@@ -1,0 +1,25 @@
+% ROBUST-TABLE (written by reviews/v23/tools/robust_tex.py from the artifacts named in its docstring; spliced at its marker by build_v23.py; do not edit by hand)
+\begin{table}[t]
+\caption{The checks we ran to break the lookup result, what each removes, and what happened. Short ground-truth lists do not establish robustness to longer store-written ones. In row 9 retraction and expiry do not move, since the list names neither. (Appendices~\ref{app:counterfactual} and~\ref{app:census})}
+\label{tab:robust}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{0.95}
+\begin{tabular}{@{}p{0.255\linewidth}p{0.19\linewidth}p{0.525\linewidth}@{}}
+\toprule
+What we tried to break & What it removes & What happened \\
+\midrule
+One question, three store versions & Question-wording leakage & A question-only reader scores $0.50$ by construction \\
+Random tokens for the names$^{p}$ & Name meaning, length kept & $0.65$; the real lookup is $0.13$ higher \\
+Sibling-name control & List length and counts & Lookup $0.95$, models $0.88$ to $0.97$, none reliably above the lookup \\
+Lifecycle totals permuted & The summary's two totals & No model moves by more than $0.01$, none reliably \\
+Count moved to a sibling version$^{p}$ & Where the count sits & Luna, Sol, Opus fall $0.28$ to $0.33$; mini, Haiku no reliable change \\
+Every count deleted & The counts & Mini and Haiku within $0.01$; Luna loses $0.06$, Opus $0.04$ \\
+Questions reworded, no shared word & Word overlap with names & Word lookup at $0.50$; embedding lookup loses $0.02$; mini, Haiku lose more \\
+Two other sentence encoders & The choice of encoder & Both within $0.01$ of the lookup \\
+List padded to 60 names & Short, clean lists & Lookup $0.92$ to $0.74$; mini, Haiku, Opus fall with it; Luna, Sol lose $0.06$ to $0.07$, lead it by $0.13$ to $0.14$ \\
+The store's own metadata (FR-Bank) & The ground-truth summary & Mini, Haiku, lookup: $0.73$, $0.82$, $0.75$ to $0.60$, $0.71$, $0.59$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,352 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 12,
+    "in": 12755,
+    "out": 4501,
+    "usd": 0.012303600000000001
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 5,
+  "persona": "dmitri",
+  "probes": [
+    {
+      "domain": "Personal Life / Social Events",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "close",
+        "last",
+        "party",
+        "you"
+      ],
+      "max_cosine": 0.2565,
+      "note": "",
+      "question": "What was the theme of the last birthday party you hosted for your close friends?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2565,
+          "entry_id": "lb_00462",
+          "text": "User is preparing a Shabbat dinner for their mother and wants it to be culturally authentic and well-presented."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2549,
+          "entry_id": "lb_00465",
+          "text": "User plans to ask their mother to bring the honey cake dessert to the Shabbat dinner."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2453,
+          "entry_id": "lb_00116",
+          "text": "User's presentation at CyberTech was highly discussed and well received, finishing early with extended Q&A."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2418,
+          "entry_id": "lb_00469",
+          "text": "User's mother will bring honey cake to the Shabbat dinner."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2271,
+          "entry_id": "lb_00458",
+          "text": "User is planning a Shabbat dinner for their mother on Friday and wants to prepare a proper meal with fresh challah and real food, avoiding takeout."
+        }
+      ],
+      "why_absent": "No attributes cover Dmitri's social event details or personal party themes."
+    },
+    {
+      "domain": "Personal Interests / Childhood",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "book",
+        "you"
+      ],
+      "max_cosine": 0.2896,
+      "note": "",
+      "question": "Can you describe your favorite childhood book or story that influenced you growing up?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2896,
+          "entry_id": "lb_00360",
+          "text": "User has a nostalgic memory of a specific winter day at age twelve in Moscow involving a quiet snowy morning, walking to the market with their mother, and the smell of soup in their apartment."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2668,
+          "entry_id": "lb_00368",
+          "text": "User has a strong nostalgic memory of a specific winter Saturday morning in Moscow with their mother, involving a snowy walk to the market and homemade soup."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2158,
+          "entry_id": "lb_00369",
+          "text": "User grew up in Moscow and left when they were fifteen"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2028,
+          "entry_id": "lb_00140",
+          "text": "User has eaten borscht made by their mother their entire life."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.1872,
+          "entry_id": "lb_00040",
+          "text": "User immigrated from Moscow to Israel at age 15 with their mother and learned to manage information carefully due to their immigrant experience."
+        }
+      ],
+      "why_absent": "No attributes mention Dmitri's favorite childhood books or literary influences."
+    },
+    {
+      "domain": "Transportation / Personal Vehicle",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "currently",
+        "like",
+        "most",
+        "type",
+        "you"
+      ],
+      "max_cosine": 0.2189,
+      "note": "",
+      "question": "What type of car do you currently drive and what features do you like most about it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2189,
+          "entry_id": "lb_00025",
+          "text": "User plans to order Sony WH-1000XM5 headphones for better focus and multipoint device connection"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2145,
+          "entry_id": "lb_00021",
+          "text": "User plans to buy Sony WH-1000XM5 headphones that connect to multiple devices simultaneously."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2141,
+          "entry_id": "lb_00176",
+          "text": "User prefers Cherry profile PBT keycaps that are plain dark with white legends, prioritizing functionality over aesthetics."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2008,
+          "entry_id": "lb_00422",
+          "text": "User understands and relates deeply to the feeling of constant operational awareness and lack of safety."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.195,
+          "entry_id": "lb_00179",
+          "text": "User prefers mechanical keyboards with hot-swap capability to avoid desoldering switches."
+        }
+      ],
+      "why_absent": "No attributes include information about Dmitri's personal vehicle or transportation preferences."
+    },
+    {
+      "domain": "Home / Lifestyle",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "home"
+      ],
+      "max_cosine": 0.3032,
+      "note": "",
+      "question": "What is your preferred style of home interior decoration and why?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3032,
+          "entry_id": "lb_00176",
+          "text": "User prefers Cherry profile PBT keycaps that are plain dark with white legends, prioritizing functionality over aesthetics."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2967,
+          "entry_id": "lb_00078",
+          "text": "User's home office is the second bedroom and is about 12 square meters in size"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.294,
+          "entry_id": "lb_00354",
+          "text": "User prefers a clean network separation with most devices wired."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2919,
+          "entry_id": "lb_00416",
+          "text": "User prefers a firm but neutral presentation style, letting data speak without editorializing."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2897,
+          "entry_id": "lb_00333",
+          "text": "User's home office is located in the back bedroom of a three-bedroom apartment."
+        }
+      ],
+      "why_absent": "No attributes cover Dmitri's home decoration style or interior design preferences."
+    },
+    {
+      "domain": "Hobbies / Cooking Education",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "cooking",
+        "you"
+      ],
+      "max_cosine": 0.3675,
+      "note": "",
+      "question": "Have you ever taken any cooking classes or workshops? If so, what cuisine did you focus on?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3675,
+          "entry_id": "lb_00463",
+          "text": "User can reliably cook eggs, pasta, and steak but is learning to cook traditional Shabbat dishes like roast chicken."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3031,
+          "entry_id": "lb_00459",
+          "text": "User plans to do a practice cooking run on Thursday before the Shabbat dinner on Friday to ensure the chicken dish is successful."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2908,
+          "entry_id": "lb_00460",
+          "text": "User can cook eggs, pasta, and steak reliably but not traditional Shabbat dinner dishes"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2844,
+          "entry_id": "lb_00472",
+          "text": "User can cook eggs, pasta, and steak reliably"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2838,
+          "entry_id": "lb_00149",
+          "text": "User attempts to reverse engineer mother's recipes for borscht and pelmeni using covert measurement and observation techniques."
+        }
+      ],
+      "why_absent": "While cooking skills are noted, there is no information about formal cooking education or classes."
+    },
+    {
+      "domain": "Travel / Leisure",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last",
+        "there",
+        "you"
+      ],
+      "max_cosine": 0.2731,
+      "note": "",
+      "question": "What was the last vacation destination you traveled to for leisure, and what activities did you enjoy there?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2731,
+          "entry_id": "lb_00269",
+          "text": "User attended a work conference in Tel Aviv."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2672,
+          "entry_id": "lb_00123",
+          "text": "User travels to conferences and client sites."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2637,
+          "entry_id": "lb_00398",
+          "text": "User plans to spend about a week every two months in Lisbon for client meetings and paperwork, with the rest of the work done remotely."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2485,
+          "entry_id": "lb_00271",
+          "text": "User attended a conference in Tel Aviv with Daria."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1994,
+          "entry_id": "lb_00195",
+          "text": "User prefers running outdoors on the Tel Aviv promenade because it provides mental benefits that a treadmill does not, such as feeling actual movement through space, wind, and sea."
+        }
+      ],
+      "why_absent": "No attributes mention Dmitri's leisure travel destinations or vacation activities."
+    },
+    {
+      "domain": "Personal Life / Pets",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "home",
+        "you"
+      ],
+      "max_cosine": 0.2403,
+      "note": "",
+      "question": "Do you have any pets at home? If yes, what kind and what are their names?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2403,
+          "entry_id": "lb_00348",
+          "text": "User lives in a roughly rectangular 90 square meter apartment with three bedrooms."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2398,
+          "entry_id": "lb_00301",
+          "text": "User has a home office."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2203,
+          "entry_id": "lb_00340",
+          "text": "User has a home office in the back bedroom of the new apartment."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.213,
+          "entry_id": "lb_00494",
+          "text": "User lives with other people whose well-being they consider important."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.206,
+          "entry_id": "lb_00078",
+          "text": "User's home office is the second bedroom and is about 12 square meters in size"
+        }
+      ],
+      "why_absent": "No attributes include any information about Dmitri's pets or animal companions."
+    }
+  ],
+  "threshold": 0.295
+}

@@ -1,0 +1,553 @@
+{
+ "units": [
+  "homes",
+  "swaps",
+  "s4",
+  "s51",
+  "s52",
+  "s53",
+  "s6",
+  "s7",
+  "s8",
+  "s12",
+  "rulings"
+ ],
+ "edits": [
+  {
+   "unit": "homes",
+   "file": "appendix",
+   "section": "A",
+   "old": "",
+   "new": "%% R133 (2026-09-21), the coverage notes: each dagger in the main text resolves to one item here (the author's brief, sections 4.1 and 4.3); the facts are\n%% those of tab:runs, tab:setup and the tables named, restated in one place.\n\\paragraph{Coverage notes for the daggers in the main text.}\nA dagger on a number in the main text marks a run setting that differs from its neighbours in the same sentence, or a comparison set that is incomplete; each resolves to one note here.\n(i) Section~\\ref{sec:names_counts}, the count-removal result for GPT-4.1 mini: the names-and-counts ablation ran on its one-call row at temperature $0$ (Table~\\ref{tab:cf-names-counts}); its five-draw row of Table~\\ref{tab:cf-main} was not rerun under the ablation.\n(ii) Section~\\ref{sec:names_counts}, the count-removal result for the stronger models: GPT-5.6 Luna at five draws through the raw API and Opus 5 at one draw; GPT-5.6 Sol was not run, dropped by the registration's budget rule (Table~\\ref{tab:cf-nc-strong}).\n(iii) Section~\\ref{sec:lookup}, the summary naming all states: GPT-4.1 mini, Haiku 4.5 and Opus 5 ran it; GPT-5.6 Luna and GPT-5.6 Sol ran the default summary only (Table~\\ref{tab:cf-matched}).\n(iv) Section~\\ref{sec:intent}, the intent crossover: GPT-4.1 mini, Opus 5 and GPT-5.6 Sol ran one draw and Haiku 4.5 and GPT-5.6 Luna five, the body reading their draw-1 column; Sol was added after an interim read of three models' rows (Table~\\ref{tab:cf-intent}).\n(v) Section~\\ref{sec:populations}, the full obligation set: Haiku 4.5, GPT-5.6 Luna and Opus 5 completed it; the GPT-5.6 Sol and Kimi K3 runs stopped at the budget and are not scored as sets (Table~\\ref{tab:x4-expansion}).\n\n",
+   "note": "section 4.1/4.3: the coverage notes; the facts of tab:runs, tab:setup, tab:cf-names-counts, tab:cf-nc-strong, tab:cf-matched, tab:cf-intent, tab:x4-expansion restated"
+  },
+  {
+   "unit": "homes",
+   "file": "appendix",
+   "section": "E.12",
+   "old": "Counterfactual NOK AUROC, lookup $0.77$ and models $0.72$ to $0.84$ (Section~\\ref{sec:counterfactual}, Table~\\ref{tab:cf-main})",
+   "new": "Counterfactual NOK AUROC, lookup $0.77$ and models $0.76$ to $0.85$ (Section~\\ref{sec:counterfactual}, Table~\\ref{tab:cf-main})",
+   "note": "section 4.4: the stale range (0.72 was mini's one-draw row; 0.84 omitted Sol's 0.85) corrected from r125_matched.json readers/*/gate through r133_number_gate.py"
+  },
+  {
+   "unit": "swaps",
+   "file": "abstract",
+   "section": "Abstract",
+   "old": "First, ablations show that the two smaller of five models rely on the attribute names alone, while the three stronger ones also use the state counts.",
+   "new": "First, ablations show that the two smaller of five models score the same with the state counts removed, while the three stronger ones also use them.",
+   "note": "S1"
+  },
+  {
+   "unit": "swaps",
+   "file": "abstract",
+   "section": "Abstract",
+   "old": "which the summary only counts; adding one count feature to the lookup closes it.\n",
+   "new": "which the summary only counts.\nAdding one count feature to the lookup closes that lead when a question's three store versions are compared with each other, but not when all items are pooled, where the models stay $0.05$ to $0.06$ ahead.\n",
+   "note": "S2 (0.05 to 0.06: AUX-CF2-HYB-VS-MODELS, each reliable)"
+  },
+  {
+   "unit": "swaps",
+   "file": "abstract",
+   "section": "Abstract",
+   "old": "Given only what FR-Bank, a backend that tags every entry with a lifecycle state, actually writes, GPT-4.1 mini and the lookup drop from $0.73$ and $0.75$ to $0.60$ and $0.59$ on our larger question set.\nIn these tests, what the store wrote down mattered more than which model read it.\n",
+   "new": "Given only what FR-Bank, a backend that tags every entry with a lifecycle state, actually writes, GPT-4.1 mini, Haiku 4.5 and the lookup drop from $0.73$, $0.82$ and $0.75$ to $0.60$, $0.71$ and $0.59$ on our larger question set.\nIn these tests, what the store wrote down limited every reader we gave it to.\n",
+   "note": "S3 (Haiku 0.82 / 0.71: AUX-R74-X4-H45-NOK, AUX-BH-H45-15; same population and conditions as mini's and the lookup's pair)"
+  },
+  {
+   "unit": "swaps",
+   "file": "body",
+   "section": "1",
+   "old": "In these tests, what the store writes down mattered more than which reader read it.\n",
+   "new": "In these tests, what the store wrote down limited every reader we gave it to.\n",
+   "note": "S4"
+  },
+  {
+   "unit": "swaps",
+   "file": "body",
+   "section": "1",
+   "old": "The two smaller models use only the names and three stronger models also use the counts;",
+   "new": "The two smaller models score the same with the counts removed and three stronger models also use the counts;",
+   "note": "S5"
+  },
+  {
+   "unit": "swaps",
+   "file": "body",
+   "section": "1",
+   "old": "and a lookup with one count feature matches the stronger models within triples.",
+   "new": "and a lookup with one count feature matches the stronger models within triples, though not on the pooled metric.",
+   "note": "S5"
+  },
+  {
+   "unit": "swaps",
+   "file": "body",
+   "section": "1",
+   "old": "Under FR-Bank's own metadata mini and the lookup fall to $0.60$ and $0.59$,",
+   "new": "Under FR-Bank's own metadata mini, Haiku and the lookup fall to $0.60$, $0.71$ and $0.59$,",
+   "note": "S5 (Haiku 0.71: AUX-BH-H45-15)"
+  },
+  {
+   "unit": "swaps",
+   "file": "body",
+   "section": "10",
+   "old": "In these tests, the information a store wrote down counted for more than the choice of reader. The smaller models read only the names; the stronger ones also read the counts, and a lookup given one count feature matches them within triples.",
+   "new": "In these tests, what a store wrote down limited every reader we gave it to. The smaller models score the same with the counts removed; the stronger ones also read the counts, and a lookup given one count feature matches them within triples, though not on the pooled metric.",
+   "note": "S6"
+  },
+  {
+   "unit": "swaps",
+   "file": "body",
+   "section": "5.1",
+   "old": "\\claim{The two smaller models read only the names.}",
+   "new": "\\claim{The two smaller models lose nothing when the counts are removed.}",
+   "note": "S7"
+  },
+  {
+   "unit": "swaps",
+   "file": "body",
+   "section": "5.2",
+   "old": "\\claim{The stronger models' lead comes from counts, and a count feature closes it.}",
+   "new": "\\claim{The stronger models' lead comes from counts, and a count feature closes it within a question.}",
+   "note": "S7"
+  },
+  {
+   "unit": "swaps",
+   "file": "body",
+   "section": "5.2",
+   "old": "\\claim{Naming all states lifts every reader.}",
+   "new": "\\claim{Naming all states lifts every reader that ran it.}",
+   "note": "S7"
+  },
+  {
+   "unit": "swaps",
+   "file": "body",
+   "section": "5.2",
+   "old": "scores $0.89$: reliably above the lookup and level with the three models.",
+   "new": "scores $0.89$, reliably above the lookup, beside the three models' $0.86$ to $0.88$; we ran no equivalence test.",
+   "note": "S7 (the three models' matched values 0.8784, 0.8581, 0.8750 beside the reader's 0.8851)"
+  },
+  {
+   "unit": "swaps",
+   "file": "body",
+   "section": "4",
+   "old": "A difference is \\emph{reliable} when both the item-level paired and persona-grouped bootstrap intervals exclude zero.",
+   "new": "A difference is \\emph{reliable} when both the item-level paired and persona-grouped bootstrap intervals exclude zero. We apply no multiplicity correction, so reliable describes each comparison on its own.",
+   "note": "S8"
+  },
+  {
+   "unit": "swaps",
+   "file": "body",
+   "section": "6 (Table 2)",
+   "old": "against ${\\sim}102$ in ground truth (about $58\\times$)",
+   "new": "against ${\\sim}102$ in the reference (about $58\\times$)",
+   "note": "S9"
+  },
+  {
+   "unit": "swaps",
+   "file": "body",
+   "section": "6 (Table 2)",
+   "old": "FR-Bank & Overstate &",
+   "new": "FR-Bank & Over-mark &",
+   "note": "S9"
+  },
+  {
+   "unit": "swaps",
+   "file": "body",
+   "section": "6 (Table 2)",
+   "old": "Mem0 & Erase &",
+   "new": "Mem0 & Overwrite &",
+   "note": "S9"
+  },
+  {
+   "unit": "swaps",
+   "file": "body",
+   "section": "6 (Table 2)",
+   "old": "A-MEM & Invent &",
+   "new": "A-MEM & Unresolved links &",
+   "note": "S9"
+  },
+  {
+   "unit": "swaps",
+   "file": "appendix",
+   "section": "E.9",
+   "old": "carries the census behind the overstate, erase and invent reading.",
+   "new": "carries the census behind the over-mark, overwrite and unresolved-links reading.",
+   "note": "S9"
+  },
+  {
+   "unit": "swaps",
+   "file": "appendix",
+   "section": "E.9",
+   "old": "so the erase reading is of the record as exposed",
+   "new": "so the overwrite reading is of the record as exposed",
+   "note": "S9"
+  },
+  {
+   "unit": "swaps",
+   "file": "appendix",
+   "section": "E.9",
+   "old": "The failure mode is erasure with overstatement in what survives,",
+   "new": "The failure mode is loss of content with over-marking in what survives,",
+   "note": "S9 (the Graphiti sentence's descriptive use of the old labels; listed for a ruling)"
+  },
+  {
+   "unit": "swaps",
+   "file": "body",
+   "section": "5.3",
+   "old": "Those models score the change question higher, consistent with a scored step that asks whether stale content exists.",
+   "new": "Those models score the change question higher. The main-study rubric's scored step asks whether stale content is present, which is not the intent-conditional target of Definition~\\ref{def:coverage}; the explicit-intent rubric asks the defined question.",
+   "note": "S10"
+  },
+  {
+   "unit": "swaps",
+   "file": "appendix",
+   "section": "E.5",
+   "old": "(the artifact's R108 ledger)",
+   "new": "(the artifact's mechanism-score ledger)",
+   "note": "S11"
+  },
+  {
+   "unit": "swaps",
+   "file": "appendix",
+   "section": "F",
+   "old": "five recorded deviations (D-CF2-1 to D-CF2-5)",
+   "new": "five recorded deviations",
+   "note": "S11"
+  },
+  {
+   "unit": "swaps",
+   "file": "appendix",
+   "section": "F",
+   "old": "one prediction unfulfillable by its own gate (D-DS-3)",
+   "new": "one prediction unfulfillable by its own gate, recorded as a deviation",
+   "note": "S11"
+  },
+  {
+   "unit": "s4",
+   "file": "body",
+   "section": "4",
+   "old": "The models are GPT-4.1 mini, Haiku 4.5, GPT-5.6 Luna, GPT-5.6 Sol and Opus 5, abbreviated mini, Haiku, Luna, Sol and Opus in that order. Kimi K3 (open weights) joins the smaller comparison shared across vendors. Mini supplies the main study's single-call rows. Haiku, Luna and Opus use repeated calls on the full populations; Sol also runs the counterfactual test through the raw API. Every model row in Table~\\ref{tab:cf-main} averages five draws; its lookup and count readers are deterministic. Luna's and Sol's shared cross-vendor rows are obtained through the vendor's agent tool. Sol and Kimi stop at the budget on the full populations. Run coverage and call counts are in Appendix~\\ref{app:laddertable}.",
+   "new": "The models are GPT-4.1 mini, Haiku 4.5, GPT-5.6 Luna, GPT-5.6 Sol and Opus 5, abbreviated mini, Haiku, Luna, Sol and Opus in that order, and Kimi K3 (open weights) joins the cross-vendor comparison. Every model row in Table~\\ref{tab:cf-main} averages five draws. Not every reader ran every condition, and run settings differ across rows; Appendix~\\ref{app:laddertable} lists both, and a dagger marks a number in the text that has a coverage note there.",
+   "note": "section 4.2: the five models and their short names; Kimi K3 (open weights); the five-draw sentence; the one coverage sentence. H03 to H09 leave (tab:runs; the coverage notes)"
+  },
+  {
+   "unit": "s4",
+   "file": "body",
+   "section": "4",
+   "old": "The personas, their human-written manifests and sessions, the FR-Bank, Mem0 and A-MEM stores and part of the main question set come from the FR-Bank release \\citep{fr}. Language models drafted our other questions, and we built the Graphiti graphs from the released FR-Bank records, with lifecycle fields removed. (Appendix~\\ref{app:construction}) Those manifests provide the labels, with every \\pn{} label checked by hand. Intent is fixed by question construction and is not supplied as a label to the reader. A presence control checks that targets are stored; at the observed base rate, an \\absent{} claim still has a $5.2\\%$ chance of being wrong. (Appendix~\\ref{app:construction})",
+   "new": "The personas, their human-written manifests and sessions, the FR-Bank, Mem0 and A-MEM stores and part of the main question set come from the FR-Bank release \\citep{fr}. Language models drafted our other questions, and we built the Graphiti graphs from the released FR-Bank records, with lifecycle fields removed. Those manifests provide the labels, with every \\pn{} label checked by hand, and a presence control checks that targets are stored. Intent is fixed by question construction and is not supplied as a label to the reader. (Appendix~\\ref{app:construction})",
+   "note": "the provenance sentences verbatim (R131 A1'); H12 (the 5.2% residual) leaves for Appendix E.3, where it is stated; one pointer"
+  },
+  {
+   "unit": "s4",
+   "file": "body",
+   "section": "4",
+   "old": "A \\emph{ground-truth summary} uses the manifest-based ground truth; a \\emph{store-written summary} uses fields the backend exposes. The same renderer caps each list at fifteen names. This cap never binds on the ground-truth lists, but can bind on store-written lists, which we evaluate both capped and uncapped. For Mem0 and A-MEM, we also render the manifest subject to each backend's constraints. This constrained rendering differs from a summary built from their own fields. (Appendix~\\ref{app:inversion})",
+   "new": "A \\emph{ground-truth summary} uses the manifest-based ground truth; a \\emph{store-written summary} uses fields the backend exposes. The same renderer caps each list at fifteen names, a cap that binds only on store-written lists, which Section~\\ref{sec:backends} reports capped and uncapped. For Mem0 and A-MEM we also render the manifest under each backend's constraints; this constrained rendering is ours and differs from a summary built from their own fields. (Appendix~\\ref{app:inversion})",
+   "note": "H13 in one sentence (section 3.1); H14 kept, 'is ours' said"
+  },
+  {
+   "unit": "s4",
+   "file": "body",
+   "section": "4",
+   "old": "The \\emph{counterfactual set} asks each of its questions of three versions of one store. It contains $444$ items from $148$ questions, and the versions differ only in the target attribute. Questions are written before any version exists, so wording cannot predict which version carries the obligation. Figure~\\ref{fig:example} shows the Carnival example.",
+   "new": "The \\emph{counterfactual set} asks each of its questions of three versions of one store. It contains $444$ items from $148$ questions, and the versions differ only in the target attribute. Questions are written before any version exists, so wording cannot predict which version carries the obligation; Figure~\\ref{fig:example} shows the Carnival example. The \\emph{full obligation set}, $661$ questions about the original stores and their variants, supports the backend and retrieval comparisons.",
+   "note": "the two population paragraphs joined; words unchanged but for the join"
+  },
+  {
+   "unit": "s4",
+   "file": "body",
+   "section": "4",
+   "old": "The \\emph{full obligation set} supports the backend and retrieval comparisons. It contains $661$ questions about the original stores and their variants.",
+   "new": "",
+   "note": "joined into the paragraph above"
+  },
+  {
+   "unit": "s4",
+   "file": "body",
+   "section": "4",
+   "old": "Readers return probabilities under a fixed rubric. A \\emph{question-only} prompt omits the summary; a prompt \\emph{with the summary} adds only that text. The \\emph{name lookup} scores the largest cosine similarity between the question and a name on the superseded list, using the sentence encoder \\texttt{all-MiniLM-L6-v2}. It makes no generative-model call. Under the summary naming all states, the same lookup reads all non-active names. (Appendix~\\ref{app:baselines})",
+   "new": "Readers return probabilities under a fixed rubric. A \\emph{question-only} prompt omits the summary; a prompt \\emph{with the summary} adds only that text. The \\emph{name lookup} scores the largest cosine similarity between the question and a name on the superseded list, computed by a small sentence encoder, and makes no generative-model call. Under the summary naming all states, the same lookup reads all non-active names. (Appendix~\\ref{app:baselines})",
+   "note": "H16: the encoder's name leaves for Appendix C.2 (tab:enc-lookup) and F, where it is stated"
+  },
+  {
+   "unit": "s4",
+   "file": "body",
+   "section": "4",
+   "old": "We score separation by AUROC, the chance that a positive scores above a negative \\citep{hanley1982}. Chance is $0.50$. The metric fixed in advance pools all items. Because the counterfactual set fixes the question, we also report the matched AUROC: the share of triples in which the \\pn{} version outscores the \\present{} version, ties counting half. It is post hoc, and we say where the two metrics disagree. A difference is \\emph{reliable} when both the item-level paired and persona-grouped bootstrap intervals exclude zero. We apply no multiplicity correction, so reliable describes each comparison on its own. \\emph{Within tolerance} means an absolute difference no greater than $0.05$. A gain compares the same questions with and without the summary.",
+   "new": "We score separation by AUROC, the chance that a positive scores above a negative \\citep{hanley1982}. Chance is $0.50$. The pooled AUROC over all items was fixed in advance. Because the counterfactual set fixes the question, we also report the matched AUROC, the share of triples in which the \\pn{} version outscores the \\present{} version, ties counting half. It is post hoc, and we say where the two metrics disagree. A difference is \\emph{reliable} when both the item-level paired and persona-grouped bootstrap intervals exclude zero. We apply no multiplicity correction, so reliable describes each comparison on its own. \\emph{Within tolerance} means an absolute difference no greater than $0.05$. A gain compares the same questions with and without the summary.",
+   "note": "section 6.6: the gate-forced 'The metric fixed in advance pools all items.' undone to 'The pooled AUROC over all items was fixed in advance.' (rule V bars 'preregistered'; 'fixed in advance' is not barred); S8 kept"
+  },
+  {
+   "unit": "s51",
+   "file": "body",
+   "section": "5.1",
+   "old": "\\claim{Within a triple, a name or a count can identify the obligation.}\nOn the counterfactual set the \\pn{} version differs from its siblings in one attribute, so its category always holds one more non-active record.\nA count reader handed the question's category wins every retraction and expiry triple (a privileged reader: the models must infer the category), and the name lookup wins $82$ of the $88$ supersession triples and loses none.\nFor $26$ of $30$ retraction pairs and $15$ of $30$ expiry pairs that count starts at zero, so a reader can identify the store version without identifying the attribute.\nWhat differs across readers is which of the two they use. (Appendix~\\ref{app:counterfactual})",
+   "new": "\\claim{Within a triple, a name or a count can identify the obligation.}\nThe \\pn{} version differs from its siblings in one attribute, so its category holds one more non-active record. A privileged count reader, handed the question's category that the models must infer, wins every retraction and expiry triple, and the name lookup wins $82$ of the $88$ supersession triples and loses none. For $26$ of $30$ retraction pairs and $15$ of $30$ expiry pairs that count starts at zero, so a reader can identify the store version without identifying the attribute. What differs across readers is which of the two they use.",
+   "note": "the 36-word sentence split; H25 kept as 'a privileged count reader'; the pointer moves to the subsection's end"
+  },
+  {
+   "unit": "s51",
+   "file": "body",
+   "section": "5.1",
+   "old": "\\claim{The two smaller models lose nothing when the counts are removed.}\nRemoving every count leaves mini and Haiku within $0.01$ of their intact-summary scores on either metric (mini on its single-call row).\nCounts alone score reliably below names alone, by $0.14$ for each model on the matched metric ($0.12$ and $0.16$ pooled), and the whole loss falls on supersession, where the names are.\nOn retraction and expiry both models stay reliably below a count reader that only guesses the question's category ($0.77$ and $0.75$). (Appendix~\\ref{app:counterfactual}; target-name ablation: Appendix~\\ref{app:resp})",
+   "new": "\\claim{The two smaller models lose nothing when the counts are removed.}\nWith every count deleted, mini$^{\\dagger}$ and Haiku stay within $0.01$ of their intact-summary scores; given the counts alone, they fall by $0.14$. Told that one more plan was cancelled without being told which, they cannot use it: on retraction and expiry both stay reliably below a count reader that merely guesses the category.",
+   "note": "the brief's worked example (section 7), 'but not which' reworded for slogan_scan S9; H28 (mini's single-call row) to the dagger's note (i); H29 (the pooled 0.12 and 0.16) and H30 (the count reader's 0.77 and 0.75) to tab:cf-names-counts and tab:cf-matched"
+  },
+  {
+   "unit": "s51",
+   "file": "body",
+   "section": "5.1",
+   "old": "\\claim{The three stronger models also read the counts.}\nOn retraction and expiry, which the default summary only counts, Luna, Sol and Opus score $0.58$ to $0.87$ on the matched metric, and none is reliably below the guessing count reader.\nWhen the obligation's increment is moved to a sibling version with the names unchanged, all three follow it. Across the two counted states Opus falls by $0.28$ and Sol by $0.33$, and Luna falls by $0.32$ on retraction and $0.27$ on expiry, each reliable; mini and Haiku show no reliable change.\nOn the pooled metric the expiry falls are reliable for all three and the retraction falls for Opus alone.\nRemoving every count costs Luna a reliable $0.06$ and Opus $0.04$ on the pooled metric, though counts alone still score reliably below names alone for both; Sol was not run. (Appendix~\\ref{app:counterfactual})",
+   "new": "\\claim{The three stronger models also read the counts.}\nOn retraction and expiry, which the default summary only counts, none of Luna, Sol and Opus sits reliably below the guessing count reader (Figure~\\ref{fig:perstate}). When the obligation's extra count moves to a sibling version with the names unchanged, all three follow it, falling by $0.27$ to $0.33$ on the counted states, while mini and Haiku show no reliable change. The falls are reliable on the matched metric and, pooled, on expiry for all three and on retraction for Opus alone. Removing every count costs Luna $0.06$ and Opus $0.04^{\\dagger}$ on the pooled metric, and the counts alone still score below the names alone for both; all four differences are reliable. Cancelling the hike changes only a count in the default summary, and these three readers follow it. (Appendix~\\ref{app:counterfactual})",
+   "note": "the per-state matched values (0.58 to 0.87) are Figure 3's; the four moved-count falls as one range; H37 (Sol not run) to the dagger's note (ii); the hike carried"
+  },
+  {
+   "unit": "s52",
+   "file": "body",
+   "section": "5.2",
+   "old": "\\claim{On the named state, no model reliably beats the lookup.}\nThe default summary names only supersession.\nOn its $88$ triples the lookup scores $0.97$ on the matched metric; Opus is $0.01$ above it, Luna and Sol $0.01$ below, and mini reliably below by $0.07$.\nA sibling-name control removes list length and counts from the comparison: a fourth store version lists a different attribute of the same category, with the same counts and the same number of names.\nThe lookup and every model separate the \\pn{} version from it at $0.88$ to $0.97$, none reliably above the lookup, while a list of meaningless tokens and the count reader fall to $0.47$ and $0.50$. (Appendix~\\ref{app:counterfactual})",
+   "new": "\\claim{On the named state, no model reliably beats the lookup.}\nReaders are compared within each triple on the matched metric, the pooled metric named where the two disagree. The default summary names only supersession; on its triples the lookup scores $0.97$, Opus is $0.01$ above it, Luna and Sol $0.01$ below, and only mini reliably below. A sibling-name control removes list length and counts with a fourth store version listing a different attribute of the same category, with the same counts and as many names. The lookup and every model pick the \\pn{} version over it at $0.88$ or higher, none reliably above the lookup, while meaningless tokens and the count reader sit near chance.",
+   "note": "section 6.5: the pooled and matched split stated once at the top; H41 (0.47 and 0.50) to tab:cf-sibling; mini's 0.07 left (the reliability is the point)"
+  },
+  {
+   "unit": "s52",
+   "file": "body",
+   "section": "5.2",
+   "old": "\\claim{The stronger models' lead comes from counts, and a count feature closes it within a question.}\nAcross all $148$ triples the lookup and Haiku score $0.78$ and mini $0.73$. Luna, Sol and Opus score $0.86$ to $0.88$, a reliable $0.08$ to $0.10$ above the lookup ($0.07$ to $0.08$ pooled), all of it from retraction and expiry, where the lookup ties every triple.\nA logistic reader over the lookup's similarity and the guessed category's non-active share, fit with personas left out, scores $0.89$, reliably above the lookup, beside the three models' $0.86$ to $0.88$; we ran no equivalence test.\nOn the pooled metric the same reader scores $0.79$ and the three stay a reliable $0.05$ to $0.06$ above it. Their remaining edge is in pairs that cross questions and states, where their scores stay comparable and the fitted reader's do not. (Appendix~\\ref{app:counterfactual})",
+   "new": "\\claim{The stronger models' lead comes from counts, and a count feature closes it within a question.}\nAcross all $148$ triples Luna, Sol and Opus score a reliable $0.08$ to $0.10$ above the lookup. All of that comes from retraction and expiry, where the summary lists no name and the lookup ties every triple. It cannot tell the cancelled hike from the planned one. A lookup given one more feature, the guessed category's share of non-active records, scores $0.89$ beside the three models' $0.86$ to $0.88$; we ran no equivalence test. Pooled across questions the gap remains: the same reader scores $0.79$ and the models stay a reliable $0.05$ to $0.06$ above it (Table~\\ref{tab:cf-main}). Their scores stay comparable from one question to the next and the fitted reader's do not.",
+   "note": "the brief's worked example (section 7), its two long sentences split at 35 words; H42 (0.07 to 0.08 pooled) to tab:counterfactual; H44 (fit with personas left out) to Table 1's note b; the hike carried"
+  },
+  {
+   "unit": "s52",
+   "file": "body",
+   "section": "5.2",
+   "old": "\\claim{Naming all states lifts every reader that ran it.}\nWith the retracted and expired attributes listed too, the lookup scores $0.91$, Haiku gains a reliable $0.35$ on the two states that were only counted, and Opus reaches $0.94$.\nOpus's $0.03$ lead over that lookup is reliable on the pooled metric and not on the matched one, so with every state named no model is reliably ahead on both.\nLuna and Sol did not run this summary. (Appendix~\\ref{app:counterfactual})",
+   "new": "\\claim{Naming all states lifts every reader that ran it.}\nWith the retracted and expired attributes listed too, every reader that ran the summary rises (Table~\\ref{tab:cf-main}), Haiku by a reliable $0.35^{\\dagger}$ on the two states that were only counted. Opus's $0.03$ lead over the all-states lookup is reliable on the pooled metric and not on the matched one, so with every state named no model is reliably ahead on both.",
+   "note": "0.91 and 0.94 are Table 1's; H50 (Luna and Sol did not run) to the dagger's note (iii) and the lead's 'that ran it'"
+  },
+  {
+   "unit": "s52",
+   "file": "body",
+   "section": "5.2",
+   "old": "\\claim{List length and coverage lift both metrics.}\nA reader that only knows whether the store covers the question scores $0.75$ pooled and $0.50$ matched.\nThe name lookup stays a reliable $0.13$ above a lookup over meaningless tokens on the matched metric. (Appendix~\\ref{app:counterfactual})",
+   "new": "\\claim{List length and coverage lift both metrics.}\nA reader that only knows whether the store covers the question ties every triple and still scores $0.75$ pooled, and the name lookup stays a reliable $0.13$ above a lookup over meaningless tokens within triples.",
+   "note": "'0.50 matched' said as 'ties every triple' (0/148/0); one sentence"
+  },
+  {
+   "unit": "s52",
+   "file": "body",
+   "section": "5.2",
+   "old": "\\claim{Long or wrong name lists weaken the readers together.}\nPadding the default list to $60$ names lowers the lookup to $0.67$ on the full obligation set, and injected wrong names lower mini, Haiku and the lookup together, so short ground-truth lists do not establish robustness to longer store-written ones. (Appendix~\\ref{app:counterfactual})",
+   "new": "\\claim{Long or wrong name lists weaken the readers together.}\nPadding the default list to $60$ names lowers the lookup to $0.67$ on the full obligation set, and injected wrong names lower mini, Haiku and the lookup together. Short ground-truth lists therefore do not establish robustness to longer store-written ones. (Appendix~\\ref{app:counterfactual})",
+   "note": "the 40-word sentence split; one pointer at the subsection's end"
+  },
+  {
+   "unit": "s53",
+   "file": "body",
+   "section": "5.3",
+   "old": "\\claim{The stated intent rule separates the readers.}\nThe supersession crossover holds the store fixed and changes the question from current value to change, using the default summary.\nThe change question licenses the old content.\nWhen the rubric states that rule, Luna scores $0.96$, Sol $0.88$ and Opus $0.99$. (Appendix~\\ref{app:counterfactual})",
+   "new": "\\claim{The stated intent rule separates the stronger readers.}\nThe supersession crossover holds the store fixed and changes the question from the current value to how it changed, using the default summary; the change question licenses the old content. When the rubric states that rule, Luna, Sol and Opus score $0.88$ to $0.99^{\\dagger}$, while mini and Haiku, told the same rule, score $0.48$ and $0.55$. A fixed cue list matches the best model, so the test shows rule-following on cued questions and no general model advantage over deterministic intent handling.",
+   "note": "the first two paragraphs joined (the lead scoped to the stronger readers); the cue list's 0.99 is tab:cf-intent's; H61 to the dagger's note (iv)"
+  },
+  {
+   "unit": "s53",
+   "file": "body",
+   "section": "5.3",
+   "old": "\\claim{Mini and Haiku struggle even when told the rule.}\nUnder that explicit rubric, mini scores $0.48$ and Haiku $0.55$.\nA fixed cue list scores $0.99$, matching the best model.\nThe test demonstrates following an explicit rule on cued questions; it establishes no general model advantage over deterministic intent handling. (Appendix~\\ref{app:counterfactual})",
+   "new": "",
+   "note": "joined into the paragraph above"
+  },
+  {
+   "unit": "s53",
+   "file": "body",
+   "section": "5.3",
+   "old": "\\claim{Only Opus lowers its judgment without being told.}\nUnder the main-study rubric, mini, Haiku, Luna and Sol score $0.35$ to $0.44$, against Opus's $0.90$.\nThose models score the change question higher. The main-study rubric's scored step asks whether stale content is present, which is not the intent-conditional target of Definition~\\ref{def:coverage}; the explicit-intent rubric asks the defined question.\nOpus's behaviour under this underspecified prompt differs from compliance with the explicit rule. (Appendix~\\ref{app:counterfactual})",
+   "new": "\\claim{Only Opus lowers its judgment without being told.}\nUnder the main-study rubric, mini, Haiku, Luna and Sol score $0.35$ to $0.44$ on the same contrast, against Opus's $0.90$. Those models score the change question higher. The main-study rubric's scored step asks whether stale content is present, which is not the intent-conditional target of Definition~\\ref{def:coverage}; the explicit-intent rubric asks the defined question. Opus's behaviour under this underspecified prompt differs from compliance with the explicit rule.",
+   "note": "S10 kept verbatim"
+  },
+  {
+   "unit": "s53",
+   "file": "body",
+   "section": "5.3",
+   "old": "\\claim{The explicit rule also separates readers on expired events.}\nThe expiry crossover uses the summary naming all states; its past-event question licenses the record forbidden by the upcoming-event question.\nUnder the explicit rule, Luna scores $0.98$, Sol $0.92$ and Opus $1.00$; mini and Haiku do not separate the intents.\nSol also separates expiry intents under the main-study rubric, scoring $0.64$. (Appendix~\\ref{app:counterfactual})",
+   "new": "\\claim{The explicit rule also separates readers on expired events.}\nThe expiry crossover uses the summary naming all states; its past-event question licenses the record forbidden by the upcoming-event question. Under the explicit rule Luna, Sol and Opus score $0.92$ to $1.00$ and mini and Haiku do not separate the intents; Sol also separates them under the main-study rubric, at $0.64$. (Appendix~\\ref{app:counterfactual})",
+   "note": "three values as one range; one pointer at the subsection's end"
+  },
+  {
+   "unit": "s6",
+   "file": "body",
+   "section": "6",
+   "old": "\\claim{Backends omit or misstate the lifecycle information readers need.}\nFR-Bank marks about $58$ times as many entries stale as ground truth, yet retains obsolete assertions as active and conflates retraction with supersession.\nMem0 overwrites at the retrieval surface we evaluated, and A-MEM's links resolve to no note in our integration (Table~\\ref{tab:census}). (Appendix~\\ref{app:census})",
+   "new": "\\claim{Backends omit or misstate the lifecycle information readers need.}\nFR-Bank marks far more entries stale than the reference does, yet retains obsolete assertions as active and conflates retraction with supersession. Mem0 overwrites at the retrieval surface we evaluated, and A-MEM's links resolve to no note in our integration (Table~\\ref{tab:census}).",
+   "note": "'about 58 times' is Table 2's; the pointer moves to the FR-Bank paragraph"
+  },
+  {
+   "unit": "s6",
+   "file": "body",
+   "section": "6",
+   "old": "\\claim{FR-Bank's metadata leave mini and the lookup near chance.}\nOn the full obligation set, its capped store-written summary leaves mini at $0.60$, Haiku at $0.71$ and the lookup at $0.59$.\nRemoving the rendering cap raises their scores without restoring their ground-truth results.\n%% R131 F (2026-09-20): the author's two sentences (R125 Task 3, AUX-CF2-R125-T3-FRBANK: on the 82 join-marked, capped minus ground truth mini -0.1274, Haiku -0.1258, the lookup -0.2027, each reliable); the name-survival clause is in Appendix E.9 (AUX-BH-SPLIT).\nHaiku retains more of its gain than mini does. The loss is not an artifact of the obligations the alignment misses: on the $82$ it marks, the capped summary still costs mini $0.13$, Haiku $0.13$ and the lookup $0.20$, each reliable. (Appendix~\\ref{app:census})",
+   "new": "\\claim{FR-Bank's metadata leave mini and the lookup near chance.}\nGiven only what the store wrote, its capped summary on the full obligation set leaves mini at $0.60$ and the lookup at $0.59$. Haiku, at $0.71$, keeps more of its gain. Lifting the cap raises all three without restoring their ground-truth scores. The loss is no artifact of the obligations the alignment misses: on the ones it marks, the capped summary still costs each reader a reliable $0.13$ to $0.20$. The cancelled hike is only as findable as the store's own marks make it. (Appendix~\\ref{app:census})",
+   "note": "H66, H67 kept; the three costs as one range and the 82 left to tab:levels-strata; the hike carried"
+  },
+  {
+   "unit": "s6",
+   "file": "body",
+   "section": "6",
+   "old": "\\claim{Graphiti writes part of what the judgment needs, and part of its loss is extraction.}\nIts invalidation marks $13$ of the $34$ full-store obligations it could express, and $11$ of the $34$ were never extracted into the graph; retraction is inexpressible under this backend's mapping.\nWith its capped store-written summary mini scores $0.58$ over all $47$ obligations, against $0.74$ under ground truth, and the store's own name lookup scores $0.68$, a reliable $0.10$ above mini.\nOn the $23$ obligations whose content the graph retains, mini scores $0.69$ against $0.84$ under ground truth, still a reliable loss. (Appendix~\\ref{app:posthoc-graphiti})",
+   "new": "\\claim{Graphiti writes part of what the judgment needs, and part of its loss is extraction.}\nOf the $34$ full-store obligations it could express, its invalidation marks $13$, and $11$ were never extracted into the graph. Retraction is inexpressible under this backend's mapping. On the $23$ obligations whose content the graph retains, mini's capped store-written score of $0.69$ against $0.84$ under ground truth is still a reliable loss. (Appendix~\\ref{app:posthoc-graphiti})",
+   "note": "H68 and H70 kept; H69 (all 47: 0.58 against 0.74; the store's lookup 0.68) to Appendix G.4"
+  },
+  {
+   "unit": "s6",
+   "file": "body",
+   "section": "6",
+   "old": "\\claim{Mem0 and A-MEM lose coverage when their summaries lose names.}\nOn their coverage questions, the constrained summary reliably costs mini $0.10$ on Mem0 and $0.11$ on A-MEM.\nOn questions pooled across them, Luna and Sol also lose reliably; Table~\\ref{tab:census} gives their losses.\n%% R126 (2026-09-19), Phase 2.3: the four U5 conditions in this paragraph (AUX-MARKER-*: the marker omitted or reworded; GPT-5.6 Luna 0.27 to 0.34 under every rendering).\nOmitting or rewording the unavailable-field marker does not remove the Mem0 loss, and Luna loses $0.27$ to $0.34$ under every rendering tested through the raw API.\nScores collapse onto a few low values, with positives slightly below negatives, and the trigger remains unresolved.\nStore-written summaries remain within tolerance of question only.\nRebuilding name-bearing summaries from ground truth restores mini's coverage to $0.88$ on Mem0 and $0.90$ on A-MEM. (Appendix~\\ref{app:inversion})",
+   "new": "\\claim{Mem0 and A-MEM lose coverage when their summaries lose names.}\nUnder the constrained rendering mini loses coverage on both stores and Luna and Sol lose on the questions pooled across them, each loss reliable (Table~\\ref{tab:census}). Omitting or rewording the unavailable-field marker does not remove the Mem0 loss, and Luna loses $0.27$ to $0.34$ under every rendering tested through the raw API. Scores collapse onto a few low values, with positives slightly below negatives, and the trigger remains unresolved. Store-written summaries remain within tolerance of question only, and rebuilding name-bearing summaries from ground truth restores mini's coverage on both stores (Table~\\ref{tab:census}). (Appendix~\\ref{app:inversion})",
+   "note": "H71 and H75 (Table 2's 0.10, 0.11, 0.88, 0.90) not repeated; H73 (U5 and its four conditions) verbatim"
+  },
+  {
+   "unit": "s7",
+   "file": "body",
+   "section": "7",
+   "old": "\\claim{The tagged view complements the summary for mini.}\nOn the full obligation set, FR-Bank's cosine search returns records without a lifecycle mask.\nMini scores $0.73$ with the default summary, $0.69$ with the retrieved records and their ground-truth tags, and a reliable $0.83$ with both.\nThe two routes mirror each other by state: against the summary alone, the view gains mini $0.24$ on expiry and costs it $0.17$ on supersession, both reliable.\nHaiku's score with both stays within tolerance of its summary alone. (Appendix~\\ref{app:resp})",
+   "new": "\\claim{The tagged view complements the summary for mini.}\nFR-Bank's cosine search returns records without a lifecycle mask on the full obligation set. Mini scores $0.73$ with the default summary, $0.69$ with the retrieved records and their ground-truth tags, and $0.83$ with both, a reliable gain over the summary alone. The two routes mirror each other by state: the view helps mini on expiry, where the summary only counts, and hurts it on supersession, where the summary names, both effects reliable. Haiku's score with both stays within tolerance of its summary alone.",
+   "note": "the per-state magnitudes (0.24, 0.17) leave the prose; they have no appendix row (AUX-RESP-L2-MINI-NOK), listed in the report"
+  },
+  {
+   "unit": "s7",
+   "file": "body",
+   "section": "7",
+   "old": "\\claim{FR-Bank's own tags help mini despite over-marking.}\nIts view-only score rises reliably from $0.69$ to $0.81$ with native tags, whose precision over retrieved lines is $0.14$, because they mark more of the forbidding records already in view. A reader that merely counts tagged lines scores $0.62$ under either tag source.\nOn Graphiti, native tags on the same retrieved edges bring no reliable improvement. (Appendix~\\ref{app:posthoc-graphiti})",
+   "new": "\\claim{FR-Bank's own tags help mini despite over-marking.}\nWith the store's native tags in place of the ground-truth ones, mini's view-only score rises reliably to $0.81$. Their precision over retrieved lines is only $0.14$, and the rise comes from their marking more of the forbidding records already in view. A reader that merely counts tagged lines scores $0.62$ under either tag source. On Graphiti, native tags on the same retrieved edges bring no reliable improvement. (Appendix~\\ref{app:posthoc-graphiti})",
+   "note": "0.69 said once (the paragraph above); H78, H79, H80 kept"
+  },
+  {
+   "unit": "s7",
+   "file": "body",
+   "section": "7",
+   "old": "\\claim{The lifecycle fetch supplies the added reach, gated or not.}\nThe fetch adds non-active records for an attribute matched to the default name list.\nReach rises from $0.52$ to $0.82$: the always-on fetch reaches as far as the model-gated fetch at the matched budget.\nThe name-lookup rule reaches the same level (Table~\\ref{tab:reach}).\n(Appendix~\\ref{app:resp})",
+   "new": "\\claim{The lifecycle fetch supplies the added reach, gated or not.}\nThe fetch adds the store's non-active records for an attribute matched to the default name list. It raises reach from $0.52$ to $0.82$, the always-on fetch reaching as far as the model-gated one at the matched budget, and the name-lookup rule reaches the same level (Table~\\ref{tab:reach}).",
+   "note": "joined; the pointer moves to the section's end"
+  },
+  {
+   "unit": "s7",
+   "file": "body",
+   "section": "7",
+   "old": "\\claim{Gating trades budget against licensed-record reach.}\nUnmatched, the always-on fetch spends $1.20$ times the lines per question; truncated to the gated budget it loses licensed records, a reliable $0.04$. (Appendix~\\ref{app:resp})",
+   "new": "\\claim{Gating trades budget against licensed-record reach.}\nUnmatched, the always-on fetch spends $1.20$ times the lines per question; truncated to the gated budget it loses licensed records, a reliable $0.04$.",
+   "note": "the author's paragraph (R131 H1); the pointer moves to the section's end"
+  },
+  {
+   "unit": "s7",
+   "file": "body",
+   "section": "7",
+   "old": "\\claim{Keeping the newest record misses every tested retraction obligation.}\nAt the matched budget, newest-per-attribute retrieval reaches $0.23$ of forbidding records overall and zero of $26$ retraction obligations.\nThe cancellation is not the newest record of the attribute it cancels. (Appendix~\\ref{app:resp})",
+   "new": "\\claim{Keeping the newest record misses every tested retraction obligation.}\nAt the matched budget, newest-per-attribute retrieval reaches none of the $26$ retraction obligations (Table~\\ref{tab:reach}). The cancelled hike shows why: its cancellation is not the newest record of the attribute it cancels.",
+   "note": "0.23 is Table 3's; the hike carried"
+  },
+  {
+   "unit": "s7",
+   "file": "body",
+   "section": "7",
+   "old": "\\claim{Active copies complicate the use of tagged records.}\nAmong $89$ scorable obligation views, $35$ contain an active line asserting the stale value ($34$ once one inverted ground-truth tag is corrected).\nThe flagged stale answers trace to these untagged copies even when the forbidding record is present and tagged.\nAn intervention that tags the copies uses the obligations' reference information, so it diagnoses a source of stale use rather than supplying a deployable repair. (Appendix~\\ref{app:resp})",
+   "new": "\\claim{Active copies complicate the use of tagged records.}\nAmong $89$ scorable obligation views, $35$ contain an active line asserting the stale value. The flagged stale answers trace to these untagged copies even when the forbidding record is present and tagged. An intervention that tags the copies uses the obligations' reference information, so it diagnoses a source of stale use rather than supplying a deployable repair.",
+   "note": "H84 (34 once the inverted tag is corrected) to Appendix E.10's paragraph; H85 kept"
+  },
+  {
+   "unit": "s7",
+   "file": "body",
+   "section": "7",
+   "old": "\\claim{The tested rule cannot repair copies under different attribute keys.}\nIn the assembled views, propagating a lifecycle tag to matching lines under the same attribute changes $1$ of $452$ views.\nBut $187$ of $272$ audited stale lines sit under a different attribute key from their tagged twin, which leaves the write path.\n%% R128 A3 (2026-09-20): the author's sentence.\nA reference-free repair for copies under other keys remains open. (Appendix~\\ref{app:resp})",
+   "new": "\\claim{The tested rule cannot repair copies under different attribute keys.}\nPropagating a lifecycle tag to matching lines under the same attribute changes $1$ of $452$ assembled views. But $187$ of $272$ audited stale lines sit under a different attribute key from their tagged twin, which leaves the write path. A reference-free repair for copies under other keys remains open. (Appendix~\\ref{app:resp})",
+   "note": "one pointer at the section's end"
+  },
+  {
+   "unit": "s8",
+   "file": "body",
+   "section": "8",
+   "old": "\\claim{The summary's obligation benefit replicates across vendors.}\n%% R131 W (2026-09-20): the author's page 8-9 payers (W1 to W7, cumulative; port_r131_w.py).\nOn the shared cross-vendor questions, models whose question-only score varies gain a reliable $0.15$ to $0.45$, including Kimi.\n(Appendix~\\ref{app:laddertable})",
+   "new": "The summary's obligation benefit replicates across vendors. On the shared cross-vendor questions, every model whose question-only score varies gains a reliable $0.15$ to $0.45$ with the summary, Kimi included. (Appendix~\\ref{app:laddertable})",
+   "note": "section 6.3: two paragraphs, so no bold leads; H87 kept"
+  },
+  {
+   "unit": "s8",
+   "file": "body",
+   "section": "8",
+   "old": "\\claim{Full-set models do not reliably beat the lookup.}\nOn the full obligation set, Haiku, Luna and Opus score $0.82$ to $0.83$, against the lookup's $0.75$; their margins fail the persona-grouped interval.\nOn easier coverage questions, mini's advantage over the superseded-name lookup disappears against a lookup over the whole name map. (Appendix~\\ref{app:baselines})",
+   "new": "On the full obligation set, no completed model reliably beats the lookup. Haiku, Luna and Opus score $0.82$ to $0.83^{\\dagger}$ against the lookup's $0.75$, but their margins fail the persona-grouped interval. On the easier coverage questions, mini's advantage over the superseded-name lookup disappears against a lookup over the whole name map. (Appendix~\\ref{app:baselines})",
+   "note": "the lead scoped to the completed models (section 3.1, S7's rule); H89 to the dagger's note (v)"
+  },
+  {
+   "unit": "s12",
+   "file": "body",
+   "section": "9",
+   "old": "Retraction and expiry are small groups ($30$ counterfactual pairs each; $26$ and $15$ obligations on the full set), so state-specific results give only a direction.",
+   "new": "Retraction and expiry are small groups ($30$ counterfactual pairs each; $26$ and $15$ obligations on the full set), so state-specific results give only a direction. Counts cannot say which record changed: two stores that cancel different plans in one category can share a summary, so only a named state identifies the obligation.",
+   "note": "S12 (only if the final slack is +3 or better)"
+  },
+  {
+   "unit": "rulings",
+   "file": "body",
+   "section": "1",
+   "old": "In these tests, what the store wrote down limited every reader we gave it to.\n",
+   "new": "In these tests, every reader we tried was held back by what the store had written down.\n",
+   "note": "RULINGS 1 (S4 in the author's words)"
+  },
+  {
+   "unit": "rulings",
+   "file": "body",
+   "section": "10",
+   "old": "In these tests, what a store wrote down limited every reader we gave it to. The smaller models",
+   "new": "In these tests, no reader we tried made up for what the store had failed to write down. The smaller models",
+   "note": "RULINGS 1 (S6's first sentence in the author's words)"
+  },
+  {
+   "unit": "rulings",
+   "file": "body",
+   "section": "5.2",
+   "old": "and the name lookup stays a reliable $0.13$ above a lookup over meaningless tokens within triples.",
+   "new": "and the name lookup stays $0.13$ above a lookup over meaningless tokens within triples.",
+   "note": "RULINGS 5 (the first 'reliable' candidate dropped)"
+  },
+  {
+   "unit": "rulings",
+   "file": "body",
+   "section": "6",
+   "old": "Luna and Sol lose on the questions pooled across them, each loss reliable (Table~\\ref{tab:census}).",
+   "new": "Luna and Sol lose on the questions pooled across them (Table~\\ref{tab:census}).",
+   "note": "RULINGS 5 (the second 'reliable' candidate dropped)"
+  },
+  {
+   "unit": "rulings",
+   "file": "body",
+   "section": "8",
+   "old": "every model whose question-only score varies gains a reliable $0.15$ to $0.45$ with the summary, Kimi included.",
+   "new": "every model whose question-only score varies gains $0.15$ to $0.45$ with the summary, Kimi included.",
+   "note": "RULINGS 5 (the third 'reliable' candidate dropped)"
+  },
+  {
+   "unit": "rulings",
+   "file": "body",
+   "section": "7",
+   "old": "and hurts it on supersession, where the summary names, both effects reliable. Haiku's score",
+   "new": "and hurts it on supersession, where the summary names, both effects reliable (Table~\\ref{tab:routes}). Haiku's score",
+   "note": "RULINGS 3 (Section 7 keeps the direction and points to tab:routes)"
+  },
+  {
+   "unit": "rulings",
+   "file": "appendix",
+   "section": "E.10",
+   "old": "Tagged view, ground-truth tags & $0.69$ & $-0.05$ (the summary alone) & $[-0.13,+0.03]$ & $[-0.15,+0.04]$ \\\\\n",
+   "new": "Tagged view, ground-truth tags & $0.69$ & $-0.05$ (the summary alone) & $[-0.13,+0.03]$ & $[-0.15,+0.04]$ \\\\\n\\quad on expiry, 15 obligations & $0.75$ & $+0.24$ (the summary alone, $0.51$) & $[+0.11,+0.38]$ & $[+0.06,+0.40]$ \\\\\n\\quad on supersession, 63 obligations & $0.69$ & $-0.17$ (the summary alone, $0.86$) & $[-0.26,-0.07]$ & $[-0.28,-0.07]$ \\\\\n",
+   "note": "RULINGS 3: mini's per-state view-minus-summary rows (expiry, supersession) with both intervals, from resp_review/run/scores_resp.json (AUX-RESP-L2-MINI-NOK; reviews/NUMBERS_R133.md) through the number gate"
+  },
+  {
+   "unit": "rulings",
+   "file": "appendix",
+   "section": "E.10",
+   "old": "$\\Delta$ is the monitor minus the comparison named in its row, with both intervals; Haiku 4.5 and the readers with no generative-model call are in Appendix~\\ref{app:resp}.}",
+   "new": "$\\Delta$ is the monitor minus the comparison named in its row, with both intervals; the two indented rows score that state's obligations against the same $557$ negatives. Haiku 4.5 and the readers with no generative-model call are in Appendix~\\ref{app:resp}.}",
+   "note": "RULINGS 3: the caption names the per-state rows' population"
+  }
+ ]
+}

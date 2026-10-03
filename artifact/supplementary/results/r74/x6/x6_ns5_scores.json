@@ -1,0 +1,101 @@
+{
+ "NS5_blind_includes_chance": true,
+ "NS5_branch": "iii",
+ "XV1_verdict": "untouched (registered failed verdict is never re-adjudicated)",
+ "cell": {
+  "composition": {
+   "ABSENT": 7,
+   "PN": 12,
+   "PRESENT": 17
+  },
+  "n": 36,
+  "personas": 29
+ },
+ "cells": {
+  "fok": {
+   "blind_auroc": 0.541871921182266,
+   "blind_one_sample": {
+    "ci_hi": 0.7693548387096774,
+    "ci_lo": 0.31610757985062765,
+    "includes_0.50": true,
+    "point": 0.541871921182266
+   },
+   "degeneracy": {
+    "blind": {
+     "distinct": 5,
+     "modal_share": 0.5277777777777778
+    },
+    "indexed": {
+     "distinct": 7,
+     "modal_share": 0.4166666666666667
+    }
+   },
+   "indexed_auroc": 0.9901477832512315,
+   "n": 36,
+   "paired_delta": {
+    "ci_hi": 0.6722715053763441,
+    "ci_lo": 0.21479523689516128,
+    "excludes_zero": true,
+    "mean": 0.44702171948925185,
+    "n": 1000
+   },
+   "pos": 29
+  },
+  "nok": {
+   "blind_auroc": 0.4427083333333333,
+   "blind_one_sample": {
+    "ci_hi": 0.6522324124396135,
+    "ci_lo": 0.25816666666666666,
+    "includes_0.50": true,
+    "point": 0.4427083333333333
+   },
+   "degeneracy": {
+    "blind": {
+     "distinct": 10,
+     "modal_share": 0.5
+    },
+    "indexed": {
+     "distinct": 13,
+     "modal_share": 0.4444444444444444
+    }
+   },
+   "indexed_auroc": 0.65625,
+   "n": 36,
+   "paired_delta": {
+    "ci_hi": 0.4809437003968254,
+    "ci_lo": -0.052213541666666585,
+    "excludes_zero": false,
+    "mean": 0.22076370378894353,
+    "n": 1000
+   },
+   "pos": 12
+  }
+ },
+ "lane": "claude-haiku-4-5-20251001",
+ "parse_failures": {
+  "BLIND": {
+   "failed": 0,
+   "of": 180,
+   "rate": 0.0
+  },
+  "INDEXED-TRUE": {
+   "failed": 0,
+   "of": 180,
+   "rate": 0.0
+  }
+ },
+ "registration": "ADDENDUM_R76 \u00a7A3 @ 692e379bdc; branches amended pre-launch per D-R74-14; batch msgbatch_018hCZkAZFxg6iwz92rKKaSM",
+ "spend_usd": 0.2959,
+ "stability": {
+  "BLIND": {
+   "items_all_draws_identical": 31,
+   "items_scored": 36,
+   "mean_per_item_nok_sd": 0.0265970518471917
+  },
+  "INDEXED-TRUE": {
+   "items_all_draws_identical": 33,
+   "items_scored": 36,
+   "mean_per_item_nok_sd": 0.0041111111111111105
+  }
+ }
+}

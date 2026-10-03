@@ -1,0 +1,62 @@
+{
+ "units": [
+  "mv",
+  "p9",
+  "xa",
+  "xb",
+  "xc",
+  "xd"
+ ],
+ "n": 71,
+ "edits": [
+  {
+   "unit": "mv",
+   "file": "body",
+   "old": "Control is outside this paper's scope. The $22$ obligations the manifest-to-record alignment does not mark are invisible to every summary (mini scores $0.52$ on them under ground truth). ",
+   "new": "Control is outside this paper's scope. ",
+   "note": "R143 option 1/2: the sentence leaves the Control paragraph"
+  },
+  {
+   "unit": "mv",
+   "file": "body",
+   "old": "the crossover ran every reader under both rubrics. (Appendix~\\ref{app:counterfactual})\n",
+   "new": "the crossover ran every reader under both rubrics. (Appendix~\\ref{app:counterfactual}) The $22$ obligations the manifest-to-record alignment does not mark are invisible to every summary (mini scores $0.52$ on them under ground truth).\n",
+   "note": "R143: to the end of the run-conditions paragraph, its original home"
+  },
+  {
+   "unit": "p9",
+   "file": "body",
+   "old": "mini drafted the questions and is also a reader; it is the weakest reader.",
+   "new": "mini drafted the questions and is also a reader, the weakest.",
+   "note": "R143 option 1: payer (ix)"
+  },
+  {
+   "unit": "xa",
+   "file": "appendix",
+   "old": "; no sibling padded to equal length was run.",
+   "new": "; the sibling padded to equal length is the control of the next paragraph (Table~\\ref{tab:sb60}).",
+   "note": "R143 addendum a (C.2)"
+  },
+  {
+   "unit": "xb",
+   "file": "appendix",
+   "old": "The notation box and the definition of the lifecycle summary, which the main text stated in full until this version, follow the two blocks,",
+   "new": "The notation box and the definition of the lifecycle summary follow the two blocks,",
+   "note": "R143 addendum b (E.1)"
+  },
+  {
+   "unit": "xc",
+   "file": "body",
+   "old": "so a store can expose it without disclosing content",
+   "new": "so a store can expose it without disclosing stored values",
+   "note": "R143 addendum c (Section 1)"
+  },
+  {
+   "unit": "xd",
+   "file": "body",
+   "old": "data cleaning, result interpretation, drafting,",
+   "new": "data cleaning, discussion of results, drafting,",
+   "note": "R143 addendum d (AI-use statement; the author: results were discussed with a model, interpreted by the authors)"
+  }
+ ]
+}

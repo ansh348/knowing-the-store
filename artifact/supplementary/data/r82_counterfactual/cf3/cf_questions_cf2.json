@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "alt_seed": 4242,
+    "intent_gate": "e1_metamemory/tools/intent.py type_question, text-only Rule 2 path",
+    "model": "gpt-4.1-mini",
+    "n": 14,
+    "n_paraphrases": 3,
+    "prompt_never_sees": [
+      "entry text or value",
+      "category",
+      "other candidates",
+      "any store content",
+      "any label"
+    ],
+    "prompt_sees": [
+      "entity",
+      "slot attribute path",
+      "intent"
+    ],
+    "prompt_sha256": "b748247b3ff380d8c24a3e142e2c37c12718942438c3a96cce476531692a8c7f",
+    "questions_sha256": "75fee108042176cd6217228b24b413510884462fcb25fe14cbf07f52ade30e61",
+    "redrafts": 0,
+    "seed": 42,
+    "substitutions": 1,
+    "temperature": 0,
+    "tokens_in": 4376,
+    "tokens_out": 647,
+    "usd": 0.002786
+  },
+  "questions": [
+    {
+      "attempt": "first",
+      "entity": "Patrick O'Brien",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 2,
+          "markers": [
+            "\\bnext\\b"
+          ],
+          "ok": true,
+          "question": "What details do I have about the next Battalion Chiefs Conference in 2026?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf3:patrick:event:battalion_chiefs_conference_2026",
+      "paraphrases": [
+        "What sessions are planned for me at the upcoming Battalion Chiefs Conference 2026?",
+        "Can you tell me the schedule for my events at the Battalion Chiefs Conference 2026?",
+        "What details do I have about the next Battalion Chiefs Conference in 2026?"
+      ],
+      "persona": "patrick",
+      "question": "What details do I have about the next Battalion Chiefs Conference in 2026?",
+      "seed_used": 42,
+      "selected_index": 2,
+      "slot": "event:battalion_chiefs_conference_2026",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Patrick O'Brien",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [],
+          "ok": false,
+          "question": "Can you tell me the name of the hotel reserved for my 2026 conference?",
+          "rule": "Rule 2.3: no marker fired",
+          "typed": "UNRESOLVED"
+        },
+        {
+          "index": 2,
+          "markers": [
+            "\\bupcoming\\b"
+          ],
+          "ok": true,
+          "question": "Where is my accommodation for the upcoming 2026 conference?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf3:patrick:hotel_for_conference_2026",
+      "paraphrases": [
+        "What hotel am I booked at for the conference in 2026?",
+        "Can you tell me the name of the hotel reserved for my 2026 conference?",
+        "Where is my accommodation for the upcoming 2026 conference?"
+      ],
+      "persona": "patrick",
+      "question": "Where is my accommodation for the upcoming 2026 conference?",
+      "seed_used": 42,
+      "selected_index": 2,
+      "slot": "hotel_for_conference_2026",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Patrick O'Brien",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 0,
+          "markers": [
+            "\\bupcoming\\b"
+          ],
+          "ok": true,
+          "question": "What time is my upcoming inbound flight, Patrick O'Brien?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf3:patrick:travel:flight_inbound",
+      "paraphrases": [
+        "What time is my upcoming inbound flight, Patrick O'Brien?",
+        "Can you tell me the details of my next inbound flight, Patrick O'Brien?",
+        "What's the schedule for my coming inbound flight, Patrick O'Brien?"
+      ],
+      "persona": "patrick",
+      "question": "What time is my upcoming inbound flight, Patrick O'Brien?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "travel:flight_inbound",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Patrick O'Brien",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [
+            "\\bscheduled\\b",
+            "\\bnext\\b"
+          ],
+          "ok": true,
+          "question": "Can you tell me the scheduled travel arrival date for the next Battalion Chiefs Conference?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf3:patrick:travel_arrival_date:battalion_chiefs_conference",
+      "paraphrases": [
+        "When is my arrival date for the upcoming Battalion Chiefs Conference?",
+        "Can you tell me the scheduled travel arrival date for the next Battalion Chiefs Conference?",
+        "What date am I arriving for the Battalion Chiefs Conference that's coming up?"
+      ],
+      "persona": "patrick",
+      "question": "Can you tell me the scheduled travel arrival date for the next Battalion Chiefs Conference?",
+      "seed_used": 42,
+      "selected_index": 1,
+      "slot": "travel_arrival_date:battalion_chiefs_conference",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Priya Sharma",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 0,
+          "markers": [
+            "\\bcoming up\\b",
+            "\\bcoming\\b"
+          ],
+          "ok": true,
+          "question": "What's the deadline for my NeurIPS paper project coming up?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf3:priya:project_deadline:NeurIPS_paper",
+      "paraphrases": [
+        "What's the deadline for my NeurIPS paper project coming up?",
+        "Can you tell me when the NeurIPS paper deadline is scheduled?",
+        "When is the next due date for my NeurIPS paper project?"
+      ],
+      "persona": "priya",
+      "question": "What's the deadline for my NeurIPS paper project coming up?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "project_deadline:NeurIPS_paper",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Raj Malhotra",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [
+            "\\bnext\\b"
+          ],
+          "ok": true,
+          "question": "Can you tell me the details of my next regulatory update course?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf3:raj:course:regulatory_update",
+      "paraphrases": [
+        "What regulatory update course do I have coming up soon?",
+        "Can you tell me the details of my next regulatory update course?",
+        "Which regulatory update course am I scheduled to attend next?"
+      ],
+      "persona": "raj",
+      "question": "Can you tell me the details of my next regulatory update course?",
+      "seed_used": 42,
+      "selected_index": 1,
+      "slot": "course:regulatory_update",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Raj Malhotra",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 0,
+          "markers": [
+            "\\bupcoming\\b"
+          ],
+          "ok": true,
+          "question": "What is the date and time for my upcoming boiler refresher training course?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf3:raj:training_course:boiler_refresher",
+      "paraphrases": [
+        "What is the date and time for my upcoming boiler refresher training course?",
+        "Can you tell me the location and instructor details for my next boiler refresher session?",
+        "What materials or preparation do I need for the scheduled boiler refresher training?"
+      ],
+      "persona": "raj",
+      "question": "What is the date and time for my upcoming boiler refresher training course?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "training_course:boiler_refresher",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Raj Malhotra",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [
+            "\\bnext\\b"
+          ],
+          "ok": true,
+          "question": "Can you tell me the location and time for my next job?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf3:raj:upcoming_job",
+      "paraphrases": [
+        "What details do I have about my upcoming job?",
+        "Can you tell me the location and time for my next job?",
+        "What tasks are planned for my upcoming job?"
+      ],
+      "persona": "raj",
+      "question": "Can you tell me the location and time for my next job?",
+      "seed_used": 42,
+      "selected_index": 1,
+      "slot": "upcoming_job",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Rosa Gutierrez",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [
+            "\\bupcoming\\b"
+          ],
+          "ok": true,
+          "question": "Can you tell me the date of my upcoming family gathering?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf3:rosa:family_event_date",
+      "paraphrases": [
+        "When is the next family event I have coming up?",
+        "Can you tell me the date of my upcoming family gathering?",
+        "What day is the scheduled family event I need to attend soon?"
+      ],
+      "persona": "rosa",
+      "question": "Can you tell me the date of my upcoming family gathering?",
+      "seed_used": 42,
+      "selected_index": 1,
+      "slot": "family_event_date",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Thanh Nguyen",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [
+            "\\bupcoming\\b"
+          ],
+          "ok": true,
+          "question": "What's the guest count for the upcoming Duc wedding?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf3:thanh:event_guest_count:duc_wedding",
+      "paraphrases": [
+        "How many guests are expected at Duc's wedding coming up?",
+        "What's the guest count for the upcoming Duc wedding?",
+        "Can you tell me the number of people attending Duc's wedding next?"
+      ],
+      "persona": "thanh",
+      "question": "What's the guest count for the upcoming Duc wedding?",
+      "seed_used": 42,
+      "selected_index": 1,
+      "slot": "event_guest_count:duc_wedding",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Thanh Nguyen",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 0,
+          "markers": [
+            "\\bupcoming\\b"
+          ],
+          "ok": true,
+          "question": "What dishes are on my upcoming wedding menu?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf3:thanh:wedding_menu",
+      "paraphrases": [
+        "What dishes are on my upcoming wedding menu?",
+        "Can you show me the menu planned for my wedding?",
+        "What food options are scheduled for my wedding reception?"
+      ],
+      "persona": "thanh",
+      "question": "What dishes are on my upcoming wedding menu?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "wedding_menu",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Valentina Herrera",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 0,
+          "markers": [
+            "\\bupcoming\\b"
+          ],
+          "ok": true,
+          "question": "What's my upcoming trip destination?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf3:valentina:trip_destination",
+      "paraphrases": [
+        "What's my upcoming trip destination?",
+        "Where am I planning to travel next?",
+        "Can you tell me the destination for my coming trip?"
+      ],
+      "persona": "valentina",
+      "question": "What's my upcoming trip destination?",
+      "seed_used": 42,
+      "selected_index": 0,
+      "slot": "trip_destination",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Valentina Herrera",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [
+            "\\bnext\\b"
+          ],
+          "ok": true,
+          "question": "Can you tell me the schedule for my next Rio Claro trip?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf3:valentina:trip_plan_rioclaro",
+      "paraphrases": [
+        "What details do I have for my upcoming trip to Rio Claro?",
+        "Can you tell me the schedule for my next Rio Claro trip?",
+        "What plans are set for my coming trip to Rio Claro?"
+      ],
+      "persona": "valentina",
+      "question": "Can you tell me the schedule for my next Rio Claro trip?",
+      "seed_used": 42,
+      "selected_index": 1,
+      "slot": "trip_plan_rioclaro",
+      "state": "EXPIRY"
+    },
+    {
+      "attempt": "first",
+      "entity": "Yolanda 'Yoli' Chambers",
+      "intent": "UPCOMING",
+      "intent_trail": [
+        {
+          "index": 1,
+          "markers": [
+            "\\bnext\\b"
+          ],
+          "ok": true,
+          "question": "Can you tell me the schedule for my next Afrofest event?",
+          "rule": "Rule 2.2: future markers only",
+          "typed": "UPCOMING"
+        }
+      ],
+      "pair_id": "cf3:yoli:event:Afrofest_attendance",
+      "paraphrases": [
+        "What details do I have about my upcoming attendance at Afrofest?",
+        "Can you tell me the schedule for my next Afrofest event?",
+        "What should I know about my plans for Afrofest coming up?"
+      ],
+      "persona": "yoli",
+      "question": "Can you tell me the schedule for my next Afrofest event?",
+      "seed_used": 42,
+      "selected_index": 1,
+      "slot": "event:Afrofest_attendance",
+      "state": "EXPIRY"
+    }
+  ]
+}

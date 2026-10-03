@@ -1,0 +1,57 @@
+{
+ "build": {
+  "arms": {
+   "INDEXED-COUNTS": {
+    "lock": "asserted on every version",
+    "n": 444,
+    "prompt_tokens_max": 1034,
+    "prompt_tokens_mean": 1009.0,
+    "texts_sha256": "1187e126d7671768d5848059e8c7eb93c0194f64100209a6054636f45f1eb0e8"
+   },
+   "INDEXED-NAMES": {
+    "lock": "asserted on every version",
+    "n": 444,
+    "prompt_tokens_max": 1290,
+    "prompt_tokens_mean": 1178.8,
+    "texts_sha256": "d901ebefef3b1e6ba9d9cdc1ab008bb8e08988a413154bd125674e55e2c993db"
+   },
+   "INDEXED-NAMES-DASH": {
+    "lock": "asserted on every version",
+    "n": 444,
+    "prompt_tokens_max": 1655,
+    "prompt_tokens_mean": 1542.4,
+    "texts_sha256": "f895e8817ef7ef259111295dfda4410051e9b0be2b7edeffc5a9b704d03b3136"
+   }
+  },
+  "frozen_at": "177697a",
+  "prompts_texts_sha256": "35d9b968ffc0b008289a59b06f10b7d23f71658c648dd2865a46e8da15d495f2",
+  "registration_sha256": "6cd4cb94c3a3a4dce43da23640fbf05828f93da0d322f3f9db7da0761768db2c",
+  "when": "2026-09-19T00:19:51"
+ },
+ "cap_usd": 10.0,
+ "frozen_at": "177697a",
+ "lanes": {
+  "claude-haiku-4-5-20251001": {
+   "arms": [
+    "INDEXED-NAMES",
+    "INDEXED-COUNTS"
+   ],
+   "k": 5,
+   "max_tokens": 200,
+   "temperature": 0.0
+  },
+  "gpt-4.1-mini": {
+   "arms": [
+    "INDEXED-NAMES",
+    "INDEXED-COUNTS",
+    "INDEXED-NAMES-DASH"
+   ],
+   "k": 1,
+   "max_tokens": 200,
+   "temperature": 0.0
+  }
+ },
+ "registration": "registrations\\ADDENDUM_CF2_NAMES_COUNTS.md",
+ "registration_sha256": "6cd4cb94c3a3a4dce43da23640fbf05828f93da0d322f3f9db7da0761768db2c",
+ "when": "2026-09-19T00:19:52"
+}

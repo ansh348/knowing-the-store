@@ -1,0 +1,349 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 5,
+    "in": 5032,
+    "out": 1878,
+    "usd": 0.0050176000000000005
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 6,
+  "persona": "billy",
+  "probes": [
+    {
+      "domain": "leisure reading",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last",
+        "read",
+        "you"
+      ],
+      "max_cosine": 0.2259,
+      "note": "",
+      "question": "What was the title of the last novel you read for pleasure?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2259,
+          "entry_id": "lb_00023",
+          "text": "User grew up immersed in ice reading from a very young age, before they could read a book."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1768,
+          "entry_id": "lb_00283",
+          "text": "User prefers being out on the land rather than writing reports."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1457,
+          "entry_id": "lb_00094",
+          "text": "User has a license for the tours and renewed it last year"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1441,
+          "entry_id": "lb_00311",
+          "text": "User has a child named Annie who is involved in a school year-end celebration."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1434,
+          "entry_id": "lb_00021",
+          "text": "User's grandfather's name is Elias and he taught the user how to read ice."
+        }
+      ],
+      "why_absent": "The memory store does not include any information about William's leisure reading or favorite books."
+    },
+    {
+      "domain": "personal cooking preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "home",
+        "you"
+      ],
+      "max_cosine": 0.2473,
+      "note": "",
+      "question": "Can you describe your favorite meal to cook at home?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2473,
+          "entry_id": "lb_00212",
+          "text": "User prepares muktuk for community feasts, serving it both raw and boiled."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2418,
+          "entry_id": "lb_00210",
+          "text": "User prepares muktuk for a community feast."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2192,
+          "entry_id": "lb_00145",
+          "text": "User primarily makes dry meat from caribou by cutting it thin and drying it outside using wind and sun, sometimes smoking it."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2034,
+          "entry_id": "lb_00154",
+          "text": "User has a person named Annie who spends time at the kitchen table with her laptop for weeks."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1953,
+          "entry_id": "lb_00215",
+          "text": "User participates in a harvest thanksgiving community feast with about 60 to 80 people."
+        }
+      ],
+      "why_absent": "No data about William's cooking habits, favorite recipes, or meal preferences is stored."
+    },
+    {
+      "domain": "music preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "listen",
+        "working",
+        "you"
+      ],
+      "max_cosine": 0.3318,
+      "note": "",
+      "question": "What kind of music do you usually listen to while working in the field?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3318,
+          "entry_id": "lb_00028",
+          "text": "User's work involves checking collar stations and running transects."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3154,
+          "entry_id": "lb_00038",
+          "text": "User performs collar work on caribou, adjusts VHF antennas, and downloads data from base stations."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3131,
+          "entry_id": "lb_00052",
+          "text": "User works in extremely cold conditions involving collar work on caribou and adjusting VHF antennas, often at temperatures around minus 45 degrees Celsius."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2798,
+          "entry_id": "lb_00050",
+          "text": "User performs collar work on caribou involving adjusting VHF antennas and handling small connectors and screws in extreme cold conditions."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2741,
+          "entry_id": "lb_00283",
+          "text": "User prefers being out on the land rather than writing reports."
+        }
+      ],
+      "why_absent": "The memory store lacks any information about William's music tastes or listening habits."
+    },
+    {
+      "domain": "artistic hobbies",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.2148,
+      "note": "",
+      "question": "Have you ever taken any art classes or pursued any artistic hobbies?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2148,
+          "entry_id": "lb_00256",
+          "text": "User currently runs cultural education trips teaching Indigenous kids land skills over 4-day trips"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2042,
+          "entry_id": "lb_00264",
+          "text": "User leads 4-day cultural education trips teaching Indigenous kids land skills such as reading weather, ice, and travel safety."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.198,
+          "entry_id": "lb_00260",
+          "text": "User leads cultural education trips teaching Indigenous kids land skills over 4-day Arctic winter outings."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1956,
+          "entry_id": "lb_00190",
+          "text": "User has been conducting wildlife research focused on caribou for years, including tracking herds and collaring animals."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.192,
+          "entry_id": "lb_00056",
+          "text": "User completed a BSc in environmental science at University of Alberta"
+        }
+      ],
+      "why_absent": "There is no record of William engaging in art-related activities or classes."
+    },
+    {
+      "domain": "education history",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "school"
+      ],
+      "max_cosine": 0.2051,
+      "note": "",
+      "question": "What was your favorite subject in high school?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2051,
+          "entry_id": "lb_00157",
+          "text": "Annie works at a small school with a small staff and is the primary person responsible for detailed curriculum work."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1937,
+          "entry_id": "lb_00056",
+          "text": "User completed a BSc in environmental science at University of Alberta"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.1901,
+          "entry_id": "lb_00155",
+          "text": "Annie is working on curriculum documentation for her school's accreditation review."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1867,
+          "entry_id": "lb_00159",
+          "text": "Annie is responsible for detailed curriculum documentation including land-based and cultural components for the school's accreditation review."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1804,
+          "entry_id": "lb_00059",
+          "text": "User uses R for statistical analysis and taught themselves after university."
+        }
+      ],
+      "why_absent": "The store only contains information about William's bachelor degree and intellectual interests, not his high school subjects."
+    },
+    {
+      "domain": "pets and animals",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "home",
+        "you"
+      ],
+      "max_cosine": 0.2433,
+      "note": "",
+      "question": "Do you have any pets at home? If so, what kind and what are their names?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2433,
+          "entry_id": "lb_00154",
+          "text": "User has a person named Annie who spends time at the kitchen table with her laptop for weeks."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2427,
+          "entry_id": "lb_00203",
+          "text": "User has 20 years of experience watching animals on their land"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2295,
+          "entry_id": "lb_00202",
+          "text": "User has 20 years of experience watching animals on this land"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2209,
+          "entry_id": "lb_00067",
+          "text": "User conducts wildlife research focused on animals important to their home community in the Arctic."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2105,
+          "entry_id": "lb_00305",
+          "text": "User has a child named Annie who attends school"
+        }
+      ],
+      "why_absent": "No information about William's pets or domestic animals is present in the memory store."
+    },
+    {
+      "domain": "entertainment preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "time",
+        "watching",
+        "you"
+      ],
+      "max_cosine": 0.1856,
+      "note": "",
+      "question": "What kind of movies or TV shows do you enjoy watching in your free time?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1856,
+          "entry_id": "lb_00233",
+          "text": "User spends time with youth through their work and could incorporate Inuvialuktun language learning into that interaction."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.165,
+          "entry_id": "lb_00154",
+          "text": "User has a person named Annie who spends time at the kitchen table with her laptop for weeks."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1349,
+          "entry_id": "lb_00023",
+          "text": "User grew up immersed in ice reading from a very young age, before they could read a book."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1293,
+          "entry_id": "lb_00203",
+          "text": "User has 20 years of experience watching animals on their land"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1275,
+          "entry_id": "lb_00256",
+          "text": "User currently runs cultural education trips teaching Indigenous kids land skills over 4-day trips"
+        }
+      ],
+      "why_absent": "The memory store does not cover William's preferences for movies or television entertainment."
+    }
+  ],
+  "threshold": 0.295
+}

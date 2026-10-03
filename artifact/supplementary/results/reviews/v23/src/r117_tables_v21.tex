@@ -1,0 +1,99 @@
+%%BLOCK e2%%
+%% R118: tab:cf-names-counts, written by reviews/v21/tools/ledger_r117_tables.py from r82_counterfactual/cf2/results/cf_scores_nc.json (AUX-CF2-NC-MINI-NAMES, -MINI-NAMES-DASH, -MINI-COUNTS, -H45-NAMES, -H45-COUNTS, -PERSTATE); do not edit by hand.
+\begin{table}[H]
+\caption{Names against counts on the counterfactual set (E2; registered, ADDENDUM\_CF2\_NAMES\_COUNTS). The superseded-only summary with every count line removed (names only), with the two name blocks removed (counts only), and, for GPT-4.1 mini, with every count replaced by a dash (the committed names-only rule of the pooled hard tier). The recorded intact row is the comparator; differences carry the item-level and the persona-grouped interval. Both readers stay within tolerance of the intact summary without the counts and fall reliably without the names (P-N1 and P-N2 held).}
+\label{tab:cf-names-counts}
+\centering\tiny\setlength{\tabcolsep}{1.5pt}
+\begin{tabular}{@{}llrlrrrrr@{}}
+\toprule
+Reader & summary & AUROC & persona interval & minus intact & item interval & persona interval & retraction & expiry \\
+\midrule
+Haiku 4.5 & intact (recorded) & $0.7566$ & & & & & & \\
+ & counts only & $0.5945$ & $[0.5514,0.6460]$ & $-0.1621$ & $[-0.2187,-0.1024]$ & $[-0.1941,-0.1278]$ & $0.5553$ & $0.5189$ \\
+ & names only & $0.7507$ & $[0.7114,0.7891]$ & $-0.0059$ & $[-0.0370,+0.0237]$ & $[-0.0365,+0.0216]$ & $0.5631$ & $0.5642$ \\
+ & counts only minus names only & & & $-0.1562$ & $[-0.2175,-0.0889]$ & $[-0.2007,-0.1126]$ & & \\
+\addlinespace[1pt]
+GPT-4.1 mini & intact (recorded) & $0.7167$ & & & & & & \\
+ & counts only & $0.5862$ & $[0.5416,0.6322]$ & $-0.1306$ & $[-0.2025,-0.0524]$ & $[-0.1835,-0.0801]$ & $0.6053$ & $0.4933$ \\
+ & names only & $0.7103$ & $[0.6644,0.7524]$ & $-0.0064$ & $[-0.0484,+0.0338]$ & $[-0.0439,+0.0290]$ & $0.5344$ & $0.5006$ \\
+ & names only, dash rule & $0.6891$ & $[0.6371,0.7356]$ & $-0.0276$ & $[-0.0679,+0.0086]$ & $[-0.0694,+0.0120]$ & $0.4500$ & $0.4764$ \\
+ & counts only minus names only & & & $-0.1242$ & $[-0.1981,-0.0525]$ & $[-0.1814,-0.0698]$ & & \\
+\addlinespace[1pt]
+\bottomrule
+\end{tabular}
+\end{table}
+%%END e2%%
+
+%%BLOCK e3%%
+%% R118: tab:marker, written by reviews/v21/tools/ledger_r117_tables.py from e1_metamemory/marker/scores_marker.json (AUX-MARKER-OMITTED-MINI, -NEUTRAL-MINI, -LUNA-66, -MODAL); do not edit by hand.
+\begin{table}[H]
+\caption{The inexpressibility marker on the two structureless stores (E3; registered, ADDENDUM\_MARKER\_ABLATION): coverage AUROC under the constrained rendering (structural), with the three inexpressible sections omitted (the recorded omitted arm of the main study), and with the marker's three lines reworded to say the store does not record the field (neutral), against blind. GPT-4.1 mini on each store's coverage population at one call; GPT-5.6 Luna on the pooled $66$ questions through the raw API at five calls, with its recorded harness rows beside. Differences against blind carry the item-level and the persona-grouped interval. The modal share is the fraction of items at the most common score.}
+\label{tab:marker}
+\centering\tiny\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lllrlrrrr@{}}
+\toprule
+Reader & store & summary & AUROC & persona interval & minus blind & item interval & persona interval & modal share \\
+\midrule
+GPT-4.1 mini & Mem0 & blind & $0.5746$ & $[0.5141,0.6327]$ &  & &  & $0.4202$ \\
+ &  & structural & $0.4777$ & $[0.4238,0.5378]$ & $-0.0969$ & $[-0.1686,-0.0250]$ & $[-0.1638,-0.0286]$ & $0.4622$ \\
+ &  & omitted & $0.4881$ & $[0.4206,0.5475]$ & $-0.0865$ & $[-0.1508,-0.0254]$ & $[-0.1501,-0.0254]$ & $0.6176$ \\
+ &  & neutral & $0.5024$ & $[0.4387,0.5590]$ & $-0.0722$ & $[-0.1391,-0.0046]$ & $[-0.1311,-0.0121]$ & $0.4664$ \\
+\addlinespace[1pt]
+GPT-4.1 mini & A-MEM & blind & $0.5591$ & $[0.5072,0.6136]$ &  & &  & $0.4014$ \\
+ &  & structural & $0.4526$ & $[0.3951,0.5083]$ & $-0.1065$ & $[-0.1726,-0.0403]$ & $[-0.1654,-0.0446]$ & $0.4648$ \\
+ &  & omitted & $0.5213$ & $[0.4652,0.5773]$ & $-0.0378$ & $[-0.1024,+0.0260]$ & $[-0.0956,+0.0163]$ & $0.6162$ \\
+ &  & neutral & $0.5319$ & $[0.4725,0.5925]$ & $-0.0272$ & $[-0.0890,+0.0354]$ & $[-0.0708,+0.0251]$ & $0.5282$ \\
+\addlinespace[1pt]
+GPT-5.6 Luna, raw API & pooled $66$ & blind & $0.6454$ & $[0.5121,0.7657]$ &  & &  & $0.0909$ \\
+ &  & structural & $0.3528$ & $[0.2259,0.4948]$ & $-0.2926$ & $[-0.4261,-0.1590]$ & $[-0.4344,-0.1359]$ & $0.0606$ \\
+ &  & omitted & $0.3088$ & $[0.2005,0.4250]$ & $-0.3366$ & $[-0.4859,-0.1824]$ & $[-0.4588,-0.2106]$ & $0.0606$ \\
+ &  & neutral & $0.3782$ & $[0.2595,0.5126]$ & $-0.2671$ & $[-0.4127,-0.1232]$ & $[-0.3951,-0.1267]$ & $0.0606$ \\
+GPT-5.6 Luna, harness$^{h}$ & pooled $66$ & blind & $0.7894$ & & & & & \\
+(recorded) & & structural & $0.4514$ & & $-0.3380$ & & & \\
+\bottomrule
+\end{tabular}
+\end{table}
+%%END e3%%
+
+%%BLOCK e4%%
+%% R118: tab:ds-a8, written by reviews/v21/tools/ledger_r117_tables.py from ds_downstream/run/scores_amend8.json and lock_amend8.json (AUX-DS-A8-RULE-CENSUS, -DUP35, -FALSEPROP, -STAGE2, -DIAGNOSIS); do not edit by hand.
+\begin{table}[H]
+\caption{Label propagation inside the view (E4; registered, DS Amendment 8). A rule that reads only the assembled view propagates a tagged line's lifecycle tag to the untagged lines of the same attribute that repeat it under the census function unchanged (shared tokens $\ge 2$, cross guard $0.34$, coverage $\ge 0.80$), with an age-field ordering (primary) or without it (secondary), under the ground-truth tags and under FR-Bank's own tags. Of the $272$ audited stale-line instances, $187$ sit under a different attribute key from their tagged twin, $45$ fall below $0.50$ coverage of any same-attribute tagged line, $40$ between $0.50$ and $0.80$, and none reaches the threshold. Detector counts; the re-answers under own tags are descriptive, no prediction was registered on them.}
+\label{tab:ds-a8}
+\centering\tiny\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Measure & GT tags, primary & GT tags, secondary & own tags, primary & own tags, secondary \\
+\midrule
+Views changed, of $452$ & $1$ & $1$ & $90$ & $123$ \\
+Lines propagated & $1$ & $1$ & $117$ & $152$ \\
+Audited duplicate items fully tagged, of $35$ & $0$ & $0$ & $15$ & $15$ \\
+False propagation on the licensed items' active lines & $3$ / $2333$ ($0.13\%$) & $3$ / $2333$ ($0.13\%$) & $69$ / $2333$ ($2.96\%$) & $83$ / $2333$ ($3.56\%$) \\
+\midrule
+\multicolumn{5}{@{}l}{\textit{Re-answers on the changed views under own tags (before $\to$ after; stale at $0.50$ over answered obligation views; correct licensed answers)}}\\
+\multicolumn{5}{@{}l@{}}{GPT-4.1 mini: top-five: $1$/$7$ $\to$ $0$/$2$; correct $11 \to 7$; model: $7$/$12$ $\to$ $3$/$7$; correct $9 \to 7$; oracle: $6$/$17$ $\to$ $1$/$8$; correct $11 \to 7$}} \\
+\multicolumn{5}{@{}l@{}}{Haiku 4.5: top-five: $1$/$7$ $\to$ $0$/$2$; correct $11 \to 7$; model: $6$/$12$ $\to$ $3$/$5$; correct $9 \to 7$; oracle: $4$/$15$ $\to$ $2$/$5$; correct $11 \to 7$}} \\
+\bottomrule
+\end{tabular}
+\end{table}
+%%END e4%%
+
+%%BLOCK e5_table1_rows%%
+%% R118: the E5 rows (AUX-CF2-OAI-SOL-V2, -LUNA-V2, -PNPRESENT; r82_counterfactual/cf2/results/cf_scores_openai.json).
+GPT-5.6 Sol, sup.\ only & $0.85$ & $[0.81,0.88]$ & $0.85$ & $126/2/20$ \\
+GPT-5.6 Luna, sup.\ only & $0.84$ & $[0.80,0.88]$ & $0.85$ & $129/2/17$ \\
+%%END e5_table1_rows%%
+
+%%BLOCK e5_pnpresent_rows%%
+%% R118: the E5 rows, written by reviews/v21/tools/ledger_r117_tables.py from cf_scores_openai.json (AUX-CF2-OAI-PNPRESENT).
+GPT-5.6 Sol, sup.\\ only & whole & $0.8522$ & $[0.8155,0.8872]$ & $0.8500$ & $126/2/20$ & $0.8514$ & $[0.8038,0.8951]$ \\
+ & sup. & $0.9426$ & $[0.9110,0.9738]$ & $0.9383$ & $84/1/3$ & $0.9545$ & $[0.9140,0.9889]$ \\
+ & ret. & $0.5206$ & $[0.4483,0.5928]$ & $0.5322$ & $17/1/12$ & $0.5667$ & $[0.3871,0.7333]$ \\
+ & exp. & $0.6572$ & $[0.5789,0.7511]$ & $0.6403$ & $25/0/5$ & $0.8333$ & $[0.7000,0.9394]$ \\
+\addlinespace[1pt]
+GPT-5.6 Luna, sup.\\ only & whole & $0.8544$ & $[0.8151,0.8958]$ & $0.8417$ & $129/2/17$ & $0.8716$ & $[0.8027,0.9324]$ \\
+ & sup. & $0.9474$ & $[0.9116,0.9782]$ & $0.9426$ & $84/1/3$ & $0.9545$ & $[0.9069,0.9894]$ \\
+ & ret. & $0.5550$ & $[0.4885,0.6314]$ & $0.5458$ & $19/1/10$ & $0.6333$ & $[0.4286,0.8125]$ \\
+ & exp. & $0.6633$ & $[0.6067,0.7634]$ & $0.6167$ & $26/0/4$ & $0.8667$ & $[0.7586,0.9677]$ \\
+\addlinespace[1pt]
+%%END e5_pnpresent_rows%%

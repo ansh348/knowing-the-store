@@ -1,0 +1,141 @@
+{
+  "av_state_map": {
+    "AV1_superseded_preference": "superseded",
+    "AV2_expired_logistics": "expired",
+    "AV4_multi_version_fact": "superseded",
+    "AV7_selective_forgetting": "retracted"
+  },
+  "rows": {
+    "R-NOK-FRB|BELIEVED": {
+      "mean_nb6_emb_named_pn": 0.38939975660580856,
+      "mean_nb6_emb_negatives": 0.27128797186341275,
+      "mean_nb6_emb_unnamed_pn": 0.2847403964171043,
+      "monitor_auroc_named_pn": 0.6839524927496202,
+      "monitor_auroc_pn_expired": 0.4982645122681029,
+      "monitor_auroc_pn_retracted": 0.3974589145145698,
+      "monitor_auroc_pn_superseded": 0.7009774586076202,
+      "monitor_auroc_unnamed_pn": 0.5832757906366524,
+      "n": 661,
+      "n_named_pn": 13,
+      "n_pn": 104,
+      "n_pn_expired": 15,
+      "n_pn_retracted": 26,
+      "n_pn_superseded": 63,
+      "n_unnamed_pn": 91,
+      "named_by_lifecycle_state": {
+        "expired": {
+          "named": 2,
+          "rate": 0.13333333333333333,
+          "total": 15
+        },
+        "retracted": {
+          "named": 1,
+          "rate": 0.038461538461538464,
+          "total": 26
+        },
+        "superseded": {
+          "named": 10,
+          "rate": 0.15873015873015872,
+          "total": 63
+        }
+      },
+      "nb6_emb_auroc_named_pn": 0.8015467476867836,
+      "nb6_emb_auroc_pn_expired": 0.5925792938360264,
+      "nb6_emb_auroc_pn_retracted": 0.4061593702527275,
+      "nb6_emb_auroc_pn_superseded": 0.6582884500299222,
+      "nb6_emb_auroc_unnamed_pn": 0.5549549194073431,
+      "nb6_lex_auroc_named_pn": 0.60854854301892,
+      "nb6_lex_auroc_unnamed_pn": 0.45224613806301417,
+      "pn_by_attack_vector": {
+        "AV1_superseded_preference": 38,
+        "AV2_expired_logistics": 15,
+        "AV4_multi_version_fact": 25,
+        "AV7_selective_forgetting": 26
+      },
+      "pn_by_lifecycle_state": {
+        "expired": 15,
+        "retracted": 26,
+        "superseded": 63
+      },
+      "pn_named_in_index": 13,
+      "pn_named_rate": 0.125,
+      "pn_supersession_share": 0.6057692307692307,
+      "population": "R-NOK-FRB BELIEVED"
+    },
+    "R-NOK-FRB|TRUE": {
+      "mean_nb6_emb_named_pn": 0.3612575190407889,
+      "mean_nb6_emb_negatives": 0.12260299616725698,
+      "mean_nb6_emb_unnamed_pn": 0.2565036863088608,
+      "monitor_auroc_named_pn": 0.8175173121313157,
+      "monitor_auroc_pn_expired": 0.5110113704368642,
+      "monitor_auroc_pn_retracted": 0.5637688164618146,
+      "monitor_auroc_pn_superseded": 0.8571856031461058,
+      "monitor_auroc_unnamed_pn": 0.727868366988099,
+      "n": 661,
+      "n_named_pn": 7,
+      "n_pn": 104,
+      "n_pn_expired": 15,
+      "n_pn_retracted": 26,
+      "n_pn_superseded": 63,
+      "n_unnamed_pn": 97,
+      "named_by_lifecycle_state": {
+        "expired": {
+          "named": 0,
+          "rate": 0.0,
+          "total": 15
+        },
+        "retracted": {
+          "named": 2,
+          "rate": 0.07692307692307693,
+          "total": 26
+        },
+        "superseded": {
+          "named": 5,
+          "rate": 0.07936507936507936,
+          "total": 63
+        }
+      },
+      "nb6_emb_auroc_named_pn": 0.8627853295716851,
+      "nb6_emb_auroc_pn_expired": 0.48228605625374027,
+      "nb6_emb_auroc_pn_retracted": 0.4052617041845049,
+      "nb6_emb_auroc_pn_superseded": 0.9534068564589211,
+      "nb6_emb_auroc_unnamed_pn": 0.7401673175516852,
+      "nb6_lex_auroc_named_pn": 0.6402923826622211,
+      "nb6_lex_auroc_unnamed_pn": 0.5689814729126951,
+      "pn_by_attack_vector": {
+        "AV1_superseded_preference": 38,
+        "AV2_expired_logistics": 15,
+        "AV4_multi_version_fact": 25,
+        "AV7_selective_forgetting": 26
+      },
+      "pn_by_lifecycle_state": {
+        "expired": 15,
+        "retracted": 26,
+        "superseded": 63
+      },
+      "pn_named_in_index": 7,
+      "pn_named_rate": 0.0673076923076923,
+      "pn_supersession_share": 0.6057692307692307,
+      "population": "R-NOK-FRB TRUE"
+    },
+    "matched-84": {
+      "n": 84,
+      "n_pn": 40,
+      "pn_by_attack_vector": {
+        "AV1_superseded_preference": 13,
+        "AV2_expired_logistics": 8,
+        "AV4_multi_version_fact": 6,
+        "AV7_selective_forgetting": 13
+      },
+      "pn_by_lifecycle_state": {
+        "expired": 8,
+        "retracted": 13,
+        "superseded": 19
+      },
+      "pn_supersession_share": 0.475,
+      "population": "matched-84"
+    }
+  },
+  "status": "POST HOC, unregistered, deterministic; no prediction attached",
+  "structural_premise": "index_v2.py names attributes only under ATTRIBUTE NAMES CARRYING SUPERSEDED CONTENT; expired and retracted content appears as counts only"
+}

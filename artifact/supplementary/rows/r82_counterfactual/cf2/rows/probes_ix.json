@@ -1,0 +1,131 @@
+{
+ "H45": {
+  "identifier_ok": true,
+  "lane": "H45",
+  "model": "claude-haiku-4-5-20251001",
+  "out": [
+   39,
+   200
+  ],
+  "p0_in": 1845,
+  "p1_in": 1969,
+  "parsed": [
+   "OK",
+   "OK"
+  ],
+  "sample": "```json\n{\"fok\": 15, \"nok_candidates_found\": true, \"nok\": 72, \"would_search\": false}\n```\n\n**Reasoning:**\n\n**FOK (15):** The store has a `preparation_for_meeting` attribute in the PROJECTS_ENDEAVORS cat",
+  "served": [
+   "claude-haiku-4-5-20251001"
+  ],
+  "usd": 0.005009,
+  "when": "2026-09-19T13:25:00"
+ },
+ "LUNA": {
+  "identifier_ok": true,
+  "lane": "LUNA",
+  "model": "gpt-5.6-luna",
+  "out": [
+   173,
+   135
+  ],
+  "p0_in": 1744,
+  "p1_in": 1857,
+  "parsed": [
+   "OK",
+   "OK"
+  ],
+  "sample": "{\"fok\":88,\"nok_candidates_found\":true,\"nok\":85,\"would_search\":true}",
+  "served": [
+   "gpt-5.6-luna"
+  ],
+  "tok_cache_write": [
+   1741,
+   1854
+  ],
+  "tok_cached": [
+   0,
+   0
+  ],
+  "tok_reasoning": [
+   143,
+   105
+  ],
+  "usd": 0.00127,
+  "when": "2026-09-19T13:24:56"
+ },
+ "MINI": {
+  "identifier_ok": true,
+  "lane": "MINI",
+  "model": "gpt-4.1-mini",
+  "out": [
+   21,
+   21
+  ],
+  "p0_in": 1742,
+  "p1_in": 1858,
+  "parsed": [
+   "OK",
+   "OK"
+  ],
+  "sample": "{\"fok\":70,\"nok_candidates_found\":true,\"nok\":60,\"would_search\":true}",
+  "served": [
+   "gpt-4.1-mini-2025-04-14"
+  ],
+  "usd": 0.001507,
+  "when": "2026-09-19T13:24:51"
+ },
+ "OP5": {
+  "identifier_ok": true,
+  "lane": "OP5",
+  "model": "claude-opus-5",
+  "out": [
+   354,
+   150
+  ],
+  "p0_in": 2596,
+  "p1_in": 2743,
+  "parsed": [
+   "OK",
+   "OK"
+  ],
+  "sample": "{\"fok\": 66, \"nok_candidates_found\": true, \"nok\": 76, \"would_search\": true}",
+  "served": [
+   "claude-opus-5"
+  ],
+  "usd": 0.039295,
+  "when": "2026-09-19T13:25:11"
+ },
+ "SOL": {
+  "identifier_ok": true,
+  "lane": "SOL",
+  "model": "gpt-5.6-sol",
+  "out": [
+   81,
+   164
+  ],
+  "p0_in": 1744,
+  "p1_in": 1857,
+  "parsed": [
+   "OK",
+   "OK"
+  ],
+  "sample": "{\"fok\":95,\"nok_candidates_found\":true,\"nok\":98,\"would_search\":true}",
+  "served": [
+   "gpt-5.6-sol"
+  ],
+  "tok_cache_write": [
+   1741,
+   1854
+  ],
+  "tok_cached": [
+   0,
+   0
+  ],
+  "tok_reasoning": [
+   51,
+   134
+  ],
+  "usd": 0.022899,
+  "when": "2026-09-19T14:20:33"
+ }
+}

@@ -1,0 +1,60 @@
+{
+  "all150": {
+    "blind": 0.7191666666666666,
+    "blind_ece": 0.10973333333333328,
+    "bootstrap": {
+      "ci_hi": 0.10588989438601361,
+      "ci_lo": -0.04968311967482244,
+      "excludes_zero": false,
+      "mean": 0.02858868640144902,
+      "n": 1000
+    },
+    "delta": 0.030555555555555558,
+    "indexed": 0.7497222222222222,
+    "indexed_ece": 0.13953333333333331,
+    "mean_blind_fok": 0.4924,
+    "mean_indexed_fok": 0.6571333333333333,
+    "n": 150,
+    "n_pos": 90,
+    "row": "all 150 (frontier)"
+  },
+  "external": {
+    "blind": 0.7842592592592592,
+    "blind_ece": 0.1271212121212121,
+    "bootstrap": {
+      "ci_hi": 0.14402875870743023,
+      "ci_lo": -0.09632365123744437,
+      "excludes_zero": false,
+      "mean": 0.023153688531962757,
+      "n": 1000
+    },
+    "delta": 0.023611111111111138,
+    "indexed": 0.8078703703703703,
+    "indexed_ece": 0.1618181818181818,
+    "mean_blind_fok": 0.42803030303030304,
+    "mean_indexed_fok": 0.5172727272727273,
+    "n": 66,
+    "n_pos": 36,
+    "row": "external (frontier, exploratory)"
+  },
+  "primary_frbank": {
+    "blind": 0.6317901234567901,
+    "blind_ece": 0.14702380952380945,
+    "bootstrap": {
+      "ci_hi": 0.23199386961722482,
+      "ci_lo": -0.03476731510210862,
+      "excludes_zero": false,
+      "mean": 0.09974091088806017,
+      "n": 1000
+    },
+    "delta": 0.10216049382716053,
+    "indexed": 0.7339506172839506,
+    "indexed_ece": 0.1729761904761904,
+    "mean_blind_fok": 0.5429761904761905,
+    "mean_indexed_fok": 0.7670238095238096,
+    "n": 84,
+    "n_pos": 54,
+    "row": "PRIMARY FR-Bank (frontier)"
+  },
+  "rule_fired": "b"
+}

@@ -1,0 +1,970 @@
+{
+ "counts": {
+  "A_pass": 87,
+  "A_total": 88,
+  "B_pass": 26,
+  "B_total": 30,
+  "checked": 53,
+  "drops": 5,
+  "pass_primary_checked": 46,
+  "reserve_unjudged": 65,
+  "second_lineage": 2
+ },
+ "counts_match_expected": true,
+ "disclosure": "The author's check was assisted by an AI model that pre-flagged candidate failures; every verdict was made by the author and entered from the author's dictated list.",
+ "drops": [
+  {
+   "n": 28,
+   "note": "record says only that Greg was accepted into a show; nothing about a relationship",
+   "pair_id": "cf2:diane:relationship:greg_project_folk_art_center",
+   "population": "B",
+   "reason": "seed42 NO on ii; fallback byte-identical to the primary"
+  },
+  {
+   "n": 33,
+   "note": "record is a delivery date, not use; question drifts to usage",
+   "pair_id": "cf2:elena:health_aid:light_therapy_lamp",
+   "population": "B",
+   "reason": "seed42 NO on ii, iv; seed4242 NO on ii, iv"
+  },
+  {
+   "n": 52,
+   "note": "asks how the trip went; the store records no outcome",
+   "pair_id": "cf2:jerome:project:Disney trip with Naomi",
+   "population": "B",
+   "reason": "seed42 NO on ii; fallback byte-identical to the primary"
+  },
+  {
+   "n": 77,
+   "note": "record is a concern about one ceremony's logistics; question asks what was used, for events in general",
+   "pair_id": "cf2:marley:event_transportation",
+   "population": "B",
+   "reason": "seed42 NO on ii, iv; fallback byte-identical to the primary"
+  },
+  {
+   "n": 104,
+   "note": "slot name read as a time reference; the attribute is talking about old times",
+   "pair_id": "cf2:thanh:communication_preference:old_times",
+   "population": "A",
+   "reason": "seed42 NO on iv; seed4242 NO on iv"
+  }
+ ],
+ "entered": "2026-09-19T13:19:48",
+ "expected": {
+  "A_pass": 87,
+  "A_total": 88,
+  "B_pass": 26,
+  "B_total": 30,
+  "drops": 5,
+  "second_lineage": 2
+ },
+ "locked_cells_verified": 2633,
+ "notes_on_passing_rows": {
+  "6": "slot key carries the old value; passes (iii) as registered",
+  "19": "slot key carries the old value; passes (iii) as registered",
+  "21": "'in the past' is ambiguous, but the planned count is a proper part of the answer",
+  "85": "slot key carries the old value; passes (iii) as registered",
+  "99": "slot key carries the old value; passes (iii) as registered",
+  "109": "slot key carries the old value; passes (iii) as registered",
+  "116": "slot key carries the old value; passes (iii) as registered"
+ },
+ "pairs": {
+  "cf2:aisha:preparation_for_meeting": {
+   "lineage": "primary",
+   "n": 1,
+   "note": null,
+   "population": "B",
+   "question": "What was my preparation for the meeting like?",
+   "status": "PASS"
+  },
+  "cf2:aisha:upcoming_meeting": {
+   "lineage": "primary",
+   "n": 2,
+   "note": null,
+   "population": "B",
+   "question": "When was my last meeting?",
+   "status": "PASS"
+  },
+  "cf2:alex:monthly_transaction_volume": {
+   "lineage": "primary",
+   "n": 3,
+   "population": "A",
+   "question": "How has my monthly transaction volume changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:alex:work_preference": {
+   "lineage": "primary",
+   "n": 4,
+   "population": "A",
+   "question": "How has my work preference changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:amara:automatic_update_setting": {
+   "lineage": "primary",
+   "n": 5,
+   "population": "A",
+   "question": "How has my automatic update setting changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:amara:diary_preference:conference_spacing": {
+   "lineage": "primary",
+   "n": 6,
+   "note": "slot key carries the old value; passes (iii) as registered",
+   "population": "A",
+   "question": "How has my preference for spacing out conferences changed over time?",
+   "status": "PASS"
+  },
+  "cf2:amara:habit:desk_posture": {
+   "lineage": "primary",
+   "n": 7,
+   "note": null,
+   "population": "A",
+   "question": "How has my desk posture changed over time?",
+   "status": "PASS"
+  },
+  "cf2:aroha:health_habit:blood_sugar_monitoring": {
+   "lineage": "primary",
+   "n": 8,
+   "population": "A",
+   "question": "How has my blood sugar monitoring habit changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:aroha:health_metric:fasting_blood_sugar": {
+   "lineage": "primary",
+   "n": 9,
+   "population": "A",
+   "question": "How has my fasting blood sugar changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:aroha:recharge_location:Moana": {
+   "lineage": "primary",
+   "n": 10,
+   "population": "A",
+   "question": "How has my recharge location at Moana changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:billy:gear:headlamps": {
+   "lineage": "primary",
+   "n": 11,
+   "population": "A",
+   "question": "How has my collection of headlamps changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:billy:project_aircraft:aerial_wildlife_survey": {
+   "lineage": "primary",
+   "n": 12,
+   "note": null,
+   "population": "B",
+   "question": "What was my aerial wildlife survey for the project aircraft?",
+   "status": "PASS"
+  },
+  "cf2:bruna:breakfast_habit": {
+   "lineage": "primary",
+   "n": 13,
+   "population": "A",
+   "question": "How has my breakfast habit changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:bruna:marital_status": {
+   "lineage": "primary",
+   "n": 14,
+   "population": "A",
+   "question": "How has my marital status changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:bruna:profession_style": {
+   "lineage": "primary",
+   "n": 15,
+   "note": null,
+   "population": "A",
+   "question": "How has my profession style changed over time?",
+   "status": "PASS"
+  },
+  "cf2:bruna:rehabilitation_philosophy": {
+   "lineage": "primary",
+   "n": 16,
+   "population": "A",
+   "question": "How has my rehabilitation philosophy changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:callum:accommodation_option:conference": {
+   "lineage": "primary",
+   "n": 17,
+   "note": null,
+   "population": "B",
+   "question": "What was my conference accommodation option in the past?",
+   "status": "PASS"
+  },
+  "cf2:callum:accommodation_plan": {
+   "lineage": "primary",
+   "n": 18,
+   "note": null,
+   "population": "B",
+   "question": "What was my accommodation plan in the past?",
+   "status": "PASS"
+  },
+  "cf2:callum:family_member:fiona_hobby_running": {
+   "lineage": "primary",
+   "n": 19,
+   "note": "slot key carries the old value; passes (iii) as registered",
+   "population": "A",
+   "question": "How has my family member Fiona's hobby of running changed over time?",
+   "status": "PASS"
+  },
+  "cf2:callum:profession_specialization": {
+   "lineage": "primary",
+   "n": 20,
+   "note": null,
+   "population": "A",
+   "question": "How has my profession specialization changed over time?",
+   "status": "PASS"
+  },
+  "cf2:dariush:annual_event:Nowruz_dinner_guest_count": {
+   "lineage": "primary",
+   "n": 21,
+   "note": "'in the past' is ambiguous, but the planned count is a proper part of the answer",
+   "population": "B",
+   "question": "What was my guest count for the Nowruz dinner in the past?",
+   "status": "PASS"
+  },
+  "cf2:dariush:trip:Isfahan": {
+   "lineage": "primary",
+   "n": 22,
+   "note": null,
+   "population": "B",
+   "question": "When was my trip to Isfahan?",
+   "status": "PASS"
+  },
+  "cf2:dariush:trip_duration:Isfahan": {
+   "lineage": "primary",
+   "n": 23,
+   "note": null,
+   "population": "B",
+   "question": "What was the duration of my trip to Isfahan?",
+   "status": "PASS"
+  },
+  "cf2:david:coaching_event_date": {
+   "lineage": "primary",
+   "n": 24,
+   "note": null,
+   "population": "B",
+   "question": "When was my coaching event?",
+   "status": "PASS"
+  },
+  "cf2:david:project:debate_coaching_teams_qualified": {
+   "lineage": "primary",
+   "n": 25,
+   "note": null,
+   "population": "B",
+   "question": "Which teams qualified for my debate coaching project in the past?",
+   "status": "PASS"
+  },
+  "cf2:david:reading_volume": {
+   "lineage": "primary",
+   "n": 26,
+   "population": "A",
+   "question": "How has my reading volume changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:diane:emotional_state:nervous_about_greg_show": {
+   "lineage": "lineage2",
+   "n": 27,
+   "note": "record has no 'when'",
+   "population": "B",
+   "question": "What made me nervous about the Greg show in the past?",
+   "seed42_failure": "NO on ii",
+   "status": "PASS-SECOND-LINEAGE"
+  },
+  "cf2:diane:relationship:greg_project_folk_art_center": {
+   "n": 28,
+   "note": "record says only that Greg was accepted into a show; nothing about a relationship",
+   "population": "B",
+   "reason": "seed42 NO on ii; fallback byte-identical to the primary",
+   "status": "DROP"
+  },
+  "cf2:dmitri:primary_client": {
+   "lineage": "primary",
+   "n": 29,
+   "population": "A",
+   "question": "How has my primary client changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:dmitri:retainer_amount": {
+   "lineage": "primary",
+   "n": 30,
+   "note": null,
+   "population": "A",
+   "question": "How has my retainer amount changed over time?",
+   "status": "PASS"
+  },
+  "cf2:elena:decompression_method:phone_scrolling": {
+   "lineage": "primary",
+   "n": 31,
+   "population": "A",
+   "question": "How has my phone scrolling as a decompression method changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:elena:event:wedding_timeline": {
+   "lineage": "lineage2",
+   "n": 32,
+   "note": "the seed42 row is GATE-REJECTED; marked failed",
+   "population": "B",
+   "question": "What was my wedding timeline?",
+   "seed42_failure": "GATE-REJECTED",
+   "status": "PASS-SECOND-LINEAGE"
+  },
+  "cf2:elena:health_aid:light_therapy_lamp": {
+   "n": 33,
+   "note": "record is a delivery date, not use; question drifts to usage",
+   "population": "B",
+   "reason": "seed42 NO on ii, iv; seed4242 NO on ii, iv",
+   "status": "DROP"
+  },
+  "cf2:elena:sleep_schedule": {
+   "lineage": "primary",
+   "n": 34,
+   "population": "A",
+   "question": "How has my sleep schedule changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:elena:social_connection_status": {
+   "lineage": "primary",
+   "n": 35,
+   "population": "A",
+   "question": "How has my social connection status changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:elena:wedding_date": {
+   "lineage": "primary",
+   "n": 36,
+   "note": null,
+   "population": "B",
+   "question": "When was my wedding date?",
+   "status": "PASS"
+  },
+  "cf2:fatima:design_preference:geometric_drapery": {
+   "lineage": "primary",
+   "n": 37,
+   "population": "A",
+   "question": "How has my preference for geometric drapery in design changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:fatima:health_care:physiotherapy": {
+   "lineage": "primary",
+   "n": 38,
+   "population": "A",
+   "question": "How has my physiotherapy treatment changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:fatima:health_condition:back_pain_related_to_site_visits": {
+   "lineage": "primary",
+   "n": 39,
+   "population": "A",
+   "question": "How has my back pain related to site visits changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:fatima:personal_day_activity": {
+   "lineage": "primary",
+   "n": 40,
+   "note": null,
+   "population": "B",
+   "question": "What activities did I have planned for my day in the past?",
+   "status": "PASS"
+  },
+  "cf2:fatima:supplier_preference": {
+   "lineage": "primary",
+   "n": 41,
+   "population": "A",
+   "question": "How has my supplier preference changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:fatima:trip:Milan April 2026": {
+   "lineage": "primary",
+   "n": 42,
+   "note": null,
+   "population": "B",
+   "question": "What did I have planned for my trip to Milan in April 2026?",
+   "status": "PASS"
+  },
+  "cf2:fatima:trip_schedule:salone_del_mobile_2026": {
+   "lineage": "primary",
+   "n": 43,
+   "note": null,
+   "population": "B",
+   "question": "What was my trip schedule for Salone del Mobile 2026?",
+   "status": "PASS"
+  },
+  "cf2:ingrid:software_skill:R": {
+   "lineage": "primary",
+   "n": 44,
+   "note": null,
+   "population": "A",
+   "question": "How has my skill level in R changed over time?",
+   "status": "PASS"
+  },
+  "cf2:ingrid:software_tools": {
+   "lineage": "primary",
+   "n": 45,
+   "population": "A",
+   "question": "How has my use of software tools changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:jake:habit:juul_use_intensity": {
+   "lineage": "primary",
+   "n": 46,
+   "note": null,
+   "population": "A",
+   "question": "How has my juul use intensity changed over time?",
+   "status": "PASS"
+  },
+  "cf2:jake:health_belief_vaping_vs_smoking": {
+   "lineage": "primary",
+   "n": 47,
+   "note": null,
+   "population": "A",
+   "question": "How has my belief about the health effects of vaping compared to smoking changed over time?",
+   "status": "PASS"
+  },
+  "cf2:jake:preference:juul_flavor": {
+   "lineage": "primary",
+   "n": 48,
+   "note": null,
+   "population": "A",
+   "question": "How has my preference for juul flavors changed over time?",
+   "status": "PASS"
+  },
+  "cf2:jake:project:lake_trip_presidents_day_weekend": {
+   "lineage": "primary",
+   "n": 49,
+   "note": null,
+   "population": "B",
+   "question": "What did I have planned for my lake trip on Presidents Day weekend?",
+   "status": "PASS"
+  },
+  "cf2:jake:project_role:lake_trip": {
+   "lineage": "primary",
+   "n": 50,
+   "note": null,
+   "population": "B",
+   "question": "What was my role in the lake trip project?",
+   "status": "PASS"
+  },
+  "cf2:jake:vaping_frequency": {
+   "lineage": "primary",
+   "n": 51,
+   "population": "A",
+   "question": "How has my vaping frequency changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:jerome:project:Disney trip with Naomi": {
+   "n": 52,
+   "note": "asks how the trip went; the store records no outcome",
+   "population": "B",
+   "reason": "seed42 NO on ii; fallback byte-identical to the primary",
+   "status": "DROP"
+  },
+  "cf2:jerome:psychological_association_movement": {
+   "lineage": "primary",
+   "n": 53,
+   "note": null,
+   "population": "A",
+   "question": "How has my psychological association with movement changed over time?",
+   "status": "PASS"
+  },
+  "cf2:joonho:hobby:cooking_korean_food": {
+   "lineage": "primary",
+   "n": 54,
+   "population": "A",
+   "question": "How has my interest in cooking Korean food changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:joonho:lesson_preparation_routine": {
+   "lineage": "primary",
+   "n": 55,
+   "population": "A",
+   "question": "How has my lesson preparation routine changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:joonho:preference:home_cooked_meals": {
+   "lineage": "primary",
+   "n": 56,
+   "population": "A",
+   "question": "How has my preference for home-cooked meals changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:kenji:health_condition_cause:insomnia": {
+   "lineage": "primary",
+   "n": 57,
+   "note": null,
+   "population": "A",
+   "question": "How has my insomnia changed over time and what used to cause it compared to now?",
+   "status": "PASS"
+  },
+  "cf2:kenji:hourly_rate_level": {
+   "lineage": "primary",
+   "n": 58,
+   "note": null,
+   "population": "A",
+   "question": "How has my hourly rate level changed over time?",
+   "status": "PASS"
+  },
+  "cf2:kenji:pricing_skill": {
+   "lineage": "primary",
+   "n": 59,
+   "population": "A",
+   "question": "How has my pricing skill changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:kenji:work_pattern": {
+   "lineage": "primary",
+   "n": 60,
+   "population": "A",
+   "question": "How has my work pattern changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:kofi:cooperative_price_per_bag": {
+   "lineage": "primary",
+   "n": 61,
+   "population": "A",
+   "question": "How has my cooperative price per bag changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:kofi:malaria_treatment_cost": {
+   "lineage": "primary",
+   "n": 62,
+   "population": "A",
+   "question": "How has my malaria treatment cost changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:kofi:preparation_for_meeting": {
+   "lineage": "primary",
+   "n": 63,
+   "note": null,
+   "population": "B",
+   "question": "What was my preparation for the meeting?",
+   "status": "PASS"
+  },
+  "cf2:kofi:sleeping_arrangement:drying_shed": {
+   "lineage": "primary",
+   "n": 64,
+   "population": "A",
+   "question": "How has my sleeping arrangement in the drying shed changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:leila:daily_routine_preference": {
+   "lineage": "primary",
+   "n": 65,
+   "population": "A",
+   "question": "How has my daily routine preference changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:leila:health_condition:migraine_trigger_fluorescent_lights": {
+   "lineage": "primary",
+   "n": 66,
+   "population": "A",
+   "question": "How has my sensitivity to fluorescent lights as a migraine trigger changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:lily:health_condition:chronic skin condition": {
+   "lineage": "primary",
+   "n": 67,
+   "population": "A",
+   "question": "How has my chronic skin condition changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:lily:healthcare_provider:gp": {
+   "lineage": "primary",
+   "n": 68,
+   "population": "A",
+   "question": "How has my general practitioner changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:lily:methodological_opinion:microplastic_sampling": {
+   "lineage": "primary",
+   "n": 69,
+   "population": "A",
+   "question": "How has my methodological opinion on microplastic sampling changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:marcus:budget:kayla_graduation_celebration": {
+   "lineage": "primary",
+   "n": 70,
+   "note": null,
+   "population": "B",
+   "question": "What was my budget for Kayla's graduation celebration?",
+   "status": "PASS"
+  },
+  "cf2:marcus:event:Kayla_graduation_party": {
+   "lineage": "primary",
+   "n": 71,
+   "note": null,
+   "population": "B",
+   "question": "When was my Kayla graduation party?",
+   "status": "PASS"
+  },
+  "cf2:marcus:event_space_capacity": {
+   "lineage": "primary",
+   "n": 72,
+   "note": null,
+   "population": "B",
+   "question": "What was the capacity of the event space I used in the past?",
+   "status": "PASS"
+  },
+  "cf2:marcus:health_monitoring:blood sugar check": {
+   "lineage": "primary",
+   "n": 73,
+   "population": "A",
+   "question": "How has my blood sugar check changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:marcus:inventory_supplier": {
+   "lineage": "primary",
+   "n": 74,
+   "population": "A",
+   "question": "How has my inventory supplier changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:marcus:morning_phone_usage_duration": {
+   "lineage": "primary",
+   "n": 75,
+   "population": "A",
+   "question": "How has my morning phone usage duration changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:marcus:morning_routine:shower_and_dress": {
+   "lineage": "primary",
+   "n": 76,
+   "population": "A",
+   "question": "How has my morning routine for showering and dressing changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:marley:event_transportation": {
+   "n": 77,
+   "note": "record is a concern about one ceremony's logistics; question asks what was used, for events in general",
+   "population": "B",
+   "reason": "seed42 NO on ii, iv; fallback byte-identical to the primary",
+   "status": "DROP"
+  },
+  "cf2:marley:family_member:nan_hobby:cooking_routine": {
+   "lineage": "primary",
+   "n": 78,
+   "population": "A",
+   "question": "How has my nan's cooking routine changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:marley:graduation_guest_tickets": {
+   "lineage": "primary",
+   "n": 79,
+   "note": null,
+   "population": "B",
+   "question": "How many guest tickets did I have for my graduation?",
+   "status": "PASS"
+  },
+  "cf2:mehmet:lunch_habit": {
+   "lineage": "primary",
+   "n": 80,
+   "population": "A",
+   "question": "How has my lunch habit changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:mehmet:preparation:barber_trade_guild_annual_meeting": {
+   "lineage": "primary",
+   "n": 81,
+   "note": null,
+   "population": "B",
+   "question": "What was my preparation for the barber trade guild annual meeting?",
+   "status": "PASS"
+  },
+  "cf2:mehmet:project:air_conditioning_installation": {
+   "lineage": "primary",
+   "n": 82,
+   "note": null,
+   "population": "B",
+   "question": "When was my air conditioning installation project?",
+   "status": "PASS"
+  },
+  "cf2:mirri:morning_routine_preference": {
+   "lineage": "primary",
+   "n": 83,
+   "population": "A",
+   "question": "How has my morning routine preference changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:mirri:work_vehicle_condition": {
+   "lineage": "primary",
+   "n": 84,
+   "note": null,
+   "population": "A",
+   "question": "How has my work vehicle condition changed over time?",
+   "status": "PASS"
+  },
+  "cf2:nadia:shopping_preference:russian_store_decarie": {
+   "lineage": "primary",
+   "n": 85,
+   "note": "slot key carries the old value; passes (iii) as registered",
+   "population": "A",
+   "question": "How has my preference for shopping at the Russian store in Decarie changed over time?",
+   "status": "PASS"
+  },
+  "cf2:omar:budget_allocation": {
+   "lineage": "primary",
+   "n": 86,
+   "population": "A",
+   "question": "How has my budget allocation changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:omar:financial_obligation:mother_support_amount": {
+   "lineage": "primary",
+   "n": 87,
+   "population": "A",
+   "question": "How has my mother support amount changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:pan:dietary_habit:late_night_spicy_food": {
+   "lineage": "primary",
+   "n": 88,
+   "population": "A",
+   "question": "How has my habit of eating late night spicy food changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:pan:medication:omeprazole_dose": {
+   "lineage": "primary",
+   "n": 89,
+   "population": "A",
+   "question": "How has my omeprazole dose changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:pan:product_plan_songkran": {
+   "lineage": "primary",
+   "n": 90,
+   "note": null,
+   "population": "B",
+   "question": "What was my product plan for Songkran?",
+   "status": "PASS"
+  },
+  "cf2:patrick:mental_health_care": {
+   "lineage": "primary",
+   "n": 91,
+   "population": "A",
+   "question": "How has my mental health care changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:patrick:project:kitchen_cabinets_installation_preference": {
+   "lineage": "primary",
+   "n": 92,
+   "population": "A",
+   "question": "How has my preference for kitchen cabinets installation changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:priya:morning_routine": {
+   "lineage": "primary",
+   "n": 93,
+   "population": "A",
+   "question": "How has my morning routine changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:priya:productivity_habit": {
+   "lineage": "primary",
+   "n": 94,
+   "population": "A",
+   "question": "How has my productivity habit changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:priya:productivity_setup_time": {
+   "lineage": "primary",
+   "n": 95,
+   "population": "A",
+   "question": "How has my productivity setup time changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:raj:child_interest:Preet": {
+   "lineage": "primary",
+   "n": 96,
+   "note": null,
+   "population": "A",
+   "question": "How has my child Preet's interest changed over time?",
+   "status": "PASS"
+  },
+  "cf2:raj:health_condition_trigger:asthma_dust": {
+   "lineage": "primary",
+   "n": 97,
+   "population": "A",
+   "question": "How has my asthma triggered by dust changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:raj:website_hosting_budget": {
+   "lineage": "primary",
+   "n": 98,
+   "population": "A",
+   "question": "How has my website hosting budget changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:raj:work_safety_equipment:FFP3_mask": {
+   "lineage": "primary",
+   "n": 99,
+   "note": "slot key carries the old value; passes (iii) as registered",
+   "population": "A",
+   "question": "How has my use of the FFP3 mask changed over time at work?",
+   "status": "PASS"
+  },
+  "cf2:rosa:judicial_decision_approach": {
+   "lineage": "primary",
+   "n": 100,
+   "population": "A",
+   "question": "How has my approach to judicial decisions changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:saga:health_management_method": {
+   "lineage": "primary",
+   "n": 101,
+   "population": "A",
+   "question": "How has my health management method changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:saga:health_observation:stress_correlation": {
+   "lineage": "primary",
+   "n": 102,
+   "note": null,
+   "population": "A",
+   "question": "How has my stress correlation changed over time?",
+   "status": "PASS"
+  },
+  "cf2:samuel:surgical_training_philosophy": {
+   "lineage": "primary",
+   "n": 103,
+   "population": "A",
+   "question": "How has my surgical training philosophy changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:thanh:communication_preference:old_times": {
+   "n": 104,
+   "note": "slot name read as a time reference; the attribute is talking about old times",
+   "population": "A",
+   "reason": "seed42 NO on iv; seed4242 NO on iv",
+   "status": "DROP"
+  },
+  "cf2:thanh:family_member:lan_sales_volume": {
+   "lineage": "primary",
+   "n": 105,
+   "population": "A",
+   "question": "How has my family member Lan's sales volume changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:thanh:shrimp_sell_price_per_kilo": {
+   "lineage": "primary",
+   "n": 106,
+   "note": null,
+   "population": "A",
+   "question": "How has my shrimp sell price per kilo changed over time?",
+   "status": "PASS"
+  },
+  "cf2:thanh:sleep_schedule": {
+   "lineage": "primary",
+   "n": 107,
+   "population": "A",
+   "question": "How has my sleep schedule changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:tom:morning_radio_preference": {
+   "lineage": "primary",
+   "n": 108,
+   "population": "A",
+   "question": "How has my morning radio preference changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:tom:morning_tea_preference": {
+   "lineage": "primary",
+   "n": 109,
+   "note": "slot key carries the old value; passes (iii) as registered",
+   "population": "A",
+   "question": "How has my morning tea preference changed over time?",
+   "status": "PASS"
+  },
+  "cf2:valentina:career": {
+   "lineage": "primary",
+   "n": 110,
+   "population": "A",
+   "question": "How has my career changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:valentina:hobby:history_podcasts": {
+   "lineage": "primary",
+   "n": 111,
+   "population": "A",
+   "question": "How has my interest in history podcasts changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:valentina:job_attitude": {
+   "lineage": "primary",
+   "n": 112,
+   "population": "A",
+   "question": "How has my attitude towards my job changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:yoli:money_transfer_speed_preference": {
+   "lineage": "primary",
+   "n": 113,
+   "population": "A",
+   "question": "How has my preference for money transfer speed changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:yoli:primary_daw": {
+   "lineage": "primary",
+   "n": 114,
+   "population": "A",
+   "question": "How has my primary digital audio workstation changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:yoli:profession_or_hobby:music_production": {
+   "lineage": "primary",
+   "n": 115,
+   "note": null,
+   "population": "A",
+   "question": "How has my involvement in music production changed over time?",
+   "status": "PASS"
+  },
+  "cf2:yoli:software:ableton_live": {
+   "lineage": "primary",
+   "n": 116,
+   "note": "slot key carries the old value; passes (iii) as registered",
+   "population": "A",
+   "question": "How has my use of Ableton Live changed over time?",
+   "status": "PASS"
+  },
+  "cf2:zara:health_condition:vitamin_D_deficiency": {
+   "lineage": "primary",
+   "n": 117,
+   "population": "A",
+   "question": "How has my vitamin D deficiency changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  },
+  "cf2:zara:medication:vitamin D supplement dosage": {
+   "lineage": "primary",
+   "n": 118,
+   "population": "A",
+   "question": "How has my vitamin D supplement dosage changed over time?",
+   "status": "PASS-RESERVE-UNJUDGED"
+  }
+ },
+ "returned": "reviews/r121/build/AUTHOR_CHECK_R121_returned.xlsx",
+ "returned_sha256": "be79963e0a328761aec0ca0d0300de78efc8ef1d114254a0540fcbf1ae585c49",
+ "second_lineage": [
+  {
+   "n": 27,
+   "note": "record has no 'when'",
+   "pair_id": "cf2:diane:emotional_state:nervous_about_greg_show",
+   "population": "B",
+   "question": "What made me nervous about the Greg show in the past?",
+   "seed42_failure": "NO on ii"
+  },
+  {
+   "n": 32,
+   "note": "the seed42 row is GATE-REJECTED; marked failed",
+   "pair_id": "cf2:elena:event:wedding_timeline",
+   "population": "B",
+   "question": "What was my wedding timeline?",
+   "seed42_failure": "GATE-REJECTED"
+  }
+ ],
+ "sent_sha256": "bbde1710225ecad7a6e7846e4fd1863d1ac26b81c94133dd33af755168406bb5"
+}

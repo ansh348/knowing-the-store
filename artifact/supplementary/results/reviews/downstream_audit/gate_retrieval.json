@@ -1,0 +1,20 @@
+{
+ "bad": [],
+ "config": {
+  "bank_vectors": "LifeMemEval/artifacts/lifecycle_banks/<persona>_embeddings.npz",
+  "k_take": 10,
+  "k_use": 5,
+  "lifecycle_mask": "none (unmasked; TRUE lifecycle metadata printed on every line)",
+  "query": "the item's question text, embedded once with text-embedding-3-small (1536-d), pinned in resp_review/l2/question_emb.npz",
+  "question_matrix_sha256": "341354661e40b7f0508d11f7a7274833064a600c02c7155310f237ae88d023cf",
+  "ranking": "np.argsort(-cosine) (non-stable; ties beyond rank 10 could permute; the gate covers ranks 1-10)",
+  "retriever": "LifecycleBank.cosine_search_all (lifecycle_bank.py:402-414) over the item's store variant (resp_common.variant_ids), every entry active or not"
+ },
+ "n_items": 661,
+ "n_ok": 661,
+ "ok": true,
+ "store_size": {
+  "max": 622,
+  "min": 156
+ }
+}

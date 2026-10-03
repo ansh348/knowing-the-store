@@ -1,0 +1,2002 @@
+{
+ "elicitation": {
+  "cached": 0,
+  "failed": 0,
+  "rows": 661
+ },
+ "per_row": {
+  "frbank:aisha:aisha_q02:FULL|a084b1c851a648be": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.2,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.6666666666666666,
+   "successor_use": false
+  },
+  "frbank:aisha:aisha_q02:SLOT-ABLATED|55c3d83d09576cfe": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:aisha:aisha_q03:CAT-ABLATED|80395670bf21e141": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.16666666666666666,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:aisha:aisha_q03:FULL|c2ec00bfe6736abd": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.3333333333333333,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:aisha:aisha_q03:SLOT-ABLATED|c2ec00bfe6736abd": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.3333333333333333,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:aisha:aisha_q05:FULL|7d9e668a27b0f472": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:aisha:aisha_q08:FULL|5b9d25a0c3b13864": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:alex:alex_q05:FULL|f432c4c69cfd3894": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.25,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:alex:alex_q07:FULL|783a661713e9b338": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.2857142857142857,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:alex:alex_q11:FULL|2a7522474b376da9": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.6666666666666666,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:alex:alex_q12:CAT-ABLATED|5e57f8860bb8145f": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.25,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:alex:alex_q12:FULL|8451fbcc9d50f507": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.25,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:amara:amara_q03:FULL|15e53b1db57bfcdb": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.14285714285714285,
+   "successor_use": false
+  },
+  "frbank:amara:amara_q03:SLOT-ABLATED|0187764344f5930d": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.14285714285714285,
+   "successor_use": false
+  },
+  "frbank:amara:amara_q04:FULL|bf9c811cd3b760c4": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.6666666666666666,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:amara:amara_q12:FULL|4fcbfa0ac74bf79d": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:aroha:aroha_q03:CAT-ABLATED|629c84e777a6e12c": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:aroha:aroha_q03:FULL|cc7e3f37c89a1f9c": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:aroha:aroha_q05:FULL|2b20ddd15b94ee1a": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.4444444444444444,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:aroha:aroha_q06:FULL|0d40d205c37b11e5": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.14285714285714285,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:billy:billy_q05:FULL|bc807c9cb9e79e3b": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:billy:billy_q06:FULL|b35b432252720538": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:bruna:bruna_q04:FULL|0b16816b7570f004": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:bruna:bruna_q05:CAT-ABLATED|a0c0f5ad8bb4b995": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:bruna:bruna_q05:FULL|b5a25151de74723c": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:bruna:bruna_q08:CAT-ABLATED|cb7b118a9a3fc9c6": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.75,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:bruna:bruna_q08:FULL|cb7b118a9a3fc9c6": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.75,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:bruna:bruna_q09:CAT-ABLATED|54fa790c65600d40": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.1111111111111111,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:bruna:bruna_q09:FULL|0ddd2439c25c390c": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:bruna:bruna_q11:CAT-ABLATED|2f1e0bbeda1d7d38": {
+   "both": null,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_use": null
+  },
+  "frbank:callum:callum_q04:CAT-ABLATED|150768c1d72adf33": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.75,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:callum:callum_q04:FULL|150768c1d72adf33": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.75,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:callum:callum_q05:FULL|199ef5dc1bd227ea": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.42857142857142855,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:callum:callum_q07:FULL|04f2ce7b1d68beda": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:callum:callum_q08:CAT-ABLATED|8ee34ab8220ecd63": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:callum:callum_q08:FULL|8ee34ab8220ecd63": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:callum:callum_q09:CAT-ABLATED|9d5c500649967d49": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:callum:callum_q09:FULL|9d5c500649967d49": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:chenoa:chenoa_q01:FULL|85ffaa12e5382546": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.2727272727272727,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:chenoa:chenoa_q05:FULL|1be811cb3a4252d5": {
+   "correct": true,
+   "correct_tau_hi": true,
+   "gold_cov": 0.8888888888888888,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:chenoa:chenoa_q06:FULL|57a9aacea3476a09": {
+   "correct": true,
+   "correct_tau_hi": true,
+   "gold_cov": 0.8333333333333334,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:chenoa:chenoa_q10:FULL|e6beeb212c6c141e": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.5714285714285714,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:dariush:dariush_q04:FULL|42de6752eb8d1080": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": null
+  },
+  "frbank:dariush:dariush_q04:SLOT-ABLATED|a821ddcdd5768637": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.6666666666666666,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": true,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": null
+  },
+  "frbank:dariush:dariush_q05:FULL|c90e87b1c98a23de": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.1111111111111111,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:dariush:dariush_q06:FULL|1399e8fcdf5e99c3": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:dariush:dariush_q09:CAT-ABLATED|5744e62b8f53e9e5": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.25,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:dariush:dariush_q09:FULL|5744e62b8f53e9e5": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.25,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:dariush:dariush_q11:CAT-ABLATED|8a8198762b78aa2b": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.3333333333333333,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:dariush:dariush_q11:FULL|83a4cf17081db9f3": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.3333333333333333,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:david:david_q05:FULL|967b6054fbd55984": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.2857142857142857,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:david:david_q06:CAT-ABLATED|c65c804ae433b38e": {
+   "both": null,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_use": null
+  },
+  "frbank:david:david_q06:FULL|3277b5b20f7f6e86": {
+   "both": null,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_use": null
+  },
+  "frbank:david:david_q08:FULL|102b28d17f2c3532": {
+   "correct": true,
+   "correct_tau_hi": true,
+   "gold_cov": 1.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:david:david_q09:FULL|b1bf94e69fad6095": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:david:david_q10:CAT-ABLATED|1f79fac9a79216af": {
+   "correct": true,
+   "correct_tau_hi": true,
+   "gold_cov": 0.8333333333333334,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:david:david_q10:FULL|ad9309e7d5c80d8c": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.5,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:david:david_q11:CAT-ABLATED|549afd6257cd321a": {
+   "both": null,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_use": null
+  },
+  "frbank:david:david_q11:FULL|549afd6257cd321a": {
+   "both": null,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_use": null
+  },
+  "frbank:diane:diane_q04:FULL|3cf1876c69c43346": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:diane:diane_q05:FULL|25a725c91f24c8d0": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:diane:diane_q08:CAT-ABLATED|37f797576cdca23b": {
+   "correct": true,
+   "correct_tau_hi": true,
+   "gold_cov": 0.8,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:diane:diane_q08:FULL|37f797576cdca23b": {
+   "correct": true,
+   "correct_tau_hi": true,
+   "gold_cov": 0.8,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:diane:diane_q09:FULL|a76c929e3bd2d93b": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.125,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:diane:diane_q11:CAT-ABLATED|5385af2caac1035c": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.75,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:diane:diane_q11:FULL|d3007b99819be617": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.75,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:dmitri:dmitri_q05:FULL|4bd829fffdc74f99": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:elena:elena_q01:CAT-ABLATED|9a04fd185b365bcc": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.5,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": true,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:elena:elena_q01:FULL|0c1b0faef7f8b223": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.25,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:elena:elena_q01:SLOT-ABLATED|0c1b0faef7f8b223": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.25,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:elena:elena_q02:CAT-ABLATED|cda98be01ca20771": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.4,
+   "successor_use": false
+  },
+  "frbank:elena:elena_q02:FULL|3c68287674509653": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.4,
+   "successor_use": false
+  },
+  "frbank:elena:elena_q05:CAT-ABLATED|0e2f57e75bdc4d34": {
+   "both": null,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_use": null
+  },
+  "frbank:elena:elena_q05:FULL|0e2f57e75bdc4d34": {
+   "both": null,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_use": null
+  },
+  "frbank:elena:elena_q08:FULL|80bcea3e8259c943": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.42857142857142855,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:elena:elena_q09:FULL|2ca2a92f74b9ea7a": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:elena:elena_q10:FULL|d3628568bf1ac42e": {
+   "both": null,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_use": null
+  },
+  "frbank:fatima:fatima_q02:FULL|f0f2b72e328b2bc7": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.16666666666666666,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.6666666666666666,
+   "successor_use": false
+  },
+  "frbank:fatima:fatima_q02:SLOT-ABLATED|807389b811a291d9": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.16666666666666666,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.3333333333333333,
+   "successor_use": false
+  },
+  "frbank:fatima:fatima_q04:FULL|9499049ba8751f5d": {
+   "correct": true,
+   "correct_tau_hi": true,
+   "gold_cov": 1.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:fatima:fatima_q05:FULL|cda748196d676ac0": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:fatima:fatima_q06:FULL|71a7fb9cbf2ef87e": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.6,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": true,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": null
+  },
+  "frbank:fatima:fatima_q07:FULL|13d41fa683c052fb": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.5714285714285714,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:fatima:fatima_q09:CAT-ABLATED|56d8689b0d6243d0": {
+   "correct": true,
+   "correct_tau_hi": true,
+   "gold_cov": 0.8888888888888888,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:fatima:fatima_q09:FULL|e6a023f71d03709d": {
+   "correct": true,
+   "correct_tau_hi": true,
+   "gold_cov": 0.8888888888888888,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:fatima:fatima_q11:CAT-ABLATED|8496763e2470a08b": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:fatima:fatima_q11:FULL|06a840f434c701e6": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:ingrid:ingrid_q01:CAT-ABLATED|6154a72ed4ebcd04": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.2,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.6666666666666666,
+   "successor_use": false
+  },
+  "frbank:ingrid:ingrid_q01:FULL|61a232e52bddd491": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.2,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.6666666666666666,
+   "successor_use": false
+  },
+  "frbank:ingrid:ingrid_q01:SLOT-ABLATED|2b00d3d299fee09e": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.2,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.16666666666666666,
+   "successor_use": false
+  },
+  "frbank:ingrid:ingrid_q05:FULL|82fbc8ac2f06e090": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.42857142857142855,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:ingrid:ingrid_q06:CAT-ABLATED|57916160bcfbd6e4": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:ingrid:ingrid_q06:FULL|fc44a88eb2f6a356": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:ingrid:ingrid_q08:CAT-ABLATED|ba7267ada21a6b9d": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:jake:jake_q03:FULL|0aa1c0c015b4b7a2": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:jake:jake_q04:FULL|f22003bc5f01a26b": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:jake:jake_q06:CAT-ABLATED|13e93567a081e3c0": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:jake:jake_q06:FULL|13e93567a081e3c0": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:jake:jake_q11:FULL|131f342b26ed61a3": {
+   "both": null,
+   "scored": true,
+   "stale_cov": 0.6,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": true,
+   "status": "OK",
+   "successor_use": null
+  },
+  "frbank:jake:jake_q12:FULL|c5b8bbe4f14d9360": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.5,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:jerome:jerome_q02:CAT-ABLATED|f69c4ad894fc6f40": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.14285714285714285,
+   "successor_use": false
+  },
+  "frbank:jerome:jerome_q02:FULL|470444c54e010ca3": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.14285714285714285,
+   "successor_use": false
+  },
+  "frbank:jerome:jerome_q02:SLOT-ABLATED|470444c54e010ca3": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.14285714285714285,
+   "successor_use": false
+  },
+  "frbank:jerome:jerome_q03:FULL|2d2381764ce1fb69": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.3333333333333333,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.7142857142857143,
+   "successor_use": false
+  },
+  "frbank:jerome:jerome_q05:FULL|16eda70015069f90": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.3,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:jerome:jerome_q06:FULL|668ec69eb89ff1ce": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.625,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:jerome:jerome_q07:CAT-ABLATED|70439b59347d5c58": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:jerome:jerome_q07:FULL|9f45ffc68d574df1": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:jerome:jerome_q11:FULL|b151fe387725714e": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.375,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:joonho:joonho_q04:SLOT-ABLATED|94ed40c788ee6aa4": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": null
+  },
+  "frbank:joonho:joonho_q06:FULL|80d1e033e3d142a5": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:joonho:joonho_q07:FULL|21004173e01a61c8": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.14285714285714285,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:kenji:kenji_q03:SLOT-ABLATED|99d1b12e9d8668d4": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:kenji:kenji_q05:FULL|82eb37975961a79e": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.1111111111111111,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:kenji:kenji_q07:FULL|460af829d6ca7504": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:kenji:kenji_q09:FULL|73df6ea0b3552fce": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.5,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:kenji:kenji_q12:CAT-ABLATED|a1888e6acb1c5674": {
+   "correct": true,
+   "correct_tau_hi": true,
+   "gold_cov": 1.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:kenji:kenji_q12:FULL|1c9c2009de7dbd61": {
+   "correct": true,
+   "correct_tau_hi": true,
+   "gold_cov": 1.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:kofi:kofi_q01:SLOT-ABLATED|0113e4dcf79b6421": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.5,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": true,
+   "status": "OK",
+   "successor_cov": 0.125,
+   "successor_use": false
+  },
+  "frbank:kofi:kofi_q02:FULL|173315c9a08350b2": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.3333333333333333,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:kofi:kofi_q02:SLOT-ABLATED|125dc29ed14eaa3e": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.3333333333333333,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.14285714285714285,
+   "successor_use": false
+  },
+  "frbank:kofi:kofi_q06:CAT-ABLATED|2ddfa5c611b09ef1": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:kofi:kofi_q06:FULL|2ddfa5c611b09ef1": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:kofi:kofi_q09:FULL|1c59cb8e93531764": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.625,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:leila:leila_q05:FULL|d30062258858ec4c": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.6666666666666666,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:leila:leila_q08:FULL|8546b61945721e66": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.5,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:lily:lily_q01:FULL|7af9acf40dfdf558": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.25,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.5714285714285714,
+   "successor_use": false
+  },
+  "frbank:lily:lily_q01:SLOT-ABLATED|03c509c2fd3cb427": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:lily:lily_q05:CAT-ABLATED|fa961cb271316060": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.7142857142857143,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:lily:lily_q05:FULL|fe522f5ecf19cd9e": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.7142857142857143,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:lily:lily_q06:FULL|fb6986727bbdaef4": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.16666666666666666,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": null
+  },
+  "frbank:lily:lily_q06:SLOT-ABLATED|fb6986727bbdaef4": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.16666666666666666,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": null
+  },
+  "frbank:lily:lily_q07:FULL|7f9787251467adbf": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:lily:lily_q08:FULL|d0840bf70f2cc7c7": {
+   "correct": true,
+   "correct_tau_hi": true,
+   "gold_cov": 0.8333333333333334,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:lily:lily_q09:CAT-ABLATED|e1426bab79e22e41": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:lily:lily_q09:FULL|ae803e551e92b6ad": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:lily:lily_q11:CAT-ABLATED|3d5193a2c62d9e11": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:lily:lily_q11:FULL|e0fed5028d7fc4be": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:marcus:marcus_q04:FULL|b2caf21c1a00de0a": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.4,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:marcus:marcus_q08:FULL|e93f2e4188ad947b": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:marcus:marcus_q10:FULL|7b437d1259c5ea12": {
+   "both": null,
+   "scored": true,
+   "stale_cov": 0.4,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_use": null
+  },
+  "frbank:marcus:marcus_q12:FULL|0f32feef9e8d196c": {
+   "both": null,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_use": null
+  },
+  "frbank:marley:marley_q05:FULL|972053adfc6676b5": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.16666666666666666,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:mehmet:mehmet_q02:CAT-ABLATED|0e2c0a1646bd690d": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.2,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:mehmet:mehmet_q02:FULL|390489991cae222f": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.2,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:mehmet:mehmet_q02:SLOT-ABLATED|55ae2006c1c45af3": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.4,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:mehmet:mehmet_q05:FULL|885e2401b190898d": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:mehmet:mehmet_q06:FULL|0c1b339165a85e4f": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:mehmet:mehmet_q10:CAT-ABLATED|aadb2cbe8b1c7309": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:mehmet:mehmet_q10:FULL|4adb5d3c68e22e72": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:mehmet:mehmet_q13:CAT-ABLATED|beba92e0f6fbe415": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.6,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:mehmet:mehmet_q13:FULL|c74aa977a85c8761": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.6,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:mirri:mirri_q01:FULL|259ec0c4d9eaf246": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.5,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": true,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:mirri:mirri_q01:SLOT-ABLATED|d78671dbbc630ccb": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.625,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": true,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:mirri:mirri_q04:FULL|39330ade9d7a1070": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.7142857142857143,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": true,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": null
+  },
+  "frbank:mirri:mirri_q04:SLOT-ABLATED|39330ade9d7a1070": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.7142857142857143,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": true,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": null
+  },
+  "frbank:mirri:mirri_q05:FULL|1c5f6ff80e6b5ac6": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.5,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:mirri:mirri_q10:CAT-ABLATED|21a3b96d2077ec4a": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.125,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:mirri:mirri_q10:FULL|4bee07df712c43d4": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.25,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:nadia:nadia_q02:CAT-ABLATED|9e532147a37cad6d": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.2,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:nadia:nadia_q02:FULL|b124b9fdc24dc565": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:nadia:nadia_q05:FULL|e38f53adc180b7da": {
+   "correct": true,
+   "correct_tau_hi": true,
+   "gold_cov": 0.8333333333333334,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:nadia:nadia_q06:SLOT-ABLATED|e4a7c858f45b8181": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.4,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": null
+  },
+  "frbank:nadia:nadia_q07:FULL|5fba739403e54d49": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:omar:omar_q03:FULL|f8a4caa5817472c1": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:omar:omar_q09:FULL|fba2f3ef34cf0301": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.16666666666666666,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:pan:pan_q01:CAT-ABLATED|6ea1fd8525e79794": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.75,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": true,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:pan:pan_q01:FULL|c150bb6970c0e0f3": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.25,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.4,
+   "successor_use": false
+  },
+  "frbank:pan:pan_q01:SLOT-ABLATED|c150bb6970c0e0f3": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.375,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.4,
+   "successor_use": false
+  },
+  "frbank:pan:pan_q05:CAT-ABLATED|16d16abec197ca09": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.3333333333333333,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:pan:pan_q05:FULL|16d16abec197ca09": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.3333333333333333,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:pan:pan_q06:CAT-ABLATED|8eef59b535b2d364": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.5555555555555556,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:pan:pan_q06:FULL|cc27ac0e261ab655": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.5555555555555556,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:pan:pan_q10:FULL|6d60df716b296f2f": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.6363636363636364,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:pan:pan_q11:FULL|1b6584bc9b82e1e6": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.14285714285714285,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:patrick:patrick_q05:FULL|82b8c80a1af6379e": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:patrick:patrick_q08:FULL|eedc5c28480d002a": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:priya:priya_q09:FULL|e0b2bb0a7356af2f": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.16666666666666666,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:raj:raj_q03:FULL|431768358a651d13": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:raj:raj_q03:SLOT-ABLATED|431768358a651d13": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:raj:raj_q04:CAT-ABLATED|98df0002789a5b9a": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.25,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:raj:raj_q04:FULL|b53233f333788658": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.25,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:raj:raj_q05:FULL|841199384fa409be": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:raj:raj_q07:FULL|ca392bb4b60bb3ce": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.125,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:raj:raj_q08:CAT-ABLATED|7cc325c0fc913a3f": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.16666666666666666,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:raj:raj_q08:FULL|596db9241caa6933": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.16666666666666666,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:raj:raj_q09:FULL|623ced4befc0672c": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:raj:raj_q12:CAT-ABLATED|1e0c9869363fc9af": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.14285714285714285,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:raj:raj_q12:FULL|f946a7aaef16de59": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:rosa:rosa_q04:FULL|65b66c22c9f02a34": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:rosa:rosa_q06:CAT-ABLATED|616f62c69e28f366": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.3333333333333333,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": null
+  },
+  "frbank:rosa:rosa_q06:FULL|616f62c69e28f366": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.3333333333333333,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": null
+  },
+  "frbank:rosa:rosa_q06:SLOT-ABLATED|4d8c1026f479ee22": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": null
+  },
+  "frbank:rosa:rosa_q08:FULL|a7bf70c1bf1be0ee": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:saga:saga_q02:FULL|38de3cfa7080ff65": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.16666666666666666,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.4,
+   "successor_use": false
+  },
+  "frbank:saga:saga_q02:SLOT-ABLATED|f0ecf38bbc29bd4f": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:saga:saga_q06:FULL|84664519969f2865": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:samuel:samuel_q02:CAT-ABLATED|88c6214fe6c8a461": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.8333333333333334,
+   "successor_use": true
+  },
+  "frbank:samuel:samuel_q02:FULL|b4fa4a4d7e4bc56c": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:samuel:samuel_q02:SLOT-ABLATED|b4fa4a4d7e4bc56c": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:samuel:samuel_q04:FULL|7fb499e905a6986a": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.7142857142857143,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:samuel:samuel_q08:CAT-ABLATED|0572350744624eac": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.625,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:samuel:samuel_q08:FULL|a061d6495757d51e": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.625,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:samuel:samuel_q12:FULL|a4e78a96e3bbf914": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:thanh:thanh_q02:CAT-ABLATED|7b07977c9ad1ce46": {
+   "both": null,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_use": null
+  },
+  "frbank:thanh:thanh_q02:FULL|40773509689c6a9e": {
+   "both": null,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_use": null
+  },
+  "frbank:thanh:thanh_q07:FULL|7f29935ef83603a7": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:thanh:thanh_q11:FULL|29e1569e00b28008": {
+   "correct": true,
+   "correct_tau_hi": true,
+   "gold_cov": 0.8181818181818182,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:thanh:thanh_q13:CAT-ABLATED|24fc7028a5ba7661": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:thanh:thanh_q13:FULL|064c324e9893f651": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:tom:tom_q04:FULL|0595f1ca735118b0": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:tom:tom_q06:FULL|0f3cd69f13c7634f": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.6666666666666666,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": true,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": null
+  },
+  "frbank:tom:tom_q06:SLOT-ABLATED|7f63b2ce3ef60922": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.6666666666666666,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": true,
+   "status": "OK",
+   "successor_cov": 0.2,
+   "successor_use": null
+  },
+  "frbank:tom:tom_q08:FULL|e2a4bb700ca93242": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.16666666666666666,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:tom:tom_q09:CAT-ABLATED|0efa4e7b107b2584": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.42857142857142855,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:tom:tom_q09:FULL|663ebe5cbf41afa4": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.2857142857142857,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:tom:tom_q11:CAT-ABLATED|fc71e365293cf938": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:tom:tom_q11:FULL|fc71e365293cf938": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:valentina:valentina_q03:FULL|e0bb5c533dbe6090": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:valentina:valentina_q03:SLOT-ABLATED|e0bb5c533dbe6090": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:valentina:valentina_q04:FULL|7c2e65cf3afde185": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.25,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": null
+  },
+  "frbank:valentina:valentina_q05:FULL|3cb0d0591dddde1e": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.16666666666666666,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:valentina:valentina_q07:CAT-ABLATED|6107ff7f202cacd2": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:valentina:valentina_q07:FULL|6107ff7f202cacd2": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:valentina:valentina_q13:CAT-ABLATED|9673284c2c1dc8d4": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:valentina:valentina_q13:FULL|e25467a09c38aeaf": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.0,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:yoli:yoli_q05:FULL|d5bc177190330009": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.5555555555555556,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:yoli:yoli_q06:FULL|c321c2fef8fead4b": {
+   "correct": true,
+   "correct_tau_hi": false,
+   "gold_cov": 0.5,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:yoli:yoli_q07:FULL|a007ab70805e1c86": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.125,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:yoli:yoli_q08:FULL|2918c01381ce8ffc": {
+   "correct": false,
+   "correct_tau_hi": false,
+   "gold_cov": 0.3333333333333333,
+   "scored": true,
+   "status": "OK"
+  },
+  "frbank:zara:zara_q02:CAT-ABLATED|12d79ac4cd84d1ee": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:zara:zara_q02:FULL|9adc4897d7d61801": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  },
+  "frbank:zara:zara_q02:SLOT-ABLATED|db86298aae46a8da": {
+   "both": false,
+   "scored": true,
+   "stale_cov": 0.0,
+   "stale_surface": false,
+   "stale_use": false,
+   "stale_use_tau_gold": false,
+   "status": "OK",
+   "successor_cov": 0.0,
+   "successor_use": false
+  }
+ },
+ "policy": "MODEL-ALL-V3",
+ "registration_sha256": "72ab84dae2c7e464b1488570d4098aebf59b1de0d442ddc7b6f79a57bfcbbcf5",
+ "spend": {
+  "elicit": 0.4489008,
+  "probe": 0.0006928,
+  "stage2": 0.008314400000000001,
+  "total": 0.457908
+ },
+ "stage2": {
+  "new_calls": 21,
+  "pn_abstained": 19,
+  "pn_all": {
+   "both": 0,
+   "n": 78,
+   "n_supersession": 50,
+   "stale_surface": 0,
+   "stale_use": 0,
+   "stale_use_tau_gold": 12,
+   "successor_use": 1
+  },
+  "pn_answered": 78,
+  "pn_state_exp": {
+   "n": 13,
+   "stale_use": 0,
+   "stale_use_tau_gold": 1
+  },
+  "pn_state_ret": {
+   "n": 15,
+   "stale_use": 0,
+   "stale_use_tau_gold": 6
+  },
+  "pn_state_sup": {
+   "n": 50,
+   "stale_use": 0,
+   "stale_use_tau_gold": 5
+  },
+  "pn_tagged": {
+   "both": 0,
+   "n": 67,
+   "n_supersession": 50,
+   "stale_surface": 0,
+   "stale_use": 0,
+   "stale_use_tau_gold": 10,
+   "successor_use": 1
+  },
+  "pn_untagged": {
+   "both": 0,
+   "n": 11,
+   "n_supersession": 0,
+   "stale_surface": 0,
+   "stale_use": 0,
+   "stale_use_tau_gold": 2,
+   "successor_use": 0
+  },
+  "present": {
+   "correct": 44,
+   "correct_tau_hi": 14,
+   "n": 155
+  },
+  "present_answered": 155,
+  "recorded_reused": 212
+ },
+ "when": "2026-09-13T18:09:11"
+}

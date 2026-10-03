@@ -1,0 +1,346 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 16,
+    "in": 16919,
+    "out": 5979,
+    "usd": 0.016334
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 5,
+  "persona": "jake",
+  "probes": [
+    {
+      "domain": "Leisure",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "name",
+        "you"
+      ],
+      "max_cosine": 0.1614,
+      "note": "",
+      "question": "What was the name of the last book you read for pleasure?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1614,
+          "entry_id": "lb_00280",
+          "text": "User visited Trillium Brewing about a month ago and developed a strong preference for their beer."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1554,
+          "entry_id": "lb_00329",
+          "text": "User's favorite sub is Sully's Italian"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1506,
+          "entry_id": "lb_00175",
+          "text": "User had the 6th pick in last year's fantasy football draft and finished 8th."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1488,
+          "entry_id": "lb_00353",
+          "text": "User has a favorite childhood memory of going to get ice cream in Dorchester with mom and sister after church every Sunday"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1478,
+          "entry_id": "lb_00168",
+          "text": "User had the 6th pick in last year's fantasy football draft"
+        }
+      ],
+      "why_absent": "No information about Jake's reading habits or specific books read is stored."
+    },
+    {
+      "domain": "Personal History",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "birthday",
+        "you"
+      ],
+      "max_cosine": 0.3954,
+      "note": "",
+      "question": "Can you tell me the details of your favorite childhood birthday party?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3954,
+          "entry_id": "lb_00353",
+          "text": "User has a favorite childhood memory of going to get ice cream in Dorchester with mom and sister after church every Sunday"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3118,
+          "entry_id": "lb_00352",
+          "text": "User grew up going to church and having Sunday ice cream trips in Dorchester with mom and sister"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2738,
+          "entry_id": "lb_00098",
+          "text": "User's family celebrates St. Patrick's Day with a neighborhood parade in Southie and soda bread tradition"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.268,
+          "entry_id": "lb_00093",
+          "text": "User's grandma used to make soda bread and host the whole family before the St. Patrick's Day parade."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2614,
+          "entry_id": "lb_00096",
+          "text": "User's family still gets together for St. Patrick's Day in Southie with a big neighborhood celebration."
+        }
+      ],
+      "why_absent": "No data about Jake's childhood events or birthday parties is present."
+    },
+    {
+      "domain": "Entertainment Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "home",
+        "you"
+      ],
+      "max_cosine": 0.2491,
+      "note": "",
+      "question": "What kind of music do you usually listen to when relaxing at home?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2491,
+          "entry_id": "lb_00260",
+          "text": "User prefers date spots that are not too fancy or too casual, aiming for a chill atmosphere with good food."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2419,
+          "entry_id": "lb_00139",
+          "text": "User enjoys watching basketball games, especially Celtics games"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2184,
+          "entry_id": "lb_00073",
+          "text": "User experiences significant muscle soreness after hockey games and plans to use a foam roller and epsom salt baths for recovery."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2139,
+          "entry_id": "lb_00071",
+          "text": "User has a girlfriend who likely has epsom salt at home."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2028,
+          "entry_id": "lb_00019",
+          "text": "User lives in an apartment"
+        }
+      ],
+      "why_absent": "No stored attributes cover Jake's music tastes or listening habits."
+    },
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.1543,
+      "note": "",
+      "question": "What was the last movie you saw in a theater, and what did you think of it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1543,
+          "entry_id": "lb_00137",
+          "text": "User watched a Celtics game with a friend named Danny at a bar near their place in Southie on a Monday night."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1522,
+          "entry_id": "lb_00280",
+          "text": "User visited Trillium Brewing about a month ago and developed a strong preference for their beer."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.147,
+          "entry_id": "lb_00136",
+          "text": "User was at a bar in Southie with Danny on a Monday night watching a Celtics game."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1393,
+          "entry_id": "lb_00263",
+          "text": "User recently ended a relationship with Megan and has not dated anyone since."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.132,
+          "entry_id": "lb_00284",
+          "text": "User's friend Danny usually picky about beer but liked Trillium IPAs."
+        }
+      ],
+      "why_absent": "No information about Jake's movie watching history or opinions is stored."
+    },
+    {
+      "domain": "Home Life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.2137,
+      "note": "",
+      "question": "Do you have any pets, and if so, what are their names and breeds?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2137,
+          "entry_id": "lb_00003",
+          "text": "User has a roommate named Danny"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2099,
+          "entry_id": "lb_00303",
+          "text": "User lives with a roommate named Danny who still vapes in their shared apartment."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2054,
+          "entry_id": "lb_00060",
+          "text": "User's partner is named Megan"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2023,
+          "entry_id": "lb_00247",
+          "text": "User's roommate is named Danny and uses a PS5."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1881,
+          "entry_id": "lb_00038",
+          "text": "User's girlfriend's name is Megan"
+        }
+      ],
+      "why_absent": "No data about pets or animals in Jake's life is included."
+    },
+    {
+      "domain": "Culinary Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "home",
+        "type"
+      ],
+      "max_cosine": 0.3108,
+      "note": "",
+      "question": "What is your favorite type of cuisine to cook at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3108,
+          "entry_id": "lb_00257",
+          "text": "Kayla likes sushi and Japanese food."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3054,
+          "entry_id": "lb_00227",
+          "text": "User works all day and is often too tired to cook a full meal in the evening."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3002,
+          "entry_id": "lb_00254",
+          "text": "User is interested in sushi and Japanese food."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2974,
+          "entry_id": "lb_00329",
+          "text": "User's favorite sub is Sully's Italian"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2638,
+          "entry_id": "lb_00261",
+          "text": "User is okay with sushi and Japanese food for dates."
+        }
+      ],
+      "why_absent": "No stored details about Jake's cooking habits or favorite cuisines."
+    },
+    {
+      "domain": "Education and Skills",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "outside",
+        "school",
+        "you"
+      ],
+      "max_cosine": 0.2601,
+      "note": "",
+      "question": "Have you ever taken any art or music classes outside of school? If yes, which ones?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2601,
+          "entry_id": "lb_00217",
+          "text": "User went to high school but did not attend college"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.251,
+          "entry_id": "lb_00386",
+          "text": "User has been doing electrical work since finishing high school, including 6 years as an apprentice."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2471,
+          "entry_id": "lb_00221",
+          "text": "User values skilled trades and takes pride in learning practical skills over attending college."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2328,
+          "entry_id": "lb_00223",
+          "text": "User experienced negative comments from teachers in high school about not going to college."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2255,
+          "entry_id": "lb_00011",
+          "text": "User has been apprenticing under his dad since he got out of high school."
+        }
+      ],
+      "why_absent": "No information about extracurricular classes or artistic skills beyond electrical apprenticeship is stored."
+    }
+  ],
+  "threshold": 0.295
+}

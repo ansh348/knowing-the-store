@@ -1,0 +1,166 @@
+{
+ "registration_sha256": "de2dd0baaf33ccb3dcf1c2b0c10b01cc6f76f851e4057946dc03f477a584b18f",
+ "batches": " over three delivery paths (D-V2RCAT-3, D-V2RCAT-4): `msgbatch_01WVXiaiBoC6JHFXEyiM1y2m` canceled at the author's instruction after 388 had succeeded, `msgbatch_01Cb4ZG9J1qyUCZC7VQuh65j` (the 56 resubmitted) canceled after 5 had succeeded, the remaining 51 synchronous at list price; OK rows per path {'msgbatch_01Cb4ZG9J1qyUCZC7VQuh65j': 5, 'sync-2026-09-17': 51, 'msgbatch_01WVXiaiBoC6JHFXEyiM1y2m': 388}",
+ "deviation": "D-V2RCAT-2",
+ "model": "claude-opus-5",
+ "served": [
+  "claude-opus-5"
+ ],
+ "n": 444,
+ "pos": 148,
+ "tol": 0.05,
+ "opus": {
+  "n_rows_bad": 0,
+  "usd": 4.5022,
+  "k": 1,
+  "k_of_recorded_v2": 5,
+  "v2_recorded": 0.8405,
+  "v2r_recorded_totals_randomized": 0.8353,
+  "v2rcat": 0.8049,
+  "minus_v2": {
+   "delta": -0.0357,
+   "item_ci": {
+    "n_draws": 1000,
+    "mean": -0.036194392118645335,
+    "ci_lo": -0.05433049923376515,
+    "ci_hi": -0.02057634760825733,
+    "excludes_zero": true
+   },
+   "persona_ci": {
+    "n_draws": 1000,
+    "mean": -0.03694161599336202,
+    "ci_lo": -0.06173611837741476,
+    "ci_hi": -0.01685871056241428,
+    "excludes_zero": true
+   },
+   "both_exclude_zero": true,
+   "agree": true
+  },
+  "minus_v2r": {
+   "delta": -0.0305,
+   "item_ci": {
+    "n_draws": 1000,
+    "mean": -0.03105952563742058,
+    "ci_lo": -0.04974208137983335,
+    "ci_hi": -0.015749969960954048,
+    "excludes_zero": true
+   },
+   "persona_ci": {
+    "n_draws": 1000,
+    "mean": -0.03166514573683239,
+    "ci_lo": -0.05717386862265969,
+    "ci_hi": -0.010965418564565928,
+    "excludes_zero": true
+   },
+   "both_exclude_zero": true,
+   "agree": true
+  },
+  "per_state": {
+   "SUPERSESSION": {
+    "n": 264,
+    "pos": 88,
+    "v2": 0.9325,
+    "v2r": 0.9322,
+    "v2rcat": 0.9303,
+    "delta": -0.0022,
+    "item_ci": {
+     "n_draws": 1000,
+     "mean": -0.002062648837647968,
+     "ci_lo": -0.008054717154547758,
+     "ci_hi": 0.004150835227586387,
+     "excludes_zero": false
+    },
+    "persona_ci": {
+     "n_draws": 1000,
+     "mean": -0.0023935040748530962,
+     "ci_lo": -0.008094898951804097,
+     "ci_hi": 0.0025829574051301814,
+     "excludes_zero": false
+    },
+    "both_exclude_zero": false,
+    "agree": true,
+    "inside_band_both": true,
+    "beyond_band_both": false,
+    "point_within_band": true
+   },
+   "RETRACTION": {
+    "n": 90,
+    "pos": 30,
+    "v2": 0.5872,
+    "v2r": 0.5681,
+    "v2rcat": 0.4861,
+    "delta": -0.1011,
+    "item_ci": {
+     "n_draws": 1000,
+     "mean": -0.1014403311687414,
+     "ci_lo": -0.16998127880184336,
+     "ci_hi": -0.04347638248847926,
+     "excludes_zero": true
+    },
+    "persona_ci": {
+     "n_draws": 1000,
+     "mean": -0.1052662761251455,
+     "ci_lo": -0.2144734960552268,
+     "ci_hi": -0.021101157417601636,
+     "excludes_zero": true
+    },
+    "both_exclude_zero": true,
+    "agree": true,
+    "inside_band_both": false,
+    "beyond_band_both": false,
+    "point_within_band": false
+   },
+   "EXPIRY": {
+    "n": 90,
+    "pos": 30,
+    "v2": 0.615,
+    "v2r": 0.6092,
+    "v2rcat": 0.4914,
+    "delta": -0.1236,
+    "item_ci": {
+     "n_draws": 1000,
+     "mean": -0.12298773599217053,
+     "ci_lo": -0.21647993315642688,
+     "ci_hi": -0.03744815668202773,
+     "excludes_zero": true
+    },
+    "persona_ci": {
+     "n_draws": 1000,
+     "mean": -0.12906344611147694,
+     "ci_lo": -0.25976369598765436,
+     "ci_hi": -0.011833830158499295,
+     "excludes_zero": true
+    },
+    "both_exclude_zero": true,
+    "agree": true,
+    "inside_band_both": false,
+    "beyond_band_both": false,
+    "point_within_band": false
+   }
+  },
+  "vs_reference": {
+   "RETRACTION": {
+    "model": 0.4861,
+    "CR-oracle-state-cell": 0.3028,
+    "CR-totals": 0.4044
+   },
+   "EXPIRY": {
+    "model": 0.4914,
+    "CR-oracle-state-cell": 0.3611,
+    "CR-totals": 0.3894
+   }
+  },
+  "branch": {
+   "within_band_both_states": false,
+   "moved_beyond_band": [],
+   "point_within_band_both_states": false,
+   "reading": "neither inside the band on both states nor beyond it with both intervals: printed as it came out"
+  }
+ },
+ "spend": {
+  "probe": 0.015764999999999998,
+  "lane": 4.5022,
+  "total": 4.518
+ },
+ "when": "2026-09-17T04:37:27"
+}

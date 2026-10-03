@@ -1,0 +1,183 @@
+{
+ "meta": {
+  "estimator": "paired percentile bootstrap, 1000 draws, seed 42, item-level primary, persona-clustered beside; model minus lookup",
+  "exploratory": true
+ },
+ "rows": {
+  "661: GPT-4.1 mini (committed, sup.-only summary) minus superseded-names lookup": {
+   "model_auroc": 0.7339,
+   "lookup_auroc": 0.7484,
+   "model_minus_lookup": -0.0145,
+   "item": {
+    "n_draws": 1000,
+    "mean": -0.015593811634109845,
+    "ci_lo": -0.07691395294712239,
+    "ci_hi": 0.054860428855932446,
+    "excludes_zero": false
+   },
+   "persona": {
+    "n_draws": 1000,
+    "mean": -0.015190359044392171,
+    "ci_lo": -0.10804837969043067,
+    "ci_hi": 0.07653015045162688,
+    "excludes_zero": false
+   },
+   "both_exclude_zero": false,
+   "inside_tolerance_point": true,
+   "n": 661,
+   "pos": 104,
+   "model_ci_persona": {
+    "n_draws": 1000,
+    "mean": 0.7345911001984452,
+    "ci_lo": 0.6502132431174479,
+    "ci_hi": 0.8185982116102716,
+    "excludes_zero": true
+   },
+   "lookup_ci_persona": {
+    "n_draws": 1000,
+    "mean": 0.7497814592428373,
+    "ci_lo": 0.6635848765814093,
+    "ci_hi": 0.8298176056058899,
+    "excludes_zero": true
+   }
+  },
+  "444: GPT-4.1 mini (sup.-only summary) minus superseded-names lookup": {
+   "model_auroc": 0.7167,
+   "lookup_auroc": 0.7663,
+   "model_minus_lookup": -0.0496,
+   "item": {
+    "n_draws": 1000,
+    "mean": -0.04950956455550944,
+    "ci_lo": -0.10120771246642984,
+    "ci_hi": 0.0013100326658551469,
+    "excludes_zero": false
+   },
+   "persona": {
+    "n_draws": 1000,
+    "mean": -0.04890235397049116,
+    "ci_lo": -0.09332277706564117,
+    "ci_hi": -0.005354900533389312,
+    "excludes_zero": true
+   },
+   "both_exclude_zero": false,
+   "inside_tolerance_point": true,
+   "n": 444,
+   "pos": 148
+  },
+  "444: GPT-4.1 mini (all-three summary) minus all-states lookup": {
+   "model_auroc": 0.7967,
+   "lookup_auroc": 0.8756,
+   "model_minus_lookup": -0.0789,
+   "item": {
+    "n_draws": 1000,
+    "mean": -0.07898658449995268,
+    "ci_lo": -0.12289108565217913,
+    "ci_hi": -0.034394990814522776,
+    "excludes_zero": true
+   },
+   "persona": {
+    "n_draws": 1000,
+    "mean": -0.07935111796330577,
+    "ci_lo": -0.12825756869640803,
+    "ci_hi": -0.03343688847311004,
+    "excludes_zero": true
+   },
+   "both_exclude_zero": true,
+   "inside_tolerance_point": false,
+   "n": 444,
+   "pos": 148
+  },
+  "444: Haiku 4.5 (sup.-only summary) minus superseded-names lookup": {
+   "model_auroc": 0.7566,
+   "lookup_auroc": 0.7663,
+   "model_minus_lookup": -0.0098,
+   "item": {
+    "n_draws": 1000,
+    "mean": -0.009424220777853643,
+    "ci_lo": -0.06400391277103304,
+    "ci_hi": 0.03978354410784693,
+    "excludes_zero": false
+   },
+   "persona": {
+    "n_draws": 1000,
+    "mean": -0.008620896146047748,
+    "ci_lo": -0.049379915769531324,
+    "ci_hi": 0.03356831885646813,
+    "excludes_zero": false
+   },
+   "both_exclude_zero": false,
+   "inside_tolerance_point": true,
+   "n": 444,
+   "pos": 148
+  },
+  "444: Haiku 4.5 (all-three summary) minus all-states lookup": {
+   "model_auroc": 0.8773,
+   "lookup_auroc": 0.8756,
+   "model_minus_lookup": 0.0017,
+   "item": {
+    "n_draws": 1000,
+    "mean": 0.002621088353698503,
+    "ci_lo": -0.03256754576137793,
+    "ci_hi": 0.03607499802177844,
+    "excludes_zero": false
+   },
+   "persona": {
+    "n_draws": 1000,
+    "mean": 0.0013703328994034707,
+    "ci_lo": -0.031176309948473976,
+    "ci_hi": 0.031968673820483275,
+    "excludes_zero": false
+   },
+   "both_exclude_zero": false,
+   "inside_tolerance_point": true,
+   "n": 444,
+   "pos": 148
+  },
+  "444: Opus 5 (sup.-only summary) minus superseded-names lookup": {
+   "model_auroc": 0.8405,
+   "lookup_auroc": 0.7663,
+   "model_minus_lookup": 0.0742,
+   "item": {
+    "n_draws": 1000,
+    "mean": 0.07464551976829732,
+    "ci_lo": 0.03151785744479089,
+    "ci_hi": 0.12028522164752599,
+    "excludes_zero": true
+   },
+   "persona": {
+    "n_draws": 1000,
+    "mean": 0.07549856423071499,
+    "ci_lo": 0.041397592827759566,
+    "ci_hi": 0.1126257149255226,
+    "excludes_zero": true
+   },
+   "both_exclude_zero": true,
+   "inside_tolerance_point": false,
+   "n": 444,
+   "pos": 148
+  },
+  "444: Opus 5 (all-three summary) minus all-states lookup": {
+   "model_auroc": 0.9079,
+   "lookup_auroc": 0.8756,
+   "model_minus_lookup": 0.0323,
+   "item": {
+    "n_draws": 1000,
+    "mean": 0.033000459804774604,
+    "ci_lo": 0.005986047439452161,
+    "ci_hi": 0.061737941439887783,
+    "excludes_zero": true
+   },
+   "persona": {
+    "n_draws": 1000,
+    "mean": 0.032697717370672195,
+    "ci_lo": 0.007723586530470894,
+    "ci_hi": 0.06084634886188275,
+    "excludes_zero": true
+   },
+   "both_exclude_zero": true,
+   "inside_tolerance_point": true,
+   "n": 444,
+   "pos": 148
+  }
+ }
+}

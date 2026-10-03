@@ -1,0 +1,962 @@
+{
+  "H_C3": {
+    "flip_indexed_v": 0.0888468809073724,
+    "flip_verbal_iv": 0.035916824196597356,
+    "note": "verbal evaluated at the same 0.20 cut since its derived point is undefined; exploratory, no gate",
+    "prediction": "flip(v) < flip(iv)",
+    "prediction_holds": false
+  },
+  "M1": {
+    "E0_reference_delta": 0.0411,
+    "E1_reference_delta": 0.2393,
+    "P_M1a": {
+      "L_largest": true,
+      "effects": {
+        "D": -0.01929334691340978,
+        "L": 0.1980497341527413,
+        "W": 0.013402413340698804
+      }
+    },
+    "P_M1b": {
+      "LxD_positive": false,
+      "value": -0.01641908921419688
+    },
+    "P_M1c_validity": {
+      "E0_target": 0.0411,
+      "all_off_delta": 0.06894765916309903,
+      "band": 0.06,
+      "holds": true
+    },
+    "blind_nok_auroc": 0.49461400359066426,
+    "cells": {
+      "L0W0D0": {
+        "auroc": 0.5635616627537633,
+        "delta_over_blind": 0.06894765916309903,
+        "n": 661
+      },
+      "L0W0D1": {
+        "auroc": 0.5181259494544952,
+        "delta_over_blind": 0.02351194586383093,
+        "n": 661
+      },
+      "L0W1D0": {
+        "auroc": 0.5735309349537356,
+        "delta_over_blind": 0.07891693136307137,
+        "n": 661
+      },
+      "L0W1D1": {
+        "auroc": 0.613218132854578,
+        "delta_over_blind": 0.11860412926391378,
+        "n": 661
+      },
+      "L1W0D0": {
+        "auroc": 0.7958241265018644,
+        "delta_over_blind": 0.30121012291120014,
+        "n": 661
+      },
+      "L1W0D1": {
+        "auroc": 0.7602195829305345,
+        "delta_over_blind": 0.2656055793398702,
+        "n": 661
+      },
+      "L1W1D0": {
+        "auroc": 0.7702061179395111,
+        "delta_over_blind": 0.27559211434884684,
+        "n": 661
+      },
+      "L1W1D1": {
+        "auroc": 0.7343857892556277,
+        "delta_over_blind": 0.23977178566496343,
+        "n": 661
+      }
+    },
+    "interactions": {
+      "LxD": -0.01641908921419688,
+      "LxW": -0.03912831445932885,
+      "LxWxD": -0.021334674078166027,
+      "WxD": 0.021226781521889282
+    },
+    "main_effects": {
+      "D": -0.01929334691340978,
+      "L": 0.1980497341527413,
+      "W": 0.013402413340698804
+    }
+  },
+  "M2": {
+    "P_M2a_ordering_minimal_gt_omitted_gt_marked": false,
+    "P_M2b_minimal_delta_ge_0": false,
+    "by_backend": {
+      "amem": {
+        "blind_auroc": 0.5590968454892505,
+        "cells": {
+          "a3-style": {
+            "auroc": 0.5015822784810127,
+            "delta": -0.05751456700823787,
+            "n": 284
+          },
+          "marked": {
+            "auroc": 0.45260699216395417,
+            "delta": -0.10648985332529637,
+            "n": 284
+          },
+          "marker-omitted": {
+            "auroc": 0.5213230861965039,
+            "delta": -0.03777375929274662,
+            "n": 284
+          },
+          "minimal": {
+            "auroc": 0.39393711070926263,
+            "delta": -0.1651597347799879,
+            "n": 284
+          }
+        }
+      },
+      "mem0": {
+        "blind_auroc": 0.5745789007092199,
+        "cells": {
+          "a3-style": {
+            "auroc": 0.4847443853427896,
+            "delta": -0.08983451536643033,
+            "n": 238
+          },
+          "marked": {
+            "auroc": 0.47765218676122934,
+            "delta": -0.09692671394799057,
+            "n": 238
+          },
+          "marker-omitted": {
+            "auroc": 0.48810579196217496,
+            "delta": -0.08647310874704495,
+            "n": 238
+          },
+          "minimal": {
+            "auroc": 0.4115691489361702,
+            "delta": -0.16300975177304972,
+            "n": 238
+          }
+        }
+      }
+    }
+  },
+  "P5": {
+    "P5a": "FAILS",
+    "P5a_band": "payoff_frontier <= 0.5 * payoff_mini",
+    "P5b": "HOLDS",
+    "P5b_band": "point estimate negative (direction preserved)",
+    "P5b_note": "direction only; explicitly under-powered; a sign check, not a test",
+    "confab_vi_minus_v": -0.09836065573770494,
+    "k": 5,
+    "model": "gpt-5.6-sol",
+    "n_cell_items": 61,
+    "n_registered_cell": 84,
+    "payoff_frontier": 0.04918032786885246,
+    "payoff_mini": 0.032786885245901676
+  },
+  "attribution_vii": {
+    "confab": {
+      "adjusted": 0.007336384940480041,
+      "ci_hi": 0.027838278942795974,
+      "ci_lo": -0.015452882049102123,
+      "excludes_zero": false,
+      "n": 529,
+      "unadjusted": 0.003780718336483932
+    },
+    "credit": {
+      "adjusted": 0.05223189522265691,
+      "ci_hi": 0.08683547010656988,
+      "ci_lo": 0.02144578097846007,
+      "excludes_zero": true,
+      "n": 529,
+      "unadjusted": 0.03780718336483932
+    },
+    "rate_v": 0.6843100189035917,
+    "rate_vii": 0.724007561436673
+  },
+  "descriptive_1_retrieval_confidence": {
+    "calibration_reference": {
+      "PRESENT": 0.394,
+      "probe": 0.771
+    },
+    "median_max_blended_PRESENT": 0.3696365923558474,
+    "median_max_blended_ablation_ABSENT": 0.39512062072753934,
+    "median_max_blended_probe": 0.7698522976628075
+  },
+  "descriptive_2_near_miss": {
+    "S0_credit_ablation": 1.0,
+    "S0_credit_probe": 1.0,
+    "S1_confab_ablation": 0.7005347593582888,
+    "S1_confab_probe": 0.08264462809917356,
+    "S1_credit_ablation": 0.23529411764705882,
+    "S1_credit_probe": 0.9173553719008265
+  },
+  "descriptive_3_headroom": {
+    "always": 0.46124763705103977,
+    "captured_by_v": -0.05765595463137996,
+    "headroom": 0.1682419659735349,
+    "never": 0.5822306238185255,
+    "oracle": 0.7504725897920604
+  },
+  "descriptive_4_capability": {
+    "calibration": {
+      "always_credit_gpt54": 0.4356,
+      "always_credit_mini": 0.4583,
+      "near_miss_confab_gpt54": 0.706,
+      "near_miss_confab_mini": 0.471,
+      "oracle_gpt54": 0.7538,
+      "oracle_mini": 0.6553
+    },
+    "note": "calibration-only; eval has one answerer by design"
+  },
+  "economics": {
+    "c_answer": {
+      "S0-nofacts": 5.8561814744801516e-05,
+      "S1-facts": 0.00013186540642722117,
+      "S2-facts-caution": 0.00016610283553875237
+    },
+    "c_gate": {
+      "gate-indexed": 0.0006768128544423442,
+      "gate-verbal": 0.0001561584642233857
+    },
+    "c_gate_cached": {
+      "gate-indexed": 0.00027004832892249536,
+      "gate-verbal": 0.0001561584642233857
+    },
+    "index_maintenance_per_write": null,
+    "per_1M_calls": {
+      "i": 131.86540642722116,
+      "ii": 58.56181474480152,
+      "iii": 58.56181474480152,
+      "iv": 214.72027896818722,
+      "v": 785.5370513970436,
+      "vi": 808.9660671595656,
+      "vii": 111.63416940333977
+    },
+    "per_1M_calls_cached": {
+      "i": 131.86540642722116,
+      "ii": 58.56181474480152,
+      "iii": 58.56181474480152,
+      "iv": 214.72027896818722,
+      "v": 378.77252587719454,
+      "vi": 402.2015416397169,
+      "vii": 111.63416940333977
+    }
+  },
+  "gates": [
+    {
+      "confab": {
+        "adjusted": -0.05786489082911299,
+        "ci_hi": -0.030677404202487366,
+        "ci_lo": -0.0874480504247344,
+        "excludes_zero": true,
+        "n": 529,
+        "unadjusted": -0.054820415879017016
+      },
+      "confab_reduction_pp": 5.786489082911299,
+      "contrast": "(vi) vs (v)",
+      "credit_noninferiority": {
+        "adjusted": 0.030293761867869237,
+        "ci_hi": null,
+        "ci_lo": 0.011544860657822375,
+        "excludes_zero": null,
+        "n": 529,
+        "unadjusted": 0.021739130434782608
+      },
+      "name": "H-C2",
+      "step": 1,
+      "verdict": "HOLDS"
+    },
+    {
+      "contrast": "(v) vs (i)",
+      "credit": {
+        "adjusted": 0.019689832027456302,
+        "ci_hi": null,
+        "ci_lo": 0.0032556142748593623,
+        "excludes_zero": null,
+        "n": 529,
+        "unadjusted": 0.06332703213610585
+      },
+      "exploratory": false,
+      "label": null,
+      "name": "H-C1a",
+      "retrieval_rate": 0.6843100189035917,
+      "step": 2,
+      "verdict": "HOLDS"
+    },
+    {
+      "exploratory": false,
+      "label": null,
+      "name": "H-C1b",
+      "rows": {
+        "iii": {
+          "adjusted": 0.07400840954998766,
+          "ci_hi": 0.1204207212722049,
+          "ci_lo": 0.03033079248475763,
+          "excludes_zero": true,
+          "matched_tau": 0.4,
+          "matched_within_0.02": false,
+          "n": 529,
+          "rate_gap": 0.11153119092627595,
+          "realised_rate": 0.5727788279773157,
+          "row_status": "VOID (unmatched)",
+          "unadjusted": -0.00945179584120983
+        },
+        "iv": {
+          "adjusted": 0.05682808039723492,
+          "ci_hi": 0.09915001126825376,
+          "ci_lo": 0.020240574552374584,
+          "excludes_zero": true,
+          "matched_tau": 0.75,
+          "matched_within_0.02": false,
+          "n": 529,
+          "rate_gap": 0.14177693761814747,
+          "realised_rate": 0.5425330812854442,
+          "row_status": "VOID (unmatched)",
+          "unadjusted": 0.004725897920604915
+        }
+      },
+      "step": 3,
+      "verdict": "VOID — no rival row met the ±0.02 matching tolerance"
+    }
+  ],
+  "n_eval": 529,
+  "natural_absence_share": 0.5822306238185255,
+  "oracle_ceiling_TRUE_index": {
+    "credit": 0.5387523629489603,
+    "label": "oracle ceiling; gates nothing",
+    "retrieval_rate": 0.6389413988657845
+  },
+  "policy_table": {
+    "i": {
+      "confab": 0.3629489603024575,
+      "cost": 0.00013186540642722117,
+      "cost_cached": 0.00013186540642722117,
+      "credit": 0.4612476370510397,
+      "five_state": {
+        "abstain": 225,
+        "confab": 192,
+        "correct": 64,
+        "partial": 48
+      },
+      "n": 529,
+      "retrieval_rate": 1.0
+    },
+    "ii": {
+      "confab": 0.0,
+      "cost": 5.8561814744801516e-05,
+      "cost_cached": 5.8561814744801516e-05,
+      "credit": 0.5822306238185255,
+      "five_state": {
+        "abstain": 529
+      },
+      "n": 529,
+      "retrieval_rate": 0.0
+    },
+    "iii": {
+      "confab": 0.0,
+      "cost": 5.8561814744801516e-05,
+      "cost_cached": 5.8561814744801516e-05,
+      "credit": 0.5822306238185255,
+      "five_state": {
+        "abstain": 529
+      },
+      "n": 529,
+      "retrieval_rate": 0.0
+    },
+    "iv": {
+      "confab": 0.0,
+      "cost": 0.0002147202789681872,
+      "cost_cached": 0.0002147202789681872,
+      "credit": 0.5822306238185255,
+      "five_state": {
+        "abstain": 529
+      },
+      "n": 529,
+      "retrieval_rate": 0.0
+    },
+    "v": {
+      "confab": 0.28166351606805295,
+      "cost": 0.0007855370513970435,
+      "cost_cached": 0.00037877252587719453,
+      "credit": 0.5245746691871456,
+      "five_state": {
+        "abstain": 282,
+        "confab": 149,
+        "correct": 56,
+        "partial": 42
+      },
+      "n": 529,
+      "retrieval_rate": 0.6843100189035917
+    },
+    "vi": {
+      "confab": 0.22684310018903592,
+      "cost": 0.0008089660671595656,
+      "cost_cached": 0.0004022015416397169,
+      "credit": 0.5463137996219282,
+      "five_state": {
+        "abstain": 291,
+        "confab": 120,
+        "correct": 66,
+        "partial": 52
+      },
+      "n": 529,
+      "retrieval_rate": 0.6843100189035917
+    },
+    "vii": {
+      "confab": 0.277882797731569,
+      "cost": 0.00011163416940333977,
+      "cost_cached": 0.00011163416940333977,
+      "credit": 0.4867674858223062,
+      "five_state": {
+        "abstain": 301,
+        "confab": 147,
+        "correct": 48,
+        "partial": 33
+      },
+      "n": 529,
+      "retrieval_rate": 0.724007561436673
+    }
+  },
+  "rate_v": 0.6843100189035917,
+  "reweighted_absence_10": {
+    "i": {
+      "confab": 0.25347152847152843,
+      "cost": 0.00013186540642722117,
+      "cost_cached": 0.00013186540642722117,
+      "credit": 0.41276811423870247,
+      "five_state": {
+        "abstain": 225,
+        "confab": 192,
+        "correct": 64,
+        "partial": 48
+      },
+      "n": 529,
+      "retrieval_rate": 1.0
+    },
+    "ii": {
+      "confab": 0.0,
+      "cost": 5.8561814744801516e-05,
+      "cost_cached": 5.8561814744801516e-05,
+      "credit": 0.10000000000000002,
+      "five_state": {
+        "abstain": 529
+      },
+      "n": 529,
+      "retrieval_rate": 0.0
+    },
+    "iii": {
+      "confab": 0.0,
+      "cost": 5.8561814744801516e-05,
+      "cost_cached": 5.8561814744801516e-05,
+      "credit": 0.10000000000000002,
+      "five_state": {
+        "abstain": 529
+      },
+      "n": 529,
+      "retrieval_rate": 0.0
+    },
+    "iv": {
+      "confab": 0.0,
+      "cost": 0.0002147202789681872,
+      "cost_cached": 0.0002147202789681872,
+      "credit": 0.10000000000000002,
+      "five_state": {
+        "abstain": 529
+      },
+      "n": 529,
+      "retrieval_rate": 0.0
+    },
+    "v": {
+      "confab": 0.21702415231826996,
+      "cost": 0.0007855370513970435,
+      "cost_cached": 0.00037877252587719453,
+      "credit": 0.3917890932596815,
+      "five_state": {
+        "abstain": 282,
+        "confab": 149,
+        "correct": 56,
+        "partial": 42
+      },
+      "n": 529,
+      "retrieval_rate": 0.6843100189035917
+    },
+    "vi": {
+      "confab": 0.15888817065287653,
+      "cost": 0.0008089660671595656,
+      "cost_cached": 0.0004022015416397169,
+      "credit": 0.41238761238761235,
+      "five_state": {
+        "abstain": 291,
+        "confab": 120,
+        "correct": 66,
+        "partial": 52
+      },
+      "n": 529,
+      "retrieval_rate": 0.6843100189035917
+    },
+    "vii": {
+      "confab": 0.19763618734206967,
+      "cost": 0.00011163416940333977,
+      "cost_cached": 0.00011163416940333977,
+      "credit": 0.3290797437856261,
+      "five_state": {
+        "abstain": 301,
+        "confab": 147,
+        "correct": 48,
+        "partial": 33
+      },
+      "n": 529,
+      "retrieval_rate": 0.724007561436673
+    }
+  },
+  "reweighted_absence_25": {
+    "i": {
+      "confab": 0.28752497502497504,
+      "cost": 0.00013186540642722117,
+      "cost_cached": 0.00013186540642722117,
+      "credit": 0.4278478874067109,
+      "five_state": {
+        "abstain": 225,
+        "confab": 192,
+        "correct": 64,
+        "partial": 48
+      },
+      "n": 529,
+      "retrieval_rate": 1.0
+    },
+    "ii": {
+      "confab": 0.0,
+      "cost": 5.8561814744801516e-05,
+      "cost_cached": 5.8561814744801516e-05,
+      "credit": 0.25,
+      "five_state": {
+        "abstain": 529
+      },
+      "n": 529,
+      "retrieval_rate": 0.0
+    },
+    "iii": {
+      "confab": 0.0,
+      "cost": 5.8561814744801516e-05,
+      "cost_cached": 5.8561814744801516e-05,
+      "credit": 0.25,
+      "five_state": {
+        "abstain": 529
+      },
+      "n": 529,
+      "retrieval_rate": 0.0
+    },
+    "iv": {
+      "confab": 0.0,
+      "cost": 0.0002147202789681872,
+      "cost_cached": 0.0002147202789681872,
+      "credit": 0.25,
+      "five_state": {
+        "abstain": 529
+      },
+      "n": 529,
+      "retrieval_rate": 0.0
+    },
+    "v": {
+      "confab": 0.23713051654228126,
+      "cost": 0.0007855370513970435,
+      "cost_cached": 0.00037877252587719453,
+      "credit": 0.43309264265146613,
+      "five_state": {
+        "abstain": 282,
+        "confab": 149,
+        "correct": 56,
+        "partial": 42
+      },
+      "n": 529,
+      "retrieval_rate": 0.6843100189035917
+    },
+    "vi": {
+      "confab": 0.18002585649644473,
+      "cost": 0.0008089660671595656,
+      "cost_cached": 0.0004022015416397169,
+      "credit": 0.454045954045954,
+      "five_state": {
+        "abstain": 291,
+        "confab": 120,
+        "correct": 66,
+        "partial": 52
+      },
+      "n": 529,
+      "retrieval_rate": 0.6843100189035917
+    },
+    "vii": {
+      "confab": 0.222597255685491,
+      "cost": 0.00011163416940333977,
+      "cost_cached": 0.00011163416940333977,
+      "credit": 0.378129223717459,
+      "five_state": {
+        "abstain": 301,
+        "confab": 147,
+        "correct": 48,
+        "partial": 33
+      },
+      "n": 529,
+      "retrieval_rate": 0.724007561436673
+    }
+  },
+  "reweighted_absence_40": {
+    "i": {
+      "confab": 0.32157842157842154,
+      "cost": 0.00013186540642722117,
+      "cost_cached": 0.00013186540642722117,
+      "credit": 0.44292766057471933,
+      "five_state": {
+        "abstain": 225,
+        "confab": 192,
+        "correct": 64,
+        "partial": 48
+      },
+      "n": 529,
+      "retrieval_rate": 1.0
+    },
+    "ii": {
+      "confab": 0.0,
+      "cost": 5.8561814744801516e-05,
+      "cost_cached": 5.8561814744801516e-05,
+      "credit": 0.39999999999999997,
+      "five_state": {
+        "abstain": 529
+      },
+      "n": 529,
+      "retrieval_rate": 0.0
+    },
+    "iii": {
+      "confab": 0.0,
+      "cost": 5.8561814744801516e-05,
+      "cost_cached": 5.8561814744801516e-05,
+      "credit": 0.39999999999999997,
+      "five_state": {
+        "abstain": 529
+      },
+      "n": 529,
+      "retrieval_rate": 0.0
+    },
+    "iv": {
+      "confab": 0.0,
+      "cost": 0.0002147202789681872,
+      "cost_cached": 0.0002147202789681872,
+      "credit": 0.39999999999999997,
+      "five_state": {
+        "abstain": 529
+      },
+      "n": 529,
+      "retrieval_rate": 0.0
+    },
+    "v": {
+      "confab": 0.25723688076629253,
+      "cost": 0.0007855370513970435,
+      "cost_cached": 0.00037877252587719453,
+      "credit": 0.47439619204325084,
+      "five_state": {
+        "abstain": 282,
+        "confab": 149,
+        "correct": 56,
+        "partial": 42
+      },
+      "n": 529,
+      "retrieval_rate": 0.6843100189035917
+    },
+    "vi": {
+      "confab": 0.20116354234001294,
+      "cost": 0.0008089660671595656,
+      "cost_cached": 0.0004022015416397169,
+      "credit": 0.4957042957042957,
+      "five_state": {
+        "abstain": 291,
+        "confab": 120,
+        "correct": 66,
+        "partial": 52
+      },
+      "n": 529,
+      "retrieval_rate": 0.6843100189035917
+    },
+    "vii": {
+      "confab": 0.24755832402891226,
+      "cost": 0.00011163416940333977,
+      "cost_cached": 0.00011163416940333977,
+      "credit": 0.4271787036492919,
+      "five_state": {
+        "abstain": 301,
+        "confab": 147,
+        "correct": 48,
+        "partial": 33
+      },
+      "n": 529,
+      "retrieval_rate": 0.724007561436673
+    }
+  },
+  "risk_coverage_v": [
+    {
+      "confab": 0.3629489603024575,
+      "cost": 0.0008086782608695656,
+      "cost_cached": 0.00040191373534971634,
+      "credit": 0.4612476370510397,
+      "rate": 1.0,
+      "tau": 0.0
+    },
+    {
+      "confab": 0.3534971644612476,
+      "cost": 0.0008074311298201483,
+      "cost_cached": 0.000400666604300299,
+      "credit": 0.4725897920604915,
+      "rate": 0.9829867674858223,
+      "tau": 0.05
+    },
+    {
+      "confab": 0.3383742911153119,
+      "cost": 0.0008027197458556827,
+      "cost_cached": 0.00039595522033583354,
+      "credit": 0.4829867674858223,
+      "rate": 0.9187145557655955,
+      "tau": 0.1
+    },
+    {
+      "confab": 0.2892249527410208,
+      "cost": 0.0007890013043120918,
+      "cost_cached": 0.0003822367787922427,
+      "credit": 0.5207939508506616,
+      "rate": 0.7315689981096408,
+      "tau": 0.15
+    },
+    {
+      "confab": 0.28166351606805295,
+      "cost": 0.0007855370513970435,
+      "cost_cached": 0.00037877252587719453,
+      "credit": 0.5245746691871456,
+      "rate": 0.6843100189035917,
+      "tau": 0.2
+    },
+    {
+      "confab": 0.21550094517958412,
+      "cost": 0.0007727886006696662,
+      "cost_cached": 0.00036602407514981725,
+      "credit": 0.5500945179584121,
+      "rate": 0.5103969754253308,
+      "tau": 0.25
+    },
+    {
+      "confab": 0.21550094517958412,
+      "cost": 0.0007727886006696662,
+      "cost_cached": 0.00036602407514981725,
+      "credit": 0.5500945179584121,
+      "rate": 0.5103969754253308,
+      "tau": 0.3
+    },
+    {
+      "confab": 0.21550094517958412,
+      "cost": 0.0007726500305530641,
+      "cost_cached": 0.00036588550503321526,
+      "credit": 0.5500945179584121,
+      "rate": 0.5085066162570888,
+      "tau": 0.35
+    },
+    {
+      "confab": 0.21550094517958412,
+      "cost": 0.0007726500305530641,
+      "cost_cached": 0.00036588550503321526,
+      "credit": 0.5500945179584121,
+      "rate": 0.5085066162570888,
+      "tau": 0.4
+    },
+    {
+      "confab": 0.1285444234404537,
+      "cost": 0.0007582387384264637,
+      "cost_cached": 0.00035147421290661487,
+      "credit": 0.5727788279773157,
+      "rate": 0.31190926275992437,
+      "tau": 0.45
+    },
+    {
+      "confab": 0.1285444234404537,
+      "cost": 0.0007582387384264637,
+      "cost_cached": 0.00035147421290661487,
+      "credit": 0.5727788279773157,
+      "rate": 0.31190926275992437,
+      "tau": 0.5
+    },
+    {
+      "confab": 0.1285444234404537,
+      "cost": 0.0007582387384264637,
+      "cost_cached": 0.00035147421290661487,
+      "credit": 0.5727788279773157,
+      "rate": 0.31190926275992437,
+      "tau": 0.55
+    },
+    {
+      "confab": 0.1285444234404537,
+      "cost": 0.0007582387384264637,
+      "cost_cached": 0.00035147421290661487,
+      "credit": 0.5727788279773157,
+      "rate": 0.31190926275992437,
+      "tau": 0.6
+    },
+    {
+      "confab": 0.1266540642722117,
+      "cost": 0.000757684457960056,
+      "cost_cached": 0.0003509199324402072,
+      "credit": 0.5708884688090737,
+      "rate": 0.30434782608695654,
+      "tau": 0.65
+    },
+    {
+      "confab": 0.1266540642722117,
+      "cost": 0.000757684457960056,
+      "cost_cached": 0.0003509199324402072,
+      "credit": 0.5708884688090737,
+      "rate": 0.30434782608695654,
+      "tau": 0.7
+    },
+    {
+      "confab": 0.026465028355387523,
+      "cost": 0.0007406403336180187,
+      "cost_cached": 0.0003338758080981701,
+      "credit": 0.5850661625708885,
+      "rate": 0.07183364839319471,
+      "tau": 0.75
+    },
+    {
+      "confab": 0.011342155009451797,
+      "cost": 0.0007377303611693784,
+      "cost_cached": 0.0003309658356495296,
+      "credit": 0.5850661625708885,
+      "rate": 0.03213610586011342,
+      "tau": 0.8
+    },
+    {
+      "confab": 0.001890359168241966,
+      "cost": 0.0007359289496535532,
+      "cost_cached": 0.00032916442413370457,
+      "credit": 0.5831758034026465,
+      "rate": 0.007561436672967864,
+      "tau": 0.85
+    },
+    {
+      "confab": 0.0,
+      "cost": 0.0007353746691871455,
+      "cost_cached": 0.0003286101436672968,
+      "credit": 0.5822306238185255,
+      "rate": 0.0,
+      "tau": 0.9
+    },
+    {
+      "confab": 0.0,
+      "cost": 0.0007353746691871455,
+      "cost_cached": 0.0003286101436672968,
+      "credit": 0.5822306238185255,
+      "rate": 0.0,
+      "tau": 0.95
+    },
+    {
+      "confab": 0.0,
+      "cost": 0.0007353746691871455,
+      "cost_cached": 0.0003286101436672968,
+      "credit": 0.5822306238185255,
+      "rate": 0.0,
+      "tau": 1.0
+    }
+  ],
+  "secondary_full_only": {
+    "i": {
+      "confab": 0.1450381679389313,
+      "cost": 0.00013186540642722117,
+      "cost_cached": 0.00013186540642722117,
+      "credit": 0.6469465648854962,
+      "five_state": {
+        "abstain": 157,
+        "confab": 38,
+        "correct": 39,
+        "partial": 28
+      },
+      "n": 262,
+      "retrieval_rate": 1.0
+    },
+    "ii": {
+      "confab": 0.0,
+      "cost": 5.8561814744801516e-05,
+      "cost_cached": 5.8561814744801516e-05,
+      "credit": 0.4618320610687023,
+      "five_state": {
+        "abstain": 262
+      },
+      "n": 262,
+      "retrieval_rate": 0.0
+    },
+    "iii": {
+      "confab": 0.0,
+      "cost": 5.8561814744801516e-05,
+      "cost_cached": 5.8561814744801516e-05,
+      "credit": 0.4618320610687023,
+      "five_state": {
+        "abstain": 262
+      },
+      "n": 262,
+      "retrieval_rate": 0.0
+    },
+    "iv": {
+      "confab": 0.0,
+      "cost": 0.00021472027896818723,
+      "cost_cached": 0.00021472027896818723,
+      "credit": 0.4618320610687023,
+      "five_state": {
+        "abstain": 262
+      },
+      "n": 262,
+      "retrieval_rate": 0.0
+    },
+    "v": {
+      "confab": 0.10687022900763359,
+      "cost": 0.0007765030202456025,
+      "cost_cached": 0.0003697384947257537,
+      "credit": 0.648854961832061,
+      "five_state": {
+        "abstain": 174,
+        "confab": 28,
+        "correct": 34,
+        "partial": 26
+      },
+      "n": 262,
+      "retrieval_rate": 0.5610687022900763
+    },
+    "vi": {
+      "confab": 0.07633587786259542,
+      "cost": 0.0007957125701669577,
+      "cost_cached": 0.000388948044647109,
+      "credit": 0.6603053435114504,
+      "five_state": {
+        "abstain": 177,
+        "confab": 20,
+        "correct": 38,
+        "partial": 27
+      },
+      "n": 262,
+      "retrieval_rate": 0.5610687022900763
+    },
+    "vii": {
+      "confab": 0.11450381679389313,
+      "cost": 0.00011088155384637585,
+      "cost_cached": 0.00011088155384637585,
+      "credit": 0.5935114503816794,
+      "five_state": {
+        "abstain": 186,
+        "confab": 30,
+        "correct": 29,
+        "partial": 17
+      },
+      "n": 262,
+      "retrieval_rate": 0.7137404580152672
+    }
+  },
+  "sequence_broken_at": null,
+  "tau_NOK": 0.0,
+  "thresholds": {
+    "iii": null,
+    "iv": null,
+    "v": 0.2,
+    "vi": 0.2
+  }
+}

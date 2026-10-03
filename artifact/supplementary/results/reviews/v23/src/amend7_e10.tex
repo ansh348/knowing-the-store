@@ -1,0 +1,51 @@
+% amend7_e10.tex -- DS Amendment 7 for paper_v18 (CC_PASS_v18; registrations/ADDENDUM_DS_AMENDMENT_7.md, frozen 12c63f9; descriptive; $0): the
+% Appendix E.10 table and the sentences under it. Every number is AUX-DS-A7-* in ds_downstream/NUMBERS_DS.md section 13 (run/scores_amend7.json);
+% D-DS-A7-1 in DEVIATIONS_DS.md. The author's instructions of 2026-09-15: the composite per policy with its three components, retrieval alone
+% first, then the gated rules, then the gated rules with the store's duplicates tagged; the oracle row flagged as absent-by-label and excluded
+% from every comparison sentence; the answered reading of abstention for every policy (AUX-DS-A7-COMPOSITE-ANSWERED) with the rule-only reading
+% beside it (AUX-DS-A7-COMPOSITE); an answer that gives the successor on a supersession item counts as reporting the obligation; the
+% gated-minus-retrieval-alone composite with both intervals (AUX-DS-A7-COMPOSITE-ANSWERED-DIFF).
+
+% ---- Appendix E.10, the table (lands after the Amendment 6 table; label tab:ds-a7)
+\begin{table}[H]
+\caption{The composite per policy over the full obligation set ($661$ questions) with its three components (DS Amendment 7, descriptive; no prediction was registered; no model call). A licensed item counts when its answer is correct at $0.50$. An obligation counts when it is reached, answered and reported: the answer names the lifecycle state from a closed word list (superseded, retracted, expired, no longer, not current, outdated, cancelled, replaced, withdrawn, discontinued, past, and previous or former in a sentence that also carries one of those) without giving the stale value by the committed detector at $0.50$, or, on a supersession item, gives the successor value; the count by the successor alone is printed beside it. An absent item counts when the policy's coverage rule abstained on it or, where the rule let it through, the answerer abstained on its recorded five-line view (the Amendment 6 answers under the header; the absent items a gated rule answers on a longer view, ten under the model rule, seventeen under the lookup rule and seventy-two under the literal rule, are read on the five-line view as a proxy). The last column is the rule-only reading, in which an absent item counts only when the coverage rule abstained. The oracle's rule is the label itself, so its absent component is $383$ of $383$; the row is printed and enters no comparison. Rows: retrieval alone and the literal rule (no coverage rule), the gated rules under the header prompt, the same rules with the store's untagged duplicates tagged (tagged), then the oracle; the denominators are $174$ licensed items, $104$ obligations, $383$ absent items and $661$ in all.}
+\label{tab:ds-a7}\centering\tiny\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}llrrlrr@{}}\toprule
+Answerer & Policy (prompt) & Licensed correct & Reported (by the successor) & Absent abstained: rule $+$ answerer & Composite & Rule-only \\ \midrule
+GPT-4.1 mini & Top-5 (header) & $56$ & $4$ ($1$) & $241 = 0 + 241$ & $301$ & $59$ \\
+GPT-4.1 mini & Top-5 (tagged) & $56$ & $4$ ($1$) & $241 = 0 + 241$ & $301$ & $59$ \\
+GPT-4.1 mini & Literal rule (header) & $55$ & $4$ ($1$) & $241 = 0 + 241$ & $300$ & $58$ \\
+GPT-4.1 mini & Literal rule (tagged) & $55$ & $4$ ($1$) & $241 = 0 + 241$ & $300$ & $58$ \\
+GPT-4.1 mini & Model rule (header) & $53$ & $2$ ($1$) & $264 = 172 + 92$ & $319$ & $226$ \\
+GPT-4.1 mini & Lookup rule (header) & $48$ & $2$ ($1$) & $276 = 174 + 102$ & $326$ & $223$ \\
+GPT-4.1 mini & Model rule, all states (header) & $53$ & $2$ ($1$) & $264 = 172 + 92$ & $319$ & $226$ \\
+GPT-4.1 mini & Lookup rule, all states (header) & $47$ & $2$ ($1$) & $276 = 174 + 102$ & $325$ & $222$ \\
+GPT-4.1 mini & Model rule (tagged) & $53$ & $2$ ($1$) & $264 = 172 + 92$ & $319$ & $226$ \\
+GPT-4.1 mini & Lookup rule (tagged) & $48$ & $2$ ($1$) & $276 = 174 + 102$ & $326$ & $223$ \\
+GPT-4.1 mini & Model rule, all states (tagged) & $53$ & $2$ ($1$) & $264 = 172 + 92$ & $319$ & $226$ \\
+GPT-4.1 mini & Lookup rule, all states (tagged) & $47$ & $2$ ($1$) & $276 = 174 + 102$ & $325$ & $222$ \\
+GPT-4.1 mini & Oracle, absent by label (header) & $56$ & $5$ ($1$) & $383 = 383 + 0$ & $444$ & $443$ \\
+GPT-4.1 mini & Oracle, absent by label (tagged) & $56$ & $7$ ($1$) & $383 = 383 + 0$ & $446$ & $445$ \\ \midrule
+Haiku 4.5 & Top-5 (header) & $73$ & $16$ ($1$) & $280 = 0 + 280$ & $369$ & $88$ \\
+Haiku 4.5 & Top-5 (tagged) & $73$ & $20$ ($1$) & $280 = 0 + 280$ & $373$ & $92$ \\
+Haiku 4.5 & Literal rule (header) & $72$ & $21$ ($1$) & $280 = 0 + 280$ & $373$ & $92$ \\
+Haiku 4.5 & Literal rule (tagged) & $72$ & $29$ ($1$) & $280 = 0 + 280$ & $381$ & $100$ \\
+Haiku 4.5 & Model rule (header) & $64$ & $16$ ($1$) & $291 = 172 + 119$ & $371$ & $251$ \\
+Haiku 4.5 & Lookup rule (header) & $58$ & $17$ ($1$) & $304 = 174 + 130$ & $379$ & $248$ \\
+Haiku 4.5 & Model rule, all states (header) & $64$ & $21$ ($2$) & $291 = 172 + 119$ & $376$ & $255$ \\
+Haiku 4.5 & Lookup rule, all states (header) & $58$ & $19$ ($2$) & $304 = 174 + 130$ & $381$ & $249$ \\
+Haiku 4.5 & Model rule (tagged) & $64$ & $22$ ($1$) & $291 = 172 + 119$ & $377$ & $257$ \\
+Haiku 4.5 & Lookup rule (tagged) & $58$ & $22$ ($1$) & $304 = 174 + 130$ & $384$ & $253$ \\
+Haiku 4.5 & Model rule, all states (tagged) & $64$ & $26$ ($2$) & $291 = 172 + 119$ & $381$ & $260$ \\
+Haiku 4.5 & Lookup rule, all states (tagged) & $58$ & $24$ ($2$) & $304 = 174 + 130$ & $386$ & $254$ \\
+Haiku 4.5 & Oracle, absent by label (header) & $73$ & $27$ ($2$) & $383 = 383 + 0$ & $483$ & $481$ \\
+Haiku 4.5 & Oracle, absent by label (tagged) & $73$ & $33$ ($2$) & $383 = 383 + 0$ & $489$ & $487$ \\
+\bottomrule\end{tabular}
+\end{table}
+
+% ---- Appendix E.10, the sentences under the table (AUX-DS-A7-COMPOSITE-ANSWERED-DIFF; AUX-DS-A7-COMPOSITE-DIFF; AUX-DS-A7-REPORTED)
+Under the header prompt the composite under the model rule minus under retrieval alone is $+18$ of $661$ for GPT-4.1 mini, a rate difference of $+0.03$ with intervals $[+0.01,+0.04]$ at item level and $[+0.01,+0.04]$ grouped by user profile, and $+2$ for Haiku~4.5 ($+0.00$, $[-0.01,+0.02]$ and $[-0.01,+0.02]$); the lookup rule reads $+25$ ($+0.04$, both intervals excluding zero) and $+10$ ($+0.02$, both including zero).
+The rise, where there is one, comes from the absent items the coverage rule abstains on and the answerer would have answered: on the five-line view the answerer already abstains on $241$ of the $383$ absent items (GPT-4.1 mini) and $280$ (Haiku~4.5), the rule adds $23$ and $11$ to those, and the licensed component falls by $3$ and $9$ where the rule abstains on a licensed item.
+In the rule-only reading the same difference is $+167$ and $+163$ ($+0.25$, both intervals excluding zero for both answerers), carried entirely by the rule's abstentions, because retrieval alone has no coverage rule and counts none of the answerer's own.
+Reported answers are rare for GPT-4.1 mini ($2$ of $74$ reached under the model rule, one of them by the successor alone) and a fifth to a quarter of the reached obligations for Haiku~4.5 ($16$ of $74$ under the header, $22$ with the duplicates tagged), most of them inside an abstention.
+Agreement with the second annotator's fourth question is reported once the sheet is labeled.

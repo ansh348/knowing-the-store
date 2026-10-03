@@ -1,0 +1,355 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 17,
+    "in": 18031,
+    "out": 6370,
+    "usd": 0.0174044
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 5,
+  "persona": "jerome",
+  "probes": [
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last",
+        "think",
+        "you"
+      ],
+      "max_cosine": 0.1791,
+      "note": "",
+      "question": "What was the last movie you watched at a theater and what did you think of it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1791,
+          "entry_id": "lb_00325",
+          "text": "User was watching the Falcons Super Bowl game at cousin Marc's place in Decatur"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1705,
+          "entry_id": "lb_00591",
+          "text": "User has a strong opinion about truck stop shower cleanliness and quality, valuing water pressure, room size, cleanliness, and amenities."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1591,
+          "entry_id": "lb_00525",
+          "text": "User experiences emotional tiredness from deep thinking and reflection."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1471,
+          "entry_id": "lb_00617",
+          "text": "User experiences loneliness and introspection during nights parked alone in truck stops."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1458,
+          "entry_id": "lb_00556",
+          "text": "User experiences social discomfort or amusement when stretching at truck stops late at night due to other drivers' reactions."
+        }
+      ],
+      "why_absent": "No information about Jerome's movie watching habits or entertainment preferences in the store."
+    },
+    {
+      "domain": "Personal History",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "play",
+        "used",
+        "you"
+      ],
+      "max_cosine": 0.2145,
+      "note": "",
+      "question": "Can you describe your favorite childhood toy or game you used to play?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2145,
+          "entry_id": "lb_00312",
+          "text": "User's grandmother used to say 'pa pale anpil' to them because they never stopped talking as a child."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1981,
+          "entry_id": "lb_00067",
+          "text": "User associates moving frequently with a feeling of safety and normalcy, possibly linked to trauma from standing still during an earthquake at age 12."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1913,
+          "entry_id": "lb_00064",
+          "text": "User's mom works at a daycare and loves being around kids."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1854,
+          "entry_id": "lb_00275",
+          "text": "User's mom made griot every Sunday when the user was growing up"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.185,
+          "entry_id": "lb_00600",
+          "text": "User grew up in a city with a tropical environment"
+        }
+      ],
+      "why_absent": "No details about Jerome's childhood toys or games are present in the memory store."
+    },
+    {
+      "domain": "Home Life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "home",
+        "keep",
+        "you"
+      ],
+      "max_cosine": 0.2341,
+      "note": "",
+      "question": "What kind of plants or flowers do you keep at home, if any?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2341,
+          "entry_id": "lb_00270",
+          "text": "User lives in an apartment and is often not home."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2201,
+          "entry_id": "lb_00575",
+          "text": "User prefers to eat food that is not from gas stations when at home."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2177,
+          "entry_id": "lb_00581",
+          "text": "User values spending time with family and friends in a backyard setting rather than being on the road."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2173,
+          "entry_id": "lb_00535",
+          "text": "User lives in an apartment."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2046,
+          "entry_id": "lb_00611",
+          "text": "User appreciates the natural beauty of southern Georgia, especially in spring with dogwoods and perfect weather around 72 degrees Fahrenheit."
+        }
+      ],
+      "why_absent": "No information about Jerome's home environment or plant-keeping habits is stored."
+    },
+    {
+      "domain": "Skills and Learning",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "classes",
+        "cooking",
+        "ever",
+        "you"
+      ],
+      "max_cosine": 0.3381,
+      "note": "",
+      "question": "Have you ever taken any cooking classes or workshops? If so, what cuisine did you learn?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3381,
+          "entry_id": "lb_00263",
+          "text": "User listens to podcasts about southern food traditions."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3294,
+          "entry_id": "lb_00574",
+          "text": "User's cooking skills are limited due to being on the road frequently."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3035,
+          "entry_id": "lb_00570",
+          "text": "User frequently travels for work and eats at truck stops, limiting cooking skills."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2947,
+          "entry_id": "lb_00568",
+          "text": "User's cooking skills are limited due to being on the road most of the time and eating at truck stops"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2719,
+          "entry_id": "lb_00439",
+          "text": "User currently eats cheap and unhealthy truck stop food but could cook healthier meals if home"
+        }
+      ],
+      "why_absent": "No data about Jerome's cooking education or culinary skill development is available."
+    },
+    {
+      "domain": "Hobbies and Recreation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "event",
+        "live",
+        "music",
+        "you"
+      ],
+      "max_cosine": 0.2251,
+      "note": "",
+      "question": "What was the most memorable concert or live music event you attended?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2251,
+          "entry_id": "lb_00411",
+          "text": "User enjoys country music, which is a new musical interest for him."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.22,
+          "entry_id": "lb_00416",
+          "text": "User enjoys country music, especially artists like Chris Stapleton, Zach Bryan, Tyler Childers, and Sturgill Simpson."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2177,
+          "entry_id": "lb_00410",
+          "text": "User genuinely enjoys country music."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2174,
+          "entry_id": "lb_00412",
+          "text": "User enjoys country music, especially artists like Chris Stapleton and Zach Bryan."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2155,
+          "entry_id": "lb_00620",
+          "text": "User experiences both freedom and loneliness as core aspects of their life on the road."
+        }
+      ],
+      "why_absent": "While music preferences are noted, no specific events or concerts attended are recorded."
+    },
+    {
+      "domain": "Personal Life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.2405,
+      "note": "",
+      "question": "Do you have any pets? If yes, what are their names and breeds?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2405,
+          "entry_id": "lb_00267",
+          "text": "Naomi currently wants to be a veterinarian."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2342,
+          "entry_id": "lb_00353",
+          "text": "User always names their trucks."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2158,
+          "entry_id": "lb_00273",
+          "text": "Naomi is passionate about various careers including veterinarian, teacher, singer, and astronaut, and does research to learn about them."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1931,
+          "entry_id": "lb_00535",
+          "text": "User lives in an apartment."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.184,
+          "entry_id": "lb_00464",
+          "text": "User lives in a studio apartment in Atlanta."
+        }
+      ],
+      "why_absent": "No mention of pets or pet ownership in Jerome's memory attributes."
+    },
+    {
+      "domain": "Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "type",
+        "you"
+      ],
+      "max_cosine": 0.3959,
+      "note": "",
+      "question": "What is your favorite type of weather or season, and why do you prefer it?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3959,
+          "entry_id": "lb_00603",
+          "text": "User enjoys driving with the window down in springtime, especially in April, appreciating the perfect temperature and scenery."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3945,
+          "entry_id": "lb_00605",
+          "text": "User lives in or near Georgia and experiences its seasonal weather."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3723,
+          "entry_id": "lb_00602",
+          "text": "User lives in Georgia and experiences distinct seasonal weather including brutal humid summers and gray winters."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3521,
+          "entry_id": "lb_00611",
+          "text": "User appreciates the natural beauty of southern Georgia, especially in spring with dogwoods and perfect weather around 72 degrees Fahrenheit."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.339,
+          "entry_id": "lb_00606",
+          "text": "User grew up in a city with tropical climate, different from current southern countryside environment."
+        }
+      ],
+      "why_absent": "Seasonal preferences are not documented in the existing attribute data."
+    }
+  ],
+  "threshold": 0.295
+}

@@ -1,0 +1,2275 @@
+{
+ "abstention_string": "The store does not currently contain the answer.",
+ "note": "Panel A feeds the YAML strings the detector uses as reference; Panel B feeds the rendered entry texts the model can actually echo from the view.",
+ "panel_a": {
+  "counts": {
+   "pn.abst->any_flag": 0,
+   "pn.abst->stale_tg": 0,
+   "pn.gold->stale_tg": 0,
+   "pn.n_scorable": 89,
+   "pn.stale->stale_hi": 89,
+   "pn.stale->stale_tg": 89,
+   "pn.unscorable_expiry": 15,
+   "present.abst->correct": 0,
+   "present.gold->correct": 174,
+   "present.n": 174
+  },
+  "expected": {
+   "pn.abst->any_flag": "0",
+   "pn.gold->stale_tg": "0",
+   "pn.stale->stale_tg": "89 of 89 scorable (104 minus 15 unscorable expiry)",
+   "present.abst->correct": "0",
+   "present.gold->correct": "174 of 174"
+  },
+  "failures": [],
+  "informational": {
+   "present.has_old_fact": 18,
+   "present.old_fact->correct": 1
+  },
+  "unscorable_expiry": [
+   {
+    "gold_field": "Dubai Marathon on January 10, 2025 — she's registered to run",
+    "item_id": "frbank:bruna:bruna_q11:FULL",
+    "reason": "expiring_logistics: SECTION_FIELDS gold field is the expired fact itself; gold string == stale string; correct behaviour is abstention"
+   },
+   {
+    "gold_field": "Dubai Marathon on January 10, 2025 — she's registered to run",
+    "item_id": "frbank:bruna:bruna_q11:CAT-ABLATED",
+    "reason": "expiring_logistics: SECTION_FIELDS gold field is the expired fact itself; gold string == stale string; correct behaviour is abstention"
+   },
+   {
+    "gold_field": "AP Euro exam May 8 — students need to be ready",
+    "item_id": "frbank:david:david_q06:FULL",
+    "reason": "expiring_logistics: SECTION_FIELDS gold field is the expired fact itself; gold string == stale string; correct behaviour is abstention"
+   },
+   {
+    "gold_field": "AP Euro exam May 8 — students need to be ready",
+    "item_id": "frbank:david:david_q06:CAT-ABLATED",
+    "reason": "expiring_logistics: SECTION_FIELDS gold field is the expired fact itself; gold string == stale string; correct behaviour is abstention"
+   },
+   {
+    "gold_field": "Parent-teacher conferences March 12",
+    "item_id": "frbank:david:david_q11:FULL",
+    "reason": "expiring_logistics: SECTION_FIELDS gold field is the expired fact itself; gold string == stale string; correct behaviour is abstention"
+   },
+   {
+    "gold_field": "Parent-teacher conferences March 12",
+    "item_id": "frbank:david:david_q11:CAT-ABLATED",
+    "reason": "expiring_logistics: SECTION_FIELDS gold field is the expired fact itself; gold string == stale string; correct behaviour is abstention"
+   },
+   {
+    "gold_field": "NCLEX-RN recertification exam March 20",
+    "item_id": "frbank:elena:elena_q05:FULL",
+    "reason": "expiring_logistics: SECTION_FIELDS gold field is the expired fact itself; gold string == stale string; correct behaviour is abstention"
+   },
+   {
+    "gold_field": "NCLEX-RN recertification exam March 20",
+    "item_id": "frbank:elena:elena_q05:CAT-ABLATED",
+    "reason": "expiring_logistics: SECTION_FIELDS gold field is the expired fact itself; gold string == stale string; correct behaviour is abstention"
+   },
+   {
+    "gold_field": "Apartment lease renewal deadline February 28",
+    "item_id": "frbank:elena:elena_q10:FULL",
+    "reason": "expiring_logistics: SECTION_FIELDS gold field is the expired fact itself; gold string == stale string; correct behaviour is abstention"
+   },
+   {
+    "gold_field": "Journeyman exam scheduled for March 8, 2025",
+    "item_id": "frbank:jake:jake_q11:FULL",
+    "reason": "expiring_logistics: SECTION_FIELDS gold field is the expired fact itself; gold string == stale string; correct behaviour is abstention"
+   },
+   {
+    "gold_field": "Truck delivery arriving April 22",
+    "item_id": "frbank:marcus:marcus_q10:FULL",
+    "reason": "expiring_logistics: SECTION_FIELDS gold field is the expired fact itself; gold string == stale string; correct behaviour is abstention"
+   },
+   {
+    "gold_field": "Truck delivery arriving April 22",
+    "item_id": "frbank:marcus:marcus_q10:CAT-ABLATED",
+    "reason": "expiring_logistics: SECTION_FIELDS gold field is the expired fact itself; gold string == stale string; correct behaviour is abstention"
+   },
+   {
+    "gold_field": "Meeting with SBA loan officer Tuesday Feb 4",
+    "item_id": "frbank:marcus:marcus_q12:FULL",
+    "reason": "expiring_logistics: SECTION_FIELDS gold field is the expired fact itself; gold string == stale string; correct behaviour is abstention"
+   },
+   {
+    "gold_field": "Government aquaculture inspection scheduled for February 15, 2025",
+    "item_id": "frbank:thanh:thanh_q02:FULL",
+    "reason": "expiring_logistics: SECTION_FIELDS gold field is the expired fact itself; gold string == stale string; correct behaviour is abstention"
+   },
+   {
+    "gold_field": "Government aquaculture inspection scheduled for February 15, 2025",
+    "item_id": "frbank:thanh:thanh_q02:CAT-ABLATED",
+    "reason": "expiring_logistics: SECTION_FIELDS gold field is the expired fact itself; gold string == stale string; correct behaviour is abstention"
+   }
+  ]
+ },
+ "panel_b": {
+  "pn": {
+   "all_hi": 65,
+   "all_tg": 72,
+   "any_hi": 71,
+   "any_tg": 84,
+   "line_with_metadata_flips": 0,
+   "n_scorable": 89,
+   "n_successor_texts": 237,
+   "none_tg": [
+    {
+     "entries": {
+      "lb_00185": {
+       "cov_dn": 0.0,
+       "cov_do": 0.4286,
+       "matched_dn": [],
+       "matched_do": [
+        "certified",
+        "get",
+        "planning"
+       ],
+       "missing_do": [
+        "2025",
+        "april",
+        "enrolled",
+        "starting"
+       ],
+       "n_dn": 6,
+       "n_do": 7,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is a physical therapist planning to get certified in dry needling through the Dubai Physiotherapy Association with an Australian instructor."
+      }
+     },
+     "gold_field": "Dropped the dry needling course — decided it doesn't align with her treatment philosophy",
+     "item_id": "frbank:bruna:bruna_q06:CAT-ABLATED",
+     "stale_field": "Planning to get certified in dry needling — enrolled in a course starting April 2025",
+     "state": "ret"
+    },
+    {
+     "entries": {
+      "lb_00182": {
+       "cov_dn": 0.0,
+       "cov_do": 0.4,
+       "matched_dn": [],
+       "matched_do": [
+        "home",
+        "launch"
+       ],
+       "missing_do": [
+        "geometry",
+        "oud",
+        "planning"
+       ],
+       "n_dn": 5,
+       "n_do": 5,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User's home fragrance line will launch with four scents inspired by spatial archetypes: courtyard, library, hammam, and rooftop at night."
+      },
+      "lb_00189": {
+       "cov_dn": 0.0,
+       "cov_do": 0.4,
+       "matched_dn": [],
+       "matched_do": [
+        "geometry",
+        "oud"
+       ],
+       "missing_do": [
+        "home",
+        "launch",
+        "planning"
+       ],
+       "n_dn": 5,
+       "n_do": 5,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is launching a fragrance line called Oud & Geometry with four initial scents inspired by spatial archetypes."
+      }
+     },
+     "gold_field": "Fragrance line cancelled — too much distraction from core business",
+     "item_id": "frbank:fatima:fatima_q06:SLOT-ABLATED",
+     "stale_field": "Planning to launch a home fragrance line — Oud & Geometry",
+     "state": "ret"
+    },
+    {
+     "entries": {
+      "lb_00231": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "missing_do": [
+        "20",
+        "first",
+        "lima",
+        "time",
+        "visiting",
+        "years"
+       ],
+       "n_dn": 4,
+       "n_do": 9,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is planning a two-week trip to Peru with Carlos"
+      },
+      "lb_00233": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "missing_do": [
+        "20",
+        "first",
+        "lima",
+        "time",
+        "visiting",
+        "years"
+       ],
+       "n_dn": 4,
+       "n_do": 9,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is planning a two-week trip to Peru with Carlos"
+      },
+      "lb_00236": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "missing_do": [
+        "20",
+        "first",
+        "lima",
+        "time",
+        "visiting",
+        "years"
+       ],
+       "n_dn": 4,
+       "n_do": 9,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is planning a two-week trip to Peru with Carlos."
+      },
+      "lb_00240": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "missing_do": [
+        "20",
+        "first",
+        "lima",
+        "time",
+        "visiting",
+        "years"
+       ],
+       "n_dn": 4,
+       "n_do": 9,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is planning a two-week trip to Peru with Carlos"
+      },
+      "lb_00242": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "missing_do": [
+        "20",
+        "first",
+        "lima",
+        "time",
+        "visiting",
+        "years"
+       ],
+       "n_dn": 4,
+       "n_do": 9,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is planning a two-week trip to Peru with Carlos"
+      }
+     },
+     "gold_field": "Peru trip cancelled — Carlos needs knee surgery",
+     "item_id": "frbank:rosa:rosa_q06:FULL",
+     "stale_field": "Planning a two-week trip to Peru with Carlos — visiting Lima for the first time in 20 years",
+     "state": "ret"
+    },
+    {
+     "entries": {
+      "lb_00231": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "missing_do": [
+        "20",
+        "first",
+        "lima",
+        "time",
+        "visiting",
+        "years"
+       ],
+       "n_dn": 4,
+       "n_do": 9,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is planning a two-week trip to Peru with Carlos"
+      },
+      "lb_00233": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "missing_do": [
+        "20",
+        "first",
+        "lima",
+        "time",
+        "visiting",
+        "years"
+       ],
+       "n_dn": 4,
+       "n_do": 9,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is planning a two-week trip to Peru with Carlos"
+      },
+      "lb_00236": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "missing_do": [
+        "20",
+        "first",
+        "lima",
+        "time",
+        "visiting",
+        "years"
+       ],
+       "n_dn": 4,
+       "n_do": 9,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is planning a two-week trip to Peru with Carlos."
+      },
+      "lb_00240": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "missing_do": [
+        "20",
+        "first",
+        "lima",
+        "time",
+        "visiting",
+        "years"
+       ],
+       "n_dn": 4,
+       "n_do": 9,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is planning a two-week trip to Peru with Carlos"
+      },
+      "lb_00242": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "missing_do": [
+        "20",
+        "first",
+        "lima",
+        "time",
+        "visiting",
+        "years"
+       ],
+       "n_dn": 4,
+       "n_do": 9,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is planning a two-week trip to Peru with Carlos"
+      }
+     },
+     "gold_field": "Peru trip cancelled — Carlos needs knee surgery",
+     "item_id": "frbank:rosa:rosa_q06:CAT-ABLATED",
+     "stale_field": "Planning a two-week trip to Peru with Carlos — visiting Lima for the first time in 20 years",
+     "state": "ret"
+    },
+    {
+     "entries": {
+      "lb_00231": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "missing_do": [
+        "20",
+        "first",
+        "lima",
+        "time",
+        "visiting",
+        "years"
+       ],
+       "n_dn": 4,
+       "n_do": 9,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is planning a two-week trip to Peru with Carlos"
+      },
+      "lb_00233": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "missing_do": [
+        "20",
+        "first",
+        "lima",
+        "time",
+        "visiting",
+        "years"
+       ],
+       "n_dn": 4,
+       "n_do": 9,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is planning a two-week trip to Peru with Carlos"
+      },
+      "lb_00236": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "missing_do": [
+        "20",
+        "first",
+        "lima",
+        "time",
+        "visiting",
+        "years"
+       ],
+       "n_dn": 4,
+       "n_do": 9,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is planning a two-week trip to Peru with Carlos."
+      },
+      "lb_00240": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "missing_do": [
+        "20",
+        "first",
+        "lima",
+        "time",
+        "visiting",
+        "years"
+       ],
+       "n_dn": 4,
+       "n_do": 9,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is planning a two-week trip to Peru with Carlos"
+      },
+      "lb_00242": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "missing_do": [
+        "20",
+        "first",
+        "lima",
+        "time",
+        "visiting",
+        "years"
+       ],
+       "n_dn": 4,
+       "n_do": 9,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is planning a two-week trip to Peru with Carlos"
+      }
+     },
+     "gold_field": "Peru trip cancelled — Carlos needs knee surgery",
+     "item_id": "frbank:rosa:rosa_q06:SLOT-ABLATED",
+     "stale_field": "Planning a two-week trip to Peru with Carlos — visiting Lima for the first time in 20 years",
+     "state": "ret"
+    }
+   ],
+   "partial_tg": [
+    {
+     "failing": {
+      "lb_00185": {
+       "cov_dn": 0.0,
+       "cov_do": 0.4286,
+       "matched_dn": [],
+       "matched_do": [
+        "certified",
+        "get",
+        "planning"
+       ],
+       "missing_do": [
+        "2025",
+        "april",
+        "enrolled",
+        "starting"
+       ],
+       "n_dn": 6,
+       "n_do": 7,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is a physical therapist planning to get certified in dry needling through the Dubai Physiotherapy Association with an Australian instructor."
+      }
+     },
+     "item_id": "frbank:bruna:bruna_q06:FULL",
+     "state": "ret"
+    },
+    {
+     "failing": {
+      "lb_00185": {
+       "cov_dn": 0.0,
+       "cov_do": 0.4286,
+       "matched_dn": [],
+       "matched_do": [
+        "certified",
+        "get",
+        "planning"
+       ],
+       "missing_do": [
+        "2025",
+        "april",
+        "enrolled",
+        "starting"
+       ],
+       "n_dn": 6,
+       "n_do": 7,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is a physical therapist planning to get certified in dry needling through the Dubai Physiotherapy Association with an Australian instructor."
+      }
+     },
+     "item_id": "frbank:bruna:bruna_q06:SLOT-ABLATED",
+     "state": "ret"
+    },
+    {
+     "failing": {
+      "lb_00149": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "location"
+       ],
+       "missing_do": [
+        "open",
+        "planning"
+       ],
+       "n_dn": 4,
+       "n_do": 3,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is considering opening a second practice location in La Jolla"
+      },
+      "lb_00159": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "location"
+       ],
+       "missing_do": [
+        "open",
+        "planning"
+       ],
+       "n_dn": 4,
+       "n_do": 3,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is a periodontist with a current practice and is considering opening a second practice location in La Jolla."
+      }
+     },
+     "item_id": "frbank:dariush:dariush_q04:FULL",
+     "state": "ret"
+    },
+    {
+     "failing": {
+      "lb_00149": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "location"
+       ],
+       "missing_do": [
+        "open",
+        "planning"
+       ],
+       "n_dn": 4,
+       "n_do": 3,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is considering opening a second practice location in La Jolla"
+      },
+      "lb_00159": {
+       "cov_dn": 0.0,
+       "cov_do": 0.3333,
+       "matched_dn": [],
+       "matched_do": [
+        "location"
+       ],
+       "missing_do": [
+        "open",
+        "planning"
+       ],
+       "n_dn": 4,
+       "n_do": 3,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is a periodontist with a current practice and is considering opening a second practice location in La Jolla."
+      }
+     },
+     "item_id": "frbank:dariush:dariush_q04:SLOT-ABLATED",
+     "state": "ret"
+    },
+    {
+     "failing": {
+      "lb_00182": {
+       "cov_dn": 0.0,
+       "cov_do": 0.4,
+       "matched_dn": [],
+       "matched_do": [
+        "home",
+        "launch"
+       ],
+       "missing_do": [
+        "geometry",
+        "oud",
+        "planning"
+       ],
+       "n_dn": 5,
+       "n_do": 5,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User's home fragrance line will launch with four scents inspired by spatial archetypes: courtyard, library, hammam, and rooftop at night."
+      },
+      "lb_00189": {
+       "cov_dn": 0.0,
+       "cov_do": 0.4,
+       "matched_dn": [],
+       "matched_do": [
+        "geometry",
+        "oud"
+       ],
+       "missing_do": [
+        "home",
+        "launch",
+        "planning"
+       ],
+       "n_dn": 5,
+       "n_do": 5,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is launching a fragrance line called Oud & Geometry with four initial scents inspired by spatial archetypes."
+      }
+     },
+     "item_id": "frbank:fatima:fatima_q06:FULL",
+     "state": "ret"
+    },
+    {
+     "failing": {
+      "lb_00085": {
+       "cov_dn": 0.0,
+       "cov_do": 0.4,
+       "matched_dn": [],
+       "matched_do": [
+        "institution",
+        "oceanographic"
+       ],
+       "missing_do": [
+        "massachusetts",
+        "planning",
+        "year"
+       ],
+       "n_dn": 6,
+       "n_do": 5,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User plans to formalize the invitation for a Guest Investigator appointment at Woods Hole Oceanographic Institution by March 2025."
+      },
+      "lb_00086": {
+       "cov_dn": 0.0,
+       "cov_do": 0.4,
+       "matched_dn": [],
+       "matched_do": [
+        "institution",
+        "oceanographic"
+       ],
+       "missing_do": [
+        "massachusetts",
+        "planning",
+        "year"
+       ],
+       "n_dn": 6,
+       "n_do": 5,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User plans to be a Guest Investigator at Woods Hole Oceanographic Institution from August 2026 through July 2027."
+      }
+     },
+     "item_id": "frbank:ingrid:ingrid_q04:FULL",
+     "state": "ret"
+    },
+    {
+     "failing": {
+      "lb_00085": {
+       "cov_dn": 0.0,
+       "cov_do": 0.4,
+       "matched_dn": [],
+       "matched_do": [
+        "institution",
+        "oceanographic"
+       ],
+       "missing_do": [
+        "massachusetts",
+        "planning",
+        "year"
+       ],
+       "n_dn": 6,
+       "n_do": 5,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User plans to formalize the invitation for a Guest Investigator appointment at Woods Hole Oceanographic Institution by March 2025."
+      },
+      "lb_00086": {
+       "cov_dn": 0.0,
+       "cov_do": 0.4,
+       "matched_dn": [],
+       "matched_do": [
+        "institution",
+        "oceanographic"
+       ],
+       "missing_do": [
+        "massachusetts",
+        "planning",
+        "year"
+       ],
+       "n_dn": 6,
+       "n_do": 5,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User plans to be a Guest Investigator at Woods Hole Oceanographic Institution from August 2026 through July 2027."
+      }
+     },
+     "item_id": "frbank:ingrid:ingrid_q04:CAT-ABLATED",
+     "state": "ret"
+    },
+    {
+     "failing": {
+      "lb_00085": {
+       "cov_dn": 0.0,
+       "cov_do": 0.4,
+       "matched_dn": [],
+       "matched_do": [
+        "institution",
+        "oceanographic"
+       ],
+       "missing_do": [
+        "massachusetts",
+        "planning",
+        "year"
+       ],
+       "n_dn": 6,
+       "n_do": 5,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User plans to formalize the invitation for a Guest Investigator appointment at Woods Hole Oceanographic Institution by March 2025."
+      },
+      "lb_00086": {
+       "cov_dn": 0.0,
+       "cov_do": 0.4,
+       "matched_dn": [],
+       "matched_do": [
+        "institution",
+        "oceanographic"
+       ],
+       "missing_do": [
+        "massachusetts",
+        "planning",
+        "year"
+       ],
+       "n_dn": 6,
+       "n_do": 5,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User plans to be a Guest Investigator at Woods Hole Oceanographic Institution from August 2026 through July 2027."
+      }
+     },
+     "item_id": "frbank:ingrid:ingrid_q04:SLOT-ABLATED",
+     "state": "ret"
+    },
+    {
+     "failing": {
+      "lb_00138": {
+       "cov_dn": 0.1429,
+       "cov_do": 0.4286,
+       "matched_dn": [
+        "writing"
+       ],
+       "matched_do": [
+        "combinatorial",
+        "game",
+        "theory"
+       ],
+       "missing_do": [
+        "applied",
+        "baduk",
+        "planning",
+        "write"
+       ],
+       "n_dn": 7,
+       "n_do": 7,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is writing a textbook bridging combinatorial game theory and go"
+      }
+     },
+     "item_id": "frbank:joonho:joonho_q04:FULL",
+     "state": "ret"
+    },
+    {
+     "failing": {
+      "lb_00138": {
+       "cov_dn": 0.1429,
+       "cov_do": 0.4286,
+       "matched_dn": [
+        "writing"
+       ],
+       "matched_do": [
+        "combinatorial",
+        "game",
+        "theory"
+       ],
+       "missing_do": [
+        "applied",
+        "baduk",
+        "planning",
+        "write"
+       ],
+       "n_dn": 7,
+       "n_do": 7,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User is writing a textbook bridging combinatorial game theory and go"
+      }
+     },
+     "item_id": "frbank:joonho:joonho_q04:SLOT-ABLATED",
+     "state": "ret"
+    },
+    {
+     "failing": {
+      "lb_00178": {
+       "cov_dn": 0.0,
+       "cov_do": 0.4,
+       "matched_dn": [],
+       "matched_do": [
+        "applied",
+        "copenhagen"
+       ],
+       "missing_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "n_dn": 5,
+       "n_do": 5,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User applied for a professional kitchen stage at Noma in Copenhagen"
+      }
+     },
+     "item_id": "frbank:nadia:nadia_q06:FULL",
+     "state": "ret"
+    },
+    {
+     "failing": {
+      "lb_00178": {
+       "cov_dn": 0.0,
+       "cov_do": 0.4,
+       "matched_dn": [],
+       "matched_do": [
+        "applied",
+        "copenhagen"
+       ],
+       "missing_do": [
+        "planning",
+        "two",
+        "week"
+       ],
+       "n_dn": 5,
+       "n_do": 5,
+       "section": "retractions",
+       "structurally_none": false,
+       "tag": "active",
+       "text": "User applied for a professional kitchen stage at Noma in Copenhagen"
+      }
+     },
+     "item_id": "frbank:nadia:nadia_q06:SLOT-ABLATED",
+     "state": "ret"
+    }
+   ],
+   "successor_text_fires": [
+    {
+     "cov_dn": 0.0,
+     "cov_do": 0.75,
+     "entry": "lb_00219",
+     "item_id": "frbank:valentina:valentina_q04:FULL",
+     "matched_dn": [],
+     "matched_do": [
+      "generation",
+      "journalists",
+      "planning"
+     ],
+     "missing_do": [
+      "colombian"
+     ],
+     "n_dn": 3,
+     "n_do": 4,
+     "section": "retractions",
+     "state": "ret",
+     "structurally_none": false,
+     "text": "User is planning to write a book about their father's generation of journalists who covered dangerous topics."
+    },
+    {
+     "cov_dn": 0.0,
+     "cov_do": 0.5,
+     "entry": "lb_00220",
+     "item_id": "frbank:valentina:valentina_q04:FULL",
+     "matched_dn": [],
+     "matched_do": [
+      "generation",
+      "journalists"
+     ],
+     "missing_do": [
+      "colombian",
+      "planning"
+     ],
+     "n_dn": 3,
+     "n_do": 4,
+     "section": "retractions",
+     "state": "ret",
+     "structurally_none": false,
+     "text": "User planned to write a book about their father's generation of journalists covering the narco years but decided not to proceed due to family safety concerns."
+    },
+    {
+     "cov_dn": 0.0,
+     "cov_do": 0.5,
+     "entry": "lb_00222",
+     "item_id": "frbank:valentina:valentina_q04:FULL",
+     "matched_dn": [],
+     "matched_do": [
+      "generation",
+      "journalists"
+     ],
+     "missing_do": [
+      "colombian",
+      "planning"
+     ],
+     "n_dn": 3,
+     "n_do": 4,
+     "section": "retractions",
+     "state": "ret",
+     "structurally_none": false,
+     "text": "User planned to write a book about her father's generation of journalists who covered the narco years and faced threats and relocations."
+    },
+    {
+     "cov_dn": 0.0,
+     "cov_do": 0.75,
+     "entry": "lb_00219",
+     "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+     "matched_dn": [],
+     "matched_do": [
+      "generation",
+      "journalists",
+      "planning"
+     ],
+     "missing_do": [
+      "colombian"
+     ],
+     "n_dn": 3,
+     "n_do": 4,
+     "section": "retractions",
+     "state": "ret",
+     "structurally_none": false,
+     "text": "User is planning to write a book about their father's generation of journalists who covered dangerous topics."
+    },
+    {
+     "cov_dn": 0.0,
+     "cov_do": 0.5,
+     "entry": "lb_00220",
+     "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+     "matched_dn": [],
+     "matched_do": [
+      "generation",
+      "journalists"
+     ],
+     "missing_do": [
+      "colombian",
+      "planning"
+     ],
+     "n_dn": 3,
+     "n_do": 4,
+     "section": "retractions",
+     "state": "ret",
+     "structurally_none": false,
+     "text": "User planned to write a book about their father's generation of journalists covering the narco years but decided not to proceed due to family safety concerns."
+    },
+    {
+     "cov_dn": 0.0,
+     "cov_do": 0.5,
+     "entry": "lb_00222",
+     "item_id": "frbank:valentina:valentina_q04:SLOT-ABLATED",
+     "matched_dn": [],
+     "matched_do": [
+      "generation",
+      "journalists"
+     ],
+     "missing_do": [
+      "colombian",
+      "planning"
+     ],
+     "n_dn": 3,
+     "n_do": 4,
+     "section": "retractions",
+     "state": "ret",
+     "structurally_none": false,
+     "text": "User planned to write a book about her father's generation of journalists who covered the narco years and faced threats and relocations."
+    }
+   ]
+  },
+  "present": {
+   "all_pass": 141,
+   "any_pass": 161,
+   "line_with_metadata_flips": 0,
+   "n_with_gold": 164,
+   "no_licensed_id": [
+    {
+     "gold_field": "Fieldwork trip to Bethlehem with Diego — April 22, 2026",
+     "item_id": "frbank:leila:leila_q11:FULL",
+     "section": "expiring_logistics"
+    },
+    {
+     "gold_field": "Fieldwork trip to Bethlehem with Diego — April 22, 2026",
+     "item_id": "frbank:leila:leila_q11:CAT-ABLATED",
+     "section": "expiring_logistics"
+    },
+    {
+     "gold_field": "Great Ocean Road camping trip with friends — Easter weekend April 18-21, 2025",
+     "item_id": "frbank:lily:lily_q11:FULL",
+     "section": "expiring_logistics"
+    },
+    {
+     "gold_field": "Great Ocean Road camping trip with friends — Easter weekend April 18-21, 2025",
+     "item_id": "frbank:lily:lily_q11:CAT-ABLATED",
+     "section": "expiring_logistics"
+    },
+    {
+     "gold_field": "Brother Beam's conscription ends — August 20, 2025",
+     "item_id": "frbank:pan:pan_q13:FULL",
+     "section": "expiring_logistics"
+    },
+    {
+     "gold_field": "Brother Beam's conscription ends — August 20, 2025",
+     "item_id": "frbank:pan:pan_q13:CAT-ABLATED",
+     "section": "expiring_logistics"
+    },
+    {
+     "gold_field": "Journalism award ceremony CPB — August 9, 2025",
+     "item_id": "frbank:valentina:valentina_q13:FULL",
+     "section": "expiring_logistics"
+    },
+    {
+     "gold_field": "Journalism award ceremony CPB — August 9, 2025",
+     "item_id": "frbank:valentina:valentina_q13:CAT-ABLATED",
+     "section": "expiring_logistics"
+    },
+    {
+     "gold_field": "Sustainability certification exam (LEED Green Associate) — February 8, 2025",
+     "item_id": "frbank:zara:zara_q13:FULL",
+     "section": "expiring_logistics"
+    },
+    {
+     "gold_field": "Sustainability certification exam (LEED Green Associate) — February 8, 2025",
+     "item_id": "frbank:zara:zara_q13:CAT-ABLATED",
+     "section": "expiring_logistics"
+    }
+   ],
+   "no_pass": [
+    {
+     "entries": {
+      "lb_00273": {
+       "cov": 0.4286,
+       "matched": [
+        "2026",
+        "june",
+        "survey"
+       ],
+       "missing": [
+        "aerial",
+        "biologists",
+        "muskox",
+        "territorial"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User will fly a Bell 206 helicopter from the Inuvik base for the survey on June 4, 2026."
+      }
+     },
+     "gold_field": "Muskox aerial survey with territorial biologists — June 4, 2026",
+     "item_id": "frbank:billy:billy_q06:FULL"
+    },
+    {
+     "entries": {
+      "lb_00378": {
+       "cov": 0.4286,
+       "matched": [
+        "conference",
+        "edinburgh",
+        "may"
+       ],
+       "missing": [
+        "2026",
+        "annual",
+        "highland",
+        "vets"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User has a mandatory practice conference on May 8th and 9th in Edinburgh."
+      },
+      "lb_00380": {
+       "cov": 0.1429,
+       "matched": [
+        "conference"
+       ],
+       "missing": [
+        "2026",
+        "annual",
+        "edinburgh",
+        "highland",
+        "may",
+        "vets"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User's conference topics include clinical updates such as parasitology and antimicrobial stewardship, as well as practice management and client communication."
+      },
+      "lb_00383": {
+       "cov": 0.4286,
+       "matched": [
+        "conference",
+        "edinburgh",
+        "may"
+       ],
+       "missing": [
+        "2026",
+        "annual",
+        "highland",
+        "vets"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User will attend a mandatory practice conference on May 8th and 9th in Edinburgh."
+      }
+     },
+     "gold_field": "Highland Vets annual conference — Edinburgh, May 8-9, 2026",
+     "item_id": "frbank:callum:callum_q05:FULL"
+    },
+    {
+     "entries": {
+      "lb_00386": {
+       "cov": 0.4444,
+       "matched": [
+        "design",
+        "exhibition",
+        "tokyo",
+        "week"
+       ],
+       "missing": [
+        "15",
+        "2026",
+        "deadline",
+        "july",
+        "submission"
+       ],
+       "n_gold": 9,
+       "section": "expiring_logistics",
+       "text": "User is interested in submitting a portfolio and exhibition concept to Tokyo Design Week's emerging designers exhibition"
+      }
+     },
+     "gold_field": "Design exhibition submission deadline — Tokyo Design Week, July 15, 2026",
+     "item_id": "frbank:kenji:kenji_q05:FULL"
+    }
+   ],
+   "partial": [
+    {
+     "failing": {
+      "lb_00414": {
+       "cov": 0.4286,
+       "matched": [
+        "18",
+        "2026",
+        "july"
+       ],
+       "missing": [
+        "conference",
+        "homebirth",
+        "midwifery",
+        "wellington"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User is preparing a presentation for a hui on July 18, 2026."
+      }
+     },
+     "gold_field": "Homebirth midwifery conference in Wellington — July 18, 2026",
+     "item_id": "frbank:aroha:aroha_q06:FULL"
+    },
+    {
+     "failing": {
+      "lb_00461": {
+       "cov": 0.375,
+       "matched": [
+        "12",
+        "conference",
+        "july"
+       ],
+       "missing": [
+        "2026",
+        "gulf",
+        "medicine",
+        "presenting",
+        "sports"
+       ],
+       "n_gold": 8,
+       "section": "expiring_logistics",
+       "text": "User is preparing a presentation for a conference on July 12th about return-to-sport protocols after ACL reconstruction."
+      },
+      "lb_00465": {
+       "cov": 0.375,
+       "matched": [
+        "12",
+        "2026",
+        "july"
+       ],
+       "missing": [
+        "conference",
+        "gulf",
+        "medicine",
+        "presenting",
+        "sports"
+       ],
+       "n_gold": 8,
+       "section": "expiring_logistics",
+       "text": "User is preparing for a major presentation on July 12th, 2026."
+      }
+     },
+     "gold_field": "Presenting at the Gulf Sports Medicine Conference on July 12, 2026",
+     "item_id": "frbank:bruna:bruna_q05:FULL"
+    },
+    {
+     "failing": {
+      "lb_00461": {
+       "cov": 0.375,
+       "matched": [
+        "12",
+        "conference",
+        "july"
+       ],
+       "missing": [
+        "2026",
+        "gulf",
+        "medicine",
+        "presenting",
+        "sports"
+       ],
+       "n_gold": 8,
+       "section": "expiring_logistics",
+       "text": "User is preparing a presentation for a conference on July 12th about return-to-sport protocols after ACL reconstruction."
+      },
+      "lb_00465": {
+       "cov": 0.375,
+       "matched": [
+        "12",
+        "2026",
+        "july"
+       ],
+       "missing": [
+        "conference",
+        "gulf",
+        "medicine",
+        "presenting",
+        "sports"
+       ],
+       "n_gold": 8,
+       "section": "expiring_logistics",
+       "text": "User is preparing for a major presentation on July 12th, 2026."
+      }
+     },
+     "gold_field": "Presenting at the Gulf Sports Medicine Conference on July 12, 2026",
+     "item_id": "frbank:bruna:bruna_q05:CAT-ABLATED"
+    },
+    {
+     "failing": {
+      "lb_00489": {
+       "cov": 0.0,
+       "matched": [],
+       "missing": [
+        "12",
+        "2026",
+        "academy",
+        "american",
+        "annual",
+        "francisco",
+        "meeting",
+        "periodontology",
+        "san",
+        "september"
+       ],
+       "n_gold": 10,
+       "section": "expiring_logistics",
+       "text": "User will present clinical outcomes from Fotona LightWalker laser cases."
+      },
+      "lb_00490": {
+       "cov": 0.0,
+       "matched": [],
+       "missing": [
+        "12",
+        "2026",
+        "academy",
+        "american",
+        "annual",
+        "francisco",
+        "meeting",
+        "periodontology",
+        "san",
+        "september"
+       ],
+       "n_gold": 10,
+       "section": "expiring_logistics",
+       "text": "User's presentation format is a lecture with twenty minutes plus five minutes for questions."
+      }
+     },
+     "gold_field": "American Academy of Periodontology annual meeting — San Francisco, September 12, 2026",
+     "item_id": "frbank:dariush:dariush_q06:FULL"
+    },
+    {
+     "failing": {
+      "lb_00416": {
+       "cov": 0.1111,
+       "matched": [
+        "greg"
+       ],
+       "missing": [
+        "12",
+        "2026",
+        "art",
+        "center",
+        "folk",
+        "july",
+        "show",
+        "woodworking"
+       ],
+       "n_gold": 9,
+       "section": "expiring_logistics",
+       "text": "User's partner Greg will be building a rocking chair and other pieces in his workshop over the next six months."
+      }
+     },
+     "gold_field": "Greg's woodworking show at the Folk Art Center — July 12, 2026",
+     "item_id": "frbank:diane:diane_q05:FULL"
+    },
+    {
+     "failing": {
+      "lb_00504": {
+       "cov": 0.2857,
+       "matched": [
+        "birthday",
+        "naomi"
+       ],
+       "missing": [
+        "10",
+        "14",
+        "2026",
+        "september",
+        "th"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User plans to take daughter Naomi to Disney World in Orlando for 3 days as a surprise birthday trip"
+      },
+      "lb_00505": {
+       "cov": 0.0,
+       "matched": [],
+       "missing": [
+        "10",
+        "14",
+        "2026",
+        "birthday",
+        "naomi",
+        "september",
+        "th"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User has saved $800 so far for the Disney trip and plans to save about $200 per month"
+      },
+      "lb_00507": {
+       "cov": 0.4286,
+       "matched": [
+        "14",
+        "naomi",
+        "september"
+       ],
+       "missing": [
+        "10",
+        "2026",
+        "birthday",
+        "th"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User plans to take Naomi to Disney World in Orlando for about 3 days around September 14 next year."
+      }
+     },
+     "gold_field": "Naomi's 10th birthday — September 14, 2026",
+     "item_id": "frbank:jerome:jerome_q07:FULL"
+    },
+    {
+     "failing": {
+      "lb_00504": {
+       "cov": 0.2857,
+       "matched": [
+        "birthday",
+        "naomi"
+       ],
+       "missing": [
+        "10",
+        "14",
+        "2026",
+        "september",
+        "th"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User plans to take daughter Naomi to Disney World in Orlando for 3 days as a surprise birthday trip"
+      },
+      "lb_00505": {
+       "cov": 0.0,
+       "matched": [],
+       "missing": [
+        "10",
+        "14",
+        "2026",
+        "birthday",
+        "naomi",
+        "september",
+        "th"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User has saved $800 so far for the Disney trip and plans to save about $200 per month"
+      },
+      "lb_00507": {
+       "cov": 0.4286,
+       "matched": [
+        "14",
+        "naomi",
+        "september"
+       ],
+       "missing": [
+        "10",
+        "2026",
+        "birthday",
+        "th"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User plans to take Naomi to Disney World in Orlando for about 3 days around September 14 next year."
+      }
+     },
+     "gold_field": "Naomi's 10th birthday — September 14, 2026",
+     "item_id": "frbank:jerome:jerome_q07:CAT-ABLATED"
+    },
+    {
+     "failing": {
+      "lb_00499": {
+       "cov": 0.1667,
+       "matched": [
+        "cooperative"
+       ],
+       "missing": [
+        "2026",
+        "annual",
+        "general",
+        "meeting",
+        "october"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User collaborates with the treasurer Brother Asante on the cooperative report"
+      },
+      "lb_00511": {
+       "cov": 0.3333,
+       "matched": [
+        "meeting",
+        "october"
+       ],
+       "missing": [
+        "2026",
+        "annual",
+        "cooperative",
+        "general"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User plans to prepare and practice answers to questions before the October 3 meeting."
+      },
+      "lb_00515": {
+       "cov": 0.1667,
+       "matched": [
+        "october"
+       ],
+       "missing": [
+        "2026",
+        "annual",
+        "cooperative",
+        "general",
+        "meeting"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User is preparing for an AGM presentation scheduled for October 3."
+      }
+     },
+     "gold_field": "Cooperative annual general meeting — October 3, 2026",
+     "item_id": "frbank:kofi:kofi_q06:FULL"
+    },
+    {
+     "failing": {
+      "lb_00499": {
+       "cov": 0.1667,
+       "matched": [
+        "cooperative"
+       ],
+       "missing": [
+        "2026",
+        "annual",
+        "general",
+        "meeting",
+        "october"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User collaborates with the treasurer Brother Asante on the cooperative report"
+      },
+      "lb_00511": {
+       "cov": 0.3333,
+       "matched": [
+        "meeting",
+        "october"
+       ],
+       "missing": [
+        "2026",
+        "annual",
+        "cooperative",
+        "general"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User plans to prepare and practice answers to questions before the October 3 meeting."
+      },
+      "lb_00515": {
+       "cov": 0.1667,
+       "matched": [
+        "october"
+       ],
+       "missing": [
+        "2026",
+        "annual",
+        "cooperative",
+        "general",
+        "meeting"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User is preparing for an AGM presentation scheduled for October 3."
+      }
+     },
+     "gold_field": "Cooperative annual general meeting — October 3, 2026",
+     "item_id": "frbank:kofi:kofi_q06:CAT-ABLATED"
+    },
+    {
+     "failing": {
+      "lb_00402": {
+       "cov": 0.4286,
+       "matched": [
+        "hong",
+        "kong",
+        "nai"
+       ],
+       "missing": [
+        "20",
+        "2026",
+        "flying",
+        "may"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User is taking their nai nai to Hong Kong for the first time in over fifty years."
+      },
+      "lb_00411": {
+       "cov": 0.4286,
+       "matched": [
+        "hong",
+        "kong",
+        "nai"
+       ],
+       "missing": [
+        "20",
+        "2026",
+        "flying",
+        "may"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User is taking their grandmother (nai nai) to Hong Kong for about ten days to visit old neighborhoods, eat local food, and see relatives."
+      },
+      "lb_00414": {
+       "cov": 0.0,
+       "matched": [],
+       "missing": [
+        "20",
+        "2026",
+        "flying",
+        "hong",
+        "kong",
+        "may",
+        "nai"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User is working to improve their Cantonese language skills before the trip to assist their grandmother."
+      },
+      "lb_00415": {
+       "cov": 0.4286,
+       "matched": [
+        "hong",
+        "kong",
+        "may"
+       ],
+       "missing": [
+        "20",
+        "2026",
+        "flying",
+        "nai"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User is planning a trip to Hong Kong in May for about ten days with their grandmother."
+      }
+     },
+     "gold_field": "Flying to Hong Kong with Nai Nai — May 20, 2026",
+     "item_id": "frbank:lily:lily_q05:FULL"
+    },
+    {
+     "failing": {
+      "lb_00402": {
+       "cov": 0.4286,
+       "matched": [
+        "hong",
+        "kong",
+        "nai"
+       ],
+       "missing": [
+        "20",
+        "2026",
+        "flying",
+        "may"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User is taking their nai nai to Hong Kong for the first time in over fifty years."
+      },
+      "lb_00411": {
+       "cov": 0.4286,
+       "matched": [
+        "hong",
+        "kong",
+        "nai"
+       ],
+       "missing": [
+        "20",
+        "2026",
+        "flying",
+        "may"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User is taking their grandmother (nai nai) to Hong Kong for about ten days to visit old neighborhoods, eat local food, and see relatives."
+      },
+      "lb_00414": {
+       "cov": 0.0,
+       "matched": [],
+       "missing": [
+        "20",
+        "2026",
+        "flying",
+        "hong",
+        "kong",
+        "may",
+        "nai"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User is working to improve their Cantonese language skills before the trip to assist their grandmother."
+      },
+      "lb_00415": {
+       "cov": 0.4286,
+       "matched": [
+        "hong",
+        "kong",
+        "may"
+       ],
+       "missing": [
+        "20",
+        "2026",
+        "flying",
+        "nai"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User is planning a trip to Hong Kong in May for about ten days with their grandmother."
+      }
+     },
+     "gold_field": "Flying to Hong Kong with Nai Nai — May 20, 2026",
+     "item_id": "frbank:lily:lily_q05:CAT-ABLATED"
+    },
+    {
+     "failing": {
+      "lb_00306": {
+       "cov": 0.2857,
+       "matched": [
+        "april",
+        "brokerage"
+       ],
+       "missing": [
+        "2026",
+        "estate",
+        "joining",
+        "real",
+        "starts"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User will start working at Century 21 brokerage on April 1st"
+      }
+     },
+     "gold_field": "Joining a real estate brokerage — starts April 1, 2026",
+     "item_id": "frbank:omar:omar_q03:FULL"
+    },
+    {
+     "failing": {
+      "lb_00485": {
+       "cov": 0.3333,
+       "matched": [
+        "license",
+        "renewal",
+        "vendor"
+       ],
+       "missing": [
+        "15",
+        "2026",
+        "deadline",
+        "food",
+        "july",
+        "street"
+       ],
+       "n_gold": 9,
+       "section": "expiring_logistics",
+       "text": "User must pay a 2,800 baht fee for vendor license renewal."
+      }
+     },
+     "gold_field": "Street food vendor license renewal deadline — July 15, 2026",
+     "item_id": "frbank:pan:pan_q06:FULL"
+    },
+    {
+     "failing": {
+      "lb_00485": {
+       "cov": 0.3333,
+       "matched": [
+        "license",
+        "renewal",
+        "vendor"
+       ],
+       "missing": [
+        "15",
+        "2026",
+        "deadline",
+        "food",
+        "july",
+        "street"
+       ],
+       "n_gold": 9,
+       "section": "expiring_logistics",
+       "text": "User must pay a 2,800 baht fee for vendor license renewal."
+      }
+     },
+     "gold_field": "Street food vendor license renewal deadline — July 15, 2026",
+     "item_id": "frbank:pan:pan_q06:CAT-ABLATED"
+    },
+    {
+     "failing": {
+      "lb_00350": {
+       "cov": 0.1,
+       "matched": [
+        "conference"
+       ],
+       "missing": [
+        "15",
+        "17",
+        "2026",
+        "antonio",
+        "battalion",
+        "chiefs",
+        "pfd",
+        "san",
+        "september"
+       ],
+       "n_gold": 10,
+       "section": "expiring_logistics",
+       "text": "User plans to stay at the Marriott Riverwalk hotel for the conference."
+      }
+     },
+     "gold_field": "PFD battalion chiefs' conference — San Antonio, September 15-17, 2026",
+     "item_id": "frbank:patrick:patrick_q05:FULL"
+    },
+    {
+     "failing": {
+      "lb_00437": {
+       "cov": 0.4286,
+       "matched": [
+        "15",
+        "course",
+        "june"
+       ],
+       "missing": [
+        "2026",
+        "boiler",
+        "installation",
+        "update"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User has booked a one-day refresher course on June 15th at a training centre in Solihull."
+      },
+      "lb_00440": {
+       "cov": 0.2857,
+       "matched": [
+        "boiler",
+        "course"
+       ],
+       "missing": [
+        "15",
+        "2026",
+        "installation",
+        "june",
+        "update"
+       ],
+       "n_gold": 7,
+       "section": "expiring_logistics",
+       "text": "User needs to complete a generic standards course covering new boiler regulations"
+      }
+     },
+     "gold_field": "Boiler installation course update — June 15, 2026",
+     "item_id": "frbank:raj:raj_q05:FULL"
+    },
+    {
+     "failing": {
+      "lb_00315": {
+       "cov": 0.3333,
+       "matched": [
+        "august",
+        "conference"
+       ],
+       "missing": [
+        "2026",
+        "copenhagen",
+        "data",
+        "talk"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User has started preparing for the August conference by drafting 18 slides as of January."
+      }
+     },
+     "gold_field": "Data conference talk in Copenhagen — August 8, 2026",
+     "item_id": "frbank:saga:saga_q06:FULL"
+    },
+    {
+     "failing": {
+      "lb_00468": {
+       "cov": 0.3333,
+       "matched": [
+        "duc",
+        "wedding"
+       ],
+       "missing": [
+        "12",
+        "2026",
+        "celebration",
+        "july"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User expects about 150 guests at Duc's wedding, including family, neighbors, and friends from both sides"
+      },
+      "lb_00470": {
+       "cov": 0.1667,
+       "matched": [
+        "wedding"
+       ],
+       "missing": [
+        "12",
+        "2026",
+        "celebration",
+        "duc",
+        "july"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User estimates the wedding budget to be 45 million dong"
+      },
+      "lb_00474": {
+       "cov": 0.1667,
+       "matched": [
+        "wedding"
+       ],
+       "missing": [
+        "12",
+        "2026",
+        "celebration",
+        "duc",
+        "july"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User is planning a wedding with about 150 guests"
+      },
+      "lb_00475": {
+       "cov": 0.1667,
+       "matched": [
+        "wedding"
+       ],
+       "missing": [
+        "12",
+        "2026",
+        "celebration",
+        "duc",
+        "july"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User's wedding budget is approximately 45 million dong"
+      },
+      "lb_00476": {
+       "cov": 0.1667,
+       "matched": [
+        "wedding"
+       ],
+       "missing": [
+        "12",
+        "2026",
+        "celebration",
+        "duc",
+        "july"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User's wedding menu will include shrimp, pork, chicken, duck, spring roll, soup, and rice in delta style"
+      }
+     },
+     "gold_field": "Duc's wedding celebration — July 12, 2026",
+     "item_id": "frbank:thanh:thanh_q13:FULL"
+    },
+    {
+     "failing": {
+      "lb_00468": {
+       "cov": 0.3333,
+       "matched": [
+        "duc",
+        "wedding"
+       ],
+       "missing": [
+        "12",
+        "2026",
+        "celebration",
+        "july"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User expects about 150 guests at Duc's wedding, including family, neighbors, and friends from both sides"
+      },
+      "lb_00470": {
+       "cov": 0.1667,
+       "matched": [
+        "wedding"
+       ],
+       "missing": [
+        "12",
+        "2026",
+        "celebration",
+        "duc",
+        "july"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User estimates the wedding budget to be 45 million dong"
+      },
+      "lb_00474": {
+       "cov": 0.1667,
+       "matched": [
+        "wedding"
+       ],
+       "missing": [
+        "12",
+        "2026",
+        "celebration",
+        "duc",
+        "july"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User is planning a wedding with about 150 guests"
+      },
+      "lb_00475": {
+       "cov": 0.1667,
+       "matched": [
+        "wedding"
+       ],
+       "missing": [
+        "12",
+        "2026",
+        "celebration",
+        "duc",
+        "july"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User's wedding budget is approximately 45 million dong"
+      },
+      "lb_00476": {
+       "cov": 0.1667,
+       "matched": [
+        "wedding"
+       ],
+       "missing": [
+        "12",
+        "2026",
+        "celebration",
+        "duc",
+        "july"
+       ],
+       "n_gold": 6,
+       "section": "expiring_logistics",
+       "text": "User's wedding menu will include shrimp, pork, chicken, duck, spring roll, soup, and rice in delta style"
+      }
+     },
+     "gold_field": "Duc's wedding celebration — July 12, 2026",
+     "item_id": "frbank:thanh:thanh_q13:CAT-ABLATED"
+    },
+    {
+     "failing": {
+      "lb_00376": {
+       "cov": 0.3,
+       "matched": [
+        "album",
+        "best",
+        "electronic"
+       ],
+       "missing": [
+        "2026",
+        "29",
+        "august",
+        "awards",
+        "deadline",
+        "juno",
+        "submission"
+       ],
+       "n_gold": 10,
+       "section": "expiring_logistics",
+       "text": "User wants to submit an EP for the JUNOs this year in the Best Electronic Album category."
+      },
+      "lb_00377": {
+       "cov": 0.3,
+       "matched": [
+        "2026",
+        "29",
+        "august"
+       ],
+       "missing": [
+        "album",
+        "awards",
+        "best",
+        "deadline",
+        "electronic",
+        "juno",
+        "submission"
+       ],
+       "n_gold": 10,
+       "section": "expiring_logistics",
+       "text": "User plans to finish and master an 8-track EP by August 29, 2026."
+      },
+      "lb_00378": {
+       "cov": 0.4,
+       "matched": [
+        "album",
+        "best",
+        "electronic",
+        "submission"
+       ],
+       "missing": [
+        "2026",
+        "29",
+        "august",
+        "awards",
+        "deadline",
+        "juno"
+       ],
+       "n_gold": 10,
+       "section": "expiring_logistics",
+       "text": "User is working on an EP with 8 tracks aiming for submission to the JUNOs for Best Electronic Album."
+      },
+      "lb_00379": {
+       "cov": 0.0,
+       "matched": [],
+       "missing": [
+        "2026",
+        "29",
+        "album",
+        "august",
+        "awards",
+        "best",
+        "deadline",
+        "electronic",
+        "juno",
+        "submission"
+       ],
+       "n_gold": 10,
+       "section": "expiring_logistics",
+       "text": "User currently has 3 tracks nearly finished, 2 tracks halfway done, and needs to create 3 new tracks from scratch for the EP."
+      }
+     },
+     "gold_field": "JUNO Awards submission deadline for Best Electronic Album — August 29, 2026",
+     "item_id": "frbank:yoli:yoli_q06:FULL"
+    }
+   ]
+  }
+ }
+}

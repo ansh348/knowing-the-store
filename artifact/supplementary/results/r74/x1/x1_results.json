@@ -1,0 +1,31 @@
+{
+  "apparatus": "e1qp probes.oof_tfidf (StratifiedGroupKFold, persona-grouped, seed 42)",
+  "probes": {
+    "hard-frbank": {
+      "auroc": 0.9199054621848739,
+      "ci": [
+        0.8878564013744125,
+        0.9471369719088697
+      ],
+      "includes_0.50": false,
+      "n": 307,
+      "n_items_where_yfok_differs_from_ynok": 0,
+      "n_pos": 35,
+      "n_splits": 5
+    },
+    "hard-pooled": {
+      "auroc": 0.9661586153448721,
+      "ci": [
+        0.9510019627995256,
+        0.9788499376502754
+      ],
+      "includes_0.50": false,
+      "n": 588,
+      "n_items_where_yfok_differs_from_ynok": 0,
+      "n_pos": 35,
+      "n_splits": 5
+    }
+  },
+  "registration": "ADDENDUM_R74 SX1 @ 35f8416a55",
+  "target": "y_fok (non-ABSENT vs ABSENT)"
+}

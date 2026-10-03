@@ -1,0 +1,8701 @@
+{
+ "best_rank_per_item": {
+  "PRESENT": {
+   "hist": {
+    "1-5": 65,
+    "11-20": 22,
+    "21-50": 20,
+    "6-10": 24,
+    ">50": 33
+   },
+   "max": 346.0,
+   "mean": 33.622,
+   "median": 8.5,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 164,
+   "q25": 3.0,
+   "q75": 35.25,
+   "share_gt10": 0.4573,
+   "share_le10": 0.5427,
+   "share_le5": 0.3963
+  },
+  "PRESENT-NEGATIVE": {
+   "hist": {
+    "1-5": 54,
+    "11-20": 17,
+    "21-50": 10,
+    "6-10": 20,
+    ">50": 3
+   },
+   "max": 209.0,
+   "mean": 12.7212,
+   "median": 5.0,
+   "median_gt5": false,
+   "min": 1.0,
+   "n": 104,
+   "q25": 2.0,
+   "q75": 13.0,
+   "share_gt10": 0.2885,
+   "share_le10": 0.7115,
+   "share_le5": 0.5192
+  },
+  "PRESENT-NEGATIVE|CAT-ABLATED": {
+   "hist": {
+    "1-5": 11,
+    "11-20": 4,
+    "21-50": 4,
+    "6-10": 2,
+    ">50": 1
+   },
+   "max": 111.0,
+   "mean": 14.1818,
+   "median": 6.0,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 22,
+   "q25": 1.25,
+   "q75": 17.5,
+   "share_gt10": 0.4091,
+   "share_le10": 0.5909,
+   "share_le5": 0.5
+  },
+  "PRESENT-NEGATIVE|FULL": {
+   "hist": {
+    "1-5": 26,
+    "11-20": 8,
+    "21-50": 4,
+    "6-10": 8,
+    ">50": 1
+   },
+   "max": 209.0,
+   "mean": 12.0,
+   "median": 4.0,
+   "median_gt5": false,
+   "min": 1.0,
+   "n": 47,
+   "q25": 2.0,
+   "q75": 11.0,
+   "share_gt10": 0.2766,
+   "share_le10": 0.7234,
+   "share_le5": 0.5532
+  },
+  "PRESENT-NEGATIVE|SLOT-ABLATED": {
+   "hist": {
+    "1-5": 17,
+    "11-20": 5,
+    "21-50": 2,
+    "6-10": 10,
+    ">50": 1
+   },
+   "max": 206.0,
+   "mean": 12.7714,
+   "median": 6.0,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 35,
+   "q25": 2.0,
+   "q75": 10.0,
+   "share_gt10": 0.2286,
+   "share_le10": 0.7714,
+   "share_le5": 0.4857
+  },
+  "PRESENT-NEGATIVE|exp": {
+   "hist": {
+    "1-5": 12,
+    "21-50": 3
+   },
+   "max": 35.0,
+   "mean": 6.8667,
+   "median": 2.0,
+   "median_gt5": false,
+   "min": 1.0,
+   "n": 15,
+   "q25": 1.0,
+   "q75": 2.5,
+   "share_gt10": 0.2,
+   "share_le10": 0.8,
+   "share_le5": 0.8
+  },
+  "PRESENT-NEGATIVE|ret": {
+   "hist": {
+    "1-5": 20,
+    "6-10": 5,
+    ">50": 1
+   },
+   "max": 111.0,
+   "mean": 7.3462,
+   "median": 3.0,
+   "median_gt5": false,
+   "min": 1.0,
+   "n": 26,
+   "q25": 2.0,
+   "q75": 4.75,
+   "share_gt10": 0.0385,
+   "share_le10": 0.9615,
+   "share_le5": 0.7692
+  },
+  "PRESENT-NEGATIVE|sup": {
+   "hist": {
+    "1-5": 22,
+    "11-20": 17,
+    "21-50": 7,
+    "6-10": 15,
+    ">50": 2
+   },
+   "max": 209.0,
+   "mean": 16.3333,
+   "median": 8.0,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 63,
+   "q25": 3.0,
+   "q75": 16.0,
+   "share_gt10": 0.4127,
+   "share_le10": 0.5873,
+   "share_le5": 0.3492
+  },
+  "PRESENT|-": {
+   "hist": {
+    "1-5": 65,
+    "11-20": 22,
+    "21-50": 20,
+    "6-10": 24,
+    ">50": 33
+   },
+   "max": 346.0,
+   "mean": 33.622,
+   "median": 8.5,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 164,
+   "q25": 3.0,
+   "q75": 35.25,
+   "share_gt10": 0.4573,
+   "share_le10": 0.5427,
+   "share_le5": 0.3963
+  },
+  "PRESENT|CAT-ABLATED": {
+   "hist": {
+    "1-5": 17,
+    "11-20": 4,
+    "21-50": 7,
+    "6-10": 6,
+    ">50": 4
+   },
+   "max": 261.0,
+   "mean": 25.3947,
+   "median": 6.5,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 38,
+   "q25": 3.0,
+   "q75": 26.25,
+   "share_gt10": 0.3947,
+   "share_le10": 0.6053,
+   "share_le5": 0.4474
+  },
+  "PRESENT|FULL": {
+   "hist": {
+    "1-5": 48,
+    "11-20": 18,
+    "21-50": 13,
+    "6-10": 18,
+    ">50": 29
+   },
+   "max": 346.0,
+   "mean": 36.1032,
+   "median": 9.0,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 126,
+   "q25": 3.0,
+   "q75": 38.25,
+   "share_gt10": 0.4762,
+   "share_le10": 0.5238,
+   "share_le5": 0.381
+  }
+ },
+ "config": {
+  "bank_vectors": "LifeMemEval/artifacts/lifecycle_banks/<persona>_embeddings.npz",
+  "k_take": 10,
+  "k_use": 5,
+  "lifecycle_mask": "none (unmasked; TRUE lifecycle metadata printed on every line)",
+  "query": "the item's question text, embedded once with text-embedding-3-small (1536-d), pinned in resp_review/l2/question_emb.npz",
+  "question_matrix_sha256": "341354661e40b7f0508d11f7a7274833064a600c02c7155310f237ae88d023cf",
+  "ranking": "np.argsort(-cosine) (non-stable; ties beyond rank 10 could permute; the gate covers ranks 1-10)",
+  "retriever": "LifecycleBank.cosine_search_all (lifecycle_bank.py:402-414) over the item's store variant (resp_common.variant_ids), every entry active or not"
+ },
+ "licensed_records_not_in_store_variant": {
+  "items": [],
+  "n_items_with_no_licensed_record_in_store": 0,
+  "n_records": 28
+ },
+ "per_item": {
+  "frbank:aisha:aisha_q01:CAT-ABLATED": {
+   "best_rank": 15,
+   "best_rank_text_dup": 15,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00004": {
+     "cos": 0.5093,
+     "rank": 16,
+     "tag": "superseded"
+    },
+    "lb_00008": {
+     "cos": 0.5093,
+     "rank": 15,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 426,
+   "successor_above_stale": false,
+   "successor_best_rank": 39,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 16
+  },
+  "frbank:aisha:aisha_q01:FULL": {
+   "best_rank": 18,
+   "best_rank_text_dup": 18,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00004": {
+     "cos": 0.5093,
+     "rank": 18,
+     "tag": "superseded"
+    },
+    "lb_00008": {
+     "cos": 0.5093,
+     "rank": 19,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 536,
+   "successor_above_stale": false,
+   "successor_best_rank": 45,
+   "variant": "FULL",
+   "worst_rank": 19
+  },
+  "frbank:aisha:aisha_q01:SLOT-ABLATED": {
+   "best_rank": 18,
+   "best_rank_text_dup": 18,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00004": {
+     "cos": 0.5093,
+     "rank": 19,
+     "tag": "superseded"
+    },
+    "lb_00008": {
+     "cos": 0.5093,
+     "rank": 18,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 531,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 19
+  },
+  "frbank:aisha:aisha_q02:FULL": {
+   "best_rank": 8,
+   "best_rank_text_dup": 8,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00131": {
+     "cos": 0.4328,
+     "rank": 11,
+     "tag": "superseded"
+    },
+    "lb_00139": {
+     "cos": 0.4537,
+     "rank": 8,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 536,
+   "successor_above_stale": true,
+   "successor_best_rank": 1,
+   "variant": "FULL",
+   "worst_rank": 11
+  },
+  "frbank:aisha:aisha_q02:SLOT-ABLATED": {
+   "best_rank": 6,
+   "best_rank_text_dup": 6,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00131": {
+     "cos": 0.4328,
+     "rank": 9,
+     "tag": "superseded"
+    },
+    "lb_00139": {
+     "cos": 0.4537,
+     "rank": 6,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 533,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 9
+  },
+  "frbank:aisha:aisha_q03:CAT-ABLATED": {
+   "best_rank": 36,
+   "best_rank_text_dup": 36,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00384": {
+     "cos": 0.3425,
+     "rank": 36,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 426,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 36
+  },
+  "frbank:aisha:aisha_q03:FULL": {
+   "best_rank": 14,
+   "best_rank_text_dup": 14,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00157": {
+     "cos": 0.4075,
+     "rank": 14,
+     "tag": "superseded"
+    },
+    "lb_00161": {
+     "cos": 0.3632,
+     "rank": 23,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 536,
+   "successor_above_stale": false,
+   "successor_best_rank": 39,
+   "variant": "FULL",
+   "worst_rank": 23
+  },
+  "frbank:aisha:aisha_q03:SLOT-ABLATED": {
+   "best_rank": 13,
+   "best_rank_text_dup": 13,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00157": {
+     "cos": 0.4075,
+     "rank": 13,
+     "tag": "superseded"
+    },
+    "lb_00161": {
+     "cos": 0.3632,
+     "rank": 22,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 534,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 22
+  },
+  "frbank:aisha:aisha_q05:FULL": {
+   "best_rank": 46,
+   "best_rank_text_dup": 46,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 9,
+   "n_licensed_in_store": 9,
+   "records": {
+    "lb_00082": {
+     "cos": 0.2392,
+     "rank": 69,
+     "tag": "active"
+    },
+    "lb_00083": {
+     "cos": 0.2069,
+     "rank": 112,
+     "tag": "active"
+    },
+    "lb_00084": {
+     "cos": 0.2298,
+     "rank": 79,
+     "tag": "active"
+    },
+    "lb_00085": {
+     "cos": 0.2532,
+     "rank": 46,
+     "tag": "active"
+    },
+    "lb_00087": {
+     "cos": 0.2392,
+     "rank": 68,
+     "tag": "active"
+    },
+    "lb_00088": {
+     "cos": 0.2059,
+     "rank": 115,
+     "tag": "active"
+    },
+    "lb_00090": {
+     "cos": 0.2492,
+     "rank": 54,
+     "tag": "active"
+    },
+    "lb_00095": {
+     "cos": 0.2423,
+     "rank": 66,
+     "tag": "active"
+    },
+    "lb_00099": {
+     "cos": 0.228,
+     "rank": 82,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 536,
+   "variant": "FULL",
+   "worst_rank": 115
+  },
+  "frbank:aisha:aisha_q08:FULL": {
+   "best_rank": 79,
+   "best_rank_text_dup": 79,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00063": {
+     "cos": 0.2661,
+     "rank": 79,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 536,
+   "variant": "FULL",
+   "worst_rank": 79
+  },
+  "frbank:alex:alex_q05:FULL": {
+   "best_rank": 9,
+   "best_rank_text_dup": 9,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00023": {
+     "cos": 0.1846,
+     "rank": 76,
+     "tag": "active"
+    },
+    "lb_00025": {
+     "cos": 0.2691,
+     "rank": 11,
+     "tag": "active"
+    },
+    "lb_00032": {
+     "cos": 0.2103,
+     "rank": 50,
+     "tag": "active"
+    },
+    "lb_00034": {
+     "cos": 0.2721,
+     "rank": 9,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 410,
+   "variant": "FULL",
+   "worst_rank": 76
+  },
+  "frbank:alex:alex_q07:FULL": {
+   "best_rank": 16,
+   "best_rank_text_dup": 16,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00312": {
+     "cos": 0.2697,
+     "rank": 16,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 410,
+   "variant": "FULL",
+   "worst_rank": 16
+  },
+  "frbank:alex:alex_q11:FULL": {
+   "best_rank": 11,
+   "best_rank_text_dup": 11,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00014": {
+     "cos": 0.3268,
+     "rank": 11,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 410,
+   "variant": "FULL",
+   "worst_rank": 11
+  },
+  "frbank:alex:alex_q12:CAT-ABLATED": {
+   "best_rank": 14,
+   "best_rank_text_dup": 14,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00016": {
+     "cos": 0.3726,
+     "rank": 17,
+     "tag": "active"
+    },
+    "lb_00017": {
+     "cos": 0.3773,
+     "rank": 15,
+     "tag": "active"
+    },
+    "lb_00020": {
+     "cos": 0.3773,
+     "rank": 14,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 281,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 17
+  },
+  "frbank:alex:alex_q12:FULL": {
+   "best_rank": 15,
+   "best_rank_text_dup": 15,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00016": {
+     "cos": 0.3726,
+     "rank": 18,
+     "tag": "active"
+    },
+    "lb_00017": {
+     "cos": 0.3773,
+     "rank": 16,
+     "tag": "active"
+    },
+    "lb_00020": {
+     "cos": 0.3773,
+     "rank": 15,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 410,
+   "variant": "FULL",
+   "worst_rank": 18
+  },
+  "frbank:amara:amara_q03:FULL": {
+   "best_rank": 5,
+   "best_rank_text_dup": 5,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00034": {
+     "cos": 0.2982,
+     "rank": 5,
+     "tag": "superseded"
+    },
+    "lb_00036": {
+     "cos": 0.2932,
+     "rank": 7,
+     "tag": "superseded"
+    },
+    "lb_00038": {
+     "cos": 0.2895,
+     "rank": 10,
+     "tag": "superseded"
+    },
+    "lb_00040": {
+     "cos": 0.2898,
+     "rank": 9,
+     "tag": "superseded"
+    },
+    "lb_00044": {
+     "cos": 0.2915,
+     "rank": 8,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 339,
+   "successor_above_stale": true,
+   "successor_best_rank": 1,
+   "variant": "FULL",
+   "worst_rank": 10
+  },
+  "frbank:amara:amara_q03:SLOT-ABLATED": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 2,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00034": {
+     "cos": 0.2982,
+     "rank": 3,
+     "tag": "superseded"
+    },
+    "lb_00036": {
+     "cos": 0.2932,
+     "rank": 5,
+     "tag": "superseded"
+    },
+    "lb_00038": {
+     "cos": 0.2895,
+     "rank": 8,
+     "tag": "superseded"
+    },
+    "lb_00040": {
+     "cos": 0.2898,
+     "rank": 7,
+     "tag": "superseded"
+    },
+    "lb_00044": {
+     "cos": 0.2915,
+     "rank": 6,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 334,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 8
+  },
+  "frbank:amara:amara_q04:FULL": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00014": {
+     "cos": 0.2203,
+     "rank": 11,
+     "tag": "active"
+    },
+    "lb_00016": {
+     "cos": 0.2433,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00022": {
+     "cos": 0.2311,
+     "rank": 7,
+     "tag": "active"
+    },
+    "lb_00025": {
+     "cos": 0.2311,
+     "rank": 6,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 339,
+   "variant": "FULL",
+   "worst_rank": 11
+  },
+  "frbank:amara:amara_q12:FULL": {
+   "best_rank": 14,
+   "best_rank_text_dup": 14,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00006": {
+     "cos": 0.2401,
+     "rank": 14,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 339,
+   "variant": "FULL",
+   "worst_rank": 14
+  },
+  "frbank:aroha:aroha_q03:CAT-ABLATED": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 2,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00082": {
+     "cos": 0.4951,
+     "rank": 3,
+     "tag": "superseded"
+    },
+    "lb_00085": {
+     "cos": 0.4875,
+     "rank": 4,
+     "tag": "superseded"
+    },
+    "lb_00088": {
+     "cos": 0.4247,
+     "rank": 11,
+     "tag": "superseded"
+    },
+    "lb_00091": {
+     "cos": 0.4725,
+     "rank": 6,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 397,
+   "successor_above_stale": false,
+   "successor_best_rank": 8,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 11
+  },
+  "frbank:aroha:aroha_q03:FULL": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 2,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00082": {
+     "cos": 0.4951,
+     "rank": 4,
+     "tag": "superseded"
+    },
+    "lb_00085": {
+     "cos": 0.4875,
+     "rank": 5,
+     "tag": "superseded"
+    },
+    "lb_00088": {
+     "cos": 0.4247,
+     "rank": 15,
+     "tag": "superseded"
+    },
+    "lb_00091": {
+     "cos": 0.4725,
+     "rank": 8,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 519,
+   "successor_above_stale": false,
+   "successor_best_rank": 11,
+   "variant": "FULL",
+   "worst_rank": 15
+  },
+  "frbank:aroha:aroha_q05:FULL": {
+   "best_rank": 28,
+   "best_rank_text_dup": 28,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00009": {
+     "cos": 0.412,
+     "rank": 28,
+     "tag": "active"
+    },
+    "lb_00012": {
+     "cos": 0.3798,
+     "rank": 46,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 519,
+   "variant": "FULL",
+   "worst_rank": 46
+  },
+  "frbank:aroha:aroha_q06:FULL": {
+   "best_rank": 7,
+   "best_rank_text_dup": 7,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 7,
+   "n_licensed_in_store": 7,
+   "records": {
+    "lb_00397": {
+     "cos": 0.2613,
+     "rank": 41,
+     "tag": "active"
+    },
+    "lb_00400": {
+     "cos": 0.2462,
+     "rank": 57,
+     "tag": "active"
+    },
+    "lb_00402": {
+     "cos": 0.2799,
+     "rank": 23,
+     "tag": "active"
+    },
+    "lb_00406": {
+     "cos": 0.281,
+     "rank": 22,
+     "tag": "active"
+    },
+    "lb_00408": {
+     "cos": 0.2569,
+     "rank": 45,
+     "tag": "active"
+    },
+    "lb_00410": {
+     "cos": 0.2671,
+     "rank": 36,
+     "tag": "active"
+    },
+    "lb_00414": {
+     "cos": 0.3244,
+     "rank": 7,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 519,
+   "variant": "FULL",
+   "worst_rank": 57
+  },
+  "frbank:billy:billy_q05:FULL": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00040": {
+     "cos": 0.1417,
+     "rank": 23,
+     "tag": "active"
+    },
+    "lb_00043": {
+     "cos": 0.1798,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00044": {
+     "cos": 0.1222,
+     "rank": 41,
+     "tag": "active"
+    },
+    "lb_00045": {
+     "cos": 0.1739,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00048": {
+     "cos": 0.1589,
+     "rank": 10,
+     "tag": "active"
+    },
+    "lb_00051": {
+     "cos": 0.1829,
+     "rank": 4,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 321,
+   "variant": "FULL",
+   "worst_rank": 41
+  },
+  "frbank:billy:billy_q06:FULL": {
+   "best_rank": 63,
+   "best_rank_text_dup": 63,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00273": {
+     "cos": 0.2663,
+     "rank": 63,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 321,
+   "variant": "FULL",
+   "worst_rank": 63
+  },
+  "frbank:bruna:bruna_q04:FULL": {
+   "best_rank": 57,
+   "best_rank_text_dup": 57,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 8,
+   "n_licensed_in_store": 8,
+   "records": {
+    "lb_00031": {
+     "cos": 0.2187,
+     "rank": 157,
+     "tag": "active"
+    },
+    "lb_00034": {
+     "cos": 0.2545,
+     "rank": 68,
+     "tag": "active"
+    },
+    "lb_00036": {
+     "cos": 0.2361,
+     "rank": 105,
+     "tag": "active"
+    },
+    "lb_00039": {
+     "cos": 0.2586,
+     "rank": 57,
+     "tag": "active"
+    },
+    "lb_00040": {
+     "cos": 0.1812,
+     "rank": 278,
+     "tag": "active"
+    },
+    "lb_00041": {
+     "cos": 0.2374,
+     "rank": 101,
+     "tag": "active"
+    },
+    "lb_00042": {
+     "cos": 0.2312,
+     "rank": 118,
+     "tag": "active"
+    },
+    "lb_00044": {
+     "cos": 0.2349,
+     "rank": 108,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 553,
+   "variant": "FULL",
+   "worst_rank": 278
+  },
+  "frbank:bruna:bruna_q05:CAT-ABLATED": {
+   "best_rank": 52,
+   "best_rank_text_dup": 52,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 5,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00453": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00456": {
+     "cos": 0.2232,
+     "rank": 52,
+     "tag": "active"
+    },
+    "lb_00458": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00461": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00465": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 348,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 52
+  },
+  "frbank:bruna:bruna_q05:FULL": {
+   "best_rank": 7,
+   "best_rank_text_dup": 7,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00453": {
+     "cos": 0.2257,
+     "rank": 74,
+     "tag": "active"
+    },
+    "lb_00456": {
+     "cos": 0.2232,
+     "rank": 76,
+     "tag": "active"
+    },
+    "lb_00458": {
+     "cos": 0.2555,
+     "rank": 38,
+     "tag": "active"
+    },
+    "lb_00461": {
+     "cos": 0.2385,
+     "rank": 54,
+     "tag": "active"
+    },
+    "lb_00465": {
+     "cos": 0.3181,
+     "rank": 7,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 553,
+   "variant": "FULL",
+   "worst_rank": 76
+  },
+  "frbank:bruna:bruna_q06:CAT-ABLATED": {
+   "best_rank": 8,
+   "best_rank_text_dup": 8,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00185": {
+     "cos": 0.326,
+     "rank": 8,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 348,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 8
+  },
+  "frbank:bruna:bruna_q06:FULL": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00174": {
+     "cos": 0.3757,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00185": {
+     "cos": 0.326,
+     "rank": 12,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 553,
+   "successor_above_stale": false,
+   "successor_best_rank": 61,
+   "variant": "FULL",
+   "worst_rank": 12
+  },
+  "frbank:bruna:bruna_q06:SLOT-ABLATED": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00174": {
+     "cos": 0.3757,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00185": {
+     "cos": 0.326,
+     "rank": 11,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 548,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 11
+  },
+  "frbank:bruna:bruna_q08:CAT-ABLATED": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00060": {
+     "cos": 0.188,
+     "rank": 140,
+     "tag": "active"
+    },
+    "lb_00063": {
+     "cos": 0.4107,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00069": {
+     "cos": 0.252,
+     "rank": 94,
+     "tag": "active"
+    },
+    "lb_00074": {
+     "cos": 0.2709,
+     "rank": 77,
+     "tag": "active"
+    },
+    "lb_00076": {
+     "cos": 0.1374,
+     "rank": 226,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 348,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 226
+  },
+  "frbank:bruna:bruna_q08:FULL": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00060": {
+     "cos": 0.188,
+     "rank": 182,
+     "tag": "active"
+    },
+    "lb_00063": {
+     "cos": 0.4107,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00069": {
+     "cos": 0.252,
+     "rank": 110,
+     "tag": "active"
+    },
+    "lb_00074": {
+     "cos": 0.2709,
+     "rank": 88,
+     "tag": "active"
+    },
+    "lb_00076": {
+     "cos": 0.1374,
+     "rank": 337,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 553,
+   "variant": "FULL",
+   "worst_rank": 337
+  },
+  "frbank:bruna:bruna_q09:CAT-ABLATED": {
+   "best_rank": 50,
+   "best_rank_text_dup": 50,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00053": {
+     "cos": 0.3337,
+     "rank": 50,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 348,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 50
+  },
+  "frbank:bruna:bruna_q09:FULL": {
+   "best_rank": 61,
+   "best_rank_text_dup": 61,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00053": {
+     "cos": 0.3337,
+     "rank": 61,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 553,
+   "variant": "FULL",
+   "worst_rank": 61
+  },
+  "frbank:bruna:bruna_q11:CAT-ABLATED": {
+   "best_rank": 25,
+   "best_rank_text_dup": 25,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00103": {
+     "cos": 0.287,
+     "rank": 25,
+     "tag": "active"
+    },
+    "lb_00104": {
+     "cos": 0.2641,
+     "rank": 40,
+     "tag": "expired"
+    },
+    "lb_00108": {
+     "cos": 0.2663,
+     "rank": 38,
+     "tag": "expired"
+    },
+    "lb_00109": {
+     "cos": 0.2247,
+     "rank": 87,
+     "tag": "active"
+    },
+    "lb_00119": {
+     "cos": 0.256,
+     "rank": 50,
+     "tag": "active"
+    }
+   },
+   "state": "exp",
+   "store_size": 348,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 87
+  },
+  "frbank:bruna:bruna_q11:FULL": {
+   "best_rank": 35,
+   "best_rank_text_dup": 35,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00103": {
+     "cos": 0.287,
+     "rank": 35,
+     "tag": "active"
+    },
+    "lb_00104": {
+     "cos": 0.2641,
+     "rank": 59,
+     "tag": "expired"
+    },
+    "lb_00108": {
+     "cos": 0.2663,
+     "rank": 55,
+     "tag": "expired"
+    },
+    "lb_00109": {
+     "cos": 0.2247,
+     "rank": 125,
+     "tag": "active"
+    },
+    "lb_00119": {
+     "cos": 0.256,
+     "rank": 72,
+     "tag": "active"
+    }
+   },
+   "state": "exp",
+   "store_size": 553,
+   "variant": "FULL",
+   "worst_rank": 125
+  },
+  "frbank:callum:callum_q04:CAT-ABLATED": {
+   "best_rank": 4,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00058": {
+     "cos": 0.3536,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00059": {
+     "cos": 0.3423,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00060": {
+     "cos": 0.3481,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00063": {
+     "cos": 0.3209,
+     "rank": 10,
+     "tag": "active"
+    },
+    "lb_00065": {
+     "cos": 0.294,
+     "rank": 13,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 253,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 13
+  },
+  "frbank:callum:callum_q04:FULL": {
+   "best_rank": 4,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00058": {
+     "cos": 0.3536,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00059": {
+     "cos": 0.3423,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00060": {
+     "cos": 0.3481,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00063": {
+     "cos": 0.3209,
+     "rank": 10,
+     "tag": "active"
+    },
+    "lb_00065": {
+     "cos": 0.294,
+     "rank": 16,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 440,
+   "variant": "FULL",
+   "worst_rank": 16
+  },
+  "frbank:callum:callum_q05:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00378": {
+     "cos": 0.3704,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00380": {
+     "cos": 0.2207,
+     "rank": 110,
+     "tag": "active"
+    },
+    "lb_00383": {
+     "cos": 0.3598,
+     "rank": 4,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 440,
+   "variant": "FULL",
+   "worst_rank": 110
+  },
+  "frbank:callum:callum_q07:FULL": {
+   "best_rank": 9,
+   "best_rank_text_dup": 9,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00358": {
+     "cos": 0.3117,
+     "rank": 13,
+     "tag": "active"
+    },
+    "lb_00362": {
+     "cos": 0.3221,
+     "rank": 9,
+     "tag": "active"
+    },
+    "lb_00364": {
+     "cos": 0.3163,
+     "rank": 10,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 440,
+   "variant": "FULL",
+   "worst_rank": 13
+  },
+  "frbank:callum:callum_q08:CAT-ABLATED": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00050": {
+     "cos": 0.3657,
+     "rank": 4,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 253,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 4
+  },
+  "frbank:callum:callum_q08:FULL": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00050": {
+     "cos": 0.3657,
+     "rank": 4,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 440,
+   "variant": "FULL",
+   "worst_rank": 4
+  },
+  "frbank:callum:callum_q09:CAT-ABLATED": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00023": {
+     "cos": 0.358,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00024": {
+     "cos": 0.2715,
+     "rank": 38,
+     "tag": "active"
+    },
+    "lb_00028": {
+     "cos": 0.2836,
+     "rank": 23,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 253,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 38
+  },
+  "frbank:callum:callum_q09:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00023": {
+     "cos": 0.358,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00024": {
+     "cos": 0.2715,
+     "rank": 51,
+     "tag": "active"
+    },
+    "lb_00028": {
+     "cos": 0.2836,
+     "rank": 30,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 440,
+   "variant": "FULL",
+   "worst_rank": 51
+  },
+  "frbank:chenoa:chenoa_q01:FULL": {
+   "best_rank": 6,
+   "best_rank_text_dup": 6,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00269": {
+     "cos": 0.5172,
+     "rank": 11,
+     "tag": "active"
+    },
+    "lb_00273": {
+     "cos": 0.5289,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00274": {
+     "cos": 0.5193,
+     "rank": 10,
+     "tag": "active"
+    },
+    "lb_00277": {
+     "cos": 0.5289,
+     "rank": 7,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 486,
+   "variant": "FULL",
+   "worst_rank": 11
+  },
+  "frbank:chenoa:chenoa_q05:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 4,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00009": {
+     "cos": 0.4272,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00010": {
+     "cos": 0.4355,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00012": {
+     "cos": 0.4033,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00014": {
+     "cos": 0.4399,
+     "rank": 1,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 486,
+   "variant": "FULL",
+   "worst_rank": 4
+  },
+  "frbank:chenoa:chenoa_q06:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 4,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00395": {
+     "cos": 0.3734,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00396": {
+     "cos": 0.3537,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00399": {
+     "cos": 0.3802,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00408": {
+     "cos": 0.3902,
+     "rank": 1,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 486,
+   "variant": "FULL",
+   "worst_rank": 4
+  },
+  "frbank:chenoa:chenoa_q10:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 3,
+   "n_licensed": 7,
+   "n_licensed_in_store": 7,
+   "records": {
+    "lb_00057": {
+     "cos": 0.5504,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00061": {
+     "cos": 0.5348,
+     "rank": 9,
+     "tag": "active"
+    },
+    "lb_00063": {
+     "cos": 0.5504,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00067": {
+     "cos": 0.4926,
+     "rank": 12,
+     "tag": "active"
+    },
+    "lb_00070": {
+     "cos": 0.5435,
+     "rank": 8,
+     "tag": "active"
+    },
+    "lb_00073": {
+     "cos": 0.5509,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00075": {
+     "cos": 0.5924,
+     "rank": 1,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 486,
+   "variant": "FULL",
+   "worst_rank": 12
+  },
+  "frbank:dariush:dariush_q04:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 2,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00149": {
+     "cos": 0.6964,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00159": {
+     "cos": 0.5751,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00162": {
+     "cos": 0.5479,
+     "rank": 8,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 589,
+   "successor_above_stale": false,
+   "successor_best_rank": 2,
+   "variant": "FULL",
+   "worst_rank": 8
+  },
+  "frbank:dariush:dariush_q04:SLOT-ABLATED": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 3,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00149": {
+     "cos": 0.6964,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00159": {
+     "cos": 0.5751,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00162": {
+     "cos": 0.5479,
+     "rank": 4,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 582,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 4
+  },
+  "frbank:dariush:dariush_q05:FULL": {
+   "best_rank": 102,
+   "best_rank_text_dup": 102,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00050": {
+     "cos": 0.2395,
+     "rank": 102,
+     "tag": "active"
+    },
+    "lb_00053": {
+     "cos": 0.2304,
+     "rank": 138,
+     "tag": "active"
+    },
+    "lb_00056": {
+     "cos": 0.2278,
+     "rank": 144,
+     "tag": "active"
+    },
+    "lb_00058": {
+     "cos": 0.2305,
+     "rank": 137,
+     "tag": "active"
+    },
+    "lb_00065": {
+     "cos": 0.199,
+     "rank": 220,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 589,
+   "variant": "FULL",
+   "worst_rank": 220
+  },
+  "frbank:dariush:dariush_q06:FULL": {
+   "best_rank": 91,
+   "best_rank_text_dup": 91,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00488": {
+     "cos": 0.2784,
+     "rank": 91,
+     "tag": "active"
+    },
+    "lb_00489": {
+     "cos": 0.1204,
+     "rank": 354,
+     "tag": "active"
+    },
+    "lb_00490": {
+     "cos": 0.1131,
+     "rank": 390,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 589,
+   "variant": "FULL",
+   "worst_rank": 390
+  },
+  "frbank:dariush:dariush_q09:CAT-ABLATED": {
+   "best_rank": 6,
+   "best_rank_text_dup": 6,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00013": {
+     "cos": 0.4817,
+     "rank": 7,
+     "tag": "active"
+    },
+    "lb_00019": {
+     "cos": 0.4817,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00020": {
+     "cos": 0.4395,
+     "rank": 17,
+     "tag": "active"
+    },
+    "lb_00025": {
+     "cos": 0.4145,
+     "rank": 27,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 405,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 27
+  },
+  "frbank:dariush:dariush_q09:FULL": {
+   "best_rank": 6,
+   "best_rank_text_dup": 6,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00013": {
+     "cos": 0.4817,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00019": {
+     "cos": 0.4817,
+     "rank": 7,
+     "tag": "active"
+    },
+    "lb_00020": {
+     "cos": 0.4395,
+     "rank": 17,
+     "tag": "active"
+    },
+    "lb_00025": {
+     "cos": 0.4145,
+     "rank": 27,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 589,
+   "variant": "FULL",
+   "worst_rank": 27
+  },
+  "frbank:dariush:dariush_q11:CAT-ABLATED": {
+   "best_rank": 261,
+   "best_rank_text_dup": 261,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00007": {
+     "cos": 0.1742,
+     "rank": 261,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 405,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 261
+  },
+  "frbank:dariush:dariush_q11:FULL": {
+   "best_rank": 346,
+   "best_rank_text_dup": 346,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00007": {
+     "cos": 0.1742,
+     "rank": 346,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 589,
+   "variant": "FULL",
+   "worst_rank": 346
+  },
+  "frbank:david:david_q05:FULL": {
+   "best_rank": 6,
+   "best_rank_text_dup": 6,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00071": {
+     "cos": 0.2173,
+     "rank": 6,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 575,
+   "variant": "FULL",
+   "worst_rank": 6
+  },
+  "frbank:david:david_q06:CAT-ABLATED": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 2,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00171": {
+     "cos": 0.4498,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00172": {
+     "cos": 0.4921,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00173": {
+     "cos": 0.3977,
+     "rank": 8,
+     "tag": "active"
+    },
+    "lb_00175": {
+     "cos": 0.3914,
+     "rank": 10,
+     "tag": "active"
+    }
+   },
+   "state": "exp",
+   "store_size": 443,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 10
+  },
+  "frbank:david:david_q06:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 2,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00171": {
+     "cos": 0.4498,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00172": {
+     "cos": 0.4921,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00173": {
+     "cos": 0.3977,
+     "rank": 9,
+     "tag": "active"
+    },
+    "lb_00175": {
+     "cos": 0.3914,
+     "rank": 11,
+     "tag": "active"
+    }
+   },
+   "state": "exp",
+   "store_size": 575,
+   "variant": "FULL",
+   "worst_rank": 11
+  },
+  "frbank:david:david_q08:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT",
+   "n_in_top5": 4,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00060": {
+     "cos": 0.2798,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00063": {
+     "cos": 0.2798,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00064": {
+     "cos": 0.2798,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00067": {
+     "cos": 0.2798,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00070": {
+     "cos": 0.2798,
+     "rank": 5,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 575,
+   "variant": "FULL",
+   "worst_rank": 6
+  },
+  "frbank:david:david_q09:FULL": {
+   "best_rank": 12,
+   "best_rank_text_dup": 10,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00002": {
+     "cos": 0.294,
+     "rank": 12,
+     "tag": "active"
+    },
+    "lb_00010": {
+     "cos": 0.2085,
+     "rank": 79,
+     "tag": "active"
+    },
+    "lb_00017": {
+     "cos": 0.2368,
+     "rank": 44,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 575,
+   "variant": "FULL",
+   "worst_rank": 79
+  },
+  "frbank:david:david_q10:CAT-ABLATED": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00477": {
+     "cos": 0.2006,
+     "rank": 28,
+     "tag": "active"
+    },
+    "lb_00486": {
+     "cos": 0.2414,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00496": {
+     "cos": 0.3258,
+     "rank": 1,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 443,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 28
+  },
+  "frbank:david:david_q10:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00477": {
+     "cos": 0.2006,
+     "rank": 41,
+     "tag": "active"
+    },
+    "lb_00486": {
+     "cos": 0.2414,
+     "rank": 7,
+     "tag": "active"
+    },
+    "lb_00496": {
+     "cos": 0.3258,
+     "rank": 1,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 575,
+   "variant": "FULL",
+   "worst_rank": 41
+  },
+  "frbank:david:david_q11:CAT-ABLATED": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 2,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00148": {
+     "cos": 0.4311,
+     "rank": 1,
+     "tag": "expired"
+    },
+    "lb_00150": {
+     "cos": 0.4208,
+     "rank": 2,
+     "tag": "expired"
+    }
+   },
+   "state": "exp",
+   "store_size": 443,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 2
+  },
+  "frbank:david:david_q11:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 2,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00148": {
+     "cos": 0.4311,
+     "rank": 1,
+     "tag": "expired"
+    },
+    "lb_00150": {
+     "cos": 0.4208,
+     "rank": 2,
+     "tag": "expired"
+    }
+   },
+   "state": "exp",
+   "store_size": 575,
+   "variant": "FULL",
+   "worst_rank": 2
+  },
+  "frbank:diane:diane_q04:FULL": {
+   "best_rank": 5,
+   "best_rank_text_dup": 5,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00063": {
+     "cos": 0.2563,
+     "rank": 18,
+     "tag": "active"
+    },
+    "lb_00064": {
+     "cos": 0.2734,
+     "rank": 9,
+     "tag": "active"
+    },
+    "lb_00065": {
+     "cos": 0.239,
+     "rank": 35,
+     "tag": "active"
+    },
+    "lb_00071": {
+     "cos": 0.2899,
+     "rank": 5,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 487,
+   "variant": "FULL",
+   "worst_rank": 35
+  },
+  "frbank:diane:diane_q05:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 4,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00398": {
+     "cos": 0.2916,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00401": {
+     "cos": 0.3218,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00403": {
+     "cos": 0.316,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00407": {
+     "cos": 0.3203,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00412": {
+     "cos": 0.2357,
+     "rank": 17,
+     "tag": "active"
+    },
+    "lb_00416": {
+     "cos": 0.1769,
+     "rank": 71,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 487,
+   "variant": "FULL",
+   "worst_rank": 71
+  },
+  "frbank:diane:diane_q08:CAT-ABLATED": {
+   "best_rank": 7,
+   "best_rank_text_dup": 7,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00005": {
+     "cos": 0.2822,
+     "rank": 7,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 314,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 7
+  },
+  "frbank:diane:diane_q08:FULL": {
+   "best_rank": 8,
+   "best_rank_text_dup": 8,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00005": {
+     "cos": 0.2822,
+     "rank": 8,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 487,
+   "variant": "FULL",
+   "worst_rank": 8
+  },
+  "frbank:diane:diane_q09:FULL": {
+   "best_rank": 153,
+   "best_rank_text_dup": 153,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00012": {
+     "cos": 0.1733,
+     "rank": 173,
+     "tag": "active"
+    },
+    "lb_00013": {
+     "cos": 0.1797,
+     "rank": 153,
+     "tag": "active"
+    },
+    "lb_00016": {
+     "cos": 0.1797,
+     "rank": 154,
+     "tag": "active"
+    },
+    "lb_00018": {
+     "cos": 0.1797,
+     "rank": 155,
+     "tag": "active"
+    },
+    "lb_00020": {
+     "cos": 0.1772,
+     "rank": 160,
+     "tag": "active"
+    },
+    "lb_00022": {
+     "cos": 0.1733,
+     "rank": 172,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 487,
+   "variant": "FULL",
+   "worst_rank": 173
+  },
+  "frbank:diane:diane_q11:CAT-ABLATED": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT",
+   "n_in_top5": 3,
+   "n_licensed": 6,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00025": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00027": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00029": {
+     "cos": 0.383,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00031": {
+     "cos": 0.3931,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00035": {
+     "cos": 0.3911,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00038": {
+     "cos": 0.3947,
+     "rank": 3,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 314,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 6
+  },
+  "frbank:diane:diane_q11:FULL": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT",
+   "n_in_top5": 3,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00025": {
+     "cos": 0.3965,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00027": {
+     "cos": 0.3537,
+     "rank": 8,
+     "tag": "active"
+    },
+    "lb_00029": {
+     "cos": 0.383,
+     "rank": 7,
+     "tag": "active"
+    },
+    "lb_00031": {
+     "cos": 0.3931,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00035": {
+     "cos": 0.3911,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00038": {
+     "cos": 0.3947,
+     "rank": 4,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 487,
+   "variant": "FULL",
+   "worst_rank": 8
+  },
+  "frbank:dmitri:dmitri_q05:FULL": {
+   "best_rank": 66,
+   "best_rank_text_dup": 66,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00046": {
+     "cos": 0.178,
+     "rank": 79,
+     "tag": "active"
+    },
+    "lb_00049": {
+     "cos": 0.1649,
+     "rank": 115,
+     "tag": "active"
+    },
+    "lb_00050": {
+     "cos": 0.1868,
+     "rank": 66,
+     "tag": "active"
+    },
+    "lb_00051": {
+     "cos": 0.177,
+     "rank": 84,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 499,
+   "variant": "FULL",
+   "worst_rank": 115
+  },
+  "frbank:elena:elena_q01:CAT-ABLATED": {
+   "best_rank": 15,
+   "best_rank_text_dup": 15,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00008": {
+     "cos": 0.3046,
+     "rank": 15,
+     "tag": "superseded"
+    },
+    "lb_00015": {
+     "cos": 0.2555,
+     "rank": 57,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 373,
+   "successor_above_stale": true,
+   "successor_best_rank": 9,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 57
+  },
+  "frbank:elena:elena_q01:FULL": {
+   "best_rank": 24,
+   "best_rank_text_dup": 24,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00008": {
+     "cos": 0.3046,
+     "rank": 24,
+     "tag": "superseded"
+    },
+    "lb_00015": {
+     "cos": 0.2555,
+     "rank": 96,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 574,
+   "successor_above_stale": true,
+   "successor_best_rank": 16,
+   "variant": "FULL",
+   "worst_rank": 96
+  },
+  "frbank:elena:elena_q01:SLOT-ABLATED": {
+   "best_rank": 23,
+   "best_rank_text_dup": 23,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00008": {
+     "cos": 0.3046,
+     "rank": 23,
+     "tag": "superseded"
+    },
+    "lb_00015": {
+     "cos": 0.2555,
+     "rank": 91,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 567,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 91
+  },
+  "frbank:elena:elena_q02:CAT-ABLATED": {
+   "best_rank": 24,
+   "best_rank_text_dup": 24,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00135": {
+     "cos": 0.3541,
+     "rank": 24,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 373,
+   "successor_above_stale": true,
+   "successor_best_rank": 1,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 24
+  },
+  "frbank:elena:elena_q02:FULL": {
+   "best_rank": 24,
+   "best_rank_text_dup": 24,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00135": {
+     "cos": 0.3541,
+     "rank": 24,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 574,
+   "successor_above_stale": true,
+   "successor_best_rank": 1,
+   "variant": "FULL",
+   "worst_rank": 24
+  },
+  "frbank:elena:elena_q05:CAT-ABLATED": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 3,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00213": {
+     "cos": 0.3501,
+     "rank": 4,
+     "tag": "expired"
+    },
+    "lb_00214": {
+     "cos": 0.3653,
+     "rank": 3,
+     "tag": "expired"
+    },
+    "lb_00219": {
+     "cos": 0.3789,
+     "rank": 2,
+     "tag": "expired"
+    }
+   },
+   "state": "exp",
+   "store_size": 373,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 4
+  },
+  "frbank:elena:elena_q05:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 3,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00213": {
+     "cos": 0.3501,
+     "rank": 4,
+     "tag": "expired"
+    },
+    "lb_00214": {
+     "cos": 0.3653,
+     "rank": 3,
+     "tag": "expired"
+    },
+    "lb_00219": {
+     "cos": 0.3789,
+     "rank": 2,
+     "tag": "expired"
+    }
+   },
+   "state": "exp",
+   "store_size": 574,
+   "variant": "FULL",
+   "worst_rank": 4
+  },
+  "frbank:elena:elena_q08:FULL": {
+   "best_rank": 20,
+   "best_rank_text_dup": 20,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00028": {
+     "cos": 0.343,
+     "rank": 23,
+     "tag": "active"
+    },
+    "lb_00031": {
+     "cos": 0.3311,
+     "rank": 28,
+     "tag": "active"
+    },
+    "lb_00039": {
+     "cos": 0.3375,
+     "rank": 25,
+     "tag": "active"
+    },
+    "lb_00045": {
+     "cos": 0.3499,
+     "rank": 22,
+     "tag": "active"
+    },
+    "lb_00052": {
+     "cos": 0.3589,
+     "rank": 20,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 574,
+   "variant": "FULL",
+   "worst_rank": 28
+  },
+  "frbank:elena:elena_q09:FULL": {
+   "best_rank": 86,
+   "best_rank_text_dup": 86,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00004": {
+     "cos": 0.2252,
+     "rank": 87,
+     "tag": "active"
+    },
+    "lb_00010": {
+     "cos": 0.1972,
+     "rank": 136,
+     "tag": "active"
+    },
+    "lb_00024": {
+     "cos": 0.2252,
+     "rank": 86,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 574,
+   "variant": "FULL",
+   "worst_rank": 136
+  },
+  "frbank:elena:elena_q10:FULL": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00187": {
+     "cos": 0.3933,
+     "rank": 3,
+     "tag": "expired"
+    }
+   },
+   "state": "exp",
+   "store_size": 574,
+   "variant": "FULL",
+   "worst_rank": 3
+  },
+  "frbank:fatima:fatima_q02:FULL": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00088": {
+     "cos": 0.4698,
+     "rank": 3,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 451,
+   "successor_above_stale": true,
+   "successor_best_rank": 2,
+   "variant": "FULL",
+   "worst_rank": 3
+  },
+  "frbank:fatima:fatima_q02:SLOT-ABLATED": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00088": {
+     "cos": 0.4698,
+     "rank": 2,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 445,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 2
+  },
+  "frbank:fatima:fatima_q04:FULL": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT",
+   "n_in_top5": 3,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00067": {
+     "cos": 0.1912,
+     "rank": 17,
+     "tag": "active"
+    },
+    "lb_00070": {
+     "cos": 0.1929,
+     "rank": 15,
+     "tag": "active"
+    },
+    "lb_00072": {
+     "cos": 0.2271,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00075": {
+     "cos": 0.2229,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00078": {
+     "cos": 0.2229,
+     "rank": 5,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 451,
+   "variant": "FULL",
+   "worst_rank": 17
+  },
+  "frbank:fatima:fatima_q05:FULL": {
+   "best_rank": 11,
+   "best_rank_text_dup": 11,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00393": {
+     "cos": 0.2361,
+     "rank": 11,
+     "tag": "active"
+    },
+    "lb_00397": {
+     "cos": 0.1903,
+     "rank": 41,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 451,
+   "variant": "FULL",
+   "worst_rank": 41
+  },
+  "frbank:fatima:fatima_q06:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 2,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00176": {
+     "cos": 0.3467,
+     "rank": 11,
+     "tag": "active"
+    },
+    "lb_00180": {
+     "cos": 0.3844,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00182": {
+     "cos": 0.3183,
+     "rank": 16,
+     "tag": "active"
+    },
+    "lb_00183": {
+     "cos": 0.4032,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00186": {
+     "cos": 0.3467,
+     "rank": 12,
+     "tag": "active"
+    },
+    "lb_00189": {
+     "cos": 0.3515,
+     "rank": 9,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 451,
+   "successor_above_stale": false,
+   "successor_best_rank": 8,
+   "variant": "FULL",
+   "worst_rank": 16
+  },
+  "frbank:fatima:fatima_q06:SLOT-ABLATED": {
+   "best_rank": 6,
+   "best_rank_text_dup": 6,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00182": {
+     "cos": 0.3183,
+     "rank": 10,
+     "tag": "active"
+    },
+    "lb_00189": {
+     "cos": 0.3515,
+     "rank": 6,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 441,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 10
+  },
+  "frbank:fatima:fatima_q07:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 4,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00346": {
+     "cos": 0.4397,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00347": {
+     "cos": 0.3986,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00350": {
+     "cos": 0.4169,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00353": {
+     "cos": 0.4148,
+     "rank": 3,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 451,
+   "variant": "FULL",
+   "worst_rank": 4
+  },
+  "frbank:fatima:fatima_q09:CAT-ABLATED": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00033": {
+     "cos": 0.3285,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00034": {
+     "cos": 0.2792,
+     "rank": 12,
+     "tag": "active"
+    },
+    "lb_00053": {
+     "cos": 0.3247,
+     "rank": 5,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 202,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 12
+  },
+  "frbank:fatima:fatima_q09:FULL": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00033": {
+     "cos": 0.3285,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00034": {
+     "cos": 0.2792,
+     "rank": 15,
+     "tag": "active"
+    },
+    "lb_00053": {
+     "cos": 0.3247,
+     "rank": 5,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 451,
+   "variant": "FULL",
+   "worst_rank": 15
+  },
+  "frbank:fatima:fatima_q11:CAT-ABLATED": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00083": {
+     "cos": 0.2803,
+     "rank": 7,
+     "tag": "active"
+    },
+    "lb_00086": {
+     "cos": 0.3164,
+     "rank": 2,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 202,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 7
+  },
+  "frbank:fatima:fatima_q11:FULL": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00083": {
+     "cos": 0.2803,
+     "rank": 10,
+     "tag": "active"
+    },
+    "lb_00086": {
+     "cos": 0.3164,
+     "rank": 3,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 451,
+   "variant": "FULL",
+   "worst_rank": 10
+  },
+  "frbank:ingrid:ingrid_q01:CAT-ABLATED": {
+   "best_rank": 16,
+   "best_rank_text_dup": 16,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00005": {
+     "cos": 0.2263,
+     "rank": 70,
+     "tag": "superseded"
+    },
+    "lb_00007": {
+     "cos": 0.2853,
+     "rank": 28,
+     "tag": "superseded"
+    },
+    "lb_00018": {
+     "cos": 0.2753,
+     "rank": 32,
+     "tag": "superseded"
+    },
+    "lb_00019": {
+     "cos": 0.2442,
+     "rank": 52,
+     "tag": "superseded"
+    },
+    "lb_00024": {
+     "cos": 0.2961,
+     "rank": 26,
+     "tag": "superseded"
+    },
+    "lb_00026": {
+     "cos": 0.3338,
+     "rank": 16,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 272,
+   "successor_above_stale": true,
+   "successor_best_rank": 4,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 70
+  },
+  "frbank:ingrid:ingrid_q01:FULL": {
+   "best_rank": 16,
+   "best_rank_text_dup": 16,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00005": {
+     "cos": 0.2263,
+     "rank": 84,
+     "tag": "superseded"
+    },
+    "lb_00007": {
+     "cos": 0.2853,
+     "rank": 32,
+     "tag": "superseded"
+    },
+    "lb_00018": {
+     "cos": 0.2753,
+     "rank": 38,
+     "tag": "superseded"
+    },
+    "lb_00019": {
+     "cos": 0.2442,
+     "rank": 60,
+     "tag": "superseded"
+    },
+    "lb_00024": {
+     "cos": 0.2961,
+     "rank": 28,
+     "tag": "superseded"
+    },
+    "lb_00026": {
+     "cos": 0.3338,
+     "rank": 16,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 412,
+   "successor_above_stale": true,
+   "successor_best_rank": 4,
+   "variant": "FULL",
+   "worst_rank": 84
+  },
+  "frbank:ingrid:ingrid_q01:SLOT-ABLATED": {
+   "best_rank": 9,
+   "best_rank_text_dup": 9,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00005": {
+     "cos": 0.2263,
+     "rank": 77,
+     "tag": "superseded"
+    },
+    "lb_00007": {
+     "cos": 0.2853,
+     "rank": 25,
+     "tag": "superseded"
+    },
+    "lb_00018": {
+     "cos": 0.2753,
+     "rank": 31,
+     "tag": "superseded"
+    },
+    "lb_00019": {
+     "cos": 0.2442,
+     "rank": 53,
+     "tag": "superseded"
+    },
+    "lb_00024": {
+     "cos": 0.2961,
+     "rank": 21,
+     "tag": "superseded"
+    },
+    "lb_00026": {
+     "cos": 0.3338,
+     "rank": 9,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 405,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 77
+  },
+  "frbank:ingrid:ingrid_q04:CAT-ABLATED": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 2,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00076": {
+     "cos": 0.3555,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00078": {
+     "cos": 0.4614,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00085": {
+     "cos": 0.3227,
+     "rank": 10,
+     "tag": "active"
+    },
+    "lb_00086": {
+     "cos": 0.3856,
+     "rank": 4,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 272,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 10
+  },
+  "frbank:ingrid:ingrid_q04:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00076": {
+     "cos": 0.3555,
+     "rank": 11,
+     "tag": "active"
+    },
+    "lb_00078": {
+     "cos": 0.4614,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00085": {
+     "cos": 0.3227,
+     "rank": 16,
+     "tag": "active"
+    },
+    "lb_00086": {
+     "cos": 0.3856,
+     "rank": 6,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 412,
+   "successor_above_stale": true,
+   "successor_best_rank": 1,
+   "variant": "FULL",
+   "worst_rank": 16
+  },
+  "frbank:ingrid:ingrid_q04:SLOT-ABLATED": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 2,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00076": {
+     "cos": 0.3555,
+     "rank": 10,
+     "tag": "active"
+    },
+    "lb_00078": {
+     "cos": 0.4614,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00085": {
+     "cos": 0.3227,
+     "rank": 15,
+     "tag": "active"
+    },
+    "lb_00086": {
+     "cos": 0.3856,
+     "rank": 5,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 411,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 15
+  },
+  "frbank:ingrid:ingrid_q05:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00043": {
+     "cos": 0.3048,
+     "rank": 1,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 412,
+   "variant": "FULL",
+   "worst_rank": 1
+  },
+  "frbank:ingrid:ingrid_q06:CAT-ABLATED": {
+   "best_rank": 9,
+   "best_rank_text_dup": 9,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00364": {
+     "cos": 0.2292,
+     "rank": 16,
+     "tag": "active"
+    },
+    "lb_00372": {
+     "cos": 0.2551,
+     "rank": 10,
+     "tag": "active"
+    },
+    "lb_00378": {
+     "cos": 0.2577,
+     "rank": 9,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 272,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 16
+  },
+  "frbank:ingrid:ingrid_q06:FULL": {
+   "best_rank": 12,
+   "best_rank_text_dup": 12,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00364": {
+     "cos": 0.2292,
+     "rank": 28,
+     "tag": "active"
+    },
+    "lb_00372": {
+     "cos": 0.2551,
+     "rank": 14,
+     "tag": "active"
+    },
+    "lb_00378": {
+     "cos": 0.2577,
+     "rank": 12,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 412,
+   "variant": "FULL",
+   "worst_rank": 28
+  },
+  "frbank:ingrid:ingrid_q08:CAT-ABLATED": {
+   "best_rank": 44,
+   "best_rank_text_dup": 44,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00027": {
+     "cos": 0.1538,
+     "rank": 46,
+     "tag": "active"
+    },
+    "lb_00029": {
+     "cos": 0.1546,
+     "rank": 44,
+     "tag": "active"
+    },
+    "lb_00031": {
+     "cos": 0.1546,
+     "rank": 45,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 272,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 46
+  },
+  "frbank:ingrid:ingrid_q08:FULL": {
+   "best_rank": 60,
+   "best_rank_text_dup": 60,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00027": {
+     "cos": 0.1538,
+     "rank": 62,
+     "tag": "active"
+    },
+    "lb_00029": {
+     "cos": 0.1546,
+     "rank": 61,
+     "tag": "active"
+    },
+    "lb_00031": {
+     "cos": 0.1546,
+     "rank": 60,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 412,
+   "variant": "FULL",
+   "worst_rank": 62
+  },
+  "frbank:jake:jake_q03:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00047": {
+     "cos": 0.3344,
+     "rank": 9,
+     "tag": "active"
+    },
+    "lb_00051": {
+     "cos": 0.3673,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00054": {
+     "cos": 0.3673,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00061": {
+     "cos": 0.3344,
+     "rank": 8,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 401,
+   "variant": "FULL",
+   "worst_rank": 9
+  },
+  "frbank:jake:jake_q04:FULL": {
+   "best_rank": 77,
+   "best_rank_text_dup": 77,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00306": {
+     "cos": 0.1983,
+     "rank": 77,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 401,
+   "variant": "FULL",
+   "worst_rank": 77
+  },
+  "frbank:jake:jake_q06:CAT-ABLATED": {
+   "best_rank": 38,
+   "best_rank_text_dup": 38,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00235": {
+     "cos": 0.187,
+     "rank": 73,
+     "tag": "active"
+    },
+    "lb_00236": {
+     "cos": 0.1696,
+     "rank": 98,
+     "tag": "active"
+    },
+    "lb_00237": {
+     "cos": 0.2212,
+     "rank": 38,
+     "tag": "active"
+    },
+    "lb_00239": {
+     "cos": 0.135,
+     "rank": 158,
+     "tag": "active"
+    },
+    "lb_00240": {
+     "cos": 0.1686,
+     "rank": 102,
+     "tag": "active"
+    },
+    "lb_00249": {
+     "cos": 0.1193,
+     "rank": 180,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 220,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 180
+  },
+  "frbank:jake:jake_q06:FULL": {
+   "best_rank": 60,
+   "best_rank_text_dup": 60,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00235": {
+     "cos": 0.187,
+     "rank": 131,
+     "tag": "active"
+    },
+    "lb_00236": {
+     "cos": 0.1696,
+     "rank": 183,
+     "tag": "active"
+    },
+    "lb_00237": {
+     "cos": 0.2212,
+     "rank": 60,
+     "tag": "active"
+    },
+    "lb_00239": {
+     "cos": 0.135,
+     "rank": 290,
+     "tag": "active"
+    },
+    "lb_00240": {
+     "cos": 0.1686,
+     "rank": 187,
+     "tag": "active"
+    },
+    "lb_00249": {
+     "cos": 0.1193,
+     "rank": 327,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 401,
+   "variant": "FULL",
+   "worst_rank": 327
+  },
+  "frbank:jake:jake_q11:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 2,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00104": {
+     "cos": 0.4424,
+     "rank": 1,
+     "tag": "expired"
+    },
+    "lb_00112": {
+     "cos": 0.3895,
+     "rank": 3,
+     "tag": "expired"
+    }
+   },
+   "state": "exp",
+   "store_size": 401,
+   "variant": "FULL",
+   "worst_rank": 3
+  },
+  "frbank:jake:jake_q12:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 4,
+   "n_licensed": 7,
+   "n_licensed_in_store": 7,
+   "records": {
+    "lb_00010": {
+     "cos": 0.4651,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00012": {
+     "cos": 0.2854,
+     "rank": 50,
+     "tag": "active"
+    },
+    "lb_00013": {
+     "cos": 0.3921,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00015": {
+     "cos": 0.4144,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00016": {
+     "cos": 0.3594,
+     "rank": 8,
+     "tag": "active"
+    },
+    "lb_00017": {
+     "cos": 0.4194,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00018": {
+     "cos": 0.2854,
+     "rank": 51,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 401,
+   "variant": "FULL",
+   "worst_rank": 51
+  },
+  "frbank:jerome:jerome_q02:CAT-ABLATED": {
+   "best_rank": 26,
+   "best_rank_text_dup": 26,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00001": {
+     "cos": 0.4013,
+     "rank": 26,
+     "tag": "superseded"
+    },
+    "lb_00011": {
+     "cos": 0.4013,
+     "rank": 27,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 353,
+   "successor_above_stale": false,
+   "successor_best_rank": 73,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 27
+  },
+  "frbank:jerome:jerome_q02:FULL": {
+   "best_rank": 30,
+   "best_rank_text_dup": 30,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00001": {
+     "cos": 0.4013,
+     "rank": 31,
+     "tag": "superseded"
+    },
+    "lb_00011": {
+     "cos": 0.4013,
+     "rank": 30,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 622,
+   "successor_above_stale": false,
+   "successor_best_rank": 95,
+   "variant": "FULL",
+   "worst_rank": 31
+  },
+  "frbank:jerome:jerome_q02:SLOT-ABLATED": {
+   "best_rank": 30,
+   "best_rank_text_dup": 30,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00001": {
+     "cos": 0.4013,
+     "rank": 30,
+     "tag": "superseded"
+    },
+    "lb_00011": {
+     "cos": 0.4013,
+     "rank": 31,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 619,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 31
+  },
+  "frbank:jerome:jerome_q03:FULL": {
+   "best_rank": 11,
+   "best_rank_text_dup": 11,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00005": {
+     "cos": 0.4885,
+     "rank": 15,
+     "tag": "superseded"
+    },
+    "lb_00008": {
+     "cos": 0.4886,
+     "rank": 14,
+     "tag": "superseded"
+    },
+    "lb_00012": {
+     "cos": 0.5067,
+     "rank": 12,
+     "tag": "superseded"
+    },
+    "lb_00014": {
+     "cos": 0.5067,
+     "rank": 11,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 622,
+   "successor_above_stale": false,
+   "successor_best_rank": 17,
+   "variant": "FULL",
+   "worst_rank": 15
+  },
+  "frbank:jerome:jerome_q05:FULL": {
+   "best_rank": 126,
+   "best_rank_text_dup": 126,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 9,
+   "n_licensed_in_store": 9,
+   "records": {
+    "lb_00050": {
+     "cos": 0.0892,
+     "rank": 374,
+     "tag": "active"
+    },
+    "lb_00051": {
+     "cos": 0.1478,
+     "rank": 153,
+     "tag": "active"
+    },
+    "lb_00052": {
+     "cos": 0.0817,
+     "rank": 407,
+     "tag": "active"
+    },
+    "lb_00053": {
+     "cos": 0.0925,
+     "rank": 357,
+     "tag": "active"
+    },
+    "lb_00055": {
+     "cos": 0.0892,
+     "rank": 373,
+     "tag": "active"
+    },
+    "lb_00056": {
+     "cos": 0.1621,
+     "rank": 126,
+     "tag": "active"
+    },
+    "lb_00057": {
+     "cos": 0.0634,
+     "rank": 491,
+     "tag": "active"
+    },
+    "lb_00059": {
+     "cos": 0.11,
+     "rank": 281,
+     "tag": "active"
+    },
+    "lb_00060": {
+     "cos": 0.1534,
+     "rank": 143,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 622,
+   "variant": "FULL",
+   "worst_rank": 491
+  },
+  "frbank:jerome:jerome_q06:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 3,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00024": {
+     "cos": 0.4911,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00028": {
+     "cos": 0.4939,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00031": {
+     "cos": 0.4639,
+     "rank": 8,
+     "tag": "active"
+    },
+    "lb_00035": {
+     "cos": 0.4955,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00042": {
+     "cos": 0.3636,
+     "rank": 30,
+     "tag": "active"
+    },
+    "lb_00045": {
+     "cos": 0.4767,
+     "rank": 7,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 622,
+   "variant": "FULL",
+   "worst_rank": 30
+  },
+  "frbank:jerome:jerome_q07:CAT-ABLATED": {
+   "best_rank": 28,
+   "best_rank_text_dup": 28,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 7,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00493": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00495": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00503": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00504": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00505": {
+     "cos": 0.2025,
+     "rank": 32,
+     "tag": "active"
+    },
+    "lb_00507": {
+     "cos": 0.2085,
+     "rank": 28,
+     "tag": "active"
+    },
+    "lb_00510": {
+     "cos": 0.2056,
+     "rank": 30,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 353,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 32
+  },
+  "frbank:jerome:jerome_q07:FULL": {
+   "best_rank": 60,
+   "best_rank_text_dup": 60,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 7,
+   "n_licensed_in_store": 7,
+   "records": {
+    "lb_00493": {
+     "cos": 0.1644,
+     "rank": 154,
+     "tag": "active"
+    },
+    "lb_00495": {
+     "cos": 0.1552,
+     "rank": 187,
+     "tag": "active"
+    },
+    "lb_00503": {
+     "cos": 0.1552,
+     "rank": 185,
+     "tag": "active"
+    },
+    "lb_00504": {
+     "cos": 0.1241,
+     "rank": 305,
+     "tag": "active"
+    },
+    "lb_00505": {
+     "cos": 0.2025,
+     "rank": 74,
+     "tag": "active"
+    },
+    "lb_00507": {
+     "cos": 0.2085,
+     "rank": 60,
+     "tag": "active"
+    },
+    "lb_00510": {
+     "cos": 0.2056,
+     "rank": 69,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 622,
+   "variant": "FULL",
+   "worst_rank": 305
+  },
+  "frbank:jerome:jerome_q11:FULL": {
+   "best_rank": 17,
+   "best_rank_text_dup": 17,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00017": {
+     "cos": 0.3251,
+     "rank": 17,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 622,
+   "variant": "FULL",
+   "worst_rank": 17
+  },
+  "frbank:joonho:joonho_q01:FULL": {
+   "best_rank": 17,
+   "best_rank_text_dup": 17,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00001": {
+     "cos": 0.4715,
+     "rank": 17,
+     "tag": "superseded"
+    },
+    "lb_00008": {
+     "cos": 0.4489,
+     "rank": 24,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 383,
+   "successor_above_stale": true,
+   "successor_best_rank": 10,
+   "variant": "FULL",
+   "worst_rank": 24
+  },
+  "frbank:joonho:joonho_q01:SLOT-ABLATED": {
+   "best_rank": 14,
+   "best_rank_text_dup": 14,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00001": {
+     "cos": 0.4715,
+     "rank": 14,
+     "tag": "superseded"
+    },
+    "lb_00008": {
+     "cos": 0.4489,
+     "rank": 21,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 380,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 21
+  },
+  "frbank:joonho:joonho_q04:FULL": {
+   "best_rank": 6,
+   "best_rank_text_dup": 6,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00134": {
+     "cos": 0.36,
+     "rank": 25,
+     "tag": "active"
+    },
+    "lb_00138": {
+     "cos": 0.3439,
+     "rank": 36,
+     "tag": "active"
+    },
+    "lb_00142": {
+     "cos": 0.3933,
+     "rank": 12,
+     "tag": "active"
+    },
+    "lb_00145": {
+     "cos": 0.3988,
+     "rank": 6,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 383,
+   "successor_above_stale": false,
+   "successor_best_rank": 37,
+   "variant": "FULL",
+   "worst_rank": 36
+  },
+  "frbank:joonho:joonho_q04:SLOT-ABLATED": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00134": {
+     "cos": 0.36,
+     "rank": 23,
+     "tag": "active"
+    },
+    "lb_00138": {
+     "cos": 0.3439,
+     "rank": 33,
+     "tag": "active"
+    },
+    "lb_00142": {
+     "cos": 0.3933,
+     "rank": 10,
+     "tag": "active"
+    },
+    "lb_00145": {
+     "cos": 0.3988,
+     "rank": 4,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 378,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 33
+  },
+  "frbank:joonho:joonho_q06:FULL": {
+   "best_rank": 31,
+   "best_rank_text_dup": 31,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00314": {
+     "cos": 0.2563,
+     "rank": 55,
+     "tag": "active"
+    },
+    "lb_00321": {
+     "cos": 0.3151,
+     "rank": 31,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 383,
+   "variant": "FULL",
+   "worst_rank": 55
+  },
+  "frbank:joonho:joonho_q07:FULL": {
+   "best_rank": 35,
+   "best_rank_text_dup": 35,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00189": {
+     "cos": 0.3871,
+     "rank": 35,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 383,
+   "variant": "FULL",
+   "worst_rank": 35
+  },
+  "frbank:kenji:kenji_q03:FULL": {
+   "best_rank": 10,
+   "best_rank_text_dup": 10,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00088": {
+     "cos": 0.4059,
+     "rank": 10,
+     "tag": "superseded"
+    },
+    "lb_00090": {
+     "cos": 0.3955,
+     "rank": 15,
+     "tag": "superseded"
+    },
+    "lb_00094": {
+     "cos": 0.3822,
+     "rank": 18,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 460,
+   "successor_above_stale": false,
+   "successor_best_rank": 76,
+   "variant": "FULL",
+   "worst_rank": 18
+  },
+  "frbank:kenji:kenji_q03:SLOT-ABLATED": {
+   "best_rank": 10,
+   "best_rank_text_dup": 10,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00088": {
+     "cos": 0.4059,
+     "rank": 10,
+     "tag": "superseded"
+    },
+    "lb_00090": {
+     "cos": 0.3955,
+     "rank": 15,
+     "tag": "superseded"
+    },
+    "lb_00094": {
+     "cos": 0.3822,
+     "rank": 18,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 454,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 18
+  },
+  "frbank:kenji:kenji_q05:FULL": {
+   "best_rank": 8,
+   "best_rank_text_dup": 8,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00386": {
+     "cos": 0.3676,
+     "rank": 8,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 460,
+   "variant": "FULL",
+   "worst_rank": 8
+  },
+  "frbank:kenji:kenji_q07:FULL": {
+   "best_rank": 65,
+   "best_rank_text_dup": 65,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00361": {
+     "cos": 0.3431,
+     "rank": 65,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 460,
+   "variant": "FULL",
+   "worst_rank": 65
+  },
+  "frbank:kenji:kenji_q09:FULL": {
+   "best_rank": 9,
+   "best_rank_text_dup": 9,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00036": {
+     "cos": 0.3503,
+     "rank": 9,
+     "tag": "active"
+    },
+    "lb_00039": {
+     "cos": 0.3371,
+     "rank": 12,
+     "tag": "active"
+    },
+    "lb_00044": {
+     "cos": 0.3132,
+     "rank": 20,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 460,
+   "variant": "FULL",
+   "worst_rank": 20
+  },
+  "frbank:kenji:kenji_q12:CAT-ABLATED": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00065": {
+     "cos": 0.4192,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00068": {
+     "cos": 0.2704,
+     "rank": 21,
+     "tag": "active"
+    },
+    "lb_00069": {
+     "cos": 0.3299,
+     "rank": 10,
+     "tag": "active"
+    },
+    "lb_00071": {
+     "cos": 0.3405,
+     "rank": 8,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 228,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 21
+  },
+  "frbank:kenji:kenji_q12:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00065": {
+     "cos": 0.4192,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00068": {
+     "cos": 0.2704,
+     "rank": 41,
+     "tag": "active"
+    },
+    "lb_00069": {
+     "cos": 0.3299,
+     "rank": 11,
+     "tag": "active"
+    },
+    "lb_00071": {
+     "cos": 0.3405,
+     "rank": 9,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 460,
+   "variant": "FULL",
+   "worst_rank": 41
+  },
+  "frbank:kofi:kofi_q01:FULL": {
+   "best_rank": 8,
+   "best_rank_text_dup": 8,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00014": {
+     "cos": 0.6332,
+     "rank": 8,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 591,
+   "successor_above_stale": false,
+   "successor_best_rank": 10,
+   "variant": "FULL",
+   "worst_rank": 8
+  },
+  "frbank:kofi:kofi_q01:SLOT-ABLATED": {
+   "best_rank": 8,
+   "best_rank_text_dup": 8,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00014": {
+     "cos": 0.6332,
+     "rank": 8,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 587,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 8
+  },
+  "frbank:kofi:kofi_q02:FULL": {
+   "best_rank": 13,
+   "best_rank_text_dup": 13,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00082": {
+     "cos": 0.4934,
+     "rank": 13,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 591,
+   "successor_above_stale": false,
+   "successor_best_rank": 26,
+   "variant": "FULL",
+   "worst_rank": 13
+  },
+  "frbank:kofi:kofi_q02:SLOT-ABLATED": {
+   "best_rank": 12,
+   "best_rank_text_dup": 12,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00082": {
+     "cos": 0.4934,
+     "rank": 12,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 587,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 12
+  },
+  "frbank:kofi:kofi_q06:CAT-ABLATED": {
+   "best_rank": 80,
+   "best_rank_text_dup": 80,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 7,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00497": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00498": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00499": {
+     "cos": 0.1827,
+     "rank": 80,
+     "tag": "active"
+    },
+    "lb_00500": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00503": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00511": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00515": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 226,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 80
+  },
+  "frbank:kofi:kofi_q06:FULL": {
+   "best_rank": 59,
+   "best_rank_text_dup": 59,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 7,
+   "n_licensed_in_store": 7,
+   "records": {
+    "lb_00497": {
+     "cos": 0.1326,
+     "rank": 317,
+     "tag": "active"
+    },
+    "lb_00498": {
+     "cos": 0.1235,
+     "rank": 358,
+     "tag": "active"
+    },
+    "lb_00499": {
+     "cos": 0.1827,
+     "rank": 155,
+     "tag": "active"
+    },
+    "lb_00500": {
+     "cos": 0.1208,
+     "rank": 373,
+     "tag": "active"
+    },
+    "lb_00503": {
+     "cos": 0.1871,
+     "rank": 140,
+     "tag": "active"
+    },
+    "lb_00511": {
+     "cos": 0.2348,
+     "rank": 59,
+     "tag": "active"
+    },
+    "lb_00515": {
+     "cos": 0.2154,
+     "rank": 81,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 591,
+   "variant": "FULL",
+   "worst_rank": 373
+  },
+  "frbank:kofi:kofi_q09:FULL": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00008": {
+     "cos": 0.5792,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00014": {
+     "cos": 0.5669,
+     "rank": 5,
+     "tag": "superseded"
+    }
+   },
+   "state": "-",
+   "store_size": 591,
+   "variant": "FULL",
+   "worst_rank": 5
+  },
+  "frbank:leila:leila_q05:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00037": {
+     "cos": 0.2403,
+     "rank": 8,
+     "tag": "active"
+    },
+    "lb_00039": {
+     "cos": 0.231,
+     "rank": 12,
+     "tag": "active"
+    },
+    "lb_00041": {
+     "cos": 0.238,
+     "rank": 9,
+     "tag": "active"
+    },
+    "lb_00044": {
+     "cos": 0.2954,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00047": {
+     "cos": 0.238,
+     "rank": 10,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 491,
+   "variant": "FULL",
+   "worst_rank": 12
+  },
+  "frbank:leila:leila_q08:FULL": {
+   "best_rank": 20,
+   "best_rank_text_dup": 20,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00028": {
+     "cos": 0.2802,
+     "rank": 24,
+     "tag": "active"
+    },
+    "lb_00033": {
+     "cos": 0.2802,
+     "rank": 25,
+     "tag": "active"
+    },
+    "lb_00035": {
+     "cos": 0.2916,
+     "rank": 20,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 491,
+   "variant": "FULL",
+   "worst_rank": 25
+  },
+  "frbank:leila:leila_q09:FULL": {
+   "best_rank": 214,
+   "best_rank_text_dup": 214,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00007": {
+     "cos": 0.144,
+     "rank": 214,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 491,
+   "variant": "FULL",
+   "worst_rank": 214
+  },
+  "frbank:leila:leila_q11:CAT-ABLATED": {
+   "label": "PRESENT",
+   "n_licensed": 0,
+   "state": "-",
+   "variant": "CAT-ABLATED"
+  },
+  "frbank:leila:leila_q11:FULL": {
+   "label": "PRESENT",
+   "n_licensed": 0,
+   "state": "-",
+   "variant": "FULL"
+  },
+  "frbank:lily:lily_q01:FULL": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00128": {
+     "cos": 0.3453,
+     "rank": 4,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 467,
+   "successor_above_stale": true,
+   "successor_best_rank": 3,
+   "variant": "FULL",
+   "worst_rank": 4
+  },
+  "frbank:lily:lily_q01:SLOT-ABLATED": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00128": {
+     "cos": 0.3453,
+     "rank": 3,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 457,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 3
+  },
+  "frbank:lily:lily_q03:FULL": {
+   "best_rank": 6,
+   "best_rank_text_dup": 6,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00343": {
+     "cos": 0.419,
+     "rank": 23,
+     "tag": "active"
+    },
+    "lb_00350": {
+     "cos": 0.5182,
+     "rank": 15,
+     "tag": "active"
+    },
+    "lb_00354": {
+     "cos": 0.526,
+     "rank": 14,
+     "tag": "active"
+    },
+    "lb_00355": {
+     "cos": 0.5663,
+     "rank": 6,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 467,
+   "variant": "FULL",
+   "worst_rank": 23
+  },
+  "frbank:lily:lily_q05:CAT-ABLATED": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 8,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00402": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00403": {
+     "cos": 0.3455,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00404": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00408": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00411": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00412": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00414": {
+     "cos": 0.2462,
+     "rank": 30,
+     "tag": "active"
+    },
+    "lb_00415": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 251,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 30
+  },
+  "frbank:lily:lily_q05:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 8,
+   "n_licensed_in_store": 8,
+   "records": {
+    "lb_00402": {
+     "cos": 0.2294,
+     "rank": 74,
+     "tag": "active"
+    },
+    "lb_00403": {
+     "cos": 0.3455,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00404": {
+     "cos": 0.3239,
+     "rank": 9,
+     "tag": "active"
+    },
+    "lb_00408": {
+     "cos": 0.3167,
+     "rank": 12,
+     "tag": "active"
+    },
+    "lb_00411": {
+     "cos": 0.2496,
+     "rank": 51,
+     "tag": "active"
+    },
+    "lb_00412": {
+     "cos": 0.3506,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00414": {
+     "cos": 0.2462,
+     "rank": 54,
+     "tag": "active"
+    },
+    "lb_00415": {
+     "cos": 0.3133,
+     "rank": 17,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 467,
+   "variant": "FULL",
+   "worst_rank": 74
+  },
+  "frbank:lily:lily_q06:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00166": {
+     "cos": 0.5234,
+     "rank": 2,
+     "tag": "retracted"
+    }
+   },
+   "state": "ret",
+   "store_size": 467,
+   "successor_above_stale": false,
+   "successor_best_rank": 19,
+   "variant": "FULL",
+   "worst_rank": 2
+  },
+  "frbank:lily:lily_q06:SLOT-ABLATED": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00166": {
+     "cos": 0.5234,
+     "rank": 2,
+     "tag": "retracted"
+    }
+   },
+   "state": "ret",
+   "store_size": 465,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 2
+  },
+  "frbank:lily:lily_q07:FULL": {
+   "best_rank": 33,
+   "best_rank_text_dup": 33,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00356": {
+     "cos": 0.1769,
+     "rank": 134,
+     "tag": "active"
+    },
+    "lb_00358": {
+     "cos": 0.1222,
+     "rank": 302,
+     "tag": "active"
+    },
+    "lb_00362": {
+     "cos": 0.2511,
+     "rank": 33,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 467,
+   "variant": "FULL",
+   "worst_rank": 302
+  },
+  "frbank:lily:lily_q08:FULL": {
+   "best_rank": 245,
+   "best_rank_text_dup": 245,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00118": {
+     "cos": 0.1534,
+     "rank": 245,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 467,
+   "variant": "FULL",
+   "worst_rank": 245
+  },
+  "frbank:lily:lily_q09:CAT-ABLATED": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 3,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00018": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00021": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00026": {
+     "cos": 0.2867,
+     "rank": 3,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 251,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 3
+  },
+  "frbank:lily:lily_q09:FULL": {
+   "best_rank": 10,
+   "best_rank_text_dup": 10,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00018": {
+     "cos": 0.3035,
+     "rank": 15,
+     "tag": "active"
+    },
+    "lb_00021": {
+     "cos": 0.3301,
+     "rank": 10,
+     "tag": "active"
+    },
+    "lb_00026": {
+     "cos": 0.2867,
+     "rank": 24,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 467,
+   "variant": "FULL",
+   "worst_rank": 24
+  },
+  "frbank:lily:lily_q11:CAT-ABLATED": {
+   "label": "PRESENT",
+   "n_licensed": 0,
+   "state": "-",
+   "variant": "CAT-ABLATED"
+  },
+  "frbank:lily:lily_q11:FULL": {
+   "label": "PRESENT",
+   "n_licensed": 0,
+   "state": "-",
+   "variant": "FULL"
+  },
+  "frbank:marcus:marcus_q04:FULL": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00031": {
+     "cos": 0.2684,
+     "rank": 4,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 262,
+   "variant": "FULL",
+   "worst_rank": 4
+  },
+  "frbank:marcus:marcus_q08:FULL": {
+   "best_rank": 39,
+   "best_rank_text_dup": 39,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00217": {
+     "cos": 0.2897,
+     "rank": 39,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 262,
+   "variant": "FULL",
+   "worst_rank": 39
+  },
+  "frbank:marcus:marcus_q10:CAT-ABLATED": {
+   "best_rank": 25,
+   "best_rank_text_dup": 25,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00132": {
+     "cos": 0.2805,
+     "rank": 25,
+     "tag": "active"
+    }
+   },
+   "state": "exp",
+   "store_size": 156,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 25
+  },
+  "frbank:marcus:marcus_q10:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00131": {
+     "cos": 0.3753,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00132": {
+     "cos": 0.2805,
+     "rank": 45,
+     "tag": "active"
+    }
+   },
+   "state": "exp",
+   "store_size": 262,
+   "variant": "FULL",
+   "worst_rank": 45
+  },
+  "frbank:marcus:marcus_q12:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00102": {
+     "cos": 0.3668,
+     "rank": 1,
+     "tag": "expired"
+    }
+   },
+   "state": "exp",
+   "store_size": 262,
+   "variant": "FULL",
+   "worst_rank": 1
+  },
+  "frbank:marley:marley_q05:FULL": {
+   "best_rank": 20,
+   "best_rank_text_dup": 20,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00037": {
+     "cos": 0.1631,
+     "rank": 69,
+     "tag": "active"
+    },
+    "lb_00045": {
+     "cos": 0.2002,
+     "rank": 20,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 381,
+   "variant": "FULL",
+   "worst_rank": 69
+  },
+  "frbank:marley:marley_q10:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00012": {
+     "cos": 0.35,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00014": {
+     "cos": 0.3131,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00020": {
+     "cos": 0.2829,
+     "rank": 7,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 381,
+   "variant": "FULL",
+   "worst_rank": 7
+  },
+  "frbank:marley:marley_q11:FULL": {
+   "best_rank": 72,
+   "best_rank_text_dup": 72,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00004": {
+     "cos": 0.1994,
+     "rank": 72,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 381,
+   "variant": "FULL",
+   "worst_rank": 72
+  },
+  "frbank:mehmet:mehmet_q02:CAT-ABLATED": {
+   "best_rank": 7,
+   "best_rank_text_dup": 7,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00079": {
+     "cos": 0.6103,
+     "rank": 8,
+     "tag": "superseded"
+    },
+    "lb_00081": {
+     "cos": 0.6103,
+     "rank": 7,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 361,
+   "successor_above_stale": false,
+   "successor_best_rank": 10,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 8
+  },
+  "frbank:mehmet:mehmet_q02:FULL": {
+   "best_rank": 7,
+   "best_rank_text_dup": 7,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00079": {
+     "cos": 0.6103,
+     "rank": 8,
+     "tag": "superseded"
+    },
+    "lb_00081": {
+     "cos": 0.6103,
+     "rank": 7,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 512,
+   "successor_above_stale": false,
+   "successor_best_rank": 10,
+   "variant": "FULL",
+   "worst_rank": 8
+  },
+  "frbank:mehmet:mehmet_q02:SLOT-ABLATED": {
+   "best_rank": 6,
+   "best_rank_text_dup": 6,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00079": {
+     "cos": 0.6103,
+     "rank": 6,
+     "tag": "superseded"
+    },
+    "lb_00081": {
+     "cos": 0.6103,
+     "rank": 7,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 510,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 7
+  },
+  "frbank:mehmet:mehmet_q05:FULL": {
+   "best_rank": 296,
+   "best_rank_text_dup": 296,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00071": {
+     "cos": 0.1609,
+     "rank": 296,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 512,
+   "variant": "FULL",
+   "worst_rank": 296
+  },
+  "frbank:mehmet:mehmet_q06:FULL": {
+   "best_rank": 122,
+   "best_rank_text_dup": 122,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00428": {
+     "cos": 0.2289,
+     "rank": 199,
+     "tag": "active"
+    },
+    "lb_00429": {
+     "cos": 0.2684,
+     "rank": 122,
+     "tag": "active"
+    },
+    "lb_00432": {
+     "cos": 0.2392,
+     "rank": 179,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 512,
+   "variant": "FULL",
+   "worst_rank": 199
+  },
+  "frbank:mehmet:mehmet_q10:CAT-ABLATED": {
+   "best_rank": 174,
+   "best_rank_text_dup": 174,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00008": {
+     "cos": 0.2958,
+     "rank": 174,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 361,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 174
+  },
+  "frbank:mehmet:mehmet_q10:FULL": {
+   "best_rank": 253,
+   "best_rank_text_dup": 253,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00008": {
+     "cos": 0.2958,
+     "rank": 253,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 512,
+   "variant": "FULL",
+   "worst_rank": 253
+  },
+  "frbank:mehmet:mehmet_q13:CAT-ABLATED": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00030": {
+     "cos": 0.585,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00032": {
+     "cos": 0.5581,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00035": {
+     "cos": 0.5332,
+     "rank": 7,
+     "tag": "active"
+    },
+    "lb_00038": {
+     "cos": 0.522,
+     "rank": 12,
+     "tag": "active"
+    },
+    "lb_00043": {
+     "cos": 0.5248,
+     "rank": 11,
+     "tag": "active"
+    },
+    "lb_00044": {
+     "cos": 0.528,
+     "rank": 10,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 361,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 12
+  },
+  "frbank:mehmet:mehmet_q13:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00030": {
+     "cos": 0.585,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00032": {
+     "cos": 0.5581,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00035": {
+     "cos": 0.5332,
+     "rank": 7,
+     "tag": "active"
+    },
+    "lb_00038": {
+     "cos": 0.522,
+     "rank": 12,
+     "tag": "active"
+    },
+    "lb_00043": {
+     "cos": 0.5248,
+     "rank": 11,
+     "tag": "active"
+    },
+    "lb_00044": {
+     "cos": 0.528,
+     "rank": 10,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 512,
+   "variant": "FULL",
+   "worst_rank": 12
+  },
+  "frbank:mirri:mirri_q01:FULL": {
+   "best_rank": 10,
+   "best_rank_text_dup": 10,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00004": {
+     "cos": 0.38,
+     "rank": 11,
+     "tag": "superseded"
+    },
+    "lb_00006": {
+     "cos": 0.38,
+     "rank": 10,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 582,
+   "successor_above_stale": false,
+   "successor_best_rank": 15,
+   "variant": "FULL",
+   "worst_rank": 11
+  },
+  "frbank:mirri:mirri_q01:SLOT-ABLATED": {
+   "best_rank": 8,
+   "best_rank_text_dup": 8,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00004": {
+     "cos": 0.38,
+     "rank": 8,
+     "tag": "superseded"
+    },
+    "lb_00006": {
+     "cos": 0.38,
+     "rank": 9,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 578,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 9
+  },
+  "frbank:mirri:mirri_q04:CAT-ABLATED": {
+   "best_rank": 111,
+   "best_rank_text_dup": 111,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00160": {
+     "cos": 0.2007,
+     "rank": 111,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 341,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 111
+  },
+  "frbank:mirri:mirri_q04:FULL": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 2,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00155": {
+     "cos": 0.4054,
+     "rank": 6,
+     "tag": "retracted"
+    },
+    "lb_00157": {
+     "cos": 0.4077,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00159": {
+     "cos": 0.4088,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00160": {
+     "cos": 0.2007,
+     "rank": 145,
+     "tag": "active"
+    },
+    "lb_00162": {
+     "cos": 0.4036,
+     "rank": 7,
+     "tag": "active"
+    },
+    "lb_00164": {
+     "cos": 0.3624,
+     "rank": 10,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 582,
+   "successor_above_stale": false,
+   "successor_best_rank": 14,
+   "variant": "FULL",
+   "worst_rank": 145
+  },
+  "frbank:mirri:mirri_q04:SLOT-ABLATED": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 2,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00155": {
+     "cos": 0.4054,
+     "rank": 6,
+     "tag": "retracted"
+    },
+    "lb_00157": {
+     "cos": 0.4077,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00159": {
+     "cos": 0.4088,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00160": {
+     "cos": 0.2007,
+     "rank": 144,
+     "tag": "active"
+    },
+    "lb_00162": {
+     "cos": 0.4036,
+     "rank": 7,
+     "tag": "active"
+    },
+    "lb_00164": {
+     "cos": 0.3624,
+     "rank": 10,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 581,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 144
+  },
+  "frbank:mirri:mirri_q05:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00081": {
+     "cos": 0.2974,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00082": {
+     "cos": 0.2544,
+     "rank": 12,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 582,
+   "variant": "FULL",
+   "worst_rank": 12
+  },
+  "frbank:mirri:mirri_q10:CAT-ABLATED": {
+   "best_rank": 7,
+   "best_rank_text_dup": 7,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00334": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00335": {
+     "cos": 0.3521,
+     "rank": 7,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 341,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 7
+  },
+  "frbank:mirri:mirri_q10:FULL": {
+   "best_rank": 9,
+   "best_rank_text_dup": 9,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00334": {
+     "cos": 0.1995,
+     "rank": 103,
+     "tag": "active"
+    },
+    "lb_00335": {
+     "cos": 0.3521,
+     "rank": 9,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 582,
+   "variant": "FULL",
+   "worst_rank": 103
+  },
+  "frbank:nadia:nadia_q02:CAT-ABLATED": {
+   "best_rank": 5,
+   "best_rank_text_dup": 5,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00084": {
+     "cos": 0.3544,
+     "rank": 5,
+     "tag": "superseded"
+    },
+    "lb_00088": {
+     "cos": 0.3016,
+     "rank": 12,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 350,
+   "successor_above_stale": false,
+   "successor_best_rank": 19,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 12
+  },
+  "frbank:nadia:nadia_q02:FULL": {
+   "best_rank": 6,
+   "best_rank_text_dup": 6,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00084": {
+     "cos": 0.3544,
+     "rank": 6,
+     "tag": "superseded"
+    },
+    "lb_00088": {
+     "cos": 0.3016,
+     "rank": 13,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 512,
+   "successor_above_stale": false,
+   "successor_best_rank": 22,
+   "variant": "FULL",
+   "worst_rank": 13
+  },
+  "frbank:nadia:nadia_q02:SLOT-ABLATED": {
+   "best_rank": 8,
+   "best_rank_text_dup": 8,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00088": {
+     "cos": 0.3016,
+     "rank": 8,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 498,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 8
+  },
+  "frbank:nadia:nadia_q04:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 4,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00044": {
+     "cos": 0.4371,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00045": {
+     "cos": 0.4791,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00049": {
+     "cos": 0.5103,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00062": {
+     "cos": 0.4722,
+     "rank": 3,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 512,
+   "variant": "FULL",
+   "worst_rank": 4
+  },
+  "frbank:nadia:nadia_q05:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00439": {
+     "cos": 0.2547,
+     "rank": 14,
+     "tag": "active"
+    },
+    "lb_00446": {
+     "cos": 0.2437,
+     "rank": 22,
+     "tag": "active"
+    },
+    "lb_00451": {
+     "cos": 0.2996,
+     "rank": 1,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 512,
+   "variant": "FULL",
+   "worst_rank": 22
+  },
+  "frbank:nadia:nadia_q06:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 4,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00178": {
+     "cos": 0.6096,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00180": {
+     "cos": 0.5884,
+     "rank": 4,
+     "tag": "retracted"
+    },
+    "lb_00182": {
+     "cos": 0.5884,
+     "rank": 3,
+     "tag": "retracted"
+    },
+    "lb_00188": {
+     "cos": 0.6017,
+     "rank": 2,
+     "tag": "retracted"
+    }
+   },
+   "state": "ret",
+   "store_size": 512,
+   "successor_above_stale": false,
+   "successor_best_rank": 10,
+   "variant": "FULL",
+   "worst_rank": 4
+  },
+  "frbank:nadia:nadia_q06:SLOT-ABLATED": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 4,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00178": {
+     "cos": 0.6096,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00180": {
+     "cos": 0.5884,
+     "rank": 4,
+     "tag": "retracted"
+    },
+    "lb_00182": {
+     "cos": 0.5884,
+     "rank": 3,
+     "tag": "retracted"
+    },
+    "lb_00188": {
+     "cos": 0.6017,
+     "rank": 2,
+     "tag": "retracted"
+    }
+   },
+   "state": "ret",
+   "store_size": 509,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 4
+  },
+  "frbank:nadia:nadia_q07:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00432": {
+     "cos": 0.4693,
+     "rank": 2,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 512,
+   "variant": "FULL",
+   "worst_rank": 2
+  },
+  "frbank:omar:omar_q03:FULL": {
+   "best_rank": 99,
+   "best_rank_text_dup": 99,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00305": {
+     "cos": 0.1957,
+     "rank": 123,
+     "tag": "expired"
+    },
+    "lb_00306": {
+     "cos": 0.2066,
+     "rank": 99,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 355,
+   "variant": "FULL",
+   "worst_rank": 123
+  },
+  "frbank:omar:omar_q09:FULL": {
+   "best_rank": 76,
+   "best_rank_text_dup": 76,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00031": {
+     "cos": 0.2151,
+     "rank": 153,
+     "tag": "active"
+    },
+    "lb_00034": {
+     "cos": 0.2861,
+     "rank": 76,
+     "tag": "active"
+    },
+    "lb_00037": {
+     "cos": 0.2342,
+     "rank": 134,
+     "tag": "active"
+    },
+    "lb_00039": {
+     "cos": 0.2103,
+     "rank": 160,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 355,
+   "variant": "FULL",
+   "worst_rank": 160
+  },
+  "frbank:pan:pan_q01:CAT-ABLATED": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00017": {
+     "cos": 0.5715,
+     "rank": 1,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 317,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 1
+  },
+  "frbank:pan:pan_q01:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00012": {
+     "cos": 0.5335,
+     "rank": 7,
+     "tag": "superseded"
+    },
+    "lb_00017": {
+     "cos": 0.5715,
+     "rank": 2,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 582,
+   "successor_above_stale": false,
+   "successor_best_rank": 10,
+   "variant": "FULL",
+   "worst_rank": 7
+  },
+  "frbank:pan:pan_q01:SLOT-ABLATED": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00012": {
+     "cos": 0.5335,
+     "rank": 7,
+     "tag": "superseded"
+    },
+    "lb_00017": {
+     "cos": 0.5715,
+     "rank": 2,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 581,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 7
+  },
+  "frbank:pan:pan_q05:CAT-ABLATED": {
+   "best_rank": 8,
+   "best_rank_text_dup": 8,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00067": {
+     "cos": 0.1378,
+     "rank": 112,
+     "tag": "active"
+    },
+    "lb_00070": {
+     "cos": 0.242,
+     "rank": 10,
+     "tag": "active"
+    },
+    "lb_00072": {
+     "cos": 0.1177,
+     "rank": 177,
+     "tag": "active"
+    },
+    "lb_00073": {
+     "cos": 0.2442,
+     "rank": 8,
+     "tag": "active"
+    },
+    "lb_00075": {
+     "cos": 0.1194,
+     "rank": 168,
+     "tag": "active"
+    },
+    "lb_00082": {
+     "cos": 0.1239,
+     "rank": 154,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 317,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 177
+  },
+  "frbank:pan:pan_q05:FULL": {
+   "best_rank": 9,
+   "best_rank_text_dup": 9,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 6,
+   "n_licensed_in_store": 6,
+   "records": {
+    "lb_00067": {
+     "cos": 0.1378,
+     "rank": 212,
+     "tag": "active"
+    },
+    "lb_00070": {
+     "cos": 0.242,
+     "rank": 11,
+     "tag": "active"
+    },
+    "lb_00072": {
+     "cos": 0.1177,
+     "rank": 346,
+     "tag": "active"
+    },
+    "lb_00073": {
+     "cos": 0.2442,
+     "rank": 9,
+     "tag": "active"
+    },
+    "lb_00075": {
+     "cos": 0.1194,
+     "rank": 330,
+     "tag": "active"
+    },
+    "lb_00082": {
+     "cos": 0.1239,
+     "rank": 299,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 582,
+   "variant": "FULL",
+   "worst_rank": 346
+  },
+  "frbank:pan:pan_q06:CAT-ABLATED": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00484": {
+     "cos": 0.2972,
+     "rank": 1,
+     "tag": "active"
+    },
+    "lb_00485": {
+     "cos": 0.1018,
+     "rank": 224,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 317,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 224
+  },
+  "frbank:pan:pan_q06:FULL": {
+   "best_rank": 5,
+   "best_rank_text_dup": 5,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00484": {
+     "cos": 0.2972,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00485": {
+     "cos": 0.1018,
+     "rank": 411,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 582,
+   "variant": "FULL",
+   "worst_rank": 411
+  },
+  "frbank:pan:pan_q10:FULL": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00026": {
+     "cos": 0.6471,
+     "rank": 4,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 582,
+   "variant": "FULL",
+   "worst_rank": 4
+  },
+  "frbank:pan:pan_q11:CAT-ABLATED": {
+   "best_rank": 6,
+   "best_rank_text_dup": 6,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00138": {
+     "cos": 0.2038,
+     "rank": 29,
+     "tag": "active"
+    },
+    "lb_00139": {
+     "cos": 0.2038,
+     "rank": 31,
+     "tag": "active"
+    },
+    "lb_00141": {
+     "cos": 0.2038,
+     "rank": 32,
+     "tag": "active"
+    },
+    "lb_00144": {
+     "cos": 0.2038,
+     "rank": 30,
+     "tag": "active"
+    },
+    "lb_00148": {
+     "cos": 0.2736,
+     "rank": 6,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 317,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 32
+  },
+  "frbank:pan:pan_q11:FULL": {
+   "best_rank": 17,
+   "best_rank_text_dup": 17,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00138": {
+     "cos": 0.2038,
+     "rank": 92,
+     "tag": "active"
+    },
+    "lb_00139": {
+     "cos": 0.2038,
+     "rank": 95,
+     "tag": "active"
+    },
+    "lb_00141": {
+     "cos": 0.2038,
+     "rank": 94,
+     "tag": "active"
+    },
+    "lb_00144": {
+     "cos": 0.2038,
+     "rank": 93,
+     "tag": "active"
+    },
+    "lb_00148": {
+     "cos": 0.2736,
+     "rank": 17,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 582,
+   "variant": "FULL",
+   "worst_rank": 95
+  },
+  "frbank:pan:pan_q13:CAT-ABLATED": {
+   "label": "PRESENT",
+   "n_licensed": 0,
+   "state": "-",
+   "variant": "CAT-ABLATED"
+  },
+  "frbank:pan:pan_q13:FULL": {
+   "label": "PRESENT",
+   "n_licensed": 0,
+   "state": "-",
+   "variant": "FULL"
+  },
+  "frbank:patrick:patrick_q05:FULL": {
+   "best_rank": 11,
+   "best_rank_text_dup": 11,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00341": {
+     "cos": 0.2656,
+     "rank": 18,
+     "tag": "active"
+    },
+    "lb_00342": {
+     "cos": 0.2858,
+     "rank": 11,
+     "tag": "active"
+    },
+    "lb_00349": {
+     "cos": 0.2775,
+     "rank": 14,
+     "tag": "active"
+    },
+    "lb_00350": {
+     "cos": 0.2363,
+     "rank": 30,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 402,
+   "variant": "FULL",
+   "worst_rank": 30
+  },
+  "frbank:patrick:patrick_q08:FULL": {
+   "best_rank": 18,
+   "best_rank_text_dup": 18,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00018": {
+     "cos": 0.2715,
+     "rank": 25,
+     "tag": "active"
+    },
+    "lb_00022": {
+     "cos": 0.2893,
+     "rank": 19,
+     "tag": "active"
+    },
+    "lb_00024": {
+     "cos": 0.2587,
+     "rank": 29,
+     "tag": "active"
+    },
+    "lb_00029": {
+     "cos": 0.2587,
+     "rank": 30,
+     "tag": "active"
+    },
+    "lb_00032": {
+     "cos": 0.2894,
+     "rank": 18,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 402,
+   "variant": "FULL",
+   "worst_rank": 30
+  },
+  "frbank:priya:priya_q09:FULL": {
+   "best_rank": 43,
+   "best_rank_text_dup": 43,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00034": {
+     "cos": 0.2659,
+     "rank": 43,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 390,
+   "variant": "FULL",
+   "worst_rank": 43
+  },
+  "frbank:raj:raj_q02:CAT-ABLATED": {
+   "best_rank": 18,
+   "best_rank_text_dup": 18,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00113": {
+     "cos": 0.3889,
+     "rank": 19,
+     "tag": "superseded"
+    },
+    "lb_00115": {
+     "cos": 0.3902,
+     "rank": 18,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 187,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 19
+  },
+  "frbank:raj:raj_q02:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00113": {
+     "cos": 0.3889,
+     "rank": 33,
+     "tag": "superseded"
+    },
+    "lb_00115": {
+     "cos": 0.3902,
+     "rank": 32,
+     "tag": "superseded"
+    },
+    "lb_00119": {
+     "cos": 0.4946,
+     "rank": 2,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 524,
+   "successor_above_stale": false,
+   "successor_best_rank": 54,
+   "variant": "FULL",
+   "worst_rank": 33
+  },
+  "frbank:raj:raj_q02:SLOT-ABLATED": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00113": {
+     "cos": 0.3889,
+     "rank": 33,
+     "tag": "superseded"
+    },
+    "lb_00115": {
+     "cos": 0.3902,
+     "rank": 32,
+     "tag": "superseded"
+    },
+    "lb_00119": {
+     "cos": 0.4946,
+     "rank": 2,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 519,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 33
+  },
+  "frbank:raj:raj_q03:FULL": {
+   "best_rank": 209,
+   "best_rank_text_dup": 209,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00033": {
+     "cos": 0.2258,
+     "rank": 209,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 524,
+   "successor_above_stale": true,
+   "successor_best_rank": 8,
+   "variant": "FULL",
+   "worst_rank": 209
+  },
+  "frbank:raj:raj_q03:SLOT-ABLATED": {
+   "best_rank": 206,
+   "best_rank_text_dup": 206,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00033": {
+     "cos": 0.2258,
+     "rank": 206,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 521,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 206
+  },
+  "frbank:raj:raj_q04:CAT-ABLATED": {
+   "best_rank": 29,
+   "best_rank_text_dup": 29,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00061": {
+     "cos": 0.2331,
+     "rank": 29,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 187,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 29
+  },
+  "frbank:raj:raj_q04:FULL": {
+   "best_rank": 154,
+   "best_rank_text_dup": 154,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00061": {
+     "cos": 0.2331,
+     "rank": 154,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 524,
+   "variant": "FULL",
+   "worst_rank": 154
+  },
+  "frbank:raj:raj_q05:FULL": {
+   "best_rank": 8,
+   "best_rank_text_dup": 8,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00437": {
+     "cos": 0.3129,
+     "rank": 27,
+     "tag": "active"
+    },
+    "lb_00440": {
+     "cos": 0.3302,
+     "rank": 12,
+     "tag": "active"
+    },
+    "lb_00443": {
+     "cos": 0.3478,
+     "rank": 8,
+     "tag": "active"
+    },
+    "lb_00447": {
+     "cos": 0.2595,
+     "rank": 83,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 524,
+   "variant": "FULL",
+   "worst_rank": 83
+  },
+  "frbank:raj:raj_q07:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 8,
+   "n_licensed_in_store": 8,
+   "records": {
+    "lb_00390": {
+     "cos": 0.4522,
+     "rank": 15,
+     "tag": "active"
+    },
+    "lb_00393": {
+     "cos": 0.4274,
+     "rank": 17,
+     "tag": "active"
+    },
+    "lb_00394": {
+     "cos": 0.4834,
+     "rank": 9,
+     "tag": "active"
+    },
+    "lb_00396": {
+     "cos": 0.3694,
+     "rank": 25,
+     "tag": "active"
+    },
+    "lb_00399": {
+     "cos": 0.3666,
+     "rank": 26,
+     "tag": "active"
+    },
+    "lb_00400": {
+     "cos": 0.5149,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00403": {
+     "cos": 0.4889,
+     "rank": 8,
+     "tag": "active"
+    },
+    "lb_00407": {
+     "cos": 0.4117,
+     "rank": 19,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 524,
+   "variant": "FULL",
+   "worst_rank": 26
+  },
+  "frbank:raj:raj_q08:CAT-ABLATED": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00027": {
+     "cos": 0.3652,
+     "rank": 3,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 187,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 3
+  },
+  "frbank:raj:raj_q08:FULL": {
+   "best_rank": 18,
+   "best_rank_text_dup": 18,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00027": {
+     "cos": 0.3652,
+     "rank": 18,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 524,
+   "variant": "FULL",
+   "worst_rank": 18
+  },
+  "frbank:raj:raj_q09:FULL": {
+   "best_rank": 31,
+   "best_rank_text_dup": 31,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00046": {
+     "cos": 0.4153,
+     "rank": 31,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 524,
+   "variant": "FULL",
+   "worst_rank": 31
+  },
+  "frbank:raj:raj_q12:CAT-ABLATED": {
+   "best_rank": 13,
+   "best_rank_text_dup": 13,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00075": {
+     "cos": 0.2427,
+     "rank": 53,
+     "tag": "active"
+    },
+    "lb_00078": {
+     "cos": 0.2604,
+     "rank": 41,
+     "tag": "active"
+    },
+    "lb_00090": {
+     "cos": 0.2988,
+     "rank": 13,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 187,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 53
+  },
+  "frbank:raj:raj_q12:FULL": {
+   "best_rank": 108,
+   "best_rank_text_dup": 108,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00075": {
+     "cos": 0.2427,
+     "rank": 209,
+     "tag": "active"
+    },
+    "lb_00078": {
+     "cos": 0.2604,
+     "rank": 182,
+     "tag": "active"
+    },
+    "lb_00090": {
+     "cos": 0.2988,
+     "rank": 108,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 524,
+   "variant": "FULL",
+   "worst_rank": 209
+  },
+  "frbank:rosa:rosa_q04:FULL": {
+   "best_rank": 23,
+   "best_rank_text_dup": 23,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 8,
+   "n_licensed_in_store": 8,
+   "records": {
+    "lb_00071": {
+     "cos": 0.2594,
+     "rank": 24,
+     "tag": "active"
+    },
+    "lb_00074": {
+     "cos": 0.2594,
+     "rank": 26,
+     "tag": "active"
+    },
+    "lb_00075": {
+     "cos": 0.1955,
+     "rank": 139,
+     "tag": "active"
+    },
+    "lb_00076": {
+     "cos": 0.2594,
+     "rank": 25,
+     "tag": "active"
+    },
+    "lb_00080": {
+     "cos": 0.2594,
+     "rank": 23,
+     "tag": "active"
+    },
+    "lb_00084": {
+     "cos": 0.2342,
+     "rank": 58,
+     "tag": "active"
+    },
+    "lb_00085": {
+     "cos": 0.2373,
+     "rank": 53,
+     "tag": "active"
+    },
+    "lb_00088": {
+     "cos": 0.2482,
+     "rank": 37,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 562,
+   "variant": "FULL",
+   "worst_rank": 139
+  },
+  "frbank:rosa:rosa_q06:CAT-ABLATED": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 3,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00231": {
+     "cos": 0.5919,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00233": {
+     "cos": 0.5919,
+     "rank": 7,
+     "tag": "active"
+    },
+    "lb_00236": {
+     "cos": 0.5972,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00240": {
+     "cos": 0.5919,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00242": {
+     "cos": 0.5919,
+     "rank": 5,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 433,
+   "successor_above_stale": false,
+   "successor_best_rank": 13,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 7
+  },
+  "frbank:rosa:rosa_q06:FULL": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 3,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00231": {
+     "cos": 0.5919,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00233": {
+     "cos": 0.5919,
+     "rank": 7,
+     "tag": "active"
+    },
+    "lb_00236": {
+     "cos": 0.5972,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00240": {
+     "cos": 0.5919,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00242": {
+     "cos": 0.5919,
+     "rank": 4,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 562,
+   "successor_above_stale": false,
+   "successor_best_rank": 13,
+   "variant": "FULL",
+   "worst_rank": 7
+  },
+  "frbank:rosa:rosa_q06:SLOT-ABLATED": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 3,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00231": {
+     "cos": 0.5919,
+     "rank": 7,
+     "tag": "active"
+    },
+    "lb_00233": {
+     "cos": 0.5919,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00236": {
+     "cos": 0.5972,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00240": {
+     "cos": 0.5919,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00242": {
+     "cos": 0.5919,
+     "rank": 6,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 555,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 7
+  },
+  "frbank:rosa:rosa_q08:FULL": {
+   "best_rank": 7,
+   "best_rank_text_dup": 7,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00103": {
+     "cos": 0.3812,
+     "rank": 7,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 562,
+   "variant": "FULL",
+   "worst_rank": 7
+  },
+  "frbank:rosa:rosa_q12:FULL": {
+   "best_rank": 286,
+   "best_rank_text_dup": 286,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00025": {
+     "cos": 0.1566,
+     "rank": 335,
+     "tag": "active"
+    },
+    "lb_00030": {
+     "cos": 0.1727,
+     "rank": 286,
+     "tag": "active"
+    },
+    "lb_00033": {
+     "cos": 0.1382,
+     "rank": 386,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 562,
+   "variant": "FULL",
+   "worst_rank": 386
+  },
+  "frbank:saga:saga_q01:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00002": {
+     "cos": 0.6354,
+     "rank": 1,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 431,
+   "successor_above_stale": false,
+   "successor_best_rank": 12,
+   "variant": "FULL",
+   "worst_rank": 1
+  },
+  "frbank:saga:saga_q01:SLOT-ABLATED": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00002": {
+     "cos": 0.6354,
+     "rank": 1,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 426,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 1
+  },
+  "frbank:saga:saga_q02:FULL": {
+   "best_rank": 18,
+   "best_rank_text_dup": 18,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00068": {
+     "cos": 0.4368,
+     "rank": 19,
+     "tag": "superseded"
+    },
+    "lb_00075": {
+     "cos": 0.4368,
+     "rank": 18,
+     "tag": "superseded"
+    },
+    "lb_00080": {
+     "cos": 0.4368,
+     "rank": 20,
+     "tag": "superseded"
+    },
+    "lb_00085": {
+     "cos": 0.4337,
+     "rank": 23,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 431,
+   "successor_above_stale": true,
+   "successor_best_rank": 3,
+   "variant": "FULL",
+   "worst_rank": 23
+  },
+  "frbank:saga:saga_q02:SLOT-ABLATED": {
+   "best_rank": 16,
+   "best_rank_text_dup": 16,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00068": {
+     "cos": 0.4368,
+     "rank": 17,
+     "tag": "superseded"
+    },
+    "lb_00075": {
+     "cos": 0.4368,
+     "rank": 16,
+     "tag": "superseded"
+    },
+    "lb_00080": {
+     "cos": 0.4368,
+     "rank": 18,
+     "tag": "superseded"
+    },
+    "lb_00085": {
+     "cos": 0.4337,
+     "rank": 21,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 428,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 21
+  },
+  "frbank:saga:saga_q06:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00306": {
+     "cos": 0.3255,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00309": {
+     "cos": 0.2289,
+     "rank": 16,
+     "tag": "active"
+    },
+    "lb_00312": {
+     "cos": 0.2873,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00315": {
+     "cos": 0.234,
+     "rank": 13,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 431,
+   "variant": "FULL",
+   "worst_rank": 16
+  },
+  "frbank:saga:saga_q11:CAT-ABLATED": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00009": {
+     "cos": 0.4661,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00010": {
+     "cos": 0.4083,
+     "rank": 14,
+     "tag": "active"
+    },
+    "lb_00012": {
+     "cos": 0.4258,
+     "rank": 9,
+     "tag": "active"
+    },
+    "lb_00015": {
+     "cos": 0.3802,
+     "rank": 17,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 261,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 17
+  },
+  "frbank:saga:saga_q11:FULL": {
+   "best_rank": 4,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00009": {
+     "cos": 0.4661,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00010": {
+     "cos": 0.4083,
+     "rank": 14,
+     "tag": "active"
+    },
+    "lb_00012": {
+     "cos": 0.4258,
+     "rank": 9,
+     "tag": "active"
+    },
+    "lb_00015": {
+     "cos": 0.3802,
+     "rank": 17,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 431,
+   "variant": "FULL",
+   "worst_rank": 17
+  },
+  "frbank:samuel:samuel_q02:CAT-ABLATED": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00093": {
+     "cos": 0.4464,
+     "rank": 1,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 350,
+   "successor_above_stale": false,
+   "successor_best_rank": 5,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 1
+  },
+  "frbank:samuel:samuel_q02:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 4,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00086": {
+     "cos": 0.4292,
+     "rank": 6,
+     "tag": "superseded"
+    },
+    "lb_00090": {
+     "cos": 0.4356,
+     "rank": 5,
+     "tag": "superseded"
+    },
+    "lb_00093": {
+     "cos": 0.4464,
+     "rank": 3,
+     "tag": "superseded"
+    },
+    "lb_00096": {
+     "cos": 0.4464,
+     "rank": 4,
+     "tag": "superseded"
+    },
+    "lb_00099": {
+     "cos": 0.4638,
+     "rank": 2,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 570,
+   "successor_above_stale": false,
+   "successor_best_rank": 14,
+   "variant": "FULL",
+   "worst_rank": 6
+  },
+  "frbank:samuel:samuel_q02:SLOT-ABLATED": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 4,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00086": {
+     "cos": 0.4292,
+     "rank": 6,
+     "tag": "superseded"
+    },
+    "lb_00090": {
+     "cos": 0.4356,
+     "rank": 5,
+     "tag": "superseded"
+    },
+    "lb_00093": {
+     "cos": 0.4464,
+     "rank": 3,
+     "tag": "superseded"
+    },
+    "lb_00096": {
+     "cos": 0.4464,
+     "rank": 4,
+     "tag": "superseded"
+    },
+    "lb_00099": {
+     "cos": 0.4638,
+     "rank": 2,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 566,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 6
+  },
+  "frbank:samuel:samuel_q04:FULL": {
+   "best_rank": 5,
+   "best_rank_text_dup": 5,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00064": {
+     "cos": 0.1918,
+     "rank": 160,
+     "tag": "active"
+    },
+    "lb_00065": {
+     "cos": 0.2804,
+     "rank": 7,
+     "tag": "active"
+    },
+    "lb_00067": {
+     "cos": 0.2898,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00070": {
+     "cos": 0.2804,
+     "rank": 9,
+     "tag": "active"
+    },
+    "lb_00072": {
+     "cos": 0.2804,
+     "rank": 8,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 570,
+   "variant": "FULL",
+   "worst_rank": 160
+  },
+  "frbank:samuel:samuel_q08:CAT-ABLATED": {
+   "best_rank": 21,
+   "best_rank_text_dup": 21,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00044": {
+     "cos": 0.3706,
+     "rank": 21,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 350,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 21
+  },
+  "frbank:samuel:samuel_q08:FULL": {
+   "best_rank": 22,
+   "best_rank_text_dup": 22,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00044": {
+     "cos": 0.3706,
+     "rank": 22,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 570,
+   "variant": "FULL",
+   "worst_rank": 22
+  },
+  "frbank:samuel:samuel_q12:FULL": {
+   "best_rank": 20,
+   "best_rank_text_dup": 20,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00076": {
+     "cos": 0.1557,
+     "rank": 277,
+     "tag": "active"
+    },
+    "lb_00078": {
+     "cos": 0.27,
+     "rank": 20,
+     "tag": "active"
+    },
+    "lb_00082": {
+     "cos": 0.2061,
+     "rank": 126,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 570,
+   "variant": "FULL",
+   "worst_rank": 277
+  },
+  "frbank:thanh:thanh_q02:CAT-ABLATED": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00120": {
+     "cos": 0.4224,
+     "rank": 1,
+     "tag": "expired"
+    }
+   },
+   "state": "exp",
+   "store_size": 182,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 1
+  },
+  "frbank:thanh:thanh_q02:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00120": {
+     "cos": 0.4224,
+     "rank": 2,
+     "tag": "expired"
+    }
+   },
+   "state": "exp",
+   "store_size": 572,
+   "variant": "FULL",
+   "worst_rank": 2
+  },
+  "frbank:thanh:thanh_q07:FULL": {
+   "best_rank": 23,
+   "best_rank_text_dup": 23,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00345": {
+     "cos": 0.4287,
+     "rank": 23,
+     "tag": "active"
+    },
+    "lb_00352": {
+     "cos": 0.3831,
+     "rank": 74,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 572,
+   "variant": "FULL",
+   "worst_rank": 74
+  },
+  "frbank:thanh:thanh_q11:FULL": {
+   "best_rank": 1,
+   "best_rank_text_dup": 1,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00091": {
+     "cos": 0.6478,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00095": {
+     "cos": 0.6643,
+     "rank": 1,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 572,
+   "variant": "FULL",
+   "worst_rank": 5
+  },
+  "frbank:thanh:thanh_q13:CAT-ABLATED": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 8,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00462": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00468": {
+     "cos": 0.3759,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00469": {
+     "cos": 0.3657,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00470": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00472": {
+     "cos": 0.2791,
+     "rank": 15,
+     "tag": "active"
+    },
+    "lb_00474": {
+     "cos": 0.2094,
+     "rank": 33,
+     "tag": "active"
+    },
+    "lb_00475": {
+     "cos": null,
+     "not_in_store_variant": true,
+     "rank": null,
+     "tag": "active"
+    },
+    "lb_00476": {
+     "cos": 0.2933,
+     "rank": 13,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 182,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 33
+  },
+  "frbank:thanh:thanh_q13:FULL": {
+   "best_rank": 8,
+   "best_rank_text_dup": 8,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 8,
+   "n_licensed_in_store": 8,
+   "records": {
+    "lb_00462": {
+     "cos": 0.4541,
+     "rank": 8,
+     "tag": "active"
+    },
+    "lb_00468": {
+     "cos": 0.3759,
+     "rank": 26,
+     "tag": "active"
+    },
+    "lb_00469": {
+     "cos": 0.3657,
+     "rank": 31,
+     "tag": "active"
+    },
+    "lb_00470": {
+     "cos": 0.2955,
+     "rank": 60,
+     "tag": "active"
+    },
+    "lb_00472": {
+     "cos": 0.2791,
+     "rank": 68,
+     "tag": "active"
+    },
+    "lb_00474": {
+     "cos": 0.2094,
+     "rank": 155,
+     "tag": "active"
+    },
+    "lb_00475": {
+     "cos": 0.3072,
+     "rank": 53,
+     "tag": "active"
+    },
+    "lb_00476": {
+     "cos": 0.2933,
+     "rank": 61,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 572,
+   "variant": "FULL",
+   "worst_rank": 155
+  },
+  "frbank:tom:tom_q04:FULL": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00045": {
+     "cos": 0.2255,
+     "rank": 8,
+     "tag": "active"
+    },
+    "lb_00046": {
+     "cos": 0.2739,
+     "rank": 3,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 432,
+   "variant": "FULL",
+   "worst_rank": 8
+  },
+  "frbank:tom:tom_q06:FULL": {
+   "best_rank": 8,
+   "best_rank_text_dup": 8,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00143": {
+     "cos": 0.2377,
+     "rank": 55,
+     "tag": "active"
+    },
+    "lb_00148": {
+     "cos": 0.2957,
+     "rank": 12,
+     "tag": "retracted"
+    },
+    "lb_00151": {
+     "cos": 0.2999,
+     "rank": 10,
+     "tag": "active"
+    },
+    "lb_00160": {
+     "cos": 0.2767,
+     "rank": 25,
+     "tag": "active"
+    },
+    "lb_00163": {
+     "cos": 0.301,
+     "rank": 8,
+     "tag": "retracted"
+    }
+   },
+   "state": "ret",
+   "store_size": 432,
+   "successor_above_stale": true,
+   "successor_best_rank": 7,
+   "variant": "FULL",
+   "worst_rank": 55
+  },
+  "frbank:tom:tom_q06:SLOT-ABLATED": {
+   "best_rank": 6,
+   "best_rank_text_dup": 6,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00143": {
+     "cos": 0.2377,
+     "rank": 51,
+     "tag": "active"
+    },
+    "lb_00148": {
+     "cos": 0.2957,
+     "rank": 10,
+     "tag": "retracted"
+    },
+    "lb_00151": {
+     "cos": 0.2999,
+     "rank": 8,
+     "tag": "active"
+    },
+    "lb_00160": {
+     "cos": 0.2767,
+     "rank": 21,
+     "tag": "active"
+    },
+    "lb_00163": {
+     "cos": 0.301,
+     "rank": 6,
+     "tag": "retracted"
+    }
+   },
+   "state": "ret",
+   "store_size": 428,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 51
+  },
+  "frbank:tom:tom_q08:FULL": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT",
+   "n_in_top5": 2,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00023": {
+     "cos": 0.3592,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00027": {
+     "cos": 0.3656,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00031": {
+     "cos": 0.3656,
+     "rank": 5,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 432,
+   "variant": "FULL",
+   "worst_rank": 6
+  },
+  "frbank:tom:tom_q09:CAT-ABLATED": {
+   "best_rank": 20,
+   "best_rank_text_dup": 20,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00014": {
+     "cos": 0.2682,
+     "rank": 21,
+     "tag": "active"
+    },
+    "lb_00017": {
+     "cos": 0.2682,
+     "rank": 22,
+     "tag": "active"
+    },
+    "lb_00025": {
+     "cos": 0.2682,
+     "rank": 20,
+     "tag": "active"
+    },
+    "lb_00029": {
+     "cos": 0.2682,
+     "rank": 23,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 290,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 23
+  },
+  "frbank:tom:tom_q09:FULL": {
+   "best_rank": 30,
+   "best_rank_text_dup": 30,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00014": {
+     "cos": 0.2682,
+     "rank": 30,
+     "tag": "active"
+    },
+    "lb_00017": {
+     "cos": 0.2682,
+     "rank": 33,
+     "tag": "active"
+    },
+    "lb_00025": {
+     "cos": 0.2682,
+     "rank": 31,
+     "tag": "active"
+    },
+    "lb_00029": {
+     "cos": 0.2682,
+     "rank": 32,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 432,
+   "variant": "FULL",
+   "worst_rank": 33
+  },
+  "frbank:tom:tom_q11:CAT-ABLATED": {
+   "best_rank": 15,
+   "best_rank_text_dup": 15,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00055": {
+     "cos": 0.2486,
+     "rank": 16,
+     "tag": "active"
+    },
+    "lb_00061": {
+     "cos": 0.2486,
+     "rank": 15,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 290,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 16
+  },
+  "frbank:tom:tom_q11:FULL": {
+   "best_rank": 15,
+   "best_rank_text_dup": 15,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00055": {
+     "cos": 0.2486,
+     "rank": 15,
+     "tag": "active"
+    },
+    "lb_00061": {
+     "cos": 0.2486,
+     "rank": 16,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 432,
+   "variant": "FULL",
+   "worst_rank": 16
+  },
+  "frbank:valentina:valentina_q03:FULL": {
+   "best_rank": 11,
+   "best_rank_text_dup": 11,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00087": {
+     "cos": 0.357,
+     "rank": 13,
+     "tag": "superseded"
+    },
+    "lb_00101": {
+     "cos": 0.3646,
+     "rank": 11,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 386,
+   "successor_above_stale": true,
+   "successor_best_rank": 10,
+   "variant": "FULL",
+   "worst_rank": 13
+  },
+  "frbank:valentina:valentina_q03:SLOT-ABLATED": {
+   "best_rank": 10,
+   "best_rank_text_dup": 10,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00087": {
+     "cos": 0.357,
+     "rank": 11,
+     "tag": "superseded"
+    },
+    "lb_00101": {
+     "cos": 0.3646,
+     "rank": 10,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 381,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 11
+  },
+  "frbank:valentina:valentina_q04:FULL": {
+   "best_rank": 5,
+   "best_rank_text_dup": 5,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 1,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00115": {
+     "cos": 0.3805,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00117": {
+     "cos": 0.3787,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00120": {
+     "cos": 0.36,
+     "rank": 7,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 386,
+   "successor_above_stale": true,
+   "successor_best_rank": 1,
+   "variant": "FULL",
+   "worst_rank": 7
+  },
+  "frbank:valentina:valentina_q04:SLOT-ABLATED": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 3,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00115": {
+     "cos": 0.3805,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00117": {
+     "cos": 0.3787,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00120": {
+     "cos": 0.36,
+     "rank": 4,
+     "tag": "active"
+    }
+   },
+   "state": "ret",
+   "store_size": 380,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 4
+  },
+  "frbank:valentina:valentina_q05:FULL": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00046": {
+     "cos": 0.1961,
+     "rank": 79,
+     "tag": "active"
+    },
+    "lb_00047": {
+     "cos": 0.3373,
+     "rank": 3,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 386,
+   "variant": "FULL",
+   "worst_rank": 79
+  },
+  "frbank:valentina:valentina_q07:CAT-ABLATED": {
+   "best_rank": 5,
+   "best_rank_text_dup": 5,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00035": {
+     "cos": 0.3998,
+     "rank": 13,
+     "tag": "active"
+    },
+    "lb_00036": {
+     "cos": 0.4587,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00041": {
+     "cos": 0.4366,
+     "rank": 7,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 198,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 13
+  },
+  "frbank:valentina:valentina_q07:FULL": {
+   "best_rank": 5,
+   "best_rank_text_dup": 5,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00035": {
+     "cos": 0.3998,
+     "rank": 13,
+     "tag": "active"
+    },
+    "lb_00036": {
+     "cos": 0.4587,
+     "rank": 5,
+     "tag": "active"
+    },
+    "lb_00041": {
+     "cos": 0.4366,
+     "rank": 7,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 386,
+   "variant": "FULL",
+   "worst_rank": 13
+  },
+  "frbank:valentina:valentina_q08:FULL": {
+   "best_rank": 36,
+   "best_rank_text_dup": 36,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00282": {
+     "cos": 0.3175,
+     "rank": 90,
+     "tag": "active"
+    },
+    "lb_00283": {
+     "cos": 0.3832,
+     "rank": 36,
+     "tag": "active"
+    },
+    "lb_00291": {
+     "cos": 0.3118,
+     "rank": 94,
+     "tag": "active"
+    },
+    "lb_00293": {
+     "cos": 0.3183,
+     "rank": 87,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 386,
+   "variant": "FULL",
+   "worst_rank": 94
+  },
+  "frbank:valentina:valentina_q11:FULL": {
+   "best_rank": 57,
+   "best_rank_text_dup": 57,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00004": {
+     "cos": 0.2637,
+     "rank": 57,
+     "tag": "active"
+    },
+    "lb_00008": {
+     "cos": 0.2454,
+     "rank": 81,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 386,
+   "variant": "FULL",
+   "worst_rank": 81
+  },
+  "frbank:valentina:valentina_q13:CAT-ABLATED": {
+   "label": "PRESENT",
+   "n_licensed": 0,
+   "state": "-",
+   "variant": "CAT-ABLATED"
+  },
+  "frbank:valentina:valentina_q13:FULL": {
+   "label": "PRESENT",
+   "n_licensed": 0,
+   "state": "-",
+   "variant": "FULL"
+  },
+  "frbank:yoli:yoli_q05:FULL": {
+   "best_rank": 4,
+   "best_rank_text_dup": 4,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 1,
+   "n_licensed_in_store": 1,
+   "records": {
+    "lb_00051": {
+     "cos": 0.2876,
+     "rank": 4,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 452,
+   "variant": "FULL",
+   "worst_rank": 4
+  },
+  "frbank:yoli:yoli_q06:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT",
+   "n_in_top5": 1,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00376": {
+     "cos": 0.282,
+     "rank": 13,
+     "tag": "active"
+    },
+    "lb_00377": {
+     "cos": 0.2806,
+     "rank": 14,
+     "tag": "active"
+    },
+    "lb_00378": {
+     "cos": 0.2556,
+     "rank": 24,
+     "tag": "active"
+    },
+    "lb_00379": {
+     "cos": 0.2264,
+     "rank": 35,
+     "tag": "active"
+    },
+    "lb_00387": {
+     "cos": 0.3703,
+     "rank": 2,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 452,
+   "variant": "FULL",
+   "worst_rank": 35
+  },
+  "frbank:yoli:yoli_q07:FULL": {
+   "best_rank": 6,
+   "best_rank_text_dup": 6,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 3,
+   "n_licensed_in_store": 3,
+   "records": {
+    "lb_00284": {
+     "cos": 0.2166,
+     "rank": 154,
+     "tag": "active"
+    },
+    "lb_00293": {
+     "cos": 0.3574,
+     "rank": 6,
+     "tag": "active"
+    },
+    "lb_00300": {
+     "cos": 0.3469,
+     "rank": 7,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 452,
+   "variant": "FULL",
+   "worst_rank": 154
+  },
+  "frbank:yoli:yoli_q08:FULL": {
+   "best_rank": 11,
+   "best_rank_text_dup": 11,
+   "label": "PRESENT",
+   "n_in_top5": 0,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00020": {
+     "cos": 0.2275,
+     "rank": 13,
+     "tag": "active"
+    },
+    "lb_00024": {
+     "cos": 0.2283,
+     "rank": 11,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 452,
+   "variant": "FULL",
+   "worst_rank": 13
+  },
+  "frbank:zara:zara_q02:CAT-ABLATED": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 2,
+   "n_licensed": 2,
+   "n_licensed_in_store": 2,
+   "records": {
+    "lb_00085": {
+     "cos": 0.3659,
+     "rank": 4,
+     "tag": "superseded"
+    },
+    "lb_00096": {
+     "cos": 0.3925,
+     "rank": 3,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 222,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "CAT-ABLATED",
+   "worst_rank": 4
+  },
+  "frbank:zara:zara_q02:FULL": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 3,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00079": {
+     "cos": 0.3805,
+     "rank": 5,
+     "tag": "superseded"
+    },
+    "lb_00085": {
+     "cos": 0.3659,
+     "rank": 6,
+     "tag": "superseded"
+    },
+    "lb_00090": {
+     "cos": 0.3925,
+     "rank": 4,
+     "tag": "superseded"
+    },
+    "lb_00096": {
+     "cos": 0.3925,
+     "rank": 3,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 423,
+   "successor_above_stale": false,
+   "successor_best_rank": 8,
+   "variant": "FULL",
+   "worst_rank": 6
+  },
+  "frbank:zara:zara_q02:SLOT-ABLATED": {
+   "best_rank": 3,
+   "best_rank_text_dup": 3,
+   "label": "PRESENT-NEGATIVE",
+   "n_in_top5": 3,
+   "n_licensed": 4,
+   "n_licensed_in_store": 4,
+   "records": {
+    "lb_00079": {
+     "cos": 0.3805,
+     "rank": 5,
+     "tag": "superseded"
+    },
+    "lb_00085": {
+     "cos": 0.3659,
+     "rank": 6,
+     "tag": "superseded"
+    },
+    "lb_00090": {
+     "cos": 0.3925,
+     "rank": 3,
+     "tag": "superseded"
+    },
+    "lb_00096": {
+     "cos": 0.3925,
+     "rank": 4,
+     "tag": "superseded"
+    }
+   },
+   "state": "sup",
+   "store_size": 418,
+   "successor_above_stale": null,
+   "successor_best_rank": null,
+   "variant": "SLOT-ABLATED",
+   "worst_rank": 6
+  },
+  "frbank:zara:zara_q05:FULL": {
+   "best_rank": 2,
+   "best_rank_text_dup": 2,
+   "label": "PRESENT",
+   "n_in_top5": 3,
+   "n_licensed": 5,
+   "n_licensed_in_store": 5,
+   "records": {
+    "lb_00033": {
+     "cos": 0.5753,
+     "rank": 3,
+     "tag": "active"
+    },
+    "lb_00036": {
+     "cos": 0.5747,
+     "rank": 4,
+     "tag": "active"
+    },
+    "lb_00042": {
+     "cos": 0.5817,
+     "rank": 2,
+     "tag": "active"
+    },
+    "lb_00043": {
+     "cos": 0.497,
+     "rank": 9,
+     "tag": "active"
+    },
+    "lb_00047": {
+     "cos": 0.4705,
+     "rank": 12,
+     "tag": "active"
+    }
+   },
+   "state": "-",
+   "store_size": 423,
+   "variant": "FULL",
+   "worst_rank": 12
+  },
+  "frbank:zara:zara_q13:CAT-ABLATED": {
+   "label": "PRESENT",
+   "n_licensed": 0,
+   "state": "-",
+   "variant": "CAT-ABLATED"
+  },
+  "frbank:zara:zara_q13:FULL": {
+   "label": "PRESENT",
+   "n_licensed": 0,
+   "state": "-",
+   "variant": "FULL"
+  }
+ },
+ "pooled_ranks": {
+  "PRESENT": {
+   "hist": {
+    "1-5": 114,
+    "11-20": 82,
+    "21-50": 86,
+    "6-10": 82,
+    ">50": 166
+   },
+   "max": 491.0,
+   "mean": 56.3094,
+   "median": 17.5,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 530,
+   "q25": 7.0,
+   "q75": 69.0,
+   "share_gt10": 0.6302,
+   "share_le10": 0.3698,
+   "share_le5": 0.2151
+  },
+  "PRESENT-NEGATIVE": {
+   "hist": {
+    "1-5": 99,
+    "11-20": 51,
+    "21-50": 42,
+    "6-10": 68,
+    ">50": 21
+   },
+   "max": 209.0,
+   "mean": 16.8577,
+   "median": 8.0,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 281,
+   "q25": 4.0,
+   "q75": 18.0,
+   "share_gt10": 0.4057,
+   "share_le10": 0.5943,
+   "share_le5": 0.3523
+  },
+  "PRESENT-NEGATIVE|CAT-ABLATED": {
+   "hist": {
+    "1-5": 20,
+    "11-20": 8,
+    "21-50": 11,
+    "6-10": 10,
+    ">50": 5
+   },
+   "max": 111.0,
+   "mean": 17.963,
+   "median": 8.0,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 54,
+   "q25": 4.0,
+   "q75": 25.0,
+   "share_gt10": 0.4444,
+   "share_le10": 0.5556,
+   "share_le5": 0.3704
+  },
+  "PRESENT-NEGATIVE|FULL": {
+   "hist": {
+    "1-5": 45,
+    "11-20": 30,
+    "21-50": 17,
+    "6-10": 29,
+    ">50": 10
+   },
+   "max": 209.0,
+   "mean": 17.1679,
+   "median": 8.0,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 131,
+   "q25": 4.0,
+   "q75": 17.5,
+   "share_gt10": 0.4351,
+   "share_le10": 0.5649,
+   "share_le5": 0.3435
+  },
+  "PRESENT-NEGATIVE|SLOT-ABLATED": {
+   "hist": {
+    "1-5": 34,
+    "11-20": 13,
+    "21-50": 14,
+    "6-10": 29,
+    ">50": 6
+   },
+   "max": 206.0,
+   "mean": 15.8125,
+   "median": 7.5,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 96,
+   "q25": 4.0,
+   "q75": 17.25,
+   "share_gt10": 0.3438,
+   "share_le10": 0.6562,
+   "share_le5": 0.3542
+  },
+  "PRESENT-NEGATIVE|exp": {
+   "hist": {
+    "1-5": 21,
+    "11-20": 1,
+    "21-50": 7,
+    "6-10": 3,
+    ">50": 5
+   },
+   "max": 125.0,
+   "mean": 19.9459,
+   "median": 3.0,
+   "median_gt5": false,
+   "min": 1.0,
+   "n": 37,
+   "q25": 2.0,
+   "q75": 35.0,
+   "share_gt10": 0.3514,
+   "share_le10": 0.6486,
+   "share_le5": 0.5676
+  },
+  "PRESENT-NEGATIVE|ret": {
+   "hist": {
+    "1-5": 42,
+    "11-20": 10,
+    "21-50": 6,
+    "6-10": 30,
+    ">50": 5
+   },
+   "max": 145.0,
+   "mean": 12.4409,
+   "median": 6.0,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 93,
+   "q25": 3.0,
+   "q75": 10.0,
+   "share_gt10": 0.2258,
+   "share_le10": 0.7742,
+   "share_le5": 0.4516
+  },
+  "PRESENT-NEGATIVE|sup": {
+   "hist": {
+    "1-5": 36,
+    "11-20": 40,
+    "21-50": 29,
+    "6-10": 35,
+    ">50": 11
+   },
+   "max": 209.0,
+   "mean": 18.8212,
+   "median": 11.0,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 151,
+   "q25": 6.0,
+   "q75": 21.0,
+   "share_gt10": 0.5298,
+   "share_le10": 0.4702,
+   "share_le5": 0.2384
+  },
+  "PRESENT|-": {
+   "hist": {
+    "1-5": 114,
+    "11-20": 82,
+    "21-50": 86,
+    "6-10": 82,
+    ">50": 166
+   },
+   "max": 491.0,
+   "mean": 56.3094,
+   "median": 17.5,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 530,
+   "q25": 7.0,
+   "q75": 69.0,
+   "share_gt10": 0.6302,
+   "share_le10": 0.3698,
+   "share_le5": 0.2151
+  },
+  "PRESENT|CAT-ABLATED": {
+   "hist": {
+    "1-5": 23,
+    "11-20": 18,
+    "21-50": 26,
+    "6-10": 20,
+    ">50": 19
+   },
+   "max": 261.0,
+   "mean": 37.0094,
+   "median": 15.0,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 106,
+   "q25": 6.0,
+   "q75": 35.25,
+   "share_gt10": 0.5943,
+   "share_le10": 0.4057,
+   "share_le5": 0.217
+  },
+  "PRESENT|FULL": {
+   "hist": {
+    "1-5": 91,
+    "11-20": 64,
+    "21-50": 60,
+    "6-10": 62,
+    ">50": 147
+   },
+   "max": 491.0,
+   "mean": 61.1344,
+   "median": 19.5,
+   "median_gt5": true,
+   "min": 1.0,
+   "n": 424,
+   "q25": 7.0,
+   "q75": 76.25,
+   "share_gt10": 0.6392,
+   "share_le10": 0.3608,
+   "share_le5": 0.2146
+  }
+ },
+ "sanity": {
+  "pn_share_le5_equals_54_of_104": {
+   "k": 54,
+   "n": 104
+  },
+  "present_share_le5_equals_65_of_164": {
+   "k": 65,
+   "n": 164
+  }
+ },
+ "successor_above_stale": {
+  "ret": {
+   "k": 3,
+   "n": 12,
+   "rate": 0.25,
+   "wilson": [
+    0.0889,
+    0.5323
+   ]
+  },
+  "sup": {
+   "k": 14,
+   "n": 36,
+   "rate": 0.3889,
+   "wilson": [
+    0.2478,
+    0.5514
+   ]
+  }
+ }
+}

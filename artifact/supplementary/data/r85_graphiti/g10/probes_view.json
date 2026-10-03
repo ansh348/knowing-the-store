@@ -1,0 +1,50 @@
+{
+ "G10-VIEW-UNTAGGED": {
+  "item_id": "frbank:aisha:aisha_q01:FULL",
+  "served": "gpt-4.1-mini-2025-04-14",
+  "identifier_ok": true,
+  "tok_in": 749,
+  "tok_out": 24,
+  "usd": 0.00033800000000000003,
+  "user_chars": 1079,
+  "status": "OK",
+  "sample": "{\"fok\":90, \"nok_candidates_found\":false, \"nok\":5, \"would_search\":false}",
+  "when": "2026-09-17T01:01:37"
+ },
+ "G10-VIEW-TAGGED": {
+  "item_id": "frbank:aisha:aisha_q01:FULL",
+  "served": "gpt-4.1-mini-2025-04-14",
+  "identifier_ok": true,
+  "tok_in": 772,
+  "tok_out": 26,
+  "usd": 0.0003504,
+  "user_chars": 1196,
+  "status": "OK",
+  "sample": "{\"fok\": 90, \"nok_candidates_found\": true, \"nok\": 80, \"would_search\": false}",
+  "when": "2026-09-17T01:01:39"
+ },
+ "G10-HYBRID": {
+  "item_id": "frbank:aisha:aisha_q01:FULL",
+  "served": "gpt-4.1-mini-2025-04-14",
+  "identifier_ok": true,
+  "tok_in": 1146,
+  "tok_out": 21,
+  "usd": 0.000492,
+  "user_chars": 2728,
+  "status": "OK",
+  "sample": "{\"fok\":85,\"nok_candidates_found\":true,\"nok\":80,\"would_search\":true}",
+  "when": "2026-09-17T01:01:40"
+ },
+ "FRB-VIEW-UNTAGGED": {
+  "item_id": "frbank:aisha:aisha_q01:FULL",
+  "served": "gpt-4.1-mini-2025-04-14",
+  "identifier_ok": true,
+  "tok_in": 729,
+  "tok_out": 24,
+  "usd": 0.00033000000000000005,
+  "user_chars": 942,
+  "status": "OK",
+  "sample": "{\"fok\":90, \"nok_candidates_found\":true, \"nok\":70, \"would_search\":false}",
+  "when": "2026-09-17T01:01:42"
+ }
+}

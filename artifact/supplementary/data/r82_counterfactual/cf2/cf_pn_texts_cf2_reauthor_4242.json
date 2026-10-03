@@ -1,0 +1,1820 @@
+{
+  "meta": {
+    "deviation": "D-CF2-3",
+    "embed_tokens": 51,
+    "n": 50,
+    "no_api_calls": false,
+    "prompt_sha256": "3b5c9c236b6783e2f306bd80ace8fb3b67311bd5643cbe8b20cc7eaf6d796c5a",
+    "retries": 0,
+    "seed": 4242,
+    "tokens_in": 16257,
+    "tokens_out": 1202,
+    "usd": 0.008428
+  },
+  "records": [
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00118",
+      "first": {
+        "attempts": 1,
+        "new_text": "User has cancelled the strategy to launch the software on GitHub and JitPack, opting not to postpone Maven Central deployment for API finalization.",
+        "predicates": {
+          "cosine_to_original": 0.7144,
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 9,
+          "write_path_deactivates_original": false
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User plans to release the project initially on GitHub and possibly JitPack, delaying Maven Central publishing until API stabilization.",
+      "pair_id": "cf2:alex:project_release_strategy",
+      "persona": "alex",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User has cancelled the strategy to launch the software on GitHub and JitPack, opting not to postpone Maven Central deployment for API finalization.",
+        "predicates": {
+          "cosine_to_original": 0.7144,
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 9,
+          "write_path_deactivates_original": false
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "project_release_strategy",
+      "state": "RETRACTION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00071",
+      "first": {
+        "attempts": 1,
+        "new_text": "User is proud of their professional achievements and how they have advanced beyond the opportunities available to their relatives in Moss Side.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 8
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User feels grateful for their current career progress compared to their family's start in Moss Side",
+      "pair_id": "cf2:aisha:career_progress",
+      "persona": "aisha",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User appreciates the significant advancements they have achieved professionally relative to their relatives' beginnings in a small urban neighborhood.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 11,
+          "n_discr_old": 10
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "career_progress",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00057",
+      "first": {
+        "attempts": 1,
+        "new_text": "User experiences significant stress due to pressure from relatives to fulfill leadership responsibilities among siblings.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 11,
+          "n_discr_old": 7
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User feels emotionally burdened by family expectations as the eldest sibling.",
+      "pair_id": "cf2:aisha:emotional_state:family_expectations",
+      "persona": "aisha",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User experiences significant pressure to fulfill leadership responsibilities within their family dynamic.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 6
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "emotional_state:family_expectations",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00088",
+      "first": {
+        "attempts": 1,
+        "new_text": "User is currently prescribed oral iron supplements to manage anemia symptoms.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 7,
+          "n_discr_old": 6
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User takes ferrous sulfate tablets daily for iron deficiency",
+      "pair_id": "cf2:aisha:medication:ferrous_sulfate",
+      "persona": "aisha",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User is currently prescribed oral iron supplements to manage anemia symptoms.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 7,
+          "n_discr_old": 6
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "medication:ferrous_sulfate",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00002",
+      "first": {
+        "attempts": 1,
+        "new_text": "User's startup is currently in the seed funding phase and has a team of approximately 12 staff members.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 5
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User's company is at Series A funding stage with about 30 employees.",
+      "pair_id": "cf2:alex:company_stage",
+      "persona": "alex",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User's startup has progressed to the Seed funding round and currently employs around 15 staff members.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 5
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "company_stage",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00046",
+      "first": {
+        "attempts": 1,
+        "new_text": "User prioritizes engaging in creative hobbies and self-expression activities during leisure moments.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 7
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User values having personal time away from parenting duties.",
+      "pair_id": "cf2:aroha:personal_time_value",
+      "persona": "aroha",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User prioritizes engaging in creative hobbies and self-expression activities during leisure moments.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 7
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "personal_time_value",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00011",
+      "first": {
+        "attempts": 1,
+        "new_text": "User adopts a friendly and approachable demeanor with clients, focusing on building rapport and ease.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 7
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User is warm and personable with patients, aiming to create trust and comfort",
+      "pair_id": "cf2:bruna:professional_style",
+      "persona": "bruna",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User adopts a friendly and approachable demeanor with clients, focusing on building rapport and ease.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 7
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "professional_style",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00057",
+      "first": {
+        "attempts": 1,
+        "new_text": "User prefers deep conversations focusing on philosophy and technology rather than casual chit-chat.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 6
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User is not good at small talk and tends to talk about sheep and the weather",
+      "pair_id": "cf2:callum:communication_style",
+      "persona": "callum",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User prefers deep conversations focusing on philosophy and technology rather than casual chit-chat.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 6
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "communication_style",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00062",
+      "first": {
+        "attempts": 1,
+        "new_text": "User values openness about their medical issues and finds that many Scottish individuals are comfortable discussing health topics openly.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 11,
+          "n_discr_old": 9
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User prefers to keep their health condition private from most people and appreciates that Scottish people generally do not ask about personal health.",
+      "pair_id": "cf2:callum:privacy_preference:health_condition",
+      "persona": "callum",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User values openness about their medical issues and finds that many Scottish individuals are comfortable discussing health topics openly.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 11,
+          "n_discr_old": 9
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "privacy_preference:health_condition",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00007",
+      "first": {
+        "attempts": 1,
+        "new_text": "User is dedicated to promoting environmental sustainability and conservation efforts within their community.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 6
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User is committed to advocating for better healthcare access for their people",
+      "pair_id": "cf2:chenoa:personal_commitment",
+      "persona": "chenoa",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User is dedicated to promoting environmental sustainability and conservation efforts within their community.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 6
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "personal_commitment",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00031",
+      "first": {
+        "attempts": 1,
+        "new_text": "User believes that managing long-term illnesses effectively requires a combination of lifestyle adjustments, mental health support, and personalized care plans.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 16,
+          "n_discr_old": 7
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User has a nuanced perspective on healing chronic conditions beyond just medication.",
+      "pair_id": "cf2:chenoa:perspective:chronic_condition_management",
+      "persona": "chenoa",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User believes that managing long-term illnesses effectively requires a combination of lifestyle adjustments, mental health support, and personalized treatment plans.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 16,
+          "n_discr_old": 7
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "perspective:chronic_condition_management",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00023",
+      "first": {
+        "attempts": 1,
+        "new_text": "User's residence contains a diverse collection of novels and serves as a community reading hub.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 8
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User's house has many books and functions like an unofficial library branch",
+      "pair_id": "cf2:david:living_arrangement",
+      "persona": "david",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User's residence contains a diverse collection of novels and serves as a community reading spot.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 8
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "living_arrangement",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00025",
+      "first": {
+        "attempts": 1,
+        "new_text": "User prefers narrative nonfiction focusing on scientific discoveries and cultural histories outside of Western contexts.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 7
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User is looking for good narrative nonfiction that is neither European nor traditionally political.",
+      "pair_id": "cf2:david:reading_preferences_narrative_nonfiction",
+      "persona": "david",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User prefers narrative nonfiction focusing on scientific discoveries and environmental issues, avoiding European settings and political themes.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 5
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "reading_preferences_narrative_nonfiction",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00007",
+      "first": {
+        "attempts": 1,
+        "new_text": "User appreciates the tranquility of ocean waves, enjoying their steady rhythm independent of daily human concerns.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 8
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User finds comfort in nature's indifference, such as rhododendrons blooming regardless of human events",
+      "pair_id": "cf2:diane:preference:nature_comfort",
+      "persona": "diane",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User appreciates the tranquility of ocean waves, enjoying their steady rhythm independent of daily human concerns.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 8
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "preference:nature_comfort",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00028",
+      "first": {
+        "attempts": 1,
+        "new_text": "User maintains a clear division between work and private activities by using distinct devices, accounts, and communication channels for each domain.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 15,
+          "n_discr_old": 10
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User is strict about separating personal and professional life, including separate phones, machines, and networks.",
+      "pair_id": "cf2:dmitri:boundary_between_personal_and_professional",
+      "persona": "dmitri",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User maintains a clear division between work and private activities by using distinct devices, accounts, and communication channels for each domain.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 15,
+          "n_discr_old": 10
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "boundary_between_personal_and_professional",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00033",
+      "first": {
+        "attempts": 1,
+        "new_text": "User prefers to display their authentic full name in all professional and public communications.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 5
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User does not use their real name for anything client facing",
+      "pair_id": "cf2:dmitri:client_facing_name_usage",
+      "persona": "dmitri",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User prefers to display their authentic full name in all professional and public communications.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 5
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "client_facing_name_usage",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00056",
+      "first": {
+        "attempts": 1,
+        "new_text": "User struggles with persistent insomnia causing difficulty falling asleep during nighttime hours.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 6
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User experiences racing thoughts at night that prevent sleep.",
+      "pair_id": "cf2:elena:health_condition:racing_thoughts",
+      "persona": "elena",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User struggles with persistent insomnia that disrupts nighttime rest and causes fatigue.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 6
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "health_condition:racing_thoughts",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00067",
+      "first": {
+        "attempts": 1,
+        "new_text": "User experiences significant anxiety related to professional responsibilities, particularly involving adult patient care, which affects their personal life.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 15,
+          "n_discr_old": 10
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User carries emotional stress from work shifts home, including concern for pediatric patients.",
+      "pair_id": "cf2:elena:work_stress_carryover",
+      "persona": "elena",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User experiences significant anxiety related to professional responsibilities, particularly involving adult patient care, which affects their personal relaxation time.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 16,
+          "n_discr_old": 10
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "work_stress_carryover",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00010",
+      "first": {
+        "attempts": 1,
+        "new_text": "User's mental performance and efficiency fluctuate according to seasonal variations in polar illumination, with focus improving during extended daylight periods in summer.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 15,
+          "n_discr_old": 9
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User's cognition and productivity are influenced by Arctic light cycles, with cognition declining as daylight disappears in November",
+      "pair_id": "cf2:ingrid:cognition_influence:Arctic_light",
+      "persona": "ingrid",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User's mental performance and efficiency fluctuate according to seasonal variations in polar illumination, experiencing improvement during extended daylight periods in summer.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 15,
+          "n_discr_old": 9
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "cognition_influence:Arctic_light",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00068",
+      "first": {
+        "attempts": 1,
+        "new_text": "User occasionally experiences vivid recollections of the hurricane, wind, debris, and rain during early morning walks.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 12,
+          "n_discr_old": 9
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User sometimes has flashbacks of the earthquake, dust, sound, and water while driving at night.",
+      "pair_id": "cf2:jerome:health_condition:ptsd_flashbacks",
+      "persona": "jerome",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User occasionally experiences vivid recollections of the flood, debris, noise, and tremors during evening walks.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 11,
+          "n_discr_old": 9
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "health_condition:ptsd_flashbacks",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00074",
+      "first": {
+        "attempts": 1,
+        "new_text": "User suffers from frequent vivid nightmares connected to a past flood and subsequent evacuation, particularly during stressful situations at work.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 14,
+          "n_discr_old": 12
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User experiences occasional traumatic flashbacks related to the earthquake and boat journey, especially when driving at night.",
+      "pair_id": "cf2:jerome:health_condition:trauma_flashbacks",
+      "persona": "jerome",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User suffers from frequent vivid nightmares connected to a past car accident and subsequent hospital stay, particularly during stressful workdays.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 15,
+          "n_discr_old": 12
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "health_condition:trauma_flashbacks",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00066",
+      "first": {
+        "attempts": 1,
+        "new_text": "User experiences a strong desire to explore new environments after spending several consecutive days indoors, prompting frequent outings to varied locations.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 16,
+          "n_discr_old": 9
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User has felt restless if staying in their apartment for more than 3 days and feels the need to go somewhere.",
+      "pair_id": "cf2:jerome:restlessness_pattern",
+      "persona": "jerome",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User experiences a strong desire to explore new environments after spending several consecutive days indoors, prompting frequent outings to varied locations.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 16,
+          "n_discr_old": 9
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "restlessness_pattern",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00078",
+      "first": {
+        "attempts": 1,
+        "new_text": "User experiences increased fatigue likely influenced by chronic illness and lifestyle factors.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 8
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User feels more tired than before, possibly due to age and repeated malaria",
+      "pair_id": "cf2:kofi:health_condition:tiredness",
+      "persona": "kofi",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User experiences increased fatigue likely influenced by chronic illness and lifestyle factors.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 8
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "health_condition:tiredness",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00070",
+      "first": {
+        "attempts": 1,
+        "new_text": "User frequently rests inside the barn throughout the threshing season while exposed to numerous biting insects without any protective barriers.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 14,
+          "n_discr_old": 8
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User falls asleep in the drying shed during harvest without a mosquito net.",
+      "pair_id": "cf2:kofi:health_risk:malaria_exposure",
+      "persona": "kofi",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User frequently rests inside the barn throughout the threshing period while exposed to numerous biting insects without protective barriers.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 14,
+          "n_discr_old": 8
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "health_risk:malaria_exposure",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00056",
+      "first": {
+        "attempts": 1,
+        "new_text": "User applies medicated ointments regularly to control eczema symptoms, which they purchase from a local pharmacy.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 8
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User uses cotton gloves as part of eczema management, which their mother buys in bulk.",
+      "pair_id": "cf2:lily:health_management:eczema_cotton_gloves",
+      "persona": "lily",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User applies medicated ointments regularly to control eczema symptoms, which they purchase from a local pharmacy.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 8
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "health_management:eczema_cotton_gloves",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00045",
+      "first": {
+        "attempts": 1,
+        "new_text": "User prefers modern hair styling techniques incorporating electric clippers and innovative grooming tools over classic shaving methods.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 13,
+          "n_discr_old": 9
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User values traditional barbering craft using straight razor and scissors, rejecting electric clippers.",
+      "pair_id": "cf2:mehmet:barbering_method_preference",
+      "persona": "mehmet",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User prefers modern hair styling techniques incorporating electric clippers and innovative grooming tools over classic shaving methods.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 13,
+          "n_discr_old": 9
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "barbering_method_preference",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00020",
+      "first": {
+        "attempts": 1,
+        "new_text": "User provides complimentary coffee to visitors as a traditional greeting in the café.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 7,
+          "n_discr_old": 6
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User offers tea to customers as a customary welcome in the shop.",
+      "pair_id": "cf2:mehmet:custom:tea_offered",
+      "persona": "mehmet",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User provides complimentary coffee to visitors as a traditional greeting in the café.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 7,
+          "n_discr_old": 6
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "custom:tea_offered",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00042",
+      "first": {
+        "attempts": 1,
+        "new_text": "User favors modern hairstyling tools and exclusively utilizes electric clippers in his salon.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 7,
+          "n_discr_old": 7
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User prefers traditional barbering methods and refuses to use electric clippers in his shop.",
+      "pair_id": "cf2:mehmet:shop_equipment_preference",
+      "persona": "mehmet",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User favors modern hairstyling tools and exclusively utilizes electric clippers in his salon.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 7,
+          "n_discr_old": 7
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "shop_equipment_preference",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00052",
+      "first": {
+        "attempts": 1,
+        "new_text": "User is exploring ancestral narratives, traditional rituals, and spiritual connections that link the Yolngu community to their land and heritage through guidance from family and community leaders.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 15,
+          "n_discr_old": 11
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User has been learning from their aunties and elders about djalkiri, the songlines, ceremony, and foundational knowledge connecting Yolngu people to their wanga.",
+      "pair_id": "cf2:mirri:cultural_learning",
+      "persona": "mirri",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User has been exploring Yolngu traditions through discussions with community leaders, focusing on ancestral stories, ritual practices, and the spiritual significance of their land.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 14,
+          "n_discr_old": 11
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "cultural_learning",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00057",
+      "first": {
+        "attempts": 1,
+        "new_text": "User now gains insights into their heritage through conversations with community historians and cultural mentors.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 5
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User continues to learn from their aunties and elders about their cultural knowledge.",
+      "pair_id": "cf2:mirri:learning_source:aunties_and_elders",
+      "persona": "mirri",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User now gains insights into their heritage through conversations with community historians and cultural mentors.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 5
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "learning_source:aunties_and_elders",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00055",
+      "first": {
+        "attempts": 1,
+        "new_text": "User serves as the cultural custodian for their community, entrusted with preserving ancestral stories, traditional rituals, and the spiritual heritage that links their people to the land.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 14,
+          "n_discr_old": 13
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User is a knowledge keeper for their clan, chosen by their elders to carry djalkiri, the songlines, ceremony, and foundational knowledge that connect Yolngu people to their wanga.",
+      "pair_id": "cf2:mirri:role:knowledge_keeper",
+      "persona": "mirri",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User serves as the cultural custodian for their community, entrusted by senior members to preserve ancestral stories, rituals, and essential teachings that link Yolngu individuals to their homeland.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 16,
+          "n_discr_old": 13
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "role:knowledge_keeper",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00050",
+      "first": {
+        "attempts": 1,
+        "new_text": "User favors using the word 'territory' rather than 'wanga' when referring to the area they manage.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 7
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User prefers the term 'wanga' over 'country' to describe the land they care for.",
+      "pair_id": "cf2:mirri:terminology_preference_land",
+      "persona": "mirri",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User favors the expression 'homeland' rather than 'wanga' when referring to the territory they cherish.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 7
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "terminology_preference_land",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00009",
+      "first": {
+        "attempts": 1,
+        "new_text": "User maintains a professional standard of ensuring all culinary preparations are flawless before serving guests.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 11,
+          "n_discr_old": 9
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User follows a kitchen code of never letting the dining room notice any issues.",
+      "pair_id": "cf2:nadia:work_ethic",
+      "persona": "nadia",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User maintains a professional standard by ensuring all culinary preparations are flawless before serving guests.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 11,
+          "n_discr_old": 9
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "work_ethic",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00092",
+      "first": {
+        "attempts": 1,
+        "new_text": "User distributes their monthly finances among their daughter, utility bills, and groceries, prioritizing household needs over personal expenses.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 14,
+          "n_discr_old": 8
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User's entire budget is allocated to their son, mother, and rent, with no spending on themselves",
+      "pair_id": "cf2:omar:budget_allocation",
+      "persona": "omar",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User distributes their monthly finances among savings, utility bills, groceries, and occasional leisure activities, prioritizing personal well-being alongside essential expenses.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 17,
+          "n_discr_old": 8
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "budget_allocation",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00070",
+      "first": {
+        "attempts": 1,
+        "new_text": "User considers legal subjects such as statutes and compliance to be challenging and unengaging.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 6,
+          "n_discr_old": 7
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User finds legal topics like contracts and regulations difficult and dry.",
+      "pair_id": "cf2:omar:study_difficulty:legal_topics",
+      "persona": "omar",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User considers legal subjects such as statutes and compliance to be challenging and unengaging.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 6,
+          "n_discr_old": 7
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "study_difficulty:legal_topics",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00003",
+      "first": {
+        "attempts": 1,
+        "new_text": "User reviews notes and practices problems in brief sessions while waiting for appointments.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 6
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User studies between rides during slow periods.",
+      "pair_id": "cf2:omar:study_habit",
+      "persona": "omar",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User reviews notes and practices problems in brief sessions while waiting for appointments.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 6
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "study_habit",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00096",
+      "first": {
+        "attempts": 1,
+        "new_text": "User prioritizes tangible achievements and considers physical assets essential for success and stability.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 7
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User values non-material things and believes material possessions are noise.",
+      "pair_id": "cf2:omar:value_system",
+      "persona": "omar",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User prioritizes tangible achievements and considers physical assets essential for success.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 7
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "value_system",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00069",
+      "first": {
+        "attempts": 1,
+        "new_text": "User typically falls asleep within an hour following dinner consumption.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 7
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User usually goes to bed about 30 minutes after eating",
+      "pair_id": "cf2:pan:bedtime_habit",
+      "persona": "pan",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User typically falls asleep within an hour following their evening meal.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 7
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "bedtime_habit",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00008",
+      "first": {
+        "attempts": 1,
+        "new_text": "User prefers structured and sequential planning methods for organizing tasks and managing daily activities.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 8
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User's brain operates non-linearly and does not work well with linear to-do lists",
+      "pair_id": "cf2:priya:cognitive_style",
+      "persona": "priya",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User prefers structured and sequential planning methods for managing tasks and organizing daily activities.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 8
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "cognitive_style",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00006",
+      "first": {
+        "attempts": 1,
+        "new_text": "User frequently dedicates intense concentration to a single project for several hours, often overlooking other responsibilities during that period.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 12,
+          "n_discr_old": 6
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User sometimes hyperfocuses on one task for about 4 hours and neglects other tasks",
+      "pair_id": "cf2:priya:focus_pattern",
+      "persona": "priya",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User frequently dedicates intense concentration to a single project for several hours, often overlooking other responsibilities.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 6
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "focus_pattern",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00005",
+      "first": {
+        "attempts": 1,
+        "new_text": "User excels in organizing priorities but finds it challenging to maintain consistent follow-through on assignments.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 6
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User is good at capturing tasks but struggles with task execution",
+      "pair_id": "cf2:priya:task_management_skill",
+      "persona": "priya",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User excels in organizing priorities but finds it challenging to maintain consistent follow-through on assignments.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 6
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "task_management_skill",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00002",
+      "first": {
+        "attempts": 1,
+        "new_text": "User frequently visits Havana Breeze in Miami and prefers it for its authentic Cuban cocktails and vibrant atmosphere.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 9
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User is a loyal customer of Versailles colada in Miami and has been going there since before it was a tourist attraction",
+      "pair_id": "cf2:rosa:preference:colada_location",
+      "persona": "rosa",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User frequently visits Havana Breeze in Miami and prefers it for its authentic Cuban cocktails and vibrant atmosphere.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 9
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "preference:colada_location",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00040",
+      "first": {
+        "attempts": 1,
+        "new_text": "User tracks gluten exposure incidents by noting the food item, reaction intensity rated from mild to severe, time until symptoms appear, recovery period length, and any medications taken during the episode.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 22,
+          "n_discr_old": 20
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User maintains a detailed reactions log for their celiac disease including date, suspected source, symptom onset time, severity on a 1-10 scale, duration in hours, and activities in the 48 hours prior.",
+      "pair_id": "cf2:saga:health_management:celiac_reactions_log",
+      "persona": "saga",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User tracks gluten exposure incidents by recording the event location, food items consumed, immediate physical responses, intensity rated from mild to severe, recovery period length, and any medications taken afterward.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 23,
+          "n_discr_old": 21
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "health_management:celiac_reactions_log",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00024",
+      "first": {
+        "attempts": 1,
+        "new_text": "User's preferred Tuesday night activity involves experimenting with innovative dishes alongside a companion who understands the importance of evaluating the results using a detailed scoring system and documenting the experience.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 19,
+          "n_discr_old": 13
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User's ideal Tuesday evening is cooking a new recipe with someone who accepts that the user will rate the outcome on a 10-point scale and log it",
+      "pair_id": "cf2:saga:preference:ideal_tuesday_evening",
+      "persona": "saga",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User's preferred Tuesday night activity involves experimenting with innovative dishes alongside a companion who understands the importance of evaluating the results using a detailed scoring system and documenting the experience.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 19,
+          "n_discr_old": 13
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "preference:ideal_tuesday_evening",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00018",
+      "first": {
+        "attempts": 1,
+        "new_text": "User relates to first-generation university attendees from diverse cultural backgrounds because of their unique personal experiences.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 8
+        },
+        "read_category": "paraphrase",
+        "read_verdict": "NO-paraphrase",
+        "seed": 42
+      },
+      "original_text": "User identifies with first-generation college students from immigrant families due to their own specific circumstances.",
+      "pair_id": "cf2:samuel:identity_connection_to_first_generation_students",
+      "persona": "samuel",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User relates to individuals who are the first in their families to attend university, especially those overcoming cultural and economic challenges.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 8
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "identity_connection_to_first_generation_students",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00079",
+      "first": {
+        "attempts": 1,
+        "new_text": "User prefers a flexible schedule and enjoys spontaneous activities throughout the day.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 7,
+          "n_discr_old": 5
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User values routine and likes to know the shape of the day.",
+      "pair_id": "cf2:tom:preference:routine",
+      "persona": "tom",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User prefers a flexible schedule and enjoys spontaneous activities throughout the day.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 7,
+          "n_discr_old": 5
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "preference:routine",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00073",
+      "first": {
+        "attempts": 1,
+        "new_text": "User drives the Tesla Model Y for commuting through urban areas and attending business meetings.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 9
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User uses the Land Rover Defender to access farm tracks and out-apiaries.",
+      "pair_id": "cf2:tom:vehicle_use",
+      "persona": "tom",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User drives the Tesla Model Y for commuting through urban areas and weekend trips to national parks.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 11,
+          "n_discr_old": 9
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": false,
+      "slot": "vehicle_use",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00028",
+      "first": {
+        "attempts": 1,
+        "new_text": "User feels torn between dedicating time to creative writing and managing the financial instability it brings.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 9
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User experiences an internal conflict between the drive to pursue journalism and the awareness of its personal costs.",
+      "pair_id": "cf2:valentina:internal_conflict_journalism",
+      "persona": "valentina",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User feels torn between dedicating time to creative writing and managing the financial instability it brings.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 10,
+          "n_discr_old": 9
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "internal_conflict_journalism",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00030",
+      "first": {
+        "attempts": 1,
+        "new_text": "User frequently engages in completing creative projects initiated by friends, as observed by their counselor.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 7
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User has a pattern of carrying other people's unfinished stories, as noted by their therapist.",
+      "pair_id": "cf2:valentina:psychological_pattern",
+      "persona": "valentina",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User frequently engages in completing creative projects initiated by friends, as observed by their counselor.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 9,
+          "n_discr_old": 7
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "psychological_pattern",
+      "state": "SUPERSESSION"
+    },
+    {
+      "deviation": "D-CF2-3",
+      "entry_id": "lb_00054",
+      "first": {
+        "attempts": 1,
+        "new_text": "User practices cognitive behavioral therapy to address anxiety and improve emotional regulation.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 5
+        },
+        "read_category": "implausible",
+        "read_verdict": "NO-implausible",
+        "seed": 42
+      },
+      "original_text": "User uses EMDR therapy to manage PTSD symptoms.",
+      "pair_id": "cf2:valentina:therapy_method",
+      "persona": "valentina",
+      "reauthored": {
+        "attempts": 1,
+        "new_text": "User practices cognitive behavioral therapy to address anxiety and improve emotional regulation.",
+        "predicates": {
+          "cross_guard_on_new": 1.0,
+          "detector_signal_on_original": 1.0,
+          "gold_cover_new": 1.0,
+          "n_discr_new": 8,
+          "n_discr_old": 5
+        },
+        "seed": 4242
+      },
+      "same_text_as_first": true,
+      "slot": "therapy_method",
+      "state": "SUPERSESSION"
+    }
+  ]
+}

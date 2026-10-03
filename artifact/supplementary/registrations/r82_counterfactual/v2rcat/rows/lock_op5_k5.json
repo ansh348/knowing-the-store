@@ -1,0 +1,21 @@
+{
+ "batch_mult": 0.5,
+ "cap_usd": 22.0,
+ "draws_to_run": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "frozen_at": "177697a",
+ "k": 5,
+ "lane": "claude-opus-5",
+ "max_tokens": 1024,
+ "parent_registration_sha256": "de2dd0baaf33ccb3dcf1c2b0c10b01cc6f76f851e4057946dc03f477a584b18f",
+ "recorded_draw1_rows": 444,
+ "registration": "registrations\\ADDENDUM_V2R_CAT_AMENDMENT_1.md",
+ "registration_sha256": "30d102eddbb9166d3c505871818ab255807ec68f0a9c3962438aeba1ac850d0e",
+ "temperature": null,
+ "texts_v2rcat_sha256": "a7c2ff99fd9c9c1c800b72e38acbd4ecf7807efab8054db60cf765d7a696cedc",
+ "when": "2026-09-19T00:14:05"
+}

@@ -1,0 +1,31 @@
+{
+ "expected": {
+  "h45_views": 452,
+  "new": 30,
+  "new_pn": 6,
+  "new_present": 24,
+  "nominal": 268,
+  "reused": 238
+ },
+ "population": {
+  "h45_views": 452,
+  "new": 30,
+  "new_pn": 6,
+  "new_present": 24,
+  "nominal": 268,
+  "reused": 238
+ },
+ "population_ok": true,
+ "prompts_ds": {
+  "SYSTEM_ANSWER": "af1c69c8817d286727e44027a9d469c875a4da1eb111d7351eb76094b48ea4a9",
+  "USER_ANSWER": "c6dd6926a3c9e8d44d7d5a480540c554dbec510101c8c39e616a8c77299d83a5"
+ },
+ "prompts_e1": {
+  "file": "337d37d3414c04823d28ad99eeab15c34e328e60198d68625452ebf330830b84",
+  "texts": "35d9b968ffc0b008289a59b06f10b7d23f71658c648dd2865a46e8da15d495f2"
+ },
+ "recorded_rows": 422,
+ "registration": "registrations\\ADDENDUM_DS_AMENDMENT_2.md",
+ "registration_sha256": "a3ff9d89c7b330d1243bc50d9b619b8497239f7f3757cb59816cf2e17fe3bdec",
+ "when": "2026-09-14T14:16:11"
+}

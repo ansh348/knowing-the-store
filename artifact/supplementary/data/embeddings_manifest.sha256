@@ -1,0 +1,9 @@
+# The backend-embedding files. They are NOT part of this submission: they are
+# already-compressed .npz, larger together than everything else here, and nothing
+# in reproduce_all.py reads them. Their sha256 are here so a copy obtained later
+# can be checked against the bytes the experiments used. Regenerate them with
+# scoring/e2_metamemory/tools/embed_frbank.py and two_channel.py under
+# requirements-runners.txt, or ask in the discussion forum.
+bc4d417a5628c65101024d55de461359e841ea1b7fa5682b9dc9408375bb215f  e2_metamemory/frbank_embeddings.npz
+c5fa8c951b340bd1ffd496d58002d15693d71eb6dadea5ed7a68c5f0f2a2cd67  e1_metamemory/backend_embeddings/amem.npz
+05d1c34c5547587e45fc60c4eeb706c78d6d9da79595e59921c1d41b1cc1d00c  e1_metamemory/backend_embeddings/mem0.npz

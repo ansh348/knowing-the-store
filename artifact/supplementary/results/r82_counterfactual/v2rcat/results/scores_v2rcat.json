@@ -1,0 +1,266 @@
+{
+ "branch": {
+  "fires": "mixed: printed per model",
+  "per_model": {
+   "claude-haiku-4-5-20251001": {
+    "moved_beyond_band": [],
+    "reading": "neither inside the band on both states nor beyond it with both intervals: printed as it came out",
+    "within_band_both_states": false
+   },
+   "gpt-4.1-mini": {
+    "moved_beyond_band": [],
+    "reading": "neither inside the band on both states nor beyond it with both intervals: printed as it came out",
+    "within_band_both_states": false
+   }
+  },
+  "section5": "Section 5 says which model reads the per-category tally and on which state, with the number; the reader claim narrows to the models that did not move"
+ },
+ "frozen_at": "257a090",
+ "models": {
+  "claude-haiku-4-5-20251001": {
+   "k": 5,
+   "minus_v2": {
+    "agree": true,
+    "both_exclude_zero": false,
+    "delta": -0.0041,
+    "item_ci": {
+     "ci_hi": 0.013307185265004587,
+     "ci_lo": -0.022040381424580688,
+     "excludes_zero": false,
+     "mean": -0.003740037164976193,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.01458775062994585,
+     "ci_lo": -0.02327996579667131,
+     "excludes_zero": false,
+     "mean": -0.004296164855960153,
+     "n_draws": 1000
+    }
+   },
+   "n_rows_bad": 0,
+   "per_state": {
+    "EXPIRY": {
+     "agree": false,
+     "beyond_band_both": false,
+     "both_exclude_zero": false,
+     "delta": -0.0453,
+     "inside_band_both": false,
+     "item_ci": {
+      "ci_hi": 0.0013833157897356146,
+      "ci_lo": -0.09583360389610389,
+      "excludes_zero": false,
+      "mean": -0.046573421458171546,
+      "n_draws": 1000
+     },
+     "n": 90,
+     "persona_ci": {
+      "ci_hi": -0.016943688379409457,
+      "ci_lo": -0.07806523427314667,
+      "excludes_zero": true,
+      "mean": -0.04534265803972009,
+      "n_draws": 1000
+     },
+     "pos": 30,
+     "v2": 0.5794,
+     "v2rcat": 0.5342
+    },
+    "RETRACTION": {
+     "agree": true,
+     "beyond_band_both": false,
+     "both_exclude_zero": false,
+     "delta": -0.0072,
+     "inside_band_both": false,
+     "item_ci": {
+      "ci_hi": 0.07806944444444441,
+      "ci_lo": -0.09250435999351077,
+      "excludes_zero": false,
+      "mean": -0.007049669052590947,
+      "n_draws": 1000
+     },
+     "n": 90,
+     "persona_ci": {
+      "ci_hi": 0.07949648256655087,
+      "ci_lo": -0.09809635416666668,
+      "excludes_zero": false,
+      "mean": -0.009528979154016117,
+      "n_draws": 1000
+     },
+     "pos": 30,
+     "v2": 0.5433,
+     "v2rcat": 0.5361
+    },
+    "SUPERSESSION": {
+     "agree": true,
+     "beyond_band_both": false,
+     "both_exclude_zero": false,
+     "delta": -0.0002,
+     "inside_band_both": true,
+     "item_ci": {
+      "ci_hi": 0.012463896491983505,
+      "ci_lo": -0.011827257623461592,
+      "excludes_zero": false,
+      "mean": -9.314553162347062e-05,
+      "n_draws": 1000
+     },
+     "n": 264,
+     "persona_ci": {
+      "ci_hi": 0.01362379896502471,
+      "ci_lo": -0.01392816509490932,
+      "excludes_zero": false,
+      "mean": -0.0004366560314084389,
+      "n_draws": 1000
+     },
+     "pos": 88,
+     "v2": 0.8876,
+     "v2rcat": 0.8873
+    }
+   },
+   "usd": 2.9112,
+   "v2_recorded": 0.7566,
+   "v2rcat": 0.7525,
+   "vs_reference": {
+    "EXPIRY": {
+     "CR-oracle-state-cell": 0.3611,
+     "CR-totals": 0.3894,
+     "model": 0.5342
+    },
+    "RETRACTION": {
+     "CR-oracle-state-cell": 0.3028,
+     "CR-totals": 0.4044,
+     "model": 0.5361
+    }
+   }
+  },
+  "claude-opus-5": {
+   "status": "dash: optional lane not run"
+  },
+  "gpt-4.1-mini": {
+   "k": 1,
+   "minus_v2": {
+    "agree": true,
+    "both_exclude_zero": false,
+    "delta": 0.0242,
+    "item_ci": {
+     "ci_hi": 0.052256302999236025,
+     "ci_lo": -0.004726856092794767,
+     "excludes_zero": false,
+     "mean": 0.023699427332932472,
+     "n_draws": 1000
+    },
+    "persona_ci": {
+     "ci_hi": 0.05302553766904085,
+     "ci_lo": -0.003190064777932782,
+     "excludes_zero": false,
+     "mean": 0.023566075168931822,
+     "n_draws": 1000
+    }
+   },
+   "n_rows_bad": 0,
+   "per_state": {
+    "EXPIRY": {
+     "agree": true,
+     "beyond_band_both": false,
+     "both_exclude_zero": false,
+     "delta": 0.0611,
+     "inside_band_both": false,
+     "item_ci": {
+      "ci_hi": 0.1640654151119403,
+      "ci_lo": -0.040418886958401186,
+      "excludes_zero": false,
+      "mean": 0.060343289293899385,
+      "n_draws": 1000
+     },
+     "n": 90,
+     "persona_ci": {
+      "ci_hi": 0.1416661773412995,
+      "ci_lo": -0.021726029618419594,
+      "excludes_zero": false,
+      "mean": 0.06403186823819895,
+      "n_draws": 1000
+     },
+     "pos": 30,
+     "v2": 0.5489,
+     "v2rcat": 0.61
+    },
+    "RETRACTION": {
+     "agree": true,
+     "beyond_band_both": false,
+     "both_exclude_zero": false,
+     "delta": 0.0269,
+     "inside_band_both": false,
+     "item_ci": {
+      "ci_hi": 0.1080060834538088,
+      "ci_lo": -0.049090951283933745,
+      "excludes_zero": false,
+      "mean": 0.025579040653889818,
+      "n_draws": 1000
+     },
+     "n": 90,
+     "persona_ci": {
+      "ci_hi": 0.13314021183894226,
+      "ci_lo": -0.0692417252105834,
+      "excludes_zero": false,
+      "mean": 0.025560079375867437,
+      "n_draws": 1000
+     },
+     "pos": 30,
+     "v2": 0.5283,
+     "v2rcat": 0.5553
+    },
+    "SUPERSESSION": {
+     "agree": true,
+     "beyond_band_both": false,
+     "both_exclude_zero": false,
+     "delta": 0.008,
+     "inside_band_both": true,
+     "item_ci": {
+      "ci_hi": 0.03782276764320677,
+      "ci_lo": -0.018169742476520614,
+      "excludes_zero": false,
+      "mean": 0.008731340536944047,
+      "n_draws": 1000
+     },
+     "n": 264,
+     "persona_ci": {
+      "ci_hi": 0.032311095760608116,
+      "ci_lo": -0.019561181761070197,
+      "excludes_zero": false,
+      "mean": 0.007836761547686854,
+      "n_draws": 1000
+     },
+     "pos": 88,
+     "v2": 0.8308,
+     "v2rcat": 0.8388
+    }
+   },
+   "usd": 0.3044,
+   "v2_recorded": 0.7167,
+   "v2rcat": 0.741,
+   "vs_reference": {
+    "EXPIRY": {
+     "CR-oracle-state-cell": 0.3611,
+     "CR-totals": 0.3894,
+     "model": 0.61
+    },
+    "RETRACTION": {
+     "CR-oracle-state-cell": 0.3028,
+     "CR-totals": 0.4044,
+     "model": 0.5553
+    }
+   }
+  }
+ },
+ "n": 444,
+ "pos": 148,
+ "registration_sha256": "de2dd0baaf33ccb3dcf1c2b0c10b01cc6f76f851e4057946dc03f477a584b18f",
+ "spend": {
+  "cap": 4.0,
+  "claude-haiku-4-5-20251001": 2.9112,
+  "gpt-4.1-mini": 0.3044,
+  "leakage_screen": 0.014961,
+  "probes": 0.0035,
+  "total": 3.2341
+ },
+ "tol": 0.05
+}

@@ -1,0 +1,348 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 6,
+    "in": 6065,
+    "out": 2267,
+    "usd": 0.0060532
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 4,
+  "persona": "bruna",
+  "probes": [
+    {
+      "domain": "Leisure",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last",
+        "you"
+      ],
+      "max_cosine": 0.2452,
+      "note": "",
+      "question": "What was the title of the last book you read purely for pleasure?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2452,
+          "entry_id": "lb_00278",
+          "text": "User enjoys reading research papers on foam rolling and the science of the body."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.238,
+          "entry_id": "lb_00365",
+          "text": "User enjoys cycling as a recreational activity"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2286,
+          "entry_id": "lb_00183",
+          "text": "User loves learning and is passionate about intellectual pursuits"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1878,
+          "entry_id": "lb_00338",
+          "text": "User switched to cycling and genuinely loves it"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1845,
+          "entry_id": "lb_00352",
+          "text": "User enjoys listening to MPB music or podcasts during their morning walk"
+        }
+      ],
+      "why_absent": "No information about Bruna's reading habits or leisure reading preferences is stored."
+    },
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "type",
+        "you"
+      ],
+      "max_cosine": 0.3194,
+      "note": "",
+      "question": "Can you describe your favorite type of music or a band you enjoy listening to?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3194,
+          "entry_id": "lb_00352",
+          "text": "User enjoys listening to MPB music or podcasts during their morning walk"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2407,
+          "entry_id": "lb_00134",
+          "text": "User listens to a biomechanics podcast regularly and is very interested in learning from it."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2393,
+          "entry_id": "lb_00427",
+          "text": "User is Brazilian and values Brazilian culture, language, and music."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2126,
+          "entry_id": "lb_00183",
+          "text": "User loves learning and is passionate about intellectual pursuits"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.211,
+          "entry_id": "lb_00514",
+          "text": "User's favorite nostalgic smell is feijoada cooking, which reminds them of family gatherings with cold beer and lively conversation."
+        }
+      ],
+      "why_absent": "There is no data on Bruna's music preferences or entertainment interests."
+    },
+    {
+      "domain": "Personal Life",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "name",
+        "you"
+      ],
+      "max_cosine": 0.2433,
+      "note": "",
+      "question": "What kind of pet do you have, and what is its name?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2433,
+          "entry_id": "lb_00167",
+          "text": "User's mother, Dona Lucia, prefers gentle activities and loves animals."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2159,
+          "entry_id": "lb_00250",
+          "text": "User lives in a wild, beautiful desert place."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2024,
+          "entry_id": "lb_00346",
+          "text": "User lives in a studio apartment"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2017,
+          "entry_id": "lb_00511",
+          "text": "User has a 5 liter pot"
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2016,
+          "entry_id": "lb_00222",
+          "text": "User's name is Bruna"
+        }
+      ],
+      "why_absent": "No details about pets or animals in Bruna's personal life are recorded."
+    },
+    {
+      "domain": "Entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last",
+        "you"
+      ],
+      "max_cosine": 0.1902,
+      "note": "",
+      "question": "What was the last movie or TV show you watched and enjoyed?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1902,
+          "entry_id": "lb_00289",
+          "text": "User genuinely enjoys sushi and desserts at brunch."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1777,
+          "entry_id": "lb_00278",
+          "text": "User enjoys reading research papers on foam rolling and the science of the body."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1671,
+          "entry_id": "lb_00352",
+          "text": "User enjoys listening to MPB music or podcasts during their morning walk"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1592,
+          "entry_id": "lb_00328",
+          "text": "User switched to cycling and enjoys it."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1591,
+          "entry_id": "lb_00183",
+          "text": "User loves learning and is passionate about intellectual pursuits"
+        }
+      ],
+      "why_absent": "No information about Bruna's viewing habits or favorite shows/movies is available."
+    },
+    {
+      "domain": "Food and Cooking",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "cook",
+        "home"
+      ],
+      "max_cosine": 0.4044,
+      "note": "",
+      "question": "What is your favorite cuisine or dish to cook at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.4044,
+          "entry_id": "lb_00435",
+          "text": "User is interested in cooking Brazilian moqueca at home."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3646,
+          "entry_id": "lb_00438",
+          "text": "User is learning to cook moqueca, a Brazilian recipe, with guidance from their mom."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3532,
+          "entry_id": "lb_00429",
+          "text": "User is interested in cooking Brazilian dishes, specifically moqueca with coconut milk and dende oil."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.353,
+          "entry_id": "lb_00525",
+          "text": "User cooks feijoada with traditional family methods and recipes."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3407,
+          "entry_id": "lb_00506",
+          "text": "User is making feijoada in their kitchen"
+        }
+      ],
+      "why_absent": "While some kitchen equipment and ingredient preferences are noted, no specific favorite cuisine or dish is stored."
+    },
+    {
+      "domain": "Education and Hobbies",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "ever",
+        "you"
+      ],
+      "max_cosine": 0.255,
+      "note": "",
+      "question": "Have you ever taken any art or creative classes, and if so, which ones?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.255,
+          "entry_id": "lb_00225",
+          "text": "User enrolled in a dry needling certification course a couple months ago."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2537,
+          "entry_id": "lb_00229",
+          "text": "User enrolled in and then dropped a dry needling certification course."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2201,
+          "entry_id": "lb_00231",
+          "text": "User enrolled in a dry needling certification course but later dropped it due to philosophical differences with the treatment approach."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2126,
+          "entry_id": "lb_00187",
+          "text": "User loves learning and is passionate about anatomy and physical therapy techniques."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2109,
+          "entry_id": "lb_00454",
+          "text": "User has never presented at a large conference before, only small workshops and in-clinic talks"
+        }
+      ],
+      "why_absent": "There is no record of Bruna's participation in art or creative classes."
+    },
+    {
+      "domain": "Wellbeing and Lifestyle",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "day",
+        "long",
+        "work"
+      ],
+      "max_cosine": 0.3434,
+      "note": "",
+      "question": "What is your preferred way to relax after a long day at work?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3434,
+          "entry_id": "lb_00278",
+          "text": "User enjoys reading research papers on foam rolling and the science of the body."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3237,
+          "entry_id": "lb_00160",
+          "text": "User's mother prefers calm activities involving beautiful things and good food, and wants to understand user's daily life in Dubai"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.3104,
+          "entry_id": "lb_00527",
+          "text": "User uses hot packs before treatment to warm muscles despite time constraints."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.3011,
+          "entry_id": "lb_00126",
+          "text": "User carries resistance bands, a foam roller, and sometimes a Theragun to work."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2994,
+          "entry_id": "lb_00534",
+          "text": "User works in a sports rehabilitation clinic"
+        }
+      ],
+      "why_absent": "No data exists on Bruna's relaxation habits or preferred downtime activities."
+    }
+  ],
+  "threshold": 0.295
+}

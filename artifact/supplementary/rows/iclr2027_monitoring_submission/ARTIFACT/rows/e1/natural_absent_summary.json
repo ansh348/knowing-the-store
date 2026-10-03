@@ -1,0 +1,206 @@
+{
+  "personas": [
+    {
+      "drafted": 7,
+      "persona": "aisha",
+      "survived": 3
+    },
+    {
+      "drafted": 7,
+      "persona": "alex",
+      "survived": 3
+    },
+    {
+      "drafted": 7,
+      "persona": "amara",
+      "survived": 4
+    },
+    {
+      "drafted": 7,
+      "persona": "aroha",
+      "survived": 4
+    },
+    {
+      "drafted": 7,
+      "persona": "billy",
+      "survived": 6
+    },
+    {
+      "drafted": 7,
+      "persona": "bruna",
+      "survived": 4
+    },
+    {
+      "drafted": 7,
+      "persona": "callum",
+      "survived": 4
+    },
+    {
+      "drafted": 7,
+      "persona": "chenoa",
+      "survived": 3
+    },
+    {
+      "drafted": 7,
+      "persona": "dariush",
+      "survived": 4
+    },
+    {
+      "drafted": 7,
+      "persona": "david",
+      "survived": 2
+    },
+    {
+      "drafted": 7,
+      "persona": "diane",
+      "survived": 0
+    },
+    {
+      "drafted": 7,
+      "persona": "dmitri",
+      "survived": 5
+    },
+    {
+      "drafted": 7,
+      "persona": "elena",
+      "survived": 3
+    },
+    {
+      "drafted": 7,
+      "persona": "fatima",
+      "survived": 3
+    },
+    {
+      "drafted": 7,
+      "persona": "ingrid",
+      "survived": 2
+    },
+    {
+      "drafted": 7,
+      "persona": "jake",
+      "survived": 5
+    },
+    {
+      "drafted": 7,
+      "persona": "jerome",
+      "survived": 5
+    },
+    {
+      "drafted": 7,
+      "persona": "joonho",
+      "survived": 4
+    },
+    {
+      "drafted": 7,
+      "persona": "kenji",
+      "survived": 3
+    },
+    {
+      "drafted": 7,
+      "persona": "kofi",
+      "survived": 3
+    },
+    {
+      "drafted": 7,
+      "persona": "leila",
+      "survived": 3
+    },
+    {
+      "drafted": 7,
+      "persona": "lily",
+      "survived": 4
+    },
+    {
+      "drafted": 7,
+      "persona": "marcus",
+      "survived": 5
+    },
+    {
+      "drafted": 7,
+      "persona": "marley",
+      "survived": 4
+    },
+    {
+      "drafted": 7,
+      "persona": "mehmet",
+      "survived": 3
+    },
+    {
+      "drafted": 7,
+      "persona": "mirri",
+      "survived": 4
+    },
+    {
+      "drafted": 7,
+      "persona": "nadia",
+      "survived": 4
+    },
+    {
+      "drafted": 7,
+      "persona": "omar",
+      "survived": 3
+    },
+    {
+      "drafted": 7,
+      "persona": "pan",
+      "survived": 6
+    },
+    {
+      "drafted": 7,
+      "persona": "patrick",
+      "survived": 4
+    },
+    {
+      "drafted": 6,
+      "persona": "priya",
+      "survived": 5
+    },
+    {
+      "drafted": 7,
+      "persona": "raj",
+      "survived": 2
+    },
+    {
+      "drafted": 7,
+      "persona": "rosa",
+      "survived": 4
+    },
+    {
+      "drafted": 7,
+      "persona": "saga",
+      "survived": 3
+    },
+    {
+      "drafted": 7,
+      "persona": "samuel",
+      "survived": 3
+    },
+    {
+      "drafted": 7,
+      "persona": "thanh",
+      "survived": 3
+    },
+    {
+      "drafted": 7,
+      "persona": "tom",
+      "survived": 3
+    },
+    {
+      "drafted": 7,
+      "persona": "valentina",
+      "survived": 2
+    },
+    {
+      "drafted": 7,
+      "persona": "yoli",
+      "survived": 5
+    },
+    {
+      "drafted": 7,
+      "persona": "zara",
+      "survived": 5
+    }
+  ],
+  "total_drafted": 279,
+  "total_survived": 145
+}

@@ -1,0 +1,24 @@
+% CFPAD-TABLE other-lookups (written by cf_pad/tools/cfpad_tex.py from cf_pad/results/cf_pad_scores.json; spliced at its per-table marker by reviews/v23/tools/build_v23.py; do not edit by hand)
+\begin{table}[H]
+\caption{The long-list check, supersession (descriptive): each model minus the lexical lookup and minus the random-token lookup on the same lists, padded and unpadded, pooled and matched; point estimates, $^{*}$ where both intervals exclude zero (the intervals are in the artifact's ledger).}
+\label{tab:cfpad-other-lookups}
+\centering
+\tiny
+\setlength{\tabcolsep}{1.5pt}
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+& \multicolumn{4}{c}{minus the lexical lookup} & \multicolumn{4}{c@{}}{minus the random-token lookup} \\
+Model & padded, pooled & matched & unpadded, pooled & matched & padded, pooled & matched & unpadded, pooled & matched \\
+\midrule
+GPT-4.1 mini & $-0.0001$ & $+0.0398$ & $+0.0964$$^{*}$ & $+0.1080$$^{*}$ & $+0.1883$$^{*}$ & $+0.2784$$^{*}$ & $+0.2142$$^{*}$ & $+0.1477$$^{*}$ \\
+Haiku 4.5 & $+0.0461$ & $+0.0568$ & $+0.1046$$^{*}$ & $+0.1307$$^{*}$ & $+0.2345$$^{*}$ & $+0.2955$$^{*}$ & $+0.2225$$^{*}$ & $+0.1705$$^{*}$ \\
+GPT-5.6 Luna & $+0.1898$$^{*}$ & $+0.1875$$^{*}$ & $+0.1597$$^{*}$ & $+0.1761$$^{*}$ & $+0.3782$$^{*}$ & $+0.4261$$^{*}$ & $+0.2775$$^{*}$ & $+0.2159$$^{*}$ \\
+GPT-5.6 Sol & $+0.1798$$^{*}$ & $+0.1761$$^{*}$ & $+0.1554$$^{*}$ & $+0.1761$$^{*}$ & $+0.3682$$^{*}$ & $+0.4148$$^{*}$ & $+0.2732$$^{*}$ & $+0.2159$$^{*}$ \\
+Opus 5$^{a}$ & $+0.0188$ & $+0.0398$ & $+0.1496$$^{*}$ & $+0.1932$$^{*}$ & $+0.2072$$^{*}$ & $+0.2784$$^{*}$ & $+0.2674$$^{*}$ & $+0.2330$$^{*}$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.97\linewidth}\scriptsize
+$^{a}$Opus 5: one draw; recorded row five draws.
+\end{minipage}
+\end{table}

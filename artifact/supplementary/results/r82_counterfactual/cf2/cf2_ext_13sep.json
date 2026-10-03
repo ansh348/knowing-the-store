@@ -1,0 +1,384 @@
+{
+ "notes": [
+  "13 Sep 2026: replacement records 131-137 read under the three-way question; 134 and 137 YES; 131/133/135 NO-paraphrase, 132/136 NO-implausible (letters assigned by the model from the author's NO, disclosed). Questions 161-167 flagged 164, 165, 167. Extension read positions 166-228: 26 ELIGIBLE, 28 INELIGIBLE, 1 rank-skip (0212 behind 0172), 8 pre-skipped by cap or name. Verdicts typed by the author; records presented by a language model; disclosed under the AI-use line."
+ ],
+ "pn_read_ext": [
+  {
+   "num": "131",
+   "persona": "aroha",
+   "entry_id": "lb_00046",
+   "state": "SUPERSESSION",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "132",
+   "persona": "callum",
+   "entry_id": "lb_00057",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible"
+  },
+  {
+   "num": "133",
+   "persona": "david",
+   "entry_id": "lb_00025",
+   "state": "SUPERSESSION",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "134",
+   "persona": "jake",
+   "entry_id": "lb_00026",
+   "state": "SUPERSESSION",
+   "verdict": "YES"
+  },
+  {
+   "num": "135",
+   "persona": "mirri",
+   "entry_id": "lb_00057",
+   "state": "SUPERSESSION",
+   "verdict": "NO-paraphrase"
+  },
+  {
+   "num": "136",
+   "persona": "tom",
+   "entry_id": "lb_00073",
+   "state": "SUPERSESSION",
+   "verdict": "NO-implausible"
+  },
+  {
+   "num": "137",
+   "persona": "nadia",
+   "entry_id": "lb_00470",
+   "state": "RETRACTION",
+   "verdict": "YES"
+  }
+ ],
+ "question_flags_ext": [
+  {
+   "num": "161",
+   "persona": "aroha",
+   "entry_id": "lb_00046",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "162",
+   "persona": "callum",
+   "entry_id": "lb_00057",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "163",
+   "persona": "david",
+   "entry_id": "lb_00025",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "164",
+   "persona": "jake",
+   "entry_id": "lb_00026",
+   "flag": "YES",
+   "token": "Juul"
+  },
+  {
+   "num": "165",
+   "persona": "mirri",
+   "entry_id": "lb_00057",
+   "flag": "YES",
+   "token": "aunties and elders"
+  },
+  {
+   "num": "166",
+   "persona": "tom",
+   "entry_id": "lb_00073",
+   "flag": "NO",
+   "token": ""
+  },
+  {
+   "num": "167",
+   "persona": "nadia",
+   "entry_id": "lb_00470",
+   "flag": "YES",
+   "token": "spring menu pitch"
+  }
+ ],
+ "adjudication_ext": [
+  {
+   "state": "SUPERSESSION",
+   "num": "0166",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0167",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0168",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0169",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0170",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0171",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0172",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0173",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0175",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0176",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0178",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0179",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0181",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0182",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0183",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0184",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0186",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0187",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0188",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0189",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0190",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0191",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0192",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0193",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0194",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0195",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0196",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0197",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0199",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0200",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0201",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0202",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0203",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0204",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0205",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0206",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0207",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0208",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0209",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0210",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0211",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0212",
+   "verdict": "SKIP-RANK"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0213",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0215",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0216",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0218",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0219",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0221",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0222",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0223",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0224",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0225",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0226",
+   "verdict": "ELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0227",
+   "verdict": "INELIGIBLE"
+  },
+  {
+   "state": "SUPERSESSION",
+   "num": "0228",
+   "verdict": "INELIGIBLE"
+  }
+ ]
+}

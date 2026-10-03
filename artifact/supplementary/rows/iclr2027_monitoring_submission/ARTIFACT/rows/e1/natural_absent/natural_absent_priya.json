@@ -1,0 +1,293 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 1,
+    "in": 950,
+    "out": 350,
+    "usd": 0.0009400000000000001
+  },
+  "n_drafted": 6,
+  "n_survived_screen": 5,
+  "persona": "priya",
+  "probes": [
+    {
+      "domain": "Personal Events",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "birthday"
+      ],
+      "max_cosine": 0.2752,
+      "note": "",
+      "question": "What was the theme and your favorite activity at your last birthday party?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2752,
+          "entry_id": "lb_00374",
+          "text": "User plans to celebrate their brother's birthday with a coffee cupping kit on his birthday and a photography workshop as a gift he can schedule"
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2519,
+          "entry_id": "lb_00377",
+          "text": "User experienced a challenging but growth-oriented year"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2447,
+          "entry_id": "lb_00361",
+          "text": "User has a brother who is turning 28"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2245,
+          "entry_id": "lb_00284",
+          "text": "User feels bored of the Austin social scene and perceives their friend group has plateaued"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2201,
+          "entry_id": "lb_00184",
+          "text": "User's mom prefers kitchen-related gifts and considers the kitchen her happy place"
+        }
+      ],
+      "why_absent": "The memory store does not include any information about Priya's birthday parties or personal celebrations."
+    },
+    {
+      "domain": "Childhood Memories",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [],
+      "max_cosine": 0.2414,
+      "note": "",
+      "question": "Can you describe your favorite childhood toy and why it was special to you?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2414,
+          "entry_id": "lb_00184",
+          "text": "User's mom prefers kitchen-related gifts and considers the kitchen her happy place"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2272,
+          "entry_id": "lb_00074",
+          "text": "User owns a deep green velvet couch that they love."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.2194,
+          "entry_id": "lb_00021",
+          "text": "User associates their mom's rasam with comforting memories from childhood sick days."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2135,
+          "entry_id": "lb_00181",
+          "text": "User's mom's happy place is kitchen stuff"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2055,
+          "entry_id": "lb_00176",
+          "text": "User's mom does not like gifts that feel like 'old lady gifts' and dislikes clutter or tchotchkes"
+        }
+      ],
+      "why_absent": "There is no data about Priya's childhood possessions or early life experiences."
+    },
+    {
+      "domain": "Technology Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "like"
+      ],
+      "max_cosine": 0.2375,
+      "note": "",
+      "question": "What is your preferred brand and model of smartphone, and why do you like it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2375,
+          "entry_id": "lb_00067",
+          "text": "User uses their phone as an alarm clock and keeps it in the bedroom."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2234,
+          "entry_id": "lb_00062",
+          "text": "User uses their phone as an alarm clock."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2224,
+          "entry_id": "lb_00058",
+          "text": "User habitually checks their phone immediately upon coming home, despite knowing it contributes to mental buzzing"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2057,
+          "entry_id": "lb_00124",
+          "text": "User prefers to live in East Austin or Mueller neighborhoods"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.1961,
+          "entry_id": "lb_00236",
+          "text": "User prefers Mediterranean and Indian cuisines."
+        }
+      ],
+      "why_absent": "The store does not cover specific personal technology device preferences."
+    },
+    {
+      "domain": "Entertainment Experiences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "event",
+        "most"
+      ],
+      "max_cosine": 0.2867,
+      "note": "",
+      "question": "What was the most memorable concert or live music event you have attended?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2867,
+          "entry_id": "lb_00384",
+          "text": "User took a solo trip earlier this year that was really meaningful."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2378,
+          "entry_id": "lb_00386",
+          "text": "User took a solo trip earlier this year that was meaningful and helped prove to themselves they could go somewhere unfamiliar alone and enjoy it."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1979,
+          "entry_id": "lb_00389",
+          "text": "User took a meaningful solo trip earlier in the year that helped them reconnect with their ability to handle unfamiliar situations."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1944,
+          "entry_id": "lb_00286",
+          "text": "User has visited New York City a few times and loved it"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1758,
+          "entry_id": "lb_00345",
+          "text": "User is attending a conference in Tokyo in March 2026"
+        }
+      ],
+      "why_absent": "No information about Priya's attendance at concerts or live music events is present."
+    },
+    {
+      "domain": "Food Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "dining",
+        "restaurant",
+        "type"
+      ],
+      "max_cosine": 0.4311,
+      "note": "",
+      "question": "What is your favorite type of cuisine to eat when dining out, and which restaurant do you recommend?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.4311,
+          "entry_id": "lb_00236",
+          "text": "User prefers Mediterranean and Indian cuisines."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2662,
+          "entry_id": "lb_00028",
+          "text": "User cooks South Indian food regularly, including sambar, kootu, and some rice dishes"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2635,
+          "entry_id": "lb_00321",
+          "text": "User prefers scenic and low-key experiences in wine country."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.262,
+          "entry_id": "lb_00031",
+          "text": "User regularly cooks South Indian vegetarian dishes such as sambar, kootu, and rice dishes"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2363,
+          "entry_id": "lb_00335",
+          "text": "User is eating with Raj."
+        }
+      ],
+      "why_absent": "While dietary preferences are noted, there is no data on favorite dining-out cuisines or specific restaurant recommendations."
+    },
+    {
+      "domain": "Education and Skills",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any"
+      ],
+      "max_cosine": 0.2422,
+      "note": "",
+      "question": "Have you ever taken any art or music classes, and if so, what did you learn?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2422,
+          "entry_id": "lb_00066",
+          "text": "User does hot yoga about 4 times a week, usually evening classes around 6 or 7pm."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1982,
+          "entry_id": "lb_00389",
+          "text": "User took a meaningful solo trip earlier in the year that helped them reconnect with their ability to handle unfamiliar situations."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1977,
+          "entry_id": "lb_00129",
+          "text": "User has lived in a studio apartment for about two years."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1908,
+          "entry_id": "lb_00210",
+          "text": "User considers philosophical questions about identity and continuity in their engineering work."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1877,
+          "entry_id": "lb_00056",
+          "text": "User practices hot yoga about 4 times a week"
+        }
+      ],
+      "why_absent": "The memory store lacks details about Priya's extracurricular education or artistic skills."
+    }
+  ],
+  "threshold": 0.295
+}

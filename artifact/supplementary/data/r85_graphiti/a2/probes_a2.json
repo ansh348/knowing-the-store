@@ -1,0 +1,15 @@
+{
+ "MINI": {
+  "key": "e30cdb4b245f3fa8b7ca585679a71131866f4d737a73ee1e01032b4448fde4a0",
+  "n_lines": 5,
+  "served": "gpt-4.1-mini-2025-04-14",
+  "identifier_ok": true,
+  "tok_in": 537,
+  "tok_out": 44,
+  "usd": 0.0002852,
+  "user_chars": 2536,
+  "status": "OK",
+  "sample": "{\"answer\": \"Fatima Al-Rashidi is considering rebranding Al-Rashidi Interiors to FORM Studio to reflect an international and modern identity, but there is no current information about launching new products or brands.\"}",
+  "when": "2026-09-17T01:10:44"
+ }
+}

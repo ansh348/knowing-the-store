@@ -1,0 +1,740 @@
+% ICLR 2027 submission source -- R78 paper_v2 lineage. paper.tex is the frozen
+% fallback; this file is the ground-up rewrite under CLAIMS.md and STYLE_SPEC.md.
+% R104 (2026-09-13): this file, paper_v12.tex, is the R104 lineage: the body (abstract, Sections 1 to 10, the box)
+% written from the fixed argument of the v11-to-v12 pass (reviews/v12/REPORT.md section 3), the appendices rewritten
+% under the pass's presentation rules with every table carried verbatim from paper_v11.tex by line range
+% (reviews/v12/tools/build_v12.py); paper_v11.tex, the R103 close, is the version a reader compares this one against.
+% CLAIMS.md R104 block; reviews/v12/.
+% R105 (2026-09-14): paper_v13.tex, the presentation pass ordered by the author: the registration-frozen [MAIN] texts
+% move verbatim to the appendices with one body pointer each (registrations/AMENDMENT_MAIN_PLACEMENT.md, pending the
+% author's ratification); the pilot table, the caching-economics paragraph and the neutral-slice outcome sentence move to
+% the supplement with pointers; Remark 1's closing sentence is deleted; the tier arithmetic of Section 4 and the
+% enumeration of Section 8 are repaired. Built by reviews/v13/tools/build_v13.py; CLAIMS.md R105 block; reviews/v13/.
+% R106 (2026-09-14): paper_v14.tex, the pass on v13 from the eighth review (figures deferred): Table 1's intervals in labelled
+% columns; the names / counts / reads definition box; the edges-of-expectation and tally sentences deleted, the abstract and
+% Section 10 leaning on the post hoc fault decomposition (nb6_sweep/NUMBERS_NB6SWEEP.md) and the real-metadata collapse; the
+% smaller-models claim scoped to the counterfactual set with the 661 margins beside it; the literal-threshold lookup's answer
+% stage (registrations/ADDENDUM_DS_AMENDMENT_2.md) in Table 5 and the deployment rule; Section 7 led by the compression result;
+% H.2 a disclosure; Section 1's three failed predictions; Section 4's provenance sentence; the counted-state clause in the box;
+% the AI-use sentence plain; one name per object. Built by reviews/v14/tools/build_v14.py; CLAIMS.md R106 block; reviews/v14/.
+% R107 (2026-09-14): paper_v15.tex, the author's corrections to v14: the deployment rule reverted (the gated rules are the
+% registered policies; the literal rule descriptive); DS Amendment 3 (the answer stage with an instruction to treat tagged records as
+% not to be used) beside the recorded rows; the annotator sheet's fourth question; the author's abstract verbatim; the fault
+% decomposition stated once, in Section 7, with its instability; the padding results landed in Section 5 and D.2; Section 4's
+% protocol and 5%-provenance sentences; the box cut to three sentences. Built by reviews/v15/tools/build_v15.py; CLAIMS.md R107 block; reviews/v15/.
+% R109 (2026-09-14): paper_v17.tex, Section 8 rewritten around the active-duplicate result of the forensic audit of the answer
+% stage (reviews/DOWNSTREAM_AUDIT.md; NUMBERS_DS.md section 9); the write-path census and the detector note of F.10 extended;
+% DS Amendment 4 registered (fb4b2ca8; two predictions; not yet run). Built by reviews/v17/tools/build_v17.py; CLAIMS.md R109 block; reviews/v17/.
+% R108 (2026-09-14): paper_v16.tex, the author's pass from the ninth review: Proposition 1 and Appendix A to the supplement (Remark 1 stays);
+% the retrieved view under FR-Bank's own marks and Haiku 4.5 on the hybrid, retrieved-view and own-name monitors (ADDENDUM_RESP_AMENDMENT_1);
+% the licensed-record split of the 174; the box naming all three states and giving a structureless store names; the introduction in
+% prose; Table 1 without empty columns; Sections 7 and 8 shortened; Table 22's cells from the recorded bootstrap; T1 font encoding.
+% Built by reviews/v16/tools/build_v16.py; CLAIMS.md R108 block; reviews/v16/.
+% R110 (2026-09-15): paper_v18.tex, the pass from the tenth review (CC_PASS_v18; reviews/v18/). The body is written from
+% reviews/v18/OUTLINE.md and reviews/v18/CLAIMS.md with Finding 1 as a claim about readers (reviews/v18/READER_CLAIM.md; prose_scan
+% rule G, no allowlist): the thesis is the reader claim, the lookup is the ruler and never the headline, the abstract's numeral is the
+% model-minus-lookup gap, the names / counts / reads vocabulary returns to the glossary, and Section 1's findings are reordered.
+% New this pass: the count readers and per-state columns in Table 1 (reviews/NUMBERS_R110.md AUX-R110-A1-*), the tag baselines in
+% Table 2 (AUX-R110-A2-*), the single-draw note (AUX-R110-A3), the lookup at the store's own pool (AUX-R110-A4), Haiku 4.5 under the
+% store's own metadata (believed_h/NUMBERS_BELIEVED_H.md AUX-BH-*), the per-category increment moved within the triple
+% (r82_counterfactual/v2rcat/NUMBERS_V2RCAT.md AUX-V2RCAT-*), the retagging of the store's duplicates (ds_downstream/NUMBERS_DS.md
+% section 11, AUX-DS-A5-*), the depth check (section 12, AUX-DS-A6-*) and the composite (section 13, AUX-DS-A7-*); the run-coverage
+% table, the population list, Figures 1 and 2. Every ledger key is cited in a comment beside the sentence that prints its number.
+% Built by reviews/v18/tools/build_v18.py; CLAIMS.md R110 block; reviews/v18/.
+% Writing pass (2026-09-15, paper_v18_writing_prompt.md; program R111): Phase 0 the abstract v8; Phase 1 the structure and cuts (reviews/v18/tools/wp_phase1.py, every
+% edit asserted by line range): Section 8 split into 8 and 9, the population table, the six body tables rewritten to two decimals with short captions, the cuts of items 1 and 90.
+% Phase 2 the renames (wp_phase2.py); Phase 3 the new elements (wp_phase3.py): the contributions list, Figure 1 at the text width with routes A and B, the PN grid,
+% the notation box, the example as a listing, Figure 2's two-line caption, the per-state figure with Table 2 at the whole-set column, the cross-model table.
+% R112 (2026-09-15): paper_v19.tex, the v19 lineage created from the v18 close (Phase 4c of the writing pass, 5078fe5): the v18
+% sources copied by reviews/v19/tools/bump_v19.py; Phase 5 (appendix and references), the review-driven additions and Phase 6 land here.
+% Built by reviews/v19/tools/build_v19.py; CLAIMS.md R112 block; reviews/v19/.
+% R118 (2026-09-19): paper_v21.tex, the v21 lineage opened from the R116 commit (e439141; paper_v19.tex as gates_r116b.txt records it):
+% the v19 sources copied by reviews/v21/tools/bump_v21.py. The results of program R117 (E1 to E5) land here by ruling; v19 stays
+% as committed, the fallback build on OpenReview. Built by reviews/v21/tools/build_v21.py; CLAIMS.md R118 block; reviews/v21/.
+% R126 (2026-09-19): paper_v22.tex, the v22 lineage opened from the R124 close (ee6b735; paper_v21.tex as gates_r124_f.txt records it):
+% the v21 sources copied by reviews/v22/tools/bump_v22.py. The main text is the readable body of reviews/v22/inbox/ ported section by
+% section (reviews/v22/tools/port_v22.py); the statements, the references and the appendix are ours. v21 stays as committed, the
+% fallback build (tag fallback/v22-pre-restructure). Built by reviews/v22/tools/build_v22.py; CLAIMS.md R126 block; reviews/v22/.
+% R133 (2026-09-21): paper_v23.tex, the v23 lineage opened from the R131 close (b3cc631; paper_v22.tex as gates_r131_close_f.txt records it,
+% pdf sha256 ed94f96a): the v22 sources copied by reviews/v23/tools/bump_v23.py and edited by reviews/v23/tools/port_r133.py (the readability
+% pass: bookkeeping hedges to the appendix, the author's claim-narrowing swaps, Sections 4 to 8 rewritten; no number changes). v22 stays as
+% committed, the fallback build. Built by reviews/v23/tools/build_v23.py; CLAIMS.md R133 block; reviews/v23/.
+\documentclass{article}
+\usepackage{official_style/iclr2027/iclr2027_conference,times}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage[section,above]{placeins}   % Phase 4b: a pending float may sit above the next heading on its page; the barrier forces no page break
+\usepackage{float}
+\setlength{\textfloatsep}{12pt plus 2pt minus 2pt}   % R124 block F (2026-09-19): the page gate; the separation below a text float (the article default is 20pt), measured in reviews/v21/REPORT_R124.md
+\usetikzlibrary{arrows.meta,positioning,shapes.misc,fit,calc}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.18}
+%% R135 (2026-09-21), section 4: Figure 3's Okabe-Ito palette (one colour per reader; the marker shapes of R126 kept so the figure survives greyscale; the lookup stays black).
+\definecolor{figmini}{HTML}{E69F00}
+\definecolor{fighaiku}{HTML}{56B4E9}
+\definecolor{figluna}{HTML}{009E73}
+\definecolor{figsol}{HTML}{D55E00}
+\definecolor{figopus}{HTML}{0072B2}
+\definecolor{figcount}{HTML}{CC79A7}
+
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+% R126 (2026-09-19): the bold run-in claim sentences of the readable body (the theorem environment 'claim' was unused).
+\newcommand{\claim}[1]{\textbf{#1}}
+\newcommand{\present}{\textsc{present}}
+\newcommand{\absent}{\textsc{absent}}
+\newcommand{\pn}{\textsc{pn}}
+\newcommand{\trueidx}{\textsc{true}}
+\newcommand{\believed}{\textsc{believed}}
+%% R112 (2026-09-16), review-2 F6: the frozen DS paragraph of Appendix E.10 refers to the census table by its pre-R111 label; the alias is issued on Table tab:census through this macro, so no registered byte changes.
+\newcommand{\censusalias}{\label{tab:believed}}
+% Writing pass Phase 1: two-line table headers (item 55), right- and left-aligned.
+\newcommand{\hd}[2]{\begin{tabular}[b]{@{}r@{}}#1\\#2\end{tabular}}
+\newcommand{\hdl}[2]{\begin{tabular}[b]{@{}l@{}}#1\\#2\end{tabular}}
+% Writing pass Phase 3: the example summary is a listing (item 22), so Figure 2 stays Figure 2 (item 91).
+\newfloat{listing}{htbp}{lol}
+\floatname{listing}{Listing}
+\usetikzlibrary{patterns}
+
+\title{Knowing the Store: What a Memory Backend Must Write Down Before an Agent Can Read It}
+\author{Anonymous Authors}
+
+% \iclrfinalcopy
+\begin{document}
+\maketitle
+
+%%ABSTRACT%%
+\section{Introduction}\label{sec:intro}
+
+%% R126 (2026-09-19): Sections 1 to 10 and the box are the readable body of reviews/v22/inbox/v22_readable_main.tex, ported by
+%% reviews/v22/tools/port_v22.py (the conversions and every wording change are recorded there and in reviews/v22/REPORT_R126.md).
+An agent with a long memory must decide both whether its store covers a question and whether it holds something the agent must no longer use. A user plans a Saturday hike and then cancels it. If the agent retrieves the plan but misses the cancellation, it can answer from a plan that no longer applies. The relevant failure starts before the answer: the agent never asks for the record that would have stopped it.
+
+We call the cancelled plan a \emph{forbidding record}: a non-active record whose use would make the answer wrong. The cancellation is the evidence that marks it. The \emph{obligation judgment} asks, before retrieval, whether the store holds such a record. The \emph{coverage judgment} asks whether the store covers the question at all. The second is the feeling of knowing (FOK) of the metamemory literature \citep{hart1965,nelson1990,koriat1993}; the first we call negative-obligation knowledge (NOK), a term this paper introduces. Metamemory separates monitoring a state from controlling its use \citep{nelson1990}; we study monitoring only, how accurately a reader judges the store from what it exposes. Whether the judgment then changes what is retrieved or answered is control, which we leave to a later study.
+
+%% R129 A1 (2026-09-20): the MemoryAgentBench sentence in the author's words (R127b item 1's ruling).
+Most memory evaluations score what an agent retrieves or answers \citep{longmemeval,locomo,memoryagentbench,stale}. On MemoryAgentBench's multi-hop conflict-resolution questions, no memory mechanism exceeds $7\%$ accuracy and the best long-context model reaches $28\%$ \citep{memoryagentbench}. We instead ask what an agent can judge before retrieving any content, and what the store must expose for that judgment to be possible. A \emph{lifecycle summary} lists record counts by state and, per category, an attribute-name list with the values removed, so a store can expose it without disclosing stored values. In the hike example, the name can identify the plan without disclosing the plan itself. Figure~\ref{fig:framework} shows one such summary, abridged, beside a returned record with its tag.
+
+Our diagnostic study separates the information in the summary from the reader's use of it. The central test holds the question fixed while changing the store. We compare language models with a name lookup that makes no generative-model call. We remove names or counts, change which states are named, and test questions whose intent licenses old content. We then examine backend writing and retrieval.
+%% R137 (2026-09-22), Part B 5.2: the two thesis sentences rejoined to this paragraph (the figure floated between them and it); no rewording.
+%% R131 E (2026-09-20): the author's findings paragraph.
+%% R131 close, payer B2 (2026-09-20): the findings paragraph cut to its first sentence and the intent sentence (ABSTRACT SWAP B2); the deleted sentences' claims are in the bullets below and Section 5.
+In these tests, every reader we tried was held back by what the store had written down.
+Models differ further when the rubric states the intent rule.
+
+Our contributions are:
+\begin{itemize}\setlength{\itemsep}{1pt}
+%% R126 (2026-09-19), Phase 2.1: the author's three contributions, replacing the inbox's.
+\item A counterfactual test of judgments made before retrieval. One question is asked of three versions of a store that differ in one attribute ($444$ items), so question wording cannot predict the label, and readers that make no generative-model call serve as baselines.
+%% R131 E (2026-09-20): the author's second contribution.
+\item Evidence about what readers read. On the named state no model reliably exceeds a name lookup when the list is short, including under a control that holds counts and list length fixed, and one does on a $60$-name list with its length and counts fixed. The stronger readers' lead comes from the counts, which the two smaller models do not use.
+\item A census of what four backends write and what it costs a reader. Under FR-Bank's own metadata mini, Haiku and the lookup fall to $0.60$, $0.71$ and $0.59$, and at retrieval a fetch keyed on the names reaches as far without a model's judgment as with it.
+\end{itemize}
+
+\begin{figure}[t]
+\centering
+%% R137 (2026-09-22), Part B 5.1: Figure 1 as a rendered lifecycle summary in the old figure's footprint. The lines are transcribed by reviews/v23/tools/port_r137.py from the summary the E.1 excerpt
+%% was cut from (iclr2027_monitoring_submission/ARTIFACT/manifests/indexes_v2.json, frbank:david:FULL:BELIEVED; AUX-R86-INDEX-EXCERPT names the same summary), abridged to the LIFECYCLE TOTALS block,
+%% the HOBBIES_RECREATION name line and the superseded-names line; the tag route's record is e1_metamemory/backend_entries/frbank.json lb_00163 with FR-Bank's own tag (reviews/NUMBERS_R137.md AUX-R137-FIG1;
+%% r137_number_gate.py). The old schematic and its caption are in reviews/v23/REPORT_R137.md.
+\scriptsize
+\begin{minipage}[t]{0.625\linewidth}
+\textbf{Summary route}: read before retrieval\par\vspace{1pt}
+\fbox{\begin{minipage}{0.96\linewidth}\ttfamily
+LIFECYCLE TOTALS\\
+\hspace*{1em}\makebox[7em][l]{active}\makebox[2em][r]{377}\\
+\hspace*{1em}\makebox[7em][l]{superseded}\makebox[2em][r]{197}\\
+\hspace*{1em}\makebox[7em][l]{retracted}\makebox[2em][r]{1}\\
+\hspace*{1em}\makebox[7em][l]{expired}\makebox[2em][r]{49}\\
+ATTRIBUTE NAMES BY CATEGORY (names only; abridged)\\
+\hspace*{2ex}HOBBIES\_RECREATION: current\_reading\_list, hiking\_experience, hiking\_preference, ...\\
+ATTRIBUTE NAMES CARRYING SUPERSEDED CONTENT (abridged)\\
+\hspace*{2ex}..., exam\_date, ..., hiking\_preference, ...
+\end{minipage}}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.36\linewidth}
+\textbf{Tag route}: read on returned records\par\vspace{1pt}
+\fbox{\begin{minipage}{0.94\linewidth}\ttfamily
+hiking\_preference [superseded]\\
+``User prefers moderate difficulty hikes in the six to ten mile range.''
+\end{minipage}}
+\end{minipage}
+\caption{A lifecycle summary as a reader sees it: counts by state and attribute names with the values removed. The summary route reads this before retrieval; the tag route reads lifecycle tags on returned records. Section~\ref{sec:framework} defines both.}
+\label{fig:framework}
+\end{figure}
+
+\section{Related work}\label{sec:related}
+%% R126 (2026-09-19): the inbox's citation lists are subsets of v21's at the same sentences; the sixteen keys the inbox dropped are restored
+%% at those sentences (no new entry; reviews/v22/REPORT_R126.md lists them), so every entry of the bibliography stays cited.
+Metamemory's monitoring and control distinction (Section~\ref{sec:intro}) carries over to an external store \citep{koriat1996}: coverage concerns whether relevant content exists, while obligation concerns content whose use would make the answer wrong.
+
+Adaptive retrieval decides whether to query a static corpus using parametric knowledge or signals from generated content \citep{lewis2020,flare,mallen2023,selfrag,su2024}. Abstention work asks whether a question admits an answer \citep{rajpurkar2018,kamath2020,yang2024,abstentionbench}; calibration work evaluates confidence in an answer \citep{kadavath2022,lin2022,tian2023,xiong2024}. These decisions do not require a maintained account of an external store's lifecycle state. When they retrieve, they inspect a bounded view of content.
+
+Memory systems train or implement writing, updating and querying \citep{automem,supersede,packer2023,zhong2024,zhang2025survey,mem0,amem}. Benchmarks evaluate recalled answers, obsolete-memory use or conflict resolution after retrieval \citep{longmemeval,locomo,memora,memoryagentbench}, and StateMemBench scores whether an answer reflects the current or a superseded state \citep{statemembench}. STALE is the closest comparison: it asks whether an agent recognizes that an already retrieved memory is no longer valid \citep{stale}. Its CUPMem prototype revises and consolidates state at write time. We ask what that structure must expose to support a judgment before retrieval.
+
+%% R131 H3 (2026-09-20): the page payer, the paragraph trimmed to its first and last sentences (the citation keys of the two dropped sentences move to the first so every bibliography entry stays cited).
+Lifecycle information also appears in temporal databases, removal tombstones in replicated sets, and truth maintenance \citep{snodgrass1986,shapiro2011,doyle1979,zep,nissenbaum2004,cimemories,maini2024,gatemem,pmbench,hushbench,xu2024conflicts,longpre2021,dhingra2022}. Our target is the pre-retrieval judgment about the store, derived from the stored content's lifecycle state.
+
+\section{Framework}\label{sec:framework}
+%% R126 (2026-09-19): the notation box and Definition 2 (def:index) leave the body for Appendix E.1 (appendix_r126.py), so no symbol is orphaned.
+\paragraph{Records and intent.}
+Each stored record has content, a category, an attribute name, a lifecycle state, an optional event-time anchor and an ingest time \citep{fr}. The states are active, superseded, retracted and expired. We call the latter states \emph{non-active}. Expiry is derived from the event-time anchor, so an expired record can still carry an active tag. If several marks apply, labels take the first of retracted, superseded and expired. The question's intent is its time frame: current, upcoming, past or change. Intent determines whether old content is licensed for the answer. (Appendix~\ref{app:glossary})
+
+\paragraph{Labels and judgments.}
+\pn{} means present-negative: the store contains relevant content that must be suppressed for the answer to be right. We call a question with this label an \emph{obligation}. \present{} means licensed answering content exists and no relevant suppression obligation applies. \absent{} means neither exists. The obligation judgment estimates the probability of \pn{}; the coverage judgment estimates the probability of either \present{} or \pn{}.
+
+%% R126 (2026-09-19): Definition 1 and its grid restored from body_v21.tex, not retyped (the brief, Phase 1.3); addendum A4: 'under the question's intent' for 'under $i(q)$'.
+\begin{definition}[Intent-conditional coverage]\label{def:coverage}
+% C028
+$\mathrm{Cov}(q,S)\in\{\present,\absent,\pn\}$.
+% C029
+The label is \pn{} when $S$ contains content that must be suppressed for the answer to be right under the question's intent; \present{} denotes licensed answering content with no obligation that matters for the answer, and \absent{} denotes neither. The grid below gives the label by the state of the relevant record and the intent.
+% C030: the cases of Definition 1 as the grid of Table tab:pn-grid (items 20 and 94)
+\end{definition}
+
+%% Writing pass Phase 3 (2026-09-15), items 20 and 94: Definition 1's cases as a grid (unnumbered, so the result tables keep their numbers); the CHANGE intent is never PN
+%% because both the old and the new value are licensed; n.a. is a combination the definition does not assign because the question construction never produces it (Appendix E.3, where the intent is typed structurally).
+\begin{center}
+\scriptsize
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Relevant record & \textsc{current} & \textsc{upcoming} & \textsc{past} & \textsc{change} \\
+\midrule
+active, licensed & \present{} & \present{} & \present{} & \present{} \\
+superseded value & \pn{} & n.a. & n.a. & \present{} \\
+retracted plan & \pn{} & \pn{} & n.a. & n.a. \\
+expired event & \pn{} & \pn{} & \present{} & n.a. \\
+none & \absent{} & \absent{} & \absent{} & \absent{} \\
+\bottomrule
+\end{tabular}
+\par\vspace{1pt}{\scriptsize The \textsc{change} intent is never \pn{}, because both the old and the new value are licensed; n.a.\ means a combination the question construction never produces.}
+\end{center}
+
+For the Saturday hike, a still-valid plan supports \present{}; the cancelled plan creates \pn{} for a question about an upcoming hike; and no such record gives \absent{}. Intent prevents treating every old record as forbidden. A question about a change licenses both old and new values; a question about a past event can license the expired event.
+
+\paragraph{Names and counts.}
+The lifecycle summary is maintained outside query time. Its count table gives records by category and state, plus updates that superseded an entry. Its name map lists attributes by category and removes their values. A state is \emph{named} when its affected attributes are listed, and only \emph{counted} when the summary gives their count. The default summary names superseded content but only counts retracted and expired content. Cancelling the hike can therefore move a retraction count from zero to one without placing the hike's name in a retracted-name list. Naming that state exposes which attribute the count concerns.
+
+%% R126 addendum A5 (2026-09-20): the two summary-size sentences moved to Appendix E.3.
+The summary route reads this description before retrieval. The tag route reads returned records with their lifecycle tags. Masking non-active records removes the records whose tags could reveal an obligation. A rendered summary appears in Appendix~\ref{app:construction}.
+
+
+\section{Setup}\label{sec:setup}
+%% R139 S7 (2026-09-23): Figure 2's source moved here from the head of Section 5 (page 4's stretched gaps; the float lands at the top of page 4).
+\begin{figure}[t]
+\centering
+%% Writing pass Phase 4b (2026-09-15): Figure 2's source at the head of Section 5, the section that reads the triples (the author's option).
+%% R126 (2026-09-19): the inbox's row labels and caption; the cells are unchanged.
+%% R110: Figure 2, the worked example (CC_PASS_v18 section 3.4): two real triples of the counterfactual set (r82_counterfactual/cf2/cf_cell.json,
+%% cf_indexes.json v2 texts): cf2:alex:work_preference (supersession) and cf2:bruna:trip_plan:brazil_carnival (retraction); the summary lines
+%% that differ across the three versions, transcribed; the lookup's score under each version (reviews/NUMBERS_R110.md AUX-R110-FIG2). Labels \footnotesize (8 pt).
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{0.95}
+%% Phase 4c (L1): the row padding tightened and the outer columns widened so no cell wraps; the words are unchanged.
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.34\linewidth}>{\raggedright\arraybackslash}p{0.20\linewidth}>{\raggedright\arraybackslash}p{0.20\linewidth}>{\raggedright\arraybackslash}p{0.23\linewidth}@{}}
+\multicolumn{4}{@{}l}{\textbf{A retraction triple.} Question: \textit{What should I expect during my next Brazil Carnival trip?}}\\
+\toprule
+summary line & \present{} version & \pn{} version & \absent{} version\\
+\midrule
+retraction total & \texttt{0} & \texttt{1} & \texttt{0}\\
+category: entries, active, retracted & \texttt{55, 55, 0} & \texttt{56, 55, 1} & \texttt{54, 54, 0}\\
+category names & \texttt{..., trip\_plan} & \texttt{..., trip\_plan} & \texttt{...} (no \texttt{trip\_plan})\\
+superseded names & \texttt{(none)} & \texttt{(none)} & \texttt{(none)}\\
+name lookup score & $0.00$ & $0.00$ & $0.00$\\
+what changes & the trip is on & the trip is cancelled & no such record\\
+\bottomrule
+\end{tabular}
+\caption{The Carnival retraction triple: one question, three store versions differing in one attribute. Only the count distinguishes \present{} from \pn{}; \absent{} also loses the category name. The default name lookup reads the superseded list, so it ties the versions. Only changed summary lines are shown (the supersession triple is in Appendix~\ref{app:counterfactual}).}
+\label{fig:example}
+\end{figure}
+\paragraph{Stores and readers.}
+The main backends are FR-Bank, Mem0 and A-MEM \citep{fr,mem0,amem}; Graphiti supplies a further comparison on the same personas \citep{zep}. FR-Bank tags every entry but masks non-active records in its stock retrieval configuration. Its released evaluation reports a $5\%$ pass rate on retraction questions with that mask. Our tag-route experiments turn it off. (Appendix~\ref{app:census})
+
+The models are \mbox{GPT-4.1} mini, Haiku 4.5, \mbox{GPT-5.6} Luna, \mbox{GPT-5.6} Sol and Opus 5, abbreviated mini, Haiku, Luna, Sol and Opus in that order. We call the last three the stronger readers and the first two the smaller, by vendor tier. Kimi K3 (open weights) joins the cross-vendor comparison. Every model row in Table~\ref{tab:cf-main} averages five draws. Not every reader ran every condition, and run settings differ across rows; Appendix~\ref{app:laddertable} lists both.
+
+\paragraph{Labels and summaries.}
+%% R131 close, A1' (2026-09-20): the author's provenance sentences (FINAL RULINGS 1); the counts and the Graphiti construction verified in r131_close_gate.py; the paragraph in Appendix E.3 (A1'').
+The personas, their human-written manifests and sessions, the FR-Bank, Mem0 and A-MEM stores and part of the main question set come from the FR-Bank release (its LifecycleBench personas) \citep{fr}. Language models drafted our other questions, and we built the Graphiti graphs from the released FR-Bank records, with lifecycle fields removed. Those manifests provide the labels, with every \pn{} label checked by hand, and a presence control checks that targets are stored. Intent is fixed by question construction and is not supplied as a label to the reader. (Appendix~\ref{app:construction})
+
+A \emph{ground-truth summary} uses the manifest-based ground truth; a \emph{store-written summary} uses fields the backend exposes. The same renderer caps each list at fifteen names, a cap that binds only on store-written lists, which Section~\ref{sec:backends} reports capped and uncapped. For Mem0 and A-MEM we also render the manifest under each backend's constraints; this constrained rendering is ours and differs from a summary built from their own fields. (Appendix~\ref{app:inversion})
+
+\paragraph{Tests and comparisons.}
+The \emph{counterfactual set} asks each of its questions of three versions of one store. It contains $444$ items from $148$ questions, and the versions differ only in the target attribute. Questions are written before any version exists, so wording cannot predict which version carries the obligation; Figure~\ref{fig:example} shows the Carnival example. The \emph{full obligation set}, $661$ questions about the original stores and their variants, supports the backend and retrieval comparisons.
+
+Readers return probabilities under a fixed rubric. The scored step asks whether stale content about the question's target is present, which coincides with Definition~\ref{def:coverage}'s obligation on the counterfactual set, where every question has current or upcoming intent; Section~\ref{sec:intent} tests intent separately. A \emph{question-only} prompt omits the summary; a prompt \emph{with the summary} adds only that text. The \emph{name lookup} scores the largest cosine similarity between the question and a name on the superseded list, computed by a small sentence encoder, and makes no generative-model call. Under the summary naming all states, the same lookup reads all non-active names. (Appendix~\ref{app:baselines})
+
+%% R131 A (2026-09-20): the author's metric paragraph (the matched AUROC defined; the persona-interval sentence moves to Table 1's caption).
+We score separation by AUROC, the chance that a positive scores above a negative \citep{hanley1982}. Chance is $0.50$. The pooled AUROC over all items was fixed in advance. Because the counterfactual set fixes the question, we also report the matched AUROC, the share of triples in which the \pn{} version outscores the \present{} version, ties counting half. It is post hoc, and we say where the two metrics disagree. A difference is \emph{reliable} when both the item-level paired and persona-grouped bootstrap intervals exclude zero. We apply no multiplicity correction; reliable describes each of the $71$ comparisons the main text makes on its own. \emph{Within tolerance} means a point difference no greater than $0.05$; it does not establish equivalence, which we test separately at $0.05$ (Appendix~\ref{app:counterfactual}). A gain compares the same questions with and without the summary.
+
+Question-only probes can recover labels from the original question wording, which motivates paired comparisons and the counterfactual design. The predictions were written into the repository's commit history (Appendix~\ref{app:registration}), each before the run that tests it: $34$ of $106$ came out otherwise. They include follow-ups rather than a single plan fixed before all data collection. (Appendix~\ref{app:registration})
+%% R126: the count is the repository's (AUX-R124-TALLY 92 / 28 after E10; the inbox's 27 / 90 predates R124 block E); rule V bars 'registrations' in the main text, and
+%% 'registered with a bar' is allowed by the addendum's B2 (tools/prose_scan.py, the R126 collocation).
+
+
+\section{What readers read}\label{sec:counterfactual}\label{sec:readers}
+\subsection{Names and counts}\label{sec:names_counts}
+%% R131 B (2026-09-20): Section 5.1 in the author's words, whole (R125 Task 1's matched metric, AUX-CF2-R125-*; Task 5's E2 Amendment 1, AUX-CF2-R125-NC-*; reviews/NUMBERS_R131.md).
+\claim{Within a triple, a name or a count can identify the obligation.}
+The \pn{} version differs from its siblings in one attribute, so its category holds one more non-active record. A privileged count reader, handed the question's category that the models must infer, wins every retraction and expiry triple, and the name lookup wins $82$ of the $88$ supersession triples and loses none. For $26$ of $30$ retraction pairs and $15$ of $30$ expiry pairs that count starts at zero, so a reader can identify the store version without identifying the attribute. What differs across readers is which of the two they use.
+
+\claim{The two smaller models lose nothing when the counts are removed.}
+With every count deleted, mini and Haiku score as before (Table~\ref{tab:robust}); given the counts alone, they fall by $0.14$. Told that one more plan was cancelled without being told which, they cannot use it: on retraction and expiry both stay reliably below a count reader that merely guesses the category.
+
+\claim{The three stronger readers also read the counts.}
+On retraction and expiry, which the default summary only counts, none of Luna, Sol and Opus sits reliably below the guessing count reader (Figure~\ref{fig:perstate}). When the obligation's extra count moves to a sibling version with the names unchanged, all three follow it, while mini and Haiku show no reliable change (Table~\ref{tab:robust}). The falls are reliable on the matched metric and, pooled, on expiry for all three and on retraction for Opus alone. Cancelling the hike changes only a count in the default summary, and these three readers follow it. (Appendix~\ref{app:counterfactual})
+
+\begin{table}[t]
+%% R126 (2026-09-19): Table 1 in the inbox's layout (rows by reader, a named-states column, the Opus-minus-lookup difference row), our style; the
+%% values are v21's tab:cf-main rows (AUX-R122-K5-* for GPT-4.1 mini at five draws; AUX-CF2-*-V2/-V3; AUX-CF2-OAI-SOL-V2, -LUNA-V2; AUX-WP-B-PNPRESENT,
+%% -B-ORDERING; AUX-R110-A1-CR) and the difference row is AUX-R103-MARGIN (+0.0323, [+0.0060,+0.0617]; [+0.0077,+0.0608]).
+%% R131 D (2026-09-20): the 'PN vs PRESENT' column becomes 'matched', (W + T/2) / 148 from the printed W/T/L (AUX-CF2-R125-MATCHED-V2, -V3; reviews/NUMBERS_R131.md
+%% AUX-R131-TAB1); the hybrid reader's row (AUX-CF2-HYB-WHOLE 0.7865 [0.7488, 0.8234]; AUX-CF2-R125-MATCHED-V2 HYBRID_v2 0.8851, 114/34/0); the difference row prints
+%% both metrics at four decimals (AUX-R103-MARGIN; AUX-CF2-R125-OP5-V3 +0.0304 [-0.0068,+0.0643]; [-0.0038,+0.0648], not reliable).
+\caption{Counterfactual obligation AUROC: $88$ supersession, $30$ retraction and $30$ expiry positives. Brackets: persona intervals. The matched column is the within-triple comparison of \pn{} against \present{}, $(W+T/2)/148$; it and W/T/L are post hoc; persona intervals keep triples intact. Question-only AUROC is $0.50$. Differences at four decimals. (Appendix~\ref{app:counterfactual})}
+\label{tab:cf-main}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llrlrl@{}}
+\toprule
+Reader & Named states & AUROC & persona interval & matched & W/T/L \\
+\midrule
+mini$^{a}$ & superseded & $0.76$ & $[0.72,0.80]$ & $0.73$ & $100/15/33$ \\
+mini$^{a}$ & all & $0.83$ & $[0.79,0.87]$ & $0.90$ & $130/5/13$ \\
+Haiku & superseded & $0.76$ & $[0.71,0.80]$ & $0.78$ & $89/52/7$ \\
+Haiku & all & $0.88$ & $[0.84,0.91]$ & $0.91$ & $125/18/5$ \\
+Luna & superseded & $0.84$ & $[0.80,0.88]$ & $0.88$ & $129/2/17$ \\
+Luna & all & -- & -- & -- & -- \\
+Sol & superseded & $0.85$ & $[0.81,0.88]$ & $0.86$ & $126/2/20$ \\
+Sol & all & -- & -- & -- & -- \\
+Opus & superseded & $0.84$ & $[0.80,0.88]$ & $0.88$ & $128/3/17$ \\
+Opus & all & $0.91$ & $[0.88,0.94]$ & $0.94$ & $139/0/9$ \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{Readers with no generative-model call}}\\
+Name lookup & superseded & $0.77$ & $[0.72,0.81]$ & $0.78$ & $82/66/0$ \\
+Name lookup & all & $0.88$ & $[0.84,0.91]$ & $0.91$ & $121/27/0$ \\
+Count reader, guessed category (share) & superseded & $0.66$ & $[0.63,0.70]$ & $0.72$ & $65/83/0$ \\
+Count reader, given category (count) & superseded & $0.60$ & $[0.58,0.64]$ & $0.70$ & $60/88/0$ \\
+Lookup with one count feature & superseded & $0.79$ & $[0.75,0.82]$ & $0.89$ & $114/34/0$ \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}
+\begin{tabular}{@{}llrll@{}}
+\toprule
+All states named: Opus minus name lookup & metric & difference & item interval & persona interval \\
+\midrule
+ & pooled & $+0.0323$ & $[+0.0060,+0.0617]$ & $[+0.0077,+0.0608]$ \\
+ & matched & $+0.0304$ & $[-0.0068,+0.0643]$ & $[-0.0038,+0.0648]$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.97\linewidth}\scriptsize
+$^{a}$Mini uses the provider's default temperature here. Its earlier one-draw rows at temperature $0$ score $0.72$ and $0.80$; both draw count and temperature change (Table~\ref{tab:mini-k5}). The difference row's pooled comparison is from Table~\ref{tab:counterfactual}, its matched comparison from Table~\ref{tab:cf-matched}. A dash marks a condition the model did not run.
+\end{minipage}
+\end{table}
+
+\subsection{The lookup against the models}\label{sec:lookup}
+%% R131 C (2026-09-20): Section 5.2 in the author's words, whole but for the last paragraph (R125 Task 1 AUX-CF2-R125-*; Task 2 AUX-CF2-R125-T2-*; Task 4 AUX-CF2-R125-SB-*; the hybrid reader AUX-CF2-HYB-*; reviews/NUMBERS_R131.md).
+\claim{On the named state, no model reliably beats the lookup on the short list; on a long one, Sol does with list length and counts fixed.}
+Readers are compared within each triple on the matched metric, the pooled metric named where the two disagree. The default summary names only supersession; on its triples the lookup scores $0.97$, Opus is $0.01$ above it, Luna and Sol $0.01$ below, and only mini reliably below. Pooled, the lookup scores $0.92$ and the three $0.93$ to $0.94$, none reliably above it. Within $0.05$, Luna, Sol and Opus are equivalent to the lookup on the short list; mini sits reliably below it on the matched metric only; for Haiku neither holds (Appendix~\ref{app:counterfactual}). At that ceiling equivalence is the expected outcome; the sibling-name control is where a reader could show more, and none does. A sibling-name control removes list length and counts with a fourth store version listing a different attribute of the same category, with the same counts and as many names. The lookup and every model pick the \pn{} version over it at $0.88$ or higher, none reliably above the lookup (Opus, the closest, $+0.02$ $[-0.02,+0.07]$) and none shown equivalent, while meaningless tokens and the count reader sit near chance. %% R137 (2026-09-22), section 3.2: the long-list sentences at the end of the opening paragraph (the brief's first placement; its own paragraph would open with a numeral, q_scan Q-A);
+%% every number from cf_pad/results/cf_pad_printed.json through r137_number_gate.py (reviews/NUMBERS_R137.md AUX-R137-PRINTED). The ledger over the brief's wording: 'mini, Haiku and Opus lose
+%% as much or more' reads 'fall with it' (Haiku loses 0.15 against the lookup's 0.18); 'lead ... on both metrics' prints the matched lead too (0.09 to 0.10).
+Table~\ref{tab:robust} lists the checks we ran to break this result and what each removes. With the superseded-name list padded to $60$ names (Table~\ref{tab:robust}; the default lengths in Appendix~\ref{app:length}), the lookup loses $0.18$ and mini, Haiku and Opus fall with it, ending at or below it with no reliable difference. Luna and Sol lose $0.06$ to $0.07$ and lead the lookup by a reliable $0.13$ to $0.14$ pooled and $0.09$ to $0.10$ within triples. The pad is identical across a triple. The \pn{} list is one to three names longer than its siblings' in every supersession triple, on the short list and the padded one alike; a reader that outputs only the list length separates them in every such triple. The sibling-name control removed that cue on the short list. A sibling padded to the same length and counts, run on Luna, Sol and mini, removes that cue: the lookup scores $0.82$, and Sol leads it by a reliable $0.09$. Luna's lead holds on the pooled metric only ($0.11$, reliable) and not within triples ($+0.04$; Appendix~\ref{app:counterfactual}).
+
+%% R135 (2026-09-21): the robustness table (reviews/v23/src/robust_table.tex, written by reviews/v23/tools/robust_tex.py; every cell through r135_number_gate.py; reviews/NUMBERS_R135.md).
+%%ROBUST-TABLE%%
+
+%% R134 (2026-09-21): the paraphrase check's paragraph, the shorter form (the brief, section 4.2; the Branch B sentence of the author's RULING 2); every number from
+%% cf2_paraphrase/results/para_printed.json through r134_number_gate.py (reviews/NUMBERS_R134.md AUX-R134-PRINTED).
+\claim{The result survives rewording.}
+With the questions rewritten to share no content word with any name ($115$ pairs), the embedding lookup loses $0.02$ and the two smaller models lose more and sit below it (Table~\ref{tab:robust}). Luna, added later, edges $0.04$ above it on the pooled metric only. Under the all-states summary the lookup loses $0.06$ pooled and $0.02$ within triples.
+
+\claim{The stronger readers' lead comes from counts, and a count feature closes it within a question.}
+Across all $148$ triples Luna, Sol and Opus score a reliable $0.08$ to $0.10$ above the lookup. All of that comes from retraction and expiry, where the summary lists no name and the lookup ties every triple. A lookup given one more feature, the guessed category's share of non-active records, scores $0.89$ beside the three models' $0.86$ to $0.88$; equivalence within $0.05$ is neither shown nor excluded (Appendix~\ref{app:counterfactual}). Pooled across questions the gap remains: the same reader scores $0.79$ and the models stay a reliable $0.05$ to $0.06$ above it (Table~\ref{tab:cf-main}).
+
+\claim{Naming all states lifts every reader that ran it.}
+With the retracted and expired attributes listed too, every reader that ran the summary rises (Table~\ref{tab:cf-main}), Haiku by a reliable $0.35$ on the two states that were only counted. Opus's $0.03$ lead over the all-states lookup is reliable on the pooled metric and not on the matched one, so with every state named no model is reliably ahead on both.
+
+\begin{figure}[t]
+\centering
+%% R126 (2026-09-19), Phase 3: Figure 3 redrawn in pgfplots: two panels, states on the x axis, markers only, readers dodged within each state, one
+%% marker shape per reader, one legend column at the right, the chance line dashed. R131 D (2026-09-20): drawn on the matched metric from
+%% reviews/v22/src/fig3_data_matched.tex (fig3_data_r131.py, checked against reviews/r125/results/r125_matched.json; AUX-CF2-R125-FIG3), spliced by
+%% build_v22.py; the y axis reaches 0.35 (mini's expiry value is 0.40); the pooled version of the figure is in Appendix C.2 (fig:perstate-pooled).
+%%FIG3-DATA-MATCHED%%
+%% R135 (2026-09-21), section 4: the Okabe-Ito palette (the colours are defined in the preamble); the legend's content, the size and the layout unchanged; the height not raised (the ruling).
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1, horizontal sep=0.9cm, ylabels at=edge left, yticklabels at=edge left},
+    width=0.41\linewidth, height=4.5cm, xmin=-0.5, xmax=2.5, ymin=0.35, ymax=1.0,
+    xtick={0,1,2}, xticklabels={Supersession,Retraction,Expiry}, ytick={0.4,0.5,0.6,0.7,0.8,0.9,1.0},
+    ylabel={matched AUROC}, ylabel style={font=\scriptsize}, tick label style={font=\scriptsize}, title style={font=\scriptsize, yshift=-3pt},
+    ymajorgrids, grid style={black!12}, axis line style={black!60}, clip=false,
+    error bars/y dir=both, error bars/y explicit, error bars/error mark options={mark size=0.8pt, rotate=90}, error bars/error bar style={line width=0.35pt},
+    legend style={at={(1.04,0.5)}, anchor=west, font=\scriptsize, draw=none, fill=none, row sep=-1pt, nodes={anchor=west}}]
+  \nextgroupplot[title={only supersession named}]
+      \draw[dashed, black!60] (axis cs:-0.5,0.5) -- (axis cs:2.5,0.5);
+      \addplot[only marks, mark=*, mark size=2.0pt, figmini, xshift=-9pt] table[x=x, y=mini, y error plus=miniP, y error minus=miniM] {\figthreeSup};
+      \addplot[only marks, mark=square*, mark size=1.9pt, fighaiku, xshift=-6pt] table[x=x, y=haiku, y error plus=haikuP, y error minus=haikuM] {\figthreeSup};
+      \addplot[only marks, mark=triangle*, mark size=2.3pt, figluna, mark options={fill=white}, xshift=-3pt] table[x=x, y=luna, y error plus=lunaP, y error minus=lunaM] {\figthreeSup};
+      \addplot[only marks, mark=diamond*, mark size=2.3pt, figsol, mark options={fill=white}, xshift=0pt] table[x=x, y=sol, y error plus=solP, y error minus=solM] {\figthreeSup};
+      \addplot[only marks, mark=pentagon*, mark size=2.2pt, figopus, xshift=3pt] table[x=x, y=opus, y error plus=opusP, y error minus=opusM] {\figthreeSup};
+      \addplot[only marks, mark=x, mark size=2.6pt, black, thick, xshift=6pt] table[x=x, y=lookup, y error plus=lookupP, y error minus=lookupM] {\figthreeSup};
+      \addplot[only marks, mark=+, mark size=2.6pt, figcount, thick, xshift=9pt] table[x=x, y=count, y error plus=countP, y error minus=countM] {\figthreeSup};
+  \nextgroupplot[title={all states named}]
+      \draw[dashed, black!60] (axis cs:-0.5,0.5) -- (axis cs:2.5,0.5);
+      \addplot[only marks, mark=*, mark size=2.0pt, figmini, xshift=-9pt] table[x=x, y=mini, y error plus=miniP, y error minus=miniM] {\figthreeAll};
+      \addplot[only marks, mark=square*, mark size=1.9pt, fighaiku, xshift=-6pt] table[x=x, y=haiku, y error plus=haikuP, y error minus=haikuM] {\figthreeAll};
+      \addlegendimage{only marks, mark=triangle*, mark size=2.3pt, figluna, mark options={fill=white}}
+      \addlegendimage{only marks, mark=diamond*, mark size=2.3pt, figsol, mark options={fill=white}}
+      \addplot[only marks, mark=pentagon*, mark size=2.2pt, figopus, xshift=3pt] table[x=x, y=opus, y error plus=opusP, y error minus=opusM] {\figthreeAll};
+      \addplot[only marks, mark=x, mark size=2.6pt, black, thick, xshift=6pt] table[x=x, y=lookup, y error plus=lookupP, y error minus=lookupM] {\figthreeAll};
+      \addlegendimage{only marks, mark=+, mark size=2.6pt, figcount, thick}
+      \addlegendimage{dashed, black!60}
+      \legend{mini (five draws), Haiku, Luna (left only), Sol (left only), Opus, name lookup, count reader (left only), chance}
+\end{groupplot}
+\end{tikzpicture}
+\caption{Per-state matched AUROC on the counterfactual set (\pn{} against \present{} within the triple; post hoc); the dashed line is chance. Mini uses five draws, matching Table~\ref{tab:cf-main}. The count reader guesses the category. Luna and Sol ran only the default summary. Every value is in the tables of Appendix~\ref{app:counterfactual}; bars: persona-grouped 95\% intervals.}
+\label{fig:perstate}
+\end{figure}
+
+\subsection{When intent licenses old content}\label{sec:intent}
+\claim{The stated intent rule separates the stronger readers.}
+The supersession crossover holds the store fixed and changes the question from the current value to how it changed, using the default summary; the change question licenses the old content. When the rubric states that rule, Luna, Sol and Opus score $0.88$ to $0.99$, while mini and Haiku, told the same rule, score $0.48$ and $0.55$. A fixed cue list is not reliably below the best model ($+0.01$ $[-0.02,+0.03]$), so the test shows rule-following on cued questions and no general model advantage over deterministic intent handling.
+
+\claim{Only Opus lowers its judgment without being told.}
+Under the main-study rubric, mini, Haiku, Luna and Sol score $0.35$ to $0.44$ on the same contrast, against Opus's $0.90$, scoring the change question higher. The main-study rubric's scored step asks whether stale content is present, which is not the intent-conditional target of Definition~\ref{def:coverage}; the explicit-intent rubric asks the defined question.
+
+\claim{The explicit rule also separates readers on expired events.}
+The expiry crossover uses the summary naming all states; its past-event question licenses the record forbidden by the upcoming-event question. Under the explicit rule Luna, Sol and Opus score $0.92$ to $1.00$ and mini and Haiku do not separate the intents; Sol also separates them under the main-study rubric, at $0.64$. (Appendix~\ref{app:counterfactual})
+
+\section{What backends write}\label{sec:backends}\label{sec:inversion}\label{sec:stores}
+%% R126 addendum A3 (2026-09-20): the author's paragraph.
+\claim{The backends we tested omit or misstate the lifecycle information readers need.}
+FR-Bank marks far more entries stale than the reference does, yet retains obsolete assertions as active and conflates retraction with supersession. Mem0 overwrites at the retrieval surface we evaluated, and A-MEM's links resolve to no note in our integration (Table~\ref{tab:census}).
+
+\begin{table}[h]
+%% Writing pass Phase 1 (2026-09-15), items 52 and 90: three rows, one sentence per cell; the Conflate row's content is in Appendix E.9 as prose. AUX-SIDE-S2-CENSUS, AUX-BELIEVED-MEM0, the R86 census (A-MEM).
+%% R126 (2026-09-19): the upper part is v21's census, verbatim (the R124-F wording). The caption is the author's (addendum A2, 2026-09-20; Phase 2.4's sentence in its
+%% shorter form); the matching-threshold note, the conflation note and the two reproduction script names are in Appendix E.9.
+\caption{Backend census: counts of disagreement with the manifest-and-alignment reference, without hand adjudication or sampling intervals. Lower panel: coverage losses and rebuilt-summary scores. (Appendices~\ref{app:inversion} and~\ref{app:census})}
+\label{tab:census}\censusalias%% R112 (2026-09-16): the alias label for the frozen DS paragraph's reference in Appendix E.10 (review-2 F6)
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}p{0.10\linewidth}p{0.08\linewidth}p{0.80\linewidth}@{}}
+\toprule
+Backend & Mode & Census measurement \\
+\midrule
+FR-Bank & Over-mark & Of $18{,}936$ entries and $109$ events, marks $5{,}968$ entries stale against ${\sim}102$ in the reference (about $58\times$) and retains an active obsolete assertion after $72\%$ of supersession events, at the stored-versus-obsolete matching threshold of the census. \\
+Mem0 & Overwrite & At the retrieval surface we evaluated (\texttt{search} and \texttt{get\_all}, \texttt{mem0ai} 1.0.5), $12.7\%$ of $10{,}074$ entries expose \texttt{updated\_at} and nothing else, because \texttt{UPDATE} overwrites the record it exposes and ingestion is silently lossy; its per-memory history call was not consulted. \\
+A-MEM & Unresolved links & In our integration (\texttt{agentic-memory} 0.0.1), all $23{,}186$ link references across $11{,}319$ notes resolve to $0$ note identifiers, on the $40$ scored personas (not checked against the reference implementation). \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}
+%% R126 (2026-09-19): the lower panel (the inbox's Table 2), part of Section 6: AUX-WP-A1 / the constrained rendering's losses (Section 7 of v21:
+%% 0.10 on Mem0, 0.11 on A-MEM), the rebuilt name-bearing summary (0.88 Mem0, 0.90 A-MEM; AUX-SIDE-S1), the pooled 66 (GPT-5.6 Luna raw API 0.29;
+%% GPT-5.6 Sol through the agent harness 0.10, the $^{h}$ rows of Appendix E.7).
+\begin{tabular}{@{}p{0.70\linewidth}rr@{}}
+\toprule
+Coverage judgment, \mbox{GPT-4.1} mini & Mem0 & A-MEM \\
+\midrule
+loss under the constrained rendering & $0.10$ & $0.11$ \\
+score with the names rebuilt from ground truth & $0.88$ & $0.90$ \\
+\midrule
+\multicolumn{3}{@{}p{0.98\linewidth}@{}}{On the $66$ questions pooled across both stores, \mbox{GPT-5.6} Luna (raw API) loses $0.29$ and \mbox{GPT-5.6} Sol (agent tool) $0.10$.}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\claim{FR-Bank's metadata leave mini and the lookup near chance.}
+Given only what the store wrote, its capped summary on the full obligation set leaves mini at $0.60$ and the lookup at $0.59$. Haiku, at $0.71$, keeps more of its gain. Lifting the cap raises all three without restoring their ground-truth scores. The loss is no artifact of the obligations the alignment misses: on the ones it marks, the capped summary still costs each reader a reliable $0.13$ to $0.20$. The cancelled hike is only as findable as the store's own marks make it. (Appendix~\ref{app:census})
+
+%% R131 F (2026-09-20): the two Graphiti paragraphs merged in the author's words (AUX-R85-G10-*; R125 Task 3, AUX-CF2-R125-T3-GRAPHITI: retained 23 of 34, extraction misses 11; on the 23 mini capped 0.6920 against ground truth 0.8433, -0.1512 reliable).
+\claim{Graphiti writes part of what the judgment needs, and part of its loss is extraction.}
+Of the $34$ full-store obligations it could express, its invalidation marks $13$, and $11$ were never extracted into the graph. Retraction is inexpressible under this backend's mapping. On the $23$ obligations whose content the graph retains, mini's capped store-written score of $0.69$ against $0.84$ under ground truth is still a reliable loss. (Appendix~\ref{app:posthoc-graphiti})
+
+\claim{Mem0 and A-MEM lose coverage when their summaries lose names.}
+Under the constrained rendering mini loses coverage on both stores and Luna and Sol lose on the questions pooled across them (Table~\ref{tab:census}). Omitting or rewording the unavailable-field marker does not remove the Mem0 loss, and Luna loses $0.27$ to $0.34$ under every rendering tested through the raw API. Store-written summaries remain within tolerance of question only, and rebuilding name-bearing summaries from ground truth restores mini's coverage on both stores (Table~\ref{tab:census}). (Appendix~\ref{app:inversion})
+
+\section{What retrieval puts in view}\label{sec:downstream}\label{sec:routes}\label{sec:retrieval}
+%% R126 addendum A8 (2026-09-20): the author's merged paragraph (AUX-RESP-RETRIEVED, -HYBRID, AUX-RESP-A1-H45-HYBRID).
+\claim{The tagged view complements the summary for mini.}
+FR-Bank's cosine search returns records without a lifecycle mask on the full obligation set. Mini scores $0.73$ with the default summary, $0.69$ with the retrieved records and their ground-truth tags, and $0.83$ with both, a reliable gain over the summary alone. The two routes mirror each other by state: the view helps mini on expiry, where the summary only counts, and hurts it on supersession, where the summary names, both effects reliable (Table~\ref{tab:routes}). Haiku's score with both stays within tolerance of its summary alone; answers are not scored here (Appendix~\ref{app:resp}).
+
+%% R131 H2 (2026-09-20): the page payer, the author's paragraph.
+\claim{FR-Bank's own tags help mini despite over-marking.}
+With the store's native tags in place of the ground-truth ones, mini's view-only score rises reliably to $0.81$. Their precision over retrieved lines is only $0.14$, and the rise comes from their marking more of the forbidding records already in view. On Graphiti, native tags on the same retrieved edges bring no reliable improvement. (Appendix~\ref{app:posthoc-graphiti})
+
+\claim{The lifecycle fetch supplies the added reach, gated or not.}
+The fetch adds the store's non-active records for an attribute matched to the default name list. It raises reach from $0.52$ to $0.82$, the always-on fetch reaching as far as the model-gated one at the matched budget, and the name-lookup rule reaches the same level (Table~\ref{tab:reach}). Unmatched, the always-on fetch spends $1.20$ times the lines per question; truncated to the gated budget it loses licensed records, a reliable $0.04$.
+
+\begin{table}[h]
+%% R126 (2026-09-19): Table 3 in the inbox's wording, our style; the rows are v21's tab:reach (reviews/v21/tools/ledger_r123_tables.py from
+%% reviews/v21/results/reach_rows_r123.json, AUX-R123-REACH-ROWS, and reviews/r122/results/gate_reach.json, AUX-R122-GATE-*), unchanged.
+\caption{Reach on the full obligation set: forbidding records among the $104$ obligations, mean lines over the $661$ questions, and licensed records among the $174$ items. Matched rows interpolate between depths (Table~\ref{tab:gatereach}, Appendix~\ref{app:resp}). No answer is scored here.}
+\label{tab:reach}
+\centering\scriptsize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{0.9}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Policy & \hd{Forbidding records}{in view (of $104$)} & rate & \hd{Mean lines}{per question} & \hd{Licensed record}{in view (of $174$)} \\
+\midrule
+Top-five retrieval & $54$ & $0.52$ & $5.00$ & $0.37$ \\
+Similarity, matched budget & -- & $0.54$ & $5.43$ & $0.39$ \\
+Newest per attribute, matched & -- & $0.23$ & $5.43$ & $0.29$ \\
+Always-on fetch, matched & -- & $0.82$ & $5.43$ & $0.34$ \\
+Lookup rule & $85$ & $0.82$ & $5.46$ & $0.37$ \\
+Model rule & $85$ & $0.82$ & $5.43$ & $0.37$ \\
+Oracle & $99$ & $0.95$ & $5.33$ & $0.37$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%% R131 H1 (2026-09-20): the page payer, the author's paragraph.
+\claim{Keeping the newest record misses every tested retraction obligation.}
+At the matched budget, newest-per-attribute retrieval reaches none of the $26$ retraction obligations (Table~\ref{tab:reach}). The cancelled hike shows why: its cancellation is not the newest record of the attribute it cancels.
+
+\claim{Active copies complicate the use of tagged records.}
+Among $89$ scorable obligation views, $35$ contain an active line asserting the stale value. The answers the exploratory detector flags trace to these untagged copies even when the forbidding record is present and tagged (Appendix~\ref{app:resp}). An intervention that tags the copies uses the obligations' reference information, so it diagnoses where the copies sit rather than supplying a deployable repair. Propagating a lifecycle tag to matching lines under the same attribute changes $1$ of $452$ assembled views under the reference tags. Under FR-Bank's own tags the same rule changes $90$ views and fully tags $15$ of the $35$ duplicate views, but it also propagates falsely ($69$ of $2{,}333$ licensed active lines). But $187$ of $272$ audited stale lines sit under a different attribute key from their tagged twin, which leaves the write path. A reference-free repair for copies under other keys remains open. (Appendix~\ref{app:resp})
+
+\section{Replication and the coverage judgment}\label{sec:populations}\label{sec:replication}\label{sec:calibration}\label{sec:coverage}\label{sec:discrimination}\label{sec:calibration-secondary}\label{sec:ladder}
+The summary's obligation benefit replicates across vendors. On the shared questions every model whose question-only score varies gains $0.15$ to $0.45$ with it, Kimi included (Appendix~\ref{app:laddertable}).
+
+On the full obligation set, no completed model reliably beats the lookup. Haiku, Luna and Opus score $0.82$ to $0.83$ against the lookup's $0.75$, but their margins fail the persona-grouped interval. On the easier coverage questions, mini's advantage over the superseded-name lookup disappears against a lookup over the whole name map. (Appendix~\ref{app:baselines})
+
+\section{Limitations}\label{sec:limitations}\label{sec:discussion}
+The controlled labels come from synthetic stores because complete lifecycle ground truth is not observable in real user data. All tests use one bank of $40$ synthetic personas; transfer to a second benchmark is untested. We change no backend's write path: the counterfactual test bypasses writing, every intervention is read-side, and no backend tested here is shown maintaining the summary, so the reach results describe what a store as shipped affords a reader; a write-path intervention is a separate study. Retraction and expiry are small groups ($30$ counterfactual pairs each; $26$ and $15$ obligations on the full set), so state-specific results give only a direction. Counts cannot say which record changed: two stores that cancel different plans in one category can share a summary, so only a named state identifies the obligation.
+
+%% R131 G (2026-09-20): the author's two sentences added; the encoder sentence (it stays in E.8) and the reader-split sentence deleted.
+The matched metric and every comparison made with it are post hoc; pooled AUROC was fixed in advance. Sol did not run the names-and-counts ablation, and among the stronger readers only Opus ran the all-states summary. The paraphrase check covers $115$ of the $148$ questions, its rewrites are vaguer than the originals, and Opus ran it with one draw. On the $60$-name list Opus 5 ran one draw against its five-draw short-list row, and the two readers that keep their lead there are from one model family. The padded sibling control ran on Luna, Sol and mini; Haiku and Opus were not run on it. Luna's lead is not separated from the cue. The intent questions contain explicit cues; questions without them are untested.
+The counterfactual set itself was rerun under the explicit-intent rubric for mini and Luna only; the crossover ran every reader under both rubrics. (Appendix~\ref{app:counterfactual}) The $22$ obligations the manifest-to-record alignment does not mark are invisible to every summary (mini scores $0.52$ on them under ground truth).
+
+%% R131 G (2026-09-20): the author's sentence for the alignment sentence (R125 Task 3, AUX-CF2-R125-T3-FRBANK: the 22 unmarked; mini's ground-truth row on them 0.5210).
+Control is outside this paper's scope. The answer stage in Appendix~\ref{app:resp} is exploratory: its token detector can flag mentions rather than use, and its human validation is specified in Appendix~\ref{app:registration}, with its workbooks built and no label collected at submission; nothing here shows that a better judgment changes an answer. (Appendix~\ref{app:resp})
+
+\section{Conclusion}\label{sec:conclusion}
+%% R131 E (2026-09-20): sentences two to four in the author's words.
+In these monitoring tests, no reader we tried made up for what the store had failed to write down. On a named state no model reliably exceeds the name lookup on the short list; the three stronger readers are equivalent to it within $0.05$, though not under the control that fixes list length. When the questions are reworded only one stronger reader edges past it. On a $60$-name list Luna and Sol lead the lookup by $0.13$ to $0.14$ and, with list length and counts fixed, Sol by $0.09$; the other three fall with it. The stronger readers' lead comes from counts the smaller models do not use. Told the intent rule, only the stronger readers apply it, and a fixed cue list is not reliably below the best of them.
+
+Missing or wrong names weaken the summaries agents actually receive. At retrieval, the fetch keyed on the names reaches as far ungated as gated, at a budget trade-off.
+
+%% R126: the box as in the inbox (the R124-F wording); \label{main-text-end} inside the minipage as in v21 (page_census_v2 keys on it).
+\begin{center}
+\fbox{\begin{minipage}{0.97\linewidth}
+\textbf{For system builders.} Keep non-active records reachable with their lifecycle tags where deletion or access revocation is not required. Maintain names for superseded, retracted and expired content. Compare the name lookup with a model on the actual store: in our tests a model added something only on counted states, on explicit intent questions, on a $60$-name list and, pooled only, in two further conditions (Sections~\ref{sec:lookup} and~\ref{sec:backends}); whether the judgment pays for itself is unresolved (Appendix~\ref{app:utility-completion}).
+\end{minipage}}\label{main-text-end}
+\end{center}
+
+\subsection*{AI use statement}
+
+% C096 REPLACED under R86 item 1.1. Shape follows the ICLR 2027 template at
+% official_style/iclr2027/iclr2027_conference.tex:397-411: what was used, what was not
+% used, what was additionally used, the review sentence, the responsibility sentence.
+% The heading is unchanged: page_census.py keys MARKER to it (D-R86-3).
+% CL-C096 STRENGTH preserved: 33/12/11/10 exact, with the exclusion clause verbatim.
+% D-R86-8: the 33 are E1-NS slice-construction dispositions, disjoint from the 104. Basis
+% for the disjointness clause: ADDENDUM_R76 A1.1, item ids ns:* against frbank:*, zero
+% overlap. The bridge the R86 draft proposed does not exist and is not drawn.
+% D-R86-13: the 122 candidates and 18 unresolved rows are NOT printed. Neither has a
+% central-ledger row, and trace_scan_v13 accounts printed tokens against the ledger family
+% only, so printing them would fail the gate. Both stand in verify_pending.json and
+% verify_results.json for the artifact.
+%% R131 close, A2' (2026-09-20): the author's statement (MERGED RULINGS 2; the Graphiti clause as verified against r85_graphiti/render_episodes.py, FINAL RULINGS 1).
+We used generative AI tools to draft questions and for implementation.
+The persona bank, its sessions and the FR-Bank, Mem0 and A-MEM stores are a released synthetic benchmark \citep{fr}.
+Language models drafted the question sets we added, and Graphiti's language-model pipeline built our graphs from the released FR-Bank store's records, rendered one episode per session without its lifecycle fields; the benchmark's human-written manifests are the ground truth against which every label is scored.
+An AI assistant pre-read the paraphrase sheet and flagged rows with reasons; an author read every row and made every verdict.
+For the intent crossover's questions an AI model pre-flagged candidate failures before an author's check; every verdict was an author's, entered from a dictated list.
+Agentic coding assistants implemented the pipelines and executed the experimental protocols under human-directed designs with frozen decision rules, including the cross-vendor and question-only probes; independent implementations reproduced the computations and checked every printed number in both directions.
+
+Language models also assisted with experiment-design feedback, hypothesis refinement, data cleaning, discussion of results, drafting, and \LaTeX{} preparation.
+
+We have reviewed all AI-assisted work.
+Human researchers made every design and reporting decision and reviewed every reported claim.
+Every present-negative label in the main study was verified by hand from its constituent judgments, $248$ judgments yielding $104$ confirmed labels.
+A separate pass, the one that built the balanced $36$-question set, adjudicated $33$ further candidates by hand: $12$ were confirmed, $11$ were finalized as rejections, and $10$ were routed for further review; all ten are excluded from every reported population.
+The $12$ confirmed rows are the present-negative items of that $36$-question set, and none of the $33$ is among the $104$.
+
+We take responsibility for the final content of this work, including text, claims, and artifacts produced with the aid of generative AI.
+
+\subsection*{Reproducibility statement}
+
+% C097; R104: the statement names the anonymous artifact in place of "upon deanonymization" (the v11-to-v12 pass, section 6.3).
+% The author's item: once uploaded, the phrase "accompanying this submission" becomes "at \url{...}" with the anonymous link.
+The anonymous artifact accompanying this submission holds the frozen registrations with their hashes (commit hashes where a commit predates the run; Appendix~\ref{app:registration}), the prompts, the item manifests, the raw monitoring rows, the scoring scripts, the summary renderer and the backend versions; Appendix~\ref{app:repro} records the design and verification details needed to interpret them, and the supplementary material carries the instrument ledger, the deviation index, the prediction texts written before scoring, the per-provider run disclosures, and the map from the artifact's internal names to this paper's terms.
+
+\begin{thebibliography}{66}
+
+% R93 (2026-09-11): 35 entries added; every record verified in REFCHECK_V12.md (raw fetch in reviews/R93_refcheck_raw.json).
+
+\bibitem[Asai et al.(2024)]{selfrag}
+A.~Asai et al. Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection. \emph{ICLR}, 2024.
+
+\bibitem[Brier(1950)]{brier1950}
+G.~W. Brier. Verification of forecasts expressed in terms of probability. \emph{Monthly Weather Review}, 78(1):1--3, 1950.
+
+\bibitem[Cameron et al.(2008)]{cameron2008}
+A.~C. Cameron, J.~B. Gelbach, and D.~L. Miller. Bootstrap-based improvements for inference with clustered errors. \emph{Review of Economics and Statistics}, 90(3):414--427, 2008.
+
+\bibitem[Chao et al.(2026)]{stale}
+H.~Chao et al. STALE: Can LLM Agents Know When Their Memories Are No Longer Valid? \emph{arXiv preprint arXiv:2605.06527}, 2026.
+
+\bibitem[Chhikara et al.(2025)]{mem0}
+P.~Chhikara et al. Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory. \emph{arXiv preprint arXiv:2504.19413}, 2025.
+
+\bibitem[Dhingra et al.(2022)]{dhingra2022}
+B.~Dhingra et al. Time-Aware Language Models as Temporal Knowledge Bases. \emph{Transactions of the Association for Computational Linguistics}, 10:257--273, 2022.
+
+% R123 (2026-09-19): three references for the Related Work sentence on precedents of lifecycle tags; each VERIFIED against its Crossref DOI record on 2026-09-19 (reviews/NUMBERS_R123.md AUX-R123-REFS; tools/refcheck_v11.py OUT_OF_SCOPE).
+\bibitem[Doyle(1979)]{doyle1979}
+J.~Doyle. A truth maintenance system. \emph{Artificial Intelligence}, 12(3):231--272, 1979.
+
+\bibitem[Efron \& Tibshirani(1993)]{efron1993}
+B.~Efron and R.~J. Tibshirani. \emph{An Introduction to the Bootstrap}. Chapman \& Hall, 1993.
+
+\bibitem[Fan et al.(2026)]{statemembench}
+X.~Fan et al. Can Agent Memory Systems Track Evolving State? \emph{arXiv preprint arXiv:2608.19652}, 2026.
+
+\bibitem[Geifman \& El-Yaniv(2017)]{geifman2017}
+Y.~Geifman and R.~El-Yaniv. Selective Classification for Deep Neural Networks. \emph{NeurIPS}, 2017.
+
+\bibitem[Guo et al.(2017)]{guo2017}
+C.~Guo et al. On Calibration of Modern Neural Networks. \emph{ICML}, 2017.
+
+\bibitem[Hanley \& McNeil(1982)]{hanley1982}
+J.~A. Hanley and B.~J. McNeil. The meaning and use of the area under a receiver operating characteristic (ROC) curve. \emph{Radiology}, 143(1):29--36, 1982.
+
+\bibitem[Hart(1965)]{hart1965}
+J.~T. Hart. Memory and the feeling-of-knowing experience. \emph{Journal of Educational Psychology}, 56(4):208--216, 1965.
+
+% R75-F13: venue upgrade verified against the official record (iclr.cc/virtual/2026/poster/10010781; OpenReview DT7JyQC3MR; the authors' repository titles it an ICLR 2026 paper)
+\bibitem[Hu et al.(2026)]{memoryagentbench}
+Y.~Hu, Y.~Wang, and J.~McAuley. Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions. \emph{ICLR}, 2026.
+
+\bibitem[Jiang et al.(2023)]{flare}
+Z.~Jiang et al. Active Retrieval Augmented Generation. \emph{EMNLP}, 2023.
+
+\bibitem[Kadavath et al.(2022)]{kadavath2022}
+S.~Kadavath et al. Language Models (Mostly) Know What They Know. \emph{arXiv preprint arXiv:2207.05221}, 2022.
+
+\bibitem[Kamath et al.(2020)]{kamath2020}
+A.~Kamath, R.~Jia, and P.~Liang. Selective Question Answering under Domain Shift. \emph{ACL}, 2020.
+
+\bibitem[Kirichenko et al.(2025)]{abstentionbench}
+P.~Kirichenko, M.~Ibrahim, K.~Chaudhuri, and S.~J. Bell. AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions. \emph{arXiv preprint arXiv:2506.09038}, 2025.
+
+\bibitem[Koriat(1993)]{koriat1993}
+A.~Koriat. How do we know that we know? The accessibility model of the feeling of knowing. \emph{Psychological Review}, 100(4):609--639, 1993.
+
+\bibitem[Koriat \& Goldsmith(1996)]{koriat1996}
+A.~Koriat and M.~Goldsmith. Monitoring and control processes in the strategic regulation of memory accuracy. \emph{Psychological Review}, 103(3):490--517, 1996.
+
+\bibitem[Lewis et al.(2020)]{lewis2020}
+P.~Lewis et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. \emph{NeurIPS}, 2020.
+
+\bibitem[Lin et al.(2022)]{lin2022}
+S.~Lin, J.~Hilton, and O.~Evans. Teaching Models to Express Their Uncertainty in Words. \emph{Transactions on Machine Learning Research}, 2022.
+
+\bibitem[Liu \& Gabriel(2026)]{pmbench}
+G.~Liu and S.~Gabriel. PM-Bench: Evaluating Prospective Memory in LLM Agents. \emph{arXiv preprint arXiv:2607.12385}, 2026.
+
+\bibitem[Longpre et al.(2021)]{longpre2021}
+S.~Longpre et al. Entity-Based Knowledge Conflicts in Question Answering. \emph{EMNLP}, 2021.
+
+\bibitem[Maharana et al.(2024)]{locomo}
+A.~Maharana et al. Evaluating Very Long-Term Conversational Memory of LLM Agents. \emph{ACL}, 2024.
+
+\bibitem[Maini et al.(2024)]{maini2024}
+P.~Maini et al. TOFU: A Task of Fictitious Unlearning for LLMs. \emph{COLM}, 2024.
+
+\bibitem[Mallen et al.(2023)]{mallen2023}
+A.~Mallen et al. When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories. \emph{ACL}, 2023.
+
+\bibitem[Mireshghallah et al.(2025)]{cimemories}
+N.~Mireshghallah et al. CIMemories: A Compositional Benchmark for Contextual Integrity of Persistent Memory in LLMs. \emph{arXiv preprint arXiv:2511.14937}, 2025.
+
+\bibitem[Mullick \& T{\"u}z{\"u}n(2026)]{fr}
+A.~Mullick and E.~T{\"u}z{\"u}n. Fortunate Recall: Ontology-Driven Memory Lifecycle Management for Persistent Coherence in LLMs. \emph{arXiv preprint arXiv:2609.10413}, 2026.
+
+\bibitem[Nelson \& Narens(1990)]{nelson1990}
+T.~O. Nelson and L.~Narens. Metamemory: a theoretical framework and new findings. \emph{Psychology of Learning and Motivation}, 26:125--173, 1990.
+
+\bibitem[Nissenbaum(2004)]{nissenbaum2004}
+H.~Nissenbaum. Privacy as contextual integrity. \emph{Washington Law Review}, 79(1):119--158, 2004.
+
+\bibitem[Packer et al.(2023)]{packer2023}
+C.~Packer et al. MemGPT: Towards LLMs as Operating Systems. \emph{arXiv preprint arXiv:2310.08560}, 2023.
+
+\bibitem[Patel(2026)]{supersede}
+V.~Patel. Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents. \emph{arXiv preprint arXiv:2606.27472}, 2026.
+
+\bibitem[Platt(2000)]{platt2000}
+J.~C. Platt. Probabilities for SV Machines. In \emph{Advances in Large-Margin Classifiers}, pages 61--74. MIT Press, 2000.
+
+\bibitem[Rajpurkar et al.(2018)]{rajpurkar2018}
+P.~Rajpurkar, R.~Jia, and P.~Liang. Know What You Don't Know: Unanswerable Questions for SQuAD. \emph{ACL}, 2018.
+
+\bibitem[Rasmussen et al.(2025)]{zep}
+P.~Rasmussen et al. Zep: A Temporal Knowledge Graph Architecture for Agent Memory. \emph{arXiv preprint arXiv:2501.13956}, 2025.
+
+\bibitem[Ren et al.(2026)]{gatemem}
+Z.~Ren et al. GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents. \emph{arXiv preprint arXiv:2606.18829}, 2026.
+
+\bibitem[Shapiro et al.(2011)]{shapiro2011}
+M.~Shapiro, N.~Pregui\c{c}a, C.~Baquero, and M.~Zawirski. Conflict-free replicated data types. In \emph{Stabilization, Safety, and Security of Distributed Systems (SSS)}, LNCS, pages 386--400. Springer, 2011.
+
+\bibitem[Snodgrass \& Ahn(1986)]{snodgrass1986}
+R.~Snodgrass and I.~Ahn. Temporal databases. \emph{Computer}, 19(9):35--42, 1986.
+
+\bibitem[Su et al.(2024)]{su2024}
+W.~Su et al. DRAGIN: Dynamic Retrieval Augmented Generation based on the Real-time Information Needs of Large Language Models. \emph{ACL}, 2024.
+
+\bibitem[Tian et al.(2023)]{tian2023}
+K.~Tian et al. Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback. \emph{EMNLP}, 2023.
+
+\bibitem[Uddin et al.(2026)]{memora}
+M.~N. Uddin et al. From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents. \emph{arXiv preprint arXiv:2604.20006}, 2026.
+
+\bibitem[Wu et al.(2025)]{longmemeval}
+D.~Wu et al. LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory. \emph{ICLR}, 2025.
+
+\bibitem[Wu et al.(2026)]{automem}
+S.~Wu et al. AutoMem: Automated Learning of Memory as a Cognitive Skill. \emph{arXiv preprint arXiv:2607.01224}, 2026.
+
+\bibitem[Xiong et al.(2024)]{xiong2024}
+M.~Xiong et al. Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs. \emph{ICLR}, 2024.
+
+\bibitem[Xu et al.(2024)]{xu2024conflicts}
+R.~Xu et al. Knowledge Conflicts for LLMs: A Survey. \emph{EMNLP}, 2024.
+
+\bibitem[Xu et al.(2025)]{amem}
+W.~Xu et al. A-MEM: Agentic Memory for LLM Agents. \emph{NeurIPS}, 2025.
+
+\bibitem[Xu et al.(2026)]{hushbench}
+L.~Xu et al. HUSH-Bench: Measuring Memory-Use Boundaries for Sensitive History in Conversational Agents. \emph{arXiv preprint arXiv:2606.06055}, 2026.
+
+\bibitem[Yang et al.(2024)]{yang2024}
+Y.~Yang et al. Alignment for Honesty. \emph{NeurIPS}, 2024.
+
+\bibitem[Zadrozny \& Elkan(2002)]{zadrozny2002}
+B.~Zadrozny and C.~Elkan. Transforming classifier scores into accurate multiclass probability estimates. \emph{KDD}, 2002.
+
+\bibitem[Zhang et al.(2025)]{zhang2025survey}
+Z.~Zhang et al. A Survey on the Memory Mechanism of Large Language Model-based Agents. \emph{ACM Transactions on Information Systems}, 43(6):1--47, 2025.
+
+\bibitem[Zhong et al.(2024)]{zhong2024}
+W.~Zhong et al. MemoryBank: Enhancing Large Language Models with Long-Term Memory. \emph{AAAI}, 2024.
+
+\end{thebibliography}
+
+\appendix

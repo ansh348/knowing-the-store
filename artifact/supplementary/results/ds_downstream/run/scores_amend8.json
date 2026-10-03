@@ -1,0 +1,582 @@
+{
+ "P-L1": {
+  "holds": false,
+  "items_fully_tagged": 0,
+  "of": 35,
+  "text": "P-L1 FAILS: 0 of 35 duplicate views are fully tagged by propagation."
+ },
+ "P-L2": {
+  "holds": true,
+  "share": 0.0013,
+  "text": "P-L2 HOLDS: propagation tags 0.13% of the licensed items' active lines under ground-truth tags."
+ },
+ "P-L3": {
+  "evaluable": false,
+  "holds": false,
+  "text": "P-L3 FAILS: under the model rule the flagged stale rate moves from its recorded value to the same value, because under ground-truth tags the rule changed one view of 452 (a licensed item's view, no obligation view), so no re-answer under the model rule exists and the rate is unchanged."
+ },
+ "P-L4": {
+  "descriptive": true,
+  "evaluable": false,
+  "text": "P-L4: not defined; the reduction is zero under both the model rule and top-five retrieval (no obligation view changed under ground-truth tags)."
+ },
+ "P-L5": {
+  "holds": false,
+  "share": 0.0296,
+  "text": "P-L5 FAILS: under the store's own tags false propagation is 2.96%, at or under 5%."
+ },
+ "answerers": {
+  "H45": {
+   "by_source_policy": {
+    "gt/ALWAYS": {
+     "answered_after": 0,
+     "answered_before": 0,
+     "correct_after": 0,
+     "correct_before": 0,
+     "licensed_views": 1,
+     "obligation_views": 0,
+     "paired_stale_gold": null,
+     "stale_gold_after": 0,
+     "stale_gold_before": 0,
+     "stale_hi_after": 0,
+     "stale_hi_before": 0,
+     "stale_rate_after": null,
+     "stale_rate_before": null,
+     "views": 1
+    },
+    "gt/MODEL": {
+     "answered_after": 0,
+     "answered_before": 0,
+     "correct_after": 0,
+     "correct_before": 0,
+     "licensed_views": 1,
+     "obligation_views": 0,
+     "paired_stale_gold": null,
+     "stale_gold_after": 0,
+     "stale_gold_before": 0,
+     "stale_hi_after": 0,
+     "stale_hi_before": 0,
+     "stale_rate_after": null,
+     "stale_rate_before": null,
+     "views": 1
+    },
+    "gt/ORACLE": {
+     "answered_after": 0,
+     "answered_before": 0,
+     "correct_after": 0,
+     "correct_before": 0,
+     "licensed_views": 1,
+     "obligation_views": 0,
+     "paired_stale_gold": null,
+     "stale_gold_after": 0,
+     "stale_gold_before": 0,
+     "stale_hi_after": 0,
+     "stale_hi_before": 0,
+     "stale_rate_after": null,
+     "stale_rate_before": null,
+     "views": 1
+    },
+    "gt/all": {
+     "answered_after": 0,
+     "answered_before": 0,
+     "correct_after": 0,
+     "correct_before": 0,
+     "licensed_views": 1,
+     "obligation_views": 0,
+     "paired_stale_gold": null,
+     "stale_gold_after": 0,
+     "stale_gold_before": 0,
+     "stale_hi_after": 0,
+     "stale_hi_before": 0,
+     "stale_rate_after": null,
+     "stale_rate_before": null,
+     "views": 1
+    },
+    "own/ALWAYS": {
+     "answered_after": 2,
+     "answered_before": 7,
+     "correct_after": 7,
+     "correct_before": 11,
+     "licensed_views": 20,
+     "obligation_views": 8,
+     "paired_stale_gold": {
+      "cluster": [
+       -0.5,
+       0.0
+      ],
+      "delta": -0.125,
+      "item": [
+       -0.375,
+       0.0
+      ],
+      "n": 8,
+      "n_boot": 10000,
+      "n_clusters": 5,
+      "seed": 42
+     },
+     "stale_gold_after": 0,
+     "stale_gold_before": 1,
+     "stale_hi_after": 0,
+     "stale_hi_before": 0,
+     "stale_rate_after": 0.0,
+     "stale_rate_before": 0.1429,
+     "views": 28
+    },
+    "own/MODEL": {
+     "answered_after": 5,
+     "answered_before": 12,
+     "correct_after": 7,
+     "correct_before": 9,
+     "licensed_views": 20,
+     "obligation_views": 14,
+     "paired_stale_gold": {
+      "cluster": [
+       -0.5455,
+       0.1538
+      ],
+      "delta": -0.2143,
+      "item": [
+       -0.5,
+       0.0714
+      ],
+      "n": 14,
+      "n_boot": 10000,
+      "n_clusters": 6,
+      "seed": 42
+     },
+     "stale_gold_after": 3,
+     "stale_gold_before": 6,
+     "stale_hi_after": 3,
+     "stale_hi_before": 5,
+     "stale_rate_after": 0.6,
+     "stale_rate_before": 0.5,
+     "views": 34
+    },
+    "own/ORACLE": {
+     "answered_after": 5,
+     "answered_before": 15,
+     "correct_after": 7,
+     "correct_before": 11,
+     "licensed_views": 20,
+     "obligation_views": 20,
+     "paired_stale_gold": {
+      "cluster": [
+       -0.3,
+       0.1
+      ],
+      "delta": -0.1,
+      "item": [
+       -0.3,
+       0.1
+      ],
+      "n": 20,
+      "n_boot": 10000,
+      "n_clusters": 10,
+      "seed": 42
+     },
+     "stale_gold_after": 2,
+     "stale_gold_before": 4,
+     "stale_hi_after": 1,
+     "stale_hi_before": 2,
+     "stale_rate_after": 0.4,
+     "stale_rate_before": 0.2667,
+     "views": 40
+    },
+    "own/all": {
+     "answered_after": 10,
+     "answered_before": 25,
+     "correct_after": 7,
+     "correct_before": 11,
+     "licensed_views": 22,
+     "obligation_views": 31,
+     "paired_stale_gold": {
+      "cluster": [
+       -0.4194,
+       0.0
+      ],
+      "delta": -0.1935,
+      "item": [
+       -0.3548,
+       -0.0323
+      ],
+      "n": 31,
+      "n_boot": 10000,
+      "n_clusters": 11,
+      "seed": 42
+     },
+     "stale_gold_after": 4,
+     "stale_gold_before": 10,
+     "stale_hi_after": 3,
+     "stale_hi_before": 7,
+     "stale_rate_after": 0.4,
+     "stale_rate_before": 0.4,
+     "views": 53
+    }
+   },
+   "failed": 0,
+   "rows": 107,
+   "served": [
+    "claude-haiku-4-5-20251001"
+   ]
+  },
+  "MINI": {
+   "by_source_policy": {
+    "gt/ALWAYS": {
+     "answered_after": 0,
+     "answered_before": 0,
+     "correct_after": 0,
+     "correct_before": 0,
+     "licensed_views": 1,
+     "obligation_views": 0,
+     "paired_stale_gold": null,
+     "stale_gold_after": 0,
+     "stale_gold_before": 0,
+     "stale_hi_after": 0,
+     "stale_hi_before": 0,
+     "stale_rate_after": null,
+     "stale_rate_before": null,
+     "views": 1
+    },
+    "gt/MODEL": {
+     "answered_after": 0,
+     "answered_before": 0,
+     "correct_after": 0,
+     "correct_before": 0,
+     "licensed_views": 1,
+     "obligation_views": 0,
+     "paired_stale_gold": null,
+     "stale_gold_after": 0,
+     "stale_gold_before": 0,
+     "stale_hi_after": 0,
+     "stale_hi_before": 0,
+     "stale_rate_after": null,
+     "stale_rate_before": null,
+     "views": 1
+    },
+    "gt/ORACLE": {
+     "answered_after": 0,
+     "answered_before": 0,
+     "correct_after": 0,
+     "correct_before": 0,
+     "licensed_views": 1,
+     "obligation_views": 0,
+     "paired_stale_gold": null,
+     "stale_gold_after": 0,
+     "stale_gold_before": 0,
+     "stale_hi_after": 0,
+     "stale_hi_before": 0,
+     "stale_rate_after": null,
+     "stale_rate_before": null,
+     "views": 1
+    },
+    "gt/all": {
+     "answered_after": 0,
+     "answered_before": 0,
+     "correct_after": 0,
+     "correct_before": 0,
+     "licensed_views": 1,
+     "obligation_views": 0,
+     "paired_stale_gold": null,
+     "stale_gold_after": 0,
+     "stale_gold_before": 0,
+     "stale_hi_after": 0,
+     "stale_hi_before": 0,
+     "stale_rate_after": null,
+     "stale_rate_before": null,
+     "views": 1
+    },
+    "own/ALWAYS": {
+     "answered_after": 2,
+     "answered_before": 7,
+     "correct_after": 7,
+     "correct_before": 11,
+     "licensed_views": 20,
+     "obligation_views": 8,
+     "paired_stale_gold": {
+      "cluster": [
+       -0.5,
+       0.0
+      ],
+      "delta": -0.125,
+      "item": [
+       -0.375,
+       0.0
+      ],
+      "n": 8,
+      "n_boot": 10000,
+      "n_clusters": 5,
+      "seed": 42
+     },
+     "stale_gold_after": 0,
+     "stale_gold_before": 1,
+     "stale_hi_after": 0,
+     "stale_hi_before": 0,
+     "stale_rate_after": 0.0,
+     "stale_rate_before": 0.1429,
+     "views": 28
+    },
+    "own/MODEL": {
+     "answered_after": 7,
+     "answered_before": 12,
+     "correct_after": 7,
+     "correct_before": 9,
+     "licensed_views": 20,
+     "obligation_views": 14,
+     "paired_stale_gold": {
+      "cluster": [
+       -0.5714,
+       0.0
+      ],
+      "delta": -0.2857,
+      "item": [
+       -0.5,
+       -0.0714
+      ],
+      "n": 14,
+      "n_boot": 10000,
+      "n_clusters": 6,
+      "seed": 42
+     },
+     "stale_gold_after": 3,
+     "stale_gold_before": 7,
+     "stale_hi_after": 2,
+     "stale_hi_before": 6,
+     "stale_rate_after": 0.4286,
+     "stale_rate_before": 0.5833,
+     "views": 34
+    },
+    "own/ORACLE": {
+     "answered_after": 8,
+     "answered_before": 17,
+     "correct_after": 7,
+     "correct_before": 11,
+     "licensed_views": 20,
+     "obligation_views": 20,
+     "paired_stale_gold": {
+      "cluster": [
+       -0.5,
+       -0.0526
+      ],
+      "delta": -0.25,
+      "item": [
+       -0.45,
+       -0.1
+      ],
+      "n": 20,
+      "n_boot": 10000,
+      "n_clusters": 10,
+      "seed": 42
+     },
+     "stale_gold_after": 1,
+     "stale_gold_before": 6,
+     "stale_hi_after": 0,
+     "stale_hi_before": 4,
+     "stale_rate_after": 0.125,
+     "stale_rate_before": 0.3529,
+     "views": 40
+    },
+    "own/all": {
+     "answered_after": 14,
+     "answered_before": 27,
+     "correct_after": 7,
+     "correct_before": 11,
+     "licensed_views": 22,
+     "obligation_views": 31,
+     "paired_stale_gold": {
+      "cluster": [
+       -0.5714,
+       -0.0714
+      ],
+      "delta": -0.3226,
+      "item": [
+       -0.4839,
+       -0.1613
+      ],
+      "n": 31,
+      "n_boot": 10000,
+      "n_clusters": 11,
+      "seed": 42
+     },
+     "stale_gold_after": 3,
+     "stale_gold_before": 13,
+     "stale_hi_after": 2,
+     "stale_hi_before": 10,
+     "stale_rate_after": 0.2143,
+     "stale_rate_before": 0.4815,
+     "views": 53
+    }
+   },
+   "failed": 0,
+   "rows": 107,
+   "served": [
+    "gpt-4.1-mini"
+   ]
+  }
+ },
+ "diagnosis_dup35": {
+  "audited_active_stale_line_instances": 272,
+  "no_tagged_line_of_same_attribute_in_view": 187,
+  "same_attribute_plain_coverage_0.50_to_0.80": 40,
+  "same_attribute_plain_coverage_at_least_0.80": 0,
+  "same_attribute_plain_coverage_below_0.50": 45
+ },
+ "frozen_at": "177697a",
+ "lock": {
+  "census": {
+   "gt": {
+    "primary": {
+     "changed": 1,
+     "changed_ALWAYS": 1,
+     "changed_MODEL": 1,
+     "changed_ORACLE": 1,
+     "lines": 1,
+     "second_pass_would_change": 0,
+     "unknown_age": 0,
+     "unresolvable_pairs": 49,
+     "views": 452
+    },
+    "secondary": {
+     "changed": 1,
+     "changed_ALWAYS": 1,
+     "changed_MODEL": 1,
+     "changed_ORACLE": 1,
+     "lines": 1,
+     "second_pass_would_change": 0,
+     "unknown_age": 0,
+     "unresolvable_pairs": 49,
+     "views": 452
+    }
+   },
+   "own": {
+    "primary": {
+     "changed": 90,
+     "changed_ALWAYS": 28,
+     "changed_MODEL": 34,
+     "changed_ORACLE": 40,
+     "lines": 117,
+     "second_pass_would_change": 4,
+     "unknown_age": 0,
+     "unresolvable_pairs": 189,
+     "views": 452
+    },
+    "secondary": {
+     "changed": 123,
+     "changed_ALWAYS": 34,
+     "changed_MODEL": 46,
+     "changed_ORACLE": 58,
+     "lines": 152,
+     "second_pass_would_change": 5,
+     "unknown_age": 0,
+     "unresolvable_pairs": 189,
+     "views": 452
+    }
+   }
+  },
+  "dup35": {
+   "gt/primary": {
+    "items": 35,
+    "items_fully_tagged": 0,
+    "t4_items": 35,
+    "t4_items_fully_tagged": 0,
+    "t4_views": 72,
+    "t4_views_fully_tagged": 0,
+    "views": 158,
+    "views_fully_tagged": 0
+   },
+   "gt/secondary": {
+    "items": 35,
+    "items_fully_tagged": 0,
+    "t4_items": 35,
+    "t4_items_fully_tagged": 0,
+    "t4_views": 72,
+    "t4_views_fully_tagged": 0,
+    "views": 158,
+    "views_fully_tagged": 0
+   },
+   "own/primary": {
+    "items": 35,
+    "items_fully_tagged": 15,
+    "t4_items": 35,
+    "t4_items_fully_tagged": 15,
+    "t4_views": 72,
+    "t4_views_fully_tagged": 35,
+    "views": 158,
+    "views_fully_tagged": 69
+   },
+   "own/secondary": {
+    "items": 35,
+    "items_fully_tagged": 15,
+    "t4_items": 35,
+    "t4_items_fully_tagged": 15,
+    "t4_views": 72,
+    "t4_views_fully_tagged": 35,
+    "views": 158,
+    "views_fully_tagged": 69
+   }
+  },
+  "false_propagation": {
+   "gt/primary": {
+    "active_lines_gt": 2333,
+    "false_propagations": 3,
+    "share": 0.0013,
+    "view_instances": 503
+   },
+   "gt/secondary": {
+    "active_lines_gt": 2333,
+    "false_propagations": 3,
+    "share": 0.0013,
+    "view_instances": 503
+   },
+   "own/primary": {
+    "active_lines_gt": 2333,
+    "false_propagations": 69,
+    "share": 0.0296,
+    "view_instances": 503
+   },
+   "own/secondary": {
+    "active_lines_gt": 2333,
+    "false_propagations": 83,
+    "share": 0.0356,
+    "view_instances": 503
+   }
+  },
+  "gt_tag_lock_lines": 3538,
+  "reanswer_jobs": {
+   "by_source_stage": {
+    "gt/after": 1,
+    "own/after": 53,
+    "own/before": 53
+   },
+   "n": 107
+  }
+ },
+ "registration_sha256": "c57cda878aa80df7902e4ae35fc49504483a27a3032497a76e1c3b2e8050502c",
+ "spend": {
+  "cap": 5.0,
+  "h45": 0.0974,
+  "mini": 0.029,
+  "probes": {
+   "H45": {
+    "identifier_ok": true,
+    "lane": "claude-haiku-4-5-20251001",
+    "parsed": true,
+    "served": "claude-haiku-4-5-20251001",
+    "tok_in": 636,
+    "tok_out": 92,
+    "usd": 0.001096,
+    "when": "2026-09-19T00:32:07"
+   },
+   "MINI": {
+    "identifier_ok": true,
+    "lane": "gpt-4.1-mini",
+    "parsed": true,
+    "served": "gpt-4.1-mini",
+    "tok_in": 578,
+    "tok_out": 19,
+    "usd": 0.00026159999999999996,
+    "when": "2026-09-19T00:32:00"
+   }
+  }
+ },
+ "when": "2026-09-19T00:33:24"
+}

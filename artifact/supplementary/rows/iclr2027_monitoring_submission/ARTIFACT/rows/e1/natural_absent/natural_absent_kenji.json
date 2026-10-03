@@ -1,0 +1,343 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 19,
+    "in": 19849,
+    "out": 7132,
+    "usd": 0.0193508
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 3,
+  "persona": "kenji",
+  "probes": [
+    {
+      "domain": "Personal Life Events",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "party"
+      ],
+      "max_cosine": 0.3346,
+      "note": "",
+      "question": "What was the theme of the last birthday party you attended?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3346,
+          "entry_id": "lb_00169",
+          "text": "User is responsible for designing the anniversary invitations and creating a fresh logo for their mom's izakaya's 20th anniversary."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3246,
+          "entry_id": "lb_00166",
+          "text": "User is designing a refined logo and invitations for their mom's izakaya's 20th anniversary on April 12."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3106,
+          "entry_id": "lb_00160",
+          "text": "User is responsible for handling invitations and creating a fresh logo for their mom's izakaya 20th anniversary on April 12."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3079,
+          "entry_id": "lb_00171",
+          "text": "User is designing a refined logo and handling invitations for the izakaya's 20th anniversary."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2978,
+          "entry_id": "lb_00162",
+          "text": "User is responsible for handling invitations and creating a fresh logo for the izakaya's 20th anniversary"
+        }
+      ],
+      "why_absent": "The memory store does not include any information about Kenji's personal social events or celebrations."
+    },
+    {
+      "domain": "Culinary Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "favorite",
+        "home",
+        "japanese"
+      ],
+      "max_cosine": 0.4281,
+      "note": "",
+      "question": "Can you describe your favorite traditional Japanese dish to cook at home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.4281,
+          "entry_id": "lb_00042",
+          "text": "User grew up eating at their mom's izakaya restaurant every day."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.4056,
+          "entry_id": "lb_00182",
+          "text": "User appreciates ramen with carefully considered and well-executed elements."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3869,
+          "entry_id": "lb_00177",
+          "text": "User enjoys visiting small, authentic ramen shops in Osaka."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3847,
+          "entry_id": "lb_00044",
+          "text": "User is redesigning the menu for their mom's izakaya restaurant named Nakamura-ya in Namba, Osaka."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3798,
+          "entry_id": "lb_00037",
+          "text": "User is redesigning the menu for their mom's izakaya restaurant."
+        }
+      ],
+      "why_absent": "There is no data about Kenji's cooking habits or favorite homemade meals."
+    },
+    {
+      "domain": "Home Environment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "space"
+      ],
+      "max_cosine": 0.2682,
+      "note": "",
+      "question": "What kind of plants or flowers do you keep in your living space?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2682,
+          "entry_id": "lb_00328",
+          "text": "User currently works from a corner of their apartment with a desk and monitors optimized for lighting."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2595,
+          "entry_id": "lb_00261",
+          "text": "User has a habit of collecting and reading multiple books on design philosophy, sometimes accumulating many books on their desk."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2537,
+          "entry_id": "lb_00186",
+          "text": "User enjoys ambient music artists like Brian Eno, Ryuichi Sakamoto, and Hiroshi Yoshimura."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.242,
+          "entry_id": "lb_00102",
+          "text": "User shares a 40 square meter studio space with two other designers who specialize in web design and illustration."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2288,
+          "entry_id": "lb_00190",
+          "text": "User needs different playlists for different kinds of tasks, including dense processed ambient music for fine detail work."
+        }
+      ],
+      "why_absent": "The memory store lacks details about Kenji's home decor or indoor plants."
+    },
+    {
+      "domain": "Language Learning",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "english",
+        "japanese"
+      ],
+      "max_cosine": 0.425,
+      "note": "",
+      "question": "Have you ever taken any language classes besides Japanese and English? If so, which language and why?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.425,
+          "entry_id": "lb_00405",
+          "text": "User is bilingual in Japanese and English"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3349,
+          "entry_id": "lb_00020",
+          "text": "User communicates mostly via email and LINE with local Japanese business clients"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3234,
+          "entry_id": "lb_00148",
+          "text": "User works on bilingual typography involving Japanese and Latin scripts."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.3166,
+          "entry_id": "lb_00022",
+          "text": "User works with local Japanese businesses and communicates mostly via email and LINE."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3056,
+          "entry_id": "lb_00406",
+          "text": "User enjoys typography and typeface pairing, especially for Japanese-English menus"
+        }
+      ],
+      "why_absent": "No information about Kenji's language learning experiences beyond his known language abilities."
+    },
+    {
+      "domain": "Entertainment Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [],
+      "max_cosine": 0.2562,
+      "note": "",
+      "question": "What was the last movie or TV show you watched for relaxation?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2562,
+          "entry_id": "lb_00023",
+          "text": "User went to a sleep clinic about two years ago."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.256,
+          "entry_id": "lb_00183",
+          "text": "User listens to ambient music by Brian Eno and Ryuichi Sakamoto while working late at night."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2492,
+          "entry_id": "lb_00187",
+          "text": "User listens to ambient music artists like Brian Eno, Ryuichi Sakamoto, and Hiroshi Yoshimura for working late at night."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2437,
+          "entry_id": "lb_00192",
+          "text": "User prefers strictly instrumental music for deep work"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2329,
+          "entry_id": "lb_00185",
+          "text": "User listens to strictly instrumental music for deep work to avoid distraction from vocals."
+        }
+      ],
+      "why_absent": "The memory store does not cover Kenji's entertainment or media consumption habits."
+    },
+    {
+      "domain": "Pets and Animals",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any"
+      ],
+      "max_cosine": 0.1944,
+      "note": "",
+      "question": "Do you have any pets? If yes, what are their names and breeds?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1944,
+          "entry_id": "lb_00142",
+          "text": "User primarily does branding for food and independent businesses"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1842,
+          "entry_id": "lb_00261",
+          "text": "User has a habit of collecting and reading multiple books on design philosophy, sometimes accumulating many books on their desk."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.182,
+          "entry_id": "lb_00145",
+          "text": "User primarily works on branding projects for food and independent businesses."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.1795,
+          "entry_id": "lb_00117",
+          "text": "User is a freelance designer specializing in identity systems for sake breweries and cafes."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.1782,
+          "entry_id": "lb_00102",
+          "text": "User shares a 40 square meter studio space with two other designers who specialize in web design and illustration."
+        }
+      ],
+      "why_absent": "There is no record of Kenji's pet ownership or related details."
+    },
+    {
+      "domain": "Daily Transportation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "around",
+        "osaka",
+        "use"
+      ],
+      "max_cosine": 0.56,
+      "note": "",
+      "question": "What kind of transportation do you usually use to get around Osaka?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.56,
+          "entry_id": "lb_00078",
+          "text": "User lives and works in Osaka."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.5433,
+          "entry_id": "lb_00341",
+          "text": "User lives in Osaka and has lived there their whole life"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.5323,
+          "entry_id": "lb_00347",
+          "text": "User works mostly with clients in Tokyo but lives in Osaka."
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.5248,
+          "entry_id": "lb_00346",
+          "text": "User lives in Osaka and considers it home."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.5246,
+          "entry_id": "lb_00343",
+          "text": "User has lived in Osaka their whole life"
+        }
+      ],
+      "why_absent": "The memory store does not include information about Kenji's commuting or transportation preferences."
+    }
+  ],
+  "threshold": 0.295
+}

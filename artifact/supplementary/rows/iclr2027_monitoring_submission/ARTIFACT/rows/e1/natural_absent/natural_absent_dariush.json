@@ -1,0 +1,350 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 9,
+    "in": 9262,
+    "out": 3423,
+    "usd": 0.0091816
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 4,
+  "persona": "dariush",
+  "probes": [
+    {
+      "domain": "Intellectual Interests",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "last",
+        "purely",
+        "you"
+      ],
+      "max_cosine": 0.2289,
+      "note": "",
+      "question": "What was the title and main theme of the last book you read purely for pleasure?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2289,
+          "entry_id": "lb_00111",
+          "text": "User enjoys traveling and entertaining frequently."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2096,
+          "entry_id": "lb_00140",
+          "text": "User plays golf every Sunday as a form of meditation and relaxation, not primarily focused on scorekeeping."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.202,
+          "entry_id": "lb_00144",
+          "text": "User values precision and approach in golf as a form of meditation and relaxation"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1931,
+          "entry_id": "lb_00147",
+          "text": "User views golf as a form of meditation and values the experience over scoring"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.1836,
+          "entry_id": "lb_00289",
+          "text": "User enjoys hosting dinner parties with wine tastings"
+        }
+      ],
+      "why_absent": "The memory store does not include any information about Dariush's leisure reading or specific books read for pleasure."
+    },
+    {
+      "domain": "Identity Self-Concept",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "home",
+        "you"
+      ],
+      "max_cosine": 0.4171,
+      "note": "",
+      "question": "Can you describe the layout and decoration style of your childhood home?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.4171,
+          "entry_id": "lb_00301",
+          "text": "User wants to incorporate subtle Persian design elements in the waiting room to honor their heritage."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.4062,
+          "entry_id": "lb_00298",
+          "text": "User wants to incorporate subtle Persian design elements in their dental office waiting room to honor their heritage."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3992,
+          "entry_id": "lb_00304",
+          "text": "User wants to incorporate subtle Persian design elements in the dental office waiting room to honor their heritage."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3892,
+          "entry_id": "lb_00306",
+          "text": "User is planning a renovation of a 450 square foot waiting room with a focus on meticulous, precise, and warm design reflecting the standard of care in their operatory."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3454,
+          "entry_id": "lb_00309",
+          "text": "User is undertaking a renovation project for a waiting room with a focus on detailed design and realistic budgeting."
+        }
+      ],
+      "why_absent": "No details about Dariush's childhood home environment or its interior design are present in the memory store."
+    },
+    {
+      "domain": "Preferences Habits",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "favorite",
+        "type",
+        "you"
+      ],
+      "max_cosine": 0.2612,
+      "note": "",
+      "question": "What is your favorite type of music or musical artist you listen to regularly?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2612,
+          "entry_id": "lb_00111",
+          "text": "User enjoys traveling and entertaining frequently."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2207,
+          "entry_id": "lb_00335",
+          "text": "User plays golf regularly."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2031,
+          "entry_id": "lb_00329",
+          "text": "User plays golf regularly"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.177,
+          "entry_id": "lb_00258",
+          "text": "User watches Iranian cinema regularly with Shirin."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.17,
+          "entry_id": "lb_00333",
+          "text": "User plays golf regularly and is competitive, especially on wide-open par fives."
+        }
+      ],
+      "why_absent": "There is no information about Dariush's music preferences or listening habits in the stored attributes."
+    },
+    {
+      "domain": "Hobbies Recreation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "diego",
+        "san",
+        "there",
+        "you"
+      ],
+      "max_cosine": 0.4721,
+      "note": "",
+      "question": "What was the most memorable vacation you took before moving to San Diego, and what activities did you do there?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4721,
+          "entry_id": "lb_00288",
+          "text": "User lives in San Diego"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4184,
+          "entry_id": "lb_00070",
+          "text": "User is located in San Diego"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.4078,
+          "entry_id": "lb_00557",
+          "text": "User lives in or near Los Angeles or San Diego."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3938,
+          "entry_id": "lb_00153",
+          "text": "User plans to split time between current location and La Jolla, with three days at current location and two days at La Jolla initially."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3278,
+          "entry_id": "lb_00149",
+          "text": "User is considering opening a second practice location in La Jolla"
+        }
+      ],
+      "why_absent": "The memory store lacks any details about past vacations or travel experiences prior to current location."
+    },
+    {
+      "domain": "Relational Bonds",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "name",
+        "own",
+        "you"
+      ],
+      "max_cosine": 0.2444,
+      "note": "",
+      "question": "What kind of pet, if any, have you owned or currently own, and what is its name?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2444,
+          "entry_id": "lb_00085",
+          "text": "User owns a periodontal practice"
+        },
+        {
+          "category": "FINANCIAL_MATERIAL",
+          "cosine": 0.2293,
+          "entry_id": "lb_00090",
+          "text": "User owns a periodontal practice that has value but has not been formally valued"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2236,
+          "entry_id": "lb_00100",
+          "text": "User's spouse or partner is named Shirin"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2183,
+          "entry_id": "lb_00328",
+          "text": "User owns and operates a dental practice with significant equipment investment."
+        },
+        {
+          "category": "FINANCIAL_MATERIAL",
+          "cosine": 0.2146,
+          "entry_id": "lb_00316",
+          "text": "User owns a main periodontal practice with recent six-figure investment in new laser equipment."
+        }
+      ],
+      "why_absent": "No data about pets or animal companions is included in the existing attributes."
+    },
+    {
+      "domain": "Health Wellbeing",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [],
+      "max_cosine": 0.3919,
+      "note": "",
+      "question": "What is your preferred method for managing stress or unwinding after a busy workday?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3919,
+          "entry_id": "lb_00144",
+          "text": "User values precision and approach in golf as a form of meditation and relaxation"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3735,
+          "entry_id": "lb_00140",
+          "text": "User plays golf every Sunday as a form of meditation and relaxation, not primarily focused on scorekeeping."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.3664,
+          "entry_id": "lb_00399",
+          "text": "User finds Saturday mornings at the office to be the most productive and focused clinical work time of the week"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3344,
+          "entry_id": "lb_00446",
+          "text": "User practices golf at the range every evening after work."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3191,
+          "entry_id": "lb_00147",
+          "text": "User views golf as a form of meditation and values the experience over scoring"
+        }
+      ],
+      "why_absent": "The memory store does not cover Dariush's personal stress management or relaxation techniques."
+    },
+    {
+      "domain": "Hobbies Recreation",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "decided",
+        "you"
+      ],
+      "max_cosine": 0.2861,
+      "note": "",
+      "question": "Can you tell me about a hobby or activity you tried once but decided not to continue, and why?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2861,
+          "entry_id": "lb_00323",
+          "text": "User decided not to proceed with the La Jolla expansion plan."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2815,
+          "entry_id": "lb_00140",
+          "text": "User plays golf every Sunday as a form of meditation and relaxation, not primarily focused on scorekeeping."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2731,
+          "entry_id": "lb_00449",
+          "text": "User has a tendency to practice golf until fatigued"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2453,
+          "entry_id": "lb_00144",
+          "text": "User values precision and approach in golf as a form of meditation and relaxation"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2443,
+          "entry_id": "lb_00147",
+          "text": "User views golf as a form of meditation and values the experience over scoring"
+        }
+      ],
+      "why_absent": "There is no record of discontinued hobbies or one-time activities in the memory store."
+    }
+  ],
+  "threshold": 0.295
+}

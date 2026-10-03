@@ -1,0 +1,14 @@
+{
+ "billed_so_far": {
+  "leakage_screens": 0.043328,
+  "probes": 0.0016464000000000001,
+  "run": 0.0,
+  "total": 0.0449744
+ },
+ "budget": 2.0,
+ "n": {
+  "INDEXED-GT": 522,
+  "INDEXED-S2U": 661
+ },
+ "projected_usd": 0.9945288000000001
+}

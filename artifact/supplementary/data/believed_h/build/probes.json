@@ -1,0 +1,42 @@
+{
+ "INDEXED-BELIEVED-15": {
+  "arm": "INDEXED-BELIEVED-15",
+  "billed_before": 5.1373,
+  "fits": true,
+  "headroom": 6.8627,
+  "identifier_ok": true,
+  "in": 1590,
+  "out": 200,
+  "parsed": "OK",
+  "probe_usd": 0.0025900000000000003,
+  "projection": {
+   "calls": 3305,
+   "input_tokens": 6003455,
+   "output_tokens": 661000,
+   "usd": 4.6542,
+   "usd_x1.3": 6.0505
+  },
+  "sample": "```json\n{\"fok\": 28, \"nok_candidates_found\": true, \"nok\": 42, \"would_search\": true}\n```\n\n**Reasoning:**\n\n**FOK (28):** The store contains 8 FINANCIAL_MATERIAL entries and 149 OBLIGATIONS entries. The O",
+  "served": "claude-haiku-4-5-20251001"
+ },
+ "INDEXED-BELIEVED-LIFTED": {
+  "arm": "INDEXED-BELIEVED-LIFTED",
+  "billed_before": 0.0032,
+  "fits": true,
+  "headroom": 11.9968,
+  "identifier_ok": true,
+  "in": 2230,
+  "out": 200,
+  "parsed": "OK",
+  "probe_usd": 0.0032300000000000002,
+  "projection": {
+   "calls": 3305,
+   "input_tokens": 6958000,
+   "output_tokens": 661000,
+   "usd": 5.1315,
+   "usd_x1.3": 6.671
+  },
+  "sample": "```json\n{\"fok\": 78, \"nok_candidates_found\": true, \"nok\": 72, \"would_search\": true}\n```\n\n**Reasoning:**\n\n**FOK (78):** The store contains 149 OBLIGATIONS entries with substantial coverage of work-relat",
+  "served": "claude-haiku-4-5-20251001"
+ }
+}

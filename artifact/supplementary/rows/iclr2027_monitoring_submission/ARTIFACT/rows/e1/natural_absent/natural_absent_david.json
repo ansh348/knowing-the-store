@@ -1,0 +1,334 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 10,
+    "in": 10518,
+    "out": 3789,
+    "usd": 0.0102696
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 2,
+  "persona": "david",
+  "probes": [
+    {
+      "domain": "Personal History",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "name"
+      ],
+      "max_cosine": 0.222,
+      "note": "",
+      "question": "What was the name of your favorite childhood pet and what breed was it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.222,
+          "entry_id": "lb_00067",
+          "text": "User was adopted from South Korea at age three and raised by white parents in Oregon."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.222,
+          "entry_id": "lb_00070",
+          "text": "User was adopted from South Korea at age three and raised by white parents in Oregon."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.222,
+          "entry_id": "lb_00060",
+          "text": "User was adopted from South Korea at age three and raised by white parents in Oregon."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.222,
+          "entry_id": "lb_00063",
+          "text": "User was adopted from South Korea at age three and raised by white parents in Oregon."
+        },
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.222,
+          "entry_id": "lb_00064",
+          "text": "User was adopted from South Korea at age three and raised by white parents in Oregon."
+        }
+      ],
+      "why_absent": "No information about childhood pets or early personal history is stored."
+    },
+    {
+      "domain": "Cooking and Food",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [],
+      "max_cosine": 0.3776,
+      "note": "",
+      "question": "Can you describe your favorite recipe to cook at home and the ingredients you use?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "IDENTITY_SELF_CONCEPT",
+          "cosine": 0.3776,
+          "entry_id": "lb_00417",
+          "text": "Sarah appreciates organized and planned cooking with minimal chaos."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2835,
+          "entry_id": "lb_00416",
+          "text": "Sarah prefers campfire meals that involve more than hot dogs"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2742,
+          "entry_id": "lb_00202",
+          "text": "User and wife have been interested in trying Kann, a Haitian cuisine restaurant"
+        },
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2299,
+          "entry_id": "lb_00208",
+          "text": "User lives in Portland and is familiar with its restaurant scene"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2296,
+          "entry_id": "lb_00198",
+          "text": "User and wife prefer thoughtful but not ostentatious restaurants and dislike tasting menus with foam"
+        }
+      ],
+      "why_absent": "Cooking philosophy or specific recipes have not been recorded."
+    },
+    {
+      "domain": "Music Preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [],
+      "max_cosine": 0.3,
+      "note": "",
+      "question": "What kind of music do you enjoy listening to when relaxing, and who are your favorite artists?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3,
+          "entry_id": "lb_00503",
+          "text": "User reads mostly for instrumental purposes but is currently reading purely for pleasure"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2706,
+          "entry_id": "lb_00522",
+          "text": "User's wife paints in the evenings as a meditative and calming activity."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2623,
+          "entry_id": "lb_00514",
+          "text": "User's wife is a watercolor painter who paints in the evenings as a meditative and calming activity"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2416,
+          "entry_id": "lb_00165",
+          "text": "User is interested in hiking trails with old growth forest along rivers for a quiet experience."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2253,
+          "entry_id": "lb_00032",
+          "text": "User prefers recreational reading without a predetermined endpoint and resists structured reading lists"
+        }
+      ],
+      "why_absent": "No data on music tastes or listening habits is present."
+    },
+    {
+      "domain": "Arts and Crafts",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "hobby"
+      ],
+      "max_cosine": 0.4077,
+      "note": "",
+      "question": "Have you ever taken any art classes or pursued any form of visual art as a hobby?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.4077,
+          "entry_id": "lb_00512",
+          "text": "User recently started trying watercolor painting as a beginner"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3952,
+          "entry_id": "lb_00516",
+          "text": "User is interested in learning watercolor painting as a shared activity with spouse and as a creative challenge"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3802,
+          "entry_id": "lb_00522",
+          "text": "User's wife paints in the evenings as a meditative and calming activity."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3621,
+          "entry_id": "lb_00514",
+          "text": "User's wife is a watercolor painter who paints in the evenings as a meditative and calming activity"
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3452,
+          "entry_id": "lb_00524",
+          "text": "User is learning watercolor painting as a beginner and finds it humbling."
+        }
+      ],
+      "why_absent": "No mention of art-related hobbies or experiences exists."
+    },
+    {
+      "domain": "Language Learning",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "learning"
+      ],
+      "max_cosine": 0.3358,
+      "note": "",
+      "question": "What languages, if any, have you studied or are interested in learning?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.3358,
+          "entry_id": "lb_00027",
+          "text": "User's default reading interests include European history, political philosophy, and literary novels"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.2908,
+          "entry_id": "lb_00009",
+          "text": "User has 24 years of experience teaching or studying European history"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.289,
+          "entry_id": "lb_00026",
+          "text": "User teaches European history"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2889,
+          "entry_id": "lb_00463",
+          "text": "User is interested in teaching American history at community college level as a lateral career move."
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.285,
+          "entry_id": "lb_00485",
+          "text": "User has a background in teaching history"
+        }
+      ],
+      "why_absent": "No information about language skills or interests is stored."
+    },
+    {
+      "domain": "Travel and Leisure",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [],
+      "max_cosine": 0.3371,
+      "note": "",
+      "question": "What is your favorite vacation destination and what activities do you enjoy there?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3371,
+          "entry_id": "lb_00461",
+          "text": "User enjoys hiking on weekends."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.3351,
+          "entry_id": "lb_00377",
+          "text": "User enjoys hiking and is tempted by access to outdoor recreation in Bend"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2934,
+          "entry_id": "lb_00420",
+          "text": "User is planning a five-day trip with Sarah to the Olympic Peninsula area including Quinault Lodge, Kalaloch campground, Hoh campground, Port Angeles, and Port Townsend ferry."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2889,
+          "entry_id": "lb_00339",
+          "text": "User and Sarah enjoy hiking as a recreational activity."
+        },
+        {
+          "category": "HOBBIES_RECREATION",
+          "cosine": 0.2881,
+          "entry_id": "lb_00165",
+          "text": "User is interested in hiking trails with old growth forest along rivers for a quiet experience."
+        }
+      ],
+      "why_absent": "No travel preferences or past vacation details are recorded."
+    },
+    {
+      "domain": "Media Consumption",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any"
+      ],
+      "max_cosine": 0.2596,
+      "note": "",
+      "question": "Do you have any favorite podcasts or radio shows you listen to regularly?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "LOGISTICAL_CONTEXT",
+          "cosine": 0.2596,
+          "entry_id": "lb_00217",
+          "text": "User has no existing podcast recording equipment and limited school resources"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2557,
+          "entry_id": "lb_00214",
+          "text": "User is an AP History teacher planning a podcast project for the fall semester."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2508,
+          "entry_id": "lb_00220",
+          "text": "User plans to have students work in groups of two or three for podcast projects"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2474,
+          "entry_id": "lb_00213",
+          "text": "User is an AP History teacher planning a project for the fall semester involving students producing short podcast episodes on historical topics."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2397,
+          "entry_id": "lb_00218",
+          "text": "User has ten student groups and plans to use five or six microphones for podcast recording"
+        }
+      ],
+      "why_absent": "No data on podcast or radio listening habits is available."
+    }
+  ],
+  "threshold": 0.295
+}

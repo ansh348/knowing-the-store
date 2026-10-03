@@ -1,0 +1,41 @@
+{
+  "arms": {
+    "blind": {
+      "auroc": 0.5258331180573496,
+      "ece": 0.15960884353741497,
+      "max_overconfidence_gap": -0.6999999999999998,
+      "mean_pred_overall": 0.21913265306122448,
+      "n_bins_ge_10": 5,
+      "obs_freq_overall": 0.05952380952380952,
+      "spearman_p": 0.8695979205185651,
+      "spearman_rho": 0.10259783520851541,
+      "strictly_monotone_nondecreasing": false
+    },
+    "intact": {
+      "auroc": 0.7530353913717386,
+      "ece": 0.17414965986394557,
+      "max_overconfidence_gap": -0.44000000000000017,
+      "mean_pred_overall": 0.2168421052631579,
+      "n_bins_ge_10": 5,
+      "obs_freq_overall": 0.056140350877192984,
+      "spearman_p": 0.03738607346849875,
+      "spearman_rho": 0.8999999999999998,
+      "strictly_monotone_nondecreasing": false
+    },
+    "names only": {
+      "auroc": 0.8515629036424697,
+      "ece": 0.05833333333333332,
+      "max_overconfidence_gap": -0.2999999999999998,
+      "mean_pred_overall": 0.11621160409556314,
+      "n_bins_ge_10": 5,
+      "obs_freq_overall": 0.05802047781569966,
+      "spearman_p": 1.4042654220543608e-24,
+      "spearman_rho": 0.9999999999999999,
+      "strictly_monotone_nondecreasing": true
+    }
+  },
+  "base_rate": 0.05952380952380952,
+  "frozen_branch": "NOT the monotone-but-misscaled pattern; see per-arm statistics before reading.",
+  "n": 588,
+  "n_pos": 35
+}

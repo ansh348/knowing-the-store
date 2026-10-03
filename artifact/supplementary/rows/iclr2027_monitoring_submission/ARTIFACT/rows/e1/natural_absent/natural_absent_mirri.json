@@ -1,0 +1,346 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "meter": {
+    "cached": 0,
+    "calls": 26,
+    "in": 26529,
+    "out": 9733,
+    "usd": 0.026184400000000004
+  },
+  "n_drafted": 7,
+  "n_survived_screen": 4,
+  "persona": "mirri",
+  "probes": [
+    {
+      "domain": "entertainment",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.1726,
+      "note": "",
+      "question": "What was the last movie you watched and what did you think about it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1726,
+          "entry_id": "lb_00172",
+          "text": "User's child Tali is developing critical thinking about Indigenous history and museum representations."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.1713,
+          "entry_id": "lb_00371",
+          "text": "User had a medical check-up recently with fine results"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.1634,
+          "entry_id": "lb_00175",
+          "text": "User's child Tali is starting to think about what she wants to do after school."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.159,
+          "entry_id": "lb_00249",
+          "text": "User consulted their aunties and older family members about the content of the book"
+        },
+        {
+          "category": "INTELLECTUAL_INTERESTS",
+          "cosine": 0.1489,
+          "entry_id": "lb_00171",
+          "text": "Tali was impressed by the National Museum in Canberra and engaged critically with the Indigenous history exhibits."
+        }
+      ],
+      "why_absent": "The memory store does not include any information about Mirri's movie watching habits or opinions on films."
+    },
+    {
+      "domain": "culinary",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "can",
+        "use",
+        "you"
+      ],
+      "max_cosine": 0.2757,
+      "note": "",
+      "question": "Can you describe your favorite meal to cook at home and the recipe you use?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2757,
+          "entry_id": "lb_00522",
+          "text": "Bunjil's favorite birthday meal is damper with honey."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.261,
+          "entry_id": "lb_00158",
+          "text": "User tells stories to children at home about the barramundi, magpie geese, and seasonal changes."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2158,
+          "entry_id": "lb_00517",
+          "text": "User plans to prepare damper with honey by the water for Bunjil's birthday instead of a cake, as it is Bunjil's favourite food."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2155,
+          "entry_id": "lb_00529",
+          "text": "User has a child named Bunjil who is excited about fishing and prefers damper with honey over birthday cake."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2146,
+          "entry_id": "lb_00283",
+          "text": "User has a person named Tali who is learning about bush tucker and traditional food gathering techniques."
+        }
+      ],
+      "why_absent": "There is no data about Mirri's cooking preferences, favorite meals, or recipes."
+    },
+    {
+      "domain": "music preferences",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "listen",
+        "usually",
+        "work",
+        "you"
+      ],
+      "max_cosine": 0.2842,
+      "note": "",
+      "question": "What kind of music do you usually listen to when relaxing after work?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2842,
+          "entry_id": "lb_00484",
+          "text": "User prefers quiet environments in the park."
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2762,
+          "entry_id": "lb_00029",
+          "text": "User wakes up at 5:30 to have quiet time before the day starts, sitting outside, drinking tea, and watching the light come in over the wanga."
+        },
+        {
+          "category": "HEALTH_WELLBEING",
+          "cosine": 0.2387,
+          "entry_id": "lb_00063",
+          "text": "User experiences back discomfort from driving the work vehicle due to suspension issues."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.2227,
+          "entry_id": "lb_00389",
+          "text": "User works in a patrol sector and has work obligations"
+        },
+        {
+          "category": "PREFERENCES_HABITS",
+          "cosine": 0.2209,
+          "entry_id": "lb_00108",
+          "text": "User prefers not to work in Darwin due to disliking the noise and concrete environment"
+        }
+      ],
+      "why_absent": "The memory store lacks any information about Mirri's music tastes or listening habits."
+    },
+    {
+      "domain": "education",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "you"
+      ],
+      "max_cosine": 0.4032,
+      "note": "",
+      "question": "Have you ever taken a language class for a language other than your native tongue? If so, which language and where?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.4032,
+          "entry_id": "lb_00266",
+          "text": "User has written about 15 pages of stories in two languages for teaching purposes."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3633,
+          "entry_id": "lb_00267",
+          "text": "User plans to support language learning for children through school programs and face-to-face teaching."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3491,
+          "entry_id": "lb_00261",
+          "text": "User is teaching stories face to face in both languages instead of publishing them in a book."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3448,
+          "entry_id": "lb_00262",
+          "text": "User has written about 15 pages of stories in both Yolngu Matha and English for teaching purposes."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3365,
+          "entry_id": "lb_00248",
+          "text": "User planned to write a bilingual children's book with stories from their country in their language and in English"
+        }
+      ],
+      "why_absent": "No details about language learning or classes outside of cultural knowledge are present."
+    },
+    {
+      "domain": "fitness",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "work"
+      ],
+      "max_cosine": 0.3432,
+      "note": "",
+      "question": "What is your preferred method of exercise or physical activity outside of work duties?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3432,
+          "entry_id": "lb_00386",
+          "text": "User has a patrol sector as part of their work responsibilities"
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3242,
+          "entry_id": "lb_00073",
+          "text": "User works outdoors in serious heat"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.3216,
+          "entry_id": "lb_00347",
+          "text": "User runs school education programs focused on outdoor education."
+        },
+        {
+          "category": "OBLIGATIONS",
+          "cosine": 0.3164,
+          "entry_id": "lb_00076",
+          "text": "User's outdoor work shifts last six to eight hours or sometimes more."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.314,
+          "entry_id": "lb_00351",
+          "text": "User runs school education programs focused on outdoor education in bush environments for primary and early secondary students."
+        }
+      ],
+      "why_absent": "There is no information about Mirri's personal exercise routines or fitness preferences."
+    },
+    {
+      "domain": "pets",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "any",
+        "you"
+      ],
+      "max_cosine": 0.3558,
+      "note": "",
+      "question": "Do you have any pets at home? If yes, what kind and what are their names?",
+      "screen_verdict": "REJECT: cosine",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3558,
+          "entry_id": "lb_00550",
+          "text": "User has two children living at home."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3558,
+          "entry_id": "lb_00556",
+          "text": "User has two children living at home."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3558,
+          "entry_id": "lb_00191",
+          "text": "User has two children living at home."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3383,
+          "entry_id": "lb_00182",
+          "text": "User lives with two kids at home."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.3192,
+          "entry_id": "lb_00575",
+          "text": "User has a child named Bunjil who loves spending time outdoors and enjoys counting birds."
+        }
+      ],
+      "why_absent": "The memory store does not mention any pets or related details."
+    },
+    {
+      "domain": "literature",
+      "human_verdict": null,
+      "lexical_bank_hits": [],
+      "lexical_yaml_token_overlap": [
+        "book",
+        "read",
+        "you"
+      ],
+      "max_cosine": 0.2679,
+      "note": "",
+      "question": "What was the last book you read for pleasure, and what did you enjoy about it?",
+      "screen_verdict": "SURVIVES SCREEN",
+      "threshold": 0.295,
+      "top5": [
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2679,
+          "entry_id": "lb_00249",
+          "text": "User consulted their aunties and older family members about the content of the book"
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.2451,
+          "entry_id": "lb_00378",
+          "text": "User has a child named Tali who prefers reading over swimming."
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2295,
+          "entry_id": "lb_00154",
+          "text": "User wants to write a children's book"
+        },
+        {
+          "category": "PROJECTS_ENDEAVORS",
+          "cosine": 0.2131,
+          "entry_id": "lb_00260",
+          "text": "User had written about 15 pages of stories in both languages for a book project."
+        },
+        {
+          "category": "RELATIONAL_BONDS",
+          "cosine": 0.211,
+          "entry_id": "lb_00156",
+          "text": "User's children attend a school where the reading materials are mostly about city life and animals unfamiliar to them."
+        }
+      ],
+      "why_absent": "There is no record of Mirri's leisure reading or book preferences."
+    }
+  ],
+  "threshold": 0.295
+}

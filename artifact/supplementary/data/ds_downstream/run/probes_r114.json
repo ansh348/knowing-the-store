@@ -1,0 +1,26 @@
+{
+ "H45": {
+  "item_id": "frbank:raj:raj_q09:SLOT-ABLATED",
+  "view_lines": 23,
+  "served": "claude-haiku-4-5-20251001",
+  "identifier_ok": true,
+  "tok_in": 1402,
+  "tok_out": 74,
+  "usd": 0.0017720000000000001,
+  "status": "OK",
+  "sample": "```json\n{\n  \"answer\": \"Raj has a partner named Simran and children named Arjun and Preet. He lives with Simran and Arjun, who are involved in household decisions, and Simran is doing well in her role and is less stressed than before.\"\n}\n```",
+  "when": "2026-09-17T00:31:15"
+ },
+ "MINI": {
+  "item_id": "frbank:raj:raj_q09:SLOT-ABLATED",
+  "view_lines": 23,
+  "served": "gpt-4.1-mini-2025-04-14",
+  "identifier_ok": true,
+  "tok_in": 1284,
+  "tok_out": 38,
+  "usd": 0.0005744,
+  "status": "OK",
+  "sample": "{\"answer\": \"Raj has a family with Simran and children named Arjun and Preet, and he currently lives with Simran and Arjun who are involved in household decisions.\"}",
+  "when": "2026-09-17T00:31:38"
+ }
+}

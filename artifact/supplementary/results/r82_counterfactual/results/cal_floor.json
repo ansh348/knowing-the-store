@@ -1,0 +1,10 @@
+{
+  "P-FOK-HARD": {
+    "ece": 0.0,
+    "brier": 0.056
+  },
+  "P-NOK-FRB": {
+    "ece": 0.0,
+    "brier": 0.1326
+  }
+}

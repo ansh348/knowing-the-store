@@ -1,0 +1,313 @@
+%%BLOCK cf_intent%%
+%% R123: tab:cf-intent and tab:cf-intent-b, written by reviews/v21/tools/ledger_r123_tables.py from r82_counterfactual/cf2/results/cf_scores_ix.json (r82_counterfactual/cf2/NUMBERS_CF2.md section 14d, AUX-CF2-IX-*); do not edit by hand.
+\begin{table}[H]
+\caption{The intent crossover on the counterfactual set (registered; ADDENDUM\_CF2\_INTENT\_CROSSOVER and its Amendment 1). Each supersession pair of the set is asked its recorded present-tense question and a second question about how the attribute has changed, of the same two store versions (\pn{} and \present{}) under the default summary (population A, $87$ of the $88$ pairs); each expiry pair is asked its recorded upcoming-intent question and a question about the past event under the all-states summary (population B, $26$ of the $30$ pairs); our read of the crossed questions dropped five pairs before any call. The crossed question makes the same stale record licensed, so a reader that conditions on intent scores the \pn{} version of the original question above the same version under the crossed question. This table: that same-store AUROC, chance $0.50$, with the persona-grouped and the pair-clustered interval and the within-pair W/T/L. Table~\ref{tab:cf-intent-b}: the interaction, the mean of the two-by-two contrast, with both intervals, and the pooled AUROC of the original question's \pn{} version against the other three cells. Each reader ran under the main-study rubric and under a rubric that states the intent rule. GPT-5.6 Luna and Haiku 4.5 ran five draws; their draw-1 rows are the column comparable with the one-draw readers, and the body reads that column. GPT-5.6 Sol was added after an interim read of three models' rows, and its prediction is labelled so in Appendix~\ref{app:registration}; under the intent-explicit rubric it counts $76/0/11$ within pairs on population A, and in $9$ of its $11$ losses both questions score $0.96$ or higher, so the rule was not applied on those pairs. Under the intent-explicit rubric no model's discrimination on its original questions falls by more than $0.05$ (the largest fall $-0.0458$, Haiku 4.5 on population A; the largest rise $+0.1716$, GPT-4.1 mini on population B).}
+\label{tab:cf-intent}
+\centering\tiny\setlength{\tabcolsep}{1.5pt}
+\begin{tabular}{@{}lllrllr@{}}
+\toprule
+Reader & pop. & rubric & same-store AUROC & persona interval & pair interval & W/T/L \\
+\midrule
+GPT-4.1 mini ($k=1$) & A & main-study & $0.3973$ & $[0.3447,0.4455]$ & $[0.3460,0.4426]$ & 16/26/45 \\
+ & A & intent-explicit & $0.4789$ & $[0.4169,0.5413]$ & $[0.4261,0.5279]$ & 22/34/31 \\
+ & B & main-study & $0.3388$ & $[0.2385,0.4297]$ & $[0.2411,0.4157]$ & 0/13/13 \\
+ & B & intent-explicit & $0.4238$ & $[0.3264,0.5236]$ & $[0.3262,0.5297]$ & 7/5/14 \\
+\addlinespace[1pt]
+Haiku 4.5 ($k=5$) & A & main-study & $0.3765$ & $[0.3183,0.4257]$ & $[0.3239,0.4203]$ & 18/16/53 \\
+\quad draw 1 only & A & main-study & $0.3872$ & $[0.3302,0.4367]$ & $[0.3350,0.4318]$ & 16/22/49 \\
+ & A & intent-explicit & $0.5483$ & $[0.4793,0.6135]$ & $[0.4819,0.6152]$ & 42/10/35 \\
+\quad draw 1 only & A & intent-explicit & $0.5464$ & $[0.4770,0.6073]$ & $[0.4792,0.6115]$ & 37/16/34 \\
+ & B & main-study & $0.4238$ & $[0.3179,0.5136]$ & $[0.3461,0.5022]$ & 8/2/16 \\
+\quad draw 1 only & B & main-study & $0.4120$ & $[0.3202,0.4863]$ & $[0.3395,0.4712]$ & 4/6/16 \\
+ & B & intent-explicit & $0.5333$ & $[0.4437,0.6206]$ & $[0.4378,0.6331]$ & 13/5/8 \\
+\quad draw 1 only & B & intent-explicit & $0.5377$ & $[0.4442,0.6278]$ & $[0.4393,0.6442]$ & 12/6/8 \\
+\addlinespace[1pt]
+GPT-5.6 Luna ($k=5$) & A & main-study & $0.3467$ & $[0.2944,0.3847]$ & $[0.2994,0.3827]$ & 10/1/76 \\
+\quad draw 1 only & A & main-study & $0.3484$ & $[0.3121,0.3773]$ & $[0.3027,0.3876]$ & 15/8/64 \\
+ & A & intent-explicit & $0.9836$ & $[0.9558,1.0000]$ & $[0.9564,1.0000]$ & 85/0/2 \\
+\quad draw 1 only & A & intent-explicit & $0.9640$ & $[0.9238,0.9935]$ & $[0.9252,0.9940]$ & 82/2/3 \\
+ & B & main-study & $0.4172$ & $[0.3497,0.4664]$ & $[0.3328,0.4786]$ & 8/0/18 \\
+\quad draw 1 only & B & main-study & $0.4800$ & $[0.4058,0.5608]$ & $[0.3972,0.5703]$ & 13/2/11 \\
+ & B & intent-explicit & $0.9793$ & $[0.9401,1.0000]$ & $[0.9356,1.0000]$ & 26/0/0 \\
+\quad draw 1 only & B & intent-explicit & $0.9808$ & $[0.9424,1.0000]$ & $[0.9423,1.0000]$ & 26/0/0 \\
+\addlinespace[1pt]
+Opus 5 ($k=1$) & A & main-study & $0.8966$ & $[0.8471,0.9477]$ & $[0.8428,0.9453]$ & 78/3/6 \\
+ & A & intent-explicit & $0.9885$ & $[0.9634,1.0000]$ & $[0.9655,1.0000]$ & 86/0/1 \\
+ & B & main-study & $0.8484$ & $[0.7434,0.9407]$ & $[0.7559,0.9334]$ & 23/0/3 \\
+ & B & intent-explicit & $1.0000$ & $[1.0000,1.0000]$ & $[1.0000,1.0000]$ & 26/0/0 \\
+\addlinespace[1pt]
+GPT-5.6 Sol ($k=1$; Amendment 1) & A & main-study & $0.4406$ & $[0.3798,0.5042]$ & $[0.3853,0.4934]$ & 15/32/40 \\
+ & A & intent-explicit & $0.8815$ & $[0.8200,0.9349]$ & $[0.8131,0.9449]$ & 76/0/11 \\
+ & B & main-study & $0.6354$ & $[0.5261,0.7378]$ & $[0.5318,0.7478]$ & 15/4/7 \\
+ & B & intent-explicit & $0.9179$ & $[0.7917,1.0000]$ & $[0.8077,1.0000]$ & 23/0/3 \\
+\addlinespace[1pt]
+\multicolumn{7}{@{}l}{\textit{Readers with no generative-model call}}\\
+Name lookup & A & -- & $0.4739$ & $[0.4413,0.5079]$ & $[0.4336,0.5143]$ & 46/0/41 \\
+ & B & -- & $0.4527$ & $[0.3888,0.4912]$ & $[0.3905,0.5015]$ & 10/0/16 \\
+Keyword-intent lookup (fixed cue list) & A & -- & $0.9943$ & $[0.9817,1.0000]$ & $[0.9828,1.0000]$ & 86/1/0 \\
+ & B & -- & $0.9460$ & $[0.8535,1.0000]$ & $[0.8654,1.0000]$ & 25/1/0 \\
+Oracle-intent lookup & A & -- & $1.0000$ & $[1.0000,1.0000]$ & $[1.0000,1.0000]$ & 87/0/0 \\
+ & B & -- & $1.0000$ & $[1.0000,1.0000]$ & $[1.0000,1.0000]$ & 26/0/0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\caption{The intent crossover, continued from Table~\ref{tab:cf-intent}: the interaction, the mean of the two-by-two contrast (the original question's \pn{} version minus its \present{} version, minus the same difference under the crossed question), with the persona-grouped and the pair-clustered interval, and the pooled AUROC of the original question's \pn{} version against the other three cells, with the same readers, populations and rubrics.}
+\label{tab:cf-intent-b}
+\centering\tiny\setlength{\tabcolsep}{1.5pt}
+\begin{tabular}{@{}lllrllr@{}}
+\toprule
+Reader & pop. & rubric & interaction & persona interval & pair interval & pooled AUROC \\
+\midrule
+GPT-4.1 mini ($k=1$) & A & main-study & $-0.0695$ & $[-0.1149,-0.0268]$ & $[-0.1161,-0.0276]$ & $0.6821$ \\
+ & A & intent-explicit & $-0.0259$ & $[-0.0899,+0.0300]$ & $[-0.0822,+0.0242]$ & $0.7275$ \\
+ & B & main-study & $-0.1058$ & $[-0.1655,-0.0444]$ & $[-0.1731,-0.0365]$ & $0.4497$ \\
+ & B & intent-explicit & $-0.0538$ & $[-0.1340,+0.0310]$ & $[-0.1635,+0.0520]$ & $0.6146$ \\
+\addlinespace[1pt]
+Haiku 4.5 ($k=5$) & A & main-study & $-0.0218$ & $[-0.0683,+0.0204]$ & $[-0.0609,+0.0160]$ & $0.7035$ \\
+\quad draw 1 only & A & main-study & $-0.0195$ & $[-0.0634,+0.0223]$ & $[-0.0609,+0.0209]$ & $0.7028$ \\
+ & A & intent-explicit & $-0.0456$ & $[-0.1046,+0.0202]$ & $[-0.1005,+0.0130]$ & $0.7572$ \\
+\quad draw 1 only & A & intent-explicit & $-0.0438$ & $[-0.1043,+0.0252]$ & $[-0.1047,+0.0185]$ & $0.7549$ \\
+ & B & main-study & $-0.0592$ & $[-0.1406,+0.0427]$ & $[-0.1252,+0.0197]$ & $0.7064$ \\
+\quad draw 1 only & B & main-study & $-0.0504$ & $[-0.1284,+0.0447]$ & $[-0.1289,+0.0392]$ & $0.6970$ \\
+ & B & intent-explicit & $-0.0255$ & $[-0.1114,+0.0539]$ & $[-0.1024,+0.0403]$ & $0.7470$ \\
+\quad draw 1 only & B & intent-explicit & $-0.0250$ & $[-0.1229,+0.0622]$ & $[-0.1073,+0.0439]$ & $0.7465$ \\
+\addlinespace[1pt]
+GPT-5.6 Luna ($k=5$) & A & main-study & $-0.0626$ & $[-0.0957,-0.0290]$ & $[-0.1014,-0.0211]$ & $0.7460$ \\
+\quad draw 1 only & A & main-study & $-0.0963$ & $[-0.1389,-0.0544]$ & $[-0.1509,-0.0454]$ & $0.7317$ \\
+ & A & intent-explicit & $+0.6098$ & $[+0.5405,+0.6829]$ & $[+0.5413,+0.6778]$ & $0.9714$ \\
+\quad draw 1 only & A & intent-explicit & $+0.5997$ & $[+0.5233,+0.6751]$ & $[+0.5291,+0.6704]$ & $0.9523$ \\
+ & B & main-study & $-0.0825$ & $[-0.1464,-0.0281]$ & $[-0.1309,-0.0369]$ & $0.7690$ \\
+\quad draw 1 only & B & main-study & $-0.0500$ & $[-0.1297,+0.0208]$ & $[-0.1165,+0.0142]$ & $0.7840$ \\
+ & B & intent-explicit & $+0.4975$ & $[+0.3965,+0.6067]$ & $[+0.3810,+0.6120]$ & $0.9588$ \\
+\quad draw 1 only & B & intent-explicit & $+0.5192$ & $[+0.4327,+0.6150]$ & $[+0.4023,+0.6282]$ & $0.9608$ \\
+\addlinespace[1pt]
+Opus 5 ($k=1$) & A & main-study & $+0.2208$ & $[+0.1588,+0.2880]$ & $[+0.1648,+0.2784]$ & $0.9342$ \\
+ & A & intent-explicit & $+0.4437$ & $[+0.3834,+0.5009]$ & $[+0.3934,+0.4976]$ & $0.9672$ \\
+ & B & main-study & $-0.0127$ & $[-0.0743,+0.0540]$ & $[-0.0762,+0.0515]$ & $0.9241$ \\
+ & B & intent-explicit & $+0.2508$ & $[+0.1770,+0.3271]$ & $[+0.1892,+0.3108]$ & $0.9753$ \\
+\addlinespace[1pt]
+GPT-5.6 Sol ($k=1$; Amendment 1) & A & main-study & $-0.1197$ & $[-0.1828,-0.0559]$ & $[-0.1910,-0.0473]$ & $0.7731$ \\
+ & A & intent-explicit & $+0.5205$ & $[+0.4153,+0.6366]$ & $[+0.4146,+0.6375]$ & $0.9226$ \\
+ & B & main-study & $+0.0465$ & $[-0.1434,+0.2313]$ & $[-0.1231,+0.2185]$ & $0.8378$ \\
+ & B & intent-explicit & $+0.4050$ & $[+0.2065,+0.5793]$ & $[+0.2500,+0.5477]$ & $0.9475$ \\
+\addlinespace[1pt]
+\multicolumn{7}{@{}l}{\textit{Readers with no generative-model call}}\\
+Name lookup & A & -- & $-0.0435$ & $[-0.0650,-0.0204]$ & $[-0.0737,-0.0148]$ & $0.7770$ \\
+ & B & -- & $-0.0528$ & $[-0.0822,-0.0290]$ & $[-0.0854,-0.0241]$ & $0.7567$ \\
+Keyword-intent lookup (fixed cue list) & A & -- & $+0.4041$ & $[+0.3405,+0.4736]$ & $[+0.3476,+0.4642]$ & $0.9679$ \\
+ & B & -- & $+0.2561$ & $[+0.1848,+0.3352]$ & $[+0.1806,+0.3348]$ & $0.9290$ \\
+Oracle-intent lookup & A & -- & $+0.4047$ & $[+0.3406,+0.4742]$ & $[+0.3486,+0.4645]$ & $0.9735$ \\
+ & B & -- & $+0.2973$ & $[+0.2312,+0.3820]$ & $[+0.2184,+0.3761]$ & $0.9662$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+%%END cf_intent%%
+
+%%BLOCK cf_p1%%
+%% R123: tab:cf-p1, written by reviews/v21/tools/ledger_r123_tables.py from reviews/r122/results/scores_r122_oai.json (reviews/r122/NUMBERS_R122.md, AUX-R122-P1-*); do not edit by hand.
+\begin{table}[H]
+\caption{The counterfactual set under the intent-explicit rubric (registered; ADDENDUM\_R122\_CF2\_P1): GPT-5.6 Luna at five draws and GPT-4.1 mini at one, each against its recorded row under the main-study rubric. Upper panel: whole set with the persona interval, and the margin over the name lookup with both intervals. Lower panel: the per-state values and the post hoc columns. Predicted before the run: each reader within $0.05$ of its recorded row (both readers, as predicted), the same per-state order (GPT-5.6 Luna as predicted; GPT-4.1 mini's two counted states swap, neither move reliable, a failed prediction), and Luna's margin over the lookup reliable (as predicted).}
+\label{tab:cf-p1}
+\centering\tiny\setlength{\tabcolsep}{1pt}
+\begin{tabular}{@{}llrlrll@{}}
+\toprule
+Reader & row & whole set & persona interval & minus the lookup & item interval & persona interval \\
+\midrule
+GPT-5.6 Luna ($k=5$) & main-study (recorded) & $0.8417$ & $[0.7999,0.8835]$ & $+0.0754$ & $[+0.0339,+0.1216]$ & $[+0.0450,+0.1090]$ \\
+ & intent-explicit & $0.8531$ & $[0.8108,0.8950]$ & $+0.0867$ & $[+0.0447,+0.1302]$ & $[+0.0562,+0.1219]$ \\
+ & intent-explicit minus main-study & $+0.0113$ & & & $[-0.0052,+0.0277]$ & $[-0.0010,+0.0227]$ \\
+\addlinespace[1pt]
+GPT-4.1 mini ($k=1$) & main-study (recorded) & $0.7167$ & $[0.6663,0.7649]$ & $-0.0496$ & $[-0.1012,+0.0013]$ & $[-0.0933,-0.0054]$ \\
+ & intent-explicit & $0.7253$ & $[0.6738,0.7731]$ & $-0.0411$ & $[-0.0878,+0.0034]$ & $[-0.0817,-0.0036]$ \\
+ & intent-explicit minus main-study & $+0.0085$ & & & $[-0.0260,+0.0430]$ & $[-0.0290,+0.0417]$ \\
+\addlinespace[1pt]
+\bottomrule
+\end{tabular}\\[4pt]
+\begin{tabular}{@{}llrrrrrrr@{}}
+\toprule
+Reader & row & supersession & retraction & expiry & PN vs PRESENT & W/T/L & distinct values & tied triples \\
+\midrule
+GPT-5.6 Luna ($k=5$) & main-study (recorded) & $0.9426$ & $0.5458$ & $0.6167$ & $0.8544$ & 129/2/17 & 239 & 0 \\
+ & intent-explicit & $0.9470$ & $0.5997$ & $0.6347$ & $0.8566$ & 125/1/22 & 228 & 0 \\
+ & intent-explicit minus main-study & $+0.0043$ & $+0.0539$ & $+0.0181$ & & & & \\
+\addlinespace[1pt]
+GPT-4.1 mini ($k=1$) & main-study (recorded) & $0.8308$ & $0.5283$ & $0.5489$ & $0.7056$ & 81/57/10 & 12 & 51 \\
+ & intent-explicit & $0.8591$ & $0.5456$ & $0.4758$ & $0.7120$ & 80/52/16 & 10 & 45 \\
+ & intent-explicit minus main-study & $+0.0282$ & $+0.0172$ & $-0.0731$ & & & & \\
+\addlinespace[1pt]
+\bottomrule
+\end{tabular}
+\end{table}
+%%END cf_p1%%
+
+%%BLOCK mini_k5%%
+%% R123: tab:mini-k5, written by reviews/v21/tools/ledger_r123_tables.py from reviews/r122/results/scores_r122_oai.json (reviews/r122/NUMBERS_R122.md, AUX-R122-K5-*); do not edit by hand.
+\begin{table}[H]
+\caption{GPT-4.1 mini at five draws on the counterfactual set (registered; ADDENDUM\_R122\_MINI\_K5), under the default and the all-states summary, beside its recorded one-draw rows at temperature $0$. Upper panel: whole set with the persona interval, and the margin over the same summary's lookup with both intervals. Lower panel: per state, and the post hoc columns. The five-draw run used the provider's default temperature, so two things changed between the rows. Predicted before the run: the five-draw row within $0.05$ of the one-draw row and fewer tied triples, under both summaries (as predicted). Table~\ref{tab:cf-main} prints the five-draw rows; the names-against-counts comparison of Table~\ref{tab:cf-names-counts} keeps the one-draw row as its comparator.}
+\label{tab:mini-k5}
+\centering\tiny\setlength{\tabcolsep}{1pt}
+\begin{tabular}{@{}llrlrll@{}}
+\toprule
+Reader & row & whole set & persona interval & minus the lookup & item interval & persona interval \\
+\midrule
+default (superseded-only) & one draw, temperature $0$ (recorded) & $0.7167$ & $[0.6663,0.7649]$ & $-0.0496$ & $[-0.1012,+0.0013]$ & $[-0.0933,-0.0054]$ \\
+ & five draws, provider default & $0.7648$ & $[0.7218,0.8047]$ & $-0.0016$ & $[-0.0426,+0.0393]$ & $[-0.0415,+0.0328]$ \\
+ & five minus one & $+0.0481$ & & & $[+0.0119,+0.0857]$ & $[+0.0171,+0.0827]$ \\
+\addlinespace[1pt]
+all-states & one draw, temperature $0$ (recorded) & $0.7967$ & $[0.7438,0.8478]$ & $-0.0789$ & $[-0.1229,-0.0344]$ & $[-0.1283,-0.0334]$ \\
+ & five draws, provider default & $0.8323$ & $[0.7889,0.8725]$ & $-0.0433$ & $[-0.0879,-0.0035]$ & $[-0.0838,-0.0042]$ \\
+ & five minus one & $+0.0356$ & & & $[+0.0094,+0.0619]$ & $[+0.0092,+0.0688]$ \\
+\addlinespace[1pt]
+\bottomrule
+\end{tabular}\\[4pt]
+\begin{tabular}{@{}llrrrrrrr@{}}
+\toprule
+Reader & row & supersession & retraction & expiry & PN vs PRESENT & W/T/L & distinct values & tied triples \\
+\midrule
+default (superseded-only) & one draw, temperature $0$ (recorded) & $0.8308$ & $0.5283$ & $0.5489$ & $0.7056$ & 81/57/10 & 12 & 51 \\
+ & five draws, provider default & $0.8793$ & $0.5761$ & $0.5594$ & $0.7394$ & 100/15/33 & 74 & 6 \\
+ & five minus one & $+0.0485$ & $+0.0478$ & $+0.0106$ & & & & \\
+\addlinespace[1pt]
+all-states & one draw, temperature $0$ (recorded) & $0.8444$ & $0.8725$ & $0.5869$ & $0.7840$ & 105/32/11 & 12 & 26 \\
+ & five draws, provider default & $0.8829$ & $0.8433$ & $0.6719$ & $0.8307$ & 130/5/13 & 78 & 1 \\
+ & five minus one & $+0.0385$ & $-0.0292$ & $+0.0850$ & & & & \\
+\addlinespace[1pt]
+\bottomrule
+\end{tabular}
+\end{table}
+%%END mini_k5%%
+
+%%BLOCK cf_main_mini%%
+GPT-4.1 mini, sup.\ only$^{a}$ & $0.76$ & $[0.72,0.80]$ & $0.74$ & $100/15/33$ \\
+GPT-4.1 mini, all three$^{a}$ & $0.83$ & $[0.79,0.87]$ & $0.83$ & $130/5/13$ \\
+%%END cf_main_mini%%
+
+%%BLOCK cf_main_note%%
+$^{a}$GPT-4.1 mini's rows are its five-draw run at the provider's default temperature; its recorded one-draw rows at temperature $0$ read $0.72$ and $0.80$ (Table~\ref{tab:mini-k5}, Appendix~\ref{app:counterfactual}).
+%%END cf_main_note%%
+
+%%BLOCK enc_lookup%%
+%% R123: tab:enc-lookup, written by reviews/v21/tools/ledger_r123_tables.py from reviews/r122/results/enc_lookup.json (reviews/r122/NUMBERS_R122.md, AUX-R122-ENC-*); do not edit by hand.
+\begin{table}[H]
+\caption{The name lookup under two further sentence encoders, and the random-token control (registered; ADDENDUM\_R122\_ENCODERS): the same lookup code with the encoder swapped, on the counterfactual set under the default and the all-states summary and on the full obligation set, AUROC with the persona interval where recorded and the difference from the recorded \texttt{all-MiniLM-L6-v2} lookup with both intervals. The full-obligation-set rows as committed read the summaries where an empty section's \texttt{(none)} marker is encoded as a name; the marker-free rows drop the marker and are the fair cross-encoder comparison there. The control replaces every name by a random token, so what it scores comes from the list's length and from whether it is empty. Predicted before the run: both encoders within $0.05$ of MiniLM on the counterfactual set under the default summary (as predicted).}
+\label{tab:enc-lookup}
+\centering\tiny\setlength{\tabcolsep}{1pt}
+\begin{tabular}{@{}llrlrll@{}}
+\toprule
+Encoder & population, summary & AUROC & persona interval & minus MiniLM & item interval & persona interval \\
+\midrule
+\texttt{all-MiniLM-L6-v2} (recorded) & $444$, default & $0.7663$ & $[0.7226,0.8051]$ & -- & -- & -- \\
+ & $444$, all-states & $0.8756$ & $[0.8391,0.9111]$ & -- & -- & -- \\
+ & $661$, committed & $0.7484$ & $[0.6636,0.8298]$ & -- & -- & -- \\
+ & $661$, marker-free & $0.7442$ & $[0.6513,0.8336]$ & -- & -- & -- \\
+\addlinespace[1pt]
+\texttt{all-mpnet-base-v2} & $444$, default & $0.7605$ & $[0.7140,0.8024]$ & $-0.0059$ & $[-0.0240,+0.0126]$ & $[-0.0224,+0.0093]$ \\
+ & $444$, all-states & $0.8646$ & $[0.8296,0.9018]$ & $-0.0110$ & $[-0.0296,+0.0063]$ & $[-0.0257,+0.0034]$ \\
+ & $661$, committed & $0.7642$ & $[0.6705,0.8573]$ & $+0.0158$ & $[-0.0275,+0.0585]$ & $[-0.0469,+0.0686]$ \\
+ & $661$, marker-free & $0.7642$ & $[0.6574,0.8619]$ & $+0.0200$ & $[-0.0037,+0.0426]$ & $[-0.0095,+0.0507]$ \\
+\addlinespace[1pt]
+\texttt{bge-small-en-v1.5} & $444$, default & $0.7584$ & $[0.7166,0.7989]$ & $-0.0080$ & $[-0.0298,+0.0143]$ & $[-0.0244,+0.0098]$ \\
+ & $444$, all-states & $0.8690$ & $[0.8326,0.9076]$ & $-0.0066$ & $[-0.0254,+0.0101]$ & $[-0.0259,+0.0134]$ \\
+ & $661$, committed & $0.8133$ & $[0.7452,0.8856]$ & $+0.0649$ & $[+0.0292,+0.1026]$ & $[+0.0101,+0.1297]$ \\
+ & $661$, marker-free & $0.7620$ & $[0.6595,0.8519]$ & $+0.0178$ & $[-0.0014,+0.0392]$ & $[-0.0170,+0.0530]$ \\
+\addlinespace[1pt]
+\multicolumn{7}{@{}l}{\textit{Random tokens in place of every name}}\\
+\texttt{all-MiniLM-L6-v2} & $444$, default & $0.5954$ & $[0.5601,0.6383]$ & -- & -- & -- \\
+ & $444$, all-states & $0.5479$ & $[0.5260,0.5740]$ & -- & -- & -- \\
+ & $661$, committed & $0.6654$ & $[0.5874,0.7417]$ & -- & -- & -- \\
+ & $661$, marker-free & $0.6627$ & $[0.5798,0.7393]$ & -- & -- & -- \\
+\addlinespace[1pt]
+\texttt{all-mpnet-base-v2} & $444$, default & $0.5977$ & $[0.5620,0.6365]$ & -- & -- & -- \\
+ & $444$, all-states & $0.5363$ & $[0.5203,0.5555]$ & -- & -- & -- \\
+ & $661$, committed & $0.7150$ & $[0.6475,0.7854]$ & -- & -- & -- \\
+ & $661$, marker-free & $0.7003$ & $[0.6225,0.7763]$ & -- & -- & -- \\
+\addlinespace[1pt]
+\texttt{bge-small-en-v1.5} & $444$, default & $0.5948$ & $[0.5580,0.6396]$ & -- & -- & -- \\
+ & $444$, all-states & $0.5452$ & $[0.5262,0.5701]$ & -- & -- & -- \\
+ & $661$, committed & $0.6989$ & $[0.6228,0.7666]$ & -- & -- & -- \\
+ & $661$, marker-free & $0.6437$ & $[0.5681,0.7174]$ & -- & -- & -- \\
+\addlinespace[1pt]
+\bottomrule
+\end{tabular}
+\end{table}
+%%END enc_lookup%%
+
+%%BLOCK gate_reach%%
+%% R123: tab:gatereach, written by reviews/v21/tools/ledger_r123_tables.py from reviews/r122/results/gate_reach.json (reviews/r122/NUMBERS_R122.md, AUX-R122-GATE-*); do not edit by hand.
+\begin{table}[H]
+\caption{What the gate buys, reach only (registered; ADDENDUM\_R122\_GATE\_REACH): three policies assembled from the recorded ranking and the store's records with no monitor call and no answer call, against the recorded model rule. The always-open fetch keys the lifecycle fetch on the name the lookup matches best and never abstains; the similarity view is the recorded top-$k$ retrieval; the recency-aware view keeps the newest record of each attribute and fills to $k$. Each is read at its named depth and budget-matched to the model rule's mean view over the $661$ questions ($5.43$ lines) by interpolating between the two bracketing depths (the always-open fetch between $k=3$ and $4$ with weight $0.91$ on the deeper, the similarity and recency-aware views between $k=5$ and $6$ with weight $0.43$). Upper panel: the forbidding record in view over the $104$ obligations with the Wilson interval and the per-state census, and the difference from the model rule with both intervals. Lower panel: the licensed record in view over the $174$ licensed items with its difference from the model rule, and the mean lines per question over the $661$ and over the $104$. The fetch keyed on the best-matched name at four similarity lines reaches $85$ of $104$ at $5.53$ lines; the matched always-open row loses licensed records reliably because the truncated fill drops them; the recency-aware view reaches no retraction obligation because the retracted record is never the newest of its attribute. All three predictions came out as written: the ungated fetch within $0.05$ of the model rule at the matched budget, its unmatched form spending more lines, and the recency-aware view below the rule by more than $0.05$.}
+\label{tab:gatereach}
+\centering\tiny\setlength{\tabcolsep}{1.5pt}
+\begin{tabular}{@{}p{0.2\linewidth}llllll@{}}
+\toprule
+Policy & in view (of $104$) & Wilson & sup.\ / retr.\ / exp.\ & minus the model rule & item interval & persona interval \\
+\midrule
+Model rule (recorded) & $85$ = $0.8173$ & -- & 53 / 20 / 12 & -- & -- & -- \\
+Always-open fetch, five lines plus the fetch & $86$ = $0.8269$ & $[0.743,0.888]$ & 54 / 20 / 12 & $+0.0096$ & $[-0.0577,+0.0673]$ & $[-0.0804,+0.0980]$ \\
+Always-open fetch, matched & $0.8164$ & -- & -- & $-0.0009$ & $[-0.0700,+0.0664]$ & $[-0.0893,+0.0890]$ \\
+Similarity view, seven lines (recorded rows) & $62$ = $0.5962$ & $[0.500,0.685]$ & 27 / 23 / 12 & $-0.2212$ & $[-0.3077,-0.1346]$ & $[-0.3530,-0.0850]$ \\
+Similarity view, matched & $0.5443$ & -- & -- & $-0.2730$ & $[-0.3621,-0.1865]$ & $[-0.3976,-0.1378]$ \\
+Recency-aware view, seven lines & $28$ = $0.2692$ & $[0.193,0.362]$ & 17 / 0 / 11 & $-0.5481$ & $[-0.6635,-0.4423]$ & $[-0.6970,-0.3924]$ \\
+Recency-aware view, matched & $0.2337$ & -- & -- & $-0.5836$ & $[-0.6936,-0.4749]$ & $[-0.7300,-0.4370]$ \\
+\bottomrule
+\end{tabular}\\[4pt]
+\begin{tabular}{@{}p{0.2\linewidth}llllrr@{}}
+\toprule
+Policy & licensed (of $174$) & minus the model rule & item interval & persona interval & lines, $661$ & lines, $104$ \\
+\midrule
+Model rule (recorded) & $65$ = $0.3736$ & -- & -- & -- & $5.43$ & $7.08$ \\
+Always-open fetch, five lines plus the fetch & $65$ = $0.3736$ & -- & -- & -- & $6.51$ & $6.39$ \\
+Always-open fetch, matched & $0.3361$ & $-0.0375$ & $[-0.0657,-0.0159]$ & $[-0.0667,-0.0142]$ & $5.43$ & -- \\
+Similarity view, seven lines (recorded rows) & $77$ = $0.4425$ & -- & -- & -- & $7.00$ & $7.00$ \\
+Similarity view, matched & $0.3910$ & $+0.0175$ & $[+0.0075,+0.0299]$ & $[+0.0055,+0.0312]$ & $5.43$ & -- \\
+Recency-aware view, seven lines & $55$ = $0.3161$ & -- & -- & -- & $7.00$ & $7.00$ \\
+Recency-aware view, matched & $0.2916$ & $-0.0820$ & $[-0.1394,-0.0270]$ & $[-0.1519,-0.0156]$ & $5.43$ & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+%%END gate_reach%%
+
+%%BLOCK sup_margins%%
+%% R123: tab:sup-margins, written by reviews/v21/tools/ledger_r123_tables.py from reviews/r117/results/sup_margins.json (the recorded rows through cf2_reader_score, 1,000 draws, seed 42) and, for the five-draw row, reviews/r122/results/scores_r122_oai.json (reviews/NUMBERS_R123.md AUX-R123-SUP-MARGINS); do not edit by hand.
+\begin{table}[H]
+\caption{Each model's supersession-only margin over the name lookup on the counterfactual set under the default summary ($88$ pairs, $264$ items; the lookup reads $0.9223$ there): the model's whole-set and supersession AUROC, the paired difference from the lookup with the item-level and the persona-grouped interval, and whether both intervals exclude zero. Descriptive; computed on the recorded rows after the fact. At one draw GPT-4.1 mini is reliably below the lookup; at five draws its interval includes zero; no model is reliably above it.}
+\label{tab:sup-margins}
+\centering\tiny\setlength{\tabcolsep}{1pt}
+\begin{tabular}{@{}lrrrlll@{}}
+\toprule
+Model & whole set & supersession & minus the lookup & item interval & persona interval & both exclude zero \\
+\midrule
+GPT-4.1 mini, one draw (recorded) & $0.7167$ & $0.8308$ & $-0.0915$ & $[-0.1399,-0.0478]$ & $[-0.1436,-0.0425]$ & yes \\
+GPT-4.1 mini, five draws (provider default) & $0.7648$ & $0.8793$ & $-0.0429$ & $[-0.0898,+0.0006]$ & $[-0.1001,+0.0035]$ & no \\
+Haiku 4.5 (five draws) & $0.7566$ & $0.8876$ & $-0.0347$ & $[-0.0813,+0.0086]$ & $[-0.0809,+0.0066]$ & no \\
+Opus 5 (five draws) & $0.8405$ & $0.9325$ & $+0.0102$ & $[-0.0183,+0.0392]$ & $[-0.0259,+0.0432]$ & no \\
+GPT-5.6 Sol (five draws) & $0.8500$ & $0.9383$ & $+0.0161$ & $[-0.0130,+0.0473]$ & $[-0.0202,+0.0478]$ & no \\
+GPT-5.6 Luna (five draws) & $0.8417$ & $0.9426$ & $+0.0204$ & $[-0.0053,+0.0473]$ & $[-0.0056,+0.0451]$ & no \\
+\bottomrule
+\end{tabular}
+\end{table}
+%%END sup_margins%%
+
+%%BLOCK reach%%
+%% R123: tab:reach (the Section 9 reach table), written by reviews/v21/tools/ledger_r123_tables.py from reviews/v21/results/reach_rows_r123.json (the recorded policies; reviews/NUMBERS_R123.md AUX-R123-REACH-ROWS) and reviews/r122/results/gate_reach.json (the matched rows; AUX-R122-GATE-*); do not edit by hand.
+\begin{table}[h]
+\caption{Reach on the full obligation set: records in view, no answer scored. Lines are the mean per question over all $661$ questions (about seven over the $104$ obligations alone); the three matched rows interpolate between two depths to the model rule's budget (Table~\ref{tab:gatereach}, Appendix~\ref{app:resp}).}
+\label{tab:reach}
+\centering\scriptsize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{0.9}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Policy & \hd{Forbidding records}{in view (of $104$)} & rate & \hd{Mean lines}{per question} & \hd{Licensed record}{in view (of $174$)} \\
+\midrule
+Top-five retrieval & $54$ & $0.52$ & $5.00$ & $0.37$ \\
+Similarity retrieval at the matched budget & -- & $0.54$ & $5.43$ & $0.39$ \\
+Recency-aware retrieval at the matched budget & -- & $0.23$ & $5.43$ & $0.29$ \\
+Always-open fetch at the matched budget & -- & $0.82$ & $5.43$ & $0.34$ \\
+Lookup rule & $85$ & $0.82$ & $5.46$ & $0.37$ \\
+Model rule & $85$ & $0.82$ & $5.43$ & $0.37$ \\
+Oracle & $99$ & $0.95$ & $5.33$ & $0.37$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+%%END reach%%

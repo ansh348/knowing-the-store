@@ -1,0 +1,4800 @@
+[
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "priya_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "priya",
+    "question": "What dietary restrictions does Priya have?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "priya_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "priya",
+    "question": "Where does Priya work?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "priya_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "priya",
+    "question": "What should I know about Priya's learning or work style?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "priya_q04",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "priya",
+    "question": "Does Priya have any upcoming appointments?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "priya_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "priya",
+    "question": "Is Priya planning to get a pet?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "priya_q06",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "priya",
+    "question": "What's Priya's living situation?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "priya_q07",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "priya",
+    "question": "What exercise does Priya do?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "priya_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "priya",
+    "question": "Is Priya planning to relocate?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "priya_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "priya",
+    "question": "What health conditions should Priya's meal plan account for?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "priya_q10",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bcoming up\\b",
+      "\\bcoming\\b"
+    ],
+    "persona": "priya",
+    "question": "Does Priya have any deadlines coming up?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "priya_q11",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "priya",
+    "question": "What does Priya do in her free time?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "priya_q12",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "priya",
+    "question": "What's Priya's family background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "priya_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "priya",
+    "question": "How often did Priya do hot yoga before she stopped?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "priya_q14",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "priya",
+    "question": "When is Priya's Tokyo conference?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "marcus_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "marcus",
+    "question": "Who is Marcus's main tire supplier?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "marcus_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "marcus",
+    "question": "What vehicle does Marcus drive?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "marcus_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "marcus",
+    "question": "Is Marcus planning to open a second shop location?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "marcus_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "marcus",
+    "question": "What health conditions should be considered for Marcus?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "marcus_q05",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "marcus",
+    "question": "Does Marcus have any upcoming inspections or deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "marcus_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "marcus",
+    "question": "What does Marcus do for fun?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "marcus_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "marcus",
+    "question": "What's Marcus's relationship status?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "marcus_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "marcus",
+    "question": "How is Marcus's business doing financially?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "marcus_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "marcus",
+    "question": "What's Marcus's educational background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "marcus_q10",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bcoming\\b"
+    ],
+    "persona": "marcus",
+    "question": "Does Marcus have any equipment deliveries coming?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "marcus_q11",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "marcus",
+    "question": "What's Marcus's family situation?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "marcus_q12",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bneed to prepare\\b",
+      "\\bneed to\\b"
+    ],
+    "persona": "marcus",
+    "question": "Does Marcus need to prepare for any meetings?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "marcus_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "marcus",
+    "question": "How many employees does Marcus currently have at the shop?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "marcus_q14",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "marcus",
+    "question": "How long did Marcus serve in the military?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "elena_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "elena",
+    "question": "Where does Elena work?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "elena_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "elena",
+    "question": "What diet is Elena following?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "elena_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "elena",
+    "question": "Is Elena planning to get a nurse practitioner degree?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "elena_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "elena",
+    "question": "What mental health conditions does Elena have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "elena_q05",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "elena",
+    "question": "Does Elena have any upcoming exams or certifications?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "elena_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "elena",
+    "question": "What's Elena's relationship status?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "elena_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "elena",
+    "question": "How does Elena feel about night shifts?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "elena_q08",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "elena",
+    "question": "What's Elena's family background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "elena_q09",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "elena",
+    "question": "Is Elena thinking about moving?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "elena_q10",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bneed to\\b"
+    ],
+    "persona": "elena",
+    "question": "Does Elena need to make any lease decisions?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "elena_q11",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "elena",
+    "question": "Does Elena have any upcoming events or deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "elena_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "elena",
+    "question": "What does Elena do for stress relief?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "elena_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "elena",
+    "question": "How much does Elena owe in student loans?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "elena_q14",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "elena",
+    "question": "How much weight did Elena lose on keto before switching diets?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "david_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "david",
+    "question": "What subject does David teach?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "david_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "david",
+    "question": "What extracurricular does David coach?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "david_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "david",
+    "question": "What car does David drive?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "david_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "david",
+    "question": "Is David writing a book?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "david_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "david",
+    "question": "What health conditions does David have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "david_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "david",
+    "question": "Does David have any upcoming exams to prepare students for?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "david_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "david",
+    "question": "How does David feel about his teaching career?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "david_q08",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "david",
+    "question": "What's David's family background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "david_q09",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "david",
+    "question": "Is David planning to move?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "david_q10",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "david",
+    "question": "Does David have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "david_q11",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bcoming up\\b",
+      "\\bcoming\\b"
+    ],
+    "persona": "david",
+    "question": "Does David have any parent events coming up?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "david_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "david",
+    "question": "What does David do outside of teaching?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "david_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "david",
+    "question": "How many years has David been teaching?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "david_q14",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "david",
+    "question": "How many miles were on David's old Camry when he replaced it?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "amara_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "amara",
+    "question": "Which chambers does Amara practise at?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "amara_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "amara",
+    "question": "What phone does Amara use?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "amara_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "amara",
+    "question": "What exercise does Amara do?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "amara_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "amara",
+    "question": "Does Amara have any health conditions to be aware of?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "amara_q05",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "amara",
+    "question": "Does Amara have any upcoming commitments or deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "amara_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "amara",
+    "question": "Is Amara pursuing any further education?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "amara_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "amara",
+    "question": "Does Amara drink alcohol?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "amara_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "amara",
+    "question": "Where does Amara live?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "amara_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "amara",
+    "question": "What's Amara's family background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "amara_q10",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bexpired\\b"
+    ],
+    "persona": "amara",
+    "question": "Does Amara have any expired appointments or events?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "amara_q11",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "amara",
+    "question": "What does Amara do outside of work?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "amara_q12",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "amara",
+    "question": "What is Amara's educational background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "amara_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "amara",
+    "question": "At what age was Amara diagnosed with endometriosis?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "amara_q14",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "amara",
+    "question": "How much would the UCL master's programme have cost Amara?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "jake_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "jake",
+    "question": "Does Jake vape?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "jake_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "jake",
+    "question": "Who is Jake dating?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "jake_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "jake",
+    "question": "What does Jake's mom do?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "jake_q04",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "jake",
+    "question": "Does Jake have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "jake_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "jake",
+    "question": "Is Jake doing any side work?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "jake_q06",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "jake",
+    "question": "How is Jake doing with his savings?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "jake_q07",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "jake",
+    "question": "What does Jake drink?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "jake_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "jake",
+    "question": "Where does Jake live?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "jake_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "jake",
+    "question": "What's Jake's family background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "jake_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "jake",
+    "question": "What does Jake do outside of work?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "jake_q11",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bcoming up\\b",
+      "\\bcoming\\b"
+    ],
+    "persona": "jake",
+    "question": "Does Jake have any exams or certifications coming up?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "jake_q12",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "jake",
+    "question": "What's Jake's work situation?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "jake_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "jake",
+    "question": "How much did Jake spend on his gaming PC?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "jake_q14",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "jake",
+    "question": "How long has Jake's mom worked at the Eire Pub?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "tom_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "tom",
+    "question": "Where does Tom get his honey jars?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "tom_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "tom",
+    "question": "What car does Tom drive?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "tom_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "tom",
+    "question": "What does Tom do socially?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "tom_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "tom",
+    "question": "Does Tom have any health conditions?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "tom_q05",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "tom",
+    "question": "Does Tom have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "tom_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "tom",
+    "question": "Is Tom planning any building projects?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "tom_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "tom",
+    "question": "Does Tom use social media?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "tom_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "tom",
+    "question": "Where does Tom live?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "tom_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "tom",
+    "question": "What's Tom's family situation?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "tom_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "tom",
+    "question": "What does Tom do in his free time?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "tom_q11",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "tom",
+    "question": "What was Tom's career?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "tom_q12",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "tom",
+    "question": "Does Tom have any past events or appointments?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "tom_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "tom",
+    "question": "How much was the quote for Tom's barn conversion?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "tom_q14",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "tom",
+    "question": "How many years did Tom work at Arup?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "omar_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "omar",
+    "question": "What rideshare platform does Omar drive for?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "omar_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "omar",
+    "question": "Where does Omar live?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "omar_q03",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "omar",
+    "question": "Does Omar have any upcoming events or deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "omar_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "omar",
+    "question": "What is Omar's background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "omar_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "omar",
+    "question": "Is Omar planning to buy a car?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "omar_q06",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "omar",
+    "question": "Does Omar spend money on himself?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "omar_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "omar",
+    "question": "Is Omar planning to move?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "omar_q08",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "omar",
+    "question": "What does Omar do for money?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "omar_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "omar",
+    "question": "Does Omar have family obligations?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "omar_q10",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "omar",
+    "question": "Does Omar have any past events?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "omar_q11",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "omar",
+    "question": "What are Omar's health conditions?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "omar_q12",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "omar",
+    "question": "What's Omar's career plan?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "omar_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "omar",
+    "question": "How much was Omar's rent in Alief before he moved?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "omar_q14",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "omar",
+    "question": "How much does Omar send his mother in Khartoum each month?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "fatima_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "fatima",
+    "question": "Who is Fatima's primary fabric supplier?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "fatima_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "fatima",
+    "question": "What type of projects does Fatima's firm focus on?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "fatima_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "fatima",
+    "question": "Where is Fatima's office?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "fatima_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "fatima",
+    "question": "Does Fatima have any health conditions?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "fatima_q05",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "fatima",
+    "question": "Does Fatima have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "fatima_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "fatima",
+    "question": "Is Fatima launching any new products or brands?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "fatima_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "fatima",
+    "question": "Does Fatima travel for work?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "fatima_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "fatima",
+    "question": "What is Fatima's company called?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "fatima_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "fatima",
+    "question": "What's Fatima's family situation?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "fatima_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "fatima",
+    "question": "What does Fatima do outside of work?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "fatima_q11",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "fatima",
+    "question": "What is Fatima's educational background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "fatima_q12",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bexpired\\b"
+    ],
+    "persona": "fatima",
+    "question": "Does Fatima have any expired commitments?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "kenji_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "kenji",
+    "question": "What design tool does Kenji primarily use?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "kenji_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "kenji",
+    "question": "Who is Kenji's main client?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "kenji_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "kenji",
+    "question": "Where does Kenji work?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "kenji_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "kenji",
+    "question": "Does Kenji have any health conditions?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "kenji_q05",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "kenji",
+    "question": "Does Kenji have any upcoming deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "kenji_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "kenji",
+    "question": "Is Kenji working on any personal projects?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "kenji_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "kenji",
+    "question": "Does Kenji work with corporate clients?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "kenji_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "kenji",
+    "question": "Where does Kenji live?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "kenji_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "kenji",
+    "question": "What's Kenji's family situation?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "kenji_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "kenji",
+    "question": "What does Kenji do outside of client work?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "kenji_q11",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "kenji",
+    "question": "Does Kenji have any past events or appointments?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "kenji_q12",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "kenji",
+    "question": "What's Kenji's educational background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "rosa_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "rosa",
+    "question": "What exercise does Rosa do?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "rosa_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "rosa",
+    "question": "What car does Rosa drive?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "rosa_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "rosa",
+    "question": "Who is Rosa's housekeeper?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "rosa_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "rosa",
+    "question": "Does Rosa have any health conditions?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "rosa_q05",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "rosa",
+    "question": "Does Rosa have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "rosa_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "rosa",
+    "question": "Is Rosa planning to travel to Peru?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "rosa_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "rosa",
+    "question": "Is Rosa planning to reduce her workload?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "rosa_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "rosa",
+    "question": "When is Rosa planning to retire?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "rosa_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "rosa",
+    "question": "What's Rosa's family background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "rosa_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "rosa",
+    "question": "What does Rosa enjoy outside of work?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "rosa_q11",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bexpired\\b"
+    ],
+    "persona": "rosa",
+    "question": "Does Rosa have any expired commitments?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "rosa_q12",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "rosa",
+    "question": "What's Rosa's judicial background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "callum_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "callum",
+    "question": "Where does Callum work?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "callum_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "callum",
+    "question": "What vehicle does Callum drive?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "callum_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "callum",
+    "question": "What sport does Callum play?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "callum_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "callum",
+    "question": "Does Callum have any health conditions?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "callum_q05",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "callum",
+    "question": "Does Callum have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "callum_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "callum",
+    "question": "Is Callum pursuing any additional certifications?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "callum_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "callum",
+    "question": "Could Callum see himself living in a city?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "callum_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "callum",
+    "question": "What's Callum's relationship status?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "callum_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "callum",
+    "question": "What's Callum's background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "callum_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "callum",
+    "question": "What does Callum do in his free time?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "callum_q11",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "callum",
+    "question": "Does Callum have any past events?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "callum_q12",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "callum",
+    "question": "What's Callum's education?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "diane_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "diane",
+    "question": "Where does Diane work?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "diane_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "diane",
+    "question": "What are Diane's hobbies?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "diane_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "diane",
+    "question": "What denomination is Diane?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "diane_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "diane",
+    "question": "Does Diane have any health conditions?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "diane_q05",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "diane",
+    "question": "Does Diane have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "diane_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "diane",
+    "question": "Is Diane writing a book?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "diane_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "diane",
+    "question": "Does Diane watch television?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "diane_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "diane",
+    "question": "Where does Diane live?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "diane_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "diane",
+    "question": "What's Diane's family situation?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "diane_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "diane",
+    "question": "What does Diane do outside of work?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "diane_q11",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "diane",
+    "question": "What's Diane's educational and spiritual background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "diane_q12",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bexpired\\b"
+    ],
+    "persona": "diane",
+    "question": "Does Diane have any expired events?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "raj_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "raj",
+    "question": "What van does Raj drive for work?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "raj_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "raj",
+    "question": "What sports package does Raj use?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "raj_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "raj",
+    "question": "What does Simran do for work?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "raj_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "raj",
+    "question": "Does Raj have any health conditions?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "raj_q05",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "raj",
+    "question": "Does Raj have any upcoming certifications or deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "raj_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "raj",
+    "question": "Is Raj hiring help for his business?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "raj_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "raj",
+    "question": "Does Raj work weekends?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "raj_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "raj",
+    "question": "Where does Raj live?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "raj_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "raj",
+    "question": "What's Raj's family situation?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "raj_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "raj",
+    "question": "What does Raj enjoy outside of work?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "raj_q11",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bexpired\\b"
+    ],
+    "persona": "raj",
+    "question": "Does Raj have any expired events?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "raj_q12",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "raj",
+    "question": "What's Raj's background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "nadia_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "nadia",
+    "question": "Who is the head chef at Nadia's restaurant?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "nadia_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "nadia",
+    "question": "Where does Nadia live?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "nadia_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "nadia",
+    "question": "What exercise does Nadia do?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "nadia_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "nadia",
+    "question": "What languages does Nadia speak?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "nadia_q05",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "nadia",
+    "question": "Does Nadia have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "nadia_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "nadia",
+    "question": "Is Nadia planning to stage at Noma?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "nadia_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "nadia",
+    "question": "Would Nadia ever open her own restaurant?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "nadia_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "nadia",
+    "question": "Is Nadia staying at Maison Laurent?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "nadia_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "nadia",
+    "question": "What's Nadia's background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "nadia_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "nadia",
+    "question": "What does Nadia do outside of work?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "nadia_q11",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bexpired\\b"
+    ],
+    "persona": "nadia",
+    "question": "Does Nadia have any expired events?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "nadia_q12",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "nadia",
+    "question": "Who taught Nadia to cook?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "samuel_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "samuel",
+    "question": "What type of surgery does Samuel primarily perform?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "samuel_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "samuel",
+    "question": "What exercise does Samuel do?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "samuel_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "samuel",
+    "question": "Where does Samuel live?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "samuel_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "samuel",
+    "question": "Does Samuel have any health conditions?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "samuel_q05",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "samuel",
+    "question": "Does Samuel have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "samuel_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "samuel",
+    "question": "Is Samuel planning a medical mission to Ghana?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "samuel_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "samuel",
+    "question": "Does Samuel discuss work at home?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "samuel_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "samuel",
+    "question": "What church does Samuel attend?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "samuel_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "samuel",
+    "question": "What's Samuel's background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "samuel_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "samuel",
+    "question": "What does Samuel do outside of surgery?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "samuel_q11",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "samuel",
+    "question": "Does Samuel have any past events?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "samuel_q12",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "samuel",
+    "question": "What are Samuel's credentials?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "lily_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "lily",
+    "question": "What is Lily's thesis about?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "lily_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "lily",
+    "question": "Who is Lily dating?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "lily_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "lily",
+    "question": "What oat milk does Lily use?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "lily_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "lily",
+    "question": "Does Lily have any health conditions?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "lily_q05",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "lily",
+    "question": "Does Lily have any upcoming trips or deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "lily_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "lily",
+    "question": "Is Lily doing a semester exchange?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "lily_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "lily",
+    "question": "Is Lily vegan?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "lily_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "lily",
+    "question": "What does Lily plan to do after graduation?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "lily_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "lily",
+    "question": "What's Lily's family background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "lily_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "lily",
+    "question": "What does Lily do outside of uni?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "lily_q11",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "lily",
+    "question": "Does Lily have past events?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "lily_q12",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "lily",
+    "question": "What's Lily's identity?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "bruna_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "bruna",
+    "question": "Who owns the clinic where Bruna works?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "bruna_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "bruna",
+    "question": "What exercise does Bruna do regularly?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "bruna_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "bruna",
+    "question": "Where does Bruna live?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "bruna_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "bruna",
+    "question": "Does Bruna have any health conditions to be aware of?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "bruna_q05",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "bruna",
+    "question": "Does Bruna have any upcoming events or deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "bruna_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "bruna",
+    "question": "Is Bruna planning to get any new certifications?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "bruna_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "bruna",
+    "question": "Does Bruna drink alcohol?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "bruna_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "bruna",
+    "question": "What is Bruna's relationship status?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "bruna_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "bruna",
+    "question": "Where is Bruna originally from and what's her family situation?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "bruna_q10",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "bruna",
+    "question": "Does Bruna plan to stay in Dubai long-term?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "bruna_q11",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bregistered for\\b"
+    ],
+    "persona": "bruna",
+    "question": "Is Bruna registered for any races or sporting events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "bruna_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "bruna",
+    "question": "What does Bruna like to do outside of work?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "patrick_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "patrick",
+    "question": "Does Patrick still coach baseball?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "patrick_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "patrick",
+    "question": "Does Patrick own a shore house?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "patrick_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "patrick",
+    "question": "Who is Patrick's primary doctor?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "patrick_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "patrick",
+    "question": "Does Patrick have any mental health history?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "patrick_q05",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "patrick",
+    "question": "Does Patrick have upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "patrick_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "patrick",
+    "question": "Is Patrick planning any home improvement projects?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "patrick_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "patrick",
+    "question": "How long does Patrick plan to keep working?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "patrick_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "patrick",
+    "question": "Where does Patrick live?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "patrick_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "patrick",
+    "question": "What's Patrick's family situation?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "patrick_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "patrick",
+    "question": "What does Patrick do in his free time?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "patrick_q11",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "patrick",
+    "question": "How much would the foundation repair cost?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "patrick_q12",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "patrick",
+    "question": "Does Patrick have any past appointments or events?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "patrick_q13",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "patrick",
+    "question": "How long has Patrick been on the job?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "aisha_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "aisha",
+    "question": "What team is Aisha on at PwC?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "aisha_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "aisha",
+    "question": "Which gym does Aisha go to?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "aisha_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "aisha",
+    "question": "Who does Aisha live with?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "aisha_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "aisha",
+    "question": "Is Aisha pursuing any additional qualifications?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "aisha_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "aisha",
+    "question": "What health conditions does Aisha have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "aisha_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "aisha",
+    "question": "Does Aisha have any upcoming reviews or exams?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "aisha_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "aisha",
+    "question": "How does Aisha feel about PwC?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "aisha_q08",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "aisha",
+    "question": "What's Aisha's family background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "aisha_q09",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "aisha",
+    "question": "Is Aisha planning to move?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "aisha_q10",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "aisha",
+    "question": "How many siblings does Aisha have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "aisha_q11",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "aisha",
+    "question": "Does Aisha have any past exams or events?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "aisha_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "aisha",
+    "question": "What does Aisha do outside work?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "thanh_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "thanh",
+    "question": "What feed does Thanh use for his shrimp?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "thanh_q02",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "thanh",
+    "question": "Does Thanh have any upcoming government inspections?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "thanh_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "thanh",
+    "question": "What happened to Thanh's brothers?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "thanh_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "thanh",
+    "question": "Who manages Thanh's 3 shrimp ponds?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "thanh_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "thanh",
+    "question": "What boat does Thanh use?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "thanh_q06",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "thanh",
+    "question": "What are Thanh's family members and their roles?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "thanh_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "thanh",
+    "question": "How does Thanh feel about using chemicals in his ponds?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "thanh_q08",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "thanh",
+    "question": "Is Thanh planning to build a 4th pond?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "thanh_q09",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "thanh",
+    "question": "How much does Thanh's diabetes medication cost?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "thanh_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "thanh",
+    "question": "How much did Thanh's new boat cost?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "thanh_q11",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "thanh",
+    "question": "Where does Thanh sell his shrimp?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "thanh_q12",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "thanh",
+    "question": "What health conditions does Thanh have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "thanh_q13",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "thanh",
+    "question": "Does Thanh have any upcoming family events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "alex_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "alex",
+    "question": "What does Alex's startup do?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "alex_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "alex",
+    "question": "What programming language does Alex primarily use?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "alex_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "alex",
+    "question": "Who is Alex's therapist?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "alex_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "alex",
+    "question": "Is Alex working on any side projects?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "alex_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "alex",
+    "question": "What health conditions does Alex have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "alex_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "alex",
+    "question": "When did Alex transition?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "alex_q07",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "alex",
+    "question": "Does Alex have any upcoming deadlines or events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "alex_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "alex",
+    "question": "How does Alex feel about startup equity?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "alex_q09",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "alex",
+    "question": "What is Alex's salary?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "alex_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "alex",
+    "question": "How many transactions does Alex's startup process monthly?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "alex_q11",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "alex",
+    "question": "Where does Alex live?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "alex_q12",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "alex",
+    "question": "What pets does Alex have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "alex_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "alex",
+    "question": "What are Alex's hobbies and interests outside work?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "mirri_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "mirri",
+    "question": "What patrol route does Mirri cover?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "mirri_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "mirri",
+    "question": "What vehicle does Mirri drive for patrol?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "mirri_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "mirri",
+    "question": "Does Mirri run cultural tours for tourists?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "mirri_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "mirri",
+    "question": "Is Mirri writing a children's book?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "mirri_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "mirri",
+    "question": "What health conditions does Mirri have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "mirri_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "mirri",
+    "question": "Who are the children Mirri is raising?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "mirri_q07",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "mirri",
+    "question": "Does Mirri have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "mirri_q08",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "mirri",
+    "question": "How much did Tali's school camp cost?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "mirri_q09",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "mirri",
+    "question": "How much extra would the Uluru job pay?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "mirri_q10",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "mirri",
+    "question": "Does Mirri want to move to a city?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "mirri_q11",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "mirri",
+    "question": "Where does Mirri work?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "mirri_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "mirri",
+    "question": "What are Mirri's roles and qualifications?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "mirri_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "mirri",
+    "question": "How much did Mirri earn per cultural tour?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "jerome_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "jerome",
+    "question": "What type of loads does Jerome haul?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "jerome_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "jerome",
+    "question": "What company does Jerome drive for?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "jerome_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "jerome",
+    "question": "What truck does Jerome drive?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "jerome_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "jerome",
+    "question": "Is Jerome planning to become an owner-operator?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "jerome_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "jerome",
+    "question": "Where did Jerome come from originally?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "jerome_q06",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "jerome",
+    "question": "What is Jerome's daughter's name and where does she live?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "jerome_q07",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "jerome",
+    "question": "Does Jerome have any upcoming events or deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "jerome_q08",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "jerome",
+    "question": "What is Jerome's cholesterol level?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "jerome_q09",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "jerome",
+    "question": "How much does Jerome earn per mile?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "jerome_q10",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "jerome",
+    "question": "How does Jerome feel about life on the road?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "jerome_q11",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "jerome",
+    "question": "Where does Jerome live?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "jerome_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "jerome",
+    "question": "What are Jerome's family connections and responsibilities?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "jerome_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "jerome",
+    "question": "How much is Jerome saving for Naomi's Disney trip?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "jerome_q14",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "jerome",
+    "question": "How does Jerome feel about podcasts?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "ingrid_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "ingrid",
+    "question": "What is Ingrid's primary research focus?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "ingrid_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "ingrid",
+    "question": "Where does Ingrid ski on weekends?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "ingrid_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "ingrid",
+    "question": "What is Ingrid's relationship status?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "ingrid_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "ingrid",
+    "question": "Is Ingrid planning a sabbatical?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "ingrid_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "ingrid",
+    "question": "What health conditions does Ingrid have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "ingrid_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "ingrid",
+    "question": "Does Ingrid have any upcoming deadlines or events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "ingrid_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "ingrid",
+    "question": "How does Ingrid feel about collaboration?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "ingrid_q08",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "ingrid",
+    "question": "What is Ingrid's family background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "ingrid_q09",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "ingrid",
+    "question": "How much funding did Ingrid apply for?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "ingrid_q10",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "ingrid",
+    "question": "Is Ingrid moving to Lofoten?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "ingrid_q11",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "ingrid",
+    "question": "What does Ingrid do outside of work?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "ingrid_q12",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "ingrid",
+    "question": "Does Ingrid have any past conferences or deadlines?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "ingrid_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "ingrid",
+    "question": "How long is Ingrid's ski route?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "dmitri_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "dmitri",
+    "question": "Who is Dmitri's largest client?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "dmitri_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "dmitri",
+    "question": "What messaging app does Dmitri use for sensitive client communications?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "dmitri_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "dmitri",
+    "question": "Where does Dmitri live?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "dmitri_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "dmitri",
+    "question": "Is Dmitri writing a book?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "dmitri_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "dmitri",
+    "question": "What health issues does Dmitri have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "dmitri_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "dmitri",
+    "question": "Does Dmitri have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "dmitri_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "dmitri",
+    "question": "How does Dmitri handle the boundary between work and personal life?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "dmitri_q08",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "dmitri",
+    "question": "What is Dmitri's background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "dmitri_q09",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "dmitri",
+    "question": "How many endpoints did the Bank Leumi audit cover?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "dmitri_q10",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "dmitri",
+    "question": "Is Dmitri opening an office in Lisbon?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "dmitri_q11",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "dmitri",
+    "question": "What security tools and practices does Dmitri use?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "dmitri_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "dmitri",
+    "question": "How much was Dmitri's FinSecure retainer?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "dmitri_q13",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "dmitri",
+    "question": "Does Dmitri have any past conferences?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "yoli_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "yoli",
+    "question": "What DAW does Yoli use?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "yoli_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "yoli",
+    "question": "Who manages Yoli's bookings?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "yoli_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "yoli",
+    "question": "Where is Yoli's DJ residency?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "yoli_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "yoli",
+    "question": "Is Yoli planning a Jamaica tour?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "yoli_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "yoli",
+    "question": "What health conditions does Yoli have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "yoli_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "yoli",
+    "question": "Does Yoli have any upcoming deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "yoli_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "yoli",
+    "question": "How does Yoli feel about pop music?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "yoli_q08",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "yoli",
+    "question": "What is Yoli's family background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "yoli_q09",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "yoli",
+    "question": "How much does Yoli earn per set at her residency?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "yoli_q10",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "yoli",
+    "question": "Is Yoli taking the in-house producer job at the label?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "yoli_q11",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "yoli",
+    "question": "What are Yoli's income sources and key financial numbers?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "yoli_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "yoli",
+    "question": "How much did Yoli's education cost?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "dariush_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "dariush",
+    "question": "What laser system does Dariush use?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "dariush_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "dariush",
+    "question": "Who is Dariush's investment advisor?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "dariush_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "dariush",
+    "question": "Which country club does Dariush belong to?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "dariush_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "dariush",
+    "question": "Is Dariush opening a second practice in La Jolla?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "dariush_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "dariush",
+    "question": "What health conditions does Dariush have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "dariush_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "dariush",
+    "question": "Does Dariush have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "dariush_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "dariush",
+    "question": "Does Dariush work on weekends?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "dariush_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "dariush",
+    "question": "How competitive is Dariush about golf?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "dariush_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "dariush",
+    "question": "What is Dariush's family background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "dariush_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "dariush",
+    "question": "How much is Dariush's investment portfolio worth?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "dariush_q11",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "dariush",
+    "question": "Is Dariush hiring an associate?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "dariush_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "dariush",
+    "question": "What are the key financial figures for Dariush's practice?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "dariush_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "dariush",
+    "question": "How much did the Fotona LightWalker cost?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "aroha_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "aroha",
+    "question": "Where does Aroha primarily attend births?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "aroha_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "aroha",
+    "question": "What sport does Aroha play?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "aroha_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "aroha",
+    "question": "What car does Aroha drive?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "aroha_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "aroha",
+    "question": "Is Aroha pursuing any postgraduate study?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "aroha_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "aroha",
+    "question": "What is Aroha's cultural identity?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "aroha_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "aroha",
+    "question": "Does Aroha have any upcoming events or deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "aroha_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "aroha",
+    "question": "How does Aroha feel about the hospital system?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "aroha_q08",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "aroha",
+    "question": "How much does Aroha spend on petrol per month?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "aroha_q09",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "aroha",
+    "question": "What health conditions does Aroha have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "aroha_q10",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "aroha",
+    "question": "Is Aroha planning to move?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "aroha_q11",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "aroha",
+    "question": "What is Aroha's family situation?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "aroha_q12",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "aroha",
+    "question": "Does Aroha have any past deadlines or events?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "aroha_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "aroha",
+    "question": "How many births does Aroha attend per year?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "mehmet_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "mehmet",
+    "question": "Who is Mehmet's current apprentice?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "mehmet_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "mehmet",
+    "question": "What pomade brand does Mehmet use in his shop?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "mehmet_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "mehmet",
+    "question": "How much rent does Mehmet pay for his shop?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "mehmet_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "mehmet",
+    "question": "Is Mehmet planning to open a second shop?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "mehmet_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "mehmet",
+    "question": "What health issues does Mehmet have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "mehmet_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "mehmet",
+    "question": "Does Mehmet have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "mehmet_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "mehmet",
+    "question": "Does Mehmet use electric clippers?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "mehmet_q08",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "mehmet",
+    "question": "How much did Mehmet's Wahl clipper set cost?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "mehmet_q09",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "mehmet",
+    "question": "What is Mehmet's family situation?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "mehmet_q10",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "mehmet",
+    "question": "Is Mehmet adding new services to his shop?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "mehmet_q11",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "mehmet",
+    "question": "How much does Mehmet's pomade cost per tin?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "mehmet_q12",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "mehmet",
+    "question": "Has Mehmet had any past appointments or events?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "mehmet_q13",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "mehmet",
+    "question": "Where did Mehmet learn his craft?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "saga_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "saga",
+    "question": "What team does Saga work on at Spotify?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "saga_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "saga",
+    "question": "Which climbing gym does Saga go to?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "saga_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "saga",
+    "question": "What is Saga's relationship status?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "saga_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "saga",
+    "question": "Is Saga applying to Klarna?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "saga_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "saga",
+    "question": "What health conditions does Saga have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "saga_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "saga",
+    "question": "Does Saga have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "saga_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "saga",
+    "question": "How does Saga make decisions?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "saga_q08",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "saga",
+    "question": "What was Saga's GPA?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "saga_q09",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "saga",
+    "question": "Is Saga planning to move to Gothenburg?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "saga_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "saga",
+    "question": "What are Saga's interests and activities outside work?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "saga_q11",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "saga",
+    "question": "Who is Saga's brother?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "saga_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "saga",
+    "question": "How much more does Saga's new climbing gym cost?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "saga_q13",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "saga",
+    "question": "Has Saga had any past deadlines?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "kofi_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "kofi",
+    "question": "Who does Kofi's cooperative sell cocoa through?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "kofi_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "kofi",
+    "question": "What fertilizer does Kofi use?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "kofi_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "kofi",
+    "question": "Is Kwabena in school?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "kofi_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "kofi",
+    "question": "Is Kofi planning to build a processing shed?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "kofi_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "kofi",
+    "question": "How often does Kofi get malaria?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "kofi_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "kofi",
+    "question": "Does Kofi have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "kofi_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "kofi",
+    "question": "Does Kofi trust the government extension officers?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "kofi_q08",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "kofi",
+    "question": "How much does Kofi spend on fertilizer per season?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "kofi_q09",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "kofi",
+    "question": "Is Kofi selling cocoa directly to the Belgian chocolate maker?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "kofi_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "kofi",
+    "question": "What is Kofi's family?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "kofi_q11",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "kofi",
+    "question": "How many hectares does Kofi farm?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "kofi_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "kofi",
+    "question": "How much does Kuapa Kokoo pay per bag?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "kofi_q13",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "kofi",
+    "question": "Has Kofi had any past events or deadlines?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "valentina_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "valentina",
+    "question": "What does Valentina investigate?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "valentina_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "valentina",
+    "question": "Where does Valentina live?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "valentina_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "valentina",
+    "question": "Does Valentina smoke?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "valentina_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "valentina",
+    "question": "Is Valentina writing a book?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "valentina_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "valentina",
+    "question": "What mental health conditions does Valentina have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "valentina_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "valentina",
+    "question": "Does Valentina have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "valentina_q07",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "valentina",
+    "question": "Who is Valentina's partner?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "valentina_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "valentina",
+    "question": "How does Valentina feel about El Espectador?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "valentina_q09",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "valentina",
+    "question": "How many hectares of deforestation did Valentina report on in Chocó?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "valentina_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "valentina",
+    "question": "How much money was missing from the infrastructure fund Valentina investigated?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "valentina_q11",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "valentina",
+    "question": "Is Valentina applying for the Nieman Fellowship?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "valentina_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "valentina",
+    "question": "What is Valentina's family background?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "valentina_q13",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "valentina",
+    "question": "Does Valentina have any past events or deadlines?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "billy_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "billy",
+    "question": "What is Billy's primary research focus?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "billy_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "billy",
+    "question": "What snowmobile does Billy ride?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "billy_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "billy",
+    "question": "Does Billy run polar bear tours?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "billy_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "billy",
+    "question": "Is Billy planning to build a camp at Husky Lakes?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "billy_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "billy",
+    "question": "What health issues does Billy have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "billy_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "billy",
+    "question": "Does Billy have any upcoming fieldwork?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "billy_q07",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "billy",
+    "question": "How many muskox were counted in the last aerial survey?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "billy_q08",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "billy",
+    "question": "How much did Billy charge per person for polar bear tours?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "billy_q09",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "billy",
+    "question": "How does Billy feel about the future of Tuktoyaktuk?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "billy_q10",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "billy",
+    "question": "Who is Annie?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "billy_q11",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "billy",
+    "question": "Is Billy planning to move to Inuvik?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "billy_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "billy",
+    "question": "What is Billy's family and educational background?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "billy_q13",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bpast\\b"
+    ],
+    "persona": "billy",
+    "question": "Does Billy have any past deadlines?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "pan_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "pan",
+    "question": "Where does Pan buy her rice?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "pan_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "pan",
+    "question": "Where is Pan's cart located?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "pan_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "pan",
+    "question": "What stove does Pan use?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "pan_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "pan",
+    "question": "Is Pan launching a bottled sauce line?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "pan_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "pan",
+    "question": "What health condition does Pan have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "pan_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "pan",
+    "question": "Does Pan have any upcoming deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "pan_q07",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "pan",
+    "question": "How many plates does Pan sell per day?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "pan_q08",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "pan",
+    "question": "How much did the Grab Food collaboration pay?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "pan_q09",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "pan",
+    "question": "How does Pan feel about opening a restaurant?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "pan_q10",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "pan",
+    "question": "Who taught Pan her khao man gai recipe?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "pan_q11",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "pan",
+    "question": "Is Pan starting a YouTube channel?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "pan_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "pan",
+    "question": "What do we know about Pan's family and work life?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "pan_q13",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bwhen does\\b[^?]*\\bfinish\\b"
+    ],
+    "persona": "pan",
+    "question": "When does Pan's brother finish his army conscription?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "marley_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "marley",
+    "question": "What age group does Marley coach?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "marley_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "marley",
+    "question": "Where is Marley doing his clinical placement?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "marley_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "marley",
+    "question": "Where does Marley live?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "marley_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "marley",
+    "question": "Is Marley doing an MSc after graduating?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "marley_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "marley",
+    "question": "What health issues does Marley have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "marley_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "marley",
+    "question": "Does Marley have any upcoming deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "marley_q07",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "marley",
+    "question": "How much does Marley pay in rent?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "marley_q08",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "marley",
+    "question": "How much student debt does Marley have?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "marley_q09",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "marley",
+    "question": "How does Marley feel about working in elite sport?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "marley_q10",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "marley",
+    "question": "Who raised Marley?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "marley_q11",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "marley",
+    "question": "Is Marley moving to Barbados?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "marley_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "marley",
+    "question": "What do we know about Marley's background and activities?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "marley_q13",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "marley",
+    "question": "Does Marley manage his workload well?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "leila_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "leila",
+    "question": "What type of architecture does Leila's firm focus on?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "leila_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "leila",
+    "question": "Which yoga studio does Leila attend?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "leila_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "leila",
+    "question": "Does Leila teach at a university?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "leila_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "leila",
+    "question": "Is Leila writing a book about Palestinian-Chilean architecture?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "leila_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "leila",
+    "question": "What health conditions does Leila have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "leila_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "leila",
+    "question": "Does Leila have any upcoming events or deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "leila_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "leila",
+    "question": "How does Leila feel about collaboration?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "leila_q08",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "leila",
+    "question": "What is Leila's family background?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "leila_q09",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "leila",
+    "question": "Is Leila planning to move?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "leila_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "leila",
+    "question": "How much funding did Leila apply for from FONDART?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "leila_q11",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bever been\\b"
+    ],
+    "persona": "leila",
+    "question": "Has Leila ever been to Bethlehem?",
+    "rule": "Rule 2.1: past markers only"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "leila_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "leila",
+    "question": "What does Leila do outside of architecture?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "leila_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "leila",
+    "question": "How many times a week does Leila do yoga?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "chenoa_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "chenoa",
+    "question": "Does Chenoa's clinic have telehealth capability?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "chenoa_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "chenoa",
+    "question": "What vehicle does Chenoa drive?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "chenoa_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "chenoa",
+    "question": "Does Chenoa compete in weaving shows?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "chenoa_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "chenoa",
+    "question": "Is Chenoa working on a traditional medicine integration program?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "chenoa_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "chenoa",
+    "question": "What are Chenoa's clan affiliations?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "chenoa_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "chenoa",
+    "question": "Does Chenoa have any upcoming certifications or deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "chenoa_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "chenoa",
+    "question": "How does Chenoa view Western medicine vs traditional healing?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "chenoa_q08",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "chenoa",
+    "question": "What is Chenoa's A1C level?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "chenoa_q09",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "chenoa",
+    "question": "How many miles did Chenoa's old F-150 have when she retired it?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "chenoa_q10",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "chenoa",
+    "question": "Is Chenoa considering leaving the Chinle clinic?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "chenoa_q11",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "chenoa",
+    "question": "What is Chenoa's family situation?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "chenoa_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "chenoa",
+    "question": "How much was Raymond's concho belt worth in materials?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "joonho_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "joonho",
+    "question": "What level of go students does Joon-ho teach?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "joonho_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "joonho",
+    "question": "Where does Joon-ho take his morning walk?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "joonho_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "joonho",
+    "question": "How does Joon-ho read the news?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "joonho_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "joonho",
+    "question": "Is Joon-ho writing a textbook?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "joonho_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "joonho",
+    "question": "What health conditions does Joon-ho have?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "joonho_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "joonho",
+    "question": "Does Joon-ho have any upcoming events?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "joonho_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "joonho",
+    "question": "How does Joon-ho feel about living alone?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "joonho_q08",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "joonho",
+    "question": "How does Joon-ho feel about technology?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "joonho_q09",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "joonho",
+    "question": "What is Joon-ho's eye pressure reading?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "joonho_q10",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "joonho",
+    "question": "How long is Joon-ho's current walking route?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "joonho_q11",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "joonho",
+    "question": "Is Joon-ho planning to move to Seoul?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "joonho_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "joonho",
+    "question": "What is Joon-ho's family situation?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "joonho_q13",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "joonho",
+    "question": "How many chapters was Joon-ho's planned textbook?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV4_multi_version_fact",
+    "id": "zara_q01",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "zara",
+    "question": "What project is Zara working on?",
+    "rule": "Rule 1: AV4_multi_version_fact -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "zara_q02",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "zara",
+    "question": "What fitness activity does Zara do?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV1_superseded_preference",
+    "id": "zara_q03",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "zara",
+    "question": "Who is Zara's best friend?",
+    "rule": "Rule 1: AV1_superseded_preference -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV7_selective_forgetting",
+    "id": "zara_q04",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "zara",
+    "question": "Is Zara applying to the AA in London for a master's?",
+    "rule": "Rule 1: AV7_selective_forgetting -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV3_stable_identity",
+    "id": "zara_q05",
+    "intent": "CURRENT-STATE",
+    "markers": [],
+    "persona": "zara",
+    "question": "Where is Zara's grandmother?",
+    "rule": "Rule 1: AV3_stable_identity -> CURRENT-STATE"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "zara_q06",
+    "intent": "UPCOMING",
+    "markers": [
+      "\\bupcoming\\b"
+    ],
+    "persona": "zara",
+    "question": "Does Zara have any upcoming events or deadlines?",
+    "rule": "Rule 2.2: future markers only"
+  },
+  {
+    "attack_vector": "AV6_cross_session_contradiction",
+    "id": "zara_q07",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "zara",
+    "question": "How does Zara feel about working in Abu Dhabi?",
+    "rule": "Rule 1: AV6_cross_session_contradiction -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "zara_q08",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "zara",
+    "question": "What is Zara's vitamin D supplement dosage?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "zara_q09",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "zara",
+    "question": "How much does the Al Ain museum project cost?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV9_soft_supersession",
+    "id": "zara_q10",
+    "intent": "CHANGE-AWARE",
+    "markers": [],
+    "persona": "zara",
+    "question": "Is Zara planning to move to Dubai?",
+    "rule": "Rule 1: AV9_soft_supersession -> CHANGE-AWARE"
+  },
+  {
+    "attack_vector": "AV5_broad_query",
+    "id": "zara_q11",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "zara",
+    "question": "What is Zara's family and personal background?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV8_numeric_preservation",
+    "id": "zara_q12",
+    "intent": "OUT-OF-SCOPE",
+    "markers": [],
+    "persona": "zara",
+    "question": "How much was the budget for Zara's mother's 50th birthday party?",
+    "rule": "Rule 1: vector out of scope"
+  },
+  {
+    "attack_vector": "AV2_expired_logistics",
+    "id": "zara_q13",
+    "intent": "PAST-EVENT",
+    "markers": [
+      "\\bwas\\b(?=[^?]*\\b(exam|event|deadline|ceremony|trip|meeting|conference)\\b)"
+    ],
+    "persona": "zara",
+    "question": "What was Zara's LEED exam format?",
+    "rule": "Rule 2.1: past markers only"
+  }
+]

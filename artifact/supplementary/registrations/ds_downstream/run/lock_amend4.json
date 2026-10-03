@@ -1,0 +1,23 @@
+{
+ "expected": 452,
+ "header_example": "The user is Aisha Mohammed. Every entry below that says \"User\" is about Aisha Mohammed. Today's date is 2026-05-26; each entry's age is counted back from today.",
+ "header_sha256": "1fe1eb17795796bb95617a28ac7b7628b9607abc2fb8b51989cbf70d1de08d6b",
+ "inview_personas": 29,
+ "inview_present": 65,
+ "personas_with_name_and_date": 40,
+ "pn": 231,
+ "population": 452,
+ "present": 221,
+ "prompts_ds": {
+  "SYSTEM_ANSWER": "af1c69c8817d286727e44027a9d469c875a4da1eb111d7351eb76094b48ea4a9",
+  "USER_ANSWER": "c6dd6926a3c9e8d44d7d5a480540c554dbec510101c8c39e616a8c77299d83a5"
+ },
+ "prompts_e1": {
+  "file": "337d37d3414c04823d28ad99eeab15c34e328e60198d68625452ebf330830b84",
+  "texts": "35d9b968ffc0b008289a59b06f10b7d23f71658c648dd2865a46e8da15d495f2"
+ },
+ "registration": "registrations\\ADDENDUM_DS_AMENDMENT_4.md",
+ "registration_sha256": "fb4b2ca8c8e280cbe6815c9782145abd93082e67b311fa1aeca60804f7dd6d8d",
+ "user_answer_a4_sha256": "e6c155364f8c69bef8af0c86941b3bf8fc5e739e043ac3ef2f86f422ff40cd7d",
+ "when": "2026-09-14T20:19:11"
+}
